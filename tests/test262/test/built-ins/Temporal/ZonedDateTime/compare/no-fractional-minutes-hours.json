@@ -1,0 +1,469 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "invalidStrings",
+            "start": 289,
+            "end": 303
+          },
+          "init": {
+            "type": "ArrayExpression",
+            "elements": [
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "value": "2025-04-03T05:07.123",
+                    "raw": "\"2025-04-03T05:07.123\"",
+                    "start": 311,
+                    "end": 333
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "Fractional minutes",
+                    "raw": "\"Fractional minutes\"",
+                    "start": 335,
+                    "end": 355
+                  }
+                ],
+                "start": 310,
+                "end": 356
+              },
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "value": "2025-04-03T12.5",
+                    "raw": "\"2025-04-03T12.5\"",
+                    "start": 361,
+                    "end": 378
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "Fractional hours",
+                    "raw": "\"Fractional hours\"",
+                    "start": 380,
+                    "end": 398
+                  }
+                ],
+                "start": 360,
+                "end": 399
+              }
+            ],
+            "start": 306,
+            "end": 402
+          },
+          "start": 289,
+          "end": 402
+        }
+      ],
+      "start": 283,
+      "end": 403
+    },
+    {
+      "type": "ForOfStatement",
+      "await": false,
+      "left": {
+        "type": "VariableDeclaration",
+        "kind": "const",
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "id": {
+              "type": "ArrayPattern",
+              "elements": [
+                {
+                  "type": "Identifier",
+                  "name": "arg",
+                  "start": 417,
+                  "end": 420
+                },
+                {
+                  "type": "Identifier",
+                  "name": "description",
+                  "start": 422,
+                  "end": 433
+                }
+              ],
+              "start": 416,
+              "end": 434
+            },
+            "init": null,
+            "start": 416,
+            "end": 434
+          }
+        ],
+        "start": 410,
+        "end": 434
+      },
+      "right": {
+        "type": "Identifier",
+        "name": "invalidStrings",
+        "start": 438,
+        "end": 452
+      },
+      "body": {
+        "type": "BlockStatement",
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "expression": {
+              "type": "CallExpression",
+              "callee": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "assert",
+                  "start": 458,
+                  "end": 464
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "throws",
+                  "start": 465,
+                  "end": 471
+                },
+                "optional": false,
+                "computed": false,
+                "start": 458,
+                "end": 471
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "name": "RangeError",
+                  "start": 477,
+                  "end": 487
+                },
+                {
+                  "type": "ArrowFunctionExpression",
+                  "expression": true,
+                  "async": false,
+                  "params": [],
+                  "body": {
+                    "type": "CallExpression",
+                    "callee": {
+                      "type": "MemberExpression",
+                      "object": {
+                        "type": "MemberExpression",
+                        "object": {
+                          "type": "Identifier",
+                          "name": "Temporal",
+                          "start": 501,
+                          "end": 509
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "name": "ZonedDateTime",
+                          "start": 510,
+                          "end": 523
+                        },
+                        "optional": false,
+                        "computed": false,
+                        "start": 501,
+                        "end": 523
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "name": "compare",
+                        "start": 524,
+                        "end": 531
+                      },
+                      "optional": false,
+                      "computed": false,
+                      "start": 501,
+                      "end": 531
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "name": "arg",
+                        "start": 532,
+                        "end": 535
+                      },
+                      {
+                        "type": "NewExpression",
+                        "callee": {
+                          "type": "MemberExpression",
+                          "object": {
+                            "type": "Identifier",
+                            "name": "Temporal",
+                            "start": 541,
+                            "end": 549
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "name": "ZonedDateTime",
+                            "start": 550,
+                            "end": 563
+                          },
+                          "optional": false,
+                          "computed": false,
+                          "start": 541,
+                          "end": 563
+                        },
+                        "arguments": [
+                          {
+                            "type": "Literal",
+                            "value": null,
+                            "raw": "0n",
+                            "bigint": "0",
+                            "start": 564,
+                            "end": 566
+                          },
+                          {
+                            "type": "Literal",
+                            "value": "CET",
+                            "raw": "\"CET\"",
+                            "start": 568,
+                            "end": 573
+                          }
+                        ],
+                        "start": 537,
+                        "end": 574
+                      }
+                    ],
+                    "optional": false,
+                    "start": 501,
+                    "end": 575
+                  },
+                  "id": null,
+                  "generator": false,
+                  "start": 495,
+                  "end": 575
+                },
+                {
+                  "type": "TemplateLiteral",
+                  "quasis": [
+                    {
+                      "type": "TemplateElement",
+                      "value": {
+                        "raw": "",
+                        "cooked": ""
+                      },
+                      "tail": false,
+                      "start": 582,
+                      "end": 582
+                    },
+                    {
+                      "type": "TemplateElement",
+                      "value": {
+                        "raw": " not allowed in time string (first argument)",
+                        "cooked": " not allowed in time string (first argument)"
+                      },
+                      "tail": true,
+                      "start": 596,
+                      "end": 640
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "name": "description",
+                      "start": 584,
+                      "end": 595
+                    }
+                  ],
+                  "start": 581,
+                  "end": 641
+                }
+              ],
+              "optional": false,
+              "start": 458,
+              "end": 645
+            },
+            "start": 458,
+            "end": 646
+          },
+          {
+            "type": "ExpressionStatement",
+            "expression": {
+              "type": "CallExpression",
+              "callee": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "assert",
+                  "start": 649,
+                  "end": 655
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "throws",
+                  "start": 656,
+                  "end": 662
+                },
+                "optional": false,
+                "computed": false,
+                "start": 649,
+                "end": 662
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "name": "RangeError",
+                  "start": 668,
+                  "end": 678
+                },
+                {
+                  "type": "ArrowFunctionExpression",
+                  "expression": true,
+                  "async": false,
+                  "params": [],
+                  "body": {
+                    "type": "CallExpression",
+                    "callee": {
+                      "type": "MemberExpression",
+                      "object": {
+                        "type": "MemberExpression",
+                        "object": {
+                          "type": "Identifier",
+                          "name": "Temporal",
+                          "start": 692,
+                          "end": 700
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "name": "ZonedDateTime",
+                          "start": 701,
+                          "end": 714
+                        },
+                        "optional": false,
+                        "computed": false,
+                        "start": 692,
+                        "end": 714
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "name": "compare",
+                        "start": 715,
+                        "end": 722
+                      },
+                      "optional": false,
+                      "computed": false,
+                      "start": 692,
+                      "end": 722
+                    },
+                    "arguments": [
+                      {
+                        "type": "NewExpression",
+                        "callee": {
+                          "type": "MemberExpression",
+                          "object": {
+                            "type": "Identifier",
+                            "name": "Temporal",
+                            "start": 727,
+                            "end": 735
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "name": "ZonedDateTime",
+                            "start": 736,
+                            "end": 749
+                          },
+                          "optional": false,
+                          "computed": false,
+                          "start": 727,
+                          "end": 749
+                        },
+                        "arguments": [
+                          {
+                            "type": "Literal",
+                            "value": null,
+                            "raw": "0n",
+                            "bigint": "0",
+                            "start": 750,
+                            "end": 752
+                          },
+                          {
+                            "type": "Literal",
+                            "value": "CET",
+                            "raw": "\"CET\"",
+                            "start": 754,
+                            "end": 759
+                          }
+                        ],
+                        "start": 723,
+                        "end": 760
+                      },
+                      {
+                        "type": "Identifier",
+                        "name": "arg",
+                        "start": 762,
+                        "end": 765
+                      }
+                    ],
+                    "optional": false,
+                    "start": 692,
+                    "end": 766
+                  },
+                  "id": null,
+                  "generator": false,
+                  "start": 686,
+                  "end": 766
+                },
+                {
+                  "type": "TemplateLiteral",
+                  "quasis": [
+                    {
+                      "type": "TemplateElement",
+                      "value": {
+                        "raw": "",
+                        "cooked": ""
+                      },
+                      "tail": false,
+                      "start": 773,
+                      "end": 773
+                    },
+                    {
+                      "type": "TemplateElement",
+                      "value": {
+                        "raw": " not allowed in time string (second argument)",
+                        "cooked": " not allowed in time string (second argument)"
+                      },
+                      "tail": true,
+                      "start": 787,
+                      "end": 832
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "name": "description",
+                      "start": 775,
+                      "end": 786
+                    }
+                  ],
+                  "start": 772,
+                  "end": 833
+                }
+              ],
+              "optional": false,
+              "start": 649,
+              "end": 837
+            },
+            "start": 649,
+            "end": 838
+          }
+        ],
+        "start": 454,
+        "end": 840
+      },
+      "start": 405,
+      "end": 840
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 841
+}

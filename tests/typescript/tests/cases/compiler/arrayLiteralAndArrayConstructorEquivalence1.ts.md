@@ -111,28 +111,28 @@ __ESTREE_TEST__:AST:
                   "name": "Array",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 67,
-                  "end": 72
+                  "start": 75,
+                  "end": 80
                 },
                 "typeArguments": null,
-                "start": 67,
-                "end": 72
+                "start": 75,
+                "end": 80
               },
-              "start": 65,
-              "end": 72
+              "start": 73,
+              "end": 80
             },
-            "start": 58,
-            "end": 72
+            "start": 66,
+            "end": 80
           },
           "init": null,
           "definite": false,
-          "start": 58,
-          "end": 72
+          "start": 66,
+          "end": 80
         }
       ],
-      "declare": false,
+      "declare": true,
       "start": 54,
-      "end": 73
+      "end": 81
     },
     {
       "type": "VariableDeclaration",
@@ -157,42 +157,42 @@ __ESTREE_TEST__:AST:
                     "name": "Array",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 96,
-                    "end": 101
+                    "start": 112,
+                    "end": 117
                   },
                   "typeArguments": {
                     "type": "TSTypeParameterInstantiation",
                     "params": [
                       {
                         "type": "TSAnyKeyword",
-                        "start": 102,
-                        "end": 105
+                        "start": 118,
+                        "end": 121
                       }
                     ],
-                    "start": 101,
-                    "end": 106
+                    "start": 117,
+                    "end": 122
                   },
-                  "start": 96,
-                  "end": 106
+                  "start": 112,
+                  "end": 122
                 },
-                "start": 96,
-                "end": 108
+                "start": 112,
+                "end": 124
               },
-              "start": 94,
-              "end": 108
+              "start": 110,
+              "end": 124
             },
-            "start": 87,
-            "end": 108
+            "start": 103,
+            "end": 124
           },
           "init": null,
           "definite": false,
-          "start": 87,
-          "end": 108
+          "start": 103,
+          "end": 124
         }
       ],
-      "declare": false,
-      "start": 83,
-      "end": 109
+      "declare": true,
+      "start": 91,
+      "end": 125
     },
     {
       "type": "ExpressionStatement",
@@ -205,8 +205,8 @@ __ESTREE_TEST__:AST:
           "name": "myCars",
           "optional": false,
           "typeAnnotation": null,
-          "start": 112,
-          "end": 118
+          "start": 128,
+          "end": 134
         },
         "right": {
           "type": "Identifier",
@@ -214,15 +214,15 @@ __ESTREE_TEST__:AST:
           "name": "myCars3",
           "optional": false,
           "typeAnnotation": null,
-          "start": 121,
-          "end": 128
+          "start": 137,
+          "end": 144
         },
-        "start": 112,
-        "end": 128
+        "start": 128,
+        "end": 144
       },
       "directive": null,
-      "start": 112,
-      "end": 129
+      "start": 128,
+      "end": 145
     },
     {
       "type": "ExpressionStatement",
@@ -235,8 +235,8 @@ __ESTREE_TEST__:AST:
           "name": "myCars",
           "optional": false,
           "typeAnnotation": null,
-          "start": 130,
-          "end": 136
+          "start": 146,
+          "end": 152
         },
         "right": {
           "type": "Identifier",
@@ -244,15 +244,15 @@ __ESTREE_TEST__:AST:
           "name": "myCars4",
           "optional": false,
           "typeAnnotation": null,
-          "start": 139,
-          "end": 146
+          "start": 155,
+          "end": 162
         },
-        "start": 130,
-        "end": 146
+        "start": 146,
+        "end": 162
       },
       "directive": null,
-      "start": 130,
-      "end": 147
+      "start": 146,
+      "end": 163
     },
     {
       "type": "ExpressionStatement",
@@ -265,8 +265,8 @@ __ESTREE_TEST__:AST:
           "name": "myCars",
           "optional": false,
           "typeAnnotation": null,
-          "start": 148,
-          "end": 154
+          "start": 164,
+          "end": 170
         },
         "right": {
           "type": "Identifier",
@@ -274,15 +274,15 @@ __ESTREE_TEST__:AST:
           "name": "myCars5",
           "optional": false,
           "typeAnnotation": null,
-          "start": 157,
-          "end": 164
+          "start": 173,
+          "end": 180
         },
-        "start": 148,
-        "end": 164
+        "start": 164,
+        "end": 180
       },
       "directive": null,
-      "start": 148,
-      "end": 165
+      "start": 164,
+      "end": 181
     },
     {
       "type": "ExpressionStatement",
@@ -295,8 +295,8 @@ __ESTREE_TEST__:AST:
           "name": "myCars3",
           "optional": false,
           "typeAnnotation": null,
-          "start": 168,
-          "end": 175
+          "start": 184,
+          "end": 191
         },
         "right": {
           "type": "Identifier",
@@ -304,15 +304,15 @@ __ESTREE_TEST__:AST:
           "name": "myCars",
           "optional": false,
           "typeAnnotation": null,
-          "start": 178,
-          "end": 184
+          "start": 194,
+          "end": 200
         },
-        "start": 168,
-        "end": 184
+        "start": 184,
+        "end": 200
       },
       "directive": null,
-      "start": 168,
-      "end": 185
+      "start": 184,
+      "end": 201
     },
     {
       "type": "ExpressionStatement",
@@ -325,8 +325,8 @@ __ESTREE_TEST__:AST:
           "name": "myCars3",
           "optional": false,
           "typeAnnotation": null,
-          "start": 186,
-          "end": 193
+          "start": 202,
+          "end": 209
         },
         "right": {
           "type": "Identifier",
@@ -334,15 +334,15 @@ __ESTREE_TEST__:AST:
           "name": "myCars4",
           "optional": false,
           "typeAnnotation": null,
-          "start": 196,
-          "end": 203
+          "start": 212,
+          "end": 219
         },
-        "start": 186,
-        "end": 203
+        "start": 202,
+        "end": 219
       },
       "directive": null,
-      "start": 186,
-      "end": 204
+      "start": 202,
+      "end": 220
     },
     {
       "type": "ExpressionStatement",
@@ -355,8 +355,8 @@ __ESTREE_TEST__:AST:
           "name": "myCars3",
           "optional": false,
           "typeAnnotation": null,
-          "start": 205,
-          "end": 212
+          "start": 221,
+          "end": 228
         },
         "right": {
           "type": "Identifier",
@@ -364,21 +364,21 @@ __ESTREE_TEST__:AST:
           "name": "myCars5",
           "optional": false,
           "typeAnnotation": null,
-          "start": 215,
-          "end": 222
+          "start": 231,
+          "end": 238
         },
-        "start": 205,
-        "end": 222
+        "start": 221,
+        "end": 238
       },
       "directive": null,
-      "start": 205,
-      "end": 223
+      "start": 221,
+      "end": 239
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 226
+  "end": 242
 }
 ```
 __ESTREE_TEST__:TOKENS:
@@ -493,238 +493,250 @@ __ESTREE_TEST__:TOKENS:
     "end": 53
   },
   {
+    "type": "Identifier",
+    "value": "declare",
+    "start": 54,
+    "end": 61
+  },
+  {
     "type": "Keyword",
     "value": "var",
-    "start": 54,
-    "end": 57
+    "start": 62,
+    "end": 65
   },
   {
     "type": "Identifier",
     "value": "myCars4",
-    "start": 58,
-    "end": 65
+    "start": 66,
+    "end": 73
   },
   {
     "type": "Punctuator",
     "value": ":",
-    "start": 65,
-    "end": 66
+    "start": 73,
+    "end": 74
   },
   {
     "type": "Identifier",
     "value": "Array",
-    "start": 67,
-    "end": 72
+    "start": 75,
+    "end": 80
   },
   {
     "type": "Punctuator",
     "value": ";",
-    "start": 72,
-    "end": 73
+    "start": 80,
+    "end": 81
+  },
+  {
+    "type": "Identifier",
+    "value": "declare",
+    "start": 91,
+    "end": 98
   },
   {
     "type": "Keyword",
     "value": "var",
-    "start": 83,
-    "end": 86
-  },
-  {
-    "type": "Identifier",
-    "value": "myCars5",
-    "start": 87,
-    "end": 94
-  },
-  {
-    "type": "Punctuator",
-    "value": ":",
-    "start": 94,
-    "end": 95
-  },
-  {
-    "type": "Identifier",
-    "value": "Array",
-    "start": 96,
-    "end": 101
-  },
-  {
-    "type": "Punctuator",
-    "value": "<",
-    "start": 101,
+    "start": 99,
     "end": 102
   },
   {
     "type": "Identifier",
+    "value": "myCars5",
+    "start": 103,
+    "end": 110
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 110,
+    "end": 111
+  },
+  {
+    "type": "Identifier",
+    "value": "Array",
+    "start": 112,
+    "end": 117
+  },
+  {
+    "type": "Punctuator",
+    "value": "<",
+    "start": 117,
+    "end": 118
+  },
+  {
+    "type": "Identifier",
     "value": "any",
-    "start": 102,
-    "end": 105
+    "start": 118,
+    "end": 121
   },
   {
     "type": "Punctuator",
     "value": ">",
-    "start": 105,
-    "end": 106
+    "start": 121,
+    "end": 122
   },
   {
     "type": "Punctuator",
     "value": "[",
-    "start": 106,
-    "end": 107
+    "start": 122,
+    "end": 123
   },
   {
     "type": "Punctuator",
     "value": "]",
-    "start": 107,
-    "end": 108
+    "start": 123,
+    "end": 124
   },
   {
     "type": "Punctuator",
     "value": ";",
-    "start": 108,
-    "end": 109
+    "start": 124,
+    "end": 125
   },
   {
     "type": "Identifier",
     "value": "myCars",
-    "start": 112,
-    "end": 118
+    "start": 128,
+    "end": 134
   },
   {
     "type": "Punctuator",
     "value": "=",
-    "start": 119,
-    "end": 120
-  },
-  {
-    "type": "Identifier",
-    "value": "myCars3",
-    "start": 121,
-    "end": 128
-  },
-  {
-    "type": "Punctuator",
-    "value": ";",
-    "start": 128,
-    "end": 129
-  },
-  {
-    "type": "Identifier",
-    "value": "myCars",
-    "start": 130,
+    "start": 135,
     "end": 136
   },
   {
-    "type": "Punctuator",
-    "value": "=",
-    "start": 137,
-    "end": 138
-  },
-  {
     "type": "Identifier",
-    "value": "myCars4",
-    "start": 139,
-    "end": 146
+    "value": "myCars3",
+    "start": 137,
+    "end": 144
   },
   {
     "type": "Punctuator",
     "value": ";",
-    "start": 146,
-    "end": 147
+    "start": 144,
+    "end": 145
   },
   {
     "type": "Identifier",
     "value": "myCars",
-    "start": 148,
+    "start": 146,
+    "end": 152
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 153,
     "end": 154
   },
   {
-    "type": "Punctuator",
-    "value": "=",
-    "start": 155,
-    "end": 156
-  },
-  {
     "type": "Identifier",
-    "value": "myCars5",
-    "start": 157,
-    "end": 164
+    "value": "myCars4",
+    "start": 155,
+    "end": 162
   },
   {
     "type": "Punctuator",
     "value": ";",
-    "start": 164,
-    "end": 165
-  },
-  {
-    "type": "Identifier",
-    "value": "myCars3",
-    "start": 168,
-    "end": 175
-  },
-  {
-    "type": "Punctuator",
-    "value": "=",
-    "start": 176,
-    "end": 177
+    "start": 162,
+    "end": 163
   },
   {
     "type": "Identifier",
     "value": "myCars",
-    "start": 178,
-    "end": 184
-  },
-  {
-    "type": "Punctuator",
-    "value": ";",
-    "start": 184,
-    "end": 185
-  },
-  {
-    "type": "Identifier",
-    "value": "myCars3",
-    "start": 186,
-    "end": 193
+    "start": 164,
+    "end": 170
   },
   {
     "type": "Punctuator",
     "value": "=",
-    "start": 194,
-    "end": 195
-  },
-  {
-    "type": "Identifier",
-    "value": "myCars4",
-    "start": 196,
-    "end": 203
-  },
-  {
-    "type": "Punctuator",
-    "value": ";",
-    "start": 203,
-    "end": 204
-  },
-  {
-    "type": "Identifier",
-    "value": "myCars3",
-    "start": 205,
-    "end": 212
-  },
-  {
-    "type": "Punctuator",
-    "value": "=",
-    "start": 213,
-    "end": 214
+    "start": 171,
+    "end": 172
   },
   {
     "type": "Identifier",
     "value": "myCars5",
-    "start": 215,
-    "end": 222
+    "start": 173,
+    "end": 180
   },
   {
     "type": "Punctuator",
     "value": ";",
-    "start": 222,
-    "end": 223
+    "start": 180,
+    "end": 181
+  },
+  {
+    "type": "Identifier",
+    "value": "myCars3",
+    "start": 184,
+    "end": 191
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 192,
+    "end": 193
+  },
+  {
+    "type": "Identifier",
+    "value": "myCars",
+    "start": 194,
+    "end": 200
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 200,
+    "end": 201
+  },
+  {
+    "type": "Identifier",
+    "value": "myCars3",
+    "start": 202,
+    "end": 209
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 210,
+    "end": 211
+  },
+  {
+    "type": "Identifier",
+    "value": "myCars4",
+    "start": 212,
+    "end": 219
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 219,
+    "end": 220
+  },
+  {
+    "type": "Identifier",
+    "value": "myCars3",
+    "start": 221,
+    "end": 228
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 229,
+    "end": 230
+  },
+  {
+    "type": "Identifier",
+    "value": "myCars5",
+    "start": 231,
+    "end": 238
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 238,
+    "end": 239
   }
 ]
 ```

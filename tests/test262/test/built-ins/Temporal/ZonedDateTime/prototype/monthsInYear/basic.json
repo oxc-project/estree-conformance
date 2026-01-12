@@ -1,0 +1,239 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "zdt",
+            "start": 326,
+            "end": 329
+          },
+          "init": {
+            "type": "NewExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "Temporal",
+                "start": 336,
+                "end": 344
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "ZonedDateTime",
+                "start": 345,
+                "end": 358
+              },
+              "optional": false,
+              "computed": false,
+              "start": 336,
+              "end": 358
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "value": null,
+                "raw": "217178610123456789n",
+                "bigint": "217178610123456789",
+                "start": 359,
+                "end": 378
+              },
+              {
+                "type": "Literal",
+                "value": "UTC",
+                "raw": "\"UTC\"",
+                "start": 380,
+                "end": 385
+              }
+            ],
+            "start": 332,
+            "end": 386
+          },
+          "start": 326,
+          "end": 386
+        }
+      ],
+      "start": 320,
+      "end": 387
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 388,
+            "end": 394
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 395,
+            "end": 404
+          },
+          "optional": false,
+          "computed": false,
+          "start": 388,
+          "end": 404
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "Identifier",
+              "name": "zdt",
+              "start": 405,
+              "end": 408
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "monthsInYear",
+              "start": 409,
+              "end": 421
+            },
+            "optional": false,
+            "computed": false,
+            "start": 405,
+            "end": 421
+          },
+          {
+            "type": "Literal",
+            "value": 12,
+            "raw": "12",
+            "start": 423,
+            "end": 425
+          },
+          {
+            "type": "Literal",
+            "value": "check months in year information",
+            "raw": "\"check months in year information\"",
+            "start": 427,
+            "end": 461
+          }
+        ],
+        "optional": false,
+        "start": 388,
+        "end": 462
+      },
+      "start": 388,
+      "end": 463
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 464,
+            "end": 470
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 471,
+            "end": 480
+          },
+          "optional": false,
+          "computed": false,
+          "start": 464,
+          "end": 480
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "ParenthesizedExpression",
+              "expression": {
+                "type": "NewExpression",
+                "callee": {
+                  "type": "MemberExpression",
+                  "object": {
+                    "type": "Identifier",
+                    "name": "Temporal",
+                    "start": 486,
+                    "end": 494
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "name": "ZonedDateTime",
+                    "start": 495,
+                    "end": 508
+                  },
+                  "optional": false,
+                  "computed": false,
+                  "start": 486,
+                  "end": 508
+                },
+                "arguments": [
+                  {
+                    "type": "UnaryExpression",
+                    "operator": "-",
+                    "argument": {
+                      "type": "Literal",
+                      "value": null,
+                      "raw": "23205637787000000000n",
+                      "bigint": "23205637787000000000",
+                      "start": 510,
+                      "end": 531
+                    },
+                    "prefix": true,
+                    "start": 509,
+                    "end": 531
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "UTC",
+                    "raw": "\"UTC\"",
+                    "start": 533,
+                    "end": 538
+                  }
+                ],
+                "start": 482,
+                "end": 539
+              },
+              "start": 481,
+              "end": 540
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "monthsInYear",
+              "start": 541,
+              "end": 553
+            },
+            "optional": false,
+            "computed": false,
+            "start": 481,
+            "end": 553
+          },
+          {
+            "type": "Literal",
+            "value": 12,
+            "raw": "12",
+            "start": 555,
+            "end": 557
+          }
+        ],
+        "optional": false,
+        "start": 464,
+        "end": 558
+      },
+      "start": 464,
+      "end": 559
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 560
+}

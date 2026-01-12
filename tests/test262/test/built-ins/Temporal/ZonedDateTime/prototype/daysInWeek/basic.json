@@ -1,0 +1,290 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "tests",
+            "start": 322,
+            "end": 327
+          },
+          "init": {
+            "type": "ArrayExpression",
+            "elements": [
+              {
+                "type": "NewExpression",
+                "callee": {
+                  "type": "MemberExpression",
+                  "object": {
+                    "type": "Identifier",
+                    "name": "Temporal",
+                    "start": 338,
+                    "end": 346
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "name": "ZonedDateTime",
+                    "start": 347,
+                    "end": 360
+                  },
+                  "optional": false,
+                  "computed": false,
+                  "start": 338,
+                  "end": 360
+                },
+                "arguments": [
+                  {
+                    "type": "Literal",
+                    "value": null,
+                    "raw": "189357810123456789n",
+                    "bigint": "189357810123456789",
+                    "start": 361,
+                    "end": 380
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "UTC",
+                    "raw": "\"UTC\"",
+                    "start": 382,
+                    "end": 387
+                  }
+                ],
+                "start": 334,
+                "end": 388
+              },
+              {
+                "type": "NewExpression",
+                "callee": {
+                  "type": "MemberExpression",
+                  "object": {
+                    "type": "Identifier",
+                    "name": "Temporal",
+                    "start": 396,
+                    "end": 404
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "name": "ZonedDateTime",
+                    "start": 405,
+                    "end": 418
+                  },
+                  "optional": false,
+                  "computed": false,
+                  "start": 396,
+                  "end": 418
+                },
+                "arguments": [
+                  {
+                    "type": "Literal",
+                    "value": null,
+                    "raw": "217178610123456789n",
+                    "bigint": "217178610123456789",
+                    "start": 419,
+                    "end": 438
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "UTC",
+                    "raw": "\"UTC\"",
+                    "start": 440,
+                    "end": 445
+                  }
+                ],
+                "start": 392,
+                "end": 446
+              },
+              {
+                "type": "NewExpression",
+                "callee": {
+                  "type": "MemberExpression",
+                  "object": {
+                    "type": "Identifier",
+                    "name": "Temporal",
+                    "start": 454,
+                    "end": 462
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "name": "ZonedDateTime",
+                    "start": 463,
+                    "end": 476
+                  },
+                  "optional": false,
+                  "computed": false,
+                  "start": 454,
+                  "end": 476
+                },
+                "arguments": [
+                  {
+                    "type": "Literal",
+                    "value": null,
+                    "raw": "220893810123456789n",
+                    "bigint": "220893810123456789",
+                    "start": 477,
+                    "end": 496
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "UTC",
+                    "raw": "\"UTC\"",
+                    "start": 498,
+                    "end": 503
+                  }
+                ],
+                "start": 450,
+                "end": 504
+              }
+            ],
+            "start": 330,
+            "end": 507
+          },
+          "start": 322,
+          "end": 507
+        }
+      ],
+      "start": 316,
+      "end": 508
+    },
+    {
+      "type": "ForOfStatement",
+      "await": false,
+      "left": {
+        "type": "VariableDeclaration",
+        "kind": "const",
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "id": {
+              "type": "Identifier",
+              "name": "zonedDateTime",
+              "start": 520,
+              "end": 533
+            },
+            "init": null,
+            "start": 520,
+            "end": 533
+          }
+        ],
+        "start": 514,
+        "end": 533
+      },
+      "right": {
+        "type": "Identifier",
+        "name": "tests",
+        "start": 537,
+        "end": 542
+      },
+      "body": {
+        "type": "BlockStatement",
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "expression": {
+              "type": "CallExpression",
+              "callee": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "assert",
+                  "start": 548,
+                  "end": 554
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "sameValue",
+                  "start": 555,
+                  "end": 564
+                },
+                "optional": false,
+                "computed": false,
+                "start": 548,
+                "end": 564
+              },
+              "arguments": [
+                {
+                  "type": "MemberExpression",
+                  "object": {
+                    "type": "Identifier",
+                    "name": "zonedDateTime",
+                    "start": 565,
+                    "end": 578
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "name": "daysInWeek",
+                    "start": 579,
+                    "end": 589
+                  },
+                  "optional": false,
+                  "computed": false,
+                  "start": 565,
+                  "end": 589
+                },
+                {
+                  "type": "Literal",
+                  "value": 7,
+                  "raw": "7",
+                  "start": 591,
+                  "end": 592
+                },
+                {
+                  "type": "TemplateLiteral",
+                  "quasis": [
+                    {
+                      "type": "TemplateElement",
+                      "value": {
+                        "raw": "Seven days in the week of ",
+                        "cooked": "Seven days in the week of "
+                      },
+                      "tail": false,
+                      "start": 595,
+                      "end": 621
+                    },
+                    {
+                      "type": "TemplateElement",
+                      "value": {
+                        "raw": "",
+                        "cooked": ""
+                      },
+                      "tail": true,
+                      "start": 637,
+                      "end": 637
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "name": "zonedDateTime",
+                      "start": 623,
+                      "end": 636
+                    }
+                  ],
+                  "start": 594,
+                  "end": 638
+                }
+              ],
+              "optional": false,
+              "start": 548,
+              "end": 639
+            },
+            "start": 548,
+            "end": 640
+          }
+        ],
+        "start": 544,
+        "end": 642
+      },
+      "start": 509,
+      "end": 642
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 643
+}

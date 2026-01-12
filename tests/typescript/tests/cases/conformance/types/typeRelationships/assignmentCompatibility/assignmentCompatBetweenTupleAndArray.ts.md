@@ -21,33 +21,33 @@ __ESTREE_TEST__:AST:
                 "elementTypes": [
                   {
                     "type": "TSNumberKeyword",
-                    "start": 18,
-                    "end": 24
+                    "start": 26,
+                    "end": 32
                   },
                   {
                     "type": "TSStringKeyword",
-                    "start": 26,
-                    "end": 32
+                    "start": 34,
+                    "end": 40
                   }
                 ],
-                "start": 17,
-                "end": 33
+                "start": 25,
+                "end": 41
               },
-              "start": 15,
-              "end": 33
+              "start": 23,
+              "end": 41
             },
-            "start": 4,
-            "end": 33
+            "start": 12,
+            "end": 41
           },
           "init": null,
           "definite": false,
-          "start": 4,
-          "end": 33
+          "start": 12,
+          "end": 41
         }
       ],
-      "declare": false,
+      "declare": true,
       "start": 0,
-      "end": 34
+      "end": 42
     },
     {
       "type": "VariableDeclaration",
@@ -67,33 +67,33 @@ __ESTREE_TEST__:AST:
                 "elementTypes": [
                   {
                     "type": "TSNumberKeyword",
-                    "start": 53,
-                    "end": 59
+                    "start": 69,
+                    "end": 75
                   },
                   {
                     "type": "TSNumberKeyword",
-                    "start": 61,
-                    "end": 67
+                    "start": 77,
+                    "end": 83
                   }
                 ],
-                "start": 52,
-                "end": 68
+                "start": 68,
+                "end": 84
               },
-              "start": 50,
-              "end": 68
+              "start": 66,
+              "end": 84
             },
-            "start": 39,
-            "end": 68
+            "start": 55,
+            "end": 84
           },
           "init": null,
           "definite": false,
-          "start": 39,
-          "end": 68
+          "start": 55,
+          "end": 84
         }
       ],
-      "declare": false,
-      "start": 35,
-      "end": 69
+      "declare": true,
+      "start": 43,
+      "end": 85
     },
     {
       "type": "VariableDeclaration",
@@ -113,34 +113,34 @@ __ESTREE_TEST__:AST:
                 "elementTypes": [
                   {
                     "type": "TSNumberKeyword",
-                    "start": 93,
-                    "end": 99
+                    "start": 117,
+                    "end": 123
                   },
                   {
                     "type": "TSTypeLiteral",
                     "members": [],
-                    "start": 101,
-                    "end": 103
+                    "start": 125,
+                    "end": 127
                   }
                 ],
-                "start": 92,
-                "end": 104
+                "start": 116,
+                "end": 128
               },
-              "start": 90,
-              "end": 104
+              "start": 114,
+              "end": 128
             },
-            "start": 74,
-            "end": 104
+            "start": 98,
+            "end": 128
           },
           "init": null,
           "definite": false,
-          "start": 74,
-          "end": 104
+          "start": 98,
+          "end": 128
         }
       ],
-      "declare": false,
-      "start": 70,
-      "end": 105
+      "declare": true,
+      "start": 86,
+      "end": 129
     },
     {
       "type": "VariableDeclaration",
@@ -161,28 +161,28 @@ __ESTREE_TEST__:AST:
                   {
                     "type": "TSTypeLiteral",
                     "members": [],
-                    "start": 126,
-                    "end": 128
+                    "start": 158,
+                    "end": 160
                   }
                 ],
-                "start": 125,
-                "end": 129
+                "start": 157,
+                "end": 161
               },
-              "start": 123,
-              "end": 129
+              "start": 155,
+              "end": 161
             },
-            "start": 110,
-            "end": 129
+            "start": 142,
+            "end": 161
           },
           "init": null,
           "definite": false,
-          "start": 110,
-          "end": 129
+          "start": 142,
+          "end": 161
         }
       ],
-      "declare": false,
-      "start": 106,
-      "end": 130
+      "declare": true,
+      "start": 130,
+      "end": 162
     },
     {
       "type": "VariableDeclaration",
@@ -201,27 +201,27 @@ __ESTREE_TEST__:AST:
                 "type": "TSArrayType",
                 "elementType": {
                   "type": "TSNumberKeyword",
-                  "start": 146,
-                  "end": 152
+                  "start": 186,
+                  "end": 192
                 },
-                "start": 146,
-                "end": 154
+                "start": 186,
+                "end": 194
               },
-              "start": 144,
-              "end": 154
+              "start": 184,
+              "end": 194
             },
-            "start": 136,
-            "end": 154
+            "start": 176,
+            "end": 194
           },
           "init": null,
           "definite": false,
-          "start": 136,
-          "end": 154
+          "start": 176,
+          "end": 194
         }
       ],
-      "declare": false,
-      "start": 132,
-      "end": 155
+      "declare": true,
+      "start": 164,
+      "end": 195
     },
     {
       "type": "VariableDeclaration",
@@ -241,27 +241,27 @@ __ESTREE_TEST__:AST:
                 "elementType": {
                   "type": "TSTypeLiteral",
                   "members": [],
-                  "start": 175,
-                  "end": 177
+                  "start": 223,
+                  "end": 225
                 },
-                "start": 175,
-                "end": 179
+                "start": 223,
+                "end": 227
               },
-              "start": 173,
-              "end": 179
+              "start": 221,
+              "end": 227
             },
-            "start": 160,
-            "end": 179
+            "start": 208,
+            "end": 227
           },
           "init": null,
           "definite": false,
-          "start": 160,
-          "end": 179
+          "start": 208,
+          "end": 227
         }
       ],
-      "declare": false,
-      "start": 156,
-      "end": 180
+      "declare": true,
+      "start": 196,
+      "end": 228
     },
     {
       "type": "ExpressionStatement",
@@ -274,8 +274,8 @@ __ESTREE_TEST__:AST:
           "name": "numArray",
           "optional": false,
           "typeAnnotation": null,
-          "start": 194,
-          "end": 202
+          "start": 242,
+          "end": 250
         },
         "right": {
           "type": "Identifier",
@@ -283,15 +283,15 @@ __ESTREE_TEST__:AST:
           "name": "numNumTuple",
           "optional": false,
           "typeAnnotation": null,
-          "start": 205,
-          "end": 216
+          "start": 253,
+          "end": 264
         },
-        "start": 194,
-        "end": 216
+        "start": 242,
+        "end": 264
       },
       "directive": null,
-      "start": 194,
-      "end": 217
+      "start": 242,
+      "end": 265
     },
     {
       "type": "ExpressionStatement",
@@ -304,8 +304,8 @@ __ESTREE_TEST__:AST:
           "name": "emptyObjArray",
           "optional": false,
           "typeAnnotation": null,
-          "start": 218,
-          "end": 231
+          "start": 266,
+          "end": 279
         },
         "right": {
           "type": "Identifier",
@@ -313,15 +313,15 @@ __ESTREE_TEST__:AST:
           "name": "emptyObjTuple",
           "optional": false,
           "typeAnnotation": null,
-          "start": 234,
-          "end": 247
+          "start": 282,
+          "end": 295
         },
-        "start": 218,
-        "end": 247
+        "start": 266,
+        "end": 295
       },
       "directive": null,
-      "start": 218,
-      "end": 248
+      "start": 266,
+      "end": 296
     },
     {
       "type": "ExpressionStatement",
@@ -334,8 +334,8 @@ __ESTREE_TEST__:AST:
           "name": "emptyObjArray",
           "optional": false,
           "typeAnnotation": null,
-          "start": 249,
-          "end": 262
+          "start": 297,
+          "end": 310
         },
         "right": {
           "type": "Identifier",
@@ -343,15 +343,15 @@ __ESTREE_TEST__:AST:
           "name": "numStrTuple",
           "optional": false,
           "typeAnnotation": null,
-          "start": 265,
-          "end": 276
+          "start": 313,
+          "end": 324
         },
-        "start": 249,
-        "end": 276
+        "start": 297,
+        "end": 324
       },
       "directive": null,
-      "start": 249,
-      "end": 277
+      "start": 297,
+      "end": 325
     },
     {
       "type": "ExpressionStatement",
@@ -364,8 +364,8 @@ __ESTREE_TEST__:AST:
           "name": "emptyObjArray",
           "optional": false,
           "typeAnnotation": null,
-          "start": 278,
-          "end": 291
+          "start": 326,
+          "end": 339
         },
         "right": {
           "type": "Identifier",
@@ -373,15 +373,15 @@ __ESTREE_TEST__:AST:
           "name": "numNumTuple",
           "optional": false,
           "typeAnnotation": null,
-          "start": 294,
-          "end": 305
+          "start": 342,
+          "end": 353
         },
-        "start": 278,
-        "end": 305
+        "start": 326,
+        "end": 353
       },
       "directive": null,
-      "start": 278,
-      "end": 306
+      "start": 326,
+      "end": 354
     },
     {
       "type": "ExpressionStatement",
@@ -394,8 +394,8 @@ __ESTREE_TEST__:AST:
           "name": "emptyObjArray",
           "optional": false,
           "typeAnnotation": null,
-          "start": 307,
-          "end": 320
+          "start": 355,
+          "end": 368
         },
         "right": {
           "type": "Identifier",
@@ -403,15 +403,15 @@ __ESTREE_TEST__:AST:
           "name": "numEmptyObjTuple",
           "optional": false,
           "typeAnnotation": null,
-          "start": 323,
-          "end": 339
+          "start": 371,
+          "end": 387
         },
-        "start": 307,
-        "end": 339
+        "start": 355,
+        "end": 387
       },
       "directive": null,
-      "start": 307,
-      "end": 340
+      "start": 355,
+      "end": 388
     },
     {
       "type": "ExpressionStatement",
@@ -424,8 +424,8 @@ __ESTREE_TEST__:AST:
           "name": "numArray",
           "optional": false,
           "typeAnnotation": null,
-          "start": 351,
-          "end": 359
+          "start": 399,
+          "end": 407
         },
         "right": {
           "type": "Identifier",
@@ -433,15 +433,15 @@ __ESTREE_TEST__:AST:
           "name": "numStrTuple",
           "optional": false,
           "typeAnnotation": null,
-          "start": 362,
-          "end": 373
+          "start": 410,
+          "end": 421
         },
-        "start": 351,
-        "end": 373
+        "start": 399,
+        "end": 421
       },
       "directive": null,
-      "start": 351,
-      "end": 374
+      "start": 399,
+      "end": 422
     },
     {
       "type": "ExpressionStatement",
@@ -454,8 +454,8 @@ __ESTREE_TEST__:AST:
           "name": "emptyObjTuple",
           "optional": false,
           "typeAnnotation": null,
-          "start": 375,
-          "end": 388
+          "start": 423,
+          "end": 436
         },
         "right": {
           "type": "Identifier",
@@ -463,499 +463,535 @@ __ESTREE_TEST__:AST:
           "name": "emptyObjArray",
           "optional": false,
           "typeAnnotation": null,
-          "start": 391,
-          "end": 404
+          "start": 439,
+          "end": 452
         },
-        "start": 375,
-        "end": 404
+        "start": 423,
+        "end": 452
       },
       "directive": null,
-      "start": 375,
-      "end": 405
+      "start": 423,
+      "end": 453
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 405
+  "end": 453
 }
 ```
 __ESTREE_TEST__:TOKENS:
 ```json
 [
   {
+    "type": "Identifier",
+    "value": "declare",
+    "start": 0,
+    "end": 7
+  },
+  {
     "type": "Keyword",
     "value": "var",
-    "start": 0,
-    "end": 3
+    "start": 8,
+    "end": 11
   },
   {
     "type": "Identifier",
     "value": "numStrTuple",
-    "start": 4,
-    "end": 15
+    "start": 12,
+    "end": 23
   },
   {
     "type": "Punctuator",
     "value": ":",
-    "start": 15,
-    "end": 16
-  },
-  {
-    "type": "Punctuator",
-    "value": "[",
-    "start": 17,
-    "end": 18
-  },
-  {
-    "type": "Identifier",
-    "value": "number",
-    "start": 18,
+    "start": 23,
     "end": 24
   },
   {
     "type": "Punctuator",
-    "value": ",",
-    "start": 24,
-    "end": 25
+    "value": "[",
+    "start": 25,
+    "end": 26
   },
   {
     "type": "Identifier",
-    "value": "string",
+    "value": "number",
     "start": 26,
     "end": 32
   },
   {
     "type": "Punctuator",
-    "value": "]",
+    "value": ",",
     "start": 32,
     "end": 33
   },
   {
+    "type": "Identifier",
+    "value": "string",
+    "start": 34,
+    "end": 40
+  },
+  {
+    "type": "Punctuator",
+    "value": "]",
+    "start": 40,
+    "end": 41
+  },
+  {
     "type": "Punctuator",
     "value": ";",
-    "start": 33,
-    "end": 34
+    "start": 41,
+    "end": 42
+  },
+  {
+    "type": "Identifier",
+    "value": "declare",
+    "start": 43,
+    "end": 50
   },
   {
     "type": "Keyword",
     "value": "var",
-    "start": 35,
-    "end": 38
+    "start": 51,
+    "end": 54
   },
   {
     "type": "Identifier",
     "value": "numNumTuple",
-    "start": 39,
-    "end": 50
+    "start": 55,
+    "end": 66
   },
   {
     "type": "Punctuator",
     "value": ":",
-    "start": 50,
-    "end": 51
-  },
-  {
-    "type": "Punctuator",
-    "value": "[",
-    "start": 52,
-    "end": 53
-  },
-  {
-    "type": "Identifier",
-    "value": "number",
-    "start": 53,
-    "end": 59
-  },
-  {
-    "type": "Punctuator",
-    "value": ",",
-    "start": 59,
-    "end": 60
-  },
-  {
-    "type": "Identifier",
-    "value": "number",
-    "start": 61,
+    "start": 66,
     "end": 67
   },
   {
     "type": "Punctuator",
-    "value": "]",
-    "start": 67,
-    "end": 68
-  },
-  {
-    "type": "Punctuator",
-    "value": ";",
+    "value": "[",
     "start": 68,
     "end": 69
   },
   {
-    "type": "Keyword",
-    "value": "var",
-    "start": 70,
-    "end": 73
-  },
-  {
-    "type": "Identifier",
-    "value": "numEmptyObjTuple",
-    "start": 74,
-    "end": 90
-  },
-  {
-    "type": "Punctuator",
-    "value": ":",
-    "start": 90,
-    "end": 91
-  },
-  {
-    "type": "Punctuator",
-    "value": "[",
-    "start": 92,
-    "end": 93
-  },
-  {
     "type": "Identifier",
     "value": "number",
-    "start": 93,
-    "end": 99
+    "start": 69,
+    "end": 75
   },
   {
     "type": "Punctuator",
     "value": ",",
-    "start": 99,
-    "end": 100
+    "start": 75,
+    "end": 76
   },
   {
-    "type": "Punctuator",
-    "value": "{",
-    "start": 101,
-    "end": 102
-  },
-  {
-    "type": "Punctuator",
-    "value": "}",
-    "start": 102,
-    "end": 103
+    "type": "Identifier",
+    "value": "number",
+    "start": 77,
+    "end": 83
   },
   {
     "type": "Punctuator",
     "value": "]",
-    "start": 103,
-    "end": 104
+    "start": 83,
+    "end": 84
   },
   {
     "type": "Punctuator",
     "value": ";",
-    "start": 104,
-    "end": 105
+    "start": 84,
+    "end": 85
+  },
+  {
+    "type": "Identifier",
+    "value": "declare",
+    "start": 86,
+    "end": 93
   },
   {
     "type": "Keyword",
     "value": "var",
-    "start": 106,
-    "end": 109
+    "start": 94,
+    "end": 97
   },
   {
     "type": "Identifier",
-    "value": "emptyObjTuple",
-    "start": 110,
-    "end": 123
+    "value": "numEmptyObjTuple",
+    "start": 98,
+    "end": 114
   },
   {
     "type": "Punctuator",
     "value": ":",
+    "start": 114,
+    "end": 115
+  },
+  {
+    "type": "Punctuator",
+    "value": "[",
+    "start": 116,
+    "end": 117
+  },
+  {
+    "type": "Identifier",
+    "value": "number",
+    "start": 117,
+    "end": 123
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
     "start": 123,
     "end": 124
   },
   {
     "type": "Punctuator",
-    "value": "[",
+    "value": "{",
     "start": 125,
     "end": 126
   },
   {
     "type": "Punctuator",
-    "value": "{",
+    "value": "}",
     "start": 126,
     "end": 127
   },
   {
     "type": "Punctuator",
-    "value": "}",
+    "value": "]",
     "start": 127,
     "end": 128
   },
   {
     "type": "Punctuator",
-    "value": "]",
+    "value": ";",
     "start": 128,
     "end": 129
   },
   {
-    "type": "Punctuator",
-    "value": ";",
-    "start": 129,
-    "end": 130
+    "type": "Identifier",
+    "value": "declare",
+    "start": 130,
+    "end": 137
   },
   {
     "type": "Keyword",
     "value": "var",
-    "start": 132,
-    "end": 135
+    "start": 138,
+    "end": 141
   },
   {
     "type": "Identifier",
-    "value": "numArray",
-    "start": 136,
-    "end": 144
+    "value": "emptyObjTuple",
+    "start": 142,
+    "end": 155
   },
   {
     "type": "Punctuator",
     "value": ":",
-    "start": 144,
-    "end": 145
-  },
-  {
-    "type": "Identifier",
-    "value": "number",
-    "start": 146,
-    "end": 152
+    "start": 155,
+    "end": 156
   },
   {
     "type": "Punctuator",
     "value": "[",
-    "start": 152,
-    "end": 153
-  },
-  {
-    "type": "Punctuator",
-    "value": "]",
-    "start": 153,
-    "end": 154
-  },
-  {
-    "type": "Punctuator",
-    "value": ";",
-    "start": 154,
-    "end": 155
-  },
-  {
-    "type": "Keyword",
-    "value": "var",
-    "start": 156,
-    "end": 159
-  },
-  {
-    "type": "Identifier",
-    "value": "emptyObjArray",
-    "start": 160,
-    "end": 173
-  },
-  {
-    "type": "Punctuator",
-    "value": ":",
-    "start": 173,
-    "end": 174
+    "start": 157,
+    "end": 158
   },
   {
     "type": "Punctuator",
     "value": "{",
-    "start": 175,
-    "end": 176
+    "start": 158,
+    "end": 159
   },
   {
     "type": "Punctuator",
     "value": "}",
-    "start": 176,
-    "end": 177
-  },
-  {
-    "type": "Punctuator",
-    "value": "[",
-    "start": 177,
-    "end": 178
+    "start": 159,
+    "end": 160
   },
   {
     "type": "Punctuator",
     "value": "]",
-    "start": 178,
-    "end": 179
+    "start": 160,
+    "end": 161
   },
   {
     "type": "Punctuator",
     "value": ";",
-    "start": 179,
-    "end": 180
+    "start": 161,
+    "end": 162
+  },
+  {
+    "type": "Identifier",
+    "value": "declare",
+    "start": 164,
+    "end": 171
+  },
+  {
+    "type": "Keyword",
+    "value": "var",
+    "start": 172,
+    "end": 175
   },
   {
     "type": "Identifier",
     "value": "numArray",
-    "start": 194,
-    "end": 202
+    "start": 176,
+    "end": 184
   },
   {
     "type": "Punctuator",
-    "value": "=",
-    "start": 203,
-    "end": 204
+    "value": ":",
+    "start": 184,
+    "end": 185
   },
   {
     "type": "Identifier",
-    "value": "numNumTuple",
-    "start": 205,
-    "end": 216
+    "value": "number",
+    "start": 186,
+    "end": 192
+  },
+  {
+    "type": "Punctuator",
+    "value": "[",
+    "start": 192,
+    "end": 193
+  },
+  {
+    "type": "Punctuator",
+    "value": "]",
+    "start": 193,
+    "end": 194
   },
   {
     "type": "Punctuator",
     "value": ";",
-    "start": 216,
-    "end": 217
+    "start": 194,
+    "end": 195
+  },
+  {
+    "type": "Identifier",
+    "value": "declare",
+    "start": 196,
+    "end": 203
+  },
+  {
+    "type": "Keyword",
+    "value": "var",
+    "start": 204,
+    "end": 207
   },
   {
     "type": "Identifier",
     "value": "emptyObjArray",
-    "start": 218,
-    "end": 231
+    "start": 208,
+    "end": 221
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 221,
+    "end": 222
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 223,
+    "end": 224
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 224,
+    "end": 225
+  },
+  {
+    "type": "Punctuator",
+    "value": "[",
+    "start": 225,
+    "end": 226
+  },
+  {
+    "type": "Punctuator",
+    "value": "]",
+    "start": 226,
+    "end": 227
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 227,
+    "end": 228
+  },
+  {
+    "type": "Identifier",
+    "value": "numArray",
+    "start": 242,
+    "end": 250
   },
   {
     "type": "Punctuator",
     "value": "=",
-    "start": 232,
-    "end": 233
+    "start": 251,
+    "end": 252
+  },
+  {
+    "type": "Identifier",
+    "value": "numNumTuple",
+    "start": 253,
+    "end": 264
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 264,
+    "end": 265
+  },
+  {
+    "type": "Identifier",
+    "value": "emptyObjArray",
+    "start": 266,
+    "end": 279
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 280,
+    "end": 281
   },
   {
     "type": "Identifier",
     "value": "emptyObjTuple",
-    "start": 234,
-    "end": 247
+    "start": 282,
+    "end": 295
   },
   {
     "type": "Punctuator",
     "value": ";",
-    "start": 247,
-    "end": 248
+    "start": 295,
+    "end": 296
   },
   {
     "type": "Identifier",
     "value": "emptyObjArray",
-    "start": 249,
-    "end": 262
+    "start": 297,
+    "end": 310
   },
   {
     "type": "Punctuator",
     "value": "=",
-    "start": 263,
-    "end": 264
+    "start": 311,
+    "end": 312
   },
   {
     "type": "Identifier",
     "value": "numStrTuple",
-    "start": 265,
-    "end": 276
+    "start": 313,
+    "end": 324
   },
   {
     "type": "Punctuator",
     "value": ";",
-    "start": 276,
-    "end": 277
+    "start": 324,
+    "end": 325
   },
   {
     "type": "Identifier",
     "value": "emptyObjArray",
-    "start": 278,
-    "end": 291
-  },
-  {
-    "type": "Punctuator",
-    "value": "=",
-    "start": 292,
-    "end": 293
-  },
-  {
-    "type": "Identifier",
-    "value": "numNumTuple",
-    "start": 294,
-    "end": 305
-  },
-  {
-    "type": "Punctuator",
-    "value": ";",
-    "start": 305,
-    "end": 306
-  },
-  {
-    "type": "Identifier",
-    "value": "emptyObjArray",
-    "start": 307,
-    "end": 320
-  },
-  {
-    "type": "Punctuator",
-    "value": "=",
-    "start": 321,
-    "end": 322
-  },
-  {
-    "type": "Identifier",
-    "value": "numEmptyObjTuple",
-    "start": 323,
+    "start": 326,
     "end": 339
   },
   {
     "type": "Punctuator",
-    "value": ";",
-    "start": 339,
-    "end": 340
-  },
-  {
-    "type": "Identifier",
-    "value": "numArray",
-    "start": 351,
-    "end": 359
-  },
-  {
-    "type": "Punctuator",
     "value": "=",
-    "start": 360,
-    "end": 361
+    "start": 340,
+    "end": 341
   },
   {
     "type": "Identifier",
-    "value": "numStrTuple",
-    "start": 362,
-    "end": 373
+    "value": "numNumTuple",
+    "start": 342,
+    "end": 353
   },
   {
     "type": "Punctuator",
     "value": ";",
-    "start": 373,
-    "end": 374
-  },
-  {
-    "type": "Identifier",
-    "value": "emptyObjTuple",
-    "start": 375,
-    "end": 388
-  },
-  {
-    "type": "Punctuator",
-    "value": "=",
-    "start": 389,
-    "end": 390
+    "start": 353,
+    "end": 354
   },
   {
     "type": "Identifier",
     "value": "emptyObjArray",
-    "start": 391,
-    "end": 404
+    "start": 355,
+    "end": 368
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 369,
+    "end": 370
+  },
+  {
+    "type": "Identifier",
+    "value": "numEmptyObjTuple",
+    "start": 371,
+    "end": 387
   },
   {
     "type": "Punctuator",
     "value": ";",
-    "start": 404,
-    "end": 405
+    "start": 387,
+    "end": 388
+  },
+  {
+    "type": "Identifier",
+    "value": "numArray",
+    "start": 399,
+    "end": 407
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 408,
+    "end": 409
+  },
+  {
+    "type": "Identifier",
+    "value": "numStrTuple",
+    "start": 410,
+    "end": 421
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 421,
+    "end": 422
+  },
+  {
+    "type": "Identifier",
+    "value": "emptyObjTuple",
+    "start": 423,
+    "end": 436
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 437,
+    "end": 438
+  },
+  {
+    "type": "Identifier",
+    "value": "emptyObjArray",
+    "start": 439,
+    "end": 452
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 452,
+    "end": 453
   }
 ]
 ```

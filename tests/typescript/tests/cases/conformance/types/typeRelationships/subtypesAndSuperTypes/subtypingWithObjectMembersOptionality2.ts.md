@@ -570,8 +570,8 @@ __ESTREE_TEST__:AST:
                       "name": "Foo",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 449,
-                      "end": 452
+                      "start": 457,
+                      "end": 460
                     },
                     "typeAnnotation": {
                       "type": "TSTypeAnnotation",
@@ -583,40 +583,40 @@ __ESTREE_TEST__:AST:
                           "name": "Base",
                           "optional": false,
                           "typeAnnotation": null,
-                          "start": 454,
-                          "end": 458
+                          "start": 462,
+                          "end": 466
                         },
                         "typeArguments": null,
-                        "start": 454,
-                        "end": 458
+                        "start": 462,
+                        "end": 466
                       },
-                      "start": 452,
-                      "end": 458
+                      "start": 460,
+                      "end": 466
                     },
                     "accessibility": null,
                     "static": false,
-                    "start": 449,
-                    "end": 459
+                    "start": 457,
+                    "end": 467
                   }
                 ],
-                "start": 447,
-                "end": 461
+                "start": 455,
+                "end": 469
               },
-              "start": 445,
-              "end": 461
+              "start": 453,
+              "end": 469
             },
-            "start": 444,
-            "end": 461
+            "start": 452,
+            "end": 469
           },
           "init": null,
           "definite": false,
-          "start": 444,
-          "end": 461
+          "start": 452,
+          "end": 469
         }
       ],
-      "declare": false,
+      "declare": true,
       "start": 440,
-      "end": 461
+      "end": 469
     },
     {
       "type": "VariableDeclaration",
@@ -645,8 +645,8 @@ __ESTREE_TEST__:AST:
                       "name": "Foo",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 471,
-                      "end": 474
+                      "start": 487,
+                      "end": 490
                     },
                     "typeAnnotation": {
                       "type": "TSTypeAnnotation",
@@ -658,40 +658,40 @@ __ESTREE_TEST__:AST:
                           "name": "Derived",
                           "optional": false,
                           "typeAnnotation": null,
-                          "start": 477,
-                          "end": 484
+                          "start": 493,
+                          "end": 500
                         },
                         "typeArguments": null,
-                        "start": 477,
-                        "end": 484
+                        "start": 493,
+                        "end": 500
                       },
-                      "start": 475,
-                      "end": 484
+                      "start": 491,
+                      "end": 500
                     },
                     "accessibility": null,
                     "static": false,
-                    "start": 471,
-                    "end": 485
+                    "start": 487,
+                    "end": 501
                   }
                 ],
-                "start": 469,
-                "end": 487
+                "start": 485,
+                "end": 503
               },
-              "start": 467,
-              "end": 487
+              "start": 483,
+              "end": 503
             },
-            "start": 466,
-            "end": 487
+            "start": 482,
+            "end": 503
           },
           "init": null,
           "definite": false,
-          "start": 466,
-          "end": 487
+          "start": 482,
+          "end": 503
         }
       ],
-      "declare": false,
-      "start": 462,
-      "end": 487
+      "declare": true,
+      "start": 470,
+      "end": 503
     },
     {
       "type": "VariableDeclaration",
@@ -705,8 +705,8 @@ __ESTREE_TEST__:AST:
             "name": "r",
             "optional": false,
             "typeAnnotation": null,
-            "start": 492,
-            "end": 493
+            "start": 508,
+            "end": 509
           },
           "init": {
             "type": "ConditionalExpression",
@@ -714,8 +714,8 @@ __ESTREE_TEST__:AST:
               "type": "Literal",
               "value": true,
               "raw": "true",
-              "start": 496,
-              "end": 500
+              "start": 512,
+              "end": 516
             },
             "consequent": {
               "type": "Identifier",
@@ -723,8 +723,8 @@ __ESTREE_TEST__:AST:
               "name": "a",
               "optional": false,
               "typeAnnotation": null,
-              "start": 503,
-              "end": 504
+              "start": 519,
+              "end": 520
             },
             "alternate": {
               "type": "Identifier",
@@ -732,26 +732,26 @@ __ESTREE_TEST__:AST:
               "name": "b",
               "optional": false,
               "typeAnnotation": null,
-              "start": 507,
-              "end": 508
+              "start": 523,
+              "end": 524
             },
-            "start": 496,
-            "end": 508
+            "start": 512,
+            "end": 524
           },
           "definite": false,
-          "start": 492,
-          "end": 508
+          "start": 508,
+          "end": 524
         }
       ],
       "declare": false,
-      "start": 488,
-      "end": 509
+      "start": 504,
+      "end": 525
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 74,
-  "end": 515
+  "end": 531
 }
 ```
 __ESTREE_TEST__:TOKENS:
@@ -1202,172 +1202,184 @@ __ESTREE_TEST__:TOKENS:
     "end": 415
   },
   {
+    "type": "Identifier",
+    "value": "declare",
+    "start": 440,
+    "end": 447
+  },
+  {
     "type": "Keyword",
     "value": "var",
-    "start": 440,
-    "end": 443
+    "start": 448,
+    "end": 451
   },
   {
     "type": "Identifier",
     "value": "a",
-    "start": 444,
-    "end": 445
-  },
-  {
-    "type": "Punctuator",
-    "value": ":",
-    "start": 445,
-    "end": 446
-  },
-  {
-    "type": "Punctuator",
-    "value": "{",
-    "start": 447,
-    "end": 448
-  },
-  {
-    "type": "Identifier",
-    "value": "Foo",
-    "start": 449,
-    "end": 452
-  },
-  {
-    "type": "Punctuator",
-    "value": ":",
     "start": 452,
     "end": 453
   },
   {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 453,
+    "end": 454
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 455,
+    "end": 456
+  },
+  {
     "type": "Identifier",
-    "value": "Base",
-    "start": 454,
-    "end": 458
+    "value": "Foo",
+    "start": 457,
+    "end": 460
   },
   {
     "type": "Punctuator",
-    "value": ";",
-    "start": 458,
-    "end": 459
-  },
-  {
-    "type": "Punctuator",
-    "value": "}",
+    "value": ":",
     "start": 460,
     "end": 461
   },
   {
-    "type": "Keyword",
-    "value": "var",
+    "type": "Identifier",
+    "value": "Base",
     "start": 462,
-    "end": 465
+    "end": 466
   },
   {
-    "type": "Identifier",
-    "value": "b",
+    "type": "Punctuator",
+    "value": ";",
     "start": 466,
     "end": 467
   },
   {
     "type": "Punctuator",
-    "value": ":",
-    "start": 467,
-    "end": 468
-  },
-  {
-    "type": "Punctuator",
-    "value": "{",
-    "start": 469,
-    "end": 470
-  },
-  {
-    "type": "Identifier",
-    "value": "Foo",
-    "start": 471,
-    "end": 474
-  },
-  {
-    "type": "Punctuator",
-    "value": "?",
-    "start": 474,
-    "end": 475
-  },
-  {
-    "type": "Punctuator",
-    "value": ":",
-    "start": 475,
-    "end": 476
-  },
-  {
-    "type": "Identifier",
-    "value": "Derived",
-    "start": 477,
-    "end": 484
-  },
-  {
-    "type": "Punctuator",
-    "value": ";",
-    "start": 484,
-    "end": 485
-  },
-  {
-    "type": "Punctuator",
     "value": "}",
-    "start": 486,
-    "end": 487
+    "start": 468,
+    "end": 469
+  },
+  {
+    "type": "Identifier",
+    "value": "declare",
+    "start": 470,
+    "end": 477
   },
   {
     "type": "Keyword",
     "value": "var",
-    "start": 488,
-    "end": 491
-  },
-  {
-    "type": "Identifier",
-    "value": "r",
-    "start": 492,
-    "end": 493
-  },
-  {
-    "type": "Punctuator",
-    "value": "=",
-    "start": 494,
-    "end": 495
-  },
-  {
-    "type": "Boolean",
-    "value": "true",
-    "start": 496,
-    "end": 500
-  },
-  {
-    "type": "Punctuator",
-    "value": "?",
-    "start": 501,
-    "end": 502
-  },
-  {
-    "type": "Identifier",
-    "value": "a",
-    "start": 503,
-    "end": 504
-  },
-  {
-    "type": "Punctuator",
-    "value": ":",
-    "start": 505,
-    "end": 506
+    "start": 478,
+    "end": 481
   },
   {
     "type": "Identifier",
     "value": "b",
-    "start": 507,
-    "end": 508
+    "start": 482,
+    "end": 483
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 483,
+    "end": 484
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 485,
+    "end": 486
+  },
+  {
+    "type": "Identifier",
+    "value": "Foo",
+    "start": 487,
+    "end": 490
+  },
+  {
+    "type": "Punctuator",
+    "value": "?",
+    "start": 490,
+    "end": 491
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 491,
+    "end": 492
+  },
+  {
+    "type": "Identifier",
+    "value": "Derived",
+    "start": 493,
+    "end": 500
   },
   {
     "type": "Punctuator",
     "value": ";",
+    "start": 500,
+    "end": 501
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 502,
+    "end": 503
+  },
+  {
+    "type": "Keyword",
+    "value": "var",
+    "start": 504,
+    "end": 507
+  },
+  {
+    "type": "Identifier",
+    "value": "r",
     "start": 508,
     "end": 509
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 510,
+    "end": 511
+  },
+  {
+    "type": "Boolean",
+    "value": "true",
+    "start": 512,
+    "end": 516
+  },
+  {
+    "type": "Punctuator",
+    "value": "?",
+    "start": 517,
+    "end": 518
+  },
+  {
+    "type": "Identifier",
+    "value": "a",
+    "start": 519,
+    "end": 520
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 521,
+    "end": 522
+  },
+  {
+    "type": "Identifier",
+    "value": "b",
+    "start": 523,
+    "end": 524
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 524,
+    "end": 525
   }
 ]
 ```

@@ -21,33 +21,33 @@ __ESTREE_TEST__:AST:
                 "types": [
                   {
                     "type": "TSStringKeyword",
-                    "start": 11,
-                    "end": 17
+                    "start": 19,
+                    "end": 25
                   },
                   {
                     "type": "TSNumberKeyword",
-                    "start": 20,
-                    "end": 26
+                    "start": 28,
+                    "end": 34
                   }
                 ],
-                "start": 11,
-                "end": 26
+                "start": 19,
+                "end": 34
               },
-              "start": 9,
-              "end": 26
+              "start": 17,
+              "end": 34
             },
-            "start": 4,
-            "end": 26
+            "start": 12,
+            "end": 34
           },
           "init": null,
           "definite": false,
-          "start": 4,
-          "end": 26
+          "start": 12,
+          "end": 34
         }
       ],
-      "declare": false,
+      "declare": true,
       "start": 0,
-      "end": 27
+      "end": 35
     },
     {
       "type": "ForOfStatement",
@@ -64,18 +64,18 @@ __ESTREE_TEST__:AST:
               "name": "v",
               "optional": false,
               "typeAnnotation": null,
-              "start": 37,
-              "end": 38
+              "start": 45,
+              "end": 46
             },
             "init": null,
             "definite": false,
-            "start": 37,
-            "end": 38
+            "start": 45,
+            "end": 46
           }
         ],
         "declare": false,
-        "start": 33,
-        "end": 38
+        "start": 41,
+        "end": 46
       },
       "right": {
         "type": "Identifier",
@@ -83,123 +83,129 @@ __ESTREE_TEST__:AST:
         "name": "union",
         "optional": false,
         "typeAnnotation": null,
-        "start": 42,
-        "end": 47
+        "start": 50,
+        "end": 55
       },
       "body": {
         "type": "BlockStatement",
         "body": [],
-        "start": 49,
-        "end": 52
+        "start": 57,
+        "end": 60
       },
-      "start": 28,
-      "end": 52
+      "start": 36,
+      "end": 60
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 52
+  "end": 60
 }
 ```
 __ESTREE_TEST__:TOKENS:
 ```json
 [
   {
+    "type": "Identifier",
+    "value": "declare",
+    "start": 0,
+    "end": 7
+  },
+  {
     "type": "Keyword",
     "value": "var",
-    "start": 0,
-    "end": 3
+    "start": 8,
+    "end": 11
   },
   {
     "type": "Identifier",
     "value": "union",
-    "start": 4,
-    "end": 9
-  },
-  {
-    "type": "Punctuator",
-    "value": ":",
-    "start": 9,
-    "end": 10
-  },
-  {
-    "type": "Identifier",
-    "value": "string",
-    "start": 11,
+    "start": 12,
     "end": 17
   },
   {
     "type": "Punctuator",
-    "value": "|",
-    "start": 18,
-    "end": 19
+    "value": ":",
+    "start": 17,
+    "end": 18
   },
   {
     "type": "Identifier",
-    "value": "number",
-    "start": 20,
-    "end": 26
+    "value": "string",
+    "start": 19,
+    "end": 25
   },
   {
     "type": "Punctuator",
-    "value": ";",
+    "value": "|",
     "start": 26,
     "end": 27
   },
   {
+    "type": "Identifier",
+    "value": "number",
+    "start": 28,
+    "end": 34
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 34,
+    "end": 35
+  },
+  {
     "type": "Keyword",
     "value": "for",
-    "start": 28,
-    "end": 31
+    "start": 36,
+    "end": 39
   },
   {
     "type": "Punctuator",
     "value": "(",
-    "start": 32,
-    "end": 33
+    "start": 40,
+    "end": 41
   },
   {
     "type": "Keyword",
     "value": "var",
-    "start": 33,
-    "end": 36
+    "start": 41,
+    "end": 44
   },
   {
     "type": "Identifier",
     "value": "v",
-    "start": 37,
-    "end": 38
+    "start": 45,
+    "end": 46
   },
   {
     "type": "Identifier",
     "value": "of",
-    "start": 39,
-    "end": 41
+    "start": 47,
+    "end": 49
   },
   {
     "type": "Identifier",
     "value": "union",
-    "start": 42,
-    "end": 47
+    "start": 50,
+    "end": 55
   },
   {
     "type": "Punctuator",
     "value": ")",
-    "start": 47,
-    "end": 48
+    "start": 55,
+    "end": 56
   },
   {
     "type": "Punctuator",
     "value": "{",
-    "start": 49,
-    "end": 50
+    "start": 57,
+    "end": 58
   },
   {
     "type": "Punctuator",
     "value": "}",
-    "start": 51,
-    "end": 52
+    "start": 59,
+    "end": 60
   }
 ]
 ```

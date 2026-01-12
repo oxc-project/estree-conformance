@@ -189,39 +189,39 @@ __ESTREE_TEST__:AST:
                         "name": "I1",
                         "optional": false,
                         "typeAnnotation": null,
-                        "start": 99,
-                        "end": 101
+                        "start": 100,
+                        "end": 102
                       },
                       "typeArguments": {
                         "type": "TSTypeParameterInstantiation",
                         "params": [
                           {
                             "type": "TSStringKeyword",
-                            "start": 102,
-                            "end": 108
+                            "start": 103,
+                            "end": 109
                           }
                         ],
-                        "start": 101,
-                        "end": 109
+                        "start": 102,
+                        "end": 110
                       },
-                      "start": 99,
-                      "end": 109
+                      "start": 100,
+                      "end": 110
                     },
-                    "start": 97,
-                    "end": 109
+                    "start": 98,
+                    "end": 110
                   },
                   "start": 93,
-                  "end": 109
+                  "end": 110
                 },
                 "init": null,
-                "definite": false,
+                "definite": true,
                 "start": 93,
-                "end": 109
+                "end": 110
               }
             ],
             "declare": false,
             "start": 89,
-            "end": 110
+            "end": 111
           },
           {
             "type": "ExpressionStatement",
@@ -233,8 +233,8 @@ __ESTREE_TEST__:AST:
                 "name": "test",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 115,
-                "end": 119
+                "start": 116,
+                "end": 120
               },
               "typeArguments": null,
               "arguments": [
@@ -242,17 +242,17 @@ __ESTREE_TEST__:AST:
                   "type": "Literal",
                   "value": "expects boolean instead of string",
                   "raw": "\"expects boolean instead of string\"",
-                  "start": 120,
-                  "end": 155
+                  "start": 121,
+                  "end": 156
                 }
               ],
               "optional": false,
-              "start": 115,
-              "end": 156
+              "start": 116,
+              "end": 157
             },
             "directive": null,
-            "start": 115,
-            "end": 157
+            "start": 116,
+            "end": 158
           },
           {
             "type": "ExpressionStatement",
@@ -264,8 +264,8 @@ __ESTREE_TEST__:AST:
                 "name": "test",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 219,
-                "end": 223
+                "start": 220,
+                "end": 224
               },
               "typeArguments": null,
               "arguments": [
@@ -273,31 +273,31 @@ __ESTREE_TEST__:AST:
                   "type": "Literal",
                   "value": true,
                   "raw": "true",
-                  "start": 224,
-                  "end": 228
+                  "start": 225,
+                  "end": 229
                 }
               ],
               "optional": false,
-              "start": 219,
-              "end": 229
+              "start": 220,
+              "end": 230
             },
             "directive": null,
-            "start": 219,
-            "end": 230
+            "start": 220,
+            "end": 231
           }
         ],
         "start": 83,
-        "end": 266
+        "end": 267
       },
       "expression": false,
       "start": 68,
-      "end": 266
+      "end": 267
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 266
+  "end": 267
 }
 ```
 __ESTREE_TEST__:TOKENS:
@@ -479,105 +479,111 @@ __ESTREE_TEST__:TOKENS:
   },
   {
     "type": "Punctuator",
-    "value": ":",
+    "value": "!",
     "start": 97,
     "end": 98
   },
   {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 98,
+    "end": 99
+  },
+  {
     "type": "Identifier",
     "value": "I1",
-    "start": 99,
-    "end": 101
+    "start": 100,
+    "end": 102
   },
   {
     "type": "Punctuator",
     "value": "<",
-    "start": 101,
-    "end": 102
+    "start": 102,
+    "end": 103
   },
   {
     "type": "Identifier",
     "value": "string",
-    "start": 102,
-    "end": 108
-  },
-  {
-    "type": "Punctuator",
-    "value": ">",
-    "start": 108,
+    "start": 103,
     "end": 109
   },
   {
     "type": "Punctuator",
-    "value": ";",
+    "value": ">",
     "start": 109,
     "end": 110
   },
   {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 110,
+    "end": 111
+  },
+  {
     "type": "Identifier",
     "value": "test",
-    "start": 115,
-    "end": 119
+    "start": 116,
+    "end": 120
   },
   {
     "type": "Punctuator",
     "value": "(",
-    "start": 119,
-    "end": 120
+    "start": 120,
+    "end": 121
   },
   {
     "type": "String",
     "value": "\"expects boolean instead of string\"",
-    "start": 120,
-    "end": 155
-  },
-  {
-    "type": "Punctuator",
-    "value": ")",
-    "start": 155,
+    "start": 121,
     "end": 156
   },
   {
     "type": "Punctuator",
-    "value": ";",
+    "value": ")",
     "start": 156,
     "end": 157
   },
   {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 157,
+    "end": 158
+  },
+  {
     "type": "Identifier",
     "value": "test",
-    "start": 219,
-    "end": 223
+    "start": 220,
+    "end": 224
   },
   {
     "type": "Punctuator",
     "value": "(",
-    "start": 223,
-    "end": 224
+    "start": 224,
+    "end": 225
   },
   {
     "type": "Boolean",
     "value": "true",
-    "start": 224,
-    "end": 228
-  },
-  {
-    "type": "Punctuator",
-    "value": ")",
-    "start": 228,
+    "start": 225,
     "end": 229
   },
   {
     "type": "Punctuator",
-    "value": ";",
+    "value": ")",
     "start": 229,
     "end": 230
   },
   {
     "type": "Punctuator",
+    "value": ";",
+    "start": 230,
+    "end": 231
+  },
+  {
+    "type": "Punctuator",
     "value": "}",
-    "start": 265,
-    "end": 266
+    "start": 266,
+    "end": 267
   }
 ]
 ```

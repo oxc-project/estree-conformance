@@ -369,8 +369,8 @@ __ESTREE_TEST__:AST:
                               "name": "one",
                               "optional": false,
                               "typeAnnotation": null,
-                              "start": 251,
-                              "end": 254
+                              "start": 259,
+                              "end": 262
                             },
                             "typeAnnotation": {
                               "type": "TSTypeAnnotation",
@@ -378,51 +378,51 @@ __ESTREE_TEST__:AST:
                                 "type": "TSArrayType",
                                 "elementType": {
                                   "type": "TSBooleanKeyword",
-                                  "start": 255,
-                                  "end": 262
+                                  "start": 263,
+                                  "end": 270
                                 },
-                                "start": 255,
-                                "end": 264
+                                "start": 263,
+                                "end": 272
                               },
-                              "start": 254,
-                              "end": 264
+                              "start": 262,
+                              "end": 272
                             },
                             "accessibility": null,
                             "static": false,
-                            "start": 251,
-                            "end": 265
+                            "start": 259,
+                            "end": 273
                           }
                         ],
-                        "start": 250,
-                        "end": 266
+                        "start": 258,
+                        "end": 274
                       },
-                      "start": 249,
-                      "end": 266
+                      "start": 257,
+                      "end": 274
                     },
-                    "start": 247,
-                    "end": 266
+                    "start": 255,
+                    "end": 274
                   },
                   "init": null,
                   "definite": false,
-                  "start": 247,
-                  "end": 266
+                  "start": 255,
+                  "end": 274
                 }
               ],
-              "declare": false,
+              "declare": true,
               "start": 243,
-              "end": 267
+              "end": 275
             },
             "specifiers": [],
             "source": null,
-            "exportKind": "value",
+            "exportKind": "type",
             "attributes": [],
             "start": 236,
-            "end": 267
+            "end": 275
           },
           {
             "type": "EmptyStatement",
-            "start": 267,
-            "end": 268
+            "start": 275,
+            "end": 276
           },
           {
             "type": "ExportNamedDeclaration",
@@ -438,8 +438,8 @@ __ESTREE_TEST__:AST:
                     "name": "__val__aa",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 284,
-                    "end": 293
+                    "start": 292,
+                    "end": 301
                   },
                   "init": {
                     "type": "Identifier",
@@ -447,34 +447,34 @@ __ESTREE_TEST__:AST:
                     "name": "aa",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 296,
-                    "end": 298
+                    "start": 304,
+                    "end": 306
                   },
                   "definite": false,
-                  "start": 284,
-                  "end": 298
+                  "start": 292,
+                  "end": 306
                 }
               ],
               "declare": false,
-              "start": 280,
-              "end": 299
+              "start": 288,
+              "end": 307
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
             "attributes": [],
-            "start": 273,
-            "end": 299
+            "start": 281,
+            "end": 307
           }
         ],
         "start": 230,
-        "end": 301
+        "end": 309
       },
       "kind": "namespace",
       "declare": false,
       "global": false,
       "start": 210,
-      "end": 301
+      "end": 309
     },
     {
       "type": "ExpressionStatement",
@@ -489,8 +489,8 @@ __ESTREE_TEST__:AST:
             "name": "__test2__",
             "optional": false,
             "typeAnnotation": null,
-            "start": 302,
-            "end": 311
+            "start": 310,
+            "end": 319
           },
           "property": {
             "type": "Identifier",
@@ -498,13 +498,13 @@ __ESTREE_TEST__:AST:
             "name": "__val__aa",
             "optional": false,
             "typeAnnotation": null,
-            "start": 312,
-            "end": 321
+            "start": 320,
+            "end": 329
           },
           "optional": false,
           "computed": false,
-          "start": 302,
-          "end": 321
+          "start": 310,
+          "end": 329
         },
         "right": {
           "type": "MemberExpression",
@@ -514,8 +514,8 @@ __ESTREE_TEST__:AST:
             "name": "__test1__",
             "optional": false,
             "typeAnnotation": null,
-            "start": 324,
-            "end": 333
+            "start": 332,
+            "end": 341
           },
           "property": {
             "type": "Identifier",
@@ -523,26 +523,26 @@ __ESTREE_TEST__:AST:
             "name": "__val__obj4",
             "optional": false,
             "typeAnnotation": null,
-            "start": 334,
-            "end": 345
+            "start": 342,
+            "end": 353
           },
           "optional": false,
           "computed": false,
-          "start": 324,
-          "end": 345
+          "start": 332,
+          "end": 353
         },
-        "start": 302,
-        "end": 345
+        "start": 310,
+        "end": 353
       },
       "directive": null,
-      "start": 302,
-      "end": 345
+      "start": 310,
+      "end": 353
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 345
+  "end": 353
 }
 ```
 __ESTREE_TEST__:TOKENS:
@@ -855,166 +855,172 @@ __ESTREE_TEST__:TOKENS:
     "end": 242
   },
   {
-    "type": "Keyword",
-    "value": "var",
-    "start": 243,
-    "end": 246
-  },
-  {
     "type": "Identifier",
-    "value": "aa",
-    "start": 247,
-    "end": 249
-  },
-  {
-    "type": "Punctuator",
-    "value": ":",
-    "start": 249,
+    "value": "declare",
+    "start": 243,
     "end": 250
   },
   {
-    "type": "Punctuator",
-    "value": "{",
-    "start": 250,
-    "end": 251
-  },
-  {
-    "type": "Identifier",
-    "value": "one",
+    "type": "Keyword",
+    "value": "var",
     "start": 251,
     "end": 254
   },
   {
+    "type": "Identifier",
+    "value": "aa",
+    "start": 255,
+    "end": 257
+  },
+  {
     "type": "Punctuator",
     "value": ":",
-    "start": 254,
-    "end": 255
+    "start": 257,
+    "end": 258
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 258,
+    "end": 259
   },
   {
     "type": "Identifier",
-    "value": "boolean",
-    "start": 255,
+    "value": "one",
+    "start": 259,
     "end": 262
   },
   {
     "type": "Punctuator",
-    "value": "[",
+    "value": ":",
     "start": 262,
     "end": 263
   },
   {
+    "type": "Identifier",
+    "value": "boolean",
+    "start": 263,
+    "end": 270
+  },
+  {
+    "type": "Punctuator",
+    "value": "[",
+    "start": 270,
+    "end": 271
+  },
+  {
     "type": "Punctuator",
     "value": "]",
-    "start": 263,
-    "end": 264
+    "start": 271,
+    "end": 272
   },
   {
     "type": "Punctuator",
     "value": ";",
-    "start": 264,
-    "end": 265
+    "start": 272,
+    "end": 273
   },
   {
     "type": "Punctuator",
     "value": "}",
-    "start": 265,
-    "end": 266
+    "start": 273,
+    "end": 274
   },
   {
     "type": "Punctuator",
     "value": ";",
-    "start": 266,
-    "end": 267
+    "start": 274,
+    "end": 275
   },
   {
     "type": "Punctuator",
     "value": ";",
-    "start": 267,
-    "end": 268
+    "start": 275,
+    "end": 276
   },
   {
     "type": "Keyword",
     "value": "export",
-    "start": 273,
-    "end": 279
+    "start": 281,
+    "end": 287
   },
   {
     "type": "Keyword",
     "value": "var",
-    "start": 280,
-    "end": 283
+    "start": 288,
+    "end": 291
   },
   {
     "type": "Identifier",
     "value": "__val__aa",
-    "start": 284,
-    "end": 293
+    "start": 292,
+    "end": 301
   },
   {
     "type": "Punctuator",
     "value": "=",
-    "start": 294,
-    "end": 295
+    "start": 302,
+    "end": 303
   },
   {
     "type": "Identifier",
     "value": "aa",
-    "start": 296,
-    "end": 298
+    "start": 304,
+    "end": 306
   },
   {
     "type": "Punctuator",
     "value": ";",
-    "start": 298,
-    "end": 299
+    "start": 306,
+    "end": 307
   },
   {
     "type": "Punctuator",
     "value": "}",
-    "start": 300,
-    "end": 301
+    "start": 308,
+    "end": 309
   },
   {
     "type": "Identifier",
     "value": "__test2__",
-    "start": 302,
-    "end": 311
+    "start": 310,
+    "end": 319
   },
   {
     "type": "Punctuator",
     "value": ".",
-    "start": 311,
-    "end": 312
+    "start": 319,
+    "end": 320
   },
   {
     "type": "Identifier",
     "value": "__val__aa",
-    "start": 312,
-    "end": 321
+    "start": 320,
+    "end": 329
   },
   {
     "type": "Punctuator",
     "value": "=",
-    "start": 322,
-    "end": 323
+    "start": 330,
+    "end": 331
   },
   {
     "type": "Identifier",
     "value": "__test1__",
-    "start": 324,
-    "end": 333
+    "start": 332,
+    "end": 341
   },
   {
     "type": "Punctuator",
     "value": ".",
-    "start": 333,
-    "end": 334
+    "start": 341,
+    "end": 342
   },
   {
     "type": "Identifier",
     "value": "__val__obj4",
-    "start": 334,
-    "end": 345
+    "start": 342,
+    "end": 353
   }
 ]
 ```

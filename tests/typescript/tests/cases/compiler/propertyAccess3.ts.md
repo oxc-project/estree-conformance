@@ -18,24 +18,24 @@ __ESTREE_TEST__:AST:
               "type": "TSTypeAnnotation",
               "typeAnnotation": {
                 "type": "TSBooleanKeyword",
-                "start": 9,
-                "end": 16
+                "start": 17,
+                "end": 24
               },
-              "start": 7,
-              "end": 16
+              "start": 15,
+              "end": 24
             },
-            "start": 4,
-            "end": 16
+            "start": 12,
+            "end": 24
           },
           "init": null,
           "definite": false,
-          "start": 4,
-          "end": 16
+          "start": 12,
+          "end": 24
         }
       ],
-      "declare": false,
+      "declare": true,
       "start": 0,
-      "end": 17
+      "end": 25
     },
     {
       "type": "ExpressionStatement",
@@ -49,8 +49,8 @@ __ESTREE_TEST__:AST:
             "name": "foo",
             "optional": false,
             "typeAnnotation": null,
-            "start": 18,
-            "end": 21
+            "start": 26,
+            "end": 29
           },
           "property": {
             "type": "Identifier",
@@ -58,99 +58,105 @@ __ESTREE_TEST__:AST:
             "name": "toBAZ",
             "optional": false,
             "typeAnnotation": null,
-            "start": 22,
-            "end": 27
+            "start": 30,
+            "end": 35
           },
           "optional": false,
           "computed": false,
-          "start": 18,
-          "end": 27
+          "start": 26,
+          "end": 35
         },
         "typeArguments": null,
         "arguments": [],
         "optional": false,
-        "start": 18,
-        "end": 29
+        "start": 26,
+        "end": 37
       },
       "directive": null,
-      "start": 18,
-      "end": 30
+      "start": 26,
+      "end": 38
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 30
+  "end": 38
 }
 ```
 __ESTREE_TEST__:TOKENS:
 ```json
 [
   {
+    "type": "Identifier",
+    "value": "declare",
+    "start": 0,
+    "end": 7
+  },
+  {
     "type": "Keyword",
     "value": "var",
-    "start": 0,
-    "end": 3
+    "start": 8,
+    "end": 11
   },
   {
     "type": "Identifier",
     "value": "foo",
-    "start": 4,
-    "end": 7
+    "start": 12,
+    "end": 15
   },
   {
     "type": "Punctuator",
     "value": ":",
-    "start": 7,
-    "end": 8
+    "start": 15,
+    "end": 16
   },
   {
     "type": "Identifier",
     "value": "boolean",
-    "start": 9,
-    "end": 16
+    "start": 17,
+    "end": 24
   },
   {
     "type": "Punctuator",
     "value": ";",
-    "start": 16,
-    "end": 17
+    "start": 24,
+    "end": 25
   },
   {
     "type": "Identifier",
     "value": "foo",
-    "start": 18,
-    "end": 21
-  },
-  {
-    "type": "Punctuator",
-    "value": ".",
-    "start": 21,
-    "end": 22
-  },
-  {
-    "type": "Identifier",
-    "value": "toBAZ",
-    "start": 22,
-    "end": 27
-  },
-  {
-    "type": "Punctuator",
-    "value": "(",
-    "start": 27,
-    "end": 28
-  },
-  {
-    "type": "Punctuator",
-    "value": ")",
-    "start": 28,
+    "start": 26,
     "end": 29
   },
   {
     "type": "Punctuator",
-    "value": ";",
+    "value": ".",
     "start": 29,
     "end": 30
+  },
+  {
+    "type": "Identifier",
+    "value": "toBAZ",
+    "start": 30,
+    "end": 35
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 35,
+    "end": 36
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 36,
+    "end": 37
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 37,
+    "end": 38
   }
 ]
 ```

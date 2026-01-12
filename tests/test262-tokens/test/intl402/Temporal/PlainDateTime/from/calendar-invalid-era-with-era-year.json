@@ -1,0 +1,556 @@
+[
+  {
+    "type": "Keyword",
+    "value": "const",
+    "start": 304,
+    "end": 309
+  },
+  {
+    "type": "Identifier",
+    "value": "calendarsWithEras",
+    "start": 310,
+    "end": 327
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 328,
+    "end": 329
+  },
+  {
+    "type": "Punctuator",
+    "value": "[",
+    "start": 330,
+    "end": 331
+  },
+  {
+    "type": "String",
+    "value": "\"buddhist\"",
+    "start": 334,
+    "end": 344
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 344,
+    "end": 345
+  },
+  {
+    "type": "String",
+    "value": "\"coptic\"",
+    "start": 348,
+    "end": 356
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 356,
+    "end": 357
+  },
+  {
+    "type": "String",
+    "value": "\"ethioaa\"",
+    "start": 360,
+    "end": 369
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 369,
+    "end": 370
+  },
+  {
+    "type": "String",
+    "value": "\"ethiopic\"",
+    "start": 373,
+    "end": 383
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 383,
+    "end": 384
+  },
+  {
+    "type": "String",
+    "value": "\"gregory\"",
+    "start": 387,
+    "end": 396
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 396,
+    "end": 397
+  },
+  {
+    "type": "String",
+    "value": "\"hebrew\"",
+    "start": 400,
+    "end": 408
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 408,
+    "end": 409
+  },
+  {
+    "type": "String",
+    "value": "\"indian\"",
+    "start": 412,
+    "end": 420
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 420,
+    "end": 421
+  },
+  {
+    "type": "String",
+    "value": "\"islamic-civil\"",
+    "start": 424,
+    "end": 439
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 439,
+    "end": 440
+  },
+  {
+    "type": "String",
+    "value": "\"islamic-tbla\"",
+    "start": 443,
+    "end": 457
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 457,
+    "end": 458
+  },
+  {
+    "type": "String",
+    "value": "\"islamic-umalqura\"",
+    "start": 461,
+    "end": 479
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 479,
+    "end": 480
+  },
+  {
+    "type": "String",
+    "value": "\"japanese\"",
+    "start": 483,
+    "end": 493
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 493,
+    "end": 494
+  },
+  {
+    "type": "String",
+    "value": "\"persian\"",
+    "start": 497,
+    "end": 506
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 506,
+    "end": 507
+  },
+  {
+    "type": "String",
+    "value": "\"roc\"",
+    "start": 510,
+    "end": 515
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 515,
+    "end": 516
+  },
+  {
+    "type": "Punctuator",
+    "value": "]",
+    "start": 517,
+    "end": 518
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 518,
+    "end": 519
+  },
+  {
+    "type": "Identifier",
+    "value": "calendarsWithEras",
+    "start": 521,
+    "end": 538
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 538,
+    "end": 539
+  },
+  {
+    "type": "Identifier",
+    "value": "forEach",
+    "start": 539,
+    "end": 546
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 546,
+    "end": 547
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 547,
+    "end": 548
+  },
+  {
+    "type": "Identifier",
+    "value": "calendar",
+    "start": 548,
+    "end": 556
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 556,
+    "end": 557
+  },
+  {
+    "type": "Punctuator",
+    "value": "=>",
+    "start": 558,
+    "end": 560
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 561,
+    "end": 562
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 621,
+    "end": 627
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 627,
+    "end": 628
+  },
+  {
+    "type": "Identifier",
+    "value": "throws",
+    "start": 628,
+    "end": 634
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 634,
+    "end": 635
+  },
+  {
+    "type": "Identifier",
+    "value": "RangeError",
+    "start": 635,
+    "end": 645
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 645,
+    "end": 646
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 651,
+    "end": 652
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 652,
+    "end": 653
+  },
+  {
+    "type": "Punctuator",
+    "value": "=>",
+    "start": 654,
+    "end": 656
+  },
+  {
+    "type": "Identifier",
+    "value": "Temporal",
+    "start": 657,
+    "end": 665
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 665,
+    "end": 666
+  },
+  {
+    "type": "Identifier",
+    "value": "PlainDateTime",
+    "start": 666,
+    "end": 679
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 679,
+    "end": 680
+  },
+  {
+    "type": "Identifier",
+    "value": "from",
+    "start": 680,
+    "end": 684
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 684,
+    "end": 685
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 685,
+    "end": 686
+  },
+  {
+    "type": "Identifier",
+    "value": "month",
+    "start": 687,
+    "end": 692
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 692,
+    "end": 693
+  },
+  {
+    "type": "Numeric",
+    "value": "1",
+    "start": 694,
+    "end": 695
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 695,
+    "end": 696
+  },
+  {
+    "type": "Identifier",
+    "value": "day",
+    "start": 697,
+    "end": 700
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 700,
+    "end": 701
+  },
+  {
+    "type": "Numeric",
+    "value": "1",
+    "start": 702,
+    "end": 703
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 703,
+    "end": 704
+  },
+  {
+    "type": "Identifier",
+    "value": "hour",
+    "start": 705,
+    "end": 709
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 709,
+    "end": 710
+  },
+  {
+    "type": "Numeric",
+    "value": "12",
+    "start": 711,
+    "end": 713
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 713,
+    "end": 714
+  },
+  {
+    "type": "Identifier",
+    "value": "minute",
+    "start": 715,
+    "end": 721
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 721,
+    "end": 722
+  },
+  {
+    "type": "Numeric",
+    "value": "34",
+    "start": 723,
+    "end": 725
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 725,
+    "end": 726
+  },
+  {
+    "type": "Identifier",
+    "value": "era",
+    "start": 727,
+    "end": 730
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 730,
+    "end": 731
+  },
+  {
+    "type": "String",
+    "value": "\"xyz\"",
+    "start": 732,
+    "end": 737
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 737,
+    "end": 738
+  },
+  {
+    "type": "Identifier",
+    "value": "eraYear",
+    "start": 739,
+    "end": 746
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 746,
+    "end": 747
+  },
+  {
+    "type": "Numeric",
+    "value": "2025",
+    "start": 748,
+    "end": 752
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 752,
+    "end": 753
+  },
+  {
+    "type": "Identifier",
+    "value": "calendar",
+    "start": 754,
+    "end": 762
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 763,
+    "end": 764
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 764,
+    "end": 765
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 765,
+    "end": 766
+  },
+  {
+    "type": "Template",
+    "value": "`xyz is not a valid era in calendar ${"
+  },
+  {
+    "type": "Identifier",
+    "value": "calendar",
+    "start": 809,
+    "end": 817
+  },
+  {
+    "type": "Template",
+    "value": "}`"
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 819,
+    "end": 820
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 820,
+    "end": 821
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 822,
+    "end": 823
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 823,
+    "end": 824
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 824,
+    "end": 825
+  }
+]

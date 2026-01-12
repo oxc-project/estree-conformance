@@ -222,10 +222,1946 @@
       },
       "start": 345,
       "end": 439
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 440,
+            "end": 446
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 447,
+            "end": 456
+          },
+          "optional": false,
+          "computed": false,
+          "start": 440,
+          "end": 456
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "ParenthesizedExpression",
+              "expression": {
+                "type": "NewExpression",
+                "callee": {
+                  "type": "MemberExpression",
+                  "object": {
+                    "type": "Identifier",
+                    "name": "Temporal",
+                    "start": 462,
+                    "end": 470
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "name": "PlainDate",
+                    "start": 471,
+                    "end": 480
+                  },
+                  "optional": false,
+                  "computed": false,
+                  "start": 462,
+                  "end": 480
+                },
+                "arguments": [
+                  {
+                    "type": "Literal",
+                    "value": 1995,
+                    "raw": "1995",
+                    "start": 481,
+                    "end": 485
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 7,
+                    "raw": "7",
+                    "start": 487,
+                    "end": 488
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 15,
+                    "raw": "15",
+                    "start": 490,
+                    "end": 492
+                  }
+                ],
+                "start": 458,
+                "end": 493
+              },
+              "start": 457,
+              "end": 494
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "inLeapYear",
+              "start": 495,
+              "end": 505
+            },
+            "optional": false,
+            "computed": false,
+            "start": 457,
+            "end": 505
+          },
+          {
+            "type": "Literal",
+            "value": false,
+            "raw": "false",
+            "start": 507,
+            "end": 512
+          }
+        ],
+        "optional": false,
+        "start": 440,
+        "end": 513
+      },
+      "start": 440,
+      "end": 514
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 515,
+            "end": 521
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 522,
+            "end": 531
+          },
+          "optional": false,
+          "computed": false,
+          "start": 515,
+          "end": 531
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "ParenthesizedExpression",
+              "expression": {
+                "type": "NewExpression",
+                "callee": {
+                  "type": "MemberExpression",
+                  "object": {
+                    "type": "Identifier",
+                    "name": "Temporal",
+                    "start": 537,
+                    "end": 545
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "name": "PlainDate",
+                    "start": 546,
+                    "end": 555
+                  },
+                  "optional": false,
+                  "computed": false,
+                  "start": 537,
+                  "end": 555
+                },
+                "arguments": [
+                  {
+                    "type": "Literal",
+                    "value": 1996,
+                    "raw": "1996",
+                    "start": 556,
+                    "end": 560
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 7,
+                    "raw": "7",
+                    "start": 562,
+                    "end": 563
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 15,
+                    "raw": "15",
+                    "start": 565,
+                    "end": 567
+                  }
+                ],
+                "start": 533,
+                "end": 568
+              },
+              "start": 532,
+              "end": 569
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "inLeapYear",
+              "start": 570,
+              "end": 580
+            },
+            "optional": false,
+            "computed": false,
+            "start": 532,
+            "end": 580
+          },
+          {
+            "type": "Literal",
+            "value": true,
+            "raw": "true",
+            "start": 582,
+            "end": 586
+          }
+        ],
+        "optional": false,
+        "start": 515,
+        "end": 587
+      },
+      "start": 515,
+      "end": 588
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 589,
+            "end": 595
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 596,
+            "end": 605
+          },
+          "optional": false,
+          "computed": false,
+          "start": 589,
+          "end": 605
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "ParenthesizedExpression",
+              "expression": {
+                "type": "NewExpression",
+                "callee": {
+                  "type": "MemberExpression",
+                  "object": {
+                    "type": "Identifier",
+                    "name": "Temporal",
+                    "start": 611,
+                    "end": 619
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "name": "PlainDate",
+                    "start": 620,
+                    "end": 629
+                  },
+                  "optional": false,
+                  "computed": false,
+                  "start": 611,
+                  "end": 629
+                },
+                "arguments": [
+                  {
+                    "type": "Literal",
+                    "value": 1997,
+                    "raw": "1997",
+                    "start": 630,
+                    "end": 634
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 7,
+                    "raw": "7",
+                    "start": 636,
+                    "end": 637
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 15,
+                    "raw": "15",
+                    "start": 639,
+                    "end": 641
+                  }
+                ],
+                "start": 607,
+                "end": 642
+              },
+              "start": 606,
+              "end": 643
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "inLeapYear",
+              "start": 644,
+              "end": 654
+            },
+            "optional": false,
+            "computed": false,
+            "start": 606,
+            "end": 654
+          },
+          {
+            "type": "Literal",
+            "value": false,
+            "raw": "false",
+            "start": 656,
+            "end": 661
+          }
+        ],
+        "optional": false,
+        "start": 589,
+        "end": 662
+      },
+      "start": 589,
+      "end": 663
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 664,
+            "end": 670
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 671,
+            "end": 680
+          },
+          "optional": false,
+          "computed": false,
+          "start": 664,
+          "end": 680
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "ParenthesizedExpression",
+              "expression": {
+                "type": "NewExpression",
+                "callee": {
+                  "type": "MemberExpression",
+                  "object": {
+                    "type": "Identifier",
+                    "name": "Temporal",
+                    "start": 686,
+                    "end": 694
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "name": "PlainDate",
+                    "start": 695,
+                    "end": 704
+                  },
+                  "optional": false,
+                  "computed": false,
+                  "start": 686,
+                  "end": 704
+                },
+                "arguments": [
+                  {
+                    "type": "Literal",
+                    "value": 1998,
+                    "raw": "1998",
+                    "start": 705,
+                    "end": 709
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 7,
+                    "raw": "7",
+                    "start": 711,
+                    "end": 712
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 15,
+                    "raw": "15",
+                    "start": 714,
+                    "end": 716
+                  }
+                ],
+                "start": 682,
+                "end": 717
+              },
+              "start": 681,
+              "end": 718
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "inLeapYear",
+              "start": 719,
+              "end": 729
+            },
+            "optional": false,
+            "computed": false,
+            "start": 681,
+            "end": 729
+          },
+          {
+            "type": "Literal",
+            "value": false,
+            "raw": "false",
+            "start": 731,
+            "end": 736
+          }
+        ],
+        "optional": false,
+        "start": 664,
+        "end": 737
+      },
+      "start": 664,
+      "end": 738
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 739,
+            "end": 745
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 746,
+            "end": 755
+          },
+          "optional": false,
+          "computed": false,
+          "start": 739,
+          "end": 755
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "ParenthesizedExpression",
+              "expression": {
+                "type": "NewExpression",
+                "callee": {
+                  "type": "MemberExpression",
+                  "object": {
+                    "type": "Identifier",
+                    "name": "Temporal",
+                    "start": 761,
+                    "end": 769
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "name": "PlainDate",
+                    "start": 770,
+                    "end": 779
+                  },
+                  "optional": false,
+                  "computed": false,
+                  "start": 761,
+                  "end": 779
+                },
+                "arguments": [
+                  {
+                    "type": "Literal",
+                    "value": 1999,
+                    "raw": "1999",
+                    "start": 780,
+                    "end": 784
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 7,
+                    "raw": "7",
+                    "start": 786,
+                    "end": 787
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 15,
+                    "raw": "15",
+                    "start": 789,
+                    "end": 791
+                  }
+                ],
+                "start": 757,
+                "end": 792
+              },
+              "start": 756,
+              "end": 793
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "inLeapYear",
+              "start": 794,
+              "end": 804
+            },
+            "optional": false,
+            "computed": false,
+            "start": 756,
+            "end": 804
+          },
+          {
+            "type": "Literal",
+            "value": false,
+            "raw": "false",
+            "start": 806,
+            "end": 811
+          }
+        ],
+        "optional": false,
+        "start": 739,
+        "end": 812
+      },
+      "start": 739,
+      "end": 813
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 814,
+            "end": 820
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 821,
+            "end": 830
+          },
+          "optional": false,
+          "computed": false,
+          "start": 814,
+          "end": 830
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "ParenthesizedExpression",
+              "expression": {
+                "type": "NewExpression",
+                "callee": {
+                  "type": "MemberExpression",
+                  "object": {
+                    "type": "Identifier",
+                    "name": "Temporal",
+                    "start": 836,
+                    "end": 844
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "name": "PlainDate",
+                    "start": 845,
+                    "end": 854
+                  },
+                  "optional": false,
+                  "computed": false,
+                  "start": 836,
+                  "end": 854
+                },
+                "arguments": [
+                  {
+                    "type": "Literal",
+                    "value": 2000,
+                    "raw": "2000",
+                    "start": 855,
+                    "end": 859
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 7,
+                    "raw": "7",
+                    "start": 861,
+                    "end": 862
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 15,
+                    "raw": "15",
+                    "start": 864,
+                    "end": 866
+                  }
+                ],
+                "start": 832,
+                "end": 867
+              },
+              "start": 831,
+              "end": 868
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "inLeapYear",
+              "start": 869,
+              "end": 879
+            },
+            "optional": false,
+            "computed": false,
+            "start": 831,
+            "end": 879
+          },
+          {
+            "type": "Literal",
+            "value": true,
+            "raw": "true",
+            "start": 881,
+            "end": 885
+          }
+        ],
+        "optional": false,
+        "start": 814,
+        "end": 886
+      },
+      "start": 814,
+      "end": 887
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 888,
+            "end": 894
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 895,
+            "end": 904
+          },
+          "optional": false,
+          "computed": false,
+          "start": 888,
+          "end": 904
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "ParenthesizedExpression",
+              "expression": {
+                "type": "NewExpression",
+                "callee": {
+                  "type": "MemberExpression",
+                  "object": {
+                    "type": "Identifier",
+                    "name": "Temporal",
+                    "start": 910,
+                    "end": 918
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "name": "PlainDate",
+                    "start": 919,
+                    "end": 928
+                  },
+                  "optional": false,
+                  "computed": false,
+                  "start": 910,
+                  "end": 928
+                },
+                "arguments": [
+                  {
+                    "type": "Literal",
+                    "value": 2001,
+                    "raw": "2001",
+                    "start": 929,
+                    "end": 933
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 7,
+                    "raw": "7",
+                    "start": 935,
+                    "end": 936
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 15,
+                    "raw": "15",
+                    "start": 938,
+                    "end": 940
+                  }
+                ],
+                "start": 906,
+                "end": 941
+              },
+              "start": 905,
+              "end": 942
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "inLeapYear",
+              "start": 943,
+              "end": 953
+            },
+            "optional": false,
+            "computed": false,
+            "start": 905,
+            "end": 953
+          },
+          {
+            "type": "Literal",
+            "value": false,
+            "raw": "false",
+            "start": 955,
+            "end": 960
+          }
+        ],
+        "optional": false,
+        "start": 888,
+        "end": 961
+      },
+      "start": 888,
+      "end": 962
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 963,
+            "end": 969
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 970,
+            "end": 979
+          },
+          "optional": false,
+          "computed": false,
+          "start": 963,
+          "end": 979
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "ParenthesizedExpression",
+              "expression": {
+                "type": "NewExpression",
+                "callee": {
+                  "type": "MemberExpression",
+                  "object": {
+                    "type": "Identifier",
+                    "name": "Temporal",
+                    "start": 985,
+                    "end": 993
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "name": "PlainDate",
+                    "start": 994,
+                    "end": 1003
+                  },
+                  "optional": false,
+                  "computed": false,
+                  "start": 985,
+                  "end": 1003
+                },
+                "arguments": [
+                  {
+                    "type": "Literal",
+                    "value": 2002,
+                    "raw": "2002",
+                    "start": 1004,
+                    "end": 1008
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 7,
+                    "raw": "7",
+                    "start": 1010,
+                    "end": 1011
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 15,
+                    "raw": "15",
+                    "start": 1013,
+                    "end": 1015
+                  }
+                ],
+                "start": 981,
+                "end": 1016
+              },
+              "start": 980,
+              "end": 1017
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "inLeapYear",
+              "start": 1018,
+              "end": 1028
+            },
+            "optional": false,
+            "computed": false,
+            "start": 980,
+            "end": 1028
+          },
+          {
+            "type": "Literal",
+            "value": false,
+            "raw": "false",
+            "start": 1030,
+            "end": 1035
+          }
+        ],
+        "optional": false,
+        "start": 963,
+        "end": 1036
+      },
+      "start": 963,
+      "end": 1037
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 1038,
+            "end": 1044
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 1045,
+            "end": 1054
+          },
+          "optional": false,
+          "computed": false,
+          "start": 1038,
+          "end": 1054
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "ParenthesizedExpression",
+              "expression": {
+                "type": "NewExpression",
+                "callee": {
+                  "type": "MemberExpression",
+                  "object": {
+                    "type": "Identifier",
+                    "name": "Temporal",
+                    "start": 1060,
+                    "end": 1068
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "name": "PlainDate",
+                    "start": 1069,
+                    "end": 1078
+                  },
+                  "optional": false,
+                  "computed": false,
+                  "start": 1060,
+                  "end": 1078
+                },
+                "arguments": [
+                  {
+                    "type": "Literal",
+                    "value": 2003,
+                    "raw": "2003",
+                    "start": 1079,
+                    "end": 1083
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 7,
+                    "raw": "7",
+                    "start": 1085,
+                    "end": 1086
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 15,
+                    "raw": "15",
+                    "start": 1088,
+                    "end": 1090
+                  }
+                ],
+                "start": 1056,
+                "end": 1091
+              },
+              "start": 1055,
+              "end": 1092
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "inLeapYear",
+              "start": 1093,
+              "end": 1103
+            },
+            "optional": false,
+            "computed": false,
+            "start": 1055,
+            "end": 1103
+          },
+          {
+            "type": "Literal",
+            "value": false,
+            "raw": "false",
+            "start": 1105,
+            "end": 1110
+          }
+        ],
+        "optional": false,
+        "start": 1038,
+        "end": 1111
+      },
+      "start": 1038,
+      "end": 1112
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 1113,
+            "end": 1119
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 1120,
+            "end": 1129
+          },
+          "optional": false,
+          "computed": false,
+          "start": 1113,
+          "end": 1129
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "ParenthesizedExpression",
+              "expression": {
+                "type": "NewExpression",
+                "callee": {
+                  "type": "MemberExpression",
+                  "object": {
+                    "type": "Identifier",
+                    "name": "Temporal",
+                    "start": 1135,
+                    "end": 1143
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "name": "PlainDate",
+                    "start": 1144,
+                    "end": 1153
+                  },
+                  "optional": false,
+                  "computed": false,
+                  "start": 1135,
+                  "end": 1153
+                },
+                "arguments": [
+                  {
+                    "type": "Literal",
+                    "value": 2004,
+                    "raw": "2004",
+                    "start": 1154,
+                    "end": 1158
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 7,
+                    "raw": "7",
+                    "start": 1160,
+                    "end": 1161
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 15,
+                    "raw": "15",
+                    "start": 1163,
+                    "end": 1165
+                  }
+                ],
+                "start": 1131,
+                "end": 1166
+              },
+              "start": 1130,
+              "end": 1167
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "inLeapYear",
+              "start": 1168,
+              "end": 1178
+            },
+            "optional": false,
+            "computed": false,
+            "start": 1130,
+            "end": 1178
+          },
+          {
+            "type": "Literal",
+            "value": true,
+            "raw": "true",
+            "start": 1180,
+            "end": 1184
+          }
+        ],
+        "optional": false,
+        "start": 1113,
+        "end": 1185
+      },
+      "start": 1113,
+      "end": 1186
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 1187,
+            "end": 1193
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 1194,
+            "end": 1203
+          },
+          "optional": false,
+          "computed": false,
+          "start": 1187,
+          "end": 1203
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "ParenthesizedExpression",
+              "expression": {
+                "type": "NewExpression",
+                "callee": {
+                  "type": "MemberExpression",
+                  "object": {
+                    "type": "Identifier",
+                    "name": "Temporal",
+                    "start": 1209,
+                    "end": 1217
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "name": "PlainDate",
+                    "start": 1218,
+                    "end": 1227
+                  },
+                  "optional": false,
+                  "computed": false,
+                  "start": 1209,
+                  "end": 1227
+                },
+                "arguments": [
+                  {
+                    "type": "Literal",
+                    "value": 2005,
+                    "raw": "2005",
+                    "start": 1228,
+                    "end": 1232
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 7,
+                    "raw": "7",
+                    "start": 1234,
+                    "end": 1235
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 15,
+                    "raw": "15",
+                    "start": 1237,
+                    "end": 1239
+                  }
+                ],
+                "start": 1205,
+                "end": 1240
+              },
+              "start": 1204,
+              "end": 1241
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "inLeapYear",
+              "start": 1242,
+              "end": 1252
+            },
+            "optional": false,
+            "computed": false,
+            "start": 1204,
+            "end": 1252
+          },
+          {
+            "type": "Literal",
+            "value": false,
+            "raw": "false",
+            "start": 1254,
+            "end": 1259
+          }
+        ],
+        "optional": false,
+        "start": 1187,
+        "end": 1260
+      },
+      "start": 1187,
+      "end": 1261
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 1262,
+            "end": 1268
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 1269,
+            "end": 1278
+          },
+          "optional": false,
+          "computed": false,
+          "start": 1262,
+          "end": 1278
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "CallExpression",
+              "callee": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "MemberExpression",
+                  "object": {
+                    "type": "Identifier",
+                    "name": "Temporal",
+                    "start": 1279,
+                    "end": 1287
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "name": "PlainDate",
+                    "start": 1288,
+                    "end": 1297
+                  },
+                  "optional": false,
+                  "computed": false,
+                  "start": 1279,
+                  "end": 1297
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "from",
+                  "start": 1298,
+                  "end": 1302
+                },
+                "optional": false,
+                "computed": false,
+                "start": 1279,
+                "end": 1302
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "value": "2019-03-18",
+                  "raw": "'2019-03-18'",
+                  "start": 1303,
+                  "end": 1315
+                }
+              ],
+              "optional": false,
+              "start": 1279,
+              "end": 1316
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "inLeapYear",
+              "start": 1317,
+              "end": 1327
+            },
+            "optional": false,
+            "computed": false,
+            "start": 1279,
+            "end": 1327
+          },
+          {
+            "type": "Literal",
+            "value": false,
+            "raw": "false",
+            "start": 1329,
+            "end": 1334
+          }
+        ],
+        "optional": false,
+        "start": 1262,
+        "end": 1335
+      },
+      "start": 1262,
+      "end": 1336
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 1337,
+            "end": 1343
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 1344,
+            "end": 1353
+          },
+          "optional": false,
+          "computed": false,
+          "start": 1337,
+          "end": 1353
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "CallExpression",
+              "callee": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "MemberExpression",
+                  "object": {
+                    "type": "Identifier",
+                    "name": "Temporal",
+                    "start": 1354,
+                    "end": 1362
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "name": "PlainDate",
+                    "start": 1363,
+                    "end": 1372
+                  },
+                  "optional": false,
+                  "computed": false,
+                  "start": 1354,
+                  "end": 1372
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "from",
+                  "start": 1373,
+                  "end": 1377
+                },
+                "optional": false,
+                "computed": false,
+                "start": 1354,
+                "end": 1377
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "value": "2020-03-18",
+                  "raw": "'2020-03-18'",
+                  "start": 1378,
+                  "end": 1390
+                }
+              ],
+              "optional": false,
+              "start": 1354,
+              "end": 1391
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "inLeapYear",
+              "start": 1392,
+              "end": 1402
+            },
+            "optional": false,
+            "computed": false,
+            "start": 1354,
+            "end": 1402
+          },
+          {
+            "type": "Literal",
+            "value": true,
+            "raw": "true",
+            "start": 1404,
+            "end": 1408
+          }
+        ],
+        "optional": false,
+        "start": 1337,
+        "end": 1409
+      },
+      "start": 1337,
+      "end": 1410
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 1411,
+            "end": 1417
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 1418,
+            "end": 1427
+          },
+          "optional": false,
+          "computed": false,
+          "start": 1411,
+          "end": 1427
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "CallExpression",
+              "callee": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "MemberExpression",
+                  "object": {
+                    "type": "Identifier",
+                    "name": "Temporal",
+                    "start": 1428,
+                    "end": 1436
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "name": "PlainDate",
+                    "start": 1437,
+                    "end": 1446
+                  },
+                  "optional": false,
+                  "computed": false,
+                  "start": 1428,
+                  "end": 1446
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "from",
+                  "start": 1447,
+                  "end": 1451
+                },
+                "optional": false,
+                "computed": false,
+                "start": 1428,
+                "end": 1451
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "value": "2021-03-18",
+                  "raw": "'2021-03-18'",
+                  "start": 1452,
+                  "end": 1464
+                }
+              ],
+              "optional": false,
+              "start": 1428,
+              "end": 1465
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "inLeapYear",
+              "start": 1466,
+              "end": 1476
+            },
+            "optional": false,
+            "computed": false,
+            "start": 1428,
+            "end": 1476
+          },
+          {
+            "type": "Literal",
+            "value": false,
+            "raw": "false",
+            "start": 1478,
+            "end": 1483
+          }
+        ],
+        "optional": false,
+        "start": 1411,
+        "end": 1484
+      },
+      "start": 1411,
+      "end": 1485
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 1486,
+            "end": 1492
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 1493,
+            "end": 1502
+          },
+          "optional": false,
+          "computed": false,
+          "start": 1486,
+          "end": 1502
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "CallExpression",
+              "callee": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "MemberExpression",
+                  "object": {
+                    "type": "Identifier",
+                    "name": "Temporal",
+                    "start": 1503,
+                    "end": 1511
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "name": "PlainDate",
+                    "start": 1512,
+                    "end": 1521
+                  },
+                  "optional": false,
+                  "computed": false,
+                  "start": 1503,
+                  "end": 1521
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "from",
+                  "start": 1522,
+                  "end": 1526
+                },
+                "optional": false,
+                "computed": false,
+                "start": 1503,
+                "end": 1526
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "value": "2022-03-18",
+                  "raw": "'2022-03-18'",
+                  "start": 1527,
+                  "end": 1539
+                }
+              ],
+              "optional": false,
+              "start": 1503,
+              "end": 1540
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "inLeapYear",
+              "start": 1541,
+              "end": 1551
+            },
+            "optional": false,
+            "computed": false,
+            "start": 1503,
+            "end": 1551
+          },
+          {
+            "type": "Literal",
+            "value": false,
+            "raw": "false",
+            "start": 1553,
+            "end": 1558
+          }
+        ],
+        "optional": false,
+        "start": 1486,
+        "end": 1559
+      },
+      "start": 1486,
+      "end": 1560
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 1561,
+            "end": 1567
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 1568,
+            "end": 1577
+          },
+          "optional": false,
+          "computed": false,
+          "start": 1561,
+          "end": 1577
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "CallExpression",
+              "callee": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "MemberExpression",
+                  "object": {
+                    "type": "Identifier",
+                    "name": "Temporal",
+                    "start": 1578,
+                    "end": 1586
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "name": "PlainDate",
+                    "start": 1587,
+                    "end": 1596
+                  },
+                  "optional": false,
+                  "computed": false,
+                  "start": 1578,
+                  "end": 1596
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "from",
+                  "start": 1597,
+                  "end": 1601
+                },
+                "optional": false,
+                "computed": false,
+                "start": 1578,
+                "end": 1601
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "value": "2023-03-18",
+                  "raw": "'2023-03-18'",
+                  "start": 1602,
+                  "end": 1614
+                }
+              ],
+              "optional": false,
+              "start": 1578,
+              "end": 1615
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "inLeapYear",
+              "start": 1616,
+              "end": 1626
+            },
+            "optional": false,
+            "computed": false,
+            "start": 1578,
+            "end": 1626
+          },
+          {
+            "type": "Literal",
+            "value": false,
+            "raw": "false",
+            "start": 1628,
+            "end": 1633
+          }
+        ],
+        "optional": false,
+        "start": 1561,
+        "end": 1634
+      },
+      "start": 1561,
+      "end": 1635
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 1636,
+            "end": 1642
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 1643,
+            "end": 1652
+          },
+          "optional": false,
+          "computed": false,
+          "start": 1636,
+          "end": 1652
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "CallExpression",
+              "callee": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "MemberExpression",
+                  "object": {
+                    "type": "Identifier",
+                    "name": "Temporal",
+                    "start": 1653,
+                    "end": 1661
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "name": "PlainDate",
+                    "start": 1662,
+                    "end": 1671
+                  },
+                  "optional": false,
+                  "computed": false,
+                  "start": 1653,
+                  "end": 1671
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "from",
+                  "start": 1672,
+                  "end": 1676
+                },
+                "optional": false,
+                "computed": false,
+                "start": 1653,
+                "end": 1676
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "value": "2024-03-18",
+                  "raw": "'2024-03-18'",
+                  "start": 1677,
+                  "end": 1689
+                }
+              ],
+              "optional": false,
+              "start": 1653,
+              "end": 1690
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "inLeapYear",
+              "start": 1691,
+              "end": 1701
+            },
+            "optional": false,
+            "computed": false,
+            "start": 1653,
+            "end": 1701
+          },
+          {
+            "type": "Literal",
+            "value": true,
+            "raw": "true",
+            "start": 1703,
+            "end": 1707
+          }
+        ],
+        "optional": false,
+        "start": 1636,
+        "end": 1708
+      },
+      "start": 1636,
+      "end": 1709
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 1710,
+            "end": 1716
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 1717,
+            "end": 1726
+          },
+          "optional": false,
+          "computed": false,
+          "start": 1710,
+          "end": 1726
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "CallExpression",
+              "callee": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "MemberExpression",
+                  "object": {
+                    "type": "Identifier",
+                    "name": "Temporal",
+                    "start": 1727,
+                    "end": 1735
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "name": "PlainDate",
+                    "start": 1736,
+                    "end": 1745
+                  },
+                  "optional": false,
+                  "computed": false,
+                  "start": 1727,
+                  "end": 1745
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "from",
+                  "start": 1746,
+                  "end": 1750
+                },
+                "optional": false,
+                "computed": false,
+                "start": 1727,
+                "end": 1750
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "value": "2025-03-18",
+                  "raw": "'2025-03-18'",
+                  "start": 1751,
+                  "end": 1763
+                }
+              ],
+              "optional": false,
+              "start": 1727,
+              "end": 1764
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "inLeapYear",
+              "start": 1765,
+              "end": 1775
+            },
+            "optional": false,
+            "computed": false,
+            "start": 1727,
+            "end": 1775
+          },
+          {
+            "type": "Literal",
+            "value": false,
+            "raw": "false",
+            "start": 1777,
+            "end": 1782
+          }
+        ],
+        "optional": false,
+        "start": 1710,
+        "end": 1783
+      },
+      "start": 1710,
+      "end": 1784
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 1785,
+            "end": 1791
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 1792,
+            "end": 1801
+          },
+          "optional": false,
+          "computed": false,
+          "start": 1785,
+          "end": 1801
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "CallExpression",
+              "callee": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "MemberExpression",
+                  "object": {
+                    "type": "Identifier",
+                    "name": "Temporal",
+                    "start": 1802,
+                    "end": 1810
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "name": "PlainDate",
+                    "start": 1811,
+                    "end": 1820
+                  },
+                  "optional": false,
+                  "computed": false,
+                  "start": 1802,
+                  "end": 1820
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "from",
+                  "start": 1821,
+                  "end": 1825
+                },
+                "optional": false,
+                "computed": false,
+                "start": 1802,
+                "end": 1825
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "value": "2026-03-18",
+                  "raw": "'2026-03-18'",
+                  "start": 1826,
+                  "end": 1838
+                }
+              ],
+              "optional": false,
+              "start": 1802,
+              "end": 1839
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "inLeapYear",
+              "start": 1840,
+              "end": 1850
+            },
+            "optional": false,
+            "computed": false,
+            "start": 1802,
+            "end": 1850
+          },
+          {
+            "type": "Literal",
+            "value": false,
+            "raw": "false",
+            "start": 1852,
+            "end": 1857
+          }
+        ],
+        "optional": false,
+        "start": 1785,
+        "end": 1858
+      },
+      "start": 1785,
+      "end": 1859
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 440
+  "end": 1860
 }

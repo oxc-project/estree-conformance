@@ -1,0 +1,106 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 263,
+            "end": 269
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 270,
+            "end": 279
+          },
+          "optional": false,
+          "computed": false,
+          "start": 263,
+          "end": 279
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "ParenthesizedExpression",
+              "expression": {
+                "type": "NewExpression",
+                "callee": {
+                  "type": "MemberExpression",
+                  "object": {
+                    "type": "Identifier",
+                    "name": "Temporal",
+                    "start": 285,
+                    "end": 293
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "name": "PlainYearMonth",
+                    "start": 294,
+                    "end": 308
+                  },
+                  "optional": false,
+                  "computed": false,
+                  "start": 285,
+                  "end": 308
+                },
+                "arguments": [
+                  {
+                    "type": "Literal",
+                    "value": 1999,
+                    "raw": "1999",
+                    "start": 309,
+                    "end": 313
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 6,
+                    "raw": "6",
+                    "start": 315,
+                    "end": 316
+                  }
+                ],
+                "start": 281,
+                "end": 317
+              },
+              "start": 280,
+              "end": 318
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "month",
+              "start": 319,
+              "end": 324
+            },
+            "optional": false,
+            "computed": false,
+            "start": 280,
+            "end": 324
+          },
+          {
+            "type": "Literal",
+            "value": 6,
+            "raw": "6",
+            "start": 326,
+            "end": 327
+          }
+        ],
+        "optional": false,
+        "start": 263,
+        "end": 328
+      },
+      "start": 263,
+      "end": 329
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 331
+}

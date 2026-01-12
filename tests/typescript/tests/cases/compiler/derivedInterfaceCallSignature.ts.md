@@ -1405,28 +1405,28 @@ __ESTREE_TEST__:AST:
                   "name": "D3SvgArea",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 886,
-                  "end": 895
+                  "start": 894,
+                  "end": 903
                 },
                 "typeArguments": null,
-                "start": 886,
-                "end": 895
+                "start": 894,
+                "end": 903
               },
-              "start": 884,
-              "end": 895
+              "start": 892,
+              "end": 903
             },
-            "start": 880,
-            "end": 895
+            "start": 888,
+            "end": 903
           },
           "init": null,
           "definite": false,
-          "start": 880,
-          "end": 895
+          "start": 888,
+          "end": 903
         }
       ],
-      "declare": false,
+      "declare": true,
       "start": 876,
-      "end": 896
+      "end": 904
     },
     {
       "type": "ExpressionStatement",
@@ -1442,8 +1442,8 @@ __ESTREE_TEST__:AST:
               "name": "area",
               "optional": false,
               "typeAnnotation": null,
-              "start": 897,
-              "end": 901
+              "start": 905,
+              "end": 909
             },
             "property": {
               "type": "Identifier",
@@ -1451,13 +1451,13 @@ __ESTREE_TEST__:AST:
               "name": "interpolate",
               "optional": false,
               "typeAnnotation": null,
-              "start": 902,
-              "end": 913
+              "start": 910,
+              "end": 921
             },
             "optional": false,
             "computed": false,
-            "start": 897,
-            "end": 913
+            "start": 905,
+            "end": 921
           },
           "typeArguments": null,
           "arguments": [
@@ -1465,13 +1465,13 @@ __ESTREE_TEST__:AST:
               "type": "Literal",
               "value": "two",
               "raw": "'two'",
-              "start": 914,
-              "end": 919
+              "start": 922,
+              "end": 927
             }
           ],
           "optional": false,
-          "start": 897,
-          "end": 920
+          "start": 905,
+          "end": 928
         },
         "typeArguments": null,
         "arguments": [
@@ -1479,23 +1479,23 @@ __ESTREE_TEST__:AST:
             "type": "Literal",
             "value": "one",
             "raw": "'one'",
-            "start": 921,
-            "end": 926
+            "start": 929,
+            "end": 934
           }
         ],
         "optional": false,
-        "start": 897,
-        "end": 927
+        "start": 905,
+        "end": 935
       },
       "directive": null,
-      "start": 897,
-      "end": 928
+      "start": 905,
+      "end": 936
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 928
+  "end": 936
 }
 ```
 __ESTREE_TEST__:TOKENS:
@@ -3038,94 +3038,100 @@ __ESTREE_TEST__:TOKENS:
     "end": 874
   },
   {
+    "type": "Identifier",
+    "value": "declare",
+    "start": 876,
+    "end": 883
+  },
+  {
     "type": "Keyword",
     "value": "var",
-    "start": 876,
-    "end": 879
+    "start": 884,
+    "end": 887
   },
   {
     "type": "Identifier",
     "value": "area",
-    "start": 880,
-    "end": 884
+    "start": 888,
+    "end": 892
   },
   {
     "type": "Punctuator",
     "value": ":",
-    "start": 884,
-    "end": 885
+    "start": 892,
+    "end": 893
   },
   {
     "type": "Identifier",
     "value": "D3SvgArea",
-    "start": 886,
-    "end": 895
+    "start": 894,
+    "end": 903
   },
   {
     "type": "Punctuator",
     "value": ";",
-    "start": 895,
-    "end": 896
+    "start": 903,
+    "end": 904
   },
   {
     "type": "Identifier",
     "value": "area",
-    "start": 897,
-    "end": 901
+    "start": 905,
+    "end": 909
   },
   {
     "type": "Punctuator",
     "value": ".",
-    "start": 901,
-    "end": 902
+    "start": 909,
+    "end": 910
   },
   {
     "type": "Identifier",
     "value": "interpolate",
-    "start": 902,
-    "end": 913
+    "start": 910,
+    "end": 921
   },
   {
     "type": "Punctuator",
     "value": "(",
-    "start": 913,
-    "end": 914
+    "start": 921,
+    "end": 922
   },
   {
     "type": "String",
     "value": "'two'",
-    "start": 914,
-    "end": 919
-  },
-  {
-    "type": "Punctuator",
-    "value": ")",
-    "start": 919,
-    "end": 920
-  },
-  {
-    "type": "Punctuator",
-    "value": "(",
-    "start": 920,
-    "end": 921
-  },
-  {
-    "type": "String",
-    "value": "'one'",
-    "start": 921,
-    "end": 926
-  },
-  {
-    "type": "Punctuator",
-    "value": ")",
-    "start": 926,
+    "start": 922,
     "end": 927
   },
   {
     "type": "Punctuator",
-    "value": ";",
+    "value": ")",
     "start": 927,
     "end": 928
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 928,
+    "end": 929
+  },
+  {
+    "type": "String",
+    "value": "'one'",
+    "start": 929,
+    "end": 934
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 934,
+    "end": 935
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 935,
+    "end": 936
   }
 ]
 ```

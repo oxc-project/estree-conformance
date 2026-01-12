@@ -238,7 +238,7 @@ __ESTREE_TEST__:AST:
     },
     {
       "type": "VariableDeclaration",
-      "kind": "var",
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -266,18 +266,18 @@ __ESTREE_TEST__:AST:
                           "name": "connectExport",
                           "optional": false,
                           "typeAnnotation": null,
-                          "start": 190,
-                          "end": 203
+                          "start": 200,
+                          "end": 213
                         },
                         "typeArguments": null,
-                        "start": 190,
-                        "end": 203
+                        "start": 200,
+                        "end": 213
                       },
-                      "start": 188,
-                      "end": 203
+                      "start": 198,
+                      "end": 213
                     },
-                    "start": 186,
-                    "end": 204
+                    "start": 196,
+                    "end": 214
                   },
                   {
                     "type": "TSPropertySignature",
@@ -290,8 +290,8 @@ __ESTREE_TEST__:AST:
                       "name": "test1",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 209,
-                      "end": 214
+                      "start": 219,
+                      "end": 224
                     },
                     "typeAnnotation": {
                       "type": "TSTypeAnnotation",
@@ -303,20 +303,20 @@ __ESTREE_TEST__:AST:
                           "name": "connectModule",
                           "optional": false,
                           "typeAnnotation": null,
-                          "start": 216,
-                          "end": 229
+                          "start": 226,
+                          "end": 239
                         },
                         "typeArguments": null,
-                        "start": 216,
-                        "end": 229
+                        "start": 226,
+                        "end": 239
                       },
-                      "start": 214,
-                      "end": 229
+                      "start": 224,
+                      "end": 239
                     },
                     "accessibility": null,
                     "static": false,
-                    "start": 209,
-                    "end": 230
+                    "start": 219,
+                    "end": 240
                   },
                   {
                     "type": "TSMethodSignature",
@@ -326,8 +326,8 @@ __ESTREE_TEST__:AST:
                       "name": "test2",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 235,
-                      "end": 240
+                      "start": 245,
+                      "end": 250
                     },
                     "computed": false,
                     "optional": false,
@@ -344,41 +344,41 @@ __ESTREE_TEST__:AST:
                           "name": "connectModule",
                           "optional": false,
                           "typeAnnotation": null,
-                          "start": 244,
-                          "end": 257
+                          "start": 254,
+                          "end": 267
                         },
                         "typeArguments": null,
-                        "start": 244,
-                        "end": 257
+                        "start": 254,
+                        "end": 267
                       },
-                      "start": 242,
-                      "end": 257
+                      "start": 252,
+                      "end": 267
                     },
                     "accessibility": null,
                     "readonly": false,
                     "static": false,
-                    "start": 235,
-                    "end": 258
+                    "start": 245,
+                    "end": 268
                   }
                 ],
-                "start": 180,
-                "end": 260
+                "start": 190,
+                "end": 270
               },
-              "start": 178,
-              "end": 260
+              "start": 188,
+              "end": 270
             },
-            "start": 172,
-            "end": 260
+            "start": 182,
+            "end": 270
           },
           "init": null,
           "definite": false,
-          "start": 172,
-          "end": 260
+          "start": 182,
+          "end": 270
         }
       ],
-      "declare": false,
+      "declare": true,
       "start": 168,
-      "end": 261
+      "end": 271
     },
     {
       "type": "TSExportAssignment",
@@ -388,11 +388,11 @@ __ESTREE_TEST__:AST:
         "name": "server",
         "optional": false,
         "typeAnnotation": null,
-        "start": 271,
-        "end": 277
+        "start": 281,
+        "end": 287
       },
-      "start": 262,
-      "end": 278
+      "start": 272,
+      "end": 288
     },
     {
       "type": "TSExportAssignment",
@@ -402,17 +402,17 @@ __ESTREE_TEST__:AST:
         "name": "connectExport",
         "optional": false,
         "typeAnnotation": null,
-        "start": 288,
-        "end": 301
+        "start": 298,
+        "end": 311
       },
-      "start": 279,
-      "end": 302
+      "start": 289,
+      "end": 312
     }
   ],
   "sourceType": "module",
   "hashbang": null,
   "start": 0,
-  "end": 304
+  "end": 314
 }
 ```
 __ESTREE_TEST__:TOKENS:
@@ -647,39 +647,21 @@ __ESTREE_TEST__:TOKENS:
     "end": 167
   },
   {
-    "type": "Keyword",
-    "value": "var",
+    "type": "Identifier",
+    "value": "declare",
     "start": 168,
-    "end": 171
+    "end": 175
+  },
+  {
+    "type": "Keyword",
+    "value": "const",
+    "start": 176,
+    "end": 181
   },
   {
     "type": "Identifier",
     "value": "server",
-    "start": 172,
-    "end": 178
-  },
-  {
-    "type": "Punctuator",
-    "value": ":",
-    "start": 178,
-    "end": 179
-  },
-  {
-    "type": "Punctuator",
-    "value": "{",
-    "start": 180,
-    "end": 181
-  },
-  {
-    "type": "Punctuator",
-    "value": "(",
-    "start": 186,
-    "end": 187
-  },
-  {
-    "type": "Punctuator",
-    "value": ")",
-    "start": 187,
+    "start": 182,
     "end": 188
   },
   {
@@ -689,136 +671,160 @@ __ESTREE_TEST__:TOKENS:
     "end": 189
   },
   {
-    "type": "Identifier",
-    "value": "connectExport",
+    "type": "Punctuator",
+    "value": "{",
     "start": 190,
-    "end": 203
-  },
-  {
-    "type": "Punctuator",
-    "value": ";",
-    "start": 203,
-    "end": 204
-  },
-  {
-    "type": "Identifier",
-    "value": "test1",
-    "start": 209,
-    "end": 214
-  },
-  {
-    "type": "Punctuator",
-    "value": ":",
-    "start": 214,
-    "end": 215
-  },
-  {
-    "type": "Identifier",
-    "value": "connectModule",
-    "start": 216,
-    "end": 229
-  },
-  {
-    "type": "Punctuator",
-    "value": ";",
-    "start": 229,
-    "end": 230
-  },
-  {
-    "type": "Identifier",
-    "value": "test2",
-    "start": 235,
-    "end": 240
+    "end": 191
   },
   {
     "type": "Punctuator",
     "value": "(",
-    "start": 240,
-    "end": 241
+    "start": 196,
+    "end": 197
   },
   {
     "type": "Punctuator",
     "value": ")",
-    "start": 241,
-    "end": 242
+    "start": 197,
+    "end": 198
   },
   {
     "type": "Punctuator",
     "value": ":",
-    "start": 242,
-    "end": 243
-  },
-  {
-    "type": "Identifier",
-    "value": "connectModule",
-    "start": 244,
-    "end": 257
-  },
-  {
-    "type": "Punctuator",
-    "value": ";",
-    "start": 257,
-    "end": 258
-  },
-  {
-    "type": "Punctuator",
-    "value": "}",
-    "start": 259,
-    "end": 260
-  },
-  {
-    "type": "Punctuator",
-    "value": ";",
-    "start": 260,
-    "end": 261
-  },
-  {
-    "type": "Keyword",
-    "value": "export",
-    "start": 262,
-    "end": 268
-  },
-  {
-    "type": "Punctuator",
-    "value": "=",
-    "start": 269,
-    "end": 270
-  },
-  {
-    "type": "Identifier",
-    "value": "server",
-    "start": 271,
-    "end": 277
-  },
-  {
-    "type": "Punctuator",
-    "value": ";",
-    "start": 277,
-    "end": 278
-  },
-  {
-    "type": "Keyword",
-    "value": "export",
-    "start": 279,
-    "end": 285
-  },
-  {
-    "type": "Punctuator",
-    "value": "=",
-    "start": 286,
-    "end": 287
+    "start": 198,
+    "end": 199
   },
   {
     "type": "Identifier",
     "value": "connectExport",
-    "start": 288,
-    "end": 301
+    "start": 200,
+    "end": 213
   },
   {
     "type": "Punctuator",
     "value": ";",
-    "start": 301,
-    "end": 302
+    "start": 213,
+    "end": 214
+  },
+  {
+    "type": "Identifier",
+    "value": "test1",
+    "start": 219,
+    "end": 224
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 224,
+    "end": 225
+  },
+  {
+    "type": "Identifier",
+    "value": "connectModule",
+    "start": 226,
+    "end": 239
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 239,
+    "end": 240
+  },
+  {
+    "type": "Identifier",
+    "value": "test2",
+    "start": 245,
+    "end": 250
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 250,
+    "end": 251
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 251,
+    "end": 252
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 252,
+    "end": 253
+  },
+  {
+    "type": "Identifier",
+    "value": "connectModule",
+    "start": 254,
+    "end": 267
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 267,
+    "end": 268
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 269,
+    "end": 270
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 270,
+    "end": 271
+  },
+  {
+    "type": "Keyword",
+    "value": "export",
+    "start": 272,
+    "end": 278
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 279,
+    "end": 280
+  },
+  {
+    "type": "Identifier",
+    "value": "server",
+    "start": 281,
+    "end": 287
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 287,
+    "end": 288
+  },
+  {
+    "type": "Keyword",
+    "value": "export",
+    "start": 289,
+    "end": 295
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 296,
+    "end": 297
+  },
+  {
+    "type": "Identifier",
+    "value": "connectExport",
+    "start": 298,
+    "end": 311
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 311,
+    "end": 312
   }
 ]
 ```
