@@ -1104,28 +1104,28 @@ __ESTREE_TEST__:AST:
                   "name": "TodoListProps",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 673,
-                  "end": 686
+                  "start": 681,
+                  "end": 694
                 },
                 "typeArguments": null,
-                "start": 673,
-                "end": 686
+                "start": 681,
+                "end": 694
               },
-              "start": 671,
-              "end": 686
+              "start": 679,
+              "end": 694
             },
-            "start": 670,
-            "end": 686
+            "start": 678,
+            "end": 694
           },
           "init": null,
           "definite": false,
-          "start": 670,
-          "end": 686
+          "start": 678,
+          "end": 694
         }
       ],
-      "declare": false,
+      "declare": true,
       "start": 666,
-      "end": 687
+      "end": 695
     },
     {
       "type": "ExpressionStatement",
@@ -1136,8 +1136,8 @@ __ESTREE_TEST__:AST:
           "name": {
             "type": "JSXIdentifier",
             "name": "TodoList",
-            "start": 693,
-            "end": 701
+            "start": 701,
+            "end": 709
           },
           "typeArguments": null,
           "attributes": [
@@ -1149,31 +1149,31 @@ __ESTREE_TEST__:AST:
                 "name": "x",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 706,
-                "end": 707
+                "start": 714,
+                "end": 715
               },
-              "start": 702,
-              "end": 708
+              "start": 710,
+              "end": 716
             }
           ],
           "selfClosing": true,
-          "start": 692,
-          "end": 710
+          "start": 700,
+          "end": 718
         },
         "children": [],
         "closingElement": null,
-        "start": 692,
-        "end": 710
+        "start": 700,
+        "end": 718
       },
       "directive": null,
-      "start": 692,
-      "end": 710
+      "start": 700,
+      "end": 718
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 710
+  "end": 718
 }
 ```
 __ESTREE_TEST__:TOKENS:
@@ -2320,82 +2320,88 @@ __ESTREE_TEST__:TOKENS:
     "end": 665
   },
   {
+    "type": "Identifier",
+    "value": "declare",
+    "start": 666,
+    "end": 673
+  },
+  {
     "type": "Keyword",
     "value": "let",
-    "start": 666,
-    "end": 669
+    "start": 674,
+    "end": 677
   },
   {
     "type": "Identifier",
     "value": "x",
-    "start": 670,
-    "end": 671
+    "start": 678,
+    "end": 679
   },
   {
     "type": "Punctuator",
     "value": ":",
-    "start": 671,
-    "end": 672
+    "start": 679,
+    "end": 680
   },
   {
     "type": "Identifier",
     "value": "TodoListProps",
-    "start": 673,
-    "end": 686
+    "start": 681,
+    "end": 694
   },
   {
     "type": "Punctuator",
     "value": ";",
-    "start": 686,
-    "end": 687
+    "start": 694,
+    "end": 695
   },
   {
     "type": "Punctuator",
     "value": "<",
-    "start": 692,
-    "end": 693
+    "start": 700,
+    "end": 701
   },
   {
     "type": "JSXIdentifier",
     "value": "TodoList",
-    "start": 693,
-    "end": 701
-  },
-  {
-    "type": "Punctuator",
-    "value": "{",
-    "start": 702,
-    "end": 703
-  },
-  {
-    "type": "Punctuator",
-    "value": "...",
-    "start": 703,
-    "end": 706
-  },
-  {
-    "type": "Identifier",
-    "value": "x",
-    "start": 706,
-    "end": 707
-  },
-  {
-    "type": "Punctuator",
-    "value": "}",
-    "start": 707,
-    "end": 708
-  },
-  {
-    "type": "Punctuator",
-    "value": "/",
-    "start": 708,
+    "start": 701,
     "end": 709
   },
   {
     "type": "Punctuator",
+    "value": "{",
+    "start": 710,
+    "end": 711
+  },
+  {
+    "type": "Punctuator",
+    "value": "...",
+    "start": 711,
+    "end": 714
+  },
+  {
+    "type": "Identifier",
+    "value": "x",
+    "start": 714,
+    "end": 715
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 715,
+    "end": 716
+  },
+  {
+    "type": "Punctuator",
+    "value": "/",
+    "start": 716,
+    "end": 717
+  },
+  {
+    "type": "Punctuator",
     "value": ">",
-    "start": 709,
-    "end": 710
+    "start": 717,
+    "end": 718
   }
 ]
 ```

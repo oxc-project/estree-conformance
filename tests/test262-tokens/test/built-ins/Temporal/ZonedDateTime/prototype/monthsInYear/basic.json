@@ -1,0 +1,290 @@
+[
+  {
+    "type": "Keyword",
+    "value": "const",
+    "start": 320,
+    "end": 325
+  },
+  {
+    "type": "Identifier",
+    "value": "zdt",
+    "start": 326,
+    "end": 329
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 330,
+    "end": 331
+  },
+  {
+    "type": "Keyword",
+    "value": "new",
+    "start": 332,
+    "end": 335
+  },
+  {
+    "type": "Identifier",
+    "value": "Temporal",
+    "start": 336,
+    "end": 344
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 344,
+    "end": 345
+  },
+  {
+    "type": "Identifier",
+    "value": "ZonedDateTime",
+    "start": 345,
+    "end": 358
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 358,
+    "end": 359
+  },
+  {
+    "type": "Numeric",
+    "value": "217178610123456789n",
+    "start": 359,
+    "end": 378
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 378,
+    "end": 379
+  },
+  {
+    "type": "String",
+    "value": "\"UTC\"",
+    "start": 380,
+    "end": 385
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 385,
+    "end": 386
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 386,
+    "end": 387
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 388,
+    "end": 394
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 394,
+    "end": 395
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 395,
+    "end": 404
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 404,
+    "end": 405
+  },
+  {
+    "type": "Identifier",
+    "value": "zdt",
+    "start": 405,
+    "end": 408
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 408,
+    "end": 409
+  },
+  {
+    "type": "Identifier",
+    "value": "monthsInYear",
+    "start": 409,
+    "end": 421
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 421,
+    "end": 422
+  },
+  {
+    "type": "Numeric",
+    "value": "12",
+    "start": 423,
+    "end": 425
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 425,
+    "end": 426
+  },
+  {
+    "type": "String",
+    "value": "\"check months in year information\"",
+    "start": 427,
+    "end": 461
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 461,
+    "end": 462
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 462,
+    "end": 463
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 464,
+    "end": 470
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 470,
+    "end": 471
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 471,
+    "end": 480
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 480,
+    "end": 481
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 481,
+    "end": 482
+  },
+  {
+    "type": "Keyword",
+    "value": "new",
+    "start": 482,
+    "end": 485
+  },
+  {
+    "type": "Identifier",
+    "value": "Temporal",
+    "start": 486,
+    "end": 494
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 494,
+    "end": 495
+  },
+  {
+    "type": "Identifier",
+    "value": "ZonedDateTime",
+    "start": 495,
+    "end": 508
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 508,
+    "end": 509
+  },
+  {
+    "type": "Punctuator",
+    "value": "-",
+    "start": 509,
+    "end": 510
+  },
+  {
+    "type": "Numeric",
+    "value": "23205637787000000000n",
+    "start": 510,
+    "end": 531
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 531,
+    "end": 532
+  },
+  {
+    "type": "String",
+    "value": "\"UTC\"",
+    "start": 533,
+    "end": 538
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 538,
+    "end": 539
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 539,
+    "end": 540
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 540,
+    "end": 541
+  },
+  {
+    "type": "Identifier",
+    "value": "monthsInYear",
+    "start": 541,
+    "end": 553
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 553,
+    "end": 554
+  },
+  {
+    "type": "Numeric",
+    "value": "12",
+    "start": 555,
+    "end": 557
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 557,
+    "end": 558
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 558,
+    "end": 559
+  }
+]

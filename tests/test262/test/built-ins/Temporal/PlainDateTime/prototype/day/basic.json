@@ -1,0 +1,233 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 281,
+            "end": 287
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 288,
+            "end": 297
+          },
+          "optional": false,
+          "computed": false,
+          "start": 281,
+          "end": 297
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "ParenthesizedExpression",
+              "expression": {
+                "type": "NewExpression",
+                "callee": {
+                  "type": "MemberExpression",
+                  "object": {
+                    "type": "Identifier",
+                    "name": "Temporal",
+                    "start": 303,
+                    "end": 311
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "name": "PlainDateTime",
+                    "start": 312,
+                    "end": 325
+                  },
+                  "optional": false,
+                  "computed": false,
+                  "start": 303,
+                  "end": 325
+                },
+                "arguments": [
+                  {
+                    "type": "Literal",
+                    "value": 2021,
+                    "raw": "2021",
+                    "start": 326,
+                    "end": 330
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 7,
+                    "raw": "7",
+                    "start": 332,
+                    "end": 333
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 15,
+                    "raw": "15",
+                    "start": 335,
+                    "end": 337
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 5,
+                    "raw": "5",
+                    "start": 339,
+                    "end": 340
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 30,
+                    "raw": "30",
+                    "start": 342,
+                    "end": 344
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 13,
+                    "raw": "13",
+                    "start": 346,
+                    "end": 348
+                  }
+                ],
+                "start": 299,
+                "end": 349
+              },
+              "start": 298,
+              "end": 350
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "day",
+              "start": 351,
+              "end": 354
+            },
+            "optional": false,
+            "computed": false,
+            "start": 298,
+            "end": 354
+          },
+          {
+            "type": "Literal",
+            "value": 15,
+            "raw": "15",
+            "start": 356,
+            "end": 358
+          }
+        ],
+        "optional": false,
+        "start": 281,
+        "end": 359
+      },
+      "start": 281,
+      "end": 360
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 361,
+            "end": 367
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 368,
+            "end": 377
+          },
+          "optional": false,
+          "computed": false,
+          "start": 361,
+          "end": 377
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "CallExpression",
+              "callee": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "MemberExpression",
+                  "object": {
+                    "type": "Identifier",
+                    "name": "Temporal",
+                    "start": 378,
+                    "end": 386
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "name": "PlainDateTime",
+                    "start": 387,
+                    "end": 400
+                  },
+                  "optional": false,
+                  "computed": false,
+                  "start": 378,
+                  "end": 400
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "from",
+                  "start": 401,
+                  "end": 405
+                },
+                "optional": false,
+                "computed": false,
+                "start": 378,
+                "end": 405
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "value": "2019-03-18T05:30:13",
+                  "raw": "'2019-03-18T05:30:13'",
+                  "start": 406,
+                  "end": 427
+                }
+              ],
+              "optional": false,
+              "start": 378,
+              "end": 428
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "day",
+              "start": 429,
+              "end": 432
+            },
+            "optional": false,
+            "computed": false,
+            "start": 378,
+            "end": 432
+          },
+          {
+            "type": "Literal",
+            "value": 18,
+            "raw": "18",
+            "start": 434,
+            "end": 436
+          }
+        ],
+        "optional": false,
+        "start": 361,
+        "end": 437
+      },
+      "start": 361,
+      "end": 438
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 439
+}

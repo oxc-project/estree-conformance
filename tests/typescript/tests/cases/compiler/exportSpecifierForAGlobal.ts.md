@@ -155,28 +155,28 @@ __ESTREE_TEST__:AST:
                           "name": "X",
                           "optional": false,
                           "typeAnnotation": null,
-                          "start": 45,
-                          "end": 46
+                          "start": 46,
+                          "end": 47
                         },
                         "typeArguments": null,
-                        "start": 45,
-                        "end": 46
+                        "start": 46,
+                        "end": 47
                       },
-                      "start": 43,
-                      "end": 46
+                      "start": 44,
+                      "end": 47
                     },
                     "start": 42,
-                    "end": 46
+                    "end": 47
                   },
                   "init": null,
-                  "definite": false,
+                  "definite": true,
                   "start": 42,
-                  "end": 46
+                  "end": 47
                 }
               ],
               "declare": false,
               "start": 38,
-              "end": 47
+              "end": 48
             },
             {
               "type": "ReturnStatement",
@@ -186,32 +186,32 @@ __ESTREE_TEST__:AST:
                 "name": "x",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 59,
-                "end": 60
+                "start": 60,
+                "end": 61
               },
-              "start": 52,
-              "end": 61
+              "start": 53,
+              "end": 62
             }
           ],
           "start": 32,
-          "end": 63
+          "end": 64
         },
         "expression": false,
         "start": 19,
-        "end": 63
+        "end": 64
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
       "attributes": [],
       "start": 12,
-      "end": 63
+      "end": 64
     }
   ],
   "sourceType": "module",
   "hashbang": null,
   "start": 0,
-  "end": 64
+  "end": 65
 }
 ```
 __ESTREE_TEST__:TOKENS:
@@ -297,45 +297,51 @@ __ESTREE_TEST__:TOKENS:
   },
   {
     "type": "Punctuator",
-    "value": ":",
+    "value": "!",
     "start": 43,
     "end": 44
   },
   {
-    "type": "Identifier",
-    "value": "X",
-    "start": 45,
-    "end": 46
+    "type": "Punctuator",
+    "value": ":",
+    "start": 44,
+    "end": 45
   },
   {
-    "type": "Punctuator",
-    "value": ";",
+    "type": "Identifier",
+    "value": "X",
     "start": 46,
     "end": 47
   },
   {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 47,
+    "end": 48
+  },
+  {
     "type": "Keyword",
     "value": "return",
-    "start": 52,
-    "end": 58
+    "start": 53,
+    "end": 59
   },
   {
     "type": "Identifier",
     "value": "x",
-    "start": 59,
-    "end": 60
-  },
-  {
-    "type": "Punctuator",
-    "value": ";",
     "start": 60,
     "end": 61
   },
   {
     "type": "Punctuator",
+    "value": ";",
+    "start": 61,
+    "end": 62
+  },
+  {
+    "type": "Punctuator",
     "value": "}",
-    "start": 62,
-    "end": 63
+    "start": 63,
+    "end": 64
   }
 ]
 ```

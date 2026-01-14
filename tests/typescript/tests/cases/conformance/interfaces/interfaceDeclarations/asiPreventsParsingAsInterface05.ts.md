@@ -40,15 +40,21 @@ __ESTREE_TEST__:AST:
             "start": 18,
             "end": 35
           },
-          "init": null,
+          "init": {
+            "type": "Literal",
+            "value": 123,
+            "raw": "123",
+            "start": 38,
+            "end": 41
+          },
           "definite": false,
           "start": 18,
-          "end": 35
+          "end": 41
         }
       ],
       "declare": false,
       "start": 14,
-      "end": 36
+      "end": 42
     },
     {
       "type": "ExpressionStatement",
@@ -58,12 +64,12 @@ __ESTREE_TEST__:AST:
         "name": "interface",
         "optional": false,
         "typeAnnotation": null,
-        "start": 365,
-        "end": 374
+        "start": 371,
+        "end": 380
       },
       "directive": null,
-      "start": 365,
-      "end": 374
+      "start": 371,
+      "end": 380
     },
     {
       "type": "ExpressionStatement",
@@ -73,24 +79,24 @@ __ESTREE_TEST__:AST:
         "name": "I",
         "optional": false,
         "typeAnnotation": null,
-        "start": 422,
-        "end": 423
+        "start": 428,
+        "end": 429
       },
       "directive": null,
-      "start": 422,
-      "end": 423
+      "start": 428,
+      "end": 429
     },
     {
       "type": "BlockStatement",
       "body": [],
-      "start": 471,
-      "end": 474
+      "start": 477,
+      "end": 480
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 513
+  "end": 519
 }
 ```
 __ESTREE_TEST__:TOKENS:
@@ -128,33 +134,45 @@ __ESTREE_TEST__:TOKENS:
   },
   {
     "type": "Punctuator",
+    "value": "=",
+    "start": 36,
+    "end": 37
+  },
+  {
+    "type": "Numeric",
+    "value": "123",
+    "start": 38,
+    "end": 41
+  },
+  {
+    "type": "Punctuator",
     "value": ";",
-    "start": 35,
-    "end": 36
+    "start": 41,
+    "end": 42
   },
   {
     "type": "Identifier",
     "value": "interface",
-    "start": 365,
-    "end": 374
+    "start": 371,
+    "end": 380
   },
   {
     "type": "Identifier",
     "value": "I",
-    "start": 422,
-    "end": 423
+    "start": 428,
+    "end": 429
   },
   {
     "type": "Punctuator",
     "value": "{",
-    "start": 471,
-    "end": 472
+    "start": 477,
+    "end": 478
   },
   {
     "type": "Punctuator",
     "value": "}",
-    "start": 473,
-    "end": 474
+    "start": 479,
+    "end": 480
   }
 ]
 ```

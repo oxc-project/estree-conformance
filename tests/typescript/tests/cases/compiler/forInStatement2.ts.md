@@ -18,24 +18,24 @@ __ESTREE_TEST__:AST:
               "type": "TSTypeAnnotation",
               "typeAnnotation": {
                 "type": "TSNumberKeyword",
-                "start": 10,
-                "end": 16
+                "start": 18,
+                "end": 24
               },
-              "start": 8,
-              "end": 16
+              "start": 16,
+              "end": 24
             },
-            "start": 4,
-            "end": 16
+            "start": 12,
+            "end": 24
           },
           "init": null,
           "definite": false,
-          "start": 4,
-          "end": 16
+          "start": 12,
+          "end": 24
         }
       ],
-      "declare": false,
+      "declare": true,
       "start": 0,
-      "end": 17
+      "end": 25
     },
     {
       "type": "ForInStatement",
@@ -51,18 +51,18 @@ __ESTREE_TEST__:AST:
               "name": "a",
               "optional": false,
               "typeAnnotation": null,
-              "start": 27,
-              "end": 28
+              "start": 35,
+              "end": 36
             },
             "init": null,
             "definite": false,
-            "start": 27,
-            "end": 28
+            "start": 35,
+            "end": 36
           }
         ],
         "declare": false,
-        "start": 23,
-        "end": 28
+        "start": 31,
+        "end": 36
       },
       "right": {
         "type": "Identifier",
@@ -70,111 +70,117 @@ __ESTREE_TEST__:AST:
         "name": "expr",
         "optional": false,
         "typeAnnotation": null,
-        "start": 32,
-        "end": 36
+        "start": 40,
+        "end": 44
       },
       "body": {
         "type": "BlockStatement",
         "body": [],
-        "start": 38,
-        "end": 41
+        "start": 46,
+        "end": 49
       },
-      "start": 18,
-      "end": 41
+      "start": 26,
+      "end": 49
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 41
+  "end": 49
 }
 ```
 __ESTREE_TEST__:TOKENS:
 ```json
 [
   {
+    "type": "Identifier",
+    "value": "declare",
+    "start": 0,
+    "end": 7
+  },
+  {
     "type": "Keyword",
     "value": "var",
-    "start": 0,
-    "end": 3
+    "start": 8,
+    "end": 11
   },
   {
     "type": "Identifier",
     "value": "expr",
-    "start": 4,
-    "end": 8
-  },
-  {
-    "type": "Punctuator",
-    "value": ":",
-    "start": 8,
-    "end": 9
-  },
-  {
-    "type": "Identifier",
-    "value": "number",
-    "start": 10,
+    "start": 12,
     "end": 16
   },
   {
     "type": "Punctuator",
-    "value": ";",
+    "value": ":",
     "start": 16,
     "end": 17
   },
   {
+    "type": "Identifier",
+    "value": "number",
+    "start": 18,
+    "end": 24
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 24,
+    "end": 25
+  },
+  {
     "type": "Keyword",
     "value": "for",
-    "start": 18,
-    "end": 21
+    "start": 26,
+    "end": 29
   },
   {
     "type": "Punctuator",
     "value": "(",
-    "start": 22,
-    "end": 23
+    "start": 30,
+    "end": 31
   },
   {
     "type": "Keyword",
     "value": "var",
-    "start": 23,
-    "end": 26
+    "start": 31,
+    "end": 34
   },
   {
     "type": "Identifier",
     "value": "a",
-    "start": 27,
-    "end": 28
+    "start": 35,
+    "end": 36
   },
   {
     "type": "Keyword",
     "value": "in",
-    "start": 29,
-    "end": 31
+    "start": 37,
+    "end": 39
   },
   {
     "type": "Identifier",
     "value": "expr",
-    "start": 32,
-    "end": 36
+    "start": 40,
+    "end": 44
   },
   {
     "type": "Punctuator",
     "value": ")",
-    "start": 36,
-    "end": 37
+    "start": 44,
+    "end": 45
   },
   {
     "type": "Punctuator",
     "value": "{",
-    "start": 38,
-    "end": 39
+    "start": 46,
+    "end": 47
   },
   {
     "type": "Punctuator",
     "value": "}",
-    "start": 40,
-    "end": 41
+    "start": 48,
+    "end": 49
   }
 ]
 ```

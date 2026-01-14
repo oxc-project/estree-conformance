@@ -1,0 +1,296 @@
+[
+  {
+    "type": "Keyword",
+    "value": "const",
+    "start": 272,
+    "end": 277
+  },
+  {
+    "type": "Identifier",
+    "value": "result",
+    "start": 278,
+    "end": 284
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 285,
+    "end": 286
+  },
+  {
+    "type": "Identifier",
+    "value": "Temporal",
+    "start": 287,
+    "end": 295
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 295,
+    "end": 296
+  },
+  {
+    "type": "Identifier",
+    "value": "ZonedDateTime",
+    "start": 296,
+    "end": 309
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 309,
+    "end": 310
+  },
+  {
+    "type": "Identifier",
+    "value": "from",
+    "start": 310,
+    "end": 314
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 314,
+    "end": 315
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 315,
+    "end": 316
+  },
+  {
+    "type": "Identifier",
+    "value": "year",
+    "start": 317,
+    "end": 321
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 321,
+    "end": 322
+  },
+  {
+    "type": "Numeric",
+    "value": "2000",
+    "start": 323,
+    "end": 327
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 327,
+    "end": 328
+  },
+  {
+    "type": "Identifier",
+    "value": "month",
+    "start": 329,
+    "end": 334
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 334,
+    "end": 335
+  },
+  {
+    "type": "Numeric",
+    "value": "5",
+    "start": 336,
+    "end": 337
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 337,
+    "end": 338
+  },
+  {
+    "type": "Identifier",
+    "value": "day",
+    "start": 339,
+    "end": 342
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 342,
+    "end": 343
+  },
+  {
+    "type": "Numeric",
+    "value": "2",
+    "start": 344,
+    "end": 345
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 345,
+    "end": 346
+  },
+  {
+    "type": "Identifier",
+    "value": "timeZone",
+    "start": 347,
+    "end": 355
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 355,
+    "end": 356
+  },
+  {
+    "type": "Keyword",
+    "value": "new",
+    "start": 357,
+    "end": 360
+  },
+  {
+    "type": "Identifier",
+    "value": "Temporal",
+    "start": 361,
+    "end": 369
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 369,
+    "end": 370
+  },
+  {
+    "type": "Identifier",
+    "value": "ZonedDateTime",
+    "start": 370,
+    "end": 383
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 383,
+    "end": 384
+  },
+  {
+    "type": "Numeric",
+    "value": "0n",
+    "start": 384,
+    "end": 386
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 386,
+    "end": 387
+  },
+  {
+    "type": "String",
+    "value": "\"UTC\"",
+    "start": 388,
+    "end": 393
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 393,
+    "end": 394
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 395,
+    "end": 396
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 396,
+    "end": 397
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 397,
+    "end": 398
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 399,
+    "end": 405
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 405,
+    "end": 406
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 406,
+    "end": 415
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 415,
+    "end": 416
+  },
+  {
+    "type": "Identifier",
+    "value": "result",
+    "start": 416,
+    "end": 422
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 422,
+    "end": 423
+  },
+  {
+    "type": "Identifier",
+    "value": "timeZoneId",
+    "start": 423,
+    "end": 433
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 433,
+    "end": 434
+  },
+  {
+    "type": "String",
+    "value": "\"UTC\"",
+    "start": 435,
+    "end": 440
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 440,
+    "end": 441
+  },
+  {
+    "type": "String",
+    "value": "'Time zone created from ZonedDateTime object'",
+    "start": 442,
+    "end": 487
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 487,
+    "end": 488
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 488,
+    "end": 489
+  }
+]

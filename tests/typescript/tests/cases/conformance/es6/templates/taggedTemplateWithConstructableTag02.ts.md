@@ -115,28 +115,28 @@ __ESTREE_TEST__:AST:
                   "name": "I",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 79,
-                  "end": 80
+                  "start": 87,
+                  "end": 88
                 },
                 "typeArguments": null,
-                "start": 79,
-                "end": 80
+                "start": 87,
+                "end": 88
               },
-              "start": 77,
-              "end": 80
+              "start": 85,
+              "end": 88
             },
-            "start": 74,
-            "end": 80
+            "start": 82,
+            "end": 88
           },
           "init": null,
           "definite": false,
-          "start": 74,
-          "end": 80
+          "start": 82,
+          "end": 88
         }
       ],
-      "declare": false,
+      "declare": true,
       "start": 70,
-      "end": 81
+      "end": 89
     },
     {
       "type": "ExpressionStatement",
@@ -148,8 +148,8 @@ __ESTREE_TEST__:AST:
           "name": "tag",
           "optional": false,
           "typeAnnotation": null,
-          "start": 82,
-          "end": 85
+          "start": 90,
+          "end": 93
         },
         "typeArguments": null,
         "quasi": {
@@ -162,26 +162,26 @@ __ESTREE_TEST__:AST:
                 "cooked": "Hello world!"
               },
               "tail": true,
-              "start": 86,
-              "end": 100
+              "start": 94,
+              "end": 108
             }
           ],
           "expressions": [],
-          "start": 86,
-          "end": 100
+          "start": 94,
+          "end": 108
         },
-        "start": 82,
-        "end": 100
+        "start": 90,
+        "end": 108
       },
       "directive": null,
-      "start": 82,
-      "end": 101
+      "start": 90,
+      "end": 109
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 101
+  "end": 109
 }
 ```
 __ESTREE_TEST__:TOKENS:
@@ -320,33 +320,15 @@ __ESTREE_TEST__:TOKENS:
     "end": 69
   },
   {
-    "type": "Keyword",
-    "value": "var",
-    "start": 70,
-    "end": 73
-  },
-  {
     "type": "Identifier",
-    "value": "tag",
-    "start": 74,
+    "value": "declare",
+    "start": 70,
     "end": 77
   },
   {
-    "type": "Punctuator",
-    "value": ":",
-    "start": 77,
-    "end": 78
-  },
-  {
-    "type": "Identifier",
-    "value": "I",
-    "start": 79,
-    "end": 80
-  },
-  {
-    "type": "Punctuator",
-    "value": ";",
-    "start": 80,
+    "type": "Keyword",
+    "value": "var",
+    "start": 78,
     "end": 81
   },
   {
@@ -356,16 +338,40 @@ __ESTREE_TEST__:TOKENS:
     "end": 85
   },
   {
-    "type": "Template",
-    "value": "`Hello world!`",
-    "start": 86,
-    "end": 100
+    "type": "Punctuator",
+    "value": ":",
+    "start": 85,
+    "end": 86
+  },
+  {
+    "type": "Identifier",
+    "value": "I",
+    "start": 87,
+    "end": 88
   },
   {
     "type": "Punctuator",
     "value": ";",
-    "start": 100,
-    "end": 101
+    "start": 88,
+    "end": 89
+  },
+  {
+    "type": "Identifier",
+    "value": "tag",
+    "start": 90,
+    "end": 93
+  },
+  {
+    "type": "Template",
+    "value": "`Hello world!`",
+    "start": 94,
+    "end": 108
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 108,
+    "end": 109
   }
 ]
 ```

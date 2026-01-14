@@ -1,0 +1,258 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "invalidStrings",
+            "start": 282,
+            "end": 296
+          },
+          "init": {
+            "type": "ArrayExpression",
+            "elements": [
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "value": "05:07.123",
+                    "raw": "\"05:07.123\"",
+                    "start": 304,
+                    "end": 315
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "Fractional minutes",
+                    "raw": "\"Fractional minutes\"",
+                    "start": 317,
+                    "end": 337
+                  }
+                ],
+                "start": 303,
+                "end": 338
+              },
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "value": "12.5",
+                    "raw": "\"12.5\"",
+                    "start": 343,
+                    "end": 349
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "Fractional hours",
+                    "raw": "\"Fractional hours\"",
+                    "start": 351,
+                    "end": 369
+                  }
+                ],
+                "start": 342,
+                "end": 370
+              }
+            ],
+            "start": 299,
+            "end": 373
+          },
+          "start": 282,
+          "end": 373
+        }
+      ],
+      "start": 276,
+      "end": 374
+    },
+    {
+      "type": "ForOfStatement",
+      "await": false,
+      "left": {
+        "type": "VariableDeclaration",
+        "kind": "const",
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "id": {
+              "type": "ArrayPattern",
+              "elements": [
+                {
+                  "type": "Identifier",
+                  "name": "arg",
+                  "start": 388,
+                  "end": 391
+                },
+                {
+                  "type": "Identifier",
+                  "name": "description",
+                  "start": 393,
+                  "end": 404
+                }
+              ],
+              "start": 387,
+              "end": 405
+            },
+            "init": null,
+            "start": 387,
+            "end": 405
+          }
+        ],
+        "start": 381,
+        "end": 405
+      },
+      "right": {
+        "type": "Identifier",
+        "name": "invalidStrings",
+        "start": 409,
+        "end": 423
+      },
+      "body": {
+        "type": "BlockStatement",
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "expression": {
+              "type": "CallExpression",
+              "callee": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "assert",
+                  "start": 429,
+                  "end": 435
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "throws",
+                  "start": 436,
+                  "end": 442
+                },
+                "optional": false,
+                "computed": false,
+                "start": 429,
+                "end": 442
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "name": "RangeError",
+                  "start": 448,
+                  "end": 458
+                },
+                {
+                  "type": "ArrowFunctionExpression",
+                  "expression": true,
+                  "async": false,
+                  "params": [],
+                  "body": {
+                    "type": "CallExpression",
+                    "callee": {
+                      "type": "MemberExpression",
+                      "object": {
+                        "type": "MemberExpression",
+                        "object": {
+                          "type": "Identifier",
+                          "name": "Temporal",
+                          "start": 472,
+                          "end": 480
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "name": "PlainTime",
+                          "start": 481,
+                          "end": 490
+                        },
+                        "optional": false,
+                        "computed": false,
+                        "start": 472,
+                        "end": 490
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "name": "from",
+                        "start": 491,
+                        "end": 495
+                      },
+                      "optional": false,
+                      "computed": false,
+                      "start": 472,
+                      "end": 495
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "name": "arg",
+                        "start": 496,
+                        "end": 499
+                      }
+                    ],
+                    "optional": false,
+                    "start": 472,
+                    "end": 500
+                  },
+                  "id": null,
+                  "generator": false,
+                  "start": 466,
+                  "end": 500
+                },
+                {
+                  "type": "TemplateLiteral",
+                  "quasis": [
+                    {
+                      "type": "TemplateElement",
+                      "value": {
+                        "raw": "",
+                        "cooked": ""
+                      },
+                      "tail": false,
+                      "start": 507,
+                      "end": 507
+                    },
+                    {
+                      "type": "TemplateElement",
+                      "value": {
+                        "raw": " not allowed in time string",
+                        "cooked": " not allowed in time string"
+                      },
+                      "tail": true,
+                      "start": 521,
+                      "end": 548
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "name": "description",
+                      "start": 509,
+                      "end": 520
+                    }
+                  ],
+                  "start": 506,
+                  "end": 549
+                }
+              ],
+              "optional": false,
+              "start": 429,
+              "end": 553
+            },
+            "start": 429,
+            "end": 554
+          }
+        ],
+        "start": 425,
+        "end": 556
+      },
+      "start": 376,
+      "end": 556
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 557
+}

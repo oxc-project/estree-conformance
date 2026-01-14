@@ -3,15 +3,15 @@
   "body": [
     {
       "type": "VariableDeclaration",
-      "kind": "const",
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "id": {
             "type": "Identifier",
             "name": "result",
-            "start": 243,
-            "end": 249
+            "start": 241,
+            "end": 247
           },
           "init": {
             "type": "NewExpression",
@@ -20,59 +20,59 @@
               "object": {
                 "type": "Identifier",
                 "name": "Temporal",
-                "start": 256,
-                "end": 264
+                "start": 254,
+                "end": 262
               },
               "property": {
                 "type": "Identifier",
                 "name": "PlainMonthDay",
-                "start": 265,
-                "end": 278
+                "start": 263,
+                "end": 276
               },
               "optional": false,
               "computed": false,
-              "start": 256,
-              "end": 278
+              "start": 254,
+              "end": 276
             },
             "arguments": [
               {
                 "type": "Literal",
                 "value": 2,
                 "raw": "2",
-                "start": 279,
-                "end": 280
+                "start": 277,
+                "end": 278
               },
               {
                 "type": "Literal",
                 "value": 11,
                 "raw": "11",
-                "start": 282,
-                "end": 284
+                "start": 280,
+                "end": 282
               },
               {
                 "type": "Literal",
                 "value": "islamicc",
                 "raw": "\"islamicc\"",
-                "start": 286,
-                "end": 296
+                "start": 284,
+                "end": 294
               },
               {
                 "type": "Literal",
                 "value": 1972,
                 "raw": "1972",
-                "start": 298,
-                "end": 302
+                "start": 296,
+                "end": 300
               }
             ],
-            "start": 252,
-            "end": 303
+            "start": 250,
+            "end": 301
           },
-          "start": 243,
-          "end": 303
+          "start": 241,
+          "end": 301
         }
       ],
       "start": 237,
-      "end": 304
+      "end": 302
     },
     {
       "type": "ExpressionStatement",
@@ -83,19 +83,19 @@
           "object": {
             "type": "Identifier",
             "name": "assert",
-            "start": 305,
-            "end": 311
+            "start": 303,
+            "end": 309
           },
           "property": {
             "type": "Identifier",
             "name": "sameValue",
-            "start": 312,
-            "end": 321
+            "start": 310,
+            "end": 319
           },
           "optional": false,
           "computed": false,
-          "start": 305,
-          "end": 321
+          "start": 303,
+          "end": 319
         },
         "arguments": [
           {
@@ -103,45 +103,174 @@
             "object": {
               "type": "Identifier",
               "name": "result",
-              "start": 322,
-              "end": 328
+              "start": 320,
+              "end": 326
             },
             "property": {
               "type": "Identifier",
               "name": "calendarId",
-              "start": 329,
-              "end": 339
+              "start": 327,
+              "end": 337
             },
             "optional": false,
             "computed": false,
-            "start": 322,
-            "end": 339
+            "start": 320,
+            "end": 337
           },
           {
             "type": "Literal",
             "value": "islamic-civil",
             "raw": "\"islamic-civil\"",
-            "start": 341,
-            "end": 356
+            "start": 339,
+            "end": 354
           },
           {
             "type": "Literal",
             "value": "calendar ID is canonicalized",
             "raw": "\"calendar ID is canonicalized\"",
-            "start": 358,
-            "end": 388
+            "start": 356,
+            "end": 386
           }
         ],
         "optional": false,
-        "start": 305,
-        "end": 389
+        "start": 303,
+        "end": 387
       },
-      "start": 305,
-      "end": 390
+      "start": 303,
+      "end": 388
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "AssignmentExpression",
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "name": "result",
+          "start": 481,
+          "end": 487
+        },
+        "right": {
+          "type": "NewExpression",
+          "callee": {
+            "type": "MemberExpression",
+            "object": {
+              "type": "Identifier",
+              "name": "Temporal",
+              "start": 494,
+              "end": 502
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "PlainMonthDay",
+              "start": 503,
+              "end": 516
+            },
+            "optional": false,
+            "computed": false,
+            "start": 494,
+            "end": 516
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "value": 2,
+              "raw": "2",
+              "start": 517,
+              "end": 518
+            },
+            {
+              "type": "Literal",
+              "value": 11,
+              "raw": "11",
+              "start": 520,
+              "end": 522
+            },
+            {
+              "type": "Literal",
+              "value": "ethiopic-amete-alem",
+              "raw": "\"ethiopic-amete-alem\"",
+              "start": 524,
+              "end": 545
+            }
+          ],
+          "start": 490,
+          "end": 546
+        },
+        "start": 481,
+        "end": 546
+      },
+      "start": 481,
+      "end": 547
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 548,
+            "end": 554
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 555,
+            "end": 564
+          },
+          "optional": false,
+          "computed": false,
+          "start": 548,
+          "end": 564
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "Identifier",
+              "name": "result",
+              "start": 565,
+              "end": 571
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "calendarId",
+              "start": 572,
+              "end": 582
+            },
+            "optional": false,
+            "computed": false,
+            "start": 565,
+            "end": 582
+          },
+          {
+            "type": "Literal",
+            "value": "ethioaa",
+            "raw": "\"ethioaa\"",
+            "start": 584,
+            "end": 593
+          },
+          {
+            "type": "Literal",
+            "value": "calendar ID is canonicalized",
+            "raw": "\"calendar ID is canonicalized\"",
+            "start": 595,
+            "end": 625
+          }
+        ],
+        "optional": false,
+        "start": 548,
+        "end": 626
+      },
+      "start": 548,
+      "end": 627
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 391
+  "end": 628
 }

@@ -1,0 +1,107 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 265,
+            "end": 271
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 272,
+            "end": 281
+          },
+          "optional": false,
+          "computed": false,
+          "start": 265,
+          "end": 281
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "ParenthesizedExpression",
+              "expression": {
+                "type": "NewExpression",
+                "callee": {
+                  "type": "MemberExpression",
+                  "object": {
+                    "type": "Identifier",
+                    "name": "Temporal",
+                    "start": 287,
+                    "end": 295
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "name": "ZonedDateTime",
+                    "start": 296,
+                    "end": 309
+                  },
+                  "optional": false,
+                  "computed": false,
+                  "start": 287,
+                  "end": 309
+                },
+                "arguments": [
+                  {
+                    "type": "Literal",
+                    "value": null,
+                    "raw": "0n",
+                    "bigint": "0",
+                    "start": 310,
+                    "end": 312
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "UTC",
+                    "raw": "\"UTC\"",
+                    "start": 314,
+                    "end": 319
+                  }
+                ],
+                "start": 283,
+                "end": 320
+              },
+              "start": 282,
+              "end": 321
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "monthCode",
+              "start": 322,
+              "end": 331
+            },
+            "optional": false,
+            "computed": false,
+            "start": 282,
+            "end": 331
+          },
+          {
+            "type": "Literal",
+            "value": "M01",
+            "raw": "'M01'",
+            "start": 333,
+            "end": 338
+          }
+        ],
+        "optional": false,
+        "start": 265,
+        "end": 339
+      },
+      "start": 265,
+      "end": 340
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 341
+}

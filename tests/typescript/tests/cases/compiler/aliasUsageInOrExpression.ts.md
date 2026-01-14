@@ -509,28 +509,28 @@ __ESTREE_TEST__:AST:
                   "name": "IHasVisualizationModel",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 221,
-                  "end": 243
+                  "start": 229,
+                  "end": 251
                 },
                 "typeArguments": null,
-                "start": 221,
-                "end": 243
+                "start": 229,
+                "end": 251
               },
-              "start": 219,
-              "end": 243
+              "start": 227,
+              "end": 251
             },
-            "start": 218,
-            "end": 243
+            "start": 226,
+            "end": 251
           },
           "init": null,
           "definite": false,
-          "start": 218,
-          "end": 243
+          "start": 226,
+          "end": 251
         }
       ],
-      "declare": false,
+      "declare": true,
       "start": 214,
-      "end": 244
+      "end": 252
     },
     {
       "type": "VariableDeclaration",
@@ -544,8 +544,8 @@ __ESTREE_TEST__:AST:
             "name": "d1",
             "optional": false,
             "typeAnnotation": null,
-            "start": 249,
-            "end": 251
+            "start": 257,
+            "end": 259
           },
           "init": {
             "type": "LogicalExpression",
@@ -555,8 +555,8 @@ __ESTREE_TEST__:AST:
               "name": "i",
               "optional": false,
               "typeAnnotation": null,
-              "start": 254,
-              "end": 255
+              "start": 262,
+              "end": 263
             },
             "operator": "||",
             "right": {
@@ -565,20 +565,20 @@ __ESTREE_TEST__:AST:
               "name": "moduleA",
               "optional": false,
               "typeAnnotation": null,
-              "start": 259,
-              "end": 266
+              "start": 267,
+              "end": 274
             },
-            "start": 254,
-            "end": 266
+            "start": 262,
+            "end": 274
           },
           "definite": false,
-          "start": 249,
-          "end": 266
+          "start": 257,
+          "end": 274
         }
       ],
       "declare": false,
-      "start": 245,
-      "end": 267
+      "start": 253,
+      "end": 275
     },
     {
       "type": "VariableDeclaration",
@@ -601,18 +601,18 @@ __ESTREE_TEST__:AST:
                   "name": "IHasVisualizationModel",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 276,
-                  "end": 298
+                  "start": 284,
+                  "end": 306
                 },
                 "typeArguments": null,
-                "start": 276,
-                "end": 298
+                "start": 284,
+                "end": 306
               },
-              "start": 274,
-              "end": 298
+              "start": 282,
+              "end": 306
             },
-            "start": 272,
-            "end": 298
+            "start": 280,
+            "end": 306
           },
           "init": {
             "type": "LogicalExpression",
@@ -622,8 +622,8 @@ __ESTREE_TEST__:AST:
               "name": "i",
               "optional": false,
               "typeAnnotation": null,
-              "start": 301,
-              "end": 302
+              "start": 309,
+              "end": 310
             },
             "operator": "||",
             "right": {
@@ -632,20 +632,20 @@ __ESTREE_TEST__:AST:
               "name": "moduleA",
               "optional": false,
               "typeAnnotation": null,
-              "start": 306,
-              "end": 313
+              "start": 314,
+              "end": 321
             },
-            "start": 301,
-            "end": 313
+            "start": 309,
+            "end": 321
           },
           "definite": false,
-          "start": 272,
-          "end": 313
+          "start": 280,
+          "end": 321
         }
       ],
       "declare": false,
-      "start": 268,
-      "end": 314
+      "start": 276,
+      "end": 322
     },
     {
       "type": "VariableDeclaration",
@@ -668,18 +668,18 @@ __ESTREE_TEST__:AST:
                   "name": "IHasVisualizationModel",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 323,
-                  "end": 345
+                  "start": 331,
+                  "end": 353
                 },
                 "typeArguments": null,
-                "start": 323,
-                "end": 345
+                "start": 331,
+                "end": 353
               },
-              "start": 321,
-              "end": 345
+              "start": 329,
+              "end": 353
             },
-            "start": 319,
-            "end": 345
+            "start": 327,
+            "end": 353
           },
           "init": {
             "type": "LogicalExpression",
@@ -689,8 +689,8 @@ __ESTREE_TEST__:AST:
               "name": "moduleA",
               "optional": false,
               "typeAnnotation": null,
-              "start": 348,
-              "end": 355
+              "start": 356,
+              "end": 363
             },
             "operator": "||",
             "right": {
@@ -699,20 +699,20 @@ __ESTREE_TEST__:AST:
               "name": "i",
               "optional": false,
               "typeAnnotation": null,
-              "start": 359,
-              "end": 360
+              "start": 367,
+              "end": 368
             },
-            "start": 348,
-            "end": 360
+            "start": 356,
+            "end": 368
           },
           "definite": false,
-          "start": 319,
-          "end": 360
+          "start": 327,
+          "end": 368
         }
       ],
       "declare": false,
-      "start": 315,
-      "end": 361
+      "start": 323,
+      "end": 369
     },
     {
       "type": "VariableDeclaration",
@@ -741,8 +741,8 @@ __ESTREE_TEST__:AST:
                       "name": "x",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 371,
-                      "end": 372
+                      "start": 379,
+                      "end": 380
                     },
                     "typeAnnotation": {
                       "type": "TSTypeAnnotation",
@@ -754,30 +754,30 @@ __ESTREE_TEST__:AST:
                           "name": "IHasVisualizationModel",
                           "optional": false,
                           "typeAnnotation": null,
-                          "start": 374,
-                          "end": 396
+                          "start": 382,
+                          "end": 404
                         },
                         "typeArguments": null,
-                        "start": 374,
-                        "end": 396
+                        "start": 382,
+                        "end": 404
                       },
-                      "start": 372,
-                      "end": 396
+                      "start": 380,
+                      "end": 404
                     },
                     "accessibility": null,
                     "static": false,
-                    "start": 371,
-                    "end": 396
+                    "start": 379,
+                    "end": 404
                   }
                 ],
-                "start": 369,
-                "end": 398
+                "start": 377,
+                "end": 406
               },
-              "start": 367,
-              "end": 398
+              "start": 375,
+              "end": 406
             },
-            "start": 366,
-            "end": 398
+            "start": 374,
+            "end": 406
           },
           "init": {
             "type": "LogicalExpression",
@@ -797,8 +797,8 @@ __ESTREE_TEST__:AST:
                       "name": "x",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 404,
-                      "end": 405
+                      "start": 412,
+                      "end": 413
                     },
                     "typeAnnotation": {
                       "type": "TSTypeAnnotation",
@@ -810,34 +810,34 @@ __ESTREE_TEST__:AST:
                           "name": "IHasVisualizationModel",
                           "optional": false,
                           "typeAnnotation": null,
-                          "start": 407,
-                          "end": 429
+                          "start": 415,
+                          "end": 437
                         },
                         "typeArguments": null,
-                        "start": 407,
-                        "end": 429
+                        "start": 415,
+                        "end": 437
                       },
-                      "start": 405,
-                      "end": 429
+                      "start": 413,
+                      "end": 437
                     },
                     "accessibility": null,
                     "static": false,
-                    "start": 404,
-                    "end": 429
+                    "start": 412,
+                    "end": 437
                   }
                 ],
-                "start": 402,
-                "end": 431
+                "start": 410,
+                "end": 439
               },
               "expression": {
                 "type": "Literal",
                 "value": null,
                 "raw": "null",
-                "start": 432,
-                "end": 436
+                "start": 440,
+                "end": 444
               },
-              "start": 401,
-              "end": 436
+              "start": 409,
+              "end": 444
             },
             "operator": "||",
             "right": {
@@ -852,8 +852,8 @@ __ESTREE_TEST__:AST:
                     "name": "x",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 442,
-                    "end": 443
+                    "start": 450,
+                    "end": 451
                   },
                   "value": {
                     "type": "Identifier",
@@ -861,31 +861,31 @@ __ESTREE_TEST__:AST:
                     "name": "moduleA",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 445,
-                    "end": 452
+                    "start": 453,
+                    "end": 460
                   },
                   "method": false,
                   "shorthand": false,
                   "computed": false,
                   "optional": false,
-                  "start": 442,
-                  "end": 452
+                  "start": 450,
+                  "end": 460
                 }
               ],
-              "start": 440,
-              "end": 454
+              "start": 448,
+              "end": 462
             },
-            "start": 401,
-            "end": 454
+            "start": 409,
+            "end": 462
           },
           "definite": false,
-          "start": 366,
-          "end": 454
+          "start": 374,
+          "end": 462
         }
       ],
       "declare": false,
-      "start": 362,
-      "end": 455
+      "start": 370,
+      "end": 463
     },
     {
       "type": "VariableDeclaration",
@@ -914,8 +914,8 @@ __ESTREE_TEST__:AST:
                       "name": "x",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 465,
-                      "end": 466
+                      "start": 473,
+                      "end": 474
                     },
                     "typeAnnotation": {
                       "type": "TSTypeAnnotation",
@@ -927,30 +927,30 @@ __ESTREE_TEST__:AST:
                           "name": "IHasVisualizationModel",
                           "optional": false,
                           "typeAnnotation": null,
-                          "start": 468,
-                          "end": 490
+                          "start": 476,
+                          "end": 498
                         },
                         "typeArguments": null,
-                        "start": 468,
-                        "end": 490
+                        "start": 476,
+                        "end": 498
                       },
-                      "start": 466,
-                      "end": 490
+                      "start": 474,
+                      "end": 498
                     },
                     "accessibility": null,
                     "static": false,
-                    "start": 465,
-                    "end": 490
+                    "start": 473,
+                    "end": 498
                   }
                 ],
-                "start": 463,
-                "end": 492
+                "start": 471,
+                "end": 500
               },
-              "start": 461,
-              "end": 492
+              "start": 469,
+              "end": 500
             },
-            "start": 460,
-            "end": 492
+            "start": 468,
+            "end": 500
           },
           "init": {
             "type": "ConditionalExpression",
@@ -970,8 +970,8 @@ __ESTREE_TEST__:AST:
                       "name": "x",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 498,
-                      "end": 499
+                      "start": 506,
+                      "end": 507
                     },
                     "typeAnnotation": {
                       "type": "TSTypeAnnotation",
@@ -983,34 +983,34 @@ __ESTREE_TEST__:AST:
                           "name": "IHasVisualizationModel",
                           "optional": false,
                           "typeAnnotation": null,
-                          "start": 501,
-                          "end": 523
+                          "start": 509,
+                          "end": 531
                         },
                         "typeArguments": null,
-                        "start": 501,
-                        "end": 523
+                        "start": 509,
+                        "end": 531
                       },
-                      "start": 499,
-                      "end": 523
+                      "start": 507,
+                      "end": 531
                     },
                     "accessibility": null,
                     "static": false,
-                    "start": 498,
-                    "end": 523
+                    "start": 506,
+                    "end": 531
                   }
                 ],
-                "start": 496,
-                "end": 525
+                "start": 504,
+                "end": 533
               },
               "expression": {
                 "type": "Literal",
                 "value": null,
                 "raw": "null",
-                "start": 526,
-                "end": 530
+                "start": 534,
+                "end": 538
               },
-              "start": 495,
-              "end": 530
+              "start": 503,
+              "end": 538
             },
             "consequent": {
               "type": "ObjectExpression",
@@ -1024,8 +1024,8 @@ __ESTREE_TEST__:AST:
                     "name": "x",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 535,
-                    "end": 536
+                    "start": 543,
+                    "end": 544
                   },
                   "value": {
                     "type": "Identifier",
@@ -1033,44 +1033,44 @@ __ESTREE_TEST__:AST:
                     "name": "moduleA",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 538,
-                    "end": 545
+                    "start": 546,
+                    "end": 553
                   },
                   "method": false,
                   "shorthand": false,
                   "computed": false,
                   "optional": false,
-                  "start": 535,
-                  "end": 545
+                  "start": 543,
+                  "end": 553
                 }
               ],
-              "start": 533,
-              "end": 547
+              "start": 541,
+              "end": 555
             },
             "alternate": {
               "type": "Literal",
               "value": null,
               "raw": "null",
-              "start": 550,
-              "end": 554
+              "start": 558,
+              "end": 562
             },
-            "start": 495,
-            "end": 554
+            "start": 503,
+            "end": 562
           },
           "definite": false,
-          "start": 460,
-          "end": 554
+          "start": 468,
+          "end": 562
         }
       ],
       "declare": false,
-      "start": 456,
-      "end": 555
+      "start": 464,
+      "end": 563
     }
   ],
   "sourceType": "module",
   "hashbang": null,
   "start": 0,
-  "end": 555
+  "end": 563
 }
 ```
 __ESTREE_TEST__:TOKENS:
@@ -1239,484 +1239,490 @@ __ESTREE_TEST__:TOKENS:
     "end": 213
   },
   {
+    "type": "Identifier",
+    "value": "declare",
+    "start": 214,
+    "end": 221
+  },
+  {
     "type": "Keyword",
     "value": "var",
-    "start": 214,
-    "end": 217
+    "start": 222,
+    "end": 225
   },
   {
     "type": "Identifier",
     "value": "i",
-    "start": 218,
-    "end": 219
+    "start": 226,
+    "end": 227
   },
   {
     "type": "Punctuator",
     "value": ":",
-    "start": 219,
-    "end": 220
+    "start": 227,
+    "end": 228
   },
   {
     "type": "Identifier",
     "value": "IHasVisualizationModel",
-    "start": 221,
-    "end": 243
-  },
-  {
-    "type": "Punctuator",
-    "value": ";",
-    "start": 243,
-    "end": 244
-  },
-  {
-    "type": "Keyword",
-    "value": "var",
-    "start": 245,
-    "end": 248
-  },
-  {
-    "type": "Identifier",
-    "value": "d1",
-    "start": 249,
+    "start": 229,
     "end": 251
   },
   {
     "type": "Punctuator",
-    "value": "=",
-    "start": 252,
-    "end": 253
-  },
-  {
-    "type": "Identifier",
-    "value": "i",
-    "start": 254,
-    "end": 255
-  },
-  {
-    "type": "Punctuator",
-    "value": "||",
-    "start": 256,
-    "end": 258
-  },
-  {
-    "type": "Identifier",
-    "value": "moduleA",
-    "start": 259,
-    "end": 266
-  },
-  {
-    "type": "Punctuator",
     "value": ";",
-    "start": 266,
-    "end": 267
+    "start": 251,
+    "end": 252
   },
   {
     "type": "Keyword",
     "value": "var",
-    "start": 268,
-    "end": 271
+    "start": 253,
+    "end": 256
   },
   {
     "type": "Identifier",
-    "value": "d2",
-    "start": 272,
+    "value": "d1",
+    "start": 257,
+    "end": 259
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 260,
+    "end": 261
+  },
+  {
+    "type": "Identifier",
+    "value": "i",
+    "start": 262,
+    "end": 263
+  },
+  {
+    "type": "Punctuator",
+    "value": "||",
+    "start": 264,
+    "end": 266
+  },
+  {
+    "type": "Identifier",
+    "value": "moduleA",
+    "start": 267,
     "end": 274
   },
   {
     "type": "Punctuator",
-    "value": ":",
+    "value": ";",
     "start": 274,
     "end": 275
   },
   {
-    "type": "Identifier",
-    "value": "IHasVisualizationModel",
-    "start": 276,
-    "end": 298
-  },
-  {
-    "type": "Punctuator",
-    "value": "=",
-    "start": 299,
-    "end": 300
-  },
-  {
-    "type": "Identifier",
-    "value": "i",
-    "start": 301,
-    "end": 302
-  },
-  {
-    "type": "Punctuator",
-    "value": "||",
-    "start": 303,
-    "end": 305
-  },
-  {
-    "type": "Identifier",
-    "value": "moduleA",
-    "start": 306,
-    "end": 313
-  },
-  {
-    "type": "Punctuator",
-    "value": ";",
-    "start": 313,
-    "end": 314
-  },
-  {
     "type": "Keyword",
     "value": "var",
-    "start": 315,
-    "end": 318
+    "start": 276,
+    "end": 279
   },
   {
     "type": "Identifier",
     "value": "d2",
-    "start": 319,
-    "end": 321
+    "start": 280,
+    "end": 282
   },
   {
     "type": "Punctuator",
     "value": ":",
-    "start": 321,
-    "end": 322
+    "start": 282,
+    "end": 283
   },
   {
     "type": "Identifier",
     "value": "IHasVisualizationModel",
-    "start": 323,
-    "end": 345
+    "start": 284,
+    "end": 306
   },
   {
     "type": "Punctuator",
     "value": "=",
-    "start": 346,
-    "end": 347
-  },
-  {
-    "type": "Identifier",
-    "value": "moduleA",
-    "start": 348,
-    "end": 355
-  },
-  {
-    "type": "Punctuator",
-    "value": "||",
-    "start": 356,
-    "end": 358
+    "start": 307,
+    "end": 308
   },
   {
     "type": "Identifier",
     "value": "i",
-    "start": 359,
-    "end": 360
+    "start": 309,
+    "end": 310
+  },
+  {
+    "type": "Punctuator",
+    "value": "||",
+    "start": 311,
+    "end": 313
+  },
+  {
+    "type": "Identifier",
+    "value": "moduleA",
+    "start": 314,
+    "end": 321
   },
   {
     "type": "Punctuator",
     "value": ";",
-    "start": 360,
-    "end": 361
+    "start": 321,
+    "end": 322
   },
   {
     "type": "Keyword",
     "value": "var",
-    "start": 362,
-    "end": 365
+    "start": 323,
+    "end": 326
   },
   {
     "type": "Identifier",
-    "value": "e",
-    "start": 366,
-    "end": 367
+    "value": "d2",
+    "start": 327,
+    "end": 329
   },
   {
     "type": "Punctuator",
     "value": ":",
+    "start": 329,
+    "end": 330
+  },
+  {
+    "type": "Identifier",
+    "value": "IHasVisualizationModel",
+    "start": 331,
+    "end": 353
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 354,
+    "end": 355
+  },
+  {
+    "type": "Identifier",
+    "value": "moduleA",
+    "start": 356,
+    "end": 363
+  },
+  {
+    "type": "Punctuator",
+    "value": "||",
+    "start": 364,
+    "end": 366
+  },
+  {
+    "type": "Identifier",
+    "value": "i",
     "start": 367,
     "end": 368
   },
   {
     "type": "Punctuator",
-    "value": "{",
-    "start": 369,
-    "end": 370
-  },
-  {
-    "type": "Identifier",
-    "value": "x",
-    "start": 371,
-    "end": 372
-  },
-  {
-    "type": "Punctuator",
-    "value": ":",
-    "start": 372,
-    "end": 373
-  },
-  {
-    "type": "Identifier",
-    "value": "IHasVisualizationModel",
-    "start": 374,
-    "end": 396
-  },
-  {
-    "type": "Punctuator",
-    "value": "}",
-    "start": 397,
-    "end": 398
-  },
-  {
-    "type": "Punctuator",
-    "value": "=",
-    "start": 399,
-    "end": 400
-  },
-  {
-    "type": "Punctuator",
-    "value": "<",
-    "start": 401,
-    "end": 402
-  },
-  {
-    "type": "Punctuator",
-    "value": "{",
-    "start": 402,
-    "end": 403
-  },
-  {
-    "type": "Identifier",
-    "value": "x",
-    "start": 404,
-    "end": 405
-  },
-  {
-    "type": "Punctuator",
-    "value": ":",
-    "start": 405,
-    "end": 406
-  },
-  {
-    "type": "Identifier",
-    "value": "IHasVisualizationModel",
-    "start": 407,
-    "end": 429
-  },
-  {
-    "type": "Punctuator",
-    "value": "}",
-    "start": 430,
-    "end": 431
-  },
-  {
-    "type": "Punctuator",
-    "value": ">",
-    "start": 431,
-    "end": 432
-  },
-  {
-    "type": "Null",
-    "value": "null",
-    "start": 432,
-    "end": 436
-  },
-  {
-    "type": "Punctuator",
-    "value": "||",
-    "start": 437,
-    "end": 439
-  },
-  {
-    "type": "Punctuator",
-    "value": "{",
-    "start": 440,
-    "end": 441
-  },
-  {
-    "type": "Identifier",
-    "value": "x",
-    "start": 442,
-    "end": 443
-  },
-  {
-    "type": "Punctuator",
-    "value": ":",
-    "start": 443,
-    "end": 444
-  },
-  {
-    "type": "Identifier",
-    "value": "moduleA",
-    "start": 445,
-    "end": 452
-  },
-  {
-    "type": "Punctuator",
-    "value": "}",
-    "start": 453,
-    "end": 454
-  },
-  {
-    "type": "Punctuator",
     "value": ";",
-    "start": 454,
-    "end": 455
+    "start": 368,
+    "end": 369
   },
   {
     "type": "Keyword",
     "value": "var",
-    "start": 456,
-    "end": 459
+    "start": 370,
+    "end": 373
   },
   {
     "type": "Identifier",
-    "value": "f",
-    "start": 460,
-    "end": 461
+    "value": "e",
+    "start": 374,
+    "end": 375
   },
   {
     "type": "Punctuator",
     "value": ":",
+    "start": 375,
+    "end": 376
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 377,
+    "end": 378
+  },
+  {
+    "type": "Identifier",
+    "value": "x",
+    "start": 379,
+    "end": 380
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 380,
+    "end": 381
+  },
+  {
+    "type": "Identifier",
+    "value": "IHasVisualizationModel",
+    "start": 382,
+    "end": 404
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 405,
+    "end": 406
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 407,
+    "end": 408
+  },
+  {
+    "type": "Punctuator",
+    "value": "<",
+    "start": 409,
+    "end": 410
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 410,
+    "end": 411
+  },
+  {
+    "type": "Identifier",
+    "value": "x",
+    "start": 412,
+    "end": 413
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 413,
+    "end": 414
+  },
+  {
+    "type": "Identifier",
+    "value": "IHasVisualizationModel",
+    "start": 415,
+    "end": 437
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 438,
+    "end": 439
+  },
+  {
+    "type": "Punctuator",
+    "value": ">",
+    "start": 439,
+    "end": 440
+  },
+  {
+    "type": "Null",
+    "value": "null",
+    "start": 440,
+    "end": 444
+  },
+  {
+    "type": "Punctuator",
+    "value": "||",
+    "start": 445,
+    "end": 447
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 448,
+    "end": 449
+  },
+  {
+    "type": "Identifier",
+    "value": "x",
+    "start": 450,
+    "end": 451
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 451,
+    "end": 452
+  },
+  {
+    "type": "Identifier",
+    "value": "moduleA",
+    "start": 453,
+    "end": 460
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
     "start": 461,
     "end": 462
   },
   {
     "type": "Punctuator",
-    "value": "{",
-    "start": 463,
-    "end": 464
+    "value": ";",
+    "start": 462,
+    "end": 463
   },
   {
-    "type": "Identifier",
-    "value": "x",
-    "start": 465,
-    "end": 466
-  },
-  {
-    "type": "Punctuator",
-    "value": ":",
-    "start": 466,
+    "type": "Keyword",
+    "value": "var",
+    "start": 464,
     "end": 467
   },
   {
     "type": "Identifier",
-    "value": "IHasVisualizationModel",
+    "value": "f",
     "start": 468,
-    "end": 490
-  },
-  {
-    "type": "Punctuator",
-    "value": "}",
-    "start": 491,
-    "end": 492
-  },
-  {
-    "type": "Punctuator",
-    "value": "=",
-    "start": 493,
-    "end": 494
-  },
-  {
-    "type": "Punctuator",
-    "value": "<",
-    "start": 495,
-    "end": 496
-  },
-  {
-    "type": "Punctuator",
-    "value": "{",
-    "start": 496,
-    "end": 497
-  },
-  {
-    "type": "Identifier",
-    "value": "x",
-    "start": 498,
-    "end": 499
+    "end": 469
   },
   {
     "type": "Punctuator",
     "value": ":",
+    "start": 469,
+    "end": 470
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 471,
+    "end": 472
+  },
+  {
+    "type": "Identifier",
+    "value": "x",
+    "start": 473,
+    "end": 474
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 474,
+    "end": 475
+  },
+  {
+    "type": "Identifier",
+    "value": "IHasVisualizationModel",
+    "start": 476,
+    "end": 498
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
     "start": 499,
     "end": 500
   },
   {
-    "type": "Identifier",
-    "value": "IHasVisualizationModel",
+    "type": "Punctuator",
+    "value": "=",
     "start": 501,
-    "end": 523
+    "end": 502
   },
   {
     "type": "Punctuator",
-    "value": "}",
-    "start": 524,
-    "end": 525
-  },
-  {
-    "type": "Punctuator",
-    "value": ">",
-    "start": 525,
-    "end": 526
-  },
-  {
-    "type": "Null",
-    "value": "null",
-    "start": 526,
-    "end": 530
-  },
-  {
-    "type": "Punctuator",
-    "value": "?",
-    "start": 531,
-    "end": 532
+    "value": "<",
+    "start": 503,
+    "end": 504
   },
   {
     "type": "Punctuator",
     "value": "{",
-    "start": 533,
-    "end": 534
+    "start": 504,
+    "end": 505
   },
   {
     "type": "Identifier",
     "value": "x",
-    "start": 535,
-    "end": 536
+    "start": 506,
+    "end": 507
   },
   {
     "type": "Punctuator",
     "value": ":",
-    "start": 536,
-    "end": 537
+    "start": 507,
+    "end": 508
   },
   {
     "type": "Identifier",
-    "value": "moduleA",
-    "start": 538,
-    "end": 545
+    "value": "IHasVisualizationModel",
+    "start": 509,
+    "end": 531
   },
   {
     "type": "Punctuator",
     "value": "}",
-    "start": 546,
-    "end": 547
+    "start": 532,
+    "end": 533
   },
   {
     "type": "Punctuator",
-    "value": ":",
-    "start": 548,
-    "end": 549
+    "value": ">",
+    "start": 533,
+    "end": 534
   },
   {
     "type": "Null",
     "value": "null",
-    "start": 550,
-    "end": 554
+    "start": 534,
+    "end": 538
+  },
+  {
+    "type": "Punctuator",
+    "value": "?",
+    "start": 539,
+    "end": 540
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 541,
+    "end": 542
+  },
+  {
+    "type": "Identifier",
+    "value": "x",
+    "start": 543,
+    "end": 544
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 544,
+    "end": 545
+  },
+  {
+    "type": "Identifier",
+    "value": "moduleA",
+    "start": 546,
+    "end": 553
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 554,
+    "end": 555
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 556,
+    "end": 557
+  },
+  {
+    "type": "Null",
+    "value": "null",
+    "start": 558,
+    "end": 562
   },
   {
     "type": "Punctuator",
     "value": ";",
-    "start": 554,
-    "end": 555
+    "start": 562,
+    "end": 563
   }
 ]
 ```

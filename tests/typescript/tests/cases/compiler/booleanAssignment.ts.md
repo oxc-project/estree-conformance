@@ -229,24 +229,24 @@ __ESTREE_TEST__:AST:
               "type": "TSTypeAnnotation",
               "typeAnnotation": {
                 "type": "TSBooleanKeyword",
-                "start": 125,
-                "end": 132
+                "start": 133,
+                "end": 140
               },
-              "start": 124,
-              "end": 132
+              "start": 132,
+              "end": 140
             },
-            "start": 122,
-            "end": 132
+            "start": 130,
+            "end": 140
           },
           "init": null,
           "definite": false,
-          "start": 122,
-          "end": 132
+          "start": 130,
+          "end": 140
         }
       ],
-      "declare": false,
+      "declare": true,
       "start": 118,
-      "end": 133
+      "end": 141
     },
     {
       "type": "ExpressionStatement",
@@ -259,8 +259,8 @@ __ESTREE_TEST__:AST:
           "name": "b",
           "optional": false,
           "typeAnnotation": null,
-          "start": 134,
-          "end": 135
+          "start": 142,
+          "end": 143
         },
         "right": {
           "type": "Identifier",
@@ -268,21 +268,21 @@ __ESTREE_TEST__:AST:
           "name": "b2",
           "optional": false,
           "typeAnnotation": null,
-          "start": 138,
-          "end": 140
+          "start": 146,
+          "end": 148
         },
-        "start": 134,
-        "end": 140
+        "start": 142,
+        "end": 148
       },
       "directive": null,
-      "start": 134,
-      "end": 141
+      "start": 142,
+      "end": 149
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 147
+  "end": 155
 }
 ```
 __ESTREE_TEST__:TOKENS:
@@ -499,51 +499,33 @@ __ESTREE_TEST__:TOKENS:
     "end": 110
   },
   {
+    "type": "Identifier",
+    "value": "declare",
+    "start": 118,
+    "end": 125
+  },
+  {
     "type": "Keyword",
     "value": "var",
-    "start": 118,
-    "end": 121
+    "start": 126,
+    "end": 129
   },
   {
     "type": "Identifier",
     "value": "b2",
-    "start": 122,
-    "end": 124
-  },
-  {
-    "type": "Punctuator",
-    "value": ":",
-    "start": 124,
-    "end": 125
-  },
-  {
-    "type": "Identifier",
-    "value": "boolean",
-    "start": 125,
+    "start": 130,
     "end": 132
   },
   {
     "type": "Punctuator",
-    "value": ";",
+    "value": ":",
     "start": 132,
     "end": 133
   },
   {
     "type": "Identifier",
-    "value": "b",
-    "start": 134,
-    "end": 135
-  },
-  {
-    "type": "Punctuator",
-    "value": "=",
-    "start": 136,
-    "end": 137
-  },
-  {
-    "type": "Identifier",
-    "value": "b2",
-    "start": 138,
+    "value": "boolean",
+    "start": 133,
     "end": 140
   },
   {
@@ -551,6 +533,30 @@ __ESTREE_TEST__:TOKENS:
     "value": ";",
     "start": 140,
     "end": 141
+  },
+  {
+    "type": "Identifier",
+    "value": "b",
+    "start": 142,
+    "end": 143
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 144,
+    "end": 145
+  },
+  {
+    "type": "Identifier",
+    "value": "b2",
+    "start": 146,
+    "end": 148
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 148,
+    "end": 149
   }
 ]
 ```

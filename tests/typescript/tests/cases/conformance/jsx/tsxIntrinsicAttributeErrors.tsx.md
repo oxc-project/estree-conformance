@@ -542,28 +542,28 @@ __ESTREE_TEST__:AST:
                   "name": "I",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 477,
-                  "end": 478
+                  "start": 485,
+                  "end": 486
                 },
                 "typeArguments": null,
-                "start": 477,
-                "end": 478
+                "start": 485,
+                "end": 486
               },
-              "start": 475,
-              "end": 478
+              "start": 483,
+              "end": 486
             },
-            "start": 474,
-            "end": 478
+            "start": 482,
+            "end": 486
           },
           "init": null,
           "definite": false,
-          "start": 474,
-          "end": 478
+          "start": 482,
+          "end": 486
         }
       ],
-      "declare": false,
+      "declare": true,
       "start": 470,
-      "end": 479
+      "end": 487
     },
     {
       "type": "ExpressionStatement",
@@ -574,8 +574,8 @@ __ESTREE_TEST__:AST:
           "name": {
             "type": "JSXIdentifier",
             "name": "E",
-            "start": 481,
-            "end": 482
+            "start": 489,
+            "end": 490
           },
           "typeArguments": null,
           "attributes": [
@@ -584,8 +584,8 @@ __ESTREE_TEST__:AST:
               "name": {
                 "type": "JSXIdentifier",
                 "name": "x",
-                "start": 483,
-                "end": 484
+                "start": 491,
+                "end": 492
               },
               "value": {
                 "type": "JSXExpressionContainer",
@@ -593,34 +593,34 @@ __ESTREE_TEST__:AST:
                   "type": "Literal",
                   "value": 10,
                   "raw": "10",
-                  "start": 486,
-                  "end": 488
+                  "start": 494,
+                  "end": 496
                 },
-                "start": 485,
-                "end": 489
+                "start": 493,
+                "end": 497
               },
-              "start": 483,
-              "end": 489
+              "start": 491,
+              "end": 497
             }
           ],
           "selfClosing": true,
-          "start": 480,
-          "end": 492
+          "start": 488,
+          "end": 500
         },
         "children": [],
         "closingElement": null,
-        "start": 480,
-        "end": 492
+        "start": 488,
+        "end": 500
       },
       "directive": null,
-      "start": 480,
-      "end": 492
+      "start": 488,
+      "end": 500
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 492
+  "end": 500
 }
 ```
 __ESTREE_TEST__:TOKENS:
@@ -1101,88 +1101,94 @@ __ESTREE_TEST__:TOKENS:
     "end": 469
   },
   {
+    "type": "Identifier",
+    "value": "declare",
+    "start": 470,
+    "end": 477
+  },
+  {
     "type": "Keyword",
     "value": "var",
-    "start": 470,
-    "end": 473
+    "start": 478,
+    "end": 481
   },
   {
     "type": "Identifier",
     "value": "E",
-    "start": 474,
-    "end": 475
+    "start": 482,
+    "end": 483
   },
   {
     "type": "Punctuator",
     "value": ":",
-    "start": 475,
-    "end": 476
-  },
-  {
-    "type": "Identifier",
-    "value": "I",
-    "start": 477,
-    "end": 478
-  },
-  {
-    "type": "Punctuator",
-    "value": ";",
-    "start": 478,
-    "end": 479
-  },
-  {
-    "type": "Punctuator",
-    "value": "<",
-    "start": 480,
-    "end": 481
-  },
-  {
-    "type": "JSXIdentifier",
-    "value": "E",
-    "start": 481,
-    "end": 482
-  },
-  {
-    "type": "JSXIdentifier",
-    "value": "x",
     "start": 483,
     "end": 484
   },
   {
-    "type": "Punctuator",
-    "value": "=",
-    "start": 484,
-    "end": 485
-  },
-  {
-    "type": "Punctuator",
-    "value": "{",
+    "type": "Identifier",
+    "value": "I",
     "start": 485,
     "end": 486
   },
   {
-    "type": "Numeric",
-    "value": "10",
+    "type": "Punctuator",
+    "value": ";",
     "start": 486,
-    "end": 488
+    "end": 487
   },
   {
     "type": "Punctuator",
-    "value": "}",
+    "value": "<",
     "start": 488,
     "end": 489
   },
   {
+    "type": "JSXIdentifier",
+    "value": "E",
+    "start": 489,
+    "end": 490
+  },
+  {
+    "type": "JSXIdentifier",
+    "value": "x",
+    "start": 491,
+    "end": 492
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 492,
+    "end": 493
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 493,
+    "end": 494
+  },
+  {
+    "type": "Numeric",
+    "value": "10",
+    "start": 494,
+    "end": 496
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 496,
+    "end": 497
+  },
+  {
     "type": "Punctuator",
     "value": "/",
-    "start": 490,
-    "end": 491
+    "start": 498,
+    "end": 499
   },
   {
     "type": "Punctuator",
     "value": ">",
-    "start": 491,
-    "end": 492
+    "start": 499,
+    "end": 500
   }
 ]
 ```

@@ -250,8 +250,8 @@ __ESTREE_TEST__:AST:
                             "name": "server",
                             "optional": false,
                             "typeAnnotation": null,
-                            "start": 213,
-                            "end": 219
+                            "start": 221,
+                            "end": 227
                           },
                           "right": {
                             "type": "Identifier",
@@ -259,21 +259,21 @@ __ESTREE_TEST__:AST:
                             "name": "connectExport",
                             "optional": false,
                             "typeAnnotation": null,
-                            "start": 220,
-                            "end": 233
+                            "start": 228,
+                            "end": 241
                           },
-                          "start": 213,
-                          "end": 233
+                          "start": 221,
+                          "end": 241
                         },
                         "typeArguments": null,
-                        "start": 213,
-                        "end": 233
+                        "start": 221,
+                        "end": 241
                       },
-                      "start": 211,
-                      "end": 233
+                      "start": 219,
+                      "end": 241
                     },
-                    "start": 209,
-                    "end": 234
+                    "start": 217,
+                    "end": 242
                   },
                   {
                     "type": "TSPropertySignature",
@@ -286,8 +286,8 @@ __ESTREE_TEST__:AST:
                       "name": "foo",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 239,
-                      "end": 242
+                      "start": 247,
+                      "end": 250
                     },
                     "typeAnnotation": {
                       "type": "TSTypeAnnotation",
@@ -299,40 +299,40 @@ __ESTREE_TEST__:AST:
                           "name": "Date",
                           "optional": false,
                           "typeAnnotation": null,
-                          "start": 244,
-                          "end": 248
+                          "start": 252,
+                          "end": 256
                         },
                         "typeArguments": null,
-                        "start": 244,
-                        "end": 248
+                        "start": 252,
+                        "end": 256
                       },
-                      "start": 242,
-                      "end": 248
+                      "start": 250,
+                      "end": 256
                     },
                     "accessibility": null,
                     "static": false,
-                    "start": 239,
-                    "end": 249
+                    "start": 247,
+                    "end": 257
                   }
                 ],
-                "start": 203,
-                "end": 251
+                "start": 211,
+                "end": 259
               },
-              "start": 201,
-              "end": 251
+              "start": 209,
+              "end": 259
             },
-            "start": 195,
-            "end": 251
+            "start": 203,
+            "end": 259
           },
           "init": null,
           "definite": false,
-          "start": 195,
-          "end": 251
+          "start": 203,
+          "end": 259
         }
       ],
-      "declare": false,
+      "declare": true,
       "start": 191,
-      "end": 252
+      "end": 260
     },
     {
       "type": "TSExportAssignment",
@@ -342,17 +342,17 @@ __ESTREE_TEST__:AST:
         "name": "server",
         "optional": false,
         "typeAnnotation": null,
-        "start": 262,
-        "end": 268
+        "start": 270,
+        "end": 276
       },
-      "start": 253,
-      "end": 269
+      "start": 261,
+      "end": 277
     }
   ],
   "sourceType": "module",
   "hashbang": null,
   "start": 0,
-  "end": 270
+  "end": 278
 }
 ```
 __ESTREE_TEST__:TOKENS:
@@ -563,130 +563,136 @@ __ESTREE_TEST__:TOKENS:
     "end": 190
   },
   {
+    "type": "Identifier",
+    "value": "declare",
+    "start": 191,
+    "end": 198
+  },
+  {
     "type": "Keyword",
     "value": "var",
-    "start": 191,
-    "end": 194
+    "start": 199,
+    "end": 202
   },
   {
     "type": "Identifier",
     "value": "server",
-    "start": 195,
-    "end": 201
+    "start": 203,
+    "end": 209
   },
   {
     "type": "Punctuator",
     "value": ":",
-    "start": 201,
-    "end": 202
-  },
-  {
-    "type": "Punctuator",
-    "value": "{",
-    "start": 203,
-    "end": 204
-  },
-  {
-    "type": "Punctuator",
-    "value": "(",
     "start": 209,
     "end": 210
   },
   {
     "type": "Punctuator",
-    "value": ")",
-    "start": 210,
-    "end": 211
-  },
-  {
-    "type": "Punctuator",
-    "value": ":",
+    "value": "{",
     "start": 211,
     "end": 212
   },
   {
-    "type": "Identifier",
-    "value": "server",
-    "start": 213,
+    "type": "Punctuator",
+    "value": "(",
+    "start": 217,
+    "end": 218
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 218,
     "end": 219
   },
   {
     "type": "Punctuator",
-    "value": ".",
+    "value": ":",
     "start": 219,
     "end": 220
   },
   {
     "type": "Identifier",
+    "value": "server",
+    "start": 221,
+    "end": 227
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 227,
+    "end": 228
+  },
+  {
+    "type": "Identifier",
     "value": "connectExport",
-    "start": 220,
-    "end": 233
+    "start": 228,
+    "end": 241
   },
   {
     "type": "Punctuator",
     "value": ";",
-    "start": 233,
-    "end": 234
+    "start": 241,
+    "end": 242
   },
   {
     "type": "Identifier",
     "value": "foo",
-    "start": 239,
-    "end": 242
+    "start": 247,
+    "end": 250
   },
   {
     "type": "Punctuator",
     "value": ":",
-    "start": 242,
-    "end": 243
-  },
-  {
-    "type": "Identifier",
-    "value": "Date",
-    "start": 244,
-    "end": 248
-  },
-  {
-    "type": "Punctuator",
-    "value": ";",
-    "start": 248,
-    "end": 249
-  },
-  {
-    "type": "Punctuator",
-    "value": "}",
     "start": 250,
     "end": 251
   },
   {
-    "type": "Punctuator",
-    "value": ";",
-    "start": 251,
-    "end": 252
+    "type": "Identifier",
+    "value": "Date",
+    "start": 252,
+    "end": 256
   },
   {
-    "type": "Keyword",
-    "value": "export",
-    "start": 253,
+    "type": "Punctuator",
+    "value": ";",
+    "start": 256,
+    "end": 257
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 258,
     "end": 259
   },
   {
     "type": "Punctuator",
+    "value": ";",
+    "start": 259,
+    "end": 260
+  },
+  {
+    "type": "Keyword",
+    "value": "export",
+    "start": 261,
+    "end": 267
+  },
+  {
+    "type": "Punctuator",
     "value": "=",
-    "start": 260,
-    "end": 261
+    "start": 268,
+    "end": 269
   },
   {
     "type": "Identifier",
     "value": "server",
-    "start": 262,
-    "end": 268
+    "start": 270,
+    "end": 276
   },
   {
     "type": "Punctuator",
     "value": ";",
-    "start": 268,
-    "end": 269
+    "start": 276,
+    "end": 277
   }
 ]
 ```

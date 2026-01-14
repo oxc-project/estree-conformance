@@ -226,28 +226,28 @@ __ESTREE_TEST__:AST:
                   "name": "Parsers",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 177,
-                  "end": 184
+                  "start": 185,
+                  "end": 192
                 },
                 "typeArguments": null,
-                "start": 177,
-                "end": 184
+                "start": 185,
+                "end": 192
               },
-              "start": 175,
-              "end": 184
+              "start": 183,
+              "end": 192
             },
-            "start": 168,
-            "end": 184
+            "start": 176,
+            "end": 192
           },
           "init": null,
           "definite": false,
-          "start": 168,
-          "end": 184
+          "start": 176,
+          "end": 192
         }
       ],
-      "declare": false,
+      "declare": true,
       "start": 164,
-      "end": 185
+      "end": 193
     },
     {
       "type": "VariableDeclaration",
@@ -270,18 +270,18 @@ __ESTREE_TEST__:AST:
                   "name": "ParserFunc",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 193,
-                  "end": 203
+                  "start": 201,
+                  "end": 211
                 },
                 "typeArguments": null,
-                "start": 193,
-                "end": 203
+                "start": 201,
+                "end": 211
               },
-              "start": 191,
-              "end": 203
+              "start": 199,
+              "end": 211
             },
-            "start": 190,
-            "end": 203
+            "start": 198,
+            "end": 211
           },
           "init": {
             "type": "MemberExpression",
@@ -291,8 +291,8 @@ __ESTREE_TEST__:AST:
               "name": "parsers",
               "optional": false,
               "typeAnnotation": null,
-              "start": 206,
-              "end": 213
+              "start": 214,
+              "end": 221
             },
             "property": {
               "type": "Identifier",
@@ -300,22 +300,22 @@ __ESTREE_TEST__:AST:
               "name": "raw",
               "optional": false,
               "typeAnnotation": null,
-              "start": 214,
-              "end": 217
+              "start": 222,
+              "end": 225
             },
             "optional": false,
             "computed": false,
-            "start": 206,
-            "end": 217
+            "start": 214,
+            "end": 225
           },
           "definite": false,
-          "start": 190,
-          "end": 217
+          "start": 198,
+          "end": 225
         }
       ],
       "declare": false,
-      "start": 186,
-      "end": 218
+      "start": 194,
+      "end": 226
     },
     {
       "type": "VariableDeclaration",
@@ -338,18 +338,18 @@ __ESTREE_TEST__:AST:
                   "name": "ParserFunc",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 233,
-                  "end": 243
+                  "start": 241,
+                  "end": 251
                 },
                 "typeArguments": null,
-                "start": 233,
-                "end": 243
+                "start": 241,
+                "end": 251
               },
-              "start": 231,
-              "end": 243
+              "start": 239,
+              "end": 251
             },
-            "start": 230,
-            "end": 243
+            "start": 238,
+            "end": 251
           },
           "init": {
             "type": "MemberExpression",
@@ -359,8 +359,8 @@ __ESTREE_TEST__:AST:
               "name": "parsers",
               "optional": false,
               "typeAnnotation": null,
-              "start": 246,
-              "end": 253
+              "start": 254,
+              "end": 261
             },
             "property": {
               "type": "Identifier",
@@ -368,22 +368,22 @@ __ESTREE_TEST__:AST:
               "name": "readline",
               "optional": false,
               "typeAnnotation": null,
-              "start": 254,
-              "end": 262
+              "start": 262,
+              "end": 270
             },
             "optional": false,
             "computed": false,
-            "start": 246,
-            "end": 262
+            "start": 254,
+            "end": 270
           },
           "definite": false,
-          "start": 230,
-          "end": 262
+          "start": 238,
+          "end": 270
         }
       ],
       "declare": false,
-      "start": 226,
-      "end": 263
+      "start": 234,
+      "end": 271
     },
     {
       "type": "VariableDeclaration",
@@ -406,18 +406,18 @@ __ESTREE_TEST__:AST:
                   "name": "ParserFunc",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 281,
-                  "end": 291
+                  "start": 289,
+                  "end": 299
                 },
                 "typeArguments": null,
-                "start": 281,
-                "end": 291
+                "start": 289,
+                "end": 299
               },
-              "start": 279,
-              "end": 291
+              "start": 287,
+              "end": 299
             },
-            "start": 278,
-            "end": 291
+            "start": 286,
+            "end": 299
           },
           "init": {
             "type": "CallExpression",
@@ -429,8 +429,8 @@ __ESTREE_TEST__:AST:
                 "name": "parsers",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 294,
-                "end": 301
+                "start": 302,
+                "end": 309
               },
               "property": {
                 "type": "Identifier",
@@ -438,34 +438,34 @@ __ESTREE_TEST__:AST:
                 "name": "readline",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 302,
-                "end": 310
+                "start": 310,
+                "end": 318
               },
               "optional": false,
               "computed": false,
-              "start": 294,
-              "end": 310
+              "start": 302,
+              "end": 318
             },
             "typeArguments": null,
             "arguments": [],
             "optional": false,
-            "start": 294,
-            "end": 312
+            "start": 302,
+            "end": 320
           },
           "definite": false,
-          "start": 278,
-          "end": 312
+          "start": 286,
+          "end": 320
         }
       ],
       "declare": false,
-      "start": 274,
-      "end": 313
+      "start": 282,
+      "end": 321
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 319
+  "end": 327
 }
 ```
 __ESTREE_TEST__:TOKENS:
@@ -676,208 +676,214 @@ __ESTREE_TEST__:TOKENS:
     "end": 163
   },
   {
+    "type": "Identifier",
+    "value": "declare",
+    "start": 164,
+    "end": 171
+  },
+  {
     "type": "Keyword",
     "value": "var",
-    "start": 164,
-    "end": 167
+    "start": 172,
+    "end": 175
   },
   {
     "type": "Identifier",
     "value": "parsers",
-    "start": 168,
-    "end": 175
+    "start": 176,
+    "end": 183
   },
   {
     "type": "Punctuator",
     "value": ":",
-    "start": 175,
-    "end": 176
+    "start": 183,
+    "end": 184
   },
   {
     "type": "Identifier",
     "value": "Parsers",
-    "start": 177,
-    "end": 184
+    "start": 185,
+    "end": 192
   },
   {
     "type": "Punctuator",
     "value": ";",
-    "start": 184,
-    "end": 185
+    "start": 192,
+    "end": 193
   },
   {
     "type": "Keyword",
     "value": "var",
-    "start": 186,
-    "end": 189
+    "start": 194,
+    "end": 197
   },
   {
     "type": "Identifier",
     "value": "c",
-    "start": 190,
-    "end": 191
+    "start": 198,
+    "end": 199
   },
   {
     "type": "Punctuator",
     "value": ":",
-    "start": 191,
-    "end": 192
+    "start": 199,
+    "end": 200
   },
   {
     "type": "Identifier",
     "value": "ParserFunc",
-    "start": 193,
-    "end": 203
+    "start": 201,
+    "end": 211
   },
   {
     "type": "Punctuator",
     "value": "=",
-    "start": 204,
-    "end": 205
+    "start": 212,
+    "end": 213
   },
   {
     "type": "Identifier",
     "value": "parsers",
-    "start": 206,
-    "end": 213
+    "start": 214,
+    "end": 221
   },
   {
     "type": "Punctuator",
     "value": ".",
-    "start": 213,
-    "end": 214
+    "start": 221,
+    "end": 222
   },
   {
     "type": "Identifier",
     "value": "raw",
-    "start": 214,
-    "end": 217
+    "start": 222,
+    "end": 225
   },
   {
     "type": "Punctuator",
     "value": ";",
-    "start": 217,
-    "end": 218
+    "start": 225,
+    "end": 226
   },
   {
     "type": "Keyword",
     "value": "var",
-    "start": 226,
-    "end": 229
+    "start": 234,
+    "end": 237
   },
   {
     "type": "Identifier",
     "value": "d",
-    "start": 230,
-    "end": 231
+    "start": 238,
+    "end": 239
   },
   {
     "type": "Punctuator",
     "value": ":",
-    "start": 231,
-    "end": 232
+    "start": 239,
+    "end": 240
   },
   {
     "type": "Identifier",
     "value": "ParserFunc",
-    "start": 233,
-    "end": 243
+    "start": 241,
+    "end": 251
   },
   {
     "type": "Punctuator",
     "value": "=",
-    "start": 244,
-    "end": 245
+    "start": 252,
+    "end": 253
   },
   {
     "type": "Identifier",
     "value": "parsers",
-    "start": 246,
-    "end": 253
+    "start": 254,
+    "end": 261
   },
   {
     "type": "Punctuator",
     "value": ".",
-    "start": 253,
-    "end": 254
+    "start": 261,
+    "end": 262
   },
   {
     "type": "Identifier",
     "value": "readline",
-    "start": 254,
-    "end": 262
+    "start": 262,
+    "end": 270
   },
   {
     "type": "Punctuator",
     "value": ";",
-    "start": 262,
-    "end": 263
+    "start": 270,
+    "end": 271
   },
   {
     "type": "Keyword",
     "value": "var",
-    "start": 274,
-    "end": 277
+    "start": 282,
+    "end": 285
   },
   {
     "type": "Identifier",
     "value": "e",
-    "start": 278,
-    "end": 279
+    "start": 286,
+    "end": 287
   },
   {
     "type": "Punctuator",
     "value": ":",
-    "start": 279,
-    "end": 280
+    "start": 287,
+    "end": 288
   },
   {
     "type": "Identifier",
     "value": "ParserFunc",
-    "start": 281,
-    "end": 291
+    "start": 289,
+    "end": 299
   },
   {
     "type": "Punctuator",
     "value": "=",
-    "start": 292,
-    "end": 293
+    "start": 300,
+    "end": 301
   },
   {
     "type": "Identifier",
     "value": "parsers",
-    "start": 294,
-    "end": 301
+    "start": 302,
+    "end": 309
   },
   {
     "type": "Punctuator",
     "value": ".",
-    "start": 301,
-    "end": 302
+    "start": 309,
+    "end": 310
   },
   {
     "type": "Identifier",
     "value": "readline",
-    "start": 302,
-    "end": 310
+    "start": 310,
+    "end": 318
   },
   {
     "type": "Punctuator",
     "value": "(",
-    "start": 310,
-    "end": 311
+    "start": 318,
+    "end": 319
   },
   {
     "type": "Punctuator",
     "value": ")",
-    "start": 311,
-    "end": 312
+    "start": 319,
+    "end": 320
   },
   {
     "type": "Punctuator",
     "value": ";",
-    "start": 312,
-    "end": 313
+    "start": 320,
+    "end": 321
   }
 ]
 ```

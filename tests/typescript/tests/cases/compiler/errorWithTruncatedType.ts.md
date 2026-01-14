@@ -30,23 +30,23 @@ __ESTREE_TEST__:AST:
                       "name": "propertyWithAnExceedinglyLongName1",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 13,
-                      "end": 47
+                      "start": 21,
+                      "end": 55
                     },
                     "typeAnnotation": {
                       "type": "TSTypeAnnotation",
                       "typeAnnotation": {
                         "type": "TSStringKeyword",
-                        "start": 49,
-                        "end": 55
+                        "start": 57,
+                        "end": 63
                       },
-                      "start": 47,
-                      "end": 55
+                      "start": 55,
+                      "end": 63
                     },
                     "accessibility": null,
                     "static": false,
-                    "start": 13,
-                    "end": 56
+                    "start": 21,
+                    "end": 64
                   },
                   {
                     "type": "TSPropertySignature",
@@ -59,23 +59,23 @@ __ESTREE_TEST__:AST:
                       "name": "propertyWithAnExceedinglyLongName2",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 61,
-                      "end": 95
+                      "start": 69,
+                      "end": 103
                     },
                     "typeAnnotation": {
                       "type": "TSTypeAnnotation",
                       "typeAnnotation": {
                         "type": "TSStringKeyword",
-                        "start": 97,
-                        "end": 103
+                        "start": 105,
+                        "end": 111
                       },
-                      "start": 95,
-                      "end": 103
+                      "start": 103,
+                      "end": 111
                     },
                     "accessibility": null,
                     "static": false,
-                    "start": 61,
-                    "end": 104
+                    "start": 69,
+                    "end": 112
                   },
                   {
                     "type": "TSPropertySignature",
@@ -88,23 +88,23 @@ __ESTREE_TEST__:AST:
                       "name": "propertyWithAnExceedinglyLongName3",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 109,
-                      "end": 143
+                      "start": 117,
+                      "end": 151
                     },
                     "typeAnnotation": {
                       "type": "TSTypeAnnotation",
                       "typeAnnotation": {
                         "type": "TSStringKeyword",
-                        "start": 145,
-                        "end": 151
+                        "start": 153,
+                        "end": 159
                       },
-                      "start": 143,
-                      "end": 151
+                      "start": 151,
+                      "end": 159
                     },
                     "accessibility": null,
                     "static": false,
-                    "start": 109,
-                    "end": 152
+                    "start": 117,
+                    "end": 160
                   },
                   {
                     "type": "TSPropertySignature",
@@ -117,23 +117,23 @@ __ESTREE_TEST__:AST:
                       "name": "propertyWithAnExceedinglyLongName4",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 157,
-                      "end": 191
+                      "start": 165,
+                      "end": 199
                     },
                     "typeAnnotation": {
                       "type": "TSTypeAnnotation",
                       "typeAnnotation": {
                         "type": "TSStringKeyword",
-                        "start": 193,
-                        "end": 199
+                        "start": 201,
+                        "end": 207
                       },
-                      "start": 191,
-                      "end": 199
+                      "start": 199,
+                      "end": 207
                     },
                     "accessibility": null,
                     "static": false,
-                    "start": 157,
-                    "end": 200
+                    "start": 165,
+                    "end": 208
                   },
                   {
                     "type": "TSPropertySignature",
@@ -146,43 +146,43 @@ __ESTREE_TEST__:AST:
                       "name": "propertyWithAnExceedinglyLongName5",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 205,
-                      "end": 239
+                      "start": 213,
+                      "end": 247
                     },
                     "typeAnnotation": {
                       "type": "TSTypeAnnotation",
                       "typeAnnotation": {
                         "type": "TSStringKeyword",
-                        "start": 241,
-                        "end": 247
+                        "start": 249,
+                        "end": 255
                       },
-                      "start": 239,
-                      "end": 247
+                      "start": 247,
+                      "end": 255
                     },
                     "accessibility": null,
                     "static": false,
-                    "start": 205,
-                    "end": 248
+                    "start": 213,
+                    "end": 256
                   }
                 ],
-                "start": 7,
-                "end": 250
+                "start": 15,
+                "end": 258
               },
-              "start": 5,
-              "end": 250
+              "start": 13,
+              "end": 258
             },
-            "start": 4,
-            "end": 250
+            "start": 12,
+            "end": 258
           },
           "init": null,
           "definite": false,
-          "start": 4,
-          "end": 250
+          "start": 12,
+          "end": 258
         }
       ],
-      "declare": false,
+      "declare": true,
       "start": 0,
-      "end": 251
+      "end": 259
     },
     {
       "type": "VariableDeclaration",
@@ -199,14 +199,14 @@ __ESTREE_TEST__:AST:
               "type": "TSTypeAnnotation",
               "typeAnnotation": {
                 "type": "TSStringKeyword",
-                "start": 337,
-                "end": 343
+                "start": 345,
+                "end": 351
               },
-              "start": 335,
-              "end": 343
+              "start": 343,
+              "end": 351
             },
-            "start": 334,
-            "end": 343
+            "start": 342,
+            "end": 351
           },
           "init": {
             "type": "Identifier",
@@ -214,225 +214,231 @@ __ESTREE_TEST__:AST:
             "name": "x",
             "optional": false,
             "typeAnnotation": null,
-            "start": 346,
-            "end": 347
+            "start": 354,
+            "end": 355
           },
           "definite": false,
-          "start": 334,
-          "end": 347
+          "start": 342,
+          "end": 355
         }
       ],
       "declare": false,
-      "start": 330,
-      "end": 348
+      "start": 338,
+      "end": 356
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 348
+  "end": 356
 }
 ```
 __ESTREE_TEST__:TOKENS:
 ```json
 [
   {
+    "type": "Identifier",
+    "value": "declare",
+    "start": 0,
+    "end": 7
+  },
+  {
     "type": "Keyword",
     "value": "var",
-    "start": 0,
-    "end": 3
+    "start": 8,
+    "end": 11
   },
   {
     "type": "Identifier",
     "value": "x",
-    "start": 4,
-    "end": 5
+    "start": 12,
+    "end": 13
   },
   {
     "type": "Punctuator",
     "value": ":",
-    "start": 5,
-    "end": 6
+    "start": 13,
+    "end": 14
   },
   {
     "type": "Punctuator",
     "value": "{",
-    "start": 7,
-    "end": 8
+    "start": 15,
+    "end": 16
   },
   {
     "type": "Identifier",
     "value": "propertyWithAnExceedinglyLongName1",
-    "start": 13,
-    "end": 47
-  },
-  {
-    "type": "Punctuator",
-    "value": ":",
-    "start": 47,
-    "end": 48
-  },
-  {
-    "type": "Identifier",
-    "value": "string",
-    "start": 49,
+    "start": 21,
     "end": 55
   },
   {
     "type": "Punctuator",
-    "value": ";",
+    "value": ":",
     "start": 55,
     "end": 56
   },
   {
     "type": "Identifier",
-    "value": "propertyWithAnExceedinglyLongName2",
-    "start": 61,
-    "end": 95
-  },
-  {
-    "type": "Punctuator",
-    "value": ":",
-    "start": 95,
-    "end": 96
-  },
-  {
-    "type": "Identifier",
     "value": "string",
-    "start": 97,
-    "end": 103
+    "start": 57,
+    "end": 63
   },
   {
     "type": "Punctuator",
     "value": ";",
+    "start": 63,
+    "end": 64
+  },
+  {
+    "type": "Identifier",
+    "value": "propertyWithAnExceedinglyLongName2",
+    "start": 69,
+    "end": 103
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
     "start": 103,
     "end": 104
   },
   {
     "type": "Identifier",
-    "value": "propertyWithAnExceedinglyLongName3",
-    "start": 109,
-    "end": 143
-  },
-  {
-    "type": "Punctuator",
-    "value": ":",
-    "start": 143,
-    "end": 144
-  },
-  {
-    "type": "Identifier",
     "value": "string",
-    "start": 145,
-    "end": 151
+    "start": 105,
+    "end": 111
   },
   {
     "type": "Punctuator",
     "value": ";",
+    "start": 111,
+    "end": 112
+  },
+  {
+    "type": "Identifier",
+    "value": "propertyWithAnExceedinglyLongName3",
+    "start": 117,
+    "end": 151
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
     "start": 151,
     "end": 152
   },
   {
     "type": "Identifier",
-    "value": "propertyWithAnExceedinglyLongName4",
-    "start": 157,
-    "end": 191
-  },
-  {
-    "type": "Punctuator",
-    "value": ":",
-    "start": 191,
-    "end": 192
-  },
-  {
-    "type": "Identifier",
     "value": "string",
-    "start": 193,
-    "end": 199
+    "start": 153,
+    "end": 159
   },
   {
     "type": "Punctuator",
     "value": ";",
+    "start": 159,
+    "end": 160
+  },
+  {
+    "type": "Identifier",
+    "value": "propertyWithAnExceedinglyLongName4",
+    "start": 165,
+    "end": 199
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
     "start": 199,
     "end": 200
   },
   {
     "type": "Identifier",
-    "value": "propertyWithAnExceedinglyLongName5",
-    "start": 205,
-    "end": 239
+    "value": "string",
+    "start": 201,
+    "end": 207
   },
   {
     "type": "Punctuator",
-    "value": ":",
-    "start": 239,
-    "end": 240
+    "value": ";",
+    "start": 207,
+    "end": 208
   },
   {
     "type": "Identifier",
-    "value": "string",
-    "start": 241,
+    "value": "propertyWithAnExceedinglyLongName5",
+    "start": 213,
     "end": 247
   },
   {
     "type": "Punctuator",
-    "value": ";",
+    "value": ":",
     "start": 247,
     "end": 248
   },
   {
-    "type": "Punctuator",
-    "value": "}",
+    "type": "Identifier",
+    "value": "string",
     "start": 249,
-    "end": 250
+    "end": 255
   },
   {
     "type": "Punctuator",
     "value": ";",
-    "start": 250,
-    "end": 251
+    "start": 255,
+    "end": 256
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 257,
+    "end": 258
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 258,
+    "end": 259
   },
   {
     "type": "Keyword",
     "value": "var",
-    "start": 330,
-    "end": 333
+    "start": 338,
+    "end": 341
   },
   {
     "type": "Identifier",
     "value": "s",
-    "start": 334,
-    "end": 335
-  },
-  {
-    "type": "Punctuator",
-    "value": ":",
-    "start": 335,
-    "end": 336
-  },
-  {
-    "type": "Identifier",
-    "value": "string",
-    "start": 337,
+    "start": 342,
     "end": 343
   },
   {
     "type": "Punctuator",
+    "value": ":",
+    "start": 343,
+    "end": 344
+  },
+  {
+    "type": "Identifier",
+    "value": "string",
+    "start": 345,
+    "end": 351
+  },
+  {
+    "type": "Punctuator",
     "value": "=",
-    "start": 344,
-    "end": 345
+    "start": 352,
+    "end": 353
   },
   {
     "type": "Identifier",
     "value": "x",
-    "start": 346,
-    "end": 347
+    "start": 354,
+    "end": 355
   },
   {
     "type": "Punctuator",
     "value": ";",
-    "start": 347,
-    "end": 348
+    "start": 355,
+    "end": 356
   }
 ]
 ```

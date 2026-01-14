@@ -1,0 +1,134 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 265,
+            "end": 271
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 272,
+            "end": 281
+          },
+          "optional": false,
+          "computed": false,
+          "start": 265,
+          "end": 281
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "ParenthesizedExpression",
+              "expression": {
+                "type": "NewExpression",
+                "callee": {
+                  "type": "MemberExpression",
+                  "object": {
+                    "type": "Identifier",
+                    "name": "Temporal",
+                    "start": 287,
+                    "end": 295
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "name": "PlainDateTime",
+                    "start": 296,
+                    "end": 309
+                  },
+                  "optional": false,
+                  "computed": false,
+                  "start": 287,
+                  "end": 309
+                },
+                "arguments": [
+                  {
+                    "type": "Literal",
+                    "value": 1997,
+                    "raw": "1997",
+                    "start": 310,
+                    "end": 314
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 8,
+                    "raw": "8",
+                    "start": 316,
+                    "end": 317
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 23,
+                    "raw": "23",
+                    "start": 319,
+                    "end": 321
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 5,
+                    "raw": "5",
+                    "start": 323,
+                    "end": 324
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 30,
+                    "raw": "30",
+                    "start": 326,
+                    "end": 328
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 13,
+                    "raw": "13",
+                    "start": 330,
+                    "end": 332
+                  }
+                ],
+                "start": 283,
+                "end": 333
+              },
+              "start": 282,
+              "end": 334
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "monthCode",
+              "start": 335,
+              "end": 344
+            },
+            "optional": false,
+            "computed": false,
+            "start": 282,
+            "end": 344
+          },
+          {
+            "type": "Literal",
+            "value": "M08",
+            "raw": "'M08'",
+            "start": 346,
+            "end": 351
+          }
+        ],
+        "optional": false,
+        "start": 265,
+        "end": 352
+      },
+      "start": 265,
+      "end": 353
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 354
+}
