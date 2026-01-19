@@ -1992,14 +1992,42 @@ __ESTREE_TEST__:AST:
             "directive": null,
             "start": 1880,
             "end": 1890
+          },
+          {
+            "type": "ExpressionStatement",
+            "expression": {
+              "type": "AssignmentExpression",
+              "operator": "=",
+              "left": {
+                "type": "Identifier",
+                "decorators": [],
+                "name": "x",
+                "optional": false,
+                "typeAnnotation": null,
+                "start": 1895,
+                "end": 1896
+              },
+              "right": {
+                "type": "Literal",
+                "value": "whatever",
+                "raw": "\"whatever\"",
+                "start": 1899,
+                "end": 1909
+              },
+              "start": 1895,
+              "end": 1909
+            },
+            "directive": null,
+            "start": 1895,
+            "end": 1910
           }
         ],
         "start": 1226,
-        "end": 1892
+        "end": 1921
       },
       "expression": false,
       "start": 1210,
-      "end": 1892
+      "end": 1921
     },
     {
       "type": "ExportNamedDeclaration",
@@ -2008,14 +2036,14 @@ __ESTREE_TEST__:AST:
       "source": null,
       "exportKind": "value",
       "attributes": [],
-      "start": 1894,
-      "end": 1904
+      "start": 1923,
+      "end": 1933
     }
   ],
   "sourceType": "module",
   "hashbang": null,
   "start": 0,
-  "end": 1904
+  "end": 1933
 }
 ```
 __ESTREE_TEST__:TOKENS:
@@ -3984,34 +4012,58 @@ __ESTREE_TEST__:TOKENS:
     "end": 1890
   },
   {
-    "type": "Punctuator",
-    "value": "}",
-    "start": 1891,
-    "end": 1892
-  },
-  {
-    "type": "Keyword",
-    "value": "export",
-    "start": 1894,
-    "end": 1900
+    "type": "Identifier",
+    "value": "x",
+    "start": 1895,
+    "end": 1896
   },
   {
     "type": "Punctuator",
-    "value": "{",
-    "start": 1901,
-    "end": 1902
+    "value": "=",
+    "start": 1897,
+    "end": 1898
   },
   {
-    "type": "Punctuator",
-    "value": "}",
-    "start": 1902,
-    "end": 1903
+    "type": "String",
+    "value": "\"whatever\"",
+    "start": 1899,
+    "end": 1909
   },
   {
     "type": "Punctuator",
     "value": ";",
-    "start": 1903,
-    "end": 1904
+    "start": 1909,
+    "end": 1910
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 1920,
+    "end": 1921
+  },
+  {
+    "type": "Keyword",
+    "value": "export",
+    "start": 1923,
+    "end": 1929
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 1930,
+    "end": 1931
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 1931,
+    "end": 1932
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1932,
+    "end": 1933
   }
 ]
 ```

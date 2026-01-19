@@ -1,0 +1,97 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 739,
+            "end": 745
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 746,
+            "end": 755
+          },
+          "optional": false,
+          "computed": false,
+          "start": 739,
+          "end": 755
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Literal",
+                "value": "abc",
+                "raw": "\"abc\"",
+                "start": 756,
+                "end": 761
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "lastIndexOf",
+                "start": 762,
+                "end": 773
+              },
+              "optional": false,
+              "computed": false,
+              "start": 756,
+              "end": 773
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "value": "d",
+                "raw": "\"d\"",
+                "start": 774,
+                "end": 777
+              }
+            ],
+            "optional": false,
+            "start": 756,
+            "end": 778
+          },
+          {
+            "type": "UnaryExpression",
+            "operator": "-",
+            "argument": {
+              "type": "Literal",
+              "value": 1,
+              "raw": "1",
+              "start": 781,
+              "end": 782
+            },
+            "prefix": true,
+            "start": 780,
+            "end": 782
+          },
+          {
+            "type": "Literal",
+            "value": "String.prototype.lastIndexOf returns -1 when searchString is shorter than this and searchString is not a substring of this.",
+            "raw": "\"String.prototype.lastIndexOf returns -1 when searchString is shorter than this and searchString is not a substring of this.\"",
+            "start": 784,
+            "end": 909
+          }
+        ],
+        "optional": false,
+        "start": 739,
+        "end": 910
+      },
+      "start": 739,
+      "end": 911
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 913
+}

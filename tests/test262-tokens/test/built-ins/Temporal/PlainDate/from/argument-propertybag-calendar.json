@@ -352,5 +352,227 @@
     "value": ";",
     "start": 552,
     "end": 553
+  },
+  {
+    "type": "Keyword",
+    "value": "const",
+    "start": 554,
+    "end": 559
+  },
+  {
+    "type": "Identifier",
+    "value": "plainDateImplicitCalendar",
+    "start": 560,
+    "end": 585
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 586,
+    "end": 587
+  },
+  {
+    "type": "Identifier",
+    "value": "Temporal",
+    "start": 588,
+    "end": 596
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 596,
+    "end": 597
+  },
+  {
+    "type": "Identifier",
+    "value": "PlainDate",
+    "start": 597,
+    "end": 606
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 606,
+    "end": 607
+  },
+  {
+    "type": "Identifier",
+    "value": "from",
+    "start": 607,
+    "end": 611
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 611,
+    "end": 612
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 612,
+    "end": 613
+  },
+  {
+    "type": "Identifier",
+    "value": "year",
+    "start": 614,
+    "end": 618
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 618,
+    "end": 619
+  },
+  {
+    "type": "Numeric",
+    "value": "1976",
+    "start": 620,
+    "end": 624
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 624,
+    "end": 625
+  },
+  {
+    "type": "Identifier",
+    "value": "month",
+    "start": 626,
+    "end": 631
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 631,
+    "end": 632
+  },
+  {
+    "type": "Numeric",
+    "value": "11",
+    "start": 633,
+    "end": 635
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 635,
+    "end": 636
+  },
+  {
+    "type": "Identifier",
+    "value": "day",
+    "start": 637,
+    "end": 640
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 640,
+    "end": 641
+  },
+  {
+    "type": "Numeric",
+    "value": "18",
+    "start": 642,
+    "end": 644
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 645,
+    "end": 646
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 646,
+    "end": 647
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 647,
+    "end": 648
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 649,
+    "end": 655
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 655,
+    "end": 656
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 656,
+    "end": 665
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 665,
+    "end": 666
+  },
+  {
+    "type": "Identifier",
+    "value": "plainDateImplicitCalendar",
+    "start": 666,
+    "end": 691
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 691,
+    "end": 692
+  },
+  {
+    "type": "Identifier",
+    "value": "calendarId",
+    "start": 692,
+    "end": 702
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 702,
+    "end": 703
+  },
+  {
+    "type": "String",
+    "value": "\"iso8601\"",
+    "start": 704,
+    "end": 713
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 713,
+    "end": 714
+  },
+  {
+    "type": "String",
+    "value": "\"default calendar is iso8601\"",
+    "start": 715,
+    "end": 744
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 744,
+    "end": 745
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 745,
+    "end": 746
   }
 ]

@@ -1,0 +1,218 @@
+[
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 662,
+    "end": 668
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 668,
+    "end": 669
+  },
+  {
+    "type": "Identifier",
+    "value": "throws",
+    "start": 669,
+    "end": 675
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 675,
+    "end": 676
+  },
+  {
+    "type": "Identifier",
+    "value": "Test262Error",
+    "start": 676,
+    "end": 688
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 688,
+    "end": 689
+  },
+  {
+    "type": "Keyword",
+    "value": "function",
+    "start": 690,
+    "end": 698
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 699,
+    "end": 700
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 700,
+    "end": 701
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 702,
+    "end": 703
+  },
+  {
+    "type": "Identifier",
+    "value": "String",
+    "start": 706,
+    "end": 712
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 712,
+    "end": 713
+  },
+  {
+    "type": "Identifier",
+    "value": "fromCharCode",
+    "start": 713,
+    "end": 725
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 725,
+    "end": 726
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 726,
+    "end": 727
+  },
+  {
+    "type": "Identifier",
+    "value": "valueOf",
+    "start": 732,
+    "end": 739
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 739,
+    "end": 740
+  },
+  {
+    "type": "Keyword",
+    "value": "function",
+    "start": 741,
+    "end": 749
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 750,
+    "end": 751
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 751,
+    "end": 752
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 753,
+    "end": 754
+  },
+  {
+    "type": "Keyword",
+    "value": "throw",
+    "start": 755,
+    "end": 760
+  },
+  {
+    "type": "Keyword",
+    "value": "new",
+    "start": 761,
+    "end": 764
+  },
+  {
+    "type": "Identifier",
+    "value": "Test262Error",
+    "start": 765,
+    "end": 777
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 777,
+    "end": 778
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 778,
+    "end": 779
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 779,
+    "end": 780
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 781,
+    "end": 782
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 785,
+    "end": 786
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 786,
+    "end": 787
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 787,
+    "end": 788
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 789,
+    "end": 790
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 790,
+    "end": 791
+  },
+  {
+    "type": "String",
+    "value": "\"ToNumber throws when its argument's ToPrimitive step calls a throwing valueOf, and String.fromCharCode must propagate it.\"",
+    "start": 792,
+    "end": 915
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 915,
+    "end": 916
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 916,
+    "end": 917
+  }
+]

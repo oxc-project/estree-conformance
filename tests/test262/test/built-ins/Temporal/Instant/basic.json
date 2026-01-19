@@ -177,6 +177,72 @@
       "end": 487
     },
     {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 488,
+            "end": 494
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 495,
+            "end": 504
+          },
+          "optional": false,
+          "computed": false,
+          "start": 488,
+          "end": 504
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "Identifier",
+              "name": "bigIntInstant",
+              "start": 505,
+              "end": 518
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "epochNanoseconds",
+              "start": 519,
+              "end": 535
+            },
+            "optional": false,
+            "computed": false,
+            "start": 505,
+            "end": 535
+          },
+          {
+            "type": "Literal",
+            "value": null,
+            "raw": "217175010123456789n",
+            "bigint": "217175010123456789",
+            "start": 537,
+            "end": 556
+          },
+          {
+            "type": "Literal",
+            "value": "BigInt epochNanoseconds",
+            "raw": "\"BigInt epochNanoseconds\"",
+            "start": 558,
+            "end": 583
+          }
+        ],
+        "optional": false,
+        "start": 488,
+        "end": 584
+      },
+      "start": 488,
+      "end": 585
+    },
+    {
       "type": "VariableDeclaration",
       "kind": "const",
       "declarations": [
@@ -185,8 +251,8 @@
           "id": {
             "type": "Identifier",
             "name": "stringInstant",
-            "start": 495,
-            "end": 508
+            "start": 593,
+            "end": 606
           },
           "init": {
             "type": "NewExpression",
@@ -195,38 +261,38 @@
               "object": {
                 "type": "Identifier",
                 "name": "Temporal",
-                "start": 515,
-                "end": 523
+                "start": 613,
+                "end": 621
               },
               "property": {
                 "type": "Identifier",
                 "name": "Instant",
-                "start": 524,
-                "end": 531
+                "start": 622,
+                "end": 629
               },
               "optional": false,
               "computed": false,
-              "start": 515,
-              "end": 531
+              "start": 613,
+              "end": 629
             },
             "arguments": [
               {
                 "type": "Literal",
                 "value": "217175010123456789",
                 "raw": "\"217175010123456789\"",
-                "start": 532,
-                "end": 552
+                "start": 630,
+                "end": 650
               }
             ],
-            "start": 511,
-            "end": 553
+            "start": 609,
+            "end": 651
           },
-          "start": 495,
-          "end": 553
+          "start": 593,
+          "end": 651
         }
       ],
-      "start": 489,
-      "end": 554
+      "start": 587,
+      "end": 652
     },
     {
       "type": "ExpressionStatement",
@@ -235,8 +301,8 @@
         "callee": {
           "type": "Identifier",
           "name": "assert",
-          "start": 555,
-          "end": 561
+          "start": 653,
+          "end": 659
         },
         "arguments": [
           {
@@ -244,8 +310,8 @@
             "left": {
               "type": "Identifier",
               "name": "stringInstant",
-              "start": 562,
-              "end": 575
+              "start": 660,
+              "end": 673
             },
             "operator": "instanceof",
             "right": {
@@ -253,37 +319,37 @@
               "object": {
                 "type": "Identifier",
                 "name": "Temporal",
-                "start": 587,
-                "end": 595
+                "start": 685,
+                "end": 693
               },
               "property": {
                 "type": "Identifier",
                 "name": "Instant",
-                "start": 596,
-                "end": 603
+                "start": 694,
+                "end": 701
               },
               "optional": false,
               "computed": false,
-              "start": 587,
-              "end": 603
+              "start": 685,
+              "end": 701
             },
-            "start": 562,
-            "end": 603
+            "start": 660,
+            "end": 701
           },
           {
             "type": "Literal",
             "value": "String instanceof",
             "raw": "\"String instanceof\"",
-            "start": 605,
-            "end": 624
+            "start": 703,
+            "end": 722
           }
         ],
         "optional": false,
-        "start": 555,
-        "end": 625
+        "start": 653,
+        "end": 723
       },
-      "start": 555,
-      "end": 626
+      "start": 653,
+      "end": 724
     },
     {
       "type": "ExpressionStatement",
@@ -294,19 +360,19 @@
           "object": {
             "type": "Identifier",
             "name": "assert",
-            "start": 627,
-            "end": 633
+            "start": 725,
+            "end": 731
           },
           "property": {
             "type": "Identifier",
             "name": "sameValue",
-            "start": 634,
-            "end": 643
+            "start": 732,
+            "end": 741
           },
           "optional": false,
           "computed": false,
-          "start": 627,
-          "end": 643
+          "start": 725,
+          "end": 741
         },
         "arguments": [
           {
@@ -314,41 +380,41 @@
             "object": {
               "type": "Identifier",
               "name": "stringInstant",
-              "start": 644,
-              "end": 657
+              "start": 742,
+              "end": 755
             },
             "property": {
               "type": "Identifier",
               "name": "epochMilliseconds",
-              "start": 658,
-              "end": 675
+              "start": 756,
+              "end": 773
             },
             "optional": false,
             "computed": false,
-            "start": 644,
-            "end": 675
+            "start": 742,
+            "end": 773
           },
           {
             "type": "Literal",
             "value": 217175010123,
             "raw": "217175010123",
-            "start": 677,
-            "end": 689
+            "start": 775,
+            "end": 787
           },
           {
             "type": "Literal",
             "value": "String epochMilliseconds",
             "raw": "\"String epochMilliseconds\"",
-            "start": 691,
-            "end": 717
+            "start": 789,
+            "end": 815
           }
         ],
         "optional": false,
-        "start": 627,
-        "end": 718
+        "start": 725,
+        "end": 816
       },
-      "start": 627,
-      "end": 719
+      "start": 725,
+      "end": 817
     },
     {
       "type": "ExpressionStatement",
@@ -359,26 +425,608 @@
           "object": {
             "type": "Identifier",
             "name": "assert",
-            "start": 721,
-            "end": 727
+            "start": 818,
+            "end": 824
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 825,
+            "end": 834
+          },
+          "optional": false,
+          "computed": false,
+          "start": 818,
+          "end": 834
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "Identifier",
+              "name": "stringInstant",
+              "start": 835,
+              "end": 848
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "epochNanoseconds",
+              "start": 849,
+              "end": 865
+            },
+            "optional": false,
+            "computed": false,
+            "start": 835,
+            "end": 865
+          },
+          {
+            "type": "Literal",
+            "value": null,
+            "raw": "217175010123456789n",
+            "bigint": "217175010123456789",
+            "start": 867,
+            "end": 886
+          },
+          {
+            "type": "Literal",
+            "value": "String epochNanoseconds",
+            "raw": "\"String epochNanoseconds\"",
+            "start": 888,
+            "end": 913
+          }
+        ],
+        "optional": false,
+        "start": 818,
+        "end": 914
+      },
+      "start": 818,
+      "end": 915
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "negativeBigIntInstant",
+            "start": 923,
+            "end": 944
+          },
+          "init": {
+            "type": "NewExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "Temporal",
+                "start": 951,
+                "end": 959
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "Instant",
+                "start": 960,
+                "end": 967
+              },
+              "optional": false,
+              "computed": false,
+              "start": 951,
+              "end": 967
+            },
+            "arguments": [
+              {
+                "type": "UnaryExpression",
+                "operator": "-",
+                "argument": {
+                  "type": "Literal",
+                  "value": null,
+                  "raw": "217175010123456789n",
+                  "bigint": "217175010123456789",
+                  "start": 969,
+                  "end": 988
+                },
+                "prefix": true,
+                "start": 968,
+                "end": 988
+              }
+            ],
+            "start": 947,
+            "end": 989
+          },
+          "start": 923,
+          "end": 989
+        }
+      ],
+      "start": 917,
+      "end": 990
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "Identifier",
+          "name": "assert",
+          "start": 991,
+          "end": 997
+        },
+        "arguments": [
+          {
+            "type": "BinaryExpression",
+            "left": {
+              "type": "Identifier",
+              "name": "negativeBigIntInstant",
+              "start": 998,
+              "end": 1019
+            },
+            "operator": "instanceof",
+            "right": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "Temporal",
+                "start": 1031,
+                "end": 1039
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "Instant",
+                "start": 1040,
+                "end": 1047
+              },
+              "optional": false,
+              "computed": false,
+              "start": 1031,
+              "end": 1047
+            },
+            "start": 998,
+            "end": 1047
+          },
+          {
+            "type": "Literal",
+            "value": "negative BigInt instanceof",
+            "raw": "\"negative BigInt instanceof\"",
+            "start": 1049,
+            "end": 1077
+          }
+        ],
+        "optional": false,
+        "start": 991,
+        "end": 1078
+      },
+      "start": 991,
+      "end": 1079
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 1080,
+            "end": 1086
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 1087,
+            "end": 1096
+          },
+          "optional": false,
+          "computed": false,
+          "start": 1080,
+          "end": 1096
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "Identifier",
+              "name": "negativeBigIntInstant",
+              "start": 1097,
+              "end": 1118
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "epochMilliseconds",
+              "start": 1119,
+              "end": 1136
+            },
+            "optional": false,
+            "computed": false,
+            "start": 1097,
+            "end": 1136
+          },
+          {
+            "type": "UnaryExpression",
+            "operator": "-",
+            "argument": {
+              "type": "Literal",
+              "value": 217175010124,
+              "raw": "217175010124",
+              "start": 1139,
+              "end": 1151
+            },
+            "prefix": true,
+            "start": 1138,
+            "end": 1151
+          },
+          {
+            "type": "Literal",
+            "value": "negagive BigInt epochMilliseconds",
+            "raw": "\"negagive BigInt epochMilliseconds\"",
+            "start": 1153,
+            "end": 1188
+          }
+        ],
+        "optional": false,
+        "start": 1080,
+        "end": 1189
+      },
+      "start": 1080,
+      "end": 1190
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 1191,
+            "end": 1197
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 1198,
+            "end": 1207
+          },
+          "optional": false,
+          "computed": false,
+          "start": 1191,
+          "end": 1207
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "Identifier",
+              "name": "negativeBigIntInstant",
+              "start": 1208,
+              "end": 1229
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "epochNanoseconds",
+              "start": 1230,
+              "end": 1246
+            },
+            "optional": false,
+            "computed": false,
+            "start": 1208,
+            "end": 1246
+          },
+          {
+            "type": "UnaryExpression",
+            "operator": "-",
+            "argument": {
+              "type": "Literal",
+              "value": null,
+              "raw": "217175010123456789n",
+              "bigint": "217175010123456789",
+              "start": 1249,
+              "end": 1268
+            },
+            "prefix": true,
+            "start": 1248,
+            "end": 1268
+          },
+          {
+            "type": "Literal",
+            "value": "negative BigInt epochNanoseconds",
+            "raw": "\"negative BigInt epochNanoseconds\"",
+            "start": 1270,
+            "end": 1304
+          }
+        ],
+        "optional": false,
+        "start": 1191,
+        "end": 1305
+      },
+      "start": 1191,
+      "end": 1306
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "negativeStringInstant",
+            "start": 1314,
+            "end": 1335
+          },
+          "init": {
+            "type": "NewExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "Temporal",
+                "start": 1342,
+                "end": 1350
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "Instant",
+                "start": 1351,
+                "end": 1358
+              },
+              "optional": false,
+              "computed": false,
+              "start": 1342,
+              "end": 1358
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "value": "-217175010123456789",
+                "raw": "\"-217175010123456789\"",
+                "start": 1359,
+                "end": 1380
+              }
+            ],
+            "start": 1338,
+            "end": 1381
+          },
+          "start": 1314,
+          "end": 1381
+        }
+      ],
+      "start": 1308,
+      "end": 1382
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "Identifier",
+          "name": "assert",
+          "start": 1383,
+          "end": 1389
+        },
+        "arguments": [
+          {
+            "type": "BinaryExpression",
+            "left": {
+              "type": "Identifier",
+              "name": "negativeStringInstant",
+              "start": 1390,
+              "end": 1411
+            },
+            "operator": "instanceof",
+            "right": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "Temporal",
+                "start": 1423,
+                "end": 1431
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "Instant",
+                "start": 1432,
+                "end": 1439
+              },
+              "optional": false,
+              "computed": false,
+              "start": 1423,
+              "end": 1439
+            },
+            "start": 1390,
+            "end": 1439
+          },
+          {
+            "type": "Literal",
+            "value": "negative String instanceof",
+            "raw": "\"negative String instanceof\"",
+            "start": 1441,
+            "end": 1469
+          }
+        ],
+        "optional": false,
+        "start": 1383,
+        "end": 1470
+      },
+      "start": 1383,
+      "end": 1471
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 1472,
+            "end": 1478
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 1479,
+            "end": 1488
+          },
+          "optional": false,
+          "computed": false,
+          "start": 1472,
+          "end": 1488
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "Identifier",
+              "name": "negativeStringInstant",
+              "start": 1489,
+              "end": 1510
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "epochMilliseconds",
+              "start": 1511,
+              "end": 1528
+            },
+            "optional": false,
+            "computed": false,
+            "start": 1489,
+            "end": 1528
+          },
+          {
+            "type": "UnaryExpression",
+            "operator": "-",
+            "argument": {
+              "type": "Literal",
+              "value": 217175010124,
+              "raw": "217175010124",
+              "start": 1531,
+              "end": 1543
+            },
+            "prefix": true,
+            "start": 1530,
+            "end": 1543
+          },
+          {
+            "type": "Literal",
+            "value": "negative string epochMilliseconds",
+            "raw": "\"negative string epochMilliseconds\"",
+            "start": 1545,
+            "end": 1580
+          }
+        ],
+        "optional": false,
+        "start": 1472,
+        "end": 1581
+      },
+      "start": 1472,
+      "end": 1582
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 1583,
+            "end": 1589
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 1590,
+            "end": 1599
+          },
+          "optional": false,
+          "computed": false,
+          "start": 1583,
+          "end": 1599
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "Identifier",
+              "name": "negativeStringInstant",
+              "start": 1600,
+              "end": 1621
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "epochNanoseconds",
+              "start": 1622,
+              "end": 1638
+            },
+            "optional": false,
+            "computed": false,
+            "start": 1600,
+            "end": 1638
+          },
+          {
+            "type": "UnaryExpression",
+            "operator": "-",
+            "argument": {
+              "type": "Literal",
+              "value": null,
+              "raw": "217175010123456789n",
+              "bigint": "217175010123456789",
+              "start": 1641,
+              "end": 1660
+            },
+            "prefix": true,
+            "start": 1640,
+            "end": 1660
+          },
+          {
+            "type": "Literal",
+            "value": "negative string epochNanoseconds",
+            "raw": "\"negative string epochNanoseconds\"",
+            "start": 1662,
+            "end": 1696
+          }
+        ],
+        "optional": false,
+        "start": 1583,
+        "end": 1697
+      },
+      "start": 1583,
+      "end": 1698
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 1700,
+            "end": 1706
           },
           "property": {
             "type": "Identifier",
             "name": "throws",
-            "start": 728,
-            "end": 734
+            "start": 1707,
+            "end": 1713
           },
           "optional": false,
           "computed": false,
-          "start": 721,
-          "end": 734
+          "start": 1700,
+          "end": 1713
         },
         "arguments": [
           {
             "type": "Identifier",
             "name": "SyntaxError",
-            "start": 735,
-            "end": 746
+            "start": 1714,
+            "end": 1725
           },
           {
             "type": "ArrowFunctionExpression",
@@ -392,55 +1040,241 @@
                 "object": {
                   "type": "Identifier",
                   "name": "Temporal",
-                  "start": 758,
-                  "end": 766
+                  "start": 1737,
+                  "end": 1745
                 },
                 "property": {
                   "type": "Identifier",
                   "name": "Instant",
-                  "start": 767,
-                  "end": 774
+                  "start": 1746,
+                  "end": 1753
                 },
                 "optional": false,
                 "computed": false,
-                "start": 758,
-                "end": 774
+                "start": 1737,
+                "end": 1753
               },
               "arguments": [
                 {
                   "type": "Literal",
                   "value": "abc123",
                   "raw": "\"abc123\"",
-                  "start": 775,
-                  "end": 783
+                  "start": 1754,
+                  "end": 1762
                 }
               ],
-              "start": 754,
-              "end": 784
+              "start": 1733,
+              "end": 1763
             },
             "id": null,
             "generator": false,
-            "start": 748,
-            "end": 784
+            "start": 1727,
+            "end": 1763
           },
           {
             "type": "Literal",
             "value": "invalid BigInt syntax",
             "raw": "\"invalid BigInt syntax\"",
-            "start": 786,
-            "end": 809
+            "start": 1765,
+            "end": 1788
           }
         ],
         "optional": false,
-        "start": 721,
-        "end": 810
+        "start": 1700,
+        "end": 1789
       },
-      "start": 721,
-      "end": 811
+      "start": 1700,
+      "end": 1790
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 1792,
+            "end": 1798
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 1799,
+            "end": 1808
+          },
+          "optional": false,
+          "computed": false,
+          "start": 1792,
+          "end": 1808
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "NewExpression",
+              "callee": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "Temporal",
+                  "start": 1813,
+                  "end": 1821
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "Instant",
+                  "start": 1822,
+                  "end": 1829
+                },
+                "optional": false,
+                "computed": false,
+                "start": 1813,
+                "end": 1829
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "value": true,
+                  "raw": "true",
+                  "start": 1830,
+                  "end": 1834
+                }
+              ],
+              "start": 1809,
+              "end": 1835
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "epochNanoseconds",
+              "start": 1836,
+              "end": 1852
+            },
+            "optional": false,
+            "computed": false,
+            "start": 1809,
+            "end": 1852
+          },
+          {
+            "type": "Literal",
+            "value": null,
+            "raw": "1n",
+            "bigint": "1",
+            "start": 1854,
+            "end": 1856
+          },
+          {
+            "type": "Literal",
+            "value": "true as argument is 1n",
+            "raw": "\"true as argument is 1n\"",
+            "start": 1858,
+            "end": 1882
+          }
+        ],
+        "optional": false,
+        "start": 1792,
+        "end": 1883
+      },
+      "start": 1792,
+      "end": 1884
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 1885,
+            "end": 1891
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 1892,
+            "end": 1901
+          },
+          "optional": false,
+          "computed": false,
+          "start": 1885,
+          "end": 1901
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "NewExpression",
+              "callee": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "Temporal",
+                  "start": 1906,
+                  "end": 1914
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "Instant",
+                  "start": 1915,
+                  "end": 1922
+                },
+                "optional": false,
+                "computed": false,
+                "start": 1906,
+                "end": 1922
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "value": false,
+                  "raw": "false",
+                  "start": 1923,
+                  "end": 1928
+                }
+              ],
+              "start": 1902,
+              "end": 1929
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "epochNanoseconds",
+              "start": 1930,
+              "end": 1946
+            },
+            "optional": false,
+            "computed": false,
+            "start": 1902,
+            "end": 1946
+          },
+          {
+            "type": "Literal",
+            "value": null,
+            "raw": "0n",
+            "bigint": "0",
+            "start": 1948,
+            "end": 1950
+          },
+          {
+            "type": "Literal",
+            "value": "false as argument is 0n",
+            "raw": "\"false as argument is 0n\"",
+            "start": 1952,
+            "end": 1977
+          }
+        ],
+        "optional": false,
+        "start": 1885,
+        "end": 1978
+      },
+      "start": 1885,
+      "end": 1979
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 812
+  "end": 1980
 }

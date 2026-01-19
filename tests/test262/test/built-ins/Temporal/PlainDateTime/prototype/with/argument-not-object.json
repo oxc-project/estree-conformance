@@ -178,17 +178,23 @@
                 "bigint": "2020",
                 "start": 426,
                 "end": 431
+              },
+              {
+                "type": "Identifier",
+                "name": "NaN",
+                "start": 435,
+                "end": 438
               }
             ],
             "start": 348,
-            "end": 434
+            "end": 441
           },
           "start": 341,
-          "end": 434
+          "end": 441
         }
       ],
       "start": 335,
-      "end": 435
+      "end": 442
     },
     {
       "type": "ForOfStatement",
@@ -202,22 +208,22 @@
             "id": {
               "type": "Identifier",
               "name": "argument",
-              "start": 447,
-              "end": 455
+              "start": 454,
+              "end": 462
             },
             "init": null,
-            "start": 447,
-            "end": 455
+            "start": 454,
+            "end": 462
           }
         ],
-        "start": 441,
-        "end": 455
+        "start": 448,
+        "end": 462
       },
       "right": {
         "type": "Identifier",
         "name": "args",
-        "start": 459,
-        "end": 463
+        "start": 466,
+        "end": 470
       },
       "body": {
         "type": "BlockStatement",
@@ -231,26 +237,26 @@
                 "object": {
                   "type": "Identifier",
                   "name": "assert",
-                  "start": 469,
-                  "end": 475
+                  "start": 476,
+                  "end": 482
                 },
                 "property": {
                   "type": "Identifier",
                   "name": "throws",
-                  "start": 476,
-                  "end": 482
+                  "start": 483,
+                  "end": 489
                 },
                 "optional": false,
                 "computed": false,
-                "start": 469,
-                "end": 482
+                "start": 476,
+                "end": 489
               },
               "arguments": [
                 {
                   "type": "Identifier",
                   "name": "TypeError",
-                  "start": 483,
-                  "end": 492
+                  "start": 490,
+                  "end": 499
                 },
                 {
                   "type": "ArrowFunctionExpression",
@@ -264,36 +270,36 @@
                       "object": {
                         "type": "Identifier",
                         "name": "instance",
-                        "start": 500,
-                        "end": 508
+                        "start": 507,
+                        "end": 515
                       },
                       "property": {
                         "type": "Identifier",
                         "name": "with",
-                        "start": 509,
-                        "end": 513
+                        "start": 516,
+                        "end": 520
                       },
                       "optional": false,
                       "computed": false,
-                      "start": 500,
-                      "end": 513
+                      "start": 507,
+                      "end": 520
                     },
                     "arguments": [
                       {
                         "type": "Identifier",
                         "name": "argument",
-                        "start": 514,
-                        "end": 522
+                        "start": 521,
+                        "end": 529
                       }
                     ],
                     "optional": false,
-                    "start": 500,
-                    "end": 523
+                    "start": 507,
+                    "end": 530
                   },
                   "id": null,
                   "generator": false,
-                  "start": 494,
-                  "end": 523
+                  "start": 501,
+                  "end": 530
                 },
                 {
                   "type": "TemplateLiteral",
@@ -305,8 +311,8 @@
                         "cooked": "Does not support "
                       },
                       "tail": false,
-                      "start": 526,
-                      "end": 543
+                      "start": 533,
+                      "end": 550
                     },
                     {
                       "type": "TemplateElement",
@@ -315,8 +321,8 @@
                         "cooked": ""
                       },
                       "tail": true,
-                      "start": 561,
-                      "end": 561
+                      "start": 568,
+                      "end": 568
                     }
                   ],
                   "expressions": [
@@ -326,35 +332,35 @@
                       "argument": {
                         "type": "Identifier",
                         "name": "argument",
-                        "start": 552,
-                        "end": 560
+                        "start": 559,
+                        "end": 567
                       },
                       "prefix": true,
-                      "start": 545,
-                      "end": 560
+                      "start": 552,
+                      "end": 567
                     }
                   ],
-                  "start": 525,
-                  "end": 562
+                  "start": 532,
+                  "end": 569
                 }
               ],
               "optional": false,
-              "start": 469,
-              "end": 563
+              "start": 476,
+              "end": 570
             },
-            "start": 469,
-            "end": 564
+            "start": 476,
+            "end": 571
           }
         ],
-        "start": 465,
-        "end": 566
+        "start": 472,
+        "end": 573
       },
-      "start": 436,
-      "end": 566
+      "start": 443,
+      "end": 573
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 567
+  "end": 574
 }

@@ -10,23 +10,23 @@
           "id": {
             "type": "Identifier",
             "name": "limit",
-            "start": 478,
-            "end": 483
+            "start": 509,
+            "end": 514
           },
           "init": {
             "type": "Literal",
             "value": null,
             "raw": "8640000000000000000000n",
             "bigint": "8640000000000000000000",
-            "start": 486,
-            "end": 509
+            "start": 517,
+            "end": 540
           },
-          "start": 478,
-          "end": 509
+          "start": 509,
+          "end": 540
         }
       ],
-      "start": 474,
-      "end": 510
+      "start": 505,
+      "end": 541
     },
     {
       "type": "ExpressionStatement",
@@ -37,26 +37,26 @@
           "object": {
             "type": "Identifier",
             "name": "assert",
-            "start": 512,
-            "end": 518
+            "start": 543,
+            "end": 549
           },
           "property": {
             "type": "Identifier",
             "name": "throws",
-            "start": 519,
-            "end": 525
+            "start": 550,
+            "end": 556
           },
           "optional": false,
           "computed": false,
-          "start": 512,
-          "end": 525
+          "start": 543,
+          "end": 556
         },
         "arguments": [
           {
             "type": "Identifier",
             "name": "RangeError",
-            "start": 526,
-            "end": 536
+            "start": 557,
+            "end": 567
           },
           {
             "type": "ArrowFunctionExpression",
@@ -72,30 +72,30 @@
                   "object": {
                     "type": "Identifier",
                     "name": "Temporal",
-                    "start": 544,
-                    "end": 552
+                    "start": 575,
+                    "end": 583
                   },
                   "property": {
                     "type": "Identifier",
                     "name": "Instant",
-                    "start": 553,
-                    "end": 560
+                    "start": 584,
+                    "end": 591
                   },
                   "optional": false,
                   "computed": false,
-                  "start": 544,
-                  "end": 560
+                  "start": 575,
+                  "end": 591
                 },
                 "property": {
                   "type": "Identifier",
                   "name": "fromEpochNanoseconds",
-                  "start": 561,
-                  "end": 581
+                  "start": 592,
+                  "end": 612
                 },
                 "optional": false,
                 "computed": false,
-                "start": 544,
-                "end": 581
+                "start": 575,
+                "end": 612
               },
               "arguments": [
                 {
@@ -106,12 +106,12 @@
                     "argument": {
                       "type": "Identifier",
                       "name": "limit",
-                      "start": 583,
-                      "end": 588
+                      "start": 614,
+                      "end": 619
                     },
                     "prefix": true,
-                    "start": 582,
-                    "end": 588
+                    "start": 613,
+                    "end": 619
                   },
                   "operator": "-",
                   "right": {
@@ -119,29 +119,29 @@
                     "value": null,
                     "raw": "1n",
                     "bigint": "1",
-                    "start": 591,
-                    "end": 593
+                    "start": 622,
+                    "end": 624
                   },
-                  "start": 582,
-                  "end": 593
+                  "start": 613,
+                  "end": 624
                 }
               ],
               "optional": false,
-              "start": 544,
-              "end": 594
+              "start": 575,
+              "end": 625
             },
             "id": null,
             "generator": false,
-            "start": 538,
-            "end": 594
+            "start": 569,
+            "end": 625
           }
         ],
         "optional": false,
-        "start": 512,
-        "end": 595
+        "start": 543,
+        "end": 626
       },
-      "start": 512,
-      "end": 596
+      "start": 543,
+      "end": 627
     },
     {
       "type": "ExpressionStatement",
@@ -152,26 +152,26 @@
           "object": {
             "type": "Identifier",
             "name": "assert",
-            "start": 597,
-            "end": 603
+            "start": 628,
+            "end": 634
           },
           "property": {
             "type": "Identifier",
             "name": "throws",
-            "start": 604,
-            "end": 610
+            "start": 635,
+            "end": 641
           },
           "optional": false,
           "computed": false,
-          "start": 597,
-          "end": 610
+          "start": 628,
+          "end": 641
         },
         "arguments": [
           {
             "type": "Identifier",
             "name": "RangeError",
-            "start": 611,
-            "end": 621
+            "start": 642,
+            "end": 652
           },
           {
             "type": "ArrowFunctionExpression",
@@ -187,30 +187,30 @@
                   "object": {
                     "type": "Identifier",
                     "name": "Temporal",
-                    "start": 629,
-                    "end": 637
+                    "start": 660,
+                    "end": 668
                   },
                   "property": {
                     "type": "Identifier",
                     "name": "Instant",
-                    "start": 638,
-                    "end": 645
+                    "start": 669,
+                    "end": 676
                   },
                   "optional": false,
                   "computed": false,
-                  "start": 629,
-                  "end": 645
+                  "start": 660,
+                  "end": 676
                 },
                 "property": {
                   "type": "Identifier",
                   "name": "fromEpochNanoseconds",
-                  "start": 646,
-                  "end": 666
+                  "start": 677,
+                  "end": 697
                 },
                 "optional": false,
                 "computed": false,
-                "start": 629,
-                "end": 666
+                "start": 660,
+                "end": 697
               },
               "arguments": [
                 {
@@ -218,8 +218,8 @@
                   "left": {
                     "type": "Identifier",
                     "name": "limit",
-                    "start": 667,
-                    "end": 672
+                    "start": 698,
+                    "end": 703
                   },
                   "operator": "+",
                   "right": {
@@ -227,33 +227,290 @@
                     "value": null,
                     "raw": "1n",
                     "bigint": "1",
-                    "start": 675,
-                    "end": 677
+                    "start": 706,
+                    "end": 708
                   },
-                  "start": 667,
-                  "end": 677
+                  "start": 698,
+                  "end": 708
                 }
               ],
               "optional": false,
-              "start": 629,
-              "end": 678
+              "start": 660,
+              "end": 709
             },
             "id": null,
             "generator": false,
-            "start": 623,
-            "end": 678
+            "start": 654,
+            "end": 709
           }
         ],
         "optional": false,
-        "start": 597,
-        "end": 679
+        "start": 628,
+        "end": 710
       },
-      "start": 597,
-      "end": 680
+      "start": 628,
+      "end": 711
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "TemporalHelpers",
+            "start": 712,
+            "end": 727
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "assertInstantsEqual",
+            "start": 728,
+            "end": 747
+          },
+          "optional": false,
+          "computed": false,
+          "start": 712,
+          "end": 747
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "Temporal",
+                  "start": 748,
+                  "end": 756
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "Instant",
+                  "start": 757,
+                  "end": 764
+                },
+                "optional": false,
+                "computed": false,
+                "start": 748,
+                "end": 764
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "fromEpochNanoseconds",
+                "start": 765,
+                "end": 785
+              },
+              "optional": false,
+              "computed": false,
+              "start": 748,
+              "end": 785
+            },
+            "arguments": [
+              {
+                "type": "UnaryExpression",
+                "operator": "-",
+                "argument": {
+                  "type": "Identifier",
+                  "name": "limit",
+                  "start": 787,
+                  "end": 792
+                },
+                "prefix": true,
+                "start": 786,
+                "end": 792
+              }
+            ],
+            "optional": false,
+            "start": 748,
+            "end": 793
+          },
+          {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "Temporal",
+                  "start": 831,
+                  "end": 839
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "Instant",
+                  "start": 840,
+                  "end": 847
+                },
+                "optional": false,
+                "computed": false,
+                "start": 831,
+                "end": 847
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "from",
+                "start": 848,
+                "end": 852
+              },
+              "optional": false,
+              "computed": false,
+              "start": 831,
+              "end": 852
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "value": "-271821-04-20T00:00:00Z",
+                "raw": "\"-271821-04-20T00:00:00Z\"",
+                "start": 853,
+                "end": 878
+              }
+            ],
+            "optional": false,
+            "start": 831,
+            "end": 879
+          }
+        ],
+        "optional": false,
+        "start": 712,
+        "end": 880
+      },
+      "start": 712,
+      "end": 881
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "TemporalHelpers",
+            "start": 882,
+            "end": 897
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "assertInstantsEqual",
+            "start": 898,
+            "end": 917
+          },
+          "optional": false,
+          "computed": false,
+          "start": 882,
+          "end": 917
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "Temporal",
+                  "start": 918,
+                  "end": 926
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "Instant",
+                  "start": 927,
+                  "end": 934
+                },
+                "optional": false,
+                "computed": false,
+                "start": 918,
+                "end": 934
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "fromEpochNanoseconds",
+                "start": 935,
+                "end": 955
+              },
+              "optional": false,
+              "computed": false,
+              "start": 918,
+              "end": 955
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "name": "limit",
+                "start": 956,
+                "end": 961
+              }
+            ],
+            "optional": false,
+            "start": 918,
+            "end": 962
+          },
+          {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "Temporal",
+                  "start": 1000,
+                  "end": 1008
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "Instant",
+                  "start": 1009,
+                  "end": 1016
+                },
+                "optional": false,
+                "computed": false,
+                "start": 1000,
+                "end": 1016
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "from",
+                "start": 1017,
+                "end": 1021
+              },
+              "optional": false,
+              "computed": false,
+              "start": 1000,
+              "end": 1021
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "value": "+275760-09-13T00:00:00Z",
+                "raw": "\"+275760-09-13T00:00:00Z\"",
+                "start": 1022,
+                "end": 1047
+              }
+            ],
+            "optional": false,
+            "start": 1000,
+            "end": 1048
+          }
+        ],
+        "optional": false,
+        "start": 882,
+        "end": 1049
+      },
+      "start": 882,
+      "end": 1050
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 681
+  "end": 1051
 }

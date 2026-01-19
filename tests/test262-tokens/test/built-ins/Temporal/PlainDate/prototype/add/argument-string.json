@@ -424,5 +424,137 @@
     "value": ";",
     "start": 584,
     "end": 585
+  },
+  {
+    "type": "Identifier",
+    "value": "TemporalHelpers",
+    "start": 586,
+    "end": 601
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 601,
+    "end": 602
+  },
+  {
+    "type": "Identifier",
+    "value": "assertPlainDate",
+    "start": 602,
+    "end": 617
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 617,
+    "end": 618
+  },
+  {
+    "type": "Identifier",
+    "value": "instance",
+    "start": 618,
+    "end": 626
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 626,
+    "end": 627
+  },
+  {
+    "type": "Identifier",
+    "value": "add",
+    "start": 627,
+    "end": 630
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 630,
+    "end": 631
+  },
+  {
+    "type": "String",
+    "value": "\"-P1M1D\"",
+    "start": 631,
+    "end": 639
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 639,
+    "end": 640
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 640,
+    "end": 641
+  },
+  {
+    "type": "Numeric",
+    "value": "2000",
+    "start": 642,
+    "end": 646
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 646,
+    "end": 647
+  },
+  {
+    "type": "Numeric",
+    "value": "4",
+    "start": 648,
+    "end": 649
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 649,
+    "end": 650
+  },
+  {
+    "type": "String",
+    "value": "\"M04\"",
+    "start": 651,
+    "end": 656
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 656,
+    "end": 657
+  },
+  {
+    "type": "Numeric",
+    "value": "1",
+    "start": 658,
+    "end": 659
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 659,
+    "end": 660
+  },
+  {
+    "type": "String",
+    "value": "\"calendar units\"",
+    "start": 661,
+    "end": 677
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 677,
+    "end": 678
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 678,
+    "end": 679
   }
 ]
