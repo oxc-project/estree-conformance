@@ -613,11 +613,11 @@ __ESTREE_TEST__:AST:
               "type": "TSTypeAnnotation",
               "typeAnnotation": {
                 "type": "TSStringKeyword",
-                "start": 442,
-                "end": 448
+                "start": 443,
+                "end": 449
               },
-              "start": 440,
-              "end": 448
+              "start": 441,
+              "end": 449
             },
             "value": null,
             "computed": false,
@@ -625,11 +625,11 @@ __ESTREE_TEST__:AST:
             "declare": false,
             "override": false,
             "optional": false,
-            "definite": false,
+            "definite": true,
             "readonly": false,
             "accessibility": null,
             "start": 428,
-            "end": 449
+            "end": 450
           },
           {
             "type": "MethodDefinition",
@@ -640,8 +640,8 @@ __ESTREE_TEST__:AST:
               "name": "m",
               "optional": false,
               "typeAnnotation": null,
-              "start": 493,
-              "end": 494
+              "start": 455,
+              "end": 456
             },
             "value": {
               "type": "FunctionExpression",
@@ -655,12 +655,12 @@ __ESTREE_TEST__:AST:
               "body": {
                 "type": "BlockStatement",
                 "body": [],
-                "start": 497,
-                "end": 500
+                "start": 459,
+                "end": 462
               },
               "expression": false,
-              "start": 494,
-              "end": 500
+              "start": 456,
+              "end": 462
             },
             "kind": "method",
             "computed": false,
@@ -668,23 +668,23 @@ __ESTREE_TEST__:AST:
             "override": false,
             "optional": false,
             "accessibility": null,
-            "start": 493,
-            "end": 500
+            "start": 455,
+            "end": 462
           }
         ],
         "start": 314,
-        "end": 502
+        "end": 464
       },
       "abstract": false,
       "declare": false,
       "start": 296,
-      "end": 502
+      "end": 464
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 502
+  "end": 464
 }
 ```
 __ESTREE_TEST__:TOKENS:
@@ -1268,57 +1268,63 @@ __ESTREE_TEST__:TOKENS:
   },
   {
     "type": "Punctuator",
-    "value": ":",
+    "value": "!",
     "start": 440,
     "end": 441
   },
   {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 441,
+    "end": 442
+  },
+  {
     "type": "Identifier",
     "value": "string",
-    "start": 442,
-    "end": 448
+    "start": 443,
+    "end": 449
   },
   {
     "type": "Punctuator",
     "value": ";",
-    "start": 448,
-    "end": 449
+    "start": 449,
+    "end": 450
   },
   {
     "type": "Identifier",
     "value": "m",
-    "start": 493,
-    "end": 494
+    "start": 455,
+    "end": 456
   },
   {
     "type": "Punctuator",
     "value": "(",
-    "start": 494,
-    "end": 495
+    "start": 456,
+    "end": 457
   },
   {
     "type": "Punctuator",
     "value": ")",
-    "start": 495,
-    "end": 496
+    "start": 457,
+    "end": 458
   },
   {
     "type": "Punctuator",
     "value": "{",
-    "start": 497,
-    "end": 498
+    "start": 459,
+    "end": 460
   },
   {
     "type": "Punctuator",
     "value": "}",
-    "start": 499,
-    "end": 500
+    "start": 461,
+    "end": 462
   },
   {
     "type": "Punctuator",
     "value": "}",
-    "start": 501,
-    "end": 502
+    "start": 463,
+    "end": 464
   }
 ]
 ```

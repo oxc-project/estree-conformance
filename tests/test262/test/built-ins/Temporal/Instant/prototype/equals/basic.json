@@ -1,0 +1,279 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "kind": "let",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "inst1",
+            "start": 289,
+            "end": 294
+          },
+          "init": {
+            "type": "NewExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "Temporal",
+                "start": 301,
+                "end": 309
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "Instant",
+                "start": 310,
+                "end": 317
+              },
+              "optional": false,
+              "computed": false,
+              "start": 301,
+              "end": 317
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "value": null,
+                "raw": "1234567890123456789n",
+                "bigint": "1234567890123456789",
+                "start": 318,
+                "end": 338
+              }
+            ],
+            "start": 297,
+            "end": 339
+          },
+          "start": 289,
+          "end": 339
+        }
+      ],
+      "start": 285,
+      "end": 340
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "let",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "inst2",
+            "start": 345,
+            "end": 350
+          },
+          "init": {
+            "type": "NewExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "Temporal",
+                "start": 357,
+                "end": 365
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "Instant",
+                "start": 366,
+                "end": 373
+              },
+              "optional": false,
+              "computed": false,
+              "start": 357,
+              "end": 373
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "value": null,
+                "raw": "1234567890123456000n",
+                "bigint": "1234567890123456000",
+                "start": 374,
+                "end": 394
+              }
+            ],
+            "start": 353,
+            "end": 395
+          },
+          "start": 345,
+          "end": 395
+        }
+      ],
+      "start": 341,
+      "end": 396
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "let",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "inst3",
+            "start": 401,
+            "end": 406
+          },
+          "init": {
+            "type": "NewExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "Temporal",
+                "start": 413,
+                "end": 421
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "Instant",
+                "start": 422,
+                "end": 429
+              },
+              "optional": false,
+              "computed": false,
+              "start": 413,
+              "end": 429
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "value": null,
+                "raw": "1234567890123456000n",
+                "bigint": "1234567890123456000",
+                "start": 430,
+                "end": 450
+              }
+            ],
+            "start": 409,
+            "end": 451
+          },
+          "start": 401,
+          "end": 451
+        }
+      ],
+      "start": 397,
+      "end": 452
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "Identifier",
+          "name": "assert",
+          "start": 453,
+          "end": 459
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "operator": "!",
+            "argument": {
+              "type": "CallExpression",
+              "callee": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "inst1",
+                  "start": 461,
+                  "end": 466
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "equals",
+                  "start": 467,
+                  "end": 473
+                },
+                "optional": false,
+                "computed": false,
+                "start": 461,
+                "end": 473
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "name": "inst2",
+                  "start": 474,
+                  "end": 479
+                }
+              ],
+              "optional": false,
+              "start": 461,
+              "end": 480
+            },
+            "prefix": true,
+            "start": 460,
+            "end": 480
+          }
+        ],
+        "optional": false,
+        "start": 453,
+        "end": 481
+      },
+      "start": 453,
+      "end": 482
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "Identifier",
+          "name": "assert",
+          "start": 483,
+          "end": 489
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "inst2",
+                "start": 490,
+                "end": 495
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "equals",
+                "start": 496,
+                "end": 502
+              },
+              "optional": false,
+              "computed": false,
+              "start": 490,
+              "end": 502
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "name": "inst3",
+                "start": 503,
+                "end": 508
+              }
+            ],
+            "optional": false,
+            "start": 490,
+            "end": 509
+          }
+        ],
+        "optional": false,
+        "start": 483,
+        "end": 510
+      },
+      "start": 483,
+      "end": 511
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 512
+}

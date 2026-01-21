@@ -1,0 +1,159 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 662,
+            "end": 668
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "throws",
+            "start": 669,
+            "end": 675
+          },
+          "optional": false,
+          "computed": false,
+          "start": 662,
+          "end": 675
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "name": "Test262Error",
+            "start": 676,
+            "end": 688
+          },
+          {
+            "type": "FunctionExpression",
+            "id": null,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "expression": {
+                    "type": "CallExpression",
+                    "callee": {
+                      "type": "MemberExpression",
+                      "object": {
+                        "type": "Identifier",
+                        "name": "String",
+                        "start": 706,
+                        "end": 712
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "name": "fromCharCode",
+                        "start": 713,
+                        "end": 725
+                      },
+                      "optional": false,
+                      "computed": false,
+                      "start": 706,
+                      "end": 725
+                    },
+                    "arguments": [
+                      {
+                        "type": "ObjectExpression",
+                        "properties": [
+                          {
+                            "type": "Property",
+                            "kind": "init",
+                            "key": {
+                              "type": "Identifier",
+                              "name": "valueOf",
+                              "start": 732,
+                              "end": 739
+                            },
+                            "value": {
+                              "type": "FunctionExpression",
+                              "id": null,
+                              "generator": false,
+                              "async": false,
+                              "params": [],
+                              "body": {
+                                "type": "BlockStatement",
+                                "body": [
+                                  {
+                                    "type": "ThrowStatement",
+                                    "argument": {
+                                      "type": "NewExpression",
+                                      "callee": {
+                                        "type": "Identifier",
+                                        "name": "Test262Error",
+                                        "start": 765,
+                                        "end": 777
+                                      },
+                                      "arguments": [],
+                                      "start": 761,
+                                      "end": 779
+                                    },
+                                    "start": 755,
+                                    "end": 780
+                                  }
+                                ],
+                                "start": 753,
+                                "end": 782
+                              },
+                              "expression": false,
+                              "start": 741,
+                              "end": 782
+                            },
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false,
+                            "start": 732,
+                            "end": 782
+                          }
+                        ],
+                        "start": 726,
+                        "end": 786
+                      }
+                    ],
+                    "optional": false,
+                    "start": 706,
+                    "end": 787
+                  },
+                  "start": 706,
+                  "end": 788
+                }
+              ],
+              "start": 702,
+              "end": 790
+            },
+            "expression": false,
+            "start": 690,
+            "end": 790
+          },
+          {
+            "type": "Literal",
+            "value": "ToNumber throws when its argument's ToPrimitive step calls a throwing valueOf, and String.fromCharCode must propagate it.",
+            "raw": "\"ToNumber throws when its argument's ToPrimitive step calls a throwing valueOf, and String.fromCharCode must propagate it.\"",
+            "start": 792,
+            "end": 915
+          }
+        ],
+        "optional": false,
+        "start": 662,
+        "end": 916
+      },
+      "start": 662,
+      "end": 917
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 918
+}

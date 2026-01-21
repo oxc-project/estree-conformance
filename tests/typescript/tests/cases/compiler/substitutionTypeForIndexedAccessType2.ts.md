@@ -244,8 +244,8 @@ __ESTREE_TEST__:AST:
               "name": "Str",
               "optional": false,
               "typeAnnotation": null,
-              "start": 353,
-              "end": 356
+              "start": 144,
+              "end": 147
             },
             "typeArguments": {
               "type": "TSTypeParameterInstantiation",
@@ -260,12 +260,12 @@ __ESTREE_TEST__:AST:
                       "name": "T",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 357,
-                      "end": 358
+                      "start": 148,
+                      "end": 149
                     },
                     "typeArguments": null,
-                    "start": 357,
-                    "end": 358
+                    "start": 148,
+                    "end": 149
                   },
                   "indexType": {
                     "type": "TSLiteralType",
@@ -273,47 +273,47 @@ __ESTREE_TEST__:AST:
                       "type": "Literal",
                       "value": "foo",
                       "raw": "'foo'",
-                      "start": 359,
-                      "end": 364
+                      "start": 150,
+                      "end": 155
                     },
-                    "start": 359,
-                    "end": 364
+                    "start": 150,
+                    "end": 155
                   },
-                  "start": 357,
-                  "end": 365
+                  "start": 148,
+                  "end": 156
                 }
               ],
-              "start": 356,
-              "end": 366
+              "start": 147,
+              "end": 157
             },
-            "start": 353,
-            "end": 366
+            "start": 144,
+            "end": 157
           },
           "falseType": {
             "type": "TSNeverKeyword",
-            "start": 375,
-            "end": 380
+            "start": 166,
+            "end": 171
           },
           "start": 112,
-          "end": 380
+          "end": 171
         },
         "falseType": {
           "type": "TSNeverKeyword",
-          "start": 387,
-          "end": 392
+          "start": 178,
+          "end": 183
         },
         "start": 92,
-        "end": 392
+        "end": 183
       },
       "declare": false,
       "start": 75,
-      "end": 392
+      "end": 183
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 392
+  "end": 183
 }
 ```
 __ESTREE_TEST__:TOKENS:
@@ -526,74 +526,74 @@ __ESTREE_TEST__:TOKENS:
   {
     "type": "Punctuator",
     "value": "?",
-    "start": 351,
-    "end": 352
+    "start": 142,
+    "end": 143
   },
   {
     "type": "Identifier",
     "value": "Str",
-    "start": 353,
-    "end": 356
+    "start": 144,
+    "end": 147
   },
   {
     "type": "Punctuator",
     "value": "<",
-    "start": 356,
-    "end": 357
+    "start": 147,
+    "end": 148
   },
   {
     "type": "Identifier",
     "value": "T",
-    "start": 357,
-    "end": 358
+    "start": 148,
+    "end": 149
   },
   {
     "type": "Punctuator",
     "value": "[",
-    "start": 358,
-    "end": 359
+    "start": 149,
+    "end": 150
   },
   {
     "type": "String",
     "value": "'foo'",
-    "start": 359,
-    "end": 364
+    "start": 150,
+    "end": 155
   },
   {
     "type": "Punctuator",
     "value": "]",
-    "start": 364,
-    "end": 365
+    "start": 155,
+    "end": 156
   },
   {
     "type": "Punctuator",
     "value": ">",
-    "start": 365,
-    "end": 366
+    "start": 156,
+    "end": 157
   },
   {
     "type": "Punctuator",
     "value": ":",
-    "start": 373,
-    "end": 374
+    "start": 164,
+    "end": 165
   },
   {
     "type": "Identifier",
     "value": "never",
-    "start": 375,
-    "end": 380
+    "start": 166,
+    "end": 171
   },
   {
     "type": "Punctuator",
     "value": ":",
-    "start": 385,
-    "end": 386
+    "start": 176,
+    "end": 177
   },
   {
     "type": "Identifier",
     "value": "never",
-    "start": 387,
-    "end": 392
+    "start": 178,
+    "end": 183
   }
 ]
 ```

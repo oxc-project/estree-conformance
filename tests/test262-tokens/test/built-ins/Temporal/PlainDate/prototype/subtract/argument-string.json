@@ -144,153 +144,243 @@
     "end": 400
   },
   {
-    "type": "Keyword",
-    "value": "const",
-    "start": 401,
-    "end": 406
-  },
-  {
-    "type": "Identifier",
-    "value": "result",
-    "start": 407,
-    "end": 413
-  },
-  {
-    "type": "Punctuator",
-    "value": "=",
-    "start": 414,
-    "end": 415
-  },
-  {
-    "type": "Identifier",
-    "value": "instance",
-    "start": 416,
-    "end": 424
-  },
-  {
-    "type": "Punctuator",
-    "value": ".",
-    "start": 424,
-    "end": 425
-  },
-  {
-    "type": "Identifier",
-    "value": "subtract",
-    "start": 425,
-    "end": 433
-  },
-  {
-    "type": "Punctuator",
-    "value": "(",
-    "start": 433,
-    "end": 434
-  },
-  {
-    "type": "String",
-    "value": "\"P3D\"",
-    "start": 434,
-    "end": 439
-  },
-  {
-    "type": "Punctuator",
-    "value": ")",
-    "start": 439,
-    "end": 440
-  },
-  {
-    "type": "Punctuator",
-    "value": ";",
-    "start": 440,
-    "end": 441
-  },
-  {
     "type": "Identifier",
     "value": "TemporalHelpers",
-    "start": 442,
-    "end": 457
+    "start": 401,
+    "end": 416
   },
   {
     "type": "Punctuator",
     "value": ".",
-    "start": 457,
-    "end": 458
+    "start": 416,
+    "end": 417
   },
   {
     "type": "Identifier",
     "value": "assertPlainDate",
-    "start": 458,
-    "end": 473
+    "start": 417,
+    "end": 432
   },
   {
     "type": "Punctuator",
     "value": "(",
-    "start": 473,
-    "end": 474
+    "start": 432,
+    "end": 433
   },
   {
     "type": "Identifier",
-    "value": "result",
-    "start": 474,
-    "end": 480
+    "value": "instance",
+    "start": 433,
+    "end": 441
   },
   {
     "type": "Punctuator",
-    "value": ",",
-    "start": 480,
-    "end": 481
+    "value": ".",
+    "start": 441,
+    "end": 442
   },
   {
-    "type": "Numeric",
-    "value": "2000",
-    "start": 482,
-    "end": 486
-  },
-  {
-    "type": "Punctuator",
-    "value": ",",
-    "start": 486,
-    "end": 487
-  },
-  {
-    "type": "Numeric",
-    "value": "4",
-    "start": 488,
-    "end": 489
+    "type": "Identifier",
+    "value": "subtract",
+    "start": 442,
+    "end": 450
   },
   {
     "type": "Punctuator",
-    "value": ",",
-    "start": 489,
-    "end": 490
+    "value": "(",
+    "start": 450,
+    "end": 451
   },
   {
     "type": "String",
-    "value": "\"M04\"",
-    "start": 491,
-    "end": 496
-  },
-  {
-    "type": "Punctuator",
-    "value": ",",
-    "start": 496,
-    "end": 497
-  },
-  {
-    "type": "Numeric",
-    "value": "29",
-    "start": 498,
-    "end": 500
+    "value": "\"P3D\"",
+    "start": 451,
+    "end": 456
   },
   {
     "type": "Punctuator",
     "value": ")",
-    "start": 500,
-    "end": 501
+    "start": 456,
+    "end": 457
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 457,
+    "end": 458
+  },
+  {
+    "type": "Numeric",
+    "value": "2000",
+    "start": 459,
+    "end": 463
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 463,
+    "end": 464
+  },
+  {
+    "type": "Numeric",
+    "value": "4",
+    "start": 465,
+    "end": 466
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 466,
+    "end": 467
+  },
+  {
+    "type": "String",
+    "value": "\"M04\"",
+    "start": 468,
+    "end": 473
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 473,
+    "end": 474
+  },
+  {
+    "type": "Numeric",
+    "value": "29",
+    "start": 475,
+    "end": 477
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 477,
+    "end": 478
   },
   {
     "type": "Punctuator",
     "value": ";",
-    "start": 501,
-    "end": 502
+    "start": 478,
+    "end": 479
+  },
+  {
+    "type": "Identifier",
+    "value": "TemporalHelpers",
+    "start": 480,
+    "end": 495
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 495,
+    "end": 496
+  },
+  {
+    "type": "Identifier",
+    "value": "assertPlainDate",
+    "start": 496,
+    "end": 511
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 511,
+    "end": 512
+  },
+  {
+    "type": "Identifier",
+    "value": "instance",
+    "start": 512,
+    "end": 520
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 520,
+    "end": 521
+  },
+  {
+    "type": "Identifier",
+    "value": "subtract",
+    "start": 521,
+    "end": 529
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 529,
+    "end": 530
+  },
+  {
+    "type": "String",
+    "value": "\"-P3D\"",
+    "start": 530,
+    "end": 536
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 536,
+    "end": 537
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 537,
+    "end": 538
+  },
+  {
+    "type": "Numeric",
+    "value": "2000",
+    "start": 539,
+    "end": 543
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 543,
+    "end": 544
+  },
+  {
+    "type": "Numeric",
+    "value": "5",
+    "start": 545,
+    "end": 546
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 546,
+    "end": 547
+  },
+  {
+    "type": "String",
+    "value": "\"M05\"",
+    "start": 548,
+    "end": 553
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 553,
+    "end": 554
+  },
+  {
+    "type": "Numeric",
+    "value": "5",
+    "start": 555,
+    "end": 556
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 556,
+    "end": 557
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 557,
+    "end": 558
   }
 ]

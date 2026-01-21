@@ -1,0 +1,134 @@
+[
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 693,
+    "end": 699
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 699,
+    "end": 700
+  },
+  {
+    "type": "Identifier",
+    "value": "throws",
+    "start": 700,
+    "end": 706
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 706,
+    "end": 707
+  },
+  {
+    "type": "Identifier",
+    "value": "TypeError",
+    "start": 707,
+    "end": 716
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 716,
+    "end": 717
+  },
+  {
+    "type": "Keyword",
+    "value": "function",
+    "start": 718,
+    "end": 726
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 727,
+    "end": 728
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 728,
+    "end": 729
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 730,
+    "end": 731
+  },
+  {
+    "type": "Identifier",
+    "value": "String",
+    "start": 734,
+    "end": 740
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 740,
+    "end": 741
+  },
+  {
+    "type": "Identifier",
+    "value": "fromCharCode",
+    "start": 741,
+    "end": 753
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 753,
+    "end": 754
+  },
+  {
+    "type": "Numeric",
+    "value": "0n",
+    "start": 754,
+    "end": 756
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 756,
+    "end": 757
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 757,
+    "end": 758
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 759,
+    "end": 760
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 760,
+    "end": 761
+  },
+  {
+    "type": "String",
+    "value": "\"ToNumber throws when argument is BigInt, and String.fromCharCode must propagate it.\"",
+    "start": 762,
+    "end": 847
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 847,
+    "end": 848
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 848,
+    "end": 849
+  }
+]

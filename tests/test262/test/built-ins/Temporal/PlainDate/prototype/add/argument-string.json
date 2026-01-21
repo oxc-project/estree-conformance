@@ -352,10 +352,111 @@
       },
       "start": 493,
       "end": 585
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "TemporalHelpers",
+            "start": 586,
+            "end": 601
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "assertPlainDate",
+            "start": 602,
+            "end": 617
+          },
+          "optional": false,
+          "computed": false,
+          "start": 586,
+          "end": 617
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "instance",
+                "start": 618,
+                "end": 626
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "add",
+                "start": 627,
+                "end": 630
+              },
+              "optional": false,
+              "computed": false,
+              "start": 618,
+              "end": 630
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "value": "-P1M1D",
+                "raw": "\"-P1M1D\"",
+                "start": 631,
+                "end": 639
+              }
+            ],
+            "optional": false,
+            "start": 618,
+            "end": 640
+          },
+          {
+            "type": "Literal",
+            "value": 2000,
+            "raw": "2000",
+            "start": 642,
+            "end": 646
+          },
+          {
+            "type": "Literal",
+            "value": 4,
+            "raw": "4",
+            "start": 648,
+            "end": 649
+          },
+          {
+            "type": "Literal",
+            "value": "M04",
+            "raw": "\"M04\"",
+            "start": 651,
+            "end": 656
+          },
+          {
+            "type": "Literal",
+            "value": 1,
+            "raw": "1",
+            "start": 658,
+            "end": 659
+          },
+          {
+            "type": "Literal",
+            "value": "calendar units",
+            "raw": "\"calendar units\"",
+            "start": 661,
+            "end": 677
+          }
+        ],
+        "optional": false,
+        "start": 586,
+        "end": 678
+      },
+      "start": 586,
+      "end": 679
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 586
+  "end": 680
 }

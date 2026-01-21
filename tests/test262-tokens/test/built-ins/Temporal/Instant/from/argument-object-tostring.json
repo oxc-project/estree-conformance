@@ -162,231 +162,399 @@
     "end": 386
   },
   {
-    "type": "Identifier",
-    "value": "arg",
-    "start": 388,
-    "end": 391
-  },
-  {
-    "type": "Punctuator",
-    "value": ".",
-    "start": 391,
-    "end": 392
-  },
-  {
-    "type": "Identifier",
-    "value": "toString",
-    "start": 392,
-    "end": 400
-  },
-  {
-    "type": "Punctuator",
-    "value": "=",
-    "start": 401,
-    "end": 402
-  },
-  {
-    "type": "Keyword",
-    "value": "function",
-    "start": 403,
-    "end": 411
-  },
-  {
-    "type": "Punctuator",
-    "value": "(",
-    "start": 411,
-    "end": 412
-  },
-  {
-    "type": "Punctuator",
-    "value": ")",
-    "start": 412,
-    "end": 413
-  },
-  {
-    "type": "Punctuator",
-    "value": "{",
-    "start": 414,
-    "end": 415
-  },
-  {
-    "type": "Keyword",
-    "value": "return",
-    "start": 418,
-    "end": 424
-  },
-  {
-    "type": "String",
-    "value": "\"1970-01-01T00:00Z\"",
-    "start": 425,
-    "end": 444
-  },
-  {
-    "type": "Punctuator",
-    "value": ";",
-    "start": 444,
-    "end": 445
-  },
-  {
-    "type": "Punctuator",
-    "value": "}",
-    "start": 446,
-    "end": 447
-  },
-  {
-    "type": "Punctuator",
-    "value": ";",
-    "start": 447,
-    "end": 448
-  },
-  {
     "type": "Keyword",
     "value": "const",
-    "start": 449,
-    "end": 454
+    "start": 388,
+    "end": 393
   },
   {
     "type": "Identifier",
-    "value": "result",
-    "start": 455,
-    "end": 461
+    "value": "temporalInstant",
+    "start": 394,
+    "end": 409
   },
   {
     "type": "Punctuator",
     "value": "=",
-    "start": 462,
-    "end": 463
+    "start": 410,
+    "end": 411
   },
   {
     "type": "Identifier",
     "value": "Temporal",
-    "start": 464,
-    "end": 472
+    "start": 412,
+    "end": 420
   },
   {
     "type": "Punctuator",
     "value": ".",
-    "start": 472,
-    "end": 473
+    "start": 420,
+    "end": 421
   },
   {
     "type": "Identifier",
     "value": "Instant",
-    "start": 473,
-    "end": 480
-  },
-  {
-    "type": "Punctuator",
-    "value": ".",
-    "start": 480,
-    "end": 481
-  },
-  {
-    "type": "Identifier",
-    "value": "from",
-    "start": 481,
-    "end": 485
-  },
-  {
-    "type": "Punctuator",
-    "value": "(",
-    "start": 485,
-    "end": 486
-  },
-  {
-    "type": "Identifier",
-    "value": "arg",
-    "start": 486,
-    "end": 489
-  },
-  {
-    "type": "Punctuator",
-    "value": ")",
-    "start": 489,
-    "end": 490
+    "start": 421,
+    "end": 428
   },
   {
     "type": "Punctuator",
     "value": ";",
-    "start": 490,
-    "end": 491
+    "start": 428,
+    "end": 429
   },
   {
     "type": "Identifier",
     "value": "assert",
-    "start": 492,
-    "end": 498
+    "start": 430,
+    "end": 436
   },
   {
     "type": "Punctuator",
     "value": ".",
-    "start": 498,
-    "end": 499
+    "start": 436,
+    "end": 437
   },
   {
     "type": "Identifier",
-    "value": "sameValue",
-    "start": 499,
-    "end": 508
+    "value": "throws",
+    "start": 437,
+    "end": 443
   },
   {
     "type": "Punctuator",
     "value": "(",
-    "start": 508,
-    "end": 509
+    "start": 443,
+    "end": 444
   },
   {
     "type": "Identifier",
-    "value": "result",
-    "start": 509,
-    "end": 515
-  },
-  {
-    "type": "Punctuator",
-    "value": ".",
-    "start": 515,
-    "end": 516
-  },
-  {
-    "type": "Identifier",
-    "value": "epochNanoseconds",
-    "start": 516,
-    "end": 532
+    "value": "RangeError",
+    "start": 444,
+    "end": 454
   },
   {
     "type": "Punctuator",
     "value": ",",
-    "start": 532,
-    "end": 533
-  },
-  {
-    "type": "Numeric",
-    "value": "0n",
-    "start": 534,
-    "end": 536
+    "start": 454,
+    "end": 455
   },
   {
     "type": "Punctuator",
-    "value": ",",
-    "start": 536,
-    "end": 537
-  },
-  {
-    "type": "String",
-    "value": "\"result of toString is interpreted as ISO string\"",
-    "start": 538,
-    "end": 587
+    "value": "(",
+    "start": 456,
+    "end": 457
   },
   {
     "type": "Punctuator",
     "value": ")",
-    "start": 587,
-    "end": 588
+    "start": 457,
+    "end": 458
+  },
+  {
+    "type": "Punctuator",
+    "value": "=>",
+    "start": 459,
+    "end": 461
+  },
+  {
+    "type": "Identifier",
+    "value": "Temporal",
+    "start": 462,
+    "end": 470
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 470,
+    "end": 471
+  },
+  {
+    "type": "Identifier",
+    "value": "Instant",
+    "start": 471,
+    "end": 478
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 478,
+    "end": 479
+  },
+  {
+    "type": "Identifier",
+    "value": "from",
+    "start": 479,
+    "end": 483
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 483,
+    "end": 484
+  },
+  {
+    "type": "Identifier",
+    "value": "temporalInstant",
+    "start": 484,
+    "end": 499
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 499,
+    "end": 500
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 500,
+    "end": 501
+  },
+  {
+    "type": "String",
+    "value": "\"Temporal.Instant object is not a valid ISO string\"",
+    "start": 502,
+    "end": 553
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 553,
+    "end": 554
   },
   {
     "type": "Punctuator",
     "value": ";",
-    "start": 588,
-    "end": 589
+    "start": 554,
+    "end": 555
+  },
+  {
+    "type": "Identifier",
+    "value": "arg",
+    "start": 557,
+    "end": 560
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 560,
+    "end": 561
+  },
+  {
+    "type": "Identifier",
+    "value": "toString",
+    "start": 561,
+    "end": 569
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 570,
+    "end": 571
+  },
+  {
+    "type": "Keyword",
+    "value": "function",
+    "start": 572,
+    "end": 580
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 580,
+    "end": 581
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 581,
+    "end": 582
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 583,
+    "end": 584
+  },
+  {
+    "type": "Keyword",
+    "value": "return",
+    "start": 587,
+    "end": 593
+  },
+  {
+    "type": "String",
+    "value": "\"1970-01-01T00:00Z\"",
+    "start": 594,
+    "end": 613
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 613,
+    "end": 614
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 615,
+    "end": 616
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 616,
+    "end": 617
+  },
+  {
+    "type": "Keyword",
+    "value": "const",
+    "start": 618,
+    "end": 623
+  },
+  {
+    "type": "Identifier",
+    "value": "result",
+    "start": 624,
+    "end": 630
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 631,
+    "end": 632
+  },
+  {
+    "type": "Identifier",
+    "value": "Temporal",
+    "start": 633,
+    "end": 641
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 641,
+    "end": 642
+  },
+  {
+    "type": "Identifier",
+    "value": "Instant",
+    "start": 642,
+    "end": 649
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 649,
+    "end": 650
+  },
+  {
+    "type": "Identifier",
+    "value": "from",
+    "start": 650,
+    "end": 654
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 654,
+    "end": 655
+  },
+  {
+    "type": "Identifier",
+    "value": "arg",
+    "start": 655,
+    "end": 658
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 658,
+    "end": 659
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 659,
+    "end": 660
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 661,
+    "end": 667
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 667,
+    "end": 668
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 668,
+    "end": 677
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 677,
+    "end": 678
+  },
+  {
+    "type": "Identifier",
+    "value": "result",
+    "start": 678,
+    "end": 684
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 684,
+    "end": 685
+  },
+  {
+    "type": "Identifier",
+    "value": "epochNanoseconds",
+    "start": 685,
+    "end": 701
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 701,
+    "end": 702
+  },
+  {
+    "type": "Numeric",
+    "value": "0n",
+    "start": 703,
+    "end": 705
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 705,
+    "end": 706
+  },
+  {
+    "type": "String",
+    "value": "\"result of toString is interpreted as ISO string\"",
+    "start": 707,
+    "end": 756
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 756,
+    "end": 757
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 757,
+    "end": 758
   }
 ]

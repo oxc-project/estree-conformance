@@ -134,57 +134,98 @@
       "end": 400
     },
     {
-      "type": "VariableDeclaration",
-      "kind": "const",
-      "declarations": [
-        {
-          "type": "VariableDeclarator",
-          "id": {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
             "type": "Identifier",
-            "name": "result",
-            "start": 407,
-            "end": 413
+            "name": "TemporalHelpers",
+            "start": 401,
+            "end": 416
           },
-          "init": {
+          "property": {
+            "type": "Identifier",
+            "name": "assertPlainDate",
+            "start": 417,
+            "end": 432
+          },
+          "optional": false,
+          "computed": false,
+          "start": 401,
+          "end": 432
+        },
+        "arguments": [
+          {
             "type": "CallExpression",
             "callee": {
               "type": "MemberExpression",
               "object": {
                 "type": "Identifier",
                 "name": "instance",
-                "start": 416,
-                "end": 424
+                "start": 433,
+                "end": 441
               },
               "property": {
                 "type": "Identifier",
                 "name": "subtract",
-                "start": 425,
-                "end": 433
+                "start": 442,
+                "end": 450
               },
               "optional": false,
               "computed": false,
-              "start": 416,
-              "end": 433
+              "start": 433,
+              "end": 450
             },
             "arguments": [
               {
                 "type": "Literal",
                 "value": "P3D",
                 "raw": "\"P3D\"",
-                "start": 434,
-                "end": 439
+                "start": 451,
+                "end": 456
               }
             ],
             "optional": false,
-            "start": 416,
-            "end": 440
+            "start": 433,
+            "end": 457
           },
-          "start": 407,
-          "end": 440
-        }
-      ],
+          {
+            "type": "Literal",
+            "value": 2000,
+            "raw": "2000",
+            "start": 459,
+            "end": 463
+          },
+          {
+            "type": "Literal",
+            "value": 4,
+            "raw": "4",
+            "start": 465,
+            "end": 466
+          },
+          {
+            "type": "Literal",
+            "value": "M04",
+            "raw": "\"M04\"",
+            "start": 468,
+            "end": 473
+          },
+          {
+            "type": "Literal",
+            "value": 29,
+            "raw": "29",
+            "start": 475,
+            "end": 477
+          }
+        ],
+        "optional": false,
+        "start": 401,
+        "end": 478
+      },
       "start": 401,
-      "end": 441
+      "end": 479
     },
     {
       "type": "ExpressionStatement",
@@ -195,66 +236,94 @@
           "object": {
             "type": "Identifier",
             "name": "TemporalHelpers",
-            "start": 442,
-            "end": 457
+            "start": 480,
+            "end": 495
           },
           "property": {
             "type": "Identifier",
             "name": "assertPlainDate",
-            "start": 458,
-            "end": 473
+            "start": 496,
+            "end": 511
           },
           "optional": false,
           "computed": false,
-          "start": 442,
-          "end": 473
+          "start": 480,
+          "end": 511
         },
         "arguments": [
           {
-            "type": "Identifier",
-            "name": "result",
-            "start": 474,
-            "end": 480
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "instance",
+                "start": 512,
+                "end": 520
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "subtract",
+                "start": 521,
+                "end": 529
+              },
+              "optional": false,
+              "computed": false,
+              "start": 512,
+              "end": 529
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "value": "-P3D",
+                "raw": "\"-P3D\"",
+                "start": 530,
+                "end": 536
+              }
+            ],
+            "optional": false,
+            "start": 512,
+            "end": 537
           },
           {
             "type": "Literal",
             "value": 2000,
             "raw": "2000",
-            "start": 482,
-            "end": 486
+            "start": 539,
+            "end": 543
           },
           {
             "type": "Literal",
-            "value": 4,
-            "raw": "4",
-            "start": 488,
-            "end": 489
+            "value": 5,
+            "raw": "5",
+            "start": 545,
+            "end": 546
           },
           {
             "type": "Literal",
-            "value": "M04",
-            "raw": "\"M04\"",
-            "start": 491,
-            "end": 496
+            "value": "M05",
+            "raw": "\"M05\"",
+            "start": 548,
+            "end": 553
           },
           {
             "type": "Literal",
-            "value": 29,
-            "raw": "29",
-            "start": 498,
-            "end": 500
+            "value": 5,
+            "raw": "5",
+            "start": 555,
+            "end": 556
           }
         ],
         "optional": false,
-        "start": 442,
-        "end": 501
+        "start": 480,
+        "end": 557
       },
-      "start": 442,
-      "end": 502
+      "start": 480,
+      "end": 558
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 503
+  "end": 559
 }

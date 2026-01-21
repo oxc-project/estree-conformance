@@ -274,10 +274,90 @@
       },
       "start": 577,
       "end": 638
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 640,
+            "end": 646
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "throws",
+            "start": 647,
+            "end": 653
+          },
+          "optional": false,
+          "computed": false,
+          "start": 640,
+          "end": 653
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "name": "RangeError",
+            "start": 654,
+            "end": 664
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "expression": true,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "NewExpression",
+              "callee": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "Temporal",
+                  "start": 676,
+                  "end": 684
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "PlainMonthDay",
+                  "start": 685,
+                  "end": 698
+                },
+                "optional": false,
+                "computed": false,
+                "start": 676,
+                "end": 698
+              },
+              "arguments": [],
+              "start": 672,
+              "end": 700
+            },
+            "id": null,
+            "generator": false,
+            "start": 666,
+            "end": 700
+          },
+          {
+            "type": "Literal",
+            "value": "no arguments",
+            "raw": "\"no arguments\"",
+            "start": 702,
+            "end": 716
+          }
+        ],
+        "optional": false,
+        "start": 640,
+        "end": 717
+      },
+      "start": 640,
+      "end": 718
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 639
+  "end": 719
 }
