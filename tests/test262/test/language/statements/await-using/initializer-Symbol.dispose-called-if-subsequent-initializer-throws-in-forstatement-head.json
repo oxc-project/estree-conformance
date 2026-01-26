@@ -1,0 +1,463 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "Identifier",
+          "name": "asyncTest",
+          "start": 1864,
+          "end": 1873
+        },
+        "arguments": [
+          {
+            "type": "FunctionExpression",
+            "id": null,
+            "generator": false,
+            "async": true,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "body": [
+                {
+                  "type": "VariableDeclaration",
+                  "kind": "var",
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "id": {
+                        "type": "Identifier",
+                        "name": "resource",
+                        "start": 1900,
+                        "end": 1908
+                      },
+                      "init": {
+                        "type": "ObjectExpression",
+                        "properties": [
+                          {
+                            "type": "Property",
+                            "kind": "init",
+                            "key": {
+                              "type": "Identifier",
+                              "name": "disposed",
+                              "start": 1919,
+                              "end": 1927
+                            },
+                            "value": {
+                              "type": "Literal",
+                              "value": false,
+                              "raw": "false",
+                              "start": 1929,
+                              "end": 1934
+                            },
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false,
+                            "start": 1919,
+                            "end": 1934
+                          },
+                          {
+                            "type": "Property",
+                            "kind": "init",
+                            "key": {
+                              "type": "MemberExpression",
+                              "object": {
+                                "type": "Identifier",
+                                "name": "Symbol",
+                                "start": 1943,
+                                "end": 1949
+                              },
+                              "property": {
+                                "type": "Identifier",
+                                "name": "dispose",
+                                "start": 1950,
+                                "end": 1957
+                              },
+                              "optional": false,
+                              "computed": false,
+                              "start": 1943,
+                              "end": 1957
+                            },
+                            "value": {
+                              "type": "FunctionExpression",
+                              "id": null,
+                              "generator": false,
+                              "async": false,
+                              "params": [],
+                              "body": {
+                                "type": "BlockStatement",
+                                "body": [
+                                  {
+                                    "type": "ExpressionStatement",
+                                    "expression": {
+                                      "type": "AssignmentExpression",
+                                      "operator": "=",
+                                      "left": {
+                                        "type": "MemberExpression",
+                                        "object": {
+                                          "type": "ThisExpression",
+                                          "start": 1973,
+                                          "end": 1977
+                                        },
+                                        "property": {
+                                          "type": "Identifier",
+                                          "name": "disposed",
+                                          "start": 1978,
+                                          "end": 1986
+                                        },
+                                        "optional": false,
+                                        "computed": false,
+                                        "start": 1973,
+                                        "end": 1986
+                                      },
+                                      "right": {
+                                        "type": "Literal",
+                                        "value": true,
+                                        "raw": "true",
+                                        "start": 1989,
+                                        "end": 1993
+                                      },
+                                      "start": 1973,
+                                      "end": 1993
+                                    },
+                                    "start": 1973,
+                                    "end": 1994
+                                  }
+                                ],
+                                "start": 1961,
+                                "end": 2002
+                              },
+                              "expression": false,
+                              "start": 1958,
+                              "end": 2002
+                            },
+                            "method": true,
+                            "shorthand": false,
+                            "computed": true,
+                            "start": 1942,
+                            "end": 2002
+                          }
+                        ],
+                        "start": 1911,
+                        "end": 2006
+                      },
+                      "start": 1900,
+                      "end": 2006
+                    }
+                  ],
+                  "start": 1896,
+                  "end": 2007
+                },
+                {
+                  "type": "FunctionDeclaration",
+                  "id": {
+                    "type": "Identifier",
+                    "name": "getResource",
+                    "start": 2020,
+                    "end": 2031
+                  },
+                  "generator": false,
+                  "async": false,
+                  "params": [],
+                  "body": {
+                    "type": "BlockStatement",
+                    "body": [
+                      {
+                        "type": "ThrowStatement",
+                        "argument": {
+                          "type": "NewExpression",
+                          "callee": {
+                            "type": "Identifier",
+                            "name": "Error",
+                            "start": 2050,
+                            "end": 2055
+                          },
+                          "arguments": [],
+                          "start": 2046,
+                          "end": 2057
+                        },
+                        "start": 2040,
+                        "end": 2058
+                      }
+                    ],
+                    "start": 2034,
+                    "end": 2062
+                  },
+                  "expression": false,
+                  "start": 2011,
+                  "end": 2062
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "expression": {
+                    "type": "AwaitExpression",
+                    "argument": {
+                      "type": "CallExpression",
+                      "callee": {
+                        "type": "MemberExpression",
+                        "object": {
+                          "type": "Identifier",
+                          "name": "assert",
+                          "start": 2072,
+                          "end": 2078
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "name": "throwsAsync",
+                          "start": 2079,
+                          "end": 2090
+                        },
+                        "optional": false,
+                        "computed": false,
+                        "start": 2072,
+                        "end": 2090
+                      },
+                      "arguments": [
+                        {
+                          "type": "Identifier",
+                          "name": "Error",
+                          "start": 2091,
+                          "end": 2096
+                        },
+                        {
+                          "type": "FunctionExpression",
+                          "id": null,
+                          "generator": false,
+                          "async": true,
+                          "params": [],
+                          "body": {
+                            "type": "BlockStatement",
+                            "body": [
+                              {
+                                "type": "VariableDeclaration",
+                                "kind": "var",
+                                "declarations": [
+                                  {
+                                    "type": "VariableDeclarator",
+                                    "id": {
+                                      "type": "Identifier",
+                                      "name": "i",
+                                      "start": 2126,
+                                      "end": 2127
+                                    },
+                                    "init": {
+                                      "type": "Literal",
+                                      "value": 0,
+                                      "raw": "0",
+                                      "start": 2130,
+                                      "end": 2131
+                                    },
+                                    "start": 2126,
+                                    "end": 2131
+                                  }
+                                ],
+                                "start": 2122,
+                                "end": 2132
+                              },
+                              {
+                                "type": "ForStatement",
+                                "init": {
+                                  "type": "VariableDeclaration",
+                                  "kind": "await using",
+                                  "declarations": [
+                                    {
+                                      "type": "VariableDeclarator",
+                                      "id": {
+                                        "type": "Identifier",
+                                        "name": "_1",
+                                        "start": 2154,
+                                        "end": 2156
+                                      },
+                                      "init": {
+                                        "type": "Identifier",
+                                        "name": "resource",
+                                        "start": 2159,
+                                        "end": 2167
+                                      },
+                                      "start": 2154,
+                                      "end": 2167
+                                    },
+                                    {
+                                      "type": "VariableDeclarator",
+                                      "id": {
+                                        "type": "Identifier",
+                                        "name": "_2",
+                                        "start": 2169,
+                                        "end": 2171
+                                      },
+                                      "init": {
+                                        "type": "CallExpression",
+                                        "callee": {
+                                          "type": "Identifier",
+                                          "name": "getResource",
+                                          "start": 2174,
+                                          "end": 2185
+                                        },
+                                        "arguments": [],
+                                        "optional": false,
+                                        "start": 2174,
+                                        "end": 2187
+                                      },
+                                      "start": 2169,
+                                      "end": 2187
+                                    }
+                                  ],
+                                  "start": 2142,
+                                  "end": 2187
+                                },
+                                "test": {
+                                  "type": "BinaryExpression",
+                                  "left": {
+                                    "type": "Identifier",
+                                    "name": "i",
+                                    "start": 2189,
+                                    "end": 2190
+                                  },
+                                  "operator": "<",
+                                  "right": {
+                                    "type": "Literal",
+                                    "value": 1,
+                                    "raw": "1",
+                                    "start": 2193,
+                                    "end": 2194
+                                  },
+                                  "start": 2189,
+                                  "end": 2194
+                                },
+                                "update": {
+                                  "type": "UpdateExpression",
+                                  "operator": "++",
+                                  "prefix": false,
+                                  "argument": {
+                                    "type": "Identifier",
+                                    "name": "i",
+                                    "start": 2196,
+                                    "end": 2197
+                                  },
+                                  "start": 2196,
+                                  "end": 2199
+                                },
+                                "body": {
+                                  "type": "BlockStatement",
+                                  "body": [],
+                                  "start": 2201,
+                                  "end": 2208
+                                },
+                                "start": 2137,
+                                "end": 2208
+                              }
+                            ],
+                            "start": 2116,
+                            "end": 2212
+                          },
+                          "expression": false,
+                          "start": 2098,
+                          "end": 2212
+                        },
+                        {
+                          "type": "Literal",
+                          "value": "for",
+                          "raw": "'for'",
+                          "start": 2214,
+                          "end": 2219
+                        }
+                      ],
+                      "optional": false,
+                      "start": 2072,
+                      "end": 2220
+                    },
+                    "start": 2066,
+                    "end": 2220
+                  },
+                  "start": 2066,
+                  "end": 2221
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "expression": {
+                    "type": "CallExpression",
+                    "callee": {
+                      "type": "MemberExpression",
+                      "object": {
+                        "type": "Identifier",
+                        "name": "assert",
+                        "start": 2225,
+                        "end": 2231
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "name": "sameValue",
+                        "start": 2232,
+                        "end": 2241
+                      },
+                      "optional": false,
+                      "computed": false,
+                      "start": 2225,
+                      "end": 2241
+                    },
+                    "arguments": [
+                      {
+                        "type": "MemberExpression",
+                        "object": {
+                          "type": "Identifier",
+                          "name": "resource",
+                          "start": 2242,
+                          "end": 2250
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "name": "disposed",
+                          "start": 2251,
+                          "end": 2259
+                        },
+                        "optional": false,
+                        "computed": false,
+                        "start": 2242,
+                        "end": 2259
+                      },
+                      {
+                        "type": "Literal",
+                        "value": true,
+                        "raw": "true",
+                        "start": 2261,
+                        "end": 2265
+                      },
+                      {
+                        "type": "Literal",
+                        "value": "Expected resource to have been disposed",
+                        "raw": "'Expected resource to have been disposed'",
+                        "start": 2267,
+                        "end": 2308
+                      }
+                    ],
+                    "optional": false,
+                    "start": 2225,
+                    "end": 2309
+                  },
+                  "start": 2225,
+                  "end": 2310
+                }
+              ],
+              "start": 1892,
+              "end": 2312
+            },
+            "expression": false,
+            "start": 1874,
+            "end": 2312
+          }
+        ],
+        "optional": false,
+        "start": 1864,
+        "end": 2313
+      },
+      "start": 1864,
+      "end": 2314
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 2315
+}

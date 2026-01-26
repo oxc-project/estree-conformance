@@ -1,0 +1,338 @@
+[
+  {
+    "type": "Identifier",
+    "value": "asyncTest",
+    "start": 1589,
+    "end": 1598
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1598,
+    "end": 1599
+  },
+  {
+    "type": "Identifier",
+    "value": "async",
+    "start": 1599,
+    "end": 1604
+  },
+  {
+    "type": "Keyword",
+    "value": "function",
+    "start": 1605,
+    "end": 1613
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1614,
+    "end": 1615
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1615,
+    "end": 1616
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 1617,
+    "end": 1618
+  },
+  {
+    "type": "Keyword",
+    "value": "var",
+    "start": 1621,
+    "end": 1624
+  },
+  {
+    "type": "Identifier",
+    "value": "resource",
+    "start": 1625,
+    "end": 1633
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 1634,
+    "end": 1635
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 1636,
+    "end": 1637
+  },
+  {
+    "type": "Identifier",
+    "value": "disposed",
+    "start": 1644,
+    "end": 1652
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 1652,
+    "end": 1653
+  },
+  {
+    "type": "Boolean",
+    "value": "false",
+    "start": 1654,
+    "end": 1659
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1659,
+    "end": 1660
+  },
+  {
+    "type": "Punctuator",
+    "value": "[",
+    "start": 1667,
+    "end": 1668
+  },
+  {
+    "type": "Identifier",
+    "value": "Symbol",
+    "start": 1668,
+    "end": 1674
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1674,
+    "end": 1675
+  },
+  {
+    "type": "Identifier",
+    "value": "dispose",
+    "start": 1675,
+    "end": 1682
+  },
+  {
+    "type": "Punctuator",
+    "value": "]",
+    "start": 1682,
+    "end": 1683
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1683,
+    "end": 1684
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1684,
+    "end": 1685
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 1686,
+    "end": 1687
+  },
+  {
+    "type": "Keyword",
+    "value": "this",
+    "start": 1698,
+    "end": 1702
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1702,
+    "end": 1703
+  },
+  {
+    "type": "Identifier",
+    "value": "disposed",
+    "start": 1703,
+    "end": 1711
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 1712,
+    "end": 1713
+  },
+  {
+    "type": "Boolean",
+    "value": "true",
+    "start": 1714,
+    "end": 1718
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1718,
+    "end": 1719
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 1726,
+    "end": 1727
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 1730,
+    "end": 1731
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1731,
+    "end": 1732
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 1736,
+    "end": 1737
+  },
+  {
+    "type": "Identifier",
+    "value": "await",
+    "start": 1742,
+    "end": 1747
+  },
+  {
+    "type": "Identifier",
+    "value": "using",
+    "start": 1748,
+    "end": 1753
+  },
+  {
+    "type": "Identifier",
+    "value": "_",
+    "start": 1754,
+    "end": 1755
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 1756,
+    "end": 1757
+  },
+  {
+    "type": "Identifier",
+    "value": "resource",
+    "start": 1758,
+    "end": 1766
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1766,
+    "end": 1767
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 1770,
+    "end": 1771
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 1775,
+    "end": 1781
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1781,
+    "end": 1782
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 1782,
+    "end": 1791
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1791,
+    "end": 1792
+  },
+  {
+    "type": "Identifier",
+    "value": "resource",
+    "start": 1792,
+    "end": 1800
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1800,
+    "end": 1801
+  },
+  {
+    "type": "Identifier",
+    "value": "disposed",
+    "start": 1801,
+    "end": 1809
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1809,
+    "end": 1810
+  },
+  {
+    "type": "Boolean",
+    "value": "true",
+    "start": 1811,
+    "end": 1815
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1815,
+    "end": 1816
+  },
+  {
+    "type": "String",
+    "value": "'Expected resource to have been disposed'",
+    "start": 1817,
+    "end": 1858
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1858,
+    "end": 1859
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1859,
+    "end": 1860
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 1861,
+    "end": 1862
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1862,
+    "end": 1863
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1863,
+    "end": 1864
+  }
+]

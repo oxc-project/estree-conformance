@@ -1,0 +1,284 @@
+[
+  {
+    "type": "Keyword",
+    "value": "const",
+    "start": 293,
+    "end": 298
+  },
+  {
+    "type": "Identifier",
+    "value": "item",
+    "start": 299,
+    "end": 303
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 304,
+    "end": 305
+  },
+  {
+    "type": "Keyword",
+    "value": "new",
+    "start": 306,
+    "end": 309
+  },
+  {
+    "type": "Identifier",
+    "value": "Temporal",
+    "start": 310,
+    "end": 318
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 318,
+    "end": 319
+  },
+  {
+    "type": "Identifier",
+    "value": "PlainMonthDay",
+    "start": 319,
+    "end": 332
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 332,
+    "end": 333
+  },
+  {
+    "type": "Numeric",
+    "value": "1",
+    "start": 333,
+    "end": 334
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 334,
+    "end": 335
+  },
+  {
+    "type": "Numeric",
+    "value": "20",
+    "start": 336,
+    "end": 338
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 338,
+    "end": 339
+  },
+  {
+    "type": "String",
+    "value": "\"gregory\"",
+    "start": 340,
+    "end": 349
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 349,
+    "end": 350
+  },
+  {
+    "type": "Numeric",
+    "value": "1972",
+    "start": 351,
+    "end": 355
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 355,
+    "end": 356
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 356,
+    "end": 357
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 359,
+    "end": 365
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 365,
+    "end": 366
+  },
+  {
+    "type": "Identifier",
+    "value": "throws",
+    "start": 366,
+    "end": 372
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 372,
+    "end": 373
+  },
+  {
+    "type": "Identifier",
+    "value": "TypeError",
+    "start": 373,
+    "end": 382
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 382,
+    "end": 383
+  },
+  {
+    "type": "Keyword",
+    "value": "function",
+    "start": 384,
+    "end": 392
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 392,
+    "end": 393
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 393,
+    "end": 394
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 395,
+    "end": 396
+  },
+  {
+    "type": "Identifier",
+    "value": "item",
+    "start": 399,
+    "end": 403
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 403,
+    "end": 404
+  },
+  {
+    "type": "Identifier",
+    "value": "toLocaleString",
+    "start": 404,
+    "end": 418
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 418,
+    "end": 419
+  },
+  {
+    "type": "String",
+    "value": "\"en-u-ca-gregory\"",
+    "start": 419,
+    "end": 436
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 436,
+    "end": 437
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 438,
+    "end": 439
+  },
+  {
+    "type": "Identifier",
+    "value": "dateStyle",
+    "start": 440,
+    "end": 449
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 449,
+    "end": 450
+  },
+  {
+    "type": "String",
+    "value": "\"full\"",
+    "start": 451,
+    "end": 457
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 457,
+    "end": 458
+  },
+  {
+    "type": "Identifier",
+    "value": "timeStyle",
+    "start": 459,
+    "end": 468
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 468,
+    "end": 469
+  },
+  {
+    "type": "String",
+    "value": "\"full\"",
+    "start": 470,
+    "end": 476
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 477,
+    "end": 478
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 478,
+    "end": 479
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 479,
+    "end": 480
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 481,
+    "end": 482
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 482,
+    "end": 483
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 483,
+    "end": 484
+  }
+]

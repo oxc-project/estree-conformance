@@ -1,0 +1,89 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ClassDeclaration",
+      "decorators": [],
+      "id": {
+        "type": "Identifier",
+        "name": "C",
+        "start": 516,
+        "end": 517
+      },
+      "superClass": null,
+      "body": {
+        "type": "ClassBody",
+        "body": [
+          {
+            "type": "StaticBlock",
+            "body": [
+              {
+                "type": "ExpressionStatement",
+                "expression": {
+                  "type": "ParenthesizedExpression",
+                  "expression": {
+                    "type": "ArrowFunctionExpression",
+                    "expression": false,
+                    "async": false,
+                    "params": [],
+                    "body": {
+                      "type": "BlockStatement",
+                      "body": [
+                        {
+                          "type": "VariableDeclaration",
+                          "kind": "using",
+                          "declarations": [
+                            {
+                              "type": "VariableDeclarator",
+                              "id": {
+                                "type": "Identifier",
+                                "name": "await",
+                                "start": 550,
+                                "end": 555
+                              },
+                              "init": {
+                                "type": "Literal",
+                                "value": null,
+                                "raw": "null",
+                                "start": 558,
+                                "end": 562
+                              },
+                              "start": 550,
+                              "end": 562
+                            }
+                          ],
+                          "start": 544,
+                          "end": 563
+                        }
+                      ],
+                      "start": 542,
+                      "end": 565
+                    },
+                    "id": null,
+                    "generator": false,
+                    "start": 536,
+                    "end": 565
+                  },
+                  "start": 535,
+                  "end": 566
+                },
+                "start": 535,
+                "end": 567
+              }
+            ],
+            "start": 522,
+            "end": 571
+          }
+        ],
+        "start": 518,
+        "end": 573
+      },
+      "start": 510,
+      "end": 573
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 574
+}

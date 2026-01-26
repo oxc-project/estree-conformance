@@ -1,0 +1,71 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "Identifier",
+          "name": "asyncTest",
+          "start": 1187,
+          "end": 1196
+        },
+        "arguments": [
+          {
+            "type": "FunctionExpression",
+            "id": null,
+            "generator": false,
+            "async": true,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "body": [
+                {
+                  "type": "VariableDeclaration",
+                  "kind": "await using",
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "id": {
+                        "type": "Identifier",
+                        "name": "x",
+                        "start": 1231,
+                        "end": 1232
+                      },
+                      "init": {
+                        "type": "Literal",
+                        "value": null,
+                        "raw": "null",
+                        "start": 1235,
+                        "end": 1239
+                      },
+                      "start": 1231,
+                      "end": 1239
+                    }
+                  ],
+                  "start": 1219,
+                  "end": 1240
+                }
+              ],
+              "start": 1215,
+              "end": 1242
+            },
+            "expression": false,
+            "start": 1197,
+            "end": 1242
+          }
+        ],
+        "optional": false,
+        "start": 1187,
+        "end": 1243
+      },
+      "start": 1187,
+      "end": 1244
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 1245
+}

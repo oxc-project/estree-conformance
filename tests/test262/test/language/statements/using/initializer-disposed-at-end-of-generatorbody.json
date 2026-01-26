@@ -1,0 +1,608 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "kind": "var",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "resource",
+            "start": 3428,
+            "end": 3436
+          },
+          "init": {
+            "type": "ObjectExpression",
+            "properties": [
+              {
+                "type": "Property",
+                "kind": "init",
+                "key": {
+                  "type": "Identifier",
+                  "name": "disposed",
+                  "start": 3445,
+                  "end": 3453
+                },
+                "value": {
+                  "type": "Literal",
+                  "value": false,
+                  "raw": "false",
+                  "start": 3455,
+                  "end": 3460
+                },
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "start": 3445,
+                "end": 3460
+              },
+              {
+                "type": "Property",
+                "kind": "init",
+                "key": {
+                  "type": "MemberExpression",
+                  "object": {
+                    "type": "Identifier",
+                    "name": "Symbol",
+                    "start": 3467,
+                    "end": 3473
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "name": "dispose",
+                    "start": 3474,
+                    "end": 3481
+                  },
+                  "optional": false,
+                  "computed": false,
+                  "start": 3467,
+                  "end": 3481
+                },
+                "value": {
+                  "type": "FunctionExpression",
+                  "id": null,
+                  "generator": false,
+                  "async": false,
+                  "params": [],
+                  "body": {
+                    "type": "BlockStatement",
+                    "body": [
+                      {
+                        "type": "ExpressionStatement",
+                        "expression": {
+                          "type": "AssignmentExpression",
+                          "operator": "=",
+                          "left": {
+                            "type": "MemberExpression",
+                            "object": {
+                              "type": "ThisExpression",
+                              "start": 3495,
+                              "end": 3499
+                            },
+                            "property": {
+                              "type": "Identifier",
+                              "name": "disposed",
+                              "start": 3500,
+                              "end": 3508
+                            },
+                            "optional": false,
+                            "computed": false,
+                            "start": 3495,
+                            "end": 3508
+                          },
+                          "right": {
+                            "type": "Literal",
+                            "value": true,
+                            "raw": "true",
+                            "start": 3511,
+                            "end": 3515
+                          },
+                          "start": 3495,
+                          "end": 3515
+                        },
+                        "start": 3495,
+                        "end": 3516
+                      }
+                    ],
+                    "start": 3485,
+                    "end": 3522
+                  },
+                  "expression": false,
+                  "start": 3482,
+                  "end": 3522
+                },
+                "method": true,
+                "shorthand": false,
+                "computed": true,
+                "start": 3466,
+                "end": 3522
+              }
+            ],
+            "start": 3439,
+            "end": 3524
+          },
+          "start": 3428,
+          "end": 3524
+        }
+      ],
+      "start": 3424,
+      "end": 3525
+    },
+    {
+      "type": "FunctionDeclaration",
+      "id": {
+        "type": "Identifier",
+        "name": "f",
+        "start": 3538,
+        "end": 3539
+      },
+      "generator": true,
+      "async": false,
+      "params": [],
+      "body": {
+        "type": "BlockStatement",
+        "body": [
+          {
+            "type": "VariableDeclaration",
+            "kind": "using",
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "id": {
+                  "type": "Identifier",
+                  "name": "_",
+                  "start": 3554,
+                  "end": 3555
+                },
+                "init": {
+                  "type": "Identifier",
+                  "name": "resource",
+                  "start": 3558,
+                  "end": 3566
+                },
+                "start": 3554,
+                "end": 3566
+              }
+            ],
+            "start": 3548,
+            "end": 3567
+          },
+          {
+            "type": "ExpressionStatement",
+            "expression": {
+              "type": "YieldExpression",
+              "delegate": false,
+              "argument": null,
+              "start": 3572,
+              "end": 3577
+            },
+            "start": 3572,
+            "end": 3578
+          }
+        ],
+        "start": 3542,
+        "end": 3580
+      },
+      "expression": false,
+      "start": 3527,
+      "end": 3580
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "var",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "g",
+            "start": 3586,
+            "end": 3587
+          },
+          "init": {
+            "type": "CallExpression",
+            "callee": {
+              "type": "Identifier",
+              "name": "f",
+              "start": 3590,
+              "end": 3591
+            },
+            "arguments": [],
+            "optional": false,
+            "start": 3590,
+            "end": 3593
+          },
+          "start": 3586,
+          "end": 3593
+        }
+      ],
+      "start": 3582,
+      "end": 3594
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "var",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "wasDisposedBeforeGeneratorStarted",
+            "start": 3599,
+            "end": 3632
+          },
+          "init": {
+            "type": "MemberExpression",
+            "object": {
+              "type": "Identifier",
+              "name": "resource",
+              "start": 3635,
+              "end": 3643
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "disposed",
+              "start": 3644,
+              "end": 3652
+            },
+            "optional": false,
+            "computed": false,
+            "start": 3635,
+            "end": 3652
+          },
+          "start": 3599,
+          "end": 3652
+        }
+      ],
+      "start": 3595,
+      "end": 3653
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "g",
+            "start": 3654,
+            "end": 3655
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "next",
+            "start": 3656,
+            "end": 3660
+          },
+          "optional": false,
+          "computed": false,
+          "start": 3654,
+          "end": 3660
+        },
+        "arguments": [],
+        "optional": false,
+        "start": 3654,
+        "end": 3662
+      },
+      "start": 3654,
+      "end": 3663
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "var",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "wasDisposedWhileSuspended",
+            "start": 3668,
+            "end": 3693
+          },
+          "init": {
+            "type": "MemberExpression",
+            "object": {
+              "type": "Identifier",
+              "name": "resource",
+              "start": 3696,
+              "end": 3704
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "disposed",
+              "start": 3705,
+              "end": 3713
+            },
+            "optional": false,
+            "computed": false,
+            "start": 3696,
+            "end": 3713
+          },
+          "start": 3668,
+          "end": 3713
+        }
+      ],
+      "start": 3664,
+      "end": 3714
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 3715,
+            "end": 3721
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 3722,
+            "end": 3731
+          },
+          "optional": false,
+          "computed": false,
+          "start": 3715,
+          "end": 3731
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "CallExpression",
+              "callee": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "g",
+                  "start": 3732,
+                  "end": 3733
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "next",
+                  "start": 3734,
+                  "end": 3738
+                },
+                "optional": false,
+                "computed": false,
+                "start": 3732,
+                "end": 3738
+              },
+              "arguments": [],
+              "optional": false,
+              "start": 3732,
+              "end": 3740
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "done",
+              "start": 3741,
+              "end": 3745
+            },
+            "optional": false,
+            "computed": false,
+            "start": 3732,
+            "end": 3745
+          },
+          {
+            "type": "Literal",
+            "value": true,
+            "raw": "true",
+            "start": 3747,
+            "end": 3751
+          }
+        ],
+        "optional": false,
+        "start": 3715,
+        "end": 3752
+      },
+      "start": 3715,
+      "end": 3753
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "var",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "isDisposedAfterGeneratorCompleted",
+            "start": 3758,
+            "end": 3791
+          },
+          "init": {
+            "type": "MemberExpression",
+            "object": {
+              "type": "Identifier",
+              "name": "resource",
+              "start": 3794,
+              "end": 3802
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "disposed",
+              "start": 3803,
+              "end": 3811
+            },
+            "optional": false,
+            "computed": false,
+            "start": 3794,
+            "end": 3811
+          },
+          "start": 3758,
+          "end": 3811
+        }
+      ],
+      "start": 3754,
+      "end": 3812
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 3814,
+            "end": 3820
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 3821,
+            "end": 3830
+          },
+          "optional": false,
+          "computed": false,
+          "start": 3814,
+          "end": 3830
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "name": "wasDisposedBeforeGeneratorStarted",
+            "start": 3831,
+            "end": 3864
+          },
+          {
+            "type": "Literal",
+            "value": false,
+            "raw": "false",
+            "start": 3866,
+            "end": 3871
+          },
+          {
+            "type": "Literal",
+            "value": "Expected resource to not have been disposed prior to generator start",
+            "raw": "'Expected resource to not have been disposed prior to generator start'",
+            "start": 3873,
+            "end": 3943
+          }
+        ],
+        "optional": false,
+        "start": 3814,
+        "end": 3944
+      },
+      "start": 3814,
+      "end": 3945
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 3946,
+            "end": 3952
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 3953,
+            "end": 3962
+          },
+          "optional": false,
+          "computed": false,
+          "start": 3946,
+          "end": 3962
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "name": "wasDisposedWhileSuspended",
+            "start": 3963,
+            "end": 3988
+          },
+          {
+            "type": "Literal",
+            "value": false,
+            "raw": "false",
+            "start": 3990,
+            "end": 3995
+          },
+          {
+            "type": "Literal",
+            "value": "Expected resource to not have been disposed while generator is suspended",
+            "raw": "'Expected resource to not have been disposed while generator is suspended'",
+            "start": 3997,
+            "end": 4071
+          }
+        ],
+        "optional": false,
+        "start": 3946,
+        "end": 4072
+      },
+      "start": 3946,
+      "end": 4073
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 4074,
+            "end": 4080
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 4081,
+            "end": 4090
+          },
+          "optional": false,
+          "computed": false,
+          "start": 4074,
+          "end": 4090
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "name": "isDisposedAfterGeneratorCompleted",
+            "start": 4091,
+            "end": 4124
+          },
+          {
+            "type": "Literal",
+            "value": true,
+            "raw": "true",
+            "start": 4126,
+            "end": 4130
+          },
+          {
+            "type": "Literal",
+            "value": "Expected resource to have been disposed after generator completed",
+            "raw": "'Expected resource to have been disposed after generator completed'",
+            "start": 4132,
+            "end": 4199
+          }
+        ],
+        "optional": false,
+        "start": 4074,
+        "end": 4200
+      },
+      "start": 4074,
+      "end": 4201
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 4202
+}

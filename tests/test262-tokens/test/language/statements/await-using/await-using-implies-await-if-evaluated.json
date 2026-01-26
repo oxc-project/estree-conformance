@@ -1,0 +1,746 @@
+[
+  {
+    "type": "Identifier",
+    "value": "asyncTest",
+    "start": 2678,
+    "end": 2687
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 2687,
+    "end": 2688
+  },
+  {
+    "type": "Identifier",
+    "value": "async",
+    "start": 2688,
+    "end": 2693
+  },
+  {
+    "type": "Keyword",
+    "value": "function",
+    "start": 2694,
+    "end": 2702
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 2703,
+    "end": 2704
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 2704,
+    "end": 2705
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 2706,
+    "end": 2707
+  },
+  {
+    "type": "Keyword",
+    "value": "var",
+    "start": 2710,
+    "end": 2713
+  },
+  {
+    "type": "Identifier",
+    "value": "isRunningInSameMicrotask",
+    "start": 2714,
+    "end": 2738
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 2739,
+    "end": 2740
+  },
+  {
+    "type": "Boolean",
+    "value": "true",
+    "start": 2741,
+    "end": 2745
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 2745,
+    "end": 2746
+  },
+  {
+    "type": "Keyword",
+    "value": "var",
+    "start": 2749,
+    "end": 2752
+  },
+  {
+    "type": "Identifier",
+    "value": "wasStartedInSameMicrotask",
+    "start": 2753,
+    "end": 2778
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 2779,
+    "end": 2780
+  },
+  {
+    "type": "Boolean",
+    "value": "false",
+    "start": 2781,
+    "end": 2786
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 2786,
+    "end": 2787
+  },
+  {
+    "type": "Keyword",
+    "value": "var",
+    "start": 2790,
+    "end": 2793
+  },
+  {
+    "type": "Identifier",
+    "value": "didEvaluatePrecedingBlockStatementsInSameMicrotask",
+    "start": 2794,
+    "end": 2844
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 2845,
+    "end": 2846
+  },
+  {
+    "type": "Boolean",
+    "value": "false",
+    "start": 2847,
+    "end": 2852
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 2852,
+    "end": 2853
+  },
+  {
+    "type": "Keyword",
+    "value": "var",
+    "start": 2856,
+    "end": 2859
+  },
+  {
+    "type": "Identifier",
+    "value": "didEvaluateFollowingBlockStatementsInSameMicrotask",
+    "start": 2860,
+    "end": 2910
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 2911,
+    "end": 2912
+  },
+  {
+    "type": "Boolean",
+    "value": "false",
+    "start": 2913,
+    "end": 2918
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 2918,
+    "end": 2919
+  },
+  {
+    "type": "Keyword",
+    "value": "var",
+    "start": 2922,
+    "end": 2925
+  },
+  {
+    "type": "Identifier",
+    "value": "wasRunningInSameMicrotask",
+    "start": 2926,
+    "end": 2951
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 2952,
+    "end": 2953
+  },
+  {
+    "type": "Boolean",
+    "value": "false",
+    "start": 2954,
+    "end": 2959
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 2959,
+    "end": 2960
+  },
+  {
+    "type": "Identifier",
+    "value": "async",
+    "start": 2964,
+    "end": 2969
+  },
+  {
+    "type": "Keyword",
+    "value": "function",
+    "start": 2970,
+    "end": 2978
+  },
+  {
+    "type": "Identifier",
+    "value": "f",
+    "start": 2979,
+    "end": 2980
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 2980,
+    "end": 2981
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 2981,
+    "end": 2982
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 2983,
+    "end": 2984
+  },
+  {
+    "type": "Identifier",
+    "value": "wasStartedInSameMicrotask",
+    "start": 2989,
+    "end": 3014
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 3015,
+    "end": 3016
+  },
+  {
+    "type": "Identifier",
+    "value": "isRunningInSameMicrotask",
+    "start": 3017,
+    "end": 3041
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 3041,
+    "end": 3042
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 3047,
+    "end": 3048
+  },
+  {
+    "type": "Identifier",
+    "value": "didEvaluatePrecedingBlockStatementsInSameMicrotask",
+    "start": 3055,
+    "end": 3105
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 3106,
+    "end": 3107
+  },
+  {
+    "type": "Identifier",
+    "value": "isRunningInSameMicrotask",
+    "start": 3108,
+    "end": 3132
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 3132,
+    "end": 3133
+  },
+  {
+    "type": "Identifier",
+    "value": "await",
+    "start": 3140,
+    "end": 3145
+  },
+  {
+    "type": "Identifier",
+    "value": "using",
+    "start": 3146,
+    "end": 3151
+  },
+  {
+    "type": "Identifier",
+    "value": "_",
+    "start": 3152,
+    "end": 3153
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 3154,
+    "end": 3155
+  },
+  {
+    "type": "Null",
+    "value": "null",
+    "start": 3156,
+    "end": 3160
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 3160,
+    "end": 3161
+  },
+  {
+    "type": "Identifier",
+    "value": "didEvaluateFollowingBlockStatementsInSameMicrotask",
+    "start": 3168,
+    "end": 3218
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 3219,
+    "end": 3220
+  },
+  {
+    "type": "Identifier",
+    "value": "isRunningInSameMicrotask",
+    "start": 3221,
+    "end": 3245
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 3245,
+    "end": 3246
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 3251,
+    "end": 3252
+  },
+  {
+    "type": "Identifier",
+    "value": "wasRunningInSameMicrotask",
+    "start": 3257,
+    "end": 3282
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 3283,
+    "end": 3284
+  },
+  {
+    "type": "Identifier",
+    "value": "isRunningInSameMicrotask",
+    "start": 3285,
+    "end": 3309
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 3309,
+    "end": 3310
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 3313,
+    "end": 3314
+  },
+  {
+    "type": "Keyword",
+    "value": "var",
+    "start": 3318,
+    "end": 3321
+  },
+  {
+    "type": "Identifier",
+    "value": "p",
+    "start": 3322,
+    "end": 3323
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 3324,
+    "end": 3325
+  },
+  {
+    "type": "Identifier",
+    "value": "f",
+    "start": 3326,
+    "end": 3327
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 3327,
+    "end": 3328
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 3328,
+    "end": 3329
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 3329,
+    "end": 3330
+  },
+  {
+    "type": "Identifier",
+    "value": "isRunningInSameMicrotask",
+    "start": 3333,
+    "end": 3357
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 3358,
+    "end": 3359
+  },
+  {
+    "type": "Boolean",
+    "value": "false",
+    "start": 3360,
+    "end": 3365
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 3365,
+    "end": 3366
+  },
+  {
+    "type": "Identifier",
+    "value": "await",
+    "start": 3369,
+    "end": 3374
+  },
+  {
+    "type": "Identifier",
+    "value": "p",
+    "start": 3375,
+    "end": 3376
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 3376,
+    "end": 3377
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 3381,
+    "end": 3387
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 3387,
+    "end": 3388
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 3388,
+    "end": 3397
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 3397,
+    "end": 3398
+  },
+  {
+    "type": "Identifier",
+    "value": "wasStartedInSameMicrotask",
+    "start": 3398,
+    "end": 3423
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3423,
+    "end": 3424
+  },
+  {
+    "type": "Boolean",
+    "value": "true",
+    "start": 3425,
+    "end": 3429
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3429,
+    "end": 3430
+  },
+  {
+    "type": "String",
+    "value": "'Expected async function containing `await using` to start in the same microtask'",
+    "start": 3431,
+    "end": 3512
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 3512,
+    "end": 3513
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 3513,
+    "end": 3514
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 3517,
+    "end": 3523
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 3523,
+    "end": 3524
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 3524,
+    "end": 3533
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 3533,
+    "end": 3534
+  },
+  {
+    "type": "Identifier",
+    "value": "didEvaluatePrecedingBlockStatementsInSameMicrotask",
+    "start": 3534,
+    "end": 3584
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3584,
+    "end": 3585
+  },
+  {
+    "type": "Boolean",
+    "value": "true",
+    "start": 3586,
+    "end": 3590
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3590,
+    "end": 3591
+  },
+  {
+    "type": "String",
+    "value": "'Expected block statements preceding `await using` to be evaluated in the same microtask'",
+    "start": 3592,
+    "end": 3681
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 3681,
+    "end": 3682
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 3682,
+    "end": 3683
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 3686,
+    "end": 3692
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 3692,
+    "end": 3693
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 3693,
+    "end": 3702
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 3702,
+    "end": 3703
+  },
+  {
+    "type": "Identifier",
+    "value": "didEvaluateFollowingBlockStatementsInSameMicrotask",
+    "start": 3703,
+    "end": 3753
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3753,
+    "end": 3754
+  },
+  {
+    "type": "Boolean",
+    "value": "true",
+    "start": 3755,
+    "end": 3759
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3759,
+    "end": 3760
+  },
+  {
+    "type": "String",
+    "value": "'Expected block statements following `await using` to be evaluated in the same microtask'",
+    "start": 3761,
+    "end": 3850
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 3850,
+    "end": 3851
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 3851,
+    "end": 3852
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 3855,
+    "end": 3861
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 3861,
+    "end": 3862
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 3862,
+    "end": 3871
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 3871,
+    "end": 3872
+  },
+  {
+    "type": "Identifier",
+    "value": "wasRunningInSameMicrotask",
+    "start": 3872,
+    "end": 3897
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3897,
+    "end": 3898
+  },
+  {
+    "type": "Boolean",
+    "value": "false",
+    "start": 3899,
+    "end": 3904
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3904,
+    "end": 3905
+  },
+  {
+    "type": "String",
+    "value": "'Expected statements following the block containing evaluated `await using` to evaluate in a different microtask'",
+    "start": 3906,
+    "end": 4019
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 4019,
+    "end": 4020
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 4020,
+    "end": 4021
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 4022,
+    "end": 4023
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 4023,
+    "end": 4024
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 4024,
+    "end": 4025
+  }
+]
