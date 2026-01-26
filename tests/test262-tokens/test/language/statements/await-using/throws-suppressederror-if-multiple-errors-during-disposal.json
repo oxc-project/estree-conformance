@@ -1,0 +1,926 @@
+[
+  {
+    "type": "Identifier",
+    "value": "asyncTest",
+    "start": 1480,
+    "end": 1489
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1489,
+    "end": 1490
+  },
+  {
+    "type": "Identifier",
+    "value": "async",
+    "start": 1490,
+    "end": 1495
+  },
+  {
+    "type": "Keyword",
+    "value": "function",
+    "start": 1496,
+    "end": 1504
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1504,
+    "end": 1505
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1505,
+    "end": 1506
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 1507,
+    "end": 1508
+  },
+  {
+    "type": "Keyword",
+    "value": "class",
+    "start": 1511,
+    "end": 1516
+  },
+  {
+    "type": "Identifier",
+    "value": "MyError",
+    "start": 1517,
+    "end": 1524
+  },
+  {
+    "type": "Keyword",
+    "value": "extends",
+    "start": 1525,
+    "end": 1532
+  },
+  {
+    "type": "Identifier",
+    "value": "Error",
+    "start": 1533,
+    "end": 1538
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 1539,
+    "end": 1540
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 1540,
+    "end": 1541
+  },
+  {
+    "type": "Keyword",
+    "value": "const",
+    "start": 1544,
+    "end": 1549
+  },
+  {
+    "type": "Identifier",
+    "value": "error1",
+    "start": 1550,
+    "end": 1556
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 1557,
+    "end": 1558
+  },
+  {
+    "type": "Keyword",
+    "value": "new",
+    "start": 1559,
+    "end": 1562
+  },
+  {
+    "type": "Identifier",
+    "value": "MyError",
+    "start": 1563,
+    "end": 1570
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1570,
+    "end": 1571
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1571,
+    "end": 1572
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1572,
+    "end": 1573
+  },
+  {
+    "type": "Keyword",
+    "value": "const",
+    "start": 1576,
+    "end": 1581
+  },
+  {
+    "type": "Identifier",
+    "value": "error2",
+    "start": 1582,
+    "end": 1588
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 1589,
+    "end": 1590
+  },
+  {
+    "type": "Keyword",
+    "value": "new",
+    "start": 1591,
+    "end": 1594
+  },
+  {
+    "type": "Identifier",
+    "value": "MyError",
+    "start": 1595,
+    "end": 1602
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1602,
+    "end": 1603
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1603,
+    "end": 1604
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1604,
+    "end": 1605
+  },
+  {
+    "type": "Keyword",
+    "value": "const",
+    "start": 1608,
+    "end": 1613
+  },
+  {
+    "type": "Identifier",
+    "value": "error3",
+    "start": 1614,
+    "end": 1620
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 1621,
+    "end": 1622
+  },
+  {
+    "type": "Keyword",
+    "value": "new",
+    "start": 1623,
+    "end": 1626
+  },
+  {
+    "type": "Identifier",
+    "value": "MyError",
+    "start": 1627,
+    "end": 1634
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1634,
+    "end": 1635
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1635,
+    "end": 1636
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1636,
+    "end": 1637
+  },
+  {
+    "type": "Keyword",
+    "value": "try",
+    "start": 1641,
+    "end": 1644
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 1645,
+    "end": 1646
+  },
+  {
+    "type": "Identifier",
+    "value": "await",
+    "start": 1651,
+    "end": 1656
+  },
+  {
+    "type": "Identifier",
+    "value": "using",
+    "start": 1657,
+    "end": 1662
+  },
+  {
+    "type": "Identifier",
+    "value": "_1",
+    "start": 1663,
+    "end": 1665
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 1666,
+    "end": 1667
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 1668,
+    "end": 1669
+  },
+  {
+    "type": "Identifier",
+    "value": "async",
+    "start": 1670,
+    "end": 1675
+  },
+  {
+    "type": "Punctuator",
+    "value": "[",
+    "start": 1676,
+    "end": 1677
+  },
+  {
+    "type": "Identifier",
+    "value": "Symbol",
+    "start": 1677,
+    "end": 1683
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1683,
+    "end": 1684
+  },
+  {
+    "type": "Identifier",
+    "value": "asyncDispose",
+    "start": 1684,
+    "end": 1696
+  },
+  {
+    "type": "Punctuator",
+    "value": "]",
+    "start": 1696,
+    "end": 1697
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1697,
+    "end": 1698
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1698,
+    "end": 1699
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 1700,
+    "end": 1701
+  },
+  {
+    "type": "Keyword",
+    "value": "throw",
+    "start": 1702,
+    "end": 1707
+  },
+  {
+    "type": "Identifier",
+    "value": "error1",
+    "start": 1708,
+    "end": 1714
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1714,
+    "end": 1715
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 1716,
+    "end": 1717
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 1718,
+    "end": 1719
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1719,
+    "end": 1720
+  },
+  {
+    "type": "Identifier",
+    "value": "await",
+    "start": 1725,
+    "end": 1730
+  },
+  {
+    "type": "Identifier",
+    "value": "using",
+    "start": 1731,
+    "end": 1736
+  },
+  {
+    "type": "Identifier",
+    "value": "_2",
+    "start": 1737,
+    "end": 1739
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 1740,
+    "end": 1741
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 1742,
+    "end": 1743
+  },
+  {
+    "type": "Punctuator",
+    "value": "[",
+    "start": 1744,
+    "end": 1745
+  },
+  {
+    "type": "Identifier",
+    "value": "Symbol",
+    "start": 1745,
+    "end": 1751
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1751,
+    "end": 1752
+  },
+  {
+    "type": "Identifier",
+    "value": "dispose",
+    "start": 1752,
+    "end": 1759
+  },
+  {
+    "type": "Punctuator",
+    "value": "]",
+    "start": 1759,
+    "end": 1760
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1760,
+    "end": 1761
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1761,
+    "end": 1762
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 1763,
+    "end": 1764
+  },
+  {
+    "type": "Keyword",
+    "value": "throw",
+    "start": 1765,
+    "end": 1770
+  },
+  {
+    "type": "Identifier",
+    "value": "error2",
+    "start": 1771,
+    "end": 1777
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1777,
+    "end": 1778
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 1779,
+    "end": 1780
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 1781,
+    "end": 1782
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1782,
+    "end": 1783
+  },
+  {
+    "type": "Keyword",
+    "value": "throw",
+    "start": 1788,
+    "end": 1793
+  },
+  {
+    "type": "Identifier",
+    "value": "error3",
+    "start": 1794,
+    "end": 1800
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1800,
+    "end": 1801
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 1804,
+    "end": 1805
+  },
+  {
+    "type": "Keyword",
+    "value": "catch",
+    "start": 1808,
+    "end": 1813
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1814,
+    "end": 1815
+  },
+  {
+    "type": "Identifier",
+    "value": "e",
+    "start": 1815,
+    "end": 1816
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1816,
+    "end": 1817
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 1818,
+    "end": 1819
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 1824,
+    "end": 1830
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1830,
+    "end": 1831
+  },
+  {
+    "type": "Identifier",
+    "value": "e",
+    "start": 1831,
+    "end": 1832
+  },
+  {
+    "type": "Keyword",
+    "value": "instanceof",
+    "start": 1833,
+    "end": 1843
+  },
+  {
+    "type": "Identifier",
+    "value": "SuppressedError",
+    "start": 1844,
+    "end": 1859
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1859,
+    "end": 1860
+  },
+  {
+    "type": "String",
+    "value": "\"Expected an SuppressedError to have been thrown\"",
+    "start": 1861,
+    "end": 1910
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1910,
+    "end": 1911
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1911,
+    "end": 1912
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 1917,
+    "end": 1923
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1923,
+    "end": 1924
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 1924,
+    "end": 1933
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1933,
+    "end": 1934
+  },
+  {
+    "type": "Identifier",
+    "value": "e",
+    "start": 1934,
+    "end": 1935
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1935,
+    "end": 1936
+  },
+  {
+    "type": "Identifier",
+    "value": "error",
+    "start": 1936,
+    "end": 1941
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1941,
+    "end": 1942
+  },
+  {
+    "type": "Identifier",
+    "value": "error1",
+    "start": 1943,
+    "end": 1949
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1949,
+    "end": 1950
+  },
+  {
+    "type": "String",
+    "value": "\"Expected the outermost suppressing error to have been 'error1'\"",
+    "start": 1951,
+    "end": 2015
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 2015,
+    "end": 2016
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 2016,
+    "end": 2017
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 2022,
+    "end": 2028
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 2028,
+    "end": 2029
+  },
+  {
+    "type": "Identifier",
+    "value": "e",
+    "start": 2029,
+    "end": 2030
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 2030,
+    "end": 2031
+  },
+  {
+    "type": "Identifier",
+    "value": "suppressed",
+    "start": 2031,
+    "end": 2041
+  },
+  {
+    "type": "Keyword",
+    "value": "instanceof",
+    "start": 2042,
+    "end": 2052
+  },
+  {
+    "type": "Identifier",
+    "value": "SuppressedError",
+    "start": 2053,
+    "end": 2068
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2068,
+    "end": 2069
+  },
+  {
+    "type": "String",
+    "value": "\"Expected the outermost suppressed error to have been a SuppressedError\"",
+    "start": 2070,
+    "end": 2142
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 2142,
+    "end": 2143
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 2143,
+    "end": 2144
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 2149,
+    "end": 2155
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 2155,
+    "end": 2156
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 2156,
+    "end": 2165
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 2165,
+    "end": 2166
+  },
+  {
+    "type": "Identifier",
+    "value": "e",
+    "start": 2166,
+    "end": 2167
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 2167,
+    "end": 2168
+  },
+  {
+    "type": "Identifier",
+    "value": "suppressed",
+    "start": 2168,
+    "end": 2178
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 2178,
+    "end": 2179
+  },
+  {
+    "type": "Identifier",
+    "value": "error",
+    "start": 2179,
+    "end": 2184
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2184,
+    "end": 2185
+  },
+  {
+    "type": "Identifier",
+    "value": "error2",
+    "start": 2186,
+    "end": 2192
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2192,
+    "end": 2193
+  },
+  {
+    "type": "String",
+    "value": "\"Expected the innermost suppressing error to have been 'error2'\"",
+    "start": 2194,
+    "end": 2258
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 2258,
+    "end": 2259
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 2259,
+    "end": 2260
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 2265,
+    "end": 2271
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 2271,
+    "end": 2272
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 2272,
+    "end": 2281
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 2281,
+    "end": 2282
+  },
+  {
+    "type": "Identifier",
+    "value": "e",
+    "start": 2282,
+    "end": 2283
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 2283,
+    "end": 2284
+  },
+  {
+    "type": "Identifier",
+    "value": "suppressed",
+    "start": 2284,
+    "end": 2294
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 2294,
+    "end": 2295
+  },
+  {
+    "type": "Identifier",
+    "value": "suppressed",
+    "start": 2295,
+    "end": 2305
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2305,
+    "end": 2306
+  },
+  {
+    "type": "Identifier",
+    "value": "error3",
+    "start": 2307,
+    "end": 2313
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2313,
+    "end": 2314
+  },
+  {
+    "type": "String",
+    "value": "\"Expected the innermost suppressed error to have been 'error3'\"",
+    "start": 2315,
+    "end": 2378
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 2378,
+    "end": 2379
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 2379,
+    "end": 2380
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 2383,
+    "end": 2384
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 2385,
+    "end": 2386
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 2386,
+    "end": 2387
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 2387,
+    "end": 2388
+  }
+]

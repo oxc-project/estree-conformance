@@ -1,0 +1,601 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "Identifier",
+          "name": "asyncTest",
+          "start": 2391,
+          "end": 2400
+        },
+        "arguments": [
+          {
+            "type": "FunctionExpression",
+            "id": null,
+            "generator": false,
+            "async": true,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "body": [
+                {
+                  "type": "VariableDeclaration",
+                  "kind": "var",
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "id": {
+                        "type": "Identifier",
+                        "name": "resource",
+                        "start": 2427,
+                        "end": 2435
+                      },
+                      "init": {
+                        "type": "ObjectExpression",
+                        "properties": [
+                          {
+                            "type": "Property",
+                            "kind": "init",
+                            "key": {
+                              "type": "Identifier",
+                              "name": "disposed",
+                              "start": 2446,
+                              "end": 2454
+                            },
+                            "value": {
+                              "type": "Literal",
+                              "value": false,
+                              "raw": "false",
+                              "start": 2456,
+                              "end": 2461
+                            },
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false,
+                            "start": 2446,
+                            "end": 2461
+                          },
+                          {
+                            "type": "Property",
+                            "kind": "init",
+                            "key": {
+                              "type": "MemberExpression",
+                              "object": {
+                                "type": "Identifier",
+                                "name": "Symbol",
+                                "start": 2476,
+                                "end": 2482
+                              },
+                              "property": {
+                                "type": "Identifier",
+                                "name": "asyncDispose",
+                                "start": 2483,
+                                "end": 2495
+                              },
+                              "optional": false,
+                              "computed": false,
+                              "start": 2476,
+                              "end": 2495
+                            },
+                            "value": {
+                              "type": "FunctionExpression",
+                              "id": null,
+                              "generator": false,
+                              "async": true,
+                              "params": [],
+                              "body": {
+                                "type": "BlockStatement",
+                                "body": [
+                                  {
+                                    "type": "ExpressionStatement",
+                                    "expression": {
+                                      "type": "AssignmentExpression",
+                                      "operator": "=",
+                                      "left": {
+                                        "type": "MemberExpression",
+                                        "object": {
+                                          "type": "ThisExpression",
+                                          "start": 2511,
+                                          "end": 2515
+                                        },
+                                        "property": {
+                                          "type": "Identifier",
+                                          "name": "disposed",
+                                          "start": 2516,
+                                          "end": 2524
+                                        },
+                                        "optional": false,
+                                        "computed": false,
+                                        "start": 2511,
+                                        "end": 2524
+                                      },
+                                      "right": {
+                                        "type": "Literal",
+                                        "value": true,
+                                        "raw": "true",
+                                        "start": 2527,
+                                        "end": 2531
+                                      },
+                                      "start": 2511,
+                                      "end": 2531
+                                    },
+                                    "start": 2511,
+                                    "end": 2532
+                                  }
+                                ],
+                                "start": 2499,
+                                "end": 2540
+                              },
+                              "expression": false,
+                              "start": 2496,
+                              "end": 2540
+                            },
+                            "method": true,
+                            "shorthand": false,
+                            "computed": true,
+                            "start": 2469,
+                            "end": 2540
+                          }
+                        ],
+                        "start": 2438,
+                        "end": 2544
+                      },
+                      "start": 2427,
+                      "end": 2544
+                    }
+                  ],
+                  "start": 2423,
+                  "end": 2545
+                },
+                {
+                  "type": "VariableDeclaration",
+                  "kind": "var",
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "id": {
+                        "type": "Identifier",
+                        "name": "wasDisposedBeforeBody",
+                        "start": 2553,
+                        "end": 2574
+                      },
+                      "init": {
+                        "type": "Literal",
+                        "value": false,
+                        "raw": "false",
+                        "start": 2577,
+                        "end": 2582
+                      },
+                      "start": 2553,
+                      "end": 2582
+                    }
+                  ],
+                  "start": 2549,
+                  "end": 2583
+                },
+                {
+                  "type": "VariableDeclaration",
+                  "kind": "var",
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "id": {
+                        "type": "Identifier",
+                        "name": "wasDisposedBeforeIteration",
+                        "start": 2590,
+                        "end": 2616
+                      },
+                      "init": {
+                        "type": "Literal",
+                        "value": false,
+                        "raw": "false",
+                        "start": 2619,
+                        "end": 2624
+                      },
+                      "start": 2590,
+                      "end": 2624
+                    }
+                  ],
+                  "start": 2586,
+                  "end": 2625
+                },
+                {
+                  "type": "VariableDeclaration",
+                  "kind": "var",
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "id": {
+                        "type": "Identifier",
+                        "name": "wasDisposedAfterIteration",
+                        "start": 2632,
+                        "end": 2657
+                      },
+                      "init": {
+                        "type": "Literal",
+                        "value": false,
+                        "raw": "false",
+                        "start": 2660,
+                        "end": 2665
+                      },
+                      "start": 2632,
+                      "end": 2665
+                    }
+                  ],
+                  "start": 2628,
+                  "end": 2666
+                },
+                {
+                  "type": "FunctionDeclaration",
+                  "id": {
+                    "type": "Identifier",
+                    "name": "g",
+                    "start": 2681,
+                    "end": 2682
+                  },
+                  "generator": true,
+                  "async": false,
+                  "params": [],
+                  "body": {
+                    "type": "BlockStatement",
+                    "body": [
+                      {
+                        "type": "ExpressionStatement",
+                        "expression": {
+                          "type": "AssignmentExpression",
+                          "operator": "=",
+                          "left": {
+                            "type": "Identifier",
+                            "name": "wasDisposedBeforeIteration",
+                            "start": 2691,
+                            "end": 2717
+                          },
+                          "right": {
+                            "type": "MemberExpression",
+                            "object": {
+                              "type": "Identifier",
+                              "name": "resource",
+                              "start": 2720,
+                              "end": 2728
+                            },
+                            "property": {
+                              "type": "Identifier",
+                              "name": "disposed",
+                              "start": 2729,
+                              "end": 2737
+                            },
+                            "optional": false,
+                            "computed": false,
+                            "start": 2720,
+                            "end": 2737
+                          },
+                          "start": 2691,
+                          "end": 2737
+                        },
+                        "start": 2691,
+                        "end": 2738
+                      },
+                      {
+                        "type": "ExpressionStatement",
+                        "expression": {
+                          "type": "YieldExpression",
+                          "delegate": false,
+                          "argument": {
+                            "type": "Identifier",
+                            "name": "resource",
+                            "start": 2749,
+                            "end": 2757
+                          },
+                          "start": 2743,
+                          "end": 2757
+                        },
+                        "start": 2743,
+                        "end": 2758
+                      },
+                      {
+                        "type": "ExpressionStatement",
+                        "expression": {
+                          "type": "AssignmentExpression",
+                          "operator": "=",
+                          "left": {
+                            "type": "Identifier",
+                            "name": "wasDisposedAfterIteration",
+                            "start": 2763,
+                            "end": 2788
+                          },
+                          "right": {
+                            "type": "MemberExpression",
+                            "object": {
+                              "type": "Identifier",
+                              "name": "resource",
+                              "start": 2791,
+                              "end": 2799
+                            },
+                            "property": {
+                              "type": "Identifier",
+                              "name": "disposed",
+                              "start": 2800,
+                              "end": 2808
+                            },
+                            "optional": false,
+                            "computed": false,
+                            "start": 2791,
+                            "end": 2808
+                          },
+                          "start": 2763,
+                          "end": 2808
+                        },
+                        "start": 2763,
+                        "end": 2809
+                      }
+                    ],
+                    "start": 2685,
+                    "end": 2813
+                  },
+                  "expression": false,
+                  "start": 2670,
+                  "end": 2813
+                },
+                {
+                  "type": "ForOfStatement",
+                  "await": false,
+                  "left": {
+                    "type": "VariableDeclaration",
+                    "kind": "await using",
+                    "declarations": [
+                      {
+                        "type": "VariableDeclarator",
+                        "id": {
+                          "type": "Identifier",
+                          "name": "_",
+                          "start": 2834,
+                          "end": 2835
+                        },
+                        "init": null,
+                        "start": 2834,
+                        "end": 2835
+                      }
+                    ],
+                    "start": 2822,
+                    "end": 2835
+                  },
+                  "right": {
+                    "type": "CallExpression",
+                    "callee": {
+                      "type": "Identifier",
+                      "name": "g",
+                      "start": 2839,
+                      "end": 2840
+                    },
+                    "arguments": [],
+                    "optional": false,
+                    "start": 2839,
+                    "end": 2842
+                  },
+                  "body": {
+                    "type": "BlockStatement",
+                    "body": [
+                      {
+                        "type": "ExpressionStatement",
+                        "expression": {
+                          "type": "AssignmentExpression",
+                          "operator": "=",
+                          "left": {
+                            "type": "Identifier",
+                            "name": "wasDisposedBeforeBody",
+                            "start": 2850,
+                            "end": 2871
+                          },
+                          "right": {
+                            "type": "MemberExpression",
+                            "object": {
+                              "type": "Identifier",
+                              "name": "resource",
+                              "start": 2874,
+                              "end": 2882
+                            },
+                            "property": {
+                              "type": "Identifier",
+                              "name": "disposed",
+                              "start": 2883,
+                              "end": 2891
+                            },
+                            "optional": false,
+                            "computed": false,
+                            "start": 2874,
+                            "end": 2891
+                          },
+                          "start": 2850,
+                          "end": 2891
+                        },
+                        "start": 2850,
+                        "end": 2892
+                      }
+                    ],
+                    "start": 2844,
+                    "end": 2896
+                  },
+                  "start": 2817,
+                  "end": 2896
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "expression": {
+                    "type": "CallExpression",
+                    "callee": {
+                      "type": "MemberExpression",
+                      "object": {
+                        "type": "Identifier",
+                        "name": "assert",
+                        "start": 2900,
+                        "end": 2906
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "name": "sameValue",
+                        "start": 2907,
+                        "end": 2916
+                      },
+                      "optional": false,
+                      "computed": false,
+                      "start": 2900,
+                      "end": 2916
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "name": "wasDisposedBeforeIteration",
+                        "start": 2917,
+                        "end": 2943
+                      },
+                      {
+                        "type": "Literal",
+                        "value": false,
+                        "raw": "false",
+                        "start": 2945,
+                        "end": 2950
+                      },
+                      {
+                        "type": "Literal",
+                        "value": "Expected resource to not been disposed before the for-of loop has received a value",
+                        "raw": "'Expected resource to not been disposed before the for-of loop has received a value'",
+                        "start": 2952,
+                        "end": 3036
+                      }
+                    ],
+                    "optional": false,
+                    "start": 2900,
+                    "end": 3037
+                  },
+                  "start": 2900,
+                  "end": 3038
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "expression": {
+                    "type": "CallExpression",
+                    "callee": {
+                      "type": "MemberExpression",
+                      "object": {
+                        "type": "Identifier",
+                        "name": "assert",
+                        "start": 3041,
+                        "end": 3047
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "name": "sameValue",
+                        "start": 3048,
+                        "end": 3057
+                      },
+                      "optional": false,
+                      "computed": false,
+                      "start": 3041,
+                      "end": 3057
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "name": "wasDisposedBeforeBody",
+                        "start": 3058,
+                        "end": 3079
+                      },
+                      {
+                        "type": "Literal",
+                        "value": false,
+                        "raw": "false",
+                        "start": 3081,
+                        "end": 3086
+                      },
+                      {
+                        "type": "Literal",
+                        "value": "Expected resource to not been disposed while for-of loop is still iterating",
+                        "raw": "'Expected resource to not been disposed while for-of loop is still iterating'",
+                        "start": 3088,
+                        "end": 3165
+                      }
+                    ],
+                    "optional": false,
+                    "start": 3041,
+                    "end": 3166
+                  },
+                  "start": 3041,
+                  "end": 3167
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "expression": {
+                    "type": "CallExpression",
+                    "callee": {
+                      "type": "MemberExpression",
+                      "object": {
+                        "type": "Identifier",
+                        "name": "assert",
+                        "start": 3170,
+                        "end": 3176
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "name": "sameValue",
+                        "start": 3177,
+                        "end": 3186
+                      },
+                      "optional": false,
+                      "computed": false,
+                      "start": 3170,
+                      "end": 3186
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "name": "wasDisposedAfterIteration",
+                        "start": 3187,
+                        "end": 3212
+                      },
+                      {
+                        "type": "Literal",
+                        "value": true,
+                        "raw": "true",
+                        "start": 3214,
+                        "end": 3218
+                      },
+                      {
+                        "type": "Literal",
+                        "value": "Expected resource to have been disposed after the for-of loop advanced to the next value",
+                        "raw": "'Expected resource to have been disposed after the for-of loop advanced to the next value'",
+                        "start": 3220,
+                        "end": 3310
+                      }
+                    ],
+                    "optional": false,
+                    "start": 3170,
+                    "end": 3311
+                  },
+                  "start": 3170,
+                  "end": 3312
+                }
+              ],
+              "start": 2419,
+              "end": 3314
+            },
+            "expression": false,
+            "start": 2401,
+            "end": 3314
+          }
+        ],
+        "optional": false,
+        "start": 2391,
+        "end": 3315
+      },
+      "start": 2391,
+      "end": 3316
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 3317
+}

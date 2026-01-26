@@ -1,0 +1,602 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "Identifier",
+          "name": "asyncTest",
+          "start": 2678,
+          "end": 2687
+        },
+        "arguments": [
+          {
+            "type": "FunctionExpression",
+            "id": null,
+            "generator": false,
+            "async": true,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "body": [
+                {
+                  "type": "VariableDeclaration",
+                  "kind": "var",
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "id": {
+                        "type": "Identifier",
+                        "name": "isRunningInSameMicrotask",
+                        "start": 2714,
+                        "end": 2738
+                      },
+                      "init": {
+                        "type": "Literal",
+                        "value": true,
+                        "raw": "true",
+                        "start": 2741,
+                        "end": 2745
+                      },
+                      "start": 2714,
+                      "end": 2745
+                    }
+                  ],
+                  "start": 2710,
+                  "end": 2746
+                },
+                {
+                  "type": "VariableDeclaration",
+                  "kind": "var",
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "id": {
+                        "type": "Identifier",
+                        "name": "wasStartedInSameMicrotask",
+                        "start": 2753,
+                        "end": 2778
+                      },
+                      "init": {
+                        "type": "Literal",
+                        "value": false,
+                        "raw": "false",
+                        "start": 2781,
+                        "end": 2786
+                      },
+                      "start": 2753,
+                      "end": 2786
+                    }
+                  ],
+                  "start": 2749,
+                  "end": 2787
+                },
+                {
+                  "type": "VariableDeclaration",
+                  "kind": "var",
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "id": {
+                        "type": "Identifier",
+                        "name": "didEvaluatePrecedingBlockStatementsInSameMicrotask",
+                        "start": 2794,
+                        "end": 2844
+                      },
+                      "init": {
+                        "type": "Literal",
+                        "value": false,
+                        "raw": "false",
+                        "start": 2847,
+                        "end": 2852
+                      },
+                      "start": 2794,
+                      "end": 2852
+                    }
+                  ],
+                  "start": 2790,
+                  "end": 2853
+                },
+                {
+                  "type": "VariableDeclaration",
+                  "kind": "var",
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "id": {
+                        "type": "Identifier",
+                        "name": "didEvaluateFollowingBlockStatementsInSameMicrotask",
+                        "start": 2860,
+                        "end": 2910
+                      },
+                      "init": {
+                        "type": "Literal",
+                        "value": false,
+                        "raw": "false",
+                        "start": 2913,
+                        "end": 2918
+                      },
+                      "start": 2860,
+                      "end": 2918
+                    }
+                  ],
+                  "start": 2856,
+                  "end": 2919
+                },
+                {
+                  "type": "VariableDeclaration",
+                  "kind": "var",
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "id": {
+                        "type": "Identifier",
+                        "name": "wasRunningInSameMicrotask",
+                        "start": 2926,
+                        "end": 2951
+                      },
+                      "init": {
+                        "type": "Literal",
+                        "value": false,
+                        "raw": "false",
+                        "start": 2954,
+                        "end": 2959
+                      },
+                      "start": 2926,
+                      "end": 2959
+                    }
+                  ],
+                  "start": 2922,
+                  "end": 2960
+                },
+                {
+                  "type": "FunctionDeclaration",
+                  "id": {
+                    "type": "Identifier",
+                    "name": "f",
+                    "start": 2979,
+                    "end": 2980
+                  },
+                  "generator": false,
+                  "async": true,
+                  "params": [],
+                  "body": {
+                    "type": "BlockStatement",
+                    "body": [
+                      {
+                        "type": "ExpressionStatement",
+                        "expression": {
+                          "type": "AssignmentExpression",
+                          "operator": "=",
+                          "left": {
+                            "type": "Identifier",
+                            "name": "wasStartedInSameMicrotask",
+                            "start": 2989,
+                            "end": 3014
+                          },
+                          "right": {
+                            "type": "Identifier",
+                            "name": "isRunningInSameMicrotask",
+                            "start": 3017,
+                            "end": 3041
+                          },
+                          "start": 2989,
+                          "end": 3041
+                        },
+                        "start": 2989,
+                        "end": 3042
+                      },
+                      {
+                        "type": "BlockStatement",
+                        "body": [
+                          {
+                            "type": "ExpressionStatement",
+                            "expression": {
+                              "type": "AssignmentExpression",
+                              "operator": "=",
+                              "left": {
+                                "type": "Identifier",
+                                "name": "didEvaluatePrecedingBlockStatementsInSameMicrotask",
+                                "start": 3055,
+                                "end": 3105
+                              },
+                              "right": {
+                                "type": "Identifier",
+                                "name": "isRunningInSameMicrotask",
+                                "start": 3108,
+                                "end": 3132
+                              },
+                              "start": 3055,
+                              "end": 3132
+                            },
+                            "start": 3055,
+                            "end": 3133
+                          },
+                          {
+                            "type": "VariableDeclaration",
+                            "kind": "await using",
+                            "declarations": [
+                              {
+                                "type": "VariableDeclarator",
+                                "id": {
+                                  "type": "Identifier",
+                                  "name": "_",
+                                  "start": 3152,
+                                  "end": 3153
+                                },
+                                "init": {
+                                  "type": "Literal",
+                                  "value": null,
+                                  "raw": "null",
+                                  "start": 3156,
+                                  "end": 3160
+                                },
+                                "start": 3152,
+                                "end": 3160
+                              }
+                            ],
+                            "start": 3140,
+                            "end": 3161
+                          },
+                          {
+                            "type": "ExpressionStatement",
+                            "expression": {
+                              "type": "AssignmentExpression",
+                              "operator": "=",
+                              "left": {
+                                "type": "Identifier",
+                                "name": "didEvaluateFollowingBlockStatementsInSameMicrotask",
+                                "start": 3168,
+                                "end": 3218
+                              },
+                              "right": {
+                                "type": "Identifier",
+                                "name": "isRunningInSameMicrotask",
+                                "start": 3221,
+                                "end": 3245
+                              },
+                              "start": 3168,
+                              "end": 3245
+                            },
+                            "start": 3168,
+                            "end": 3246
+                          }
+                        ],
+                        "start": 3047,
+                        "end": 3252
+                      },
+                      {
+                        "type": "ExpressionStatement",
+                        "expression": {
+                          "type": "AssignmentExpression",
+                          "operator": "=",
+                          "left": {
+                            "type": "Identifier",
+                            "name": "wasRunningInSameMicrotask",
+                            "start": 3257,
+                            "end": 3282
+                          },
+                          "right": {
+                            "type": "Identifier",
+                            "name": "isRunningInSameMicrotask",
+                            "start": 3285,
+                            "end": 3309
+                          },
+                          "start": 3257,
+                          "end": 3309
+                        },
+                        "start": 3257,
+                        "end": 3310
+                      }
+                    ],
+                    "start": 2983,
+                    "end": 3314
+                  },
+                  "expression": false,
+                  "start": 2964,
+                  "end": 3314
+                },
+                {
+                  "type": "VariableDeclaration",
+                  "kind": "var",
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "id": {
+                        "type": "Identifier",
+                        "name": "p",
+                        "start": 3322,
+                        "end": 3323
+                      },
+                      "init": {
+                        "type": "CallExpression",
+                        "callee": {
+                          "type": "Identifier",
+                          "name": "f",
+                          "start": 3326,
+                          "end": 3327
+                        },
+                        "arguments": [],
+                        "optional": false,
+                        "start": 3326,
+                        "end": 3329
+                      },
+                      "start": 3322,
+                      "end": 3329
+                    }
+                  ],
+                  "start": 3318,
+                  "end": 3330
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "expression": {
+                    "type": "AssignmentExpression",
+                    "operator": "=",
+                    "left": {
+                      "type": "Identifier",
+                      "name": "isRunningInSameMicrotask",
+                      "start": 3333,
+                      "end": 3357
+                    },
+                    "right": {
+                      "type": "Literal",
+                      "value": false,
+                      "raw": "false",
+                      "start": 3360,
+                      "end": 3365
+                    },
+                    "start": 3333,
+                    "end": 3365
+                  },
+                  "start": 3333,
+                  "end": 3366
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "expression": {
+                    "type": "AwaitExpression",
+                    "argument": {
+                      "type": "Identifier",
+                      "name": "p",
+                      "start": 3375,
+                      "end": 3376
+                    },
+                    "start": 3369,
+                    "end": 3376
+                  },
+                  "start": 3369,
+                  "end": 3377
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "expression": {
+                    "type": "CallExpression",
+                    "callee": {
+                      "type": "MemberExpression",
+                      "object": {
+                        "type": "Identifier",
+                        "name": "assert",
+                        "start": 3381,
+                        "end": 3387
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "name": "sameValue",
+                        "start": 3388,
+                        "end": 3397
+                      },
+                      "optional": false,
+                      "computed": false,
+                      "start": 3381,
+                      "end": 3397
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "name": "wasStartedInSameMicrotask",
+                        "start": 3398,
+                        "end": 3423
+                      },
+                      {
+                        "type": "Literal",
+                        "value": true,
+                        "raw": "true",
+                        "start": 3425,
+                        "end": 3429
+                      },
+                      {
+                        "type": "Literal",
+                        "value": "Expected async function containing `await using` to start in the same microtask",
+                        "raw": "'Expected async function containing `await using` to start in the same microtask'",
+                        "start": 3431,
+                        "end": 3512
+                      }
+                    ],
+                    "optional": false,
+                    "start": 3381,
+                    "end": 3513
+                  },
+                  "start": 3381,
+                  "end": 3514
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "expression": {
+                    "type": "CallExpression",
+                    "callee": {
+                      "type": "MemberExpression",
+                      "object": {
+                        "type": "Identifier",
+                        "name": "assert",
+                        "start": 3517,
+                        "end": 3523
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "name": "sameValue",
+                        "start": 3524,
+                        "end": 3533
+                      },
+                      "optional": false,
+                      "computed": false,
+                      "start": 3517,
+                      "end": 3533
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "name": "didEvaluatePrecedingBlockStatementsInSameMicrotask",
+                        "start": 3534,
+                        "end": 3584
+                      },
+                      {
+                        "type": "Literal",
+                        "value": true,
+                        "raw": "true",
+                        "start": 3586,
+                        "end": 3590
+                      },
+                      {
+                        "type": "Literal",
+                        "value": "Expected block statements preceding `await using` to be evaluated in the same microtask",
+                        "raw": "'Expected block statements preceding `await using` to be evaluated in the same microtask'",
+                        "start": 3592,
+                        "end": 3681
+                      }
+                    ],
+                    "optional": false,
+                    "start": 3517,
+                    "end": 3682
+                  },
+                  "start": 3517,
+                  "end": 3683
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "expression": {
+                    "type": "CallExpression",
+                    "callee": {
+                      "type": "MemberExpression",
+                      "object": {
+                        "type": "Identifier",
+                        "name": "assert",
+                        "start": 3686,
+                        "end": 3692
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "name": "sameValue",
+                        "start": 3693,
+                        "end": 3702
+                      },
+                      "optional": false,
+                      "computed": false,
+                      "start": 3686,
+                      "end": 3702
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "name": "didEvaluateFollowingBlockStatementsInSameMicrotask",
+                        "start": 3703,
+                        "end": 3753
+                      },
+                      {
+                        "type": "Literal",
+                        "value": true,
+                        "raw": "true",
+                        "start": 3755,
+                        "end": 3759
+                      },
+                      {
+                        "type": "Literal",
+                        "value": "Expected block statements following `await using` to be evaluated in the same microtask",
+                        "raw": "'Expected block statements following `await using` to be evaluated in the same microtask'",
+                        "start": 3761,
+                        "end": 3850
+                      }
+                    ],
+                    "optional": false,
+                    "start": 3686,
+                    "end": 3851
+                  },
+                  "start": 3686,
+                  "end": 3852
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "expression": {
+                    "type": "CallExpression",
+                    "callee": {
+                      "type": "MemberExpression",
+                      "object": {
+                        "type": "Identifier",
+                        "name": "assert",
+                        "start": 3855,
+                        "end": 3861
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "name": "sameValue",
+                        "start": 3862,
+                        "end": 3871
+                      },
+                      "optional": false,
+                      "computed": false,
+                      "start": 3855,
+                      "end": 3871
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "name": "wasRunningInSameMicrotask",
+                        "start": 3872,
+                        "end": 3897
+                      },
+                      {
+                        "type": "Literal",
+                        "value": false,
+                        "raw": "false",
+                        "start": 3899,
+                        "end": 3904
+                      },
+                      {
+                        "type": "Literal",
+                        "value": "Expected statements following the block containing evaluated `await using` to evaluate in a different microtask",
+                        "raw": "'Expected statements following the block containing evaluated `await using` to evaluate in a different microtask'",
+                        "start": 3906,
+                        "end": 4019
+                      }
+                    ],
+                    "optional": false,
+                    "start": 3855,
+                    "end": 4020
+                  },
+                  "start": 3855,
+                  "end": 4021
+                }
+              ],
+              "start": 2706,
+              "end": 4023
+            },
+            "expression": false,
+            "start": 2688,
+            "end": 4023
+          }
+        ],
+        "optional": false,
+        "start": 2678,
+        "end": 4024
+      },
+      "start": 2678,
+      "end": 4025
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 4026
+}

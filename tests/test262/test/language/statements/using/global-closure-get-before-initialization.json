@@ -1,0 +1,161 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "BlockStatement",
+      "body": [
+        {
+          "type": "FunctionDeclaration",
+          "id": {
+            "type": "Identifier",
+            "name": "f",
+            "start": 359,
+            "end": 360
+          },
+          "generator": false,
+          "async": false,
+          "params": [],
+          "body": {
+            "type": "BlockStatement",
+            "body": [
+              {
+                "type": "ReturnStatement",
+                "argument": {
+                  "type": "BinaryExpression",
+                  "left": {
+                    "type": "Identifier",
+                    "name": "x",
+                    "start": 372,
+                    "end": 373
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "Literal",
+                    "value": 1,
+                    "raw": "1",
+                    "start": 376,
+                    "end": 377
+                  },
+                  "start": 372,
+                  "end": 377
+                },
+                "start": 365,
+                "end": 378
+              }
+            ],
+            "start": 363,
+            "end": 380
+          },
+          "expression": false,
+          "start": 350,
+          "end": 380
+        },
+        {
+          "type": "ExpressionStatement",
+          "expression": {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "assert",
+                "start": 384,
+                "end": 390
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "throws",
+                "start": 391,
+                "end": 397
+              },
+              "optional": false,
+              "computed": false,
+              "start": 384,
+              "end": 397
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "name": "ReferenceError",
+                "start": 398,
+                "end": 412
+              },
+              {
+                "type": "FunctionExpression",
+                "id": null,
+                "generator": false,
+                "async": false,
+                "params": [],
+                "body": {
+                  "type": "BlockStatement",
+                  "body": [
+                    {
+                      "type": "ExpressionStatement",
+                      "expression": {
+                        "type": "CallExpression",
+                        "callee": {
+                          "type": "Identifier",
+                          "name": "f",
+                          "start": 431,
+                          "end": 432
+                        },
+                        "arguments": [],
+                        "optional": false,
+                        "start": 431,
+                        "end": 434
+                      },
+                      "start": 431,
+                      "end": 435
+                    }
+                  ],
+                  "start": 425,
+                  "end": 439
+                },
+                "expression": false,
+                "start": 414,
+                "end": 439
+              }
+            ],
+            "optional": false,
+            "start": 384,
+            "end": 440
+          },
+          "start": 384,
+          "end": 441
+        },
+        {
+          "type": "VariableDeclaration",
+          "kind": "using",
+          "declarations": [
+            {
+              "type": "VariableDeclarator",
+              "id": {
+                "type": "Identifier",
+                "name": "x",
+                "start": 451,
+                "end": 452
+              },
+              "init": {
+                "type": "Literal",
+                "value": null,
+                "raw": "null",
+                "start": 455,
+                "end": 459
+              },
+              "start": 451,
+              "end": 459
+            }
+          ],
+          "start": 445,
+          "end": 460
+        }
+      ],
+      "start": 346,
+      "end": 462
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 463
+}
