@@ -80,7 +80,7 @@ __ESTREE_TEST__:AST:
       "end": 99
     }
   ],
-  "sourceType": "module",
+  "sourceType": "script",
   "hashbang": null,
   "start": 58,
   "end": 100

@@ -118,7 +118,7 @@ __ESTREE_TEST__:AST:
       "end": 196
     }
   ],
-  "sourceType": "module",
+  "sourceType": "script",
   "hashbang": null,
   "start": 146,
   "end": 197
@@ -370,7 +370,7 @@ __ESTREE_TEST__:AST:
       "end": 148
     }
   ],
-  "sourceType": "module",
+  "sourceType": "script",
   "hashbang": null,
   "start": 39,
   "end": 149

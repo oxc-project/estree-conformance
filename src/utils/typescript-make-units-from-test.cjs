@@ -50,6 +50,7 @@ function createCompilerSettings(options) {
     allowUnreachableCode: valueToBoolean(options.get("allowunreachablecode"), true),
     allowUnusedLabels: valueToBoolean(options.get("allowunusedlabels"), true),
     noFallthroughCasesInSwitch: valueToBoolean(options.get("nofallthroughcasesinswitch"), false),
+    moduleDetection: splitValueOptions(options.get("moduledetection")), // "auto", "legacy", "force"
   };
 }
 
@@ -64,6 +65,37 @@ const EXTENSIONS = {
   ".cts": { typescript: true, jsx: false, module: false },
   ".tsx": { typescript: true, jsx: true, module: true },
 };
+
+/**
+ * Returns the effective moduleDetection mode based on settings.
+ * - If explicitly set to non-"auto", returns that value
+ * - For jsx/tsx files with react-jsx setting, returns "force"
+ * - Default: "legacy"
+ * @param {Object} settings - Compiler settings
+ * @param {string} filename - File name
+ * @returns {string}
+ */
+function getModuleDetectionMode(settings, filename) {
+  const mode = settings.moduleDetection[0] ?? "auto";
+  if (mode !== "auto") {
+    return mode;
+  }
+  const ext = path.extname(filename).toLowerCase();
+  if ((ext === ".jsx" || ext === ".tsx") && settings.jsx[0] === "react-jsx") {
+    return "force";
+  }
+  // NOTE: should check `package.json` "type" field, use `legacy` for now
+  return "legacy";
+}
+
+/**
+ * Check if file is a declaration file
+ * @param {string} name - File name
+ * @returns {boolean}
+ */
+function isDeclarationFile(name) {
+  return name.endsWith(".d.ts") || name.endsWith(".d.mts") || name.endsWith(".d.cts");
+}
 
 /**
  * Get source type from file path
@@ -177,11 +209,12 @@ function makeUnitsFromTest(filePath, code) {
   const settings = createCompilerSettings(currentFileOptions);
 
   // Update source types and filter out unsupported files
-  const isModule = testUnitData.length > 1;
   const validTestUnits = testUnitData.filter((unit) => {
     const sourceType = getSourceType(unit.name, settings);
     if (!sourceType) return false;
-    if (isModule) sourceType.module = true;
+    if (getModuleDetectionMode(settings, unit.name) === "force" && !isDeclarationFile(unit.name)) {
+      sourceType.module = true;
+    }
     unit.sourceType = sourceType;
     return true;
   });
