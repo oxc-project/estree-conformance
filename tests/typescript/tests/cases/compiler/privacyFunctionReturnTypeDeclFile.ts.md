@@ -43760,7 +43760,7 @@ __ESTREE_TEST__:AST:
       "end": 16598
     }
   ],
-  "sourceType": "module",
+  "sourceType": "script",
   "hashbang": null,
   "start": 0,
   "end": 16598

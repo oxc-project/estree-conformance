@@ -47,7 +47,7 @@ __ESTREE_TEST__:AST:
       "end": 34
     }
   ],
-  "sourceType": "module",
+  "sourceType": "script",
   "hashbang": null,
   "start": 0,
   "end": 34
@@ -199,7 +199,7 @@ __ESTREE_TEST__:AST:
       "end": 55
     }
   ],
-  "sourceType": "module",
+  "sourceType": "script",
   "hashbang": null,
   "start": 0,
   "end": 55
@@ -387,7 +387,7 @@ __ESTREE_TEST__:AST:
       "end": 57
     }
   ],
-  "sourceType": "module",
+  "sourceType": "script",
   "hashbang": null,
   "start": 0,
   "end": 57
@@ -588,7 +588,7 @@ __ESTREE_TEST__:AST:
       "end": 60
     }
   ],
-  "sourceType": "module",
+  "sourceType": "script",
   "hashbang": null,
   "start": 0,
   "end": 60
@@ -840,7 +840,7 @@ __ESTREE_TEST__:AST:
       "end": 91
     }
   ],
-  "sourceType": "module",
+  "sourceType": "script",
   "hashbang": null,
   "start": 0,
   "end": 91
@@ -1117,7 +1117,7 @@ __ESTREE_TEST__:AST:
       "end": 57
     }
   ],
-  "sourceType": "module",
+  "sourceType": "script",
   "hashbang": null,
   "start": 0,
   "end": 57
@@ -1286,7 +1286,7 @@ __ESTREE_TEST__:AST:
       "end": 48
     }
   ],
-  "sourceType": "module",
+  "sourceType": "script",
   "hashbang": null,
   "start": 0,
   "end": 48

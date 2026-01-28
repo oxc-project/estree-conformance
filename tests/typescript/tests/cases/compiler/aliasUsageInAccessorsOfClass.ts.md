@@ -709,7 +709,7 @@ __ESTREE_TEST__:AST:
       "end": 316
     }
   ],
-  "sourceType": "module",
+  "sourceType": "script",
   "hashbang": null,
   "start": 0,
   "end": 316

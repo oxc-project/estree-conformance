@@ -3,7 +3,7 @@ __ESTREE_TEST__:AST:
 {
   "type": "Program",
   "body": [],
-  "sourceType": "module",
+  "sourceType": "script",
   "hashbang": null,
   "start": 7,
   "end": 7
@@ -72,7 +72,7 @@ __ESTREE_TEST__:AST:
       "end": 37
     }
   ],
-  "sourceType": "module",
+  "sourceType": "script",
   "hashbang": null,
   "start": 0,
   "end": 37
@@ -238,7 +238,7 @@ __ESTREE_TEST__:AST:
       "end": 175
     }
   ],
-  "sourceType": "module",
+  "sourceType": "script",
   "hashbang": null,
   "start": 37,
   "end": 175
