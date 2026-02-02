@@ -14,25 +14,25 @@ __ESTREE_TEST__:AST:
             "name": "React",
             "optional": false,
             "typeAnnotation": null,
-            "start": 12,
-            "end": 17
+            "start": 54,
+            "end": 59
           },
-          "start": 7,
-          "end": 17
+          "start": 49,
+          "end": 59
         }
       ],
       "source": {
         "type": "Literal",
         "value": "react",
         "raw": "\"react\"",
-        "start": 23,
-        "end": 30
+        "start": 65,
+        "end": 72
       },
       "phase": null,
       "attributes": [],
       "importKind": "value",
-      "start": 0,
-      "end": 31
+      "start": 42,
+      "end": 73
     },
     {
       "type": "TSInterfaceDeclaration",
@@ -42,8 +42,8 @@ __ESTREE_TEST__:AST:
         "name": "Props",
         "optional": false,
         "typeAnnotation": null,
-        "start": 43,
-        "end": 48
+        "start": 85,
+        "end": 90
       },
       "typeParameters": null,
       "extends": [],
@@ -61,8 +61,8 @@ __ESTREE_TEST__:AST:
               "name": "x",
               "optional": false,
               "typeAnnotation": null,
-              "start": 55,
-              "end": 56
+              "start": 97,
+              "end": 98
             },
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
@@ -75,11 +75,11 @@ __ESTREE_TEST__:AST:
                       "type": "Literal",
                       "value": "a",
                       "raw": "\"a\"",
-                      "start": 59,
-                      "end": 62
+                      "start": 101,
+                      "end": 104
                     },
-                    "start": 59,
-                    "end": 62
+                    "start": 101,
+                    "end": 104
                   },
                   {
                     "type": "TSLiteralType",
@@ -87,31 +87,31 @@ __ESTREE_TEST__:AST:
                       "type": "Literal",
                       "value": "b",
                       "raw": "\"b\"",
-                      "start": 65,
-                      "end": 68
+                      "start": 107,
+                      "end": 110
                     },
-                    "start": 65,
-                    "end": 68
+                    "start": 107,
+                    "end": 110
                   }
                 ],
-                "start": 59,
-                "end": 68
+                "start": 101,
+                "end": 110
               },
-              "start": 57,
-              "end": 68
+              "start": 99,
+              "end": 110
             },
             "accessibility": null,
             "static": false,
-            "start": 55,
-            "end": 69
+            "start": 97,
+            "end": 111
           }
         ],
-        "start": 49,
-        "end": 71
+        "start": 91,
+        "end": 113
       },
       "declare": false,
-      "start": 33,
-      "end": 71
+      "start": 75,
+      "end": 113
     },
     {
       "type": "ClassDeclaration",
@@ -122,8 +122,8 @@ __ESTREE_TEST__:AST:
         "name": "MyComponent",
         "optional": false,
         "typeAnnotation": null,
-        "start": 78,
-        "end": 89
+        "start": 120,
+        "end": 131
       },
       "typeParameters": {
         "type": "TSTypeParameterDeclaration",
@@ -136,8 +136,8 @@ __ESTREE_TEST__:AST:
               "name": "P",
               "optional": false,
               "typeAnnotation": null,
-              "start": 90,
-              "end": 91
+              "start": 132,
+              "end": 133
             },
             "constraint": {
               "type": "TSTypeReference",
@@ -147,12 +147,12 @@ __ESTREE_TEST__:AST:
                 "name": "Props",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 100,
-                "end": 105
+                "start": 142,
+                "end": 147
               },
               "typeArguments": null,
-              "start": 100,
-              "end": 105
+              "start": 142,
+              "end": 147
             },
             "default": {
               "type": "TSTypeReference",
@@ -162,22 +162,22 @@ __ESTREE_TEST__:AST:
                 "name": "Props",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 108,
-                "end": 113
+                "start": 150,
+                "end": 155
               },
               "typeArguments": null,
-              "start": 108,
-              "end": 113
+              "start": 150,
+              "end": 155
             },
             "in": false,
             "out": false,
             "const": false,
-            "start": 90,
-            "end": 113
+            "start": 132,
+            "end": 155
           }
         ],
-        "start": 89,
-        "end": 114
+        "start": 131,
+        "end": 156
       },
       "superClass": {
         "type": "MemberExpression",
@@ -187,8 +187,8 @@ __ESTREE_TEST__:AST:
           "name": "React",
           "optional": false,
           "typeAnnotation": null,
-          "start": 123,
-          "end": 128
+          "start": 165,
+          "end": 170
         },
         "property": {
           "type": "Identifier",
@@ -196,13 +196,13 @@ __ESTREE_TEST__:AST:
           "name": "Component",
           "optional": false,
           "typeAnnotation": null,
-          "start": 129,
-          "end": 138
+          "start": 171,
+          "end": 180
         },
         "optional": false,
         "computed": false,
-        "start": 123,
-        "end": 138
+        "start": 165,
+        "end": 180
       },
       "superTypeArguments": {
         "type": "TSTypeParameterInstantiation",
@@ -215,34 +215,34 @@ __ESTREE_TEST__:AST:
               "name": "P",
               "optional": false,
               "typeAnnotation": null,
-              "start": 139,
-              "end": 140
+              "start": 181,
+              "end": 182
             },
             "typeArguments": null,
-            "start": 139,
-            "end": 140
+            "start": 181,
+            "end": 182
           },
           {
             "type": "TSTypeLiteral",
             "members": [],
-            "start": 142,
-            "end": 144
+            "start": 184,
+            "end": 186
           }
         ],
-        "start": 138,
-        "end": 145
+        "start": 180,
+        "end": 187
       },
       "implements": [],
       "body": {
         "type": "ClassBody",
         "body": [],
-        "start": 146,
-        "end": 148
+        "start": 188,
+        "end": 190
       },
       "abstract": false,
       "declare": false,
-      "start": 72,
-      "end": 148
+      "start": 114,
+      "end": 190
     },
     {
       "type": "VariableDeclaration",
@@ -256,8 +256,8 @@ __ESTREE_TEST__:AST:
             "name": "m",
             "optional": false,
             "typeAnnotation": null,
-            "start": 155,
-            "end": 156
+            "start": 197,
+            "end": 198
           },
           "init": {
             "type": "JSXElement",
@@ -266,8 +266,8 @@ __ESTREE_TEST__:AST:
               "name": {
                 "type": "JSXIdentifier",
                 "name": "MyComponent",
-                "start": 160,
-                "end": 171
+                "start": 202,
+                "end": 213
               },
               "typeArguments": null,
               "attributes": [
@@ -276,43 +276,43 @@ __ESTREE_TEST__:AST:
                   "name": {
                     "type": "JSXIdentifier",
                     "name": "x",
-                    "start": 172,
-                    "end": 173
+                    "start": 214,
+                    "end": 215
                   },
                   "value": {
                     "type": "Literal",
                     "value": "a",
                     "raw": "\"a\"",
-                    "start": 174,
-                    "end": 177
+                    "start": 216,
+                    "end": 219
                   },
-                  "start": 172,
-                  "end": 177
+                  "start": 214,
+                  "end": 219
                 }
               ],
               "selfClosing": true,
-              "start": 159,
-              "end": 179
+              "start": 201,
+              "end": 221
             },
             "children": [],
             "closingElement": null,
-            "start": 159,
-            "end": 179
+            "start": 201,
+            "end": 221
           },
           "definite": false,
-          "start": 155,
-          "end": 179
+          "start": 197,
+          "end": 221
         }
       ],
       "declare": false,
-      "start": 149,
-      "end": 179
+      "start": 191,
+      "end": 221
     }
   ],
   "sourceType": "module",
   "hashbang": null,
-  "start": 0,
-  "end": 179
+  "start": 42,
+  "end": 221
 }
 ```
 __ESTREE_TEST__:TOKENS:
@@ -321,296 +321,296 @@ __ESTREE_TEST__:TOKENS:
   {
     "type": "Keyword",
     "value": "import",
-    "start": 0,
-    "end": 6
-  },
-  {
-    "type": "Punctuator",
-    "value": "*",
-    "start": 7,
-    "end": 8
-  },
-  {
-    "type": "Identifier",
-    "value": "as",
-    "start": 9,
-    "end": 11
-  },
-  {
-    "type": "Identifier",
-    "value": "React",
-    "start": 12,
-    "end": 17
-  },
-  {
-    "type": "Identifier",
-    "value": "from",
-    "start": 18,
-    "end": 22
-  },
-  {
-    "type": "String",
-    "value": "\"react\"",
-    "start": 23,
-    "end": 30
-  },
-  {
-    "type": "Punctuator",
-    "value": ";",
-    "start": 30,
-    "end": 31
-  },
-  {
-    "type": "Keyword",
-    "value": "interface",
-    "start": 33,
-    "end": 42
-  },
-  {
-    "type": "Identifier",
-    "value": "Props",
-    "start": 43,
+    "start": 42,
     "end": 48
   },
   {
     "type": "Punctuator",
-    "value": "{",
+    "value": "*",
     "start": 49,
     "end": 50
   },
   {
     "type": "Identifier",
-    "value": "x",
-    "start": 55,
-    "end": 56
-  },
-  {
-    "type": "Punctuator",
-    "value": "?",
-    "start": 56,
-    "end": 57
-  },
-  {
-    "type": "Punctuator",
-    "value": ":",
-    "start": 57,
-    "end": 58
-  },
-  {
-    "type": "String",
-    "value": "\"a\"",
-    "start": 59,
-    "end": 62
-  },
-  {
-    "type": "Punctuator",
-    "value": "|",
-    "start": 63,
-    "end": 64
-  },
-  {
-    "type": "String",
-    "value": "\"b\"",
-    "start": 65,
-    "end": 68
-  },
-  {
-    "type": "Punctuator",
-    "value": ";",
-    "start": 68,
-    "end": 69
-  },
-  {
-    "type": "Punctuator",
-    "value": "}",
-    "start": 70,
-    "end": 71
-  },
-  {
-    "type": "Keyword",
-    "value": "class",
-    "start": 72,
-    "end": 77
-  },
-  {
-    "type": "Identifier",
-    "value": "MyComponent",
-    "start": 78,
-    "end": 89
-  },
-  {
-    "type": "Punctuator",
-    "value": "<",
-    "start": 89,
-    "end": 90
-  },
-  {
-    "type": "Identifier",
-    "value": "P",
-    "start": 90,
-    "end": 91
-  },
-  {
-    "type": "Keyword",
-    "value": "extends",
-    "start": 92,
-    "end": 99
-  },
-  {
-    "type": "Identifier",
-    "value": "Props",
-    "start": 100,
-    "end": 105
-  },
-  {
-    "type": "Punctuator",
-    "value": "=",
-    "start": 106,
-    "end": 107
-  },
-  {
-    "type": "Identifier",
-    "value": "Props",
-    "start": 108,
-    "end": 113
-  },
-  {
-    "type": "Punctuator",
-    "value": ">",
-    "start": 113,
-    "end": 114
-  },
-  {
-    "type": "Keyword",
-    "value": "extends",
-    "start": 115,
-    "end": 122
+    "value": "as",
+    "start": 51,
+    "end": 53
   },
   {
     "type": "Identifier",
     "value": "React",
-    "start": 123,
-    "end": 128
-  },
-  {
-    "type": "Punctuator",
-    "value": ".",
-    "start": 128,
-    "end": 129
+    "start": 54,
+    "end": 59
   },
   {
     "type": "Identifier",
-    "value": "Component",
-    "start": 129,
-    "end": 138
+    "value": "from",
+    "start": 60,
+    "end": 64
+  },
+  {
+    "type": "String",
+    "value": "\"react\"",
+    "start": 65,
+    "end": 72
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 72,
+    "end": 73
+  },
+  {
+    "type": "Keyword",
+    "value": "interface",
+    "start": 75,
+    "end": 84
+  },
+  {
+    "type": "Identifier",
+    "value": "Props",
+    "start": 85,
+    "end": 90
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 91,
+    "end": 92
+  },
+  {
+    "type": "Identifier",
+    "value": "x",
+    "start": 97,
+    "end": 98
+  },
+  {
+    "type": "Punctuator",
+    "value": "?",
+    "start": 98,
+    "end": 99
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 99,
+    "end": 100
+  },
+  {
+    "type": "String",
+    "value": "\"a\"",
+    "start": 101,
+    "end": 104
+  },
+  {
+    "type": "Punctuator",
+    "value": "|",
+    "start": 105,
+    "end": 106
+  },
+  {
+    "type": "String",
+    "value": "\"b\"",
+    "start": 107,
+    "end": 110
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 110,
+    "end": 111
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 112,
+    "end": 113
+  },
+  {
+    "type": "Keyword",
+    "value": "class",
+    "start": 114,
+    "end": 119
+  },
+  {
+    "type": "Identifier",
+    "value": "MyComponent",
+    "start": 120,
+    "end": 131
   },
   {
     "type": "Punctuator",
     "value": "<",
-    "start": 138,
-    "end": 139
+    "start": 131,
+    "end": 132
   },
   {
     "type": "Identifier",
     "value": "P",
-    "start": 139,
-    "end": 140
+    "start": 132,
+    "end": 133
   },
   {
-    "type": "Punctuator",
-    "value": ",",
-    "start": 140,
+    "type": "Keyword",
+    "value": "extends",
+    "start": 134,
     "end": 141
   },
   {
-    "type": "Punctuator",
-    "value": "{",
+    "type": "Identifier",
+    "value": "Props",
     "start": 142,
-    "end": 143
-  },
-  {
-    "type": "Punctuator",
-    "value": "}",
-    "start": 143,
-    "end": 144
-  },
-  {
-    "type": "Punctuator",
-    "value": ">",
-    "start": 144,
-    "end": 145
-  },
-  {
-    "type": "Punctuator",
-    "value": "{",
-    "start": 146,
     "end": 147
   },
   {
     "type": "Punctuator",
-    "value": "}",
-    "start": 147,
-    "end": 148
-  },
-  {
-    "type": "Keyword",
-    "value": "const",
-    "start": 149,
-    "end": 154
+    "value": "=",
+    "start": 148,
+    "end": 149
   },
   {
     "type": "Identifier",
-    "value": "m",
-    "start": 155,
-    "end": 156
-  },
-  {
-    "type": "Punctuator",
-    "value": "=",
-    "start": 157,
-    "end": 158
-  },
-  {
-    "type": "Punctuator",
-    "value": "<",
-    "start": 159,
-    "end": 160
-  },
-  {
-    "type": "JSXIdentifier",
-    "value": "MyComponent",
-    "start": 160,
-    "end": 171
-  },
-  {
-    "type": "JSXIdentifier",
-    "value": "x",
-    "start": 172,
-    "end": 173
-  },
-  {
-    "type": "Punctuator",
-    "value": "=",
-    "start": 173,
-    "end": 174
-  },
-  {
-    "type": "JSXText",
-    "value": "\"a\"",
-    "start": 174,
-    "end": 177
-  },
-  {
-    "type": "Punctuator",
-    "value": "/",
-    "start": 177,
-    "end": 178
+    "value": "Props",
+    "start": 150,
+    "end": 155
   },
   {
     "type": "Punctuator",
     "value": ">",
-    "start": 178,
-    "end": 179
+    "start": 155,
+    "end": 156
+  },
+  {
+    "type": "Keyword",
+    "value": "extends",
+    "start": 157,
+    "end": 164
+  },
+  {
+    "type": "Identifier",
+    "value": "React",
+    "start": 165,
+    "end": 170
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 170,
+    "end": 171
+  },
+  {
+    "type": "Identifier",
+    "value": "Component",
+    "start": 171,
+    "end": 180
+  },
+  {
+    "type": "Punctuator",
+    "value": "<",
+    "start": 180,
+    "end": 181
+  },
+  {
+    "type": "Identifier",
+    "value": "P",
+    "start": 181,
+    "end": 182
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 182,
+    "end": 183
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 184,
+    "end": 185
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 185,
+    "end": 186
+  },
+  {
+    "type": "Punctuator",
+    "value": ">",
+    "start": 186,
+    "end": 187
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 188,
+    "end": 189
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 189,
+    "end": 190
+  },
+  {
+    "type": "Keyword",
+    "value": "const",
+    "start": 191,
+    "end": 196
+  },
+  {
+    "type": "Identifier",
+    "value": "m",
+    "start": 197,
+    "end": 198
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 199,
+    "end": 200
+  },
+  {
+    "type": "Punctuator",
+    "value": "<",
+    "start": 201,
+    "end": 202
+  },
+  {
+    "type": "JSXIdentifier",
+    "value": "MyComponent",
+    "start": 202,
+    "end": 213
+  },
+  {
+    "type": "JSXIdentifier",
+    "value": "x",
+    "start": 214,
+    "end": 215
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 215,
+    "end": 216
+  },
+  {
+    "type": "JSXText",
+    "value": "\"a\"",
+    "start": 216,
+    "end": 219
+  },
+  {
+    "type": "Punctuator",
+    "value": "/",
+    "start": 219,
+    "end": 220
+  },
+  {
+    "type": "Punctuator",
+    "value": ">",
+    "start": 220,
+    "end": 221
   }
 ]
 ```

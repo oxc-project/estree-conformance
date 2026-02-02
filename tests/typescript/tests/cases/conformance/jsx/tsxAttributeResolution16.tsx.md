@@ -11,8 +11,8 @@ __ESTREE_TEST__:AST:
         "name": "React",
         "optional": false,
         "typeAnnotation": null,
-        "start": 7,
-        "end": 12
+        "start": 50,
+        "end": 55
       },
       "moduleReference": {
         "type": "TSExternalModuleReference",
@@ -20,15 +20,15 @@ __ESTREE_TEST__:AST:
           "type": "Literal",
           "value": "react",
           "raw": "'react'",
-          "start": 23,
-          "end": 30
+          "start": 66,
+          "end": 73
         },
-        "start": 15,
-        "end": 31
+        "start": 58,
+        "end": 74
       },
       "importKind": "value",
-      "start": 0,
-      "end": 32
+      "start": 43,
+      "end": 75
     },
     {
       "type": "TSInterfaceDeclaration",
@@ -38,8 +38,8 @@ __ESTREE_TEST__:AST:
         "name": "Address",
         "optional": false,
         "typeAnnotation": null,
-        "start": 44,
-        "end": 51
+        "start": 87,
+        "end": 94
       },
       "typeParameters": null,
       "extends": [],
@@ -57,23 +57,23 @@ __ESTREE_TEST__:AST:
               "name": "street",
               "optional": false,
               "typeAnnotation": null,
-              "start": 56,
-              "end": 62
+              "start": 99,
+              "end": 105
             },
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "typeAnnotation": {
                 "type": "TSStringKeyword",
-                "start": 64,
-                "end": 70
+                "start": 107,
+                "end": 113
               },
-              "start": 62,
-              "end": 70
+              "start": 105,
+              "end": 113
             },
             "accessibility": null,
             "static": false,
-            "start": 56,
-            "end": 71
+            "start": 99,
+            "end": 114
           },
           {
             "type": "TSPropertySignature",
@@ -86,31 +86,31 @@ __ESTREE_TEST__:AST:
               "name": "country",
               "optional": false,
               "typeAnnotation": null,
-              "start": 74,
-              "end": 81
+              "start": 117,
+              "end": 124
             },
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "typeAnnotation": {
                 "type": "TSStringKeyword",
-                "start": 83,
-                "end": 89
+                "start": 126,
+                "end": 132
               },
-              "start": 81,
-              "end": 89
+              "start": 124,
+              "end": 132
             },
             "accessibility": null,
             "static": false,
-            "start": 74,
-            "end": 90
+            "start": 117,
+            "end": 133
           }
         ],
-        "start": 52,
-        "end": 92
+        "start": 95,
+        "end": 135
       },
       "declare": false,
-      "start": 34,
-      "end": 92
+      "start": 77,
+      "end": 135
     },
     {
       "type": "TSInterfaceDeclaration",
@@ -120,8 +120,8 @@ __ESTREE_TEST__:AST:
         "name": "CanadianAddress",
         "optional": false,
         "typeAnnotation": null,
-        "start": 104,
-        "end": 119
+        "start": 147,
+        "end": 162
       },
       "typeParameters": null,
       "extends": [
@@ -133,12 +133,12 @@ __ESTREE_TEST__:AST:
             "name": "Address",
             "optional": false,
             "typeAnnotation": null,
-            "start": 128,
-            "end": 135
+            "start": 171,
+            "end": 178
           },
           "typeArguments": null,
-          "start": 128,
-          "end": 135
+          "start": 171,
+          "end": 178
         }
       ],
       "body": {
@@ -155,31 +155,31 @@ __ESTREE_TEST__:AST:
               "name": "postalCode",
               "optional": false,
               "typeAnnotation": null,
-              "start": 142,
-              "end": 152
+              "start": 185,
+              "end": 195
             },
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "typeAnnotation": {
                 "type": "TSStringKeyword",
-                "start": 154,
-                "end": 160
+                "start": 197,
+                "end": 203
               },
-              "start": 152,
-              "end": 160
+              "start": 195,
+              "end": 203
             },
             "accessibility": null,
             "static": false,
-            "start": 142,
-            "end": 161
+            "start": 185,
+            "end": 204
           }
         ],
-        "start": 136,
-        "end": 163
+        "start": 179,
+        "end": 206
       },
       "declare": false,
-      "start": 94,
-      "end": 163
+      "start": 137,
+      "end": 206
     },
     {
       "type": "TSInterfaceDeclaration",
@@ -189,8 +189,8 @@ __ESTREE_TEST__:AST:
         "name": "AmericanAddress",
         "optional": false,
         "typeAnnotation": null,
-        "start": 175,
-        "end": 190
+        "start": 218,
+        "end": 233
       },
       "typeParameters": null,
       "extends": [
@@ -202,12 +202,12 @@ __ESTREE_TEST__:AST:
             "name": "Address",
             "optional": false,
             "typeAnnotation": null,
-            "start": 199,
-            "end": 206
+            "start": 242,
+            "end": 249
           },
           "typeArguments": null,
-          "start": 199,
-          "end": 206
+          "start": 242,
+          "end": 249
         }
       ],
       "body": {
@@ -224,31 +224,31 @@ __ESTREE_TEST__:AST:
               "name": "zipCode",
               "optional": false,
               "typeAnnotation": null,
-              "start": 213,
-              "end": 220
+              "start": 256,
+              "end": 263
             },
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "typeAnnotation": {
                 "type": "TSStringKeyword",
-                "start": 222,
-                "end": 228
+                "start": 265,
+                "end": 271
               },
-              "start": 220,
-              "end": 228
+              "start": 263,
+              "end": 271
             },
             "accessibility": null,
             "static": false,
-            "start": 213,
-            "end": 229
+            "start": 256,
+            "end": 272
           }
         ],
-        "start": 207,
-        "end": 231
+        "start": 250,
+        "end": 274
       },
       "declare": false,
-      "start": 165,
-      "end": 231
+      "start": 208,
+      "end": 274
     },
     {
       "type": "TSTypeAliasDeclaration",
@@ -258,8 +258,8 @@ __ESTREE_TEST__:AST:
         "name": "Properties",
         "optional": false,
         "typeAnnotation": null,
-        "start": 238,
-        "end": 248
+        "start": 281,
+        "end": 291
       },
       "typeParameters": null,
       "typeAnnotation": {
@@ -273,12 +273,12 @@ __ESTREE_TEST__:AST:
               "name": "CanadianAddress",
               "optional": false,
               "typeAnnotation": null,
-              "start": 251,
-              "end": 266
+              "start": 294,
+              "end": 309
             },
             "typeArguments": null,
-            "start": 251,
-            "end": 266
+            "start": 294,
+            "end": 309
           },
           {
             "type": "TSTypeReference",
@@ -288,20 +288,20 @@ __ESTREE_TEST__:AST:
               "name": "AmericanAddress",
               "optional": false,
               "typeAnnotation": null,
-              "start": 269,
-              "end": 284
+              "start": 312,
+              "end": 327
             },
             "typeArguments": null,
-            "start": 269,
-            "end": 284
+            "start": 312,
+            "end": 327
           }
         ],
-        "start": 251,
-        "end": 284
+        "start": 294,
+        "end": 327
       },
       "declare": false,
-      "start": 233,
-      "end": 285
+      "start": 276,
+      "end": 328
     },
     {
       "type": "ExportNamedDeclaration",
@@ -314,8 +314,8 @@ __ESTREE_TEST__:AST:
           "name": "AddressComp",
           "optional": false,
           "typeAnnotation": null,
-          "start": 300,
-          "end": 311
+          "start": 343,
+          "end": 354
         },
         "typeParameters": null,
         "superClass": {
@@ -326,8 +326,8 @@ __ESTREE_TEST__:AST:
             "name": "React",
             "optional": false,
             "typeAnnotation": null,
-            "start": 320,
-            "end": 325
+            "start": 363,
+            "end": 368
           },
           "property": {
             "type": "Identifier",
@@ -335,13 +335,13 @@ __ESTREE_TEST__:AST:
             "name": "Component",
             "optional": false,
             "typeAnnotation": null,
-            "start": 326,
-            "end": 335
+            "start": 369,
+            "end": 378
           },
           "optional": false,
           "computed": false,
-          "start": 320,
-          "end": 335
+          "start": 363,
+          "end": 378
         },
         "superTypeArguments": {
           "type": "TSTypeParameterInstantiation",
@@ -354,21 +354,21 @@ __ESTREE_TEST__:AST:
                 "name": "Properties",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 336,
-                "end": 346
+                "start": 379,
+                "end": 389
               },
               "typeArguments": null,
-              "start": 336,
-              "end": 346
+              "start": 379,
+              "end": 389
             },
             {
               "type": "TSVoidKeyword",
-              "start": 348,
-              "end": 352
+              "start": 391,
+              "end": 395
             }
           ],
-          "start": 335,
-          "end": 353
+          "start": 378,
+          "end": 396
         },
         "implements": [],
         "body": {
@@ -383,8 +383,8 @@ __ESTREE_TEST__:AST:
                 "name": "render",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 365,
-                "end": 371
+                "start": 408,
+                "end": 414
               },
               "value": {
                 "type": "FunctionExpression",
@@ -404,19 +404,19 @@ __ESTREE_TEST__:AST:
                         "type": "Literal",
                         "value": null,
                         "raw": "null",
-                        "start": 387,
-                        "end": 391
+                        "start": 430,
+                        "end": 434
                       },
-                      "start": 380,
-                      "end": 392
+                      "start": 423,
+                      "end": 435
                     }
                   ],
-                  "start": 374,
-                  "end": 396
+                  "start": 417,
+                  "end": 439
                 },
                 "expression": false,
-                "start": 371,
-                "end": 396
+                "start": 414,
+                "end": 439
               },
               "kind": "method",
               "computed": false,
@@ -424,24 +424,24 @@ __ESTREE_TEST__:AST:
               "override": false,
               "optional": false,
               "accessibility": "public",
-              "start": 358,
-              "end": 396
+              "start": 401,
+              "end": 439
             }
           ],
-          "start": 354,
-          "end": 398
+          "start": 397,
+          "end": 441
         },
         "abstract": false,
         "declare": false,
-        "start": 294,
-        "end": 398
+        "start": 337,
+        "end": 441
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
       "attributes": [],
-      "start": 287,
-      "end": 398
+      "start": 330,
+      "end": 441
     },
     {
       "type": "VariableDeclaration",
@@ -455,8 +455,8 @@ __ESTREE_TEST__:AST:
             "name": "a",
             "optional": false,
             "typeAnnotation": null,
-            "start": 404,
-            "end": 405
+            "start": 447,
+            "end": 448
           },
           "init": {
             "type": "JSXElement",
@@ -465,8 +465,8 @@ __ESTREE_TEST__:AST:
               "name": {
                 "type": "JSXIdentifier",
                 "name": "AddressComp",
-                "start": 409,
-                "end": 420
+                "start": 452,
+                "end": 463
               },
               "typeArguments": null,
               "attributes": [
@@ -475,79 +475,79 @@ __ESTREE_TEST__:AST:
                   "name": {
                     "type": "JSXIdentifier",
                     "name": "postalCode",
-                    "start": 421,
-                    "end": 431
+                    "start": 464,
+                    "end": 474
                   },
                   "value": {
                     "type": "Literal",
                     "value": "T1B 0L3",
                     "raw": "'T1B 0L3'",
-                    "start": 432,
-                    "end": 441
+                    "start": 475,
+                    "end": 484
                   },
-                  "start": 421,
-                  "end": 441
+                  "start": 464,
+                  "end": 484
                 },
                 {
                   "type": "JSXAttribute",
                   "name": {
                     "type": "JSXIdentifier",
                     "name": "street",
-                    "start": 442,
-                    "end": 448
+                    "start": 485,
+                    "end": 491
                   },
                   "value": {
                     "type": "Literal",
                     "value": "vancouver",
                     "raw": "\"vancouver\"",
-                    "start": 449,
-                    "end": 460
+                    "start": 492,
+                    "end": 503
                   },
-                  "start": 442,
-                  "end": 460
+                  "start": 485,
+                  "end": 503
                 },
                 {
                   "type": "JSXAttribute",
                   "name": {
                     "type": "JSXIdentifier",
                     "name": "country",
-                    "start": 461,
-                    "end": 468
+                    "start": 504,
+                    "end": 511
                   },
                   "value": {
                     "type": "Literal",
                     "value": "CA",
                     "raw": "\"CA\"",
-                    "start": 469,
-                    "end": 473
+                    "start": 512,
+                    "end": 516
                   },
-                  "start": 461,
-                  "end": 473
+                  "start": 504,
+                  "end": 516
                 }
               ],
               "selfClosing": true,
-              "start": 408,
-              "end": 476
+              "start": 451,
+              "end": 519
             },
             "children": [],
             "closingElement": null,
-            "start": 408,
-            "end": 476
+            "start": 451,
+            "end": 519
           },
           "definite": false,
-          "start": 404,
-          "end": 476
+          "start": 447,
+          "end": 519
         }
       ],
       "declare": false,
-      "start": 400,
-      "end": 476
+      "start": 443,
+      "end": 519
     }
   ],
   "sourceType": "module",
   "hashbang": null,
-  "start": 0,
-  "end": 476
+  "start": 43,
+  "end": 519
 }
 ```
 __ESTREE_TEST__:TOKENS:
@@ -556,518 +556,518 @@ __ESTREE_TEST__:TOKENS:
   {
     "type": "Keyword",
     "value": "import",
-    "start": 0,
-    "end": 6
+    "start": 43,
+    "end": 49
   },
   {
     "type": "Identifier",
     "value": "React",
-    "start": 7,
-    "end": 12
+    "start": 50,
+    "end": 55
   },
   {
     "type": "Punctuator",
     "value": "=",
-    "start": 13,
-    "end": 14
+    "start": 56,
+    "end": 57
   },
   {
     "type": "Identifier",
     "value": "require",
-    "start": 15,
-    "end": 22
+    "start": 58,
+    "end": 65
   },
   {
     "type": "Punctuator",
     "value": "(",
-    "start": 22,
-    "end": 23
+    "start": 65,
+    "end": 66
   },
   {
     "type": "String",
     "value": "'react'",
-    "start": 23,
-    "end": 30
+    "start": 66,
+    "end": 73
   },
   {
     "type": "Punctuator",
     "value": ")",
-    "start": 30,
-    "end": 31
+    "start": 73,
+    "end": 74
   },
   {
     "type": "Punctuator",
     "value": ";",
-    "start": 31,
-    "end": 32
+    "start": 74,
+    "end": 75
   },
   {
     "type": "Keyword",
     "value": "interface",
-    "start": 34,
-    "end": 43
+    "start": 77,
+    "end": 86
   },
   {
     "type": "Identifier",
     "value": "Address",
-    "start": 44,
-    "end": 51
+    "start": 87,
+    "end": 94
   },
   {
     "type": "Punctuator",
     "value": "{",
-    "start": 52,
-    "end": 53
+    "start": 95,
+    "end": 96
   },
   {
     "type": "Identifier",
     "value": "street",
-    "start": 56,
-    "end": 62
+    "start": 99,
+    "end": 105
   },
   {
     "type": "Punctuator",
     "value": ":",
-    "start": 62,
-    "end": 63
+    "start": 105,
+    "end": 106
   },
   {
     "type": "Identifier",
     "value": "string",
-    "start": 64,
-    "end": 70
+    "start": 107,
+    "end": 113
   },
   {
     "type": "Punctuator",
     "value": ";",
-    "start": 70,
-    "end": 71
+    "start": 113,
+    "end": 114
   },
   {
     "type": "Identifier",
     "value": "country",
-    "start": 74,
-    "end": 81
+    "start": 117,
+    "end": 124
   },
   {
     "type": "Punctuator",
     "value": ":",
-    "start": 81,
-    "end": 82
+    "start": 124,
+    "end": 125
   },
   {
     "type": "Identifier",
     "value": "string",
-    "start": 83,
-    "end": 89
+    "start": 126,
+    "end": 132
   },
   {
     "type": "Punctuator",
     "value": ";",
-    "start": 89,
-    "end": 90
+    "start": 132,
+    "end": 133
   },
   {
     "type": "Punctuator",
     "value": "}",
-    "start": 91,
-    "end": 92
+    "start": 134,
+    "end": 135
   },
   {
     "type": "Keyword",
     "value": "interface",
-    "start": 94,
-    "end": 103
+    "start": 137,
+    "end": 146
   },
   {
     "type": "Identifier",
     "value": "CanadianAddress",
-    "start": 104,
-    "end": 119
+    "start": 147,
+    "end": 162
   },
   {
     "type": "Keyword",
     "value": "extends",
-    "start": 120,
-    "end": 127
+    "start": 163,
+    "end": 170
   },
   {
     "type": "Identifier",
     "value": "Address",
-    "start": 128,
-    "end": 135
+    "start": 171,
+    "end": 178
   },
   {
     "type": "Punctuator",
     "value": "{",
-    "start": 136,
-    "end": 137
+    "start": 179,
+    "end": 180
   },
   {
     "type": "Identifier",
     "value": "postalCode",
-    "start": 142,
-    "end": 152
+    "start": 185,
+    "end": 195
   },
   {
     "type": "Punctuator",
     "value": ":",
-    "start": 152,
-    "end": 153
+    "start": 195,
+    "end": 196
   },
   {
     "type": "Identifier",
     "value": "string",
-    "start": 154,
-    "end": 160
+    "start": 197,
+    "end": 203
   },
   {
     "type": "Punctuator",
     "value": ";",
-    "start": 160,
-    "end": 161
+    "start": 203,
+    "end": 204
   },
   {
     "type": "Punctuator",
     "value": "}",
-    "start": 162,
-    "end": 163
+    "start": 205,
+    "end": 206
   },
   {
     "type": "Keyword",
     "value": "interface",
-    "start": 165,
-    "end": 174
+    "start": 208,
+    "end": 217
   },
   {
     "type": "Identifier",
     "value": "AmericanAddress",
-    "start": 175,
-    "end": 190
+    "start": 218,
+    "end": 233
   },
   {
     "type": "Keyword",
     "value": "extends",
-    "start": 191,
-    "end": 198
+    "start": 234,
+    "end": 241
   },
   {
     "type": "Identifier",
     "value": "Address",
-    "start": 199,
-    "end": 206
+    "start": 242,
+    "end": 249
   },
   {
     "type": "Punctuator",
     "value": "{",
-    "start": 207,
-    "end": 208
+    "start": 250,
+    "end": 251
   },
   {
     "type": "Identifier",
     "value": "zipCode",
-    "start": 213,
-    "end": 220
+    "start": 256,
+    "end": 263
   },
   {
     "type": "Punctuator",
     "value": ":",
-    "start": 220,
-    "end": 221
+    "start": 263,
+    "end": 264
   },
   {
     "type": "Identifier",
     "value": "string",
-    "start": 222,
-    "end": 228
+    "start": 265,
+    "end": 271
   },
   {
     "type": "Punctuator",
     "value": ";",
-    "start": 228,
-    "end": 229
+    "start": 271,
+    "end": 272
   },
   {
     "type": "Punctuator",
     "value": "}",
-    "start": 230,
-    "end": 231
+    "start": 273,
+    "end": 274
   },
   {
     "type": "Identifier",
     "value": "type",
-    "start": 233,
-    "end": 237
+    "start": 276,
+    "end": 280
   },
   {
     "type": "Identifier",
     "value": "Properties",
-    "start": 238,
-    "end": 248
+    "start": 281,
+    "end": 291
   },
   {
     "type": "Punctuator",
     "value": "=",
-    "start": 249,
-    "end": 250
+    "start": 292,
+    "end": 293
   },
   {
     "type": "Identifier",
     "value": "CanadianAddress",
-    "start": 251,
-    "end": 266
+    "start": 294,
+    "end": 309
   },
   {
     "type": "Punctuator",
     "value": "|",
-    "start": 267,
-    "end": 268
+    "start": 310,
+    "end": 311
   },
   {
     "type": "Identifier",
     "value": "AmericanAddress",
-    "start": 269,
-    "end": 284
+    "start": 312,
+    "end": 327
   },
   {
     "type": "Punctuator",
     "value": ";",
-    "start": 284,
-    "end": 285
+    "start": 327,
+    "end": 328
   },
   {
     "type": "Keyword",
     "value": "export",
-    "start": 287,
-    "end": 293
+    "start": 330,
+    "end": 336
   },
   {
     "type": "Keyword",
     "value": "class",
-    "start": 294,
-    "end": 299
+    "start": 337,
+    "end": 342
   },
   {
     "type": "Identifier",
     "value": "AddressComp",
-    "start": 300,
-    "end": 311
+    "start": 343,
+    "end": 354
   },
   {
     "type": "Keyword",
     "value": "extends",
-    "start": 312,
-    "end": 319
+    "start": 355,
+    "end": 362
   },
   {
     "type": "Identifier",
     "value": "React",
-    "start": 320,
-    "end": 325
+    "start": 363,
+    "end": 368
   },
   {
     "type": "Punctuator",
     "value": ".",
-    "start": 325,
-    "end": 326
+    "start": 368,
+    "end": 369
   },
   {
     "type": "Identifier",
     "value": "Component",
-    "start": 326,
-    "end": 335
+    "start": 369,
+    "end": 378
   },
   {
     "type": "Punctuator",
     "value": "<",
-    "start": 335,
-    "end": 336
+    "start": 378,
+    "end": 379
   },
   {
     "type": "Identifier",
     "value": "Properties",
-    "start": 336,
-    "end": 346
+    "start": 379,
+    "end": 389
   },
   {
     "type": "Punctuator",
     "value": ",",
-    "start": 346,
-    "end": 347
+    "start": 389,
+    "end": 390
   },
   {
     "type": "Keyword",
     "value": "void",
-    "start": 348,
-    "end": 352
+    "start": 391,
+    "end": 395
   },
   {
     "type": "Punctuator",
     "value": ">",
-    "start": 352,
-    "end": 353
-  },
-  {
-    "type": "Punctuator",
-    "value": "{",
-    "start": 354,
-    "end": 355
-  },
-  {
-    "type": "Keyword",
-    "value": "public",
-    "start": 358,
-    "end": 364
-  },
-  {
-    "type": "Identifier",
-    "value": "render",
-    "start": 365,
-    "end": 371
-  },
-  {
-    "type": "Punctuator",
-    "value": "(",
-    "start": 371,
-    "end": 372
-  },
-  {
-    "type": "Punctuator",
-    "value": ")",
-    "start": 372,
-    "end": 373
-  },
-  {
-    "type": "Punctuator",
-    "value": "{",
-    "start": 374,
-    "end": 375
-  },
-  {
-    "type": "Keyword",
-    "value": "return",
-    "start": 380,
-    "end": 386
-  },
-  {
-    "type": "Null",
-    "value": "null",
-    "start": 387,
-    "end": 391
-  },
-  {
-    "type": "Punctuator",
-    "value": ";",
-    "start": 391,
-    "end": 392
-  },
-  {
-    "type": "Punctuator",
-    "value": "}",
     "start": 395,
     "end": 396
   },
   {
     "type": "Punctuator",
-    "value": "}",
+    "value": "{",
     "start": 397,
     "end": 398
   },
   {
     "type": "Keyword",
+    "value": "public",
+    "start": 401,
+    "end": 407
+  },
+  {
+    "type": "Identifier",
+    "value": "render",
+    "start": 408,
+    "end": 414
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 414,
+    "end": 415
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 415,
+    "end": 416
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 417,
+    "end": 418
+  },
+  {
+    "type": "Keyword",
+    "value": "return",
+    "start": 423,
+    "end": 429
+  },
+  {
+    "type": "Null",
+    "value": "null",
+    "start": 430,
+    "end": 434
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 434,
+    "end": 435
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 438,
+    "end": 439
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 440,
+    "end": 441
+  },
+  {
+    "type": "Keyword",
     "value": "let",
-    "start": 400,
-    "end": 403
+    "start": 443,
+    "end": 446
   },
   {
     "type": "Identifier",
     "value": "a",
-    "start": 404,
-    "end": 405
-  },
-  {
-    "type": "Punctuator",
-    "value": "=",
-    "start": 406,
-    "end": 407
-  },
-  {
-    "type": "Punctuator",
-    "value": "<",
-    "start": 408,
-    "end": 409
-  },
-  {
-    "type": "JSXIdentifier",
-    "value": "AddressComp",
-    "start": 409,
-    "end": 420
-  },
-  {
-    "type": "JSXIdentifier",
-    "value": "postalCode",
-    "start": 421,
-    "end": 431
-  },
-  {
-    "type": "Punctuator",
-    "value": "=",
-    "start": 431,
-    "end": 432
-  },
-  {
-    "type": "JSXText",
-    "value": "'T1B 0L3'",
-    "start": 432,
-    "end": 441
-  },
-  {
-    "type": "JSXIdentifier",
-    "value": "street",
-    "start": 442,
+    "start": 447,
     "end": 448
   },
   {
     "type": "Punctuator",
     "value": "=",
-    "start": 448,
-    "end": 449
+    "start": 449,
+    "end": 450
   },
   {
-    "type": "JSXText",
-    "value": "\"vancouver\"",
-    "start": 449,
-    "end": 460
+    "type": "Punctuator",
+    "value": "<",
+    "start": 451,
+    "end": 452
   },
   {
     "type": "JSXIdentifier",
-    "value": "country",
-    "start": 461,
-    "end": 468
+    "value": "AddressComp",
+    "start": 452,
+    "end": 463
+  },
+  {
+    "type": "JSXIdentifier",
+    "value": "postalCode",
+    "start": 464,
+    "end": 474
   },
   {
     "type": "Punctuator",
     "value": "=",
-    "start": 468,
-    "end": 469
-  },
-  {
-    "type": "JSXText",
-    "value": "\"CA\"",
-    "start": 469,
-    "end": 473
-  },
-  {
-    "type": "Punctuator",
-    "value": "/",
     "start": 474,
     "end": 475
   },
   {
+    "type": "JSXText",
+    "value": "'T1B 0L3'",
+    "start": 475,
+    "end": 484
+  },
+  {
+    "type": "JSXIdentifier",
+    "value": "street",
+    "start": 485,
+    "end": 491
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 491,
+    "end": 492
+  },
+  {
+    "type": "JSXText",
+    "value": "\"vancouver\"",
+    "start": 492,
+    "end": 503
+  },
+  {
+    "type": "JSXIdentifier",
+    "value": "country",
+    "start": 504,
+    "end": 511
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 511,
+    "end": 512
+  },
+  {
+    "type": "JSXText",
+    "value": "\"CA\"",
+    "start": 512,
+    "end": 516
+  },
+  {
+    "type": "Punctuator",
+    "value": "/",
+    "start": 517,
+    "end": 518
+  },
+  {
     "type": "Punctuator",
     "value": ">",
-    "start": 475,
-    "end": 476
+    "start": 518,
+    "end": 519
   }
 ]
 ```

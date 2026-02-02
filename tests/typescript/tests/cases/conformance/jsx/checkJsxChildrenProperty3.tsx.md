@@ -11,8 +11,8 @@ __ESTREE_TEST__:AST:
         "name": "React",
         "optional": false,
         "typeAnnotation": null,
-        "start": 7,
-        "end": 12
+        "start": 50,
+        "end": 55
       },
       "moduleReference": {
         "type": "TSExternalModuleReference",
@@ -20,15 +20,15 @@ __ESTREE_TEST__:AST:
           "type": "Literal",
           "value": "react",
           "raw": "'react'",
-          "start": 23,
-          "end": 30
+          "start": 66,
+          "end": 73
         },
-        "start": 15,
-        "end": 31
+        "start": 58,
+        "end": 74
       },
       "importKind": "value",
-      "start": 0,
-      "end": 32
+      "start": 43,
+      "end": 75
     },
     {
       "type": "TSInterfaceDeclaration",
@@ -38,8 +38,8 @@ __ESTREE_TEST__:AST:
         "name": "IUser",
         "optional": false,
         "typeAnnotation": null,
-        "start": 44,
-        "end": 49
+        "start": 87,
+        "end": 92
       },
       "typeParameters": null,
       "extends": [],
@@ -57,31 +57,31 @@ __ESTREE_TEST__:AST:
               "name": "Name",
               "optional": false,
               "typeAnnotation": null,
-              "start": 56,
-              "end": 60
+              "start": 99,
+              "end": 103
             },
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "typeAnnotation": {
                 "type": "TSStringKeyword",
-                "start": 62,
-                "end": 68
+                "start": 105,
+                "end": 111
               },
-              "start": 60,
-              "end": 68
+              "start": 103,
+              "end": 111
             },
             "accessibility": null,
             "static": false,
-            "start": 56,
-            "end": 69
+            "start": 99,
+            "end": 112
           }
         ],
-        "start": 50,
-        "end": 71
+        "start": 93,
+        "end": 114
       },
       "declare": false,
-      "start": 34,
-      "end": 71
+      "start": 77,
+      "end": 114
     },
     {
       "type": "TSInterfaceDeclaration",
@@ -91,8 +91,8 @@ __ESTREE_TEST__:AST:
         "name": "IFetchUserProps",
         "optional": false,
         "typeAnnotation": null,
-        "start": 83,
-        "end": 98
+        "start": 126,
+        "end": 141
       },
       "typeParameters": null,
       "extends": [],
@@ -110,8 +110,8 @@ __ESTREE_TEST__:AST:
               "name": "children",
               "optional": false,
               "typeAnnotation": null,
-              "start": 105,
-              "end": 113
+              "start": 148,
+              "end": 156
             },
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
@@ -134,18 +134,18 @@ __ESTREE_TEST__:AST:
                           "name": "IUser",
                           "optional": false,
                           "typeAnnotation": null,
-                          "start": 122,
-                          "end": 127
+                          "start": 165,
+                          "end": 170
                         },
                         "typeArguments": null,
-                        "start": 122,
-                        "end": 127
+                        "start": 165,
+                        "end": 170
                       },
-                      "start": 120,
-                      "end": 127
+                      "start": 163,
+                      "end": 170
                     },
-                    "start": 116,
-                    "end": 127
+                    "start": 159,
+                    "end": 170
                   }
                 ],
                 "returnType": {
@@ -160,8 +160,8 @@ __ESTREE_TEST__:AST:
                         "name": "JSX",
                         "optional": false,
                         "typeAnnotation": null,
-                        "start": 132,
-                        "end": 135
+                        "start": 175,
+                        "end": 178
                       },
                       "right": {
                         "type": "Identifier",
@@ -169,37 +169,37 @@ __ESTREE_TEST__:AST:
                         "name": "Element",
                         "optional": false,
                         "typeAnnotation": null,
-                        "start": 136,
-                        "end": 143
+                        "start": 179,
+                        "end": 186
                       },
-                      "start": 132,
-                      "end": 143
+                      "start": 175,
+                      "end": 186
                     },
                     "typeArguments": null,
-                    "start": 132,
-                    "end": 143
+                    "start": 175,
+                    "end": 186
                   },
-                  "start": 129,
-                  "end": 143
+                  "start": 172,
+                  "end": 186
                 },
-                "start": 115,
-                "end": 143
+                "start": 158,
+                "end": 186
               },
-              "start": 113,
-              "end": 143
+              "start": 156,
+              "end": 186
             },
             "accessibility": null,
             "static": false,
-            "start": 105,
-            "end": 144
+            "start": 148,
+            "end": 187
           }
         ],
-        "start": 99,
-        "end": 146
+        "start": 142,
+        "end": 189
       },
       "declare": false,
-      "start": 73,
-      "end": 146
+      "start": 116,
+      "end": 189
     },
     {
       "type": "ClassDeclaration",
@@ -210,8 +210,8 @@ __ESTREE_TEST__:AST:
         "name": "FetchUser",
         "optional": false,
         "typeAnnotation": null,
-        "start": 154,
-        "end": 163
+        "start": 197,
+        "end": 206
       },
       "typeParameters": null,
       "superClass": {
@@ -222,8 +222,8 @@ __ESTREE_TEST__:AST:
           "name": "React",
           "optional": false,
           "typeAnnotation": null,
-          "start": 172,
-          "end": 177
+          "start": 215,
+          "end": 220
         },
         "property": {
           "type": "Identifier",
@@ -231,13 +231,13 @@ __ESTREE_TEST__:AST:
           "name": "Component",
           "optional": false,
           "typeAnnotation": null,
-          "start": 178,
-          "end": 187
+          "start": 221,
+          "end": 230
         },
         "optional": false,
         "computed": false,
-        "start": 172,
-        "end": 187
+        "start": 215,
+        "end": 230
       },
       "superTypeArguments": {
         "type": "TSTypeParameterInstantiation",
@@ -250,21 +250,21 @@ __ESTREE_TEST__:AST:
               "name": "IFetchUserProps",
               "optional": false,
               "typeAnnotation": null,
-              "start": 188,
-              "end": 203
+              "start": 231,
+              "end": 246
             },
             "typeArguments": null,
-            "start": 188,
-            "end": 203
+            "start": 231,
+            "end": 246
           },
           {
             "type": "TSAnyKeyword",
-            "start": 205,
-            "end": 208
+            "start": 248,
+            "end": 251
           }
         ],
-        "start": 187,
-        "end": 209
+        "start": 230,
+        "end": 252
       },
       "implements": [],
       "body": {
@@ -279,8 +279,8 @@ __ESTREE_TEST__:AST:
               "name": "render",
               "optional": false,
               "typeAnnotation": null,
-              "start": 216,
-              "end": 222
+              "start": 259,
+              "end": 265
             },
             "value": {
               "type": "FunctionExpression",
@@ -302,8 +302,8 @@ __ESTREE_TEST__:AST:
                         "type": "MemberExpression",
                         "object": {
                           "type": "ThisExpression",
-                          "start": 242,
-                          "end": 246
+                          "start": 285,
+                          "end": 289
                         },
                         "property": {
                           "type": "Identifier",
@@ -311,13 +311,13 @@ __ESTREE_TEST__:AST:
                           "name": "state",
                           "optional": false,
                           "typeAnnotation": null,
-                          "start": 247,
-                          "end": 252
+                          "start": 290,
+                          "end": 295
                         },
                         "optional": false,
                         "computed": false,
-                        "start": 242,
-                        "end": 252
+                        "start": 285,
+                        "end": 295
                       },
                       "consequent": {
                         "type": "CallExpression",
@@ -327,8 +327,8 @@ __ESTREE_TEST__:AST:
                             "type": "MemberExpression",
                             "object": {
                               "type": "ThisExpression",
-                              "start": 267,
-                              "end": 271
+                              "start": 310,
+                              "end": 314
                             },
                             "property": {
                               "type": "Identifier",
@@ -336,13 +336,13 @@ __ESTREE_TEST__:AST:
                               "name": "props",
                               "optional": false,
                               "typeAnnotation": null,
-                              "start": 272,
-                              "end": 277
+                              "start": 315,
+                              "end": 320
                             },
                             "optional": false,
                             "computed": false,
-                            "start": 267,
-                            "end": 277
+                            "start": 310,
+                            "end": 320
                           },
                           "property": {
                             "type": "Identifier",
@@ -350,13 +350,13 @@ __ESTREE_TEST__:AST:
                             "name": "children",
                             "optional": false,
                             "typeAnnotation": null,
-                            "start": 278,
-                            "end": 286
+                            "start": 321,
+                            "end": 329
                           },
                           "optional": false,
                           "computed": false,
-                          "start": 267,
-                          "end": 286
+                          "start": 310,
+                          "end": 329
                         },
                         "typeArguments": null,
                         "arguments": [
@@ -366,8 +366,8 @@ __ESTREE_TEST__:AST:
                               "type": "MemberExpression",
                               "object": {
                                 "type": "ThisExpression",
-                                "start": 287,
-                                "end": 291
+                                "start": 330,
+                                "end": 334
                               },
                               "property": {
                                 "type": "Identifier",
@@ -375,13 +375,13 @@ __ESTREE_TEST__:AST:
                                 "name": "state",
                                 "optional": false,
                                 "typeAnnotation": null,
-                                "start": 292,
-                                "end": 297
+                                "start": 335,
+                                "end": 340
                               },
                               "optional": false,
                               "computed": false,
-                              "start": 287,
-                              "end": 297
+                              "start": 330,
+                              "end": 340
                             },
                             "property": {
                               "type": "Identifier",
@@ -389,39 +389,39 @@ __ESTREE_TEST__:AST:
                               "name": "result",
                               "optional": false,
                               "typeAnnotation": null,
-                              "start": 298,
-                              "end": 304
+                              "start": 341,
+                              "end": 347
                             },
                             "optional": false,
                             "computed": false,
-                            "start": 287,
-                            "end": 304
+                            "start": 330,
+                            "end": 347
                           }
                         ],
                         "optional": false,
-                        "start": 267,
-                        "end": 305
+                        "start": 310,
+                        "end": 348
                       },
                       "alternate": {
                         "type": "Literal",
                         "value": null,
                         "raw": "null",
-                        "start": 320,
-                        "end": 324
+                        "start": 363,
+                        "end": 367
                       },
-                      "start": 242,
-                      "end": 324
+                      "start": 285,
+                      "end": 367
                     },
-                    "start": 235,
-                    "end": 325
+                    "start": 278,
+                    "end": 368
                   }
                 ],
-                "start": 225,
-                "end": 331
+                "start": 268,
+                "end": 374
               },
               "expression": false,
-              "start": 222,
-              "end": 331
+              "start": 265,
+              "end": 374
             },
             "kind": "method",
             "computed": false,
@@ -429,17 +429,17 @@ __ESTREE_TEST__:AST:
             "override": false,
             "optional": false,
             "accessibility": null,
-            "start": 216,
-            "end": 331
+            "start": 259,
+            "end": 374
           }
         ],
-        "start": 210,
-        "end": 333
+        "start": 253,
+        "end": 376
       },
       "abstract": false,
       "declare": false,
-      "start": 148,
-      "end": 333
+      "start": 191,
+      "end": 376
     },
     {
       "type": "FunctionDeclaration",
@@ -449,8 +449,8 @@ __ESTREE_TEST__:AST:
         "name": "UserName0",
         "optional": false,
         "typeAnnotation": null,
-        "start": 350,
-        "end": 359
+        "start": 393,
+        "end": 402
       },
       "generator": false,
       "async": false,
@@ -470,22 +470,22 @@ __ESTREE_TEST__:AST:
                 "name": {
                   "type": "JSXIdentifier",
                   "name": "FetchUser",
-                  "start": 386,
-                  "end": 395
+                  "start": 429,
+                  "end": 438
                 },
                 "typeArguments": null,
                 "attributes": [],
                 "selfClosing": false,
-                "start": 385,
-                "end": 396
+                "start": 428,
+                "end": 439
               },
               "children": [
                 {
                   "type": "JSXText",
                   "value": "\n            ",
                   "raw": "\n            ",
-                  "start": 396,
-                  "end": 409
+                  "start": 439,
+                  "end": 452
                 },
                 {
                   "type": "JSXExpressionContainer",
@@ -501,8 +501,8 @@ __ESTREE_TEST__:AST:
                         "name": "user",
                         "optional": false,
                         "typeAnnotation": null,
-                        "start": 411,
-                        "end": 415
+                        "start": 454,
+                        "end": 458
                       }
                     ],
                     "returnType": null,
@@ -513,14 +513,14 @@ __ESTREE_TEST__:AST:
                         "name": {
                           "type": "JSXIdentifier",
                           "name": "h1",
-                          "start": 438,
-                          "end": 440
+                          "start": 481,
+                          "end": 483
                         },
                         "typeArguments": null,
                         "attributes": [],
                         "selfClosing": false,
-                        "start": 437,
-                        "end": 441
+                        "start": 480,
+                        "end": 484
                       },
                       "children": [
                         {
@@ -533,8 +533,8 @@ __ESTREE_TEST__:AST:
                               "name": "user",
                               "optional": false,
                               "typeAnnotation": null,
-                              "start": 443,
-                              "end": 447
+                              "start": 486,
+                              "end": 490
                             },
                             "property": {
                               "type": "Identifier",
@@ -542,16 +542,16 @@ __ESTREE_TEST__:AST:
                               "name": "Name",
                               "optional": false,
                               "typeAnnotation": null,
-                              "start": 448,
-                              "end": 452
+                              "start": 491,
+                              "end": 495
                             },
                             "optional": false,
                             "computed": false,
-                            "start": 443,
-                            "end": 452
+                            "start": 486,
+                            "end": 495
                           },
-                          "start": 441,
-                          "end": 454
+                          "start": 484,
+                          "end": 497
                         }
                       ],
                       "closingElement": {
@@ -559,29 +559,29 @@ __ESTREE_TEST__:AST:
                         "name": {
                           "type": "JSXIdentifier",
                           "name": "h1",
-                          "start": 456,
-                          "end": 458
+                          "start": 499,
+                          "end": 501
                         },
-                        "start": 454,
-                        "end": 459
+                        "start": 497,
+                        "end": 502
                       },
-                      "start": 437,
-                      "end": 459
+                      "start": 480,
+                      "end": 502
                     },
                     "id": null,
                     "generator": false,
-                    "start": 411,
-                    "end": 473
+                    "start": 454,
+                    "end": 516
                   },
-                  "start": 409,
-                  "end": 475
+                  "start": 452,
+                  "end": 518
                 },
                 {
                   "type": "JSXText",
                   "value": "\n        ",
                   "raw": "\n        ",
-                  "start": 475,
-                  "end": 484
+                  "start": 518,
+                  "end": 527
                 }
               ],
               "closingElement": {
@@ -589,25 +589,25 @@ __ESTREE_TEST__:AST:
                 "name": {
                   "type": "JSXIdentifier",
                   "name": "FetchUser",
-                  "start": 486,
-                  "end": 495
+                  "start": 529,
+                  "end": 538
                 },
-                "start": 484,
-                "end": 496
+                "start": 527,
+                "end": 539
               },
-              "start": 385,
-              "end": 496
+              "start": 428,
+              "end": 539
             },
-            "start": 368,
-            "end": 503
+            "start": 411,
+            "end": 546
           }
         ],
-        "start": 362,
-        "end": 505
+        "start": 405,
+        "end": 548
       },
       "expression": false,
-      "start": 341,
-      "end": 505
+      "start": 384,
+      "end": 548
     },
     {
       "type": "FunctionDeclaration",
@@ -617,8 +617,8 @@ __ESTREE_TEST__:AST:
         "name": "UserName1",
         "optional": false,
         "typeAnnotation": null,
-        "start": 516,
-        "end": 525
+        "start": 559,
+        "end": 568
       },
       "generator": false,
       "async": false,
@@ -638,22 +638,22 @@ __ESTREE_TEST__:AST:
                 "name": {
                   "type": "JSXIdentifier",
                   "name": "FetchUser",
-                  "start": 552,
-                  "end": 561
+                  "start": 595,
+                  "end": 604
                 },
                 "typeArguments": null,
                 "attributes": [],
                 "selfClosing": false,
-                "start": 551,
-                "end": 562
+                "start": 594,
+                "end": 605
               },
               "children": [
                 {
                   "type": "JSXText",
                   "value": "\n\n            ",
                   "raw": "\n\n            ",
-                  "start": 562,
-                  "end": 576
+                  "start": 605,
+                  "end": 619
                 },
                 {
                   "type": "JSXExpressionContainer",
@@ -669,8 +669,8 @@ __ESTREE_TEST__:AST:
                         "name": "user",
                         "optional": false,
                         "typeAnnotation": null,
-                        "start": 578,
-                        "end": 582
+                        "start": 621,
+                        "end": 625
                       }
                     ],
                     "returnType": null,
@@ -681,14 +681,14 @@ __ESTREE_TEST__:AST:
                         "name": {
                           "type": "JSXIdentifier",
                           "name": "h1",
-                          "start": 605,
-                          "end": 607
+                          "start": 648,
+                          "end": 650
                         },
                         "typeArguments": null,
                         "attributes": [],
                         "selfClosing": false,
-                        "start": 604,
-                        "end": 608
+                        "start": 647,
+                        "end": 651
                       },
                       "children": [
                         {
@@ -701,8 +701,8 @@ __ESTREE_TEST__:AST:
                               "name": "user",
                               "optional": false,
                               "typeAnnotation": null,
-                              "start": 610,
-                              "end": 614
+                              "start": 653,
+                              "end": 657
                             },
                             "property": {
                               "type": "Identifier",
@@ -710,16 +710,16 @@ __ESTREE_TEST__:AST:
                               "name": "Name",
                               "optional": false,
                               "typeAnnotation": null,
-                              "start": 615,
-                              "end": 619
+                              "start": 658,
+                              "end": 662
                             },
                             "optional": false,
                             "computed": false,
-                            "start": 610,
-                            "end": 619
+                            "start": 653,
+                            "end": 662
                           },
-                          "start": 608,
-                          "end": 621
+                          "start": 651,
+                          "end": 664
                         }
                       ],
                       "closingElement": {
@@ -727,29 +727,29 @@ __ESTREE_TEST__:AST:
                         "name": {
                           "type": "JSXIdentifier",
                           "name": "h1",
-                          "start": 623,
-                          "end": 625
+                          "start": 666,
+                          "end": 668
                         },
-                        "start": 621,
-                        "end": 626
+                        "start": 664,
+                        "end": 669
                       },
-                      "start": 604,
-                      "end": 626
+                      "start": 647,
+                      "end": 669
                     },
                     "id": null,
                     "generator": false,
-                    "start": 578,
-                    "end": 640
+                    "start": 621,
+                    "end": 683
                   },
-                  "start": 576,
-                  "end": 642
+                  "start": 619,
+                  "end": 685
                 },
                 {
                   "type": "JSXText",
                   "value": "\n        ",
                   "raw": "\n        ",
-                  "start": 642,
-                  "end": 651
+                  "start": 685,
+                  "end": 694
                 }
               ],
               "closingElement": {
@@ -757,31 +757,31 @@ __ESTREE_TEST__:AST:
                 "name": {
                   "type": "JSXIdentifier",
                   "name": "FetchUser",
-                  "start": 653,
-                  "end": 662
+                  "start": 696,
+                  "end": 705
                 },
-                "start": 651,
-                "end": 663
+                "start": 694,
+                "end": 706
               },
-              "start": 551,
-              "end": 663
+              "start": 594,
+              "end": 706
             },
-            "start": 534,
-            "end": 670
+            "start": 577,
+            "end": 713
           }
         ],
-        "start": 528,
-        "end": 672
+        "start": 571,
+        "end": 715
       },
       "expression": false,
-      "start": 507,
-      "end": 672
+      "start": 550,
+      "end": 715
     }
   ],
   "sourceType": "script",
   "hashbang": null,
-  "start": 0,
-  "end": 672
+  "start": 43,
+  "end": 715
 }
 ```
 __ESTREE_TEST__:TOKENS:
@@ -790,866 +790,866 @@ __ESTREE_TEST__:TOKENS:
   {
     "type": "Keyword",
     "value": "import",
-    "start": 0,
-    "end": 6
+    "start": 43,
+    "end": 49
   },
   {
     "type": "Identifier",
     "value": "React",
-    "start": 7,
-    "end": 12
+    "start": 50,
+    "end": 55
   },
   {
     "type": "Punctuator",
     "value": "=",
-    "start": 13,
-    "end": 14
+    "start": 56,
+    "end": 57
   },
   {
     "type": "Identifier",
     "value": "require",
-    "start": 15,
-    "end": 22
+    "start": 58,
+    "end": 65
   },
   {
     "type": "Punctuator",
     "value": "(",
-    "start": 22,
-    "end": 23
+    "start": 65,
+    "end": 66
   },
   {
     "type": "String",
     "value": "'react'",
-    "start": 23,
-    "end": 30
+    "start": 66,
+    "end": 73
   },
   {
     "type": "Punctuator",
     "value": ")",
-    "start": 30,
-    "end": 31
+    "start": 73,
+    "end": 74
   },
   {
     "type": "Punctuator",
     "value": ";",
-    "start": 31,
-    "end": 32
+    "start": 74,
+    "end": 75
   },
   {
     "type": "Keyword",
     "value": "interface",
-    "start": 34,
-    "end": 43
+    "start": 77,
+    "end": 86
   },
   {
     "type": "Identifier",
     "value": "IUser",
-    "start": 44,
-    "end": 49
+    "start": 87,
+    "end": 92
   },
   {
     "type": "Punctuator",
     "value": "{",
-    "start": 50,
-    "end": 51
+    "start": 93,
+    "end": 94
   },
   {
     "type": "Identifier",
     "value": "Name",
-    "start": 56,
-    "end": 60
+    "start": 99,
+    "end": 103
   },
   {
     "type": "Punctuator",
     "value": ":",
-    "start": 60,
-    "end": 61
+    "start": 103,
+    "end": 104
   },
   {
     "type": "Identifier",
     "value": "string",
-    "start": 62,
-    "end": 68
+    "start": 105,
+    "end": 111
   },
   {
     "type": "Punctuator",
     "value": ";",
-    "start": 68,
-    "end": 69
+    "start": 111,
+    "end": 112
   },
   {
     "type": "Punctuator",
     "value": "}",
-    "start": 70,
-    "end": 71
-  },
-  {
-    "type": "Keyword",
-    "value": "interface",
-    "start": 73,
-    "end": 82
-  },
-  {
-    "type": "Identifier",
-    "value": "IFetchUserProps",
-    "start": 83,
-    "end": 98
-  },
-  {
-    "type": "Punctuator",
-    "value": "{",
-    "start": 99,
-    "end": 100
-  },
-  {
-    "type": "Identifier",
-    "value": "children",
-    "start": 105,
-    "end": 113
-  },
-  {
-    "type": "Punctuator",
-    "value": ":",
     "start": 113,
     "end": 114
   },
   {
-    "type": "Punctuator",
-    "value": "(",
-    "start": 115,
-    "end": 116
-  },
-  {
-    "type": "Identifier",
-    "value": "user",
+    "type": "Keyword",
+    "value": "interface",
     "start": 116,
-    "end": 120
-  },
-  {
-    "type": "Punctuator",
-    "value": ":",
-    "start": 120,
-    "end": 121
-  },
-  {
-    "type": "Identifier",
-    "value": "IUser",
-    "start": 122,
-    "end": 127
-  },
-  {
-    "type": "Punctuator",
-    "value": ")",
-    "start": 127,
-    "end": 128
-  },
-  {
-    "type": "Punctuator",
-    "value": "=>",
-    "start": 129,
-    "end": 131
-  },
-  {
-    "type": "Identifier",
-    "value": "JSX",
-    "start": 132,
-    "end": 135
-  },
-  {
-    "type": "Punctuator",
-    "value": ".",
-    "start": 135,
-    "end": 136
-  },
-  {
-    "type": "Identifier",
-    "value": "Element",
-    "start": 136,
-    "end": 143
-  },
-  {
-    "type": "Punctuator",
-    "value": ";",
-    "start": 143,
-    "end": 144
-  },
-  {
-    "type": "Punctuator",
-    "value": "}",
-    "start": 145,
-    "end": 146
-  },
-  {
-    "type": "Keyword",
-    "value": "class",
-    "start": 148,
-    "end": 153
-  },
-  {
-    "type": "Identifier",
-    "value": "FetchUser",
-    "start": 154,
-    "end": 163
-  },
-  {
-    "type": "Keyword",
-    "value": "extends",
-    "start": 164,
-    "end": 171
-  },
-  {
-    "type": "Identifier",
-    "value": "React",
-    "start": 172,
-    "end": 177
-  },
-  {
-    "type": "Punctuator",
-    "value": ".",
-    "start": 177,
-    "end": 178
-  },
-  {
-    "type": "Identifier",
-    "value": "Component",
-    "start": 178,
-    "end": 187
-  },
-  {
-    "type": "Punctuator",
-    "value": "<",
-    "start": 187,
-    "end": 188
+    "end": 125
   },
   {
     "type": "Identifier",
     "value": "IFetchUserProps",
-    "start": 188,
-    "end": 203
-  },
-  {
-    "type": "Punctuator",
-    "value": ",",
-    "start": 203,
-    "end": 204
-  },
-  {
-    "type": "Identifier",
-    "value": "any",
-    "start": 205,
-    "end": 208
-  },
-  {
-    "type": "Punctuator",
-    "value": ">",
-    "start": 208,
-    "end": 209
+    "start": 126,
+    "end": 141
   },
   {
     "type": "Punctuator",
     "value": "{",
-    "start": 210,
-    "end": 211
+    "start": 142,
+    "end": 143
   },
   {
     "type": "Identifier",
-    "value": "render",
-    "start": 216,
-    "end": 222
+    "value": "children",
+    "start": 148,
+    "end": 156
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 156,
+    "end": 157
   },
   {
     "type": "Punctuator",
     "value": "(",
-    "start": 222,
-    "end": 223
+    "start": 158,
+    "end": 159
+  },
+  {
+    "type": "Identifier",
+    "value": "user",
+    "start": 159,
+    "end": 163
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 163,
+    "end": 164
+  },
+  {
+    "type": "Identifier",
+    "value": "IUser",
+    "start": 165,
+    "end": 170
   },
   {
     "type": "Punctuator",
     "value": ")",
-    "start": 223,
-    "end": 224
+    "start": 170,
+    "end": 171
   },
   {
     "type": "Punctuator",
-    "value": "{",
-    "start": 225,
-    "end": 226
+    "value": "=>",
+    "start": 172,
+    "end": 174
   },
   {
-    "type": "Keyword",
-    "value": "return",
-    "start": 235,
-    "end": 241
-  },
-  {
-    "type": "Keyword",
-    "value": "this",
-    "start": 242,
-    "end": 246
+    "type": "Identifier",
+    "value": "JSX",
+    "start": 175,
+    "end": 178
   },
   {
     "type": "Punctuator",
     "value": ".",
+    "start": 178,
+    "end": 179
+  },
+  {
+    "type": "Identifier",
+    "value": "Element",
+    "start": 179,
+    "end": 186
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 186,
+    "end": 187
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 188,
+    "end": 189
+  },
+  {
+    "type": "Keyword",
+    "value": "class",
+    "start": 191,
+    "end": 196
+  },
+  {
+    "type": "Identifier",
+    "value": "FetchUser",
+    "start": 197,
+    "end": 206
+  },
+  {
+    "type": "Keyword",
+    "value": "extends",
+    "start": 207,
+    "end": 214
+  },
+  {
+    "type": "Identifier",
+    "value": "React",
+    "start": 215,
+    "end": 220
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 220,
+    "end": 221
+  },
+  {
+    "type": "Identifier",
+    "value": "Component",
+    "start": 221,
+    "end": 230
+  },
+  {
+    "type": "Punctuator",
+    "value": "<",
+    "start": 230,
+    "end": 231
+  },
+  {
+    "type": "Identifier",
+    "value": "IFetchUserProps",
+    "start": 231,
+    "end": 246
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
     "start": 246,
     "end": 247
   },
   {
     "type": "Identifier",
-    "value": "state",
-    "start": 247,
+    "value": "any",
+    "start": 248,
+    "end": 251
+  },
+  {
+    "type": "Punctuator",
+    "value": ">",
+    "start": 251,
     "end": 252
   },
   {
     "type": "Punctuator",
-    "value": "?",
+    "value": "{",
+    "start": 253,
+    "end": 254
+  },
+  {
+    "type": "Identifier",
+    "value": "render",
+    "start": 259,
+    "end": 265
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
     "start": 265,
     "end": 266
   },
   {
-    "type": "Keyword",
-    "value": "this",
-    "start": 267,
-    "end": 271
-  },
-  {
-    "type": "Punctuator",
-    "value": ".",
-    "start": 271,
-    "end": 272
-  },
-  {
-    "type": "Identifier",
-    "value": "props",
-    "start": 272,
-    "end": 277
-  },
-  {
-    "type": "Punctuator",
-    "value": ".",
-    "start": 277,
-    "end": 278
-  },
-  {
-    "type": "Identifier",
-    "value": "children",
-    "start": 278,
-    "end": 286
-  },
-  {
-    "type": "Punctuator",
-    "value": "(",
-    "start": 286,
-    "end": 287
-  },
-  {
-    "type": "Keyword",
-    "value": "this",
-    "start": 287,
-    "end": 291
-  },
-  {
-    "type": "Punctuator",
-    "value": ".",
-    "start": 291,
-    "end": 292
-  },
-  {
-    "type": "Identifier",
-    "value": "state",
-    "start": 292,
-    "end": 297
-  },
-  {
-    "type": "Punctuator",
-    "value": ".",
-    "start": 297,
-    "end": 298
-  },
-  {
-    "type": "Identifier",
-    "value": "result",
-    "start": 298,
-    "end": 304
-  },
-  {
     "type": "Punctuator",
     "value": ")",
-    "start": 304,
-    "end": 305
-  },
-  {
-    "type": "Punctuator",
-    "value": ":",
-    "start": 318,
-    "end": 319
-  },
-  {
-    "type": "Null",
-    "value": "null",
-    "start": 320,
-    "end": 324
-  },
-  {
-    "type": "Punctuator",
-    "value": ";",
-    "start": 324,
-    "end": 325
-  },
-  {
-    "type": "Punctuator",
-    "value": "}",
-    "start": 330,
-    "end": 331
-  },
-  {
-    "type": "Punctuator",
-    "value": "}",
-    "start": 332,
-    "end": 333
-  },
-  {
-    "type": "Keyword",
-    "value": "function",
-    "start": 341,
-    "end": 349
-  },
-  {
-    "type": "Identifier",
-    "value": "UserName0",
-    "start": 350,
-    "end": 359
-  },
-  {
-    "type": "Punctuator",
-    "value": "(",
-    "start": 359,
-    "end": 360
-  },
-  {
-    "type": "Punctuator",
-    "value": ")",
-    "start": 360,
-    "end": 361
+    "start": 266,
+    "end": 267
   },
   {
     "type": "Punctuator",
     "value": "{",
-    "start": 362,
-    "end": 363
+    "start": 268,
+    "end": 269
   },
   {
     "type": "Keyword",
     "value": "return",
-    "start": 368,
-    "end": 374
+    "start": 278,
+    "end": 284
   },
   {
-    "type": "Punctuator",
-    "value": "(",
-    "start": 375,
-    "end": 376
-  },
-  {
-    "type": "Punctuator",
-    "value": "<",
-    "start": 385,
-    "end": 386
-  },
-  {
-    "type": "JSXIdentifier",
-    "value": "FetchUser",
-    "start": 386,
-    "end": 395
-  },
-  {
-    "type": "Punctuator",
-    "value": ">",
-    "start": 395,
-    "end": 396
-  },
-  {
-    "type": "JSXText",
-    "value": "\n            ",
-    "start": 396,
-    "end": 409
-  },
-  {
-    "type": "Punctuator",
-    "value": "{",
-    "start": 409,
-    "end": 410
-  },
-  {
-    "type": "Identifier",
-    "value": "user",
-    "start": 411,
-    "end": 415
-  },
-  {
-    "type": "Punctuator",
-    "value": "=>",
-    "start": 416,
-    "end": 418
-  },
-  {
-    "type": "Punctuator",
-    "value": "(",
-    "start": 419,
-    "end": 420
-  },
-  {
-    "type": "Punctuator",
-    "value": "<",
-    "start": 437,
-    "end": 438
-  },
-  {
-    "type": "JSXIdentifier",
-    "value": "h1",
-    "start": 438,
-    "end": 440
-  },
-  {
-    "type": "Punctuator",
-    "value": ">",
-    "start": 440,
-    "end": 441
-  },
-  {
-    "type": "Punctuator",
-    "value": "{",
-    "start": 441,
-    "end": 442
-  },
-  {
-    "type": "JSXIdentifier",
-    "value": "user",
-    "start": 443,
-    "end": 447
+    "type": "Keyword",
+    "value": "this",
+    "start": 285,
+    "end": 289
   },
   {
     "type": "Punctuator",
     "value": ".",
-    "start": 447,
-    "end": 448
+    "start": 289,
+    "end": 290
   },
   {
-    "type": "JSXIdentifier",
-    "value": "Name",
-    "start": 448,
-    "end": 452
-  },
-  {
-    "type": "Punctuator",
-    "value": "}",
-    "start": 453,
-    "end": 454
+    "type": "Identifier",
+    "value": "state",
+    "start": 290,
+    "end": 295
   },
   {
     "type": "Punctuator",
-    "value": "<",
-    "start": 454,
-    "end": 455
+    "value": "?",
+    "start": 308,
+    "end": 309
+  },
+  {
+    "type": "Keyword",
+    "value": "this",
+    "start": 310,
+    "end": 314
   },
   {
     "type": "Punctuator",
-    "value": "/",
-    "start": 455,
-    "end": 456
+    "value": ".",
+    "start": 314,
+    "end": 315
   },
   {
-    "type": "JSXIdentifier",
-    "value": "h1",
-    "start": 456,
-    "end": 458
+    "type": "Identifier",
+    "value": "props",
+    "start": 315,
+    "end": 320
   },
   {
     "type": "Punctuator",
-    "value": ">",
-    "start": 458,
-    "end": 459
+    "value": ".",
+    "start": 320,
+    "end": 321
+  },
+  {
+    "type": "Identifier",
+    "value": "children",
+    "start": 321,
+    "end": 329
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 329,
+    "end": 330
+  },
+  {
+    "type": "Keyword",
+    "value": "this",
+    "start": 330,
+    "end": 334
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 334,
+    "end": 335
+  },
+  {
+    "type": "Identifier",
+    "value": "state",
+    "start": 335,
+    "end": 340
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 340,
+    "end": 341
+  },
+  {
+    "type": "Identifier",
+    "value": "result",
+    "start": 341,
+    "end": 347
   },
   {
     "type": "Punctuator",
     "value": ")",
-    "start": 472,
-    "end": 473
+    "start": 347,
+    "end": 348
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 361,
+    "end": 362
+  },
+  {
+    "type": "Null",
+    "value": "null",
+    "start": 363,
+    "end": 367
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 367,
+    "end": 368
   },
   {
     "type": "Punctuator",
     "value": "}",
-    "start": 474,
-    "end": 475
+    "start": 373,
+    "end": 374
   },
   {
-    "type": "JSXText",
-    "value": "\n        ",
-    "start": 475,
-    "end": 484
+    "type": "Punctuator",
+    "value": "}",
+    "start": 375,
+    "end": 376
+  },
+  {
+    "type": "Keyword",
+    "value": "function",
+    "start": 384,
+    "end": 392
+  },
+  {
+    "type": "Identifier",
+    "value": "UserName0",
+    "start": 393,
+    "end": 402
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 402,
+    "end": 403
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 403,
+    "end": 404
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 405,
+    "end": 406
+  },
+  {
+    "type": "Keyword",
+    "value": "return",
+    "start": 411,
+    "end": 417
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 418,
+    "end": 419
   },
   {
     "type": "Punctuator",
     "value": "<",
-    "start": 484,
-    "end": 485
-  },
-  {
-    "type": "Punctuator",
-    "value": "/",
-    "start": 485,
-    "end": 486
+    "start": 428,
+    "end": 429
   },
   {
     "type": "JSXIdentifier",
     "value": "FetchUser",
-    "start": 486,
-    "end": 495
+    "start": 429,
+    "end": 438
   },
   {
     "type": "Punctuator",
     "value": ">",
-    "start": 495,
-    "end": 496
+    "start": 438,
+    "end": 439
+  },
+  {
+    "type": "JSXText",
+    "value": "\n            ",
+    "start": 439,
+    "end": 452
   },
   {
     "type": "Punctuator",
-    "value": ")",
+    "value": "{",
+    "start": 452,
+    "end": 453
+  },
+  {
+    "type": "Identifier",
+    "value": "user",
+    "start": 454,
+    "end": 458
+  },
+  {
+    "type": "Punctuator",
+    "value": "=>",
+    "start": 459,
+    "end": 461
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 462,
+    "end": 463
+  },
+  {
+    "type": "Punctuator",
+    "value": "<",
+    "start": 480,
+    "end": 481
+  },
+  {
+    "type": "JSXIdentifier",
+    "value": "h1",
+    "start": 481,
+    "end": 483
+  },
+  {
+    "type": "Punctuator",
+    "value": ">",
+    "start": 483,
+    "end": 484
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 484,
+    "end": 485
+  },
+  {
+    "type": "JSXIdentifier",
+    "value": "user",
+    "start": 486,
+    "end": 490
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 490,
+    "end": 491
+  },
+  {
+    "type": "JSXIdentifier",
+    "value": "Name",
+    "start": 491,
+    "end": 495
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 496,
+    "end": 497
+  },
+  {
+    "type": "Punctuator",
+    "value": "<",
+    "start": 497,
+    "end": 498
+  },
+  {
+    "type": "Punctuator",
+    "value": "/",
+    "start": 498,
+    "end": 499
+  },
+  {
+    "type": "JSXIdentifier",
+    "value": "h1",
+    "start": 499,
+    "end": 501
+  },
+  {
+    "type": "Punctuator",
+    "value": ">",
     "start": 501,
     "end": 502
   },
   {
     "type": "Punctuator",
-    "value": ";",
-    "start": 502,
-    "end": 503
-  },
-  {
-    "type": "Punctuator",
-    "value": "}",
-    "start": 504,
-    "end": 505
-  },
-  {
-    "type": "Keyword",
-    "value": "function",
-    "start": 507,
-    "end": 515
-  },
-  {
-    "type": "Identifier",
-    "value": "UserName1",
-    "start": 516,
-    "end": 525
-  },
-  {
-    "type": "Punctuator",
-    "value": "(",
-    "start": 525,
-    "end": 526
-  },
-  {
-    "type": "Punctuator",
     "value": ")",
-    "start": 526,
-    "end": 527
-  },
-  {
-    "type": "Punctuator",
-    "value": "{",
-    "start": 528,
-    "end": 529
-  },
-  {
-    "type": "Keyword",
-    "value": "return",
-    "start": 534,
-    "end": 540
-  },
-  {
-    "type": "Punctuator",
-    "value": "(",
-    "start": 541,
-    "end": 542
-  },
-  {
-    "type": "Punctuator",
-    "value": "<",
-    "start": 551,
-    "end": 552
-  },
-  {
-    "type": "JSXIdentifier",
-    "value": "FetchUser",
-    "start": 552,
-    "end": 561
-  },
-  {
-    "type": "Punctuator",
-    "value": ">",
-    "start": 561,
-    "end": 562
-  },
-  {
-    "type": "JSXText",
-    "value": "\n\n            ",
-    "start": 562,
-    "end": 576
-  },
-  {
-    "type": "Punctuator",
-    "value": "{",
-    "start": 576,
-    "end": 577
-  },
-  {
-    "type": "Identifier",
-    "value": "user",
-    "start": 578,
-    "end": 582
-  },
-  {
-    "type": "Punctuator",
-    "value": "=>",
-    "start": 583,
-    "end": 585
-  },
-  {
-    "type": "Punctuator",
-    "value": "(",
-    "start": 586,
-    "end": 587
-  },
-  {
-    "type": "Punctuator",
-    "value": "<",
-    "start": 604,
-    "end": 605
-  },
-  {
-    "type": "JSXIdentifier",
-    "value": "h1",
-    "start": 605,
-    "end": 607
-  },
-  {
-    "type": "Punctuator",
-    "value": ">",
-    "start": 607,
-    "end": 608
-  },
-  {
-    "type": "Punctuator",
-    "value": "{",
-    "start": 608,
-    "end": 609
-  },
-  {
-    "type": "JSXIdentifier",
-    "value": "user",
-    "start": 610,
-    "end": 614
-  },
-  {
-    "type": "Punctuator",
-    "value": ".",
-    "start": 614,
-    "end": 615
-  },
-  {
-    "type": "JSXIdentifier",
-    "value": "Name",
-    "start": 615,
-    "end": 619
+    "start": 515,
+    "end": 516
   },
   {
     "type": "Punctuator",
     "value": "}",
-    "start": 620,
-    "end": 621
-  },
-  {
-    "type": "Punctuator",
-    "value": "<",
-    "start": 621,
-    "end": 622
-  },
-  {
-    "type": "Punctuator",
-    "value": "/",
-    "start": 622,
-    "end": 623
-  },
-  {
-    "type": "JSXIdentifier",
-    "value": "h1",
-    "start": 623,
-    "end": 625
-  },
-  {
-    "type": "Punctuator",
-    "value": ">",
-    "start": 625,
-    "end": 626
-  },
-  {
-    "type": "Punctuator",
-    "value": ")",
-    "start": 639,
-    "end": 640
-  },
-  {
-    "type": "Punctuator",
-    "value": "}",
-    "start": 641,
-    "end": 642
+    "start": 517,
+    "end": 518
   },
   {
     "type": "JSXText",
     "value": "\n        ",
-    "start": 642,
-    "end": 651
+    "start": 518,
+    "end": 527
   },
   {
     "type": "Punctuator",
     "value": "<",
-    "start": 651,
-    "end": 652
+    "start": 527,
+    "end": 528
   },
   {
     "type": "Punctuator",
     "value": "/",
-    "start": 652,
-    "end": 653
+    "start": 528,
+    "end": 529
   },
   {
     "type": "JSXIdentifier",
     "value": "FetchUser",
-    "start": 653,
-    "end": 662
+    "start": 529,
+    "end": 538
   },
   {
     "type": "Punctuator",
     "value": ">",
-    "start": 662,
-    "end": 663
+    "start": 538,
+    "end": 539
   },
   {
     "type": "Punctuator",
     "value": ")",
+    "start": 544,
+    "end": 545
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 545,
+    "end": 546
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 547,
+    "end": 548
+  },
+  {
+    "type": "Keyword",
+    "value": "function",
+    "start": 550,
+    "end": 558
+  },
+  {
+    "type": "Identifier",
+    "value": "UserName1",
+    "start": 559,
+    "end": 568
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 568,
+    "end": 569
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 569,
+    "end": 570
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 571,
+    "end": 572
+  },
+  {
+    "type": "Keyword",
+    "value": "return",
+    "start": 577,
+    "end": 583
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 584,
+    "end": 585
+  },
+  {
+    "type": "Punctuator",
+    "value": "<",
+    "start": 594,
+    "end": 595
+  },
+  {
+    "type": "JSXIdentifier",
+    "value": "FetchUser",
+    "start": 595,
+    "end": 604
+  },
+  {
+    "type": "Punctuator",
+    "value": ">",
+    "start": 604,
+    "end": 605
+  },
+  {
+    "type": "JSXText",
+    "value": "\n\n            ",
+    "start": 605,
+    "end": 619
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 619,
+    "end": 620
+  },
+  {
+    "type": "Identifier",
+    "value": "user",
+    "start": 621,
+    "end": 625
+  },
+  {
+    "type": "Punctuator",
+    "value": "=>",
+    "start": 626,
+    "end": 628
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 629,
+    "end": 630
+  },
+  {
+    "type": "Punctuator",
+    "value": "<",
+    "start": 647,
+    "end": 648
+  },
+  {
+    "type": "JSXIdentifier",
+    "value": "h1",
+    "start": 648,
+    "end": 650
+  },
+  {
+    "type": "Punctuator",
+    "value": ">",
+    "start": 650,
+    "end": 651
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 651,
+    "end": 652
+  },
+  {
+    "type": "JSXIdentifier",
+    "value": "user",
+    "start": 653,
+    "end": 657
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 657,
+    "end": 658
+  },
+  {
+    "type": "JSXIdentifier",
+    "value": "Name",
+    "start": 658,
+    "end": 662
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 663,
+    "end": 664
+  },
+  {
+    "type": "Punctuator",
+    "value": "<",
+    "start": 664,
+    "end": 665
+  },
+  {
+    "type": "Punctuator",
+    "value": "/",
+    "start": 665,
+    "end": 666
+  },
+  {
+    "type": "JSXIdentifier",
+    "value": "h1",
+    "start": 666,
+    "end": 668
+  },
+  {
+    "type": "Punctuator",
+    "value": ">",
     "start": 668,
     "end": 669
   },
   {
     "type": "Punctuator",
-    "value": ";",
-    "start": 669,
-    "end": 670
+    "value": ")",
+    "start": 682,
+    "end": 683
   },
   {
     "type": "Punctuator",
     "value": "}",
-    "start": 671,
-    "end": 672
+    "start": 684,
+    "end": 685
+  },
+  {
+    "type": "JSXText",
+    "value": "\n        ",
+    "start": 685,
+    "end": 694
+  },
+  {
+    "type": "Punctuator",
+    "value": "<",
+    "start": 694,
+    "end": 695
+  },
+  {
+    "type": "Punctuator",
+    "value": "/",
+    "start": 695,
+    "end": 696
+  },
+  {
+    "type": "JSXIdentifier",
+    "value": "FetchUser",
+    "start": 696,
+    "end": 705
+  },
+  {
+    "type": "Punctuator",
+    "value": ">",
+    "start": 705,
+    "end": 706
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 711,
+    "end": 712
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 712,
+    "end": 713
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 714,
+    "end": 715
   }
 ]
 ```

@@ -11,8 +11,8 @@ __ESTREE_TEST__:AST:
         "name": "React",
         "optional": false,
         "typeAnnotation": null,
-        "start": 7,
-        "end": 12
+        "start": 50,
+        "end": 55
       },
       "moduleReference": {
         "type": "TSExternalModuleReference",
@@ -20,15 +20,15 @@ __ESTREE_TEST__:AST:
           "type": "Literal",
           "value": "react",
           "raw": "'react'",
-          "start": 23,
-          "end": 30
+          "start": 66,
+          "end": 73
         },
-        "start": 15,
-        "end": 31
+        "start": 58,
+        "end": 74
       },
       "importKind": "value",
-      "start": 0,
-      "end": 32
+      "start": 43,
+      "end": 75
     },
     {
       "type": "FunctionDeclaration",
@@ -38,8 +38,8 @@ __ESTREE_TEST__:AST:
         "name": "EmptySFC1",
         "optional": false,
         "typeAnnotation": null,
-        "start": 43,
-        "end": 52
+        "start": 86,
+        "end": 95
       },
       "generator": false,
       "async": false,
@@ -59,22 +59,22 @@ __ESTREE_TEST__:AST:
                 "name": {
                   "type": "JSXIdentifier",
                   "name": "div",
-                  "start": 69,
-                  "end": 72
+                  "start": 112,
+                  "end": 115
                 },
                 "typeArguments": null,
                 "attributes": [],
                 "selfClosing": false,
-                "start": 68,
-                "end": 73
+                "start": 111,
+                "end": 116
               },
               "children": [
                 {
                   "type": "JSXText",
                   "value": "hello",
                   "raw": "hello",
-                  "start": 73,
-                  "end": 78
+                  "start": 116,
+                  "end": 121
                 }
               ],
               "closingElement": {
@@ -82,25 +82,25 @@ __ESTREE_TEST__:AST:
                 "name": {
                   "type": "JSXIdentifier",
                   "name": "div",
-                  "start": 80,
-                  "end": 83
+                  "start": 123,
+                  "end": 126
                 },
-                "start": 78,
-                "end": 84
+                "start": 121,
+                "end": 127
               },
-              "start": 68,
-              "end": 84
+              "start": 111,
+              "end": 127
             },
-            "start": 61,
-            "end": 85
+            "start": 104,
+            "end": 128
           }
         ],
-        "start": 55,
-        "end": 87
+        "start": 98,
+        "end": 130
       },
       "expression": false,
-      "start": 34,
-      "end": 87
+      "start": 77,
+      "end": 130
     },
     {
       "type": "FunctionDeclaration",
@@ -110,8 +110,8 @@ __ESTREE_TEST__:AST:
         "name": "EmptySFC2",
         "optional": false,
         "typeAnnotation": null,
-        "start": 98,
-        "end": 107
+        "start": 141,
+        "end": 150
       },
       "generator": false,
       "async": false,
@@ -131,22 +131,22 @@ __ESTREE_TEST__:AST:
                 "name": {
                   "type": "JSXIdentifier",
                   "name": "div",
-                  "start": 124,
-                  "end": 127
+                  "start": 167,
+                  "end": 170
                 },
                 "typeArguments": null,
                 "attributes": [],
                 "selfClosing": false,
-                "start": 123,
-                "end": 128
+                "start": 166,
+                "end": 171
               },
               "children": [
                 {
                   "type": "JSXText",
                   "value": "Hello",
                   "raw": "Hello",
-                  "start": 128,
-                  "end": 133
+                  "start": 171,
+                  "end": 176
                 }
               ],
               "closingElement": {
@@ -154,25 +154,25 @@ __ESTREE_TEST__:AST:
                 "name": {
                   "type": "JSXIdentifier",
                   "name": "div",
-                  "start": 135,
-                  "end": 138
+                  "start": 178,
+                  "end": 181
                 },
-                "start": 133,
-                "end": 139
+                "start": 176,
+                "end": 182
               },
-              "start": 123,
-              "end": 139
+              "start": 166,
+              "end": 182
             },
-            "start": 116,
-            "end": 140
+            "start": 159,
+            "end": 183
           }
         ],
-        "start": 110,
-        "end": 142
+        "start": 153,
+        "end": 185
       },
       "expression": false,
-      "start": 89,
-      "end": 142
+      "start": 132,
+      "end": 185
     },
     {
       "type": "FunctionDeclaration",
@@ -182,8 +182,8 @@ __ESTREE_TEST__:AST:
         "name": "SFC2",
         "optional": false,
         "typeAnnotation": null,
-        "start": 153,
-        "end": 157
+        "start": 196,
+        "end": 200
       },
       "generator": false,
       "async": false,
@@ -211,33 +211,33 @@ __ESTREE_TEST__:AST:
                     "name": "x",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 166,
-                    "end": 167
+                    "start": 209,
+                    "end": 210
                   },
                   "typeAnnotation": {
                     "type": "TSTypeAnnotation",
                     "typeAnnotation": {
                       "type": "TSBooleanKeyword",
-                      "start": 169,
-                      "end": 176
+                      "start": 212,
+                      "end": 219
                     },
-                    "start": 167,
-                    "end": 176
+                    "start": 210,
+                    "end": 219
                   },
                   "accessibility": null,
                   "static": false,
-                  "start": 166,
-                  "end": 176
+                  "start": 209,
+                  "end": 219
                 }
               ],
-              "start": 164,
-              "end": 178
+              "start": 207,
+              "end": 221
             },
-            "start": 162,
-            "end": 178
+            "start": 205,
+            "end": 221
           },
-          "start": 158,
-          "end": 178
+          "start": 201,
+          "end": 221
         }
       ],
       "returnType": null,
@@ -253,22 +253,22 @@ __ESTREE_TEST__:AST:
                 "name": {
                   "type": "JSXIdentifier",
                   "name": "h1",
-                  "start": 194,
-                  "end": 196
+                  "start": 237,
+                  "end": 239
                 },
                 "typeArguments": null,
                 "attributes": [],
                 "selfClosing": false,
-                "start": 193,
-                "end": 197
+                "start": 236,
+                "end": 240
               },
               "children": [
                 {
                   "type": "JSXText",
                   "value": "World",
                   "raw": "World",
-                  "start": 197,
-                  "end": 202
+                  "start": 240,
+                  "end": 245
                 }
               ],
               "closingElement": {
@@ -276,25 +276,25 @@ __ESTREE_TEST__:AST:
                 "name": {
                   "type": "JSXIdentifier",
                   "name": "h1",
-                  "start": 204,
-                  "end": 206
+                  "start": 247,
+                  "end": 249
                 },
-                "start": 202,
-                "end": 207
+                "start": 245,
+                "end": 250
               },
-              "start": 193,
-              "end": 207
+              "start": 236,
+              "end": 250
             },
-            "start": 186,
-            "end": 208
+            "start": 229,
+            "end": 251
           }
         ],
-        "start": 180,
-        "end": 210
+        "start": 223,
+        "end": 253
       },
       "expression": false,
-      "start": 144,
-      "end": 210
+      "start": 187,
+      "end": 253
     },
     {
       "type": "VariableDeclaration",
@@ -308,8 +308,8 @@ __ESTREE_TEST__:AST:
             "name": "EmptySFCComp",
             "optional": false,
             "typeAnnotation": null,
-            "start": 216,
-            "end": 228
+            "start": 259,
+            "end": 271
           },
           "init": {
             "type": "LogicalExpression",
@@ -319,8 +319,8 @@ __ESTREE_TEST__:AST:
               "name": "EmptySFC1",
               "optional": false,
               "typeAnnotation": null,
-              "start": 231,
-              "end": 240
+              "start": 274,
+              "end": 283
             },
             "operator": "||",
             "right": {
@@ -329,20 +329,20 @@ __ESTREE_TEST__:AST:
               "name": "EmptySFC2",
               "optional": false,
               "typeAnnotation": null,
-              "start": 244,
-              "end": 253
+              "start": 287,
+              "end": 296
             },
-            "start": 231,
-            "end": 253
+            "start": 274,
+            "end": 296
           },
           "definite": false,
-          "start": 216,
-          "end": 253
+          "start": 259,
+          "end": 296
         }
       ],
       "declare": false,
-      "start": 212,
-      "end": 254
+      "start": 255,
+      "end": 297
     },
     {
       "type": "VariableDeclaration",
@@ -356,8 +356,8 @@ __ESTREE_TEST__:AST:
             "name": "SFC2AndEmptyComp",
             "optional": false,
             "typeAnnotation": null,
-            "start": 259,
-            "end": 275
+            "start": 302,
+            "end": 318
           },
           "init": {
             "type": "LogicalExpression",
@@ -367,8 +367,8 @@ __ESTREE_TEST__:AST:
               "name": "SFC2",
               "optional": false,
               "typeAnnotation": null,
-              "start": 278,
-              "end": 282
+              "start": 321,
+              "end": 325
             },
             "operator": "||",
             "right": {
@@ -377,20 +377,20 @@ __ESTREE_TEST__:AST:
               "name": "EmptySFC1",
               "optional": false,
               "typeAnnotation": null,
-              "start": 286,
-              "end": 295
+              "start": 329,
+              "end": 338
             },
-            "start": 278,
-            "end": 295
+            "start": 321,
+            "end": 338
           },
           "definite": false,
-          "start": 259,
-          "end": 295
+          "start": 302,
+          "end": 338
         }
       ],
       "declare": false,
-      "start": 255,
-      "end": 296
+      "start": 298,
+      "end": 339
     },
     {
       "type": "VariableDeclaration",
@@ -404,8 +404,8 @@ __ESTREE_TEST__:AST:
             "name": "a",
             "optional": false,
             "typeAnnotation": null,
-            "start": 302,
-            "end": 303
+            "start": 345,
+            "end": 346
           },
           "init": {
             "type": "JSXElement",
@@ -414,28 +414,28 @@ __ESTREE_TEST__:AST:
               "name": {
                 "type": "JSXIdentifier",
                 "name": "EmptySFCComp",
-                "start": 307,
-                "end": 319
+                "start": 350,
+                "end": 362
               },
               "typeArguments": null,
               "attributes": [],
               "selfClosing": true,
-              "start": 306,
-              "end": 322
+              "start": 349,
+              "end": 365
             },
             "children": [],
             "closingElement": null,
-            "start": 306,
-            "end": 322
+            "start": 349,
+            "end": 365
           },
           "definite": false,
-          "start": 302,
-          "end": 322
+          "start": 345,
+          "end": 365
         }
       ],
       "declare": false,
-      "start": 298,
-      "end": 322
+      "start": 341,
+      "end": 365
     },
     {
       "type": "VariableDeclaration",
@@ -449,8 +449,8 @@ __ESTREE_TEST__:AST:
             "name": "a1",
             "optional": false,
             "typeAnnotation": null,
-            "start": 327,
-            "end": 329
+            "start": 370,
+            "end": 372
           },
           "init": {
             "type": "JSXElement",
@@ -459,8 +459,8 @@ __ESTREE_TEST__:AST:
               "name": {
                 "type": "JSXIdentifier",
                 "name": "EmptySFCComp",
-                "start": 333,
-                "end": 345
+                "start": 376,
+                "end": 388
               },
               "typeArguments": null,
               "attributes": [
@@ -469,31 +469,31 @@ __ESTREE_TEST__:AST:
                   "name": {
                     "type": "JSXIdentifier",
                     "name": "data-prop",
-                    "start": 346,
-                    "end": 355
+                    "start": 389,
+                    "end": 398
                   },
                   "value": null,
-                  "start": 346,
-                  "end": 355
+                  "start": 389,
+                  "end": 398
                 }
               ],
               "selfClosing": true,
-              "start": 332,
-              "end": 358
+              "start": 375,
+              "end": 401
             },
             "children": [],
             "closingElement": null,
-            "start": 332,
-            "end": 358
+            "start": 375,
+            "end": 401
           },
           "definite": false,
-          "start": 327,
-          "end": 358
+          "start": 370,
+          "end": 401
         }
       ],
       "declare": false,
-      "start": 323,
-      "end": 358
+      "start": 366,
+      "end": 401
     },
     {
       "type": "VariableDeclaration",
@@ -507,8 +507,8 @@ __ESTREE_TEST__:AST:
             "name": "b",
             "optional": false,
             "typeAnnotation": null,
-            "start": 363,
-            "end": 364
+            "start": 406,
+            "end": 407
           },
           "init": {
             "type": "JSXElement",
@@ -517,8 +517,8 @@ __ESTREE_TEST__:AST:
               "name": {
                 "type": "JSXIdentifier",
                 "name": "SFC2AndEmptyComp",
-                "start": 368,
-                "end": 384
+                "start": 411,
+                "end": 427
               },
               "typeArguments": null,
               "attributes": [
@@ -527,37 +527,37 @@ __ESTREE_TEST__:AST:
                   "name": {
                     "type": "JSXIdentifier",
                     "name": "x",
-                    "start": 385,
-                    "end": 386
+                    "start": 428,
+                    "end": 429
                   },
                   "value": null,
-                  "start": 385,
-                  "end": 386
+                  "start": 428,
+                  "end": 429
                 }
               ],
               "selfClosing": true,
-              "start": 367,
-              "end": 389
+              "start": 410,
+              "end": 432
             },
             "children": [],
             "closingElement": null,
-            "start": 367,
-            "end": 389
+            "start": 410,
+            "end": 432
           },
           "definite": false,
-          "start": 363,
-          "end": 389
+          "start": 406,
+          "end": 432
         }
       ],
       "declare": false,
-      "start": 359,
-      "end": 389
+      "start": 402,
+      "end": 432
     }
   ],
   "sourceType": "script",
   "hashbang": null,
-  "start": 0,
-  "end": 389
+  "start": 43,
+  "end": 432
 }
 ```
 __ESTREE_TEST__:TOKENS:
@@ -566,422 +566,380 @@ __ESTREE_TEST__:TOKENS:
   {
     "type": "Keyword",
     "value": "import",
-    "start": 0,
-    "end": 6
+    "start": 43,
+    "end": 49
   },
   {
     "type": "Identifier",
     "value": "React",
-    "start": 7,
-    "end": 12
+    "start": 50,
+    "end": 55
   },
   {
     "type": "Punctuator",
     "value": "=",
-    "start": 13,
-    "end": 14
+    "start": 56,
+    "end": 57
   },
   {
     "type": "Identifier",
     "value": "require",
-    "start": 15,
-    "end": 22
+    "start": 58,
+    "end": 65
   },
   {
     "type": "Punctuator",
     "value": "(",
-    "start": 22,
-    "end": 23
+    "start": 65,
+    "end": 66
   },
   {
     "type": "String",
     "value": "'react'",
-    "start": 23,
-    "end": 30
+    "start": 66,
+    "end": 73
   },
   {
     "type": "Punctuator",
     "value": ")",
-    "start": 30,
-    "end": 31
+    "start": 73,
+    "end": 74
   },
   {
     "type": "Punctuator",
     "value": ";",
-    "start": 31,
-    "end": 32
+    "start": 74,
+    "end": 75
   },
   {
     "type": "Keyword",
     "value": "function",
-    "start": 34,
-    "end": 42
+    "start": 77,
+    "end": 85
   },
   {
     "type": "Identifier",
     "value": "EmptySFC1",
-    "start": 43,
-    "end": 52
+    "start": 86,
+    "end": 95
   },
   {
     "type": "Punctuator",
     "value": "(",
-    "start": 52,
-    "end": 53
+    "start": 95,
+    "end": 96
   },
   {
     "type": "Punctuator",
     "value": ")",
-    "start": 53,
-    "end": 54
+    "start": 96,
+    "end": 97
   },
   {
     "type": "Punctuator",
     "value": "{",
-    "start": 55,
-    "end": 56
+    "start": 98,
+    "end": 99
   },
   {
     "type": "Keyword",
     "value": "return",
-    "start": 61,
-    "end": 67
+    "start": 104,
+    "end": 110
   },
   {
     "type": "Punctuator",
     "value": "<",
-    "start": 68,
-    "end": 69
+    "start": 111,
+    "end": 112
   },
   {
     "type": "JSXIdentifier",
     "value": "div",
-    "start": 69,
-    "end": 72
+    "start": 112,
+    "end": 115
   },
   {
     "type": "Punctuator",
     "value": ">",
-    "start": 72,
-    "end": 73
+    "start": 115,
+    "end": 116
   },
   {
     "type": "JSXText",
     "value": "hello",
-    "start": 73,
-    "end": 78
+    "start": 116,
+    "end": 121
   },
   {
     "type": "Punctuator",
     "value": "<",
-    "start": 78,
-    "end": 79
-  },
-  {
-    "type": "Punctuator",
-    "value": "/",
-    "start": 79,
-    "end": 80
-  },
-  {
-    "type": "JSXIdentifier",
-    "value": "div",
-    "start": 80,
-    "end": 83
-  },
-  {
-    "type": "Punctuator",
-    "value": ">",
-    "start": 83,
-    "end": 84
-  },
-  {
-    "type": "Punctuator",
-    "value": ";",
-    "start": 84,
-    "end": 85
-  },
-  {
-    "type": "Punctuator",
-    "value": "}",
-    "start": 86,
-    "end": 87
-  },
-  {
-    "type": "Keyword",
-    "value": "function",
-    "start": 89,
-    "end": 97
-  },
-  {
-    "type": "Identifier",
-    "value": "EmptySFC2",
-    "start": 98,
-    "end": 107
-  },
-  {
-    "type": "Punctuator",
-    "value": "(",
-    "start": 107,
-    "end": 108
-  },
-  {
-    "type": "Punctuator",
-    "value": ")",
-    "start": 108,
-    "end": 109
-  },
-  {
-    "type": "Punctuator",
-    "value": "{",
-    "start": 110,
-    "end": 111
-  },
-  {
-    "type": "Keyword",
-    "value": "return",
-    "start": 116,
+    "start": 121,
     "end": 122
   },
   {
     "type": "Punctuator",
-    "value": "<",
-    "start": 123,
-    "end": 124
+    "value": "/",
+    "start": 122,
+    "end": 123
   },
   {
     "type": "JSXIdentifier",
     "value": "div",
-    "start": 124,
+    "start": 123,
+    "end": 126
+  },
+  {
+    "type": "Punctuator",
+    "value": ">",
+    "start": 126,
     "end": 127
   },
   {
     "type": "Punctuator",
-    "value": ">",
+    "value": ";",
     "start": 127,
     "end": 128
   },
   {
-    "type": "JSXText",
-    "value": "Hello",
-    "start": 128,
-    "end": 133
-  },
-  {
-    "type": "Punctuator",
-    "value": "<",
-    "start": 133,
-    "end": 134
-  },
-  {
-    "type": "Punctuator",
-    "value": "/",
-    "start": 134,
-    "end": 135
-  },
-  {
-    "type": "JSXIdentifier",
-    "value": "div",
-    "start": 135,
-    "end": 138
-  },
-  {
-    "type": "Punctuator",
-    "value": ">",
-    "start": 138,
-    "end": 139
-  },
-  {
-    "type": "Punctuator",
-    "value": ";",
-    "start": 139,
-    "end": 140
-  },
-  {
     "type": "Punctuator",
     "value": "}",
-    "start": 141,
-    "end": 142
+    "start": 129,
+    "end": 130
   },
   {
     "type": "Keyword",
     "value": "function",
-    "start": 144,
-    "end": 152
-  },
-  {
-    "type": "Identifier",
-    "value": "SFC2",
-    "start": 153,
-    "end": 157
-  },
-  {
-    "type": "Punctuator",
-    "value": "(",
-    "start": 157,
-    "end": 158
-  },
-  {
-    "type": "Identifier",
-    "value": "prop",
-    "start": 158,
-    "end": 162
-  },
-  {
-    "type": "Punctuator",
-    "value": ":",
-    "start": 162,
-    "end": 163
-  },
-  {
-    "type": "Punctuator",
-    "value": "{",
-    "start": 164,
-    "end": 165
-  },
-  {
-    "type": "Identifier",
-    "value": "x",
-    "start": 166,
-    "end": 167
-  },
-  {
-    "type": "Punctuator",
-    "value": ":",
-    "start": 167,
-    "end": 168
-  },
-  {
-    "type": "Identifier",
-    "value": "boolean",
-    "start": 169,
-    "end": 176
-  },
-  {
-    "type": "Punctuator",
-    "value": "}",
-    "start": 177,
-    "end": 178
-  },
-  {
-    "type": "Punctuator",
-    "value": ")",
-    "start": 178,
-    "end": 179
-  },
-  {
-    "type": "Punctuator",
-    "value": "{",
-    "start": 180,
-    "end": 181
-  },
-  {
-    "type": "Keyword",
-    "value": "return",
-    "start": 186,
-    "end": 192
-  },
-  {
-    "type": "Punctuator",
-    "value": "<",
-    "start": 193,
-    "end": 194
-  },
-  {
-    "type": "JSXIdentifier",
-    "value": "h1",
-    "start": 194,
-    "end": 196
-  },
-  {
-    "type": "Punctuator",
-    "value": ">",
-    "start": 196,
-    "end": 197
-  },
-  {
-    "type": "JSXText",
-    "value": "World",
-    "start": 197,
-    "end": 202
-  },
-  {
-    "type": "Punctuator",
-    "value": "<",
-    "start": 202,
-    "end": 203
-  },
-  {
-    "type": "Punctuator",
-    "value": "/",
-    "start": 203,
-    "end": 204
-  },
-  {
-    "type": "JSXIdentifier",
-    "value": "h1",
-    "start": 204,
-    "end": 206
-  },
-  {
-    "type": "Punctuator",
-    "value": ">",
-    "start": 206,
-    "end": 207
-  },
-  {
-    "type": "Punctuator",
-    "value": ";",
-    "start": 207,
-    "end": 208
-  },
-  {
-    "type": "Punctuator",
-    "value": "}",
-    "start": 209,
-    "end": 210
-  },
-  {
-    "type": "Keyword",
-    "value": "var",
-    "start": 212,
-    "end": 215
-  },
-  {
-    "type": "Identifier",
-    "value": "EmptySFCComp",
-    "start": 216,
-    "end": 228
-  },
-  {
-    "type": "Punctuator",
-    "value": "=",
-    "start": 229,
-    "end": 230
-  },
-  {
-    "type": "Identifier",
-    "value": "EmptySFC1",
-    "start": 231,
-    "end": 240
-  },
-  {
-    "type": "Punctuator",
-    "value": "||",
-    "start": 241,
-    "end": 243
+    "start": 132,
+    "end": 140
   },
   {
     "type": "Identifier",
     "value": "EmptySFC2",
-    "start": 244,
-    "end": 253
+    "start": 141,
+    "end": 150
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 150,
+    "end": 151
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 151,
+    "end": 152
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 153,
+    "end": 154
+  },
+  {
+    "type": "Keyword",
+    "value": "return",
+    "start": 159,
+    "end": 165
+  },
+  {
+    "type": "Punctuator",
+    "value": "<",
+    "start": 166,
+    "end": 167
+  },
+  {
+    "type": "JSXIdentifier",
+    "value": "div",
+    "start": 167,
+    "end": 170
+  },
+  {
+    "type": "Punctuator",
+    "value": ">",
+    "start": 170,
+    "end": 171
+  },
+  {
+    "type": "JSXText",
+    "value": "Hello",
+    "start": 171,
+    "end": 176
+  },
+  {
+    "type": "Punctuator",
+    "value": "<",
+    "start": 176,
+    "end": 177
+  },
+  {
+    "type": "Punctuator",
+    "value": "/",
+    "start": 177,
+    "end": 178
+  },
+  {
+    "type": "JSXIdentifier",
+    "value": "div",
+    "start": 178,
+    "end": 181
+  },
+  {
+    "type": "Punctuator",
+    "value": ">",
+    "start": 181,
+    "end": 182
   },
   {
     "type": "Punctuator",
     "value": ";",
-    "start": 253,
-    "end": 254
+    "start": 182,
+    "end": 183
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 184,
+    "end": 185
+  },
+  {
+    "type": "Keyword",
+    "value": "function",
+    "start": 187,
+    "end": 195
+  },
+  {
+    "type": "Identifier",
+    "value": "SFC2",
+    "start": 196,
+    "end": 200
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 200,
+    "end": 201
+  },
+  {
+    "type": "Identifier",
+    "value": "prop",
+    "start": 201,
+    "end": 205
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 205,
+    "end": 206
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 207,
+    "end": 208
+  },
+  {
+    "type": "Identifier",
+    "value": "x",
+    "start": 209,
+    "end": 210
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 210,
+    "end": 211
+  },
+  {
+    "type": "Identifier",
+    "value": "boolean",
+    "start": 212,
+    "end": 219
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 220,
+    "end": 221
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 221,
+    "end": 222
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 223,
+    "end": 224
+  },
+  {
+    "type": "Keyword",
+    "value": "return",
+    "start": 229,
+    "end": 235
+  },
+  {
+    "type": "Punctuator",
+    "value": "<",
+    "start": 236,
+    "end": 237
+  },
+  {
+    "type": "JSXIdentifier",
+    "value": "h1",
+    "start": 237,
+    "end": 239
+  },
+  {
+    "type": "Punctuator",
+    "value": ">",
+    "start": 239,
+    "end": 240
+  },
+  {
+    "type": "JSXText",
+    "value": "World",
+    "start": 240,
+    "end": 245
+  },
+  {
+    "type": "Punctuator",
+    "value": "<",
+    "start": 245,
+    "end": 246
+  },
+  {
+    "type": "Punctuator",
+    "value": "/",
+    "start": 246,
+    "end": 247
+  },
+  {
+    "type": "JSXIdentifier",
+    "value": "h1",
+    "start": 247,
+    "end": 249
+  },
+  {
+    "type": "Punctuator",
+    "value": ">",
+    "start": 249,
+    "end": 250
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 250,
+    "end": 251
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 252,
+    "end": 253
   },
   {
     "type": "Keyword",
@@ -991,177 +949,219 @@ __ESTREE_TEST__:TOKENS:
   },
   {
     "type": "Identifier",
-    "value": "SFC2AndEmptyComp",
+    "value": "EmptySFCComp",
     "start": 259,
-    "end": 275
+    "end": 271
   },
   {
     "type": "Punctuator",
     "value": "=",
-    "start": 276,
-    "end": 277
-  },
-  {
-    "type": "Identifier",
-    "value": "SFC2",
-    "start": 278,
-    "end": 282
-  },
-  {
-    "type": "Punctuator",
-    "value": "||",
-    "start": 283,
-    "end": 285
+    "start": 272,
+    "end": 273
   },
   {
     "type": "Identifier",
     "value": "EmptySFC1",
-    "start": 286,
-    "end": 295
+    "start": 274,
+    "end": 283
+  },
+  {
+    "type": "Punctuator",
+    "value": "||",
+    "start": 284,
+    "end": 286
+  },
+  {
+    "type": "Identifier",
+    "value": "EmptySFC2",
+    "start": 287,
+    "end": 296
   },
   {
     "type": "Punctuator",
     "value": ";",
-    "start": 295,
-    "end": 296
+    "start": 296,
+    "end": 297
   },
   {
     "type": "Keyword",
-    "value": "let",
+    "value": "var",
     "start": 298,
     "end": 301
   },
   {
     "type": "Identifier",
-    "value": "a",
+    "value": "SFC2AndEmptyComp",
     "start": 302,
-    "end": 303
+    "end": 318
   },
   {
     "type": "Punctuator",
     "value": "=",
-    "start": 304,
-    "end": 305
-  },
-  {
-    "type": "Punctuator",
-    "value": "<",
-    "start": 306,
-    "end": 307
-  },
-  {
-    "type": "JSXIdentifier",
-    "value": "EmptySFCComp",
-    "start": 307,
-    "end": 319
-  },
-  {
-    "type": "Punctuator",
-    "value": "/",
-    "start": 320,
-    "end": 321
-  },
-  {
-    "type": "Punctuator",
-    "value": ">",
-    "start": 321,
-    "end": 322
-  },
-  {
-    "type": "Keyword",
-    "value": "let",
-    "start": 323,
-    "end": 326
+    "start": 319,
+    "end": 320
   },
   {
     "type": "Identifier",
-    "value": "a1",
-    "start": 327,
-    "end": 329
+    "value": "SFC2",
+    "start": 321,
+    "end": 325
   },
   {
     "type": "Punctuator",
-    "value": "=",
-    "start": 330,
-    "end": 331
+    "value": "||",
+    "start": 326,
+    "end": 328
+  },
+  {
+    "type": "Identifier",
+    "value": "EmptySFC1",
+    "start": 329,
+    "end": 338
   },
   {
     "type": "Punctuator",
-    "value": "<",
-    "start": 332,
-    "end": 333
-  },
-  {
-    "type": "JSXIdentifier",
-    "value": "EmptySFCComp",
-    "start": 333,
-    "end": 345
-  },
-  {
-    "type": "JSXIdentifier",
-    "value": "data-prop",
-    "start": 346,
-    "end": 355
-  },
-  {
-    "type": "Punctuator",
-    "value": "/",
-    "start": 356,
-    "end": 357
-  },
-  {
-    "type": "Punctuator",
-    "value": ">",
-    "start": 357,
-    "end": 358
+    "value": ";",
+    "start": 338,
+    "end": 339
   },
   {
     "type": "Keyword",
     "value": "let",
-    "start": 359,
+    "start": 341,
+    "end": 344
+  },
+  {
+    "type": "Identifier",
+    "value": "a",
+    "start": 345,
+    "end": 346
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 347,
+    "end": 348
+  },
+  {
+    "type": "Punctuator",
+    "value": "<",
+    "start": 349,
+    "end": 350
+  },
+  {
+    "type": "JSXIdentifier",
+    "value": "EmptySFCComp",
+    "start": 350,
     "end": 362
   },
   {
-    "type": "Identifier",
-    "value": "b",
+    "type": "Punctuator",
+    "value": "/",
     "start": 363,
     "end": 364
   },
   {
     "type": "Punctuator",
+    "value": ">",
+    "start": 364,
+    "end": 365
+  },
+  {
+    "type": "Keyword",
+    "value": "let",
+    "start": 366,
+    "end": 369
+  },
+  {
+    "type": "Identifier",
+    "value": "a1",
+    "start": 370,
+    "end": 372
+  },
+  {
+    "type": "Punctuator",
     "value": "=",
-    "start": 365,
-    "end": 366
+    "start": 373,
+    "end": 374
   },
   {
     "type": "Punctuator",
     "value": "<",
-    "start": 367,
-    "end": 368
+    "start": 375,
+    "end": 376
   },
   {
     "type": "JSXIdentifier",
-    "value": "SFC2AndEmptyComp",
-    "start": 368,
-    "end": 384
+    "value": "EmptySFCComp",
+    "start": 376,
+    "end": 388
   },
   {
     "type": "JSXIdentifier",
-    "value": "x",
-    "start": 385,
-    "end": 386
+    "value": "data-prop",
+    "start": 389,
+    "end": 398
   },
   {
     "type": "Punctuator",
     "value": "/",
-    "start": 387,
-    "end": 388
+    "start": 399,
+    "end": 400
   },
   {
     "type": "Punctuator",
     "value": ">",
-    "start": 388,
-    "end": 389
+    "start": 400,
+    "end": 401
+  },
+  {
+    "type": "Keyword",
+    "value": "let",
+    "start": 402,
+    "end": 405
+  },
+  {
+    "type": "Identifier",
+    "value": "b",
+    "start": 406,
+    "end": 407
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 408,
+    "end": 409
+  },
+  {
+    "type": "Punctuator",
+    "value": "<",
+    "start": 410,
+    "end": 411
+  },
+  {
+    "type": "JSXIdentifier",
+    "value": "SFC2AndEmptyComp",
+    "start": 411,
+    "end": 427
+  },
+  {
+    "type": "JSXIdentifier",
+    "value": "x",
+    "start": 428,
+    "end": 429
+  },
+  {
+    "type": "Punctuator",
+    "value": "/",
+    "start": 430,
+    "end": 431
+  },
+  {
+    "type": "Punctuator",
+    "value": ">",
+    "start": 431,
+    "end": 432
   }
 ]
 ```

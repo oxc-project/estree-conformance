@@ -786,9 +786,105 @@
     "end": 1238
   },
   {
+    "type": "Identifier",
+    "value": "verifyProperty",
+    "start": 1241,
+    "end": 1255
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1255,
+    "end": 1256
+  },
+  {
+    "type": "Keyword",
+    "value": "new",
+    "start": 1256,
+    "end": 1259
+  },
+  {
+    "type": "Identifier",
+    "value": "nativeError",
+    "start": 1260,
+    "end": 1271
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1271,
+    "end": 1272
+  },
+  {
+    "type": "Identifier",
+    "value": "message",
+    "start": 1272,
+    "end": 1279
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1279,
+    "end": 1280
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 1281,
+    "end": 1282
+  },
+  {
     "type": "Punctuator",
     "value": "}",
-    "start": 1239,
-    "end": 1240
+    "start": 1282,
+    "end": 1283
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1283,
+    "end": 1284
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1284,
+    "end": 1285
+  },
+  {
+    "type": "String",
+    "value": "\"cause\"",
+    "start": 1286,
+    "end": 1293
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1293,
+    "end": 1294
+  },
+  {
+    "type": "Identifier",
+    "value": "undefined",
+    "start": 1295,
+    "end": 1304
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1304,
+    "end": 1305
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1305,
+    "end": 1306
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 1307,
+    "end": 1308
   }
 ]

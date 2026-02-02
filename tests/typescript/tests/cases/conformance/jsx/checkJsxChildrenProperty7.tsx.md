@@ -11,8 +11,8 @@ __ESTREE_TEST__:AST:
         "name": "React",
         "optional": false,
         "typeAnnotation": null,
-        "start": 7,
-        "end": 12
+        "start": 50,
+        "end": 55
       },
       "moduleReference": {
         "type": "TSExternalModuleReference",
@@ -20,15 +20,15 @@ __ESTREE_TEST__:AST:
           "type": "Literal",
           "value": "react",
           "raw": "'react'",
-          "start": 23,
-          "end": 30
+          "start": 66,
+          "end": 73
         },
-        "start": 15,
-        "end": 31
+        "start": 58,
+        "end": 74
       },
       "importKind": "value",
-      "start": 0,
-      "end": 32
+      "start": 43,
+      "end": 75
     },
     {
       "type": "TSInterfaceDeclaration",
@@ -38,8 +38,8 @@ __ESTREE_TEST__:AST:
         "name": "Prop",
         "optional": false,
         "typeAnnotation": null,
-        "start": 44,
-        "end": 48
+        "start": 87,
+        "end": 91
       },
       "typeParameters": null,
       "extends": [],
@@ -57,23 +57,23 @@ __ESTREE_TEST__:AST:
               "name": "a",
               "optional": false,
               "typeAnnotation": null,
-              "start": 55,
-              "end": 56
+              "start": 98,
+              "end": 99
             },
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "typeAnnotation": {
                 "type": "TSNumberKeyword",
-                "start": 58,
-                "end": 64
+                "start": 101,
+                "end": 107
               },
-              "start": 56,
-              "end": 64
+              "start": 99,
+              "end": 107
             },
             "accessibility": null,
             "static": false,
-            "start": 55,
-            "end": 65
+            "start": 98,
+            "end": 108
           },
           {
             "type": "TSPropertySignature",
@@ -86,23 +86,23 @@ __ESTREE_TEST__:AST:
               "name": "b",
               "optional": false,
               "typeAnnotation": null,
-              "start": 70,
-              "end": 71
+              "start": 113,
+              "end": 114
             },
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "typeAnnotation": {
                 "type": "TSStringKeyword",
-                "start": 73,
-                "end": 79
+                "start": 116,
+                "end": 122
               },
-              "start": 71,
-              "end": 79
+              "start": 114,
+              "end": 122
             },
             "accessibility": null,
             "static": false,
-            "start": 70,
-            "end": 80
+            "start": 113,
+            "end": 123
           },
           {
             "type": "TSPropertySignature",
@@ -115,8 +115,8 @@ __ESTREE_TEST__:AST:
               "name": "children",
               "optional": false,
               "typeAnnotation": null,
-              "start": 85,
-              "end": 93
+              "start": 128,
+              "end": 136
             },
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
@@ -133,8 +133,8 @@ __ESTREE_TEST__:AST:
                         "name": "JSX",
                         "optional": false,
                         "typeAnnotation": null,
-                        "start": 95,
-                        "end": 98
+                        "start": 138,
+                        "end": 141
                       },
                       "right": {
                         "type": "Identifier",
@@ -142,15 +142,15 @@ __ESTREE_TEST__:AST:
                         "name": "Element",
                         "optional": false,
                         "typeAnnotation": null,
-                        "start": 99,
-                        "end": 106
+                        "start": 142,
+                        "end": 149
                       },
-                      "start": 95,
-                      "end": 106
+                      "start": 138,
+                      "end": 149
                     },
                     "typeArguments": null,
-                    "start": 95,
-                    "end": 106
+                    "start": 138,
+                    "end": 149
                   },
                   {
                     "type": "TSArrayType",
@@ -164,8 +164,8 @@ __ESTREE_TEST__:AST:
                           "name": "JSX",
                           "optional": false,
                           "typeAnnotation": null,
-                          "start": 109,
-                          "end": 112
+                          "start": 152,
+                          "end": 155
                         },
                         "right": {
                           "type": "Identifier",
@@ -173,38 +173,38 @@ __ESTREE_TEST__:AST:
                           "name": "Element",
                           "optional": false,
                           "typeAnnotation": null,
-                          "start": 113,
-                          "end": 120
+                          "start": 156,
+                          "end": 163
                         },
-                        "start": 109,
-                        "end": 120
+                        "start": 152,
+                        "end": 163
                       },
                       "typeArguments": null,
-                      "start": 109,
-                      "end": 120
+                      "start": 152,
+                      "end": 163
                     },
-                    "start": 109,
-                    "end": 122
+                    "start": 152,
+                    "end": 165
                   }
                 ],
-                "start": 95,
-                "end": 122
+                "start": 138,
+                "end": 165
               },
-              "start": 93,
-              "end": 122
+              "start": 136,
+              "end": 165
             },
             "accessibility": null,
             "static": false,
-            "start": 85,
-            "end": 123
+            "start": 128,
+            "end": 166
           }
         ],
-        "start": 49,
-        "end": 125
+        "start": 92,
+        "end": 168
       },
       "declare": false,
-      "start": 34,
-      "end": 125
+      "start": 77,
+      "end": 168
     },
     {
       "type": "ClassDeclaration",
@@ -215,8 +215,8 @@ __ESTREE_TEST__:AST:
         "name": "Button",
         "optional": false,
         "typeAnnotation": null,
-        "start": 133,
-        "end": 139
+        "start": 176,
+        "end": 182
       },
       "typeParameters": null,
       "superClass": {
@@ -227,8 +227,8 @@ __ESTREE_TEST__:AST:
           "name": "React",
           "optional": false,
           "typeAnnotation": null,
-          "start": 148,
-          "end": 153
+          "start": 191,
+          "end": 196
         },
         "property": {
           "type": "Identifier",
@@ -236,30 +236,30 @@ __ESTREE_TEST__:AST:
           "name": "Component",
           "optional": false,
           "typeAnnotation": null,
-          "start": 154,
-          "end": 163
+          "start": 197,
+          "end": 206
         },
         "optional": false,
         "computed": false,
-        "start": 148,
-        "end": 163
+        "start": 191,
+        "end": 206
       },
       "superTypeArguments": {
         "type": "TSTypeParameterInstantiation",
         "params": [
           {
             "type": "TSAnyKeyword",
-            "start": 164,
-            "end": 167
+            "start": 207,
+            "end": 210
           },
           {
             "type": "TSAnyKeyword",
-            "start": 169,
-            "end": 172
+            "start": 212,
+            "end": 215
           }
         ],
-        "start": 163,
-        "end": 173
+        "start": 206,
+        "end": 216
       },
       "implements": [],
       "body": {
@@ -274,8 +274,8 @@ __ESTREE_TEST__:AST:
               "name": "render",
               "optional": false,
               "typeAnnotation": null,
-              "start": 180,
-              "end": 186
+              "start": 223,
+              "end": 229
             },
             "value": {
               "type": "FunctionExpression",
@@ -298,22 +298,22 @@ __ESTREE_TEST__:AST:
                         "name": {
                           "type": "JSXIdentifier",
                           "name": "div",
-                          "start": 208,
-                          "end": 211
+                          "start": 251,
+                          "end": 254
                         },
                         "typeArguments": null,
                         "attributes": [],
                         "selfClosing": false,
-                        "start": 207,
-                        "end": 212
+                        "start": 250,
+                        "end": 255
                       },
                       "children": [
                         {
                           "type": "JSXText",
                           "value": "My Button",
                           "raw": "My Button",
-                          "start": 212,
-                          "end": 221
+                          "start": 255,
+                          "end": 264
                         }
                       ],
                       "closingElement": {
@@ -321,25 +321,25 @@ __ESTREE_TEST__:AST:
                         "name": {
                           "type": "JSXIdentifier",
                           "name": "div",
-                          "start": 223,
-                          "end": 226
+                          "start": 266,
+                          "end": 269
                         },
-                        "start": 221,
-                        "end": 227
+                        "start": 264,
+                        "end": 270
                       },
-                      "start": 207,
-                      "end": 227
+                      "start": 250,
+                      "end": 270
                     },
-                    "start": 199,
-                    "end": 228
+                    "start": 242,
+                    "end": 271
                   }
                 ],
-                "start": 189,
-                "end": 234
+                "start": 232,
+                "end": 277
               },
               "expression": false,
-              "start": 186,
-              "end": 234
+              "start": 229,
+              "end": 277
             },
             "kind": "method",
             "computed": false,
@@ -347,17 +347,17 @@ __ESTREE_TEST__:AST:
             "override": false,
             "optional": false,
             "accessibility": null,
-            "start": 180,
-            "end": 234
+            "start": 223,
+            "end": 277
           }
         ],
-        "start": 174,
-        "end": 236
+        "start": 217,
+        "end": 279
       },
       "abstract": false,
       "declare": false,
-      "start": 127,
-      "end": 236
+      "start": 170,
+      "end": 279
     },
     {
       "type": "FunctionDeclaration",
@@ -367,8 +367,8 @@ __ESTREE_TEST__:AST:
         "name": "AnotherButton",
         "optional": false,
         "typeAnnotation": null,
-        "start": 247,
-        "end": 260
+        "start": 290,
+        "end": 303
       },
       "generator": false,
       "async": false,
@@ -384,14 +384,14 @@ __ESTREE_TEST__:AST:
             "type": "TSTypeAnnotation",
             "typeAnnotation": {
               "type": "TSAnyKeyword",
-              "start": 264,
-              "end": 267
+              "start": 307,
+              "end": 310
             },
-            "start": 262,
-            "end": 267
+            "start": 305,
+            "end": 310
           },
-          "start": 261,
-          "end": 267
+          "start": 304,
+          "end": 310
         }
       ],
       "returnType": null,
@@ -407,22 +407,22 @@ __ESTREE_TEST__:AST:
                 "name": {
                   "type": "JSXIdentifier",
                   "name": "h1",
-                  "start": 283,
-                  "end": 285
+                  "start": 326,
+                  "end": 328
                 },
                 "typeArguments": null,
                 "attributes": [],
                 "selfClosing": false,
-                "start": 282,
-                "end": 286
+                "start": 325,
+                "end": 329
               },
               "children": [
                 {
                   "type": "JSXText",
                   "value": "Just Another Button",
                   "raw": "Just Another Button",
-                  "start": 286,
-                  "end": 305
+                  "start": 329,
+                  "end": 348
                 }
               ],
               "closingElement": {
@@ -430,25 +430,25 @@ __ESTREE_TEST__:AST:
                 "name": {
                   "type": "JSXIdentifier",
                   "name": "h1",
-                  "start": 307,
-                  "end": 309
+                  "start": 350,
+                  "end": 352
                 },
-                "start": 305,
-                "end": 310
+                "start": 348,
+                "end": 353
               },
-              "start": 282,
-              "end": 310
+              "start": 325,
+              "end": 353
             },
-            "start": 275,
-            "end": 311
+            "start": 318,
+            "end": 354
           }
         ],
-        "start": 269,
-        "end": 313
+        "start": 312,
+        "end": 356
       },
       "expression": false,
-      "start": 238,
-      "end": 313
+      "start": 281,
+      "end": 356
     },
     {
       "type": "FunctionDeclaration",
@@ -458,8 +458,8 @@ __ESTREE_TEST__:AST:
         "name": "Comp",
         "optional": false,
         "typeAnnotation": null,
-        "start": 324,
-        "end": 328
+        "start": 367,
+        "end": 371
       },
       "generator": false,
       "async": false,
@@ -481,18 +481,18 @@ __ESTREE_TEST__:AST:
                 "name": "Prop",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 332,
-                "end": 336
+                "start": 375,
+                "end": 379
               },
               "typeArguments": null,
-              "start": 332,
-              "end": 336
+              "start": 375,
+              "end": 379
             },
-            "start": 330,
-            "end": 336
+            "start": 373,
+            "end": 379
           },
-          "start": 329,
-          "end": 336
+          "start": 372,
+          "end": 379
         }
       ],
       "returnType": null,
@@ -508,14 +508,14 @@ __ESTREE_TEST__:AST:
                 "name": {
                   "type": "JSXIdentifier",
                   "name": "div",
-                  "start": 352,
-                  "end": 355
+                  "start": 395,
+                  "end": 398
                 },
                 "typeArguments": null,
                 "attributes": [],
                 "selfClosing": false,
-                "start": 351,
-                "end": 356
+                "start": 394,
+                "end": 399
               },
               "children": [
                 {
@@ -528,8 +528,8 @@ __ESTREE_TEST__:AST:
                       "name": "p",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 357,
-                      "end": 358
+                      "start": 400,
+                      "end": 401
                     },
                     "property": {
                       "type": "Identifier",
@@ -537,16 +537,16 @@ __ESTREE_TEST__:AST:
                       "name": "b",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 359,
-                      "end": 360
+                      "start": 402,
+                      "end": 403
                     },
                     "optional": false,
                     "computed": false,
-                    "start": 357,
-                    "end": 360
+                    "start": 400,
+                    "end": 403
                   },
-                  "start": 356,
-                  "end": 361
+                  "start": 399,
+                  "end": 404
                 }
               ],
               "closingElement": {
@@ -554,25 +554,25 @@ __ESTREE_TEST__:AST:
                 "name": {
                   "type": "JSXIdentifier",
                   "name": "div",
-                  "start": 363,
-                  "end": 366
+                  "start": 406,
+                  "end": 409
                 },
-                "start": 361,
-                "end": 367
+                "start": 404,
+                "end": 410
               },
-              "start": 351,
-              "end": 367
+              "start": 394,
+              "end": 410
             },
-            "start": 344,
-            "end": 368
+            "start": 387,
+            "end": 411
           }
         ],
-        "start": 338,
-        "end": 370
+        "start": 381,
+        "end": 413
       },
       "expression": false,
-      "start": 315,
-      "end": 370
+      "start": 358,
+      "end": 413
     },
     {
       "type": "VariableDeclaration",
@@ -586,8 +586,8 @@ __ESTREE_TEST__:AST:
             "name": "k1",
             "optional": false,
             "typeAnnotation": null,
-            "start": 406,
-            "end": 408
+            "start": 449,
+            "end": 451
           },
           "init": {
             "type": "JSXElement",
@@ -596,8 +596,8 @@ __ESTREE_TEST__:AST:
               "name": {
                 "type": "JSXIdentifier",
                 "name": "Comp",
-                "start": 412,
-                "end": 416
+                "start": 455,
+                "end": 459
               },
               "typeArguments": null,
               "attributes": [
@@ -606,8 +606,8 @@ __ESTREE_TEST__:AST:
                   "name": {
                     "type": "JSXIdentifier",
                     "name": "a",
-                    "start": 417,
-                    "end": 418
+                    "start": 460,
+                    "end": 461
                   },
                   "value": {
                     "type": "JSXExpressionContainer",
@@ -615,37 +615,37 @@ __ESTREE_TEST__:AST:
                       "type": "Literal",
                       "value": 10,
                       "raw": "10",
-                      "start": 420,
-                      "end": 422
+                      "start": 463,
+                      "end": 465
                     },
-                    "start": 419,
-                    "end": 423
+                    "start": 462,
+                    "end": 466
                   },
-                  "start": 417,
-                  "end": 423
+                  "start": 460,
+                  "end": 466
                 },
                 {
                   "type": "JSXAttribute",
                   "name": {
                     "type": "JSXIdentifier",
                     "name": "b",
-                    "start": 424,
-                    "end": 425
+                    "start": 467,
+                    "end": 468
                   },
                   "value": {
                     "type": "Literal",
                     "value": "hi",
                     "raw": "\"hi\"",
-                    "start": 426,
-                    "end": 430
+                    "start": 469,
+                    "end": 473
                   },
-                  "start": 424,
-                  "end": 430
+                  "start": 467,
+                  "end": 473
                 }
               ],
               "selfClosing": false,
-              "start": 411,
-              "end": 431
+              "start": 454,
+              "end": 474
             },
             "children": [
               {
@@ -655,26 +655,26 @@ __ESTREE_TEST__:AST:
                   "name": {
                     "type": "JSXIdentifier",
                     "name": "Button",
-                    "start": 432,
-                    "end": 438
+                    "start": 475,
+                    "end": 481
                   },
                   "typeArguments": null,
                   "attributes": [],
                   "selfClosing": true,
-                  "start": 431,
-                  "end": 441
+                  "start": 474,
+                  "end": 484
                 },
                 "children": [],
                 "closingElement": null,
-                "start": 431,
-                "end": 441
+                "start": 474,
+                "end": 484
               },
               {
                 "type": "JSXText",
                 "value": "  ",
                 "raw": "  ",
-                "start": 441,
-                "end": 443
+                "start": 484,
+                "end": 486
               },
               {
                 "type": "JSXElement",
@@ -683,19 +683,19 @@ __ESTREE_TEST__:AST:
                   "name": {
                     "type": "JSXIdentifier",
                     "name": "AnotherButton",
-                    "start": 444,
-                    "end": 457
+                    "start": 487,
+                    "end": 500
                   },
                   "typeArguments": null,
                   "attributes": [],
                   "selfClosing": true,
-                  "start": 443,
-                  "end": 460
+                  "start": 486,
+                  "end": 503
                 },
                 "children": [],
                 "closingElement": null,
-                "start": 443,
-                "end": 460
+                "start": 486,
+                "end": 503
               }
             ],
             "closingElement": {
@@ -703,23 +703,23 @@ __ESTREE_TEST__:AST:
               "name": {
                 "type": "JSXIdentifier",
                 "name": "Comp",
-                "start": 462,
-                "end": 466
+                "start": 505,
+                "end": 509
               },
-              "start": 460,
-              "end": 467
+              "start": 503,
+              "end": 510
             },
-            "start": 411,
-            "end": 467
+            "start": 454,
+            "end": 510
           },
           "definite": false,
-          "start": 406,
-          "end": 467
+          "start": 449,
+          "end": 510
         }
       ],
       "declare": false,
-      "start": 402,
-      "end": 468
+      "start": 445,
+      "end": 511
     },
     {
       "type": "VariableDeclaration",
@@ -733,8 +733,8 @@ __ESTREE_TEST__:AST:
             "name": "k2",
             "optional": false,
             "typeAnnotation": null,
-            "start": 473,
-            "end": 475
+            "start": 516,
+            "end": 518
           },
           "init": {
             "type": "JSXElement",
@@ -743,8 +743,8 @@ __ESTREE_TEST__:AST:
               "name": {
                 "type": "JSXIdentifier",
                 "name": "Comp",
-                "start": 479,
-                "end": 483
+                "start": 522,
+                "end": 526
               },
               "typeArguments": null,
               "attributes": [
@@ -753,8 +753,8 @@ __ESTREE_TEST__:AST:
                   "name": {
                     "type": "JSXIdentifier",
                     "name": "a",
-                    "start": 484,
-                    "end": 485
+                    "start": 527,
+                    "end": 528
                   },
                   "value": {
                     "type": "JSXExpressionContainer",
@@ -762,37 +762,37 @@ __ESTREE_TEST__:AST:
                       "type": "Literal",
                       "value": 10,
                       "raw": "10",
-                      "start": 487,
-                      "end": 489
+                      "start": 530,
+                      "end": 532
                     },
-                    "start": 486,
-                    "end": 490
+                    "start": 529,
+                    "end": 533
                   },
-                  "start": 484,
-                  "end": 490
+                  "start": 527,
+                  "end": 533
                 },
                 {
                   "type": "JSXAttribute",
                   "name": {
                     "type": "JSXIdentifier",
                     "name": "b",
-                    "start": 491,
-                    "end": 492
+                    "start": 534,
+                    "end": 535
                   },
                   "value": {
                     "type": "Literal",
                     "value": "hi",
                     "raw": "\"hi\"",
-                    "start": 493,
-                    "end": 497
+                    "start": 536,
+                    "end": 540
                   },
-                  "start": 491,
-                  "end": 497
+                  "start": 534,
+                  "end": 540
                 }
               ],
               "selfClosing": false,
-              "start": 478,
-              "end": 498
+              "start": 521,
+              "end": 541
             },
             "children": [
               {
@@ -802,26 +802,26 @@ __ESTREE_TEST__:AST:
                   "name": {
                     "type": "JSXIdentifier",
                     "name": "Button",
-                    "start": 499,
-                    "end": 505
+                    "start": 542,
+                    "end": 548
                   },
                   "typeArguments": null,
                   "attributes": [],
                   "selfClosing": true,
-                  "start": 498,
-                  "end": 508
+                  "start": 541,
+                  "end": 551
                 },
                 "children": [],
                 "closingElement": null,
-                "start": 498,
-                "end": 508
+                "start": 541,
+                "end": 551
               },
               {
                 "type": "JSXText",
                 "value": "\n    ",
                 "raw": "\n    ",
-                "start": 508,
-                "end": 513
+                "start": 551,
+                "end": 556
               },
               {
                 "type": "JSXElement",
@@ -830,26 +830,26 @@ __ESTREE_TEST__:AST:
                   "name": {
                     "type": "JSXIdentifier",
                     "name": "AnotherButton",
-                    "start": 514,
-                    "end": 527
+                    "start": 557,
+                    "end": 570
                   },
                   "typeArguments": null,
                   "attributes": [],
                   "selfClosing": true,
-                  "start": 513,
-                  "end": 530
+                  "start": 556,
+                  "end": 573
                 },
                 "children": [],
                 "closingElement": null,
-                "start": 513,
-                "end": 530
+                "start": 556,
+                "end": 573
               },
               {
                 "type": "JSXText",
                 "value": "  ",
                 "raw": "  ",
-                "start": 530,
-                "end": 532
+                "start": 573,
+                "end": 575
               }
             ],
             "closingElement": {
@@ -857,23 +857,23 @@ __ESTREE_TEST__:AST:
               "name": {
                 "type": "JSXIdentifier",
                 "name": "Comp",
-                "start": 534,
-                "end": 538
+                "start": 577,
+                "end": 581
               },
-              "start": 532,
-              "end": 539
+              "start": 575,
+              "end": 582
             },
-            "start": 478,
-            "end": 539
+            "start": 521,
+            "end": 582
           },
           "definite": false,
-          "start": 473,
-          "end": 539
+          "start": 516,
+          "end": 582
         }
       ],
       "declare": false,
-      "start": 469,
-      "end": 540
+      "start": 512,
+      "end": 583
     },
     {
       "type": "VariableDeclaration",
@@ -887,8 +887,8 @@ __ESTREE_TEST__:AST:
             "name": "k3",
             "optional": false,
             "typeAnnotation": null,
-            "start": 545,
-            "end": 547
+            "start": 588,
+            "end": 590
           },
           "init": {
             "type": "JSXElement",
@@ -897,8 +897,8 @@ __ESTREE_TEST__:AST:
               "name": {
                 "type": "JSXIdentifier",
                 "name": "Comp",
-                "start": 551,
-                "end": 555
+                "start": 594,
+                "end": 598
               },
               "typeArguments": null,
               "attributes": [
@@ -907,8 +907,8 @@ __ESTREE_TEST__:AST:
                   "name": {
                     "type": "JSXIdentifier",
                     "name": "a",
-                    "start": 556,
-                    "end": 557
+                    "start": 599,
+                    "end": 600
                   },
                   "value": {
                     "type": "JSXExpressionContainer",
@@ -916,45 +916,45 @@ __ESTREE_TEST__:AST:
                       "type": "Literal",
                       "value": 10,
                       "raw": "10",
-                      "start": 559,
-                      "end": 561
+                      "start": 602,
+                      "end": 604
                     },
-                    "start": 558,
-                    "end": 562
+                    "start": 601,
+                    "end": 605
                   },
-                  "start": 556,
-                  "end": 562
+                  "start": 599,
+                  "end": 605
                 },
                 {
                   "type": "JSXAttribute",
                   "name": {
                     "type": "JSXIdentifier",
                     "name": "b",
-                    "start": 563,
-                    "end": 564
+                    "start": 606,
+                    "end": 607
                   },
                   "value": {
                     "type": "Literal",
                     "value": "hi",
                     "raw": "\"hi\"",
-                    "start": 565,
-                    "end": 569
+                    "start": 608,
+                    "end": 612
                   },
-                  "start": 563,
-                  "end": 569
+                  "start": 606,
+                  "end": 612
                 }
               ],
               "selfClosing": false,
-              "start": 550,
-              "end": 570
+              "start": 593,
+              "end": 613
             },
             "children": [
               {
                 "type": "JSXText",
                 "value": "    ",
                 "raw": "    ",
-                "start": 570,
-                "end": 574
+                "start": 613,
+                "end": 617
               },
               {
                 "type": "JSXElement",
@@ -963,26 +963,26 @@ __ESTREE_TEST__:AST:
                   "name": {
                     "type": "JSXIdentifier",
                     "name": "Button",
-                    "start": 575,
-                    "end": 581
+                    "start": 618,
+                    "end": 624
                   },
                   "typeArguments": null,
                   "attributes": [],
                   "selfClosing": true,
-                  "start": 574,
-                  "end": 584
+                  "start": 617,
+                  "end": 627
                 },
                 "children": [],
                 "closingElement": null,
-                "start": 574,
-                "end": 584
+                "start": 617,
+                "end": 627
               },
               {
                 "type": "JSXText",
                 "value": "\n    ",
                 "raw": "\n    ",
-                "start": 584,
-                "end": 589
+                "start": 627,
+                "end": 632
               },
               {
                 "type": "JSXElement",
@@ -991,19 +991,19 @@ __ESTREE_TEST__:AST:
                   "name": {
                     "type": "JSXIdentifier",
                     "name": "AnotherButton",
-                    "start": 590,
-                    "end": 603
+                    "start": 633,
+                    "end": 646
                   },
                   "typeArguments": null,
                   "attributes": [],
                   "selfClosing": true,
-                  "start": 589,
-                  "end": 606
+                  "start": 632,
+                  "end": 649
                 },
                 "children": [],
                 "closingElement": null,
-                "start": 589,
-                "end": 606
+                "start": 632,
+                "end": 649
               }
             ],
             "closingElement": {
@@ -1011,29 +1011,29 @@ __ESTREE_TEST__:AST:
               "name": {
                 "type": "JSXIdentifier",
                 "name": "Comp",
-                "start": 608,
-                "end": 612
+                "start": 651,
+                "end": 655
               },
-              "start": 606,
-              "end": 613
+              "start": 649,
+              "end": 656
             },
-            "start": 550,
-            "end": 613
+            "start": 593,
+            "end": 656
           },
           "definite": false,
-          "start": 545,
-          "end": 613
+          "start": 588,
+          "end": 656
         }
       ],
       "declare": false,
-      "start": 541,
-      "end": 614
+      "start": 584,
+      "end": 657
     }
   ],
   "sourceType": "script",
   "hashbang": null,
-  "start": 0,
-  "end": 614
+  "start": 43,
+  "end": 657
 }
 ```
 __ESTREE_TEST__:TOKENS:
@@ -1042,1122 +1042,1038 @@ __ESTREE_TEST__:TOKENS:
   {
     "type": "Keyword",
     "value": "import",
-    "start": 0,
-    "end": 6
+    "start": 43,
+    "end": 49
   },
   {
     "type": "Identifier",
     "value": "React",
-    "start": 7,
-    "end": 12
+    "start": 50,
+    "end": 55
   },
   {
     "type": "Punctuator",
     "value": "=",
-    "start": 13,
-    "end": 14
-  },
-  {
-    "type": "Identifier",
-    "value": "require",
-    "start": 15,
-    "end": 22
-  },
-  {
-    "type": "Punctuator",
-    "value": "(",
-    "start": 22,
-    "end": 23
-  },
-  {
-    "type": "String",
-    "value": "'react'",
-    "start": 23,
-    "end": 30
-  },
-  {
-    "type": "Punctuator",
-    "value": ")",
-    "start": 30,
-    "end": 31
-  },
-  {
-    "type": "Punctuator",
-    "value": ";",
-    "start": 31,
-    "end": 32
-  },
-  {
-    "type": "Keyword",
-    "value": "interface",
-    "start": 34,
-    "end": 43
-  },
-  {
-    "type": "Identifier",
-    "value": "Prop",
-    "start": 44,
-    "end": 48
-  },
-  {
-    "type": "Punctuator",
-    "value": "{",
-    "start": 49,
-    "end": 50
-  },
-  {
-    "type": "Identifier",
-    "value": "a",
-    "start": 55,
-    "end": 56
-  },
-  {
-    "type": "Punctuator",
-    "value": ":",
     "start": 56,
     "end": 57
   },
   {
     "type": "Identifier",
-    "value": "number",
+    "value": "require",
     "start": 58,
-    "end": 64
-  },
-  {
-    "type": "Punctuator",
-    "value": ",",
-    "start": 64,
     "end": 65
   },
   {
-    "type": "Identifier",
-    "value": "b",
-    "start": 70,
-    "end": 71
+    "type": "Punctuator",
+    "value": "(",
+    "start": 65,
+    "end": 66
+  },
+  {
+    "type": "String",
+    "value": "'react'",
+    "start": 66,
+    "end": 73
   },
   {
     "type": "Punctuator",
-    "value": ":",
-    "start": 71,
-    "end": 72
-  },
-  {
-    "type": "Identifier",
-    "value": "string",
+    "value": ")",
     "start": 73,
-    "end": 79
+    "end": 74
   },
   {
     "type": "Punctuator",
-    "value": ",",
-    "start": 79,
-    "end": 80
+    "value": ";",
+    "start": 74,
+    "end": 75
+  },
+  {
+    "type": "Keyword",
+    "value": "interface",
+    "start": 77,
+    "end": 86
   },
   {
     "type": "Identifier",
-    "value": "children",
-    "start": 85,
+    "value": "Prop",
+    "start": 87,
+    "end": 91
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 92,
     "end": 93
   },
   {
-    "type": "Punctuator",
-    "value": ":",
-    "start": 93,
-    "end": 94
-  },
-  {
     "type": "Identifier",
-    "value": "JSX",
-    "start": 95,
-    "end": 98
-  },
-  {
-    "type": "Punctuator",
-    "value": ".",
+    "value": "a",
     "start": 98,
     "end": 99
   },
   {
-    "type": "Identifier",
-    "value": "Element",
+    "type": "Punctuator",
+    "value": ":",
     "start": 99,
-    "end": 106
+    "end": 100
+  },
+  {
+    "type": "Identifier",
+    "value": "number",
+    "start": 101,
+    "end": 107
   },
   {
     "type": "Punctuator",
-    "value": "|",
+    "value": ",",
     "start": 107,
     "end": 108
   },
   {
     "type": "Identifier",
-    "value": "JSX",
-    "start": 109,
-    "end": 112
-  },
-  {
-    "type": "Punctuator",
-    "value": ".",
-    "start": 112,
-    "end": 113
-  },
-  {
-    "type": "Identifier",
-    "value": "Element",
+    "value": "b",
     "start": 113,
-    "end": 120
-  },
-  {
-    "type": "Punctuator",
-    "value": "[",
-    "start": 120,
-    "end": 121
-  },
-  {
-    "type": "Punctuator",
-    "value": "]",
-    "start": 121,
-    "end": 122
-  },
-  {
-    "type": "Punctuator",
-    "value": ";",
-    "start": 122,
-    "end": 123
-  },
-  {
-    "type": "Punctuator",
-    "value": "}",
-    "start": 124,
-    "end": 125
-  },
-  {
-    "type": "Keyword",
-    "value": "class",
-    "start": 127,
-    "end": 132
-  },
-  {
-    "type": "Identifier",
-    "value": "Button",
-    "start": 133,
-    "end": 139
-  },
-  {
-    "type": "Keyword",
-    "value": "extends",
-    "start": 140,
-    "end": 147
-  },
-  {
-    "type": "Identifier",
-    "value": "React",
-    "start": 148,
-    "end": 153
-  },
-  {
-    "type": "Punctuator",
-    "value": ".",
-    "start": 153,
-    "end": 154
-  },
-  {
-    "type": "Identifier",
-    "value": "Component",
-    "start": 154,
-    "end": 163
-  },
-  {
-    "type": "Punctuator",
-    "value": "<",
-    "start": 163,
-    "end": 164
-  },
-  {
-    "type": "Identifier",
-    "value": "any",
-    "start": 164,
-    "end": 167
-  },
-  {
-    "type": "Punctuator",
-    "value": ",",
-    "start": 167,
-    "end": 168
-  },
-  {
-    "type": "Identifier",
-    "value": "any",
-    "start": 169,
-    "end": 172
-  },
-  {
-    "type": "Punctuator",
-    "value": ">",
-    "start": 172,
-    "end": 173
-  },
-  {
-    "type": "Punctuator",
-    "value": "{",
-    "start": 174,
-    "end": 175
-  },
-  {
-    "type": "Identifier",
-    "value": "render",
-    "start": 180,
-    "end": 186
-  },
-  {
-    "type": "Punctuator",
-    "value": "(",
-    "start": 186,
-    "end": 187
-  },
-  {
-    "type": "Punctuator",
-    "value": ")",
-    "start": 187,
-    "end": 188
-  },
-  {
-    "type": "Punctuator",
-    "value": "{",
-    "start": 189,
-    "end": 190
-  },
-  {
-    "type": "Keyword",
-    "value": "return",
-    "start": 199,
-    "end": 205
-  },
-  {
-    "type": "Punctuator",
-    "value": "(",
-    "start": 206,
-    "end": 207
-  },
-  {
-    "type": "Punctuator",
-    "value": "<",
-    "start": 207,
-    "end": 208
-  },
-  {
-    "type": "JSXIdentifier",
-    "value": "div",
-    "start": 208,
-    "end": 211
-  },
-  {
-    "type": "Punctuator",
-    "value": ">",
-    "start": 211,
-    "end": 212
-  },
-  {
-    "type": "JSXText",
-    "value": "My Button",
-    "start": 212,
-    "end": 221
-  },
-  {
-    "type": "Punctuator",
-    "value": "<",
-    "start": 221,
-    "end": 222
-  },
-  {
-    "type": "Punctuator",
-    "value": "/",
-    "start": 222,
-    "end": 223
-  },
-  {
-    "type": "JSXIdentifier",
-    "value": "div",
-    "start": 223,
-    "end": 226
-  },
-  {
-    "type": "Punctuator",
-    "value": ">",
-    "start": 226,
-    "end": 227
-  },
-  {
-    "type": "Punctuator",
-    "value": ")",
-    "start": 227,
-    "end": 228
-  },
-  {
-    "type": "Punctuator",
-    "value": "}",
-    "start": 233,
-    "end": 234
-  },
-  {
-    "type": "Punctuator",
-    "value": "}",
-    "start": 235,
-    "end": 236
-  },
-  {
-    "type": "Keyword",
-    "value": "function",
-    "start": 238,
-    "end": 246
-  },
-  {
-    "type": "Identifier",
-    "value": "AnotherButton",
-    "start": 247,
-    "end": 260
-  },
-  {
-    "type": "Punctuator",
-    "value": "(",
-    "start": 260,
-    "end": 261
-  },
-  {
-    "type": "Identifier",
-    "value": "p",
-    "start": 261,
-    "end": 262
+    "end": 114
   },
   {
     "type": "Punctuator",
     "value": ":",
-    "start": 262,
-    "end": 263
+    "start": 114,
+    "end": 115
   },
   {
     "type": "Identifier",
-    "value": "any",
-    "start": 264,
-    "end": 267
+    "value": "string",
+    "start": 116,
+    "end": 122
   },
   {
     "type": "Punctuator",
-    "value": ")",
-    "start": 267,
-    "end": 268
+    "value": ",",
+    "start": 122,
+    "end": 123
+  },
+  {
+    "type": "Identifier",
+    "value": "children",
+    "start": 128,
+    "end": 136
   },
   {
     "type": "Punctuator",
-    "value": "{",
-    "start": 269,
-    "end": 270
+    "value": ":",
+    "start": 136,
+    "end": 137
   },
   {
-    "type": "Keyword",
-    "value": "return",
-    "start": 275,
-    "end": 281
-  },
-  {
-    "type": "Punctuator",
-    "value": "<",
-    "start": 282,
-    "end": 283
-  },
-  {
-    "type": "JSXIdentifier",
-    "value": "h1",
-    "start": 283,
-    "end": 285
+    "type": "Identifier",
+    "value": "JSX",
+    "start": 138,
+    "end": 141
   },
   {
     "type": "Punctuator",
-    "value": ">",
-    "start": 285,
-    "end": 286
+    "value": ".",
+    "start": 141,
+    "end": 142
   },
   {
-    "type": "JSXText",
-    "value": "Just Another Button",
-    "start": 286,
-    "end": 305
-  },
-  {
-    "type": "Punctuator",
-    "value": "<",
-    "start": 305,
-    "end": 306
+    "type": "Identifier",
+    "value": "Element",
+    "start": 142,
+    "end": 149
   },
   {
     "type": "Punctuator",
-    "value": "/",
-    "start": 306,
-    "end": 307
+    "value": "|",
+    "start": 150,
+    "end": 151
   },
   {
-    "type": "JSXIdentifier",
-    "value": "h1",
-    "start": 307,
-    "end": 309
+    "type": "Identifier",
+    "value": "JSX",
+    "start": 152,
+    "end": 155
   },
   {
     "type": "Punctuator",
-    "value": ">",
-    "start": 309,
-    "end": 310
+    "value": ".",
+    "start": 155,
+    "end": 156
+  },
+  {
+    "type": "Identifier",
+    "value": "Element",
+    "start": 156,
+    "end": 163
+  },
+  {
+    "type": "Punctuator",
+    "value": "[",
+    "start": 163,
+    "end": 164
+  },
+  {
+    "type": "Punctuator",
+    "value": "]",
+    "start": 164,
+    "end": 165
   },
   {
     "type": "Punctuator",
     "value": ";",
+    "start": 165,
+    "end": 166
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 167,
+    "end": 168
+  },
+  {
+    "type": "Keyword",
+    "value": "class",
+    "start": 170,
+    "end": 175
+  },
+  {
+    "type": "Identifier",
+    "value": "Button",
+    "start": 176,
+    "end": 182
+  },
+  {
+    "type": "Keyword",
+    "value": "extends",
+    "start": 183,
+    "end": 190
+  },
+  {
+    "type": "Identifier",
+    "value": "React",
+    "start": 191,
+    "end": 196
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 196,
+    "end": 197
+  },
+  {
+    "type": "Identifier",
+    "value": "Component",
+    "start": 197,
+    "end": 206
+  },
+  {
+    "type": "Punctuator",
+    "value": "<",
+    "start": 206,
+    "end": 207
+  },
+  {
+    "type": "Identifier",
+    "value": "any",
+    "start": 207,
+    "end": 210
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 210,
+    "end": 211
+  },
+  {
+    "type": "Identifier",
+    "value": "any",
+    "start": 212,
+    "end": 215
+  },
+  {
+    "type": "Punctuator",
+    "value": ">",
+    "start": 215,
+    "end": 216
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 217,
+    "end": 218
+  },
+  {
+    "type": "Identifier",
+    "value": "render",
+    "start": 223,
+    "end": 229
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 229,
+    "end": 230
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 230,
+    "end": 231
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 232,
+    "end": 233
+  },
+  {
+    "type": "Keyword",
+    "value": "return",
+    "start": 242,
+    "end": 248
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 249,
+    "end": 250
+  },
+  {
+    "type": "Punctuator",
+    "value": "<",
+    "start": 250,
+    "end": 251
+  },
+  {
+    "type": "JSXIdentifier",
+    "value": "div",
+    "start": 251,
+    "end": 254
+  },
+  {
+    "type": "Punctuator",
+    "value": ">",
+    "start": 254,
+    "end": 255
+  },
+  {
+    "type": "JSXText",
+    "value": "My Button",
+    "start": 255,
+    "end": 264
+  },
+  {
+    "type": "Punctuator",
+    "value": "<",
+    "start": 264,
+    "end": 265
+  },
+  {
+    "type": "Punctuator",
+    "value": "/",
+    "start": 265,
+    "end": 266
+  },
+  {
+    "type": "JSXIdentifier",
+    "value": "div",
+    "start": 266,
+    "end": 269
+  },
+  {
+    "type": "Punctuator",
+    "value": ">",
+    "start": 269,
+    "end": 270
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 270,
+    "end": 271
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 276,
+    "end": 277
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 278,
+    "end": 279
+  },
+  {
+    "type": "Keyword",
+    "value": "function",
+    "start": 281,
+    "end": 289
+  },
+  {
+    "type": "Identifier",
+    "value": "AnotherButton",
+    "start": 290,
+    "end": 303
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 303,
+    "end": 304
+  },
+  {
+    "type": "Identifier",
+    "value": "p",
+    "start": 304,
+    "end": 305
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 305,
+    "end": 306
+  },
+  {
+    "type": "Identifier",
+    "value": "any",
+    "start": 307,
+    "end": 310
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
     "start": 310,
     "end": 311
   },
   {
     "type": "Punctuator",
-    "value": "}",
+    "value": "{",
     "start": 312,
     "end": 313
   },
   {
     "type": "Keyword",
-    "value": "function",
-    "start": 315,
-    "end": 323
+    "value": "return",
+    "start": 318,
+    "end": 324
   },
   {
-    "type": "Identifier",
-    "value": "Comp",
-    "start": 324,
+    "type": "Punctuator",
+    "value": "<",
+    "start": 325,
+    "end": 326
+  },
+  {
+    "type": "JSXIdentifier",
+    "value": "h1",
+    "start": 326,
     "end": 328
   },
   {
     "type": "Punctuator",
-    "value": "(",
+    "value": ">",
     "start": 328,
     "end": 329
   },
   {
-    "type": "Identifier",
-    "value": "p",
+    "type": "JSXText",
+    "value": "Just Another Button",
     "start": 329,
-    "end": 330
-  },
-  {
-    "type": "Punctuator",
-    "value": ":",
-    "start": 330,
-    "end": 331
-  },
-  {
-    "type": "Identifier",
-    "value": "Prop",
-    "start": 332,
-    "end": 336
-  },
-  {
-    "type": "Punctuator",
-    "value": ")",
-    "start": 336,
-    "end": 337
-  },
-  {
-    "type": "Punctuator",
-    "value": "{",
-    "start": 338,
-    "end": 339
-  },
-  {
-    "type": "Keyword",
-    "value": "return",
-    "start": 344,
-    "end": 350
+    "end": 348
   },
   {
     "type": "Punctuator",
     "value": "<",
-    "start": 351,
-    "end": 352
-  },
-  {
-    "type": "JSXIdentifier",
-    "value": "div",
-    "start": 352,
-    "end": 355
-  },
-  {
-    "type": "Punctuator",
-    "value": ">",
-    "start": 355,
-    "end": 356
-  },
-  {
-    "type": "Punctuator",
-    "value": "{",
-    "start": 356,
-    "end": 357
-  },
-  {
-    "type": "JSXIdentifier",
-    "value": "p",
-    "start": 357,
-    "end": 358
-  },
-  {
-    "type": "Punctuator",
-    "value": ".",
-    "start": 358,
-    "end": 359
-  },
-  {
-    "type": "JSXIdentifier",
-    "value": "b",
-    "start": 359,
-    "end": 360
-  },
-  {
-    "type": "Punctuator",
-    "value": "}",
-    "start": 360,
-    "end": 361
-  },
-  {
-    "type": "Punctuator",
-    "value": "<",
-    "start": 361,
-    "end": 362
+    "start": 348,
+    "end": 349
   },
   {
     "type": "Punctuator",
     "value": "/",
-    "start": 362,
-    "end": 363
+    "start": 349,
+    "end": 350
   },
   {
     "type": "JSXIdentifier",
-    "value": "div",
-    "start": 363,
-    "end": 366
+    "value": "h1",
+    "start": 350,
+    "end": 352
   },
   {
     "type": "Punctuator",
     "value": ">",
-    "start": 366,
-    "end": 367
+    "start": 352,
+    "end": 353
   },
   {
     "type": "Punctuator",
     "value": ";",
-    "start": 367,
-    "end": 368
+    "start": 353,
+    "end": 354
   },
   {
     "type": "Punctuator",
     "value": "}",
-    "start": 369,
-    "end": 370
+    "start": 355,
+    "end": 356
   },
   {
     "type": "Keyword",
-    "value": "let",
-    "start": 402,
-    "end": 405
+    "value": "function",
+    "start": 358,
+    "end": 366
   },
   {
     "type": "Identifier",
-    "value": "k1",
-    "start": 406,
-    "end": 408
+    "value": "Comp",
+    "start": 367,
+    "end": 371
   },
   {
     "type": "Punctuator",
-    "value": "=",
+    "value": "(",
+    "start": 371,
+    "end": 372
+  },
+  {
+    "type": "Identifier",
+    "value": "p",
+    "start": 372,
+    "end": 373
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 373,
+    "end": 374
+  },
+  {
+    "type": "Identifier",
+    "value": "Prop",
+    "start": 375,
+    "end": 379
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 379,
+    "end": 380
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 381,
+    "end": 382
+  },
+  {
+    "type": "Keyword",
+    "value": "return",
+    "start": 387,
+    "end": 393
+  },
+  {
+    "type": "Punctuator",
+    "value": "<",
+    "start": 394,
+    "end": 395
+  },
+  {
+    "type": "JSXIdentifier",
+    "value": "div",
+    "start": 395,
+    "end": 398
+  },
+  {
+    "type": "Punctuator",
+    "value": ">",
+    "start": 398,
+    "end": 399
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 399,
+    "end": 400
+  },
+  {
+    "type": "JSXIdentifier",
+    "value": "p",
+    "start": 400,
+    "end": 401
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 401,
+    "end": 402
+  },
+  {
+    "type": "JSXIdentifier",
+    "value": "b",
+    "start": 402,
+    "end": 403
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 403,
+    "end": 404
+  },
+  {
+    "type": "Punctuator",
+    "value": "<",
+    "start": 404,
+    "end": 405
+  },
+  {
+    "type": "Punctuator",
+    "value": "/",
+    "start": 405,
+    "end": 406
+  },
+  {
+    "type": "JSXIdentifier",
+    "value": "div",
+    "start": 406,
+    "end": 409
+  },
+  {
+    "type": "Punctuator",
+    "value": ">",
     "start": 409,
     "end": 410
   },
   {
     "type": "Punctuator",
-    "value": "<",
-    "start": 411,
-    "end": 412
-  },
-  {
-    "type": "JSXIdentifier",
-    "value": "Comp",
-    "start": 412,
-    "end": 416
-  },
-  {
-    "type": "JSXIdentifier",
-    "value": "a",
-    "start": 417,
-    "end": 418
-  },
-  {
-    "type": "Punctuator",
-    "value": "=",
-    "start": 418,
-    "end": 419
-  },
-  {
-    "type": "Punctuator",
-    "value": "{",
-    "start": 419,
-    "end": 420
-  },
-  {
-    "type": "Numeric",
-    "value": "10",
-    "start": 420,
-    "end": 422
+    "value": ";",
+    "start": 410,
+    "end": 411
   },
   {
     "type": "Punctuator",
     "value": "}",
-    "start": 422,
-    "end": 423
+    "start": 412,
+    "end": 413
   },
   {
-    "type": "JSXIdentifier",
-    "value": "b",
-    "start": 424,
-    "end": 425
+    "type": "Keyword",
+    "value": "let",
+    "start": 445,
+    "end": 448
+  },
+  {
+    "type": "Identifier",
+    "value": "k1",
+    "start": 449,
+    "end": 451
   },
   {
     "type": "Punctuator",
     "value": "=",
-    "start": 425,
-    "end": 426
-  },
-  {
-    "type": "JSXText",
-    "value": "\"hi\"",
-    "start": 426,
-    "end": 430
-  },
-  {
-    "type": "Punctuator",
-    "value": ">",
-    "start": 430,
-    "end": 431
+    "start": 452,
+    "end": 453
   },
   {
     "type": "Punctuator",
     "value": "<",
-    "start": 431,
-    "end": 432
+    "start": 454,
+    "end": 455
   },
   {
     "type": "JSXIdentifier",
-    "value": "Button",
-    "start": 432,
-    "end": 438
-  },
-  {
-    "type": "Punctuator",
-    "value": "/",
-    "start": 439,
-    "end": 440
-  },
-  {
-    "type": "Punctuator",
-    "value": ">",
-    "start": 440,
-    "end": 441
-  },
-  {
-    "type": "JSXText",
-    "value": "  ",
-    "start": 441,
-    "end": 443
-  },
-  {
-    "type": "Punctuator",
-    "value": "<",
-    "start": 443,
-    "end": 444
-  },
-  {
-    "type": "JSXIdentifier",
-    "value": "AnotherButton",
-    "start": 444,
-    "end": 457
-  },
-  {
-    "type": "Punctuator",
-    "value": "/",
-    "start": 458,
+    "value": "Comp",
+    "start": 455,
     "end": 459
   },
   {
-    "type": "Punctuator",
-    "value": ">",
-    "start": 459,
-    "end": 460
-  },
-  {
-    "type": "Punctuator",
-    "value": "<",
+    "type": "JSXIdentifier",
+    "value": "a",
     "start": 460,
     "end": 461
   },
   {
     "type": "Punctuator",
-    "value": "/",
+    "value": "=",
     "start": 461,
     "end": 462
   },
   {
-    "type": "JSXIdentifier",
-    "value": "Comp",
-    "start": 462,
-    "end": 466
-  },
-  {
-    "type": "Punctuator",
-    "value": ">",
-    "start": 466,
-    "end": 467
-  },
-  {
-    "type": "Punctuator",
-    "value": ";",
-    "start": 467,
-    "end": 468
-  },
-  {
-    "type": "Keyword",
-    "value": "let",
-    "start": 469,
-    "end": 472
-  },
-  {
-    "type": "Identifier",
-    "value": "k2",
-    "start": 473,
-    "end": 475
-  },
-  {
-    "type": "Punctuator",
-    "value": "=",
-    "start": 476,
-    "end": 477
-  },
-  {
-    "type": "Punctuator",
-    "value": "<",
-    "start": 478,
-    "end": 479
-  },
-  {
-    "type": "JSXIdentifier",
-    "value": "Comp",
-    "start": 479,
-    "end": 483
-  },
-  {
-    "type": "JSXIdentifier",
-    "value": "a",
-    "start": 484,
-    "end": 485
-  },
-  {
-    "type": "Punctuator",
-    "value": "=",
-    "start": 485,
-    "end": 486
-  },
-  {
     "type": "Punctuator",
     "value": "{",
-    "start": 486,
-    "end": 487
+    "start": 462,
+    "end": 463
   },
   {
     "type": "Numeric",
     "value": "10",
-    "start": 487,
-    "end": 489
+    "start": 463,
+    "end": 465
   },
   {
     "type": "Punctuator",
     "value": "}",
-    "start": 489,
-    "end": 490
+    "start": 465,
+    "end": 466
   },
   {
     "type": "JSXIdentifier",
     "value": "b",
-    "start": 491,
-    "end": 492
+    "start": 467,
+    "end": 468
   },
   {
     "type": "Punctuator",
     "value": "=",
-    "start": 492,
-    "end": 493
+    "start": 468,
+    "end": 469
   },
   {
     "type": "JSXText",
     "value": "\"hi\"",
-    "start": 493,
-    "end": 497
+    "start": 469,
+    "end": 473
   },
   {
     "type": "Punctuator",
     "value": ">",
-    "start": 497,
-    "end": 498
+    "start": 473,
+    "end": 474
   },
   {
     "type": "Punctuator",
     "value": "<",
-    "start": 498,
-    "end": 499
+    "start": 474,
+    "end": 475
   },
   {
     "type": "JSXIdentifier",
     "value": "Button",
-    "start": 499,
-    "end": 505
+    "start": 475,
+    "end": 481
   },
   {
     "type": "Punctuator",
     "value": "/",
-    "start": 506,
-    "end": 507
+    "start": 482,
+    "end": 483
   },
   {
     "type": "Punctuator",
     "value": ">",
-    "start": 507,
-    "end": 508
+    "start": 483,
+    "end": 484
   },
   {
     "type": "JSXText",
-    "value": "\n    ",
-    "start": 508,
-    "end": 513
+    "value": "  ",
+    "start": 484,
+    "end": 486
   },
   {
     "type": "Punctuator",
     "value": "<",
-    "start": 513,
-    "end": 514
+    "start": 486,
+    "end": 487
   },
   {
     "type": "JSXIdentifier",
     "value": "AnotherButton",
-    "start": 514,
-    "end": 527
+    "start": 487,
+    "end": 500
   },
   {
     "type": "Punctuator",
     "value": "/",
+    "start": 501,
+    "end": 502
+  },
+  {
+    "type": "Punctuator",
+    "value": ">",
+    "start": 502,
+    "end": 503
+  },
+  {
+    "type": "Punctuator",
+    "value": "<",
+    "start": 503,
+    "end": 504
+  },
+  {
+    "type": "Punctuator",
+    "value": "/",
+    "start": 504,
+    "end": 505
+  },
+  {
+    "type": "JSXIdentifier",
+    "value": "Comp",
+    "start": 505,
+    "end": 509
+  },
+  {
+    "type": "Punctuator",
+    "value": ">",
+    "start": 509,
+    "end": 510
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 510,
+    "end": 511
+  },
+  {
+    "type": "Keyword",
+    "value": "let",
+    "start": 512,
+    "end": 515
+  },
+  {
+    "type": "Identifier",
+    "value": "k2",
+    "start": 516,
+    "end": 518
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 519,
+    "end": 520
+  },
+  {
+    "type": "Punctuator",
+    "value": "<",
+    "start": 521,
+    "end": 522
+  },
+  {
+    "type": "JSXIdentifier",
+    "value": "Comp",
+    "start": 522,
+    "end": 526
+  },
+  {
+    "type": "JSXIdentifier",
+    "value": "a",
+    "start": 527,
+    "end": 528
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
     "start": 528,
     "end": 529
   },
   {
     "type": "Punctuator",
-    "value": ">",
+    "value": "{",
     "start": 529,
     "end": 530
   },
   {
-    "type": "JSXText",
-    "value": "  ",
+    "type": "Numeric",
+    "value": "10",
     "start": 530,
     "end": 532
   },
   {
     "type": "Punctuator",
-    "value": "<",
+    "value": "}",
     "start": 532,
     "end": 533
   },
   {
-    "type": "Punctuator",
-    "value": "/",
-    "start": 533,
-    "end": 534
-  },
-  {
-    "type": "JSXIdentifier",
-    "value": "Comp",
-    "start": 534,
-    "end": 538
-  },
-  {
-    "type": "Punctuator",
-    "value": ">",
-    "start": 538,
-    "end": 539
-  },
-  {
-    "type": "Punctuator",
-    "value": ";",
-    "start": 539,
-    "end": 540
-  },
-  {
-    "type": "Keyword",
-    "value": "let",
-    "start": 541,
-    "end": 544
-  },
-  {
-    "type": "Identifier",
-    "value": "k3",
-    "start": 545,
-    "end": 547
-  },
-  {
-    "type": "Punctuator",
-    "value": "=",
-    "start": 548,
-    "end": 549
-  },
-  {
-    "type": "Punctuator",
-    "value": "<",
-    "start": 550,
-    "end": 551
-  },
-  {
-    "type": "JSXIdentifier",
-    "value": "Comp",
-    "start": 551,
-    "end": 555
-  },
-  {
-    "type": "JSXIdentifier",
-    "value": "a",
-    "start": 556,
-    "end": 557
-  },
-  {
-    "type": "Punctuator",
-    "value": "=",
-    "start": 557,
-    "end": 558
-  },
-  {
-    "type": "Punctuator",
-    "value": "{",
-    "start": 558,
-    "end": 559
-  },
-  {
-    "type": "Numeric",
-    "value": "10",
-    "start": 559,
-    "end": 561
-  },
-  {
-    "type": "Punctuator",
-    "value": "}",
-    "start": 561,
-    "end": 562
-  },
-  {
     "type": "JSXIdentifier",
     "value": "b",
-    "start": 563,
-    "end": 564
+    "start": 534,
+    "end": 535
   },
   {
     "type": "Punctuator",
     "value": "=",
-    "start": 564,
-    "end": 565
+    "start": 535,
+    "end": 536
   },
   {
     "type": "JSXText",
     "value": "\"hi\"",
-    "start": 565,
-    "end": 569
+    "start": 536,
+    "end": 540
   },
   {
     "type": "Punctuator",
     "value": ">",
-    "start": 569,
-    "end": 570
-  },
-  {
-    "type": "JSXText",
-    "value": "    ",
-    "start": 570,
-    "end": 574
+    "start": 540,
+    "end": 541
   },
   {
     "type": "Punctuator",
     "value": "<",
-    "start": 574,
-    "end": 575
+    "start": 541,
+    "end": 542
   },
   {
     "type": "JSXIdentifier",
     "value": "Button",
-    "start": 575,
-    "end": 581
+    "start": 542,
+    "end": 548
   },
   {
     "type": "Punctuator",
     "value": "/",
-    "start": 582,
-    "end": 583
+    "start": 549,
+    "end": 550
   },
   {
     "type": "Punctuator",
     "value": ">",
-    "start": 583,
-    "end": 584
+    "start": 550,
+    "end": 551
   },
   {
     "type": "JSXText",
     "value": "\n    ",
-    "start": 584,
-    "end": 589
+    "start": 551,
+    "end": 556
   },
   {
     "type": "Punctuator",
     "value": "<",
-    "start": 589,
-    "end": 590
+    "start": 556,
+    "end": 557
   },
   {
     "type": "JSXIdentifier",
     "value": "AnotherButton",
-    "start": 590,
-    "end": 603
+    "start": 557,
+    "end": 570
   },
   {
     "type": "Punctuator",
     "value": "/",
-    "start": 604,
-    "end": 605
+    "start": 571,
+    "end": 572
   },
   {
     "type": "Punctuator",
     "value": ">",
-    "start": 605,
-    "end": 606
+    "start": 572,
+    "end": 573
+  },
+  {
+    "type": "JSXText",
+    "value": "  ",
+    "start": 573,
+    "end": 575
   },
   {
     "type": "Punctuator",
     "value": "<",
+    "start": 575,
+    "end": 576
+  },
+  {
+    "type": "Punctuator",
+    "value": "/",
+    "start": 576,
+    "end": 577
+  },
+  {
+    "type": "JSXIdentifier",
+    "value": "Comp",
+    "start": 577,
+    "end": 581
+  },
+  {
+    "type": "Punctuator",
+    "value": ">",
+    "start": 581,
+    "end": 582
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 582,
+    "end": 583
+  },
+  {
+    "type": "Keyword",
+    "value": "let",
+    "start": 584,
+    "end": 587
+  },
+  {
+    "type": "Identifier",
+    "value": "k3",
+    "start": 588,
+    "end": 590
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 591,
+    "end": 592
+  },
+  {
+    "type": "Punctuator",
+    "value": "<",
+    "start": 593,
+    "end": 594
+  },
+  {
+    "type": "JSXIdentifier",
+    "value": "Comp",
+    "start": 594,
+    "end": 598
+  },
+  {
+    "type": "JSXIdentifier",
+    "value": "a",
+    "start": 599,
+    "end": 600
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 600,
+    "end": 601
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 601,
+    "end": 602
+  },
+  {
+    "type": "Numeric",
+    "value": "10",
+    "start": 602,
+    "end": 604
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 604,
+    "end": 605
+  },
+  {
+    "type": "JSXIdentifier",
+    "value": "b",
     "start": 606,
     "end": 607
   },
   {
     "type": "Punctuator",
-    "value": "/",
+    "value": "=",
     "start": 607,
     "end": 608
   },
   {
-    "type": "JSXIdentifier",
-    "value": "Comp",
+    "type": "JSXText",
+    "value": "\"hi\"",
     "start": 608,
     "end": 612
   },
@@ -2168,10 +2084,94 @@ __ESTREE_TEST__:TOKENS:
     "end": 613
   },
   {
+    "type": "JSXText",
+    "value": "    ",
+    "start": 613,
+    "end": 617
+  },
+  {
+    "type": "Punctuator",
+    "value": "<",
+    "start": 617,
+    "end": 618
+  },
+  {
+    "type": "JSXIdentifier",
+    "value": "Button",
+    "start": 618,
+    "end": 624
+  },
+  {
+    "type": "Punctuator",
+    "value": "/",
+    "start": 625,
+    "end": 626
+  },
+  {
+    "type": "Punctuator",
+    "value": ">",
+    "start": 626,
+    "end": 627
+  },
+  {
+    "type": "JSXText",
+    "value": "\n    ",
+    "start": 627,
+    "end": 632
+  },
+  {
+    "type": "Punctuator",
+    "value": "<",
+    "start": 632,
+    "end": 633
+  },
+  {
+    "type": "JSXIdentifier",
+    "value": "AnotherButton",
+    "start": 633,
+    "end": 646
+  },
+  {
+    "type": "Punctuator",
+    "value": "/",
+    "start": 647,
+    "end": 648
+  },
+  {
+    "type": "Punctuator",
+    "value": ">",
+    "start": 648,
+    "end": 649
+  },
+  {
+    "type": "Punctuator",
+    "value": "<",
+    "start": 649,
+    "end": 650
+  },
+  {
+    "type": "Punctuator",
+    "value": "/",
+    "start": 650,
+    "end": 651
+  },
+  {
+    "type": "JSXIdentifier",
+    "value": "Comp",
+    "start": 651,
+    "end": 655
+  },
+  {
+    "type": "Punctuator",
+    "value": ">",
+    "start": 655,
+    "end": 656
+  },
+  {
     "type": "Punctuator",
     "value": ";",
-    "start": 613,
-    "end": 614
+    "start": 656,
+    "end": 657
   }
 ]
 ```
