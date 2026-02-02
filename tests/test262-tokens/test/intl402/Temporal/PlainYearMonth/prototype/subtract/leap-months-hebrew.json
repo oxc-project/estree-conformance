@@ -1,0 +1,11432 @@
+[
+  {
+    "type": "Keyword",
+    "value": "const",
+    "start": 332,
+    "end": 337
+  },
+  {
+    "type": "Identifier",
+    "value": "calendar",
+    "start": 338,
+    "end": 346
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 347,
+    "end": 348
+  },
+  {
+    "type": "String",
+    "value": "\"hebrew\"",
+    "start": 349,
+    "end": 357
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 357,
+    "end": 358
+  },
+  {
+    "type": "Keyword",
+    "value": "const",
+    "start": 359,
+    "end": 364
+  },
+  {
+    "type": "Identifier",
+    "value": "options",
+    "start": 365,
+    "end": 372
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 373,
+    "end": 374
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 375,
+    "end": 376
+  },
+  {
+    "type": "Identifier",
+    "value": "overflow",
+    "start": 377,
+    "end": 385
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 385,
+    "end": 386
+  },
+  {
+    "type": "String",
+    "value": "\"reject\"",
+    "start": 387,
+    "end": 395
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 396,
+    "end": 397
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 397,
+    "end": 398
+  },
+  {
+    "type": "Keyword",
+    "value": "const",
+    "start": 410,
+    "end": 415
+  },
+  {
+    "type": "Identifier",
+    "value": "years1",
+    "start": 416,
+    "end": 422
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 423,
+    "end": 424
+  },
+  {
+    "type": "Keyword",
+    "value": "new",
+    "start": 425,
+    "end": 428
+  },
+  {
+    "type": "Identifier",
+    "value": "Temporal",
+    "start": 429,
+    "end": 437
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 437,
+    "end": 438
+  },
+  {
+    "type": "Identifier",
+    "value": "Duration",
+    "start": 438,
+    "end": 446
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 446,
+    "end": 447
+  },
+  {
+    "type": "Punctuator",
+    "value": "-",
+    "start": 447,
+    "end": 448
+  },
+  {
+    "type": "Numeric",
+    "value": "1",
+    "start": 448,
+    "end": 449
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 449,
+    "end": 450
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 450,
+    "end": 451
+  },
+  {
+    "type": "Keyword",
+    "value": "const",
+    "start": 452,
+    "end": 457
+  },
+  {
+    "type": "Identifier",
+    "value": "years1n",
+    "start": 458,
+    "end": 465
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 466,
+    "end": 467
+  },
+  {
+    "type": "Keyword",
+    "value": "new",
+    "start": 468,
+    "end": 471
+  },
+  {
+    "type": "Identifier",
+    "value": "Temporal",
+    "start": 472,
+    "end": 480
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 480,
+    "end": 481
+  },
+  {
+    "type": "Identifier",
+    "value": "Duration",
+    "start": 481,
+    "end": 489
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 489,
+    "end": 490
+  },
+  {
+    "type": "Numeric",
+    "value": "1",
+    "start": 490,
+    "end": 491
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 491,
+    "end": 492
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 492,
+    "end": 493
+  },
+  {
+    "type": "Keyword",
+    "value": "const",
+    "start": 494,
+    "end": 499
+  },
+  {
+    "type": "Identifier",
+    "value": "years2",
+    "start": 500,
+    "end": 506
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 507,
+    "end": 508
+  },
+  {
+    "type": "Keyword",
+    "value": "new",
+    "start": 509,
+    "end": 512
+  },
+  {
+    "type": "Identifier",
+    "value": "Temporal",
+    "start": 513,
+    "end": 521
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 521,
+    "end": 522
+  },
+  {
+    "type": "Identifier",
+    "value": "Duration",
+    "start": 522,
+    "end": 530
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 530,
+    "end": 531
+  },
+  {
+    "type": "Punctuator",
+    "value": "-",
+    "start": 531,
+    "end": 532
+  },
+  {
+    "type": "Numeric",
+    "value": "2",
+    "start": 532,
+    "end": 533
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 533,
+    "end": 534
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 534,
+    "end": 535
+  },
+  {
+    "type": "Keyword",
+    "value": "const",
+    "start": 536,
+    "end": 541
+  },
+  {
+    "type": "Identifier",
+    "value": "years2n",
+    "start": 542,
+    "end": 549
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 550,
+    "end": 551
+  },
+  {
+    "type": "Keyword",
+    "value": "new",
+    "start": 552,
+    "end": 555
+  },
+  {
+    "type": "Identifier",
+    "value": "Temporal",
+    "start": 556,
+    "end": 564
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 564,
+    "end": 565
+  },
+  {
+    "type": "Identifier",
+    "value": "Duration",
+    "start": 565,
+    "end": 573
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 573,
+    "end": 574
+  },
+  {
+    "type": "Numeric",
+    "value": "2",
+    "start": 574,
+    "end": 575
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 575,
+    "end": 576
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 576,
+    "end": 577
+  },
+  {
+    "type": "Keyword",
+    "value": "const",
+    "start": 579,
+    "end": 584
+  },
+  {
+    "type": "Identifier",
+    "value": "leap1AdarI",
+    "start": 585,
+    "end": 595
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 596,
+    "end": 597
+  },
+  {
+    "type": "Identifier",
+    "value": "Temporal",
+    "start": 598,
+    "end": 606
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 606,
+    "end": 607
+  },
+  {
+    "type": "Identifier",
+    "value": "PlainYearMonth",
+    "start": 607,
+    "end": 621
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 621,
+    "end": 622
+  },
+  {
+    "type": "Identifier",
+    "value": "from",
+    "start": 622,
+    "end": 626
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 626,
+    "end": 627
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 627,
+    "end": 628
+  },
+  {
+    "type": "Identifier",
+    "value": "year",
+    "start": 629,
+    "end": 633
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 633,
+    "end": 634
+  },
+  {
+    "type": "Numeric",
+    "value": "5782",
+    "start": 635,
+    "end": 639
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 639,
+    "end": 640
+  },
+  {
+    "type": "Identifier",
+    "value": "monthCode",
+    "start": 641,
+    "end": 650
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 650,
+    "end": 651
+  },
+  {
+    "type": "String",
+    "value": "\"M05L\"",
+    "start": 652,
+    "end": 658
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 658,
+    "end": 659
+  },
+  {
+    "type": "Identifier",
+    "value": "calendar",
+    "start": 660,
+    "end": 668
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 669,
+    "end": 670
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 670,
+    "end": 671
+  },
+  {
+    "type": "Identifier",
+    "value": "options",
+    "start": 672,
+    "end": 679
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 679,
+    "end": 680
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 680,
+    "end": 681
+  },
+  {
+    "type": "Keyword",
+    "value": "const",
+    "start": 682,
+    "end": 687
+  },
+  {
+    "type": "Identifier",
+    "value": "leap1AdarII",
+    "start": 688,
+    "end": 699
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 700,
+    "end": 701
+  },
+  {
+    "type": "Identifier",
+    "value": "Temporal",
+    "start": 702,
+    "end": 710
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 710,
+    "end": 711
+  },
+  {
+    "type": "Identifier",
+    "value": "PlainYearMonth",
+    "start": 711,
+    "end": 725
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 725,
+    "end": 726
+  },
+  {
+    "type": "Identifier",
+    "value": "from",
+    "start": 726,
+    "end": 730
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 730,
+    "end": 731
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 731,
+    "end": 732
+  },
+  {
+    "type": "Identifier",
+    "value": "year",
+    "start": 733,
+    "end": 737
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 737,
+    "end": 738
+  },
+  {
+    "type": "Numeric",
+    "value": "5782",
+    "start": 739,
+    "end": 743
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 743,
+    "end": 744
+  },
+  {
+    "type": "Identifier",
+    "value": "monthCode",
+    "start": 745,
+    "end": 754
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 754,
+    "end": 755
+  },
+  {
+    "type": "String",
+    "value": "\"M06\"",
+    "start": 756,
+    "end": 761
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 761,
+    "end": 762
+  },
+  {
+    "type": "Identifier",
+    "value": "calendar",
+    "start": 763,
+    "end": 771
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 772,
+    "end": 773
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 773,
+    "end": 774
+  },
+  {
+    "type": "Identifier",
+    "value": "options",
+    "start": 775,
+    "end": 782
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 782,
+    "end": 783
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 783,
+    "end": 784
+  },
+  {
+    "type": "Keyword",
+    "value": "const",
+    "start": 785,
+    "end": 790
+  },
+  {
+    "type": "Identifier",
+    "value": "common1Adar",
+    "start": 791,
+    "end": 802
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 803,
+    "end": 804
+  },
+  {
+    "type": "Identifier",
+    "value": "Temporal",
+    "start": 805,
+    "end": 813
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 813,
+    "end": 814
+  },
+  {
+    "type": "Identifier",
+    "value": "PlainYearMonth",
+    "start": 814,
+    "end": 828
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 828,
+    "end": 829
+  },
+  {
+    "type": "Identifier",
+    "value": "from",
+    "start": 829,
+    "end": 833
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 833,
+    "end": 834
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 834,
+    "end": 835
+  },
+  {
+    "type": "Identifier",
+    "value": "year",
+    "start": 836,
+    "end": 840
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 840,
+    "end": 841
+  },
+  {
+    "type": "Numeric",
+    "value": "5783",
+    "start": 842,
+    "end": 846
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 846,
+    "end": 847
+  },
+  {
+    "type": "Identifier",
+    "value": "monthCode",
+    "start": 848,
+    "end": 857
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 857,
+    "end": 858
+  },
+  {
+    "type": "String",
+    "value": "\"M06\"",
+    "start": 859,
+    "end": 864
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 864,
+    "end": 865
+  },
+  {
+    "type": "Identifier",
+    "value": "calendar",
+    "start": 866,
+    "end": 874
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 875,
+    "end": 876
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 876,
+    "end": 877
+  },
+  {
+    "type": "Identifier",
+    "value": "options",
+    "start": 878,
+    "end": 885
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 885,
+    "end": 886
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 886,
+    "end": 887
+  },
+  {
+    "type": "Keyword",
+    "value": "const",
+    "start": 888,
+    "end": 893
+  },
+  {
+    "type": "Identifier",
+    "value": "common",
+    "start": 894,
+    "end": 900
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 901,
+    "end": 902
+  },
+  {
+    "type": "Identifier",
+    "value": "Temporal",
+    "start": 903,
+    "end": 911
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 911,
+    "end": 912
+  },
+  {
+    "type": "Identifier",
+    "value": "PlainYearMonth",
+    "start": 912,
+    "end": 926
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 926,
+    "end": 927
+  },
+  {
+    "type": "Identifier",
+    "value": "from",
+    "start": 927,
+    "end": 931
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 931,
+    "end": 932
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 932,
+    "end": 933
+  },
+  {
+    "type": "Identifier",
+    "value": "year",
+    "start": 934,
+    "end": 938
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 938,
+    "end": 939
+  },
+  {
+    "type": "Numeric",
+    "value": "5783",
+    "start": 940,
+    "end": 944
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 944,
+    "end": 945
+  },
+  {
+    "type": "Identifier",
+    "value": "monthCode",
+    "start": 946,
+    "end": 955
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 955,
+    "end": 956
+  },
+  {
+    "type": "String",
+    "value": "\"M08\"",
+    "start": 957,
+    "end": 962
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 962,
+    "end": 963
+  },
+  {
+    "type": "Identifier",
+    "value": "calendar",
+    "start": 964,
+    "end": 972
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 973,
+    "end": 974
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 974,
+    "end": 975
+  },
+  {
+    "type": "Identifier",
+    "value": "options",
+    "start": 976,
+    "end": 983
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 983,
+    "end": 984
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 984,
+    "end": 985
+  },
+  {
+    "type": "Keyword",
+    "value": "const",
+    "start": 986,
+    "end": 991
+  },
+  {
+    "type": "Identifier",
+    "value": "leap2AdarI",
+    "start": 992,
+    "end": 1002
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 1003,
+    "end": 1004
+  },
+  {
+    "type": "Identifier",
+    "value": "Temporal",
+    "start": 1005,
+    "end": 1013
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1013,
+    "end": 1014
+  },
+  {
+    "type": "Identifier",
+    "value": "PlainYearMonth",
+    "start": 1014,
+    "end": 1028
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1028,
+    "end": 1029
+  },
+  {
+    "type": "Identifier",
+    "value": "from",
+    "start": 1029,
+    "end": 1033
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1033,
+    "end": 1034
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 1034,
+    "end": 1035
+  },
+  {
+    "type": "Identifier",
+    "value": "year",
+    "start": 1036,
+    "end": 1040
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 1040,
+    "end": 1041
+  },
+  {
+    "type": "Numeric",
+    "value": "5784",
+    "start": 1042,
+    "end": 1046
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1046,
+    "end": 1047
+  },
+  {
+    "type": "Identifier",
+    "value": "monthCode",
+    "start": 1048,
+    "end": 1057
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 1057,
+    "end": 1058
+  },
+  {
+    "type": "String",
+    "value": "\"M05L\"",
+    "start": 1059,
+    "end": 1065
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1065,
+    "end": 1066
+  },
+  {
+    "type": "Identifier",
+    "value": "calendar",
+    "start": 1067,
+    "end": 1075
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 1076,
+    "end": 1077
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1077,
+    "end": 1078
+  },
+  {
+    "type": "Identifier",
+    "value": "options",
+    "start": 1079,
+    "end": 1086
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1086,
+    "end": 1087
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1087,
+    "end": 1088
+  },
+  {
+    "type": "Keyword",
+    "value": "const",
+    "start": 1089,
+    "end": 1094
+  },
+  {
+    "type": "Identifier",
+    "value": "leap2AdarII",
+    "start": 1095,
+    "end": 1106
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 1107,
+    "end": 1108
+  },
+  {
+    "type": "Identifier",
+    "value": "Temporal",
+    "start": 1109,
+    "end": 1117
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1117,
+    "end": 1118
+  },
+  {
+    "type": "Identifier",
+    "value": "PlainYearMonth",
+    "start": 1118,
+    "end": 1132
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1132,
+    "end": 1133
+  },
+  {
+    "type": "Identifier",
+    "value": "from",
+    "start": 1133,
+    "end": 1137
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1137,
+    "end": 1138
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 1138,
+    "end": 1139
+  },
+  {
+    "type": "Identifier",
+    "value": "year",
+    "start": 1140,
+    "end": 1144
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 1144,
+    "end": 1145
+  },
+  {
+    "type": "Numeric",
+    "value": "5784",
+    "start": 1146,
+    "end": 1150
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1150,
+    "end": 1151
+  },
+  {
+    "type": "Identifier",
+    "value": "monthCode",
+    "start": 1152,
+    "end": 1161
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 1161,
+    "end": 1162
+  },
+  {
+    "type": "String",
+    "value": "\"M06\"",
+    "start": 1163,
+    "end": 1168
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1168,
+    "end": 1169
+  },
+  {
+    "type": "Identifier",
+    "value": "calendar",
+    "start": 1170,
+    "end": 1178
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 1179,
+    "end": 1180
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1180,
+    "end": 1181
+  },
+  {
+    "type": "Identifier",
+    "value": "options",
+    "start": 1182,
+    "end": 1189
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1189,
+    "end": 1190
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1190,
+    "end": 1191
+  },
+  {
+    "type": "Keyword",
+    "value": "const",
+    "start": 1192,
+    "end": 1197
+  },
+  {
+    "type": "Identifier",
+    "value": "common2Adar",
+    "start": 1198,
+    "end": 1209
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 1210,
+    "end": 1211
+  },
+  {
+    "type": "Identifier",
+    "value": "Temporal",
+    "start": 1212,
+    "end": 1220
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1220,
+    "end": 1221
+  },
+  {
+    "type": "Identifier",
+    "value": "PlainYearMonth",
+    "start": 1221,
+    "end": 1235
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1235,
+    "end": 1236
+  },
+  {
+    "type": "Identifier",
+    "value": "from",
+    "start": 1236,
+    "end": 1240
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1240,
+    "end": 1241
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 1241,
+    "end": 1242
+  },
+  {
+    "type": "Identifier",
+    "value": "year",
+    "start": 1243,
+    "end": 1247
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 1247,
+    "end": 1248
+  },
+  {
+    "type": "Numeric",
+    "value": "5785",
+    "start": 1249,
+    "end": 1253
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1253,
+    "end": 1254
+  },
+  {
+    "type": "Identifier",
+    "value": "monthCode",
+    "start": 1255,
+    "end": 1264
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 1264,
+    "end": 1265
+  },
+  {
+    "type": "String",
+    "value": "\"M06\"",
+    "start": 1266,
+    "end": 1271
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1271,
+    "end": 1272
+  },
+  {
+    "type": "Identifier",
+    "value": "calendar",
+    "start": 1273,
+    "end": 1281
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 1282,
+    "end": 1283
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1283,
+    "end": 1284
+  },
+  {
+    "type": "Identifier",
+    "value": "options",
+    "start": 1285,
+    "end": 1292
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1292,
+    "end": 1293
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1293,
+    "end": 1294
+  },
+  {
+    "type": "Identifier",
+    "value": "TemporalHelpers",
+    "start": 1296,
+    "end": 1311
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1311,
+    "end": 1312
+  },
+  {
+    "type": "Identifier",
+    "value": "assertPlainYearMonth",
+    "start": 1312,
+    "end": 1332
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1332,
+    "end": 1333
+  },
+  {
+    "type": "Identifier",
+    "value": "common1Adar",
+    "start": 1336,
+    "end": 1347
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1347,
+    "end": 1348
+  },
+  {
+    "type": "Identifier",
+    "value": "subtract",
+    "start": 1348,
+    "end": 1356
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1356,
+    "end": 1357
+  },
+  {
+    "type": "Identifier",
+    "value": "years1",
+    "start": 1357,
+    "end": 1363
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1363,
+    "end": 1364
+  },
+  {
+    "type": "Identifier",
+    "value": "options",
+    "start": 1365,
+    "end": 1372
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1372,
+    "end": 1373
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1373,
+    "end": 1374
+  },
+  {
+    "type": "Numeric",
+    "value": "5784",
+    "start": 1377,
+    "end": 1381
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1381,
+    "end": 1382
+  },
+  {
+    "type": "Numeric",
+    "value": "7",
+    "start": 1383,
+    "end": 1384
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1384,
+    "end": 1385
+  },
+  {
+    "type": "String",
+    "value": "\"M06\"",
+    "start": 1386,
+    "end": 1391
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1391,
+    "end": 1392
+  },
+  {
+    "type": "String",
+    "value": "\"Adding 1 year to common-year Adar (M06) lands in leap-year Adar II (M06)\"",
+    "start": 1393,
+    "end": 1467
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1467,
+    "end": 1468
+  },
+  {
+    "type": "String",
+    "value": "\"am\"",
+    "start": 1471,
+    "end": 1475
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1475,
+    "end": 1476
+  },
+  {
+    "type": "Numeric",
+    "value": "5784",
+    "start": 1477,
+    "end": 1481
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1481,
+    "end": 1482
+  },
+  {
+    "type": "Null",
+    "value": "null",
+    "start": 1483,
+    "end": 1487
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1488,
+    "end": 1489
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1489,
+    "end": 1490
+  },
+  {
+    "type": "Identifier",
+    "value": "TemporalHelpers",
+    "start": 1492,
+    "end": 1507
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1507,
+    "end": 1508
+  },
+  {
+    "type": "Identifier",
+    "value": "assertPlainYearMonth",
+    "start": 1508,
+    "end": 1528
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1528,
+    "end": 1529
+  },
+  {
+    "type": "Identifier",
+    "value": "common1Adar",
+    "start": 1532,
+    "end": 1543
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1543,
+    "end": 1544
+  },
+  {
+    "type": "Identifier",
+    "value": "subtract",
+    "start": 1544,
+    "end": 1552
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1552,
+    "end": 1553
+  },
+  {
+    "type": "Identifier",
+    "value": "years2",
+    "start": 1553,
+    "end": 1559
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1559,
+    "end": 1560
+  },
+  {
+    "type": "Identifier",
+    "value": "options",
+    "start": 1561,
+    "end": 1568
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1568,
+    "end": 1569
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1569,
+    "end": 1570
+  },
+  {
+    "type": "Numeric",
+    "value": "5785",
+    "start": 1573,
+    "end": 1577
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1577,
+    "end": 1578
+  },
+  {
+    "type": "Numeric",
+    "value": "6",
+    "start": 1579,
+    "end": 1580
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1580,
+    "end": 1581
+  },
+  {
+    "type": "String",
+    "value": "\"M06\"",
+    "start": 1582,
+    "end": 1587
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1587,
+    "end": 1588
+  },
+  {
+    "type": "String",
+    "value": "\"Adding 2 years to common-year Adar (M06) crossing leap year lands in common-year Adar (M06)\"",
+    "start": 1589,
+    "end": 1682
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1682,
+    "end": 1683
+  },
+  {
+    "type": "String",
+    "value": "\"am\"",
+    "start": 1686,
+    "end": 1690
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1690,
+    "end": 1691
+  },
+  {
+    "type": "Numeric",
+    "value": "5785",
+    "start": 1692,
+    "end": 1696
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1696,
+    "end": 1697
+  },
+  {
+    "type": "Null",
+    "value": "null",
+    "start": 1698,
+    "end": 1702
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1703,
+    "end": 1704
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1704,
+    "end": 1705
+  },
+  {
+    "type": "Identifier",
+    "value": "TemporalHelpers",
+    "start": 1707,
+    "end": 1722
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1722,
+    "end": 1723
+  },
+  {
+    "type": "Identifier",
+    "value": "assertPlainYearMonth",
+    "start": 1723,
+    "end": 1743
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1743,
+    "end": 1744
+  },
+  {
+    "type": "Identifier",
+    "value": "leap2AdarI",
+    "start": 1747,
+    "end": 1757
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1757,
+    "end": 1758
+  },
+  {
+    "type": "Identifier",
+    "value": "subtract",
+    "start": 1758,
+    "end": 1766
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1766,
+    "end": 1767
+  },
+  {
+    "type": "Identifier",
+    "value": "years1",
+    "start": 1767,
+    "end": 1773
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1773,
+    "end": 1774
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1774,
+    "end": 1775
+  },
+  {
+    "type": "Numeric",
+    "value": "5785",
+    "start": 1778,
+    "end": 1782
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1782,
+    "end": 1783
+  },
+  {
+    "type": "Numeric",
+    "value": "6",
+    "start": 1784,
+    "end": 1785
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1785,
+    "end": 1786
+  },
+  {
+    "type": "String",
+    "value": "\"M06\"",
+    "start": 1787,
+    "end": 1792
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1792,
+    "end": 1793
+  },
+  {
+    "type": "String",
+    "value": "\"Adding 1 year to Adar I (M05L) lands in common-year Adar (M06) with constrain\"",
+    "start": 1794,
+    "end": 1873
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1873,
+    "end": 1874
+  },
+  {
+    "type": "String",
+    "value": "\"am\"",
+    "start": 1877,
+    "end": 1881
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1881,
+    "end": 1882
+  },
+  {
+    "type": "Numeric",
+    "value": "5785",
+    "start": 1883,
+    "end": 1887
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1887,
+    "end": 1888
+  },
+  {
+    "type": "Null",
+    "value": "null",
+    "start": 1889,
+    "end": 1893
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1894,
+    "end": 1895
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1895,
+    "end": 1896
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 1898,
+    "end": 1904
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1904,
+    "end": 1905
+  },
+  {
+    "type": "Identifier",
+    "value": "throws",
+    "start": 1905,
+    "end": 1911
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1911,
+    "end": 1912
+  },
+  {
+    "type": "Identifier",
+    "value": "RangeError",
+    "start": 1912,
+    "end": 1922
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1922,
+    "end": 1923
+  },
+  {
+    "type": "Keyword",
+    "value": "function",
+    "start": 1924,
+    "end": 1932
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1933,
+    "end": 1934
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1934,
+    "end": 1935
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 1936,
+    "end": 1937
+  },
+  {
+    "type": "Identifier",
+    "value": "leap2AdarI",
+    "start": 1940,
+    "end": 1950
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1950,
+    "end": 1951
+  },
+  {
+    "type": "Identifier",
+    "value": "subtract",
+    "start": 1951,
+    "end": 1959
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1959,
+    "end": 1960
+  },
+  {
+    "type": "Identifier",
+    "value": "years1",
+    "start": 1960,
+    "end": 1966
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1966,
+    "end": 1967
+  },
+  {
+    "type": "Identifier",
+    "value": "options",
+    "start": 1968,
+    "end": 1975
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1975,
+    "end": 1976
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1976,
+    "end": 1977
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 1978,
+    "end": 1979
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1979,
+    "end": 1980
+  },
+  {
+    "type": "String",
+    "value": "\"Adding 1 year to Adar I (M05L) rejects\"",
+    "start": 1981,
+    "end": 2021
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 2021,
+    "end": 2022
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 2022,
+    "end": 2023
+  },
+  {
+    "type": "Identifier",
+    "value": "TemporalHelpers",
+    "start": 2025,
+    "end": 2040
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 2040,
+    "end": 2041
+  },
+  {
+    "type": "Identifier",
+    "value": "assertPlainYearMonth",
+    "start": 2041,
+    "end": 2061
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 2061,
+    "end": 2062
+  },
+  {
+    "type": "Identifier",
+    "value": "leap2AdarII",
+    "start": 2065,
+    "end": 2076
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 2076,
+    "end": 2077
+  },
+  {
+    "type": "Identifier",
+    "value": "subtract",
+    "start": 2077,
+    "end": 2085
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 2085,
+    "end": 2086
+  },
+  {
+    "type": "Identifier",
+    "value": "years1",
+    "start": 2086,
+    "end": 2092
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2092,
+    "end": 2093
+  },
+  {
+    "type": "Identifier",
+    "value": "options",
+    "start": 2094,
+    "end": 2101
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 2101,
+    "end": 2102
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2102,
+    "end": 2103
+  },
+  {
+    "type": "Numeric",
+    "value": "5785",
+    "start": 2106,
+    "end": 2110
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2110,
+    "end": 2111
+  },
+  {
+    "type": "Numeric",
+    "value": "6",
+    "start": 2112,
+    "end": 2113
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2113,
+    "end": 2114
+  },
+  {
+    "type": "String",
+    "value": "\"M06\"",
+    "start": 2115,
+    "end": 2120
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2120,
+    "end": 2121
+  },
+  {
+    "type": "String",
+    "value": "\"Adding 1 year to Adar II (M06) lands in common-year Adar (M06) even with reject\"",
+    "start": 2122,
+    "end": 2203
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2203,
+    "end": 2204
+  },
+  {
+    "type": "String",
+    "value": "\"am\"",
+    "start": 2207,
+    "end": 2211
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2211,
+    "end": 2212
+  },
+  {
+    "type": "Numeric",
+    "value": "5785",
+    "start": 2213,
+    "end": 2217
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2217,
+    "end": 2218
+  },
+  {
+    "type": "Null",
+    "value": "null",
+    "start": 2219,
+    "end": 2223
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 2224,
+    "end": 2225
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 2225,
+    "end": 2226
+  },
+  {
+    "type": "Identifier",
+    "value": "TemporalHelpers",
+    "start": 2228,
+    "end": 2243
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 2243,
+    "end": 2244
+  },
+  {
+    "type": "Identifier",
+    "value": "assertPlainYearMonth",
+    "start": 2244,
+    "end": 2264
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 2264,
+    "end": 2265
+  },
+  {
+    "type": "Identifier",
+    "value": "common",
+    "start": 2268,
+    "end": 2274
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 2274,
+    "end": 2275
+  },
+  {
+    "type": "Identifier",
+    "value": "subtract",
+    "start": 2275,
+    "end": 2283
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 2283,
+    "end": 2284
+  },
+  {
+    "type": "Identifier",
+    "value": "years1",
+    "start": 2284,
+    "end": 2290
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2290,
+    "end": 2291
+  },
+  {
+    "type": "Identifier",
+    "value": "options",
+    "start": 2292,
+    "end": 2299
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 2299,
+    "end": 2300
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2300,
+    "end": 2301
+  },
+  {
+    "type": "Numeric",
+    "value": "5784",
+    "start": 2304,
+    "end": 2308
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2308,
+    "end": 2309
+  },
+  {
+    "type": "Numeric",
+    "value": "9",
+    "start": 2310,
+    "end": 2311
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2311,
+    "end": 2312
+  },
+  {
+    "type": "String",
+    "value": "\"M08\"",
+    "start": 2313,
+    "end": 2318
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2318,
+    "end": 2319
+  },
+  {
+    "type": "String",
+    "value": "\"Adding 1 year across Adar I (M05L)\"",
+    "start": 2320,
+    "end": 2356
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2356,
+    "end": 2357
+  },
+  {
+    "type": "String",
+    "value": "\"am\"",
+    "start": 2360,
+    "end": 2364
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2364,
+    "end": 2365
+  },
+  {
+    "type": "Numeric",
+    "value": "5784",
+    "start": 2366,
+    "end": 2370
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2370,
+    "end": 2371
+  },
+  {
+    "type": "Null",
+    "value": "null",
+    "start": 2372,
+    "end": 2376
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 2377,
+    "end": 2378
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 2378,
+    "end": 2379
+  },
+  {
+    "type": "Identifier",
+    "value": "TemporalHelpers",
+    "start": 2381,
+    "end": 2396
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 2396,
+    "end": 2397
+  },
+  {
+    "type": "Identifier",
+    "value": "assertPlainYearMonth",
+    "start": 2397,
+    "end": 2417
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 2417,
+    "end": 2418
+  },
+  {
+    "type": "Identifier",
+    "value": "leap1AdarI",
+    "start": 2421,
+    "end": 2431
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 2431,
+    "end": 2432
+  },
+  {
+    "type": "Identifier",
+    "value": "subtract",
+    "start": 2432,
+    "end": 2440
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 2440,
+    "end": 2441
+  },
+  {
+    "type": "Identifier",
+    "value": "years2",
+    "start": 2441,
+    "end": 2447
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2447,
+    "end": 2448
+  },
+  {
+    "type": "Identifier",
+    "value": "options",
+    "start": 2449,
+    "end": 2456
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 2456,
+    "end": 2457
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2457,
+    "end": 2458
+  },
+  {
+    "type": "Numeric",
+    "value": "5784",
+    "start": 2461,
+    "end": 2465
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2465,
+    "end": 2466
+  },
+  {
+    "type": "Numeric",
+    "value": "6",
+    "start": 2467,
+    "end": 2468
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2468,
+    "end": 2469
+  },
+  {
+    "type": "String",
+    "value": "\"M05L\"",
+    "start": 2470,
+    "end": 2476
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2476,
+    "end": 2477
+  },
+  {
+    "type": "String",
+    "value": "\"Adding 2 years to leap-year Adar I (M05L) lands in leap-year Adar I (M05L)\"",
+    "start": 2478,
+    "end": 2554
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2554,
+    "end": 2555
+  },
+  {
+    "type": "String",
+    "value": "\"am\"",
+    "start": 2558,
+    "end": 2562
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2562,
+    "end": 2563
+  },
+  {
+    "type": "Numeric",
+    "value": "5784",
+    "start": 2564,
+    "end": 2568
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2568,
+    "end": 2569
+  },
+  {
+    "type": "Null",
+    "value": "null",
+    "start": 2570,
+    "end": 2574
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 2575,
+    "end": 2576
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 2576,
+    "end": 2577
+  },
+  {
+    "type": "Identifier",
+    "value": "TemporalHelpers",
+    "start": 2579,
+    "end": 2594
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 2594,
+    "end": 2595
+  },
+  {
+    "type": "Identifier",
+    "value": "assertPlainYearMonth",
+    "start": 2595,
+    "end": 2615
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 2615,
+    "end": 2616
+  },
+  {
+    "type": "Identifier",
+    "value": "leap1AdarII",
+    "start": 2619,
+    "end": 2630
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 2630,
+    "end": 2631
+  },
+  {
+    "type": "Identifier",
+    "value": "subtract",
+    "start": 2631,
+    "end": 2639
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 2639,
+    "end": 2640
+  },
+  {
+    "type": "Identifier",
+    "value": "years2",
+    "start": 2640,
+    "end": 2646
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2646,
+    "end": 2647
+  },
+  {
+    "type": "Identifier",
+    "value": "options",
+    "start": 2648,
+    "end": 2655
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 2655,
+    "end": 2656
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2656,
+    "end": 2657
+  },
+  {
+    "type": "Numeric",
+    "value": "5784",
+    "start": 2660,
+    "end": 2664
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2664,
+    "end": 2665
+  },
+  {
+    "type": "Numeric",
+    "value": "7",
+    "start": 2666,
+    "end": 2667
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2667,
+    "end": 2668
+  },
+  {
+    "type": "String",
+    "value": "\"M06\"",
+    "start": 2669,
+    "end": 2674
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2674,
+    "end": 2675
+  },
+  {
+    "type": "String",
+    "value": "\"Adding 2 years to leap-year Adar II (M06) lands in leap-year Adar II (M06)\"",
+    "start": 2676,
+    "end": 2752
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2752,
+    "end": 2753
+  },
+  {
+    "type": "String",
+    "value": "\"am\"",
+    "start": 2756,
+    "end": 2760
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2760,
+    "end": 2761
+  },
+  {
+    "type": "Numeric",
+    "value": "5784",
+    "start": 2762,
+    "end": 2766
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2766,
+    "end": 2767
+  },
+  {
+    "type": "Null",
+    "value": "null",
+    "start": 2768,
+    "end": 2772
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 2773,
+    "end": 2774
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 2774,
+    "end": 2775
+  },
+  {
+    "type": "Identifier",
+    "value": "TemporalHelpers",
+    "start": 2777,
+    "end": 2792
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 2792,
+    "end": 2793
+  },
+  {
+    "type": "Identifier",
+    "value": "assertPlainYearMonth",
+    "start": 2793,
+    "end": 2813
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 2813,
+    "end": 2814
+  },
+  {
+    "type": "Identifier",
+    "value": "common2Adar",
+    "start": 2817,
+    "end": 2828
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 2828,
+    "end": 2829
+  },
+  {
+    "type": "Identifier",
+    "value": "subtract",
+    "start": 2829,
+    "end": 2837
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 2837,
+    "end": 2838
+  },
+  {
+    "type": "Identifier",
+    "value": "years1n",
+    "start": 2838,
+    "end": 2845
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2845,
+    "end": 2846
+  },
+  {
+    "type": "Identifier",
+    "value": "options",
+    "start": 2847,
+    "end": 2854
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 2854,
+    "end": 2855
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2855,
+    "end": 2856
+  },
+  {
+    "type": "Numeric",
+    "value": "5784",
+    "start": 2859,
+    "end": 2863
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2863,
+    "end": 2864
+  },
+  {
+    "type": "Numeric",
+    "value": "7",
+    "start": 2865,
+    "end": 2866
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2866,
+    "end": 2867
+  },
+  {
+    "type": "String",
+    "value": "\"M06\"",
+    "start": 2868,
+    "end": 2873
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2873,
+    "end": 2874
+  },
+  {
+    "type": "String",
+    "value": "\"Subtracting 1 year from common-year Adar (M06) lands in leap-year Adar II (M06)\"",
+    "start": 2875,
+    "end": 2956
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2956,
+    "end": 2957
+  },
+  {
+    "type": "String",
+    "value": "\"am\"",
+    "start": 2960,
+    "end": 2964
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2964,
+    "end": 2965
+  },
+  {
+    "type": "Numeric",
+    "value": "5784",
+    "start": 2966,
+    "end": 2970
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2970,
+    "end": 2971
+  },
+  {
+    "type": "Null",
+    "value": "null",
+    "start": 2972,
+    "end": 2976
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 2977,
+    "end": 2978
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 2978,
+    "end": 2979
+  },
+  {
+    "type": "Identifier",
+    "value": "TemporalHelpers",
+    "start": 2981,
+    "end": 2996
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 2996,
+    "end": 2997
+  },
+  {
+    "type": "Identifier",
+    "value": "assertPlainYearMonth",
+    "start": 2997,
+    "end": 3017
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 3017,
+    "end": 3018
+  },
+  {
+    "type": "Identifier",
+    "value": "common2Adar",
+    "start": 3021,
+    "end": 3032
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 3032,
+    "end": 3033
+  },
+  {
+    "type": "Identifier",
+    "value": "subtract",
+    "start": 3033,
+    "end": 3041
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 3041,
+    "end": 3042
+  },
+  {
+    "type": "Identifier",
+    "value": "years2n",
+    "start": 3042,
+    "end": 3049
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3049,
+    "end": 3050
+  },
+  {
+    "type": "Identifier",
+    "value": "options",
+    "start": 3051,
+    "end": 3058
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 3058,
+    "end": 3059
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3059,
+    "end": 3060
+  },
+  {
+    "type": "Numeric",
+    "value": "5783",
+    "start": 3063,
+    "end": 3067
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3067,
+    "end": 3068
+  },
+  {
+    "type": "Numeric",
+    "value": "6",
+    "start": 3069,
+    "end": 3070
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3070,
+    "end": 3071
+  },
+  {
+    "type": "String",
+    "value": "\"M06\"",
+    "start": 3072,
+    "end": 3077
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3077,
+    "end": 3078
+  },
+  {
+    "type": "String",
+    "value": "\"Subtracting 2 years from common-year Adar (M06) crossing leap year lands in common-year Adar (M06)\"",
+    "start": 3079,
+    "end": 3179
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3179,
+    "end": 3180
+  },
+  {
+    "type": "String",
+    "value": "\"am\"",
+    "start": 3183,
+    "end": 3187
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3187,
+    "end": 3188
+  },
+  {
+    "type": "Numeric",
+    "value": "5783",
+    "start": 3189,
+    "end": 3193
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3193,
+    "end": 3194
+  },
+  {
+    "type": "Null",
+    "value": "null",
+    "start": 3195,
+    "end": 3199
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 3200,
+    "end": 3201
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 3201,
+    "end": 3202
+  },
+  {
+    "type": "Identifier",
+    "value": "TemporalHelpers",
+    "start": 3204,
+    "end": 3219
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 3219,
+    "end": 3220
+  },
+  {
+    "type": "Identifier",
+    "value": "assertPlainYearMonth",
+    "start": 3220,
+    "end": 3240
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 3240,
+    "end": 3241
+  },
+  {
+    "type": "Identifier",
+    "value": "leap2AdarI",
+    "start": 3244,
+    "end": 3254
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 3254,
+    "end": 3255
+  },
+  {
+    "type": "Identifier",
+    "value": "subtract",
+    "start": 3255,
+    "end": 3263
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 3263,
+    "end": 3264
+  },
+  {
+    "type": "Identifier",
+    "value": "years1n",
+    "start": 3264,
+    "end": 3271
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 3271,
+    "end": 3272
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3272,
+    "end": 3273
+  },
+  {
+    "type": "Numeric",
+    "value": "5783",
+    "start": 3276,
+    "end": 3280
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3280,
+    "end": 3281
+  },
+  {
+    "type": "Numeric",
+    "value": "6",
+    "start": 3282,
+    "end": 3283
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3283,
+    "end": 3284
+  },
+  {
+    "type": "String",
+    "value": "\"M06\"",
+    "start": 3285,
+    "end": 3290
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3290,
+    "end": 3291
+  },
+  {
+    "type": "String",
+    "value": "\"Subtracting 1 year from Adar I (M05L) lands in common-year Adar (M06) with constrain\"",
+    "start": 3292,
+    "end": 3378
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3378,
+    "end": 3379
+  },
+  {
+    "type": "String",
+    "value": "\"am\"",
+    "start": 3382,
+    "end": 3386
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3386,
+    "end": 3387
+  },
+  {
+    "type": "Numeric",
+    "value": "5783",
+    "start": 3388,
+    "end": 3392
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3392,
+    "end": 3393
+  },
+  {
+    "type": "Null",
+    "value": "null",
+    "start": 3394,
+    "end": 3398
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 3399,
+    "end": 3400
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 3400,
+    "end": 3401
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 3403,
+    "end": 3409
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 3409,
+    "end": 3410
+  },
+  {
+    "type": "Identifier",
+    "value": "throws",
+    "start": 3410,
+    "end": 3416
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 3416,
+    "end": 3417
+  },
+  {
+    "type": "Identifier",
+    "value": "RangeError",
+    "start": 3417,
+    "end": 3427
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3427,
+    "end": 3428
+  },
+  {
+    "type": "Keyword",
+    "value": "function",
+    "start": 3429,
+    "end": 3437
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 3438,
+    "end": 3439
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 3439,
+    "end": 3440
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 3441,
+    "end": 3442
+  },
+  {
+    "type": "Identifier",
+    "value": "leap2AdarI",
+    "start": 3445,
+    "end": 3455
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 3455,
+    "end": 3456
+  },
+  {
+    "type": "Identifier",
+    "value": "subtract",
+    "start": 3456,
+    "end": 3464
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 3464,
+    "end": 3465
+  },
+  {
+    "type": "Identifier",
+    "value": "years1n",
+    "start": 3465,
+    "end": 3472
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3472,
+    "end": 3473
+  },
+  {
+    "type": "Identifier",
+    "value": "options",
+    "start": 3474,
+    "end": 3481
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 3481,
+    "end": 3482
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 3482,
+    "end": 3483
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 3484,
+    "end": 3485
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3485,
+    "end": 3486
+  },
+  {
+    "type": "String",
+    "value": "\"Subtracting 1 year from Adar I (M05L) rejects\"",
+    "start": 3487,
+    "end": 3534
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 3534,
+    "end": 3535
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 3535,
+    "end": 3536
+  },
+  {
+    "type": "Identifier",
+    "value": "TemporalHelpers",
+    "start": 3538,
+    "end": 3553
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 3553,
+    "end": 3554
+  },
+  {
+    "type": "Identifier",
+    "value": "assertPlainYearMonth",
+    "start": 3554,
+    "end": 3574
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 3574,
+    "end": 3575
+  },
+  {
+    "type": "Identifier",
+    "value": "leap2AdarII",
+    "start": 3578,
+    "end": 3589
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 3589,
+    "end": 3590
+  },
+  {
+    "type": "Identifier",
+    "value": "subtract",
+    "start": 3590,
+    "end": 3598
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 3598,
+    "end": 3599
+  },
+  {
+    "type": "Identifier",
+    "value": "years1n",
+    "start": 3599,
+    "end": 3606
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3606,
+    "end": 3607
+  },
+  {
+    "type": "Identifier",
+    "value": "options",
+    "start": 3608,
+    "end": 3615
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 3615,
+    "end": 3616
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3616,
+    "end": 3617
+  },
+  {
+    "type": "Numeric",
+    "value": "5783",
+    "start": 3620,
+    "end": 3624
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3624,
+    "end": 3625
+  },
+  {
+    "type": "Numeric",
+    "value": "6",
+    "start": 3626,
+    "end": 3627
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3627,
+    "end": 3628
+  },
+  {
+    "type": "String",
+    "value": "\"M06\"",
+    "start": 3629,
+    "end": 3634
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3634,
+    "end": 3635
+  },
+  {
+    "type": "String",
+    "value": "\"Subtracting 1 year from Adar II (M06) lands in common-year Adar (M06) even with reject\"",
+    "start": 3636,
+    "end": 3724
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3724,
+    "end": 3725
+  },
+  {
+    "type": "String",
+    "value": "\"am\"",
+    "start": 3728,
+    "end": 3732
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3732,
+    "end": 3733
+  },
+  {
+    "type": "Numeric",
+    "value": "5783",
+    "start": 3734,
+    "end": 3738
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3738,
+    "end": 3739
+  },
+  {
+    "type": "Null",
+    "value": "null",
+    "start": 3740,
+    "end": 3744
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 3745,
+    "end": 3746
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 3746,
+    "end": 3747
+  },
+  {
+    "type": "Identifier",
+    "value": "TemporalHelpers",
+    "start": 3749,
+    "end": 3764
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 3764,
+    "end": 3765
+  },
+  {
+    "type": "Identifier",
+    "value": "assertPlainYearMonth",
+    "start": 3765,
+    "end": 3785
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 3785,
+    "end": 3786
+  },
+  {
+    "type": "Identifier",
+    "value": "common",
+    "start": 3789,
+    "end": 3795
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 3795,
+    "end": 3796
+  },
+  {
+    "type": "Identifier",
+    "value": "subtract",
+    "start": 3796,
+    "end": 3804
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 3804,
+    "end": 3805
+  },
+  {
+    "type": "Identifier",
+    "value": "years2n",
+    "start": 3805,
+    "end": 3812
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3812,
+    "end": 3813
+  },
+  {
+    "type": "Identifier",
+    "value": "options",
+    "start": 3814,
+    "end": 3821
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 3821,
+    "end": 3822
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3822,
+    "end": 3823
+  },
+  {
+    "type": "Numeric",
+    "value": "5781",
+    "start": 3826,
+    "end": 3830
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3830,
+    "end": 3831
+  },
+  {
+    "type": "Numeric",
+    "value": "8",
+    "start": 3832,
+    "end": 3833
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3833,
+    "end": 3834
+  },
+  {
+    "type": "String",
+    "value": "\"M08\"",
+    "start": 3835,
+    "end": 3840
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3840,
+    "end": 3841
+  },
+  {
+    "type": "String",
+    "value": "\"Subtracting 2 years across Adar I (M05L)\"",
+    "start": 3842,
+    "end": 3884
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3884,
+    "end": 3885
+  },
+  {
+    "type": "String",
+    "value": "\"am\"",
+    "start": 3888,
+    "end": 3892
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3892,
+    "end": 3893
+  },
+  {
+    "type": "Numeric",
+    "value": "5781",
+    "start": 3894,
+    "end": 3898
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3898,
+    "end": 3899
+  },
+  {
+    "type": "Null",
+    "value": "null",
+    "start": 3900,
+    "end": 3904
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 3905,
+    "end": 3906
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 3906,
+    "end": 3907
+  },
+  {
+    "type": "Identifier",
+    "value": "TemporalHelpers",
+    "start": 3909,
+    "end": 3924
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 3924,
+    "end": 3925
+  },
+  {
+    "type": "Identifier",
+    "value": "assertPlainYearMonth",
+    "start": 3925,
+    "end": 3945
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 3945,
+    "end": 3946
+  },
+  {
+    "type": "Identifier",
+    "value": "leap2AdarI",
+    "start": 3949,
+    "end": 3959
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 3959,
+    "end": 3960
+  },
+  {
+    "type": "Identifier",
+    "value": "subtract",
+    "start": 3960,
+    "end": 3968
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 3968,
+    "end": 3969
+  },
+  {
+    "type": "Identifier",
+    "value": "years2n",
+    "start": 3969,
+    "end": 3976
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3976,
+    "end": 3977
+  },
+  {
+    "type": "Identifier",
+    "value": "options",
+    "start": 3978,
+    "end": 3985
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 3985,
+    "end": 3986
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3986,
+    "end": 3987
+  },
+  {
+    "type": "Numeric",
+    "value": "5782",
+    "start": 3990,
+    "end": 3994
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3994,
+    "end": 3995
+  },
+  {
+    "type": "Numeric",
+    "value": "6",
+    "start": 3996,
+    "end": 3997
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3997,
+    "end": 3998
+  },
+  {
+    "type": "String",
+    "value": "\"M05L\"",
+    "start": 3999,
+    "end": 4005
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 4005,
+    "end": 4006
+  },
+  {
+    "type": "String",
+    "value": "\"Subtracting 2 years from leap-year Adar I (M05L) lands in leap-year Adar I (M05L)\"",
+    "start": 4007,
+    "end": 4090
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 4090,
+    "end": 4091
+  },
+  {
+    "type": "String",
+    "value": "\"am\"",
+    "start": 4094,
+    "end": 4098
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 4098,
+    "end": 4099
+  },
+  {
+    "type": "Numeric",
+    "value": "5782",
+    "start": 4100,
+    "end": 4104
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 4104,
+    "end": 4105
+  },
+  {
+    "type": "Null",
+    "value": "null",
+    "start": 4106,
+    "end": 4110
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 4111,
+    "end": 4112
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 4112,
+    "end": 4113
+  },
+  {
+    "type": "Identifier",
+    "value": "TemporalHelpers",
+    "start": 4115,
+    "end": 4130
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 4130,
+    "end": 4131
+  },
+  {
+    "type": "Identifier",
+    "value": "assertPlainYearMonth",
+    "start": 4131,
+    "end": 4151
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 4151,
+    "end": 4152
+  },
+  {
+    "type": "Identifier",
+    "value": "leap2AdarII",
+    "start": 4155,
+    "end": 4166
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 4166,
+    "end": 4167
+  },
+  {
+    "type": "Identifier",
+    "value": "subtract",
+    "start": 4167,
+    "end": 4175
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 4175,
+    "end": 4176
+  },
+  {
+    "type": "Identifier",
+    "value": "years2n",
+    "start": 4176,
+    "end": 4183
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 4183,
+    "end": 4184
+  },
+  {
+    "type": "Identifier",
+    "value": "options",
+    "start": 4185,
+    "end": 4192
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 4192,
+    "end": 4193
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 4193,
+    "end": 4194
+  },
+  {
+    "type": "Numeric",
+    "value": "5782",
+    "start": 4197,
+    "end": 4201
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 4201,
+    "end": 4202
+  },
+  {
+    "type": "Numeric",
+    "value": "7",
+    "start": 4203,
+    "end": 4204
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 4204,
+    "end": 4205
+  },
+  {
+    "type": "String",
+    "value": "\"M06\"",
+    "start": 4206,
+    "end": 4211
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 4211,
+    "end": 4212
+  },
+  {
+    "type": "String",
+    "value": "\"Subtracting 2 years from leap-year Adar II (M06) lands in leap-year Adar II (M06)\"",
+    "start": 4213,
+    "end": 4296
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 4296,
+    "end": 4297
+  },
+  {
+    "type": "String",
+    "value": "\"am\"",
+    "start": 4300,
+    "end": 4304
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 4304,
+    "end": 4305
+  },
+  {
+    "type": "Numeric",
+    "value": "5782",
+    "start": 4306,
+    "end": 4310
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 4310,
+    "end": 4311
+  },
+  {
+    "type": "Null",
+    "value": "null",
+    "start": 4312,
+    "end": 4316
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 4317,
+    "end": 4318
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 4318,
+    "end": 4319
+  },
+  {
+    "type": "Keyword",
+    "value": "const",
+    "start": 4332,
+    "end": 4337
+  },
+  {
+    "type": "Identifier",
+    "value": "months1",
+    "start": 4338,
+    "end": 4345
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 4346,
+    "end": 4347
+  },
+  {
+    "type": "Keyword",
+    "value": "new",
+    "start": 4348,
+    "end": 4351
+  },
+  {
+    "type": "Identifier",
+    "value": "Temporal",
+    "start": 4352,
+    "end": 4360
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 4360,
+    "end": 4361
+  },
+  {
+    "type": "Identifier",
+    "value": "Duration",
+    "start": 4361,
+    "end": 4369
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 4369,
+    "end": 4370
+  },
+  {
+    "type": "Numeric",
+    "value": "0",
+    "start": 4370,
+    "end": 4371
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 4371,
+    "end": 4372
+  },
+  {
+    "type": "Punctuator",
+    "value": "-",
+    "start": 4373,
+    "end": 4374
+  },
+  {
+    "type": "Numeric",
+    "value": "1",
+    "start": 4374,
+    "end": 4375
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 4375,
+    "end": 4376
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 4376,
+    "end": 4377
+  },
+  {
+    "type": "Keyword",
+    "value": "const",
+    "start": 4378,
+    "end": 4383
+  },
+  {
+    "type": "Identifier",
+    "value": "months1n",
+    "start": 4384,
+    "end": 4392
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 4393,
+    "end": 4394
+  },
+  {
+    "type": "Keyword",
+    "value": "new",
+    "start": 4395,
+    "end": 4398
+  },
+  {
+    "type": "Identifier",
+    "value": "Temporal",
+    "start": 4399,
+    "end": 4407
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 4407,
+    "end": 4408
+  },
+  {
+    "type": "Identifier",
+    "value": "Duration",
+    "start": 4408,
+    "end": 4416
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 4416,
+    "end": 4417
+  },
+  {
+    "type": "Numeric",
+    "value": "0",
+    "start": 4417,
+    "end": 4418
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 4418,
+    "end": 4419
+  },
+  {
+    "type": "Numeric",
+    "value": "1",
+    "start": 4420,
+    "end": 4421
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 4421,
+    "end": 4422
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 4422,
+    "end": 4423
+  },
+  {
+    "type": "Keyword",
+    "value": "const",
+    "start": 4424,
+    "end": 4429
+  },
+  {
+    "type": "Identifier",
+    "value": "months2",
+    "start": 4430,
+    "end": 4437
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 4438,
+    "end": 4439
+  },
+  {
+    "type": "Keyword",
+    "value": "new",
+    "start": 4440,
+    "end": 4443
+  },
+  {
+    "type": "Identifier",
+    "value": "Temporal",
+    "start": 4444,
+    "end": 4452
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 4452,
+    "end": 4453
+  },
+  {
+    "type": "Identifier",
+    "value": "Duration",
+    "start": 4453,
+    "end": 4461
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 4461,
+    "end": 4462
+  },
+  {
+    "type": "Numeric",
+    "value": "0",
+    "start": 4462,
+    "end": 4463
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 4463,
+    "end": 4464
+  },
+  {
+    "type": "Punctuator",
+    "value": "-",
+    "start": 4465,
+    "end": 4466
+  },
+  {
+    "type": "Numeric",
+    "value": "2",
+    "start": 4466,
+    "end": 4467
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 4467,
+    "end": 4468
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 4468,
+    "end": 4469
+  },
+  {
+    "type": "Keyword",
+    "value": "const",
+    "start": 4470,
+    "end": 4475
+  },
+  {
+    "type": "Identifier",
+    "value": "months2n",
+    "start": 4476,
+    "end": 4484
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 4485,
+    "end": 4486
+  },
+  {
+    "type": "Keyword",
+    "value": "new",
+    "start": 4487,
+    "end": 4490
+  },
+  {
+    "type": "Identifier",
+    "value": "Temporal",
+    "start": 4491,
+    "end": 4499
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 4499,
+    "end": 4500
+  },
+  {
+    "type": "Identifier",
+    "value": "Duration",
+    "start": 4500,
+    "end": 4508
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 4508,
+    "end": 4509
+  },
+  {
+    "type": "Numeric",
+    "value": "0",
+    "start": 4509,
+    "end": 4510
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 4510,
+    "end": 4511
+  },
+  {
+    "type": "Numeric",
+    "value": "2",
+    "start": 4512,
+    "end": 4513
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 4513,
+    "end": 4514
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 4514,
+    "end": 4515
+  },
+  {
+    "type": "Keyword",
+    "value": "const",
+    "start": 4516,
+    "end": 4521
+  },
+  {
+    "type": "Identifier",
+    "value": "months12",
+    "start": 4522,
+    "end": 4530
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 4531,
+    "end": 4532
+  },
+  {
+    "type": "Keyword",
+    "value": "new",
+    "start": 4533,
+    "end": 4536
+  },
+  {
+    "type": "Identifier",
+    "value": "Temporal",
+    "start": 4537,
+    "end": 4545
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 4545,
+    "end": 4546
+  },
+  {
+    "type": "Identifier",
+    "value": "Duration",
+    "start": 4546,
+    "end": 4554
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 4554,
+    "end": 4555
+  },
+  {
+    "type": "Numeric",
+    "value": "0",
+    "start": 4555,
+    "end": 4556
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 4556,
+    "end": 4557
+  },
+  {
+    "type": "Punctuator",
+    "value": "-",
+    "start": 4558,
+    "end": 4559
+  },
+  {
+    "type": "Numeric",
+    "value": "12",
+    "start": 4559,
+    "end": 4561
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 4561,
+    "end": 4562
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 4562,
+    "end": 4563
+  },
+  {
+    "type": "Keyword",
+    "value": "const",
+    "start": 4564,
+    "end": 4569
+  },
+  {
+    "type": "Identifier",
+    "value": "months12n",
+    "start": 4570,
+    "end": 4579
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 4580,
+    "end": 4581
+  },
+  {
+    "type": "Keyword",
+    "value": "new",
+    "start": 4582,
+    "end": 4585
+  },
+  {
+    "type": "Identifier",
+    "value": "Temporal",
+    "start": 4586,
+    "end": 4594
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 4594,
+    "end": 4595
+  },
+  {
+    "type": "Identifier",
+    "value": "Duration",
+    "start": 4595,
+    "end": 4603
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 4603,
+    "end": 4604
+  },
+  {
+    "type": "Numeric",
+    "value": "0",
+    "start": 4604,
+    "end": 4605
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 4605,
+    "end": 4606
+  },
+  {
+    "type": "Numeric",
+    "value": "12",
+    "start": 4607,
+    "end": 4609
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 4609,
+    "end": 4610
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 4610,
+    "end": 4611
+  },
+  {
+    "type": "Keyword",
+    "value": "const",
+    "start": 4612,
+    "end": 4617
+  },
+  {
+    "type": "Identifier",
+    "value": "months13",
+    "start": 4618,
+    "end": 4626
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 4627,
+    "end": 4628
+  },
+  {
+    "type": "Keyword",
+    "value": "new",
+    "start": 4629,
+    "end": 4632
+  },
+  {
+    "type": "Identifier",
+    "value": "Temporal",
+    "start": 4633,
+    "end": 4641
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 4641,
+    "end": 4642
+  },
+  {
+    "type": "Identifier",
+    "value": "Duration",
+    "start": 4642,
+    "end": 4650
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 4650,
+    "end": 4651
+  },
+  {
+    "type": "Numeric",
+    "value": "0",
+    "start": 4651,
+    "end": 4652
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 4652,
+    "end": 4653
+  },
+  {
+    "type": "Punctuator",
+    "value": "-",
+    "start": 4654,
+    "end": 4655
+  },
+  {
+    "type": "Numeric",
+    "value": "13",
+    "start": 4655,
+    "end": 4657
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 4657,
+    "end": 4658
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 4658,
+    "end": 4659
+  },
+  {
+    "type": "Keyword",
+    "value": "const",
+    "start": 4660,
+    "end": 4665
+  },
+  {
+    "type": "Identifier",
+    "value": "months13n",
+    "start": 4666,
+    "end": 4675
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 4676,
+    "end": 4677
+  },
+  {
+    "type": "Keyword",
+    "value": "new",
+    "start": 4678,
+    "end": 4681
+  },
+  {
+    "type": "Identifier",
+    "value": "Temporal",
+    "start": 4682,
+    "end": 4690
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 4690,
+    "end": 4691
+  },
+  {
+    "type": "Identifier",
+    "value": "Duration",
+    "start": 4691,
+    "end": 4699
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 4699,
+    "end": 4700
+  },
+  {
+    "type": "Numeric",
+    "value": "0",
+    "start": 4700,
+    "end": 4701
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 4701,
+    "end": 4702
+  },
+  {
+    "type": "Numeric",
+    "value": "13",
+    "start": 4703,
+    "end": 4705
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 4705,
+    "end": 4706
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 4706,
+    "end": 4707
+  },
+  {
+    "type": "Keyword",
+    "value": "const",
+    "start": 4708,
+    "end": 4713
+  },
+  {
+    "type": "Identifier",
+    "value": "months24",
+    "start": 4714,
+    "end": 4722
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 4723,
+    "end": 4724
+  },
+  {
+    "type": "Keyword",
+    "value": "new",
+    "start": 4725,
+    "end": 4728
+  },
+  {
+    "type": "Identifier",
+    "value": "Temporal",
+    "start": 4729,
+    "end": 4737
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 4737,
+    "end": 4738
+  },
+  {
+    "type": "Identifier",
+    "value": "Duration",
+    "start": 4738,
+    "end": 4746
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 4746,
+    "end": 4747
+  },
+  {
+    "type": "Numeric",
+    "value": "0",
+    "start": 4747,
+    "end": 4748
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 4748,
+    "end": 4749
+  },
+  {
+    "type": "Punctuator",
+    "value": "-",
+    "start": 4750,
+    "end": 4751
+  },
+  {
+    "type": "Numeric",
+    "value": "24",
+    "start": 4751,
+    "end": 4753
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 4753,
+    "end": 4754
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 4754,
+    "end": 4755
+  },
+  {
+    "type": "Keyword",
+    "value": "const",
+    "start": 4756,
+    "end": 4761
+  },
+  {
+    "type": "Identifier",
+    "value": "months24n",
+    "start": 4762,
+    "end": 4771
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 4772,
+    "end": 4773
+  },
+  {
+    "type": "Keyword",
+    "value": "new",
+    "start": 4774,
+    "end": 4777
+  },
+  {
+    "type": "Identifier",
+    "value": "Temporal",
+    "start": 4778,
+    "end": 4786
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 4786,
+    "end": 4787
+  },
+  {
+    "type": "Identifier",
+    "value": "Duration",
+    "start": 4787,
+    "end": 4795
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 4795,
+    "end": 4796
+  },
+  {
+    "type": "Numeric",
+    "value": "0",
+    "start": 4796,
+    "end": 4797
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 4797,
+    "end": 4798
+  },
+  {
+    "type": "Numeric",
+    "value": "24",
+    "start": 4799,
+    "end": 4801
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 4801,
+    "end": 4802
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 4802,
+    "end": 4803
+  },
+  {
+    "type": "Keyword",
+    "value": "const",
+    "start": 4805,
+    "end": 4810
+  },
+  {
+    "type": "Identifier",
+    "value": "date1",
+    "start": 4811,
+    "end": 4816
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 4817,
+    "end": 4818
+  },
+  {
+    "type": "Identifier",
+    "value": "Temporal",
+    "start": 4819,
+    "end": 4827
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 4827,
+    "end": 4828
+  },
+  {
+    "type": "Identifier",
+    "value": "PlainYearMonth",
+    "start": 4828,
+    "end": 4842
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 4842,
+    "end": 4843
+  },
+  {
+    "type": "Identifier",
+    "value": "from",
+    "start": 4843,
+    "end": 4847
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 4847,
+    "end": 4848
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 4848,
+    "end": 4849
+  },
+  {
+    "type": "Identifier",
+    "value": "year",
+    "start": 4850,
+    "end": 4854
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 4854,
+    "end": 4855
+  },
+  {
+    "type": "Numeric",
+    "value": "5784",
+    "start": 4856,
+    "end": 4860
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 4860,
+    "end": 4861
+  },
+  {
+    "type": "Identifier",
+    "value": "monthCode",
+    "start": 4862,
+    "end": 4871
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 4871,
+    "end": 4872
+  },
+  {
+    "type": "String",
+    "value": "\"M04\"",
+    "start": 4873,
+    "end": 4878
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 4878,
+    "end": 4879
+  },
+  {
+    "type": "Identifier",
+    "value": "calendar",
+    "start": 4880,
+    "end": 4888
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 4889,
+    "end": 4890
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 4890,
+    "end": 4891
+  },
+  {
+    "type": "Identifier",
+    "value": "options",
+    "start": 4892,
+    "end": 4899
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 4899,
+    "end": 4900
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 4900,
+    "end": 4901
+  },
+  {
+    "type": "Keyword",
+    "value": "const",
+    "start": 4902,
+    "end": 4907
+  },
+  {
+    "type": "Identifier",
+    "value": "date3",
+    "start": 4908,
+    "end": 4913
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 4914,
+    "end": 4915
+  },
+  {
+    "type": "Identifier",
+    "value": "Temporal",
+    "start": 4916,
+    "end": 4924
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 4924,
+    "end": 4925
+  },
+  {
+    "type": "Identifier",
+    "value": "PlainYearMonth",
+    "start": 4925,
+    "end": 4939
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 4939,
+    "end": 4940
+  },
+  {
+    "type": "Identifier",
+    "value": "from",
+    "start": 4940,
+    "end": 4944
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 4944,
+    "end": 4945
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 4945,
+    "end": 4946
+  },
+  {
+    "type": "Identifier",
+    "value": "year",
+    "start": 4947,
+    "end": 4951
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 4951,
+    "end": 4952
+  },
+  {
+    "type": "Numeric",
+    "value": "5784",
+    "start": 4953,
+    "end": 4957
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 4957,
+    "end": 4958
+  },
+  {
+    "type": "Identifier",
+    "value": "monthCode",
+    "start": 4959,
+    "end": 4968
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 4968,
+    "end": 4969
+  },
+  {
+    "type": "String",
+    "value": "\"M07\"",
+    "start": 4970,
+    "end": 4975
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 4975,
+    "end": 4976
+  },
+  {
+    "type": "Identifier",
+    "value": "calendar",
+    "start": 4977,
+    "end": 4985
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 4986,
+    "end": 4987
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 4987,
+    "end": 4988
+  },
+  {
+    "type": "Identifier",
+    "value": "options",
+    "start": 4989,
+    "end": 4996
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 4996,
+    "end": 4997
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 4997,
+    "end": 4998
+  },
+  {
+    "type": "Identifier",
+    "value": "TemporalHelpers",
+    "start": 5000,
+    "end": 5015
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 5015,
+    "end": 5016
+  },
+  {
+    "type": "Identifier",
+    "value": "assertPlainYearMonth",
+    "start": 5016,
+    "end": 5036
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 5036,
+    "end": 5037
+  },
+  {
+    "type": "Identifier",
+    "value": "date1",
+    "start": 5040,
+    "end": 5045
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 5045,
+    "end": 5046
+  },
+  {
+    "type": "Identifier",
+    "value": "subtract",
+    "start": 5046,
+    "end": 5054
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 5054,
+    "end": 5055
+  },
+  {
+    "type": "Identifier",
+    "value": "months1",
+    "start": 5055,
+    "end": 5062
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 5062,
+    "end": 5063
+  },
+  {
+    "type": "Identifier",
+    "value": "options",
+    "start": 5064,
+    "end": 5071
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 5071,
+    "end": 5072
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 5072,
+    "end": 5073
+  },
+  {
+    "type": "Numeric",
+    "value": "5784",
+    "start": 5076,
+    "end": 5080
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 5080,
+    "end": 5081
+  },
+  {
+    "type": "Numeric",
+    "value": "5",
+    "start": 5082,
+    "end": 5083
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 5083,
+    "end": 5084
+  },
+  {
+    "type": "String",
+    "value": "\"M05\"",
+    "start": 5085,
+    "end": 5090
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 5090,
+    "end": 5091
+  },
+  {
+    "type": "String",
+    "value": "\"Adding 1 month to M04 in leap year lands in M05 (Shevat)\"",
+    "start": 5092,
+    "end": 5150
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 5150,
+    "end": 5151
+  },
+  {
+    "type": "String",
+    "value": "\"am\"",
+    "start": 5154,
+    "end": 5158
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 5158,
+    "end": 5159
+  },
+  {
+    "type": "Numeric",
+    "value": "5784",
+    "start": 5160,
+    "end": 5164
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 5164,
+    "end": 5165
+  },
+  {
+    "type": "Null",
+    "value": "null",
+    "start": 5166,
+    "end": 5170
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 5171,
+    "end": 5172
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 5172,
+    "end": 5173
+  },
+  {
+    "type": "Identifier",
+    "value": "TemporalHelpers",
+    "start": 5175,
+    "end": 5190
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 5190,
+    "end": 5191
+  },
+  {
+    "type": "Identifier",
+    "value": "assertPlainYearMonth",
+    "start": 5191,
+    "end": 5211
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 5211,
+    "end": 5212
+  },
+  {
+    "type": "Identifier",
+    "value": "date1",
+    "start": 5215,
+    "end": 5220
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 5220,
+    "end": 5221
+  },
+  {
+    "type": "Identifier",
+    "value": "subtract",
+    "start": 5221,
+    "end": 5229
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 5229,
+    "end": 5230
+  },
+  {
+    "type": "Identifier",
+    "value": "months2",
+    "start": 5230,
+    "end": 5237
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 5237,
+    "end": 5238
+  },
+  {
+    "type": "Identifier",
+    "value": "options",
+    "start": 5239,
+    "end": 5246
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 5246,
+    "end": 5247
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 5247,
+    "end": 5248
+  },
+  {
+    "type": "Numeric",
+    "value": "5784",
+    "start": 5251,
+    "end": 5255
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 5255,
+    "end": 5256
+  },
+  {
+    "type": "Numeric",
+    "value": "6",
+    "start": 5257,
+    "end": 5258
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 5258,
+    "end": 5259
+  },
+  {
+    "type": "String",
+    "value": "\"M05L\"",
+    "start": 5260,
+    "end": 5266
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 5266,
+    "end": 5267
+  },
+  {
+    "type": "String",
+    "value": "\"Adding 2 months to M04 in leap year lands in M05L (Adar I)\"",
+    "start": 5268,
+    "end": 5328
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 5328,
+    "end": 5329
+  },
+  {
+    "type": "String",
+    "value": "\"am\"",
+    "start": 5332,
+    "end": 5336
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 5336,
+    "end": 5337
+  },
+  {
+    "type": "Numeric",
+    "value": "5784",
+    "start": 5338,
+    "end": 5342
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 5342,
+    "end": 5343
+  },
+  {
+    "type": "Null",
+    "value": "null",
+    "start": 5344,
+    "end": 5348
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 5349,
+    "end": 5350
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 5350,
+    "end": 5351
+  },
+  {
+    "type": "Identifier",
+    "value": "TemporalHelpers",
+    "start": 5353,
+    "end": 5368
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 5368,
+    "end": 5369
+  },
+  {
+    "type": "Identifier",
+    "value": "assertPlainYearMonth",
+    "start": 5369,
+    "end": 5389
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 5389,
+    "end": 5390
+  },
+  {
+    "type": "Identifier",
+    "value": "date1",
+    "start": 5393,
+    "end": 5398
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 5398,
+    "end": 5399
+  },
+  {
+    "type": "Identifier",
+    "value": "subtract",
+    "start": 5399,
+    "end": 5407
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 5407,
+    "end": 5408
+  },
+  {
+    "type": "Keyword",
+    "value": "new",
+    "start": 5408,
+    "end": 5411
+  },
+  {
+    "type": "Identifier",
+    "value": "Temporal",
+    "start": 5412,
+    "end": 5420
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 5420,
+    "end": 5421
+  },
+  {
+    "type": "Identifier",
+    "value": "Duration",
+    "start": 5421,
+    "end": 5429
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 5429,
+    "end": 5430
+  },
+  {
+    "type": "Numeric",
+    "value": "0",
+    "start": 5430,
+    "end": 5431
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 5431,
+    "end": 5432
+  },
+  {
+    "type": "Punctuator",
+    "value": "-",
+    "start": 5433,
+    "end": 5434
+  },
+  {
+    "type": "Numeric",
+    "value": "3",
+    "start": 5434,
+    "end": 5435
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 5435,
+    "end": 5436
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 5436,
+    "end": 5437
+  },
+  {
+    "type": "Identifier",
+    "value": "options",
+    "start": 5438,
+    "end": 5445
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 5445,
+    "end": 5446
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 5446,
+    "end": 5447
+  },
+  {
+    "type": "Numeric",
+    "value": "5784",
+    "start": 5450,
+    "end": 5454
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 5454,
+    "end": 5455
+  },
+  {
+    "type": "Numeric",
+    "value": "7",
+    "start": 5456,
+    "end": 5457
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 5457,
+    "end": 5458
+  },
+  {
+    "type": "String",
+    "value": "\"M06\"",
+    "start": 5459,
+    "end": 5464
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 5464,
+    "end": 5465
+  },
+  {
+    "type": "String",
+    "value": "\"Adding 3 months to M04 in leap year lands in M06 (Adar II)\"",
+    "start": 5466,
+    "end": 5526
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 5526,
+    "end": 5527
+  },
+  {
+    "type": "String",
+    "value": "\"am\"",
+    "start": 5530,
+    "end": 5534
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 5534,
+    "end": 5535
+  },
+  {
+    "type": "Numeric",
+    "value": "5784",
+    "start": 5536,
+    "end": 5540
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 5540,
+    "end": 5541
+  },
+  {
+    "type": "Null",
+    "value": "null",
+    "start": 5542,
+    "end": 5546
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 5547,
+    "end": 5548
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 5548,
+    "end": 5549
+  },
+  {
+    "type": "Identifier",
+    "value": "TemporalHelpers",
+    "start": 5551,
+    "end": 5566
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 5566,
+    "end": 5567
+  },
+  {
+    "type": "Identifier",
+    "value": "assertPlainYearMonth",
+    "start": 5567,
+    "end": 5587
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 5587,
+    "end": 5588
+  },
+  {
+    "type": "Identifier",
+    "value": "leap2AdarI",
+    "start": 5591,
+    "end": 5601
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 5601,
+    "end": 5602
+  },
+  {
+    "type": "Identifier",
+    "value": "subtract",
+    "start": 5602,
+    "end": 5610
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 5610,
+    "end": 5611
+  },
+  {
+    "type": "Identifier",
+    "value": "months1",
+    "start": 5611,
+    "end": 5618
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 5618,
+    "end": 5619
+  },
+  {
+    "type": "Identifier",
+    "value": "options",
+    "start": 5620,
+    "end": 5627
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 5627,
+    "end": 5628
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 5628,
+    "end": 5629
+  },
+  {
+    "type": "Numeric",
+    "value": "5784",
+    "start": 5632,
+    "end": 5636
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 5636,
+    "end": 5637
+  },
+  {
+    "type": "Numeric",
+    "value": "7",
+    "start": 5638,
+    "end": 5639
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 5639,
+    "end": 5640
+  },
+  {
+    "type": "String",
+    "value": "\"M06\"",
+    "start": 5641,
+    "end": 5646
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 5646,
+    "end": 5647
+  },
+  {
+    "type": "String",
+    "value": "\"Adding 1 month to M05L (Adar I) lands in M06 (Adar II)\"",
+    "start": 5648,
+    "end": 5704
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 5704,
+    "end": 5705
+  },
+  {
+    "type": "String",
+    "value": "\"am\"",
+    "start": 5708,
+    "end": 5712
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 5712,
+    "end": 5713
+  },
+  {
+    "type": "Numeric",
+    "value": "5784",
+    "start": 5714,
+    "end": 5718
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 5718,
+    "end": 5719
+  },
+  {
+    "type": "Null",
+    "value": "null",
+    "start": 5720,
+    "end": 5724
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 5725,
+    "end": 5726
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 5726,
+    "end": 5727
+  },
+  {
+    "type": "Identifier",
+    "value": "TemporalHelpers",
+    "start": 5729,
+    "end": 5744
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 5744,
+    "end": 5745
+  },
+  {
+    "type": "Identifier",
+    "value": "assertPlainYearMonth",
+    "start": 5745,
+    "end": 5765
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 5765,
+    "end": 5766
+  },
+  {
+    "type": "Identifier",
+    "value": "Temporal",
+    "start": 5769,
+    "end": 5777
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 5777,
+    "end": 5778
+  },
+  {
+    "type": "Identifier",
+    "value": "PlainYearMonth",
+    "start": 5778,
+    "end": 5792
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 5792,
+    "end": 5793
+  },
+  {
+    "type": "Identifier",
+    "value": "from",
+    "start": 5793,
+    "end": 5797
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 5797,
+    "end": 5798
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 5798,
+    "end": 5799
+  },
+  {
+    "type": "Identifier",
+    "value": "year",
+    "start": 5800,
+    "end": 5804
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 5804,
+    "end": 5805
+  },
+  {
+    "type": "Numeric",
+    "value": "5783",
+    "start": 5806,
+    "end": 5810
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 5810,
+    "end": 5811
+  },
+  {
+    "type": "Identifier",
+    "value": "monthCode",
+    "start": 5812,
+    "end": 5821
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 5821,
+    "end": 5822
+  },
+  {
+    "type": "String",
+    "value": "\"M04\"",
+    "start": 5823,
+    "end": 5828
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 5828,
+    "end": 5829
+  },
+  {
+    "type": "Identifier",
+    "value": "calendar",
+    "start": 5830,
+    "end": 5838
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 5839,
+    "end": 5840
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 5840,
+    "end": 5841
+  },
+  {
+    "type": "Identifier",
+    "value": "options",
+    "start": 5842,
+    "end": 5849
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 5849,
+    "end": 5850
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 5850,
+    "end": 5851
+  },
+  {
+    "type": "Identifier",
+    "value": "subtract",
+    "start": 5851,
+    "end": 5859
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 5859,
+    "end": 5860
+  },
+  {
+    "type": "Identifier",
+    "value": "months2",
+    "start": 5860,
+    "end": 5867
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 5867,
+    "end": 5868
+  },
+  {
+    "type": "Identifier",
+    "value": "options",
+    "start": 5869,
+    "end": 5876
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 5876,
+    "end": 5877
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 5877,
+    "end": 5878
+  },
+  {
+    "type": "Numeric",
+    "value": "5783",
+    "start": 5881,
+    "end": 5885
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 5885,
+    "end": 5886
+  },
+  {
+    "type": "Numeric",
+    "value": "6",
+    "start": 5887,
+    "end": 5888
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 5888,
+    "end": 5889
+  },
+  {
+    "type": "String",
+    "value": "\"M06\"",
+    "start": 5890,
+    "end": 5895
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 5895,
+    "end": 5896
+  },
+  {
+    "type": "String",
+    "value": "\"Adding 2 months to M04 in non-leap year lands in M06 (no M05L)\"",
+    "start": 5897,
+    "end": 5961
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 5961,
+    "end": 5962
+  },
+  {
+    "type": "String",
+    "value": "\"am\"",
+    "start": 5965,
+    "end": 5969
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 5969,
+    "end": 5970
+  },
+  {
+    "type": "Numeric",
+    "value": "5783",
+    "start": 5971,
+    "end": 5975
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 5975,
+    "end": 5976
+  },
+  {
+    "type": "Null",
+    "value": "null",
+    "start": 5977,
+    "end": 5981
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 5982,
+    "end": 5983
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 5983,
+    "end": 5984
+  },
+  {
+    "type": "Identifier",
+    "value": "TemporalHelpers",
+    "start": 5986,
+    "end": 6001
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 6001,
+    "end": 6002
+  },
+  {
+    "type": "Identifier",
+    "value": "assertPlainYearMonth",
+    "start": 6002,
+    "end": 6022
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 6022,
+    "end": 6023
+  },
+  {
+    "type": "Identifier",
+    "value": "common1Adar",
+    "start": 6026,
+    "end": 6037
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 6037,
+    "end": 6038
+  },
+  {
+    "type": "Identifier",
+    "value": "subtract",
+    "start": 6038,
+    "end": 6046
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 6046,
+    "end": 6047
+  },
+  {
+    "type": "Identifier",
+    "value": "months12",
+    "start": 6047,
+    "end": 6055
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 6055,
+    "end": 6056
+  },
+  {
+    "type": "Identifier",
+    "value": "options",
+    "start": 6057,
+    "end": 6064
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 6064,
+    "end": 6065
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 6065,
+    "end": 6066
+  },
+  {
+    "type": "Numeric",
+    "value": "5784",
+    "start": 6069,
+    "end": 6073
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 6073,
+    "end": 6074
+  },
+  {
+    "type": "Numeric",
+    "value": "6",
+    "start": 6075,
+    "end": 6076
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 6076,
+    "end": 6077
+  },
+  {
+    "type": "String",
+    "value": "\"M05L\"",
+    "start": 6078,
+    "end": 6084
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 6084,
+    "end": 6085
+  },
+  {
+    "type": "String",
+    "value": "\"Adding 12 months to common-year Adar lands in leap-year Adar I (M05L)\"",
+    "start": 6086,
+    "end": 6157
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 6157,
+    "end": 6158
+  },
+  {
+    "type": "String",
+    "value": "\"am\"",
+    "start": 6161,
+    "end": 6165
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 6165,
+    "end": 6166
+  },
+  {
+    "type": "Numeric",
+    "value": "5784",
+    "start": 6167,
+    "end": 6171
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 6171,
+    "end": 6172
+  },
+  {
+    "type": "Null",
+    "value": "null",
+    "start": 6173,
+    "end": 6177
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 6178,
+    "end": 6179
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 6179,
+    "end": 6180
+  },
+  {
+    "type": "Identifier",
+    "value": "TemporalHelpers",
+    "start": 6182,
+    "end": 6197
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 6197,
+    "end": 6198
+  },
+  {
+    "type": "Identifier",
+    "value": "assertPlainYearMonth",
+    "start": 6198,
+    "end": 6218
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 6218,
+    "end": 6219
+  },
+  {
+    "type": "Identifier",
+    "value": "common1Adar",
+    "start": 6222,
+    "end": 6233
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 6233,
+    "end": 6234
+  },
+  {
+    "type": "Identifier",
+    "value": "subtract",
+    "start": 6234,
+    "end": 6242
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 6242,
+    "end": 6243
+  },
+  {
+    "type": "Identifier",
+    "value": "months13",
+    "start": 6243,
+    "end": 6251
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 6251,
+    "end": 6252
+  },
+  {
+    "type": "Identifier",
+    "value": "options",
+    "start": 6253,
+    "end": 6260
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 6260,
+    "end": 6261
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 6261,
+    "end": 6262
+  },
+  {
+    "type": "Numeric",
+    "value": "5784",
+    "start": 6265,
+    "end": 6269
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 6269,
+    "end": 6270
+  },
+  {
+    "type": "Numeric",
+    "value": "7",
+    "start": 6271,
+    "end": 6272
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 6272,
+    "end": 6273
+  },
+  {
+    "type": "String",
+    "value": "\"M06\"",
+    "start": 6274,
+    "end": 6279
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 6279,
+    "end": 6280
+  },
+  {
+    "type": "String",
+    "value": "\"Adding 13 months to common-year Adar lands in leap-year Adar II (M06)\"",
+    "start": 6281,
+    "end": 6352
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 6352,
+    "end": 6353
+  },
+  {
+    "type": "String",
+    "value": "\"am\"",
+    "start": 6356,
+    "end": 6360
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 6360,
+    "end": 6361
+  },
+  {
+    "type": "Numeric",
+    "value": "5784",
+    "start": 6362,
+    "end": 6366
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 6366,
+    "end": 6367
+  },
+  {
+    "type": "Null",
+    "value": "null",
+    "start": 6368,
+    "end": 6372
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 6373,
+    "end": 6374
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 6374,
+    "end": 6375
+  },
+  {
+    "type": "Identifier",
+    "value": "TemporalHelpers",
+    "start": 6377,
+    "end": 6392
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 6392,
+    "end": 6393
+  },
+  {
+    "type": "Identifier",
+    "value": "assertPlainYearMonth",
+    "start": 6393,
+    "end": 6413
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 6413,
+    "end": 6414
+  },
+  {
+    "type": "Identifier",
+    "value": "leap2AdarI",
+    "start": 6417,
+    "end": 6427
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 6427,
+    "end": 6428
+  },
+  {
+    "type": "Identifier",
+    "value": "subtract",
+    "start": 6428,
+    "end": 6436
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 6436,
+    "end": 6437
+  },
+  {
+    "type": "Identifier",
+    "value": "months12",
+    "start": 6437,
+    "end": 6445
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 6445,
+    "end": 6446
+  },
+  {
+    "type": "Identifier",
+    "value": "options",
+    "start": 6447,
+    "end": 6454
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 6454,
+    "end": 6455
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 6455,
+    "end": 6456
+  },
+  {
+    "type": "Numeric",
+    "value": "5785",
+    "start": 6459,
+    "end": 6463
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 6463,
+    "end": 6464
+  },
+  {
+    "type": "Numeric",
+    "value": "5",
+    "start": 6465,
+    "end": 6466
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 6466,
+    "end": 6467
+  },
+  {
+    "type": "String",
+    "value": "\"M05\"",
+    "start": 6468,
+    "end": 6473
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 6473,
+    "end": 6474
+  },
+  {
+    "type": "String",
+    "value": "\"Adding 12 months to leap-year Adar I lands in Shevat (M05)\"",
+    "start": 6475,
+    "end": 6535
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 6535,
+    "end": 6536
+  },
+  {
+    "type": "String",
+    "value": "\"am\"",
+    "start": 6539,
+    "end": 6543
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 6543,
+    "end": 6544
+  },
+  {
+    "type": "Numeric",
+    "value": "5785",
+    "start": 6545,
+    "end": 6549
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 6549,
+    "end": 6550
+  },
+  {
+    "type": "Null",
+    "value": "null",
+    "start": 6551,
+    "end": 6555
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 6556,
+    "end": 6557
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 6557,
+    "end": 6558
+  },
+  {
+    "type": "Identifier",
+    "value": "TemporalHelpers",
+    "start": 6560,
+    "end": 6575
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 6575,
+    "end": 6576
+  },
+  {
+    "type": "Identifier",
+    "value": "assertPlainYearMonth",
+    "start": 6576,
+    "end": 6596
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 6596,
+    "end": 6597
+  },
+  {
+    "type": "Identifier",
+    "value": "leap2AdarI",
+    "start": 6600,
+    "end": 6610
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 6610,
+    "end": 6611
+  },
+  {
+    "type": "Identifier",
+    "value": "subtract",
+    "start": 6611,
+    "end": 6619
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 6619,
+    "end": 6620
+  },
+  {
+    "type": "Identifier",
+    "value": "months13",
+    "start": 6620,
+    "end": 6628
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 6628,
+    "end": 6629
+  },
+  {
+    "type": "Identifier",
+    "value": "options",
+    "start": 6630,
+    "end": 6637
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 6637,
+    "end": 6638
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 6638,
+    "end": 6639
+  },
+  {
+    "type": "Numeric",
+    "value": "5785",
+    "start": 6642,
+    "end": 6646
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 6646,
+    "end": 6647
+  },
+  {
+    "type": "Numeric",
+    "value": "6",
+    "start": 6648,
+    "end": 6649
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 6649,
+    "end": 6650
+  },
+  {
+    "type": "String",
+    "value": "\"M06\"",
+    "start": 6651,
+    "end": 6656
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 6656,
+    "end": 6657
+  },
+  {
+    "type": "String",
+    "value": "\"Adding 13 months to leap-year Adar I lands in Adar (M06)\"",
+    "start": 6658,
+    "end": 6716
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 6716,
+    "end": 6717
+  },
+  {
+    "type": "String",
+    "value": "\"am\"",
+    "start": 6720,
+    "end": 6724
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 6724,
+    "end": 6725
+  },
+  {
+    "type": "Numeric",
+    "value": "5785",
+    "start": 6726,
+    "end": 6730
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 6730,
+    "end": 6731
+  },
+  {
+    "type": "Null",
+    "value": "null",
+    "start": 6732,
+    "end": 6736
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 6737,
+    "end": 6738
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 6738,
+    "end": 6739
+  },
+  {
+    "type": "Identifier",
+    "value": "TemporalHelpers",
+    "start": 6741,
+    "end": 6756
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 6756,
+    "end": 6757
+  },
+  {
+    "type": "Identifier",
+    "value": "assertPlainYearMonth",
+    "start": 6757,
+    "end": 6777
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 6777,
+    "end": 6778
+  },
+  {
+    "type": "Identifier",
+    "value": "leap2AdarII",
+    "start": 6781,
+    "end": 6792
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 6792,
+    "end": 6793
+  },
+  {
+    "type": "Identifier",
+    "value": "subtract",
+    "start": 6793,
+    "end": 6801
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 6801,
+    "end": 6802
+  },
+  {
+    "type": "Identifier",
+    "value": "months12",
+    "start": 6802,
+    "end": 6810
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 6810,
+    "end": 6811
+  },
+  {
+    "type": "Identifier",
+    "value": "options",
+    "start": 6812,
+    "end": 6819
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 6819,
+    "end": 6820
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 6820,
+    "end": 6821
+  },
+  {
+    "type": "Numeric",
+    "value": "5785",
+    "start": 6824,
+    "end": 6828
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 6828,
+    "end": 6829
+  },
+  {
+    "type": "Numeric",
+    "value": "6",
+    "start": 6830,
+    "end": 6831
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 6831,
+    "end": 6832
+  },
+  {
+    "type": "String",
+    "value": "\"M06\"",
+    "start": 6833,
+    "end": 6838
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 6838,
+    "end": 6839
+  },
+  {
+    "type": "String",
+    "value": "\"Adding 12 months to leap-year Adar II lands in Adar (M06)\"",
+    "start": 6840,
+    "end": 6899
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 6899,
+    "end": 6900
+  },
+  {
+    "type": "String",
+    "value": "\"am\"",
+    "start": 6903,
+    "end": 6907
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 6907,
+    "end": 6908
+  },
+  {
+    "type": "Numeric",
+    "value": "5785",
+    "start": 6909,
+    "end": 6913
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 6913,
+    "end": 6914
+  },
+  {
+    "type": "Null",
+    "value": "null",
+    "start": 6915,
+    "end": 6919
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 6920,
+    "end": 6921
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 6921,
+    "end": 6922
+  },
+  {
+    "type": "Identifier",
+    "value": "TemporalHelpers",
+    "start": 6924,
+    "end": 6939
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 6939,
+    "end": 6940
+  },
+  {
+    "type": "Identifier",
+    "value": "assertPlainYearMonth",
+    "start": 6940,
+    "end": 6960
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 6960,
+    "end": 6961
+  },
+  {
+    "type": "Identifier",
+    "value": "common",
+    "start": 6964,
+    "end": 6970
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 6970,
+    "end": 6971
+  },
+  {
+    "type": "Identifier",
+    "value": "subtract",
+    "start": 6971,
+    "end": 6979
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 6979,
+    "end": 6980
+  },
+  {
+    "type": "Identifier",
+    "value": "months13",
+    "start": 6980,
+    "end": 6988
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 6988,
+    "end": 6989
+  },
+  {
+    "type": "Identifier",
+    "value": "options",
+    "start": 6990,
+    "end": 6997
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 6997,
+    "end": 6998
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 6998,
+    "end": 6999
+  },
+  {
+    "type": "Numeric",
+    "value": "5784",
+    "start": 7002,
+    "end": 7006
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 7006,
+    "end": 7007
+  },
+  {
+    "type": "Numeric",
+    "value": "9",
+    "start": 7008,
+    "end": 7009
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 7009,
+    "end": 7010
+  },
+  {
+    "type": "String",
+    "value": "\"M08\"",
+    "start": 7011,
+    "end": 7016
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 7016,
+    "end": 7017
+  },
+  {
+    "type": "String",
+    "value": "\"Adding 13 months across Adar I (M05L) lands in same month code\"",
+    "start": 7018,
+    "end": 7082
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 7082,
+    "end": 7083
+  },
+  {
+    "type": "String",
+    "value": "\"am\"",
+    "start": 7086,
+    "end": 7090
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 7090,
+    "end": 7091
+  },
+  {
+    "type": "Numeric",
+    "value": "5784",
+    "start": 7092,
+    "end": 7096
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 7096,
+    "end": 7097
+  },
+  {
+    "type": "Null",
+    "value": "null",
+    "start": 7098,
+    "end": 7102
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 7103,
+    "end": 7104
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 7104,
+    "end": 7105
+  },
+  {
+    "type": "Identifier",
+    "value": "TemporalHelpers",
+    "start": 7107,
+    "end": 7122
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 7122,
+    "end": 7123
+  },
+  {
+    "type": "Identifier",
+    "value": "assertPlainYearMonth",
+    "start": 7123,
+    "end": 7143
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 7143,
+    "end": 7144
+  },
+  {
+    "type": "Identifier",
+    "value": "common",
+    "start": 7147,
+    "end": 7153
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 7153,
+    "end": 7154
+  },
+  {
+    "type": "Identifier",
+    "value": "subtract",
+    "start": 7154,
+    "end": 7162
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 7162,
+    "end": 7163
+  },
+  {
+    "type": "Keyword",
+    "value": "new",
+    "start": 7163,
+    "end": 7166
+  },
+  {
+    "type": "Identifier",
+    "value": "Temporal",
+    "start": 7167,
+    "end": 7175
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 7175,
+    "end": 7176
+  },
+  {
+    "type": "Identifier",
+    "value": "Duration",
+    "start": 7176,
+    "end": 7184
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 7184,
+    "end": 7185
+  },
+  {
+    "type": "Punctuator",
+    "value": "-",
+    "start": 7185,
+    "end": 7186
+  },
+  {
+    "type": "Numeric",
+    "value": "1",
+    "start": 7186,
+    "end": 7187
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 7187,
+    "end": 7188
+  },
+  {
+    "type": "Punctuator",
+    "value": "-",
+    "start": 7189,
+    "end": 7190
+  },
+  {
+    "type": "Numeric",
+    "value": "12",
+    "start": 7190,
+    "end": 7192
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 7192,
+    "end": 7193
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 7193,
+    "end": 7194
+  },
+  {
+    "type": "Identifier",
+    "value": "options",
+    "start": 7195,
+    "end": 7202
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 7202,
+    "end": 7203
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 7203,
+    "end": 7204
+  },
+  {
+    "type": "Numeric",
+    "value": "5785",
+    "start": 7207,
+    "end": 7211
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 7211,
+    "end": 7212
+  },
+  {
+    "type": "Numeric",
+    "value": "8",
+    "start": 7213,
+    "end": 7214
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 7214,
+    "end": 7215
+  },
+  {
+    "type": "String",
+    "value": "\"M08\"",
+    "start": 7216,
+    "end": 7221
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 7221,
+    "end": 7222
+  },
+  {
+    "type": "String",
+    "value": "\"Adding 1y 12mo across Adar I (M05L) in the years part lands in same month code\"",
+    "start": 7223,
+    "end": 7303
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 7303,
+    "end": 7304
+  },
+  {
+    "type": "String",
+    "value": "\"am\"",
+    "start": 7307,
+    "end": 7311
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 7311,
+    "end": 7312
+  },
+  {
+    "type": "Numeric",
+    "value": "5785",
+    "start": 7313,
+    "end": 7317
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 7317,
+    "end": 7318
+  },
+  {
+    "type": "Null",
+    "value": "null",
+    "start": 7319,
+    "end": 7323
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 7324,
+    "end": 7325
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 7325,
+    "end": 7326
+  },
+  {
+    "type": "Identifier",
+    "value": "TemporalHelpers",
+    "start": 7328,
+    "end": 7343
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 7343,
+    "end": 7344
+  },
+  {
+    "type": "Identifier",
+    "value": "assertPlainYearMonth",
+    "start": 7344,
+    "end": 7364
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 7364,
+    "end": 7365
+  },
+  {
+    "type": "Identifier",
+    "value": "date3",
+    "start": 7368,
+    "end": 7373
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 7373,
+    "end": 7374
+  },
+  {
+    "type": "Identifier",
+    "value": "subtract",
+    "start": 7374,
+    "end": 7382
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 7382,
+    "end": 7383
+  },
+  {
+    "type": "Keyword",
+    "value": "new",
+    "start": 7383,
+    "end": 7386
+  },
+  {
+    "type": "Identifier",
+    "value": "Temporal",
+    "start": 7387,
+    "end": 7395
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 7395,
+    "end": 7396
+  },
+  {
+    "type": "Identifier",
+    "value": "Duration",
+    "start": 7396,
+    "end": 7404
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 7404,
+    "end": 7405
+  },
+  {
+    "type": "Punctuator",
+    "value": "-",
+    "start": 7405,
+    "end": 7406
+  },
+  {
+    "type": "Numeric",
+    "value": "2",
+    "start": 7406,
+    "end": 7407
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 7407,
+    "end": 7408
+  },
+  {
+    "type": "Punctuator",
+    "value": "-",
+    "start": 7409,
+    "end": 7410
+  },
+  {
+    "type": "Numeric",
+    "value": "13",
+    "start": 7410,
+    "end": 7412
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 7412,
+    "end": 7413
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 7413,
+    "end": 7414
+  },
+  {
+    "type": "Identifier",
+    "value": "options",
+    "start": 7415,
+    "end": 7422
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 7422,
+    "end": 7423
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 7423,
+    "end": 7424
+  },
+  {
+    "type": "Numeric",
+    "value": "5787",
+    "start": 7427,
+    "end": 7431
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 7431,
+    "end": 7432
+  },
+  {
+    "type": "Numeric",
+    "value": "8",
+    "start": 7433,
+    "end": 7434
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 7434,
+    "end": 7435
+  },
+  {
+    "type": "String",
+    "value": "\"M07\"",
+    "start": 7436,
+    "end": 7441
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 7441,
+    "end": 7442
+  },
+  {
+    "type": "String",
+    "value": "\"Adding 2y 13mo across Adar I (M05L) in the months part lands in same month code\"",
+    "start": 7443,
+    "end": 7524
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 7524,
+    "end": 7525
+  },
+  {
+    "type": "String",
+    "value": "\"am\"",
+    "start": 7528,
+    "end": 7532
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 7532,
+    "end": 7533
+  },
+  {
+    "type": "Numeric",
+    "value": "5787",
+    "start": 7534,
+    "end": 7538
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 7538,
+    "end": 7539
+  },
+  {
+    "type": "Null",
+    "value": "null",
+    "start": 7540,
+    "end": 7544
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 7545,
+    "end": 7546
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 7546,
+    "end": 7547
+  },
+  {
+    "type": "Identifier",
+    "value": "TemporalHelpers",
+    "start": 7549,
+    "end": 7564
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 7564,
+    "end": 7565
+  },
+  {
+    "type": "Identifier",
+    "value": "assertPlainYearMonth",
+    "start": 7565,
+    "end": 7585
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 7585,
+    "end": 7586
+  },
+  {
+    "type": "Identifier",
+    "value": "common1Adar",
+    "start": 7589,
+    "end": 7600
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 7600,
+    "end": 7601
+  },
+  {
+    "type": "Identifier",
+    "value": "subtract",
+    "start": 7601,
+    "end": 7609
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 7609,
+    "end": 7610
+  },
+  {
+    "type": "Identifier",
+    "value": "months24",
+    "start": 7610,
+    "end": 7618
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 7618,
+    "end": 7619
+  },
+  {
+    "type": "Identifier",
+    "value": "options",
+    "start": 7620,
+    "end": 7627
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 7627,
+    "end": 7628
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 7628,
+    "end": 7629
+  },
+  {
+    "type": "Numeric",
+    "value": "5785",
+    "start": 7632,
+    "end": 7636
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 7636,
+    "end": 7637
+  },
+  {
+    "type": "Numeric",
+    "value": "5",
+    "start": 7638,
+    "end": 7639
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 7639,
+    "end": 7640
+  },
+  {
+    "type": "String",
+    "value": "\"M05\"",
+    "start": 7641,
+    "end": 7646
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 7646,
+    "end": 7647
+  },
+  {
+    "type": "String",
+    "value": "\"Adding 24 months to common-year Adar crossing a leap year lands in common-year Shevat (M05)\"",
+    "start": 7648,
+    "end": 7741
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 7741,
+    "end": 7742
+  },
+  {
+    "type": "String",
+    "value": "\"am\"",
+    "start": 7745,
+    "end": 7749
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 7749,
+    "end": 7750
+  },
+  {
+    "type": "Numeric",
+    "value": "5785",
+    "start": 7751,
+    "end": 7755
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 7755,
+    "end": 7756
+  },
+  {
+    "type": "Null",
+    "value": "null",
+    "start": 7757,
+    "end": 7761
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 7762,
+    "end": 7763
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 7763,
+    "end": 7764
+  },
+  {
+    "type": "Identifier",
+    "value": "TemporalHelpers",
+    "start": 7766,
+    "end": 7781
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 7781,
+    "end": 7782
+  },
+  {
+    "type": "Identifier",
+    "value": "assertPlainYearMonth",
+    "start": 7782,
+    "end": 7802
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 7802,
+    "end": 7803
+  },
+  {
+    "type": "Identifier",
+    "value": "common1Adar",
+    "start": 7806,
+    "end": 7817
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 7817,
+    "end": 7818
+  },
+  {
+    "type": "Identifier",
+    "value": "subtract",
+    "start": 7818,
+    "end": 7826
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 7826,
+    "end": 7827
+  },
+  {
+    "type": "Keyword",
+    "value": "new",
+    "start": 7827,
+    "end": 7830
+  },
+  {
+    "type": "Identifier",
+    "value": "Temporal",
+    "start": 7831,
+    "end": 7839
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 7839,
+    "end": 7840
+  },
+  {
+    "type": "Identifier",
+    "value": "Duration",
+    "start": 7840,
+    "end": 7848
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 7848,
+    "end": 7849
+  },
+  {
+    "type": "Numeric",
+    "value": "0",
+    "start": 7849,
+    "end": 7850
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 7850,
+    "end": 7851
+  },
+  {
+    "type": "Punctuator",
+    "value": "-",
+    "start": 7852,
+    "end": 7853
+  },
+  {
+    "type": "Numeric",
+    "value": "25",
+    "start": 7853,
+    "end": 7855
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 7855,
+    "end": 7856
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 7856,
+    "end": 7857
+  },
+  {
+    "type": "Identifier",
+    "value": "options",
+    "start": 7858,
+    "end": 7865
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 7865,
+    "end": 7866
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 7866,
+    "end": 7867
+  },
+  {
+    "type": "Numeric",
+    "value": "5785",
+    "start": 7870,
+    "end": 7874
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 7874,
+    "end": 7875
+  },
+  {
+    "type": "Numeric",
+    "value": "6",
+    "start": 7876,
+    "end": 7877
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 7877,
+    "end": 7878
+  },
+  {
+    "type": "String",
+    "value": "\"M06\"",
+    "start": 7879,
+    "end": 7884
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 7884,
+    "end": 7885
+  },
+  {
+    "type": "String",
+    "value": "\"Adding 25 months to common-year Adar crossing a leap year lands in common-year Adar (M06)\"",
+    "start": 7886,
+    "end": 7977
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 7977,
+    "end": 7978
+  },
+  {
+    "type": "String",
+    "value": "\"am\"",
+    "start": 7981,
+    "end": 7985
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 7985,
+    "end": 7986
+  },
+  {
+    "type": "Numeric",
+    "value": "5785",
+    "start": 7987,
+    "end": 7991
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 7991,
+    "end": 7992
+  },
+  {
+    "type": "Null",
+    "value": "null",
+    "start": 7993,
+    "end": 7997
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 7998,
+    "end": 7999
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 7999,
+    "end": 8000
+  },
+  {
+    "type": "Identifier",
+    "value": "TemporalHelpers",
+    "start": 8002,
+    "end": 8017
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 8017,
+    "end": 8018
+  },
+  {
+    "type": "Identifier",
+    "value": "assertPlainYearMonth",
+    "start": 8018,
+    "end": 8038
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 8038,
+    "end": 8039
+  },
+  {
+    "type": "Identifier",
+    "value": "leap1AdarI",
+    "start": 8042,
+    "end": 8052
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 8052,
+    "end": 8053
+  },
+  {
+    "type": "Identifier",
+    "value": "subtract",
+    "start": 8053,
+    "end": 8061
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 8061,
+    "end": 8062
+  },
+  {
+    "type": "Identifier",
+    "value": "months24",
+    "start": 8062,
+    "end": 8070
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 8070,
+    "end": 8071
+  },
+  {
+    "type": "Identifier",
+    "value": "options",
+    "start": 8072,
+    "end": 8079
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 8079,
+    "end": 8080
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 8080,
+    "end": 8081
+  },
+  {
+    "type": "Numeric",
+    "value": "5784",
+    "start": 8084,
+    "end": 8088
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 8088,
+    "end": 8089
+  },
+  {
+    "type": "Numeric",
+    "value": "5",
+    "start": 8090,
+    "end": 8091
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 8091,
+    "end": 8092
+  },
+  {
+    "type": "String",
+    "value": "\"M05\"",
+    "start": 8093,
+    "end": 8098
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 8098,
+    "end": 8099
+  },
+  {
+    "type": "String",
+    "value": "\"Adding 24 months to leap-year Adar I lands in leap-year Shevat (M05)\"",
+    "start": 8100,
+    "end": 8170
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 8170,
+    "end": 8171
+  },
+  {
+    "type": "String",
+    "value": "\"am\"",
+    "start": 8174,
+    "end": 8178
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 8178,
+    "end": 8179
+  },
+  {
+    "type": "Numeric",
+    "value": "5784",
+    "start": 8180,
+    "end": 8184
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 8184,
+    "end": 8185
+  },
+  {
+    "type": "Null",
+    "value": "null",
+    "start": 8186,
+    "end": 8190
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 8191,
+    "end": 8192
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 8192,
+    "end": 8193
+  },
+  {
+    "type": "Identifier",
+    "value": "TemporalHelpers",
+    "start": 8195,
+    "end": 8210
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 8210,
+    "end": 8211
+  },
+  {
+    "type": "Identifier",
+    "value": "assertPlainYearMonth",
+    "start": 8211,
+    "end": 8231
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 8231,
+    "end": 8232
+  },
+  {
+    "type": "Identifier",
+    "value": "leap1AdarII",
+    "start": 8235,
+    "end": 8246
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 8246,
+    "end": 8247
+  },
+  {
+    "type": "Identifier",
+    "value": "subtract",
+    "start": 8247,
+    "end": 8255
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 8255,
+    "end": 8256
+  },
+  {
+    "type": "Identifier",
+    "value": "months24",
+    "start": 8256,
+    "end": 8264
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 8264,
+    "end": 8265
+  },
+  {
+    "type": "Identifier",
+    "value": "options",
+    "start": 8266,
+    "end": 8273
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 8273,
+    "end": 8274
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 8274,
+    "end": 8275
+  },
+  {
+    "type": "Numeric",
+    "value": "5784",
+    "start": 8278,
+    "end": 8282
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 8282,
+    "end": 8283
+  },
+  {
+    "type": "Numeric",
+    "value": "6",
+    "start": 8284,
+    "end": 8285
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 8285,
+    "end": 8286
+  },
+  {
+    "type": "String",
+    "value": "\"M05L\"",
+    "start": 8287,
+    "end": 8293
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 8293,
+    "end": 8294
+  },
+  {
+    "type": "String",
+    "value": "\"Adding 24 months to leap-year Adar II lands in leap-year Adar I (M05L)\"",
+    "start": 8295,
+    "end": 8367
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 8367,
+    "end": 8368
+  },
+  {
+    "type": "String",
+    "value": "\"am\"",
+    "start": 8371,
+    "end": 8375
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 8375,
+    "end": 8376
+  },
+  {
+    "type": "Numeric",
+    "value": "5784",
+    "start": 8377,
+    "end": 8381
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 8381,
+    "end": 8382
+  },
+  {
+    "type": "Null",
+    "value": "null",
+    "start": 8383,
+    "end": 8387
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 8388,
+    "end": 8389
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 8389,
+    "end": 8390
+  },
+  {
+    "type": "Identifier",
+    "value": "TemporalHelpers",
+    "start": 8392,
+    "end": 8407
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 8407,
+    "end": 8408
+  },
+  {
+    "type": "Identifier",
+    "value": "assertPlainYearMonth",
+    "start": 8408,
+    "end": 8428
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 8428,
+    "end": 8429
+  },
+  {
+    "type": "Identifier",
+    "value": "date3",
+    "start": 8432,
+    "end": 8437
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 8437,
+    "end": 8438
+  },
+  {
+    "type": "Identifier",
+    "value": "subtract",
+    "start": 8438,
+    "end": 8446
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 8446,
+    "end": 8447
+  },
+  {
+    "type": "Identifier",
+    "value": "months1n",
+    "start": 8447,
+    "end": 8455
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 8455,
+    "end": 8456
+  },
+  {
+    "type": "Identifier",
+    "value": "options",
+    "start": 8457,
+    "end": 8464
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 8464,
+    "end": 8465
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 8465,
+    "end": 8466
+  },
+  {
+    "type": "Numeric",
+    "value": "5784",
+    "start": 8469,
+    "end": 8473
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 8473,
+    "end": 8474
+  },
+  {
+    "type": "Numeric",
+    "value": "7",
+    "start": 8475,
+    "end": 8476
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 8476,
+    "end": 8477
+  },
+  {
+    "type": "String",
+    "value": "\"M06\"",
+    "start": 8478,
+    "end": 8483
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 8483,
+    "end": 8484
+  },
+  {
+    "type": "String",
+    "value": "\"Subtracting 1 month from M07 in leap year lands in M06 (Adar II)\"",
+    "start": 8485,
+    "end": 8551
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 8551,
+    "end": 8552
+  },
+  {
+    "type": "String",
+    "value": "\"am\"",
+    "start": 8555,
+    "end": 8559
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 8559,
+    "end": 8560
+  },
+  {
+    "type": "Numeric",
+    "value": "5784",
+    "start": 8561,
+    "end": 8565
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 8565,
+    "end": 8566
+  },
+  {
+    "type": "Null",
+    "value": "null",
+    "start": 8567,
+    "end": 8571
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 8572,
+    "end": 8573
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 8573,
+    "end": 8574
+  },
+  {
+    "type": "Identifier",
+    "value": "TemporalHelpers",
+    "start": 8576,
+    "end": 8591
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 8591,
+    "end": 8592
+  },
+  {
+    "type": "Identifier",
+    "value": "assertPlainYearMonth",
+    "start": 8592,
+    "end": 8612
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 8612,
+    "end": 8613
+  },
+  {
+    "type": "Identifier",
+    "value": "date3",
+    "start": 8616,
+    "end": 8621
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 8621,
+    "end": 8622
+  },
+  {
+    "type": "Identifier",
+    "value": "subtract",
+    "start": 8622,
+    "end": 8630
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 8630,
+    "end": 8631
+  },
+  {
+    "type": "Identifier",
+    "value": "months2n",
+    "start": 8631,
+    "end": 8639
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 8639,
+    "end": 8640
+  },
+  {
+    "type": "Identifier",
+    "value": "options",
+    "start": 8641,
+    "end": 8648
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 8648,
+    "end": 8649
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 8649,
+    "end": 8650
+  },
+  {
+    "type": "Numeric",
+    "value": "5784",
+    "start": 8653,
+    "end": 8657
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 8657,
+    "end": 8658
+  },
+  {
+    "type": "Numeric",
+    "value": "6",
+    "start": 8659,
+    "end": 8660
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 8660,
+    "end": 8661
+  },
+  {
+    "type": "String",
+    "value": "\"M05L\"",
+    "start": 8662,
+    "end": 8668
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 8668,
+    "end": 8669
+  },
+  {
+    "type": "String",
+    "value": "\"Subtracting 2 months from M07 in leap year lands in M05L (Adar I)\"",
+    "start": 8670,
+    "end": 8737
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 8737,
+    "end": 8738
+  },
+  {
+    "type": "String",
+    "value": "\"am\"",
+    "start": 8741,
+    "end": 8745
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 8745,
+    "end": 8746
+  },
+  {
+    "type": "Numeric",
+    "value": "5784",
+    "start": 8747,
+    "end": 8751
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 8751,
+    "end": 8752
+  },
+  {
+    "type": "Null",
+    "value": "null",
+    "start": 8753,
+    "end": 8757
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 8758,
+    "end": 8759
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 8759,
+    "end": 8760
+  },
+  {
+    "type": "Identifier",
+    "value": "TemporalHelpers",
+    "start": 8762,
+    "end": 8777
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 8777,
+    "end": 8778
+  },
+  {
+    "type": "Identifier",
+    "value": "assertPlainYearMonth",
+    "start": 8778,
+    "end": 8798
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 8798,
+    "end": 8799
+  },
+  {
+    "type": "Identifier",
+    "value": "date3",
+    "start": 8802,
+    "end": 8807
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 8807,
+    "end": 8808
+  },
+  {
+    "type": "Identifier",
+    "value": "subtract",
+    "start": 8808,
+    "end": 8816
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 8816,
+    "end": 8817
+  },
+  {
+    "type": "Keyword",
+    "value": "new",
+    "start": 8817,
+    "end": 8820
+  },
+  {
+    "type": "Identifier",
+    "value": "Temporal",
+    "start": 8821,
+    "end": 8829
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 8829,
+    "end": 8830
+  },
+  {
+    "type": "Identifier",
+    "value": "Duration",
+    "start": 8830,
+    "end": 8838
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 8838,
+    "end": 8839
+  },
+  {
+    "type": "Numeric",
+    "value": "0",
+    "start": 8839,
+    "end": 8840
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 8840,
+    "end": 8841
+  },
+  {
+    "type": "Numeric",
+    "value": "3",
+    "start": 8842,
+    "end": 8843
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 8843,
+    "end": 8844
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 8844,
+    "end": 8845
+  },
+  {
+    "type": "Identifier",
+    "value": "options",
+    "start": 8846,
+    "end": 8853
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 8853,
+    "end": 8854
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 8854,
+    "end": 8855
+  },
+  {
+    "type": "Numeric",
+    "value": "5784",
+    "start": 8858,
+    "end": 8862
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 8862,
+    "end": 8863
+  },
+  {
+    "type": "Numeric",
+    "value": "5",
+    "start": 8864,
+    "end": 8865
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 8865,
+    "end": 8866
+  },
+  {
+    "type": "String",
+    "value": "\"M05\"",
+    "start": 8867,
+    "end": 8872
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 8872,
+    "end": 8873
+  },
+  {
+    "type": "String",
+    "value": "\"Subtracting 3 months from M07 in leap year lands in M05 (Shevat)\"",
+    "start": 8874,
+    "end": 8940
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 8940,
+    "end": 8941
+  },
+  {
+    "type": "String",
+    "value": "\"am\"",
+    "start": 8944,
+    "end": 8948
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 8948,
+    "end": 8949
+  },
+  {
+    "type": "Numeric",
+    "value": "5784",
+    "start": 8950,
+    "end": 8954
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 8954,
+    "end": 8955
+  },
+  {
+    "type": "Null",
+    "value": "null",
+    "start": 8956,
+    "end": 8960
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 8961,
+    "end": 8962
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 8962,
+    "end": 8963
+  },
+  {
+    "type": "Identifier",
+    "value": "TemporalHelpers",
+    "start": 8965,
+    "end": 8980
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 8980,
+    "end": 8981
+  },
+  {
+    "type": "Identifier",
+    "value": "assertPlainYearMonth",
+    "start": 8981,
+    "end": 9001
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 9001,
+    "end": 9002
+  },
+  {
+    "type": "Identifier",
+    "value": "leap2AdarII",
+    "start": 9005,
+    "end": 9016
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 9016,
+    "end": 9017
+  },
+  {
+    "type": "Identifier",
+    "value": "subtract",
+    "start": 9017,
+    "end": 9025
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 9025,
+    "end": 9026
+  },
+  {
+    "type": "Identifier",
+    "value": "months1n",
+    "start": 9026,
+    "end": 9034
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 9034,
+    "end": 9035
+  },
+  {
+    "type": "Identifier",
+    "value": "options",
+    "start": 9036,
+    "end": 9043
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 9043,
+    "end": 9044
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 9044,
+    "end": 9045
+  },
+  {
+    "type": "Numeric",
+    "value": "5784",
+    "start": 9048,
+    "end": 9052
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 9052,
+    "end": 9053
+  },
+  {
+    "type": "Numeric",
+    "value": "6",
+    "start": 9054,
+    "end": 9055
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 9055,
+    "end": 9056
+  },
+  {
+    "type": "String",
+    "value": "\"M05L\"",
+    "start": 9057,
+    "end": 9063
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 9063,
+    "end": 9064
+  },
+  {
+    "type": "String",
+    "value": "\"Subtracting 1 month from M06 (Adar II) in leap year lands in M05L (Adar I)\"",
+    "start": 9065,
+    "end": 9141
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 9141,
+    "end": 9142
+  },
+  {
+    "type": "String",
+    "value": "\"am\"",
+    "start": 9145,
+    "end": 9149
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 9149,
+    "end": 9150
+  },
+  {
+    "type": "Numeric",
+    "value": "5784",
+    "start": 9151,
+    "end": 9155
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 9155,
+    "end": 9156
+  },
+  {
+    "type": "Null",
+    "value": "null",
+    "start": 9157,
+    "end": 9161
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 9162,
+    "end": 9163
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 9163,
+    "end": 9164
+  },
+  {
+    "type": "Identifier",
+    "value": "TemporalHelpers",
+    "start": 9166,
+    "end": 9181
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 9181,
+    "end": 9182
+  },
+  {
+    "type": "Identifier",
+    "value": "assertPlainYearMonth",
+    "start": 9182,
+    "end": 9202
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 9202,
+    "end": 9203
+  },
+  {
+    "type": "Identifier",
+    "value": "leap2AdarI",
+    "start": 9206,
+    "end": 9216
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 9216,
+    "end": 9217
+  },
+  {
+    "type": "Identifier",
+    "value": "subtract",
+    "start": 9217,
+    "end": 9225
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 9225,
+    "end": 9226
+  },
+  {
+    "type": "Identifier",
+    "value": "months1n",
+    "start": 9226,
+    "end": 9234
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 9234,
+    "end": 9235
+  },
+  {
+    "type": "Identifier",
+    "value": "options",
+    "start": 9236,
+    "end": 9243
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 9243,
+    "end": 9244
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 9244,
+    "end": 9245
+  },
+  {
+    "type": "Numeric",
+    "value": "5784",
+    "start": 9248,
+    "end": 9252
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 9252,
+    "end": 9253
+  },
+  {
+    "type": "Numeric",
+    "value": "5",
+    "start": 9254,
+    "end": 9255
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 9255,
+    "end": 9256
+  },
+  {
+    "type": "String",
+    "value": "\"M05\"",
+    "start": 9257,
+    "end": 9262
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 9262,
+    "end": 9263
+  },
+  {
+    "type": "String",
+    "value": "\"Subtracting 1 month from M05L (Adar I) lands in M05 (Shevat)\"",
+    "start": 9264,
+    "end": 9326
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 9326,
+    "end": 9327
+  },
+  {
+    "type": "String",
+    "value": "\"am\"",
+    "start": 9330,
+    "end": 9334
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 9334,
+    "end": 9335
+  },
+  {
+    "type": "Numeric",
+    "value": "5784",
+    "start": 9336,
+    "end": 9340
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 9340,
+    "end": 9341
+  },
+  {
+    "type": "Null",
+    "value": "null",
+    "start": 9342,
+    "end": 9346
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 9347,
+    "end": 9348
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 9348,
+    "end": 9349
+  },
+  {
+    "type": "Identifier",
+    "value": "TemporalHelpers",
+    "start": 9351,
+    "end": 9366
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 9366,
+    "end": 9367
+  },
+  {
+    "type": "Identifier",
+    "value": "assertPlainYearMonth",
+    "start": 9367,
+    "end": 9387
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 9387,
+    "end": 9388
+  },
+  {
+    "type": "Identifier",
+    "value": "Temporal",
+    "start": 9391,
+    "end": 9399
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 9399,
+    "end": 9400
+  },
+  {
+    "type": "Identifier",
+    "value": "PlainYearMonth",
+    "start": 9400,
+    "end": 9414
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 9414,
+    "end": 9415
+  },
+  {
+    "type": "Identifier",
+    "value": "from",
+    "start": 9415,
+    "end": 9419
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 9419,
+    "end": 9420
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 9420,
+    "end": 9421
+  },
+  {
+    "type": "Identifier",
+    "value": "year",
+    "start": 9422,
+    "end": 9426
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 9426,
+    "end": 9427
+  },
+  {
+    "type": "Numeric",
+    "value": "5783",
+    "start": 9428,
+    "end": 9432
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 9432,
+    "end": 9433
+  },
+  {
+    "type": "Identifier",
+    "value": "monthCode",
+    "start": 9434,
+    "end": 9443
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 9443,
+    "end": 9444
+  },
+  {
+    "type": "String",
+    "value": "\"M07\"",
+    "start": 9445,
+    "end": 9450
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 9450,
+    "end": 9451
+  },
+  {
+    "type": "Identifier",
+    "value": "calendar",
+    "start": 9452,
+    "end": 9460
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 9461,
+    "end": 9462
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 9462,
+    "end": 9463
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 9463,
+    "end": 9464
+  },
+  {
+    "type": "Identifier",
+    "value": "subtract",
+    "start": 9464,
+    "end": 9472
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 9472,
+    "end": 9473
+  },
+  {
+    "type": "Identifier",
+    "value": "months2n",
+    "start": 9473,
+    "end": 9481
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 9481,
+    "end": 9482
+  },
+  {
+    "type": "Identifier",
+    "value": "options",
+    "start": 9483,
+    "end": 9490
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 9490,
+    "end": 9491
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 9491,
+    "end": 9492
+  },
+  {
+    "type": "Numeric",
+    "value": "5783",
+    "start": 9495,
+    "end": 9499
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 9499,
+    "end": 9500
+  },
+  {
+    "type": "Numeric",
+    "value": "5",
+    "start": 9501,
+    "end": 9502
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 9502,
+    "end": 9503
+  },
+  {
+    "type": "String",
+    "value": "\"M05\"",
+    "start": 9504,
+    "end": 9509
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 9509,
+    "end": 9510
+  },
+  {
+    "type": "String",
+    "value": "\"Subtracting 2 months from M07 in non-leap year lands in M05 (no M05L)\"",
+    "start": 9511,
+    "end": 9582
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 9582,
+    "end": 9583
+  },
+  {
+    "type": "String",
+    "value": "\"am\"",
+    "start": 9586,
+    "end": 9590
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 9590,
+    "end": 9591
+  },
+  {
+    "type": "Numeric",
+    "value": "5783",
+    "start": 9592,
+    "end": 9596
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 9596,
+    "end": 9597
+  },
+  {
+    "type": "Null",
+    "value": "null",
+    "start": 9598,
+    "end": 9602
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 9603,
+    "end": 9604
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 9604,
+    "end": 9605
+  },
+  {
+    "type": "Identifier",
+    "value": "TemporalHelpers",
+    "start": 9607,
+    "end": 9622
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 9622,
+    "end": 9623
+  },
+  {
+    "type": "Identifier",
+    "value": "assertPlainYearMonth",
+    "start": 9623,
+    "end": 9643
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 9643,
+    "end": 9644
+  },
+  {
+    "type": "Identifier",
+    "value": "common2Adar",
+    "start": 9647,
+    "end": 9658
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 9658,
+    "end": 9659
+  },
+  {
+    "type": "Identifier",
+    "value": "subtract",
+    "start": 9659,
+    "end": 9667
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 9667,
+    "end": 9668
+  },
+  {
+    "type": "Identifier",
+    "value": "months12n",
+    "start": 9668,
+    "end": 9677
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 9677,
+    "end": 9678
+  },
+  {
+    "type": "Identifier",
+    "value": "options",
+    "start": 9679,
+    "end": 9686
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 9686,
+    "end": 9687
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 9687,
+    "end": 9688
+  },
+  {
+    "type": "Numeric",
+    "value": "5784",
+    "start": 9691,
+    "end": 9695
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 9695,
+    "end": 9696
+  },
+  {
+    "type": "Numeric",
+    "value": "7",
+    "start": 9697,
+    "end": 9698
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 9698,
+    "end": 9699
+  },
+  {
+    "type": "String",
+    "value": "\"M06\"",
+    "start": 9700,
+    "end": 9705
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 9705,
+    "end": 9706
+  },
+  {
+    "type": "String",
+    "value": "\"Subtracting 12 months from common-year Adar lands in leap-year Adar II (M06)\"",
+    "start": 9707,
+    "end": 9785
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 9785,
+    "end": 9786
+  },
+  {
+    "type": "String",
+    "value": "\"am\"",
+    "start": 9789,
+    "end": 9793
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 9793,
+    "end": 9794
+  },
+  {
+    "type": "Numeric",
+    "value": "5784",
+    "start": 9795,
+    "end": 9799
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 9799,
+    "end": 9800
+  },
+  {
+    "type": "Null",
+    "value": "null",
+    "start": 9801,
+    "end": 9805
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 9806,
+    "end": 9807
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 9807,
+    "end": 9808
+  },
+  {
+    "type": "Identifier",
+    "value": "TemporalHelpers",
+    "start": 9810,
+    "end": 9825
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 9825,
+    "end": 9826
+  },
+  {
+    "type": "Identifier",
+    "value": "assertPlainYearMonth",
+    "start": 9826,
+    "end": 9846
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 9846,
+    "end": 9847
+  },
+  {
+    "type": "Identifier",
+    "value": "common2Adar",
+    "start": 9850,
+    "end": 9861
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 9861,
+    "end": 9862
+  },
+  {
+    "type": "Identifier",
+    "value": "subtract",
+    "start": 9862,
+    "end": 9870
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 9870,
+    "end": 9871
+  },
+  {
+    "type": "Identifier",
+    "value": "months13n",
+    "start": 9871,
+    "end": 9880
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 9880,
+    "end": 9881
+  },
+  {
+    "type": "Identifier",
+    "value": "options",
+    "start": 9882,
+    "end": 9889
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 9889,
+    "end": 9890
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 9890,
+    "end": 9891
+  },
+  {
+    "type": "Numeric",
+    "value": "5784",
+    "start": 9894,
+    "end": 9898
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 9898,
+    "end": 9899
+  },
+  {
+    "type": "Numeric",
+    "value": "6",
+    "start": 9900,
+    "end": 9901
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 9901,
+    "end": 9902
+  },
+  {
+    "type": "String",
+    "value": "\"M05L\"",
+    "start": 9903,
+    "end": 9909
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 9909,
+    "end": 9910
+  },
+  {
+    "type": "String",
+    "value": "\"Subtracting 13 months from common-year Adar lands in leap-year Adar I (M05L)\"",
+    "start": 9911,
+    "end": 9989
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 9989,
+    "end": 9990
+  },
+  {
+    "type": "String",
+    "value": "\"am\"",
+    "start": 9993,
+    "end": 9997
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 9997,
+    "end": 9998
+  },
+  {
+    "type": "Numeric",
+    "value": "5784",
+    "start": 9999,
+    "end": 10003
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 10003,
+    "end": 10004
+  },
+  {
+    "type": "Null",
+    "value": "null",
+    "start": 10005,
+    "end": 10009
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 10010,
+    "end": 10011
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 10011,
+    "end": 10012
+  },
+  {
+    "type": "Identifier",
+    "value": "TemporalHelpers",
+    "start": 10014,
+    "end": 10029
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 10029,
+    "end": 10030
+  },
+  {
+    "type": "Identifier",
+    "value": "assertPlainYearMonth",
+    "start": 10030,
+    "end": 10050
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 10050,
+    "end": 10051
+  },
+  {
+    "type": "Identifier",
+    "value": "leap2AdarI",
+    "start": 10054,
+    "end": 10064
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 10064,
+    "end": 10065
+  },
+  {
+    "type": "Identifier",
+    "value": "subtract",
+    "start": 10065,
+    "end": 10073
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 10073,
+    "end": 10074
+  },
+  {
+    "type": "Identifier",
+    "value": "months12n",
+    "start": 10074,
+    "end": 10083
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 10083,
+    "end": 10084
+  },
+  {
+    "type": "Identifier",
+    "value": "options",
+    "start": 10085,
+    "end": 10092
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 10092,
+    "end": 10093
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 10093,
+    "end": 10094
+  },
+  {
+    "type": "Numeric",
+    "value": "5783",
+    "start": 10097,
+    "end": 10101
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 10101,
+    "end": 10102
+  },
+  {
+    "type": "Numeric",
+    "value": "6",
+    "start": 10103,
+    "end": 10104
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 10104,
+    "end": 10105
+  },
+  {
+    "type": "String",
+    "value": "\"M06\"",
+    "start": 10106,
+    "end": 10111
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 10111,
+    "end": 10112
+  },
+  {
+    "type": "String",
+    "value": "\"Subtracting 12 months from leap-year Adar I lands in Adar (M06)\"",
+    "start": 10113,
+    "end": 10178
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 10178,
+    "end": 10179
+  },
+  {
+    "type": "String",
+    "value": "\"am\"",
+    "start": 10182,
+    "end": 10186
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 10186,
+    "end": 10187
+  },
+  {
+    "type": "Numeric",
+    "value": "5783",
+    "start": 10188,
+    "end": 10192
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 10192,
+    "end": 10193
+  },
+  {
+    "type": "Null",
+    "value": "null",
+    "start": 10194,
+    "end": 10198
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 10199,
+    "end": 10200
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 10200,
+    "end": 10201
+  },
+  {
+    "type": "Identifier",
+    "value": "TemporalHelpers",
+    "start": 10203,
+    "end": 10218
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 10218,
+    "end": 10219
+  },
+  {
+    "type": "Identifier",
+    "value": "assertPlainYearMonth",
+    "start": 10219,
+    "end": 10239
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 10239,
+    "end": 10240
+  },
+  {
+    "type": "Identifier",
+    "value": "leap2AdarI",
+    "start": 10243,
+    "end": 10253
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 10253,
+    "end": 10254
+  },
+  {
+    "type": "Identifier",
+    "value": "subtract",
+    "start": 10254,
+    "end": 10262
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 10262,
+    "end": 10263
+  },
+  {
+    "type": "Identifier",
+    "value": "months13n",
+    "start": 10263,
+    "end": 10272
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 10272,
+    "end": 10273
+  },
+  {
+    "type": "Identifier",
+    "value": "options",
+    "start": 10274,
+    "end": 10281
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 10281,
+    "end": 10282
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 10282,
+    "end": 10283
+  },
+  {
+    "type": "Numeric",
+    "value": "5783",
+    "start": 10286,
+    "end": 10290
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 10290,
+    "end": 10291
+  },
+  {
+    "type": "Numeric",
+    "value": "5",
+    "start": 10292,
+    "end": 10293
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 10293,
+    "end": 10294
+  },
+  {
+    "type": "String",
+    "value": "\"M05\"",
+    "start": 10295,
+    "end": 10300
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 10300,
+    "end": 10301
+  },
+  {
+    "type": "String",
+    "value": "\"Subtracting 13 months from leap-year Adar I lands in Shevat (M05)\"",
+    "start": 10302,
+    "end": 10369
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 10369,
+    "end": 10370
+  },
+  {
+    "type": "String",
+    "value": "\"am\"",
+    "start": 10373,
+    "end": 10377
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 10377,
+    "end": 10378
+  },
+  {
+    "type": "Numeric",
+    "value": "5783",
+    "start": 10379,
+    "end": 10383
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 10383,
+    "end": 10384
+  },
+  {
+    "type": "Null",
+    "value": "null",
+    "start": 10385,
+    "end": 10389
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 10390,
+    "end": 10391
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 10391,
+    "end": 10392
+  },
+  {
+    "type": "Identifier",
+    "value": "TemporalHelpers",
+    "start": 10394,
+    "end": 10409
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 10409,
+    "end": 10410
+  },
+  {
+    "type": "Identifier",
+    "value": "assertPlainYearMonth",
+    "start": 10410,
+    "end": 10430
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 10430,
+    "end": 10431
+  },
+  {
+    "type": "Identifier",
+    "value": "leap2AdarII",
+    "start": 10434,
+    "end": 10445
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 10445,
+    "end": 10446
+  },
+  {
+    "type": "Identifier",
+    "value": "subtract",
+    "start": 10446,
+    "end": 10454
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 10454,
+    "end": 10455
+  },
+  {
+    "type": "Identifier",
+    "value": "months12n",
+    "start": 10455,
+    "end": 10464
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 10464,
+    "end": 10465
+  },
+  {
+    "type": "Identifier",
+    "value": "options",
+    "start": 10466,
+    "end": 10473
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 10473,
+    "end": 10474
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 10474,
+    "end": 10475
+  },
+  {
+    "type": "Numeric",
+    "value": "5783",
+    "start": 10478,
+    "end": 10482
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 10482,
+    "end": 10483
+  },
+  {
+    "type": "Numeric",
+    "value": "7",
+    "start": 10484,
+    "end": 10485
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 10485,
+    "end": 10486
+  },
+  {
+    "type": "String",
+    "value": "\"M07\"",
+    "start": 10487,
+    "end": 10492
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 10492,
+    "end": 10493
+  },
+  {
+    "type": "String",
+    "value": "\"Subtracting 12 months from leap-year Adar II lands in Nisan (M07)\"",
+    "start": 10494,
+    "end": 10561
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 10561,
+    "end": 10562
+  },
+  {
+    "type": "String",
+    "value": "\"am\"",
+    "start": 10565,
+    "end": 10569
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 10569,
+    "end": 10570
+  },
+  {
+    "type": "Numeric",
+    "value": "5783",
+    "start": 10571,
+    "end": 10575
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 10575,
+    "end": 10576
+  },
+  {
+    "type": "Null",
+    "value": "null",
+    "start": 10577,
+    "end": 10581
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 10582,
+    "end": 10583
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 10583,
+    "end": 10584
+  },
+  {
+    "type": "Identifier",
+    "value": "TemporalHelpers",
+    "start": 10586,
+    "end": 10601
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 10601,
+    "end": 10602
+  },
+  {
+    "type": "Identifier",
+    "value": "assertPlainYearMonth",
+    "start": 10602,
+    "end": 10622
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 10622,
+    "end": 10623
+  },
+  {
+    "type": "Identifier",
+    "value": "common2Adar",
+    "start": 10626,
+    "end": 10637
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 10637,
+    "end": 10638
+  },
+  {
+    "type": "Identifier",
+    "value": "subtract",
+    "start": 10638,
+    "end": 10646
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 10646,
+    "end": 10647
+  },
+  {
+    "type": "Identifier",
+    "value": "months24n",
+    "start": 10647,
+    "end": 10656
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 10656,
+    "end": 10657
+  },
+  {
+    "type": "Identifier",
+    "value": "options",
+    "start": 10658,
+    "end": 10665
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 10665,
+    "end": 10666
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 10666,
+    "end": 10667
+  },
+  {
+    "type": "Numeric",
+    "value": "5783",
+    "start": 10670,
+    "end": 10674
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 10674,
+    "end": 10675
+  },
+  {
+    "type": "Numeric",
+    "value": "7",
+    "start": 10676,
+    "end": 10677
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 10677,
+    "end": 10678
+  },
+  {
+    "type": "String",
+    "value": "\"M07\"",
+    "start": 10679,
+    "end": 10684
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 10684,
+    "end": 10685
+  },
+  {
+    "type": "String",
+    "value": "\"Subtracting 24 months from common-year Adar crossing a leap year lands in common-year Nisan (M07)\"",
+    "start": 10686,
+    "end": 10785
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 10785,
+    "end": 10786
+  },
+  {
+    "type": "String",
+    "value": "\"am\"",
+    "start": 10789,
+    "end": 10793
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 10793,
+    "end": 10794
+  },
+  {
+    "type": "Numeric",
+    "value": "5783",
+    "start": 10795,
+    "end": 10799
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 10799,
+    "end": 10800
+  },
+  {
+    "type": "Null",
+    "value": "null",
+    "start": 10801,
+    "end": 10805
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 10806,
+    "end": 10807
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 10807,
+    "end": 10808
+  },
+  {
+    "type": "Identifier",
+    "value": "TemporalHelpers",
+    "start": 10810,
+    "end": 10825
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 10825,
+    "end": 10826
+  },
+  {
+    "type": "Identifier",
+    "value": "assertPlainYearMonth",
+    "start": 10826,
+    "end": 10846
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 10846,
+    "end": 10847
+  },
+  {
+    "type": "Identifier",
+    "value": "date1",
+    "start": 10850,
+    "end": 10855
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 10855,
+    "end": 10856
+  },
+  {
+    "type": "Identifier",
+    "value": "subtract",
+    "start": 10856,
+    "end": 10864
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 10864,
+    "end": 10865
+  },
+  {
+    "type": "Keyword",
+    "value": "new",
+    "start": 10865,
+    "end": 10868
+  },
+  {
+    "type": "Identifier",
+    "value": "Temporal",
+    "start": 10869,
+    "end": 10877
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 10877,
+    "end": 10878
+  },
+  {
+    "type": "Identifier",
+    "value": "Duration",
+    "start": 10878,
+    "end": 10886
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 10886,
+    "end": 10887
+  },
+  {
+    "type": "Numeric",
+    "value": "2",
+    "start": 10887,
+    "end": 10888
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 10888,
+    "end": 10889
+  },
+  {
+    "type": "Numeric",
+    "value": "12",
+    "start": 10890,
+    "end": 10892
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 10892,
+    "end": 10893
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 10893,
+    "end": 10894
+  },
+  {
+    "type": "Identifier",
+    "value": "options",
+    "start": 10895,
+    "end": 10902
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 10902,
+    "end": 10903
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 10903,
+    "end": 10904
+  },
+  {
+    "type": "Numeric",
+    "value": "5781",
+    "start": 10907,
+    "end": 10911
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 10911,
+    "end": 10912
+  },
+  {
+    "type": "Numeric",
+    "value": "4",
+    "start": 10913,
+    "end": 10914
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 10914,
+    "end": 10915
+  },
+  {
+    "type": "String",
+    "value": "\"M04\"",
+    "start": 10916,
+    "end": 10921
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 10921,
+    "end": 10922
+  },
+  {
+    "type": "String",
+    "value": "\"Subtracting 2y 12mo across Adar I (M05L) in the years part lands in same month code\"",
+    "start": 10923,
+    "end": 11008
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 11008,
+    "end": 11009
+  },
+  {
+    "type": "String",
+    "value": "\"am\"",
+    "start": 11012,
+    "end": 11016
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 11016,
+    "end": 11017
+  },
+  {
+    "type": "Numeric",
+    "value": "5781",
+    "start": 11018,
+    "end": 11022
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 11022,
+    "end": 11023
+  },
+  {
+    "type": "Null",
+    "value": "null",
+    "start": 11024,
+    "end": 11028
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 11029,
+    "end": 11030
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 11030,
+    "end": 11031
+  },
+  {
+    "type": "Identifier",
+    "value": "TemporalHelpers",
+    "start": 11033,
+    "end": 11048
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 11048,
+    "end": 11049
+  },
+  {
+    "type": "Identifier",
+    "value": "assertPlainYearMonth",
+    "start": 11049,
+    "end": 11069
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 11069,
+    "end": 11070
+  },
+  {
+    "type": "Identifier",
+    "value": "date1",
+    "start": 11073,
+    "end": 11078
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 11078,
+    "end": 11079
+  },
+  {
+    "type": "Identifier",
+    "value": "subtract",
+    "start": 11079,
+    "end": 11087
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 11087,
+    "end": 11088
+  },
+  {
+    "type": "Keyword",
+    "value": "new",
+    "start": 11088,
+    "end": 11091
+  },
+  {
+    "type": "Identifier",
+    "value": "Temporal",
+    "start": 11092,
+    "end": 11100
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 11100,
+    "end": 11101
+  },
+  {
+    "type": "Identifier",
+    "value": "Duration",
+    "start": 11101,
+    "end": 11109
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 11109,
+    "end": 11110
+  },
+  {
+    "type": "Numeric",
+    "value": "1",
+    "start": 11110,
+    "end": 11111
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 11111,
+    "end": 11112
+  },
+  {
+    "type": "Numeric",
+    "value": "13",
+    "start": 11113,
+    "end": 11115
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 11115,
+    "end": 11116
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 11116,
+    "end": 11117
+  },
+  {
+    "type": "Identifier",
+    "value": "options",
+    "start": 11118,
+    "end": 11125
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 11125,
+    "end": 11126
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 11126,
+    "end": 11127
+  },
+  {
+    "type": "Numeric",
+    "value": "5782",
+    "start": 11130,
+    "end": 11134
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 11134,
+    "end": 11135
+  },
+  {
+    "type": "Numeric",
+    "value": "4",
+    "start": 11136,
+    "end": 11137
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 11137,
+    "end": 11138
+  },
+  {
+    "type": "String",
+    "value": "\"M04\"",
+    "start": 11139,
+    "end": 11144
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 11144,
+    "end": 11145
+  },
+  {
+    "type": "String",
+    "value": "\"Subtracting 1y 13mo across Adar I (M05L) in the months part lands in same month code\"",
+    "start": 11146,
+    "end": 11232
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 11232,
+    "end": 11233
+  },
+  {
+    "type": "String",
+    "value": "\"am\"",
+    "start": 11236,
+    "end": 11240
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 11240,
+    "end": 11241
+  },
+  {
+    "type": "Numeric",
+    "value": "5782",
+    "start": 11242,
+    "end": 11246
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 11246,
+    "end": 11247
+  },
+  {
+    "type": "Null",
+    "value": "null",
+    "start": 11248,
+    "end": 11252
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 11253,
+    "end": 11254
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 11254,
+    "end": 11255
+  },
+  {
+    "type": "Identifier",
+    "value": "TemporalHelpers",
+    "start": 11257,
+    "end": 11272
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 11272,
+    "end": 11273
+  },
+  {
+    "type": "Identifier",
+    "value": "assertPlainYearMonth",
+    "start": 11273,
+    "end": 11293
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 11293,
+    "end": 11294
+  },
+  {
+    "type": "Identifier",
+    "value": "common2Adar",
+    "start": 11297,
+    "end": 11308
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 11308,
+    "end": 11309
+  },
+  {
+    "type": "Identifier",
+    "value": "subtract",
+    "start": 11309,
+    "end": 11317
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 11317,
+    "end": 11318
+  },
+  {
+    "type": "Keyword",
+    "value": "new",
+    "start": 11318,
+    "end": 11321
+  },
+  {
+    "type": "Identifier",
+    "value": "Temporal",
+    "start": 11322,
+    "end": 11330
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 11330,
+    "end": 11331
+  },
+  {
+    "type": "Identifier",
+    "value": "Duration",
+    "start": 11331,
+    "end": 11339
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 11339,
+    "end": 11340
+  },
+  {
+    "type": "Numeric",
+    "value": "0",
+    "start": 11340,
+    "end": 11341
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 11341,
+    "end": 11342
+  },
+  {
+    "type": "Numeric",
+    "value": "25",
+    "start": 11343,
+    "end": 11345
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 11345,
+    "end": 11346
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 11346,
+    "end": 11347
+  },
+  {
+    "type": "Identifier",
+    "value": "options",
+    "start": 11348,
+    "end": 11355
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 11355,
+    "end": 11356
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 11356,
+    "end": 11357
+  },
+  {
+    "type": "Numeric",
+    "value": "5783",
+    "start": 11360,
+    "end": 11364
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 11364,
+    "end": 11365
+  },
+  {
+    "type": "Numeric",
+    "value": "6",
+    "start": 11366,
+    "end": 11367
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 11367,
+    "end": 11368
+  },
+  {
+    "type": "String",
+    "value": "\"M06\"",
+    "start": 11369,
+    "end": 11374
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 11374,
+    "end": 11375
+  },
+  {
+    "type": "String",
+    "value": "\"Subtracting 25 months from common-year Adar crossing a leap year lands in common-year Adar (M06)\"",
+    "start": 11376,
+    "end": 11474
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 11474,
+    "end": 11475
+  },
+  {
+    "type": "String",
+    "value": "\"am\"",
+    "start": 11478,
+    "end": 11482
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 11482,
+    "end": 11483
+  },
+  {
+    "type": "Numeric",
+    "value": "5783",
+    "start": 11484,
+    "end": 11488
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 11488,
+    "end": 11489
+  },
+  {
+    "type": "Null",
+    "value": "null",
+    "start": 11490,
+    "end": 11494
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 11495,
+    "end": 11496
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 11496,
+    "end": 11497
+  },
+  {
+    "type": "Identifier",
+    "value": "TemporalHelpers",
+    "start": 11499,
+    "end": 11514
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 11514,
+    "end": 11515
+  },
+  {
+    "type": "Identifier",
+    "value": "assertPlainYearMonth",
+    "start": 11515,
+    "end": 11535
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 11535,
+    "end": 11536
+  },
+  {
+    "type": "Identifier",
+    "value": "leap2AdarI",
+    "start": 11539,
+    "end": 11549
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 11549,
+    "end": 11550
+  },
+  {
+    "type": "Identifier",
+    "value": "subtract",
+    "start": 11550,
+    "end": 11558
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 11558,
+    "end": 11559
+  },
+  {
+    "type": "Identifier",
+    "value": "months24n",
+    "start": 11559,
+    "end": 11568
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 11568,
+    "end": 11569
+  },
+  {
+    "type": "Identifier",
+    "value": "options",
+    "start": 11570,
+    "end": 11577
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 11577,
+    "end": 11578
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 11578,
+    "end": 11579
+  },
+  {
+    "type": "Numeric",
+    "value": "5782",
+    "start": 11582,
+    "end": 11586
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 11586,
+    "end": 11587
+  },
+  {
+    "type": "Numeric",
+    "value": "7",
+    "start": 11588,
+    "end": 11589
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 11589,
+    "end": 11590
+  },
+  {
+    "type": "String",
+    "value": "\"M06\"",
+    "start": 11591,
+    "end": 11596
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 11596,
+    "end": 11597
+  },
+  {
+    "type": "String",
+    "value": "\"Subtracting 24 months from leap-year Adar I lands in leap-year Adar (M06)\"",
+    "start": 11598,
+    "end": 11673
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 11673,
+    "end": 11674
+  },
+  {
+    "type": "String",
+    "value": "\"am\"",
+    "start": 11677,
+    "end": 11681
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 11681,
+    "end": 11682
+  },
+  {
+    "type": "Numeric",
+    "value": "5782",
+    "start": 11683,
+    "end": 11687
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 11687,
+    "end": 11688
+  },
+  {
+    "type": "Null",
+    "value": "null",
+    "start": 11689,
+    "end": 11693
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 11694,
+    "end": 11695
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 11695,
+    "end": 11696
+  },
+  {
+    "type": "Identifier",
+    "value": "TemporalHelpers",
+    "start": 11698,
+    "end": 11713
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 11713,
+    "end": 11714
+  },
+  {
+    "type": "Identifier",
+    "value": "assertPlainYearMonth",
+    "start": 11714,
+    "end": 11734
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 11734,
+    "end": 11735
+  },
+  {
+    "type": "Identifier",
+    "value": "leap2AdarII",
+    "start": 11738,
+    "end": 11749
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 11749,
+    "end": 11750
+  },
+  {
+    "type": "Identifier",
+    "value": "subtract",
+    "start": 11750,
+    "end": 11758
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 11758,
+    "end": 11759
+  },
+  {
+    "type": "Identifier",
+    "value": "months24n",
+    "start": 11759,
+    "end": 11768
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 11768,
+    "end": 11769
+  },
+  {
+    "type": "Identifier",
+    "value": "options",
+    "start": 11770,
+    "end": 11777
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 11777,
+    "end": 11778
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 11778,
+    "end": 11779
+  },
+  {
+    "type": "Numeric",
+    "value": "5782",
+    "start": 11782,
+    "end": 11786
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 11786,
+    "end": 11787
+  },
+  {
+    "type": "Numeric",
+    "value": "8",
+    "start": 11788,
+    "end": 11789
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 11789,
+    "end": 11790
+  },
+  {
+    "type": "String",
+    "value": "\"M07\"",
+    "start": 11791,
+    "end": 11796
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 11796,
+    "end": 11797
+  },
+  {
+    "type": "String",
+    "value": "\"Subtracting 24 months from leap-year Adar II lands in leap-year Nisan (M07)\"",
+    "start": 11798,
+    "end": 11875
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 11875,
+    "end": 11876
+  },
+  {
+    "type": "String",
+    "value": "\"am\"",
+    "start": 11879,
+    "end": 11883
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 11883,
+    "end": 11884
+  },
+  {
+    "type": "Numeric",
+    "value": "5782",
+    "start": 11885,
+    "end": 11889
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 11889,
+    "end": 11890
+  },
+  {
+    "type": "Null",
+    "value": "null",
+    "start": 11891,
+    "end": 11895
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 11896,
+    "end": 11897
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 11897,
+    "end": 11898
+  }
+]

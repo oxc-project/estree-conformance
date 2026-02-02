@@ -1,0 +1,361 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 462,
+            "end": 468
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "throws",
+            "start": 469,
+            "end": 475
+          },
+          "optional": false,
+          "computed": false,
+          "start": 462,
+          "end": 475
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "name": "Test262Error",
+            "start": 476,
+            "end": 488
+          },
+          {
+            "type": "FunctionExpression",
+            "id": null,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "expression": {
+                    "type": "CallExpression",
+                    "callee": {
+                      "type": "MemberExpression",
+                      "object": {
+                        "type": "MemberExpression",
+                        "object": {
+                          "type": "MemberExpression",
+                          "object": {
+                            "type": "Identifier",
+                            "name": "Error",
+                            "start": 508,
+                            "end": 513
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "name": "prototype",
+                            "start": 514,
+                            "end": 523
+                          },
+                          "optional": false,
+                          "computed": false,
+                          "start": 508,
+                          "end": 523
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "name": "toString",
+                          "start": 524,
+                          "end": 532
+                        },
+                        "optional": false,
+                        "computed": false,
+                        "start": 508,
+                        "end": 532
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "name": "call",
+                        "start": 533,
+                        "end": 537
+                      },
+                      "optional": false,
+                      "computed": false,
+                      "start": 508,
+                      "end": 537
+                    },
+                    "arguments": [
+                      {
+                        "type": "ObjectExpression",
+                        "properties": [
+                          {
+                            "type": "Property",
+                            "kind": "get",
+                            "key": {
+                              "type": "Identifier",
+                              "name": "name",
+                              "start": 543,
+                              "end": 547
+                            },
+                            "value": {
+                              "type": "FunctionExpression",
+                              "id": null,
+                              "generator": false,
+                              "async": false,
+                              "params": [],
+                              "body": {
+                                "type": "BlockStatement",
+                                "body": [
+                                  {
+                                    "type": "ThrowStatement",
+                                    "argument": {
+                                      "type": "NewExpression",
+                                      "callee": {
+                                        "type": "Identifier",
+                                        "name": "Test262Error",
+                                        "start": 562,
+                                        "end": 574
+                                      },
+                                      "arguments": [],
+                                      "start": 558,
+                                      "end": 574
+                                    },
+                                    "start": 552,
+                                    "end": 575
+                                  }
+                                ],
+                                "start": 551,
+                                "end": 576
+                              },
+                              "expression": false,
+                              "start": 548,
+                              "end": 576
+                            },
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false,
+                            "start": 539,
+                            "end": 576
+                          }
+                        ],
+                        "start": 538,
+                        "end": 577
+                      }
+                    ],
+                    "optional": false,
+                    "start": 508,
+                    "end": 578
+                  },
+                  "start": 508,
+                  "end": 579
+                }
+              ],
+              "start": 501,
+              "end": 582
+            },
+            "expression": false,
+            "start": 490,
+            "end": 582
+          },
+          {
+            "type": "Literal",
+            "value": "name field getter should throw to cover abrupt completion return case in step 3",
+            "raw": "\"name field getter should throw to cover abrupt completion return case in step 3\"",
+            "start": 584,
+            "end": 665
+          }
+        ],
+        "optional": false,
+        "start": 462,
+        "end": 666
+      },
+      "start": 462,
+      "end": 666
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 682,
+            "end": 688
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "throws",
+            "start": 689,
+            "end": 695
+          },
+          "optional": false,
+          "computed": false,
+          "start": 682,
+          "end": 695
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "name": "Test262Error",
+            "start": 696,
+            "end": 708
+          },
+          {
+            "type": "FunctionExpression",
+            "id": null,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "expression": {
+                    "type": "CallExpression",
+                    "callee": {
+                      "type": "MemberExpression",
+                      "object": {
+                        "type": "MemberExpression",
+                        "object": {
+                          "type": "MemberExpression",
+                          "object": {
+                            "type": "Identifier",
+                            "name": "Error",
+                            "start": 728,
+                            "end": 733
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "name": "prototype",
+                            "start": 734,
+                            "end": 743
+                          },
+                          "optional": false,
+                          "computed": false,
+                          "start": 728,
+                          "end": 743
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "name": "toString",
+                          "start": 744,
+                          "end": 752
+                        },
+                        "optional": false,
+                        "computed": false,
+                        "start": 728,
+                        "end": 752
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "name": "call",
+                        "start": 753,
+                        "end": 757
+                      },
+                      "optional": false,
+                      "computed": false,
+                      "start": 728,
+                      "end": 757
+                    },
+                    "arguments": [
+                      {
+                        "type": "ObjectExpression",
+                        "properties": [
+                          {
+                            "type": "Property",
+                            "kind": "get",
+                            "key": {
+                              "type": "Identifier",
+                              "name": "message",
+                              "start": 763,
+                              "end": 770
+                            },
+                            "value": {
+                              "type": "FunctionExpression",
+                              "id": null,
+                              "generator": false,
+                              "async": false,
+                              "params": [],
+                              "body": {
+                                "type": "BlockStatement",
+                                "body": [
+                                  {
+                                    "type": "ThrowStatement",
+                                    "argument": {
+                                      "type": "NewExpression",
+                                      "callee": {
+                                        "type": "Identifier",
+                                        "name": "Test262Error",
+                                        "start": 785,
+                                        "end": 797
+                                      },
+                                      "arguments": [],
+                                      "start": 781,
+                                      "end": 797
+                                    },
+                                    "start": 775,
+                                    "end": 798
+                                  }
+                                ],
+                                "start": 774,
+                                "end": 799
+                              },
+                              "expression": false,
+                              "start": 771,
+                              "end": 799
+                            },
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false,
+                            "start": 759,
+                            "end": 799
+                          }
+                        ],
+                        "start": 758,
+                        "end": 800
+                      }
+                    ],
+                    "optional": false,
+                    "start": 728,
+                    "end": 801
+                  },
+                  "start": 728,
+                  "end": 802
+                }
+              ],
+              "start": 721,
+              "end": 805
+            },
+            "expression": false,
+            "start": 710,
+            "end": 805
+          },
+          {
+            "type": "Literal",
+            "value": "message field getter should throw to cover abrupt completion return case in step 5",
+            "raw": "\"message field getter should throw to cover abrupt completion return case in step 5\"",
+            "start": 807,
+            "end": 891
+          }
+        ],
+        "optional": false,
+        "start": 682,
+        "end": 892
+      },
+      "start": 682,
+      "end": 892
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 894
+}

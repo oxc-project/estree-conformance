@@ -562,8 +562,8 @@ __ESTREE_TEST__:AST:
             "name": "MyComp",
             "optional": false,
             "typeAnnotation": null,
-            "start": 9,
-            "end": 15
+            "start": 51,
+            "end": 57
           },
           "local": {
             "type": "Identifier",
@@ -571,12 +571,12 @@ __ESTREE_TEST__:AST:
             "name": "MyComp",
             "optional": false,
             "typeAnnotation": null,
-            "start": 9,
-            "end": 15
+            "start": 51,
+            "end": 57
           },
           "importKind": "value",
-          "start": 9,
-          "end": 15
+          "start": 51,
+          "end": 57
         },
         {
           "type": "ImportSpecifier",
@@ -586,8 +586,8 @@ __ESTREE_TEST__:AST:
             "name": "Prop",
             "optional": false,
             "typeAnnotation": null,
-            "start": 17,
-            "end": 21
+            "start": 59,
+            "end": 63
           },
           "local": {
             "type": "Identifier",
@@ -595,26 +595,26 @@ __ESTREE_TEST__:AST:
             "name": "Prop",
             "optional": false,
             "typeAnnotation": null,
-            "start": 17,
-            "end": 21
+            "start": 59,
+            "end": 63
           },
           "importKind": "value",
-          "start": 17,
-          "end": 21
+          "start": 59,
+          "end": 63
         }
       ],
       "source": {
         "type": "Literal",
         "value": "./component",
         "raw": "\"./component\"",
-        "start": 29,
-        "end": 42
+        "start": 71,
+        "end": 84
       },
       "phase": null,
       "attributes": [],
       "importKind": "value",
-      "start": 0,
-      "end": 43
+      "start": 42,
+      "end": 85
     },
     {
       "type": "ImportDeclaration",
@@ -627,25 +627,25 @@ __ESTREE_TEST__:AST:
             "name": "React",
             "optional": false,
             "typeAnnotation": null,
-            "start": 56,
-            "end": 61
+            "start": 98,
+            "end": 103
           },
-          "start": 51,
-          "end": 61
+          "start": 93,
+          "end": 103
         }
       ],
       "source": {
         "type": "Literal",
         "value": "react",
         "raw": "\"react\"",
-        "start": 67,
-        "end": 74
+        "start": 109,
+        "end": 116
       },
       "phase": null,
       "attributes": [],
       "importKind": "value",
-      "start": 44,
-      "end": 75
+      "start": 86,
+      "end": 117
     },
     {
       "type": "VariableDeclaration",
@@ -659,8 +659,8 @@ __ESTREE_TEST__:AST:
             "name": "x",
             "optional": false,
             "typeAnnotation": null,
-            "start": 81,
-            "end": 82
+            "start": 123,
+            "end": 124
           },
           "init": {
             "type": "JSXElement",
@@ -669,8 +669,8 @@ __ESTREE_TEST__:AST:
               "name": {
                 "type": "JSXIdentifier",
                 "name": "MyComp",
-                "start": 86,
-                "end": 92
+                "start": 128,
+                "end": 134
               },
               "typeArguments": {
                 "type": "TSTypeParameterInstantiation",
@@ -683,16 +683,16 @@ __ESTREE_TEST__:AST:
                       "name": "Prop",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 93,
-                      "end": 97
+                      "start": 135,
+                      "end": 139
                     },
                     "typeArguments": null,
-                    "start": 93,
-                    "end": 97
+                    "start": 135,
+                    "end": 139
                   }
                 ],
-                "start": 92,
-                "end": 98
+                "start": 134,
+                "end": 140
               },
               "attributes": [
                 {
@@ -700,8 +700,8 @@ __ESTREE_TEST__:AST:
                   "name": {
                     "type": "JSXIdentifier",
                     "name": "a",
-                    "start": 99,
-                    "end": 100
+                    "start": 141,
+                    "end": 142
                   },
                   "value": {
                     "type": "JSXExpressionContainer",
@@ -709,57 +709,57 @@ __ESTREE_TEST__:AST:
                       "type": "Literal",
                       "value": 10,
                       "raw": "10",
-                      "start": 102,
-                      "end": 104
+                      "start": 144,
+                      "end": 146
                     },
-                    "start": 101,
-                    "end": 105
+                    "start": 143,
+                    "end": 147
                   },
-                  "start": 99,
-                  "end": 105
+                  "start": 141,
+                  "end": 147
                 },
                 {
                   "type": "JSXAttribute",
                   "name": {
                     "type": "JSXIdentifier",
                     "name": "b",
-                    "start": 106,
-                    "end": 107
+                    "start": 148,
+                    "end": 149
                   },
                   "value": {
                     "type": "Literal",
                     "value": "hi",
                     "raw": "\"hi\"",
-                    "start": 108,
-                    "end": 112
+                    "start": 150,
+                    "end": 154
                   },
-                  "start": 106,
-                  "end": 112
+                  "start": 148,
+                  "end": 154
                 }
               ],
               "selfClosing": true,
-              "start": 85,
-              "end": 115
+              "start": 127,
+              "end": 157
             },
             "children": [],
             "closingElement": null,
-            "start": 85,
-            "end": 115
+            "start": 127,
+            "end": 157
           },
           "definite": false,
-          "start": 81,
-          "end": 115
+          "start": 123,
+          "end": 157
         }
       ],
       "declare": false,
-      "start": 77,
-      "end": 116
+      "start": 119,
+      "end": 158
     }
   ],
   "sourceType": "module",
   "hashbang": null,
-  "start": 0,
-  "end": 150
+  "start": 42,
+  "end": 192
 }
 ```
 __ESTREE_TEST__:TOKENS:
@@ -768,212 +768,212 @@ __ESTREE_TEST__:TOKENS:
   {
     "type": "Keyword",
     "value": "import",
-    "start": 0,
-    "end": 6
+    "start": 42,
+    "end": 48
   },
   {
     "type": "Punctuator",
     "value": "{",
-    "start": 7,
-    "end": 8
+    "start": 49,
+    "end": 50
   },
   {
     "type": "Identifier",
     "value": "MyComp",
-    "start": 9,
-    "end": 15
+    "start": 51,
+    "end": 57
   },
   {
     "type": "Punctuator",
     "value": ",",
-    "start": 15,
-    "end": 16
+    "start": 57,
+    "end": 58
   },
   {
     "type": "Identifier",
     "value": "Prop",
-    "start": 17,
-    "end": 21
+    "start": 59,
+    "end": 63
   },
   {
     "type": "Punctuator",
     "value": "}",
-    "start": 22,
-    "end": 23
+    "start": 64,
+    "end": 65
   },
   {
     "type": "Identifier",
     "value": "from",
-    "start": 24,
-    "end": 28
+    "start": 66,
+    "end": 70
   },
   {
     "type": "String",
     "value": "\"./component\"",
-    "start": 29,
-    "end": 42
-  },
-  {
-    "type": "Punctuator",
-    "value": ";",
-    "start": 42,
-    "end": 43
-  },
-  {
-    "type": "Keyword",
-    "value": "import",
-    "start": 44,
-    "end": 50
-  },
-  {
-    "type": "Punctuator",
-    "value": "*",
-    "start": 51,
-    "end": 52
-  },
-  {
-    "type": "Identifier",
-    "value": "as",
-    "start": 53,
-    "end": 55
-  },
-  {
-    "type": "Identifier",
-    "value": "React",
-    "start": 56,
-    "end": 61
-  },
-  {
-    "type": "Identifier",
-    "value": "from",
-    "start": 62,
-    "end": 66
-  },
-  {
-    "type": "String",
-    "value": "\"react\"",
-    "start": 67,
-    "end": 74
-  },
-  {
-    "type": "Punctuator",
-    "value": ";",
-    "start": 74,
-    "end": 75
-  },
-  {
-    "type": "Keyword",
-    "value": "let",
-    "start": 77,
-    "end": 80
-  },
-  {
-    "type": "Identifier",
-    "value": "x",
-    "start": 81,
-    "end": 82
-  },
-  {
-    "type": "Punctuator",
-    "value": "=",
-    "start": 83,
+    "start": 71,
     "end": 84
   },
   {
     "type": "Punctuator",
-    "value": "<",
-    "start": 85,
-    "end": 86
+    "value": ";",
+    "start": 84,
+    "end": 85
   },
   {
-    "type": "JSXIdentifier",
-    "value": "MyComp",
+    "type": "Keyword",
+    "value": "import",
     "start": 86,
     "end": 92
   },
   {
     "type": "Punctuator",
-    "value": "<",
-    "start": 92,
-    "end": 93
+    "value": "*",
+    "start": 93,
+    "end": 94
   },
   {
     "type": "Identifier",
-    "value": "Prop",
-    "start": 93,
+    "value": "as",
+    "start": 95,
     "end": 97
   },
   {
-    "type": "Punctuator",
-    "value": ">",
-    "start": 97,
-    "end": 98
+    "type": "Identifier",
+    "value": "React",
+    "start": 98,
+    "end": 103
   },
   {
-    "type": "JSXIdentifier",
-    "value": "a",
-    "start": 99,
-    "end": 100
-  },
-  {
-    "type": "Punctuator",
-    "value": "=",
-    "start": 100,
-    "end": 101
-  },
-  {
-    "type": "Punctuator",
-    "value": "{",
-    "start": 101,
-    "end": 102
-  },
-  {
-    "type": "Numeric",
-    "value": "10",
-    "start": 102,
-    "end": 104
-  },
-  {
-    "type": "Punctuator",
-    "value": "}",
+    "type": "Identifier",
+    "value": "from",
     "start": 104,
-    "end": 105
-  },
-  {
-    "type": "JSXIdentifier",
-    "value": "b",
-    "start": 106,
-    "end": 107
-  },
-  {
-    "type": "Punctuator",
-    "value": "=",
-    "start": 107,
     "end": 108
   },
   {
-    "type": "JSXText",
-    "value": "\"hi\"",
-    "start": 108,
-    "end": 112
-  },
-  {
-    "type": "Punctuator",
-    "value": "/",
-    "start": 113,
-    "end": 114
-  },
-  {
-    "type": "Punctuator",
-    "value": ">",
-    "start": 114,
-    "end": 115
+    "type": "String",
+    "value": "\"react\"",
+    "start": 109,
+    "end": 116
   },
   {
     "type": "Punctuator",
     "value": ";",
-    "start": 115,
-    "end": 116
+    "start": 116,
+    "end": 117
+  },
+  {
+    "type": "Keyword",
+    "value": "let",
+    "start": 119,
+    "end": 122
+  },
+  {
+    "type": "Identifier",
+    "value": "x",
+    "start": 123,
+    "end": 124
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 125,
+    "end": 126
+  },
+  {
+    "type": "Punctuator",
+    "value": "<",
+    "start": 127,
+    "end": 128
+  },
+  {
+    "type": "JSXIdentifier",
+    "value": "MyComp",
+    "start": 128,
+    "end": 134
+  },
+  {
+    "type": "Punctuator",
+    "value": "<",
+    "start": 134,
+    "end": 135
+  },
+  {
+    "type": "Identifier",
+    "value": "Prop",
+    "start": 135,
+    "end": 139
+  },
+  {
+    "type": "Punctuator",
+    "value": ">",
+    "start": 139,
+    "end": 140
+  },
+  {
+    "type": "JSXIdentifier",
+    "value": "a",
+    "start": 141,
+    "end": 142
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 142,
+    "end": 143
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 143,
+    "end": 144
+  },
+  {
+    "type": "Numeric",
+    "value": "10",
+    "start": 144,
+    "end": 146
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 146,
+    "end": 147
+  },
+  {
+    "type": "JSXIdentifier",
+    "value": "b",
+    "start": 148,
+    "end": 149
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 149,
+    "end": 150
+  },
+  {
+    "type": "JSXText",
+    "value": "\"hi\"",
+    "start": 150,
+    "end": 154
+  },
+  {
+    "type": "Punctuator",
+    "value": "/",
+    "start": 155,
+    "end": 156
+  },
+  {
+    "type": "Punctuator",
+    "value": ">",
+    "start": 156,
+    "end": 157
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 157,
+    "end": 158
   }
 ]
 ```

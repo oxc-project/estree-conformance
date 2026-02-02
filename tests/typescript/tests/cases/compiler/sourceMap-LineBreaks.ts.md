@@ -331,7 +331,7 @@ __ESTREE_TEST__:AST:
           "init": {
             "type": "Literal",
             "value": "line 1line 2",
-            "raw": "\"line 1\\\rline 2\"",
+            "raw": "\"line 1\\\nline 2\"",
             "start": 437,
             "end": 453
           },
@@ -767,7 +767,7 @@ __ESTREE_TEST__:TOKENS:
   },
   {
     "type": "String",
-    "value": "\"line 1\\\rline 2\"",
+    "value": "\"line 1\\\nline 2\"",
     "start": 437,
     "end": 453
   },

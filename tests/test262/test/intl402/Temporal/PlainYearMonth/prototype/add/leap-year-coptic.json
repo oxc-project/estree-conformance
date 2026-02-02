@@ -1,0 +1,922 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "calendar",
+            "start": 352,
+            "end": 360
+          },
+          "init": {
+            "type": "Literal",
+            "value": "coptic",
+            "raw": "\"coptic\"",
+            "start": 363,
+            "end": 371
+          },
+          "start": 352,
+          "end": 371
+        }
+      ],
+      "start": 346,
+      "end": 372
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "options",
+            "start": 379,
+            "end": 386
+          },
+          "init": {
+            "type": "ObjectExpression",
+            "properties": [
+              {
+                "type": "Property",
+                "kind": "init",
+                "key": {
+                  "type": "Identifier",
+                  "name": "overflow",
+                  "start": 391,
+                  "end": 399
+                },
+                "value": {
+                  "type": "Literal",
+                  "value": "reject",
+                  "raw": "\"reject\"",
+                  "start": 401,
+                  "end": 409
+                },
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "start": 391,
+                "end": 409
+              }
+            ],
+            "start": 389,
+            "end": 411
+          },
+          "start": 379,
+          "end": 411
+        }
+      ],
+      "start": 373,
+      "end": 412
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "epagomenalMonth",
+            "start": 420,
+            "end": 435
+          },
+          "init": {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "Temporal",
+                  "start": 438,
+                  "end": 446
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "PlainYearMonth",
+                  "start": 447,
+                  "end": 461
+                },
+                "optional": false,
+                "computed": false,
+                "start": 438,
+                "end": 461
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "from",
+                "start": 462,
+                "end": 466
+              },
+              "optional": false,
+              "computed": false,
+              "start": 438,
+              "end": 466
+            },
+            "arguments": [
+              {
+                "type": "ObjectExpression",
+                "properties": [
+                  {
+                    "type": "Property",
+                    "kind": "init",
+                    "key": {
+                      "type": "Identifier",
+                      "name": "year",
+                      "start": 469,
+                      "end": 473
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "value": 1739,
+                      "raw": "1739",
+                      "start": 475,
+                      "end": 479
+                    },
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "start": 469,
+                    "end": 479
+                  },
+                  {
+                    "type": "Property",
+                    "kind": "init",
+                    "key": {
+                      "type": "Identifier",
+                      "name": "monthCode",
+                      "start": 481,
+                      "end": 490
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "value": "M13",
+                      "raw": "\"M13\"",
+                      "start": 492,
+                      "end": 497
+                    },
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "start": 481,
+                    "end": 497
+                  },
+                  {
+                    "type": "Property",
+                    "kind": "init",
+                    "key": {
+                      "type": "Identifier",
+                      "name": "calendar",
+                      "start": 499,
+                      "end": 507
+                    },
+                    "value": {
+                      "type": "Identifier",
+                      "name": "calendar",
+                      "start": 499,
+                      "end": 507
+                    },
+                    "method": false,
+                    "shorthand": true,
+                    "computed": false,
+                    "start": 499,
+                    "end": 507
+                  }
+                ],
+                "start": 467,
+                "end": 509
+              },
+              {
+                "type": "Identifier",
+                "name": "options",
+                "start": 511,
+                "end": 518
+              }
+            ],
+            "optional": false,
+            "start": 438,
+            "end": 519
+          },
+          "start": 420,
+          "end": 519
+        }
+      ],
+      "start": 414,
+      "end": 520
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "years1",
+            "start": 528,
+            "end": 534
+          },
+          "init": {
+            "type": "NewExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "Temporal",
+                "start": 541,
+                "end": 549
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "Duration",
+                "start": 550,
+                "end": 558
+              },
+              "optional": false,
+              "computed": false,
+              "start": 541,
+              "end": 558
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "value": 1,
+                "raw": "1",
+                "start": 559,
+                "end": 560
+              }
+            ],
+            "start": 537,
+            "end": 561
+          },
+          "start": 528,
+          "end": 561
+        }
+      ],
+      "start": 522,
+      "end": 562
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "years1n",
+            "start": 569,
+            "end": 576
+          },
+          "init": {
+            "type": "NewExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "Temporal",
+                "start": 583,
+                "end": 591
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "Duration",
+                "start": 592,
+                "end": 600
+              },
+              "optional": false,
+              "computed": false,
+              "start": 583,
+              "end": 600
+            },
+            "arguments": [
+              {
+                "type": "UnaryExpression",
+                "operator": "-",
+                "argument": {
+                  "type": "Literal",
+                  "value": 1,
+                  "raw": "1",
+                  "start": 602,
+                  "end": 603
+                },
+                "prefix": true,
+                "start": 601,
+                "end": 603
+              }
+            ],
+            "start": 579,
+            "end": 604
+          },
+          "start": 569,
+          "end": 604
+        }
+      ],
+      "start": 563,
+      "end": 605
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "years4",
+            "start": 612,
+            "end": 618
+          },
+          "init": {
+            "type": "NewExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "Temporal",
+                "start": 625,
+                "end": 633
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "Duration",
+                "start": 634,
+                "end": 642
+              },
+              "optional": false,
+              "computed": false,
+              "start": 625,
+              "end": 642
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "value": 4,
+                "raw": "4",
+                "start": 643,
+                "end": 644
+              }
+            ],
+            "start": 621,
+            "end": 645
+          },
+          "start": 612,
+          "end": 645
+        }
+      ],
+      "start": 606,
+      "end": 646
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "years4n",
+            "start": 653,
+            "end": 660
+          },
+          "init": {
+            "type": "NewExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "Temporal",
+                "start": 667,
+                "end": 675
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "Duration",
+                "start": 676,
+                "end": 684
+              },
+              "optional": false,
+              "computed": false,
+              "start": 667,
+              "end": 684
+            },
+            "arguments": [
+              {
+                "type": "UnaryExpression",
+                "operator": "-",
+                "argument": {
+                  "type": "Literal",
+                  "value": 4,
+                  "raw": "4",
+                  "start": 686,
+                  "end": 687
+                },
+                "prefix": true,
+                "start": 685,
+                "end": 687
+              }
+            ],
+            "start": 663,
+            "end": 688
+          },
+          "start": 653,
+          "end": 688
+        }
+      ],
+      "start": 647,
+      "end": 689
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "TemporalHelpers",
+            "start": 691,
+            "end": 706
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "assertPlainYearMonth",
+            "start": 707,
+            "end": 727
+          },
+          "optional": false,
+          "computed": false,
+          "start": 691,
+          "end": 727
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "epagomenalMonth",
+                "start": 731,
+                "end": 746
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "add",
+                "start": 747,
+                "end": 750
+              },
+              "optional": false,
+              "computed": false,
+              "start": 731,
+              "end": 750
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "name": "years1",
+                "start": 751,
+                "end": 757
+              },
+              {
+                "type": "Identifier",
+                "name": "options",
+                "start": 759,
+                "end": 766
+              }
+            ],
+            "optional": false,
+            "start": 731,
+            "end": 767
+          },
+          {
+            "type": "Literal",
+            "value": 1740,
+            "raw": "1740",
+            "start": 771,
+            "end": 775
+          },
+          {
+            "type": "Literal",
+            "value": 13,
+            "raw": "13",
+            "start": 777,
+            "end": 779
+          },
+          {
+            "type": "Literal",
+            "value": "M13",
+            "raw": "\"M13\"",
+            "start": 781,
+            "end": 786
+          },
+          {
+            "type": "Literal",
+            "value": "Adding 1 year to epagomenal month",
+            "raw": "\"Adding 1 year to epagomenal month\"",
+            "start": 788,
+            "end": 823
+          },
+          {
+            "type": "Literal",
+            "value": "am",
+            "raw": "\"am\"",
+            "start": 827,
+            "end": 831
+          },
+          {
+            "type": "Literal",
+            "value": 1740,
+            "raw": "1740",
+            "start": 833,
+            "end": 837
+          },
+          {
+            "type": "Literal",
+            "value": null,
+            "raw": "null",
+            "start": 839,
+            "end": 843
+          }
+        ],
+        "optional": false,
+        "start": 691,
+        "end": 844
+      },
+      "start": 691,
+      "end": 845
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "TemporalHelpers",
+            "start": 847,
+            "end": 862
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "assertPlainYearMonth",
+            "start": 863,
+            "end": 883
+          },
+          "optional": false,
+          "computed": false,
+          "start": 847,
+          "end": 883
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "epagomenalMonth",
+                "start": 887,
+                "end": 902
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "add",
+                "start": 903,
+                "end": 906
+              },
+              "optional": false,
+              "computed": false,
+              "start": 887,
+              "end": 906
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "name": "years1n",
+                "start": 907,
+                "end": 914
+              },
+              {
+                "type": "Identifier",
+                "name": "options",
+                "start": 916,
+                "end": 923
+              }
+            ],
+            "optional": false,
+            "start": 887,
+            "end": 924
+          },
+          {
+            "type": "Literal",
+            "value": 1738,
+            "raw": "1738",
+            "start": 928,
+            "end": 932
+          },
+          {
+            "type": "Literal",
+            "value": 13,
+            "raw": "13",
+            "start": 934,
+            "end": 936
+          },
+          {
+            "type": "Literal",
+            "value": "M13",
+            "raw": "\"M13\"",
+            "start": 938,
+            "end": 943
+          },
+          {
+            "type": "Literal",
+            "value": "Subtracting 1 year from epagomenal month",
+            "raw": "\"Subtracting 1 year from epagomenal month\"",
+            "start": 945,
+            "end": 987
+          },
+          {
+            "type": "Literal",
+            "value": "am",
+            "raw": "\"am\"",
+            "start": 991,
+            "end": 995
+          },
+          {
+            "type": "Literal",
+            "value": 1738,
+            "raw": "1738",
+            "start": 997,
+            "end": 1001
+          },
+          {
+            "type": "Literal",
+            "value": null,
+            "raw": "null",
+            "start": 1003,
+            "end": 1007
+          }
+        ],
+        "optional": false,
+        "start": 847,
+        "end": 1008
+      },
+      "start": 847,
+      "end": 1009
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "TemporalHelpers",
+            "start": 1011,
+            "end": 1026
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "assertPlainYearMonth",
+            "start": 1027,
+            "end": 1047
+          },
+          "optional": false,
+          "computed": false,
+          "start": 1011,
+          "end": 1047
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "epagomenalMonth",
+                "start": 1051,
+                "end": 1066
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "add",
+                "start": 1067,
+                "end": 1070
+              },
+              "optional": false,
+              "computed": false,
+              "start": 1051,
+              "end": 1070
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "name": "years4",
+                "start": 1071,
+                "end": 1077
+              },
+              {
+                "type": "Identifier",
+                "name": "options",
+                "start": 1079,
+                "end": 1086
+              }
+            ],
+            "optional": false,
+            "start": 1051,
+            "end": 1087
+          },
+          {
+            "type": "Literal",
+            "value": 1743,
+            "raw": "1743",
+            "start": 1091,
+            "end": 1095
+          },
+          {
+            "type": "Literal",
+            "value": 13,
+            "raw": "13",
+            "start": 1097,
+            "end": 1099
+          },
+          {
+            "type": "Literal",
+            "value": "M13",
+            "raw": "\"M13\"",
+            "start": 1101,
+            "end": 1106
+          },
+          {
+            "type": "Literal",
+            "value": "Adding 4 years to epagomenal month",
+            "raw": "\"Adding 4 years to epagomenal month\"",
+            "start": 1108,
+            "end": 1144
+          },
+          {
+            "type": "Literal",
+            "value": "am",
+            "raw": "\"am\"",
+            "start": 1148,
+            "end": 1152
+          },
+          {
+            "type": "Literal",
+            "value": 1743,
+            "raw": "1743",
+            "start": 1154,
+            "end": 1158
+          },
+          {
+            "type": "Literal",
+            "value": null,
+            "raw": "null",
+            "start": 1160,
+            "end": 1164
+          }
+        ],
+        "optional": false,
+        "start": 1011,
+        "end": 1165
+      },
+      "start": 1011,
+      "end": 1166
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "TemporalHelpers",
+            "start": 1168,
+            "end": 1183
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "assertPlainYearMonth",
+            "start": 1184,
+            "end": 1204
+          },
+          "optional": false,
+          "computed": false,
+          "start": 1168,
+          "end": 1204
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "epagomenalMonth",
+                "start": 1208,
+                "end": 1223
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "add",
+                "start": 1224,
+                "end": 1227
+              },
+              "optional": false,
+              "computed": false,
+              "start": 1208,
+              "end": 1227
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "name": "years4n",
+                "start": 1228,
+                "end": 1235
+              },
+              {
+                "type": "Identifier",
+                "name": "options",
+                "start": 1237,
+                "end": 1244
+              }
+            ],
+            "optional": false,
+            "start": 1208,
+            "end": 1245
+          },
+          {
+            "type": "Literal",
+            "value": 1735,
+            "raw": "1735",
+            "start": 1249,
+            "end": 1253
+          },
+          {
+            "type": "Literal",
+            "value": 13,
+            "raw": "13",
+            "start": 1255,
+            "end": 1257
+          },
+          {
+            "type": "Literal",
+            "value": "M13",
+            "raw": "\"M13\"",
+            "start": 1259,
+            "end": 1264
+          },
+          {
+            "type": "Literal",
+            "value": "Subtracting 4 years from epagomenal month",
+            "raw": "\"Subtracting 4 years from epagomenal month\"",
+            "start": 1266,
+            "end": 1309
+          },
+          {
+            "type": "Literal",
+            "value": "am",
+            "raw": "\"am\"",
+            "start": 1313,
+            "end": 1317
+          },
+          {
+            "type": "Literal",
+            "value": 1735,
+            "raw": "1735",
+            "start": 1319,
+            "end": 1323
+          },
+          {
+            "type": "Literal",
+            "value": null,
+            "raw": "null",
+            "start": 1325,
+            "end": 1329
+          }
+        ],
+        "optional": false,
+        "start": 1168,
+        "end": 1330
+      },
+      "start": 1168,
+      "end": 1331
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 1332
+}
