@@ -776,7 +776,7 @@ __ESTREE_TEST__:AST:
       "end": 123
     }
   ],
-  "sourceType": "module",
+  "sourceType": "commonjs",
   "hashbang": null,
   "start": 19,
   "end": 123

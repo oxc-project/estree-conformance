@@ -1,3 +1,4 @@
+import path from "path";
 import { parseForESLint } from "@typescript-eslint/parser";
 import { walk } from "estree-walker";
 import { stringifyWith, transformerTs } from "./utils/json.js";
@@ -5,6 +6,18 @@ import { run } from "./utils/run.js";
 import { makeUnitsFromTest } from "./utils/typescript-make-units-from-test.cjs";
 
 const EXIT = {};
+
+// Check if extension explicitly indicates CJS (no content-based detection should override)
+function isExplicitCjsExtension(filename) {
+  const ext = path.extname(filename).toLowerCase();
+  return [".cts", ".cjs"].includes(ext);
+}
+
+// Check if extension explicitly indicates ESM (no content-based detection should override)
+function isExplicitEsmExtension(filename) {
+  const ext = path.extname(filename).toLowerCase();
+  return [".mts", ".mjs"].includes(ext);
+}
 
 await run({
   submodule: "typescript",
@@ -32,8 +45,17 @@ await run({
         // oxlint-disable-next-line no-unused-vars
         const { comments, tokens, ...program } = result.ast;
 
-        // TS-ESLint parser has no `unambiguous` option, so emulate it here
-        if (program.sourceType === "script") {
+        // For explicit CJS extensions (.cts, .cjs), always use "commonjs" (matches TypeScript behavior)
+        // For explicit ESM extensions (.mts, .mjs), always use "module" (matches TypeScript behavior)
+        // For ambiguous extensions (.ts, .js, etc.), do content-based detection
+        const filename = test.name || path;
+        if (isExplicitCjsExtension(filename)) {
+          program.sourceType = "commonjs";
+        } else if (isExplicitEsmExtension(filename)) {
+          program.sourceType = "module";
+        } else if (program.sourceType === "script") {
+          // TS-ESLint parser has no `unambiguous` option, so emulate it here
+          // Only for ambiguous extensions
           for (const { type } of program.body) {
             if (
               [

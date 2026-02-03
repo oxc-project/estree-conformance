@@ -116,7 +116,7 @@ __ESTREE_TEST__:AST:
       "end": 29
     }
   ],
-  "sourceType": "module",
+  "sourceType": "commonjs",
   "hashbang": null,
   "start": 19,
   "end": 29
@@ -1757,7 +1757,7 @@ __ESTREE_TEST__:AST:
       "end": 176
     }
   ],
-  "sourceType": "module",
+  "sourceType": "commonjs",
   "hashbang": null,
   "start": 27,
   "end": 176
@@ -2084,7 +2084,7 @@ __ESTREE_TEST__:AST:
       "end": 102
     }
   ],
-  "sourceType": "module",
+  "sourceType": "commonjs",
   "hashbang": null,
   "start": 27,
   "end": 102
@@ -2435,7 +2435,7 @@ __ESTREE_TEST__:AST:
       "end": 50
     }
   ],
-  "sourceType": "module",
+  "sourceType": "commonjs",
   "hashbang": null,
   "start": 19,
   "end": 50

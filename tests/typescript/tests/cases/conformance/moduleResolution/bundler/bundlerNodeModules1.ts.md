@@ -237,7 +237,7 @@ __ESTREE_TEST__:AST:
       "end": 16
     }
   ],
-  "sourceType": "script",
+  "sourceType": "commonjs",
   "hashbang": null,
   "start": 0,
   "end": 17
@@ -333,7 +333,7 @@ __ESTREE_TEST__:AST:
       "end": 25
     }
   ],
-  "sourceType": "module",
+  "sourceType": "commonjs",
   "hashbang": null,
   "start": 0,
   "end": 26
@@ -723,7 +723,7 @@ __ESTREE_TEST__:AST:
       "end": 32
     }
   ],
-  "sourceType": "module",
+  "sourceType": "commonjs",
   "hashbang": null,
   "start": 0,
   "end": 32

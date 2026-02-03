@@ -35,7 +35,7 @@ __ESTREE_TEST__:AST:
       "end": 12
     }
   ],
-  "sourceType": "script",
+  "sourceType": "commonjs",
   "hashbang": null,
   "start": 0,
   "end": 12

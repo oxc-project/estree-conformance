@@ -3,7 +3,7 @@ __ESTREE_TEST__:AST:
 {
   "type": "Program",
   "body": [],
-  "sourceType": "script",
+  "sourceType": "commonjs",
   "hashbang": null,
   "start": 50,
   "end": 50

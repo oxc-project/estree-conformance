@@ -213,7 +213,436 @@ __ESTREE_TEST__:AST:
       "end": 43
     }
   ],
+  "sourceType": "commonjs",
+  "hashbang": null,
+  "start": 19,
+  "end": 43
+}
+```
+__ESTREE_TEST__:TOKENS:
+```json
+[
+  {
+    "type": "Keyword",
+    "value": "const",
+    "start": 19,
+    "end": 24
+  },
+  {
+    "type": "Identifier",
+    "value": "x",
+    "start": 25,
+    "end": 26
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 27,
+    "end": 28
+  },
+  {
+    "type": "Numeric",
+    "value": "1",
+    "start": 29,
+    "end": 30
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 30,
+    "end": 31
+  },
+  {
+    "type": "Keyword",
+    "value": "export",
+    "start": 32,
+    "end": 38
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 39,
+    "end": 40
+  },
+  {
+    "type": "Identifier",
+    "value": "x",
+    "start": 40,
+    "end": 41
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 41,
+    "end": 42
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 42,
+    "end": 43
+  }
+]
+```
+__ESTREE_TEST__:AST:
+```json
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "decorators": [],
+            "name": "x",
+            "optional": false,
+            "typeAnnotation": null,
+            "start": 25,
+            "end": 26
+          },
+          "init": {
+            "type": "Literal",
+            "value": 1,
+            "raw": "1",
+            "start": 29,
+            "end": 30
+          },
+          "definite": false,
+          "start": 25,
+          "end": 30
+        }
+      ],
+      "declare": false,
+      "start": 19,
+      "end": 31
+    },
+    {
+      "type": "ExportNamedDeclaration",
+      "declaration": null,
+      "specifiers": [
+        {
+          "type": "ExportSpecifier",
+          "local": {
+            "type": "Identifier",
+            "decorators": [],
+            "name": "x",
+            "optional": false,
+            "typeAnnotation": null,
+            "start": 40,
+            "end": 41
+          },
+          "exported": {
+            "type": "Identifier",
+            "decorators": [],
+            "name": "x",
+            "optional": false,
+            "typeAnnotation": null,
+            "start": 40,
+            "end": 41
+          },
+          "exportKind": "value",
+          "start": 40,
+          "end": 41
+        }
+      ],
+      "source": null,
+      "exportKind": "value",
+      "attributes": [],
+      "start": 32,
+      "end": 43
+    }
+  ],
   "sourceType": "module",
+  "hashbang": null,
+  "start": 19,
+  "end": 43
+}
+```
+__ESTREE_TEST__:TOKENS:
+```json
+[
+  {
+    "type": "Keyword",
+    "value": "const",
+    "start": 19,
+    "end": 24
+  },
+  {
+    "type": "Identifier",
+    "value": "x",
+    "start": 25,
+    "end": 26
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 27,
+    "end": 28
+  },
+  {
+    "type": "Numeric",
+    "value": "1",
+    "start": 29,
+    "end": 30
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 30,
+    "end": 31
+  },
+  {
+    "type": "Keyword",
+    "value": "export",
+    "start": 32,
+    "end": 38
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 39,
+    "end": 40
+  },
+  {
+    "type": "Identifier",
+    "value": "x",
+    "start": 40,
+    "end": 41
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 41,
+    "end": 42
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 42,
+    "end": 43
+  }
+]
+```
+__ESTREE_TEST__:AST:
+```json
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "decorators": [],
+            "name": "x",
+            "optional": false,
+            "typeAnnotation": null,
+            "start": 25,
+            "end": 26
+          },
+          "init": {
+            "type": "Literal",
+            "value": 1,
+            "raw": "1",
+            "start": 29,
+            "end": 30
+          },
+          "definite": false,
+          "start": 25,
+          "end": 30
+        }
+      ],
+      "declare": false,
+      "start": 19,
+      "end": 31
+    },
+    {
+      "type": "ExportNamedDeclaration",
+      "declaration": null,
+      "specifiers": [
+        {
+          "type": "ExportSpecifier",
+          "local": {
+            "type": "Identifier",
+            "decorators": [],
+            "name": "x",
+            "optional": false,
+            "typeAnnotation": null,
+            "start": 40,
+            "end": 41
+          },
+          "exported": {
+            "type": "Identifier",
+            "decorators": [],
+            "name": "x",
+            "optional": false,
+            "typeAnnotation": null,
+            "start": 40,
+            "end": 41
+          },
+          "exportKind": "value",
+          "start": 40,
+          "end": 41
+        }
+      ],
+      "source": null,
+      "exportKind": "value",
+      "attributes": [],
+      "start": 32,
+      "end": 43
+    }
+  ],
+  "sourceType": "module",
+  "hashbang": null,
+  "start": 19,
+  "end": 43
+}
+```
+__ESTREE_TEST__:TOKENS:
+```json
+[
+  {
+    "type": "Keyword",
+    "value": "const",
+    "start": 19,
+    "end": 24
+  },
+  {
+    "type": "Identifier",
+    "value": "x",
+    "start": 25,
+    "end": 26
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 27,
+    "end": 28
+  },
+  {
+    "type": "Numeric",
+    "value": "1",
+    "start": 29,
+    "end": 30
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 30,
+    "end": 31
+  },
+  {
+    "type": "Keyword",
+    "value": "export",
+    "start": 32,
+    "end": 38
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 39,
+    "end": 40
+  },
+  {
+    "type": "Identifier",
+    "value": "x",
+    "start": 40,
+    "end": 41
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 41,
+    "end": 42
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 42,
+    "end": 43
+  }
+]
+```
+__ESTREE_TEST__:AST:
+```json
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "decorators": [],
+            "name": "x",
+            "optional": false,
+            "typeAnnotation": null,
+            "start": 25,
+            "end": 26
+          },
+          "init": {
+            "type": "Literal",
+            "value": 1,
+            "raw": "1",
+            "start": 29,
+            "end": 30
+          },
+          "definite": false,
+          "start": 25,
+          "end": 30
+        }
+      ],
+      "declare": false,
+      "start": 19,
+      "end": 31
+    },
+    {
+      "type": "ExportNamedDeclaration",
+      "declaration": null,
+      "specifiers": [
+        {
+          "type": "ExportSpecifier",
+          "local": {
+            "type": "Identifier",
+            "decorators": [],
+            "name": "x",
+            "optional": false,
+            "typeAnnotation": null,
+            "start": 40,
+            "end": 41
+          },
+          "exported": {
+            "type": "Identifier",
+            "decorators": [],
+            "name": "x",
+            "optional": false,
+            "typeAnnotation": null,
+            "start": 40,
+            "end": 41
+          },
+          "exportKind": "value",
+          "start": 40,
+          "end": 41
+        }
+      ],
+      "source": null,
+      "exportKind": "value",
+      "attributes": [],
+      "start": 32,
+      "end": 43
+    }
+  ],
+  "sourceType": "commonjs",
   "hashbang": null,
   "start": 19,
   "end": 43
@@ -785,436 +1214,7 @@ __ESTREE_TEST__:AST:
       "end": 43
     }
   ],
-  "sourceType": "module",
-  "hashbang": null,
-  "start": 19,
-  "end": 43
-}
-```
-__ESTREE_TEST__:TOKENS:
-```json
-[
-  {
-    "type": "Keyword",
-    "value": "const",
-    "start": 19,
-    "end": 24
-  },
-  {
-    "type": "Identifier",
-    "value": "x",
-    "start": 25,
-    "end": 26
-  },
-  {
-    "type": "Punctuator",
-    "value": "=",
-    "start": 27,
-    "end": 28
-  },
-  {
-    "type": "Numeric",
-    "value": "1",
-    "start": 29,
-    "end": 30
-  },
-  {
-    "type": "Punctuator",
-    "value": ";",
-    "start": 30,
-    "end": 31
-  },
-  {
-    "type": "Keyword",
-    "value": "export",
-    "start": 32,
-    "end": 38
-  },
-  {
-    "type": "Punctuator",
-    "value": "{",
-    "start": 39,
-    "end": 40
-  },
-  {
-    "type": "Identifier",
-    "value": "x",
-    "start": 40,
-    "end": 41
-  },
-  {
-    "type": "Punctuator",
-    "value": "}",
-    "start": 41,
-    "end": 42
-  },
-  {
-    "type": "Punctuator",
-    "value": ";",
-    "start": 42,
-    "end": 43
-  }
-]
-```
-__ESTREE_TEST__:AST:
-```json
-{
-  "type": "Program",
-  "body": [
-    {
-      "type": "VariableDeclaration",
-      "kind": "const",
-      "declarations": [
-        {
-          "type": "VariableDeclarator",
-          "id": {
-            "type": "Identifier",
-            "decorators": [],
-            "name": "x",
-            "optional": false,
-            "typeAnnotation": null,
-            "start": 25,
-            "end": 26
-          },
-          "init": {
-            "type": "Literal",
-            "value": 1,
-            "raw": "1",
-            "start": 29,
-            "end": 30
-          },
-          "definite": false,
-          "start": 25,
-          "end": 30
-        }
-      ],
-      "declare": false,
-      "start": 19,
-      "end": 31
-    },
-    {
-      "type": "ExportNamedDeclaration",
-      "declaration": null,
-      "specifiers": [
-        {
-          "type": "ExportSpecifier",
-          "local": {
-            "type": "Identifier",
-            "decorators": [],
-            "name": "x",
-            "optional": false,
-            "typeAnnotation": null,
-            "start": 40,
-            "end": 41
-          },
-          "exported": {
-            "type": "Identifier",
-            "decorators": [],
-            "name": "x",
-            "optional": false,
-            "typeAnnotation": null,
-            "start": 40,
-            "end": 41
-          },
-          "exportKind": "value",
-          "start": 40,
-          "end": 41
-        }
-      ],
-      "source": null,
-      "exportKind": "value",
-      "attributes": [],
-      "start": 32,
-      "end": 43
-    }
-  ],
-  "sourceType": "module",
-  "hashbang": null,
-  "start": 19,
-  "end": 43
-}
-```
-__ESTREE_TEST__:TOKENS:
-```json
-[
-  {
-    "type": "Keyword",
-    "value": "const",
-    "start": 19,
-    "end": 24
-  },
-  {
-    "type": "Identifier",
-    "value": "x",
-    "start": 25,
-    "end": 26
-  },
-  {
-    "type": "Punctuator",
-    "value": "=",
-    "start": 27,
-    "end": 28
-  },
-  {
-    "type": "Numeric",
-    "value": "1",
-    "start": 29,
-    "end": 30
-  },
-  {
-    "type": "Punctuator",
-    "value": ";",
-    "start": 30,
-    "end": 31
-  },
-  {
-    "type": "Keyword",
-    "value": "export",
-    "start": 32,
-    "end": 38
-  },
-  {
-    "type": "Punctuator",
-    "value": "{",
-    "start": 39,
-    "end": 40
-  },
-  {
-    "type": "Identifier",
-    "value": "x",
-    "start": 40,
-    "end": 41
-  },
-  {
-    "type": "Punctuator",
-    "value": "}",
-    "start": 41,
-    "end": 42
-  },
-  {
-    "type": "Punctuator",
-    "value": ";",
-    "start": 42,
-    "end": 43
-  }
-]
-```
-__ESTREE_TEST__:AST:
-```json
-{
-  "type": "Program",
-  "body": [
-    {
-      "type": "VariableDeclaration",
-      "kind": "const",
-      "declarations": [
-        {
-          "type": "VariableDeclarator",
-          "id": {
-            "type": "Identifier",
-            "decorators": [],
-            "name": "x",
-            "optional": false,
-            "typeAnnotation": null,
-            "start": 25,
-            "end": 26
-          },
-          "init": {
-            "type": "Literal",
-            "value": 1,
-            "raw": "1",
-            "start": 29,
-            "end": 30
-          },
-          "definite": false,
-          "start": 25,
-          "end": 30
-        }
-      ],
-      "declare": false,
-      "start": 19,
-      "end": 31
-    },
-    {
-      "type": "ExportNamedDeclaration",
-      "declaration": null,
-      "specifiers": [
-        {
-          "type": "ExportSpecifier",
-          "local": {
-            "type": "Identifier",
-            "decorators": [],
-            "name": "x",
-            "optional": false,
-            "typeAnnotation": null,
-            "start": 40,
-            "end": 41
-          },
-          "exported": {
-            "type": "Identifier",
-            "decorators": [],
-            "name": "x",
-            "optional": false,
-            "typeAnnotation": null,
-            "start": 40,
-            "end": 41
-          },
-          "exportKind": "value",
-          "start": 40,
-          "end": 41
-        }
-      ],
-      "source": null,
-      "exportKind": "value",
-      "attributes": [],
-      "start": 32,
-      "end": 43
-    }
-  ],
-  "sourceType": "module",
-  "hashbang": null,
-  "start": 19,
-  "end": 43
-}
-```
-__ESTREE_TEST__:TOKENS:
-```json
-[
-  {
-    "type": "Keyword",
-    "value": "const",
-    "start": 19,
-    "end": 24
-  },
-  {
-    "type": "Identifier",
-    "value": "x",
-    "start": 25,
-    "end": 26
-  },
-  {
-    "type": "Punctuator",
-    "value": "=",
-    "start": 27,
-    "end": 28
-  },
-  {
-    "type": "Numeric",
-    "value": "1",
-    "start": 29,
-    "end": 30
-  },
-  {
-    "type": "Punctuator",
-    "value": ";",
-    "start": 30,
-    "end": 31
-  },
-  {
-    "type": "Keyword",
-    "value": "export",
-    "start": 32,
-    "end": 38
-  },
-  {
-    "type": "Punctuator",
-    "value": "{",
-    "start": 39,
-    "end": 40
-  },
-  {
-    "type": "Identifier",
-    "value": "x",
-    "start": 40,
-    "end": 41
-  },
-  {
-    "type": "Punctuator",
-    "value": "}",
-    "start": 41,
-    "end": 42
-  },
-  {
-    "type": "Punctuator",
-    "value": ";",
-    "start": 42,
-    "end": 43
-  }
-]
-```
-__ESTREE_TEST__:AST:
-```json
-{
-  "type": "Program",
-  "body": [
-    {
-      "type": "VariableDeclaration",
-      "kind": "const",
-      "declarations": [
-        {
-          "type": "VariableDeclarator",
-          "id": {
-            "type": "Identifier",
-            "decorators": [],
-            "name": "x",
-            "optional": false,
-            "typeAnnotation": null,
-            "start": 25,
-            "end": 26
-          },
-          "init": {
-            "type": "Literal",
-            "value": 1,
-            "raw": "1",
-            "start": 29,
-            "end": 30
-          },
-          "definite": false,
-          "start": 25,
-          "end": 30
-        }
-      ],
-      "declare": false,
-      "start": 19,
-      "end": 31
-    },
-    {
-      "type": "ExportNamedDeclaration",
-      "declaration": null,
-      "specifiers": [
-        {
-          "type": "ExportSpecifier",
-          "local": {
-            "type": "Identifier",
-            "decorators": [],
-            "name": "x",
-            "optional": false,
-            "typeAnnotation": null,
-            "start": 40,
-            "end": 41
-          },
-          "exported": {
-            "type": "Identifier",
-            "decorators": [],
-            "name": "x",
-            "optional": false,
-            "typeAnnotation": null,
-            "start": 40,
-            "end": 41
-          },
-          "exportKind": "value",
-          "start": 40,
-          "end": 41
-        }
-      ],
-      "source": null,
-      "exportKind": "value",
-      "attributes": [],
-      "start": 32,
-      "end": 43
-    }
-  ],
-  "sourceType": "module",
+  "sourceType": "commonjs",
   "hashbang": null,
   "start": 19,
   "end": 43
@@ -8486,7 +8486,7 @@ __ESTREE_TEST__:AST:
       "end": 2729
     }
   ],
-  "sourceType": "module",
+  "sourceType": "commonjs",
   "hashbang": null,
   "start": 48,
   "end": 2729

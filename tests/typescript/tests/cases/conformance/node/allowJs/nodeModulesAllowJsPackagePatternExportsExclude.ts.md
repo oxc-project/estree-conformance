@@ -776,7 +776,7 @@ __ESTREE_TEST__:AST:
       "end": 184
     }
   ],
-  "sourceType": "module",
+  "sourceType": "commonjs",
   "hashbang": null,
   "start": 19,
   "end": 184
@@ -2015,7 +2015,7 @@ __ESTREE_TEST__:AST:
       "end": 211
     }
   ],
-  "sourceType": "module",
+  "sourceType": "commonjs",
   "hashbang": null,
   "start": 19,
   "end": 211
