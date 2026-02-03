@@ -98,6 +98,15 @@ function isDeclarationFile(name) {
 }
 
 /**
+ * Check if extension explicitly indicates module type
+ * @param {string} ext - File extension (lowercase, with dot)
+ * @returns {boolean}
+ */
+function isExplicitModuleExtension(ext) {
+  return [".mts", ".mjs", ".cjs", ".cts"].includes(ext);
+}
+
+/**
  * Get source type from file path
  * @param {string} filePath - Path to the file
  * @param {Object} options - Compiler options
@@ -109,9 +118,11 @@ function getSourceType(filePath, options) {
 
   if (!sourceType) return null;
 
+  // For explicit module extensions (.mts, .mjs, .cjs, .cts), preserve the extension-based module value.
+  // For ambiguous extensions (.js, .jsx, .ts, .tsx), use content-based detection (start with false).
   sourceType = {
     ...sourceType,
-    module: false, // Will be updated later if needed
+    module: isExplicitModuleExtension(ext) ? sourceType.module : false,
   };
   if (options.jsx.length > 0) sourceType.jsx = true;
 
