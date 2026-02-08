@@ -22,7 +22,7 @@ importers:
         version: 3.0.3
       meriyah:
         specifier: ^7.0.0
-        version: 7.0.0
+        version: 7.1.0
       oxfmt:
         specifier: ^0.28.0
         version: 0.28.0
@@ -435,8 +435,8 @@ packages:
   lodash.merge@4.6.2:
     resolution: {integrity: sha512-0KpjqXRVvrYyCsX1swR/XTK0va6VQkQM6MNo7PqW77ByjAhoARA8EfrP1N4+KlKj8YS0ZUCtRT/YUuhyYDujIQ==}
 
-  meriyah@7.0.0:
-    resolution: {integrity: sha512-eM23BVAsVhOxLEKckm3DopvcEze2o1leYO11xIkYqeeJgaNbzfGS00y7BUp/KeQPcTzXx0cGJRD2V7BYEZnDcg==}
+  meriyah@7.1.0:
+    resolution: {integrity: sha512-4K/lV+RFSrM8vy9H58FSd+wrxrXlPhYOK8AOaNQ7iFaHugYRx4tHIAaRYLMtXx/spMByZ4S080di6lXSTDI9eg==}
     engines: {node: '>=20.0.0'}
 
   minimatch@3.1.2:
@@ -948,7 +948,7 @@ snapshots:
 
   lodash.merge@4.6.2: {}
 
-  meriyah@7.0.0: {}
+  meriyah@7.1.0: {}
 
   minimatch@3.1.2:
     dependencies:
