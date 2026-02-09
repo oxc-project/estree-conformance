@@ -1,0 +1,142 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 439,
+            "end": 445
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "throws",
+            "start": 446,
+            "end": 452
+          },
+          "optional": false,
+          "computed": false,
+          "start": 439,
+          "end": 452
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "name": "TypeError",
+            "start": 453,
+            "end": 462
+          },
+          {
+            "type": "FunctionExpression",
+            "id": null,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "expression": {
+                    "type": "CallExpression",
+                    "callee": {
+                      "type": "MemberExpression",
+                      "object": {
+                        "type": "MemberExpression",
+                        "object": {
+                          "type": "MemberExpression",
+                          "object": {
+                            "type": "Identifier",
+                            "name": "String",
+                            "start": 482,
+                            "end": 488
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "name": "prototype",
+                            "start": 489,
+                            "end": 498
+                          },
+                          "optional": false,
+                          "computed": false,
+                          "start": 482,
+                          "end": 498
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "name": "replace",
+                          "start": 499,
+                          "end": 506
+                        },
+                        "optional": false,
+                        "computed": false,
+                        "start": 482,
+                        "end": 506
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "name": "call",
+                        "start": 507,
+                        "end": 511
+                      },
+                      "optional": false,
+                      "computed": false,
+                      "start": 482,
+                      "end": 511
+                    },
+                    "arguments": [
+                      {
+                        "type": "CallExpression",
+                        "callee": {
+                          "type": "Identifier",
+                          "name": "Symbol",
+                          "start": 512,
+                          "end": 518
+                        },
+                        "arguments": [],
+                        "optional": false,
+                        "start": 512,
+                        "end": 520
+                      }
+                    ],
+                    "optional": false,
+                    "start": 482,
+                    "end": 521
+                  },
+                  "start": 482,
+                  "end": 521
+                }
+              ],
+              "start": 476,
+              "end": 523
+            },
+            "expression": false,
+            "start": 464,
+            "end": 523
+          },
+          {
+            "type": "Literal",
+            "value": "If this value is a Symbol String.prototype.replace should throw a TypeError.",
+            "raw": "\"If this value is a Symbol String.prototype.replace should throw a TypeError.\"",
+            "start": 525,
+            "end": 603
+          }
+        ],
+        "optional": false,
+        "start": 439,
+        "end": 604
+      },
+      "start": 439,
+      "end": 604
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 605
+}

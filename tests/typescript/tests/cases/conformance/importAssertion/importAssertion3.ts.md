@@ -103,22 +103,22 @@ __ESTREE_TEST__:AST:
             "name": "type",
             "optional": false,
             "typeAnnotation": null,
-            "start": 35,
-            "end": 39
+            "start": 33,
+            "end": 37
           },
           "value": {
             "type": "Literal",
             "value": "json",
             "raw": "\"json\"",
-            "start": 41,
-            "end": 47
+            "start": 39,
+            "end": 45
           },
-          "start": 35,
-          "end": 47
+          "start": 33,
+          "end": 45
         }
       ],
       "start": 0,
-      "end": 49
+      "end": 47
     },
     {
       "type": "ExportNamedDeclaration",
@@ -132,8 +132,8 @@ __ESTREE_TEST__:AST:
             "name": "I",
             "optional": false,
             "typeAnnotation": null,
-            "start": 64,
-            "end": 65
+            "start": 62,
+            "end": 63
           },
           "exported": {
             "type": "Identifier",
@@ -141,20 +141,20 @@ __ESTREE_TEST__:AST:
             "name": "I",
             "optional": false,
             "typeAnnotation": null,
-            "start": 64,
-            "end": 65
+            "start": 62,
+            "end": 63
           },
           "exportKind": "value",
-          "start": 64,
-          "end": 65
+          "start": 62,
+          "end": 63
         }
       ],
       "source": {
         "type": "Literal",
         "value": "./0",
         "raw": "'./0'",
-        "start": 73,
-        "end": 78
+        "start": 71,
+        "end": 76
       },
       "exportKind": "type",
       "attributes": [
@@ -166,28 +166,28 @@ __ESTREE_TEST__:AST:
             "name": "type",
             "optional": false,
             "typeAnnotation": null,
-            "start": 88,
-            "end": 92
+            "start": 84,
+            "end": 88
           },
           "value": {
             "type": "Literal",
             "value": "json",
             "raw": "\"json\"",
-            "start": 94,
-            "end": 100
+            "start": 90,
+            "end": 96
           },
-          "start": 88,
-          "end": 100
+          "start": 84,
+          "end": 96
         }
       ],
-      "start": 50,
-      "end": 102
+      "start": 48,
+      "end": 98
     }
   ],
   "sourceType": "module",
   "hashbang": null,
   "start": 0,
-  "end": 103
+  "end": 99
 }
 ```
 __ESTREE_TEST__:TOKENS:
@@ -230,118 +230,118 @@ __ESTREE_TEST__:TOKENS:
     "end": 25
   },
   {
-    "type": "Identifier",
-    "value": "assert",
+    "type": "Keyword",
+    "value": "with",
     "start": 26,
-    "end": 32
+    "end": 30
   },
   {
     "type": "Punctuator",
     "value": "{",
-    "start": 33,
-    "end": 34
+    "start": 31,
+    "end": 32
   },
   {
     "type": "Identifier",
     "value": "type",
-    "start": 35,
-    "end": 39
+    "start": 33,
+    "end": 37
   },
   {
     "type": "Punctuator",
     "value": ":",
-    "start": 39,
-    "end": 40
+    "start": 37,
+    "end": 38
   },
   {
     "type": "String",
     "value": "\"json\"",
-    "start": 41,
-    "end": 47
+    "start": 39,
+    "end": 45
   },
   {
     "type": "Punctuator",
     "value": "}",
-    "start": 48,
-    "end": 49
+    "start": 46,
+    "end": 47
   },
   {
     "type": "Keyword",
     "value": "export",
-    "start": 50,
-    "end": 56
+    "start": 48,
+    "end": 54
   },
   {
     "type": "Identifier",
     "value": "type",
-    "start": 57,
-    "end": 61
+    "start": 55,
+    "end": 59
   },
   {
     "type": "Punctuator",
     "value": "{",
-    "start": 62,
-    "end": 63
+    "start": 60,
+    "end": 61
   },
   {
     "type": "Identifier",
     "value": "I",
+    "start": 62,
+    "end": 63
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
     "start": 64,
     "end": 65
   },
   {
-    "type": "Punctuator",
-    "value": "}",
-    "start": 66,
-    "end": 67
-  },
-  {
     "type": "Identifier",
     "value": "from",
-    "start": 68,
-    "end": 72
+    "start": 66,
+    "end": 70
   },
   {
     "type": "String",
     "value": "'./0'",
-    "start": 73,
-    "end": 78
+    "start": 71,
+    "end": 76
   },
   {
-    "type": "Identifier",
-    "value": "assert",
-    "start": 79,
-    "end": 85
+    "type": "Keyword",
+    "value": "with",
+    "start": 77,
+    "end": 81
   },
   {
     "type": "Punctuator",
     "value": "{",
-    "start": 86,
-    "end": 87
+    "start": 82,
+    "end": 83
   },
   {
     "type": "Identifier",
     "value": "type",
-    "start": 88,
-    "end": 92
+    "start": 84,
+    "end": 88
   },
   {
     "type": "Punctuator",
     "value": ":",
-    "start": 92,
-    "end": 93
+    "start": 88,
+    "end": 89
   },
   {
     "type": "String",
     "value": "\"json\"",
-    "start": 94,
-    "end": 100
+    "start": 90,
+    "end": 96
   },
   {
     "type": "Punctuator",
     "value": "}",
-    "start": 101,
-    "end": 102
+    "start": 97,
+    "end": 98
   }
 ]
 ```
@@ -395,23 +395,23 @@ __ESTREE_TEST__:AST:
             "name": "type",
             "optional": false,
             "typeAnnotation": null,
-            "start": 39,
-            "end": 43
+            "start": 37,
+            "end": 41
           },
           "value": {
             "type": "Literal",
             "value": "json",
             "raw": "\"json\"",
-            "start": 45,
-            "end": 51
+            "start": 43,
+            "end": 49
           },
-          "start": 39,
-          "end": 51
+          "start": 37,
+          "end": 49
         }
       ],
       "importKind": "type",
       "start": 0,
-      "end": 53
+      "end": 51
     },
     {
       "type": "ImportDeclaration",
@@ -424,19 +424,19 @@ __ESTREE_TEST__:AST:
             "name": "foo",
             "optional": false,
             "typeAnnotation": null,
-            "start": 71,
-            "end": 74
+            "start": 69,
+            "end": 72
           },
-          "start": 66,
-          "end": 74
+          "start": 64,
+          "end": 72
         }
       ],
       "source": {
         "type": "Literal",
         "value": "./0",
         "raw": "'./0'",
-        "start": 80,
-        "end": 85
+        "start": 78,
+        "end": 83
       },
       "phase": null,
       "attributes": [
@@ -448,29 +448,29 @@ __ESTREE_TEST__:AST:
             "name": "type",
             "optional": false,
             "typeAnnotation": null,
-            "start": 95,
-            "end": 99
+            "start": 91,
+            "end": 95
           },
           "value": {
             "type": "Literal",
             "value": "json",
             "raw": "\"json\"",
-            "start": 101,
-            "end": 107
+            "start": 97,
+            "end": 103
           },
-          "start": 95,
-          "end": 107
+          "start": 91,
+          "end": 103
         }
       ],
       "importKind": "type",
-      "start": 54,
-      "end": 109
+      "start": 52,
+      "end": 105
     }
   ],
   "sourceType": "module",
   "hashbang": null,
   "start": 0,
-  "end": 110
+  "end": 106
 }
 ```
 __ESTREE_TEST__:TOKENS:
@@ -519,118 +519,118 @@ __ESTREE_TEST__:TOKENS:
     "end": 28
   },
   {
-    "type": "Identifier",
-    "value": "assert",
+    "type": "Keyword",
+    "value": "with",
     "start": 30,
-    "end": 36
+    "end": 34
   },
   {
     "type": "Punctuator",
     "value": "{",
-    "start": 37,
-    "end": 38
+    "start": 35,
+    "end": 36
   },
   {
     "type": "Identifier",
     "value": "type",
-    "start": 39,
-    "end": 43
+    "start": 37,
+    "end": 41
   },
   {
     "type": "Punctuator",
     "value": ":",
-    "start": 43,
-    "end": 44
+    "start": 41,
+    "end": 42
   },
   {
     "type": "String",
     "value": "\"json\"",
-    "start": 45,
-    "end": 51
+    "start": 43,
+    "end": 49
   },
   {
     "type": "Punctuator",
     "value": "}",
-    "start": 52,
-    "end": 53
+    "start": 50,
+    "end": 51
   },
   {
     "type": "Keyword",
     "value": "import",
-    "start": 54,
-    "end": 60
+    "start": 52,
+    "end": 58
   },
   {
     "type": "Identifier",
     "value": "type",
-    "start": 61,
-    "end": 65
+    "start": 59,
+    "end": 63
   },
   {
     "type": "Punctuator",
     "value": "*",
-    "start": 66,
-    "end": 67
+    "start": 64,
+    "end": 65
   },
   {
     "type": "Identifier",
     "value": "as",
-    "start": 68,
-    "end": 70
+    "start": 66,
+    "end": 68
   },
   {
     "type": "Identifier",
     "value": "foo",
-    "start": 71,
-    "end": 74
+    "start": 69,
+    "end": 72
   },
   {
     "type": "Identifier",
     "value": "from",
-    "start": 75,
-    "end": 79
+    "start": 73,
+    "end": 77
   },
   {
     "type": "String",
     "value": "'./0'",
-    "start": 80,
-    "end": 85
+    "start": 78,
+    "end": 83
   },
   {
-    "type": "Identifier",
-    "value": "assert",
-    "start": 86,
-    "end": 92
+    "type": "Keyword",
+    "value": "with",
+    "start": 84,
+    "end": 88
   },
   {
     "type": "Punctuator",
     "value": "{",
-    "start": 93,
-    "end": 94
+    "start": 89,
+    "end": 90
   },
   {
     "type": "Identifier",
     "value": "type",
-    "start": 95,
-    "end": 99
+    "start": 91,
+    "end": 95
   },
   {
     "type": "Punctuator",
     "value": ":",
-    "start": 99,
-    "end": 100
+    "start": 95,
+    "end": 96
   },
   {
     "type": "String",
     "value": "\"json\"",
-    "start": 101,
-    "end": 107
+    "start": 97,
+    "end": 103
   },
   {
     "type": "Punctuator",
     "value": "}",
-    "start": 108,
-    "end": 109
+    "start": 104,
+    "end": 105
   }
 ]
 ```

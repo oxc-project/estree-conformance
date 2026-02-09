@@ -204,23 +204,23 @@ __ESTREE_TEST__:AST:
             "type": "Literal",
             "value": "resolution-mode",
             "raw": "\"resolution-mode\"",
-            "start": 53,
-            "end": 70
+            "start": 51,
+            "end": 68
           },
           "value": {
             "type": "Literal",
             "value": "require",
             "raw": "\"require\"",
-            "start": 72,
-            "end": 81
+            "start": 70,
+            "end": 79
           },
-          "start": 53,
-          "end": 81
+          "start": 51,
+          "end": 79
         }
       ],
       "importKind": "type",
       "start": 0,
-      "end": 84
+      "end": 82
     },
     {
       "type": "ImportDeclaration",
@@ -233,8 +233,8 @@ __ESTREE_TEST__:AST:
             "name": "ImportInterface",
             "optional": false,
             "typeAnnotation": null,
-            "start": 99,
-            "end": 114
+            "start": 97,
+            "end": 112
           },
           "local": {
             "type": "Identifier",
@@ -242,20 +242,20 @@ __ESTREE_TEST__:AST:
             "name": "ImportInterface",
             "optional": false,
             "typeAnnotation": null,
-            "start": 99,
-            "end": 114
+            "start": 97,
+            "end": 112
           },
           "importKind": "value",
-          "start": 99,
-          "end": 114
+          "start": 97,
+          "end": 112
         }
       ],
       "source": {
         "type": "Literal",
         "value": "pkg",
         "raw": "\"pkg\"",
-        "start": 122,
-        "end": 127
+        "start": 120,
+        "end": 125
       },
       "phase": null,
       "attributes": [
@@ -265,23 +265,23 @@ __ESTREE_TEST__:AST:
             "type": "Literal",
             "value": "resolution-mode",
             "raw": "\"resolution-mode\"",
-            "start": 137,
-            "end": 154
+            "start": 133,
+            "end": 150
           },
           "value": {
             "type": "Literal",
             "value": "import",
             "raw": "\"import\"",
-            "start": 156,
-            "end": 164
+            "start": 152,
+            "end": 160
           },
-          "start": 137,
-          "end": 164
+          "start": 133,
+          "end": 160
         }
       ],
       "importKind": "type",
-      "start": 85,
-      "end": 167
+      "start": 83,
+      "end": 163
     },
     {
       "type": "ExportNamedDeclaration",
@@ -293,8 +293,8 @@ __ESTREE_TEST__:AST:
           "name": "LocalInterface",
           "optional": false,
           "typeAnnotation": null,
-          "start": 186,
-          "end": 200
+          "start": 182,
+          "end": 196
         },
         "typeParameters": null,
         "extends": [
@@ -306,12 +306,12 @@ __ESTREE_TEST__:AST:
               "name": "RequireInterface",
               "optional": false,
               "typeAnnotation": null,
-              "start": 209,
-              "end": 225
+              "start": 205,
+              "end": 221
             },
             "typeArguments": null,
-            "start": 209,
-            "end": 225
+            "start": 205,
+            "end": 221
           },
           {
             "type": "TSInterfaceHeritage",
@@ -321,30 +321,30 @@ __ESTREE_TEST__:AST:
               "name": "ImportInterface",
               "optional": false,
               "typeAnnotation": null,
-              "start": 227,
-              "end": 242
+              "start": 223,
+              "end": 238
             },
             "typeArguments": null,
-            "start": 227,
-            "end": 242
+            "start": 223,
+            "end": 238
           }
         ],
         "body": {
           "type": "TSInterfaceBody",
           "body": [],
-          "start": 243,
-          "end": 245
+          "start": 239,
+          "end": 241
         },
         "declare": false,
-        "start": 176,
-        "end": 245
+        "start": 172,
+        "end": 241
       },
       "specifiers": [],
       "source": null,
       "exportKind": "type",
       "attributes": [],
-      "start": 169,
-      "end": 245
+      "start": 165,
+      "end": 241
     },
     {
       "type": "ImportDeclaration",
@@ -357,8 +357,8 @@ __ESTREE_TEST__:AST:
             "name": "RequireInterface",
             "optional": false,
             "typeAnnotation": null,
-            "start": 260,
-            "end": 276
+            "start": 256,
+            "end": 272
           },
           "local": {
             "type": "Identifier",
@@ -366,20 +366,20 @@ __ESTREE_TEST__:AST:
             "name": "Req",
             "optional": false,
             "typeAnnotation": null,
-            "start": 280,
-            "end": 283
+            "start": 276,
+            "end": 279
           },
           "importKind": "type",
-          "start": 255,
-          "end": 283
+          "start": 251,
+          "end": 279
         }
       ],
       "source": {
         "type": "Literal",
         "value": "pkg",
         "raw": "\"pkg\"",
-        "start": 290,
-        "end": 295
+        "start": 286,
+        "end": 291
       },
       "phase": null,
       "attributes": [
@@ -389,23 +389,23 @@ __ESTREE_TEST__:AST:
             "type": "Literal",
             "value": "resolution-mode",
             "raw": "\"resolution-mode\"",
-            "start": 305,
-            "end": 322
+            "start": 299,
+            "end": 316
           },
           "value": {
             "type": "Literal",
             "value": "require",
             "raw": "\"require\"",
-            "start": 324,
-            "end": 333
+            "start": 318,
+            "end": 327
           },
-          "start": 305,
-          "end": 333
+          "start": 299,
+          "end": 327
         }
       ],
       "importKind": "value",
-      "start": 247,
-      "end": 336
+      "start": 243,
+      "end": 330
     },
     {
       "type": "ImportDeclaration",
@@ -418,8 +418,8 @@ __ESTREE_TEST__:AST:
             "name": "ImportInterface",
             "optional": false,
             "typeAnnotation": null,
-            "start": 350,
-            "end": 365
+            "start": 344,
+            "end": 359
           },
           "local": {
             "type": "Identifier",
@@ -427,20 +427,20 @@ __ESTREE_TEST__:AST:
             "name": "Imp",
             "optional": false,
             "typeAnnotation": null,
-            "start": 369,
-            "end": 372
+            "start": 363,
+            "end": 366
           },
           "importKind": "type",
-          "start": 345,
-          "end": 372
+          "start": 339,
+          "end": 366
         }
       ],
       "source": {
         "type": "Literal",
         "value": "pkg",
         "raw": "\"pkg\"",
-        "start": 379,
-        "end": 384
+        "start": 373,
+        "end": 378
       },
       "phase": null,
       "attributes": [
@@ -450,23 +450,23 @@ __ESTREE_TEST__:AST:
             "type": "Literal",
             "value": "resolution-mode",
             "raw": "\"resolution-mode\"",
-            "start": 394,
-            "end": 411
+            "start": 386,
+            "end": 403
           },
           "value": {
             "type": "Literal",
             "value": "import",
             "raw": "\"import\"",
-            "start": 413,
-            "end": 421
+            "start": 405,
+            "end": 413
           },
-          "start": 394,
-          "end": 421
+          "start": 386,
+          "end": 413
         }
       ],
       "importKind": "value",
-      "start": 337,
-      "end": 424
+      "start": 331,
+      "end": 416
     },
     {
       "type": "ExportNamedDeclaration",
@@ -478,8 +478,8 @@ __ESTREE_TEST__:AST:
           "name": "Loc",
           "optional": false,
           "typeAnnotation": null,
-          "start": 442,
-          "end": 445
+          "start": 434,
+          "end": 437
         },
         "typeParameters": null,
         "extends": [
@@ -491,12 +491,12 @@ __ESTREE_TEST__:AST:
               "name": "Req",
               "optional": false,
               "typeAnnotation": null,
-              "start": 454,
-              "end": 457
+              "start": 446,
+              "end": 449
             },
             "typeArguments": null,
-            "start": 454,
-            "end": 457
+            "start": 446,
+            "end": 449
           },
           {
             "type": "TSInterfaceHeritage",
@@ -506,30 +506,30 @@ __ESTREE_TEST__:AST:
               "name": "Imp",
               "optional": false,
               "typeAnnotation": null,
-              "start": 459,
-              "end": 462
+              "start": 451,
+              "end": 454
             },
             "typeArguments": null,
-            "start": 459,
-            "end": 462
+            "start": 451,
+            "end": 454
           }
         ],
         "body": {
           "type": "TSInterfaceBody",
           "body": [],
-          "start": 463,
-          "end": 465
+          "start": 455,
+          "end": 457
         },
         "declare": false,
-        "start": 432,
-        "end": 465
+        "start": 424,
+        "end": 457
       },
       "specifiers": [],
       "source": null,
       "exportKind": "type",
       "attributes": [],
-      "start": 425,
-      "end": 465
+      "start": 417,
+      "end": 457
     },
     {
       "type": "ExportNamedDeclaration",
@@ -543,8 +543,8 @@ __ESTREE_TEST__:AST:
             "name": "RequireInterface",
             "optional": false,
             "typeAnnotation": null,
-            "start": 481,
-            "end": 497
+            "start": 473,
+            "end": 489
           },
           "exported": {
             "type": "Identifier",
@@ -552,20 +552,20 @@ __ESTREE_TEST__:AST:
             "name": "RequireInterface",
             "optional": false,
             "typeAnnotation": null,
-            "start": 481,
-            "end": 497
+            "start": 473,
+            "end": 489
           },
           "exportKind": "value",
-          "start": 481,
-          "end": 497
+          "start": 473,
+          "end": 489
         }
       ],
       "source": {
         "type": "Literal",
         "value": "pkg",
         "raw": "\"pkg\"",
-        "start": 505,
-        "end": 510
+        "start": 497,
+        "end": 502
       },
       "exportKind": "type",
       "attributes": [
@@ -575,22 +575,22 @@ __ESTREE_TEST__:AST:
             "type": "Literal",
             "value": "resolution-mode",
             "raw": "\"resolution-mode\"",
-            "start": 520,
-            "end": 537
+            "start": 510,
+            "end": 527
           },
           "value": {
             "type": "Literal",
             "value": "require",
             "raw": "\"require\"",
-            "start": 539,
-            "end": 548
+            "start": 529,
+            "end": 538
           },
-          "start": 520,
-          "end": 548
+          "start": 510,
+          "end": 538
         }
       ],
-      "start": 467,
-      "end": 551
+      "start": 459,
+      "end": 541
     },
     {
       "type": "ExportNamedDeclaration",
@@ -604,8 +604,8 @@ __ESTREE_TEST__:AST:
             "name": "ImportInterface",
             "optional": false,
             "typeAnnotation": null,
-            "start": 566,
-            "end": 581
+            "start": 556,
+            "end": 571
           },
           "exported": {
             "type": "Identifier",
@@ -613,20 +613,20 @@ __ESTREE_TEST__:AST:
             "name": "ImportInterface",
             "optional": false,
             "typeAnnotation": null,
-            "start": 566,
-            "end": 581
+            "start": 556,
+            "end": 571
           },
           "exportKind": "value",
-          "start": 566,
-          "end": 581
+          "start": 556,
+          "end": 571
         }
       ],
       "source": {
         "type": "Literal",
         "value": "pkg",
         "raw": "\"pkg\"",
-        "start": 589,
-        "end": 594
+        "start": 579,
+        "end": 584
       },
       "exportKind": "type",
       "attributes": [
@@ -636,28 +636,28 @@ __ESTREE_TEST__:AST:
             "type": "Literal",
             "value": "resolution-mode",
             "raw": "\"resolution-mode\"",
-            "start": 604,
-            "end": 621
+            "start": 592,
+            "end": 609
           },
           "value": {
             "type": "Literal",
             "value": "import",
             "raw": "\"import\"",
-            "start": 623,
-            "end": 631
+            "start": 611,
+            "end": 619
           },
-          "start": 604,
-          "end": 631
+          "start": 592,
+          "end": 619
         }
       ],
-      "start": 552,
-      "end": 634
+      "start": 542,
+      "end": 622
     }
   ],
   "sourceType": "module",
   "hashbang": null,
   "start": 0,
-  "end": 634
+  "end": 622
 }
 ```
 __ESTREE_TEST__:TOKENS:
@@ -706,598 +706,598 @@ __ESTREE_TEST__:TOKENS:
     "end": 43
   },
   {
-    "type": "Identifier",
-    "value": "assert",
+    "type": "Keyword",
+    "value": "with",
     "start": 44,
-    "end": 50
+    "end": 48
   },
   {
     "type": "Punctuator",
     "value": "{",
-    "start": 51,
-    "end": 52
+    "start": 49,
+    "end": 50
   },
   {
     "type": "String",
     "value": "\"resolution-mode\"",
-    "start": 53,
-    "end": 70
+    "start": 51,
+    "end": 68
   },
   {
     "type": "Punctuator",
     "value": ":",
-    "start": 70,
-    "end": 71
+    "start": 68,
+    "end": 69
   },
   {
     "type": "String",
     "value": "\"require\"",
-    "start": 72,
+    "start": 70,
+    "end": 79
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 80,
     "end": 81
   },
   {
     "type": "Punctuator",
-    "value": "}",
-    "start": 82,
-    "end": 83
-  },
-  {
-    "type": "Punctuator",
     "value": ";",
-    "start": 83,
-    "end": 84
+    "start": 81,
+    "end": 82
   },
   {
     "type": "Keyword",
     "value": "import",
-    "start": 85,
-    "end": 91
+    "start": 83,
+    "end": 89
   },
   {
     "type": "Identifier",
     "value": "type",
-    "start": 92,
-    "end": 96
+    "start": 90,
+    "end": 94
   },
   {
     "type": "Punctuator",
     "value": "{",
-    "start": 97,
-    "end": 98
+    "start": 95,
+    "end": 96
   },
   {
     "type": "Identifier",
     "value": "ImportInterface",
-    "start": 99,
-    "end": 114
+    "start": 97,
+    "end": 112
   },
   {
     "type": "Punctuator",
     "value": "}",
-    "start": 115,
-    "end": 116
+    "start": 113,
+    "end": 114
   },
   {
     "type": "Identifier",
     "value": "from",
-    "start": 117,
-    "end": 121
+    "start": 115,
+    "end": 119
   },
   {
     "type": "String",
     "value": "\"pkg\"",
-    "start": 122,
-    "end": 127
+    "start": 120,
+    "end": 125
   },
   {
-    "type": "Identifier",
-    "value": "assert",
-    "start": 128,
-    "end": 134
+    "type": "Keyword",
+    "value": "with",
+    "start": 126,
+    "end": 130
   },
   {
     "type": "Punctuator",
     "value": "{",
-    "start": 135,
-    "end": 136
+    "start": 131,
+    "end": 132
   },
   {
     "type": "String",
     "value": "\"resolution-mode\"",
-    "start": 137,
-    "end": 154
+    "start": 133,
+    "end": 150
   },
   {
     "type": "Punctuator",
     "value": ":",
-    "start": 154,
-    "end": 155
+    "start": 150,
+    "end": 151
   },
   {
     "type": "String",
     "value": "\"import\"",
-    "start": 156,
-    "end": 164
+    "start": 152,
+    "end": 160
   },
   {
     "type": "Punctuator",
     "value": "}",
-    "start": 165,
-    "end": 166
+    "start": 161,
+    "end": 162
   },
   {
     "type": "Punctuator",
     "value": ";",
-    "start": 166,
-    "end": 167
+    "start": 162,
+    "end": 163
   },
   {
     "type": "Keyword",
     "value": "export",
-    "start": 169,
-    "end": 175
+    "start": 165,
+    "end": 171
   },
   {
     "type": "Keyword",
     "value": "interface",
-    "start": 176,
-    "end": 185
+    "start": 172,
+    "end": 181
   },
   {
     "type": "Identifier",
     "value": "LocalInterface",
-    "start": 186,
-    "end": 200
+    "start": 182,
+    "end": 196
   },
   {
     "type": "Keyword",
     "value": "extends",
-    "start": 201,
-    "end": 208
+    "start": 197,
+    "end": 204
   },
   {
     "type": "Identifier",
     "value": "RequireInterface",
-    "start": 209,
-    "end": 225
+    "start": 205,
+    "end": 221
   },
   {
     "type": "Punctuator",
     "value": ",",
-    "start": 225,
-    "end": 226
+    "start": 221,
+    "end": 222
   },
   {
     "type": "Identifier",
     "value": "ImportInterface",
-    "start": 227,
-    "end": 242
+    "start": 223,
+    "end": 238
   },
   {
     "type": "Punctuator",
     "value": "{",
-    "start": 243,
-    "end": 244
+    "start": 239,
+    "end": 240
   },
   {
     "type": "Punctuator",
     "value": "}",
-    "start": 244,
-    "end": 245
+    "start": 240,
+    "end": 241
   },
   {
     "type": "Keyword",
     "value": "import",
-    "start": 247,
-    "end": 253
+    "start": 243,
+    "end": 249
   },
   {
     "type": "Punctuator",
     "value": "{",
-    "start": 254,
+    "start": 250,
+    "end": 251
+  },
+  {
+    "type": "Identifier",
+    "value": "type",
+    "start": 251,
     "end": 255
   },
   {
     "type": "Identifier",
-    "value": "type",
-    "start": 255,
-    "end": 259
-  },
-  {
-    "type": "Identifier",
     "value": "RequireInterface",
-    "start": 260,
-    "end": 276
+    "start": 256,
+    "end": 272
   },
   {
     "type": "Identifier",
     "value": "as",
-    "start": 277,
-    "end": 279
+    "start": 273,
+    "end": 275
   },
   {
     "type": "Identifier",
     "value": "Req",
-    "start": 280,
-    "end": 283
+    "start": 276,
+    "end": 279
   },
   {
     "type": "Punctuator",
     "value": "}",
-    "start": 283,
-    "end": 284
+    "start": 279,
+    "end": 280
   },
   {
     "type": "Identifier",
     "value": "from",
-    "start": 285,
-    "end": 289
+    "start": 281,
+    "end": 285
   },
   {
     "type": "String",
     "value": "\"pkg\"",
-    "start": 290,
-    "end": 295
+    "start": 286,
+    "end": 291
   },
   {
-    "type": "Identifier",
-    "value": "assert",
-    "start": 296,
-    "end": 302
+    "type": "Keyword",
+    "value": "with",
+    "start": 292,
+    "end": 296
   },
   {
     "type": "Punctuator",
     "value": "{",
-    "start": 303,
-    "end": 304
+    "start": 297,
+    "end": 298
   },
   {
     "type": "String",
     "value": "\"resolution-mode\"",
-    "start": 305,
-    "end": 322
+    "start": 299,
+    "end": 316
   },
   {
     "type": "Punctuator",
     "value": ":",
-    "start": 322,
-    "end": 323
+    "start": 316,
+    "end": 317
   },
   {
     "type": "String",
     "value": "\"require\"",
-    "start": 324,
-    "end": 333
+    "start": 318,
+    "end": 327
   },
   {
     "type": "Punctuator",
     "value": "}",
-    "start": 334,
-    "end": 335
+    "start": 328,
+    "end": 329
   },
   {
     "type": "Punctuator",
     "value": ";",
-    "start": 335,
-    "end": 336
+    "start": 329,
+    "end": 330
   },
   {
     "type": "Keyword",
     "value": "import",
-    "start": 337,
-    "end": 343
+    "start": 331,
+    "end": 337
   },
   {
     "type": "Punctuator",
     "value": "{",
-    "start": 344,
-    "end": 345
+    "start": 338,
+    "end": 339
   },
   {
     "type": "Identifier",
     "value": "type",
-    "start": 345,
-    "end": 349
+    "start": 339,
+    "end": 343
   },
   {
     "type": "Identifier",
     "value": "ImportInterface",
-    "start": 350,
-    "end": 365
+    "start": 344,
+    "end": 359
   },
   {
     "type": "Identifier",
     "value": "as",
-    "start": 366,
-    "end": 368
+    "start": 360,
+    "end": 362
   },
   {
     "type": "Identifier",
     "value": "Imp",
-    "start": 369,
-    "end": 372
+    "start": 363,
+    "end": 366
   },
   {
     "type": "Punctuator",
     "value": "}",
-    "start": 372,
-    "end": 373
+    "start": 366,
+    "end": 367
   },
   {
     "type": "Identifier",
     "value": "from",
-    "start": 374,
-    "end": 378
+    "start": 368,
+    "end": 372
   },
   {
     "type": "String",
     "value": "\"pkg\"",
-    "start": 379,
-    "end": 384
+    "start": 373,
+    "end": 378
   },
   {
-    "type": "Identifier",
-    "value": "assert",
-    "start": 385,
-    "end": 391
+    "type": "Keyword",
+    "value": "with",
+    "start": 379,
+    "end": 383
   },
   {
     "type": "Punctuator",
     "value": "{",
-    "start": 392,
-    "end": 393
+    "start": 384,
+    "end": 385
   },
   {
     "type": "String",
     "value": "\"resolution-mode\"",
-    "start": 394,
-    "end": 411
+    "start": 386,
+    "end": 403
   },
   {
     "type": "Punctuator",
     "value": ":",
-    "start": 411,
-    "end": 412
+    "start": 403,
+    "end": 404
   },
   {
     "type": "String",
     "value": "\"import\"",
-    "start": 413,
-    "end": 421
+    "start": 405,
+    "end": 413
   },
   {
     "type": "Punctuator",
     "value": "}",
-    "start": 422,
-    "end": 423
+    "start": 414,
+    "end": 415
   },
   {
     "type": "Punctuator",
     "value": ";",
-    "start": 423,
-    "end": 424
+    "start": 415,
+    "end": 416
   },
   {
     "type": "Keyword",
     "value": "export",
-    "start": 425,
-    "end": 431
+    "start": 417,
+    "end": 423
   },
   {
     "type": "Keyword",
     "value": "interface",
-    "start": 432,
-    "end": 441
+    "start": 424,
+    "end": 433
   },
   {
     "type": "Identifier",
     "value": "Loc",
-    "start": 442,
-    "end": 445
+    "start": 434,
+    "end": 437
   },
   {
     "type": "Keyword",
     "value": "extends",
-    "start": 446,
-    "end": 453
+    "start": 438,
+    "end": 445
   },
   {
     "type": "Identifier",
     "value": "Req",
-    "start": 454,
-    "end": 457
+    "start": 446,
+    "end": 449
   },
   {
     "type": "Punctuator",
     "value": ",",
-    "start": 457,
-    "end": 458
+    "start": 449,
+    "end": 450
   },
   {
     "type": "Identifier",
     "value": "Imp",
-    "start": 459,
-    "end": 462
+    "start": 451,
+    "end": 454
   },
   {
     "type": "Punctuator",
     "value": "{",
-    "start": 463,
-    "end": 464
+    "start": 455,
+    "end": 456
   },
   {
     "type": "Punctuator",
     "value": "}",
-    "start": 464,
-    "end": 465
+    "start": 456,
+    "end": 457
   },
   {
     "type": "Keyword",
     "value": "export",
-    "start": 467,
-    "end": 473
+    "start": 459,
+    "end": 465
   },
   {
     "type": "Identifier",
     "value": "type",
-    "start": 474,
-    "end": 478
+    "start": 466,
+    "end": 470
   },
   {
     "type": "Punctuator",
     "value": "{",
-    "start": 479,
-    "end": 480
+    "start": 471,
+    "end": 472
   },
   {
     "type": "Identifier",
     "value": "RequireInterface",
-    "start": 481,
-    "end": 497
+    "start": 473,
+    "end": 489
   },
   {
     "type": "Punctuator",
     "value": "}",
-    "start": 498,
-    "end": 499
+    "start": 490,
+    "end": 491
   },
   {
     "type": "Identifier",
     "value": "from",
-    "start": 500,
-    "end": 504
+    "start": 492,
+    "end": 496
   },
   {
     "type": "String",
     "value": "\"pkg\"",
-    "start": 505,
-    "end": 510
+    "start": 497,
+    "end": 502
   },
   {
-    "type": "Identifier",
-    "value": "assert",
-    "start": 511,
-    "end": 517
+    "type": "Keyword",
+    "value": "with",
+    "start": 503,
+    "end": 507
   },
   {
     "type": "Punctuator",
     "value": "{",
-    "start": 518,
-    "end": 519
+    "start": 508,
+    "end": 509
   },
   {
     "type": "String",
     "value": "\"resolution-mode\"",
-    "start": 520,
-    "end": 537
+    "start": 510,
+    "end": 527
   },
   {
     "type": "Punctuator",
     "value": ":",
-    "start": 537,
-    "end": 538
+    "start": 527,
+    "end": 528
   },
   {
     "type": "String",
     "value": "\"require\"",
-    "start": 539,
-    "end": 548
+    "start": 529,
+    "end": 538
   },
   {
     "type": "Punctuator",
     "value": "}",
-    "start": 549,
-    "end": 550
+    "start": 539,
+    "end": 540
   },
   {
     "type": "Punctuator",
     "value": ";",
-    "start": 550,
-    "end": 551
+    "start": 540,
+    "end": 541
   },
   {
     "type": "Keyword",
     "value": "export",
-    "start": 552,
-    "end": 558
+    "start": 542,
+    "end": 548
   },
   {
     "type": "Identifier",
     "value": "type",
-    "start": 559,
-    "end": 563
+    "start": 549,
+    "end": 553
   },
   {
     "type": "Punctuator",
     "value": "{",
-    "start": 564,
-    "end": 565
+    "start": 554,
+    "end": 555
   },
   {
     "type": "Identifier",
     "value": "ImportInterface",
-    "start": 566,
-    "end": 581
+    "start": 556,
+    "end": 571
   },
   {
     "type": "Punctuator",
     "value": "}",
-    "start": 582,
-    "end": 583
+    "start": 572,
+    "end": 573
   },
   {
     "type": "Identifier",
     "value": "from",
-    "start": 584,
-    "end": 588
+    "start": 574,
+    "end": 578
   },
   {
     "type": "String",
     "value": "\"pkg\"",
-    "start": 589,
-    "end": 594
+    "start": 579,
+    "end": 584
   },
   {
-    "type": "Identifier",
-    "value": "assert",
-    "start": 595,
-    "end": 601
+    "type": "Keyword",
+    "value": "with",
+    "start": 585,
+    "end": 589
   },
   {
     "type": "Punctuator",
     "value": "{",
-    "start": 602,
-    "end": 603
+    "start": 590,
+    "end": 591
   },
   {
     "type": "String",
     "value": "\"resolution-mode\"",
-    "start": 604,
-    "end": 621
+    "start": 592,
+    "end": 609
   },
   {
     "type": "Punctuator",
     "value": ":",
-    "start": 621,
-    "end": 622
+    "start": 609,
+    "end": 610
   },
   {
     "type": "String",
     "value": "\"import\"",
-    "start": 623,
-    "end": 631
+    "start": 611,
+    "end": 619
   },
   {
     "type": "Punctuator",
     "value": "}",
-    "start": 632,
-    "end": 633
+    "start": 620,
+    "end": 621
   },
   {
     "type": "Punctuator",
     "value": ";",
-    "start": 633,
-    "end": 634
+    "start": 621,
+    "end": 622
   }
 ]
 ```

@@ -1,0 +1,93 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 297,
+            "end": 303
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 304,
+            "end": 313
+          },
+          "optional": false,
+          "computed": false,
+          "start": 297,
+          "end": 313
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "Symbol",
+                "start": 314,
+                "end": 320
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "keyFor",
+                "start": 321,
+                "end": 327
+              },
+              "optional": false,
+              "computed": false,
+              "start": 314,
+              "end": 327
+            },
+            "arguments": [
+              {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "Symbol",
+                  "start": 328,
+                  "end": 334
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "asyncDispose",
+                  "start": 335,
+                  "end": 347
+                },
+                "optional": false,
+                "computed": false,
+                "start": 328,
+                "end": 347
+              }
+            ],
+            "optional": false,
+            "start": 314,
+            "end": 348
+          },
+          {
+            "type": "Identifier",
+            "name": "undefined",
+            "start": 350,
+            "end": 359
+          }
+        ],
+        "optional": false,
+        "start": 297,
+        "end": 360
+      },
+      "start": 297,
+      "end": 361
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 362
+}

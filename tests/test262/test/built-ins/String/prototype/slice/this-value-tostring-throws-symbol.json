@@ -1,0 +1,142 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 509,
+            "end": 515
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "throws",
+            "start": 516,
+            "end": 522
+          },
+          "optional": false,
+          "computed": false,
+          "start": 509,
+          "end": 522
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "name": "TypeError",
+            "start": 523,
+            "end": 532
+          },
+          {
+            "type": "FunctionExpression",
+            "id": null,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "expression": {
+                    "type": "CallExpression",
+                    "callee": {
+                      "type": "MemberExpression",
+                      "object": {
+                        "type": "MemberExpression",
+                        "object": {
+                          "type": "MemberExpression",
+                          "object": {
+                            "type": "Identifier",
+                            "name": "String",
+                            "start": 552,
+                            "end": 558
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "name": "prototype",
+                            "start": 559,
+                            "end": 568
+                          },
+                          "optional": false,
+                          "computed": false,
+                          "start": 552,
+                          "end": 568
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "name": "slice",
+                          "start": 569,
+                          "end": 574
+                        },
+                        "optional": false,
+                        "computed": false,
+                        "start": 552,
+                        "end": 574
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "name": "call",
+                        "start": 575,
+                        "end": 579
+                      },
+                      "optional": false,
+                      "computed": false,
+                      "start": 552,
+                      "end": 579
+                    },
+                    "arguments": [
+                      {
+                        "type": "CallExpression",
+                        "callee": {
+                          "type": "Identifier",
+                          "name": "Symbol",
+                          "start": 580,
+                          "end": 586
+                        },
+                        "arguments": [],
+                        "optional": false,
+                        "start": 580,
+                        "end": 588
+                      }
+                    ],
+                    "optional": false,
+                    "start": 552,
+                    "end": 589
+                  },
+                  "start": 552,
+                  "end": 589
+                }
+              ],
+              "start": 546,
+              "end": 591
+            },
+            "expression": false,
+            "start": 534,
+            "end": 591
+          },
+          {
+            "type": "Literal",
+            "value": "If this value is a Symbol, String.prototype.slice should throw a TypeError",
+            "raw": "\"If this value is a Symbol, String.prototype.slice should throw a TypeError\"",
+            "start": 593,
+            "end": 669
+          }
+        ],
+        "optional": false,
+        "start": 509,
+        "end": 670
+      },
+      "start": 509,
+      "end": 670
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 671
+}

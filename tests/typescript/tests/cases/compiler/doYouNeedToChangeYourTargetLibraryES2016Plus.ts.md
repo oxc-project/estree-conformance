@@ -2206,12 +2206,76 @@ __ESTREE_TEST__:AST:
       "declare": false,
       "start": 1957,
       "end": 2002
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "decorators": [],
+            "name": "testDateToTemporalInstant",
+            "optional": false,
+            "typeAnnotation": null,
+            "start": 2020,
+            "end": 2045
+          },
+          "init": {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "NewExpression",
+                "callee": {
+                  "type": "Identifier",
+                  "decorators": [],
+                  "name": "Date",
+                  "optional": false,
+                  "typeAnnotation": null,
+                  "start": 2052,
+                  "end": 2056
+                },
+                "typeArguments": null,
+                "arguments": [],
+                "start": 2048,
+                "end": 2058
+              },
+              "property": {
+                "type": "Identifier",
+                "decorators": [],
+                "name": "toTemporalInstant",
+                "optional": false,
+                "typeAnnotation": null,
+                "start": 2059,
+                "end": 2076
+              },
+              "optional": false,
+              "computed": false,
+              "start": 2048,
+              "end": 2076
+            },
+            "typeArguments": null,
+            "arguments": [],
+            "optional": false,
+            "start": 2048,
+            "end": 2078
+          },
+          "definite": false,
+          "start": 2020,
+          "end": 2078
+        }
+      ],
+      "declare": false,
+      "start": 2014,
+      "end": 2079
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 10,
-  "end": 2013
+  "end": 2079
 }
 ```
 __ESTREE_TEST__:TOKENS:
@@ -4446,6 +4510,78 @@ __ESTREE_TEST__:TOKENS:
     "value": ";",
     "start": 2001,
     "end": 2002
+  },
+  {
+    "type": "Keyword",
+    "value": "const",
+    "start": 2014,
+    "end": 2019
+  },
+  {
+    "type": "Identifier",
+    "value": "testDateToTemporalInstant",
+    "start": 2020,
+    "end": 2045
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 2046,
+    "end": 2047
+  },
+  {
+    "type": "Keyword",
+    "value": "new",
+    "start": 2048,
+    "end": 2051
+  },
+  {
+    "type": "Identifier",
+    "value": "Date",
+    "start": 2052,
+    "end": 2056
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 2056,
+    "end": 2057
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 2057,
+    "end": 2058
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 2058,
+    "end": 2059
+  },
+  {
+    "type": "Identifier",
+    "value": "toTemporalInstant",
+    "start": 2059,
+    "end": 2076
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 2076,
+    "end": 2077
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 2077,
+    "end": 2078
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 2078,
+    "end": 2079
   }
 ]
 ```

@@ -1,0 +1,182 @@
+[
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 619,
+    "end": 625
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 625,
+    "end": 626
+  },
+  {
+    "type": "Identifier",
+    "value": "throws",
+    "start": 626,
+    "end": 632
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 632,
+    "end": 633
+  },
+  {
+    "type": "Identifier",
+    "value": "TypeError",
+    "start": 633,
+    "end": 642
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 642,
+    "end": 643
+  },
+  {
+    "type": "Keyword",
+    "value": "function",
+    "start": 644,
+    "end": 652
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 653,
+    "end": 654
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 654,
+    "end": 655
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 656,
+    "end": 657
+  },
+  {
+    "type": "Identifier",
+    "value": "Error",
+    "start": 662,
+    "end": 667
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 667,
+    "end": 668
+  },
+  {
+    "type": "Identifier",
+    "value": "prototype",
+    "start": 668,
+    "end": 677
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 677,
+    "end": 678
+  },
+  {
+    "type": "Identifier",
+    "value": "toString",
+    "start": 678,
+    "end": 686
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 686,
+    "end": 687
+  },
+  {
+    "type": "Identifier",
+    "value": "call",
+    "start": 687,
+    "end": 691
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 691,
+    "end": 692
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 692,
+    "end": 693
+  },
+  {
+    "type": "Identifier",
+    "value": "message",
+    "start": 693,
+    "end": 700
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 701,
+    "end": 702
+  },
+  {
+    "type": "Identifier",
+    "value": "Symbol",
+    "start": 703,
+    "end": 709
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 709,
+    "end": 710
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 710,
+    "end": 711
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 711,
+    "end": 712
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 712,
+    "end": 713
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 714,
+    "end": 715
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 715,
+    "end": 716
+  },
+  {
+    "type": "String",
+    "value": "\"If message field is a symbol, Error.prototype.toString must throw a TypeError\"",
+    "start": 717,
+    "end": 796
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 796,
+    "end": 797
+  }
+]

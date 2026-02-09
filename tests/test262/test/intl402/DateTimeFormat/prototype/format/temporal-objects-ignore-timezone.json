@@ -1,0 +1,1344 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "datetime_apia",
+            "start": 344,
+            "end": 357
+          },
+          "init": {
+            "type": "Literal",
+            "value": "2011-12-30T12:00:00",
+            "raw": "'2011-12-30T12:00:00'",
+            "start": 360,
+            "end": 381
+          },
+          "start": 344,
+          "end": 381
+        }
+      ],
+      "start": 338,
+      "end": 382
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "datetime_los_angeles",
+            "start": 447,
+            "end": 467
+          },
+          "init": {
+            "type": "Literal",
+            "value": "2026-03-08T02:00:00",
+            "raw": "'2026-03-08T02:00:00'",
+            "start": 470,
+            "end": 491
+          },
+          "start": 447,
+          "end": 491
+        }
+      ],
+      "start": 441,
+      "end": 492
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "pdt_apia",
+            "start": 500,
+            "end": 508
+          },
+          "init": {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "Temporal",
+                  "start": 511,
+                  "end": 519
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "PlainDateTime",
+                  "start": 520,
+                  "end": 533
+                },
+                "optional": false,
+                "computed": false,
+                "start": 511,
+                "end": 533
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "from",
+                "start": 534,
+                "end": 538
+              },
+              "optional": false,
+              "computed": false,
+              "start": 511,
+              "end": 538
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "name": "datetime_apia",
+                "start": 539,
+                "end": 552
+              }
+            ],
+            "optional": false,
+            "start": 511,
+            "end": 553
+          },
+          "start": 500,
+          "end": 553
+        }
+      ],
+      "start": 494,
+      "end": 554
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "pdt_los_angeles",
+            "start": 561,
+            "end": 576
+          },
+          "init": {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "Temporal",
+                  "start": 579,
+                  "end": 587
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "PlainDateTime",
+                  "start": 588,
+                  "end": 601
+                },
+                "optional": false,
+                "computed": false,
+                "start": 579,
+                "end": 601
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "from",
+                "start": 602,
+                "end": 606
+              },
+              "optional": false,
+              "computed": false,
+              "start": 579,
+              "end": 606
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "name": "datetime_los_angeles",
+                "start": 607,
+                "end": 627
+              }
+            ],
+            "optional": false,
+            "start": 579,
+            "end": 628
+          },
+          "start": 561,
+          "end": 628
+        }
+      ],
+      "start": 555,
+      "end": 629
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "pd_apia",
+            "start": 637,
+            "end": 644
+          },
+          "init": {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "Temporal",
+                  "start": 647,
+                  "end": 655
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "PlainDate",
+                  "start": 656,
+                  "end": 665
+                },
+                "optional": false,
+                "computed": false,
+                "start": 647,
+                "end": 665
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "from",
+                "start": 666,
+                "end": 670
+              },
+              "optional": false,
+              "computed": false,
+              "start": 647,
+              "end": 670
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "name": "datetime_apia",
+                "start": 671,
+                "end": 684
+              }
+            ],
+            "optional": false,
+            "start": 647,
+            "end": 685
+          },
+          "start": 637,
+          "end": 685
+        }
+      ],
+      "start": 631,
+      "end": 686
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "pd_los_angeles",
+            "start": 693,
+            "end": 707
+          },
+          "init": {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "Temporal",
+                  "start": 710,
+                  "end": 718
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "PlainDate",
+                  "start": 719,
+                  "end": 728
+                },
+                "optional": false,
+                "computed": false,
+                "start": 710,
+                "end": 728
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "from",
+                "start": 729,
+                "end": 733
+              },
+              "optional": false,
+              "computed": false,
+              "start": 710,
+              "end": 733
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "name": "datetime_los_angeles",
+                "start": 734,
+                "end": 754
+              }
+            ],
+            "optional": false,
+            "start": 710,
+            "end": 755
+          },
+          "start": 693,
+          "end": 755
+        }
+      ],
+      "start": 687,
+      "end": 756
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "pt_apia",
+            "start": 764,
+            "end": 771
+          },
+          "init": {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "Temporal",
+                  "start": 774,
+                  "end": 782
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "PlainTime",
+                  "start": 783,
+                  "end": 792
+                },
+                "optional": false,
+                "computed": false,
+                "start": 774,
+                "end": 792
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "from",
+                "start": 793,
+                "end": 797
+              },
+              "optional": false,
+              "computed": false,
+              "start": 774,
+              "end": 797
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "name": "datetime_apia",
+                "start": 798,
+                "end": 811
+              }
+            ],
+            "optional": false,
+            "start": 774,
+            "end": 812
+          },
+          "start": 764,
+          "end": 812
+        }
+      ],
+      "start": 758,
+      "end": 813
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "pt_los_angeles",
+            "start": 820,
+            "end": 834
+          },
+          "init": {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "Temporal",
+                  "start": 837,
+                  "end": 845
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "PlainTime",
+                  "start": 846,
+                  "end": 855
+                },
+                "optional": false,
+                "computed": false,
+                "start": 837,
+                "end": 855
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "from",
+                "start": 856,
+                "end": 860
+              },
+              "optional": false,
+              "computed": false,
+              "start": 837,
+              "end": 860
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "name": "datetime_los_angeles",
+                "start": 861,
+                "end": 881
+              }
+            ],
+            "optional": false,
+            "start": 837,
+            "end": 882
+          },
+          "start": 820,
+          "end": 882
+        }
+      ],
+      "start": 814,
+      "end": 883
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "dtf_apia",
+            "start": 891,
+            "end": 899
+          },
+          "init": {
+            "type": "NewExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "Intl",
+                "start": 906,
+                "end": 910
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "DateTimeFormat",
+                "start": 911,
+                "end": 925
+              },
+              "optional": false,
+              "computed": false,
+              "start": 906,
+              "end": 925
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "value": "en-US",
+                "raw": "'en-US'",
+                "start": 926,
+                "end": 933
+              },
+              {
+                "type": "ObjectExpression",
+                "properties": [
+                  {
+                    "type": "Property",
+                    "kind": "init",
+                    "key": {
+                      "type": "Identifier",
+                      "name": "dateStyle",
+                      "start": 937,
+                      "end": 946
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "value": "short",
+                      "raw": "'short'",
+                      "start": 948,
+                      "end": 955
+                    },
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "start": 937,
+                    "end": 955
+                  },
+                  {
+                    "type": "Property",
+                    "kind": "init",
+                    "key": {
+                      "type": "Identifier",
+                      "name": "timeStyle",
+                      "start": 957,
+                      "end": 966
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "value": "short",
+                      "raw": "'short'",
+                      "start": 968,
+                      "end": 975
+                    },
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "start": 957,
+                    "end": 975
+                  },
+                  {
+                    "type": "Property",
+                    "kind": "init",
+                    "key": {
+                      "type": "Identifier",
+                      "name": "timeZone",
+                      "start": 977,
+                      "end": 985
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "value": "Pacific/Apia",
+                      "raw": "'Pacific/Apia'",
+                      "start": 987,
+                      "end": 1001
+                    },
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "start": 977,
+                    "end": 1001
+                  }
+                ],
+                "start": 935,
+                "end": 1003
+              }
+            ],
+            "start": 902,
+            "end": 1004
+          },
+          "start": 891,
+          "end": 1004
+        }
+      ],
+      "start": 885,
+      "end": 1005
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "dtf_los_angeles",
+            "start": 1012,
+            "end": 1027
+          },
+          "init": {
+            "type": "NewExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "Intl",
+                "start": 1034,
+                "end": 1038
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "DateTimeFormat",
+                "start": 1039,
+                "end": 1053
+              },
+              "optional": false,
+              "computed": false,
+              "start": 1034,
+              "end": 1053
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "value": "en-US",
+                "raw": "'en-US'",
+                "start": 1054,
+                "end": 1061
+              },
+              {
+                "type": "ObjectExpression",
+                "properties": [
+                  {
+                    "type": "Property",
+                    "kind": "init",
+                    "key": {
+                      "type": "Identifier",
+                      "name": "dateStyle",
+                      "start": 1065,
+                      "end": 1074
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "value": "short",
+                      "raw": "'short'",
+                      "start": 1076,
+                      "end": 1083
+                    },
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "start": 1065,
+                    "end": 1083
+                  },
+                  {
+                    "type": "Property",
+                    "kind": "init",
+                    "key": {
+                      "type": "Identifier",
+                      "name": "timeStyle",
+                      "start": 1085,
+                      "end": 1094
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "value": "short",
+                      "raw": "'short'",
+                      "start": 1096,
+                      "end": 1103
+                    },
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "start": 1085,
+                    "end": 1103
+                  },
+                  {
+                    "type": "Property",
+                    "kind": "init",
+                    "key": {
+                      "type": "Identifier",
+                      "name": "timeZone",
+                      "start": 1105,
+                      "end": 1113
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "value": "America/Los_Angeles",
+                      "raw": "'America/Los_Angeles'",
+                      "start": 1115,
+                      "end": 1136
+                    },
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "start": 1105,
+                    "end": 1136
+                  }
+                ],
+                "start": 1063,
+                "end": 1138
+              }
+            ],
+            "start": 1030,
+            "end": 1139
+          },
+          "start": 1012,
+          "end": 1139
+        }
+      ],
+      "start": 1006,
+      "end": 1140
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "pdt_apia_result",
+            "start": 1165,
+            "end": 1180
+          },
+          "init": {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "dtf_apia",
+                "start": 1183,
+                "end": 1191
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "format",
+                "start": 1192,
+                "end": 1198
+              },
+              "optional": false,
+              "computed": false,
+              "start": 1183,
+              "end": 1198
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "name": "pdt_apia",
+                "start": 1199,
+                "end": 1207
+              }
+            ],
+            "optional": false,
+            "start": 1183,
+            "end": 1208
+          },
+          "start": 1165,
+          "end": 1208
+        }
+      ],
+      "start": 1159,
+      "end": 1209
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "Identifier",
+          "name": "assert",
+          "start": 1210,
+          "end": 1216
+        },
+        "arguments": [
+          {
+            "type": "LogicalExpression",
+            "left": {
+              "type": "CallExpression",
+              "callee": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "pdt_apia_result",
+                  "start": 1220,
+                  "end": 1235
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "includes",
+                  "start": 1236,
+                  "end": 1244
+                },
+                "optional": false,
+                "computed": false,
+                "start": 1220,
+                "end": 1244
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "value": "30",
+                  "raw": "'30'",
+                  "start": 1245,
+                  "end": 1249
+                }
+              ],
+              "optional": false,
+              "start": 1220,
+              "end": 1250
+            },
+            "operator": "&&",
+            "right": {
+              "type": "UnaryExpression",
+              "operator": "!",
+              "argument": {
+                "type": "CallExpression",
+                "callee": {
+                  "type": "MemberExpression",
+                  "object": {
+                    "type": "Identifier",
+                    "name": "pdt_apia_result",
+                    "start": 1255,
+                    "end": 1270
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "name": "includes",
+                    "start": 1271,
+                    "end": 1279
+                  },
+                  "optional": false,
+                  "computed": false,
+                  "start": 1255,
+                  "end": 1279
+                },
+                "arguments": [
+                  {
+                    "type": "Literal",
+                    "value": "31",
+                    "raw": "'31'",
+                    "start": 1280,
+                    "end": 1284
+                  }
+                ],
+                "optional": false,
+                "start": 1255,
+                "end": 1285
+              },
+              "prefix": true,
+              "start": 1254,
+              "end": 1285
+            },
+            "start": 1220,
+            "end": 1285
+          },
+          {
+            "type": "Literal",
+            "value": "day is calculated correctly, ignoring the Pacific/Apia timezone",
+            "raw": "\"day is calculated correctly, ignoring the Pacific/Apia timezone\"",
+            "start": 1289,
+            "end": 1354
+          }
+        ],
+        "optional": false,
+        "start": 1210,
+        "end": 1356
+      },
+      "start": 1210,
+      "end": 1357
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "pdt_los_angeles_result",
+            "start": 1365,
+            "end": 1387
+          },
+          "init": {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "dtf_los_angeles",
+                "start": 1390,
+                "end": 1405
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "format",
+                "start": 1406,
+                "end": 1412
+              },
+              "optional": false,
+              "computed": false,
+              "start": 1390,
+              "end": 1412
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "name": "pdt_los_angeles",
+                "start": 1413,
+                "end": 1428
+              }
+            ],
+            "optional": false,
+            "start": 1390,
+            "end": 1429
+          },
+          "start": 1365,
+          "end": 1429
+        }
+      ],
+      "start": 1359,
+      "end": 1430
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "Identifier",
+          "name": "assert",
+          "start": 1431,
+          "end": 1437
+        },
+        "arguments": [
+          {
+            "type": "LogicalExpression",
+            "left": {
+              "type": "CallExpression",
+              "callee": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "pdt_los_angeles_result",
+                  "start": 1441,
+                  "end": 1463
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "includes",
+                  "start": 1464,
+                  "end": 1472
+                },
+                "optional": false,
+                "computed": false,
+                "start": 1441,
+                "end": 1472
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "value": "2:00",
+                  "raw": "'2:00'",
+                  "start": 1473,
+                  "end": 1479
+                }
+              ],
+              "optional": false,
+              "start": 1441,
+              "end": 1480
+            },
+            "operator": "&&",
+            "right": {
+              "type": "UnaryExpression",
+              "operator": "!",
+              "argument": {
+                "type": "CallExpression",
+                "callee": {
+                  "type": "MemberExpression",
+                  "object": {
+                    "type": "Identifier",
+                    "name": "pdt_los_angeles_result",
+                    "start": 1485,
+                    "end": 1507
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "name": "includes",
+                    "start": 1508,
+                    "end": 1516
+                  },
+                  "optional": false,
+                  "computed": false,
+                  "start": 1485,
+                  "end": 1516
+                },
+                "arguments": [
+                  {
+                    "type": "Literal",
+                    "value": "3:00",
+                    "raw": "'3:00'",
+                    "start": 1517,
+                    "end": 1523
+                  }
+                ],
+                "optional": false,
+                "start": 1485,
+                "end": 1524
+              },
+              "prefix": true,
+              "start": 1484,
+              "end": 1524
+            },
+            "start": 1441,
+            "end": 1524
+          },
+          {
+            "type": "Literal",
+            "value": "hour is calculated correctly with the America/Los_Angeles timezone",
+            "raw": "\"hour is calculated correctly with the America/Los_Angeles timezone\"",
+            "start": 1528,
+            "end": 1596
+          }
+        ],
+        "optional": false,
+        "start": 1431,
+        "end": 1598
+      },
+      "start": 1431,
+      "end": 1599
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "pd_apia_result",
+            "start": 1620,
+            "end": 1634
+          },
+          "init": {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "dtf_apia",
+                "start": 1637,
+                "end": 1645
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "format",
+                "start": 1646,
+                "end": 1652
+              },
+              "optional": false,
+              "computed": false,
+              "start": 1637,
+              "end": 1652
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "name": "pd_apia",
+                "start": 1653,
+                "end": 1660
+              }
+            ],
+            "optional": false,
+            "start": 1637,
+            "end": 1661
+          },
+          "start": 1620,
+          "end": 1661
+        }
+      ],
+      "start": 1614,
+      "end": 1662
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "Identifier",
+          "name": "assert",
+          "start": 1663,
+          "end": 1669
+        },
+        "arguments": [
+          {
+            "type": "LogicalExpression",
+            "left": {
+              "type": "CallExpression",
+              "callee": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "pd_apia_result",
+                  "start": 1673,
+                  "end": 1687
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "includes",
+                  "start": 1688,
+                  "end": 1696
+                },
+                "optional": false,
+                "computed": false,
+                "start": 1673,
+                "end": 1696
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "value": "30",
+                  "raw": "'30'",
+                  "start": 1697,
+                  "end": 1701
+                }
+              ],
+              "optional": false,
+              "start": 1673,
+              "end": 1702
+            },
+            "operator": "&&",
+            "right": {
+              "type": "UnaryExpression",
+              "operator": "!",
+              "argument": {
+                "type": "CallExpression",
+                "callee": {
+                  "type": "MemberExpression",
+                  "object": {
+                    "type": "Identifier",
+                    "name": "pd_apia_result",
+                    "start": 1707,
+                    "end": 1721
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "name": "includes",
+                    "start": 1722,
+                    "end": 1730
+                  },
+                  "optional": false,
+                  "computed": false,
+                  "start": 1707,
+                  "end": 1730
+                },
+                "arguments": [
+                  {
+                    "type": "Literal",
+                    "value": "31",
+                    "raw": "'31'",
+                    "start": 1731,
+                    "end": 1735
+                  }
+                ],
+                "optional": false,
+                "start": 1707,
+                "end": 1736
+              },
+              "prefix": true,
+              "start": 1706,
+              "end": 1736
+            },
+            "start": 1673,
+            "end": 1736
+          },
+          {
+            "type": "Literal",
+            "value": "day is calculated correctly, ignoring the Pacific/Apia timezone",
+            "raw": "\"day is calculated correctly, ignoring the Pacific/Apia timezone\"",
+            "start": 1740,
+            "end": 1805
+          }
+        ],
+        "optional": false,
+        "start": 1663,
+        "end": 1807
+      },
+      "start": 1663,
+      "end": 1808
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "pt_los_angeles_result",
+            "start": 1829,
+            "end": 1850
+          },
+          "init": {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "dtf_los_angeles",
+                "start": 1853,
+                "end": 1868
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "format",
+                "start": 1869,
+                "end": 1875
+              },
+              "optional": false,
+              "computed": false,
+              "start": 1853,
+              "end": 1875
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "name": "pt_los_angeles",
+                "start": 1876,
+                "end": 1890
+              }
+            ],
+            "optional": false,
+            "start": 1853,
+            "end": 1891
+          },
+          "start": 1829,
+          "end": 1891
+        }
+      ],
+      "start": 1823,
+      "end": 1892
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "Identifier",
+          "name": "assert",
+          "start": 1893,
+          "end": 1899
+        },
+        "arguments": [
+          {
+            "type": "LogicalExpression",
+            "left": {
+              "type": "CallExpression",
+              "callee": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "pt_los_angeles_result",
+                  "start": 1903,
+                  "end": 1924
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "includes",
+                  "start": 1925,
+                  "end": 1933
+                },
+                "optional": false,
+                "computed": false,
+                "start": 1903,
+                "end": 1933
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "value": "2:00",
+                  "raw": "'2:00'",
+                  "start": 1934,
+                  "end": 1940
+                }
+              ],
+              "optional": false,
+              "start": 1903,
+              "end": 1941
+            },
+            "operator": "&&",
+            "right": {
+              "type": "UnaryExpression",
+              "operator": "!",
+              "argument": {
+                "type": "CallExpression",
+                "callee": {
+                  "type": "MemberExpression",
+                  "object": {
+                    "type": "Identifier",
+                    "name": "pt_los_angeles_result",
+                    "start": 1946,
+                    "end": 1967
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "name": "includes",
+                    "start": 1968,
+                    "end": 1976
+                  },
+                  "optional": false,
+                  "computed": false,
+                  "start": 1946,
+                  "end": 1976
+                },
+                "arguments": [
+                  {
+                    "type": "Literal",
+                    "value": "3:00",
+                    "raw": "'3:00'",
+                    "start": 1977,
+                    "end": 1983
+                  }
+                ],
+                "optional": false,
+                "start": 1946,
+                "end": 1984
+              },
+              "prefix": true,
+              "start": 1945,
+              "end": 1984
+            },
+            "start": 1903,
+            "end": 1984
+          },
+          {
+            "type": "Literal",
+            "value": "2:00 AM",
+            "raw": "\"2:00 AM\"",
+            "start": 1988,
+            "end": 1997
+          },
+          {
+            "type": "Literal",
+            "value": "hour is calculated correctly with the America/Los_Angeles timezone",
+            "raw": "\"hour is calculated correctly with the America/Los_Angeles timezone\"",
+            "start": 2001,
+            "end": 2069
+          }
+        ],
+        "optional": false,
+        "start": 1893,
+        "end": 2071
+      },
+      "start": 1893,
+      "end": 2072
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 2073
+}

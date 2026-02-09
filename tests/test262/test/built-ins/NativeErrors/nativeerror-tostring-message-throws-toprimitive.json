@@ -1,0 +1,789 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 523,
+            "end": 529
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "throws",
+            "start": 530,
+            "end": 536
+          },
+          "optional": false,
+          "computed": false,
+          "start": 523,
+          "end": 536
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "name": "TypeError",
+            "start": 537,
+            "end": 546
+          },
+          {
+            "type": "FunctionExpression",
+            "id": null,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "expression": {
+                    "type": "CallExpression",
+                    "callee": {
+                      "type": "Identifier",
+                      "name": "EvalError",
+                      "start": 565,
+                      "end": 574
+                    },
+                    "arguments": [
+                      {
+                        "type": "ObjectExpression",
+                        "properties": [
+                          {
+                            "type": "Property",
+                            "kind": "init",
+                            "key": {
+                              "type": "Identifier",
+                              "name": "toString",
+                              "start": 576,
+                              "end": 584
+                            },
+                            "value": {
+                              "type": "Identifier",
+                              "name": "undefined",
+                              "start": 586,
+                              "end": 595
+                            },
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false,
+                            "start": 576,
+                            "end": 595
+                          },
+                          {
+                            "type": "Property",
+                            "kind": "init",
+                            "key": {
+                              "type": "Identifier",
+                              "name": "valueOf",
+                              "start": 597,
+                              "end": 604
+                            },
+                            "value": {
+                              "type": "Identifier",
+                              "name": "undefined",
+                              "start": 606,
+                              "end": 615
+                            },
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false,
+                            "start": 597,
+                            "end": 615
+                          }
+                        ],
+                        "start": 575,
+                        "end": 616
+                      }
+                    ],
+                    "optional": false,
+                    "start": 565,
+                    "end": 617
+                  },
+                  "start": 565,
+                  "end": 617
+                }
+              ],
+              "start": 559,
+              "end": 619
+            },
+            "expression": false,
+            "start": 548,
+            "end": 619
+          },
+          {
+            "type": "Literal",
+            "value": "EvalError should throw a TypeError in its ToPrimitive step",
+            "raw": "\"EvalError should throw a TypeError in its ToPrimitive step\"",
+            "start": 621,
+            "end": 681
+          }
+        ],
+        "optional": false,
+        "start": 523,
+        "end": 682
+      },
+      "start": 523,
+      "end": 682
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 695,
+            "end": 701
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "throws",
+            "start": 702,
+            "end": 708
+          },
+          "optional": false,
+          "computed": false,
+          "start": 695,
+          "end": 708
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "name": "TypeError",
+            "start": 709,
+            "end": 718
+          },
+          {
+            "type": "FunctionExpression",
+            "id": null,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "expression": {
+                    "type": "CallExpression",
+                    "callee": {
+                      "type": "Identifier",
+                      "name": "RangeError",
+                      "start": 737,
+                      "end": 747
+                    },
+                    "arguments": [
+                      {
+                        "type": "ObjectExpression",
+                        "properties": [
+                          {
+                            "type": "Property",
+                            "kind": "init",
+                            "key": {
+                              "type": "Identifier",
+                              "name": "toString",
+                              "start": 749,
+                              "end": 757
+                            },
+                            "value": {
+                              "type": "Identifier",
+                              "name": "undefined",
+                              "start": 759,
+                              "end": 768
+                            },
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false,
+                            "start": 749,
+                            "end": 768
+                          },
+                          {
+                            "type": "Property",
+                            "kind": "init",
+                            "key": {
+                              "type": "Identifier",
+                              "name": "valueOf",
+                              "start": 770,
+                              "end": 777
+                            },
+                            "value": {
+                              "type": "Identifier",
+                              "name": "undefined",
+                              "start": 779,
+                              "end": 788
+                            },
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false,
+                            "start": 770,
+                            "end": 788
+                          }
+                        ],
+                        "start": 748,
+                        "end": 789
+                      }
+                    ],
+                    "optional": false,
+                    "start": 737,
+                    "end": 790
+                  },
+                  "start": 737,
+                  "end": 790
+                }
+              ],
+              "start": 731,
+              "end": 792
+            },
+            "expression": false,
+            "start": 720,
+            "end": 792
+          },
+          {
+            "type": "Literal",
+            "value": "RangeError should throw a TypeError in its ToPrimitive step",
+            "raw": "\"RangeError should throw a TypeError in its ToPrimitive step\"",
+            "start": 794,
+            "end": 855
+          }
+        ],
+        "optional": false,
+        "start": 695,
+        "end": 856
+      },
+      "start": 695,
+      "end": 856
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 869,
+            "end": 875
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "throws",
+            "start": 876,
+            "end": 882
+          },
+          "optional": false,
+          "computed": false,
+          "start": 869,
+          "end": 882
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "name": "TypeError",
+            "start": 883,
+            "end": 892
+          },
+          {
+            "type": "FunctionExpression",
+            "id": null,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "expression": {
+                    "type": "CallExpression",
+                    "callee": {
+                      "type": "Identifier",
+                      "name": "ReferenceError",
+                      "start": 911,
+                      "end": 925
+                    },
+                    "arguments": [
+                      {
+                        "type": "ObjectExpression",
+                        "properties": [
+                          {
+                            "type": "Property",
+                            "kind": "init",
+                            "key": {
+                              "type": "Identifier",
+                              "name": "toString",
+                              "start": 927,
+                              "end": 935
+                            },
+                            "value": {
+                              "type": "Identifier",
+                              "name": "undefined",
+                              "start": 937,
+                              "end": 946
+                            },
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false,
+                            "start": 927,
+                            "end": 946
+                          },
+                          {
+                            "type": "Property",
+                            "kind": "init",
+                            "key": {
+                              "type": "Identifier",
+                              "name": "valueOf",
+                              "start": 948,
+                              "end": 955
+                            },
+                            "value": {
+                              "type": "Identifier",
+                              "name": "undefined",
+                              "start": 957,
+                              "end": 966
+                            },
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false,
+                            "start": 948,
+                            "end": 966
+                          }
+                        ],
+                        "start": 926,
+                        "end": 967
+                      }
+                    ],
+                    "optional": false,
+                    "start": 911,
+                    "end": 968
+                  },
+                  "start": 911,
+                  "end": 968
+                }
+              ],
+              "start": 905,
+              "end": 970
+            },
+            "expression": false,
+            "start": 894,
+            "end": 970
+          },
+          {
+            "type": "Literal",
+            "value": "ReferenceError should throw a TypeError in its ToPrimitive step",
+            "raw": "\"ReferenceError should throw a TypeError in its ToPrimitive step\"",
+            "start": 972,
+            "end": 1037
+          }
+        ],
+        "optional": false,
+        "start": 869,
+        "end": 1038
+      },
+      "start": 869,
+      "end": 1038
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 1051,
+            "end": 1057
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "throws",
+            "start": 1058,
+            "end": 1064
+          },
+          "optional": false,
+          "computed": false,
+          "start": 1051,
+          "end": 1064
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "name": "TypeError",
+            "start": 1065,
+            "end": 1074
+          },
+          {
+            "type": "FunctionExpression",
+            "id": null,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "expression": {
+                    "type": "CallExpression",
+                    "callee": {
+                      "type": "Identifier",
+                      "name": "SyntaxError",
+                      "start": 1093,
+                      "end": 1104
+                    },
+                    "arguments": [
+                      {
+                        "type": "ObjectExpression",
+                        "properties": [
+                          {
+                            "type": "Property",
+                            "kind": "init",
+                            "key": {
+                              "type": "Identifier",
+                              "name": "toString",
+                              "start": 1106,
+                              "end": 1114
+                            },
+                            "value": {
+                              "type": "Identifier",
+                              "name": "undefined",
+                              "start": 1116,
+                              "end": 1125
+                            },
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false,
+                            "start": 1106,
+                            "end": 1125
+                          },
+                          {
+                            "type": "Property",
+                            "kind": "init",
+                            "key": {
+                              "type": "Identifier",
+                              "name": "valueOf",
+                              "start": 1127,
+                              "end": 1134
+                            },
+                            "value": {
+                              "type": "Identifier",
+                              "name": "undefined",
+                              "start": 1136,
+                              "end": 1145
+                            },
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false,
+                            "start": 1127,
+                            "end": 1145
+                          }
+                        ],
+                        "start": 1105,
+                        "end": 1146
+                      }
+                    ],
+                    "optional": false,
+                    "start": 1093,
+                    "end": 1147
+                  },
+                  "start": 1093,
+                  "end": 1147
+                }
+              ],
+              "start": 1087,
+              "end": 1149
+            },
+            "expression": false,
+            "start": 1076,
+            "end": 1149
+          },
+          {
+            "type": "Literal",
+            "value": "SyntaxError should throw a TypeError in its ToPrimitive step",
+            "raw": "\"SyntaxError should throw a TypeError in its ToPrimitive step\"",
+            "start": 1151,
+            "end": 1213
+          }
+        ],
+        "optional": false,
+        "start": 1051,
+        "end": 1214
+      },
+      "start": 1051,
+      "end": 1214
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 1227,
+            "end": 1233
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "throws",
+            "start": 1234,
+            "end": 1240
+          },
+          "optional": false,
+          "computed": false,
+          "start": 1227,
+          "end": 1240
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "name": "TypeError",
+            "start": 1241,
+            "end": 1250
+          },
+          {
+            "type": "FunctionExpression",
+            "id": null,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "expression": {
+                    "type": "CallExpression",
+                    "callee": {
+                      "type": "Identifier",
+                      "name": "TypeError",
+                      "start": 1269,
+                      "end": 1278
+                    },
+                    "arguments": [
+                      {
+                        "type": "ObjectExpression",
+                        "properties": [
+                          {
+                            "type": "Property",
+                            "kind": "init",
+                            "key": {
+                              "type": "Identifier",
+                              "name": "toString",
+                              "start": 1280,
+                              "end": 1288
+                            },
+                            "value": {
+                              "type": "Identifier",
+                              "name": "undefined",
+                              "start": 1290,
+                              "end": 1299
+                            },
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false,
+                            "start": 1280,
+                            "end": 1299
+                          },
+                          {
+                            "type": "Property",
+                            "kind": "init",
+                            "key": {
+                              "type": "Identifier",
+                              "name": "valueOf",
+                              "start": 1301,
+                              "end": 1308
+                            },
+                            "value": {
+                              "type": "Identifier",
+                              "name": "undefined",
+                              "start": 1310,
+                              "end": 1319
+                            },
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false,
+                            "start": 1301,
+                            "end": 1319
+                          }
+                        ],
+                        "start": 1279,
+                        "end": 1320
+                      }
+                    ],
+                    "optional": false,
+                    "start": 1269,
+                    "end": 1321
+                  },
+                  "start": 1269,
+                  "end": 1321
+                }
+              ],
+              "start": 1263,
+              "end": 1323
+            },
+            "expression": false,
+            "start": 1252,
+            "end": 1323
+          },
+          {
+            "type": "Literal",
+            "value": "TypeError should throw a TypeError in its ToPrimitive step",
+            "raw": "\"TypeError should throw a TypeError in its ToPrimitive step\"",
+            "start": 1325,
+            "end": 1385
+          }
+        ],
+        "optional": false,
+        "start": 1227,
+        "end": 1386
+      },
+      "start": 1227,
+      "end": 1386
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 1399,
+            "end": 1405
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "throws",
+            "start": 1406,
+            "end": 1412
+          },
+          "optional": false,
+          "computed": false,
+          "start": 1399,
+          "end": 1412
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "name": "TypeError",
+            "start": 1413,
+            "end": 1422
+          },
+          {
+            "type": "FunctionExpression",
+            "id": null,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "expression": {
+                    "type": "CallExpression",
+                    "callee": {
+                      "type": "Identifier",
+                      "name": "URIError",
+                      "start": 1441,
+                      "end": 1449
+                    },
+                    "arguments": [
+                      {
+                        "type": "ObjectExpression",
+                        "properties": [
+                          {
+                            "type": "Property",
+                            "kind": "init",
+                            "key": {
+                              "type": "Identifier",
+                              "name": "toString",
+                              "start": 1451,
+                              "end": 1459
+                            },
+                            "value": {
+                              "type": "Identifier",
+                              "name": "undefined",
+                              "start": 1461,
+                              "end": 1470
+                            },
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false,
+                            "start": 1451,
+                            "end": 1470
+                          },
+                          {
+                            "type": "Property",
+                            "kind": "init",
+                            "key": {
+                              "type": "Identifier",
+                              "name": "valueOf",
+                              "start": 1472,
+                              "end": 1479
+                            },
+                            "value": {
+                              "type": "Identifier",
+                              "name": "undefined",
+                              "start": 1481,
+                              "end": 1490
+                            },
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false,
+                            "start": 1472,
+                            "end": 1490
+                          }
+                        ],
+                        "start": 1450,
+                        "end": 1491
+                      }
+                    ],
+                    "optional": false,
+                    "start": 1441,
+                    "end": 1492
+                  },
+                  "start": 1441,
+                  "end": 1492
+                }
+              ],
+              "start": 1435,
+              "end": 1494
+            },
+            "expression": false,
+            "start": 1424,
+            "end": 1494
+          },
+          {
+            "type": "Literal",
+            "value": "URIError should throw a TypeError in its ToPrimitive step",
+            "raw": "\"URIError should throw a TypeError in its ToPrimitive step\"",
+            "start": 1496,
+            "end": 1555
+          }
+        ],
+        "optional": false,
+        "start": 1399,
+        "end": 1556
+      },
+      "start": 1399,
+      "end": 1556
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 1557
+}
