@@ -1,0 +1,139 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 488,
+            "end": 494
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "throws",
+            "start": 495,
+            "end": 501
+          },
+          "optional": false,
+          "computed": false,
+          "start": 488,
+          "end": 501
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "name": "TypeError",
+            "start": 502,
+            "end": 511
+          },
+          {
+            "type": "FunctionExpression",
+            "id": null,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "expression": {
+                    "type": "CallExpression",
+                    "callee": {
+                      "type": "Identifier",
+                      "name": "Error",
+                      "start": 531,
+                      "end": 536
+                    },
+                    "arguments": [
+                      {
+                        "type": "ObjectExpression",
+                        "properties": [
+                          {
+                            "type": "Property",
+                            "kind": "init",
+                            "key": {
+                              "type": "Identifier",
+                              "name": "toString",
+                              "start": 538,
+                              "end": 546
+                            },
+                            "value": {
+                              "type": "Identifier",
+                              "name": "undefined",
+                              "start": 548,
+                              "end": 557
+                            },
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false,
+                            "start": 538,
+                            "end": 557
+                          },
+                          {
+                            "type": "Property",
+                            "kind": "init",
+                            "key": {
+                              "type": "Identifier",
+                              "name": "valueOf",
+                              "start": 559,
+                              "end": 566
+                            },
+                            "value": {
+                              "type": "Identifier",
+                              "name": "undefined",
+                              "start": 568,
+                              "end": 577
+                            },
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false,
+                            "start": 559,
+                            "end": 577
+                          }
+                        ],
+                        "start": 537,
+                        "end": 578
+                      }
+                    ],
+                    "optional": false,
+                    "start": 531,
+                    "end": 579
+                  },
+                  "start": 531,
+                  "end": 579
+                }
+              ],
+              "start": 525,
+              "end": 581
+            },
+            "expression": false,
+            "start": 513,
+            "end": 581
+          },
+          {
+            "type": "Literal",
+            "value": "Error should throw a TypeError in its ToPrimitive step",
+            "raw": "\"Error should throw a TypeError in its ToPrimitive step\"",
+            "start": 583,
+            "end": 639
+          }
+        ],
+        "optional": false,
+        "start": 488,
+        "end": 640
+      },
+      "start": 488,
+      "end": 641
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 642
+}

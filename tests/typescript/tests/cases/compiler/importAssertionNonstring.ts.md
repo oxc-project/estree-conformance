@@ -38,23 +38,23 @@ __ESTREE_TEST__:AST:
             "name": "field",
             "optional": false,
             "typeAnnotation": null,
-            "start": 44,
-            "end": 49
+            "start": 42,
+            "end": 47
           },
           "value": {
             "type": "Literal",
             "value": 0,
             "raw": "0",
-            "start": 51,
-            "end": 52
+            "start": 49,
+            "end": 50
           },
-          "start": 44,
-          "end": 52
+          "start": 42,
+          "end": 50
         }
       ],
       "importKind": "value",
       "start": 0,
-      "end": 54
+      "end": 52
     },
     {
       "type": "ImportDeclaration",
@@ -67,19 +67,19 @@ __ESTREE_TEST__:AST:
             "name": "thing2",
             "optional": false,
             "typeAnnotation": null,
-            "start": 68,
-            "end": 74
+            "start": 66,
+            "end": 72
           },
-          "start": 63,
-          "end": 74
+          "start": 61,
+          "end": 72
         }
       ],
       "source": {
         "type": "Literal",
         "value": "./mod.mjs",
         "raw": "\"./mod.mjs\"",
-        "start": 80,
-        "end": 91
+        "start": 78,
+        "end": 89
       },
       "phase": null,
       "attributes": [
@@ -91,8 +91,8 @@ __ESTREE_TEST__:AST:
             "name": "field",
             "optional": false,
             "typeAnnotation": null,
-            "start": 100,
-            "end": 105
+            "start": 96,
+            "end": 101
           },
           "value": {
             "type": "TemplateLiteral",
@@ -104,21 +104,21 @@ __ESTREE_TEST__:AST:
                   "cooked": "a"
                 },
                 "tail": true,
-                "start": 107,
-                "end": 110
+                "start": 103,
+                "end": 106
               }
             ],
             "expressions": [],
-            "start": 107,
-            "end": 110
+            "start": 103,
+            "end": 106
           },
-          "start": 100,
-          "end": 110
+          "start": 96,
+          "end": 106
         }
       ],
       "importKind": "value",
-      "start": 56,
-      "end": 112
+      "start": 54,
+      "end": 108
     },
     {
       "type": "ImportDeclaration",
@@ -131,19 +131,19 @@ __ESTREE_TEST__:AST:
             "name": "thing3",
             "optional": false,
             "typeAnnotation": null,
-            "start": 126,
-            "end": 132
+            "start": 122,
+            "end": 128
           },
-          "start": 121,
-          "end": 132
+          "start": 117,
+          "end": 128
         }
       ],
       "source": {
         "type": "Literal",
         "value": "./mod.mjs",
         "raw": "\"./mod.mjs\"",
-        "start": 138,
-        "end": 149
+        "start": 134,
+        "end": 145
       },
       "phase": null,
       "attributes": [
@@ -155,8 +155,8 @@ __ESTREE_TEST__:AST:
             "name": "field",
             "optional": false,
             "typeAnnotation": null,
-            "start": 158,
-            "end": 163
+            "start": 152,
+            "end": 157
           },
           "value": {
             "type": "Literal",
@@ -166,16 +166,16 @@ __ESTREE_TEST__:AST:
               "pattern": "a",
               "flags": "g"
             },
-            "start": 165,
-            "end": 169
+            "start": 159,
+            "end": 163
           },
-          "start": 158,
-          "end": 169
+          "start": 152,
+          "end": 163
         }
       ],
       "importKind": "value",
-      "start": 114,
-      "end": 171
+      "start": 110,
+      "end": 165
     },
     {
       "type": "ImportDeclaration",
@@ -188,19 +188,19 @@ __ESTREE_TEST__:AST:
             "name": "thing4",
             "optional": false,
             "typeAnnotation": null,
-            "start": 185,
-            "end": 191
+            "start": 179,
+            "end": 185
           },
-          "start": 180,
-          "end": 191
+          "start": 174,
+          "end": 185
         }
       ],
       "source": {
         "type": "Literal",
         "value": "./mod.mjs",
         "raw": "\"./mod.mjs\"",
-        "start": 197,
-        "end": 208
+        "start": 191,
+        "end": 202
       },
       "phase": null,
       "attributes": [
@@ -212,8 +212,8 @@ __ESTREE_TEST__:AST:
             "name": "field",
             "optional": false,
             "typeAnnotation": null,
-            "start": 217,
-            "end": 222
+            "start": 209,
+            "end": 214
           },
           "value": {
             "type": "ArrayExpression",
@@ -222,20 +222,20 @@ __ESTREE_TEST__:AST:
                 "type": "Literal",
                 "value": "a",
                 "raw": "\"a\"",
-                "start": 225,
-                "end": 228
+                "start": 217,
+                "end": 220
               }
             ],
-            "start": 224,
-            "end": 229
+            "start": 216,
+            "end": 221
           },
-          "start": 217,
-          "end": 229
+          "start": 209,
+          "end": 221
         }
       ],
       "importKind": "value",
-      "start": 173,
-      "end": 231
+      "start": 167,
+      "end": 223
     },
     {
       "type": "ImportDeclaration",
@@ -248,19 +248,19 @@ __ESTREE_TEST__:AST:
             "name": "thing5",
             "optional": false,
             "typeAnnotation": null,
-            "start": 245,
-            "end": 251
+            "start": 237,
+            "end": 243
           },
-          "start": 240,
-          "end": 251
+          "start": 232,
+          "end": 243
         }
       ],
       "source": {
         "type": "Literal",
         "value": "./mod.mjs",
         "raw": "\"./mod.mjs\"",
-        "start": 257,
-        "end": 268
+        "start": 249,
+        "end": 260
       },
       "phase": null,
       "attributes": [
@@ -272,8 +272,8 @@ __ESTREE_TEST__:AST:
             "name": "field",
             "optional": false,
             "typeAnnotation": null,
-            "start": 277,
-            "end": 282
+            "start": 267,
+            "end": 272
           },
           "value": {
             "type": "ObjectExpression",
@@ -287,34 +287,34 @@ __ESTREE_TEST__:AST:
                   "name": "a",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 286,
-                  "end": 287
+                  "start": 276,
+                  "end": 277
                 },
                 "value": {
                   "type": "Literal",
                   "value": 0,
                   "raw": "0",
-                  "start": 289,
-                  "end": 290
+                  "start": 279,
+                  "end": 280
                 },
                 "method": false,
                 "shorthand": false,
                 "computed": false,
                 "optional": false,
-                "start": 286,
-                "end": 290
+                "start": 276,
+                "end": 280
               }
             ],
-            "start": 284,
-            "end": 292
+            "start": 274,
+            "end": 282
           },
-          "start": 277,
-          "end": 292
+          "start": 267,
+          "end": 282
         }
       ],
       "importKind": "value",
-      "start": 233,
-      "end": 294
+      "start": 225,
+      "end": 284
     },
     {
       "type": "ImportDeclaration",
@@ -327,19 +327,19 @@ __ESTREE_TEST__:AST:
             "name": "thing6",
             "optional": false,
             "typeAnnotation": null,
-            "start": 308,
-            "end": 314
+            "start": 298,
+            "end": 304
           },
-          "start": 303,
-          "end": 314
+          "start": 293,
+          "end": 304
         }
       ],
       "source": {
         "type": "Literal",
         "value": "./mod.mjs",
         "raw": "\"./mod.mjs\"",
-        "start": 320,
-        "end": 331
+        "start": 310,
+        "end": 321
       },
       "phase": null,
       "attributes": [
@@ -351,18 +351,18 @@ __ESTREE_TEST__:AST:
             "name": "type",
             "optional": false,
             "typeAnnotation": null,
-            "start": 340,
-            "end": 344
+            "start": 328,
+            "end": 332
           },
           "value": {
             "type": "Literal",
             "value": "json",
             "raw": "\"json\"",
-            "start": 346,
-            "end": 352
+            "start": 334,
+            "end": 340
           },
-          "start": 340,
-          "end": 352
+          "start": 328,
+          "end": 340
         },
         {
           "type": "ImportAttribute",
@@ -372,8 +372,8 @@ __ESTREE_TEST__:AST:
             "name": "field",
             "optional": false,
             "typeAnnotation": null,
-            "start": 354,
-            "end": 359
+            "start": 342,
+            "end": 347
           },
           "value": {
             "type": "CallExpression",
@@ -383,8 +383,8 @@ __ESTREE_TEST__:AST:
                 "type": "Literal",
                 "value": 0,
                 "raw": "0.",
-                "start": 361,
-                "end": 363
+                "start": 349,
+                "end": 351
               },
               "property": {
                 "type": "Identifier",
@@ -392,33 +392,33 @@ __ESTREE_TEST__:AST:
                 "name": "toString",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 364,
-                "end": 372
+                "start": 352,
+                "end": 360
               },
               "optional": false,
               "computed": false,
-              "start": 361,
-              "end": 372
+              "start": 349,
+              "end": 360
             },
             "typeArguments": null,
             "arguments": [],
             "optional": false,
-            "start": 361,
-            "end": 374
+            "start": 349,
+            "end": 362
           },
-          "start": 354,
-          "end": 374
+          "start": 342,
+          "end": 362
         }
       ],
       "importKind": "value",
-      "start": 296,
-      "end": 375
+      "start": 286,
+      "end": 363
     }
   ],
   "sourceType": "module",
   "hashbang": null,
   "start": 0,
-  "end": 375
+  "end": 363
 }
 ```
 __ESTREE_TEST__:TOKENS:
@@ -461,184 +461,184 @@ __ESTREE_TEST__:TOKENS:
     "end": 35
   },
   {
-    "type": "Identifier",
-    "value": "assert",
+    "type": "Keyword",
+    "value": "with",
     "start": 36,
-    "end": 42
+    "end": 40
   },
   {
     "type": "Punctuator",
     "value": "{",
-    "start": 43,
-    "end": 44
+    "start": 41,
+    "end": 42
   },
   {
     "type": "Identifier",
     "value": "field",
-    "start": 44,
-    "end": 49
+    "start": 42,
+    "end": 47
   },
   {
     "type": "Punctuator",
     "value": ":",
-    "start": 49,
-    "end": 50
+    "start": 47,
+    "end": 48
   },
   {
     "type": "Numeric",
     "value": "0",
+    "start": 49,
+    "end": 50
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 50,
+    "end": 51
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
     "start": 51,
     "end": 52
   },
   {
-    "type": "Punctuator",
-    "value": "}",
-    "start": 52,
-    "end": 53
-  },
-  {
-    "type": "Punctuator",
-    "value": ";",
-    "start": 53,
-    "end": 54
-  },
-  {
     "type": "Keyword",
     "value": "import",
-    "start": 56,
-    "end": 62
+    "start": 54,
+    "end": 60
   },
   {
     "type": "Punctuator",
     "value": "*",
-    "start": 63,
-    "end": 64
+    "start": 61,
+    "end": 62
   },
   {
     "type": "Identifier",
     "value": "as",
-    "start": 65,
-    "end": 67
+    "start": 63,
+    "end": 65
   },
   {
     "type": "Identifier",
     "value": "thing2",
-    "start": 68,
-    "end": 74
+    "start": 66,
+    "end": 72
   },
   {
     "type": "Identifier",
     "value": "from",
-    "start": 75,
-    "end": 79
+    "start": 73,
+    "end": 77
   },
   {
     "type": "String",
     "value": "\"./mod.mjs\"",
-    "start": 80,
-    "end": 91
+    "start": 78,
+    "end": 89
   },
   {
-    "type": "Identifier",
-    "value": "assert",
-    "start": 92,
-    "end": 98
+    "type": "Keyword",
+    "value": "with",
+    "start": 90,
+    "end": 94
   },
   {
     "type": "Punctuator",
     "value": "{",
-    "start": 99,
-    "end": 100
+    "start": 95,
+    "end": 96
   },
   {
     "type": "Identifier",
     "value": "field",
-    "start": 100,
-    "end": 105
+    "start": 96,
+    "end": 101
   },
   {
     "type": "Punctuator",
     "value": ":",
-    "start": 105,
-    "end": 106
+    "start": 101,
+    "end": 102
   },
   {
     "type": "Template",
     "value": "`a`",
-    "start": 107,
-    "end": 110
+    "start": 103,
+    "end": 106
   },
   {
     "type": "Punctuator",
     "value": "}",
-    "start": 110,
-    "end": 111
+    "start": 106,
+    "end": 107
   },
   {
     "type": "Punctuator",
     "value": ";",
-    "start": 111,
-    "end": 112
+    "start": 107,
+    "end": 108
   },
   {
     "type": "Keyword",
     "value": "import",
-    "start": 114,
-    "end": 120
+    "start": 110,
+    "end": 116
   },
   {
     "type": "Punctuator",
     "value": "*",
-    "start": 121,
-    "end": 122
+    "start": 117,
+    "end": 118
   },
   {
     "type": "Identifier",
     "value": "as",
-    "start": 123,
-    "end": 125
+    "start": 119,
+    "end": 121
   },
   {
     "type": "Identifier",
     "value": "thing3",
-    "start": 126,
-    "end": 132
+    "start": 122,
+    "end": 128
   },
   {
     "type": "Identifier",
     "value": "from",
-    "start": 133,
-    "end": 137
+    "start": 129,
+    "end": 133
   },
   {
     "type": "String",
     "value": "\"./mod.mjs\"",
-    "start": 138,
-    "end": 149
+    "start": 134,
+    "end": 145
   },
   {
-    "type": "Identifier",
-    "value": "assert",
-    "start": 150,
-    "end": 156
+    "type": "Keyword",
+    "value": "with",
+    "start": 146,
+    "end": 150
   },
   {
     "type": "Punctuator",
     "value": "{",
-    "start": 157,
-    "end": 158
+    "start": 151,
+    "end": 152
   },
   {
     "type": "Identifier",
     "value": "field",
-    "start": 158,
-    "end": 163
+    "start": 152,
+    "end": 157
   },
   {
     "type": "Punctuator",
     "value": ":",
-    "start": 163,
-    "end": 164
+    "start": 157,
+    "end": 158
   },
   {
     "type": "RegularExpression",
@@ -647,332 +647,332 @@ __ESTREE_TEST__:TOKENS:
       "flags": "g",
       "pattern": "a"
     },
-    "start": 165,
-    "end": 169
+    "start": 159,
+    "end": 163
   },
   {
     "type": "Punctuator",
     "value": "}",
-    "start": 169,
-    "end": 170
+    "start": 163,
+    "end": 164
   },
   {
     "type": "Punctuator",
     "value": ";",
-    "start": 170,
-    "end": 171
+    "start": 164,
+    "end": 165
   },
   {
     "type": "Keyword",
     "value": "import",
-    "start": 173,
-    "end": 179
+    "start": 167,
+    "end": 173
   },
   {
     "type": "Punctuator",
     "value": "*",
-    "start": 180,
-    "end": 181
+    "start": 174,
+    "end": 175
   },
   {
     "type": "Identifier",
     "value": "as",
-    "start": 182,
-    "end": 184
+    "start": 176,
+    "end": 178
   },
   {
     "type": "Identifier",
     "value": "thing4",
-    "start": 185,
-    "end": 191
+    "start": 179,
+    "end": 185
   },
   {
     "type": "Identifier",
     "value": "from",
-    "start": 192,
-    "end": 196
+    "start": 186,
+    "end": 190
   },
   {
     "type": "String",
     "value": "\"./mod.mjs\"",
-    "start": 197,
-    "end": 208
+    "start": 191,
+    "end": 202
+  },
+  {
+    "type": "Keyword",
+    "value": "with",
+    "start": 203,
+    "end": 207
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 208,
+    "end": 209
   },
   {
     "type": "Identifier",
-    "value": "assert",
+    "value": "field",
     "start": 209,
+    "end": 214
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 214,
     "end": 215
   },
   {
     "type": "Punctuator",
-    "value": "{",
+    "value": "[",
     "start": 216,
     "end": 217
   },
   {
-    "type": "Identifier",
-    "value": "field",
-    "start": 217,
-    "end": 222
-  },
-  {
-    "type": "Punctuator",
-    "value": ":",
-    "start": 222,
-    "end": 223
-  },
-  {
-    "type": "Punctuator",
-    "value": "[",
-    "start": 224,
-    "end": 225
-  },
-  {
     "type": "String",
     "value": "\"a\"",
-    "start": 225,
-    "end": 228
+    "start": 217,
+    "end": 220
   },
   {
     "type": "Punctuator",
     "value": "]",
-    "start": 228,
-    "end": 229
+    "start": 220,
+    "end": 221
   },
   {
     "type": "Punctuator",
     "value": "}",
-    "start": 229,
-    "end": 230
+    "start": 221,
+    "end": 222
   },
   {
     "type": "Punctuator",
     "value": ";",
-    "start": 230,
-    "end": 231
+    "start": 222,
+    "end": 223
   },
   {
     "type": "Keyword",
     "value": "import",
-    "start": 233,
-    "end": 239
+    "start": 225,
+    "end": 231
   },
   {
     "type": "Punctuator",
     "value": "*",
-    "start": 240,
-    "end": 241
+    "start": 232,
+    "end": 233
   },
   {
     "type": "Identifier",
     "value": "as",
-    "start": 242,
-    "end": 244
+    "start": 234,
+    "end": 236
   },
   {
     "type": "Identifier",
     "value": "thing5",
-    "start": 245,
-    "end": 251
+    "start": 237,
+    "end": 243
   },
   {
     "type": "Identifier",
     "value": "from",
-    "start": 252,
-    "end": 256
+    "start": 244,
+    "end": 248
   },
   {
     "type": "String",
     "value": "\"./mod.mjs\"",
-    "start": 257,
-    "end": 268
+    "start": 249,
+    "end": 260
   },
   {
-    "type": "Identifier",
-    "value": "assert",
-    "start": 269,
-    "end": 275
+    "type": "Keyword",
+    "value": "with",
+    "start": 261,
+    "end": 265
   },
   {
     "type": "Punctuator",
     "value": "{",
-    "start": 276,
-    "end": 277
+    "start": 266,
+    "end": 267
   },
   {
     "type": "Identifier",
     "value": "field",
-    "start": 277,
-    "end": 282
+    "start": 267,
+    "end": 272
   },
   {
     "type": "Punctuator",
     "value": ":",
+    "start": 272,
+    "end": 273
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 274,
+    "end": 275
+  },
+  {
+    "type": "Identifier",
+    "value": "a",
+    "start": 276,
+    "end": 277
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 277,
+    "end": 278
+  },
+  {
+    "type": "Numeric",
+    "value": "0",
+    "start": 279,
+    "end": 280
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 281,
+    "end": 282
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
     "start": 282,
     "end": 283
   },
   {
     "type": "Punctuator",
-    "value": "{",
-    "start": 284,
-    "end": 285
-  },
-  {
-    "type": "Identifier",
-    "value": "a",
-    "start": 286,
-    "end": 287
-  },
-  {
-    "type": "Punctuator",
-    "value": ":",
-    "start": 287,
-    "end": 288
-  },
-  {
-    "type": "Numeric",
-    "value": "0",
-    "start": 289,
-    "end": 290
-  },
-  {
-    "type": "Punctuator",
-    "value": "}",
-    "start": 291,
-    "end": 292
-  },
-  {
-    "type": "Punctuator",
-    "value": "}",
-    "start": 292,
-    "end": 293
-  },
-  {
-    "type": "Punctuator",
     "value": ";",
-    "start": 293,
-    "end": 294
+    "start": 283,
+    "end": 284
   },
   {
     "type": "Keyword",
     "value": "import",
-    "start": 296,
-    "end": 302
+    "start": 286,
+    "end": 292
   },
   {
     "type": "Punctuator",
     "value": "*",
-    "start": 303,
-    "end": 304
+    "start": 293,
+    "end": 294
   },
   {
     "type": "Identifier",
     "value": "as",
-    "start": 305,
-    "end": 307
+    "start": 295,
+    "end": 297
   },
   {
     "type": "Identifier",
     "value": "thing6",
-    "start": 308,
-    "end": 314
+    "start": 298,
+    "end": 304
   },
   {
     "type": "Identifier",
     "value": "from",
-    "start": 315,
-    "end": 319
+    "start": 305,
+    "end": 309
   },
   {
     "type": "String",
     "value": "\"./mod.mjs\"",
-    "start": 320,
-    "end": 331
+    "start": 310,
+    "end": 321
   },
   {
-    "type": "Identifier",
-    "value": "assert",
-    "start": 332,
-    "end": 338
+    "type": "Keyword",
+    "value": "with",
+    "start": 322,
+    "end": 326
   },
   {
     "type": "Punctuator",
     "value": "{",
-    "start": 339,
-    "end": 340
+    "start": 327,
+    "end": 328
   },
   {
     "type": "Identifier",
     "value": "type",
-    "start": 340,
-    "end": 344
+    "start": 328,
+    "end": 332
   },
   {
     "type": "Punctuator",
     "value": ":",
-    "start": 344,
-    "end": 345
+    "start": 332,
+    "end": 333
   },
   {
     "type": "String",
     "value": "\"json\"",
-    "start": 346,
-    "end": 352
+    "start": 334,
+    "end": 340
   },
   {
     "type": "Punctuator",
     "value": ",",
-    "start": 352,
-    "end": 353
+    "start": 340,
+    "end": 341
   },
   {
     "type": "Identifier",
     "value": "field",
-    "start": 354,
-    "end": 359
+    "start": 342,
+    "end": 347
   },
   {
     "type": "Punctuator",
     "value": ":",
-    "start": 359,
-    "end": 360
+    "start": 347,
+    "end": 348
   },
   {
     "type": "Numeric",
     "value": "0.",
-    "start": 361,
-    "end": 363
+    "start": 349,
+    "end": 351
   },
   {
     "type": "Punctuator",
     "value": ".",
-    "start": 363,
-    "end": 364
+    "start": 351,
+    "end": 352
   },
   {
     "type": "Identifier",
     "value": "toString",
-    "start": 364,
-    "end": 372
+    "start": 352,
+    "end": 360
   },
   {
     "type": "Punctuator",
     "value": "(",
-    "start": 372,
-    "end": 373
+    "start": 360,
+    "end": 361
   },
   {
     "type": "Punctuator",
     "value": ")",
-    "start": 373,
-    "end": 374
+    "start": 361,
+    "end": 362
   },
   {
     "type": "Punctuator",
     "value": "}",
-    "start": 374,
-    "end": 375
+    "start": 362,
+    "end": 363
   }
 ]
 ```

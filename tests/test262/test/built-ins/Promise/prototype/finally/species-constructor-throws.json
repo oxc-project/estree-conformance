@@ -1,0 +1,158 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 774,
+            "end": 780
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "throws",
+            "start": 781,
+            "end": 787
+          },
+          "optional": false,
+          "computed": false,
+          "start": 774,
+          "end": 787
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "name": "TypeError",
+            "start": 788,
+            "end": 797
+          },
+          {
+            "type": "FunctionExpression",
+            "id": null,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "expression": {
+                    "type": "CallExpression",
+                    "callee": {
+                      "type": "MemberExpression",
+                      "object": {
+                        "type": "MemberExpression",
+                        "object": {
+                          "type": "MemberExpression",
+                          "object": {
+                            "type": "Identifier",
+                            "name": "Promise",
+                            "start": 817,
+                            "end": 824
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "name": "prototype",
+                            "start": 825,
+                            "end": 834
+                          },
+                          "optional": false,
+                          "computed": false,
+                          "start": 817,
+                          "end": 834
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "name": "finally",
+                          "start": 835,
+                          "end": 842
+                        },
+                        "optional": false,
+                        "computed": false,
+                        "start": 817,
+                        "end": 842
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "name": "call",
+                        "start": 843,
+                        "end": 847
+                      },
+                      "optional": false,
+                      "computed": false,
+                      "start": 817,
+                      "end": 847
+                    },
+                    "arguments": [
+                      {
+                        "type": "ObjectExpression",
+                        "properties": [
+                          {
+                            "type": "Property",
+                            "kind": "init",
+                            "key": {
+                              "type": "Identifier",
+                              "name": "constructor",
+                              "start": 849,
+                              "end": 860
+                            },
+                            "value": {
+                              "type": "Literal",
+                              "value": 0,
+                              "raw": "0",
+                              "start": 863,
+                              "end": 864
+                            },
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false,
+                            "start": 849,
+                            "end": 864
+                          }
+                        ],
+                        "start": 848,
+                        "end": 865
+                      }
+                    ],
+                    "optional": false,
+                    "start": 817,
+                    "end": 866
+                  },
+                  "start": 817,
+                  "end": 866
+                }
+              ],
+              "start": 811,
+              "end": 868
+            },
+            "expression": false,
+            "start": 799,
+            "end": 868
+          },
+          {
+            "type": "Literal",
+            "value": "SpeciesConstructor throws a TypeError if the constructor property is not an object.",
+            "raw": "\"SpeciesConstructor throws a TypeError if the constructor property is not an object.\"",
+            "start": 870,
+            "end": 955
+          }
+        ],
+        "optional": false,
+        "start": 774,
+        "end": 956
+      },
+      "start": 774,
+      "end": 956
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 957
+}

@@ -1,0 +1,142 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 512,
+            "end": 518
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "throws",
+            "start": 519,
+            "end": 525
+          },
+          "optional": false,
+          "computed": false,
+          "start": 512,
+          "end": 525
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "name": "TypeError",
+            "start": 526,
+            "end": 535
+          },
+          {
+            "type": "FunctionExpression",
+            "id": null,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "expression": {
+                    "type": "CallExpression",
+                    "callee": {
+                      "type": "MemberExpression",
+                      "object": {
+                        "type": "MemberExpression",
+                        "object": {
+                          "type": "MemberExpression",
+                          "object": {
+                            "type": "Identifier",
+                            "name": "String",
+                            "start": 555,
+                            "end": 561
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "name": "prototype",
+                            "start": 562,
+                            "end": 571
+                          },
+                          "optional": false,
+                          "computed": false,
+                          "start": 555,
+                          "end": 571
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "name": "toLowerCase",
+                          "start": 572,
+                          "end": 583
+                        },
+                        "optional": false,
+                        "computed": false,
+                        "start": 555,
+                        "end": 583
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "name": "call",
+                        "start": 584,
+                        "end": 588
+                      },
+                      "optional": false,
+                      "computed": false,
+                      "start": 555,
+                      "end": 588
+                    },
+                    "arguments": [
+                      {
+                        "type": "CallExpression",
+                        "callee": {
+                          "type": "Identifier",
+                          "name": "Symbol",
+                          "start": 589,
+                          "end": 595
+                        },
+                        "arguments": [],
+                        "optional": false,
+                        "start": 589,
+                        "end": 597
+                      }
+                    ],
+                    "optional": false,
+                    "start": 555,
+                    "end": 598
+                  },
+                  "start": 555,
+                  "end": 598
+                }
+              ],
+              "start": 549,
+              "end": 600
+            },
+            "expression": false,
+            "start": 537,
+            "end": 600
+          },
+          {
+            "type": "Literal",
+            "value": "If this value is a Symbol, String.prototype.toLowerCase should throw a TypeError",
+            "raw": "\"If this value is a Symbol, String.prototype.toLowerCase should throw a TypeError\"",
+            "start": 602,
+            "end": 684
+          }
+        ],
+        "optional": false,
+        "start": 512,
+        "end": 685
+      },
+      "start": 512,
+      "end": 685
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 686
+}

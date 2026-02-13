@@ -1,0 +1,178 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 494,
+            "end": 500
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "throws",
+            "start": 501,
+            "end": 507
+          },
+          "optional": false,
+          "computed": false,
+          "start": 494,
+          "end": 507
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "name": "TypeError",
+            "start": 508,
+            "end": 517
+          },
+          {
+            "type": "FunctionExpression",
+            "id": null,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "expression": {
+                    "type": "CallExpression",
+                    "callee": {
+                      "type": "MemberExpression",
+                      "object": {
+                        "type": "MemberExpression",
+                        "object": {
+                          "type": "MemberExpression",
+                          "object": {
+                            "type": "Identifier",
+                            "name": "String",
+                            "start": 537,
+                            "end": 543
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "name": "prototype",
+                            "start": 544,
+                            "end": 553
+                          },
+                          "optional": false,
+                          "computed": false,
+                          "start": 537,
+                          "end": 553
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "name": "slice",
+                          "start": 554,
+                          "end": 559
+                        },
+                        "optional": false,
+                        "computed": false,
+                        "start": 537,
+                        "end": 559
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "name": "call",
+                        "start": 560,
+                        "end": 564
+                      },
+                      "optional": false,
+                      "computed": false,
+                      "start": 537,
+                      "end": 564
+                    },
+                    "arguments": [
+                      {
+                        "type": "ObjectExpression",
+                        "properties": [
+                          {
+                            "type": "Property",
+                            "kind": "init",
+                            "key": {
+                              "type": "Identifier",
+                              "name": "toString",
+                              "start": 566,
+                              "end": 574
+                            },
+                            "value": {
+                              "type": "Identifier",
+                              "name": "undefined",
+                              "start": 576,
+                              "end": 585
+                            },
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false,
+                            "start": 566,
+                            "end": 585
+                          },
+                          {
+                            "type": "Property",
+                            "kind": "init",
+                            "key": {
+                              "type": "Identifier",
+                              "name": "valueOf",
+                              "start": 587,
+                              "end": 594
+                            },
+                            "value": {
+                              "type": "Identifier",
+                              "name": "undefined",
+                              "start": 596,
+                              "end": 605
+                            },
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false,
+                            "start": 587,
+                            "end": 605
+                          }
+                        ],
+                        "start": 565,
+                        "end": 606
+                      }
+                    ],
+                    "optional": false,
+                    "start": 537,
+                    "end": 607
+                  },
+                  "start": 537,
+                  "end": 607
+                }
+              ],
+              "start": 531,
+              "end": 609
+            },
+            "expression": false,
+            "start": 519,
+            "end": 609
+          },
+          {
+            "type": "Literal",
+            "value": "String.prototype.slice throws in its toprimitive step.",
+            "raw": "\"String.prototype.slice throws in its toprimitive step.\"",
+            "start": 611,
+            "end": 667
+          }
+        ],
+        "optional": false,
+        "start": 494,
+        "end": 668
+      },
+      "start": 494,
+      "end": 668
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 669
+}

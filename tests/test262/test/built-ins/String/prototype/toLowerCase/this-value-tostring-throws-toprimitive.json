@@ -1,0 +1,178 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 497,
+            "end": 503
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "throws",
+            "start": 504,
+            "end": 510
+          },
+          "optional": false,
+          "computed": false,
+          "start": 497,
+          "end": 510
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "name": "TypeError",
+            "start": 511,
+            "end": 520
+          },
+          {
+            "type": "FunctionExpression",
+            "id": null,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "expression": {
+                    "type": "CallExpression",
+                    "callee": {
+                      "type": "MemberExpression",
+                      "object": {
+                        "type": "MemberExpression",
+                        "object": {
+                          "type": "MemberExpression",
+                          "object": {
+                            "type": "Identifier",
+                            "name": "String",
+                            "start": 540,
+                            "end": 546
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "name": "prototype",
+                            "start": 547,
+                            "end": 556
+                          },
+                          "optional": false,
+                          "computed": false,
+                          "start": 540,
+                          "end": 556
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "name": "toLowerCase",
+                          "start": 557,
+                          "end": 568
+                        },
+                        "optional": false,
+                        "computed": false,
+                        "start": 540,
+                        "end": 568
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "name": "call",
+                        "start": 569,
+                        "end": 573
+                      },
+                      "optional": false,
+                      "computed": false,
+                      "start": 540,
+                      "end": 573
+                    },
+                    "arguments": [
+                      {
+                        "type": "ObjectExpression",
+                        "properties": [
+                          {
+                            "type": "Property",
+                            "kind": "init",
+                            "key": {
+                              "type": "Identifier",
+                              "name": "toString",
+                              "start": 575,
+                              "end": 583
+                            },
+                            "value": {
+                              "type": "Identifier",
+                              "name": "undefined",
+                              "start": 585,
+                              "end": 594
+                            },
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false,
+                            "start": 575,
+                            "end": 594
+                          },
+                          {
+                            "type": "Property",
+                            "kind": "init",
+                            "key": {
+                              "type": "Identifier",
+                              "name": "valueOf",
+                              "start": 596,
+                              "end": 603
+                            },
+                            "value": {
+                              "type": "Identifier",
+                              "name": "undefined",
+                              "start": 605,
+                              "end": 614
+                            },
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false,
+                            "start": 596,
+                            "end": 614
+                          }
+                        ],
+                        "start": 574,
+                        "end": 615
+                      }
+                    ],
+                    "optional": false,
+                    "start": 540,
+                    "end": 616
+                  },
+                  "start": 540,
+                  "end": 616
+                }
+              ],
+              "start": 534,
+              "end": 618
+            },
+            "expression": false,
+            "start": 522,
+            "end": 618
+          },
+          {
+            "type": "Literal",
+            "value": "String.prototype.toLowerCase throws in its toprimitive step.",
+            "raw": "\"String.prototype.toLowerCase throws in its toprimitive step.\"",
+            "start": 620,
+            "end": 682
+          }
+        ],
+        "optional": false,
+        "start": 497,
+        "end": 683
+      },
+      "start": 497,
+      "end": 683
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 684
+}

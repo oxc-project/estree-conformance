@@ -1,0 +1,175 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 798,
+            "end": 804
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "throws",
+            "start": 805,
+            "end": 811
+          },
+          "optional": false,
+          "computed": false,
+          "start": 798,
+          "end": 811
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "name": "TypeError",
+            "start": 812,
+            "end": 821
+          },
+          {
+            "type": "FunctionExpression",
+            "id": null,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "expression": {
+                    "type": "CallExpression",
+                    "callee": {
+                      "type": "MemberExpression",
+                      "object": {
+                        "type": "MemberExpression",
+                        "object": {
+                          "type": "MemberExpression",
+                          "object": {
+                            "type": "Identifier",
+                            "name": "Array",
+                            "start": 841,
+                            "end": 846
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "name": "prototype",
+                            "start": 847,
+                            "end": 856
+                          },
+                          "optional": false,
+                          "computed": false,
+                          "start": 841,
+                          "end": 856
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "name": "unshift",
+                          "start": 857,
+                          "end": 864
+                        },
+                        "optional": false,
+                        "computed": false,
+                        "start": 841,
+                        "end": 864
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "name": "call",
+                        "start": 865,
+                        "end": 869
+                      },
+                      "optional": false,
+                      "computed": false,
+                      "start": 841,
+                      "end": 869
+                    },
+                    "arguments": [
+                      {
+                        "type": "ObjectExpression",
+                        "properties": [
+                          {
+                            "type": "Property",
+                            "kind": "get",
+                            "key": {
+                              "type": "Literal",
+                              "value": 0,
+                              "raw": "0",
+                              "start": 875,
+                              "end": 876
+                            },
+                            "value": {
+                              "type": "FunctionExpression",
+                              "id": null,
+                              "generator": false,
+                              "async": false,
+                              "params": [],
+                              "body": {
+                                "type": "BlockStatement",
+                                "body": [],
+                                "start": 880,
+                                "end": 882
+                              },
+                              "expression": false,
+                              "start": 877,
+                              "end": 882
+                            },
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false,
+                            "start": 871,
+                            "end": 882
+                          }
+                        ],
+                        "start": 870,
+                        "end": 883
+                      },
+                      {
+                        "type": "Literal",
+                        "value": 0,
+                        "raw": "0",
+                        "start": 885,
+                        "end": 886
+                      }
+                    ],
+                    "optional": false,
+                    "start": 841,
+                    "end": 887
+                  },
+                  "start": 841,
+                  "end": 887
+                }
+              ],
+              "start": 835,
+              "end": 889
+            },
+            "expression": false,
+            "start": 823,
+            "end": 889
+          },
+          {
+            "type": "Literal",
+            "value": "Array.prototype.unshift throws TypeError when a property is read-only.",
+            "raw": "\"Array.prototype.unshift throws TypeError when a property is read-only.\"",
+            "start": 891,
+            "end": 963
+          }
+        ],
+        "optional": false,
+        "start": 798,
+        "end": 964
+      },
+      "start": 798,
+      "end": 964
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 965
+}

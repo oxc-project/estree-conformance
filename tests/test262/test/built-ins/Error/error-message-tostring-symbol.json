@@ -1,0 +1,103 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 487,
+            "end": 493
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "throws",
+            "start": 494,
+            "end": 500
+          },
+          "optional": false,
+          "computed": false,
+          "start": 487,
+          "end": 500
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "name": "TypeError",
+            "start": 501,
+            "end": 510
+          },
+          {
+            "type": "FunctionExpression",
+            "id": null,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "expression": {
+                    "type": "CallExpression",
+                    "callee": {
+                      "type": "Identifier",
+                      "name": "Error",
+                      "start": 530,
+                      "end": 535
+                    },
+                    "arguments": [
+                      {
+                        "type": "CallExpression",
+                        "callee": {
+                          "type": "Identifier",
+                          "name": "Symbol",
+                          "start": 536,
+                          "end": 542
+                        },
+                        "arguments": [],
+                        "optional": false,
+                        "start": 536,
+                        "end": 544
+                      }
+                    ],
+                    "optional": false,
+                    "start": 530,
+                    "end": 545
+                  },
+                  "start": 530,
+                  "end": 545
+                }
+              ],
+              "start": 524,
+              "end": 547
+            },
+            "expression": false,
+            "start": 512,
+            "end": 547
+          },
+          {
+            "type": "Literal",
+            "value": "If _message_ is a Symbol, Error must throw TypeError",
+            "raw": "\"If _message_ is a Symbol, Error must throw TypeError\"",
+            "start": 549,
+            "end": 603
+          }
+        ],
+        "optional": false,
+        "start": 487,
+        "end": 604
+      },
+      "start": 487,
+      "end": 605
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 606
+}
