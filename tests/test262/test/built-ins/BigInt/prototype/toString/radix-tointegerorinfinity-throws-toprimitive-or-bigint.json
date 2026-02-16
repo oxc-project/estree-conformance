@@ -1,0 +1,295 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 748,
+            "end": 754
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "throws",
+            "start": 755,
+            "end": 761
+          },
+          "optional": false,
+          "computed": false,
+          "start": 748,
+          "end": 761
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "name": "TypeError",
+            "start": 762,
+            "end": 771
+          },
+          {
+            "type": "FunctionExpression",
+            "id": null,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "expression": {
+                    "type": "CallExpression",
+                    "callee": {
+                      "type": "MemberExpression",
+                      "object": {
+                        "type": "ParenthesizedExpression",
+                        "expression": {
+                          "type": "Literal",
+                          "value": null,
+                          "raw": "0n",
+                          "bigint": "0",
+                          "start": 791,
+                          "end": 793
+                        },
+                        "start": 790,
+                        "end": 794
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "name": "toString",
+                        "start": 795,
+                        "end": 803
+                      },
+                      "optional": false,
+                      "computed": false,
+                      "start": 790,
+                      "end": 803
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "value": null,
+                        "raw": "0n",
+                        "bigint": "0",
+                        "start": 804,
+                        "end": 806
+                      }
+                    ],
+                    "optional": false,
+                    "start": 790,
+                    "end": 807
+                  },
+                  "start": 790,
+                  "end": 808
+                }
+              ],
+              "start": 784,
+              "end": 810
+            },
+            "expression": false,
+            "start": 773,
+            "end": 810
+          },
+          {
+            "type": "Literal",
+            "value": "If _radix_ is BigInt, BigInt.prototype.toString must throw a TypeError",
+            "raw": "\"If _radix_ is BigInt, BigInt.prototype.toString must throw a TypeError\"",
+            "start": 812,
+            "end": 884
+          }
+        ],
+        "optional": false,
+        "start": 748,
+        "end": 885
+      },
+      "start": 748,
+      "end": 885
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 898,
+            "end": 904
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "throws",
+            "start": 905,
+            "end": 911
+          },
+          "optional": false,
+          "computed": false,
+          "start": 898,
+          "end": 911
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "name": "TypeError",
+            "start": 912,
+            "end": 921
+          },
+          {
+            "type": "FunctionExpression",
+            "id": null,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "expression": {
+                    "type": "CallExpression",
+                    "callee": {
+                      "type": "MemberExpression",
+                      "object": {
+                        "type": "MemberExpression",
+                        "object": {
+                          "type": "MemberExpression",
+                          "object": {
+                            "type": "Identifier",
+                            "name": "BigInt",
+                            "start": 940,
+                            "end": 946
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "name": "prototype",
+                            "start": 947,
+                            "end": 956
+                          },
+                          "optional": false,
+                          "computed": false,
+                          "start": 940,
+                          "end": 956
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "name": "toString",
+                          "start": 957,
+                          "end": 965
+                        },
+                        "optional": false,
+                        "computed": false,
+                        "start": 940,
+                        "end": 965
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "name": "call",
+                        "start": 966,
+                        "end": 970
+                      },
+                      "optional": false,
+                      "computed": false,
+                      "start": 940,
+                      "end": 970
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "value": null,
+                        "raw": "10n",
+                        "bigint": "10",
+                        "start": 971,
+                        "end": 974
+                      },
+                      {
+                        "type": "ObjectExpression",
+                        "properties": [
+                          {
+                            "type": "Property",
+                            "kind": "init",
+                            "key": {
+                              "type": "Identifier",
+                              "name": "valueOf",
+                              "start": 977,
+                              "end": 984
+                            },
+                            "value": {
+                              "type": "Identifier",
+                              "name": "undefined",
+                              "start": 986,
+                              "end": 995
+                            },
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false,
+                            "start": 977,
+                            "end": 995
+                          },
+                          {
+                            "type": "Property",
+                            "kind": "init",
+                            "key": {
+                              "type": "Identifier",
+                              "name": "toString",
+                              "start": 997,
+                              "end": 1005
+                            },
+                            "value": {
+                              "type": "Identifier",
+                              "name": "undefined",
+                              "start": 1007,
+                              "end": 1016
+                            },
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false,
+                            "start": 997,
+                            "end": 1016
+                          }
+                        ],
+                        "start": 976,
+                        "end": 1017
+                      }
+                    ],
+                    "optional": false,
+                    "start": 940,
+                    "end": 1018
+                  },
+                  "start": 940,
+                  "end": 1018
+                }
+              ],
+              "start": 934,
+              "end": 1020
+            },
+            "expression": false,
+            "start": 923,
+            "end": 1020
+          },
+          {
+            "type": "Literal",
+            "value": "TypeError is thrown when _radix_ cannot be converted to a primitive",
+            "raw": "\"TypeError is thrown when _radix_ cannot be converted to a primitive\"",
+            "start": 1022,
+            "end": 1091
+          }
+        ],
+        "optional": false,
+        "start": 898,
+        "end": 1092
+      },
+      "start": 898,
+      "end": 1092
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 1093
+}

@@ -1978,18 +1978,39 @@
             "expression": false,
             "start": 741,
             "end": 2517
+          },
+          {
+            "type": "Literal",
+            "value": null,
+            "raw": "null",
+            "start": 2519,
+            "end": 2523
+          },
+          {
+            "type": "ArrayExpression",
+            "elements": [
+              {
+                "type": "Literal",
+                "value": "passthrough",
+                "raw": "\"passthrough\"",
+                "start": 2526,
+                "end": 2539
+              }
+            ],
+            "start": 2525,
+            "end": 2540
           }
         ],
         "optional": false,
         "start": 710,
-        "end": 2518
+        "end": 2541
       },
       "start": 710,
-      "end": 2519
+      "end": 2542
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 2520
+  "end": 2543
 }

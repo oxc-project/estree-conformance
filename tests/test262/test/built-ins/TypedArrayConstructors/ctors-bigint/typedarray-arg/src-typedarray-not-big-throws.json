@@ -10,16 +10,16 @@
           "id": {
             "type": "Identifier",
             "name": "notBigTypedArray",
-            "start": 747,
-            "end": 763
+            "start": 741,
+            "end": 757
           },
           "init": null,
-          "start": 747,
-          "end": 763
+          "start": 741,
+          "end": 757
         }
       ],
-      "start": 743,
-      "end": 764
+      "start": 737,
+      "end": 758
     },
     {
       "type": "ExpressionStatement",
@@ -28,8 +28,8 @@
         "callee": {
           "type": "Identifier",
           "name": "testWithTypedArrayConstructors",
-          "start": 766,
-          "end": 796
+          "start": 760,
+          "end": 790
         },
         "arguments": [
           {
@@ -41,8 +41,14 @@
               {
                 "type": "Identifier",
                 "name": "TA",
-                "start": 806,
-                "end": 808
+                "start": 800,
+                "end": 802
+              },
+              {
+                "type": "Identifier",
+                "name": "makeCtorArg",
+                "start": 804,
+                "end": 815
               }
             ],
             "body": {
@@ -56,34 +62,48 @@
                     "left": {
                       "type": "Identifier",
                       "name": "notBigTypedArray",
-                      "start": 815,
-                      "end": 831
+                      "start": 822,
+                      "end": 838
                     },
                     "right": {
                       "type": "NewExpression",
                       "callee": {
                         "type": "Identifier",
                         "name": "TA",
-                        "start": 838,
-                        "end": 840
+                        "start": 845,
+                        "end": 847
                       },
                       "arguments": [
                         {
-                          "type": "Literal",
-                          "value": 16,
-                          "raw": "16",
-                          "start": 841,
-                          "end": 843
+                          "type": "CallExpression",
+                          "callee": {
+                            "type": "Identifier",
+                            "name": "makeCtorArg",
+                            "start": 848,
+                            "end": 859
+                          },
+                          "arguments": [
+                            {
+                              "type": "Literal",
+                              "value": 16,
+                              "raw": "16",
+                              "start": 860,
+                              "end": 862
+                            }
+                          ],
+                          "optional": false,
+                          "start": 848,
+                          "end": 863
                         }
                       ],
-                      "start": 834,
-                      "end": 844
+                      "start": 841,
+                      "end": 864
                     },
-                    "start": 815,
-                    "end": 844
+                    "start": 822,
+                    "end": 864
                   },
-                  "start": 815,
-                  "end": 845
+                  "start": 822,
+                  "end": 865
                 },
                 {
                   "type": "ExpressionStatement",
@@ -92,8 +112,8 @@
                     "callee": {
                       "type": "Identifier",
                       "name": "testWithBigIntTypedArrayConstructors",
-                      "start": 849,
-                      "end": 885
+                      "start": 869,
+                      "end": 905
                     },
                     "arguments": [
                       {
@@ -105,8 +125,14 @@
                           {
                             "type": "Identifier",
                             "name": "BTA",
-                            "start": 895,
-                            "end": 898
+                            "start": 915,
+                            "end": 918
+                          },
+                          {
+                            "type": "Identifier",
+                            "name": "makeCtorArg",
+                            "start": 920,
+                            "end": 931
                           }
                         ],
                         "body": {
@@ -121,26 +147,26 @@
                                   "object": {
                                     "type": "Identifier",
                                     "name": "assert",
-                                    "start": 906,
-                                    "end": 912
+                                    "start": 939,
+                                    "end": 945
                                   },
                                   "property": {
                                     "type": "Identifier",
                                     "name": "throws",
-                                    "start": 913,
-                                    "end": 919
+                                    "start": 946,
+                                    "end": 952
                                   },
                                   "optional": false,
                                   "computed": false,
-                                  "start": 906,
-                                  "end": 919
+                                  "start": 939,
+                                  "end": 952
                                 },
                                 "arguments": [
                                   {
                                     "type": "Identifier",
                                     "name": "TypeError",
-                                    "start": 920,
-                                    "end": 929
+                                    "start": 953,
+                                    "end": 962
                                   },
                                   {
                                     "type": "FunctionExpression",
@@ -158,74 +184,74 @@
                                             "callee": {
                                               "type": "Identifier",
                                               "name": "BTA",
-                                              "start": 954,
-                                              "end": 957
+                                              "start": 987,
+                                              "end": 990
                                             },
                                             "arguments": [
                                               {
                                                 "type": "Identifier",
                                                 "name": "notBigTypedArray",
-                                                "start": 958,
-                                                "end": 974
+                                                "start": 991,
+                                                "end": 1007
                                               }
                                             ],
-                                            "start": 950,
-                                            "end": 975
+                                            "start": 983,
+                                            "end": 1008
                                           },
-                                          "start": 950,
-                                          "end": 976
+                                          "start": 983,
+                                          "end": 1009
                                         }
                                       ],
-                                      "start": 942,
-                                      "end": 982
+                                      "start": 975,
+                                      "end": 1015
                                     },
                                     "expression": false,
-                                    "start": 931,
-                                    "end": 982
+                                    "start": 964,
+                                    "end": 1015
                                   }
                                 ],
                                 "optional": false,
-                                "start": 906,
-                                "end": 983
+                                "start": 939,
+                                "end": 1016
                               },
-                              "start": 906,
-                              "end": 984
+                              "start": 939,
+                              "end": 1017
                             }
                           ],
-                          "start": 900,
-                          "end": 988
+                          "start": 933,
+                          "end": 1021
                         },
                         "expression": false,
-                        "start": 886,
-                        "end": 988
+                        "start": 906,
+                        "end": 1021
                       }
                     ],
                     "optional": false,
-                    "start": 849,
-                    "end": 989
+                    "start": 869,
+                    "end": 1022
                   },
-                  "start": 849,
-                  "end": 990
+                  "start": 869,
+                  "end": 1023
                 }
               ],
-              "start": 810,
-              "end": 993
+              "start": 817,
+              "end": 1026
             },
             "expression": false,
-            "start": 797,
-            "end": 993
+            "start": 791,
+            "end": 1026
           }
         ],
         "optional": false,
-        "start": 766,
-        "end": 994
+        "start": 760,
+        "end": 1027
       },
-      "start": 766,
-      "end": 995
+      "start": 760,
+      "end": 1028
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 996
+  "end": 1029
 }

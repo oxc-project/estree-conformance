@@ -10,34 +10,34 @@
           "id": {
             "type": "Identifier",
             "name": "TypedArrayPrototype",
-            "start": 504,
-            "end": 523
+            "start": 498,
+            "end": 517
           },
           "init": {
             "type": "MemberExpression",
             "object": {
               "type": "Identifier",
               "name": "TypedArray",
-              "start": 526,
-              "end": 536
+              "start": 520,
+              "end": 530
             },
             "property": {
               "type": "Identifier",
               "name": "prototype",
-              "start": 537,
-              "end": 546
+              "start": 531,
+              "end": 540
             },
             "optional": false,
             "computed": false,
-            "start": 526,
-            "end": 546
+            "start": 520,
+            "end": 540
           },
-          "start": 504,
-          "end": 546
+          "start": 498,
+          "end": 540
         }
       ],
-      "start": 500,
-      "end": 547
+      "start": 494,
+      "end": 541
     },
     {
       "type": "VariableDeclaration",
@@ -48,8 +48,8 @@
           "id": {
             "type": "Identifier",
             "name": "getter",
-            "start": 552,
-            "end": 558
+            "start": 546,
+            "end": 552
           },
           "init": {
             "type": "MemberExpression",
@@ -60,68 +60,68 @@
                 "object": {
                   "type": "Identifier",
                   "name": "Object",
-                  "start": 561,
-                  "end": 567
+                  "start": 555,
+                  "end": 561
                 },
                 "property": {
                   "type": "Identifier",
                   "name": "getOwnPropertyDescriptor",
-                  "start": 568,
-                  "end": 592
+                  "start": 562,
+                  "end": 586
                 },
                 "optional": false,
                 "computed": false,
-                "start": 561,
-                "end": 592
+                "start": 555,
+                "end": 586
               },
               "arguments": [
                 {
                   "type": "Identifier",
                   "name": "TypedArrayPrototype",
-                  "start": 596,
-                  "end": 615
+                  "start": 590,
+                  "end": 609
                 },
                 {
                   "type": "MemberExpression",
                   "object": {
                     "type": "Identifier",
                     "name": "Symbol",
-                    "start": 617,
-                    "end": 623
+                    "start": 611,
+                    "end": 617
                   },
                   "property": {
                     "type": "Identifier",
                     "name": "toStringTag",
-                    "start": 624,
-                    "end": 635
+                    "start": 618,
+                    "end": 629
                   },
                   "optional": false,
                   "computed": false,
-                  "start": 617,
-                  "end": 635
+                  "start": 611,
+                  "end": 629
                 }
               ],
               "optional": false,
-              "start": 561,
-              "end": 637
+              "start": 555,
+              "end": 631
             },
             "property": {
               "type": "Identifier",
               "name": "get",
-              "start": 638,
-              "end": 641
+              "start": 632,
+              "end": 635
             },
             "optional": false,
             "computed": false,
-            "start": 561,
-            "end": 641
+            "start": 555,
+            "end": 635
           },
-          "start": 552,
-          "end": 641
+          "start": 546,
+          "end": 635
         }
       ],
-      "start": 548,
-      "end": 642
+      "start": 542,
+      "end": 636
     },
     {
       "type": "ExpressionStatement",
@@ -132,19 +132,19 @@
           "object": {
             "type": "Identifier",
             "name": "assert",
-            "start": 644,
-            "end": 650
+            "start": 638,
+            "end": 644
           },
           "property": {
             "type": "Identifier",
             "name": "sameValue",
-            "start": 651,
-            "end": 660
+            "start": 645,
+            "end": 654
           },
           "optional": false,
           "computed": false,
-          "start": 644,
-          "end": 660
+          "start": 638,
+          "end": 654
         },
         "arguments": [
           {
@@ -152,31 +152,31 @@
             "callee": {
               "type": "Identifier",
               "name": "getter",
-              "start": 661,
-              "end": 667
+              "start": 655,
+              "end": 661
             },
             "arguments": [],
             "optional": false,
-            "start": 661,
-            "end": 669
+            "start": 655,
+            "end": 663
           },
           {
             "type": "Identifier",
             "name": "undefined",
-            "start": 671,
-            "end": 680
+            "start": 665,
+            "end": 674
           }
         ],
         "optional": false,
-        "start": 644,
-        "end": 681
+        "start": 638,
+        "end": 675
       },
-      "start": 644,
-      "end": 682
+      "start": 638,
+      "end": 676
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 683
+  "end": 677
 }

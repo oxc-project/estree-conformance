@@ -301,18 +301,39 @@
             "expression": false,
             "start": 989,
             "end": 1218
+          },
+          {
+            "type": "Literal",
+            "value": null,
+            "raw": "null",
+            "start": 1220,
+            "end": 1224
+          },
+          {
+            "type": "ArrayExpression",
+            "elements": [
+              {
+                "type": "Literal",
+                "value": "passthrough",
+                "raw": "\"passthrough\"",
+                "start": 1227,
+                "end": 1240
+              }
+            ],
+            "start": 1226,
+            "end": 1241
           }
         ],
         "optional": false,
         "start": 958,
-        "end": 1219
+        "end": 1242
       },
       "start": 958,
-      "end": 1220
+      "end": 1243
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 1221
+  "end": 1244
 }

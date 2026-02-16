@@ -327,18 +327,39 @@
             "expression": false,
             "start": 580,
             "end": 919
+          },
+          {
+            "type": "Literal",
+            "value": null,
+            "raw": "null",
+            "start": 921,
+            "end": 925
+          },
+          {
+            "type": "ArrayExpression",
+            "elements": [
+              {
+                "type": "Literal",
+                "value": "passthrough",
+                "raw": "\"passthrough\"",
+                "start": 928,
+                "end": 941
+              }
+            ],
+            "start": 927,
+            "end": 942
           }
         ],
         "optional": false,
         "start": 549,
-        "end": 920
+        "end": 943
       },
       "start": 549,
-      "end": 921
+      "end": 944
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 922
+  "end": 945
 }

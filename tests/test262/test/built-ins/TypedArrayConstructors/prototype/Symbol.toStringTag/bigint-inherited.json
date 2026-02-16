@@ -8,8 +8,8 @@
         "callee": {
           "type": "Identifier",
           "name": "testWithBigIntTypedArrayConstructors",
-          "start": 434,
-          "end": 470
+          "start": 428,
+          "end": 464
         },
         "arguments": [
           {
@@ -21,8 +21,8 @@
               {
                 "type": "Identifier",
                 "name": "TA",
-                "start": 480,
-                "end": 482
+                "start": 474,
+                "end": 476
               }
             ],
             "body": {
@@ -37,19 +37,19 @@
                       "object": {
                         "type": "Identifier",
                         "name": "assert",
-                        "start": 488,
-                        "end": 494
+                        "start": 482,
+                        "end": 488
                       },
                       "property": {
                         "type": "Identifier",
                         "name": "sameValue",
-                        "start": 495,
-                        "end": 504
+                        "start": 489,
+                        "end": 498
                       },
                       "optional": false,
                       "computed": false,
-                      "start": 488,
-                      "end": 504
+                      "start": 482,
+                      "end": 498
                     },
                     "arguments": [
                       {
@@ -61,30 +61,30 @@
                             "object": {
                               "type": "Identifier",
                               "name": "TA",
-                              "start": 505,
-                              "end": 507
+                              "start": 499,
+                              "end": 501
                             },
                             "property": {
                               "type": "Identifier",
                               "name": "prototype",
-                              "start": 508,
-                              "end": 517
+                              "start": 502,
+                              "end": 511
                             },
                             "optional": false,
                             "computed": false,
-                            "start": 505,
-                            "end": 517
+                            "start": 499,
+                            "end": 511
                           },
                           "property": {
                             "type": "Identifier",
                             "name": "hasOwnProperty",
-                            "start": 518,
-                            "end": 532
+                            "start": 512,
+                            "end": 526
                           },
                           "optional": false,
                           "computed": false,
-                          "start": 505,
-                          "end": 532
+                          "start": 499,
+                          "end": 526
                         },
                         "arguments": [
                           {
@@ -92,59 +92,80 @@
                             "object": {
                               "type": "Identifier",
                               "name": "Symbol",
-                              "start": 533,
-                              "end": 539
+                              "start": 527,
+                              "end": 533
                             },
                             "property": {
                               "type": "Identifier",
                               "name": "toStringTag",
-                              "start": 540,
-                              "end": 551
+                              "start": 534,
+                              "end": 545
                             },
                             "optional": false,
                             "computed": false,
-                            "start": 533,
-                            "end": 551
+                            "start": 527,
+                            "end": 545
                           }
                         ],
                         "optional": false,
-                        "start": 505,
-                        "end": 552
+                        "start": 499,
+                        "end": 546
                       },
                       {
                         "type": "Literal",
                         "value": false,
                         "raw": "false",
-                        "start": 554,
-                        "end": 559
+                        "start": 548,
+                        "end": 553
                       }
                     ],
                     "optional": false,
-                    "start": 488,
-                    "end": 560
+                    "start": 482,
+                    "end": 554
                   },
-                  "start": 488,
-                  "end": 561
+                  "start": 482,
+                  "end": 555
                 }
               ],
-              "start": 484,
-              "end": 563
+              "start": 478,
+              "end": 557
             },
             "expression": false,
-            "start": 471,
+            "start": 465,
+            "end": 557
+          },
+          {
+            "type": "Literal",
+            "value": null,
+            "raw": "null",
+            "start": 559,
             "end": 563
+          },
+          {
+            "type": "ArrayExpression",
+            "elements": [
+              {
+                "type": "Literal",
+                "value": "passthrough",
+                "raw": "\"passthrough\"",
+                "start": 566,
+                "end": 579
+              }
+            ],
+            "start": 565,
+            "end": 580
           }
         ],
         "optional": false,
-        "start": 434,
-        "end": 564
+        "start": 428,
+        "end": 581
       },
-      "start": 434,
-      "end": 565
+      "start": 428,
+      "end": 582
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 566
+  "end": 583
 }

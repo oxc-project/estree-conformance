@@ -413,12 +413,6 @@
                 "name": "TA",
                 "start": 1773,
                 "end": 1775
-              },
-              {
-                "type": "Identifier",
-                "name": "N",
-                "start": 1777,
-                "end": 1778
               }
             ],
             "body": {
@@ -433,34 +427,34 @@
                       "id": {
                         "type": "Identifier",
                         "name": "sample",
-                        "start": 1788,
-                        "end": 1794
+                        "start": 1785,
+                        "end": 1791
                       },
                       "init": {
                         "type": "NewExpression",
                         "callee": {
                           "type": "Identifier",
                           "name": "TA",
-                          "start": 1801,
-                          "end": 1803
+                          "start": 1798,
+                          "end": 1800
                         },
                         "arguments": [
                           {
                             "type": "Identifier",
                             "name": "arr",
-                            "start": 1804,
-                            "end": 1807
+                            "start": 1801,
+                            "end": 1804
                           }
                         ],
-                        "start": 1797,
-                        "end": 1808
+                        "start": 1794,
+                        "end": 1805
                       },
-                      "start": 1788,
-                      "end": 1808
+                      "start": 1785,
+                      "end": 1805
                     }
                   ],
-                  "start": 1784,
-                  "end": 1809
+                  "start": 1781,
+                  "end": 1806
                 },
                 {
                   "type": "ExpressionStatement",
@@ -470,21 +464,21 @@
                     "left": {
                       "type": "Identifier",
                       "name": "calls",
-                      "start": 1812,
-                      "end": 1817
+                      "start": 1809,
+                      "end": 1814
                     },
                     "right": {
                       "type": "Literal",
                       "value": 0,
                       "raw": "0",
-                      "start": 1820,
-                      "end": 1821
+                      "start": 1817,
+                      "end": 1818
                     },
-                    "start": 1812,
-                    "end": 1821
+                    "start": 1809,
+                    "end": 1818
                   },
-                  "start": 1812,
-                  "end": 1822
+                  "start": 1809,
+                  "end": 1819
                 },
                 {
                   "type": "ExpressionStatement",
@@ -495,19 +489,19 @@
                       "object": {
                         "type": "Identifier",
                         "name": "assert",
-                        "start": 1825,
-                        "end": 1831
+                        "start": 1822,
+                        "end": 1828
                       },
                       "property": {
                         "type": "Identifier",
                         "name": "sameValue",
-                        "start": 1832,
-                        "end": 1841
+                        "start": 1829,
+                        "end": 1838
                       },
                       "optional": false,
                       "computed": false,
-                      "start": 1825,
-                      "end": 1841
+                      "start": 1822,
+                      "end": 1838
                     },
                     "arguments": [
                       {
@@ -517,45 +511,45 @@
                           "object": {
                             "type": "Identifier",
                             "name": "sample",
-                            "start": 1842,
-                            "end": 1848
+                            "start": 1839,
+                            "end": 1845
                           },
                           "property": {
                             "type": "Identifier",
                             "name": "toLocaleString",
-                            "start": 1849,
-                            "end": 1863
+                            "start": 1846,
+                            "end": 1860
                           },
                           "optional": false,
                           "computed": false,
-                          "start": 1842,
-                          "end": 1863
+                          "start": 1839,
+                          "end": 1860
                         },
                         "arguments": [],
                         "optional": false,
-                        "start": 1842,
-                        "end": 1865
+                        "start": 1839,
+                        "end": 1862
                       },
                       {
                         "type": "Identifier",
                         "name": "expected",
-                        "start": 1867,
-                        "end": 1875
+                        "start": 1864,
+                        "end": 1872
                       },
                       {
                         "type": "Literal",
                         "value": "returns expected value",
                         "raw": "\"returns expected value\"",
-                        "start": 1877,
-                        "end": 1901
+                        "start": 1874,
+                        "end": 1898
                       }
                     ],
                     "optional": false,
-                    "start": 1825,
-                    "end": 1902
+                    "start": 1822,
+                    "end": 1899
                   },
-                  "start": 1825,
-                  "end": 1903
+                  "start": 1822,
+                  "end": 1900
                 },
                 {
                   "type": "ExpressionStatement",
@@ -566,68 +560,89 @@
                       "object": {
                         "type": "Identifier",
                         "name": "assert",
-                        "start": 1906,
-                        "end": 1912
+                        "start": 1903,
+                        "end": 1909
                       },
                       "property": {
                         "type": "Identifier",
                         "name": "sameValue",
-                        "start": 1913,
-                        "end": 1922
+                        "start": 1910,
+                        "end": 1919
                       },
                       "optional": false,
                       "computed": false,
-                      "start": 1906,
-                      "end": 1922
+                      "start": 1903,
+                      "end": 1919
                     },
                     "arguments": [
                       {
                         "type": "Identifier",
                         "name": "calls",
-                        "start": 1923,
-                        "end": 1928
+                        "start": 1920,
+                        "end": 1925
                       },
                       {
                         "type": "Literal",
                         "value": 2,
                         "raw": "2",
-                        "start": 1930,
-                        "end": 1931
+                        "start": 1927,
+                        "end": 1928
                       },
                       {
                         "type": "Literal",
                         "value": "toString called once for each item",
                         "raw": "\"toString called once for each item\"",
-                        "start": 1933,
-                        "end": 1969
+                        "start": 1930,
+                        "end": 1966
                       }
                     ],
                     "optional": false,
-                    "start": 1906,
-                    "end": 1970
+                    "start": 1903,
+                    "end": 1967
                   },
-                  "start": 1906,
-                  "end": 1971
+                  "start": 1903,
+                  "end": 1968
                 }
               ],
-              "start": 1780,
-              "end": 1973
+              "start": 1777,
+              "end": 1970
             },
             "expression": false,
             "start": 1764,
-            "end": 1973
+            "end": 1970
+          },
+          {
+            "type": "Literal",
+            "value": null,
+            "raw": "null",
+            "start": 1972,
+            "end": 1976
+          },
+          {
+            "type": "ArrayExpression",
+            "elements": [
+              {
+                "type": "Literal",
+                "value": "passthrough",
+                "raw": "\"passthrough\"",
+                "start": 1979,
+                "end": 1992
+              }
+            ],
+            "start": 1978,
+            "end": 1993
           }
         ],
         "optional": false,
         "start": 1733,
-        "end": 1974
+        "end": 1994
       },
       "start": 1733,
-      "end": 1975
+      "end": 1995
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 1976
+  "end": 1996
 }
