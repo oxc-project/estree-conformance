@@ -16,7 +16,8 @@ export function parseEspreeTokens(code, isModule, jsx) {
       ecmaVersion: "latest",
       sourceType: isModule ? "module" : "script",
       tokens: true,
-      range: false,
+      // Espree only reports `start` / `end` for Template tokens when `range` is enabled.
+      range: true,
       ecmaFeatures: {
         jsx,
         globalReturn: true, // Allow top-level `return`
@@ -26,11 +27,13 @@ export function parseEspreeTokens(code, isModule, jsx) {
     return null;
   }
 
-  // Re-order fields to move `regex` to before `start` and `end`
+  // Remove `range` from output and keep `regex` before `start` and `end`
   for (let i = 0; i < tokens.length; i++) {
-    const token = tokens[i];
+    const { range: _range, ...token } = tokens[i];
     if (token.regex) {
       tokens[i] = { type: undefined, value: undefined, regex: undefined, ...token };
+    } else {
+      tokens[i] = token;
     }
   }
 
