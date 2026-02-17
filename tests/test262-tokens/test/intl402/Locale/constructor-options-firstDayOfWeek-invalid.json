@@ -277,7 +277,9 @@
   },
   {
     "type": "Template",
-    "value": "`new Intl.Locale(\"en\", {firstDayOfWeek: \"${"
+    "value": "`new Intl.Locale(\"en\", {firstDayOfWeek: \"${",
+    "start": 888,
+    "end": 931
   },
   {
     "type": "Identifier",
@@ -287,7 +289,9 @@
   },
   {
     "type": "Template",
-    "value": "}\"}) throws RangeError`"
+    "value": "}\"}) throws RangeError`",
+    "start": 945,
+    "end": 968
   },
   {
     "type": "Punctuator",

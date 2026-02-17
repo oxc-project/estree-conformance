@@ -847,7 +847,9 @@
   },
   {
     "type": "Template",
-    "value": "`wall-clock time of \"${"
+    "value": "`wall-clock time of \"${",
+    "start": 1847,
+    "end": 1870
   },
   {
     "type": "Identifier",
@@ -857,7 +859,9 @@
   },
   {
     "type": "Template",
-    "value": "}\" is outside the representable range of ZonedDateTime (offset=${"
+    "value": "}\" is outside the representable range of ZonedDateTime (offset=${",
+    "start": 1873,
+    "end": 1938
   },
   {
     "type": "Identifier",
@@ -867,7 +871,9 @@
   },
   {
     "type": "Template",
-    "value": "})`"
+    "value": "})`",
+    "start": 1944,
+    "end": 1947
   },
   {
     "type": "Punctuator",
@@ -1279,7 +1285,9 @@
   },
   {
     "type": "Template",
-    "value": "`\"${"
+    "value": "`\"${",
+    "start": 2439,
+    "end": 2443
   },
   {
     "type": "Identifier",
@@ -1289,7 +1297,9 @@
   },
   {
     "type": "Template",
-    "value": "}\" is outside the representable range of ZonedDateTime (offset=${"
+    "value": "}\" is outside the representable range of ZonedDateTime (offset=${",
+    "start": 2446,
+    "end": 2511
   },
   {
     "type": "Identifier",
@@ -1299,7 +1309,9 @@
   },
   {
     "type": "Template",
-    "value": "})`"
+    "value": "})`",
+    "start": 2517,
+    "end": 2520
   },
   {
     "type": "Punctuator",

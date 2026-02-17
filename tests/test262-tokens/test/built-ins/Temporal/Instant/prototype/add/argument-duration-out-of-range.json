@@ -2953,7 +2953,9 @@
   },
   {
     "type": "Template",
-    "value": "`${"
+    "value": "`${",
+    "start": 4001,
+    "end": 4004
   },
   {
     "type": "Identifier",
@@ -2963,7 +2965,9 @@
   },
   {
     "type": "Template",
-    "value": "} is out of range`"
+    "value": "} is out of range`",
+    "start": 4009,
+    "end": 4027
   },
   {
     "type": "Punctuator",

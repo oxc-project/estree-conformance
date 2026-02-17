@@ -235,7 +235,9 @@
   },
   {
     "type": "Template",
-    "value": "`\n  $262.agent.receiveBroadcast(function(sab) {\n    const i64a = new BigInt64Array(sab);\n    Atomics.add(i64a, ${"
+    "value": "`\n  $262.agent.receiveBroadcast(function(sab) {\n    const i64a = new BigInt64Array(sab);\n    Atomics.add(i64a, ${",
+    "start": 536,
+    "end": 649
   },
   {
     "type": "Identifier",
@@ -245,7 +247,9 @@
   },
   {
     "type": "Template",
-    "value": "}, 1n);\n\n    const before = $262.agent.monotonicNow();\n    const unpark = Atomics.wait(i64a, 0, 0n, ${"
+    "value": "}, 1n);\n\n    const before = $262.agent.monotonicNow();\n    const unpark = Atomics.wait(i64a, 0, 0n, ${",
+    "start": 656,
+    "end": 758
   },
   {
     "type": "Identifier",
@@ -255,7 +259,9 @@
   },
   {
     "type": "Template",
-    "value": "});\n    const duration = $262.agent.monotonicNow() - before;\n\n    $262.agent.report(duration);\n    $262.agent.report(unpark);\n    $262.agent.leaving();\n  });\n`"
+    "value": "});\n    const duration = $262.agent.monotonicNow() - before;\n\n    $262.agent.report(duration);\n    $262.agent.report(unpark);\n    $262.agent.leaving();\n  });\n`",
+    "start": 765,
+    "end": 924
   },
   {
     "type": "Punctuator",

@@ -151,7 +151,9 @@
   },
   {
     "type": "Template",
-    "value": "`\n  const valueOf = {\n    valueOf() {\n      return null;\n    }\n  };\n\n  const toPrimitive = {\n    [Symbol.toPrimitive]() {\n      return null;\n    }\n  };\n\n  $262.agent.receiveBroadcast(async (sab) => {\n    const i64a = new BigInt64Array(sab);\n    Atomics.add(i64a, ${"
+    "value": "`\n  const valueOf = {\n    valueOf() {\n      return null;\n    }\n  };\n\n  const toPrimitive = {\n    [Symbol.toPrimitive]() {\n      return null;\n    }\n  };\n\n  $262.agent.receiveBroadcast(async (sab) => {\n    const i64a = new BigInt64Array(sab);\n    Atomics.add(i64a, ${",
+    "start": 781,
+    "end": 1046
   },
   {
     "type": "Identifier",
@@ -161,7 +163,9 @@
   },
   {
     "type": "Template",
-    "value": "}, 1n);\n    $262.agent.report(await Atomics.waitAsync(i64a, 0, 0n, null).value);\n    $262.agent.report(await Atomics.waitAsync(i64a, 0, 0n, valueOf).value);\n    $262.agent.report(await Atomics.waitAsync(i64a, 0, 0n, toPrimitive).value);\n    $262.agent.report(Atomics.waitAsync(i64a, 0, 0n, null).value);\n    $262.agent.report(Atomics.waitAsync(i64a, 0, 0n, valueOf).value);\n    $262.agent.report(Atomics.waitAsync(i64a, 0, 0n, toPrimitive).value);\n    $262.agent.leaving();\n  });\n`"
+    "value": "}, 1n);\n    $262.agent.report(await Atomics.waitAsync(i64a, 0, 0n, null).value);\n    $262.agent.report(await Atomics.waitAsync(i64a, 0, 0n, valueOf).value);\n    $262.agent.report(await Atomics.waitAsync(i64a, 0, 0n, toPrimitive).value);\n    $262.agent.report(Atomics.waitAsync(i64a, 0, 0n, null).value);\n    $262.agent.report(Atomics.waitAsync(i64a, 0, 0n, valueOf).value);\n    $262.agent.report(Atomics.waitAsync(i64a, 0, 0n, toPrimitive).value);\n    $262.agent.leaving();\n  });\n`",
+    "start": 1053,
+    "end": 1534
   },
   {
     "type": "Punctuator",

@@ -25,7 +25,9 @@
   },
   {
     "type": "Template",
-    "value": "`${"
+    "value": "`${",
+    "start": 476,
+    "end": 479
   },
   {
     "type": "Numeric",
@@ -35,11 +37,15 @@
   },
   {
     "type": "Template",
-    "value": "} ${"
+    "value": "} ${",
+    "start": 480,
+    "end": 484
   },
   {
     "type": "Template",
-    "value": "`bar ${"
+    "value": "`bar ${",
+    "start": 484,
+    "end": 491
   },
   {
     "type": "Numeric",
@@ -49,11 +55,15 @@
   },
   {
     "type": "Template",
-    "value": "} baz`"
+    "value": "} baz`",
+    "start": 492,
+    "end": 498
   },
   {
     "type": "Template",
-    "value": "} qux`"
+    "value": "} qux`",
+    "start": 498,
+    "end": 504
   },
   {
     "type": "Punctuator",

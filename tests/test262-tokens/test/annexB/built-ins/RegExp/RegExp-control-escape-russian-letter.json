@@ -1037,7 +1037,9 @@
   },
   {
     "type": "Template",
-    "value": "`Character ${"
+    "value": "`Character ${",
+    "start": 1243,
+    "end": 1256
   },
   {
     "type": "Identifier",
@@ -1047,7 +1049,9 @@
   },
   {
     "type": "Template",
-    "value": "} unreasonably wrapped around as a control character`"
+    "value": "} unreasonably wrapped around as a control character`",
+    "start": 1262,
+    "end": 1315
   },
   {
     "type": "Punctuator",
@@ -1201,7 +1205,9 @@
   },
   {
     "type": "Template",
-    "value": "`invalid \\\\c escape matched c rather than \\\\c when followed by ${"
+    "value": "`invalid \\\\c escape matched c rather than \\\\c when followed by ${",
+    "start": 1390,
+    "end": 1455
   },
   {
     "type": "Identifier",
@@ -1211,7 +1217,9 @@
   },
   {
     "type": "Template",
-    "value": "}`"
+    "value": "}`",
+    "start": 1461,
+    "end": 1463
   },
   {
     "type": "Punctuator",
@@ -1329,7 +1337,9 @@
   },
   {
     "type": "Template",
-    "value": "`invalid \\\\c escape failed to match \\\\c when followed by ${"
+    "value": "`invalid \\\\c escape failed to match \\\\c when followed by ${",
+    "start": 1525,
+    "end": 1584
   },
   {
     "type": "Identifier",
@@ -1339,7 +1349,9 @@
   },
   {
     "type": "Template",
-    "value": "}`"
+    "value": "}`",
+    "start": 1590,
+    "end": 1592
   },
   {
     "type": "Punctuator",

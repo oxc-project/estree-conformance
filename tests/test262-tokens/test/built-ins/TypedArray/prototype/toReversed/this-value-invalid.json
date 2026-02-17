@@ -661,7 +661,9 @@
   },
   {
     "type": "Template",
-    "value": "`${"
+    "value": "`${",
+    "start": 942,
+    "end": 945
   },
   {
     "type": "Identifier",
@@ -689,7 +691,9 @@
   },
   {
     "type": "Template",
-    "value": "} is not a valid TypedArray`"
+    "value": "} is not a valid TypedArray`",
+    "start": 953,
+    "end": 981
   },
   {
     "type": "Punctuator",
@@ -1047,7 +1051,9 @@
   },
   {
     "type": "Template",
-    "value": "`array has a detached buffer`"
+    "value": "`array has a detached buffer`",
+    "start": 1204,
+    "end": 1233
   },
   {
     "type": "Punctuator",

@@ -223,7 +223,9 @@
   },
   {
     "type": "Template",
-    "value": "`\n  globalThis.count = 0;\n  () => globalThis.count += 1;\n`"
+    "value": "`\n  globalThis.count = 0;\n  () => globalThis.count += 1;\n`",
+    "start": 523,
+    "end": 581
   },
   {
     "type": "Punctuator",
@@ -281,7 +283,9 @@
   },
   {
     "type": "Template",
-    "value": "`\n  const realm2 = new ShadowRealm();\n\n  (str) => realm2.evaluate(str);\n`"
+    "value": "`\n  const realm2 = new ShadowRealm();\n\n  (str) => realm2.evaluate(str);\n`",
+    "start": 624,
+    "end": 697
   },
   {
     "type": "Punctuator",
@@ -327,7 +331,9 @@
   },
   {
     "type": "Template",
-    "value": "`\n  globalThis.wrapped = undefined;\n  globalThis.count = 0; // Bait\n  (fn) => globalThis.wrapped = fn;\n`"
+    "value": "`\n  globalThis.wrapped = undefined;\n  globalThis.count = 0; // Bait\n  (fn) => globalThis.wrapped = fn;\n`",
+    "start": 734,
+    "end": 838
   },
   {
     "type": "Punctuator",
@@ -715,7 +721,9 @@
   },
   {
     "type": "Template",
-    "value": "`getting wrapped function won't trigger a call`"
+    "value": "`getting wrapped function won't trigger a call`",
+    "start": 1209,
+    "end": 1256
   },
   {
     "type": "Punctuator",

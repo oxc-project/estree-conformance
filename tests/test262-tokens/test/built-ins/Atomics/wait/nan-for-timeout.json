@@ -67,7 +67,9 @@
   },
   {
     "type": "Template",
-    "value": "`\n  $262.agent.receiveBroadcast(function(sab) {\n    const i32a = new Int32Array(sab);\n    Atomics.add(i32a, ${"
+    "value": "`\n  $262.agent.receiveBroadcast(function(sab) {\n    const i32a = new Int32Array(sab);\n    Atomics.add(i32a, ${",
+    "start": 540,
+    "end": 650
   },
   {
     "type": "Identifier",
@@ -77,7 +79,9 @@
   },
   {
     "type": "Template",
-    "value": "}, 1);\n\n    $262.agent.report(Atomics.wait(i32a, 0, 0, NaN));  // NaN => +Infinity\n    $262.agent.leaving();\n  });\n`"
+    "value": "}, 1);\n\n    $262.agent.report(Atomics.wait(i32a, 0, 0, NaN));  // NaN => +Infinity\n    $262.agent.leaving();\n  });\n`",
+    "start": 657,
+    "end": 773
   },
   {
     "type": "Punctuator",

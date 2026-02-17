@@ -565,7 +565,9 @@
   },
   {
     "type": "Template",
-    "value": "`new Intl.Locale(\"en\", { numberingSystem: ${"
+    "value": "`new Intl.Locale(\"en\", { numberingSystem: ${",
+    "start": 1869,
+    "end": 1913
   },
   {
     "type": "Identifier",
@@ -575,7 +577,9 @@
   },
   {
     "type": "Template",
-    "value": "} }).toString() returns \"${"
+    "value": "} }).toString() returns \"${",
+    "start": 1928,
+    "end": 1955
   },
   {
     "type": "Identifier",
@@ -585,7 +589,9 @@
   },
   {
     "type": "Template",
-    "value": "}\"`"
+    "value": "}\"`",
+    "start": 1963,
+    "end": 1966
   },
   {
     "type": "Punctuator",
@@ -733,7 +739,9 @@
   },
   {
     "type": "Template",
-    "value": "`new Intl.Locale(\"en-u-nu-latn\", { numberingSystem: ${"
+    "value": "`new Intl.Locale(\"en-u-nu-latn\", { numberingSystem: ${",
+    "start": 2079,
+    "end": 2133
   },
   {
     "type": "Identifier",
@@ -743,7 +751,9 @@
   },
   {
     "type": "Template",
-    "value": "} }).toString() returns \"${"
+    "value": "} }).toString() returns \"${",
+    "start": 2148,
+    "end": 2175
   },
   {
     "type": "Identifier",
@@ -753,7 +763,9 @@
   },
   {
     "type": "Template",
-    "value": "}\"`"
+    "value": "}\"`",
+    "start": 2183,
+    "end": 2186
   },
   {
     "type": "Punctuator",

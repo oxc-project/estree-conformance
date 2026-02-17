@@ -367,7 +367,9 @@
   },
   {
     "type": "Template",
-    "value": "`new Intl.Locale(\"en\", {caseFirst: \"${"
+    "value": "`new Intl.Locale(\"en\", {caseFirst: \"${",
+    "start": 930,
+    "end": 968
   },
   {
     "type": "Identifier",
@@ -377,7 +379,9 @@
   },
   {
     "type": "Template",
-    "value": "}\"}) throws RangeError`"
+    "value": "}\"}) throws RangeError`",
+    "start": 977,
+    "end": 1000
   },
   {
     "type": "Punctuator",

@@ -367,7 +367,9 @@
   },
   {
     "type": "Template",
-    "value": "`new Intl.Locale('en', {language: \"${"
+    "value": "`new Intl.Locale('en', {language: \"${",
+    "start": 1401,
+    "end": 1438
   },
   {
     "type": "Identifier",
@@ -377,7 +379,9 @@
   },
   {
     "type": "Template",
-    "value": "}\"}).toString() returns \"${"
+    "value": "}\"}).toString() returns \"${",
+    "start": 1446,
+    "end": 1473
   },
   {
     "type": "Identifier",
@@ -387,7 +391,9 @@
   },
   {
     "type": "Template",
-    "value": "}\"`"
+    "value": "}\"`",
+    "start": 1479,
+    "end": 1482
   },
   {
     "type": "Punctuator",
@@ -595,7 +601,9 @@
   },
   {
     "type": "Template",
-    "value": "`new Intl.Locale('en-US', {language: \"${"
+    "value": "`new Intl.Locale('en-US', {language: \"${",
+    "start": 1617,
+    "end": 1657
   },
   {
     "type": "Identifier",
@@ -605,7 +613,9 @@
   },
   {
     "type": "Template",
-    "value": "}\"}).toString() returns \"${"
+    "value": "}\"}).toString() returns \"${",
+    "start": 1665,
+    "end": 1692
   },
   {
     "type": "Identifier",
@@ -615,7 +625,9 @@
   },
   {
     "type": "Template",
-    "value": "}\"`"
+    "value": "}\"`",
+    "start": 1698,
+    "end": 1701
   },
   {
     "type": "Punctuator",

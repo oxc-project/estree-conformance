@@ -247,7 +247,9 @@
   },
   {
     "type": "Template",
-    "value": "`${"
+    "value": "`${",
+    "start": 570,
+    "end": 573
   },
   {
     "type": "Identifier",
@@ -257,7 +259,9 @@
   },
   {
     "type": "Template",
-    "value": "} is not a valid time zone string`"
+    "value": "} is not a valid time zone string`",
+    "start": 581,
+    "end": 615
   },
   {
     "type": "Punctuator",

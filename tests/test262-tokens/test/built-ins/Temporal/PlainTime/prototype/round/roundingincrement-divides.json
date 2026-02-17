@@ -1117,7 +1117,9 @@
   },
   {
     "type": "Template",
-    "value": "`${"
+    "value": "`${",
+    "start": 1050,
+    "end": 1053
   },
   {
     "type": "Identifier",
@@ -1127,7 +1129,9 @@
   },
   {
     "type": "Template",
-    "value": "} ${"
+    "value": "} ${",
+    "start": 1057,
+    "end": 1061
   },
   {
     "type": "Identifier",
@@ -1137,7 +1141,9 @@
   },
   {
     "type": "Template",
-    "value": "}`"
+    "value": "}`",
+    "start": 1070,
+    "end": 1072
   },
   {
     "type": "Punctuator",
@@ -1609,7 +1615,9 @@
   },
   {
     "type": "Template",
-    "value": "`throws on increments that are equal to the next highest (unit = ${"
+    "value": "`throws on increments that are equal to the next highest (unit = ${",
+    "start": 1391,
+    "end": 1458
   },
   {
     "type": "Identifier",
@@ -1619,7 +1627,9 @@
   },
   {
     "type": "Template",
-    "value": "}, increment = ${"
+    "value": "}, increment = ${",
+    "start": 1462,
+    "end": 1479
   },
   {
     "type": "Identifier",
@@ -1629,7 +1639,9 @@
   },
   {
     "type": "Template",
-    "value": "})`"
+    "value": "})`",
+    "start": 1483,
+    "end": 1486
   },
   {
     "type": "Punctuator",

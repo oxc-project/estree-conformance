@@ -1717,7 +1717,9 @@
   },
   {
     "type": "Template",
-    "value": "`${"
+    "value": "`${",
+    "start": 1616,
+    "end": 1619
   },
   {
     "type": "Identifier",
@@ -1727,7 +1729,9 @@
   },
   {
     "type": "Template",
-    "value": "}: expected one of ${"
+    "value": "}: expected one of ${",
+    "start": 1623,
+    "end": 1644
   },
   {
     "type": "Identifier",
@@ -1737,7 +1741,9 @@
   },
   {
     "type": "Template",
-    "value": "}, found ${"
+    "value": "}, found ${",
+    "start": 1652,
+    "end": 1663
   },
   {
     "type": "Identifier",
@@ -1747,7 +1753,9 @@
   },
   {
     "type": "Template",
-    "value": "}`"
+    "value": "}`",
+    "start": 1669,
+    "end": 1671
   },
   {
     "type": "Punctuator",

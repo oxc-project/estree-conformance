@@ -235,7 +235,9 @@
   },
   {
     "type": "Template",
-    "value": "`monthCode '${"
+    "value": "`monthCode '${",
+    "start": 440,
+    "end": 454
   },
   {
     "type": "Identifier",
@@ -245,7 +247,9 @@
   },
   {
     "type": "Template",
-    "value": "}' is not well-formed`"
+    "value": "}' is not well-formed`",
+    "start": 463,
+    "end": 485
   },
   {
     "type": "Punctuator",
@@ -759,7 +763,9 @@
   },
   {
     "type": "Template",
-    "value": "`monthCode '${"
+    "value": "`monthCode '${",
+    "start": 812,
+    "end": 826
   },
   {
     "type": "Identifier",
@@ -769,7 +775,9 @@
   },
   {
     "type": "Template",
-    "value": "}' is not valid for year 2021 in ISO 8601 calendar`"
+    "value": "}' is not valid for year 2021 in ISO 8601 calendar`",
+    "start": 835,
+    "end": 886
   },
   {
     "type": "Punctuator",

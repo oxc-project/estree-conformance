@@ -223,7 +223,9 @@
   },
   {
     "type": "Template",
-    "value": "`\nconst revocable = Proxy.revocable(() => {}, {});\nrevocable.revoke();\n\nrevocable.proxy;\n`"
+    "value": "`\nconst revocable = Proxy.revocable(() => {}, {});\nrevocable.revoke();\n\nrevocable.proxy;\n`",
+    "start": 1029,
+    "end": 1119
   },
   {
     "type": "Punctuator",
@@ -335,7 +337,9 @@
   },
   {
     "type": "Template",
-    "value": "`\nconst fn = () => {};\nObject.defineProperty(fn, 'name', {\n  get() {\n    throw new Error();\n  },\n});\n\nfn;\n`"
+    "value": "`\nconst fn = () => {};\nObject.defineProperty(fn, 'name', {\n  get() {\n    throw new Error();\n  },\n});\n\nfn;\n`",
+    "start": 1216,
+    "end": 1323
   },
   {
     "type": "Punctuator",
@@ -447,7 +451,9 @@
   },
   {
     "type": "Template",
-    "value": "`\nconst fn = () => {};\nObject.defineProperty(fn, 'length', {\n  get() {\n    throw new Error();\n  },\n});\n\nfn;\n`"
+    "value": "`\nconst fn = () => {};\nObject.defineProperty(fn, 'length', {\n  get() {\n    throw new Error();\n  },\n});\n\nfn;\n`",
+    "start": 1428,
+    "end": 1537
   },
   {
     "type": "Punctuator",
@@ -559,7 +565,9 @@
   },
   {
     "type": "Template",
-    "value": "`\nconst proxy = new Proxy(() => {}, {\n  getOwnPropertyDescriptor(target, key) {\n    throw new Error();\n  },\n});\n\nproxy;\n`"
+    "value": "`\nconst proxy = new Proxy(() => {}, {\n  getOwnPropertyDescriptor(target, key) {\n    throw new Error();\n  },\n});\n\nproxy;\n`",
+    "start": 1644,
+    "end": 1765
   },
   {
     "type": "Punctuator",

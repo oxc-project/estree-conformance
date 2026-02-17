@@ -229,7 +229,9 @@
   },
   {
     "type": "Template",
-    "value": "`\nassert.sameValue(f, 'x');\nverifyProperty(global, 'f', {\n  enumerable: false,\n  writable: true,\n  configurable: true\n}, { restore: true });\n`"
+    "value": "`\nassert.sameValue(f, 'x');\nverifyProperty(global, 'f', {\n  enumerable: false,\n  writable: true,\n  configurable: true\n}, { restore: true });\n`",
+    "start": 1392,
+    "end": 1534
   },
   {
     "type": "Punctuator",
@@ -269,7 +271,9 @@
   },
   {
     "type": "Template",
-    "value": "`\n\nif (true) function f() { return 'inner declaration'; } else ;\n\n`"
+    "value": "`\n\nif (true) function f() { return 'inner declaration'; } else ;\n\n`",
+    "start": 1554,
+    "end": 1621
   },
   {
     "type": "Punctuator",
@@ -309,7 +313,9 @@
   },
   {
     "type": "Template",
-    "value": "`\nassert.sameValue(f(), 'inner declaration');\nverifyProperty(global, 'f', {\n  enumerable: false,\n  writable: true,\n  configurable: true\n});\n`"
+    "value": "`\nassert.sameValue(f(), 'inner declaration');\nverifyProperty(global, 'f', {\n  enumerable: false,\n  writable: true,\n  configurable: true\n});\n`",
+    "start": 1641,
+    "end": 1782
   },
   {
     "type": "Punctuator",

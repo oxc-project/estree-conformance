@@ -457,7 +457,9 @@
   },
   {
     "type": "Template",
-    "value": "`new Intl.Locale('en', {region: \"${"
+    "value": "`new Intl.Locale('en', {region: \"${",
+    "start": 1455,
+    "end": 1490
   },
   {
     "type": "Identifier",
@@ -467,7 +469,9 @@
   },
   {
     "type": "Template",
-    "value": "}\"}).toString() returns \"${"
+    "value": "}\"}).toString() returns \"${",
+    "start": 1496,
+    "end": 1523
   },
   {
     "type": "Identifier",
@@ -477,7 +481,9 @@
   },
   {
     "type": "Template",
-    "value": "}\"`"
+    "value": "}\"`",
+    "start": 1529,
+    "end": 1532
   },
   {
     "type": "Punctuator",
@@ -649,7 +655,9 @@
   },
   {
     "type": "Template",
-    "value": "`new Intl.Locale('en-US', {region: \"${"
+    "value": "`new Intl.Locale('en-US', {region: \"${",
+    "start": 1657,
+    "end": 1695
   },
   {
     "type": "Identifier",
@@ -659,7 +667,9 @@
   },
   {
     "type": "Template",
-    "value": "}\"}).toString() returns \"${"
+    "value": "}\"}).toString() returns \"${",
+    "start": 1701,
+    "end": 1728
   },
   {
     "type": "Identifier",
@@ -669,7 +679,9 @@
   },
   {
     "type": "Template",
-    "value": "}\"`"
+    "value": "}\"`",
+    "start": 1734,
+    "end": 1737
   },
   {
     "type": "Punctuator",
@@ -865,7 +877,9 @@
   },
   {
     "type": "Template",
-    "value": "`new Intl.Locale('en-u-ca-gregory', {region: \"${"
+    "value": "`new Intl.Locale('en-u-ca-gregory', {region: \"${",
+    "start": 1889,
+    "end": 1937
   },
   {
     "type": "Identifier",
@@ -875,7 +889,9 @@
   },
   {
     "type": "Template",
-    "value": "}\"}).toString() returns \"${"
+    "value": "}\"}).toString() returns \"${",
+    "start": 1943,
+    "end": 1970
   },
   {
     "type": "Identifier",
@@ -885,7 +901,9 @@
   },
   {
     "type": "Template",
-    "value": "}\"`"
+    "value": "}\"`",
+    "start": 1976,
+    "end": 1979
   },
   {
     "type": "Punctuator",
@@ -1081,7 +1099,9 @@
   },
   {
     "type": "Template",
-    "value": "`new Intl.Locale('en-US-u-ca-gregory', {region: \"${"
+    "value": "`new Intl.Locale('en-US-u-ca-gregory', {region: \"${",
+    "start": 2137,
+    "end": 2188
   },
   {
     "type": "Identifier",
@@ -1091,7 +1111,9 @@
   },
   {
     "type": "Template",
-    "value": "}\"}).toString() returns \"${"
+    "value": "}\"}).toString() returns \"${",
+    "start": 2194,
+    "end": 2221
   },
   {
     "type": "Identifier",
@@ -1101,7 +1123,9 @@
   },
   {
     "type": "Template",
-    "value": "}\"`"
+    "value": "}\"`",
+    "start": 2227,
+    "end": 2230
   },
   {
     "type": "Punctuator",

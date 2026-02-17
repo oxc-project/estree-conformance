@@ -523,7 +523,9 @@
   },
   {
     "type": "Template",
-    "value": "`\"${"
+    "value": "`\"${",
+    "start": 807,
+    "end": 811
   },
   {
     "type": "Identifier",
@@ -533,7 +535,9 @@
   },
   {
     "type": "Template",
-    "value": "}\" is outside the representable range of PlainYearMonth`"
+    "value": "}\" is outside the representable range of PlainYearMonth`",
+    "start": 814,
+    "end": 870
   },
   {
     "type": "Punctuator",

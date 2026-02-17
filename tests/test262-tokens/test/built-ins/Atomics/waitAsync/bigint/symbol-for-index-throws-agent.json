@@ -151,7 +151,9 @@
   },
   {
     "type": "Template",
-    "value": "`\n  const poisonedValueOf = {\n    valueOf() {\n      throw new Test262Error('should not evaluate this code');\n    }\n  };\n\n  const poisonedToPrimitive = {\n    [Symbol.toPrimitive]() {\n      throw new Test262Error('should not evaluate this code');\n    }\n  };\n\n  $262.agent.receiveBroadcast(function(sab) {\n    const i64a = new BigInt64Array(sab);\n    Atomics.add(i64a, ${"
+    "value": "`\n  const poisonedValueOf = {\n    valueOf() {\n      throw new Test262Error('should not evaluate this code');\n    }\n  };\n\n  const poisonedToPrimitive = {\n    [Symbol.toPrimitive]() {\n      throw new Test262Error('should not evaluate this code');\n    }\n  };\n\n  $262.agent.receiveBroadcast(function(sab) {\n    const i64a = new BigInt64Array(sab);\n    Atomics.add(i64a, ${",
+    "start": 1115,
+    "end": 1483
   },
   {
     "type": "Identifier",
@@ -161,7 +163,9 @@
   },
   {
     "type": "Template",
-    "value": "}, 1n);\n\n    let status1 = '';\n    let status2 = '';\n\n    try {\n      Atomics.waitAsync(i64a, Symbol('1'), poisonedValueOf, poisonedValueOf);\n    } catch (error) {\n      status1 = 'A ' + error.name;\n    }\n    try {\n      Atomics.waitAsync(i64a, Symbol('2'), poisonedToPrimitive, poisonedToPrimitive);\n    } catch (error) {\n      status2 = 'B ' + error.name;\n    }\n\n    $262.agent.report(status1);\n    $262.agent.report(status2);\n    $262.agent.leaving();\n  });\n`"
+    "value": "}, 1n);\n\n    let status1 = '';\n    let status2 = '';\n\n    try {\n      Atomics.waitAsync(i64a, Symbol('1'), poisonedValueOf, poisonedValueOf);\n    } catch (error) {\n      status1 = 'A ' + error.name;\n    }\n    try {\n      Atomics.waitAsync(i64a, Symbol('2'), poisonedToPrimitive, poisonedToPrimitive);\n    } catch (error) {\n      status2 = 'B ' + error.name;\n    }\n\n    $262.agent.report(status1);\n    $262.agent.report(status2);\n    $262.agent.leaving();\n  });\n`",
+    "start": 1490,
+    "end": 1952
   },
   {
     "type": "Punctuator",

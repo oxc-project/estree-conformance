@@ -2353,7 +2353,9 @@
   },
   {
     "type": "Template",
-    "value": "`${"
+    "value": "`${",
+    "start": 3333,
+    "end": 3336
   },
   {
     "type": "Identifier",
@@ -2363,7 +2365,9 @@
   },
   {
     "type": "Template",
-    "value": "} is out of range`"
+    "value": "} is out of range`",
+    "start": 3341,
+    "end": 3359
   },
   {
     "type": "Punctuator",

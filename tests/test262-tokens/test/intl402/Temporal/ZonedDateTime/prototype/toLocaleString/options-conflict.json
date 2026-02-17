@@ -1021,7 +1021,9 @@
   },
   {
     "type": "Template",
-    "value": "`datetime.toLocaleString(\"en\", { ${"
+    "value": "`datetime.toLocaleString(\"en\", { ${",
+    "start": 1641,
+    "end": 1676
   },
   {
     "type": "Identifier",
@@ -1031,7 +1033,9 @@
   },
   {
     "type": "Template",
-    "value": "}: \"${"
+    "value": "}: \"${",
+    "start": 1682,
+    "end": 1688
   },
   {
     "type": "Identifier",
@@ -1041,7 +1045,9 @@
   },
   {
     "type": "Template",
-    "value": "}\",  dateStyle: \"short\" }) throws TypeError`"
+    "value": "}\",  dateStyle: \"short\" }) throws TypeError`",
+    "start": 1693,
+    "end": 1737
   },
   {
     "type": "Punctuator",
@@ -1243,7 +1249,9 @@
   },
   {
     "type": "Template",
-    "value": "`datetime.toLocaleString(\"en\", { ${"
+    "value": "`datetime.toLocaleString(\"en\", { ${",
+    "start": 1862,
+    "end": 1897
   },
   {
     "type": "Identifier",
@@ -1253,7 +1261,9 @@
   },
   {
     "type": "Template",
-    "value": "}: \"${"
+    "value": "}: \"${",
+    "start": 1903,
+    "end": 1909
   },
   {
     "type": "Identifier",
@@ -1263,7 +1273,9 @@
   },
   {
     "type": "Template",
-    "value": "}\",  timeStyle: \"short\" }) throws TypeError`"
+    "value": "}\",  timeStyle: \"short\" }) throws TypeError`",
+    "start": 1914,
+    "end": 1958
   },
   {
     "type": "Punctuator",

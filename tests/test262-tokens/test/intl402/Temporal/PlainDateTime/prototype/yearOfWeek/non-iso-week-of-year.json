@@ -463,7 +463,9 @@
   },
   {
     "type": "Template",
-    "value": "`${"
+    "value": "`${",
+    "start": 800,
+    "end": 803
   },
   {
     "type": "Identifier",
@@ -473,7 +475,9 @@
   },
   {
     "type": "Template",
-    "value": "} does not provide week numbers`"
+    "value": "} does not provide week numbers`",
+    "start": 811,
+    "end": 843
   },
   {
     "type": "Punctuator",

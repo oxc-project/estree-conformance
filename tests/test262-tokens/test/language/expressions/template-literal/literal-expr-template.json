@@ -25,11 +25,15 @@
   },
   {
     "type": "Template",
-    "value": "`foo ${"
+    "value": "`foo ${",
+    "start": 480,
+    "end": 487
   },
   {
     "type": "Template",
-    "value": "`bar ${"
+    "value": "`bar ${",
+    "start": 487,
+    "end": 494
   },
   {
     "type": "Numeric",
@@ -39,11 +43,15 @@
   },
   {
     "type": "Template",
-    "value": "} baz`"
+    "value": "} baz`",
+    "start": 495,
+    "end": 501
   },
   {
     "type": "Template",
-    "value": "} qux`"
+    "value": "} qux`",
+    "start": 501,
+    "end": 507
   },
   {
     "type": "Punctuator",

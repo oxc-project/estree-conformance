@@ -559,7 +559,9 @@
   },
   {
     "type": "Template",
-    "value": "`\"${"
+    "value": "`\"${",
+    "start": 843,
+    "end": 847
   },
   {
     "type": "Identifier",
@@ -569,7 +571,9 @@
   },
   {
     "type": "Template",
-    "value": "} is not a valid offset string`"
+    "value": "} is not a valid offset string`",
+    "start": 853,
+    "end": 884
   },
   {
     "type": "Punctuator",

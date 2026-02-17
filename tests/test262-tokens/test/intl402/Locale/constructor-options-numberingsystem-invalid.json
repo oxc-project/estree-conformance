@@ -373,7 +373,9 @@
   },
   {
     "type": "Template",
-    "value": "`new Intl.Locale(\"en\", {numberingSystem: \"${"
+    "value": "`new Intl.Locale(\"en\", {numberingSystem: \"${",
+    "start": 983,
+    "end": 1027
   },
   {
     "type": "Identifier",
@@ -383,7 +385,9 @@
   },
   {
     "type": "Template",
-    "value": "}\"}) throws RangeError`"
+    "value": "}\"}) throws RangeError`",
+    "start": 1042,
+    "end": 1065
   },
   {
     "type": "Punctuator",

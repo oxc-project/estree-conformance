@@ -649,7 +649,9 @@
   },
   {
     "type": "Template",
-    "value": "`\"${"
+    "value": "`\"${",
+    "start": 1111,
+    "end": 1115
   },
   {
     "type": "Identifier",
@@ -659,7 +661,9 @@
   },
   {
     "type": "Template",
-    "value": "}\" is outside the representable range of ZonedDateTime (first argument)`"
+    "value": "}\" is outside the representable range of ZonedDateTime (first argument)`",
+    "start": 1118,
+    "end": 1190
   },
   {
     "type": "Punctuator",
@@ -795,7 +799,9 @@
   },
   {
     "type": "Template",
-    "value": "`\"${"
+    "value": "`\"${",
+    "start": 1290,
+    "end": 1294
   },
   {
     "type": "Identifier",
@@ -805,7 +811,9 @@
   },
   {
     "type": "Template",
-    "value": "}\" is outside the representable range of ZonedDateTime (second argument)`"
+    "value": "}\" is outside the representable range of ZonedDateTime (second argument)`",
+    "start": 1297,
+    "end": 1370
   },
   {
     "type": "Punctuator",

@@ -409,7 +409,9 @@
   },
   {
     "type": "Template",
-    "value": "`Receiver ${"
+    "value": "`Receiver ${",
+    "start": 586,
+    "end": 598
   },
   {
     "type": "Identifier",
@@ -419,7 +421,9 @@
   },
   {
     "type": "Template",
-    "value": "} should equal argument ${"
+    "value": "} should equal argument ${",
+    "start": 606,
+    "end": 632
   },
   {
     "type": "Identifier",
@@ -429,7 +433,9 @@
   },
   {
     "type": "Template",
-    "value": "}`"
+    "value": "}`",
+    "start": 635,
+    "end": 637
   },
   {
     "type": "Punctuator",

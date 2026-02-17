@@ -139,7 +139,9 @@
   },
   {
     "type": "Template",
-    "value": "`${"
+    "value": "`${",
+    "start": 499,
+    "end": 502
   },
   {
     "type": "Identifier",
@@ -149,7 +151,9 @@
   },
   {
     "type": "Template",
-    "value": "}: object should have no other properties than expected`"
+    "value": "}: object should have no other properties than expected`",
+    "start": 509,
+    "end": 565
   },
   {
     "type": "Punctuator",
@@ -249,7 +253,9 @@
   },
   {
     "type": "Template",
-    "value": "`${"
+    "value": "`${",
+    "start": 632,
+    "end": 635
   },
   {
     "type": "Identifier",
@@ -259,7 +265,9 @@
   },
   {
     "type": "Template",
-    "value": "}: object should have no own symbol properties`"
+    "value": "}: object should have no own symbol properties`",
+    "start": 642,
+    "end": 689
   },
   {
     "type": "Punctuator",

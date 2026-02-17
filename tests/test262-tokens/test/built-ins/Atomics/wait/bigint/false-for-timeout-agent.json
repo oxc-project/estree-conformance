@@ -169,7 +169,9 @@
   },
   {
     "type": "Template",
-    "value": "`\n  const valueOf = {\n    valueOf: function() {\n      return false;\n    }\n  };\n\n  const toPrimitive = {\n    [Symbol.toPrimitive]: function() {\n      return false;\n    }\n  };\n\n  $262.agent.receiveBroadcast(function(sab) {\n    const i64a = new BigInt64Array(sab);\n    Atomics.add(i64a, ${"
+    "value": "`\n  const valueOf = {\n    valueOf: function() {\n      return false;\n    }\n  };\n\n  const toPrimitive = {\n    [Symbol.toPrimitive]: function() {\n      return false;\n    }\n  };\n\n  $262.agent.receiveBroadcast(function(sab) {\n    const i64a = new BigInt64Array(sab);\n    Atomics.add(i64a, ${",
+    "start": 631,
+    "end": 917
   },
   {
     "type": "Identifier",
@@ -179,7 +181,9 @@
   },
   {
     "type": "Template",
-    "value": "}, 1n);\n\n    const status1 = Atomics.wait(i64a, 0, 0n, false);\n    const status2 = Atomics.wait(i64a, 0, 0n, valueOf);\n    const status3 = Atomics.wait(i64a, 0, 0n, toPrimitive);\n\n    $262.agent.report(status1);\n    $262.agent.report(status2);\n    $262.agent.report(status3);\n    $262.agent.leaving();\n  });\n`"
+    "value": "}, 1n);\n\n    const status1 = Atomics.wait(i64a, 0, 0n, false);\n    const status2 = Atomics.wait(i64a, 0, 0n, valueOf);\n    const status3 = Atomics.wait(i64a, 0, 0n, toPrimitive);\n\n    $262.agent.report(status1);\n    $262.agent.report(status2);\n    $262.agent.report(status3);\n    $262.agent.leaving();\n  });\n`",
+    "start": 924,
+    "end": 1233
   },
   {
     "type": "Punctuator",

@@ -565,7 +565,9 @@
   },
   {
     "type": "Template",
-    "value": "`new Intl.Locale('en', { calendar: \"${"
+    "value": "`new Intl.Locale('en', { calendar: \"${",
+    "start": 934,
+    "end": 972
   },
   {
     "type": "Identifier",
@@ -575,7 +577,9 @@
   },
   {
     "type": "Template",
-    "value": "}\" }).toString() returns \"${"
+    "value": "}\" }).toString() returns \"${",
+    "start": 980,
+    "end": 1008
   },
   {
     "type": "Identifier",
@@ -585,7 +589,9 @@
   },
   {
     "type": "Template",
-    "value": "}\"`"
+    "value": "}\"`",
+    "start": 1016,
+    "end": 1019
   },
   {
     "type": "Punctuator",
@@ -733,7 +739,9 @@
   },
   {
     "type": "Template",
-    "value": "`new Intl.Locale('en-u-ca-gregory', { calendar: \"${"
+    "value": "`new Intl.Locale('en-u-ca-gregory', { calendar: \"${",
+    "start": 1128,
+    "end": 1179
   },
   {
     "type": "Identifier",
@@ -743,7 +751,9 @@
   },
   {
     "type": "Template",
-    "value": "}\" }).toString() returns \"${"
+    "value": "}\" }).toString() returns \"${",
+    "start": 1187,
+    "end": 1215
   },
   {
     "type": "Identifier",
@@ -753,7 +763,9 @@
   },
   {
     "type": "Template",
-    "value": "}\"`"
+    "value": "}\"`",
+    "start": 1223,
+    "end": 1226
   },
   {
     "type": "Punctuator",

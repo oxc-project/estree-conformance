@@ -463,7 +463,9 @@
   },
   {
     "type": "Template",
-    "value": "`new Intl.Locale(\"en\", {get ${"
+    "value": "`new Intl.Locale(\"en\", {get ${",
+    "start": 648,
+    "end": 678
   },
   {
     "type": "Identifier",
@@ -473,7 +475,9 @@
   },
   {
     "type": "Template",
-    "value": "}() {throw new CustomError();}}) throws CustomError`"
+    "value": "}() {throw new CustomError();}}) throws CustomError`",
+    "start": 684,
+    "end": 736
   },
   {
     "type": "Punctuator",

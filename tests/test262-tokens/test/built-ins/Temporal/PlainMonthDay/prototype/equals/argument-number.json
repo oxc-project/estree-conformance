@@ -313,7 +313,9 @@
   },
   {
     "type": "Template",
-    "value": "`A number (${"
+    "value": "`A number (${",
+    "start": 502,
+    "end": 515
   },
   {
     "type": "Identifier",
@@ -323,7 +325,9 @@
   },
   {
     "type": "Template",
-    "value": "}) is not a valid ISO string for PlainMonthDay`"
+    "value": "}) is not a valid ISO string for PlainMonthDay`",
+    "start": 518,
+    "end": 565
   },
   {
     "type": "Punctuator",

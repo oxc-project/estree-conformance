@@ -1039,7 +1039,9 @@
   },
   {
     "type": "Template",
-    "value": "`${"
+    "value": "`${",
+    "start": 999,
+    "end": 1002
   },
   {
     "type": "Identifier",
@@ -1049,7 +1051,9 @@
   },
   {
     "type": "Template",
-    "value": "} after setting day`"
+    "value": "} after setting day`",
+    "start": 1006,
+    "end": 1026
   },
   {
     "type": "Punctuator",
@@ -1389,7 +1393,9 @@
   },
   {
     "type": "Template",
-    "value": "`${"
+    "value": "`${",
+    "start": 1234,
+    "end": 1237
   },
   {
     "type": "Identifier",
@@ -1399,7 +1405,9 @@
   },
   {
     "type": "Template",
-    "value": "} after setting month`"
+    "value": "} after setting month`",
+    "start": 1241,
+    "end": 1263
   },
   {
     "type": "Punctuator",
@@ -1727,7 +1735,9 @@
   },
   {
     "type": "Template",
-    "value": "`${"
+    "value": "`${",
+    "start": 1467,
+    "end": 1470
   },
   {
     "type": "Identifier",
@@ -1737,7 +1747,9 @@
   },
   {
     "type": "Template",
-    "value": "} after setting year`"
+    "value": "} after setting year`",
+    "start": 1474,
+    "end": 1495
   },
   {
     "type": "Punctuator",

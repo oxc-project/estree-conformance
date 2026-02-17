@@ -235,7 +235,9 @@
   },
   {
     "type": "Template",
-    "value": "`monthCode '${"
+    "value": "`monthCode '${",
+    "start": 435,
+    "end": 449
   },
   {
     "type": "Identifier",
@@ -245,7 +247,9 @@
   },
   {
     "type": "Template",
-    "value": "}' is not well-formed (without numeric month)`"
+    "value": "}' is not well-formed (without numeric month)`",
+    "start": 458,
+    "end": 504
   },
   {
     "type": "Punctuator",
@@ -429,7 +433,9 @@
   },
   {
     "type": "Template",
-    "value": "`monthCode '${"
+    "value": "`monthCode '${",
+    "start": 608,
+    "end": 622
   },
   {
     "type": "Identifier",
@@ -439,7 +445,9 @@
   },
   {
     "type": "Template",
-    "value": "}' is not well-formed (with numeric month)`"
+    "value": "}' is not well-formed (with numeric month)`",
+    "start": 631,
+    "end": 674
   },
   {
     "type": "Punctuator",
@@ -977,7 +985,9 @@
   },
   {
     "type": "Template",
-    "value": "`monthCode '${"
+    "value": "`monthCode '${",
+    "start": 1002,
+    "end": 1016
   },
   {
     "type": "Identifier",
@@ -987,7 +997,9 @@
   },
   {
     "type": "Template",
-    "value": "}' is not valid for ISO 8601 calendar (without numeric month)`"
+    "value": "}' is not valid for ISO 8601 calendar (without numeric month)`",
+    "start": 1025,
+    "end": 1087
   },
   {
     "type": "Punctuator",
@@ -1309,7 +1321,9 @@
   },
   {
     "type": "Template",
-    "value": "`monthCode '${"
+    "value": "`monthCode '${",
+    "start": 1286,
+    "end": 1300
   },
   {
     "type": "Identifier",
@@ -1319,7 +1333,9 @@
   },
   {
     "type": "Template",
-    "value": "}' is not valid for ISO 8601 calendar (with numeric month)`"
+    "value": "}' is not valid for ISO 8601 calendar (with numeric month)`",
+    "start": 1309,
+    "end": 1368
   },
   {
     "type": "Punctuator",
@@ -1605,7 +1621,9 @@
   },
   {
     "type": "Template",
-    "value": "`monthCode '${"
+    "value": "`monthCode '${",
+    "start": 1587,
+    "end": 1601
   },
   {
     "type": "Identifier",
@@ -1615,7 +1633,9 @@
   },
   {
     "type": "Template",
-    "value": "}' is not valid for ISO 8601 calendar (with clamped numeric month)`"
+    "value": "}' is not valid for ISO 8601 calendar (with clamped numeric month)`",
+    "start": 1610,
+    "end": 1677
   },
   {
     "type": "Punctuator",

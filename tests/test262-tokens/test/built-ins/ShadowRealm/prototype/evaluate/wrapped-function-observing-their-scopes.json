@@ -289,7 +289,9 @@
   },
   {
     "type": "Template",
-    "value": "`\n    var myValue = 'red';\n    0, function(cb) {\n        cb(42);\n        return myValue;\n    };\n`"
+    "value": "`\n    var myValue = 'red';\n    0, function(cb) {\n        cb(42);\n        return myValue;\n    };\n`",
+    "start": 664,
+    "end": 761
   },
   {
     "type": "Punctuator",

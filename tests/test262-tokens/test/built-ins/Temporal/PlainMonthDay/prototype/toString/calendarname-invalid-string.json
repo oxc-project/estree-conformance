@@ -313,7 +313,9 @@
   },
   {
     "type": "Template",
-    "value": "`${"
+    "value": "`${",
+    "start": 1040,
+    "end": 1043
   },
   {
     "type": "Identifier",
@@ -323,7 +325,9 @@
   },
   {
     "type": "Template",
-    "value": "} is an invalid value for calendarName option`"
+    "value": "} is an invalid value for calendarName option`",
+    "start": 1055,
+    "end": 1101
   },
   {
     "type": "Punctuator",

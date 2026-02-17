@@ -691,7 +691,9 @@
   },
   {
     "type": "Template",
-    "value": "`\"${"
+    "value": "`\"${",
+    "start": 1503,
+    "end": 1507
   },
   {
     "type": "Identifier",
@@ -701,7 +703,9 @@
   },
   {
     "type": "Template",
-    "value": "}\" should not be a valid ISO string for a PlainDate`"
+    "value": "}\" should not be a valid ISO string for a PlainDate`",
+    "start": 1510,
+    "end": 1562
   },
   {
     "type": "Punctuator",

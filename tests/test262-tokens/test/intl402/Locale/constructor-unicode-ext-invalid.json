@@ -265,7 +265,9 @@
   },
   {
     "type": "Template",
-    "value": "`new Intl.Locale(\"${"
+    "value": "`new Intl.Locale(\"${",
+    "start": 742,
+    "end": 762
   },
   {
     "type": "Identifier",
@@ -275,7 +277,9 @@
   },
   {
     "type": "Template",
-    "value": "}\") throws RangeError`"
+    "value": "}\") throws RangeError`",
+    "start": 769,
+    "end": 791
   },
   {
     "type": "Punctuator",

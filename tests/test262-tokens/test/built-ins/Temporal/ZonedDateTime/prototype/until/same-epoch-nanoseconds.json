@@ -1093,7 +1093,9 @@
   },
   {
     "type": "Template",
-    "value": "`epochNs = ${"
+    "value": "`epochNs = ${",
+    "start": 1501,
+    "end": 1514
   },
   {
     "type": "Identifier",
@@ -1103,7 +1105,9 @@
   },
   {
     "type": "Template",
-    "value": "}, timeZone = ${"
+    "value": "}, timeZone = ${",
+    "start": 1521,
+    "end": 1537
   },
   {
     "type": "Identifier",
@@ -1113,7 +1117,9 @@
   },
   {
     "type": "Template",
-    "value": "}, options = ${"
+    "value": "}, options = ${",
+    "start": 1545,
+    "end": 1560
   },
   {
     "type": "Identifier",
@@ -1153,7 +1159,9 @@
   },
   {
     "type": "Template",
-    "value": "})`"
+    "value": "})`",
+    "start": 1583,
+    "end": 1586
   },
   {
     "type": "Punctuator",

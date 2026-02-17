@@ -235,7 +235,9 @@
   },
   {
     "type": "Template",
-    "value": "`\n  $262.agent.receiveBroadcast(function(sab) {\n    const i32a = new Int32Array(sab);\n    Atomics.add(i32a, ${"
+    "value": "`\n  $262.agent.receiveBroadcast(function(sab) {\n    const i32a = new Int32Array(sab);\n    Atomics.add(i32a, ${",
+    "start": 744,
+    "end": 854
   },
   {
     "type": "Identifier",
@@ -245,7 +247,9 @@
   },
   {
     "type": "Template",
-    "value": "}, 1);\n\n    const before = $262.agent.monotonicNow();\n    const unpark = Atomics.wait(i32a, 0, 0, ${"
+    "value": "}, 1);\n\n    const before = $262.agent.monotonicNow();\n    const unpark = Atomics.wait(i32a, 0, 0, ${",
+    "start": 861,
+    "end": 961
   },
   {
     "type": "Identifier",
@@ -255,7 +259,9 @@
   },
   {
     "type": "Template",
-    "value": "});\n    const duration = $262.agent.monotonicNow() - before;\n\n    $262.agent.report(duration);\n    $262.agent.report(unpark);\n    $262.agent.leaving();\n  });\n`"
+    "value": "});\n    const duration = $262.agent.monotonicNow() - before;\n\n    $262.agent.report(duration);\n    $262.agent.report(unpark);\n    $262.agent.leaving();\n  });\n`",
+    "start": 968,
+    "end": 1127
   },
   {
     "type": "Punctuator",

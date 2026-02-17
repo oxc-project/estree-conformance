@@ -181,7 +181,9 @@
   },
   {
     "type": "Template",
-    "value": "`\n  $262.agent.receiveBroadcast(function(sab) {\n    const i64a = new BigInt64Array(sab);\n    Atomics.add(i64a, ${"
+    "value": "`\n  $262.agent.receiveBroadcast(function(sab) {\n    const i64a = new BigInt64Array(sab);\n    Atomics.add(i64a, ${",
+    "start": 1079,
+    "end": 1192
   },
   {
     "type": "Identifier",
@@ -191,7 +193,9 @@
   },
   {
     "type": "Template",
-    "value": "}, 1n);\n    $262.agent.report(Atomics.store(i64a, 0, 42n));\n    $262.agent.report(Atomics.waitAsync(i64a, 0, 0n).value);\n    $262.agent.leaving();\n  });\n`"
+    "value": "}, 1n);\n    $262.agent.report(Atomics.store(i64a, 0, 42n));\n    $262.agent.report(Atomics.waitAsync(i64a, 0, 0n).value);\n    $262.agent.leaving();\n  });\n`",
+    "start": 1199,
+    "end": 1353
   },
   {
     "type": "Punctuator",

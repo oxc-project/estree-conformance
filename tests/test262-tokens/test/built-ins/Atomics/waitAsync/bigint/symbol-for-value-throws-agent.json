@@ -151,7 +151,9 @@
   },
   {
     "type": "Template",
-    "value": "`\n  const poisonedValueOf = {\n    valueOf: function() {\n      throw new Test262Error('should not evaluate this code');\n    }\n  };\n\n  const poisonedToPrimitive = {\n    [Symbol.toPrimitive]: function() {\n      throw new Test262Error(\"passing a poisoned object using @@ToPrimitive\");\n    }\n  };\n\n  $262.agent.receiveBroadcast(function(sab) {\n    const i64a = new BigInt64Array(sab);\n    Atomics.add(i64a, ${"
+    "value": "`\n  const poisonedValueOf = {\n    valueOf: function() {\n      throw new Test262Error('should not evaluate this code');\n    }\n  };\n\n  const poisonedToPrimitive = {\n    [Symbol.toPrimitive]: function() {\n      throw new Test262Error(\"passing a poisoned object using @@ToPrimitive\");\n    }\n  };\n\n  $262.agent.receiveBroadcast(function(sab) {\n    const i64a = new BigInt64Array(sab);\n    Atomics.add(i64a, ${",
+    "start": 893,
+    "end": 1297
   },
   {
     "type": "Identifier",
@@ -161,7 +163,9 @@
   },
   {
     "type": "Template",
-    "value": "}, 1n);\n\n    let status1 = \"\";\n    let status2 = \"\";\n\n    try {\n      Atomics.waitAsync(i64a, 0, Symbol(\"1\"), poisonedValueOf);\n    } catch (error) {\n      status1 = 'A ' + error.name;\n    }\n    try {\n      Atomics.waitAsync(i64a, 0, Symbol(\"2\"), poisonedToPrimitive);\n    } catch (error) {\n      status2 = 'B ' + error.name;\n    }\n\n    $262.agent.report(status1);\n    $262.agent.report(status2);\n    $262.agent.leaving();\n  });\n`"
+    "value": "}, 1n);\n\n    let status1 = \"\";\n    let status2 = \"\";\n\n    try {\n      Atomics.waitAsync(i64a, 0, Symbol(\"1\"), poisonedValueOf);\n    } catch (error) {\n      status1 = 'A ' + error.name;\n    }\n    try {\n      Atomics.waitAsync(i64a, 0, Symbol(\"2\"), poisonedToPrimitive);\n    } catch (error) {\n      status2 = 'B ' + error.name;\n    }\n\n    $262.agent.report(status1);\n    $262.agent.report(status2);\n    $262.agent.leaving();\n  });\n`",
+    "start": 1304,
+    "end": 1734
   },
   {
     "type": "Punctuator",

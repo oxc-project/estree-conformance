@@ -265,7 +265,9 @@
   },
   {
     "type": "Template",
-    "value": "`\n    function fn(wrapped1, wrapped2, wrapped3) {\n        if (wrapped1.x) {\n            return 1;\n        }\n        if (wrapped2.x) {\n            return 2;\n        }\n        if (wrapped3.x) {\n            // Not unwrapped\n            return 3;\n        }\n        if (wrapped1 === wrapped2) {\n            // Always a new wrapped function\n            return 4;\n        }\n\n        // No unwrapping\n        if (wrapped3 === fn) {\n            return 5;\n        };\n\n        return true;\n    }\n    fn.x = 'secret';\n    fn;\n`"
+    "value": "`\n    function fn(wrapped1, wrapped2, wrapped3) {\n        if (wrapped1.x) {\n            return 1;\n        }\n        if (wrapped2.x) {\n            return 2;\n        }\n        if (wrapped3.x) {\n            // Not unwrapped\n            return 3;\n        }\n        if (wrapped1 === wrapped2) {\n            // Always a new wrapped function\n            return 4;\n        }\n\n        // No unwrapping\n        if (wrapped3 === fn) {\n            return 5;\n        };\n\n        return true;\n    }\n    fn.x = 'secret';\n    fn;\n`",
+    "start": 572,
+    "end": 1087
   },
   {
     "type": "Punctuator",

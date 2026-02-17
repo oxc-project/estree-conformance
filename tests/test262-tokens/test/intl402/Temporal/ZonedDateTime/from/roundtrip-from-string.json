@@ -1639,7 +1639,9 @@
   },
   {
     "type": "Template",
-    "value": "`2000-01-01T12:34Z[UTC][u-ca=${"
+    "value": "`2000-01-01T12:34Z[UTC][u-ca=${",
+    "start": 1233,
+    "end": 1264
   },
   {
     "type": "Identifier",
@@ -1649,7 +1651,9 @@
   },
   {
     "type": "Template",
-    "value": "}]`"
+    "value": "}]`",
+    "start": 1272,
+    "end": 1275
   },
   {
     "type": "Punctuator",
@@ -1911,7 +1915,9 @@
   },
   {
     "type": "Template",
-    "value": "`${"
+    "value": "`${",
+    "start": 1473,
+    "end": 1476
   },
   {
     "type": "Identifier",
@@ -1921,7 +1927,9 @@
   },
   {
     "type": "Template",
-    "value": "} - created from string ${"
+    "value": "} - created from string ${",
+    "start": 1481,
+    "end": 1507
   },
   {
     "type": "Identifier",
@@ -1931,7 +1939,9 @@
   },
   {
     "type": "Template",
-    "value": "}`"
+    "value": "}`",
+    "start": 1513,
+    "end": 1515
   },
   {
     "type": "Punctuator",
@@ -3489,7 +3499,9 @@
   },
   {
     "type": "Template",
-    "value": "`0001-01-01T12:34Z[UTC][u-ca=${"
+    "value": "`0001-01-01T12:34Z[UTC][u-ca=${",
+    "start": 2447,
+    "end": 2478
   },
   {
     "type": "Identifier",
@@ -3499,7 +3511,9 @@
   },
   {
     "type": "Template",
-    "value": "}]`"
+    "value": "}]`",
+    "start": 2486,
+    "end": 2489
   },
   {
     "type": "Punctuator",
@@ -3761,7 +3775,9 @@
   },
   {
     "type": "Template",
-    "value": "`${"
+    "value": "`${",
+    "start": 2687,
+    "end": 2690
   },
   {
     "type": "Identifier",
@@ -3771,7 +3787,9 @@
   },
   {
     "type": "Template",
-    "value": "} - created from string ${"
+    "value": "} - created from string ${",
+    "start": 2695,
+    "end": 2721
   },
   {
     "type": "Identifier",
@@ -3781,7 +3799,9 @@
   },
   {
     "type": "Template",
-    "value": "}`"
+    "value": "}`",
+    "start": 2727,
+    "end": 2729
   },
   {
     "type": "Punctuator",
@@ -4799,7 +4819,9 @@
   },
   {
     "type": "Template",
-    "value": "`${"
+    "value": "`${",
+    "start": 3694,
+    "end": 3697
   },
   {
     "type": "Identifier",
@@ -4809,7 +4831,9 @@
   },
   {
     "type": "Template",
-    "value": "} - created from string ${"
+    "value": "} - created from string ${",
+    "start": 3702,
+    "end": 3728
   },
   {
     "type": "Identifier",
@@ -4819,7 +4843,9 @@
   },
   {
     "type": "Template",
-    "value": "}`"
+    "value": "}`",
+    "start": 3734,
+    "end": 3736
   },
   {
     "type": "Punctuator",

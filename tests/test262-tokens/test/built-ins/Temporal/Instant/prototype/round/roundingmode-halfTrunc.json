@@ -541,7 +541,9 @@
   },
   {
     "type": "Template",
-    "value": "`rounds to ${"
+    "value": "`rounds to ${",
+    "start": 1002,
+    "end": 1015
   },
   {
     "type": "Identifier",
@@ -551,7 +553,9 @@
   },
   {
     "type": "Template",
-    "value": "} (roundingMode = ${"
+    "value": "} (roundingMode = ${",
+    "start": 1027,
+    "end": 1047
   },
   {
     "type": "Identifier",
@@ -561,7 +565,9 @@
   },
   {
     "type": "Template",
-    "value": "})`"
+    "value": "})`",
+    "start": 1059,
+    "end": 1062
   },
   {
     "type": "Punctuator",

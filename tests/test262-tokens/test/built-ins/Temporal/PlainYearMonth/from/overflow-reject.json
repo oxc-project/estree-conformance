@@ -541,7 +541,9 @@
   },
   {
     "type": "Template",
-    "value": "`Month ${"
+    "value": "`Month ${",
+    "start": 548,
+    "end": 557
   },
   {
     "type": "Identifier",
@@ -551,7 +553,9 @@
   },
   {
     "type": "Template",
-    "value": "} is out of range for 2021 with overflow: reject`"
+    "value": "} is out of range for 2021 with overflow: reject`",
+    "start": 562,
+    "end": 611
   },
   {
     "type": "Punctuator",

@@ -457,7 +457,9 @@
   },
   {
     "type": "Template",
-    "value": "`\"${"
+    "value": "`\"${",
+    "start": 1024,
+    "end": 1028
   },
   {
     "type": "Identifier",
@@ -467,7 +469,9 @@
   },
   {
     "type": "Template",
-    "value": "}\" should not be a valid ISO string for a PlainTime`"
+    "value": "}\" should not be a valid ISO string for a PlainTime`",
+    "start": 1031,
+    "end": 1083
   },
   {
     "type": "Punctuator",

@@ -187,7 +187,9 @@
   },
   {
     "type": "Template",
-    "value": "`\n  // These names are the only exception as non configurable values.\n  // Yet, they don't represent any object value.\n  const esNonConfigValues = [\n    'undefined',\n    'Infinity',\n    'NaN'\n  ];\n\n  const entries = Object.entries(Object.getOwnPropertyDescriptors(globalThis));\n\n  const missed = entries\n    .filter(entry => entry[1].configurable === false)\n    .map(([name]) => name)\n    .filter(name => !esNonConfigValues.includes(name))\n    .join(', ');\n\n  missed;\n`"
+    "value": "`\n  // These names are the only exception as non configurable values.\n  // Yet, they don't represent any object value.\n  const esNonConfigValues = [\n    'undefined',\n    'Infinity',\n    'NaN'\n  ];\n\n  const entries = Object.entries(Object.getOwnPropertyDescriptors(globalThis));\n\n  const missed = entries\n    .filter(entry => entry[1].configurable === false)\n    .map(([name]) => name)\n    .filter(name => !esNonConfigValues.includes(name))\n    .join(', ');\n\n  missed;\n`",
+    "start": 1345,
+    "end": 1814
   },
   {
     "type": "Punctuator",
@@ -311,7 +313,9 @@
   },
   {
     "type": "Template",
-    "value": "`\n  const ObjectKeys = Object.keys;\n  const hasOwn = Object.prototype.hasOwnProperty;\n  const savedGlobal = globalThis;\n  const names = Object.keys(Object.getOwnPropertyDescriptors(globalThis));\n\n  // These names are the only exception as non configurable values.\n  // Yet, they don't represent any object value.\n  const esNonConfigValues = [\n    'undefined',\n    'Infinity',\n    'NaN'\n  ];\n\n  // Delete every name except globalThis, for now\n  const remainingNames = names.filter(name => {\n    if (esNonConfigValues.includes(name)) {\n      return false;\n    }\n\n    if (name !== 'globalThis') {\n      delete globalThis[name];\n      return hasOwn.call(globalThis, name);\n    }\n  });\n\n  delete globalThis['globalThis'];\n\n  if (hasOwn.call(savedGlobal, 'globalThis')) {\n    remainingNames.push('globalThis');\n  }\n\n  const failedDelete = remainingNames.join(', ');\n\n  failedDelete;\n`"
+    "value": "`\n  const ObjectKeys = Object.keys;\n  const hasOwn = Object.prototype.hasOwnProperty;\n  const savedGlobal = globalThis;\n  const names = Object.keys(Object.getOwnPropertyDescriptors(globalThis));\n\n  // These names are the only exception as non configurable values.\n  // Yet, they don't represent any object value.\n  const esNonConfigValues = [\n    'undefined',\n    'Infinity',\n    'NaN'\n  ];\n\n  // Delete every name except globalThis, for now\n  const remainingNames = names.filter(name => {\n    if (esNonConfigValues.includes(name)) {\n      return false;\n    }\n\n    if (name !== 'globalThis') {\n      delete globalThis[name];\n      return hasOwn.call(globalThis, name);\n    }\n  });\n\n  delete globalThis['globalThis'];\n\n  if (hasOwn.call(savedGlobal, 'globalThis')) {\n    remainingNames.push('globalThis');\n  }\n\n  const failedDelete = remainingNames.join(', ');\n\n  failedDelete;\n`",
+    "start": 1928,
+    "end": 2806
   },
   {
     "type": "Punctuator",

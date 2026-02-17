@@ -523,7 +523,9 @@
   },
   {
     "type": "Template",
-    "value": "`\"${"
+    "value": "`\"${",
+    "start": 1019,
+    "end": 1023
   },
   {
     "type": "Identifier",
@@ -533,7 +535,9 @@
   },
   {
     "type": "Template",
-    "value": "}\" is outside the representable range of Instant`"
+    "value": "}\" is outside the representable range of Instant`",
+    "start": 1026,
+    "end": 1075
   },
   {
     "type": "Punctuator",

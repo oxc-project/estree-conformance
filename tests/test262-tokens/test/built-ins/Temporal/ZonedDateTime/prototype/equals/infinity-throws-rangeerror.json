@@ -745,7 +745,9 @@
   },
   {
     "type": "Template",
-    "value": "`${"
+    "value": "`${",
+    "start": 809,
+    "end": 812
   },
   {
     "type": "Identifier",
@@ -755,7 +757,9 @@
   },
   {
     "type": "Template",
-    "value": "} property cannot be ${"
+    "value": "} property cannot be ${",
+    "start": 816,
+    "end": 839
   },
   {
     "type": "Identifier",
@@ -765,7 +769,9 @@
   },
   {
     "type": "Template",
-    "value": "}`"
+    "value": "}`",
+    "start": 842,
+    "end": 844
   },
   {
     "type": "Punctuator",
@@ -1099,7 +1105,9 @@
   },
   {
     "type": "Template",
-    "value": "`get ${"
+    "value": "`get ${",
+    "start": 1053,
+    "end": 1060
   },
   {
     "type": "Identifier",
@@ -1109,7 +1117,9 @@
   },
   {
     "type": "Template",
-    "value": "}.valueOf`"
+    "value": "}.valueOf`",
+    "start": 1064,
+    "end": 1074
   },
   {
     "type": "Punctuator",
@@ -1119,7 +1129,9 @@
   },
   {
     "type": "Template",
-    "value": "`call ${"
+    "value": "`call ${",
+    "start": 1076,
+    "end": 1084
   },
   {
     "type": "Identifier",
@@ -1129,7 +1141,9 @@
   },
   {
     "type": "Template",
-    "value": "}.valueOf`"
+    "value": "}.valueOf`",
+    "start": 1088,
+    "end": 1098
   },
   {
     "type": "Punctuator",

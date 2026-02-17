@@ -469,7 +469,9 @@
   },
   {
     "type": "Template",
-    "value": "`new Intl.Locale(\"en\", {language: \"${"
+    "value": "`new Intl.Locale(\"en\", {language: \"${",
+    "start": 1967,
+    "end": 2004
   },
   {
     "type": "Identifier",
@@ -479,7 +481,9 @@
   },
   {
     "type": "Template",
-    "value": "}\"}) throws RangeError`"
+    "value": "}\"}) throws RangeError`",
+    "start": 2012,
+    "end": 2035
   },
   {
     "type": "Punctuator",

@@ -733,7 +733,9 @@
   },
   {
     "type": "Template",
-    "value": "`ISO string ${"
+    "value": "`ISO string ${",
+    "start": 1328,
+    "end": 1342
   },
   {
     "type": "Identifier",
@@ -743,7 +745,9 @@
   },
   {
     "type": "Template",
-    "value": "} with a sub-minute offset is not a valid time zone`"
+    "value": "} with a sub-minute offset is not a valid time zone`",
+    "start": 1350,
+    "end": 1402
   },
   {
     "type": "Punctuator",

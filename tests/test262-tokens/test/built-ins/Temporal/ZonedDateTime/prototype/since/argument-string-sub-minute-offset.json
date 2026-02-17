@@ -205,7 +205,9 @@
   },
   {
     "type": "Template",
-    "value": "`${"
+    "value": "`${",
+    "start": 478,
+    "end": 481
   },
   {
     "type": "Identifier",
@@ -215,7 +217,9 @@
   },
   {
     "type": "Template",
-    "value": "} is not a valid ISO string`"
+    "value": "} is not a valid ISO string`",
+    "start": 484,
+    "end": 512
   },
   {
     "type": "Punctuator",

@@ -457,7 +457,9 @@
   },
   {
     "type": "Template",
-    "value": "`\"${"
+    "value": "`\"${",
+    "start": 697,
+    "end": 701
   },
   {
     "type": "Identifier",
@@ -467,7 +469,9 @@
   },
   {
     "type": "Template",
-    "value": "}\" is a valid UTC offset with time for ZonedDateTime`"
+    "value": "}\" is a valid UTC offset with time for ZonedDateTime`",
+    "start": 704,
+    "end": 757
   },
   {
     "type": "Punctuator",
@@ -717,7 +721,9 @@
   },
   {
     "type": "Template",
-    "value": "`\"${"
+    "value": "`\"${",
+    "start": 1020,
+    "end": 1024
   },
   {
     "type": "Identifier",
@@ -727,7 +733,9 @@
   },
   {
     "type": "Template",
-    "value": "}\" UTC offset without time is not valid for ZonedDateTime`"
+    "value": "}\" UTC offset without time is not valid for ZonedDateTime`",
+    "start": 1027,
+    "end": 1085
   },
   {
     "type": "Punctuator",

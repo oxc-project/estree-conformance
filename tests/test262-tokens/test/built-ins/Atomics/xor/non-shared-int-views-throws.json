@@ -301,7 +301,9 @@
   },
   {
     "type": "Template",
-    "value": "`Atomics.xor(new ${"
+    "value": "`Atomics.xor(new ${",
+    "start": 556,
+    "end": 575
   },
   {
     "type": "Identifier",
@@ -323,7 +325,9 @@
   },
   {
     "type": "Template",
-    "value": "}(buffer), 0, 1) throws TypeError`"
+    "value": "}(buffer), 0, 1) throws TypeError`",
+    "start": 582,
+    "end": 616
   },
   {
     "type": "Punctuator",

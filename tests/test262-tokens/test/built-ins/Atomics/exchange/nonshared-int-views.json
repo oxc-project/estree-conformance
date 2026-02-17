@@ -301,7 +301,9 @@
   },
   {
     "type": "Template",
-    "value": "`Atomics.exchange(new ${"
+    "value": "`Atomics.exchange(new ${",
+    "start": 572,
+    "end": 596
   },
   {
     "type": "Identifier",
@@ -323,7 +325,9 @@
   },
   {
     "type": "Template",
-    "value": "}(buffer), 0, 0) throws TypeError`"
+    "value": "}(buffer), 0, 0) throws TypeError`",
+    "start": 603,
+    "end": 637
   },
   {
     "type": "Punctuator",

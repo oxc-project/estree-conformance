@@ -427,7 +427,9 @@
   },
   {
     "type": "Template",
-    "value": "`Object property value reassigned to NaN produced by (index=${"
+    "value": "`Object property value reassigned to NaN produced by (index=${",
+    "start": 1902,
+    "end": 1964
   },
   {
     "type": "Identifier",
@@ -437,7 +439,9 @@
   },
   {
     "type": "Template",
-    "value": "}) results in a valid NaN`"
+    "value": "}) results in a valid NaN`",
+    "start": 1967,
+    "end": 1993
   },
   {
     "type": "Punctuator",

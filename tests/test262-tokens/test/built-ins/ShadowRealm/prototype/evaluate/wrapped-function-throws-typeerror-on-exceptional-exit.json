@@ -193,7 +193,9 @@
   },
   {
     "type": "Template",
-    "value": "`(f) => {\n    try {\n      f();\n    } catch (e) {\n      if (e instanceof TypeError) {\n        return 'ok';\n      } else {\n        return e.toString();\n      }\n    }\n    return 'normal exit';\n  }`"
+    "value": "`(f) => {\n    try {\n      f();\n    } catch (e) {\n      if (e instanceof TypeError) {\n        return 'ok';\n      } else {\n        return e.toString();\n      }\n    }\n    return 'normal exit';\n  }`",
+    "start": 534,
+    "end": 728
   },
   {
     "type": "Punctuator",

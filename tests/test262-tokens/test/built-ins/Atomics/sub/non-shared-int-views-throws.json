@@ -277,7 +277,9 @@
   },
   {
     "type": "Template",
-    "value": "`Atomics.sub(new ${"
+    "value": "`Atomics.sub(new ${",
+    "start": 526,
+    "end": 545
   },
   {
     "type": "Identifier",
@@ -299,7 +301,9 @@
   },
   {
     "type": "Template",
-    "value": "}(buffer), 0, 1) throws TypeError`"
+    "value": "}(buffer), 0, 1) throws TypeError`",
+    "start": 552,
+    "end": 586
   },
   {
     "type": "Punctuator",

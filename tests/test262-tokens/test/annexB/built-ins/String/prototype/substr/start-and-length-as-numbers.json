@@ -2395,7 +2395,9 @@
   },
   {
     "type": "Template",
-    "value": "`\"${"
+    "value": "`\"${",
+    "start": 2195,
+    "end": 2199
   },
   {
     "type": "Identifier",
@@ -2405,7 +2407,9 @@
   },
   {
     "type": "Template",
-    "value": "}\".substr(${"
+    "value": "}\".substr(${",
+    "start": 2205,
+    "end": 2217
   },
   {
     "type": "Identifier",
@@ -2415,7 +2419,9 @@
   },
   {
     "type": "Template",
-    "value": "}, ${"
+    "value": "}, ${",
+    "start": 2222,
+    "end": 2227
   },
   {
     "type": "Identifier",
@@ -2425,7 +2431,9 @@
   },
   {
     "type": "Template",
-    "value": "})`"
+    "value": "})`",
+    "start": 2233,
+    "end": 2236
   },
   {
     "type": "Punctuator",

@@ -469,7 +469,9 @@
   },
   {
     "type": "Template",
-    "value": "`new Intl.RelativeTimeFormat(\"en\", {numberingSystem: \"${"
+    "value": "`new Intl.RelativeTimeFormat(\"en\", {numberingSystem: \"${",
+    "start": 1173,
+    "end": 1229
   },
   {
     "type": "Identifier",
@@ -479,7 +481,9 @@
   },
   {
     "type": "Template",
-    "value": "}\"}) throws RangeError`"
+    "value": "}\"}) throws RangeError`",
+    "start": 1244,
+    "end": 1267
   },
   {
     "type": "Punctuator",

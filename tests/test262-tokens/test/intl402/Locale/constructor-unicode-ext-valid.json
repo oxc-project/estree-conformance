@@ -439,7 +439,9 @@
   },
   {
     "type": "Template",
-    "value": "`new Intl.Locale(\"${"
+    "value": "`new Intl.Locale(\"${",
+    "start": 1278,
+    "end": 1298
   },
   {
     "type": "Identifier",
@@ -449,7 +451,9 @@
   },
   {
     "type": "Template",
-    "value": "}\").toString() returns \"${"
+    "value": "}\").toString() returns \"${",
+    "start": 1305,
+    "end": 1331
   },
   {
     "type": "Identifier",
@@ -459,7 +463,9 @@
   },
   {
     "type": "Template",
-    "value": "}\"`"
+    "value": "}\"`",
+    "start": 1340,
+    "end": 1343
   },
   {
     "type": "Punctuator",

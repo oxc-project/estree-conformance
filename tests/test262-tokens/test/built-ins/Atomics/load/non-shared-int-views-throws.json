@@ -289,7 +289,9 @@
   },
   {
     "type": "Template",
-    "value": "`Atomics.load(new ${"
+    "value": "`Atomics.load(new ${",
+    "start": 547,
+    "end": 567
   },
   {
     "type": "Identifier",
@@ -311,7 +313,9 @@
   },
   {
     "type": "Template",
-    "value": "}(buffer), 0) throws TypeError`"
+    "value": "}(buffer), 0) throws TypeError`",
+    "start": 574,
+    "end": 605
   },
   {
     "type": "Punctuator",

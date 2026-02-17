@@ -403,7 +403,9 @@
   },
   {
     "type": "Template",
-    "value": "`\n    $262.agent.receiveBroadcast(function(sab) {\n      const i32a = new Int32Array(sab);\n      Atomics.add(i32a, ${"
+    "value": "`\n    $262.agent.receiveBroadcast(function(sab) {\n      const i32a = new Int32Array(sab);\n      Atomics.add(i32a, ${",
+    "start": 979,
+    "end": 1095
   },
   {
     "type": "Identifier",
@@ -413,7 +415,9 @@
   },
   {
     "type": "Template",
-    "value": "}, 1);\n\n      $262.agent.report(\"A \" + Atomics.wait(i32a, ${"
+    "value": "}, 1);\n\n      $262.agent.report(\"A \" + Atomics.wait(i32a, ${",
+    "start": 1102,
+    "end": 1162
   },
   {
     "type": "Identifier",
@@ -423,7 +427,9 @@
   },
   {
     "type": "Template",
-    "value": "}, 0));\n      $262.agent.leaving();\n    });\n  `"
+    "value": "}, 0));\n      $262.agent.leaving();\n    });\n  `",
+    "start": 1172,
+    "end": 1219
   },
   {
     "type": "Punctuator",
@@ -481,7 +487,9 @@
   },
   {
     "type": "Template",
-    "value": "`\n  $262.agent.receiveBroadcast(function(sab) {\n    const i32a = new Int32Array(sab);\n    Atomics.add(i32a, ${"
+    "value": "`\n  $262.agent.receiveBroadcast(function(sab) {\n    const i32a = new Int32Array(sab);\n    Atomics.add(i32a, ${",
+    "start": 1242,
+    "end": 1352
   },
   {
     "type": "Identifier",
@@ -491,7 +499,9 @@
   },
   {
     "type": "Template",
-    "value": "}, 1);\n\n    // This will always time out.\n    $262.agent.report(\"B \" + Atomics.wait(i32a, ${"
+    "value": "}, 1);\n\n    // This will always time out.\n    $262.agent.report(\"B \" + Atomics.wait(i32a, ${",
+    "start": 1359,
+    "end": 1451
   },
   {
     "type": "Identifier",
@@ -501,7 +511,9 @@
   },
   {
     "type": "Template",
-    "value": "}, 0, ${"
+    "value": "}, 0, ${",
+    "start": 1460,
+    "end": 1468
   },
   {
     "type": "Identifier",
@@ -511,7 +523,9 @@
   },
   {
     "type": "Template",
-    "value": "}));\n\n    // If this value is not 1, then the agent timeout before the main agent\n    // called Atomics.notify.\n    const result = Atomics.load(i32a, ${"
+    "value": "}));\n\n    // If this value is not 1, then the agent timeout before the main agent\n    // called Atomics.notify.\n    const result = Atomics.load(i32a, ${",
+    "start": 1475,
+    "end": 1627
   },
   {
     "type": "Identifier",
@@ -521,7 +535,9 @@
   },
   {
     "type": "Template",
-    "value": "}) === 1\n                   ? \"timeout after Atomics.notify\"\n                   : \"timeout before Atomics.notify\";\n    $262.agent.report(\"W \" + result);\n\n    $262.agent.leaving();\n  });\n`"
+    "value": "}) === 1\n                   ? \"timeout after Atomics.notify\"\n                   : \"timeout before Atomics.notify\";\n    $262.agent.report(\"W \" + result);\n\n    $262.agent.leaving();\n  });\n`",
+    "start": 1639,
+    "end": 1826
   },
   {
     "type": "Punctuator",

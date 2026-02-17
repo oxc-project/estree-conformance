@@ -313,7 +313,9 @@
   },
   {
     "type": "Template",
-    "value": "`\"${"
+    "value": "`\"${",
+    "start": 666,
+    "end": 670
   },
   {
     "type": "Identifier",
@@ -323,7 +325,9 @@
   },
   {
     "type": "Template",
-    "value": "}\" is a valid UTC offset with time for Instant`"
+    "value": "}\" is a valid UTC offset with time for Instant`",
+    "start": 673,
+    "end": 720
   },
   {
     "type": "Punctuator",
@@ -699,7 +703,9 @@
   },
   {
     "type": "Template",
-    "value": "`\"${"
+    "value": "`\"${",
+    "start": 1101,
+    "end": 1105
   },
   {
     "type": "Identifier",
@@ -709,7 +715,9 @@
   },
   {
     "type": "Template",
-    "value": "}\" UTC offset without time is not valid for Instant (first argument)`"
+    "value": "}\" UTC offset without time is not valid for Instant (first argument)`",
+    "start": 1108,
+    "end": 1177
   },
   {
     "type": "Punctuator",
@@ -845,7 +853,9 @@
   },
   {
     "type": "Template",
-    "value": "`\"${"
+    "value": "`\"${",
+    "start": 1268,
+    "end": 1272
   },
   {
     "type": "Identifier",
@@ -855,7 +865,9 @@
   },
   {
     "type": "Template",
-    "value": "}\" UTC offset without time is not valid for Instant (second argument)`"
+    "value": "}\" UTC offset without time is not valid for Instant (second argument)`",
+    "start": 1275,
+    "end": 1345
   },
   {
     "type": "Punctuator",

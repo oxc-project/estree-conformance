@@ -2941,7 +2941,9 @@
   },
   {
     "type": "Template",
-    "value": "`${"
+    "value": "`${",
+    "start": 3990,
+    "end": 3993
   },
   {
     "type": "Identifier",
@@ -2951,7 +2953,9 @@
   },
   {
     "type": "Template",
-    "value": "} is out of range (first argument)`"
+    "value": "} is out of range (first argument)`",
+    "start": 3998,
+    "end": 4033
   },
   {
     "type": "Punctuator",
@@ -3117,7 +3121,9 @@
   },
   {
     "type": "Template",
-    "value": "`${"
+    "value": "`${",
+    "start": 4127,
+    "end": 4130
   },
   {
     "type": "Identifier",
@@ -3127,7 +3133,9 @@
   },
   {
     "type": "Template",
-    "value": "} is out of range (second argument)`"
+    "value": "} is out of range (second argument)`",
+    "start": 4135,
+    "end": 4171
   },
   {
     "type": "Punctuator",

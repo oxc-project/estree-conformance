@@ -859,7 +859,9 @@
   },
   {
     "type": "Template",
-    "value": "`date.toLocaleString(\"en\", { ${"
+    "value": "`date.toLocaleString(\"en\", { ${",
+    "start": 1466,
+    "end": 1497
   },
   {
     "type": "Identifier",
@@ -869,7 +871,9 @@
   },
   {
     "type": "Template",
-    "value": "}: \"${"
+    "value": "}: \"${",
+    "start": 1503,
+    "end": 1509
   },
   {
     "type": "Identifier",
@@ -879,7 +883,9 @@
   },
   {
     "type": "Template",
-    "value": "}\",  dateStyle: \"short\" }) throws TypeError`"
+    "value": "}\",  dateStyle: \"short\" }) throws TypeError`",
+    "start": 1514,
+    "end": 1558
   },
   {
     "type": "Punctuator",

@@ -307,7 +307,9 @@
   },
   {
     "type": "Template",
-    "value": "`monthCode ${"
+    "value": "`monthCode ${",
+    "start": 768,
+    "end": 781
   },
   {
     "type": "Identifier",
@@ -317,7 +319,9 @@
   },
   {
     "type": "Template",
-    "value": "} should be preserved`"
+    "value": "} should be preserved`",
+    "start": 790,
+    "end": 812
   },
   {
     "type": "Punctuator",
@@ -537,7 +541,9 @@
   },
   {
     "type": "Template",
-    "value": "`Equivalent monthCode ${"
+    "value": "`Equivalent monthCode ${",
+    "start": 1007,
+    "end": 1031
   },
   {
     "type": "Identifier",
@@ -547,7 +553,9 @@
   },
   {
     "type": "Template",
-    "value": "} and month ${"
+    "value": "} and month ${",
+    "start": 1040,
+    "end": 1054
   },
   {
     "type": "Identifier",
@@ -557,7 +565,9 @@
   },
   {
     "type": "Template",
-    "value": "} are resolved to the same PlainMonthDay`"
+    "value": "} are resolved to the same PlainMonthDay`",
+    "start": 1059,
+    "end": 1100
   },
   {
     "type": "Punctuator",
@@ -753,7 +763,9 @@
   },
   {
     "type": "Template",
-    "value": "`${"
+    "value": "`${",
+    "start": 1339,
+    "end": 1342
   },
   {
     "type": "Identifier",
@@ -763,7 +775,9 @@
   },
   {
     "type": "Template",
-    "value": "} with day ${"
+    "value": "} with day ${",
+    "start": 1351,
+    "end": 1364
   },
   {
     "type": "Identifier",
@@ -773,7 +787,9 @@
   },
   {
     "type": "Template",
-    "value": "} should be valid`"
+    "value": "} should be valid`",
+    "start": 1375,
+    "end": 1393
   },
   {
     "type": "Punctuator",
@@ -1017,7 +1033,9 @@
   },
   {
     "type": "Template",
-    "value": "`day ${"
+    "value": "`day ${",
+    "start": 1638,
+    "end": 1645
   },
   {
     "type": "Identifier",
@@ -1039,7 +1057,9 @@
   },
   {
     "type": "Template",
-    "value": "} should be constrained to ${"
+    "value": "} should be constrained to ${",
+    "start": 1660,
+    "end": 1689
   },
   {
     "type": "Identifier",
@@ -1049,7 +1069,9 @@
   },
   {
     "type": "Template",
-    "value": "} for ${"
+    "value": "} for ${",
+    "start": 1700,
+    "end": 1708
   },
   {
     "type": "Identifier",
@@ -1059,7 +1081,9 @@
   },
   {
     "type": "Template",
-    "value": "}`"
+    "value": "}`",
+    "start": 1717,
+    "end": 1719
   },
   {
     "type": "Punctuator",
@@ -1297,7 +1321,9 @@
   },
   {
     "type": "Template",
-    "value": "`${"
+    "value": "`${",
+    "start": 1894,
+    "end": 1897
   },
   {
     "type": "Identifier",
@@ -1307,7 +1333,9 @@
   },
   {
     "type": "Template",
-    "value": "} with day ${"
+    "value": "} with day ${",
+    "start": 1906,
+    "end": 1919
   },
   {
     "type": "Identifier",
@@ -1329,7 +1357,9 @@
   },
   {
     "type": "Template",
-    "value": "} should throw with reject overflow`"
+    "value": "} should throw with reject overflow`",
+    "start": 1934,
+    "end": 1970
   },
   {
     "type": "Punctuator",

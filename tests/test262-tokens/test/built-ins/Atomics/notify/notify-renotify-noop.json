@@ -133,7 +133,9 @@
   },
   {
     "type": "Template",
-    "value": "`\n  $262.agent.receiveBroadcast(function(sab) {\n    const i32a = new Int32Array(sab);\n    Atomics.add(i32a, ${"
+    "value": "`\n  $262.agent.receiveBroadcast(function(sab) {\n    const i32a = new Int32Array(sab);\n    Atomics.add(i32a, ${",
+    "start": 397,
+    "end": 507
   },
   {
     "type": "Identifier",
@@ -143,7 +145,9 @@
   },
   {
     "type": "Template",
-    "value": "}, 1);\n\n    $262.agent.report(Atomics.wait(i32a, 0, 0, ${"
+    "value": "}, 1);\n\n    $262.agent.report(Atomics.wait(i32a, 0, 0, ${",
+    "start": 514,
+    "end": 571
   },
   {
     "type": "Identifier",
@@ -153,7 +157,9 @@
   },
   {
     "type": "Template",
-    "value": "}));\n    $262.agent.leaving();\n  });\n`"
+    "value": "}));\n    $262.agent.leaving();\n  });\n`",
+    "start": 578,
+    "end": 616
   },
   {
     "type": "Punctuator",

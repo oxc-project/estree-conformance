@@ -121,7 +121,9 @@
   },
   {
     "type": "Template",
-    "value": "`foo ${"
+    "value": "`foo ${",
+    "start": 537,
+    "end": 544
   },
   {
     "type": "Identifier",
@@ -155,7 +157,9 @@
   },
   {
     "type": "Template",
-    "value": "} bar`"
+    "value": "} bar`",
+    "start": 555,
+    "end": 561
   },
   {
     "type": "Punctuator",

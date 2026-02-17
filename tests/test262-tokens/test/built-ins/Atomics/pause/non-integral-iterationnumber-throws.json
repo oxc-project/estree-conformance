@@ -503,7 +503,9 @@
   },
   {
     "type": "Template",
-    "value": "`${"
+    "value": "`${",
+    "start": 567,
+    "end": 570
   },
   {
     "type": "Identifier",
@@ -561,7 +563,9 @@
   },
   {
     "type": "Template",
-    "value": "} is an illegal iterationNumber`"
+    "value": "} is an illegal iterationNumber`",
+    "start": 590,
+    "end": 622
   },
   {
     "type": "Punctuator",

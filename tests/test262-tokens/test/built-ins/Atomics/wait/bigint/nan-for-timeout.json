@@ -169,7 +169,9 @@
   },
   {
     "type": "Template",
-    "value": "`\n  $262.agent.receiveBroadcast(function(sab) {\n    const i64a = new BigInt64Array(sab);\n    Atomics.add(i64a, ${"
+    "value": "`\n  $262.agent.receiveBroadcast(function(sab) {\n    const i64a = new BigInt64Array(sab);\n    Atomics.add(i64a, ${",
+    "start": 645,
+    "end": 758
   },
   {
     "type": "Identifier",
@@ -179,7 +181,9 @@
   },
   {
     "type": "Template",
-    "value": "}, 1n);\n\n    $262.agent.report(Atomics.wait(i64a, 0, 0n, NaN));  // NaN => +Infinity\n    $262.agent.leaving();\n  });\n`"
+    "value": "}, 1n);\n\n    $262.agent.report(Atomics.wait(i64a, 0, 0n, NaN));  // NaN => +Infinity\n    $262.agent.leaving();\n  });\n`",
+    "start": 765,
+    "end": 883
   },
   {
     "type": "Punctuator",

@@ -2443,7 +2443,9 @@
   },
   {
     "type": "Template",
-    "value": "`Instant.from(${"
+    "value": "`Instant.from(${",
+    "start": 4310,
+    "end": 4326
   },
   {
     "type": "Identifier",
@@ -2453,7 +2455,9 @@
   },
   {
     "type": "Template",
-    "value": "})`"
+    "value": "})`",
+    "start": 4329,
+    "end": 4332
   },
   {
     "type": "Punctuator",

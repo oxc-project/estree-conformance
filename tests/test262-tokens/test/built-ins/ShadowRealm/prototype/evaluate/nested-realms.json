@@ -265,7 +265,9 @@
   },
   {
     "type": "Template",
-    "value": "`\n  const realm2 = new ShadowRealm();\n\n  (str) => realm2.evaluate(str);\n`"
+    "value": "`\n  const realm2 = new ShadowRealm();\n\n  (str) => realm2.evaluate(str);\n`",
+    "start": 565,
+    "end": 638
   },
   {
     "type": "Punctuator",

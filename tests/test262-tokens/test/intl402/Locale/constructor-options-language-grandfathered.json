@@ -163,7 +163,9 @@
   },
   {
     "type": "Template",
-    "value": "`new Intl.Locale(\"nb\", {language: \"no-bok\"}) throws RangeError`"
+    "value": "`new Intl.Locale(\"nb\", {language: \"no-bok\"}) throws RangeError`",
+    "start": 746,
+    "end": 809
   },
   {
     "type": "Punctuator",
@@ -365,7 +367,9 @@
   },
   {
     "type": "Template",
-    "value": "`new Intl.Locale(\"nb\", {language: \"no-bok\", region: \"NO\"}) throws RangeError`"
+    "value": "`new Intl.Locale(\"nb\", {language: \"no-bok\", region: \"NO\"}) throws RangeError`",
+    "start": 929,
+    "end": 1006
   },
   {
     "type": "Punctuator",

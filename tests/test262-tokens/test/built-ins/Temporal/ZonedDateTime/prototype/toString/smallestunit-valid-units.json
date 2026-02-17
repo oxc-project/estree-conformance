@@ -301,7 +301,9 @@
   },
   {
     "type": "Template",
-    "value": "`${"
+    "value": "`${",
+    "start": 544,
+    "end": 547
   },
   {
     "type": "Identifier",
@@ -311,7 +313,9 @@
   },
   {
     "type": "Template",
-    "value": "} with smallestUnit \"${"
+    "value": "} with smallestUnit \"${",
+    "start": 558,
+    "end": 581
   },
   {
     "type": "Identifier",
@@ -321,7 +325,9 @@
   },
   {
     "type": "Template",
-    "value": "}\"`"
+    "value": "}\"`",
+    "start": 593,
+    "end": 596
   },
   {
     "type": "Punctuator",
@@ -1147,7 +1153,9 @@
   },
   {
     "type": "Template",
-    "value": "`\"${"
+    "value": "`\"${",
+    "start": 1528,
+    "end": 1532
   },
   {
     "type": "Identifier",
@@ -1157,7 +1165,9 @@
   },
   {
     "type": "Template",
-    "value": "}\" is not a valid unit for the smallestUnit option`"
+    "value": "}\" is not a valid unit for the smallestUnit option`",
+    "start": 1544,
+    "end": 1595
   },
   {
     "type": "Punctuator",

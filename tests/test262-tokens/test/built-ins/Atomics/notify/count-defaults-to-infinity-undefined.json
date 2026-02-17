@@ -247,7 +247,9 @@
   },
   {
     "type": "Template",
-    "value": "`\n    $262.agent.receiveBroadcast(function(sab) {\n      const i32a = new Int32Array(sab);\n      Atomics.add(i32a, ${"
+    "value": "`\n    $262.agent.receiveBroadcast(function(sab) {\n      const i32a = new Int32Array(sab);\n      Atomics.add(i32a, ${",
+    "start": 665,
+    "end": 781
   },
   {
     "type": "Identifier",
@@ -257,7 +259,9 @@
   },
   {
     "type": "Template",
-    "value": "}, 1);\n\n      // Wait until restarted by main thread.\n      var status = Atomics.wait(i32a, ${"
+    "value": "}, 1);\n\n      // Wait until restarted by main thread.\n      var status = Atomics.wait(i32a, ${",
+    "start": 788,
+    "end": 882
   },
   {
     "type": "Identifier",
@@ -267,7 +271,9 @@
   },
   {
     "type": "Template",
-    "value": "}, 0);\n\n      // Report wait status and then exit the agent.\n      var name = String.fromCharCode(0x41 + ${"
+    "value": "}, 0);\n\n      // Report wait status and then exit the agent.\n      var name = String.fromCharCode(0x41 + ${",
+    "start": 892,
+    "end": 999
   },
   {
     "type": "Identifier",
@@ -277,7 +283,9 @@
   },
   {
     "type": "Template",
-    "value": "}); // \"A\", \"B\", \"C\", or \"D\"\n      $262.agent.report(name + \" \" + status);\n      $262.agent.leaving();\n    });\n  `"
+    "value": "}); // \"A\", \"B\", \"C\", or \"D\"\n      $262.agent.report(name + \" \" + status);\n      $262.agent.leaving();\n    });\n  `",
+    "start": 1000,
+    "end": 1114
   },
   {
     "type": "Punctuator",

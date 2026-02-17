@@ -1717,7 +1717,9 @@
   },
   {
     "type": "Template",
-    "value": "`new Intl.Locale(\"en\", { firstDayOfWeek: ${"
+    "value": "`new Intl.Locale(\"en\", { firstDayOfWeek: ${",
+    "start": 2179,
+    "end": 2222
   },
   {
     "type": "Identifier",
@@ -1727,7 +1729,9 @@
   },
   {
     "type": "Template",
-    "value": "} }).toString() returns \"${"
+    "value": "} }).toString() returns \"${",
+    "start": 2236,
+    "end": 2263
   },
   {
     "type": "Identifier",
@@ -1737,7 +1741,9 @@
   },
   {
     "type": "Template",
-    "value": "}\"`"
+    "value": "}\"`",
+    "start": 2271,
+    "end": 2274
   },
   {
     "type": "Punctuator",
@@ -1885,7 +1891,9 @@
   },
   {
     "type": "Template",
-    "value": "`new Intl.Locale(\"en-u-fw-WED\", { firstDayOfWeek: ${"
+    "value": "`new Intl.Locale(\"en-u-fw-WED\", { firstDayOfWeek: ${",
+    "start": 2385,
+    "end": 2437
   },
   {
     "type": "Identifier",
@@ -1895,7 +1903,9 @@
   },
   {
     "type": "Template",
-    "value": "} }).toString() returns \"${"
+    "value": "} }).toString() returns \"${",
+    "start": 2451,
+    "end": 2478
   },
   {
     "type": "Identifier",
@@ -1905,7 +1915,9 @@
   },
   {
     "type": "Template",
-    "value": "}\"`"
+    "value": "}\"`",
+    "start": 2486,
+    "end": 2489
   },
   {
     "type": "Punctuator",

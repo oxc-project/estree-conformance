@@ -7567,7 +7567,9 @@
   },
   {
     "type": "Template",
-    "value": "`2020-01-01[${"
+    "value": "`2020-01-01[${",
+    "start": 13186,
+    "end": 13200
   },
   {
     "type": "Identifier",
@@ -7577,7 +7579,9 @@
   },
   {
     "type": "Template",
-    "value": "}]`"
+    "value": "}]`",
+    "start": 13208,
+    "end": 13211
   },
   {
     "type": "Punctuator",
@@ -7719,7 +7723,9 @@
   },
   {
     "type": "Template",
-    "value": "`Time zone created from string \"${"
+    "value": "`Time zone created from string \"${",
+    "start": 13310,
+    "end": 13344
   },
   {
     "type": "Identifier",
@@ -7729,7 +7735,9 @@
   },
   {
     "type": "Template",
-    "value": "}\"`"
+    "value": "}\"`",
+    "start": 13353,
+    "end": 13356
   },
   {
     "type": "Punctuator",

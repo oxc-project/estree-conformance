@@ -97,7 +97,9 @@
   },
   {
     "type": "Template",
-    "value": "`\n  $262.agent.receiveBroadcast(function(sab) {\n    const i32a = new Int32Array(sab);\n    Atomics.add(i32a, ${"
+    "value": "`\n  $262.agent.receiveBroadcast(function(sab) {\n    const i32a = new Int32Array(sab);\n    Atomics.add(i32a, ${",
+    "start": 578,
+    "end": 688
   },
   {
     "type": "Identifier",
@@ -107,7 +109,9 @@
   },
   {
     "type": "Template",
-    "value": "}, 1);\n\n    // Wait on index 0\n    $262.agent.report(Atomics.wait(i32a, 0, 0, Infinity));\n    $262.agent.leaving();\n  });\n`"
+    "value": "}, 1);\n\n    // Wait on index 0\n    $262.agent.report(Atomics.wait(i32a, 0, 0, Infinity));\n    $262.agent.leaving();\n  });\n`",
+    "start": 695,
+    "end": 818
   },
   {
     "type": "Punctuator",
@@ -159,7 +163,9 @@
   },
   {
     "type": "Template",
-    "value": "`\n  $262.agent.receiveBroadcast(function(sab) {\n    const i32a = new Int32Array(sab);\n    Atomics.add(i32a, ${"
+    "value": "`\n  $262.agent.receiveBroadcast(function(sab) {\n    const i32a = new Int32Array(sab);\n    Atomics.add(i32a, ${",
+    "start": 839,
+    "end": 949
   },
   {
     "type": "Identifier",
@@ -169,7 +175,9 @@
   },
   {
     "type": "Template",
-    "value": "}, 1);\n\n    // Wait on index 2\n    $262.agent.report(Atomics.wait(i32a, 2, 0, Infinity));\n    $262.agent.leaving();\n  });\n`"
+    "value": "}, 1);\n\n    // Wait on index 2\n    $262.agent.report(Atomics.wait(i32a, 2, 0, Infinity));\n    $262.agent.leaving();\n  });\n`",
+    "start": 956,
+    "end": 1079
   },
   {
     "type": "Punctuator",

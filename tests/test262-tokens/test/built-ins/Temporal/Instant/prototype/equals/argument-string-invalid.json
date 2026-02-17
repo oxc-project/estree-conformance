@@ -751,7 +751,9 @@
   },
   {
     "type": "Template",
-    "value": "`\"${"
+    "value": "`\"${",
+    "start": 1740,
+    "end": 1744
   },
   {
     "type": "Identifier",
@@ -761,7 +763,9 @@
   },
   {
     "type": "Template",
-    "value": "}\" should not be a valid ISO string for an Instant`"
+    "value": "}\" should not be a valid ISO string for an Instant`",
+    "start": 1747,
+    "end": 1798
   },
   {
     "type": "Punctuator",

@@ -19,7 +19,9 @@
   },
   {
     "type": "Template",
-    "value": "`\nreturn class C {\n  #m() { return 'test262'; }\n\n  access(o) {\n    return o.#m();\n  }\n}\n`"
+    "value": "`\nreturn class C {\n  #m() { return 'test262'; }\n\n  access(o) {\n    return o.#m();\n  }\n}\n`",
+    "start": 819,
+    "end": 908
   },
   {
     "type": "Punctuator",

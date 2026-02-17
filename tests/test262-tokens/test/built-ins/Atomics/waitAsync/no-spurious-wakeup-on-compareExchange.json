@@ -319,7 +319,9 @@
   },
   {
     "type": "Template",
-    "value": "`\n  $262.agent.receiveBroadcast(async (sab) => {\n    const i32a = new Int32Array(sab);\n    Atomics.add(i32a, ${"
+    "value": "`\n  $262.agent.receiveBroadcast(async (sab) => {\n    const i32a = new Int32Array(sab);\n    Atomics.add(i32a, ${",
+    "start": 1246,
+    "end": 1357
   },
   {
     "type": "Identifier",
@@ -329,7 +331,9 @@
   },
   {
     "type": "Template",
-    "value": "}, 1);\n\n    const before = $262.agent.monotonicNow();\n    const unpark = await Atomics.waitAsync(i32a, 0, 0, ${"
+    "value": "}, 1);\n\n    const before = $262.agent.monotonicNow();\n    const unpark = await Atomics.waitAsync(i32a, 0, 0, ${",
+    "start": 1364,
+    "end": 1475
   },
   {
     "type": "Identifier",
@@ -339,7 +343,9 @@
   },
   {
     "type": "Template",
-    "value": "}).value;\n    const duration = $262.agent.monotonicNow() - before;\n\n    $262.agent.report(duration);\n    $262.agent.report(unpark);\n    $262.agent.leaving();\n  });\n`"
+    "value": "}).value;\n    const duration = $262.agent.monotonicNow() - before;\n\n    $262.agent.report(duration);\n    $262.agent.report(unpark);\n    $262.agent.leaving();\n  });\n`",
+    "start": 1482,
+    "end": 1647
   },
   {
     "type": "Punctuator",

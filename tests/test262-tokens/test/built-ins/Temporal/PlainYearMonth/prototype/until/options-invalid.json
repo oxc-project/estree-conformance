@@ -403,7 +403,9 @@
   },
   {
     "type": "Template",
-    "value": "`${"
+    "value": "`${",
+    "start": 526,
+    "end": 529
   },
   {
     "type": "Identifier",
@@ -431,7 +433,9 @@
   },
   {
     "type": "Template",
-    "value": "} throws TypeError`"
+    "value": "} throws TypeError`",
+    "start": 546,
+    "end": 565
   },
   {
     "type": "Punctuator",

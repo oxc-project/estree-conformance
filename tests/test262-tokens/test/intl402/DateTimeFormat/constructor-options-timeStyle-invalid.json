@@ -301,7 +301,9 @@
   },
   {
     "type": "Template",
-    "value": "`new Intl.DateTimeFormat(\"en\", { timeStyle: \"${"
+    "value": "`new Intl.DateTimeFormat(\"en\", { timeStyle: \"${",
+    "start": 762,
+    "end": 809
   },
   {
     "type": "Identifier",
@@ -311,7 +313,9 @@
   },
   {
     "type": "Template",
-    "value": "}\" }) throws RangeError`"
+    "value": "}\" }) throws RangeError`",
+    "start": 818,
+    "end": 842
   },
   {
     "type": "Punctuator",

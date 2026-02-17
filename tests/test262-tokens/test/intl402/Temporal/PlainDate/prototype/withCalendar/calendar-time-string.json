@@ -427,7 +427,9 @@
   },
   {
     "type": "Template",
-    "value": "`T11:30[u-ca=${"
+    "value": "`T11:30[u-ca=${",
+    "start": 622,
+    "end": 637
   },
   {
     "type": "Identifier",
@@ -437,7 +439,9 @@
   },
   {
     "type": "Template",
-    "value": "}]`"
+    "value": "}]`",
+    "start": 640,
+    "end": 643
   },
   {
     "type": "Punctuator",
@@ -567,7 +571,9 @@
   },
   {
     "type": "Template",
-    "value": "`Calendar created from string \"${"
+    "value": "`Calendar created from string \"${",
+    "start": 733,
+    "end": 766
   },
   {
     "type": "Identifier",
@@ -577,7 +583,9 @@
   },
   {
     "type": "Template",
-    "value": "}\"`"
+    "value": "}\"`",
+    "start": 769,
+    "end": 772
   },
   {
     "type": "Punctuator",

@@ -457,7 +457,9 @@
   },
   {
     "type": "Template",
-    "value": "`new Intl.Locale(${"
+    "value": "`new Intl.Locale(${",
+    "start": 701,
+    "end": 720
   },
   {
     "type": "Identifier",
@@ -467,7 +469,9 @@
   },
   {
     "type": "Template",
-    "value": "}).firstDayOfWeek returns \"${"
+    "value": "}).firstDayOfWeek returns \"${",
+    "start": 722,
+    "end": 751
   },
   {
     "type": "Identifier",
@@ -477,7 +481,9 @@
   },
   {
     "type": "Template",
-    "value": "}\"`"
+    "value": "}\"`",
+    "start": 759,
+    "end": 762
   },
   {
     "type": "Punctuator",

@@ -337,7 +337,9 @@
   },
   {
     "type": "Template",
-    "value": "`${"
+    "value": "`${",
+    "start": 581,
+    "end": 584
   },
   {
     "type": "Identifier",
@@ -347,7 +349,9 @@
   },
   {
     "type": "Template",
-    "value": "} not allowed in time string`"
+    "value": "} not allowed in time string`",
+    "start": 595,
+    "end": 624
   },
   {
     "type": "Punctuator",
