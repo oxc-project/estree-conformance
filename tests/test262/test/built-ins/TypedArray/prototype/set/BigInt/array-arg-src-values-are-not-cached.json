@@ -8,8 +8,8 @@
         "callee": {
           "type": "Identifier",
           "name": "testWithBigIntTypedArrayConstructors",
-          "start": 899,
-          "end": 935
+          "start": 893,
+          "end": 929
         },
         "arguments": [
           {
@@ -21,8 +21,14 @@
               {
                 "type": "Identifier",
                 "name": "TA",
-                "start": 945,
-                "end": 947
+                "start": 939,
+                "end": 941
+              },
+              {
+                "type": "Identifier",
+                "name": "makeCtorArg",
+                "start": 943,
+                "end": 954
               }
             ],
             "body": {
@@ -37,35 +43,49 @@
                       "id": {
                         "type": "Identifier",
                         "name": "sample",
-                        "start": 957,
-                        "end": 963
+                        "start": 964,
+                        "end": 970
                       },
                       "init": {
                         "type": "NewExpression",
                         "callee": {
                           "type": "Identifier",
                           "name": "TA",
-                          "start": 970,
-                          "end": 972
+                          "start": 977,
+                          "end": 979
                         },
                         "arguments": [
                           {
-                            "type": "Literal",
-                            "value": 5,
-                            "raw": "5",
-                            "start": 973,
-                            "end": 974
+                            "type": "CallExpression",
+                            "callee": {
+                              "type": "Identifier",
+                              "name": "makeCtorArg",
+                              "start": 980,
+                              "end": 991
+                            },
+                            "arguments": [
+                              {
+                                "type": "Literal",
+                                "value": 5,
+                                "raw": "5",
+                                "start": 992,
+                                "end": 993
+                              }
+                            ],
+                            "optional": false,
+                            "start": 980,
+                            "end": 994
                           }
                         ],
-                        "start": 966,
-                        "end": 975
+                        "start": 973,
+                        "end": 995
                       },
-                      "start": 957,
-                      "end": 975
+                      "start": 964,
+                      "end": 995
                     }
                   ],
-                  "start": 953,
-                  "end": 976
+                  "start": 960,
+                  "end": 996
                 },
                 {
                   "type": "VariableDeclaration",
@@ -76,8 +96,8 @@
                       "id": {
                         "type": "Identifier",
                         "name": "obj",
-                        "start": 983,
-                        "end": 986
+                        "start": 1003,
+                        "end": 1006
                       },
                       "init": {
                         "type": "ObjectExpression",
@@ -88,21 +108,21 @@
                             "key": {
                               "type": "Identifier",
                               "name": "length",
-                              "start": 995,
-                              "end": 1001
+                              "start": 1015,
+                              "end": 1021
                             },
                             "value": {
                               "type": "Literal",
                               "value": 5,
                               "raw": "5",
-                              "start": 1003,
-                              "end": 1004
+                              "start": 1023,
+                              "end": 1024
                             },
                             "method": false,
                             "shorthand": false,
                             "computed": false,
-                            "start": 995,
-                            "end": 1004
+                            "start": 1015,
+                            "end": 1024
                           },
                           {
                             "type": "Property",
@@ -111,22 +131,22 @@
                               "type": "Literal",
                               "value": "1",
                               "raw": "'1'",
-                              "start": 1010,
-                              "end": 1013
+                              "start": 1030,
+                              "end": 1033
                             },
                             "value": {
                               "type": "Literal",
                               "value": null,
                               "raw": "7n",
                               "bigint": "7",
-                              "start": 1015,
-                              "end": 1017
+                              "start": 1035,
+                              "end": 1037
                             },
                             "method": false,
                             "shorthand": false,
                             "computed": false,
-                            "start": 1010,
-                            "end": 1017
+                            "start": 1030,
+                            "end": 1037
                           },
                           {
                             "type": "Property",
@@ -135,22 +155,22 @@
                               "type": "Literal",
                               "value": "2",
                               "raw": "'2'",
-                              "start": 1023,
-                              "end": 1026
+                              "start": 1043,
+                              "end": 1046
                             },
                             "value": {
                               "type": "Literal",
                               "value": null,
                               "raw": "7n",
                               "bigint": "7",
-                              "start": 1028,
-                              "end": 1030
+                              "start": 1048,
+                              "end": 1050
                             },
                             "method": false,
                             "shorthand": false,
                             "computed": false,
-                            "start": 1023,
-                            "end": 1030
+                            "start": 1043,
+                            "end": 1050
                           },
                           {
                             "type": "Property",
@@ -159,22 +179,22 @@
                               "type": "Literal",
                               "value": "3",
                               "raw": "'3'",
-                              "start": 1036,
-                              "end": 1039
+                              "start": 1056,
+                              "end": 1059
                             },
                             "value": {
                               "type": "Literal",
                               "value": null,
                               "raw": "7n",
                               "bigint": "7",
-                              "start": 1041,
-                              "end": 1043
+                              "start": 1061,
+                              "end": 1063
                             },
                             "method": false,
                             "shorthand": false,
                             "computed": false,
-                            "start": 1036,
-                            "end": 1043
+                            "start": 1056,
+                            "end": 1063
                           },
                           {
                             "type": "Property",
@@ -183,33 +203,33 @@
                               "type": "Literal",
                               "value": "4",
                               "raw": "'4'",
-                              "start": 1049,
-                              "end": 1052
+                              "start": 1069,
+                              "end": 1072
                             },
                             "value": {
                               "type": "Literal",
                               "value": null,
                               "raw": "7n",
                               "bigint": "7",
-                              "start": 1054,
-                              "end": 1056
+                              "start": 1074,
+                              "end": 1076
                             },
                             "method": false,
                             "shorthand": false,
                             "computed": false,
-                            "start": 1049,
-                            "end": 1056
+                            "start": 1069,
+                            "end": 1076
                           }
                         ],
-                        "start": 989,
-                        "end": 1060
+                        "start": 1009,
+                        "end": 1080
                       },
-                      "start": 983,
-                      "end": 1060
+                      "start": 1003,
+                      "end": 1080
                     }
                   ],
-                  "start": 979,
-                  "end": 1061
+                  "start": 999,
+                  "end": 1081
                 },
                 {
                   "type": "ExpressionStatement",
@@ -220,33 +240,33 @@
                       "object": {
                         "type": "Identifier",
                         "name": "Object",
-                        "start": 1064,
-                        "end": 1070
+                        "start": 1084,
+                        "end": 1090
                       },
                       "property": {
                         "type": "Identifier",
                         "name": "defineProperty",
-                        "start": 1071,
-                        "end": 1085
+                        "start": 1091,
+                        "end": 1105
                       },
                       "optional": false,
                       "computed": false,
-                      "start": 1064,
-                      "end": 1085
+                      "start": 1084,
+                      "end": 1105
                     },
                     "arguments": [
                       {
                         "type": "Identifier",
                         "name": "obj",
-                        "start": 1086,
-                        "end": 1089
+                        "start": 1106,
+                        "end": 1109
                       },
                       {
                         "type": "Literal",
                         "value": 0,
                         "raw": "0",
-                        "start": 1091,
-                        "end": 1092
+                        "start": 1111,
+                        "end": 1112
                       },
                       {
                         "type": "ObjectExpression",
@@ -257,8 +277,8 @@
                             "key": {
                               "type": "Identifier",
                               "name": "get",
-                              "start": 1100,
-                              "end": 1103
+                              "start": 1120,
+                              "end": 1123
                             },
                             "value": {
                               "type": "FunctionExpression",
@@ -279,52 +299,13 @@
                                         "object": {
                                           "type": "Identifier",
                                           "name": "obj",
-                                          "start": 1124,
-                                          "end": 1127
-                                        },
-                                        "property": {
-                                          "type": "Literal",
-                                          "value": 1,
-                                          "raw": "1",
-                                          "start": 1128,
-                                          "end": 1129
-                                        },
-                                        "optional": false,
-                                        "computed": true,
-                                        "start": 1124,
-                                        "end": 1130
-                                      },
-                                      "right": {
-                                        "type": "Literal",
-                                        "value": null,
-                                        "raw": "43n",
-                                        "bigint": "43",
-                                        "start": 1133,
-                                        "end": 1136
-                                      },
-                                      "start": 1124,
-                                      "end": 1136
-                                    },
-                                    "start": 1124,
-                                    "end": 1137
-                                  },
-                                  {
-                                    "type": "ExpressionStatement",
-                                    "expression": {
-                                      "type": "AssignmentExpression",
-                                      "operator": "=",
-                                      "left": {
-                                        "type": "MemberExpression",
-                                        "object": {
-                                          "type": "Identifier",
-                                          "name": "obj",
                                           "start": 1144,
                                           "end": 1147
                                         },
                                         "property": {
                                           "type": "Literal",
-                                          "value": 2,
-                                          "raw": "2",
+                                          "value": 1,
+                                          "raw": "1",
                                           "start": 1148,
                                           "end": 1149
                                         },
@@ -336,8 +317,8 @@
                                       "right": {
                                         "type": "Literal",
                                         "value": null,
-                                        "raw": "44n",
-                                        "bigint": "44",
+                                        "raw": "43n",
+                                        "bigint": "43",
                                         "start": 1153,
                                         "end": 1156
                                       },
@@ -362,8 +343,8 @@
                                         },
                                         "property": {
                                           "type": "Literal",
-                                          "value": 3,
-                                          "raw": "3",
+                                          "value": 2,
+                                          "raw": "2",
                                           "start": 1168,
                                           "end": 1169
                                         },
@@ -375,8 +356,8 @@
                                       "right": {
                                         "type": "Literal",
                                         "value": null,
-                                        "raw": "45n",
-                                        "bigint": "45",
+                                        "raw": "44n",
+                                        "bigint": "44",
                                         "start": 1173,
                                         "end": 1176
                                       },
@@ -401,8 +382,8 @@
                                         },
                                         "property": {
                                           "type": "Literal",
-                                          "value": 4,
-                                          "raw": "4",
+                                          "value": 3,
+                                          "raw": "3",
                                           "start": 1188,
                                           "end": 1189
                                         },
@@ -414,8 +395,8 @@
                                       "right": {
                                         "type": "Literal",
                                         "value": null,
-                                        "raw": "46n",
-                                        "bigint": "46",
+                                        "raw": "45n",
+                                        "bigint": "45",
                                         "start": 1193,
                                         "end": 1196
                                       },
@@ -426,43 +407,82 @@
                                     "end": 1197
                                   },
                                   {
+                                    "type": "ExpressionStatement",
+                                    "expression": {
+                                      "type": "AssignmentExpression",
+                                      "operator": "=",
+                                      "left": {
+                                        "type": "MemberExpression",
+                                        "object": {
+                                          "type": "Identifier",
+                                          "name": "obj",
+                                          "start": 1204,
+                                          "end": 1207
+                                        },
+                                        "property": {
+                                          "type": "Literal",
+                                          "value": 4,
+                                          "raw": "4",
+                                          "start": 1208,
+                                          "end": 1209
+                                        },
+                                        "optional": false,
+                                        "computed": true,
+                                        "start": 1204,
+                                        "end": 1210
+                                      },
+                                      "right": {
+                                        "type": "Literal",
+                                        "value": null,
+                                        "raw": "46n",
+                                        "bigint": "46",
+                                        "start": 1213,
+                                        "end": 1216
+                                      },
+                                      "start": 1204,
+                                      "end": 1216
+                                    },
+                                    "start": 1204,
+                                    "end": 1217
+                                  },
+                                  {
                                     "type": "ReturnStatement",
                                     "argument": {
                                       "type": "Literal",
                                       "value": null,
                                       "raw": "42n",
                                       "bigint": "42",
-                                      "start": 1211,
-                                      "end": 1214
+                                      "start": 1231,
+                                      "end": 1234
                                     },
-                                    "start": 1204,
-                                    "end": 1215
+                                    "start": 1224,
+                                    "end": 1235
                                   }
                                 ],
-                                "start": 1116,
-                                "end": 1221
+                                "start": 1136,
+                                "end": 1241
                               },
                               "expression": false,
-                              "start": 1105,
-                              "end": 1221
+                              "start": 1125,
+                              "end": 1241
                             },
                             "method": false,
                             "shorthand": false,
                             "computed": false,
-                            "start": 1100,
-                            "end": 1221
+                            "start": 1120,
+                            "end": 1241
                           }
                         ],
-                        "start": 1094,
-                        "end": 1225
+                        "start": 1114,
+                        "end": 1245
                       }
                     ],
                     "optional": false,
-                    "start": 1064,
-                    "end": 1226
+                    "start": 1084,
+                    "end": 1246
                   },
-                  "start": 1064,
-                  "end": 1227
+                  "start": 1084,
+                  "end": 1247
                 },
                 {
                   "type": "ExpressionStatement",
@@ -473,34 +493,34 @@
                       "object": {
                         "type": "Identifier",
                         "name": "sample",
-                        "start": 1231,
-                        "end": 1237
+                        "start": 1251,
+                        "end": 1257
                       },
                       "property": {
                         "type": "Identifier",
                         "name": "set",
-                        "start": 1238,
-                        "end": 1241
+                        "start": 1258,
+                        "end": 1261
                       },
                       "optional": false,
                       "computed": false,
-                      "start": 1231,
-                      "end": 1241
+                      "start": 1251,
+                      "end": 1261
                     },
                     "arguments": [
                       {
                         "type": "Identifier",
                         "name": "obj",
-                        "start": 1242,
-                        "end": 1245
+                        "start": 1262,
+                        "end": 1265
                       }
                     ],
                     "optional": false,
-                    "start": 1231,
-                    "end": 1246
+                    "start": 1251,
+                    "end": 1266
                   },
-                  "start": 1231,
-                  "end": 1247
+                  "start": 1251,
+                  "end": 1267
                 },
                 {
                   "type": "ExpressionStatement",
@@ -509,8 +529,8 @@
                     "callee": {
                       "type": "Identifier",
                       "name": "assert",
-                      "start": 1251,
-                      "end": 1257
+                      "start": 1271,
+                      "end": 1277
                     },
                     "arguments": [
                       {
@@ -518,15 +538,15 @@
                         "callee": {
                           "type": "Identifier",
                           "name": "compareArray",
-                          "start": 1258,
-                          "end": 1270
+                          "start": 1278,
+                          "end": 1290
                         },
                         "arguments": [
                           {
                             "type": "Identifier",
                             "name": "sample",
-                            "start": 1271,
-                            "end": 1277
+                            "start": 1291,
+                            "end": 1297
                           },
                           {
                             "type": "ArrayExpression",
@@ -536,77 +556,98 @@
                                 "value": null,
                                 "raw": "42n",
                                 "bigint": "42",
-                                "start": 1280,
-                                "end": 1283
+                                "start": 1300,
+                                "end": 1303
                               },
                               {
                                 "type": "Literal",
                                 "value": null,
                                 "raw": "43n",
                                 "bigint": "43",
-                                "start": 1285,
-                                "end": 1288
+                                "start": 1305,
+                                "end": 1308
                               },
                               {
                                 "type": "Literal",
                                 "value": null,
                                 "raw": "44n",
                                 "bigint": "44",
-                                "start": 1290,
-                                "end": 1293
+                                "start": 1310,
+                                "end": 1313
                               },
                               {
                                 "type": "Literal",
                                 "value": null,
                                 "raw": "45n",
                                 "bigint": "45",
-                                "start": 1295,
-                                "end": 1298
+                                "start": 1315,
+                                "end": 1318
                               },
                               {
                                 "type": "Literal",
                                 "value": null,
                                 "raw": "46n",
                                 "bigint": "46",
-                                "start": 1300,
-                                "end": 1303
+                                "start": 1320,
+                                "end": 1323
                               }
                             ],
-                            "start": 1279,
-                            "end": 1304
+                            "start": 1299,
+                            "end": 1324
                           }
                         ],
                         "optional": false,
-                        "start": 1258,
-                        "end": 1305
+                        "start": 1278,
+                        "end": 1325
                       }
                     ],
                     "optional": false,
-                    "start": 1251,
-                    "end": 1306
+                    "start": 1271,
+                    "end": 1326
                   },
-                  "start": 1251,
-                  "end": 1307
+                  "start": 1271,
+                  "end": 1327
                 }
               ],
-              "start": 949,
-              "end": 1309
+              "start": 956,
+              "end": 1329
             },
             "expression": false,
-            "start": 936,
-            "end": 1309
+            "start": 930,
+            "end": 1329
+          },
+          {
+            "type": "Literal",
+            "value": null,
+            "raw": "null",
+            "start": 1331,
+            "end": 1335
+          },
+          {
+            "type": "ArrayExpression",
+            "elements": [
+              {
+                "type": "Literal",
+                "value": "passthrough",
+                "raw": "\"passthrough\"",
+                "start": 1338,
+                "end": 1351
+              }
+            ],
+            "start": 1337,
+            "end": 1352
           }
         ],
         "optional": false,
-        "start": 899,
-        "end": 1310
+        "start": 893,
+        "end": 1353
       },
-      "start": 899,
-      "end": 1311
+      "start": 893,
+      "end": 1354
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 1312
+  "end": 1355
 }

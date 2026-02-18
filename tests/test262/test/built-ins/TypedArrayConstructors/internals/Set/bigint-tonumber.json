@@ -23,6 +23,12 @@
                 "name": "TA",
                 "start": 1946,
                 "end": 1948
+              },
+              {
+                "type": "Identifier",
+                "name": "makeCtorArg",
+                "start": 1950,
+                "end": 1961
               }
             ],
             "body": {
@@ -37,35 +43,49 @@
                       "id": {
                         "type": "Identifier",
                         "name": "typedArray",
-                        "start": 1958,
-                        "end": 1968
+                        "start": 1971,
+                        "end": 1981
                       },
                       "init": {
                         "type": "NewExpression",
                         "callee": {
                           "type": "Identifier",
                           "name": "TA",
-                          "start": 1975,
-                          "end": 1977
+                          "start": 1988,
+                          "end": 1990
                         },
                         "arguments": [
                           {
-                            "type": "Literal",
-                            "value": 1,
-                            "raw": "1",
-                            "start": 1978,
-                            "end": 1979
+                            "type": "CallExpression",
+                            "callee": {
+                              "type": "Identifier",
+                              "name": "makeCtorArg",
+                              "start": 1991,
+                              "end": 2002
+                            },
+                            "arguments": [
+                              {
+                                "type": "Literal",
+                                "value": 1,
+                                "raw": "1",
+                                "start": 2003,
+                                "end": 2004
+                              }
+                            ],
+                            "optional": false,
+                            "start": 1991,
+                            "end": 2005
                           }
                         ],
-                        "start": 1971,
-                        "end": 1980
+                        "start": 1984,
+                        "end": 2006
                       },
-                      "start": 1958,
-                      "end": 1980
+                      "start": 1971,
+                      "end": 2006
                     }
                   ],
-                  "start": 1954,
-                  "end": 1981
+                  "start": 1967,
+                  "end": 2007
                 },
                 {
                   "type": "ExpressionStatement",
@@ -76,26 +96,26 @@
                       "object": {
                         "type": "Identifier",
                         "name": "assert",
-                        "start": 1985,
-                        "end": 1991
+                        "start": 2011,
+                        "end": 2017
                       },
                       "property": {
                         "type": "Identifier",
                         "name": "throws",
-                        "start": 1992,
-                        "end": 1998
+                        "start": 2018,
+                        "end": 2024
                       },
                       "optional": false,
                       "computed": false,
-                      "start": 1985,
-                      "end": 1998
+                      "start": 2011,
+                      "end": 2024
                     },
                     "arguments": [
                       {
                         "type": "Identifier",
                         "name": "TypeError",
-                        "start": 1999,
-                        "end": 2008
+                        "start": 2025,
+                        "end": 2034
                       },
                       {
                         "type": "FunctionExpression",
@@ -116,70 +136,70 @@
                                   "object": {
                                     "type": "Identifier",
                                     "name": "typedArray",
-                                    "start": 2027,
-                                    "end": 2037
+                                    "start": 2053,
+                                    "end": 2063
                                   },
                                   "property": {
                                     "type": "Literal",
                                     "value": 0,
                                     "raw": "0",
-                                    "start": 2038,
-                                    "end": 2039
+                                    "start": 2064,
+                                    "end": 2065
                                   },
                                   "optional": false,
                                   "computed": true,
-                                  "start": 2027,
-                                  "end": 2040
+                                  "start": 2053,
+                                  "end": 2066
                                 },
                                 "right": {
                                   "type": "Literal",
                                   "value": null,
                                   "raw": "1n",
                                   "bigint": "1",
-                                  "start": 2043,
-                                  "end": 2045
+                                  "start": 2069,
+                                  "end": 2071
                                 },
-                                "start": 2027,
-                                "end": 2045
+                                "start": 2053,
+                                "end": 2071
                               },
-                              "start": 2027,
-                              "end": 2046
+                              "start": 2053,
+                              "end": 2072
                             }
                           ],
-                          "start": 2021,
-                          "end": 2050
+                          "start": 2047,
+                          "end": 2076
                         },
                         "expression": false,
-                        "start": 2010,
-                        "end": 2050
+                        "start": 2036,
+                        "end": 2076
                       }
                     ],
                     "optional": false,
-                    "start": 1985,
-                    "end": 2051
+                    "start": 2011,
+                    "end": 2077
                   },
-                  "start": 1985,
-                  "end": 2052
+                  "start": 2011,
+                  "end": 2078
                 }
               ],
-              "start": 1950,
-              "end": 2054
+              "start": 1963,
+              "end": 2080
             },
             "expression": false,
             "start": 1937,
-            "end": 2054
+            "end": 2080
           }
         ],
         "optional": false,
         "start": 1906,
-        "end": 2055
+        "end": 2081
       },
       "start": 1906,
-      "end": 2056
+      "end": 2082
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 2057
+  "end": 2083
 }

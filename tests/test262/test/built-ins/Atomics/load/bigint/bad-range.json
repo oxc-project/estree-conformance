@@ -10,16 +10,16 @@
           "id": {
             "type": "Identifier",
             "name": "buffer",
-            "start": 403,
-            "end": 409
+            "start": 397,
+            "end": 403
           },
           "init": {
             "type": "NewExpression",
             "callee": {
               "type": "Identifier",
               "name": "SharedArrayBuffer",
-              "start": 416,
-              "end": 433
+              "start": 410,
+              "end": 427
             },
             "arguments": [
               {
@@ -29,41 +29,41 @@
                   "object": {
                     "type": "Identifier",
                     "name": "BigInt64Array",
-                    "start": 434,
-                    "end": 447
+                    "start": 428,
+                    "end": 441
                   },
                   "property": {
                     "type": "Identifier",
                     "name": "BYTES_PER_ELEMENT",
-                    "start": 448,
-                    "end": 465
+                    "start": 442,
+                    "end": 459
                   },
                   "optional": false,
                   "computed": false,
-                  "start": 434,
-                  "end": 465
+                  "start": 428,
+                  "end": 459
                 },
                 "operator": "*",
                 "right": {
                   "type": "Literal",
                   "value": 2,
                   "raw": "2",
-                  "start": 468,
-                  "end": 469
+                  "start": 462,
+                  "end": 463
                 },
-                "start": 434,
-                "end": 469
+                "start": 428,
+                "end": 463
               }
             ],
-            "start": 412,
-            "end": 470
+            "start": 406,
+            "end": 464
           },
-          "start": 403,
-          "end": 470
+          "start": 397,
+          "end": 464
         }
       ],
-      "start": 399,
-      "end": 471
+      "start": 393,
+      "end": 465
     },
     {
       "type": "ExpressionStatement",
@@ -72,8 +72,8 @@
         "callee": {
           "type": "Identifier",
           "name": "testWithBigIntTypedArrayConstructors",
-          "start": 473,
-          "end": 509
+          "start": 467,
+          "end": 503
         },
         "arguments": [
           {
@@ -85,8 +85,8 @@
               {
                 "type": "Identifier",
                 "name": "TA",
-                "start": 519,
-                "end": 521
+                "start": 513,
+                "end": 515
               }
             ],
             "body": {
@@ -101,34 +101,34 @@
                       "id": {
                         "type": "Identifier",
                         "name": "view",
-                        "start": 531,
-                        "end": 535
+                        "start": 525,
+                        "end": 529
                       },
                       "init": {
                         "type": "NewExpression",
                         "callee": {
                           "type": "Identifier",
                           "name": "TA",
-                          "start": 542,
-                          "end": 544
+                          "start": 536,
+                          "end": 538
                         },
                         "arguments": [
                           {
                             "type": "Identifier",
                             "name": "buffer",
-                            "start": 545,
-                            "end": 551
+                            "start": 539,
+                            "end": 545
                           }
                         ],
-                        "start": 538,
-                        "end": 552
+                        "start": 532,
+                        "end": 546
                       },
-                      "start": 531,
-                      "end": 552
+                      "start": 525,
+                      "end": 546
                     }
                   ],
-                  "start": 527,
-                  "end": 553
+                  "start": 521,
+                  "end": 547
                 },
                 {
                   "type": "ExpressionStatement",
@@ -137,8 +137,8 @@
                     "callee": {
                       "type": "Identifier",
                       "name": "testWithAtomicsOutOfBoundsIndices",
-                      "start": 556,
-                      "end": 589
+                      "start": 550,
+                      "end": 583
                     },
                     "arguments": [
                       {
@@ -150,8 +150,8 @@
                           {
                             "type": "Identifier",
                             "name": "IdxGen",
-                            "start": 599,
-                            "end": 605
+                            "start": 593,
+                            "end": 599
                           }
                         ],
                         "body": {
@@ -166,26 +166,26 @@
                                   "object": {
                                     "type": "Identifier",
                                     "name": "assert",
-                                    "start": 613,
-                                    "end": 619
+                                    "start": 607,
+                                    "end": 613
                                   },
                                   "property": {
                                     "type": "Identifier",
                                     "name": "throws",
-                                    "start": 620,
-                                    "end": 626
+                                    "start": 614,
+                                    "end": 620
                                   },
                                   "optional": false,
                                   "computed": false,
-                                  "start": 613,
-                                  "end": 626
+                                  "start": 607,
+                                  "end": 620
                                 },
                                 "arguments": [
                                   {
                                     "type": "Identifier",
                                     "name": "RangeError",
-                                    "start": 627,
-                                    "end": 637
+                                    "start": 621,
+                                    "end": 631
                                   },
                                   {
                                     "type": "FunctionExpression",
@@ -205,106 +205,127 @@
                                               "object": {
                                                 "type": "Identifier",
                                                 "name": "Atomics",
-                                                "start": 658,
-                                                "end": 665
+                                                "start": 652,
+                                                "end": 659
                                               },
                                               "property": {
                                                 "type": "Identifier",
                                                 "name": "load",
-                                                "start": 666,
-                                                "end": 670
+                                                "start": 660,
+                                                "end": 664
                                               },
                                               "optional": false,
                                               "computed": false,
-                                              "start": 658,
-                                              "end": 670
+                                              "start": 652,
+                                              "end": 664
                                             },
                                             "arguments": [
                                               {
                                                 "type": "Identifier",
                                                 "name": "view",
-                                                "start": 671,
-                                                "end": 675
+                                                "start": 665,
+                                                "end": 669
                                               },
                                               {
                                                 "type": "CallExpression",
                                                 "callee": {
                                                   "type": "Identifier",
                                                   "name": "IdxGen",
-                                                  "start": 677,
-                                                  "end": 683
+                                                  "start": 671,
+                                                  "end": 677
                                                 },
                                                 "arguments": [
                                                   {
                                                     "type": "Identifier",
                                                     "name": "view",
-                                                    "start": 684,
-                                                    "end": 688
+                                                    "start": 678,
+                                                    "end": 682
                                                   }
                                                 ],
                                                 "optional": false,
-                                                "start": 677,
-                                                "end": 689
+                                                "start": 671,
+                                                "end": 683
                                               }
                                             ],
                                             "optional": false,
-                                            "start": 658,
-                                            "end": 690
+                                            "start": 652,
+                                            "end": 684
                                           },
-                                          "start": 658,
-                                          "end": 691
+                                          "start": 652,
+                                          "end": 685
                                         }
                                       ],
-                                      "start": 650,
-                                      "end": 697
+                                      "start": 644,
+                                      "end": 691
                                     },
                                     "expression": false,
-                                    "start": 639,
-                                    "end": 697
+                                    "start": 633,
+                                    "end": 691
                                   }
                                 ],
                                 "optional": false,
-                                "start": 613,
-                                "end": 698
+                                "start": 607,
+                                "end": 692
                               },
-                              "start": 613,
-                              "end": 699
+                              "start": 607,
+                              "end": 693
                             }
                           ],
-                          "start": 607,
-                          "end": 703
+                          "start": 601,
+                          "end": 697
                         },
                         "expression": false,
-                        "start": 590,
-                        "end": 703
+                        "start": 584,
+                        "end": 697
                       }
                     ],
                     "optional": false,
-                    "start": 556,
-                    "end": 704
+                    "start": 550,
+                    "end": 698
                   },
-                  "start": 556,
-                  "end": 705
+                  "start": 550,
+                  "end": 699
                 }
               ],
-              "start": 523,
-              "end": 707
+              "start": 517,
+              "end": 701
             },
             "expression": false,
-            "start": 510,
+            "start": 504,
+            "end": 701
+          },
+          {
+            "type": "Literal",
+            "value": null,
+            "raw": "null",
+            "start": 703,
             "end": 707
+          },
+          {
+            "type": "ArrayExpression",
+            "elements": [
+              {
+                "type": "Literal",
+                "value": "passthrough",
+                "raw": "\"passthrough\"",
+                "start": 710,
+                "end": 723
+              }
+            ],
+            "start": 709,
+            "end": 724
           }
         ],
         "optional": false,
-        "start": 473,
-        "end": 708
+        "start": 467,
+        "end": 725
       },
-      "start": 473,
-      "end": 709
+      "start": 467,
+      "end": 726
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 710
+  "end": 727
 }

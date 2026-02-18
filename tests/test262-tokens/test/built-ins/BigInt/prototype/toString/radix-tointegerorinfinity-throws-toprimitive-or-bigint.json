@@ -1,0 +1,344 @@
+[
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 748,
+    "end": 754
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 754,
+    "end": 755
+  },
+  {
+    "type": "Identifier",
+    "value": "throws",
+    "start": 755,
+    "end": 761
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 761,
+    "end": 762
+  },
+  {
+    "type": "Identifier",
+    "value": "TypeError",
+    "start": 762,
+    "end": 771
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 771,
+    "end": 772
+  },
+  {
+    "type": "Keyword",
+    "value": "function",
+    "start": 773,
+    "end": 781
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 781,
+    "end": 782
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 782,
+    "end": 783
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 784,
+    "end": 785
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 790,
+    "end": 791
+  },
+  {
+    "type": "Numeric",
+    "value": "0n",
+    "start": 791,
+    "end": 793
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 793,
+    "end": 794
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 794,
+    "end": 795
+  },
+  {
+    "type": "Identifier",
+    "value": "toString",
+    "start": 795,
+    "end": 803
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 803,
+    "end": 804
+  },
+  {
+    "type": "Numeric",
+    "value": "0n",
+    "start": 804,
+    "end": 806
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 806,
+    "end": 807
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 807,
+    "end": 808
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 809,
+    "end": 810
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 810,
+    "end": 811
+  },
+  {
+    "type": "String",
+    "value": "\"If _radix_ is BigInt, BigInt.prototype.toString must throw a TypeError\"",
+    "start": 812,
+    "end": 884
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 884,
+    "end": 885
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 898,
+    "end": 904
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 904,
+    "end": 905
+  },
+  {
+    "type": "Identifier",
+    "value": "throws",
+    "start": 905,
+    "end": 911
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 911,
+    "end": 912
+  },
+  {
+    "type": "Identifier",
+    "value": "TypeError",
+    "start": 912,
+    "end": 921
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 921,
+    "end": 922
+  },
+  {
+    "type": "Keyword",
+    "value": "function",
+    "start": 923,
+    "end": 931
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 931,
+    "end": 932
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 932,
+    "end": 933
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 934,
+    "end": 935
+  },
+  {
+    "type": "Identifier",
+    "value": "BigInt",
+    "start": 940,
+    "end": 946
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 946,
+    "end": 947
+  },
+  {
+    "type": "Identifier",
+    "value": "prototype",
+    "start": 947,
+    "end": 956
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 956,
+    "end": 957
+  },
+  {
+    "type": "Identifier",
+    "value": "toString",
+    "start": 957,
+    "end": 965
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 965,
+    "end": 966
+  },
+  {
+    "type": "Identifier",
+    "value": "call",
+    "start": 966,
+    "end": 970
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 970,
+    "end": 971
+  },
+  {
+    "type": "Numeric",
+    "value": "10n",
+    "start": 971,
+    "end": 974
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 974,
+    "end": 975
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 976,
+    "end": 977
+  },
+  {
+    "type": "Identifier",
+    "value": "valueOf",
+    "start": 977,
+    "end": 984
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 984,
+    "end": 985
+  },
+  {
+    "type": "Identifier",
+    "value": "undefined",
+    "start": 986,
+    "end": 995
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 995,
+    "end": 996
+  },
+  {
+    "type": "Identifier",
+    "value": "toString",
+    "start": 997,
+    "end": 1005
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 1005,
+    "end": 1006
+  },
+  {
+    "type": "Identifier",
+    "value": "undefined",
+    "start": 1007,
+    "end": 1016
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 1016,
+    "end": 1017
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1017,
+    "end": 1018
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 1019,
+    "end": 1020
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1020,
+    "end": 1021
+  },
+  {
+    "type": "String",
+    "value": "\"TypeError is thrown when _radix_ cannot be converted to a primitive\"",
+    "start": 1022,
+    "end": 1091
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1091,
+    "end": 1092
+  }
+]

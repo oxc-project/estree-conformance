@@ -2,241 +2,277 @@
   {
     "type": "Identifier",
     "value": "testWithBigIntTypedArrayConstructors",
-    "start": 775,
-    "end": 811
+    "start": 769,
+    "end": 805
   },
   {
     "type": "Punctuator",
     "value": "(",
-    "start": 811,
-    "end": 812
+    "start": 805,
+    "end": 806
   },
   {
     "type": "Keyword",
     "value": "function",
-    "start": 812,
-    "end": 820
+    "start": 806,
+    "end": 814
   },
   {
     "type": "Punctuator",
     "value": "(",
-    "start": 820,
-    "end": 821
+    "start": 814,
+    "end": 815
   },
   {
     "type": "Identifier",
     "value": "TA",
-    "start": 821,
-    "end": 823
+    "start": 815,
+    "end": 817
   },
   {
     "type": "Punctuator",
     "value": ")",
-    "start": 823,
-    "end": 824
+    "start": 817,
+    "end": 818
   },
   {
     "type": "Punctuator",
     "value": "{",
-    "start": 825,
-    "end": 826
+    "start": 819,
+    "end": 820
   },
   {
     "type": "Keyword",
     "value": "var",
-    "start": 829,
-    "end": 832
+    "start": 823,
+    "end": 826
   },
   {
     "type": "Identifier",
     "value": "observed",
-    "start": 833,
-    "end": 841
+    "start": 827,
+    "end": 835
   },
   {
     "type": "Punctuator",
     "value": "=",
-    "start": 842,
-    "end": 843
+    "start": 836,
+    "end": 837
   },
   {
     "type": "Identifier",
     "value": "Atomics",
-    "start": 844,
-    "end": 851
+    "start": 838,
+    "end": 845
   },
   {
     "type": "Punctuator",
     "value": ".",
-    "start": 851,
-    "end": 852
+    "start": 845,
+    "end": 846
   },
   {
     "type": "Identifier",
     "value": "isLockFree",
-    "start": 852,
-    "end": 862
+    "start": 846,
+    "end": 856
   },
   {
     "type": "Punctuator",
     "value": "(",
-    "start": 862,
-    "end": 863
+    "start": 856,
+    "end": 857
   },
   {
     "type": "Identifier",
     "value": "TA",
-    "start": 863,
-    "end": 865
+    "start": 857,
+    "end": 859
   },
   {
     "type": "Punctuator",
     "value": ".",
-    "start": 865,
-    "end": 866
+    "start": 859,
+    "end": 860
   },
   {
     "type": "Identifier",
     "value": "BYTES_PER_ELEMENT",
-    "start": 866,
-    "end": 883
+    "start": 860,
+    "end": 877
   },
   {
     "type": "Punctuator",
     "value": ")",
-    "start": 883,
-    "end": 884
+    "start": 877,
+    "end": 878
   },
   {
     "type": "Punctuator",
     "value": ";",
-    "start": 884,
-    "end": 885
+    "start": 878,
+    "end": 879
   },
   {
     "type": "Identifier",
     "value": "assert",
-    "start": 889,
-    "end": 895
+    "start": 883,
+    "end": 889
   },
   {
     "type": "Punctuator",
     "value": ".",
-    "start": 895,
-    "end": 896
+    "start": 889,
+    "end": 890
   },
   {
     "type": "Identifier",
     "value": "sameValue",
-    "start": 896,
-    "end": 905
+    "start": 890,
+    "end": 899
   },
   {
     "type": "Punctuator",
     "value": "(",
-    "start": 905,
-    "end": 906
+    "start": 899,
+    "end": 900
   },
   {
     "type": "Identifier",
     "value": "Atomics",
-    "start": 911,
-    "end": 918
+    "start": 905,
+    "end": 912
   },
   {
     "type": "Punctuator",
     "value": ".",
-    "start": 918,
-    "end": 919
+    "start": 912,
+    "end": 913
   },
   {
     "type": "Identifier",
     "value": "isLockFree",
-    "start": 919,
-    "end": 929
+    "start": 913,
+    "end": 923
   },
   {
     "type": "Punctuator",
     "value": "(",
-    "start": 929,
-    "end": 930
+    "start": 923,
+    "end": 924
   },
   {
     "type": "Identifier",
     "value": "TA",
-    "start": 930,
-    "end": 932
+    "start": 924,
+    "end": 926
   },
   {
     "type": "Punctuator",
     "value": ".",
-    "start": 932,
-    "end": 933
+    "start": 926,
+    "end": 927
   },
   {
     "type": "Identifier",
     "value": "BYTES_PER_ELEMENT",
-    "start": 933,
-    "end": 950
+    "start": 927,
+    "end": 944
   },
   {
     "type": "Punctuator",
     "value": ")",
-    "start": 950,
-    "end": 951
+    "start": 944,
+    "end": 945
   },
   {
     "type": "Punctuator",
     "value": ",",
-    "start": 951,
-    "end": 952
+    "start": 945,
+    "end": 946
   },
   {
     "type": "Identifier",
     "value": "observed",
-    "start": 957,
-    "end": 965
+    "start": 951,
+    "end": 959
   },
   {
     "type": "Punctuator",
     "value": ",",
-    "start": 965,
-    "end": 966
+    "start": 959,
+    "end": 960
   },
   {
     "type": "String",
     "value": "'Atomics.isLockFree(TA.BYTES_PER_ELEMENT) returns the value of `observed` (Atomics.isLockFree(TA.BYTES_PER_ELEMENT))'",
-    "start": 971,
-    "end": 1088
+    "start": 965,
+    "end": 1082
   },
   {
     "type": "Punctuator",
     "value": ")",
-    "start": 1091,
-    "end": 1092
+    "start": 1085,
+    "end": 1086
   },
   {
     "type": "Punctuator",
     "value": ";",
-    "start": 1092,
-    "end": 1093
+    "start": 1086,
+    "end": 1087
   },
   {
     "type": "Punctuator",
     "value": "}",
-    "start": 1094,
+    "start": 1088,
+    "end": 1089
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1089,
+    "end": 1090
+  },
+  {
+    "type": "Null",
+    "value": "null",
+    "start": 1091,
     "end": 1095
   },
   {
     "type": "Punctuator",
-    "value": ")",
+    "value": ",",
     "start": 1095,
     "end": 1096
   },
   {
     "type": "Punctuator",
+    "value": "[",
+    "start": 1097,
+    "end": 1098
+  },
+  {
+    "type": "String",
+    "value": "\"passthrough\"",
+    "start": 1098,
+    "end": 1111
+  },
+  {
+    "type": "Punctuator",
+    "value": "]",
+    "start": 1111,
+    "end": 1112
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1112,
+    "end": 1113
+  },
+  {
+    "type": "Punctuator",
     "value": ";",
-    "start": 1096,
-    "end": 1097
+    "start": 1113,
+    "end": 1114
   }
 ]

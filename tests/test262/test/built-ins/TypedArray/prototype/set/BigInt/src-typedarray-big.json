@@ -10,16 +10,16 @@
           "id": {
             "type": "Identifier",
             "name": "srcTypedArray",
-            "start": 800,
-            "end": 813
+            "start": 794,
+            "end": 807
           },
           "init": null,
-          "start": 800,
-          "end": 813
+          "start": 794,
+          "end": 807
         }
       ],
-      "start": 796,
-      "end": 814
+      "start": 790,
+      "end": 808
     },
     {
       "type": "VariableDeclaration",
@@ -30,16 +30,16 @@
           "id": {
             "type": "Identifier",
             "name": "targetTypedArray",
-            "start": 819,
-            "end": 835
+            "start": 813,
+            "end": 829
           },
           "init": null,
-          "start": 819,
-          "end": 835
+          "start": 813,
+          "end": 829
         }
       ],
-      "start": 815,
-      "end": 836
+      "start": 809,
+      "end": 830
     },
     {
       "type": "VariableDeclaration",
@@ -50,23 +50,23 @@
           "id": {
             "type": "Identifier",
             "name": "testValue",
-            "start": 841,
-            "end": 850
+            "start": 835,
+            "end": 844
           },
           "init": {
             "type": "Literal",
             "value": null,
             "raw": "42n",
             "bigint": "42",
-            "start": 853,
-            "end": 856
+            "start": 847,
+            "end": 850
           },
-          "start": 841,
-          "end": 856
+          "start": 835,
+          "end": 850
         }
       ],
-      "start": 837,
-      "end": 857
+      "start": 831,
+      "end": 851
     },
     {
       "type": "ExpressionStatement",
@@ -75,8 +75,8 @@
         "callee": {
           "type": "Identifier",
           "name": "testWithBigIntTypedArrayConstructors",
-          "start": 859,
-          "end": 895
+          "start": 853,
+          "end": 889
         },
         "arguments": [
           {
@@ -88,8 +88,14 @@
               {
                 "type": "Identifier",
                 "name": "BTA1",
+                "start": 899,
+                "end": 903
+              },
+              {
+                "type": "Identifier",
+                "name": "makeCtorArg",
                 "start": 905,
-                "end": 909
+                "end": 916
               }
             ],
             "body": {
@@ -103,40 +109,54 @@
                     "left": {
                       "type": "Identifier",
                       "name": "srcTypedArray",
-                      "start": 916,
-                      "end": 929
+                      "start": 923,
+                      "end": 936
                     },
                     "right": {
                       "type": "NewExpression",
                       "callee": {
                         "type": "Identifier",
                         "name": "BTA1",
-                        "start": 936,
-                        "end": 940
+                        "start": 943,
+                        "end": 947
                       },
                       "arguments": [
                         {
-                          "type": "ArrayExpression",
-                          "elements": [
+                          "type": "CallExpression",
+                          "callee": {
+                            "type": "Identifier",
+                            "name": "makeCtorArg",
+                            "start": 948,
+                            "end": 959
+                          },
+                          "arguments": [
                             {
-                              "type": "Identifier",
-                              "name": "testValue",
-                              "start": 942,
-                              "end": 951
+                              "type": "ArrayExpression",
+                              "elements": [
+                                {
+                                  "type": "Identifier",
+                                  "name": "testValue",
+                                  "start": 961,
+                                  "end": 970
+                                }
+                              ],
+                              "start": 960,
+                              "end": 971
                             }
                           ],
-                          "start": 941,
-                          "end": 952
+                          "optional": false,
+                          "start": 948,
+                          "end": 972
                         }
                       ],
-                      "start": 932,
-                      "end": 953
+                      "start": 939,
+                      "end": 973
                     },
-                    "start": 916,
-                    "end": 953
+                    "start": 923,
+                    "end": 973
                   },
-                  "start": 916,
-                  "end": 954
+                  "start": 923,
+                  "end": 974
                 },
                 {
                   "type": "ExpressionStatement",
@@ -145,8 +165,8 @@
                     "callee": {
                       "type": "Identifier",
                       "name": "testWithBigIntTypedArrayConstructors",
-                      "start": 958,
-                      "end": 994
+                      "start": 978,
+                      "end": 1014
                     },
                     "arguments": [
                       {
@@ -158,8 +178,14 @@
                           {
                             "type": "Identifier",
                             "name": "BTA2",
-                            "start": 1004,
-                            "end": 1008
+                            "start": 1024,
+                            "end": 1028
+                          },
+                          {
+                            "type": "Identifier",
+                            "name": "makeCtorArg",
+                            "start": 1030,
+                            "end": 1041
                           }
                         ],
                         "body": {
@@ -173,34 +199,34 @@
                                 "left": {
                                   "type": "Identifier",
                                   "name": "targetTypedArray",
-                                  "start": 1017,
-                                  "end": 1033
+                                  "start": 1050,
+                                  "end": 1066
                                 },
                                 "right": {
                                   "type": "NewExpression",
                                   "callee": {
                                     "type": "Identifier",
                                     "name": "BTA2",
-                                    "start": 1040,
-                                    "end": 1044
+                                    "start": 1073,
+                                    "end": 1077
                                   },
                                   "arguments": [
                                     {
                                       "type": "Literal",
                                       "value": 1,
                                       "raw": "1",
-                                      "start": 1045,
-                                      "end": 1046
+                                      "start": 1078,
+                                      "end": 1079
                                     }
                                   ],
-                                  "start": 1036,
-                                  "end": 1047
+                                  "start": 1069,
+                                  "end": 1080
                                 },
-                                "start": 1017,
-                                "end": 1047
+                                "start": 1050,
+                                "end": 1080
                               },
-                              "start": 1017,
-                              "end": 1048
+                              "start": 1050,
+                              "end": 1081
                             },
                             {
                               "type": "ExpressionStatement",
@@ -211,34 +237,34 @@
                                   "object": {
                                     "type": "Identifier",
                                     "name": "targetTypedArray",
-                                    "start": 1053,
-                                    "end": 1069
+                                    "start": 1086,
+                                    "end": 1102
                                   },
                                   "property": {
                                     "type": "Identifier",
                                     "name": "set",
-                                    "start": 1070,
-                                    "end": 1073
+                                    "start": 1103,
+                                    "end": 1106
                                   },
                                   "optional": false,
                                   "computed": false,
-                                  "start": 1053,
-                                  "end": 1073
+                                  "start": 1086,
+                                  "end": 1106
                                 },
                                 "arguments": [
                                   {
                                     "type": "Identifier",
                                     "name": "srcTypedArray",
-                                    "start": 1074,
-                                    "end": 1087
+                                    "start": 1107,
+                                    "end": 1120
                                   }
                                 ],
                                 "optional": false,
-                                "start": 1053,
-                                "end": 1088
+                                "start": 1086,
+                                "end": 1121
                               },
-                              "start": 1053,
-                              "end": 1089
+                              "start": 1086,
+                              "end": 1122
                             },
                             {
                               "type": "ExpressionStatement",
@@ -249,19 +275,19 @@
                                   "object": {
                                     "type": "Identifier",
                                     "name": "assert",
-                                    "start": 1094,
-                                    "end": 1100
+                                    "start": 1127,
+                                    "end": 1133
                                   },
                                   "property": {
                                     "type": "Identifier",
                                     "name": "sameValue",
-                                    "start": 1101,
-                                    "end": 1110
+                                    "start": 1134,
+                                    "end": 1143
                                   },
                                   "optional": false,
                                   "computed": false,
-                                  "start": 1094,
-                                  "end": 1110
+                                  "start": 1127,
+                                  "end": 1143
                                 },
                                 "arguments": [
                                   {
@@ -269,77 +295,77 @@
                                     "object": {
                                       "type": "Identifier",
                                       "name": "targetTypedArray",
-                                      "start": 1111,
-                                      "end": 1127
+                                      "start": 1144,
+                                      "end": 1160
                                     },
                                     "property": {
                                       "type": "Literal",
                                       "value": 0,
                                       "raw": "0",
-                                      "start": 1128,
-                                      "end": 1129
+                                      "start": 1161,
+                                      "end": 1162
                                     },
                                     "optional": false,
                                     "computed": true,
-                                    "start": 1111,
-                                    "end": 1130
+                                    "start": 1144,
+                                    "end": 1163
                                   },
                                   {
                                     "type": "Identifier",
                                     "name": "testValue",
-                                    "start": 1132,
-                                    "end": 1141
+                                    "start": 1165,
+                                    "end": 1174
                                   },
                                   {
                                     "type": "Literal",
                                     "value": "Setting BigInt TypedArray with BigInt TypedArray should succeed.",
                                     "raw": "\"Setting BigInt TypedArray with BigInt TypedArray should succeed.\"",
-                                    "start": 1164,
-                                    "end": 1230
+                                    "start": 1197,
+                                    "end": 1263
                                   }
                                 ],
                                 "optional": false,
-                                "start": 1094,
-                                "end": 1231
+                                "start": 1127,
+                                "end": 1264
                               },
-                              "start": 1094,
-                              "end": 1231
+                              "start": 1127,
+                              "end": 1264
                             }
                           ],
-                          "start": 1010,
-                          "end": 1235
+                          "start": 1043,
+                          "end": 1268
                         },
                         "expression": false,
-                        "start": 995,
-                        "end": 1235
+                        "start": 1015,
+                        "end": 1268
                       }
                     ],
                     "optional": false,
-                    "start": 958,
-                    "end": 1236
+                    "start": 978,
+                    "end": 1269
                   },
-                  "start": 958,
-                  "end": 1237
+                  "start": 978,
+                  "end": 1270
                 }
               ],
-              "start": 911,
-              "end": 1239
+              "start": 918,
+              "end": 1272
             },
             "expression": false,
-            "start": 896,
-            "end": 1239
+            "start": 890,
+            "end": 1272
           }
         ],
         "optional": false,
-        "start": 859,
-        "end": 1240
+        "start": 853,
+        "end": 1273
       },
-      "start": 859,
-      "end": 1241
+      "start": 853,
+      "end": 1274
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 1243
+  "end": 1276
 }

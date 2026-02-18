@@ -20,8 +20,14 @@
               {
                 "type": "Identifier",
                 "name": "TA",
-                "start": 706,
-                "end": 708
+                "start": 707,
+                "end": 709
+              },
+              {
+                "type": "Identifier",
+                "name": "makeCtorArg",
+                "start": 711,
+                "end": 722
               }
             ],
             "body": {
@@ -36,22 +42,22 @@
                       "id": {
                         "type": "Identifier",
                         "name": "calls",
-                        "start": 720,
-                        "end": 725
+                        "start": 735,
+                        "end": 740
                       },
                       "init": {
                         "type": "Literal",
                         "value": 0,
                         "raw": "0",
-                        "start": 728,
-                        "end": 729
+                        "start": 743,
+                        "end": 744
                       },
-                      "start": 720,
-                      "end": 729
+                      "start": 735,
+                      "end": 744
                     }
                   ],
-                  "start": 716,
-                  "end": 730
+                  "start": 731,
+                  "end": 745
                 },
                 {
                   "type": "VariableDeclaration",
@@ -62,56 +68,70 @@
                       "id": {
                         "type": "Identifier",
                         "name": "ta",
-                        "start": 737,
-                        "end": 739
+                        "start": 752,
+                        "end": 754
                       },
                       "init": {
                         "type": "NewExpression",
                         "callee": {
                           "type": "Identifier",
                           "name": "TA",
-                          "start": 746,
-                          "end": 748
+                          "start": 761,
+                          "end": 763
                         },
                         "arguments": [
                           {
-                            "type": "ArrayExpression",
-                            "elements": [
+                            "type": "CallExpression",
+                            "callee": {
+                              "type": "Identifier",
+                              "name": "makeCtorArg",
+                              "start": 764,
+                              "end": 775
+                            },
+                            "arguments": [
                               {
-                                "type": "Literal",
-                                "value": 3,
-                                "raw": "3",
-                                "start": 750,
-                                "end": 751
-                              },
-                              {
-                                "type": "Literal",
-                                "value": 1,
-                                "raw": "1",
-                                "start": 753,
-                                "end": 754
-                              },
-                              {
-                                "type": "Literal",
-                                "value": 2,
-                                "raw": "2",
-                                "start": 756,
-                                "end": 757
+                                "type": "ArrayExpression",
+                                "elements": [
+                                  {
+                                    "type": "Literal",
+                                    "value": 3,
+                                    "raw": "3",
+                                    "start": 777,
+                                    "end": 778
+                                  },
+                                  {
+                                    "type": "Literal",
+                                    "value": 1,
+                                    "raw": "1",
+                                    "start": 780,
+                                    "end": 781
+                                  },
+                                  {
+                                    "type": "Literal",
+                                    "value": 2,
+                                    "raw": "2",
+                                    "start": 783,
+                                    "end": 784
+                                  }
+                                ],
+                                "start": 776,
+                                "end": 785
                               }
                             ],
-                            "start": 749,
-                            "end": 758
+                            "optional": false,
+                            "start": 764,
+                            "end": 786
                           }
                         ],
-                        "start": 742,
-                        "end": 759
+                        "start": 757,
+                        "end": 787
                       },
-                      "start": 737,
-                      "end": 759
+                      "start": 752,
+                      "end": 787
                     }
                   ],
-                  "start": 733,
-                  "end": 760
+                  "start": 748,
+                  "end": 788
                 },
                 {
                   "type": "TryStatement",
@@ -127,19 +147,19 @@
                             "object": {
                               "type": "Identifier",
                               "name": "ta",
-                              "start": 773,
-                              "end": 775
+                              "start": 801,
+                              "end": 803
                             },
                             "property": {
                               "type": "Identifier",
                               "name": "toSorted",
-                              "start": 776,
-                              "end": 784
+                              "start": 804,
+                              "end": 812
                             },
                             "optional": false,
                             "computed": false,
-                            "start": 773,
-                            "end": 784
+                            "start": 801,
+                            "end": 812
                           },
                           "arguments": [
                             {
@@ -159,14 +179,14 @@
                                       "argument": {
                                         "type": "Identifier",
                                         "name": "calls",
-                                        "start": 801,
-                                        "end": 806
+                                        "start": 829,
+                                        "end": 834
                                       },
-                                      "start": 799,
-                                      "end": 806
+                                      "start": 827,
+                                      "end": 834
                                     },
-                                    "start": 799,
-                                    "end": 807
+                                    "start": 827,
+                                    "end": 835
                                   },
                                   {
                                     "type": "IfStatement",
@@ -175,19 +195,19 @@
                                       "left": {
                                         "type": "Identifier",
                                         "name": "calls",
-                                        "start": 818,
-                                        "end": 823
+                                        "start": 846,
+                                        "end": 851
                                       },
                                       "operator": "===",
                                       "right": {
                                         "type": "Literal",
                                         "value": 1,
                                         "raw": "1",
-                                        "start": 828,
-                                        "end": 829
+                                        "start": 856,
+                                        "end": 857
                                       },
-                                      "start": 818,
-                                      "end": 829
+                                      "start": 846,
+                                      "end": 857
                                     },
                                     "consequent": {
                                       "type": "BlockStatement",
@@ -199,65 +219,65 @@
                                             "callee": {
                                               "type": "Identifier",
                                               "name": "Test262Error",
-                                              "start": 851,
-                                              "end": 863
+                                              "start": 879,
+                                              "end": 891
                                             },
                                             "arguments": [],
-                                            "start": 847,
-                                            "end": 865
+                                            "start": 875,
+                                            "end": 893
                                           },
-                                          "start": 841,
-                                          "end": 866
+                                          "start": 869,
+                                          "end": 894
                                         }
                                       ],
-                                      "start": 831,
-                                      "end": 874
+                                      "start": 859,
+                                      "end": 902
                                     },
                                     "alternate": null,
-                                    "start": 814,
-                                    "end": 874
+                                    "start": 842,
+                                    "end": 902
                                   }
                                 ],
-                                "start": 791,
-                                "end": 880
+                                "start": 819,
+                                "end": 908
                               },
                               "id": null,
                               "generator": false,
-                              "start": 785,
-                              "end": 880
+                              "start": 813,
+                              "end": 908
                             }
                           ],
                           "optional": false,
-                          "start": 773,
-                          "end": 881
+                          "start": 801,
+                          "end": 909
                         },
-                        "start": 773,
-                        "end": 882
+                        "start": 801,
+                        "end": 910
                       }
                     ],
-                    "start": 767,
-                    "end": 886
+                    "start": 795,
+                    "end": 914
                   },
                   "handler": {
                     "type": "CatchClause",
                     "param": {
                       "type": "Identifier",
                       "name": "e",
-                      "start": 894,
-                      "end": 895
+                      "start": 922,
+                      "end": 923
                     },
                     "body": {
                       "type": "BlockStatement",
                       "body": [],
-                      "start": 897,
-                      "end": 899
+                      "start": 925,
+                      "end": 927
                     },
-                    "start": 887,
-                    "end": 899
+                    "start": 915,
+                    "end": 927
                   },
                   "finalizer": null,
-                  "start": 763,
-                  "end": 899
+                  "start": 791,
+                  "end": 927
                 },
                 {
                   "type": "ExpressionStatement",
@@ -268,19 +288,19 @@
                       "object": {
                         "type": "Identifier",
                         "name": "assert",
-                        "start": 902,
-                        "end": 908
+                        "start": 930,
+                        "end": 936
                       },
                       "property": {
                         "type": "Identifier",
                         "name": "sameValue",
-                        "start": 909,
-                        "end": 918
+                        "start": 937,
+                        "end": 946
                       },
                       "optional": false,
                       "computed": false,
-                      "start": 902,
-                      "end": 918
+                      "start": 930,
+                      "end": 946
                     },
                     "arguments": [
                       {
@@ -288,62 +308,62 @@
                         "left": {
                           "type": "Identifier",
                           "name": "calls",
-                          "start": 919,
-                          "end": 924
+                          "start": 947,
+                          "end": 952
                         },
                         "operator": "<=",
                         "right": {
                           "type": "Literal",
                           "value": 1,
                           "raw": "1",
-                          "start": 928,
-                          "end": 929
+                          "start": 956,
+                          "end": 957
                         },
-                        "start": 919,
-                        "end": 929
+                        "start": 947,
+                        "end": 957
                       },
                       {
                         "type": "Literal",
                         "value": true,
                         "raw": "true",
-                        "start": 931,
-                        "end": 935
+                        "start": 959,
+                        "end": 963
                       },
                       {
                         "type": "Literal",
                         "value": "compareFn is not called after an error",
                         "raw": "\"compareFn is not called after an error\"",
-                        "start": 937,
-                        "end": 977
+                        "start": 965,
+                        "end": 1005
                       }
                     ],
                     "optional": false,
-                    "start": 902,
-                    "end": 978
+                    "start": 930,
+                    "end": 1006
                   },
-                  "start": 902,
-                  "end": 979
+                  "start": 930,
+                  "end": 1007
                 }
               ],
-              "start": 712,
-              "end": 981
+              "start": 727,
+              "end": 1009
             },
             "id": null,
             "generator": false,
             "start": 706,
-            "end": 981
+            "end": 1009
           }
         ],
         "optional": false,
         "start": 675,
-        "end": 982
+        "end": 1010
       },
       "start": 675,
-      "end": 983
+      "end": 1011
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 984
+  "end": 1012
 }

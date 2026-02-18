@@ -1,0 +1,134 @@
+[
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 628,
+    "end": 634
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 634,
+    "end": 635
+  },
+  {
+    "type": "Identifier",
+    "value": "throws",
+    "start": 635,
+    "end": 641
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 641,
+    "end": 642
+  },
+  {
+    "type": "Identifier",
+    "value": "TypeError",
+    "start": 642,
+    "end": 651
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 651,
+    "end": 652
+  },
+  {
+    "type": "Keyword",
+    "value": "function",
+    "start": 653,
+    "end": 661
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 661,
+    "end": 662
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 662,
+    "end": 663
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 664,
+    "end": 665
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 670,
+    "end": 671
+  },
+  {
+    "type": "Numeric",
+    "value": "0",
+    "start": 671,
+    "end": 672
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 672,
+    "end": 673
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 673,
+    "end": 674
+  },
+  {
+    "type": "Identifier",
+    "value": "toFixed",
+    "start": 674,
+    "end": 681
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 681,
+    "end": 682
+  },
+  {
+    "type": "Numeric",
+    "value": "0n",
+    "start": 682,
+    "end": 684
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 684,
+    "end": 685
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 686,
+    "end": 687
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 687,
+    "end": 688
+  },
+  {
+    "type": "String",
+    "value": "\"Number.prototype.toFixed must throw a TypeError if _fractionDigits_ is Bigint\"",
+    "start": 689,
+    "end": 768
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 768,
+    "end": 769
+  }
+]

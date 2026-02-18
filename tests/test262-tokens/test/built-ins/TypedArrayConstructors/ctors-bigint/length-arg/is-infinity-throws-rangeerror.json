@@ -2,127 +2,145 @@
   {
     "type": "Identifier",
     "value": "testWithBigIntTypedArrayConstructors",
-    "start": 704,
-    "end": 740
+    "start": 698,
+    "end": 734
   },
   {
     "type": "Punctuator",
     "value": "(",
-    "start": 740,
-    "end": 741
+    "start": 734,
+    "end": 735
   },
   {
     "type": "Keyword",
     "value": "function",
-    "start": 741,
-    "end": 749
+    "start": 735,
+    "end": 743
   },
   {
     "type": "Punctuator",
     "value": "(",
-    "start": 749,
-    "end": 750
+    "start": 743,
+    "end": 744
   },
   {
     "type": "Identifier",
     "value": "TA",
-    "start": 750,
-    "end": 752
+    "start": 744,
+    "end": 746
   },
   {
     "type": "Punctuator",
     "value": ")",
-    "start": 752,
-    "end": 753
+    "start": 746,
+    "end": 747
   },
   {
     "type": "Punctuator",
     "value": "{",
-    "start": 754,
-    "end": 755
+    "start": 748,
+    "end": 749
   },
   {
     "type": "Identifier",
     "value": "assert",
-    "start": 758,
-    "end": 764
+    "start": 752,
+    "end": 758
   },
   {
     "type": "Punctuator",
     "value": ".",
-    "start": 764,
-    "end": 765
+    "start": 758,
+    "end": 759
   },
   {
     "type": "Identifier",
     "value": "throws",
-    "start": 765,
-    "end": 771
+    "start": 759,
+    "end": 765
   },
   {
     "type": "Punctuator",
     "value": "(",
-    "start": 771,
-    "end": 772
+    "start": 765,
+    "end": 766
   },
   {
     "type": "Identifier",
     "value": "RangeError",
-    "start": 772,
-    "end": 782
+    "start": 766,
+    "end": 776
   },
   {
     "type": "Punctuator",
     "value": ",",
-    "start": 782,
-    "end": 783
+    "start": 776,
+    "end": 777
   },
   {
     "type": "Keyword",
     "value": "function",
-    "start": 784,
-    "end": 792
+    "start": 778,
+    "end": 786
   },
   {
     "type": "Punctuator",
     "value": "(",
-    "start": 792,
-    "end": 793
+    "start": 786,
+    "end": 787
   },
   {
     "type": "Punctuator",
     "value": ")",
-    "start": 793,
-    "end": 794
+    "start": 787,
+    "end": 788
   },
   {
     "type": "Punctuator",
     "value": "{",
-    "start": 795,
-    "end": 796
+    "start": 789,
+    "end": 790
   },
   {
     "type": "Keyword",
     "value": "new",
-    "start": 801,
-    "end": 804
+    "start": 795,
+    "end": 798
   },
   {
     "type": "Identifier",
     "value": "TA",
-    "start": 805,
-    "end": 807
+    "start": 799,
+    "end": 801
   },
   {
     "type": "Punctuator",
     "value": "(",
-    "start": 807,
-    "end": 808
+    "start": 801,
+    "end": 802
   },
   {
     "type": "Identifier",
     "value": "Infinity",
-    "start": 808,
+    "start": 802,
+    "end": 810
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 810,
+    "end": 811
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 811,
+    "end": 812
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 815,
     "end": 816
   },
   {
@@ -140,37 +158,55 @@
   {
     "type": "Punctuator",
     "value": "}",
-    "start": 821,
-    "end": 822
+    "start": 819,
+    "end": 820
   },
   {
     "type": "Punctuator",
-    "value": ")",
+    "value": ",",
+    "start": 820,
+    "end": 821
+  },
+  {
+    "type": "Null",
+    "value": "null",
     "start": 822,
-    "end": 823
-  },
-  {
-    "type": "Punctuator",
-    "value": ";",
-    "start": 823,
-    "end": 824
-  },
-  {
-    "type": "Punctuator",
-    "value": "}",
-    "start": 825,
     "end": 826
   },
   {
     "type": "Punctuator",
-    "value": ")",
+    "value": ",",
     "start": 826,
     "end": 827
   },
   {
     "type": "Punctuator",
+    "value": "[",
+    "start": 828,
+    "end": 829
+  },
+  {
+    "type": "String",
+    "value": "\"passthrough\"",
+    "start": 829,
+    "end": 842
+  },
+  {
+    "type": "Punctuator",
+    "value": "]",
+    "start": 842,
+    "end": 843
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 843,
+    "end": 844
+  },
+  {
+    "type": "Punctuator",
     "value": ";",
-    "start": 827,
-    "end": 828
+    "start": 844,
+    "end": 845
   }
 ]

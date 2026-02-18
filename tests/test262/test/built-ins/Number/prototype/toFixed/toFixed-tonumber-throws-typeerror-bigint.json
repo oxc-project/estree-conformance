@@ -1,0 +1,117 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 628,
+            "end": 634
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "throws",
+            "start": 635,
+            "end": 641
+          },
+          "optional": false,
+          "computed": false,
+          "start": 628,
+          "end": 641
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "name": "TypeError",
+            "start": 642,
+            "end": 651
+          },
+          {
+            "type": "FunctionExpression",
+            "id": null,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "expression": {
+                    "type": "CallExpression",
+                    "callee": {
+                      "type": "MemberExpression",
+                      "object": {
+                        "type": "ParenthesizedExpression",
+                        "expression": {
+                          "type": "Literal",
+                          "value": 0,
+                          "raw": "0",
+                          "start": 671,
+                          "end": 672
+                        },
+                        "start": 670,
+                        "end": 673
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "name": "toFixed",
+                        "start": 674,
+                        "end": 681
+                      },
+                      "optional": false,
+                      "computed": false,
+                      "start": 670,
+                      "end": 681
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "value": null,
+                        "raw": "0n",
+                        "bigint": "0",
+                        "start": 682,
+                        "end": 684
+                      }
+                    ],
+                    "optional": false,
+                    "start": 670,
+                    "end": 685
+                  },
+                  "start": 670,
+                  "end": 685
+                }
+              ],
+              "start": 664,
+              "end": 687
+            },
+            "expression": false,
+            "start": 653,
+            "end": 687
+          },
+          {
+            "type": "Literal",
+            "value": "Number.prototype.toFixed must throw a TypeError if _fractionDigits_ is Bigint",
+            "raw": "\"Number.prototype.toFixed must throw a TypeError if _fractionDigits_ is Bigint\"",
+            "start": 689,
+            "end": 768
+          }
+        ],
+        "optional": false,
+        "start": 628,
+        "end": 769
+      },
+      "start": 628,
+      "end": 769
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 771
+}

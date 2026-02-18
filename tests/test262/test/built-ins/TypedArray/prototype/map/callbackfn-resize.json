@@ -2034,18 +2034,39 @@
             "expression": false,
             "start": 737,
             "end": 2531
+          },
+          {
+            "type": "Literal",
+            "value": null,
+            "raw": "null",
+            "start": 2533,
+            "end": 2537
+          },
+          {
+            "type": "ArrayExpression",
+            "elements": [
+              {
+                "type": "Literal",
+                "value": "passthrough",
+                "raw": "\"passthrough\"",
+                "start": 2540,
+                "end": 2553
+              }
+            ],
+            "start": 2539,
+            "end": 2554
           }
         ],
         "optional": false,
         "start": 706,
-        "end": 2532
+        "end": 2555
       },
       "start": 706,
-      "end": 2533
+      "end": 2556
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 2534
+  "end": 2557
 }
