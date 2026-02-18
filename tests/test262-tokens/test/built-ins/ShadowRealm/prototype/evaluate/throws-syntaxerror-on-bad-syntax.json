@@ -337,7 +337,9 @@
   },
   {
     "type": "Template",
-    "value": "`\n  \"use strict\";\n  throw \"do not evaluate\";\n  function lol(){\n    arguments = 1;\n  }\n`"
+    "value": "`\n  \"use strict\";\n  throw \"do not evaluate\";\n  function lol(){\n    arguments = 1;\n  }\n`",
+    "start": 618,
+    "end": 705
   },
   {
     "type": "Punctuator",
@@ -449,7 +451,9 @@
   },
   {
     "type": "Template",
-    "value": "`\n  \"use strict\";\n  throw \"do not evaluate\";\n  var public = 1;\n`"
+    "value": "`\n  \"use strict\";\n  throw \"do not evaluate\";\n  var public = 1;\n`",
+    "start": 818,
+    "end": 882
   },
   {
     "type": "Punctuator",

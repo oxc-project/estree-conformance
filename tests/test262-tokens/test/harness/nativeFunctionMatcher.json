@@ -67,7 +67,9 @@
   },
   {
     "type": "Template",
-    "value": "`function a() {\n    // test\n    [native code]\n    /* test */\n  }`"
+    "value": "`function a() {\n    // test\n    [native code]\n    /* test */\n  }`",
+    "start": 522,
+    "end": 587
   },
   {
     "type": "Punctuator",
@@ -329,7 +331,9 @@
   },
   {
     "type": "Template",
-    "value": "`${"
+    "value": "`${",
+    "start": 1065,
+    "end": 1068
   },
   {
     "type": "Identifier",
@@ -369,7 +373,9 @@
   },
   {
     "type": "Template",
-    "value": "} should pass`"
+    "value": "} should pass`",
+    "start": 1085,
+    "end": 1099
   },
   {
     "type": "Punctuator",
@@ -805,7 +811,9 @@
   },
   {
     "type": "Template",
-    "value": "`${"
+    "value": "`${",
+    "start": 1676,
+    "end": 1679
   },
   {
     "type": "Identifier",
@@ -845,7 +853,9 @@
   },
   {
     "type": "Template",
-    "value": "} should fail`"
+    "value": "} should fail`",
+    "start": 1696,
+    "end": 1710
   },
   {
     "type": "Punctuator",

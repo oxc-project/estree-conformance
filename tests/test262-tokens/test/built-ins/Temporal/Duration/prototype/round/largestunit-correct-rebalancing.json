@@ -1075,7 +1075,9 @@
   },
   {
     "type": "Template",
-    "value": "`rounding from ${"
+    "value": "`rounding from ${",
+    "start": 1000,
+    "end": 1017
   },
   {
     "type": "Identifier",
@@ -1085,7 +1087,9 @@
   },
   {
     "type": "Template",
-    "value": "}`"
+    "value": "}`",
+    "start": 1021,
+    "end": 1023
   },
   {
     "type": "Punctuator",

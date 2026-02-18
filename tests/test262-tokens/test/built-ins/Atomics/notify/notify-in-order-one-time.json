@@ -301,7 +301,9 @@
   },
   {
     "type": "Template",
-    "value": "`\n    $262.agent.receiveBroadcast(function(sab) {\n      const i32a = new Int32Array(sab);\n      Atomics.add(i32a, ${"
+    "value": "`\n    $262.agent.receiveBroadcast(function(sab) {\n      const i32a = new Int32Array(sab);\n      Atomics.add(i32a, ${",
+    "start": 876,
+    "end": 992
   },
   {
     "type": "Identifier",
@@ -311,7 +313,9 @@
   },
   {
     "type": "Template",
-    "value": "}, 1);\n\n      while (Atomics.load(i32a, ${"
+    "value": "}, 1);\n\n      while (Atomics.load(i32a, ${",
+    "start": 999,
+    "end": 1041
   },
   {
     "type": "Identifier",
@@ -333,7 +337,9 @@
   },
   {
     "type": "Template",
-    "value": "}) === 0) {\n        /* nothing */\n      }\n\n      $262.agent.report(${"
+    "value": "}) === 0) {\n        /* nothing */\n      }\n\n      $262.agent.report(${",
+    "start": 1049,
+    "end": 1118
   },
   {
     "type": "Identifier",
@@ -343,7 +349,9 @@
   },
   {
     "type": "Template",
-    "value": "});\n      Atomics.wait(i32a, ${"
+    "value": "});\n      Atomics.wait(i32a, ${",
+    "start": 1119,
+    "end": 1150
   },
   {
     "type": "Identifier",
@@ -353,7 +361,9 @@
   },
   {
     "type": "Template",
-    "value": "}, 0);\n      $262.agent.report(${"
+    "value": "}, 0);\n      $262.agent.report(${",
+    "start": 1160,
+    "end": 1193
   },
   {
     "type": "Identifier",
@@ -363,7 +373,9 @@
   },
   {
     "type": "Template",
-    "value": "});\n\n      $262.agent.leaving();\n    });\n  `"
+    "value": "});\n\n      $262.agent.leaving();\n    });\n  `",
+    "start": 1194,
+    "end": 1238
   },
   {
     "type": "Punctuator",
@@ -859,7 +871,9 @@
   },
   {
     "type": "Template",
-    "value": "`Atomics.store(i32a, SPIN + ${"
+    "value": "`Atomics.store(i32a, SPIN + ${",
+    "start": 1587,
+    "end": 1617
   },
   {
     "type": "Identifier",
@@ -869,7 +883,9 @@
   },
   {
     "type": "Template",
-    "value": "}, 1) returns 1`"
+    "value": "}, 1) returns 1`",
+    "start": 1618,
+    "end": 1634
   },
   {
     "type": "Punctuator",
@@ -1245,7 +1261,9 @@
   },
   {
     "type": "Template",
-    "value": "`Atomics.notify(i32a, WAIT_INDEX, 1) returns 1 (${"
+    "value": "`Atomics.notify(i32a, WAIT_INDEX, 1) returns 1 (${",
+    "start": 1913,
+    "end": 1963
   },
   {
     "type": "Identifier",
@@ -1255,7 +1273,9 @@
   },
   {
     "type": "Template",
-    "value": "})`"
+    "value": "})`",
+    "start": 1964,
+    "end": 1967
   },
   {
     "type": "Punctuator",

@@ -481,7 +481,9 @@
   },
   {
     "type": "Template",
-    "value": "`new Intl.Locale(${"
+    "value": "`new Intl.Locale(${",
+    "start": 831,
+    "end": 850
   },
   {
     "type": "Identifier",
@@ -491,7 +493,9 @@
   },
   {
     "type": "Template",
-    "value": "}).getWeekInfo().firstDay returns \"${"
+    "value": "}).getWeekInfo().firstDay returns \"${",
+    "start": 852,
+    "end": 889
   },
   {
     "type": "Identifier",
@@ -501,7 +505,9 @@
   },
   {
     "type": "Template",
-    "value": "}\"`"
+    "value": "}\"`",
+    "start": 897,
+    "end": 900
   },
   {
     "type": "Punctuator",

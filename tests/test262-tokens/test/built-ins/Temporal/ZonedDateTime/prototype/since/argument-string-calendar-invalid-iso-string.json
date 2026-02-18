@@ -385,7 +385,9 @@
   },
   {
     "type": "Template",
-    "value": "`${"
+    "value": "`${",
+    "start": 587,
+    "end": 590
   },
   {
     "type": "Identifier",
@@ -395,7 +397,9 @@
   },
   {
     "type": "Template",
-    "value": "} is not a valid calendar ID`"
+    "value": "} is not a valid calendar ID`",
+    "start": 601,
+    "end": 630
   },
   {
     "type": "Punctuator",

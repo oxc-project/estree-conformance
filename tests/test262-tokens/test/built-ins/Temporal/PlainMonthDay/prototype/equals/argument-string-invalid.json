@@ -259,7 +259,9 @@
   },
   {
     "type": "Template",
-    "value": "`\"${"
+    "value": "`\"${",
+    "start": 478,
+    "end": 482
   },
   {
     "type": "Identifier",
@@ -269,7 +271,9 @@
   },
   {
     "type": "Template",
-    "value": "}\" is not a valid PlainMonthDay string`"
+    "value": "}\" is not a valid PlainMonthDay string`",
+    "start": 485,
+    "end": 524
   },
   {
     "type": "Punctuator",

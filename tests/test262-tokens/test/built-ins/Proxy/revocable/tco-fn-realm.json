@@ -97,7 +97,9 @@
   },
   {
     "type": "Template",
-    "value": "`\n  (function() {\n    var proxyObj = Proxy.revocable(function() {}, {});\n    var proxy = proxyObj.proxy;\n    var revoke = proxyObj.revoke;\n    revoke();\n    return proxy();\n  })\n`"
+    "value": "`\n  (function() {\n    var proxyObj = Proxy.revocable(function() {}, {});\n    var proxy = proxyObj.proxy;\n    var revoke = proxyObj.revoke;\n    revoke();\n    return proxy();\n  })\n`",
+    "start": 402,
+    "end": 581
   },
   {
     "type": "Punctuator",

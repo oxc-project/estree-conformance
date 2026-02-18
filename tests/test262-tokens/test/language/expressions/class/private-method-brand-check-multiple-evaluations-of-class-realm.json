@@ -235,7 +235,9 @@
   },
   {
     "type": "Template",
-    "value": "`(\nclass {\n  #m() { return 'test262'; }\n\n  access(o) {\n    return o.#m();\n  }\n}\n)`"
+    "value": "`(\nclass {\n  #m() { return 'test262'; }\n\n  access(o) {\n    return o.#m();\n  }\n}\n)`",
+    "start": 981,
+    "end": 1063
   },
   {
     "type": "Punctuator",

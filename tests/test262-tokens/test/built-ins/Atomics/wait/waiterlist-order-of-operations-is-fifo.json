@@ -277,7 +277,9 @@
   },
   {
     "type": "Template",
-    "value": "`\n    $262.agent.receiveBroadcast(function(sab) {\n      const i32a = new Int32Array(sab);\n      Atomics.add(i32a, ${"
+    "value": "`\n    $262.agent.receiveBroadcast(function(sab) {\n      const i32a = new Int32Array(sab);\n      Atomics.add(i32a, ${",
+    "start": 672,
+    "end": 788
   },
   {
     "type": "Identifier",
@@ -287,7 +289,9 @@
   },
   {
     "type": "Template",
-    "value": "}, 1);\n\n      // Synchronize workers before reporting the initial report.\n      while (Atomics.compareExchange(i32a, ${"
+    "value": "}, 1);\n\n      // Synchronize workers before reporting the initial report.\n      while (Atomics.compareExchange(i32a, ${",
+    "start": 795,
+    "end": 914
   },
   {
     "type": "Identifier",
@@ -297,7 +301,9 @@
   },
   {
     "type": "Template",
-    "value": "}, 0, 1) !== 0) ;\n\n      // Report the agent number before waiting.\n      $262.agent.report(${"
+    "value": "}, 0, 1) !== 0) ;\n\n      // Report the agent number before waiting.\n      $262.agent.report(${",
+    "start": 924,
+    "end": 1018
   },
   {
     "type": "Identifier",
@@ -307,7 +313,9 @@
   },
   {
     "type": "Template",
-    "value": "});\n\n      // Wait until restarted by main thread.\n      var status = Atomics.wait(i32a, ${"
+    "value": "});\n\n      // Wait until restarted by main thread.\n      var status = Atomics.wait(i32a, ${",
+    "start": 1026,
+    "end": 1117
   },
   {
     "type": "Identifier",
@@ -317,7 +325,9 @@
   },
   {
     "type": "Template",
-    "value": "}, 0);\n\n      // Report wait status.\n      $262.agent.report(status);\n\n      // Report the agent number after waiting.\n      $262.agent.report(${"
+    "value": "}, 0);\n\n      // Report wait status.\n      $262.agent.report(status);\n\n      // Report the agent number after waiting.\n      $262.agent.report(${",
+    "start": 1127,
+    "end": 1272
   },
   {
     "type": "Identifier",
@@ -327,7 +337,9 @@
   },
   {
     "type": "Template",
-    "value": "});\n\n      $262.agent.leaving();\n    });\n  `"
+    "value": "});\n\n      $262.agent.leaving();\n    });\n  `",
+    "start": 1280,
+    "end": 1324
   },
   {
     "type": "Punctuator",

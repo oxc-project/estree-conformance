@@ -937,7 +937,9 @@
   },
   {
     "type": "Template",
-    "value": "`from(${"
+    "value": "`from(${",
+    "start": 842,
+    "end": 850
   },
   {
     "type": "Identifier",
@@ -977,7 +979,9 @@
   },
   {
     "type": "Template",
-    "value": "}`"
+    "value": "}`",
+    "start": 880,
+    "end": 882
   },
   {
     "type": "Punctuator",

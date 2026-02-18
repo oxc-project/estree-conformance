@@ -691,7 +691,9 @@
   },
   {
     "type": "Template",
-    "value": "`${"
+    "value": "`${",
+    "start": 924,
+    "end": 927
   },
   {
     "type": "Identifier",
@@ -701,7 +703,9 @@
   },
   {
     "type": "Template",
-    "value": "} is not a valid TypedArray`"
+    "value": "} is not a valid TypedArray`",
+    "start": 931,
+    "end": 959
   },
   {
     "type": "Punctuator",

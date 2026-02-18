@@ -2689,7 +2689,9 @@
   },
   {
     "type": "Template",
-    "value": "`sample ${"
+    "value": "`sample ${",
+    "start": 3308,
+    "end": 3318
   },
   {
     "type": "Identifier",
@@ -2699,7 +2701,9 @@
   },
   {
     "type": "Template",
-    "value": "}: '${"
+    "value": "}: '${",
+    "start": 3323,
+    "end": 3329
   },
   {
     "type": "Identifier",
@@ -2709,7 +2713,9 @@
   },
   {
     "type": "Template",
-    "value": "}'.replaceAll(/${"
+    "value": "}'.replaceAll(/${",
+    "start": 3338,
+    "end": 3355
   },
   {
     "type": "Identifier",
@@ -2719,7 +2725,9 @@
   },
   {
     "type": "Template",
-    "value": "}/${"
+    "value": "}/${",
+    "start": 3360,
+    "end": 3364
   },
   {
     "type": "Identifier",
@@ -2729,7 +2737,9 @@
   },
   {
     "type": "Template",
-    "value": "}, '${"
+    "value": "}, '${",
+    "start": 3369,
+    "end": 3375
   },
   {
     "type": "Identifier",
@@ -2739,7 +2749,9 @@
   },
   {
     "type": "Template",
-    "value": "}')`"
+    "value": "}')`",
+    "start": 3387,
+    "end": 3391
   },
   {
     "type": "Punctuator",

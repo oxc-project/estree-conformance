@@ -325,7 +325,9 @@
   },
   {
     "type": "Template",
-    "value": "`A number (${"
+    "value": "`A number (${",
+    "start": 543,
+    "end": 556
   },
   {
     "type": "Identifier",
@@ -335,7 +337,9 @@
   },
   {
     "type": "Template",
-    "value": "}) is not a valid ISO string for PlainTime`"
+    "value": "}) is not a valid ISO string for PlainTime`",
+    "start": 559,
+    "end": 602
   },
   {
     "type": "Punctuator",

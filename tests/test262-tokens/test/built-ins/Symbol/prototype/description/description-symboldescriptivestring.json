@@ -187,7 +187,9 @@
   },
   {
     "type": "Template",
-    "value": "`Symbol(${"
+    "value": "`Symbol(${",
+    "start": 802,
+    "end": 812
   },
   {
     "type": "Identifier",
@@ -209,7 +211,9 @@
   },
   {
     "type": "Template",
-    "value": "})`"
+    "value": "})`",
+    "start": 830,
+    "end": 833
   },
   {
     "type": "Punctuator",
@@ -219,7 +223,9 @@
   },
   {
     "type": "Template",
-    "value": "`symbol.toString() returns \"Symbol(${"
+    "value": "`symbol.toString() returns \"Symbol(${",
+    "start": 837,
+    "end": 874
   },
   {
     "type": "Identifier",
@@ -241,7 +247,9 @@
   },
   {
     "type": "Template",
-    "value": "})\"`"
+    "value": "})\"`",
+    "start": 892,
+    "end": 896
   },
   {
     "type": "Punctuator",

@@ -121,7 +121,9 @@
   },
   {
     "type": "Template",
-    "value": "`${"
+    "value": "`${",
+    "start": 564,
+    "end": 567
   },
   {
     "type": "Numeric",
@@ -131,7 +133,9 @@
   },
   {
     "type": "Template",
-    "value": "} ${"
+    "value": "} ${",
+    "start": 568,
+    "end": 572
   },
   {
     "type": "Identifier",
@@ -165,7 +169,9 @@
   },
   {
     "type": "Template",
-    "value": "} bar`"
+    "value": "} bar`",
+    "start": 583,
+    "end": 589
   },
   {
     "type": "Punctuator",

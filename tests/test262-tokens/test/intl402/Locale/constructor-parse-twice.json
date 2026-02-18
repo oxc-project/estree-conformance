@@ -385,7 +385,9 @@
   },
   {
     "type": "Template",
-    "value": "`new Intl.Locale(\"${"
+    "value": "`new Intl.Locale(\"${",
+    "start": 1391,
+    "end": 1411
   },
   {
     "type": "Identifier",
@@ -395,7 +397,9 @@
   },
   {
     "type": "Template",
-    "value": "}\", ${"
+    "value": "}\", ${",
+    "start": 1414,
+    "end": 1420
   },
   {
     "type": "Identifier",
@@ -405,7 +409,9 @@
   },
   {
     "type": "Template",
-    "value": "}).toString() returns \"${"
+    "value": "}).toString() returns \"${",
+    "start": 1427,
+    "end": 1452
   },
   {
     "type": "Identifier",
@@ -415,7 +421,9 @@
   },
   {
     "type": "Template",
-    "value": "}\"`"
+    "value": "}\"`",
+    "start": 1461,
+    "end": 1464
   },
   {
     "type": "Punctuator",

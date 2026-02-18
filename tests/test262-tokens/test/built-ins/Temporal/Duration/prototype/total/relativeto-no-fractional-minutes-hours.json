@@ -433,7 +433,9 @@
   },
   {
     "type": "Template",
-    "value": "`${"
+    "value": "`${",
+    "start": 636,
+    "end": 639
   },
   {
     "type": "Identifier",
@@ -443,7 +445,9 @@
   },
   {
     "type": "Template",
-    "value": "} not allowed in time string`"
+    "value": "} not allowed in time string`",
+    "start": 650,
+    "end": 679
   },
   {
     "type": "Punctuator",

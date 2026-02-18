@@ -319,7 +319,9 @@
   },
   {
     "type": "Template",
-    "value": "`\"${"
+    "value": "`\"${",
+    "start": 516,
+    "end": 520
   },
   {
     "type": "Identifier",
@@ -329,7 +331,9 @@
   },
   {
     "type": "Template",
-    "value": "}\" does not match \"${"
+    "value": "}\" does not match \"${",
+    "start": 523,
+    "end": 544
   },
   {
     "type": "Identifier",
@@ -351,7 +355,9 @@
   },
   {
     "type": "Template",
-    "value": "}\" time zone identifier`"
+    "value": "}\" time zone identifier`",
+    "start": 563,
+    "end": 587
   },
   {
     "type": "Punctuator",

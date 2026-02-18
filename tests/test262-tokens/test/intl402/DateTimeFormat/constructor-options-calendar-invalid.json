@@ -397,7 +397,9 @@
   },
   {
     "type": "Template",
-    "value": "`new Intl.DateTimeFormat(\"en\", {calendar: \"${"
+    "value": "`new Intl.DateTimeFormat(\"en\", {calendar: \"${",
+    "start": 1027,
+    "end": 1072
   },
   {
     "type": "Identifier",
@@ -407,7 +409,9 @@
   },
   {
     "type": "Template",
-    "value": "}\"}) throws RangeError`"
+    "value": "}\"}) throws RangeError`",
+    "start": 1080,
+    "end": 1103
   },
   {
     "type": "Punctuator",

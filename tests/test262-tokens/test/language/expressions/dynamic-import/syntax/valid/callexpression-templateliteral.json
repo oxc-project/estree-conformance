@@ -85,7 +85,9 @@
   },
   {
     "type": "Template",
-    "value": "``"
+    "value": "``",
+    "start": 500,
+    "end": 502
   },
   {
     "type": "Punctuator",
@@ -197,7 +199,9 @@
   },
   {
     "type": "Template",
-    "value": "`something`"
+    "value": "`something`",
+    "start": 574,
+    "end": 585
   },
   {
     "type": "Punctuator",
@@ -309,7 +313,9 @@
   },
   {
     "type": "Template",
-    "value": "`${"
+    "value": "`${",
+    "start": 657,
+    "end": 660
   },
   {
     "type": "Numeric",
@@ -319,7 +325,9 @@
   },
   {
     "type": "Template",
-    "value": "}`"
+    "value": "}`",
+    "start": 662,
+    "end": 664
   },
   {
     "type": "Punctuator",

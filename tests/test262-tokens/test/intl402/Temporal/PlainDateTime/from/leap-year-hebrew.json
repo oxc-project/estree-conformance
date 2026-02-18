@@ -1147,7 +1147,9 @@
   },
   {
     "type": "Template",
-    "value": "`Start of month ${"
+    "value": "`Start of month ${",
+    "start": 1003,
+    "end": 1021
   },
   {
     "type": "Identifier",
@@ -1157,7 +1159,9 @@
   },
   {
     "type": "Template",
-    "value": "} in leap year`"
+    "value": "} in leap year`",
+    "start": 1030,
+    "end": 1045
   },
   {
     "type": "Punctuator",
@@ -1545,7 +1549,9 @@
   },
   {
     "type": "Template",
-    "value": "`End of month ${"
+    "value": "`End of month ${",
+    "start": 1311,
+    "end": 1327
   },
   {
     "type": "Identifier",
@@ -1555,7 +1561,9 @@
   },
   {
     "type": "Template",
-    "value": "} in leap year`"
+    "value": "} in leap year`",
+    "start": 1336,
+    "end": 1351
   },
   {
     "type": "Punctuator",

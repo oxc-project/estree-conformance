@@ -265,7 +265,9 @@
   },
   {
     "type": "Template",
-    "value": "`${"
+    "value": "`${",
+    "start": 399,
+    "end": 402
   },
   {
     "type": "Identifier",
@@ -275,7 +277,9 @@
   },
   {
     "type": "Template",
-    "value": "} should be on day ${"
+    "value": "} should be on day ${",
+    "start": 411,
+    "end": 432
   },
   {
     "type": "Numeric",
@@ -297,7 +301,9 @@
   },
   {
     "type": "Template",
-    "value": "}`"
+    "value": "}`",
+    "start": 439,
+    "end": 441
   },
   {
     "type": "Punctuator",

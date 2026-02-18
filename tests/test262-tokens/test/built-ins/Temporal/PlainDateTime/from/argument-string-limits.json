@@ -433,7 +433,9 @@
   },
   {
     "type": "Template",
-    "value": "`\"${"
+    "value": "`\"${",
+    "start": 713,
+    "end": 717
   },
   {
     "type": "Identifier",
@@ -443,7 +445,9 @@
   },
   {
     "type": "Template",
-    "value": "}\" is outside the representable range of PlainDateTime`"
+    "value": "}\" is outside the representable range of PlainDateTime`",
+    "start": 720,
+    "end": 775
   },
   {
     "type": "Punctuator",

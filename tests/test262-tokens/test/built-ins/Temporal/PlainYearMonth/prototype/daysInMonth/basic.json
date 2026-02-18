@@ -505,7 +505,9 @@
   },
   {
     "type": "Template",
-    "value": "`${"
+    "value": "`${",
+    "start": 565,
+    "end": 568
   },
   {
     "type": "Identifier",
@@ -515,7 +517,9 @@
   },
   {
     "type": "Template",
-    "value": "} days in the month of ${"
+    "value": "} days in the month of ${",
+    "start": 576,
+    "end": 601
   },
   {
     "type": "Identifier",
@@ -525,7 +529,9 @@
   },
   {
     "type": "Template",
-    "value": "}`"
+    "value": "}`",
+    "start": 615,
+    "end": 617
   },
   {
     "type": "Punctuator",

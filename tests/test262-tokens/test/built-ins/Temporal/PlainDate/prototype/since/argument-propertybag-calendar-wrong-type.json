@@ -823,7 +823,9 @@
   },
   {
     "type": "Template",
-    "value": "`${"
+    "value": "`${",
+    "start": 890,
+    "end": 893
   },
   {
     "type": "Identifier",
@@ -833,7 +835,9 @@
   },
   {
     "type": "Template",
-    "value": "} is not a valid calendar`"
+    "value": "} is not a valid calendar`",
+    "start": 904,
+    "end": 930
   },
   {
     "type": "Punctuator",

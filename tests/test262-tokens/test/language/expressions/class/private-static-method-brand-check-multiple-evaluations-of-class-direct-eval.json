@@ -19,7 +19,9 @@
   },
   {
     "type": "Template",
-    "value": "`(\nclass {\n  static #m() { return 'test262'; }\n\n  static access() {\n    return this.#m();\n  }\n}\n)`"
+    "value": "`(\nclass {\n  static #m() { return 'test262'; }\n\n  static access() {\n    return this.#m();\n  }\n}\n)`",
+    "start": 1052,
+    "end": 1150
   },
   {
     "type": "Punctuator",

@@ -301,7 +301,9 @@
   },
   {
     "type": "Template",
-    "value": "`Atomics.or(new ${"
+    "value": "`Atomics.or(new ${",
+    "start": 545,
+    "end": 563
   },
   {
     "type": "Identifier",
@@ -323,7 +325,9 @@
   },
   {
     "type": "Template",
-    "value": "}(buffer), 0, 1) throws TypeError`"
+    "value": "}(buffer), 0, 1) throws TypeError`",
+    "start": 570,
+    "end": 604
   },
   {
     "type": "Punctuator",

@@ -973,7 +973,9 @@
   },
   {
     "type": "Template",
-    "value": "`instant.toLocaleString(\"en\", { ${"
+    "value": "`instant.toLocaleString(\"en\", { ${",
+    "start": 1587,
+    "end": 1621
   },
   {
     "type": "Identifier",
@@ -983,7 +985,9 @@
   },
   {
     "type": "Template",
-    "value": "}: \"${"
+    "value": "}: \"${",
+    "start": 1627,
+    "end": 1633
   },
   {
     "type": "Identifier",
@@ -993,7 +997,9 @@
   },
   {
     "type": "Template",
-    "value": "}\",  dateStyle: \"short\" }) throws TypeError`"
+    "value": "}\",  dateStyle: \"short\" }) throws TypeError`",
+    "start": 1638,
+    "end": 1682
   },
   {
     "type": "Punctuator",
@@ -1195,7 +1201,9 @@
   },
   {
     "type": "Template",
-    "value": "`instant.toLocaleString(\"en\", { ${"
+    "value": "`instant.toLocaleString(\"en\", { ${",
+    "start": 1806,
+    "end": 1840
   },
   {
     "type": "Identifier",
@@ -1205,7 +1213,9 @@
   },
   {
     "type": "Template",
-    "value": "}: \"${"
+    "value": "}: \"${",
+    "start": 1846,
+    "end": 1852
   },
   {
     "type": "Identifier",
@@ -1215,7 +1225,9 @@
   },
   {
     "type": "Template",
-    "value": "}\",  timeStyle: \"short\" }) throws TypeError`"
+    "value": "}\",  timeStyle: \"short\" }) throws TypeError`",
+    "start": 1857,
+    "end": 1901
   },
   {
     "type": "Punctuator",

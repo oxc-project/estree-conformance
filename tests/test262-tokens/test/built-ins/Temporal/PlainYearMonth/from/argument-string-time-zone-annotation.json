@@ -547,7 +547,9 @@
   },
   {
     "type": "Template",
-    "value": "`time zone annotation (${"
+    "value": "`time zone annotation (${",
+    "start": 1024,
+    "end": 1049
   },
   {
     "type": "Identifier",
@@ -557,7 +559,9 @@
   },
   {
     "type": "Template",
-    "value": "})`"
+    "value": "})`",
+    "start": 1060,
+    "end": 1063
   },
   {
     "type": "Punctuator",

@@ -517,7 +517,9 @@
   },
   {
     "type": "Template",
-    "value": "`${"
+    "value": "`${",
+    "start": 600,
+    "end": 603
   },
   {
     "type": "Identifier",
@@ -527,7 +529,9 @@
   },
   {
     "type": "Template",
-    "value": "} property cannot be ${"
+    "value": "} property cannot be ${",
+    "start": 607,
+    "end": 630
   },
   {
     "type": "Identifier",
@@ -537,7 +541,9 @@
   },
   {
     "type": "Template",
-    "value": "}`"
+    "value": "}`",
+    "start": 633,
+    "end": 635
   },
   {
     "type": "Punctuator",
@@ -871,7 +877,9 @@
   },
   {
     "type": "Template",
-    "value": "`get ${"
+    "value": "`get ${",
+    "start": 843,
+    "end": 850
   },
   {
     "type": "Identifier",
@@ -881,7 +889,9 @@
   },
   {
     "type": "Template",
-    "value": "}.valueOf`"
+    "value": "}.valueOf`",
+    "start": 854,
+    "end": 864
   },
   {
     "type": "Punctuator",
@@ -891,7 +901,9 @@
   },
   {
     "type": "Template",
-    "value": "`call ${"
+    "value": "`call ${",
+    "start": 866,
+    "end": 874
   },
   {
     "type": "Identifier",
@@ -901,7 +913,9 @@
   },
   {
     "type": "Template",
-    "value": "}.valueOf`"
+    "value": "}.valueOf`",
+    "start": 878,
+    "end": 888
   },
   {
     "type": "Punctuator",

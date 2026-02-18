@@ -487,7 +487,9 @@
   },
   {
     "type": "Template",
-    "value": "`epochNs = ${"
+    "value": "`epochNs = ${",
+    "start": 616,
+    "end": 629
   },
   {
     "type": "Identifier",
@@ -497,7 +499,9 @@
   },
   {
     "type": "Template",
-    "value": "}, timeZone = ${"
+    "value": "}, timeZone = ${",
+    "start": 636,
+    "end": 652
   },
   {
     "type": "Identifier",
@@ -507,7 +511,9 @@
   },
   {
     "type": "Template",
-    "value": "}`"
+    "value": "}`",
+    "start": 660,
+    "end": 662
   },
   {
     "type": "Punctuator",

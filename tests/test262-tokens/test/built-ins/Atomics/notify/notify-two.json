@@ -343,7 +343,9 @@
   },
   {
     "type": "Template",
-    "value": "`\n    $262.agent.receiveBroadcast(function(sab) {\n      const i32a = new Int32Array(sab);\n      Atomics.add(i32a, ${"
+    "value": "`\n    $262.agent.receiveBroadcast(function(sab) {\n      const i32a = new Int32Array(sab);\n      Atomics.add(i32a, ${",
+    "start": 636,
+    "end": 752
   },
   {
     "type": "Identifier",
@@ -353,7 +355,9 @@
   },
   {
     "type": "Template",
-    "value": "}, 1);\n\n      // Waiters that are not woken will time out eventually.\n      $262.agent.report(Atomics.wait(i32a, ${"
+    "value": "}, 1);\n\n      // Waiters that are not woken will time out eventually.\n      $262.agent.report(Atomics.wait(i32a, ${",
+    "start": 759,
+    "end": 874
   },
   {
     "type": "Identifier",
@@ -363,7 +367,9 @@
   },
   {
     "type": "Template",
-    "value": "}, 0, ${"
+    "value": "}, 0, ${",
+    "start": 884,
+    "end": 892
   },
   {
     "type": "Identifier",
@@ -373,7 +379,9 @@
   },
   {
     "type": "Template",
-    "value": "}));\n      $262.agent.leaving();\n    })\n  `"
+    "value": "}));\n      $262.agent.leaving();\n    })\n  `",
+    "start": 899,
+    "end": 942
   },
   {
     "type": "Punctuator",

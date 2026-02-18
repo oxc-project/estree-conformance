@@ -19,7 +19,9 @@
   },
   {
     "type": "Template",
-    "value": "`\nreturn class {\n  set #m(v) { this._v = v; }\n\n  access(o, v) {\n    o.#m = v;\n  }\n}\n`"
+    "value": "`\nreturn class {\n  set #m(v) { this._v = v; }\n\n  access(o, v) {\n    o.#m = v;\n  }\n}\n`",
+    "start": 832,
+    "end": 917
   },
   {
     "type": "Punctuator",

@@ -157,7 +157,9 @@
   },
   {
     "type": "Template",
-    "value": "`\n  $262.agent.receiveBroadcast(function(sab) {\n    var i32a = new Int32Array(sab);\n    Atomics.add(i32a, ${"
+    "value": "`\n  $262.agent.receiveBroadcast(function(sab) {\n    var i32a = new Int32Array(sab);\n    Atomics.add(i32a, ${",
+    "start": 722,
+    "end": 830
   },
   {
     "type": "Identifier",
@@ -167,7 +169,9 @@
   },
   {
     "type": "Template",
-    "value": "}, 1);\n\n    // undefined => NaN => +Infinity\n    $262.agent.report(\"A \" + Atomics.wait(i32a, 0, 0, undefined));\n    $262.agent.leaving();\n  });\n`"
+    "value": "}, 1);\n\n    // undefined => NaN => +Infinity\n    $262.agent.report(\"A \" + Atomics.wait(i32a, 0, 0, undefined));\n    $262.agent.leaving();\n  });\n`",
+    "start": 837,
+    "end": 982
   },
   {
     "type": "Punctuator",
@@ -219,7 +223,9 @@
   },
   {
     "type": "Template",
-    "value": "`\n  $262.agent.receiveBroadcast(function(sab) {\n    var i32a = new Int32Array(sab);\n    Atomics.add(i32a, ${"
+    "value": "`\n  $262.agent.receiveBroadcast(function(sab) {\n    var i32a = new Int32Array(sab);\n    Atomics.add(i32a, ${",
+    "start": 1003,
+    "end": 1111
   },
   {
     "type": "Identifier",
@@ -229,7 +235,9 @@
   },
   {
     "type": "Template",
-    "value": "}, 1);\n\n    // undefined timeout arg => NaN => +Infinity\n    $262.agent.report(\"B \" + Atomics.wait(i32a, 0, 0));\n    $262.agent.leaving();\n  });\n`"
+    "value": "}, 1);\n\n    // undefined timeout arg => NaN => +Infinity\n    $262.agent.report(\"B \" + Atomics.wait(i32a, 0, 0));\n    $262.agent.leaving();\n  });\n`",
+    "start": 1118,
+    "end": 1264
   },
   {
     "type": "Punctuator",

@@ -253,7 +253,9 @@
   },
   {
     "type": "Template",
-    "value": "`new Intl.DurationFormat(\"en\", {fractionalDigits: \"${"
+    "value": "`new Intl.DurationFormat(\"en\", {fractionalDigits: \"${",
+    "start": 656,
+    "end": 709
   },
   {
     "type": "Identifier",
@@ -263,7 +265,9 @@
   },
   {
     "type": "Template",
-    "value": "}\"}) throws RangeError`"
+    "value": "}\"}) throws RangeError`",
+    "start": 725,
+    "end": 748
   },
   {
     "type": "Punctuator",

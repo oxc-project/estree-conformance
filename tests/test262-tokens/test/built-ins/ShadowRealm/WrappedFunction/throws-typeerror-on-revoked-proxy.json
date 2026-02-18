@@ -187,7 +187,9 @@
   },
   {
     "type": "Template",
-    "value": "`\nglobalThis.revocable = Proxy.revocable(() => {}, {});\n\nglobalThis.revocable.proxy;\n`"
+    "value": "`\nglobalThis.revocable = Proxy.revocable(() => {}, {});\n\nglobalThis.revocable.proxy;\n`",
+    "start": 1058,
+    "end": 1144
   },
   {
     "type": "Punctuator",

@@ -235,7 +235,9 @@
   },
   {
     "type": "Template",
-    "value": "`(\nclass {\n  static set #m(v) {\n    this._v = v;\n  }\n\n  static access() {\n    this.#m = 'test262';\n  }\n}\n)`"
+    "value": "`(\nclass {\n  static set #m(v) {\n    this._v = v;\n  }\n\n  static access() {\n    this.#m = 'test262';\n  }\n}\n)`",
+    "start": 1222,
+    "end": 1329
   },
   {
     "type": "Punctuator",

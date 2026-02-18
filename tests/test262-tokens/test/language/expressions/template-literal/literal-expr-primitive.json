@@ -25,7 +25,9 @@
   },
   {
     "type": "Template",
-    "value": "`foo ${"
+    "value": "`foo ${",
+    "start": 479,
+    "end": 486
   },
   {
     "type": "Numeric",
@@ -35,7 +37,9 @@
   },
   {
     "type": "Template",
-    "value": "} bar`"
+    "value": "} bar`",
+    "start": 487,
+    "end": 493
   },
   {
     "type": "Punctuator",
@@ -99,7 +103,9 @@
   },
   {
     "type": "Template",
-    "value": "`foo ${"
+    "value": "`foo ${",
+    "start": 542,
+    "end": 549
   },
   {
     "type": "String",
@@ -109,7 +115,9 @@
   },
   {
     "type": "Template",
-    "value": "} bar`"
+    "value": "} bar`",
+    "start": 557,
+    "end": 563
   },
   {
     "type": "Punctuator",

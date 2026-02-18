@@ -379,7 +379,9 @@
   },
   {
     "type": "Template",
-    "value": "`\n    $262.agent.receiveBroadcast(function(sab) {\n      const i64a = new BigInt64Array(sab);\n      Atomics.add(i64a, ${"
+    "value": "`\n    $262.agent.receiveBroadcast(function(sab) {\n      const i64a = new BigInt64Array(sab);\n      Atomics.add(i64a, ${",
+    "start": 776,
+    "end": 895
   },
   {
     "type": "Identifier",
@@ -389,7 +391,9 @@
   },
   {
     "type": "Template",
-    "value": "}, 1n);\n\n      // Synchronize workers before reporting the initial report.\n      while (Atomics.compareExchange(i64a, ${"
+    "value": "}, 1n);\n\n      // Synchronize workers before reporting the initial report.\n      while (Atomics.compareExchange(i64a, ${",
+    "start": 902,
+    "end": 1022
   },
   {
     "type": "Identifier",
@@ -399,7 +403,9 @@
   },
   {
     "type": "Template",
-    "value": "}, 0n, 1n) !== 0n) ;\n\n      // Report the agent number before waiting.\n      $262.agent.report(${"
+    "value": "}, 0n, 1n) !== 0n) ;\n\n      // Report the agent number before waiting.\n      $262.agent.report(${",
+    "start": 1032,
+    "end": 1129
   },
   {
     "type": "Identifier",
@@ -409,7 +415,9 @@
   },
   {
     "type": "Template",
-    "value": "});\n\n      // Wait until restarted by main thread.\n      var status = Atomics.wait(i64a, ${"
+    "value": "});\n\n      // Wait until restarted by main thread.\n      var status = Atomics.wait(i64a, ${",
+    "start": 1137,
+    "end": 1228
   },
   {
     "type": "Identifier",
@@ -419,7 +427,9 @@
   },
   {
     "type": "Template",
-    "value": "}, 0n);\n\n      // Report wait status.\n      $262.agent.report(status);\n\n      // Report the agent number after waiting.\n      $262.agent.report(${"
+    "value": "}, 0n);\n\n      // Report wait status.\n      $262.agent.report(status);\n\n      // Report the agent number after waiting.\n      $262.agent.report(${",
+    "start": 1238,
+    "end": 1384
   },
   {
     "type": "Identifier",
@@ -429,7 +439,9 @@
   },
   {
     "type": "Template",
-    "value": "});\n\n      $262.agent.leaving();\n    });\n  `"
+    "value": "});\n\n      $262.agent.leaving();\n    });\n  `",
+    "start": 1392,
+    "end": 1436
   },
   {
     "type": "Punctuator",

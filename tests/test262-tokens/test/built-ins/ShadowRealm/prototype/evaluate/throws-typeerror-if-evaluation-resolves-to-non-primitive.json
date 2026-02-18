@@ -451,7 +451,9 @@
   },
   {
     "type": "Template",
-    "value": "`\n    ({\n        [Symbol.toPrimitive]() { return 'string'; },\n        toString() { return 'str'; },\n        valueOf() { return 1; }\n    });\n`"
+    "value": "`\n    ({\n        [Symbol.toPrimitive]() { return 'string'; },\n        toString() { return 'str'; },\n        valueOf() { return 1; }\n    });\n`",
+    "start": 682,
+    "end": 823
   },
   {
     "type": "Punctuator",

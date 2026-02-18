@@ -409,7 +409,9 @@
   },
   {
     "type": "Template",
-    "value": "`new Intl.Locale(\"en\", {script: \"${"
+    "value": "`new Intl.Locale(\"en\", {script: \"${",
+    "start": 1144,
+    "end": 1179
   },
   {
     "type": "Identifier",
@@ -419,7 +421,9 @@
   },
   {
     "type": "Template",
-    "value": "}\"}) throws RangeError`"
+    "value": "}\"}) throws RangeError`",
+    "start": 1185,
+    "end": 1208
   },
   {
     "type": "Punctuator",

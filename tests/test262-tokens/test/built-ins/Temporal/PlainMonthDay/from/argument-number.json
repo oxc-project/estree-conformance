@@ -247,7 +247,9 @@
   },
   {
     "type": "Template",
-    "value": "`A number (${"
+    "value": "`A number (${",
+    "start": 448,
+    "end": 461
   },
   {
     "type": "Identifier",
@@ -257,7 +259,9 @@
   },
   {
     "type": "Template",
-    "value": "}) is not a valid ISO string for PlainMonthDay`"
+    "value": "}) is not a valid ISO string for PlainMonthDay`",
+    "start": 464,
+    "end": 511
   },
   {
     "type": "Punctuator",

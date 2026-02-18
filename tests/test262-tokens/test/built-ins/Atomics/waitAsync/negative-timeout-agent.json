@@ -151,7 +151,9 @@
   },
   {
     "type": "Template",
-    "value": "`\n  $262.agent.receiveBroadcast(async (sab) => {\n    var i32a = new Int32Array(sab);\n    Atomics.add(i32a, ${"
+    "value": "`\n  $262.agent.receiveBroadcast(async (sab) => {\n    var i32a = new Int32Array(sab);\n    Atomics.add(i32a, ${",
+    "start": 765,
+    "end": 874
   },
   {
     "type": "Identifier",
@@ -161,7 +163,9 @@
   },
   {
     "type": "Template",
-    "value": "}, 1);\n    $262.agent.report(await Atomics.waitAsync(i32a, 0, 0, -5).value); // -5 => 0\n    $262.agent.leaving();\n  });\n`"
+    "value": "}, 1);\n    $262.agent.report(await Atomics.waitAsync(i32a, 0, 0, -5).value); // -5 => 0\n    $262.agent.leaving();\n  });\n`",
+    "start": 881,
+    "end": 1002
   },
   {
     "type": "Punctuator",

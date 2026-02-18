@@ -433,7 +433,9 @@
   },
   {
     "type": "Template",
-    "value": "`name = ${"
+    "value": "`name = ${",
+    "start": 1918,
+    "end": 1928
   },
   {
     "type": "Identifier",
@@ -443,7 +445,9 @@
   },
   {
     "type": "Template",
-    "value": "}, value = ${"
+    "value": "}, value = ${",
+    "start": 1932,
+    "end": 1945
   },
   {
     "type": "Identifier",
@@ -471,7 +475,9 @@
   },
   {
     "type": "Template",
-    "value": "}`"
+    "value": "}`",
+    "start": 1960,
+    "end": 1962
   },
   {
     "type": "Punctuator",

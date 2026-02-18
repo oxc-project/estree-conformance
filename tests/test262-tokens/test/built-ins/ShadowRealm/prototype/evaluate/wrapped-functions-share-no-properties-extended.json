@@ -169,7 +169,9 @@
   },
   {
     "type": "Template",
-    "value": "`\nfunction fn() { return 42; }\nglobalThis.arrow = x => x * 2;\nglobalThis.pFn = new Proxy(fn, {\n    apply() {\n        pFn.used = 1;\n        return 39;\n    }\n});\nasync function aFn() {\n    return 1;\n}\n\nfunction * genFn() {\n    return 1;\n}\n\nfn.x = 'secrets';\narrow.x = 'secrets';\npFn.x = 'secrets';\naFn.x = 'secrets';\ngenFn.x = 'secrets';\n`"
+    "value": "`\nfunction fn() { return 42; }\nglobalThis.arrow = x => x * 2;\nglobalThis.pFn = new Proxy(fn, {\n    apply() {\n        pFn.used = 1;\n        return 39;\n    }\n});\nasync function aFn() {\n    return 1;\n}\n\nfunction * genFn() {\n    return 1;\n}\n\nfn.x = 'secrets';\narrow.x = 'secrets';\npFn.x = 'secrets';\naFn.x = 'secrets';\ngenFn.x = 'secrets';\n`",
+    "start": 496,
+    "end": 833
   },
   {
     "type": "Punctuator",

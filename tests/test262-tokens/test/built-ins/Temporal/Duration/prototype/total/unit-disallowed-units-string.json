@@ -397,7 +397,9 @@
   },
   {
     "type": "Template",
-    "value": "`{ unit: \"${"
+    "value": "`{ unit: \"${",
+    "start": 512,
+    "end": 524
   },
   {
     "type": "Identifier",
@@ -407,7 +409,9 @@
   },
   {
     "type": "Template",
-    "value": "}\" } should not be allowed as an argument to total`"
+    "value": "}\" } should not be allowed as an argument to total`",
+    "start": 528,
+    "end": 579
   },
   {
     "type": "Punctuator",
@@ -519,7 +523,9 @@
   },
   {
     "type": "Template",
-    "value": "`\"${"
+    "value": "`\"${",
+    "start": 654,
+    "end": 658
   },
   {
     "type": "Identifier",
@@ -529,7 +535,9 @@
   },
   {
     "type": "Template",
-    "value": "}\" should not be allowed as an argument to total`"
+    "value": "}\" should not be allowed as an argument to total`",
+    "start": 662,
+    "end": 711
   },
   {
     "type": "Punctuator",

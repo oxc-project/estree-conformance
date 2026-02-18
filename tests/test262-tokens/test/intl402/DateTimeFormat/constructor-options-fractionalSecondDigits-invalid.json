@@ -373,7 +373,9 @@
   },
   {
     "type": "Template",
-    "value": "`new Intl.DateTimeFormat(\"en\", { fractionalSecondDigits: \"${"
+    "value": "`new Intl.DateTimeFormat(\"en\", { fractionalSecondDigits: \"${",
+    "start": 1013,
+    "end": 1073
   },
   {
     "type": "Identifier",
@@ -383,7 +385,9 @@
   },
   {
     "type": "Template",
-    "value": "}\" }) throws RangeError`"
+    "value": "}\" }) throws RangeError`",
+    "start": 1095,
+    "end": 1119
   },
   {
     "type": "Punctuator",

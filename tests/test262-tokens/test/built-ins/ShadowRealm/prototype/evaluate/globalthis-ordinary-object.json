@@ -481,7 +481,9 @@
   },
   {
     "type": "Template",
-    "value": "`\n    let result;\n    try {\n      globalThis.__proto__ = {x: 2};\n      result = true;\n    } catch (e) {\n      result = false;\n    }\n    result;\n  `"
+    "value": "`\n    let result;\n    try {\n      globalThis.__proto__ = {x: 2};\n      result = true;\n    } catch (e) {\n      result = false;\n    }\n    result;\n  `",
+    "start": 1996,
+    "end": 2143
   },
   {
     "type": "Punctuator",
@@ -575,7 +577,9 @@
   },
   {
     "type": "Template",
-    "value": "`\n    Reflect.set(globalThis, '__proto__', {x: 1}) &&\n    Reflect.setPrototypeOf(globalThis.__proto__, {x: 2});\n  `"
+    "value": "`\n    Reflect.set(globalThis, '__proto__', {x: 1}) &&\n    Reflect.setPrototypeOf(globalThis.__proto__, {x: 2});\n  `",
+    "start": 2237,
+    "end": 2352
   },
   {
     "type": "Punctuator",

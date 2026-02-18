@@ -385,7 +385,9 @@
   },
   {
     "type": "Template",
-    "value": "`new Intl.Locale(\"en\", {hourCycle: \"${"
+    "value": "`new Intl.Locale(\"en\", {hourCycle: \"${",
+    "start": 950,
+    "end": 988
   },
   {
     "type": "Identifier",
@@ -395,7 +397,9 @@
   },
   {
     "type": "Template",
-    "value": "}\"}) throws RangeError`"
+    "value": "}\"}) throws RangeError`",
+    "start": 997,
+    "end": 1020
   },
   {
     "type": "Punctuator",

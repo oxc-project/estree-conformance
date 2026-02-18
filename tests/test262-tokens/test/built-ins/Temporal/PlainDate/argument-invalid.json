@@ -643,7 +643,9 @@
   },
   {
     "type": "Template",
-    "value": "`year=${"
+    "value": "`year=${",
+    "start": 530,
+    "end": 538
   },
   {
     "type": "Identifier",
@@ -653,7 +655,9 @@
   },
   {
     "type": "Template",
-    "value": "}, month=${"
+    "value": "}, month=${",
+    "start": 542,
+    "end": 553
   },
   {
     "type": "Identifier",
@@ -663,7 +667,9 @@
   },
   {
     "type": "Template",
-    "value": "}, day=${"
+    "value": "}, day=${",
+    "start": 558,
+    "end": 567
   },
   {
     "type": "Identifier",
@@ -673,7 +679,9 @@
   },
   {
     "type": "Template",
-    "value": "}`"
+    "value": "}`",
+    "start": 570,
+    "end": 572
   },
   {
     "type": "Punctuator",

@@ -589,7 +589,9 @@
   },
   {
     "type": "Template",
-    "value": "`${"
+    "value": "`${",
+    "start": 775,
+    "end": 778
   },
   {
     "type": "Identifier",
@@ -599,7 +601,9 @@
   },
   {
     "type": "Template",
-    "value": "} does not convert to a valid ISO string`"
+    "value": "} does not convert to a valid ISO string`",
+    "start": 789,
+    "end": 830
   },
   {
     "type": "Punctuator",
@@ -1023,7 +1027,9 @@
   },
   {
     "type": "Template",
-    "value": "`${"
+    "value": "`${",
+    "start": 1150,
+    "end": 1153
   },
   {
     "type": "Identifier",
@@ -1033,7 +1039,9 @@
   },
   {
     "type": "Template",
-    "value": "} is not a valid property bag and does not convert to a string`"
+    "value": "} is not a valid property bag and does not convert to a string`",
+    "start": 1164,
+    "end": 1227
   },
   {
     "type": "Punctuator",

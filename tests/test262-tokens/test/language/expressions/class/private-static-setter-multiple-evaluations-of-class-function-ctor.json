@@ -19,7 +19,9 @@
   },
   {
     "type": "Template",
-    "value": "`\nreturn class {\n  static set #m(v) {\n    this._v = v;\n  }\n\n  static access() {\n    this.#m = 'test262';\n  }\n}\n`"
+    "value": "`\nreturn class {\n  static set #m(v) {\n    this._v = v;\n  }\n\n  static access() {\n    this.#m = 'test262';\n  }\n}\n`",
+    "start": 1056,
+    "end": 1168
   },
   {
     "type": "Punctuator",

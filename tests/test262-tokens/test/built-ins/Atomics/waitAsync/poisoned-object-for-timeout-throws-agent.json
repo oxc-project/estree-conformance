@@ -151,7 +151,9 @@
   },
   {
     "type": "Template",
-    "value": "`\n  const poisonedValueOf = {\n    valueOf() {\n      throw new Error('should not evaluate this code');\n    }\n  };\n\n  const poisonedToPrimitive = {\n    [Symbol.toPrimitive]() {\n      throw new Error('passing a poisoned object using @@ToPrimitive');\n    }\n  };\n\n  $262.agent.receiveBroadcast(function(sab) {\n    const i32a = new Int32Array(sab);\n    Atomics.add(i32a, ${"
+    "value": "`\n  const poisonedValueOf = {\n    valueOf() {\n      throw new Error('should not evaluate this code');\n    }\n  };\n\n  const poisonedToPrimitive = {\n    [Symbol.toPrimitive]() {\n      throw new Error('passing a poisoned object using @@ToPrimitive');\n    }\n  };\n\n  $262.agent.receiveBroadcast(function(sab) {\n    const i32a = new Int32Array(sab);\n    Atomics.add(i32a, ${",
+    "start": 842,
+    "end": 1209
   },
   {
     "type": "Identifier",
@@ -161,7 +163,9 @@
   },
   {
     "type": "Template",
-    "value": "}, 1);\n\n    let status1 = '';\n    let status2 = '';\n\n    try {\n      Atomics.waitAsync(i32a, 0, 0, poisonedValueOf);\n    } catch (error) {\n      status1 = 'poisonedValueOf';\n    }\n    try {\n      Atomics.waitAsync(i32a, 0, 0, poisonedToPrimitive);\n    } catch (error) {\n      status2 = 'poisonedToPrimitive';\n    }\n\n    $262.agent.report(status1);\n    $262.agent.report(status2);\n    $262.agent.leaving();\n  });\n`"
+    "value": "}, 1);\n\n    let status1 = '';\n    let status2 = '';\n\n    try {\n      Atomics.waitAsync(i32a, 0, 0, poisonedValueOf);\n    } catch (error) {\n      status1 = 'poisonedValueOf';\n    }\n    try {\n      Atomics.waitAsync(i32a, 0, 0, poisonedToPrimitive);\n    } catch (error) {\n      status2 = 'poisonedToPrimitive';\n    }\n\n    $262.agent.report(status1);\n    $262.agent.report(status2);\n    $262.agent.leaving();\n  });\n`",
+    "start": 1216,
+    "end": 1629
   },
   {
     "type": "Punctuator",

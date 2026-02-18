@@ -505,7 +505,9 @@
   },
   {
     "type": "Template",
-    "value": "`\n    $262.agent.receiveBroadcast(function(sab) {\n      const i64a = new BigInt64Array(sab);\n      Atomics.add(i64a, ${"
+    "value": "`\n    $262.agent.receiveBroadcast(function(sab) {\n      const i64a = new BigInt64Array(sab);\n      Atomics.add(i64a, ${",
+    "start": 1094,
+    "end": 1213
   },
   {
     "type": "Identifier",
@@ -515,7 +517,9 @@
   },
   {
     "type": "Template",
-    "value": "}, 1n);\n\n      $262.agent.report(\"A \" + Atomics.wait(i64a, ${"
+    "value": "}, 1n);\n\n      $262.agent.report(\"A \" + Atomics.wait(i64a, ${",
+    "start": 1220,
+    "end": 1281
   },
   {
     "type": "Identifier",
@@ -525,7 +529,9 @@
   },
   {
     "type": "Template",
-    "value": "}, 0n));\n      $262.agent.leaving();\n    });\n  `"
+    "value": "}, 0n));\n      $262.agent.leaving();\n    });\n  `",
+    "start": 1291,
+    "end": 1339
   },
   {
     "type": "Punctuator",
@@ -583,7 +589,9 @@
   },
   {
     "type": "Template",
-    "value": "`\n  $262.agent.receiveBroadcast(function(sab) {\n    const i64a = new BigInt64Array(sab);\n    Atomics.add(i64a, ${"
+    "value": "`\n  $262.agent.receiveBroadcast(function(sab) {\n    const i64a = new BigInt64Array(sab);\n    Atomics.add(i64a, ${",
+    "start": 1362,
+    "end": 1475
   },
   {
     "type": "Identifier",
@@ -593,7 +601,9 @@
   },
   {
     "type": "Template",
-    "value": "}, 1n);\n\n    // This will always time out.\n    $262.agent.report(\"B \" + Atomics.wait(i64a, ${"
+    "value": "}, 1n);\n\n    // This will always time out.\n    $262.agent.report(\"B \" + Atomics.wait(i64a, ${",
+    "start": 1482,
+    "end": 1575
   },
   {
     "type": "Identifier",
@@ -603,7 +613,9 @@
   },
   {
     "type": "Template",
-    "value": "}, 0n, ${"
+    "value": "}, 0n, ${",
+    "start": 1584,
+    "end": 1593
   },
   {
     "type": "Identifier",
@@ -613,7 +625,9 @@
   },
   {
     "type": "Template",
-    "value": "}));\n\n    // If this value is not 1n, then the agent timeout before the main agent\n    // called Atomics.notify.\n    const result = Atomics.load(i64a, ${"
+    "value": "}));\n\n    // If this value is not 1n, then the agent timeout before the main agent\n    // called Atomics.notify.\n    const result = Atomics.load(i64a, ${",
+    "start": 1600,
+    "end": 1753
   },
   {
     "type": "Identifier",
@@ -623,7 +637,9 @@
   },
   {
     "type": "Template",
-    "value": "}) === 1n\n                   ? \"timeout after Atomics.notify\"\n                   : \"timeout before Atomics.notify\";\n    $262.agent.report(\"W \" + result);\n\n    $262.agent.leaving();\n  });\n`"
+    "value": "}) === 1n\n                   ? \"timeout after Atomics.notify\"\n                   : \"timeout before Atomics.notify\";\n    $262.agent.report(\"W \" + result);\n\n    $262.agent.leaving();\n  });\n`",
+    "start": 1765,
+    "end": 1953
   },
   {
     "type": "Punctuator",

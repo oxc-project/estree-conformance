@@ -223,7 +223,9 @@
   },
   {
     "type": "Template",
-    "value": "`\nfunction fn() {}\nObject.defineProperty(fn, 'length', {\n  get: () => {\n    throw new Error('blah');\n  },\n  enumerable: false,\n  configurable: true,\n});\nfn;\n`"
+    "value": "`\nfunction fn() {}\nObject.defineProperty(fn, 'length', {\n  get: () => {\n    throw new Error('blah');\n  },\n  enumerable: false,\n  configurable: true,\n});\nfn;\n`",
+    "start": 734,
+    "end": 892
   },
   {
     "type": "Punctuator",

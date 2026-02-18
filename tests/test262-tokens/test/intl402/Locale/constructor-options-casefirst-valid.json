@@ -421,7 +421,9 @@
   },
   {
     "type": "Template",
-    "value": "`new Intl.Locale(\"en\", { caseFirst: \"${"
+    "value": "`new Intl.Locale(\"en\", { caseFirst: \"${",
+    "start": 1657,
+    "end": 1696
   },
   {
     "type": "Identifier",
@@ -431,7 +433,9 @@
   },
   {
     "type": "Template",
-    "value": "}\" }).toString() returns \"${"
+    "value": "}\" }).toString() returns \"${",
+    "start": 1705,
+    "end": 1733
   },
   {
     "type": "Identifier",
@@ -441,7 +445,9 @@
   },
   {
     "type": "Template",
-    "value": "}\"`"
+    "value": "}\"`",
+    "start": 1739,
+    "end": 1742
   },
   {
     "type": "Punctuator",
@@ -625,7 +631,9 @@
   },
   {
     "type": "Template",
-    "value": "`new Intl.Locale(\"en-u-kf-lower\", { caseFirst: \"${"
+    "value": "`new Intl.Locale(\"en-u-kf-lower\", { caseFirst: \"${",
+    "start": 1883,
+    "end": 1933
   },
   {
     "type": "Identifier",
@@ -635,7 +643,9 @@
   },
   {
     "type": "Template",
-    "value": "}\" }).toString() returns \"${"
+    "value": "}\" }).toString() returns \"${",
+    "start": 1942,
+    "end": 1970
   },
   {
     "type": "Identifier",
@@ -645,7 +655,9 @@
   },
   {
     "type": "Template",
-    "value": "}\"`"
+    "value": "}\"`",
+    "start": 1976,
+    "end": 1979
   },
   {
     "type": "Punctuator",
@@ -781,7 +793,9 @@
   },
   {
     "type": "Template",
-    "value": "`new Intl.Locale(\"en-u-kf-lower\", { caseFirst }).caseFirst equals \"${"
+    "value": "`new Intl.Locale(\"en-u-kf-lower\", { caseFirst }).caseFirst equals \"${",
+    "start": 2087,
+    "end": 2156
   },
   {
     "type": "Identifier",
@@ -791,7 +805,9 @@
   },
   {
     "type": "Template",
-    "value": "}\"`"
+    "value": "}\"`",
+    "start": 2164,
+    "end": 2167
   },
   {
     "type": "Punctuator",

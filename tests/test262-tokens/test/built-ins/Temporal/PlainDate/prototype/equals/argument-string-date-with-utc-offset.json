@@ -331,7 +331,9 @@
   },
   {
     "type": "Template",
-    "value": "`\"${"
+    "value": "`\"${",
+    "start": 613,
+    "end": 617
   },
   {
     "type": "Identifier",
@@ -341,7 +343,9 @@
   },
   {
     "type": "Template",
-    "value": "}\" is a valid UTC offset with time for PlainDate`"
+    "value": "}\" is a valid UTC offset with time for PlainDate`",
+    "start": 620,
+    "end": 669
   },
   {
     "type": "Punctuator",
@@ -627,7 +631,9 @@
   },
   {
     "type": "Template",
-    "value": "`\"${"
+    "value": "`\"${",
+    "start": 994,
+    "end": 998
   },
   {
     "type": "Identifier",
@@ -637,7 +643,9 @@
   },
   {
     "type": "Template",
-    "value": "}\" UTC offset without time is not valid for PlainDate`"
+    "value": "}\" UTC offset without time is not valid for PlainDate`",
+    "start": 1001,
+    "end": 1055
   },
   {
     "type": "Punctuator",

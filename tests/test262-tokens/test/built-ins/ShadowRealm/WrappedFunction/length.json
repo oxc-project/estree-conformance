@@ -187,7 +187,9 @@
   },
   {
     "type": "Template",
-    "value": "`\nfunction fn(foo, bar) {}\nfn;\n`"
+    "value": "`\nfunction fn(foo, bar) {}\nfn;\n`",
+    "start": 1618,
+    "end": 1650
   },
   {
     "type": "Punctuator",
@@ -395,7 +397,9 @@
   },
   {
     "type": "Template",
-    "value": "`\nfunction fn() {}\ndelete fn.length;\nfn;\n`"
+    "value": "`\nfunction fn() {}\ndelete fn.length;\nfn;\n`",
+    "start": 1790,
+    "end": 1832
   },
   {
     "type": "Punctuator",
@@ -603,7 +607,9 @@
   },
   {
     "type": "Template",
-    "value": "`\nfunction fn() {}\nObject.defineProperty(fn, 'length', {\n  get: () => Infinity,\n  enumerable: false,\n  configurable: true,\n});\nfn;\n`"
+    "value": "`\nfunction fn() {}\nObject.defineProperty(fn, 'length', {\n  get: () => Infinity,\n  enumerable: false,\n  configurable: true,\n});\nfn;\n`",
+    "start": 1972,
+    "end": 2104
   },
   {
     "type": "Punctuator",
@@ -811,7 +817,9 @@
   },
   {
     "type": "Template",
-    "value": "`\nfunction fn() {}\nObject.defineProperty(fn, 'length', {\n  get: () => -Infinity,\n  enumerable: false,\n  configurable: true,\n});\nfn;\n`"
+    "value": "`\nfunction fn() {}\nObject.defineProperty(fn, 'length', {\n  get: () => -Infinity,\n  enumerable: false,\n  configurable: true,\n});\nfn;\n`",
+    "start": 2251,
+    "end": 2384
   },
   {
     "type": "Punctuator",
@@ -1019,7 +1027,9 @@
   },
   {
     "type": "Template",
-    "value": "`\nfunction fn() {}\nObject.defineProperty(fn, 'length', {\n  get: () => -1,\n  enumerable: false,\n  configurable: true,\n});\nfn;\n`"
+    "value": "`\nfunction fn() {}\nObject.defineProperty(fn, 'length', {\n  get: () => -1,\n  enumerable: false,\n  configurable: true,\n});\nfn;\n`",
+    "start": 2524,
+    "end": 2650
   },
   {
     "type": "Punctuator",

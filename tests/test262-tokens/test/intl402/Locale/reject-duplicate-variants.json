@@ -229,7 +229,9 @@
   },
   {
     "type": "Template",
-    "value": "`tag \"${"
+    "value": "`tag \"${",
+    "start": 632,
+    "end": 640
   },
   {
     "type": "Identifier",
@@ -239,7 +241,9 @@
   },
   {
     "type": "Template",
-    "value": "}\" must be considered structurally invalid`"
+    "value": "}\" must be considered structurally invalid`",
+    "start": 643,
+    "end": 686
   },
   {
     "type": "Punctuator",

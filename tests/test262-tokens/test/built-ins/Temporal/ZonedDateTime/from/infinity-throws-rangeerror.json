@@ -781,7 +781,9 @@
   },
   {
     "type": "Template",
-    "value": "`${"
+    "value": "`${",
+    "start": 797,
+    "end": 800
   },
   {
     "type": "Identifier",
@@ -791,7 +793,9 @@
   },
   {
     "type": "Template",
-    "value": "} property cannot be ${"
+    "value": "} property cannot be ${",
+    "start": 804,
+    "end": 827
   },
   {
     "type": "Identifier",
@@ -801,7 +805,9 @@
   },
   {
     "type": "Template",
-    "value": "} (overflow ${"
+    "value": "} (overflow ${",
+    "start": 830,
+    "end": 844
   },
   {
     "type": "Identifier",
@@ -811,7 +817,9 @@
   },
   {
     "type": "Template",
-    "value": "}`"
+    "value": "}`",
+    "start": 852,
+    "end": 854
   },
   {
     "type": "Punctuator",
@@ -1181,7 +1189,9 @@
   },
   {
     "type": "Template",
-    "value": "`get ${"
+    "value": "`get ${",
+    "start": 1097,
+    "end": 1104
   },
   {
     "type": "Identifier",
@@ -1191,7 +1201,9 @@
   },
   {
     "type": "Template",
-    "value": "}.valueOf`"
+    "value": "}.valueOf`",
+    "start": 1108,
+    "end": 1118
   },
   {
     "type": "Punctuator",
@@ -1201,7 +1213,9 @@
   },
   {
     "type": "Template",
-    "value": "`call ${"
+    "value": "`call ${",
+    "start": 1120,
+    "end": 1128
   },
   {
     "type": "Identifier",
@@ -1211,7 +1225,9 @@
   },
   {
     "type": "Template",
-    "value": "}.valueOf`"
+    "value": "}.valueOf`",
+    "start": 1132,
+    "end": 1142
   },
   {
     "type": "Punctuator",

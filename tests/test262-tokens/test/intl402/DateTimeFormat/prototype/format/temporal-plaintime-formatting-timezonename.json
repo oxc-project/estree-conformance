@@ -727,7 +727,9 @@
   },
   {
     "type": "Template",
-    "value": "`can format a PlainTime with timeZoneName = ${"
+    "value": "`can format a PlainTime with timeZoneName = ${",
+    "start": 900,
+    "end": 946
   },
   {
     "type": "Identifier",
@@ -737,7 +739,9 @@
   },
   {
     "type": "Template",
-    "value": "}`"
+    "value": "}`",
+    "start": 963,
+    "end": 965
   },
   {
     "type": "Punctuator",
@@ -837,7 +841,9 @@
   },
   {
     "type": "Template",
-    "value": "`\"${"
+    "value": "`\"${",
+    "start": 1032,
+    "end": 1036
   },
   {
     "type": "Identifier",
@@ -847,7 +853,9 @@
   },
   {
     "type": "Template",
-    "value": "}\" should not include ${"
+    "value": "}\" should not include ${",
+    "start": 1042,
+    "end": 1066
   },
   {
     "type": "Identifier",
@@ -857,7 +865,9 @@
   },
   {
     "type": "Template",
-    "value": "}`"
+    "value": "}`",
+    "start": 1085,
+    "end": 1087
   },
   {
     "type": "Punctuator",

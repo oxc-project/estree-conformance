@@ -601,7 +601,9 @@
   },
   {
     "type": "Template",
-    "value": "`smallestUnit: \"${"
+    "value": "`smallestUnit: \"${",
+    "start": 795,
+    "end": 813
   },
   {
     "type": "Identifier",
@@ -611,7 +613,9 @@
   },
   {
     "type": "Template",
-    "value": "}\" overrides fractionalSecondDigits`"
+    "value": "}\" overrides fractionalSecondDigits`",
+    "start": 825,
+    "end": 861
   },
   {
     "type": "Punctuator",

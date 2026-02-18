@@ -607,7 +607,9 @@
   },
   {
     "type": "Template",
-    "value": "`Object property value reconfigured to NaN produced by (index=${"
+    "value": "`Object property value reconfigured to NaN produced by (index=${",
+    "start": 2041,
+    "end": 2105
   },
   {
     "type": "Identifier",
@@ -617,7 +619,9 @@
   },
   {
     "type": "Template",
-    "value": "}) results in a valid NaN`"
+    "value": "}) results in a valid NaN`",
+    "start": 2108,
+    "end": 2134
   },
   {
     "type": "Punctuator",

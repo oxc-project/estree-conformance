@@ -67,7 +67,9 @@
   },
   {
     "type": "Template",
-    "value": "`\n  $262.agent.receiveBroadcast(function(sab) {\n    const i32a = new Int32Array(sab);\n    Atomics.add(i32a, ${"
+    "value": "`\n  $262.agent.receiveBroadcast(function(sab) {\n    const i32a = new Int32Array(sab);\n    Atomics.add(i32a, ${",
+    "start": 381,
+    "end": 491
   },
   {
     "type": "Identifier",
@@ -77,7 +79,9 @@
   },
   {
     "type": "Template",
-    "value": "}, 1);\n    // THIS WILL NEVER WAIT.\n    $262.agent.leaving();\n  });\n`"
+    "value": "}, 1);\n    // THIS WILL NEVER WAIT.\n    $262.agent.leaving();\n  });\n`",
+    "start": 498,
+    "end": 567
   },
   {
     "type": "Punctuator",

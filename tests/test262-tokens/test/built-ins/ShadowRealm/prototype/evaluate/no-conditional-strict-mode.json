@@ -187,7 +187,9 @@
   },
   {
     "type": "Template",
-    "value": "`\n  function lol() {\n    arguments = 42; // This would be a SyntaxError if in strict mode\n\n    return arguments;\n  }\n  lol;\n`"
+    "value": "`\n  function lol() {\n    arguments = 42; // This would be a SyntaxError if in strict mode\n\n    return arguments;\n  }\n  lol;\n`",
+    "start": 647,
+    "end": 772
   },
   {
     "type": "Punctuator",

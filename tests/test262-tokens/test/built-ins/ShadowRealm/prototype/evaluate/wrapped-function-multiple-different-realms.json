@@ -229,7 +229,9 @@
   },
   {
     "type": "Template",
-    "value": "`\n  globalThis.count = 0;\n  () => globalThis.count += 1;\n`"
+    "value": "`\n  globalThis.count = 0;\n  () => globalThis.count += 1;\n`",
+    "start": 437,
+    "end": 495
   },
   {
     "type": "Punctuator",
@@ -287,7 +289,9 @@
   },
   {
     "type": "Template",
-    "value": "`\n  globalThis.wrapped = undefined;\n  globalThis.count = 0; // Bait\n  (fn) => globalThis.wrapped = fn;\n`"
+    "value": "`\n  globalThis.wrapped = undefined;\n  globalThis.count = 0; // Bait\n  (fn) => globalThis.wrapped = fn;\n`",
+    "start": 533,
+    "end": 637
   },
   {
     "type": "Punctuator",
@@ -687,7 +691,9 @@
   },
   {
     "type": "Template",
-    "value": "`getting wrapped function won't trigger a call`"
+    "value": "`getting wrapped function won't trigger a call`",
+    "start": 1009,
+    "end": 1056
   },
   {
     "type": "Punctuator",

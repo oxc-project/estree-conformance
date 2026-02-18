@@ -241,7 +241,9 @@
   },
   {
     "type": "Template",
-    "value": "`\n  $262.agent.receiveBroadcast(async (sab) => {\n    var i64a = new BigInt64Array(sab);\n    Atomics.add(i64a, ${"
+    "value": "`\n  $262.agent.receiveBroadcast(async (sab) => {\n    var i64a = new BigInt64Array(sab);\n    Atomics.add(i64a, ${",
+    "start": 1110,
+    "end": 1222
   },
   {
     "type": "Identifier",
@@ -251,7 +253,9 @@
   },
   {
     "type": "Template",
-    "value": "}, 1n);\n\n    $262.agent.report(\"A \" + (await Atomics.waitAsync(i64a, undefined, 0n).value));\n    $262.agent.leaving();\n  });\n`"
+    "value": "}, 1n);\n\n    $262.agent.report(\"A \" + (await Atomics.waitAsync(i64a, undefined, 0n).value));\n    $262.agent.leaving();\n  });\n`",
+    "start": 1229,
+    "end": 1355
   },
   {
     "type": "Punctuator",
@@ -303,7 +307,9 @@
   },
   {
     "type": "Template",
-    "value": "`\n  $262.agent.receiveBroadcast(async (sab) => {\n    var i64a = new BigInt64Array(sab);\n    Atomics.add(i64a, ${"
+    "value": "`\n  $262.agent.receiveBroadcast(async (sab) => {\n    var i64a = new BigInt64Array(sab);\n    Atomics.add(i64a, ${",
+    "start": 1376,
+    "end": 1488
   },
   {
     "type": "Identifier",
@@ -313,7 +319,9 @@
   },
   {
     "type": "Template",
-    "value": "}, 1n);\n\n    $262.agent.report(\"B \" + (await Atomics.waitAsync(i64a, undefined, 0n).value));\n    $262.agent.leaving();\n  });\n`"
+    "value": "}, 1n);\n\n    $262.agent.report(\"B \" + (await Atomics.waitAsync(i64a, undefined, 0n).value));\n    $262.agent.leaving();\n  });\n`",
+    "start": 1495,
+    "end": 1621
   },
   {
     "type": "Punctuator",

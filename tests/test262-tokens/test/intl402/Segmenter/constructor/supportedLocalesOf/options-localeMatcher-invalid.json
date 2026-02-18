@@ -457,7 +457,9 @@
   },
   {
     "type": "Template",
-    "value": "`${"
+    "value": "`${",
+    "start": 995,
+    "end": 998
   },
   {
     "type": "Identifier",
@@ -467,7 +469,9 @@
   },
   {
     "type": "Template",
-    "value": "} is an invalid localeMatcher option value`"
+    "value": "} is an invalid localeMatcher option value`",
+    "start": 1011,
+    "end": 1054
   },
   {
     "type": "Punctuator",

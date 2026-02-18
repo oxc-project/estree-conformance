@@ -187,7 +187,9 @@
   },
   {
     "type": "Template",
-    "value": "`\nfunction fn() { return 42; }\nnew Proxy(fn, {});\n`"
+    "value": "`\nfunction fn() { return 42; }\nnew Proxy(fn, {});\n`",
+    "start": 501,
+    "end": 552
   },
   {
     "type": "Punctuator",

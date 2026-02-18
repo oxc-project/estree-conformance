@@ -487,7 +487,9 @@
   },
   {
     "type": "Template",
-    "value": "`can format a PlainDate with timeZoneName = ${"
+    "value": "`can format a PlainDate with timeZoneName = ${",
+    "start": 750,
+    "end": 796
   },
   {
     "type": "Identifier",
@@ -497,7 +499,9 @@
   },
   {
     "type": "Template",
-    "value": "}`"
+    "value": "}`",
+    "start": 813,
+    "end": 815
   },
   {
     "type": "Punctuator",
@@ -621,7 +625,9 @@
   },
   {
     "type": "Template",
-    "value": "`formatting a PlainDate with timeZoneName = ${"
+    "value": "`formatting a PlainDate with timeZoneName = ${",
+    "start": 905,
+    "end": 951
   },
   {
     "type": "Identifier",
@@ -631,7 +637,9 @@
   },
   {
     "type": "Template",
-    "value": "} should not print a time zone`"
+    "value": "} should not print a time zone`",
+    "start": 968,
+    "end": 999
   },
   {
     "type": "Punctuator",

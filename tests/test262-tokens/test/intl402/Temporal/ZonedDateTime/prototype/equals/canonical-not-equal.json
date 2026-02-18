@@ -673,7 +673,9 @@
   },
   {
     "type": "Template",
-    "value": "`${"
+    "value": "`${",
+    "start": 740,
+    "end": 743
   },
   {
     "type": "Identifier",
@@ -683,7 +685,9 @@
   },
   {
     "type": "Template",
-    "value": "} does not equal ${"
+    "value": "} does not equal ${",
+    "start": 746,
+    "end": 765
   },
   {
     "type": "Identifier",
@@ -693,7 +697,9 @@
   },
   {
     "type": "Template",
-    "value": "}`"
+    "value": "}`",
+    "start": 768,
+    "end": 770
   },
   {
     "type": "Punctuator",

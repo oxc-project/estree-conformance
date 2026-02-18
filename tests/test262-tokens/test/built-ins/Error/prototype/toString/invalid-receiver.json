@@ -277,7 +277,9 @@
   },
   {
     "type": "Template",
-    "value": "`Error.prototype.toString.call(${"
+    "value": "`Error.prototype.toString.call(${",
+    "start": 533,
+    "end": 566
   },
   {
     "type": "Identifier",
@@ -305,7 +307,9 @@
   },
   {
     "type": "Template",
-    "value": "})`"
+    "value": "})`",
+    "start": 575,
+    "end": 578
   },
   {
     "type": "Punctuator",

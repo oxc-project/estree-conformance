@@ -235,7 +235,9 @@
   },
   {
     "type": "Template",
-    "value": "`(\nclass {\n  static get #m() {\n    return 'test262';\n  };\n\n  static access() {\n    return this.#m;\n  }\n}\n)`"
+    "value": "`(\nclass {\n  static get #m() {\n    return 'test262';\n  };\n\n  static access() {\n    return this.#m;\n  }\n}\n)`",
+    "start": 1222,
+    "end": 1329
   },
   {
     "type": "Punctuator",

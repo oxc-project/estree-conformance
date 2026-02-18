@@ -475,7 +475,9 @@
   },
   {
     "type": "Template",
-    "value": "`${"
+    "value": "`${",
+    "start": 606,
+    "end": 609
   },
   {
     "type": "Identifier",
@@ -485,7 +487,9 @@
   },
   {
     "type": "Template",
-    "value": "} calendar for calendarName = never`"
+    "value": "} calendar for calendarName = never`",
+    "start": 620,
+    "end": 656
   },
   {
     "type": "Punctuator",

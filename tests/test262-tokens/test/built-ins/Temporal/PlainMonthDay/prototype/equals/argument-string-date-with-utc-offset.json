@@ -403,7 +403,9 @@
   },
   {
     "type": "Template",
-    "value": "`\"${"
+    "value": "`\"${",
+    "start": 822,
+    "end": 826
   },
   {
     "type": "Identifier",
@@ -413,7 +415,9 @@
   },
   {
     "type": "Template",
-    "value": "}\" is a valid UTC offset with time for PlainMonthDay`"
+    "value": "}\" is a valid UTC offset with time for PlainMonthDay`",
+    "start": 829,
+    "end": 882
   },
   {
     "type": "Punctuator",
@@ -807,7 +811,9 @@
   },
   {
     "type": "Template",
-    "value": "`\"${"
+    "value": "`\"${",
+    "start": 1396,
+    "end": 1400
   },
   {
     "type": "Identifier",
@@ -817,7 +823,9 @@
   },
   {
     "type": "Template",
-    "value": "}\" UTC offset without time is not valid for PlainMonthDay`"
+    "value": "}\" UTC offset without time is not valid for PlainMonthDay`",
+    "start": 1403,
+    "end": 1461
   },
   {
     "type": "Punctuator",

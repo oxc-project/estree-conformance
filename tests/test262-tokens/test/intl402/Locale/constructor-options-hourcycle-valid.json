@@ -421,7 +421,9 @@
   },
   {
     "type": "Template",
-    "value": "`new Intl.Locale(\"en\", {hourCycle: \"${"
+    "value": "`new Intl.Locale(\"en\", {hourCycle: \"${",
+    "start": 1651,
+    "end": 1689
   },
   {
     "type": "Identifier",
@@ -431,7 +433,9 @@
   },
   {
     "type": "Template",
-    "value": "}\"}).toString() returns \"${"
+    "value": "}\"}).toString() returns \"${",
+    "start": 1698,
+    "end": 1725
   },
   {
     "type": "Identifier",
@@ -441,7 +445,9 @@
   },
   {
     "type": "Template",
-    "value": "}\"`"
+    "value": "}\"`",
+    "start": 1731,
+    "end": 1734
   },
   {
     "type": "Punctuator",
@@ -589,7 +595,9 @@
   },
   {
     "type": "Template",
-    "value": "`new Intl.Locale(\"en-u-hc-h00\", {hourCycle: \"${"
+    "value": "`new Intl.Locale(\"en-u-hc-h00\", {hourCycle: \"${",
+    "start": 1837,
+    "end": 1884
   },
   {
     "type": "Identifier",
@@ -599,7 +607,9 @@
   },
   {
     "type": "Template",
-    "value": "}\"}).toString() returns \"${"
+    "value": "}\"}).toString() returns \"${",
+    "start": 1893,
+    "end": 1920
   },
   {
     "type": "Identifier",
@@ -609,7 +619,9 @@
   },
   {
     "type": "Template",
-    "value": "}\"`"
+    "value": "}\"`",
+    "start": 1926,
+    "end": 1929
   },
   {
     "type": "Punctuator",
@@ -757,7 +769,9 @@
   },
   {
     "type": "Template",
-    "value": "`new Intl.Locale(\"en-u-hc-h12\", {hourCycle: \"${"
+    "value": "`new Intl.Locale(\"en-u-hc-h12\", {hourCycle: \"${",
+    "start": 2032,
+    "end": 2079
   },
   {
     "type": "Identifier",
@@ -767,7 +781,9 @@
   },
   {
     "type": "Template",
-    "value": "}\"}).toString() returns \"${"
+    "value": "}\"}).toString() returns \"${",
+    "start": 2088,
+    "end": 2115
   },
   {
     "type": "Identifier",
@@ -777,7 +793,9 @@
   },
   {
     "type": "Template",
-    "value": "}\"`"
+    "value": "}\"`",
+    "start": 2121,
+    "end": 2124
   },
   {
     "type": "Punctuator",
@@ -913,7 +931,9 @@
   },
   {
     "type": "Template",
-    "value": "`new Intl.Locale(\"en-u-hc-h00\", {hourCycle: \"${"
+    "value": "`new Intl.Locale(\"en-u-hc-h00\", {hourCycle: \"${",
+    "start": 2228,
+    "end": 2275
   },
   {
     "type": "Identifier",
@@ -923,7 +943,9 @@
   },
   {
     "type": "Template",
-    "value": "}\"}).hourCycle equals \"${"
+    "value": "}\"}).hourCycle equals \"${",
+    "start": 2284,
+    "end": 2309
   },
   {
     "type": "Identifier",
@@ -933,7 +955,9 @@
   },
   {
     "type": "Template",
-    "value": "}\"`"
+    "value": "}\"`",
+    "start": 2317,
+    "end": 2320
   },
   {
     "type": "Punctuator",

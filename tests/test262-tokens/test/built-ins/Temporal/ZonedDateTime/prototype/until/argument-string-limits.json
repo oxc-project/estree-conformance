@@ -565,7 +565,9 @@
   },
   {
     "type": "Template",
-    "value": "`\"${"
+    "value": "`\"${",
+    "start": 1045,
+    "end": 1049
   },
   {
     "type": "Identifier",
@@ -575,7 +577,9 @@
   },
   {
     "type": "Template",
-    "value": "}\" is outside the representable range of ZonedDateTime`"
+    "value": "}\" is outside the representable range of ZonedDateTime`",
+    "start": 1052,
+    "end": 1107
   },
   {
     "type": "Punctuator",

@@ -397,7 +397,9 @@
   },
   {
     "type": "Template",
-    "value": "`new Intl.DurationFormat(\"en\", {numberingSystem: \"${"
+    "value": "`new Intl.DurationFormat(\"en\", {numberingSystem: \"${",
+    "start": 943,
+    "end": 995
   },
   {
     "type": "Identifier",
@@ -407,7 +409,9 @@
   },
   {
     "type": "Template",
-    "value": "}\"}) throws RangeError`"
+    "value": "}\"}) throws RangeError`",
+    "start": 1010,
+    "end": 1033
   },
   {
     "type": "Punctuator",

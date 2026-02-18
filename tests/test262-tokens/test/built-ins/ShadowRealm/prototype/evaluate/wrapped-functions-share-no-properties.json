@@ -187,7 +187,9 @@
   },
   {
     "type": "Template",
-    "value": "`\nfunction fn() {\n    return fn.secret;\n}\n\nfn.secret = 'confidential';\nfn;\n`"
+    "value": "`\nfunction fn() {\n    return fn.secret;\n}\n\nfn.secret = 'confidential';\nfn;\n`",
+    "start": 502,
+    "end": 578
   },
   {
     "type": "Punctuator",

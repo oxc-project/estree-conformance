@@ -379,7 +379,9 @@
   },
   {
     "type": "Template",
-    "value": "`'${"
+    "value": "`'${",
+    "start": 590,
+    "end": 594
   },
   {
     "type": "Identifier",
@@ -389,7 +391,9 @@
   },
   {
     "type": "Template",
-    "value": "}' is ambiguous and requires T prefix`"
+    "value": "}' is ambiguous and requires T prefix`",
+    "start": 597,
+    "end": 635
   },
   {
     "type": "Punctuator",
@@ -417,7 +421,9 @@
   },
   {
     "type": "Template",
-    "value": "`T${"
+    "value": "`T${",
+    "start": 704,
+    "end": 708
   },
   {
     "type": "Identifier",
@@ -427,7 +433,9 @@
   },
   {
     "type": "Template",
-    "value": "}`"
+    "value": "}`",
+    "start": 714,
+    "end": 716
   },
   {
     "type": "Punctuator",
@@ -491,7 +499,9 @@
   },
   {
     "type": "Template",
-    "value": "` ${"
+    "value": "` ${",
+    "start": 758,
+    "end": 762
   },
   {
     "type": "Identifier",
@@ -501,7 +511,9 @@
   },
   {
     "type": "Template",
-    "value": "}`"
+    "value": "}`",
+    "start": 768,
+    "end": 770
   },
   {
     "type": "Punctuator",
@@ -607,7 +619,9 @@
   },
   {
     "type": "Template",
-    "value": "`space is not accepted as a substitute for T prefix: '${"
+    "value": "`space is not accepted as a substitute for T prefix: '${",
+    "start": 848,
+    "end": 904
   },
   {
     "type": "Identifier",
@@ -617,7 +631,9 @@
   },
   {
     "type": "Template",
-    "value": "}'`"
+    "value": "}'`",
+    "start": 907,
+    "end": 910
   },
   {
     "type": "Punctuator",
