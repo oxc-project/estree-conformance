@@ -8,8 +8,8 @@
         "callee": {
           "type": "Identifier",
           "name": "testWithBigIntTypedArrayConstructors",
-          "start": 2096,
-          "end": 2132
+          "start": 2090,
+          "end": 2126
         },
         "arguments": [
           {
@@ -21,8 +21,14 @@
               {
                 "type": "Identifier",
                 "name": "TA",
-                "start": 2142,
-                "end": 2144
+                "start": 2136,
+                "end": 2138
+              },
+              {
+                "type": "Identifier",
+                "name": "makeCtorArg",
+                "start": 2140,
+                "end": 2151
               }
             ],
             "body": {
@@ -37,26 +43,26 @@
                       "object": {
                         "type": "Identifier",
                         "name": "assert",
-                        "start": 2151,
-                        "end": 2157
+                        "start": 2158,
+                        "end": 2164
                       },
                       "property": {
                         "type": "Identifier",
                         "name": "throws",
-                        "start": 2158,
-                        "end": 2164
+                        "start": 2165,
+                        "end": 2171
                       },
                       "optional": false,
                       "computed": false,
-                      "start": 2151,
-                      "end": 2164
+                      "start": 2158,
+                      "end": 2171
                     },
                     "arguments": [
                       {
                         "type": "Identifier",
                         "name": "TypeError",
-                        "start": 2165,
-                        "end": 2174
+                        "start": 2172,
+                        "end": 2181
                       },
                       {
                         "type": "FunctionExpression",
@@ -74,72 +80,86 @@
                                 "callee": {
                                   "type": "Identifier",
                                   "name": "TA",
-                                  "start": 2197,
-                                  "end": 2199
+                                  "start": 2204,
+                                  "end": 2206
                                 },
                                 "arguments": [
                                   {
-                                    "type": "ArrayExpression",
-                                    "elements": [
+                                    "type": "CallExpression",
+                                    "callee": {
+                                      "type": "Identifier",
+                                      "name": "makeCtorArg",
+                                      "start": 2207,
+                                      "end": 2218
+                                    },
+                                    "arguments": [
                                       {
-                                        "type": "Identifier",
-                                        "name": "undefined",
-                                        "start": 2201,
-                                        "end": 2210
+                                        "type": "ArrayExpression",
+                                        "elements": [
+                                          {
+                                            "type": "Identifier",
+                                            "name": "undefined",
+                                            "start": 2220,
+                                            "end": 2229
+                                          }
+                                        ],
+                                        "start": 2219,
+                                        "end": 2230
                                       }
                                     ],
-                                    "start": 2200,
-                                    "end": 2211
+                                    "optional": false,
+                                    "start": 2207,
+                                    "end": 2231
                                   }
                                 ],
-                                "start": 2193,
-                                "end": 2212
+                                "start": 2200,
+                                "end": 2232
                               },
-                              "start": 2193,
-                              "end": 2213
+                              "start": 2200,
+                              "end": 2233
                             }
                           ],
-                          "start": 2187,
-                          "end": 2217
+                          "start": 2194,
+                          "end": 2237
                         },
                         "expression": false,
-                        "start": 2176,
-                        "end": 2217
+                        "start": 2183,
+                        "end": 2237
                       },
                       {
                         "type": "Literal",
                         "value": "abrupt completion from undefined",
                         "raw": "\"abrupt completion from undefined\"",
-                        "start": 2219,
-                        "end": 2253
+                        "start": 2239,
+                        "end": 2273
                       }
                     ],
                     "optional": false,
-                    "start": 2151,
-                    "end": 2254
+                    "start": 2158,
+                    "end": 2274
                   },
-                  "start": 2151,
-                  "end": 2255
+                  "start": 2158,
+                  "end": 2275
                 }
               ],
-              "start": 2146,
-              "end": 2258
+              "start": 2153,
+              "end": 2278
             },
             "expression": false,
-            "start": 2133,
-            "end": 2258
+            "start": 2127,
+            "end": 2278
           }
         ],
         "optional": false,
-        "start": 2096,
-        "end": 2259
+        "start": 2090,
+        "end": 2279
       },
-      "start": 2096,
-      "end": 2260
+      "start": 2090,
+      "end": 2280
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 2261
+  "end": 2281
 }

@@ -8,8 +8,8 @@
         "callee": {
           "type": "Identifier",
           "name": "testWithBigIntTypedArrayConstructors",
-          "start": 671,
-          "end": 707
+          "start": 665,
+          "end": 701
         },
         "arguments": [
           {
@@ -21,8 +21,14 @@
               {
                 "type": "Identifier",
                 "name": "TA",
-                "start": 717,
-                "end": 719
+                "start": 711,
+                "end": 713
+              },
+              {
+                "type": "Identifier",
+                "name": "makeCtorArg",
+                "start": 715,
+                "end": 726
               }
             ],
             "body": {
@@ -37,26 +43,26 @@
                       "object": {
                         "type": "Identifier",
                         "name": "assert",
-                        "start": 725,
-                        "end": 731
+                        "start": 732,
+                        "end": 738
                       },
                       "property": {
                         "type": "Identifier",
                         "name": "throws",
-                        "start": 732,
-                        "end": 738
+                        "start": 739,
+                        "end": 745
                       },
                       "optional": false,
                       "computed": false,
-                      "start": 725,
-                      "end": 738
+                      "start": 732,
+                      "end": 745
                     },
                     "arguments": [
                       {
                         "type": "Identifier",
                         "name": "TypeError",
-                        "start": 739,
-                        "end": 748
+                        "start": 746,
+                        "end": 755
                       },
                       {
                         "type": "FunctionExpression",
@@ -74,39 +80,39 @@
                                 "callee": {
                                   "type": "Identifier",
                                   "name": "TA",
-                                  "start": 767,
-                                  "end": 769
+                                  "start": 774,
+                                  "end": 776
                                 },
                                 "arguments": [
                                   {
                                     "type": "ObjectExpression",
                                     "properties": [],
-                                    "start": 770,
-                                    "end": 772
+                                    "start": 777,
+                                    "end": 779
                                   }
                                 ],
                                 "optional": false,
-                                "start": 767,
-                                "end": 773
+                                "start": 774,
+                                "end": 780
                               },
-                              "start": 767,
-                              "end": 774
+                              "start": 774,
+                              "end": 781
                             }
                           ],
-                          "start": 761,
-                          "end": 778
+                          "start": 768,
+                          "end": 785
                         },
                         "expression": false,
-                        "start": 750,
-                        "end": 778
+                        "start": 757,
+                        "end": 785
                       }
                     ],
                     "optional": false,
-                    "start": 725,
-                    "end": 779
+                    "start": 732,
+                    "end": 786
                   },
-                  "start": 725,
-                  "end": 780
+                  "start": 732,
+                  "end": 787
                 },
                 {
                   "type": "ExpressionStatement",
@@ -117,26 +123,26 @@
                       "object": {
                         "type": "Identifier",
                         "name": "assert",
-                        "start": 784,
-                        "end": 790
+                        "start": 791,
+                        "end": 797
                       },
                       "property": {
                         "type": "Identifier",
                         "name": "throws",
-                        "start": 791,
-                        "end": 797
+                        "start": 798,
+                        "end": 804
                       },
                       "optional": false,
                       "computed": false,
-                      "start": 784,
-                      "end": 797
+                      "start": 791,
+                      "end": 804
                     },
                     "arguments": [
                       {
                         "type": "Identifier",
                         "name": "TypeError",
-                        "start": 798,
-                        "end": 807
+                        "start": 805,
+                        "end": 814
                       },
                       {
                         "type": "FunctionExpression",
@@ -154,59 +160,73 @@
                                 "callee": {
                                   "type": "Identifier",
                                   "name": "TA",
-                                  "start": 826,
-                                  "end": 828
+                                  "start": 833,
+                                  "end": 835
                                 },
                                 "arguments": [
                                   {
-                                    "type": "ArrayExpression",
-                                    "elements": [],
-                                    "start": 829,
-                                    "end": 831
+                                    "type": "CallExpression",
+                                    "callee": {
+                                      "type": "Identifier",
+                                      "name": "makeCtorArg",
+                                      "start": 836,
+                                      "end": 847
+                                    },
+                                    "arguments": [
+                                      {
+                                        "type": "ArrayExpression",
+                                        "elements": [],
+                                        "start": 848,
+                                        "end": 850
+                                      }
+                                    ],
+                                    "optional": false,
+                                    "start": 836,
+                                    "end": 851
                                   }
                                 ],
                                 "optional": false,
-                                "start": 826,
-                                "end": 832
+                                "start": 833,
+                                "end": 852
                               },
-                              "start": 826,
-                              "end": 833
+                              "start": 833,
+                              "end": 853
                             }
                           ],
-                          "start": 820,
-                          "end": 837
+                          "start": 827,
+                          "end": 857
                         },
                         "expression": false,
-                        "start": 809,
-                        "end": 837
+                        "start": 816,
+                        "end": 857
                       }
                     ],
                     "optional": false,
-                    "start": 784,
-                    "end": 838
+                    "start": 791,
+                    "end": 858
                   },
-                  "start": 784,
-                  "end": 839
+                  "start": 791,
+                  "end": 859
                 }
               ],
-              "start": 721,
-              "end": 841
+              "start": 728,
+              "end": 861
             },
             "expression": false,
-            "start": 708,
-            "end": 841
+            "start": 702,
+            "end": 861
           }
         ],
         "optional": false,
-        "start": 671,
-        "end": 842
+        "start": 665,
+        "end": 862
       },
-      "start": 671,
-      "end": 843
+      "start": 665,
+      "end": 863
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 844
+  "end": 864
 }

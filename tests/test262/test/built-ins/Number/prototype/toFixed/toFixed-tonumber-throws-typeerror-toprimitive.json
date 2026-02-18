@@ -1,0 +1,185 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 603,
+            "end": 609
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "throws",
+            "start": 610,
+            "end": 616
+          },
+          "optional": false,
+          "computed": false,
+          "start": 603,
+          "end": 616
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "name": "TypeError",
+            "start": 617,
+            "end": 626
+          },
+          {
+            "type": "FunctionExpression",
+            "id": null,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "expression": {
+                    "type": "CallExpression",
+                    "callee": {
+                      "type": "MemberExpression",
+                      "object": {
+                        "type": "MemberExpression",
+                        "object": {
+                          "type": "MemberExpression",
+                          "object": {
+                            "type": "Identifier",
+                            "name": "Number",
+                            "start": 645,
+                            "end": 651
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "name": "prototype",
+                            "start": 652,
+                            "end": 661
+                          },
+                          "optional": false,
+                          "computed": false,
+                          "start": 645,
+                          "end": 661
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "name": "toFixed",
+                          "start": 662,
+                          "end": 669
+                        },
+                        "optional": false,
+                        "computed": false,
+                        "start": 645,
+                        "end": 669
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "name": "call",
+                        "start": 670,
+                        "end": 674
+                      },
+                      "optional": false,
+                      "computed": false,
+                      "start": 645,
+                      "end": 674
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "value": 0,
+                        "raw": "0",
+                        "start": 675,
+                        "end": 676
+                      },
+                      {
+                        "type": "ObjectExpression",
+                        "properties": [
+                          {
+                            "type": "Property",
+                            "kind": "init",
+                            "key": {
+                              "type": "Identifier",
+                              "name": "valueOf",
+                              "start": 679,
+                              "end": 686
+                            },
+                            "value": {
+                              "type": "Identifier",
+                              "name": "undefined",
+                              "start": 688,
+                              "end": 697
+                            },
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false,
+                            "start": 679,
+                            "end": 697
+                          },
+                          {
+                            "type": "Property",
+                            "kind": "init",
+                            "key": {
+                              "type": "Identifier",
+                              "name": "toString",
+                              "start": 699,
+                              "end": 707
+                            },
+                            "value": {
+                              "type": "Identifier",
+                              "name": "undefined",
+                              "start": 709,
+                              "end": 718
+                            },
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false,
+                            "start": 699,
+                            "end": 718
+                          }
+                        ],
+                        "start": 678,
+                        "end": 719
+                      }
+                    ],
+                    "optional": false,
+                    "start": 645,
+                    "end": 720
+                  },
+                  "start": 645,
+                  "end": 720
+                }
+              ],
+              "start": 639,
+              "end": 722
+            },
+            "expression": false,
+            "start": 628,
+            "end": 722
+          },
+          {
+            "type": "Literal",
+            "value": "TypeError is thrown when _fractionDigits_ cannot be converted to a primitive",
+            "raw": "\"TypeError is thrown when _fractionDigits_ cannot be converted to a primitive\"",
+            "start": 724,
+            "end": 802
+          }
+        ],
+        "optional": false,
+        "start": 603,
+        "end": 803
+      },
+      "start": 603,
+      "end": 803
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 804
+}

@@ -1,0 +1,122 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 628,
+            "end": 634
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "throws",
+            "start": 635,
+            "end": 641
+          },
+          "optional": false,
+          "computed": false,
+          "start": 628,
+          "end": 641
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "name": "TypeError",
+            "start": 642,
+            "end": 651
+          },
+          {
+            "type": "FunctionExpression",
+            "id": null,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "expression": {
+                    "type": "CallExpression",
+                    "callee": {
+                      "type": "MemberExpression",
+                      "object": {
+                        "type": "ParenthesizedExpression",
+                        "expression": {
+                          "type": "Literal",
+                          "value": 0,
+                          "raw": "0",
+                          "start": 671,
+                          "end": 672
+                        },
+                        "start": 670,
+                        "end": 673
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "name": "toFixed",
+                        "start": 674,
+                        "end": 681
+                      },
+                      "optional": false,
+                      "computed": false,
+                      "start": 670,
+                      "end": 681
+                    },
+                    "arguments": [
+                      {
+                        "type": "CallExpression",
+                        "callee": {
+                          "type": "Identifier",
+                          "name": "Symbol",
+                          "start": 682,
+                          "end": 688
+                        },
+                        "arguments": [],
+                        "optional": false,
+                        "start": 682,
+                        "end": 690
+                      }
+                    ],
+                    "optional": false,
+                    "start": 670,
+                    "end": 691
+                  },
+                  "start": 670,
+                  "end": 691
+                }
+              ],
+              "start": 664,
+              "end": 693
+            },
+            "expression": false,
+            "start": 653,
+            "end": 693
+          },
+          {
+            "type": "Literal",
+            "value": "Number.prototype.toFixed must throw a TypeError if _fractionDigits_ is Symbol",
+            "raw": "\"Number.prototype.toFixed must throw a TypeError if _fractionDigits_ is Symbol\"",
+            "start": 695,
+            "end": 774
+          }
+        ],
+        "optional": false,
+        "start": 628,
+        "end": 775
+      },
+      "start": 628,
+      "end": 775
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 776
+}

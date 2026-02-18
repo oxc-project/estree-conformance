@@ -1185,18 +1185,39 @@
             "expression": false,
             "start": 1370,
             "end": 1804
+          },
+          {
+            "type": "Literal",
+            "value": null,
+            "raw": "null",
+            "start": 1806,
+            "end": 1810
+          },
+          {
+            "type": "ArrayExpression",
+            "elements": [
+              {
+                "type": "Literal",
+                "value": "passthrough",
+                "raw": "\"passthrough\"",
+                "start": 1813,
+                "end": 1826
+              }
+            ],
+            "start": 1812,
+            "end": 1827
           }
         ],
         "optional": false,
         "start": 1339,
-        "end": 1805
+        "end": 1828
       },
       "start": 1339,
-      "end": 1806
+      "end": 1829
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 1807
+  "end": 1830
 }

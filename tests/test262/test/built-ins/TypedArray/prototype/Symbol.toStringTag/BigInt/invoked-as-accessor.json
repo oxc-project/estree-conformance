@@ -10,34 +10,34 @@
           "id": {
             "type": "Identifier",
             "name": "TypedArrayPrototype",
-            "start": 576,
-            "end": 595
+            "start": 570,
+            "end": 589
           },
           "init": {
             "type": "MemberExpression",
             "object": {
               "type": "Identifier",
               "name": "TypedArray",
-              "start": 598,
-              "end": 608
+              "start": 592,
+              "end": 602
             },
             "property": {
               "type": "Identifier",
               "name": "prototype",
-              "start": 609,
-              "end": 618
+              "start": 603,
+              "end": 612
             },
             "optional": false,
             "computed": false,
-            "start": 598,
-            "end": 618
+            "start": 592,
+            "end": 612
           },
-          "start": 576,
-          "end": 618
+          "start": 570,
+          "end": 612
         }
       ],
-      "start": 572,
-      "end": 619
+      "start": 566,
+      "end": 613
     },
     {
       "type": "ExpressionStatement",
@@ -48,19 +48,19 @@
           "object": {
             "type": "Identifier",
             "name": "assert",
-            "start": 621,
-            "end": 627
+            "start": 615,
+            "end": 621
           },
           "property": {
             "type": "Identifier",
             "name": "sameValue",
-            "start": 628,
-            "end": 637
+            "start": 622,
+            "end": 631
           },
           "optional": false,
           "computed": false,
-          "start": 621,
-          "end": 637
+          "start": 615,
+          "end": 631
         },
         "arguments": [
           {
@@ -68,50 +68,50 @@
             "object": {
               "type": "Identifier",
               "name": "TypedArrayPrototype",
-              "start": 638,
-              "end": 657
+              "start": 632,
+              "end": 651
             },
             "property": {
               "type": "MemberExpression",
               "object": {
                 "type": "Identifier",
                 "name": "Symbol",
-                "start": 658,
-                "end": 664
+                "start": 652,
+                "end": 658
               },
               "property": {
                 "type": "Identifier",
                 "name": "toStringTag",
-                "start": 665,
-                "end": 676
+                "start": 659,
+                "end": 670
               },
               "optional": false,
               "computed": false,
-              "start": 658,
-              "end": 676
+              "start": 652,
+              "end": 670
             },
             "optional": false,
             "computed": true,
-            "start": 638,
-            "end": 677
+            "start": 632,
+            "end": 671
           },
           {
             "type": "Identifier",
             "name": "undefined",
-            "start": 679,
-            "end": 688
+            "start": 673,
+            "end": 682
           }
         ],
         "optional": false,
-        "start": 621,
-        "end": 689
+        "start": 615,
+        "end": 683
       },
-      "start": 621,
-      "end": 690
+      "start": 615,
+      "end": 684
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 691
+  "end": 685
 }
