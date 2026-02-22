@@ -91,7 +91,7 @@ jobs:
 
       - name: Trigger oxc update_submodules workflow
         if: steps.check-changes.outputs.shas_changed == 'true'
-        uses: benc-uk/workflow-dispatch@e2e5e9a103e331dad343f381a29e654aea3cf8fc # v1.2.4
+        uses: benc-uk/workflow-dispatch@7a027648b88c2413826b6ddd6c76114894dc5ec4 # v1.3.1
         with:
           repo: oxc-project/oxc
           workflow: update_submodules.yml
