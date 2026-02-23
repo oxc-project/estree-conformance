@@ -1,0 +1,122 @@
+[
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 343,
+    "end": 349
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 349,
+    "end": 350
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 350,
+    "end": 359
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 359,
+    "end": 360
+  },
+  {
+    "type": "Identifier",
+    "value": "Object",
+    "start": 363,
+    "end": 369
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 369,
+    "end": 370
+  },
+  {
+    "type": "Identifier",
+    "value": "getPrototypeOf",
+    "start": 370,
+    "end": 384
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 384,
+    "end": 385
+  },
+  {
+    "type": "Identifier",
+    "value": "Promise",
+    "start": 385,
+    "end": 392
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 392,
+    "end": 393
+  },
+  {
+    "type": "Identifier",
+    "value": "allKeyed",
+    "start": 393,
+    "end": 401
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 401,
+    "end": 402
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 402,
+    "end": 403
+  },
+  {
+    "type": "Identifier",
+    "value": "Function",
+    "start": 406,
+    "end": 414
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 414,
+    "end": 415
+  },
+  {
+    "type": "Identifier",
+    "value": "prototype",
+    "start": 415,
+    "end": 424
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 424,
+    "end": 425
+  },
+  {
+    "type": "String",
+    "value": "\"Object.getPrototypeOf(Promise.allKeyed) must return the value of Function.prototype\"",
+    "start": 428,
+    "end": 513
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 514,
+    "end": 515
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 515,
+    "end": 516
+  }
+]

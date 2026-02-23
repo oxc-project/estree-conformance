@@ -1,0 +1,74 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "Identifier",
+          "name": "assert",
+          "start": 397,
+          "end": 403
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "Object",
+                "start": 404,
+                "end": 410
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "isExtensible",
+                "start": 411,
+                "end": 423
+              },
+              "optional": false,
+              "computed": false,
+              "start": 404,
+              "end": 423
+            },
+            "arguments": [
+              {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "Promise",
+                  "start": 424,
+                  "end": 431
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "allKeyed",
+                  "start": 432,
+                  "end": 440
+                },
+                "optional": false,
+                "computed": false,
+                "start": 424,
+                "end": 440
+              }
+            ],
+            "optional": false,
+            "start": 404,
+            "end": 441
+          }
+        ],
+        "optional": false,
+        "start": 397,
+        "end": 442
+      },
+      "start": 397,
+      "end": 443
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 444
+}

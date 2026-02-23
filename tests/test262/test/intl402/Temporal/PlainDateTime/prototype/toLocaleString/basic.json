@@ -1,0 +1,2369 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "FunctionDeclaration",
+      "id": {
+        "type": "Identifier",
+        "name": "findPart",
+        "start": 1396,
+        "end": 1404
+      },
+      "generator": false,
+      "async": false,
+      "params": [
+        {
+          "type": "Identifier",
+          "name": "parts",
+          "start": 1405,
+          "end": 1410
+        },
+        {
+          "type": "Identifier",
+          "name": "expectedType",
+          "start": 1412,
+          "end": 1424
+        }
+      ],
+      "body": {
+        "type": "BlockStatement",
+        "body": [
+          {
+            "type": "ReturnStatement",
+            "argument": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "CallExpression",
+                "callee": {
+                  "type": "MemberExpression",
+                  "object": {
+                    "type": "Identifier",
+                    "name": "parts",
+                    "start": 1437,
+                    "end": 1442
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "name": "find",
+                    "start": 1443,
+                    "end": 1447
+                  },
+                  "optional": false,
+                  "computed": false,
+                  "start": 1437,
+                  "end": 1447
+                },
+                "arguments": [
+                  {
+                    "type": "ArrowFunctionExpression",
+                    "expression": true,
+                    "async": false,
+                    "params": [
+                      {
+                        "type": "ObjectPattern",
+                        "properties": [
+                          {
+                            "type": "Property",
+                            "kind": "init",
+                            "key": {
+                              "type": "Identifier",
+                              "name": "type",
+                              "start": 1451,
+                              "end": 1455
+                            },
+                            "value": {
+                              "type": "Identifier",
+                              "name": "type",
+                              "start": 1451,
+                              "end": 1455
+                            },
+                            "method": false,
+                            "shorthand": true,
+                            "computed": false,
+                            "start": 1451,
+                            "end": 1455
+                          }
+                        ],
+                        "start": 1449,
+                        "end": 1457
+                      }
+                    ],
+                    "body": {
+                      "type": "BinaryExpression",
+                      "left": {
+                        "type": "Identifier",
+                        "name": "type",
+                        "start": 1462,
+                        "end": 1466
+                      },
+                      "operator": "===",
+                      "right": {
+                        "type": "Identifier",
+                        "name": "expectedType",
+                        "start": 1471,
+                        "end": 1483
+                      },
+                      "start": 1462,
+                      "end": 1483
+                    },
+                    "id": null,
+                    "generator": false,
+                    "start": 1448,
+                    "end": 1483
+                  }
+                ],
+                "optional": false,
+                "start": 1437,
+                "end": 1484
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "value",
+                "start": 1485,
+                "end": 1490
+              },
+              "optional": false,
+              "computed": false,
+              "start": 1437,
+              "end": 1490
+            },
+            "start": 1430,
+            "end": 1491
+          }
+        ],
+        "start": 1426,
+        "end": 1493
+      },
+      "expression": false,
+      "start": 1387,
+      "end": 1493
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "datetime",
+            "start": 1501,
+            "end": 1509
+          },
+          "init": {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "Temporal",
+                  "start": 1512,
+                  "end": 1520
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "PlainDateTime",
+                  "start": 1521,
+                  "end": 1534
+                },
+                "optional": false,
+                "computed": false,
+                "start": 1512,
+                "end": 1534
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "from",
+                "start": 1535,
+                "end": 1539
+              },
+              "optional": false,
+              "computed": false,
+              "start": 1512,
+              "end": 1539
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "value": "1976-11-18T15:23:30",
+                "raw": "\"1976-11-18T15:23:30\"",
+                "start": 1540,
+                "end": 1561
+              }
+            ],
+            "optional": false,
+            "start": 1512,
+            "end": 1562
+          },
+          "start": 1501,
+          "end": 1562
+        }
+      ],
+      "start": 1495,
+      "end": 1563
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "dtfNY",
+            "start": 1571,
+            "end": 1576
+          },
+          "init": {
+            "type": "NewExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "Intl",
+                "start": 1583,
+                "end": 1587
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "DateTimeFormat",
+                "start": 1588,
+                "end": 1602
+              },
+              "optional": false,
+              "computed": false,
+              "start": 1583,
+              "end": 1602
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "value": "en-US",
+                "raw": "\"en-US\"",
+                "start": 1603,
+                "end": 1610
+              },
+              {
+                "type": "ObjectExpression",
+                "properties": [
+                  {
+                    "type": "Property",
+                    "kind": "init",
+                    "key": {
+                      "type": "Identifier",
+                      "name": "timeZone",
+                      "start": 1614,
+                      "end": 1622
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "value": "America/New_York",
+                      "raw": "\"America/New_York\"",
+                      "start": 1624,
+                      "end": 1642
+                    },
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "start": 1614,
+                    "end": 1642
+                  }
+                ],
+                "start": 1612,
+                "end": 1644
+              }
+            ],
+            "start": 1579,
+            "end": 1645
+          },
+          "start": 1571,
+          "end": 1645
+        }
+      ],
+      "start": 1565,
+      "end": 1646
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 1647,
+            "end": 1653
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 1654,
+            "end": 1663
+          },
+          "optional": false,
+          "computed": false,
+          "start": 1647,
+          "end": 1663
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "datetime",
+                "start": 1667,
+                "end": 1675
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "toLocaleString",
+                "start": 1676,
+                "end": 1690
+              },
+              "optional": false,
+              "computed": false,
+              "start": 1667,
+              "end": 1690
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "value": "en-US",
+                "raw": "\"en-US\"",
+                "start": 1691,
+                "end": 1698
+              },
+              {
+                "type": "ObjectExpression",
+                "properties": [
+                  {
+                    "type": "Property",
+                    "kind": "init",
+                    "key": {
+                      "type": "Identifier",
+                      "name": "timeZone",
+                      "start": 1702,
+                      "end": 1710
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "value": "America/New_York",
+                      "raw": "\"America/New_York\"",
+                      "start": 1712,
+                      "end": 1730
+                    },
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "start": 1702,
+                    "end": 1730
+                  }
+                ],
+                "start": 1700,
+                "end": 1732
+              }
+            ],
+            "optional": false,
+            "start": 1667,
+            "end": 1733
+          },
+          {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "dtfNY",
+                "start": 1737,
+                "end": 1742
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "format",
+                "start": 1743,
+                "end": 1749
+              },
+              "optional": false,
+              "computed": false,
+              "start": 1737,
+              "end": 1749
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "name": "datetime",
+                "start": 1750,
+                "end": 1758
+              }
+            ],
+            "optional": false,
+            "start": 1737,
+            "end": 1759
+          }
+        ],
+        "optional": false,
+        "start": 1647,
+        "end": 1761
+      },
+      "start": 1647,
+      "end": 1762
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "partsNY",
+            "start": 1770,
+            "end": 1777
+          },
+          "init": {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "dtfNY",
+                "start": 1780,
+                "end": 1785
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "formatToParts",
+                "start": 1786,
+                "end": 1799
+              },
+              "optional": false,
+              "computed": false,
+              "start": 1780,
+              "end": 1799
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "name": "datetime",
+                "start": 1800,
+                "end": 1808
+              }
+            ],
+            "optional": false,
+            "start": 1780,
+            "end": 1809
+          },
+          "start": 1770,
+          "end": 1809
+        }
+      ],
+      "start": 1764,
+      "end": 1810
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "yearPartNY",
+            "start": 1817,
+            "end": 1827
+          },
+          "init": {
+            "type": "CallExpression",
+            "callee": {
+              "type": "Identifier",
+              "name": "findPart",
+              "start": 1830,
+              "end": 1838
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "name": "partsNY",
+                "start": 1839,
+                "end": 1846
+              },
+              {
+                "type": "Literal",
+                "value": "year",
+                "raw": "\"year\"",
+                "start": 1848,
+                "end": 1854
+              }
+            ],
+            "optional": false,
+            "start": 1830,
+            "end": 1855
+          },
+          "start": 1817,
+          "end": 1855
+        }
+      ],
+      "start": 1811,
+      "end": 1856
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "monthPartNY",
+            "start": 1863,
+            "end": 1874
+          },
+          "init": {
+            "type": "CallExpression",
+            "callee": {
+              "type": "Identifier",
+              "name": "findPart",
+              "start": 1877,
+              "end": 1885
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "name": "partsNY",
+                "start": 1886,
+                "end": 1893
+              },
+              {
+                "type": "Literal",
+                "value": "month",
+                "raw": "\"month\"",
+                "start": 1895,
+                "end": 1902
+              }
+            ],
+            "optional": false,
+            "start": 1877,
+            "end": 1903
+          },
+          "start": 1863,
+          "end": 1903
+        }
+      ],
+      "start": 1857,
+      "end": 1904
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "dayPartNY",
+            "start": 1911,
+            "end": 1920
+          },
+          "init": {
+            "type": "CallExpression",
+            "callee": {
+              "type": "Identifier",
+              "name": "findPart",
+              "start": 1923,
+              "end": 1931
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "name": "partsNY",
+                "start": 1932,
+                "end": 1939
+              },
+              {
+                "type": "Literal",
+                "value": "day",
+                "raw": "\"day\"",
+                "start": 1941,
+                "end": 1946
+              }
+            ],
+            "optional": false,
+            "start": 1923,
+            "end": 1947
+          },
+          "start": 1911,
+          "end": 1947
+        }
+      ],
+      "start": 1905,
+      "end": 1948
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "hourPartNY",
+            "start": 1955,
+            "end": 1965
+          },
+          "init": {
+            "type": "CallExpression",
+            "callee": {
+              "type": "Identifier",
+              "name": "findPart",
+              "start": 1968,
+              "end": 1976
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "name": "partsNY",
+                "start": 1977,
+                "end": 1984
+              },
+              {
+                "type": "Literal",
+                "value": "hour",
+                "raw": "\"hour\"",
+                "start": 1986,
+                "end": 1992
+              }
+            ],
+            "optional": false,
+            "start": 1968,
+            "end": 1993
+          },
+          "start": 1955,
+          "end": 1993
+        }
+      ],
+      "start": 1949,
+      "end": 1994
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "minutePartNY",
+            "start": 2001,
+            "end": 2013
+          },
+          "init": {
+            "type": "CallExpression",
+            "callee": {
+              "type": "Identifier",
+              "name": "findPart",
+              "start": 2016,
+              "end": 2024
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "name": "partsNY",
+                "start": 2025,
+                "end": 2032
+              },
+              {
+                "type": "Literal",
+                "value": "minute",
+                "raw": "\"minute\"",
+                "start": 2034,
+                "end": 2042
+              }
+            ],
+            "optional": false,
+            "start": 2016,
+            "end": 2043
+          },
+          "start": 2001,
+          "end": 2043
+        }
+      ],
+      "start": 1995,
+      "end": 2044
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "secondPartNY",
+            "start": 2051,
+            "end": 2063
+          },
+          "init": {
+            "type": "CallExpression",
+            "callee": {
+              "type": "Identifier",
+              "name": "findPart",
+              "start": 2066,
+              "end": 2074
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "name": "partsNY",
+                "start": 2075,
+                "end": 2082
+              },
+              {
+                "type": "Literal",
+                "value": "second",
+                "raw": "\"second\"",
+                "start": 2084,
+                "end": 2092
+              }
+            ],
+            "optional": false,
+            "start": 2066,
+            "end": 2093
+          },
+          "start": 2051,
+          "end": 2093
+        }
+      ],
+      "start": 2045,
+      "end": 2094
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "resultNY",
+            "start": 2101,
+            "end": 2109
+          },
+          "init": {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "datetime",
+                "start": 2112,
+                "end": 2120
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "toLocaleString",
+                "start": 2121,
+                "end": 2135
+              },
+              "optional": false,
+              "computed": false,
+              "start": 2112,
+              "end": 2135
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "value": "en-US",
+                "raw": "\"en-US\"",
+                "start": 2136,
+                "end": 2143
+              },
+              {
+                "type": "ObjectExpression",
+                "properties": [
+                  {
+                    "type": "Property",
+                    "kind": "init",
+                    "key": {
+                      "type": "Identifier",
+                      "name": "timeZone",
+                      "start": 2147,
+                      "end": 2155
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "value": "America/New_York",
+                      "raw": "\"America/New_York\"",
+                      "start": 2157,
+                      "end": 2175
+                    },
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "start": 2147,
+                    "end": 2175
+                  }
+                ],
+                "start": 2145,
+                "end": 2177
+              }
+            ],
+            "optional": false,
+            "start": 2112,
+            "end": 2178
+          },
+          "start": 2101,
+          "end": 2178
+        }
+      ],
+      "start": 2095,
+      "end": 2179
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "Identifier",
+          "name": "assert",
+          "start": 2180,
+          "end": 2186
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "partsNY",
+                "start": 2187,
+                "end": 2194
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "some",
+                "start": 2195,
+                "end": 2199
+              },
+              "optional": false,
+              "computed": false,
+              "start": 2187,
+              "end": 2199
+            },
+            "arguments": [
+              {
+                "type": "ArrowFunctionExpression",
+                "expression": true,
+                "async": false,
+                "params": [
+                  {
+                    "type": "Identifier",
+                    "name": "part",
+                    "start": 2200,
+                    "end": 2204
+                  }
+                ],
+                "body": {
+                  "type": "BinaryExpression",
+                  "left": {
+                    "type": "MemberExpression",
+                    "object": {
+                      "type": "Identifier",
+                      "name": "part",
+                      "start": 2208,
+                      "end": 2212
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "name": "type",
+                      "start": 2213,
+                      "end": 2217
+                    },
+                    "optional": false,
+                    "computed": false,
+                    "start": 2208,
+                    "end": 2217
+                  },
+                  "operator": "===",
+                  "right": {
+                    "type": "Literal",
+                    "value": "dayPeriod",
+                    "raw": "\"dayPeriod\"",
+                    "start": 2222,
+                    "end": 2233
+                  },
+                  "start": 2208,
+                  "end": 2233
+                },
+                "id": null,
+                "generator": false,
+                "start": 2200,
+                "end": 2233
+              }
+            ],
+            "optional": false,
+            "start": 2187,
+            "end": 2234
+          },
+          {
+            "type": "Literal",
+            "value": "en-US locale has a 12-hour format",
+            "raw": "\"en-US locale has a 12-hour format\"",
+            "start": 2236,
+            "end": 2271
+          }
+        ],
+        "optional": false,
+        "start": 2180,
+        "end": 2272
+      },
+      "start": 2180,
+      "end": 2273
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "Identifier",
+          "name": "assert",
+          "start": 2274,
+          "end": 2280
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "resultNY",
+                "start": 2281,
+                "end": 2289
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "includes",
+                "start": 2290,
+                "end": 2298
+              },
+              "optional": false,
+              "computed": false,
+              "start": 2281,
+              "end": 2298
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "name": "yearPartNY",
+                "start": 2299,
+                "end": 2309
+              }
+            ],
+            "optional": false,
+            "start": 2281,
+            "end": 2310
+          },
+          {
+            "type": "Literal",
+            "value": "en-US locale string has a year part",
+            "raw": "\"en-US locale string has a year part\"",
+            "start": 2312,
+            "end": 2349
+          }
+        ],
+        "optional": false,
+        "start": 2274,
+        "end": 2350
+      },
+      "start": 2274,
+      "end": 2351
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "Identifier",
+          "name": "assert",
+          "start": 2352,
+          "end": 2358
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "resultNY",
+                "start": 2359,
+                "end": 2367
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "includes",
+                "start": 2368,
+                "end": 2376
+              },
+              "optional": false,
+              "computed": false,
+              "start": 2359,
+              "end": 2376
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "name": "monthPartNY",
+                "start": 2377,
+                "end": 2388
+              }
+            ],
+            "optional": false,
+            "start": 2359,
+            "end": 2389
+          },
+          {
+            "type": "Literal",
+            "value": "en-US locale string has a month part",
+            "raw": "\"en-US locale string has a month part\"",
+            "start": 2391,
+            "end": 2429
+          }
+        ],
+        "optional": false,
+        "start": 2352,
+        "end": 2430
+      },
+      "start": 2352,
+      "end": 2431
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "Identifier",
+          "name": "assert",
+          "start": 2432,
+          "end": 2438
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "resultNY",
+                "start": 2439,
+                "end": 2447
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "includes",
+                "start": 2448,
+                "end": 2456
+              },
+              "optional": false,
+              "computed": false,
+              "start": 2439,
+              "end": 2456
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "name": "dayPartNY",
+                "start": 2457,
+                "end": 2466
+              }
+            ],
+            "optional": false,
+            "start": 2439,
+            "end": 2467
+          },
+          {
+            "type": "Literal",
+            "value": "en-US locale string has a day part",
+            "raw": "\"en-US locale string has a day part\"",
+            "start": 2469,
+            "end": 2505
+          }
+        ],
+        "optional": false,
+        "start": 2432,
+        "end": 2506
+      },
+      "start": 2432,
+      "end": 2507
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "Identifier",
+          "name": "assert",
+          "start": 2508,
+          "end": 2514
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "resultNY",
+                "start": 2515,
+                "end": 2523
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "includes",
+                "start": 2524,
+                "end": 2532
+              },
+              "optional": false,
+              "computed": false,
+              "start": 2515,
+              "end": 2532
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "name": "hourPartNY",
+                "start": 2533,
+                "end": 2543
+              }
+            ],
+            "optional": false,
+            "start": 2515,
+            "end": 2544
+          },
+          {
+            "type": "Literal",
+            "value": "en-US locale string has an hour part",
+            "raw": "\"en-US locale string has an hour part\"",
+            "start": 2546,
+            "end": 2584
+          }
+        ],
+        "optional": false,
+        "start": 2508,
+        "end": 2585
+      },
+      "start": 2508,
+      "end": 2586
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "Identifier",
+          "name": "assert",
+          "start": 2587,
+          "end": 2593
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "resultNY",
+                "start": 2594,
+                "end": 2602
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "includes",
+                "start": 2603,
+                "end": 2611
+              },
+              "optional": false,
+              "computed": false,
+              "start": 2594,
+              "end": 2611
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "name": "minutePartNY",
+                "start": 2612,
+                "end": 2624
+              }
+            ],
+            "optional": false,
+            "start": 2594,
+            "end": 2625
+          },
+          {
+            "type": "Literal",
+            "value": "en-US locale string has a minute part",
+            "raw": "\"en-US locale string has a minute part\"",
+            "start": 2627,
+            "end": 2666
+          }
+        ],
+        "optional": false,
+        "start": 2587,
+        "end": 2667
+      },
+      "start": 2587,
+      "end": 2668
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "Identifier",
+          "name": "assert",
+          "start": 2669,
+          "end": 2675
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "resultNY",
+                "start": 2676,
+                "end": 2684
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "includes",
+                "start": 2685,
+                "end": 2693
+              },
+              "optional": false,
+              "computed": false,
+              "start": 2676,
+              "end": 2693
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "name": "secondPartNY",
+                "start": 2694,
+                "end": 2706
+              }
+            ],
+            "optional": false,
+            "start": 2676,
+            "end": 2707
+          },
+          {
+            "type": "Literal",
+            "value": "en-US locale string has a second part",
+            "raw": "\"en-US locale string has a second part\"",
+            "start": 2709,
+            "end": 2748
+          }
+        ],
+        "optional": false,
+        "start": 2669,
+        "end": 2749
+      },
+      "start": 2669,
+      "end": 2750
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "dtfVienna",
+            "start": 2758,
+            "end": 2767
+          },
+          "init": {
+            "type": "NewExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "Intl",
+                "start": 2774,
+                "end": 2778
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "DateTimeFormat",
+                "start": 2779,
+                "end": 2793
+              },
+              "optional": false,
+              "computed": false,
+              "start": 2774,
+              "end": 2793
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "value": "de-AT",
+                "raw": "\"de-AT\"",
+                "start": 2794,
+                "end": 2801
+              },
+              {
+                "type": "ObjectExpression",
+                "properties": [
+                  {
+                    "type": "Property",
+                    "kind": "init",
+                    "key": {
+                      "type": "Identifier",
+                      "name": "timeZone",
+                      "start": 2805,
+                      "end": 2813
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "value": "Europe/Vienna",
+                      "raw": "\"Europe/Vienna\"",
+                      "start": 2815,
+                      "end": 2830
+                    },
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "start": 2805,
+                    "end": 2830
+                  }
+                ],
+                "start": 2803,
+                "end": 2832
+              }
+            ],
+            "start": 2770,
+            "end": 2833
+          },
+          "start": 2758,
+          "end": 2833
+        }
+      ],
+      "start": 2752,
+      "end": 2834
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 2835,
+            "end": 2841
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 2842,
+            "end": 2851
+          },
+          "optional": false,
+          "computed": false,
+          "start": 2835,
+          "end": 2851
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "datetime",
+                "start": 2855,
+                "end": 2863
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "toLocaleString",
+                "start": 2864,
+                "end": 2878
+              },
+              "optional": false,
+              "computed": false,
+              "start": 2855,
+              "end": 2878
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "value": "de-AT",
+                "raw": "\"de-AT\"",
+                "start": 2879,
+                "end": 2886
+              },
+              {
+                "type": "ObjectExpression",
+                "properties": [
+                  {
+                    "type": "Property",
+                    "kind": "init",
+                    "key": {
+                      "type": "Identifier",
+                      "name": "timeZone",
+                      "start": 2890,
+                      "end": 2898
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "value": "Europe/Vienna",
+                      "raw": "\"Europe/Vienna\"",
+                      "start": 2900,
+                      "end": 2915
+                    },
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "start": 2890,
+                    "end": 2915
+                  }
+                ],
+                "start": 2888,
+                "end": 2917
+              }
+            ],
+            "optional": false,
+            "start": 2855,
+            "end": 2918
+          },
+          {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "dtfVienna",
+                "start": 2922,
+                "end": 2931
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "format",
+                "start": 2932,
+                "end": 2938
+              },
+              "optional": false,
+              "computed": false,
+              "start": 2922,
+              "end": 2938
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "name": "datetime",
+                "start": 2939,
+                "end": 2947
+              }
+            ],
+            "optional": false,
+            "start": 2922,
+            "end": 2948
+          }
+        ],
+        "optional": false,
+        "start": 2835,
+        "end": 2950
+      },
+      "start": 2835,
+      "end": 2951
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "partsVienna",
+            "start": 2959,
+            "end": 2970
+          },
+          "init": {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "dtfVienna",
+                "start": 2973,
+                "end": 2982
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "formatToParts",
+                "start": 2983,
+                "end": 2996
+              },
+              "optional": false,
+              "computed": false,
+              "start": 2973,
+              "end": 2996
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "name": "datetime",
+                "start": 2997,
+                "end": 3005
+              }
+            ],
+            "optional": false,
+            "start": 2973,
+            "end": 3006
+          },
+          "start": 2959,
+          "end": 3006
+        }
+      ],
+      "start": 2953,
+      "end": 3007
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "yearPartVienna",
+            "start": 3014,
+            "end": 3028
+          },
+          "init": {
+            "type": "CallExpression",
+            "callee": {
+              "type": "Identifier",
+              "name": "findPart",
+              "start": 3031,
+              "end": 3039
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "name": "partsVienna",
+                "start": 3040,
+                "end": 3051
+              },
+              {
+                "type": "Literal",
+                "value": "year",
+                "raw": "\"year\"",
+                "start": 3053,
+                "end": 3059
+              }
+            ],
+            "optional": false,
+            "start": 3031,
+            "end": 3060
+          },
+          "start": 3014,
+          "end": 3060
+        }
+      ],
+      "start": 3008,
+      "end": 3061
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "monthPartVienna",
+            "start": 3068,
+            "end": 3083
+          },
+          "init": {
+            "type": "CallExpression",
+            "callee": {
+              "type": "Identifier",
+              "name": "findPart",
+              "start": 3086,
+              "end": 3094
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "name": "partsVienna",
+                "start": 3095,
+                "end": 3106
+              },
+              {
+                "type": "Literal",
+                "value": "month",
+                "raw": "\"month\"",
+                "start": 3108,
+                "end": 3115
+              }
+            ],
+            "optional": false,
+            "start": 3086,
+            "end": 3116
+          },
+          "start": 3068,
+          "end": 3116
+        }
+      ],
+      "start": 3062,
+      "end": 3117
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "dayPartVienna",
+            "start": 3124,
+            "end": 3137
+          },
+          "init": {
+            "type": "CallExpression",
+            "callee": {
+              "type": "Identifier",
+              "name": "findPart",
+              "start": 3140,
+              "end": 3148
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "name": "partsVienna",
+                "start": 3149,
+                "end": 3160
+              },
+              {
+                "type": "Literal",
+                "value": "day",
+                "raw": "\"day\"",
+                "start": 3162,
+                "end": 3167
+              }
+            ],
+            "optional": false,
+            "start": 3140,
+            "end": 3168
+          },
+          "start": 3124,
+          "end": 3168
+        }
+      ],
+      "start": 3118,
+      "end": 3169
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "hourPartVienna",
+            "start": 3176,
+            "end": 3190
+          },
+          "init": {
+            "type": "CallExpression",
+            "callee": {
+              "type": "Identifier",
+              "name": "findPart",
+              "start": 3193,
+              "end": 3201
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "name": "partsVienna",
+                "start": 3202,
+                "end": 3213
+              },
+              {
+                "type": "Literal",
+                "value": "hour",
+                "raw": "\"hour\"",
+                "start": 3215,
+                "end": 3221
+              }
+            ],
+            "optional": false,
+            "start": 3193,
+            "end": 3222
+          },
+          "start": 3176,
+          "end": 3222
+        }
+      ],
+      "start": 3170,
+      "end": 3223
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "minutePartVienna",
+            "start": 3230,
+            "end": 3246
+          },
+          "init": {
+            "type": "CallExpression",
+            "callee": {
+              "type": "Identifier",
+              "name": "findPart",
+              "start": 3249,
+              "end": 3257
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "name": "partsVienna",
+                "start": 3258,
+                "end": 3269
+              },
+              {
+                "type": "Literal",
+                "value": "minute",
+                "raw": "\"minute\"",
+                "start": 3271,
+                "end": 3279
+              }
+            ],
+            "optional": false,
+            "start": 3249,
+            "end": 3280
+          },
+          "start": 3230,
+          "end": 3280
+        }
+      ],
+      "start": 3224,
+      "end": 3281
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "secondPartVienna",
+            "start": 3288,
+            "end": 3304
+          },
+          "init": {
+            "type": "CallExpression",
+            "callee": {
+              "type": "Identifier",
+              "name": "findPart",
+              "start": 3307,
+              "end": 3315
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "name": "partsVienna",
+                "start": 3316,
+                "end": 3327
+              },
+              {
+                "type": "Literal",
+                "value": "second",
+                "raw": "\"second\"",
+                "start": 3329,
+                "end": 3337
+              }
+            ],
+            "optional": false,
+            "start": 3307,
+            "end": 3338
+          },
+          "start": 3288,
+          "end": 3338
+        }
+      ],
+      "start": 3282,
+      "end": 3339
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "resultVienna",
+            "start": 3346,
+            "end": 3358
+          },
+          "init": {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "datetime",
+                "start": 3361,
+                "end": 3369
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "toLocaleString",
+                "start": 3370,
+                "end": 3384
+              },
+              "optional": false,
+              "computed": false,
+              "start": 3361,
+              "end": 3384
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "value": "de-AT",
+                "raw": "\"de-AT\"",
+                "start": 3385,
+                "end": 3392
+              },
+              {
+                "type": "ObjectExpression",
+                "properties": [
+                  {
+                    "type": "Property",
+                    "kind": "init",
+                    "key": {
+                      "type": "Identifier",
+                      "name": "timeZone",
+                      "start": 3396,
+                      "end": 3404
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "value": "Europe/Vienna",
+                      "raw": "\"Europe/Vienna\"",
+                      "start": 3406,
+                      "end": 3421
+                    },
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "start": 3396,
+                    "end": 3421
+                  }
+                ],
+                "start": 3394,
+                "end": 3423
+              }
+            ],
+            "optional": false,
+            "start": 3361,
+            "end": 3424
+          },
+          "start": 3346,
+          "end": 3424
+        }
+      ],
+      "start": 3340,
+      "end": 3425
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "Identifier",
+          "name": "assert",
+          "start": 3426,
+          "end": 3432
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "operator": "!",
+            "argument": {
+              "type": "CallExpression",
+              "callee": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "partsVienna",
+                  "start": 3434,
+                  "end": 3445
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "some",
+                  "start": 3446,
+                  "end": 3450
+                },
+                "optional": false,
+                "computed": false,
+                "start": 3434,
+                "end": 3450
+              },
+              "arguments": [
+                {
+                  "type": "ArrowFunctionExpression",
+                  "expression": true,
+                  "async": false,
+                  "params": [
+                    {
+                      "type": "Identifier",
+                      "name": "part",
+                      "start": 3451,
+                      "end": 3455
+                    }
+                  ],
+                  "body": {
+                    "type": "BinaryExpression",
+                    "left": {
+                      "type": "MemberExpression",
+                      "object": {
+                        "type": "Identifier",
+                        "name": "part",
+                        "start": 3459,
+                        "end": 3463
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "name": "type",
+                        "start": 3464,
+                        "end": 3468
+                      },
+                      "optional": false,
+                      "computed": false,
+                      "start": 3459,
+                      "end": 3468
+                    },
+                    "operator": "===",
+                    "right": {
+                      "type": "Literal",
+                      "value": "dayPeriod",
+                      "raw": "\"dayPeriod\"",
+                      "start": 3473,
+                      "end": 3484
+                    },
+                    "start": 3459,
+                    "end": 3484
+                  },
+                  "id": null,
+                  "generator": false,
+                  "start": 3451,
+                  "end": 3484
+                }
+              ],
+              "optional": false,
+              "start": 3434,
+              "end": 3485
+            },
+            "prefix": true,
+            "start": 3433,
+            "end": 3485
+          },
+          {
+            "type": "Literal",
+            "value": "de-AT locale has a 24-hour format",
+            "raw": "\"de-AT locale has a 24-hour format\"",
+            "start": 3487,
+            "end": 3522
+          }
+        ],
+        "optional": false,
+        "start": 3426,
+        "end": 3523
+      },
+      "start": 3426,
+      "end": 3524
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "Identifier",
+          "name": "assert",
+          "start": 3525,
+          "end": 3531
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "resultVienna",
+                "start": 3532,
+                "end": 3544
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "includes",
+                "start": 3545,
+                "end": 3553
+              },
+              "optional": false,
+              "computed": false,
+              "start": 3532,
+              "end": 3553
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "name": "yearPartVienna",
+                "start": 3554,
+                "end": 3568
+              }
+            ],
+            "optional": false,
+            "start": 3532,
+            "end": 3569
+          },
+          {
+            "type": "Literal",
+            "value": "de-AT locale string has a year part",
+            "raw": "\"de-AT locale string has a year part\"",
+            "start": 3571,
+            "end": 3608
+          }
+        ],
+        "optional": false,
+        "start": 3525,
+        "end": 3609
+      },
+      "start": 3525,
+      "end": 3610
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "Identifier",
+          "name": "assert",
+          "start": 3611,
+          "end": 3617
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "resultVienna",
+                "start": 3618,
+                "end": 3630
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "includes",
+                "start": 3631,
+                "end": 3639
+              },
+              "optional": false,
+              "computed": false,
+              "start": 3618,
+              "end": 3639
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "name": "monthPartVienna",
+                "start": 3640,
+                "end": 3655
+              }
+            ],
+            "optional": false,
+            "start": 3618,
+            "end": 3656
+          },
+          {
+            "type": "Literal",
+            "value": "de-AT locale string has a month part",
+            "raw": "\"de-AT locale string has a month part\"",
+            "start": 3658,
+            "end": 3696
+          }
+        ],
+        "optional": false,
+        "start": 3611,
+        "end": 3697
+      },
+      "start": 3611,
+      "end": 3698
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "Identifier",
+          "name": "assert",
+          "start": 3699,
+          "end": 3705
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "resultVienna",
+                "start": 3706,
+                "end": 3718
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "includes",
+                "start": 3719,
+                "end": 3727
+              },
+              "optional": false,
+              "computed": false,
+              "start": 3706,
+              "end": 3727
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "name": "dayPartVienna",
+                "start": 3728,
+                "end": 3741
+              }
+            ],
+            "optional": false,
+            "start": 3706,
+            "end": 3742
+          },
+          {
+            "type": "Literal",
+            "value": "de-AT locale string has a day part",
+            "raw": "\"de-AT locale string has a day part\"",
+            "start": 3744,
+            "end": 3780
+          }
+        ],
+        "optional": false,
+        "start": 3699,
+        "end": 3781
+      },
+      "start": 3699,
+      "end": 3782
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "Identifier",
+          "name": "assert",
+          "start": 3783,
+          "end": 3789
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "resultVienna",
+                "start": 3790,
+                "end": 3802
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "includes",
+                "start": 3803,
+                "end": 3811
+              },
+              "optional": false,
+              "computed": false,
+              "start": 3790,
+              "end": 3811
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "name": "hourPartVienna",
+                "start": 3812,
+                "end": 3826
+              }
+            ],
+            "optional": false,
+            "start": 3790,
+            "end": 3827
+          },
+          {
+            "type": "Literal",
+            "value": "de-AT locale string has an hour part",
+            "raw": "\"de-AT locale string has an hour part\"",
+            "start": 3829,
+            "end": 3867
+          }
+        ],
+        "optional": false,
+        "start": 3783,
+        "end": 3868
+      },
+      "start": 3783,
+      "end": 3869
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "Identifier",
+          "name": "assert",
+          "start": 3870,
+          "end": 3876
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "resultVienna",
+                "start": 3877,
+                "end": 3889
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "includes",
+                "start": 3890,
+                "end": 3898
+              },
+              "optional": false,
+              "computed": false,
+              "start": 3877,
+              "end": 3898
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "name": "minutePartVienna",
+                "start": 3899,
+                "end": 3915
+              }
+            ],
+            "optional": false,
+            "start": 3877,
+            "end": 3916
+          },
+          {
+            "type": "Literal",
+            "value": "de-AT locale string has a minute part",
+            "raw": "\"de-AT locale string has a minute part\"",
+            "start": 3918,
+            "end": 3957
+          }
+        ],
+        "optional": false,
+        "start": 3870,
+        "end": 3958
+      },
+      "start": 3870,
+      "end": 3959
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "Identifier",
+          "name": "assert",
+          "start": 3960,
+          "end": 3966
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "resultVienna",
+                "start": 3967,
+                "end": 3979
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "includes",
+                "start": 3980,
+                "end": 3988
+              },
+              "optional": false,
+              "computed": false,
+              "start": 3967,
+              "end": 3988
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "name": "secondPartVienna",
+                "start": 3989,
+                "end": 4005
+              }
+            ],
+            "optional": false,
+            "start": 3967,
+            "end": 4006
+          },
+          {
+            "type": "Literal",
+            "value": "de-AT locale string has a second part",
+            "raw": "\"de-AT locale string has a second part\"",
+            "start": 4008,
+            "end": 4047
+          }
+        ],
+        "optional": false,
+        "start": 3960,
+        "end": 4048
+      },
+      "start": 3960,
+      "end": 4049
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 4050
+}
