@@ -51,8 +51,8 @@
     "type": "RegularExpression",
     "value": "/^(([a-z]+)*([a-z])\\.)+[a-z]{2,}$/",
     "regex": {
-      "flags": "",
-      "pattern": "^(([a-z]+)*([a-z])\\.)+[a-z]{2,}$"
+      "pattern": "^(([a-z]+)*([a-z])\\.)+[a-z]{2,}$",
+      "flags": ""
     },
     "start": 668,
     "end": 702

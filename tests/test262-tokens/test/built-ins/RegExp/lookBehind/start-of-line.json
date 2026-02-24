@@ -51,8 +51,8 @@
     "type": "RegularExpression",
     "value": "/(?<=^[^a-c]{3})def/",
     "regex": {
-      "flags": "",
-      "pattern": "(?<=^[^a-c]{3})def"
+      "pattern": "(?<=^[^a-c]{3})def",
+      "flags": ""
     },
     "start": 973,
     "end": 993
@@ -151,8 +151,8 @@
     "type": "RegularExpression",
     "value": "/\"^foooo(?<=^o+)$/",
     "regex": {
-      "flags": "",
-      "pattern": "\"^foooo(?<=^o+)$"
+      "pattern": "\"^foooo(?<=^o+)$",
+      "flags": ""
     },
     "start": 1040,
     "end": 1058
@@ -251,8 +251,8 @@
     "type": "RegularExpression",
     "value": "/\"^foooo(?<=^o*)$/",
     "regex": {
-      "flags": "",
-      "pattern": "\"^foooo(?<=^o*)$"
+      "pattern": "\"^foooo(?<=^o*)$",
+      "flags": ""
     },
     "start": 1105,
     "end": 1123
@@ -351,8 +351,8 @@
     "type": "RegularExpression",
     "value": "/(?<=^abc)def/",
     "regex": {
-      "flags": "",
-      "pattern": "(?<=^abc)def"
+      "pattern": "(?<=^abc)def",
+      "flags": ""
     },
     "start": 1175,
     "end": 1189
@@ -463,8 +463,8 @@
     "type": "RegularExpression",
     "value": "/(?<=^[a-c]{3})def/",
     "regex": {
-      "flags": "",
-      "pattern": "(?<=^[a-c]{3})def"
+      "pattern": "(?<=^[a-c]{3})def",
+      "flags": ""
     },
     "start": 1243,
     "end": 1262
@@ -575,8 +575,8 @@
     "type": "RegularExpression",
     "value": "/(?<=^[a-c]{3})def/m",
     "regex": {
-      "flags": "m",
-      "pattern": "(?<=^[a-c]{3})def"
+      "pattern": "(?<=^[a-c]{3})def",
+      "flags": "m"
     },
     "start": 1321,
     "end": 1341
@@ -687,8 +687,8 @@
     "type": "RegularExpression",
     "value": "/(?<=^)\\w+/gm",
     "regex": {
-      "flags": "gm",
-      "pattern": "(?<=^)\\w+"
+      "pattern": "(?<=^)\\w+",
+      "flags": "gm"
     },
     "start": 1400,
     "end": 1413
@@ -823,8 +823,8 @@
     "type": "RegularExpression",
     "value": "/\\w+(?<=$)/gm",
     "regex": {
-      "flags": "gm",
-      "pattern": "\\w+(?<=$)"
+      "pattern": "\\w+(?<=$)",
+      "flags": "gm"
     },
     "start": 1484,
     "end": 1497
@@ -959,8 +959,8 @@
     "type": "RegularExpression",
     "value": "/(?<=^)\\w+(?<=$)/gm",
     "regex": {
-      "flags": "gm",
-      "pattern": "(?<=^)\\w+(?<=$)"
+      "pattern": "(?<=^)\\w+(?<=$)",
+      "flags": "gm"
     },
     "start": 1568,
     "end": 1587
@@ -1095,8 +1095,8 @@
     "type": "RegularExpression",
     "value": "/^foo(?<=^fo+)$/",
     "regex": {
-      "flags": "",
-      "pattern": "^foo(?<=^fo+)$"
+      "pattern": "^foo(?<=^fo+)$",
+      "flags": ""
     },
     "start": 1651,
     "end": 1667
@@ -1207,8 +1207,8 @@
     "type": "RegularExpression",
     "value": "/^foooo(?<=^fo*)/",
     "regex": {
-      "flags": "",
-      "pattern": "^foooo(?<=^fo*)"
+      "pattern": "^foooo(?<=^fo*)",
+      "flags": ""
     },
     "start": 1721,
     "end": 1738
@@ -1319,8 +1319,8 @@
     "type": "RegularExpression",
     "value": "/^(f)oo(?<=^\\1o+)$/",
     "regex": {
-      "flags": "",
-      "pattern": "^(f)oo(?<=^\\1o+)$"
+      "pattern": "^(f)oo(?<=^\\1o+)$",
+      "flags": ""
     },
     "start": 1792,
     "end": 1811
@@ -1443,8 +1443,8 @@
     "type": "RegularExpression",
     "value": "/^(f)oo(?<=^\\1o+)$/i",
     "regex": {
-      "flags": "i",
-      "pattern": "^(f)oo(?<=^\\1o+)$"
+      "pattern": "^(f)oo(?<=^\\1o+)$",
+      "flags": "i"
     },
     "start": 1868,
     "end": 1888
@@ -1567,8 +1567,8 @@
     "type": "RegularExpression",
     "value": "/^(f)oo(?<=^\\1o+).$/i",
     "regex": {
-      "flags": "i",
-      "pattern": "^(f)oo(?<=^\\1o+).$"
+      "pattern": "^(f)oo(?<=^\\1o+).$",
+      "flags": "i"
     },
     "start": 1951,
     "end": 1972
@@ -1691,8 +1691,8 @@
     "type": "RegularExpression",
     "value": "/(?<=^\\w+)def/",
     "regex": {
-      "flags": "",
-      "pattern": "(?<=^\\w+)def"
+      "pattern": "(?<=^\\w+)def",
+      "flags": ""
     },
     "start": 2041,
     "end": 2055
@@ -1803,8 +1803,8 @@
     "type": "RegularExpression",
     "value": "/(?<=^\\w+)def/g",
     "regex": {
-      "flags": "g",
-      "pattern": "(?<=^\\w+)def"
+      "pattern": "(?<=^\\w+)def",
+      "flags": "g"
     },
     "start": 2113,
     "end": 2128

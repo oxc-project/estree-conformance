@@ -39,8 +39,8 @@
     "type": "RegularExpression",
     "value": "/^.$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^.$"
+      "pattern": "^.$",
+      "flags": "u"
     },
     "start": 627,
     "end": 633
@@ -55,8 +55,8 @@
     "type": "RegularExpression",
     "value": "/^.$/um",
     "regex": {
-      "flags": "um",
-      "pattern": "^.$"
+      "pattern": "^.$",
+      "flags": "um"
     },
     "start": 635,
     "end": 642

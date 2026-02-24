@@ -189,8 +189,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script=Imperial_Aramaic}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script=Imperial_Aramaic}+$"
+      "pattern": "^\\p{Script=Imperial_Aramaic}+$",
+      "flags": "u"
     },
     "start": 612,
     "end": 645
@@ -247,8 +247,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script=Armi}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script=Armi}+$"
+      "pattern": "^\\p{Script=Armi}+$",
+      "flags": "u"
     },
     "start": 722,
     "end": 743
@@ -305,8 +305,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{sc=Imperial_Aramaic}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{sc=Imperial_Aramaic}+$"
+      "pattern": "^\\p{sc=Imperial_Aramaic}+$",
+      "flags": "u"
     },
     "start": 808,
     "end": 837
@@ -363,8 +363,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{sc=Armi}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{sc=Armi}+$"
+      "pattern": "^\\p{sc=Armi}+$",
+      "flags": "u"
     },
     "start": 910,
     "end": 927
@@ -673,8 +673,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script=Imperial_Aramaic}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script=Imperial_Aramaic}+$"
+      "pattern": "^\\P{Script=Imperial_Aramaic}+$",
+      "flags": "u"
     },
     "start": 1188,
     "end": 1221
@@ -731,8 +731,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script=Armi}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script=Armi}+$"
+      "pattern": "^\\P{Script=Armi}+$",
+      "flags": "u"
     },
     "start": 1301,
     "end": 1322
@@ -789,8 +789,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{sc=Imperial_Aramaic}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{sc=Imperial_Aramaic}+$"
+      "pattern": "^\\P{sc=Imperial_Aramaic}+$",
+      "flags": "u"
     },
     "start": 1390,
     "end": 1419
@@ -847,8 +847,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{sc=Armi}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{sc=Armi}+$"
+      "pattern": "^\\P{sc=Armi}+$",
+      "flags": "u"
     },
     "start": 1495,
     "end": 1512

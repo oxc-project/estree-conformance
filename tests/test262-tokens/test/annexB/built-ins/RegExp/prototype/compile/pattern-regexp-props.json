@@ -21,8 +21,8 @@
     "type": "RegularExpression",
     "value": "/abc/gim",
     "regex": {
-      "flags": "gim",
-      "pattern": "abc"
+      "pattern": "abc",
+      "flags": "gim"
     },
     "start": 710,
     "end": 718
@@ -55,8 +55,8 @@
     "type": "RegularExpression",
     "value": "/def/mig",
     "regex": {
-      "flags": "mig",
-      "pattern": "def"
+      "pattern": "def",
+      "flags": "mig"
     },
     "start": 734,
     "end": 742

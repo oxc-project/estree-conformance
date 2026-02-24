@@ -33,8 +33,8 @@
     "type": "RegularExpression",
     "value": "/^[\\d\\p{Emoji_Keycap_Sequence}]+$/v",
     "regex": {
-      "flags": "v",
-      "pattern": "^[\\d\\p{Emoji_Keycap_Sequence}]+$"
+      "pattern": "^[\\d\\p{Emoji_Keycap_Sequence}]+$",
+      "flags": "v"
     },
     "start": 556,
     "end": 591

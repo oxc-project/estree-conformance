@@ -21,8 +21,8 @@
     "type": "RegularExpression",
     "value": "/\\x00/",
     "regex": {
-      "flags": "",
-      "pattern": "\\x00"
+      "pattern": "\\x00",
+      "flags": ""
     },
     "start": 307,
     "end": 313
@@ -295,8 +295,8 @@
     "type": "RegularExpression",
     "value": "/\\x01/",
     "regex": {
-      "flags": "",
-      "pattern": "\\x01"
+      "pattern": "\\x01",
+      "flags": ""
     },
     "start": 506,
     "end": 512
@@ -569,8 +569,8 @@
     "type": "RegularExpression",
     "value": "/\\x0A/",
     "regex": {
-      "flags": "",
-      "pattern": "\\x0A"
+      "pattern": "\\x0A",
+      "flags": ""
     },
     "start": 705,
     "end": 711
@@ -843,8 +843,8 @@
     "type": "RegularExpression",
     "value": "/\\xFF/",
     "regex": {
-      "flags": "",
-      "pattern": "\\xFF"
+      "pattern": "\\xFF",
+      "flags": ""
     },
     "start": 904,
     "end": 910

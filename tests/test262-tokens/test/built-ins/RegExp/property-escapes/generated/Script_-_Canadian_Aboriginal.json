@@ -225,8 +225,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script=Canadian_Aboriginal}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script=Canadian_Aboriginal}+$"
+      "pattern": "^\\p{Script=Canadian_Aboriginal}+$",
+      "flags": "u"
     },
     "start": 641,
     "end": 677
@@ -283,8 +283,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script=Cans}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script=Cans}+$"
+      "pattern": "^\\p{Script=Cans}+$",
+      "flags": "u"
     },
     "start": 757,
     "end": 778
@@ -341,8 +341,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{sc=Canadian_Aboriginal}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{sc=Canadian_Aboriginal}+$"
+      "pattern": "^\\p{sc=Canadian_Aboriginal}+$",
+      "flags": "u"
     },
     "start": 843,
     "end": 875
@@ -399,8 +399,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{sc=Cans}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{sc=Cans}+$"
+      "pattern": "^\\p{sc=Cans}+$",
+      "flags": "u"
     },
     "start": 951,
     "end": 968
@@ -775,8 +775,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script=Canadian_Aboriginal}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script=Canadian_Aboriginal}+$"
+      "pattern": "^\\P{Script=Canadian_Aboriginal}+$",
+      "flags": "u"
     },
     "start": 1265,
     "end": 1301
@@ -833,8 +833,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script=Cans}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script=Cans}+$"
+      "pattern": "^\\P{Script=Cans}+$",
+      "flags": "u"
     },
     "start": 1384,
     "end": 1405
@@ -891,8 +891,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{sc=Canadian_Aboriginal}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{sc=Canadian_Aboriginal}+$"
+      "pattern": "^\\P{sc=Canadian_Aboriginal}+$",
+      "flags": "u"
     },
     "start": 1473,
     "end": 1505
@@ -949,8 +949,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{sc=Cans}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{sc=Cans}+$"
+      "pattern": "^\\P{sc=Cans}+$",
+      "flags": "u"
     },
     "start": 1584,
     "end": 1601

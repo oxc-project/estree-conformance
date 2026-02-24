@@ -159,8 +159,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script_Extensions=Rejang}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script_Extensions=Rejang}+$"
+      "pattern": "^\\p{Script_Extensions=Rejang}+$",
+      "flags": "u"
     },
     "start": 603,
     "end": 637
@@ -217,8 +217,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script_Extensions=Rjng}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script_Extensions=Rjng}+$"
+      "pattern": "^\\p{Script_Extensions=Rjng}+$",
+      "flags": "u"
     },
     "start": 715,
     "end": 747
@@ -275,8 +275,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{scx=Rejang}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{scx=Rejang}+$"
+      "pattern": "^\\p{scx=Rejang}+$",
+      "flags": "u"
     },
     "start": 823,
     "end": 843
@@ -333,8 +333,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{scx=Rjng}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{scx=Rjng}+$"
+      "pattern": "^\\p{scx=Rjng}+$",
+      "flags": "u"
     },
     "start": 907,
     "end": 925
@@ -673,8 +673,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script_Extensions=Rejang}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script_Extensions=Rejang}+$"
+      "pattern": "^\\P{Script_Extensions=Rejang}+$",
+      "flags": "u"
     },
     "start": 1197,
     "end": 1231
@@ -731,8 +731,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script_Extensions=Rjng}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script_Extensions=Rjng}+$"
+      "pattern": "^\\P{Script_Extensions=Rjng}+$",
+      "flags": "u"
     },
     "start": 1312,
     "end": 1344
@@ -789,8 +789,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{scx=Rejang}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{scx=Rejang}+$"
+      "pattern": "^\\P{scx=Rejang}+$",
+      "flags": "u"
     },
     "start": 1423,
     "end": 1443
@@ -847,8 +847,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{scx=Rjng}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{scx=Rjng}+$"
+      "pattern": "^\\P{scx=Rjng}+$",
+      "flags": "u"
     },
     "start": 1510,
     "end": 1528

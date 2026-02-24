@@ -249,8 +249,8 @@
     "type": "RegularExpression",
     "value": "/<body.*>((.*\\n?)*?)<\\/body>/i",
     "regex": {
-      "flags": "i",
-      "pattern": "<body.*>((.*\\n?)*?)<\\/body>"
+      "pattern": "<body.*>((.*\\n?)*?)<\\/body>",
+      "flags": "i"
     },
     "start": 879,
     "end": 909

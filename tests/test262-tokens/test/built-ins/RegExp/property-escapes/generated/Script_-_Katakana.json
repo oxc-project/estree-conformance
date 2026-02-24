@@ -567,8 +567,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script=Katakana}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script=Katakana}+$"
+      "pattern": "^\\p{Script=Katakana}+$",
+      "flags": "u"
     },
     "start": 894,
     "end": 919
@@ -625,8 +625,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script=Kana}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script=Kana}+$"
+      "pattern": "^\\p{Script=Kana}+$",
+      "flags": "u"
     },
     "start": 988,
     "end": 1009
@@ -683,8 +683,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{sc=Katakana}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{sc=Katakana}+$"
+      "pattern": "^\\p{sc=Katakana}+$",
+      "flags": "u"
     },
     "start": 1074,
     "end": 1095
@@ -741,8 +741,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{sc=Kana}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{sc=Kana}+$"
+      "pattern": "^\\p{sc=Kana}+$",
+      "flags": "u"
     },
     "start": 1160,
     "end": 1177
@@ -1387,8 +1387,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script=Katakana}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script=Katakana}+$"
+      "pattern": "^\\P{Script=Katakana}+$",
+      "flags": "u"
     },
     "start": 1702,
     "end": 1727
@@ -1445,8 +1445,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script=Kana}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script=Kana}+$"
+      "pattern": "^\\P{Script=Kana}+$",
+      "flags": "u"
     },
     "start": 1799,
     "end": 1820
@@ -1503,8 +1503,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{sc=Katakana}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{sc=Katakana}+$"
+      "pattern": "^\\P{sc=Katakana}+$",
+      "flags": "u"
     },
     "start": 1888,
     "end": 1909
@@ -1561,8 +1561,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{sc=Kana}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{sc=Kana}+$"
+      "pattern": "^\\P{sc=Kana}+$",
+      "flags": "u"
     },
     "start": 1977,
     "end": 1994

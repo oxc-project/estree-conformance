@@ -33,8 +33,8 @@
     "type": "RegularExpression",
     "value": "/^[\\q{0|2|4|9\\uFE0F\\u20E3}--_]+$/v",
     "regex": {
-      "flags": "v",
-      "pattern": "^[\\q{0|2|4|9\\uFE0F\\u20E3}--_]+$"
+      "pattern": "^[\\q{0|2|4|9\\uFE0F\\u20E3}--_]+$",
+      "flags": "v"
     },
     "start": 523,
     "end": 557

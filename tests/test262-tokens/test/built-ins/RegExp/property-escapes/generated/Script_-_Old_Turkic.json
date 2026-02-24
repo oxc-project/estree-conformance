@@ -153,8 +153,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script=Old_Turkic}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script=Old_Turkic}+$"
+      "pattern": "^\\p{Script=Old_Turkic}+$",
+      "flags": "u"
     },
     "start": 580,
     "end": 607
@@ -211,8 +211,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script=Orkh}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script=Orkh}+$"
+      "pattern": "^\\p{Script=Orkh}+$",
+      "flags": "u"
     },
     "start": 678,
     "end": 699
@@ -269,8 +269,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{sc=Old_Turkic}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{sc=Old_Turkic}+$"
+      "pattern": "^\\p{sc=Old_Turkic}+$",
+      "flags": "u"
     },
     "start": 764,
     "end": 787
@@ -327,8 +327,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{sc=Orkh}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{sc=Orkh}+$"
+      "pattern": "^\\p{sc=Orkh}+$",
+      "flags": "u"
     },
     "start": 854,
     "end": 871
@@ -631,8 +631,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script=Old_Turkic}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script=Old_Turkic}+$"
+      "pattern": "^\\P{Script=Old_Turkic}+$",
+      "flags": "u"
     },
     "start": 1116,
     "end": 1143
@@ -689,8 +689,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script=Orkh}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script=Orkh}+$"
+      "pattern": "^\\P{Script=Orkh}+$",
+      "flags": "u"
     },
     "start": 1217,
     "end": 1238
@@ -747,8 +747,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{sc=Old_Turkic}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{sc=Old_Turkic}+$"
+      "pattern": "^\\P{sc=Old_Turkic}+$",
+      "flags": "u"
     },
     "start": 1306,
     "end": 1329
@@ -805,8 +805,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{sc=Orkh}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{sc=Orkh}+$"
+      "pattern": "^\\P{sc=Orkh}+$",
+      "flags": "u"
     },
     "start": 1399,
     "end": 1416

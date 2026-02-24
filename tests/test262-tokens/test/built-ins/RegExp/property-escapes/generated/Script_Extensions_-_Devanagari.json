@@ -387,8 +387,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script_Extensions=Devanagari}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script_Extensions=Devanagari}+$"
+      "pattern": "^\\p{Script_Extensions=Devanagari}+$",
+      "flags": "u"
     },
     "start": 777,
     "end": 815
@@ -445,8 +445,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script_Extensions=Deva}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script_Extensions=Deva}+$"
+      "pattern": "^\\p{Script_Extensions=Deva}+$",
+      "flags": "u"
     },
     "start": 897,
     "end": 929
@@ -503,8 +503,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{scx=Devanagari}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{scx=Devanagari}+$"
+      "pattern": "^\\p{scx=Devanagari}+$",
+      "flags": "u"
     },
     "start": 1005,
     "end": 1029
@@ -561,8 +561,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{scx=Deva}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{scx=Deva}+$"
+      "pattern": "^\\p{scx=Deva}+$",
+      "flags": "u"
     },
     "start": 1097,
     "end": 1115
@@ -1123,8 +1123,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script_Extensions=Devanagari}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script_Extensions=Devanagari}+$"
+      "pattern": "^\\P{Script_Extensions=Devanagari}+$",
+      "flags": "u"
     },
     "start": 1559,
     "end": 1597
@@ -1181,8 +1181,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script_Extensions=Deva}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script_Extensions=Deva}+$"
+      "pattern": "^\\P{Script_Extensions=Deva}+$",
+      "flags": "u"
     },
     "start": 1682,
     "end": 1714
@@ -1239,8 +1239,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{scx=Devanagari}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{scx=Devanagari}+$"
+      "pattern": "^\\P{scx=Devanagari}+$",
+      "flags": "u"
     },
     "start": 1793,
     "end": 1817
@@ -1297,8 +1297,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{scx=Deva}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{scx=Deva}+$"
+      "pattern": "^\\P{scx=Deva}+$",
+      "flags": "u"
     },
     "start": 1888,
     "end": 1906

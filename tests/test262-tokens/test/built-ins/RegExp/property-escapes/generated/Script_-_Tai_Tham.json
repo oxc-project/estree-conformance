@@ -297,8 +297,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script=Tai_Tham}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script=Tai_Tham}+$"
+      "pattern": "^\\p{Script=Tai_Tham}+$",
+      "flags": "u"
     },
     "start": 682,
     "end": 707
@@ -355,8 +355,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script=Lana}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script=Lana}+$"
+      "pattern": "^\\p{Script=Lana}+$",
+      "flags": "u"
     },
     "start": 776,
     "end": 797
@@ -413,8 +413,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{sc=Tai_Tham}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{sc=Tai_Tham}+$"
+      "pattern": "^\\p{sc=Tai_Tham}+$",
+      "flags": "u"
     },
     "start": 862,
     "end": 883
@@ -471,8 +471,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{sc=Lana}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{sc=Lana}+$"
+      "pattern": "^\\p{sc=Lana}+$",
+      "flags": "u"
     },
     "start": 948,
     "end": 965
@@ -889,8 +889,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script=Tai_Tham}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script=Tai_Tham}+$"
+      "pattern": "^\\P{Script=Tai_Tham}+$",
+      "flags": "u"
     },
     "start": 1304,
     "end": 1329
@@ -947,8 +947,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script=Lana}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script=Lana}+$"
+      "pattern": "^\\P{Script=Lana}+$",
+      "flags": "u"
     },
     "start": 1401,
     "end": 1422
@@ -1005,8 +1005,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{sc=Tai_Tham}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{sc=Tai_Tham}+$"
+      "pattern": "^\\P{sc=Tai_Tham}+$",
+      "flags": "u"
     },
     "start": 1490,
     "end": 1511
@@ -1063,8 +1063,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{sc=Lana}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{sc=Lana}+$"
+      "pattern": "^\\P{sc=Lana}+$",
+      "flags": "u"
     },
     "start": 1579,
     "end": 1596

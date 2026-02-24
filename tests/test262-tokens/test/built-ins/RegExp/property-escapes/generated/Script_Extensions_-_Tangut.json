@@ -279,8 +279,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script_Extensions=Tangut}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script_Extensions=Tangut}+$"
+      "pattern": "^\\p{Script_Extensions=Tangut}+$",
+      "flags": "u"
     },
     "start": 695,
     "end": 729
@@ -337,8 +337,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script_Extensions=Tang}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script_Extensions=Tang}+$"
+      "pattern": "^\\p{Script_Extensions=Tang}+$",
+      "flags": "u"
     },
     "start": 807,
     "end": 839
@@ -395,8 +395,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{scx=Tangut}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{scx=Tangut}+$"
+      "pattern": "^\\p{scx=Tangut}+$",
+      "flags": "u"
     },
     "start": 915,
     "end": 935
@@ -453,8 +453,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{scx=Tang}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{scx=Tang}+$"
+      "pattern": "^\\p{scx=Tang}+$",
+      "flags": "u"
     },
     "start": 999,
     "end": 1017
@@ -937,8 +937,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script_Extensions=Tangut}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script_Extensions=Tangut}+$"
+      "pattern": "^\\P{Script_Extensions=Tangut}+$",
+      "flags": "u"
     },
     "start": 1393,
     "end": 1427
@@ -995,8 +995,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script_Extensions=Tang}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script_Extensions=Tang}+$"
+      "pattern": "^\\P{Script_Extensions=Tang}+$",
+      "flags": "u"
     },
     "start": 1508,
     "end": 1540
@@ -1053,8 +1053,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{scx=Tangut}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{scx=Tangut}+$"
+      "pattern": "^\\P{scx=Tangut}+$",
+      "flags": "u"
     },
     "start": 1619,
     "end": 1639
@@ -1111,8 +1111,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{scx=Tang}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{scx=Tang}+$"
+      "pattern": "^\\P{scx=Tang}+$",
+      "flags": "u"
     },
     "start": 1706,
     "end": 1724

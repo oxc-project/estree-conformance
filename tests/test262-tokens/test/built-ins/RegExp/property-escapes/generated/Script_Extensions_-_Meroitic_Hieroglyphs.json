@@ -159,8 +159,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script_Extensions=Meroitic_Hieroglyphs}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script_Extensions=Meroitic_Hieroglyphs}+$"
+      "pattern": "^\\p{Script_Extensions=Meroitic_Hieroglyphs}+$",
+      "flags": "u"
     },
     "start": 617,
     "end": 665
@@ -217,8 +217,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script_Extensions=Mero}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script_Extensions=Mero}+$"
+      "pattern": "^\\p{Script_Extensions=Mero}+$",
+      "flags": "u"
     },
     "start": 757,
     "end": 789
@@ -275,8 +275,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{scx=Meroitic_Hieroglyphs}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{scx=Meroitic_Hieroglyphs}+$"
+      "pattern": "^\\p{scx=Meroitic_Hieroglyphs}+$",
+      "flags": "u"
     },
     "start": 865,
     "end": 899
@@ -333,8 +333,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{scx=Mero}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{scx=Mero}+$"
+      "pattern": "^\\p{scx=Mero}+$",
+      "flags": "u"
     },
     "start": 977,
     "end": 995
@@ -673,8 +673,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script_Extensions=Meroitic_Hieroglyphs}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script_Extensions=Meroitic_Hieroglyphs}+$"
+      "pattern": "^\\P{Script_Extensions=Meroitic_Hieroglyphs}+$",
+      "flags": "u"
     },
     "start": 1267,
     "end": 1315
@@ -731,8 +731,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script_Extensions=Mero}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script_Extensions=Mero}+$"
+      "pattern": "^\\P{Script_Extensions=Mero}+$",
+      "flags": "u"
     },
     "start": 1410,
     "end": 1442
@@ -789,8 +789,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{scx=Meroitic_Hieroglyphs}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{scx=Meroitic_Hieroglyphs}+$"
+      "pattern": "^\\P{scx=Meroitic_Hieroglyphs}+$",
+      "flags": "u"
     },
     "start": 1521,
     "end": 1555
@@ -847,8 +847,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{scx=Mero}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{scx=Mero}+$"
+      "pattern": "^\\P{scx=Mero}+$",
+      "flags": "u"
     },
     "start": 1636,
     "end": 1654

@@ -21351,8 +21351,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{General_Category=Letter}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{General_Category=Letter}+$"
+      "pattern": "^\\p{General_Category=Letter}+$",
+      "flags": "u"
     },
     "start": 16654,
     "end": 16687
@@ -21409,8 +21409,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{General_Category=L}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{General_Category=L}+$"
+      "pattern": "^\\p{General_Category=L}+$",
+      "flags": "u"
     },
     "start": 16764,
     "end": 16792
@@ -21467,8 +21467,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{gc=Letter}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{gc=Letter}+$"
+      "pattern": "^\\p{gc=Letter}+$",
+      "flags": "u"
     },
     "start": 16864,
     "end": 16883
@@ -21525,8 +21525,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{gc=L}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{gc=L}+$"
+      "pattern": "^\\p{gc=L}+$",
+      "flags": "u"
     },
     "start": 16946,
     "end": 16960
@@ -21583,8 +21583,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Letter}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Letter}+$"
+      "pattern": "^\\p{Letter}+$",
+      "flags": "u"
     },
     "start": 17018,
     "end": 17034
@@ -21641,8 +21641,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{L}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{L}+$"
+      "pattern": "^\\p{L}+$",
+      "flags": "u"
     },
     "start": 17094,
     "end": 17105
@@ -41175,8 +41175,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{General_Category=Letter}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{General_Category=Letter}+$"
+      "pattern": "^\\P{General_Category=Letter}+$",
+      "flags": "u"
     },
     "start": 32428,
     "end": 32461
@@ -41233,8 +41233,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{General_Category=L}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{General_Category=L}+$"
+      "pattern": "^\\P{General_Category=L}+$",
+      "flags": "u"
     },
     "start": 32541,
     "end": 32569
@@ -41291,8 +41291,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{gc=Letter}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{gc=Letter}+$"
+      "pattern": "^\\P{gc=Letter}+$",
+      "flags": "u"
     },
     "start": 32644,
     "end": 32663
@@ -41349,8 +41349,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{gc=L}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{gc=L}+$"
+      "pattern": "^\\P{gc=L}+$",
+      "flags": "u"
     },
     "start": 32729,
     "end": 32743
@@ -41407,8 +41407,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Letter}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Letter}+$"
+      "pattern": "^\\P{Letter}+$",
+      "flags": "u"
     },
     "start": 32804,
     "end": 32820
@@ -41465,8 +41465,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{L}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{L}+$"
+      "pattern": "^\\P{L}+$",
+      "flags": "u"
     },
     "start": 32883,
     "end": 32894

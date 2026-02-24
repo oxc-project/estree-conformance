@@ -375,8 +375,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script=Georgian}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script=Georgian}+$"
+      "pattern": "^\\p{Script=Georgian}+$",
+      "flags": "u"
     },
     "start": 766,
     "end": 791
@@ -433,8 +433,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script=Geor}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script=Geor}+$"
+      "pattern": "^\\p{Script=Geor}+$",
+      "flags": "u"
     },
     "start": 860,
     "end": 881
@@ -491,8 +491,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{sc=Georgian}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{sc=Georgian}+$"
+      "pattern": "^\\p{sc=Georgian}+$",
+      "flags": "u"
     },
     "start": 946,
     "end": 967
@@ -549,8 +549,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{sc=Geor}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{sc=Geor}+$"
+      "pattern": "^\\p{sc=Geor}+$",
+      "flags": "u"
     },
     "start": 1032,
     "end": 1049
@@ -1099,8 +1099,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script=Georgian}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script=Georgian}+$"
+      "pattern": "^\\P{Script=Georgian}+$",
+      "flags": "u"
     },
     "start": 1494,
     "end": 1519
@@ -1157,8 +1157,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script=Geor}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script=Geor}+$"
+      "pattern": "^\\P{Script=Geor}+$",
+      "flags": "u"
     },
     "start": 1591,
     "end": 1612
@@ -1215,8 +1215,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{sc=Georgian}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{sc=Georgian}+$"
+      "pattern": "^\\P{sc=Georgian}+$",
+      "flags": "u"
     },
     "start": 1680,
     "end": 1701
@@ -1273,8 +1273,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{sc=Geor}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{sc=Geor}+$"
+      "pattern": "^\\P{sc=Geor}+$",
+      "flags": "u"
     },
     "start": 1769,
     "end": 1786

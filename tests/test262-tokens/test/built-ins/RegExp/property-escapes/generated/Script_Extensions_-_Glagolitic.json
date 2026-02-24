@@ -447,8 +447,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script_Extensions=Glagolitic}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script_Extensions=Glagolitic}+$"
+      "pattern": "^\\p{Script_Extensions=Glagolitic}+$",
+      "flags": "u"
     },
     "start": 863,
     "end": 901
@@ -505,8 +505,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script_Extensions=Glag}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script_Extensions=Glag}+$"
+      "pattern": "^\\p{Script_Extensions=Glag}+$",
+      "flags": "u"
     },
     "start": 983,
     "end": 1015
@@ -563,8 +563,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{scx=Glagolitic}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{scx=Glagolitic}+$"
+      "pattern": "^\\p{scx=Glagolitic}+$",
+      "flags": "u"
     },
     "start": 1091,
     "end": 1115
@@ -621,8 +621,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{scx=Glag}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{scx=Glag}+$"
+      "pattern": "^\\p{scx=Glag}+$",
+      "flags": "u"
     },
     "start": 1183,
     "end": 1201
@@ -1363,8 +1363,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script_Extensions=Glagolitic}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script_Extensions=Glagolitic}+$"
+      "pattern": "^\\P{Script_Extensions=Glagolitic}+$",
+      "flags": "u"
     },
     "start": 1791,
     "end": 1829
@@ -1421,8 +1421,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script_Extensions=Glag}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script_Extensions=Glag}+$"
+      "pattern": "^\\P{Script_Extensions=Glag}+$",
+      "flags": "u"
     },
     "start": 1914,
     "end": 1946
@@ -1479,8 +1479,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{scx=Glagolitic}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{scx=Glagolitic}+$"
+      "pattern": "^\\P{scx=Glagolitic}+$",
+      "flags": "u"
     },
     "start": 2025,
     "end": 2049
@@ -1537,8 +1537,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{scx=Glag}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{scx=Glag}+$"
+      "pattern": "^\\P{scx=Glag}+$",
+      "flags": "u"
     },
     "start": 2120,
     "end": 2138

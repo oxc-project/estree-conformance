@@ -195,8 +195,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script_Extensions=Caucasian_Albanian}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script_Extensions=Caucasian_Albanian}+$"
+      "pattern": "^\\p{Script_Extensions=Caucasian_Albanian}+$",
+      "flags": "u"
     },
     "start": 657,
     "end": 703
@@ -253,8 +253,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script_Extensions=Aghb}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script_Extensions=Aghb}+$"
+      "pattern": "^\\p{Script_Extensions=Aghb}+$",
+      "flags": "u"
     },
     "start": 793,
     "end": 825
@@ -311,8 +311,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{scx=Caucasian_Albanian}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{scx=Caucasian_Albanian}+$"
+      "pattern": "^\\p{scx=Caucasian_Albanian}+$",
+      "flags": "u"
     },
     "start": 901,
     "end": 933
@@ -369,8 +369,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{scx=Aghb}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{scx=Aghb}+$"
+      "pattern": "^\\p{scx=Aghb}+$",
+      "flags": "u"
     },
     "start": 1009,
     "end": 1027
@@ -817,8 +817,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script_Extensions=Caucasian_Albanian}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script_Extensions=Caucasian_Albanian}+$"
+      "pattern": "^\\P{Script_Extensions=Caucasian_Albanian}+$",
+      "flags": "u"
     },
     "start": 1377,
     "end": 1423
@@ -875,8 +875,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script_Extensions=Aghb}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script_Extensions=Aghb}+$"
+      "pattern": "^\\P{Script_Extensions=Aghb}+$",
+      "flags": "u"
     },
     "start": 1516,
     "end": 1548
@@ -933,8 +933,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{scx=Caucasian_Albanian}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{scx=Caucasian_Albanian}+$"
+      "pattern": "^\\P{scx=Caucasian_Albanian}+$",
+      "flags": "u"
     },
     "start": 1627,
     "end": 1659
@@ -991,8 +991,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{scx=Aghb}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{scx=Aghb}+$"
+      "pattern": "^\\P{scx=Aghb}+$",
+      "flags": "u"
     },
     "start": 1738,
     "end": 1756

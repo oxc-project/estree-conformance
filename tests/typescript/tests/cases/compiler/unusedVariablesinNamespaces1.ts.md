@@ -112,8 +112,8 @@ __ESTREE_TEST__:TOKENS:
     "type": "RegularExpression",
     "value": "/^[A-Za-z]+$/",
     "regex": {
-      "flags": "",
-      "pattern": "^[A-Za-z]+$"
+      "pattern": "^[A-Za-z]+$",
+      "flags": ""
     },
     "start": 49,
     "end": 62

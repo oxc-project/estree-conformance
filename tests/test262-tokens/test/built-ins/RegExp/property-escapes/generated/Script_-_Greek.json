@@ -1143,8 +1143,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script=Greek}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script=Greek}+$"
+      "pattern": "^\\p{Script=Greek}+$",
+      "flags": "u"
     },
     "start": 1355,
     "end": 1377
@@ -1201,8 +1201,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script=Grek}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script=Grek}+$"
+      "pattern": "^\\p{Script=Grek}+$",
+      "flags": "u"
     },
     "start": 1443,
     "end": 1464
@@ -1259,8 +1259,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{sc=Greek}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{sc=Greek}+$"
+      "pattern": "^\\p{sc=Greek}+$",
+      "flags": "u"
     },
     "start": 1529,
     "end": 1547
@@ -1317,8 +1317,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{sc=Grek}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{sc=Grek}+$"
+      "pattern": "^\\p{sc=Grek}+$",
+      "flags": "u"
     },
     "start": 1609,
     "end": 1626
@@ -2515,8 +2515,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script=Greek}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script=Greek}+$"
+      "pattern": "^\\P{Script=Greek}+$",
+      "flags": "u"
     },
     "start": 2603,
     "end": 2625
@@ -2573,8 +2573,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script=Grek}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script=Grek}+$"
+      "pattern": "^\\P{Script=Grek}+$",
+      "flags": "u"
     },
     "start": 2694,
     "end": 2715
@@ -2631,8 +2631,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{sc=Greek}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{sc=Greek}+$"
+      "pattern": "^\\P{sc=Greek}+$",
+      "flags": "u"
     },
     "start": 2783,
     "end": 2801
@@ -2689,8 +2689,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{sc=Grek}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{sc=Grek}+$"
+      "pattern": "^\\P{sc=Grek}+$",
+      "flags": "u"
     },
     "start": 2866,
     "end": 2883

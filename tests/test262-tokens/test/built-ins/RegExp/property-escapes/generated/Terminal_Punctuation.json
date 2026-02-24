@@ -3255,8 +3255,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Terminal_Punctuation}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Terminal_Punctuation}+$"
+      "pattern": "^\\p{Terminal_Punctuation}+$",
+      "flags": "u"
     },
     "start": 3059,
     "end": 3089
@@ -3313,8 +3313,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Term}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Term}+$"
+      "pattern": "^\\p{Term}+$",
+      "flags": "u"
     },
     "start": 3163,
     "end": 3177
@@ -7535,8 +7535,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Terminal_Punctuation}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Terminal_Punctuation}+$"
+      "pattern": "^\\P{Terminal_Punctuation}+$",
+      "flags": "u"
     },
     "start": 6303,
     "end": 6333
@@ -7593,8 +7593,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Term}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Term}+$"
+      "pattern": "^\\P{Term}+$",
+      "flags": "u"
     },
     "start": 6410,
     "end": 6424

@@ -225,8 +225,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script=Marchen}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script=Marchen}+$"
+      "pattern": "^\\p{Script=Marchen}+$",
+      "flags": "u"
     },
     "start": 629,
     "end": 653
@@ -283,8 +283,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script=Marc}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script=Marc}+$"
+      "pattern": "^\\p{Script=Marc}+$",
+      "flags": "u"
     },
     "start": 721,
     "end": 742
@@ -341,8 +341,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{sc=Marchen}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{sc=Marchen}+$"
+      "pattern": "^\\p{sc=Marchen}+$",
+      "flags": "u"
     },
     "start": 807,
     "end": 827
@@ -399,8 +399,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{sc=Marc}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{sc=Marc}+$"
+      "pattern": "^\\p{sc=Marc}+$",
+      "flags": "u"
     },
     "start": 891,
     "end": 908
@@ -745,8 +745,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script=Marchen}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script=Marchen}+$"
+      "pattern": "^\\P{Script=Marchen}+$",
+      "flags": "u"
     },
     "start": 1195,
     "end": 1219
@@ -803,8 +803,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script=Marc}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script=Marc}+$"
+      "pattern": "^\\P{Script=Marc}+$",
+      "flags": "u"
     },
     "start": 1290,
     "end": 1311
@@ -861,8 +861,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{sc=Marchen}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{sc=Marchen}+$"
+      "pattern": "^\\P{sc=Marchen}+$",
+      "flags": "u"
     },
     "start": 1379,
     "end": 1399
@@ -919,8 +919,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{sc=Marc}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{sc=Marc}+$"
+      "pattern": "^\\P{sc=Marc}+$",
+      "flags": "u"
     },
     "start": 1466,
     "end": 1483

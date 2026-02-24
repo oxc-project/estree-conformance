@@ -51,8 +51,8 @@
     "type": "RegularExpression",
     "value": "/b(c)?/d",
     "regex": {
-      "flags": "d",
-      "pattern": "b(c)?"
+      "pattern": "b(c)?",
+      "flags": "d"
     },
     "start": 893,
     "end": 901

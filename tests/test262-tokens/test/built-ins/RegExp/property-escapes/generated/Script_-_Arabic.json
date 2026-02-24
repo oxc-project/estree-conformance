@@ -1743,8 +1743,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script=Arabic}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script=Arabic}+$"
+      "pattern": "^\\p{Script=Arabic}+$",
+      "flags": "u"
     },
     "start": 1816,
     "end": 1839
@@ -1801,8 +1801,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script=Arab}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script=Arab}+$"
+      "pattern": "^\\p{Script=Arab}+$",
+      "flags": "u"
     },
     "start": 1906,
     "end": 1927
@@ -1859,8 +1859,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{sc=Arabic}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{sc=Arabic}+$"
+      "pattern": "^\\p{sc=Arabic}+$",
+      "flags": "u"
     },
     "start": 1992,
     "end": 2011
@@ -1917,8 +1917,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{sc=Arab}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{sc=Arab}+$"
+      "pattern": "^\\p{sc=Arab}+$",
+      "flags": "u"
     },
     "start": 2074,
     "end": 2091
@@ -3355,8 +3355,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script=Arabic}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script=Arabic}+$"
+      "pattern": "^\\P{Script=Arabic}+$",
+      "flags": "u"
     },
     "start": 3348,
     "end": 3371
@@ -3413,8 +3413,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script=Arab}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script=Arab}+$"
+      "pattern": "^\\P{Script=Arab}+$",
+      "flags": "u"
     },
     "start": 3441,
     "end": 3462
@@ -3471,8 +3471,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{sc=Arabic}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{sc=Arabic}+$"
+      "pattern": "^\\P{sc=Arabic}+$",
+      "flags": "u"
     },
     "start": 3530,
     "end": 3549
@@ -3529,8 +3529,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{sc=Arab}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{sc=Arab}+$"
+      "pattern": "^\\P{sc=Arab}+$",
+      "flags": "u"
     },
     "start": 3615,
     "end": 3632

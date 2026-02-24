@@ -153,8 +153,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script=Meroitic_Hieroglyphs}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script=Meroitic_Hieroglyphs}+$"
+      "pattern": "^\\p{Script=Meroitic_Hieroglyphs}+$",
+      "flags": "u"
     },
     "start": 590,
     "end": 627
@@ -211,8 +211,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script=Mero}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script=Mero}+$"
+      "pattern": "^\\p{Script=Mero}+$",
+      "flags": "u"
     },
     "start": 708,
     "end": 729
@@ -269,8 +269,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{sc=Meroitic_Hieroglyphs}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{sc=Meroitic_Hieroglyphs}+$"
+      "pattern": "^\\p{sc=Meroitic_Hieroglyphs}+$",
+      "flags": "u"
     },
     "start": 794,
     "end": 827
@@ -327,8 +327,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{sc=Mero}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{sc=Mero}+$"
+      "pattern": "^\\p{sc=Mero}+$",
+      "flags": "u"
     },
     "start": 904,
     "end": 921
@@ -631,8 +631,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script=Meroitic_Hieroglyphs}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script=Meroitic_Hieroglyphs}+$"
+      "pattern": "^\\P{Script=Meroitic_Hieroglyphs}+$",
+      "flags": "u"
     },
     "start": 1166,
     "end": 1203
@@ -689,8 +689,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script=Mero}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script=Mero}+$"
+      "pattern": "^\\P{Script=Mero}+$",
+      "flags": "u"
     },
     "start": 1287,
     "end": 1308
@@ -747,8 +747,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{sc=Meroitic_Hieroglyphs}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{sc=Meroitic_Hieroglyphs}+$"
+      "pattern": "^\\P{sc=Meroitic_Hieroglyphs}+$",
+      "flags": "u"
     },
     "start": 1376,
     "end": 1409
@@ -805,8 +805,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{sc=Mero}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{sc=Mero}+$"
+      "pattern": "^\\P{sc=Mero}+$",
+      "flags": "u"
     },
     "start": 1489,
     "end": 1506

@@ -153,8 +153,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script=Chorasmian}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script=Chorasmian}+$"
+      "pattern": "^\\p{Script=Chorasmian}+$",
+      "flags": "u"
     },
     "start": 580,
     "end": 607
@@ -211,8 +211,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script=Chrs}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script=Chrs}+$"
+      "pattern": "^\\p{Script=Chrs}+$",
+      "flags": "u"
     },
     "start": 678,
     "end": 699
@@ -269,8 +269,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{sc=Chorasmian}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{sc=Chorasmian}+$"
+      "pattern": "^\\p{sc=Chorasmian}+$",
+      "flags": "u"
     },
     "start": 764,
     "end": 787
@@ -327,8 +327,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{sc=Chrs}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{sc=Chrs}+$"
+      "pattern": "^\\p{sc=Chrs}+$",
+      "flags": "u"
     },
     "start": 854,
     "end": 871
@@ -631,8 +631,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script=Chorasmian}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script=Chorasmian}+$"
+      "pattern": "^\\P{Script=Chorasmian}+$",
+      "flags": "u"
     },
     "start": 1116,
     "end": 1143
@@ -689,8 +689,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script=Chrs}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script=Chrs}+$"
+      "pattern": "^\\P{Script=Chrs}+$",
+      "flags": "u"
     },
     "start": 1217,
     "end": 1238
@@ -747,8 +747,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{sc=Chorasmian}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{sc=Chorasmian}+$"
+      "pattern": "^\\P{sc=Chorasmian}+$",
+      "flags": "u"
     },
     "start": 1306,
     "end": 1329
@@ -805,8 +805,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{sc=Chrs}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{sc=Chrs}+$"
+      "pattern": "^\\P{sc=Chrs}+$",
+      "flags": "u"
     },
     "start": 1399,
     "end": 1416

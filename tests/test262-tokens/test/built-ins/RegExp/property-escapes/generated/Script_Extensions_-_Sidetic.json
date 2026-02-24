@@ -153,8 +153,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script_Extensions=Sidetic}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script_Extensions=Sidetic}+$"
+      "pattern": "^\\p{Script_Extensions=Sidetic}+$",
+      "flags": "u"
     },
     "start": 588,
     "end": 623
@@ -211,8 +211,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script_Extensions=Sidt}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script_Extensions=Sidt}+$"
+      "pattern": "^\\p{Script_Extensions=Sidt}+$",
+      "flags": "u"
     },
     "start": 702,
     "end": 734
@@ -269,8 +269,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{scx=Sidetic}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{scx=Sidetic}+$"
+      "pattern": "^\\p{scx=Sidetic}+$",
+      "flags": "u"
     },
     "start": 810,
     "end": 831
@@ -327,8 +327,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{scx=Sidt}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{scx=Sidt}+$"
+      "pattern": "^\\p{scx=Sidt}+$",
+      "flags": "u"
     },
     "start": 896,
     "end": 914
@@ -631,8 +631,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script_Extensions=Sidetic}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script_Extensions=Sidetic}+$"
+      "pattern": "^\\P{Script_Extensions=Sidetic}+$",
+      "flags": "u"
     },
     "start": 1160,
     "end": 1195
@@ -689,8 +689,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script_Extensions=Sidt}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script_Extensions=Sidt}+$"
+      "pattern": "^\\P{Script_Extensions=Sidt}+$",
+      "flags": "u"
     },
     "start": 1277,
     "end": 1309
@@ -747,8 +747,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{scx=Sidetic}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{scx=Sidetic}+$"
+      "pattern": "^\\P{scx=Sidetic}+$",
+      "flags": "u"
     },
     "start": 1388,
     "end": 1409
@@ -805,8 +805,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{scx=Sidt}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{scx=Sidt}+$"
+      "pattern": "^\\P{scx=Sidt}+$",
+      "flags": "u"
     },
     "start": 1477,
     "end": 1495

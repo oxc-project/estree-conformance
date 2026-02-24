@@ -939,8 +939,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Extender}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Extender}+$"
+      "pattern": "^\\p{Extender}+$",
+      "flags": "u"
     },
     "start": 1305,
     "end": 1323
@@ -997,8 +997,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Ext}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Ext}+$"
+      "pattern": "^\\p{Ext}+$",
+      "flags": "u"
     },
     "start": 1385,
     "end": 1398
@@ -2783,8 +2783,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Extender}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Extender}+$"
+      "pattern": "^\\P{Extender}+$",
+      "flags": "u"
     },
     "start": 2721,
     "end": 2739
@@ -2841,8 +2841,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Ext}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Ext}+$"
+      "pattern": "^\\P{Ext}+$",
+      "flags": "u"
     },
     "start": 2804,
     "end": 2817

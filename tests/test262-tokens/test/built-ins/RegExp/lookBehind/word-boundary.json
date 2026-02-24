@@ -51,8 +51,8 @@
     "type": "RegularExpression",
     "value": "/(?<=\\b)[d-f]{3}/",
     "regex": {
-      "flags": "",
-      "pattern": "(?<=\\b)[d-f]{3}"
+      "pattern": "(?<=\\b)[d-f]{3}",
+      "flags": ""
     },
     "start": 995,
     "end": 1012
@@ -163,8 +163,8 @@
     "type": "RegularExpression",
     "value": "/(?<=\\B)\\w{3}/",
     "regex": {
-      "flags": "",
-      "pattern": "(?<=\\B)\\w{3}"
+      "pattern": "(?<=\\B)\\w{3}",
+      "flags": ""
     },
     "start": 1067,
     "end": 1081
@@ -275,8 +275,8 @@
     "type": "RegularExpression",
     "value": "/(?<=\\B)(?<=c(?<=\\w))\\w{3}/",
     "regex": {
-      "flags": "",
-      "pattern": "(?<=\\B)(?<=c(?<=\\w))\\w{3}"
+      "pattern": "(?<=\\B)(?<=c(?<=\\w))\\w{3}",
+      "flags": ""
     },
     "start": 1136,
     "end": 1163
@@ -387,8 +387,8 @@
     "type": "RegularExpression",
     "value": "/(?<=\\b)[d-f]{3}/",
     "regex": {
-      "flags": "",
-      "pattern": "(?<=\\b)[d-f]{3}"
+      "pattern": "(?<=\\b)[d-f]{3}",
+      "flags": ""
     },
     "start": 1214,
     "end": 1231

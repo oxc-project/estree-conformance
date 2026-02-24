@@ -153,8 +153,8 @@ __ESTREE_TEST__:TOKENS:
     "type": "RegularExpression",
     "value": "/[[]/",
     "regex": {
-      "flags": "",
-      "pattern": "[[]"
+      "pattern": "[[]",
+      "flags": ""
     },
     "start": 30,
     "end": 35
@@ -169,8 +169,8 @@ __ESTREE_TEST__:TOKENS:
     "type": "RegularExpression",
     "value": "/[[]/u",
     "regex": {
-      "flags": "u",
-      "pattern": "[[]"
+      "pattern": "[[]",
+      "flags": "u"
     },
     "start": 49,
     "end": 55
@@ -185,8 +185,8 @@ __ESTREE_TEST__:TOKENS:
     "type": "RegularExpression",
     "value": "/[[]/v",
     "regex": {
-      "flags": "v",
-      "pattern": "[[]"
+      "pattern": "[[]",
+      "flags": "v"
     },
     "start": 68,
     "end": 74

@@ -4143,8 +4143,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Extended_Pictographic}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Extended_Pictographic}+$"
+      "pattern": "^\\p{Extended_Pictographic}+$",
+      "flags": "u"
     },
     "start": 3824,
     "end": 3855
@@ -4201,8 +4201,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{ExtPict}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{ExtPict}+$"
+      "pattern": "^\\p{ExtPict}+$",
+      "flags": "u"
     },
     "start": 3930,
     "end": 3947
@@ -9479,8 +9479,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Extended_Pictographic}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Extended_Pictographic}+$"
+      "pattern": "^\\P{Extended_Pictographic}+$",
+      "flags": "u"
     },
     "start": 7924,
     "end": 7955
@@ -9537,8 +9537,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{ExtPict}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{ExtPict}+$"
+      "pattern": "^\\P{ExtPict}+$",
+      "flags": "u"
     },
     "start": 8033,
     "end": 8050

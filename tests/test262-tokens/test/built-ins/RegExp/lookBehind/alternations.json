@@ -51,8 +51,8 @@
     "type": "RegularExpression",
     "value": "/.*(?<=(..|...|....))(.*)/",
     "regex": {
-      "flags": "",
-      "pattern": ".*(?<=(..|...|....))(.*)"
+      "pattern": ".*(?<=(..|...|....))(.*)",
+      "flags": ""
     },
     "start": 1034,
     "end": 1060
@@ -187,8 +187,8 @@
     "type": "RegularExpression",
     "value": "/.*(?<=(xx|...|....))(.*)/",
     "regex": {
-      "flags": "",
-      "pattern": ".*(?<=(xx|...|....))(.*)"
+      "pattern": ".*(?<=(xx|...|....))(.*)",
+      "flags": ""
     },
     "start": 1125,
     "end": 1151
@@ -323,8 +323,8 @@
     "type": "RegularExpression",
     "value": "/.*(?<=(xx|...))(.*)/",
     "regex": {
-      "flags": "",
-      "pattern": ".*(?<=(xx|...))(.*)"
+      "pattern": ".*(?<=(xx|...))(.*)",
+      "flags": ""
     },
     "start": 1218,
     "end": 1239
@@ -459,8 +459,8 @@
     "type": "RegularExpression",
     "value": "/.*(?<=(xx|xxx))(.*)/",
     "regex": {
-      "flags": "",
-      "pattern": ".*(?<=(xx|xxx))(.*)"
+      "pattern": ".*(?<=(xx|xxx))(.*)",
+      "flags": ""
     },
     "start": 1307,
     "end": 1328

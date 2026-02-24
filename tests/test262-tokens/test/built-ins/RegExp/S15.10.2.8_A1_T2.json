@@ -21,8 +21,8 @@
     "type": "RegularExpression",
     "value": "/(?=(a+))a*b\\1/",
     "regex": {
-      "flags": "",
-      "pattern": "(?=(a+))a*b\\1"
+      "pattern": "(?=(a+))a*b\\1",
+      "flags": ""
     },
     "start": 605,
     "end": 620

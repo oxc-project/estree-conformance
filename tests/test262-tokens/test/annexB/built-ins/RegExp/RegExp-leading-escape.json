@@ -27,8 +27,8 @@
     "type": "RegularExpression",
     "value": "/\\1/",
     "regex": {
-      "flags": "",
-      "pattern": "\\1"
+      "pattern": "\\1",
+      "flags": ""
     },
     "start": 404,
     "end": 408
@@ -97,8 +97,8 @@
     "type": "RegularExpression",
     "value": "/\\a/",
     "regex": {
-      "flags": "",
-      "pattern": "\\a"
+      "pattern": "\\a",
+      "flags": ""
     },
     "start": 442,
     "end": 446

@@ -3540,8 +3540,8 @@ __ESTREE_TEST__:TOKENS:
     "type": "RegularExpression",
     "value": "/-(.)/g",
     "regex": {
-      "flags": "g",
-      "pattern": "-(.)"
+      "pattern": "-(.)",
+      "flags": "g"
     },
     "start": 1972,
     "end": 1979
@@ -3712,8 +3712,8 @@ __ESTREE_TEST__:TOKENS:
     "type": "RegularExpression",
     "value": "/[^\\s]/",
     "regex": {
-      "flags": "",
-      "pattern": "[^\\s]"
+      "pattern": "[^\\s]",
+      "flags": ""
     },
     "start": 2160,
     "end": 2167
@@ -3806,8 +3806,8 @@ __ESTREE_TEST__:TOKENS:
     "type": "RegularExpression",
     "value": "/^\\d+px$/",
     "regex": {
-      "flags": "",
-      "pattern": "^\\d+px$"
+      "pattern": "^\\d+px$",
+      "flags": ""
     },
     "start": 2410,
     "end": 2419
@@ -4302,8 +4302,8 @@ __ESTREE_TEST__:TOKENS:
     "type": "RegularExpression",
     "value": "/\\r/g",
     "regex": {
-      "flags": "g",
-      "pattern": "\\r"
+      "pattern": "\\r",
+      "flags": "g"
     },
     "start": 3323,
     "end": 3328
@@ -4348,8 +4348,8 @@ __ESTREE_TEST__:TOKENS:
     "type": "RegularExpression",
     "value": "/( {2,}|\\n|\\t|\\{|\\})/g",
     "regex": {
-      "flags": "g",
-      "pattern": "( {2,}|\\n|\\t|\\{|\\})"
+      "pattern": "( {2,}|\\n|\\t|\\{|\\})",
+      "flags": "g"
     },
     "start": 3351,
     "end": 3373

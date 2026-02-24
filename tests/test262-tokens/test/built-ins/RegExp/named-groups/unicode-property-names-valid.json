@@ -141,8 +141,8 @@
     "type": "RegularExpression",
     "value": "/(?<animal>fox|dog)/u",
     "regex": {
-      "flags": "u",
-      "pattern": "(?<animal>fox|dog)"
+      "pattern": "(?<animal>fox|dog)",
+      "flags": "u"
     },
     "start": 1208,
     "end": 1229
@@ -253,8 +253,8 @@
     "type": "RegularExpression",
     "value": "/(?<the2>the)/u",
     "regex": {
-      "flags": "u",
-      "pattern": "(?<the2>the)"
+      "pattern": "(?<the2>the)",
+      "flags": "u"
     },
     "start": 1284,
     "end": 1299
@@ -353,8 +353,8 @@
     "type": "RegularExpression",
     "value": "/(?<𝑓𝑜𝑥>fox).*(?<𝓓𝓸𝓰>dog)/u",
     "regex": {
-      "flags": "u",
-      "pattern": "(?<𝑓𝑜𝑥>fox).*(?<𝓓𝓸𝓰>dog)"
+      "pattern": "(?<𝑓𝑜𝑥>fox).*(?<𝓓𝓸𝓰>dog)",
+      "flags": "u"
     },
     "start": 1344,
     "end": 1377
@@ -711,8 +711,8 @@
     "type": "RegularExpression",
     "value": "/(?<狸>fox).*(?<狗>dog)/u",
     "regex": {
-      "flags": "u",
-      "pattern": "(?<狸>fox).*(?<狗>dog)"
+      "pattern": "(?<狸>fox).*(?<狗>dog)",
+      "flags": "u"
     },
     "start": 1564,
     "end": 1587
@@ -1081,8 +1081,8 @@
     "type": "RegularExpression",
     "value": "/(?<𝓑𝓻𝓸𝔀𝓷>brown)/u",
     "regex": {
-      "flags": "u",
-      "pattern": "(?<𝓑𝓻𝓸𝔀𝓷>brown)"
+      "pattern": "(?<𝓑𝓻𝓸𝔀𝓷>brown)",
+      "flags": "u"
     },
     "start": 1773,
     "end": 1796
@@ -1193,8 +1193,8 @@
     "type": "RegularExpression",
     "value": "/(?<𝓑𝓻𝓸𝔀𝓷>brown)/u",
     "regex": {
-      "flags": "u",
-      "pattern": "(?<𝓑𝓻𝓸𝔀𝓷>brown)"
+      "pattern": "(?<𝓑𝓻𝓸𝔀𝓷>brown)",
+      "flags": "u"
     },
     "start": 1857,
     "end": 1880
@@ -1305,8 +1305,8 @@
     "type": "RegularExpression",
     "value": "/(?<\\u{1d4d1}\\u{1d4fb}\\u{1d4f8}\\u{1d500}\\u{1d4f7}>brown)/u",
     "regex": {
-      "flags": "u",
-      "pattern": "(?<\\u{1d4d1}\\u{1d4fb}\\u{1d4f8}\\u{1d500}\\u{1d4f7}>brown)"
+      "pattern": "(?<\\u{1d4d1}\\u{1d4fb}\\u{1d4f8}\\u{1d500}\\u{1d4f7}>brown)",
+      "flags": "u"
     },
     "start": 1976,
     "end": 2034
@@ -1417,8 +1417,8 @@
     "type": "RegularExpression",
     "value": "/(?<\\u{1d4d1}\\u{1d4fb}\\u{1d4f8}\\u{1d500}\\u{1d4f7}>brown)/u",
     "regex": {
-      "flags": "u",
-      "pattern": "(?<\\u{1d4d1}\\u{1d4fb}\\u{1d4f8}\\u{1d500}\\u{1d4f7}>brown)"
+      "pattern": "(?<\\u{1d4d1}\\u{1d4fb}\\u{1d4f8}\\u{1d500}\\u{1d4f7}>brown)",
+      "flags": "u"
     },
     "start": 2095,
     "end": 2153
@@ -1529,8 +1529,8 @@
     "type": "RegularExpression",
     "value": "/(?<\\ud835\\udcd1\\ud835\\udcfb\\ud835\\udcf8\\ud835\\udd00\\ud835\\udcf7>brown)/u",
     "regex": {
-      "flags": "u",
-      "pattern": "(?<\\ud835\\udcd1\\ud835\\udcfb\\ud835\\udcf8\\ud835\\udd00\\ud835\\udcf7>brown)"
+      "pattern": "(?<\\ud835\\udcd1\\ud835\\udcfb\\ud835\\udcf8\\ud835\\udd00\\ud835\\udcf7>brown)",
+      "flags": "u"
     },
     "start": 2249,
     "end": 2322
@@ -1641,8 +1641,8 @@
     "type": "RegularExpression",
     "value": "/(?<\\ud835\\udcd1\\ud835\\udcfb\\ud835\\udcf8\\ud835\\udd00\\ud835\\udcf7>brown)/u",
     "regex": {
-      "flags": "u",
-      "pattern": "(?<\\ud835\\udcd1\\ud835\\udcfb\\ud835\\udcf8\\ud835\\udd00\\ud835\\udcf7>brown)"
+      "pattern": "(?<\\ud835\\udcd1\\ud835\\udcfb\\ud835\\udcf8\\ud835\\udd00\\ud835\\udcf7>brown)",
+      "flags": "u"
     },
     "start": 2383,
     "end": 2456
@@ -1753,8 +1753,8 @@
     "type": "RegularExpression",
     "value": "/(?<𝖰𝖡𝖥>q\\w*\\W\\w*\\W\\w*)/u",
     "regex": {
-      "flags": "u",
-      "pattern": "(?<𝖰𝖡𝖥>q\\w*\\W\\w*\\W\\w*)"
+      "pattern": "(?<𝖰𝖡𝖥>q\\w*\\W\\w*\\W\\w*)",
+      "flags": "u"
     },
     "start": 2553,
     "end": 2581
@@ -1865,8 +1865,8 @@
     "type": "RegularExpression",
     "value": "/(?<𝖰𝖡\\u{1d5a5}>q\\w*\\W\\w*\\W\\w*)/u",
     "regex": {
-      "flags": "u",
-      "pattern": "(?<𝖰𝖡\\u{1d5a5}>q\\w*\\W\\w*\\W\\w*)"
+      "pattern": "(?<𝖰𝖡\\u{1d5a5}>q\\w*\\W\\w*\\W\\w*)",
+      "flags": "u"
     },
     "start": 2648,
     "end": 2683
@@ -1977,8 +1977,8 @@
     "type": "RegularExpression",
     "value": "/(?<𝖰\\u{1d5a1}𝖥>q\\w*\\W\\w*\\W\\w*)/u",
     "regex": {
-      "flags": "u",
-      "pattern": "(?<𝖰\\u{1d5a1}𝖥>q\\w*\\W\\w*\\W\\w*)"
+      "pattern": "(?<𝖰\\u{1d5a1}𝖥>q\\w*\\W\\w*\\W\\w*)",
+      "flags": "u"
     },
     "start": 2750,
     "end": 2785
@@ -2089,8 +2089,8 @@
     "type": "RegularExpression",
     "value": "/(?<𝖰\\u{1d5a1}\\u{1d5a5}>q\\w*\\W\\w*\\W\\w*)/u",
     "regex": {
-      "flags": "u",
-      "pattern": "(?<𝖰\\u{1d5a1}\\u{1d5a5}>q\\w*\\W\\w*\\W\\w*)"
+      "pattern": "(?<𝖰\\u{1d5a1}\\u{1d5a5}>q\\w*\\W\\w*\\W\\w*)",
+      "flags": "u"
     },
     "start": 2852,
     "end": 2894
@@ -2201,8 +2201,8 @@
     "type": "RegularExpression",
     "value": "/(?<\\u{1d5b0}𝖡𝖥>q\\w*\\W\\w*\\W\\w*)/u",
     "regex": {
-      "flags": "u",
-      "pattern": "(?<\\u{1d5b0}𝖡𝖥>q\\w*\\W\\w*\\W\\w*)"
+      "pattern": "(?<\\u{1d5b0}𝖡𝖥>q\\w*\\W\\w*\\W\\w*)",
+      "flags": "u"
     },
     "start": 2961,
     "end": 2996
@@ -2313,8 +2313,8 @@
     "type": "RegularExpression",
     "value": "/(?<\\u{1d5b0}𝖡\\u{1d5a5}>q\\w*\\W\\w*\\W\\w*)/u",
     "regex": {
-      "flags": "u",
-      "pattern": "(?<\\u{1d5b0}𝖡\\u{1d5a5}>q\\w*\\W\\w*\\W\\w*)"
+      "pattern": "(?<\\u{1d5b0}𝖡\\u{1d5a5}>q\\w*\\W\\w*\\W\\w*)",
+      "flags": "u"
     },
     "start": 3063,
     "end": 3105
@@ -2425,8 +2425,8 @@
     "type": "RegularExpression",
     "value": "/(?<\\u{1d5b0}\\u{1d5a1}𝖥>q\\w*\\W\\w*\\W\\w*)/u",
     "regex": {
-      "flags": "u",
-      "pattern": "(?<\\u{1d5b0}\\u{1d5a1}𝖥>q\\w*\\W\\w*\\W\\w*)"
+      "pattern": "(?<\\u{1d5b0}\\u{1d5a1}𝖥>q\\w*\\W\\w*\\W\\w*)",
+      "flags": "u"
     },
     "start": 3172,
     "end": 3214
@@ -2537,8 +2537,8 @@
     "type": "RegularExpression",
     "value": "/(?<\\u{1d5b0}\\u{1d5a1}\\u{1d5a5}>q\\w*\\W\\w*\\W\\w*)/u",
     "regex": {
-      "flags": "u",
-      "pattern": "(?<\\u{1d5b0}\\u{1d5a1}\\u{1d5a5}>q\\w*\\W\\w*\\W\\w*)"
+      "pattern": "(?<\\u{1d5b0}\\u{1d5a1}\\u{1d5a5}>q\\w*\\W\\w*\\W\\w*)",
+      "flags": "u"
     },
     "start": 3281,
     "end": 3330
@@ -2649,8 +2649,8 @@
     "type": "RegularExpression",
     "value": "/(?<the𝟚>the)/u",
     "regex": {
-      "flags": "u",
-      "pattern": "(?<the𝟚>the)"
+      "pattern": "(?<the𝟚>the)",
+      "flags": "u"
     },
     "start": 3398,
     "end": 3414
@@ -2761,8 +2761,8 @@
     "type": "RegularExpression",
     "value": "/(?<the\\u{1d7da}>the)/u",
     "regex": {
-      "flags": "u",
-      "pattern": "(?<the\\u{1d7da}>the)"
+      "pattern": "(?<the\\u{1d7da}>the)",
+      "flags": "u"
     },
     "start": 3468,
     "end": 3491
@@ -2873,8 +2873,8 @@
     "type": "RegularExpression",
     "value": "/(?<the\\ud835\\udfda>the)/u",
     "regex": {
-      "flags": "u",
-      "pattern": "(?<the\\ud835\\udfda>the)"
+      "pattern": "(?<the\\ud835\\udfda>the)",
+      "flags": "u"
     },
     "start": 3545,
     "end": 3571
@@ -2973,8 +2973,8 @@
     "type": "RegularExpression",
     "value": "/(?<dog>dog)(.*?)(\\k<dog>)/u",
     "regex": {
-      "flags": "u",
-      "pattern": "(?<dog>dog)(.*?)(\\k<dog>)"
+      "pattern": "(?<dog>dog)(.*?)(\\k<dog>)",
+      "flags": "u"
     },
     "start": 3618,
     "end": 3646
@@ -3325,8 +3325,8 @@
     "type": "RegularExpression",
     "value": "/(?<𝓓𝓸𝓰>dog)(.*?)(\\k<𝓓𝓸𝓰>)/u",
     "regex": {
-      "flags": "u",
-      "pattern": "(?<𝓓𝓸𝓰>dog)(.*?)(\\k<𝓓𝓸𝓰>)"
+      "pattern": "(?<𝓓𝓸𝓰>dog)(.*?)(\\k<𝓓𝓸𝓰>)",
+      "flags": "u"
     },
     "start": 3822,
     "end": 3856
@@ -3677,8 +3677,8 @@
     "type": "RegularExpression",
     "value": "/(?<狗>dog)(.*?)(\\k<狗>)/u",
     "regex": {
-      "flags": "u",
-      "pattern": "(?<狗>dog)(.*?)(\\k<狗>)"
+      "pattern": "(?<狗>dog)(.*?)(\\k<狗>)",
+      "flags": "u"
     },
     "start": 4035,
     "end": 4059

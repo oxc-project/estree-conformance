@@ -189,8 +189,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script=Runic}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script=Runic}+$"
+      "pattern": "^\\p{Script=Runic}+$",
+      "flags": "u"
     },
     "start": 601,
     "end": 623
@@ -247,8 +247,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script=Runr}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script=Runr}+$"
+      "pattern": "^\\p{Script=Runr}+$",
+      "flags": "u"
     },
     "start": 689,
     "end": 710
@@ -305,8 +305,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{sc=Runic}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{sc=Runic}+$"
+      "pattern": "^\\p{sc=Runic}+$",
+      "flags": "u"
     },
     "start": 775,
     "end": 793
@@ -363,8 +363,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{sc=Runr}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{sc=Runr}+$"
+      "pattern": "^\\p{sc=Runr}+$",
+      "flags": "u"
     },
     "start": 855,
     "end": 872
@@ -703,8 +703,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script=Runic}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script=Runic}+$"
+      "pattern": "^\\P{Script=Runic}+$",
+      "flags": "u"
     },
     "start": 1143,
     "end": 1165
@@ -761,8 +761,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script=Runr}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script=Runr}+$"
+      "pattern": "^\\P{Script=Runr}+$",
+      "flags": "u"
     },
     "start": 1234,
     "end": 1255
@@ -819,8 +819,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{sc=Runic}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{sc=Runic}+$"
+      "pattern": "^\\P{sc=Runic}+$",
+      "flags": "u"
     },
     "start": 1323,
     "end": 1341
@@ -877,8 +877,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{sc=Runr}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{sc=Runr}+$"
+      "pattern": "^\\P{sc=Runr}+$",
+      "flags": "u"
     },
     "start": 1406,
     "end": 1423

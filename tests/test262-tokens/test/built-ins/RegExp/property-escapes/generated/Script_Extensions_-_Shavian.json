@@ -159,8 +159,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script_Extensions=Shavian}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script_Extensions=Shavian}+$"
+      "pattern": "^\\p{Script_Extensions=Shavian}+$",
+      "flags": "u"
     },
     "start": 604,
     "end": 639
@@ -217,8 +217,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script_Extensions=Shaw}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script_Extensions=Shaw}+$"
+      "pattern": "^\\p{Script_Extensions=Shaw}+$",
+      "flags": "u"
     },
     "start": 718,
     "end": 750
@@ -275,8 +275,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{scx=Shavian}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{scx=Shavian}+$"
+      "pattern": "^\\p{scx=Shavian}+$",
+      "flags": "u"
     },
     "start": 826,
     "end": 847
@@ -333,8 +333,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{scx=Shaw}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{scx=Shaw}+$"
+      "pattern": "^\\p{scx=Shaw}+$",
+      "flags": "u"
     },
     "start": 912,
     "end": 930
@@ -673,8 +673,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script_Extensions=Shavian}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script_Extensions=Shavian}+$"
+      "pattern": "^\\P{Script_Extensions=Shavian}+$",
+      "flags": "u"
     },
     "start": 1202,
     "end": 1237
@@ -731,8 +731,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script_Extensions=Shaw}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script_Extensions=Shaw}+$"
+      "pattern": "^\\P{Script_Extensions=Shaw}+$",
+      "flags": "u"
     },
     "start": 1319,
     "end": 1351
@@ -789,8 +789,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{scx=Shavian}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{scx=Shavian}+$"
+      "pattern": "^\\P{scx=Shavian}+$",
+      "flags": "u"
     },
     "start": 1430,
     "end": 1451
@@ -847,8 +847,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{scx=Shaw}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{scx=Shaw}+$"
+      "pattern": "^\\P{scx=Shaw}+$",
+      "flags": "u"
     },
     "start": 1519,
     "end": 1537

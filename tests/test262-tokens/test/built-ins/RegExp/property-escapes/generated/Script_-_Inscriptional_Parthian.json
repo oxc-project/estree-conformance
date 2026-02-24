@@ -189,8 +189,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script=Inscriptional_Parthian}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script=Inscriptional_Parthian}+$"
+      "pattern": "^\\p{Script=Inscriptional_Parthian}+$",
+      "flags": "u"
     },
     "start": 618,
     "end": 657
@@ -247,8 +247,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script=Prti}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script=Prti}+$"
+      "pattern": "^\\p{Script=Prti}+$",
+      "flags": "u"
     },
     "start": 740,
     "end": 761
@@ -305,8 +305,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{sc=Inscriptional_Parthian}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{sc=Inscriptional_Parthian}+$"
+      "pattern": "^\\p{sc=Inscriptional_Parthian}+$",
+      "flags": "u"
     },
     "start": 826,
     "end": 861
@@ -363,8 +363,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{sc=Prti}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{sc=Prti}+$"
+      "pattern": "^\\p{sc=Prti}+$",
+      "flags": "u"
     },
     "start": 940,
     "end": 957
@@ -703,8 +703,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script=Inscriptional_Parthian}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script=Inscriptional_Parthian}+$"
+      "pattern": "^\\P{Script=Inscriptional_Parthian}+$",
+      "flags": "u"
     },
     "start": 1228,
     "end": 1267
@@ -761,8 +761,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script=Prti}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script=Prti}+$"
+      "pattern": "^\\P{Script=Prti}+$",
+      "flags": "u"
     },
     "start": 1353,
     "end": 1374
@@ -819,8 +819,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{sc=Inscriptional_Parthian}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{sc=Inscriptional_Parthian}+$"
+      "pattern": "^\\P{sc=Inscriptional_Parthian}+$",
+      "flags": "u"
     },
     "start": 1442,
     "end": 1477
@@ -877,8 +877,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{sc=Prti}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{sc=Prti}+$"
+      "pattern": "^\\P{sc=Prti}+$",
+      "flags": "u"
     },
     "start": 1559,
     "end": 1576

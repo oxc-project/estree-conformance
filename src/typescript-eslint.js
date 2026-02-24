@@ -77,18 +77,31 @@ await run({
         output += "__ESTREE_TEST__:AST:\n```json\n" + astJson + "\n```\n";
 
         // Conform tokens.
-        // * Remove `range` and `loc`
-        // * Move `regex` field to after `value`
-        // * Add `start` + `end`
+        // * Remove `range` and `loc`.
+        // * Add `start` + `end`.
+        // * Move `regex` field to after `value`.
+        // * Reverse order of `regex` object properties (`pattern` first).
         for (let i = 0; i < tokens.length; i++) {
-          let token, range, regex, _loc;
-          ({ regex, range, loc: _loc, ...token } = tokens[i]);
+          const { range, loc: _loc, regex, ...token } = tokens[i];
 
-          if (regex !== undefined) token.regex = regex;
-          token.start = range[0];
-          token.end = range[1];
-
-          tokens[i] = token;
+          if (typeof regex === "object" && regex !== null) {
+            tokens[i] = {
+              type: undefined,
+              value: undefined,
+              regex: { pattern: undefined, flags: undefined, ...regex },
+              start: range[0],
+              end: range[1],
+              ...token,
+            };
+          } else {
+            tokens[i] = {
+              type: undefined,
+              value: undefined,
+              start: range[0],
+              end: range[1],
+              ...token,
+            };
+          }
         }
 
         const tokensJson = JSON.stringify(tokens, null, 2);

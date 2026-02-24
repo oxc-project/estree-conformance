@@ -51,8 +51,8 @@
     "type": "RegularExpression",
     "value": "/(?<=[a|b|c]*)[^a|b|c]{3}/",
     "regex": {
-      "flags": "",
-      "pattern": "(?<=[a|b|c]*)[^a|b|c]{3}"
+      "pattern": "(?<=[a|b|c]*)[^a|b|c]{3}",
+      "flags": ""
     },
     "start": 978,
     "end": 1004
@@ -163,8 +163,8 @@
     "type": "RegularExpression",
     "value": "/(?<=\\w*)[^a|b|c]{3}/",
     "regex": {
-      "flags": "",
-      "pattern": "(?<=\\w*)[^a|b|c]{3}"
+      "pattern": "(?<=\\w*)[^a|b|c]{3}",
+      "flags": ""
     },
     "start": 1058,
     "end": 1079

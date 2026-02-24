@@ -225,8 +225,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script=Psalter_Pahlavi}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script=Psalter_Pahlavi}+$"
+      "pattern": "^\\p{Script=Psalter_Pahlavi}+$",
+      "flags": "u"
     },
     "start": 637,
     "end": 669
@@ -283,8 +283,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script=Phlp}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script=Phlp}+$"
+      "pattern": "^\\p{Script=Phlp}+$",
+      "flags": "u"
     },
     "start": 745,
     "end": 766
@@ -341,8 +341,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{sc=Psalter_Pahlavi}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{sc=Psalter_Pahlavi}+$"
+      "pattern": "^\\p{sc=Psalter_Pahlavi}+$",
+      "flags": "u"
     },
     "start": 831,
     "end": 859
@@ -399,8 +399,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{sc=Phlp}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{sc=Phlp}+$"
+      "pattern": "^\\p{sc=Phlp}+$",
+      "flags": "u"
     },
     "start": 931,
     "end": 948
@@ -775,8 +775,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script=Psalter_Pahlavi}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script=Psalter_Pahlavi}+$"
+      "pattern": "^\\P{Script=Psalter_Pahlavi}+$",
+      "flags": "u"
     },
     "start": 1245,
     "end": 1277
@@ -833,8 +833,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script=Phlp}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script=Phlp}+$"
+      "pattern": "^\\P{Script=Phlp}+$",
+      "flags": "u"
     },
     "start": 1356,
     "end": 1377
@@ -891,8 +891,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{sc=Psalter_Pahlavi}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{sc=Psalter_Pahlavi}+$"
+      "pattern": "^\\P{sc=Psalter_Pahlavi}+$",
+      "flags": "u"
     },
     "start": 1445,
     "end": 1473
@@ -949,8 +949,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{sc=Phlp}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{sc=Phlp}+$"
+      "pattern": "^\\P{sc=Phlp}+$",
+      "flags": "u"
     },
     "start": 1548,
     "end": 1565

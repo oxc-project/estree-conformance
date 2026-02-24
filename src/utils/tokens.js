@@ -27,11 +27,19 @@ export function parseEspreeTokens(code, isModule, jsx) {
     return null;
   }
 
-  // Remove `range` from output and keep `regex` before `start` and `end`
+  // Conform tokens.
+  // * Remove `range` from output.
+  // * Move `regex` to before `start` and `end`.
+  // * Reverse order of `regex` object properties (`pattern` first).
   for (let i = 0; i < tokens.length; i++) {
-    const { range: _range, ...token } = tokens[i];
-    if (token.regex) {
-      tokens[i] = { type: undefined, value: undefined, regex: undefined, ...token };
+    const { range: _range, regex, ...token } = tokens[i];
+    if (typeof regex === "object" && regex !== null) {
+      tokens[i] = {
+        type: undefined,
+        value: undefined,
+        regex: { pattern: undefined, flags: undefined, ...regex },
+        ...token,
+      };
     } else {
       tokens[i] = token;
     }

@@ -195,8 +195,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{IDS_Binary_Operator}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{IDS_Binary_Operator}+$"
+      "pattern": "^\\p{IDS_Binary_Operator}+$",
+      "flags": "u"
     },
     "start": 624,
     "end": 653
@@ -253,8 +253,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{IDSB}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{IDSB}+$"
+      "pattern": "^\\p{IDSB}+$",
+      "flags": "u"
     },
     "start": 726,
     "end": 740
@@ -629,8 +629,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{IDS_Binary_Operator}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{IDS_Binary_Operator}+$"
+      "pattern": "^\\P{IDS_Binary_Operator}+$",
+      "flags": "u"
     },
     "start": 1034,
     "end": 1063
@@ -687,8 +687,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{IDSB}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{IDSB}+$"
+      "pattern": "^\\P{IDSB}+$",
+      "flags": "u"
     },
     "start": 1139,
     "end": 1153

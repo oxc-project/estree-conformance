@@ -21435,8 +21435,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{XID_Start}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{XID_Start}+$"
+      "pattern": "^\\p{XID_Start}+$",
+      "flags": "u"
     },
     "start": 16738,
     "end": 16757
@@ -21493,8 +21493,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{XIDS}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{XIDS}+$"
+      "pattern": "^\\p{XIDS}+$",
+      "flags": "u"
     },
     "start": 16820,
     "end": 16834
@@ -41207,8 +41207,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{XID_Start}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{XID_Start}+$"
+      "pattern": "^\\P{XID_Start}+$",
+      "flags": "u"
     },
     "start": 32306,
     "end": 32325
@@ -41265,8 +41265,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{XIDS}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{XIDS}+$"
+      "pattern": "^\\P{XIDS}+$",
+      "flags": "u"
     },
     "start": 32391,
     "end": 32405

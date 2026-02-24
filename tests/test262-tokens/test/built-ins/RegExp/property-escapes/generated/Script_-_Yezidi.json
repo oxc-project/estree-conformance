@@ -225,8 +225,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script=Yezidi}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script=Yezidi}+$"
+      "pattern": "^\\p{Script=Yezidi}+$",
+      "flags": "u"
     },
     "start": 628,
     "end": 651
@@ -283,8 +283,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script=Yezi}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script=Yezi}+$"
+      "pattern": "^\\p{Script=Yezi}+$",
+      "flags": "u"
     },
     "start": 718,
     "end": 739
@@ -341,8 +341,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{sc=Yezidi}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{sc=Yezidi}+$"
+      "pattern": "^\\p{sc=Yezidi}+$",
+      "flags": "u"
     },
     "start": 804,
     "end": 823
@@ -399,8 +399,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{sc=Yezi}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{sc=Yezi}+$"
+      "pattern": "^\\p{sc=Yezi}+$",
+      "flags": "u"
     },
     "start": 886,
     "end": 903
@@ -745,8 +745,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script=Yezidi}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script=Yezidi}+$"
+      "pattern": "^\\P{Script=Yezidi}+$",
+      "flags": "u"
     },
     "start": 1190,
     "end": 1213
@@ -803,8 +803,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script=Yezi}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script=Yezi}+$"
+      "pattern": "^\\P{Script=Yezi}+$",
+      "flags": "u"
     },
     "start": 1283,
     "end": 1304
@@ -861,8 +861,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{sc=Yezidi}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{sc=Yezidi}+$"
+      "pattern": "^\\P{sc=Yezidi}+$",
+      "flags": "u"
     },
     "start": 1372,
     "end": 1391
@@ -919,8 +919,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{sc=Yezi}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{sc=Yezi}+$"
+      "pattern": "^\\P{sc=Yezi}+$",
+      "flags": "u"
     },
     "start": 1457,
     "end": 1474

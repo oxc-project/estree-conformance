@@ -267,8 +267,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script=Multani}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script=Multani}+$"
+      "pattern": "^\\p{Script=Multani}+$",
+      "flags": "u"
     },
     "start": 671,
     "end": 695
@@ -325,8 +325,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script=Mult}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script=Mult}+$"
+      "pattern": "^\\p{Script=Mult}+$",
+      "flags": "u"
     },
     "start": 763,
     "end": 784
@@ -383,8 +383,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{sc=Multani}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{sc=Multani}+$"
+      "pattern": "^\\p{sc=Multani}+$",
+      "flags": "u"
     },
     "start": 849,
     "end": 869
@@ -441,8 +441,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{sc=Mult}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{sc=Mult}+$"
+      "pattern": "^\\p{sc=Mult}+$",
+      "flags": "u"
     },
     "start": 933,
     "end": 950
@@ -787,8 +787,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script=Multani}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script=Multani}+$"
+      "pattern": "^\\P{Script=Multani}+$",
+      "flags": "u"
     },
     "start": 1253,
     "end": 1277
@@ -845,8 +845,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script=Mult}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script=Mult}+$"
+      "pattern": "^\\P{Script=Mult}+$",
+      "flags": "u"
     },
     "start": 1348,
     "end": 1369
@@ -903,8 +903,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{sc=Multani}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{sc=Multani}+$"
+      "pattern": "^\\P{sc=Multani}+$",
+      "flags": "u"
     },
     "start": 1437,
     "end": 1457
@@ -961,8 +961,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{sc=Mult}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{sc=Mult}+$"
+      "pattern": "^\\P{sc=Mult}+$",
+      "flags": "u"
     },
     "start": 1524,
     "end": 1541

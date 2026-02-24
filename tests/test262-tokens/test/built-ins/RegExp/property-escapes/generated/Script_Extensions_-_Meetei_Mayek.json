@@ -225,8 +225,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script_Extensions=Meetei_Mayek}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script_Extensions=Meetei_Mayek}+$"
+      "pattern": "^\\p{Script_Extensions=Meetei_Mayek}+$",
+      "flags": "u"
     },
     "start": 645,
     "end": 685
@@ -283,8 +283,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script_Extensions=Mtei}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script_Extensions=Mtei}+$"
+      "pattern": "^\\p{Script_Extensions=Mtei}+$",
+      "flags": "u"
     },
     "start": 769,
     "end": 801
@@ -341,8 +341,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{scx=Meetei_Mayek}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{scx=Meetei_Mayek}+$"
+      "pattern": "^\\p{scx=Meetei_Mayek}+$",
+      "flags": "u"
     },
     "start": 877,
     "end": 903
@@ -399,8 +399,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{scx=Mtei}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{scx=Mtei}+$"
+      "pattern": "^\\p{scx=Mtei}+$",
+      "flags": "u"
     },
     "start": 973,
     "end": 991
@@ -775,8 +775,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script_Extensions=Meetei_Mayek}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script_Extensions=Meetei_Mayek}+$"
+      "pattern": "^\\P{Script_Extensions=Meetei_Mayek}+$",
+      "flags": "u"
     },
     "start": 1289,
     "end": 1329
@@ -833,8 +833,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script_Extensions=Mtei}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script_Extensions=Mtei}+$"
+      "pattern": "^\\P{Script_Extensions=Mtei}+$",
+      "flags": "u"
     },
     "start": 1416,
     "end": 1448
@@ -891,8 +891,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{scx=Meetei_Mayek}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{scx=Meetei_Mayek}+$"
+      "pattern": "^\\P{scx=Meetei_Mayek}+$",
+      "flags": "u"
     },
     "start": 1527,
     "end": 1553
@@ -949,8 +949,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{scx=Mtei}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{scx=Mtei}+$"
+      "pattern": "^\\P{scx=Mtei}+$",
+      "flags": "u"
     },
     "start": 1626,
     "end": 1644

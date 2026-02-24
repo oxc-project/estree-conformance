@@ -369,8 +369,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script=Malayalam}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script=Malayalam}+$"
+      "pattern": "^\\p{Script=Malayalam}+$",
+      "flags": "u"
     },
     "start": 735,
     "end": 761
@@ -427,8 +427,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script=Mlym}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script=Mlym}+$"
+      "pattern": "^\\p{Script=Mlym}+$",
+      "flags": "u"
     },
     "start": 831,
     "end": 852
@@ -485,8 +485,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{sc=Malayalam}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{sc=Malayalam}+$"
+      "pattern": "^\\p{sc=Malayalam}+$",
+      "flags": "u"
     },
     "start": 917,
     "end": 939
@@ -543,8 +543,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{sc=Mlym}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{sc=Mlym}+$"
+      "pattern": "^\\p{sc=Mlym}+$",
+      "flags": "u"
     },
     "start": 1005,
     "end": 1022
@@ -961,8 +961,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script=Malayalam}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script=Malayalam}+$"
+      "pattern": "^\\P{Script=Malayalam}+$",
+      "flags": "u"
     },
     "start": 1377,
     "end": 1403
@@ -1019,8 +1019,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script=Mlym}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script=Mlym}+$"
+      "pattern": "^\\P{Script=Mlym}+$",
+      "flags": "u"
     },
     "start": 1476,
     "end": 1497
@@ -1077,8 +1077,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{sc=Malayalam}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{sc=Malayalam}+$"
+      "pattern": "^\\P{sc=Malayalam}+$",
+      "flags": "u"
     },
     "start": 1565,
     "end": 1587
@@ -1135,8 +1135,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{sc=Mlym}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{sc=Mlym}+$"
+      "pattern": "^\\P{sc=Mlym}+$",
+      "flags": "u"
     },
     "start": 1656,
     "end": 1673

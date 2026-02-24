@@ -1539,8 +1539,8 @@
     "type": "RegularExpression",
     "value": "/[Nn]?evermore/g",
     "regex": {
-      "flags": "g",
-      "pattern": "[Nn]?evermore"
+      "pattern": "[Nn]?evermore",
+      "flags": "g"
     },
     "start": 8315,
     "end": 8331

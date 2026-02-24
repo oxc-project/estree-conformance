@@ -195,8 +195,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script=Tifinagh}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script=Tifinagh}+$"
+      "pattern": "^\\p{Script=Tifinagh}+$",
+      "flags": "u"
     },
     "start": 620,
     "end": 645
@@ -253,8 +253,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script=Tfng}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script=Tfng}+$"
+      "pattern": "^\\p{Script=Tfng}+$",
+      "flags": "u"
     },
     "start": 714,
     "end": 735
@@ -311,8 +311,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{sc=Tifinagh}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{sc=Tifinagh}+$"
+      "pattern": "^\\p{sc=Tifinagh}+$",
+      "flags": "u"
     },
     "start": 800,
     "end": 821
@@ -369,8 +369,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{sc=Tfng}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{sc=Tfng}+$"
+      "pattern": "^\\p{sc=Tfng}+$",
+      "flags": "u"
     },
     "start": 886,
     "end": 903
@@ -745,8 +745,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script=Tifinagh}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script=Tifinagh}+$"
+      "pattern": "^\\P{Script=Tifinagh}+$",
+      "flags": "u"
     },
     "start": 1200,
     "end": 1225
@@ -803,8 +803,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script=Tfng}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script=Tfng}+$"
+      "pattern": "^\\P{Script=Tfng}+$",
+      "flags": "u"
     },
     "start": 1297,
     "end": 1318
@@ -861,8 +861,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{sc=Tifinagh}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{sc=Tifinagh}+$"
+      "pattern": "^\\P{sc=Tifinagh}+$",
+      "flags": "u"
     },
     "start": 1386,
     "end": 1407
@@ -919,8 +919,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{sc=Tfng}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{sc=Tfng}+$"
+      "pattern": "^\\P{sc=Tfng}+$",
+      "flags": "u"
     },
     "start": 1475,
     "end": 1492

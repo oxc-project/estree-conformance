@@ -20619,8 +20619,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script=Unknown}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script=Unknown}+$"
+      "pattern": "^\\p{Script=Unknown}+$",
+      "flags": "u"
     },
     "start": 16687,
     "end": 16711
@@ -20677,8 +20677,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script=Zzzz}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script=Zzzz}+$"
+      "pattern": "^\\p{Script=Zzzz}+$",
+      "flags": "u"
     },
     "start": 16779,
     "end": 16800
@@ -20735,8 +20735,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{sc=Unknown}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{sc=Unknown}+$"
+      "pattern": "^\\p{sc=Unknown}+$",
+      "flags": "u"
     },
     "start": 16865,
     "end": 16885
@@ -20793,8 +20793,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{sc=Zzzz}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{sc=Zzzz}+$"
+      "pattern": "^\\p{sc=Zzzz}+$",
+      "flags": "u"
     },
     "start": 16949,
     "end": 16966
@@ -45655,8 +45655,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script=Unknown}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script=Unknown}+$"
+      "pattern": "^\\P{Script=Unknown}+$",
+      "flags": "u"
     },
     "start": 35327,
     "end": 35351
@@ -45713,8 +45713,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script=Zzzz}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script=Zzzz}+$"
+      "pattern": "^\\P{Script=Zzzz}+$",
+      "flags": "u"
     },
     "start": 35422,
     "end": 35443
@@ -45771,8 +45771,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{sc=Unknown}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{sc=Unknown}+$"
+      "pattern": "^\\P{sc=Unknown}+$",
+      "flags": "u"
     },
     "start": 35511,
     "end": 35531
@@ -45829,8 +45829,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{sc=Zzzz}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{sc=Zzzz}+$"
+      "pattern": "^\\P{sc=Zzzz}+$",
+      "flags": "u"
     },
     "start": 35598,
     "end": 35615

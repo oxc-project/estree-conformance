@@ -281,8 +281,8 @@ __ESTREE_TEST__:TOKENS:
     "type": "RegularExpression",
     "value": "/.[/]/",
     "regex": {
-      "flags": "",
-      "pattern": ".[/]"
+      "pattern": ".[/]",
+      "flags": ""
     },
     "start": 24,
     "end": 30
@@ -357,8 +357,8 @@ __ESTREE_TEST__:TOKENS:
     "type": "RegularExpression",
     "value": "/.[//]/g",
     "regex": {
-      "flags": "g",
-      "pattern": ".[//]"
+      "pattern": ".[//]",
+      "flags": "g"
     },
     "start": 62,
     "end": 70
@@ -433,8 +433,8 @@ __ESTREE_TEST__:TOKENS:
     "type": "RegularExpression",
     "value": "/.[/no sleep /till/]/",
     "regex": {
-      "flags": "",
-      "pattern": ".[/no sleep /till/]"
+      "pattern": ".[/no sleep /till/]",
+      "flags": ""
     },
     "start": 101,
     "end": 122

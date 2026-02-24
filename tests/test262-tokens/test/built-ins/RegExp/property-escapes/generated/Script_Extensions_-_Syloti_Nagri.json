@@ -225,8 +225,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script_Extensions=Syloti_Nagri}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script_Extensions=Syloti_Nagri}+$"
+      "pattern": "^\\p{Script_Extensions=Syloti_Nagri}+$",
+      "flags": "u"
     },
     "start": 645,
     "end": 685
@@ -283,8 +283,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script_Extensions=Sylo}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script_Extensions=Sylo}+$"
+      "pattern": "^\\p{Script_Extensions=Sylo}+$",
+      "flags": "u"
     },
     "start": 769,
     "end": 801
@@ -341,8 +341,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{scx=Syloti_Nagri}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{scx=Syloti_Nagri}+$"
+      "pattern": "^\\p{scx=Syloti_Nagri}+$",
+      "flags": "u"
     },
     "start": 877,
     "end": 903
@@ -399,8 +399,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{scx=Sylo}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{scx=Sylo}+$"
+      "pattern": "^\\p{scx=Sylo}+$",
+      "flags": "u"
     },
     "start": 973,
     "end": 991
@@ -775,8 +775,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script_Extensions=Syloti_Nagri}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script_Extensions=Syloti_Nagri}+$"
+      "pattern": "^\\P{Script_Extensions=Syloti_Nagri}+$",
+      "flags": "u"
     },
     "start": 1289,
     "end": 1329
@@ -833,8 +833,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script_Extensions=Sylo}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script_Extensions=Sylo}+$"
+      "pattern": "^\\P{Script_Extensions=Sylo}+$",
+      "flags": "u"
     },
     "start": 1416,
     "end": 1448
@@ -891,8 +891,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{scx=Syloti_Nagri}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{scx=Syloti_Nagri}+$"
+      "pattern": "^\\P{scx=Syloti_Nagri}+$",
+      "flags": "u"
     },
     "start": 1527,
     "end": 1553
@@ -949,8 +949,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{scx=Sylo}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{scx=Sylo}+$"
+      "pattern": "^\\P{scx=Sylo}+$",
+      "flags": "u"
     },
     "start": 1626,
     "end": 1644
