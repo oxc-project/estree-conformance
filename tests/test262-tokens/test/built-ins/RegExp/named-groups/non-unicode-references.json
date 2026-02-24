@@ -87,8 +87,8 @@
     "type": "RegularExpression",
     "value": "/(?<b>.).\\k<b>/",
     "regex": {
-      "pattern": "(?<b>.).\\k<b>",
-      "flags": ""
+      "flags": "",
+      "pattern": "(?<b>.).\\k<b>"
     },
     "start": 358,
     "end": 373
@@ -175,8 +175,8 @@
     "type": "RegularExpression",
     "value": "/(?<b>.).\\k<b>/",
     "regex": {
-      "pattern": "(?<b>.).\\k<b>",
-      "flags": ""
+      "flags": "",
+      "pattern": "(?<b>.).\\k<b>"
     },
     "start": 412,
     "end": 427
@@ -287,8 +287,8 @@
     "type": "RegularExpression",
     "value": "/(?<a>\\k<a>\\w)../",
     "regex": {
-      "pattern": "(?<a>\\k<a>\\w)..",
-      "flags": ""
+      "flags": "",
+      "pattern": "(?<a>\\k<a>\\w).."
     },
     "start": 505,
     "end": 522
@@ -375,8 +375,8 @@
     "type": "RegularExpression",
     "value": "/(?<a>\\k<a>\\w)../",
     "regex": {
-      "pattern": "(?<a>\\k<a>\\w)..",
-      "flags": ""
+      "flags": "",
+      "pattern": "(?<a>\\k<a>\\w).."
     },
     "start": 560,
     "end": 577
@@ -511,8 +511,8 @@
     "type": "RegularExpression",
     "value": "/\\k<a>(?<a>b)\\w\\k<a>/",
     "regex": {
-      "pattern": "\\k<a>(?<a>b)\\w\\k<a>",
-      "flags": ""
+      "flags": "",
+      "pattern": "\\k<a>(?<a>b)\\w\\k<a>"
     },
     "start": 664,
     "end": 685
@@ -599,8 +599,8 @@
     "type": "RegularExpression",
     "value": "/\\k<a>(?<a>b)\\w\\k<a>/",
     "regex": {
-      "pattern": "\\k<a>(?<a>b)\\w\\k<a>",
-      "flags": ""
+      "flags": "",
+      "pattern": "\\k<a>(?<a>b)\\w\\k<a>"
     },
     "start": 723,
     "end": 744
@@ -747,8 +747,8 @@
     "type": "RegularExpression",
     "value": "/(?<b>b)\\k<a>(?<a>a)\\k<b>/",
     "regex": {
-      "pattern": "(?<b>b)\\k<a>(?<a>a)\\k<b>",
-      "flags": ""
+      "flags": "",
+      "pattern": "(?<b>b)\\k<a>(?<a>a)\\k<b>"
     },
     "start": 808,
     "end": 834
@@ -841,8 +841,8 @@
     "type": "RegularExpression",
     "value": "/(?<b>b)\\k<a>(?<a>a)\\k<b>/",
     "regex": {
-      "pattern": "(?<b>b)\\k<a>(?<a>a)\\k<b>",
-      "flags": ""
+      "flags": "",
+      "pattern": "(?<b>b)\\k<a>(?<a>a)\\k<b>"
     },
     "start": 863,
     "end": 889
@@ -1067,8 +1067,8 @@
     "type": "RegularExpression",
     "value": "/\\k<a>(?<a>b)\\w\\k<a>/",
     "regex": {
-      "pattern": "\\k<a>(?<a>b)\\w\\k<a>",
-      "flags": ""
+      "flags": "",
+      "pattern": "\\k<a>(?<a>b)\\w\\k<a>"
     },
     "start": 998,
     "end": 1019
@@ -1191,8 +1191,8 @@
     "type": "RegularExpression",
     "value": "/(?<b>b)\\k<a>(?<a>a)\\k<b>/",
     "regex": {
-      "pattern": "(?<b>b)\\k<a>(?<a>a)\\k<b>",
-      "flags": ""
+      "flags": "",
+      "pattern": "(?<b>b)\\k<a>(?<a>a)\\k<b>"
     },
     "start": 1074,
     "end": 1100
@@ -1255,8 +1255,8 @@
     "type": "RegularExpression",
     "value": "/(?<a>a)(?<b>b)\\k<a>/",
     "regex": {
-      "pattern": "(?<a>a)(?<b>b)\\k<a>",
-      "flags": ""
+      "flags": "",
+      "pattern": "(?<a>a)(?<b>b)\\k<a>"
     },
     "start": 1152,
     "end": 1173
@@ -1367,8 +1367,8 @@
     "type": "RegularExpression",
     "value": "/(?<a>a)(?<b>b)\\k<a>/",
     "regex": {
-      "pattern": "(?<a>a)(?<b>b)\\k<a>",
-      "flags": ""
+      "flags": "",
+      "pattern": "(?<a>a)(?<b>b)\\k<a>"
     },
     "start": 1219,
     "end": 1240
@@ -1479,8 +1479,8 @@
     "type": "RegularExpression",
     "value": "/(?<a>a)(?<b>b)\\k<a>/",
     "regex": {
-      "pattern": "(?<a>a)(?<b>b)\\k<a>",
-      "flags": ""
+      "flags": "",
+      "pattern": "(?<a>a)(?<b>b)\\k<a>"
     },
     "start": 1292,
     "end": 1313
@@ -1591,8 +1591,8 @@
     "type": "RegularExpression",
     "value": "/(?<a>a)(?<b>b)\\k<a>|(?<c>c)/",
     "regex": {
-      "pattern": "(?<a>a)(?<b>b)\\k<a>|(?<c>c)",
-      "flags": ""
+      "flags": "",
+      "pattern": "(?<a>a)(?<b>b)\\k<a>|(?<c>c)"
     },
     "start": 1365,
     "end": 1394

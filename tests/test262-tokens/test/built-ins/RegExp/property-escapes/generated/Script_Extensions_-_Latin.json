@@ -1803,8 +1803,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script_Extensions=Latin}+$/u",
     "regex": {
-      "pattern": "^\\p{Script_Extensions=Latin}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\p{Script_Extensions=Latin}+$"
     },
     "start": 1896,
     "end": 1929
@@ -1861,8 +1861,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script_Extensions=Latn}+$/u",
     "regex": {
-      "pattern": "^\\p{Script_Extensions=Latn}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\p{Script_Extensions=Latn}+$"
     },
     "start": 2006,
     "end": 2038
@@ -1919,8 +1919,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{scx=Latin}+$/u",
     "regex": {
-      "pattern": "^\\p{scx=Latin}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\p{scx=Latin}+$"
     },
     "start": 2114,
     "end": 2133
@@ -1977,8 +1977,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{scx=Latn}+$/u",
     "regex": {
-      "pattern": "^\\p{scx=Latn}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\p{scx=Latn}+$"
     },
     "start": 2196,
     "end": 2214
@@ -4123,8 +4123,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script_Extensions=Latin}+$/u",
     "regex": {
-      "pattern": "^\\P{Script_Extensions=Latin}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\P{Script_Extensions=Latin}+$"
     },
     "start": 3866,
     "end": 3899
@@ -4181,8 +4181,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script_Extensions=Latn}+$/u",
     "regex": {
-      "pattern": "^\\P{Script_Extensions=Latn}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\P{Script_Extensions=Latn}+$"
     },
     "start": 3979,
     "end": 4011
@@ -4239,8 +4239,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{scx=Latin}+$/u",
     "regex": {
-      "pattern": "^\\P{scx=Latin}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\P{scx=Latin}+$"
     },
     "start": 4090,
     "end": 4109
@@ -4297,8 +4297,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{scx=Latn}+$/u",
     "regex": {
-      "pattern": "^\\P{scx=Latn}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\P{scx=Latn}+$"
     },
     "start": 4175,
     "end": 4193

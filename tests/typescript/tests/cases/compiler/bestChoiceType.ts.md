@@ -702,8 +702,8 @@ __ESTREE_TEST__:TOKENS:
     "type": "RegularExpression",
     "value": "/ /",
     "regex": {
-      "pattern": " ",
-      "flags": ""
+      "flags": "",
+      "pattern": " "
     },
     "start": 32,
     "end": 35
@@ -886,8 +886,8 @@ __ESTREE_TEST__:TOKENS:
     "type": "RegularExpression",
     "value": "/ /",
     "regex": {
-      "pattern": " ",
-      "flags": ""
+      "flags": "",
+      "pattern": " "
     },
     "start": 127,
     "end": 130
@@ -1130,8 +1130,8 @@ __ESTREE_TEST__:TOKENS:
     "type": "RegularExpression",
     "value": "/ /",
     "regex": {
-      "pattern": " ",
-      "flags": ""
+      "flags": "",
+      "pattern": " "
     },
     "start": 235,
     "end": 238

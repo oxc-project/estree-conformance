@@ -153,8 +153,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script_Extensions=Braille}+$/u",
     "regex": {
-      "pattern": "^\\p{Script_Extensions=Braille}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\p{Script_Extensions=Braille}+$"
     },
     "start": 588,
     "end": 623
@@ -211,8 +211,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script_Extensions=Brai}+$/u",
     "regex": {
-      "pattern": "^\\p{Script_Extensions=Brai}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\p{Script_Extensions=Brai}+$"
     },
     "start": 702,
     "end": 734
@@ -269,8 +269,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{scx=Braille}+$/u",
     "regex": {
-      "pattern": "^\\p{scx=Braille}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\p{scx=Braille}+$"
     },
     "start": 810,
     "end": 831
@@ -327,8 +327,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{scx=Brai}+$/u",
     "regex": {
-      "pattern": "^\\p{scx=Brai}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\p{scx=Brai}+$"
     },
     "start": 896,
     "end": 914
@@ -631,8 +631,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script_Extensions=Braille}+$/u",
     "regex": {
-      "pattern": "^\\P{Script_Extensions=Braille}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\P{Script_Extensions=Braille}+$"
     },
     "start": 1160,
     "end": 1195
@@ -689,8 +689,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script_Extensions=Brai}+$/u",
     "regex": {
-      "pattern": "^\\P{Script_Extensions=Brai}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\P{Script_Extensions=Brai}+$"
     },
     "start": 1277,
     "end": 1309
@@ -747,8 +747,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{scx=Braille}+$/u",
     "regex": {
-      "pattern": "^\\P{scx=Braille}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\P{scx=Braille}+$"
     },
     "start": 1388,
     "end": 1409
@@ -805,8 +805,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{scx=Brai}+$/u",
     "regex": {
-      "pattern": "^\\P{scx=Brai}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\P{scx=Brai}+$"
     },
     "start": 1477,
     "end": 1495

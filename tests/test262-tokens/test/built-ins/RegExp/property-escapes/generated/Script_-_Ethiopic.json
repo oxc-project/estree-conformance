@@ -1359,8 +1359,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script=Ethiopic}+$/u",
     "regex": {
-      "pattern": "^\\p{Script=Ethiopic}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\p{Script=Ethiopic}+$"
     },
     "start": 1466,
     "end": 1491
@@ -1417,8 +1417,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script=Ethi}+$/u",
     "regex": {
-      "pattern": "^\\p{Script=Ethi}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\p{Script=Ethi}+$"
     },
     "start": 1560,
     "end": 1581
@@ -1475,8 +1475,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{sc=Ethiopic}+$/u",
     "regex": {
-      "pattern": "^\\p{sc=Ethiopic}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\p{sc=Ethiopic}+$"
     },
     "start": 1646,
     "end": 1667
@@ -1533,8 +1533,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{sc=Ethi}+$/u",
     "regex": {
-      "pattern": "^\\p{sc=Ethi}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\p{sc=Ethi}+$"
     },
     "start": 1732,
     "end": 1749
@@ -2611,8 +2611,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script=Ethiopic}+$/u",
     "regex": {
-      "pattern": "^\\P{Script=Ethiopic}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\P{Script=Ethiopic}+$"
     },
     "start": 2666,
     "end": 2691
@@ -2669,8 +2669,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script=Ethi}+$/u",
     "regex": {
-      "pattern": "^\\P{Script=Ethi}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\P{Script=Ethi}+$"
     },
     "start": 2763,
     "end": 2784
@@ -2727,8 +2727,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{sc=Ethiopic}+$/u",
     "regex": {
-      "pattern": "^\\P{sc=Ethiopic}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\P{sc=Ethiopic}+$"
     },
     "start": 2852,
     "end": 2873
@@ -2785,8 +2785,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{sc=Ethi}+$/u",
     "regex": {
-      "pattern": "^\\P{sc=Ethi}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\P{sc=Ethi}+$"
     },
     "start": 2941,
     "end": 2958

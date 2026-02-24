@@ -261,8 +261,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script=Myanmar}+$/u",
     "regex": {
-      "pattern": "^\\p{Script=Myanmar}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\p{Script=Myanmar}+$"
     },
     "start": 655,
     "end": 679
@@ -319,8 +319,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script=Mymr}+$/u",
     "regex": {
-      "pattern": "^\\p{Script=Mymr}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\p{Script=Mymr}+$"
     },
     "start": 747,
     "end": 768
@@ -377,8 +377,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{sc=Myanmar}+$/u",
     "regex": {
-      "pattern": "^\\p{sc=Myanmar}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\p{sc=Myanmar}+$"
     },
     "start": 833,
     "end": 853
@@ -435,8 +435,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{sc=Mymr}+$/u",
     "regex": {
-      "pattern": "^\\p{sc=Mymr}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\p{sc=Mymr}+$"
     },
     "start": 917,
     "end": 934
@@ -847,8 +847,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script=Myanmar}+$/u",
     "regex": {
-      "pattern": "^\\P{Script=Myanmar}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\P{Script=Myanmar}+$"
     },
     "start": 1257,
     "end": 1281
@@ -905,8 +905,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script=Mymr}+$/u",
     "regex": {
-      "pattern": "^\\P{Script=Mymr}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\P{Script=Mymr}+$"
     },
     "start": 1352,
     "end": 1373
@@ -963,8 +963,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{sc=Myanmar}+$/u",
     "regex": {
-      "pattern": "^\\P{sc=Myanmar}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\P{sc=Myanmar}+$"
     },
     "start": 1441,
     "end": 1461
@@ -1021,8 +1021,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{sc=Mymr}+$/u",
     "regex": {
-      "pattern": "^\\P{sc=Mymr}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\P{sc=Mymr}+$"
     },
     "start": 1528,
     "end": 1545

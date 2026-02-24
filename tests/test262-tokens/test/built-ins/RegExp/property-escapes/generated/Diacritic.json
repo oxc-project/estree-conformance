@@ -5871,8 +5871,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Diacritic}+$/u",
     "regex": {
-      "pattern": "^\\p{Diacritic}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\p{Diacritic}+$"
     },
     "start": 5188,
     "end": 5207
@@ -5929,8 +5929,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Dia}+$/u",
     "regex": {
-      "pattern": "^\\p{Dia}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\p{Dia}+$"
     },
     "start": 5270,
     "end": 5283
@@ -13583,8 +13583,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Diacritic}+$/u",
     "regex": {
-      "pattern": "^\\P{Diacritic}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\P{Diacritic}+$"
     },
     "start": 10956,
     "end": 10975
@@ -13641,8 +13641,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Dia}+$/u",
     "regex": {
-      "pattern": "^\\P{Dia}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\P{Dia}+$"
     },
     "start": 11041,
     "end": 11054

@@ -189,8 +189,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{General_Category=Control}+$/u",
     "regex": {
-      "pattern": "^\\p{General_Category=Control}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\p{General_Category=Control}+$"
     },
     "start": 613,
     "end": 647
@@ -247,8 +247,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{General_Category=Cc}+$/u",
     "regex": {
-      "pattern": "^\\p{General_Category=Cc}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\p{General_Category=Cc}+$"
     },
     "start": 725,
     "end": 754
@@ -305,8 +305,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{General_Category=cntrl}+$/u",
     "regex": {
-      "pattern": "^\\p{General_Category=cntrl}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\p{General_Category=cntrl}+$"
     },
     "start": 827,
     "end": 859
@@ -363,8 +363,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{gc=Control}+$/u",
     "regex": {
-      "pattern": "^\\p{gc=Control}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\p{gc=Control}+$"
     },
     "start": 935,
     "end": 955
@@ -421,8 +421,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{gc=Cc}+$/u",
     "regex": {
-      "pattern": "^\\p{gc=Cc}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\p{gc=Cc}+$"
     },
     "start": 1019,
     "end": 1034
@@ -479,8 +479,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{gc=cntrl}+$/u",
     "regex": {
-      "pattern": "^\\p{gc=cntrl}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\p{gc=cntrl}+$"
     },
     "start": 1093,
     "end": 1111
@@ -537,8 +537,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Control}+$/u",
     "regex": {
-      "pattern": "^\\p{Control}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\p{Control}+$"
     },
     "start": 1173,
     "end": 1190
@@ -595,8 +595,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Cc}+$/u",
     "regex": {
-      "pattern": "^\\p{Cc}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\p{Cc}+$"
     },
     "start": 1251,
     "end": 1263
@@ -653,8 +653,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{cntrl}+$/u",
     "regex": {
-      "pattern": "^\\p{cntrl}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\p{cntrl}+$"
     },
     "start": 1319,
     "end": 1334
@@ -957,8 +957,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{General_Category=Control}+$/u",
     "regex": {
-      "pattern": "^\\P{General_Category=Control}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\P{General_Category=Control}+$"
     },
     "start": 1577,
     "end": 1611
@@ -1015,8 +1015,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{General_Category=Cc}+$/u",
     "regex": {
-      "pattern": "^\\P{General_Category=Cc}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\P{General_Category=Cc}+$"
     },
     "start": 1692,
     "end": 1721
@@ -1073,8 +1073,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{General_Category=cntrl}+$/u",
     "regex": {
-      "pattern": "^\\P{General_Category=cntrl}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\P{General_Category=cntrl}+$"
     },
     "start": 1797,
     "end": 1829
@@ -1131,8 +1131,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{gc=Control}+$/u",
     "regex": {
-      "pattern": "^\\P{gc=Control}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\P{gc=Control}+$"
     },
     "start": 1908,
     "end": 1928
@@ -1189,8 +1189,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{gc=Cc}+$/u",
     "regex": {
-      "pattern": "^\\P{gc=Cc}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\P{gc=Cc}+$"
     },
     "start": 1995,
     "end": 2010
@@ -1247,8 +1247,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{gc=cntrl}+$/u",
     "regex": {
-      "pattern": "^\\P{gc=cntrl}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\P{gc=cntrl}+$"
     },
     "start": 2072,
     "end": 2090
@@ -1305,8 +1305,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Control}+$/u",
     "regex": {
-      "pattern": "^\\P{Control}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\P{Control}+$"
     },
     "start": 2155,
     "end": 2172
@@ -1363,8 +1363,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Cc}+$/u",
     "regex": {
-      "pattern": "^\\P{Cc}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\P{Cc}+$"
     },
     "start": 2236,
     "end": 2248
@@ -1421,8 +1421,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{cntrl}+$/u",
     "regex": {
-      "pattern": "^\\P{cntrl}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\P{cntrl}+$"
     },
     "start": 2307,
     "end": 2322

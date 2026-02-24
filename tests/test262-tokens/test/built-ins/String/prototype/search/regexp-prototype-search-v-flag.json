@@ -213,8 +213,8 @@
     "type": "RegularExpression",
     "value": "/a/",
     "regex": {
-      "pattern": "a",
-      "flags": ""
+      "flags": "",
+      "pattern": "a"
     },
     "start": 419,
     "end": 422
@@ -301,8 +301,8 @@
     "type": "RegularExpression",
     "value": "/a/v",
     "regex": {
-      "pattern": "a",
-      "flags": "v"
+      "flags": "v",
+      "pattern": "a"
     },
     "start": 486,
     "end": 490
@@ -389,8 +389,8 @@
     "type": "RegularExpression",
     "value": "/𠮷/",
     "regex": {
-      "pattern": "𠮷",
-      "flags": ""
+      "flags": "",
+      "pattern": "𠮷"
     },
     "start": 545,
     "end": 549
@@ -477,8 +477,8 @@
     "type": "RegularExpression",
     "value": "/𠮷/v",
     "regex": {
-      "pattern": "𠮷",
-      "flags": "v"
+      "flags": "v",
+      "pattern": "𠮷"
     },
     "start": 626,
     "end": 631
@@ -565,8 +565,8 @@
     "type": "RegularExpression",
     "value": "/\\p{Script=Han}/v",
     "regex": {
-      "pattern": "\\p{Script=Han}",
-      "flags": "v"
+      "flags": "v",
+      "pattern": "\\p{Script=Han}"
     },
     "start": 705,
     "end": 722
@@ -653,8 +653,8 @@
     "type": "RegularExpression",
     "value": "/b./v",
     "regex": {
-      "pattern": "b.",
-      "flags": "v"
+      "flags": "v",
+      "pattern": "b."
     },
     "start": 795,
     "end": 800

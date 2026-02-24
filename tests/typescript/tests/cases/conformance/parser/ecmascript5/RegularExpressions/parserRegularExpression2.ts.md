@@ -106,8 +106,8 @@ __ESTREE_TEST__:TOKENS:
     "type": "RegularExpression",
     "value": "/:\\/\\/(.[^/]+)/",
     "regex": {
-      "pattern": ":\\/\\/(.[^/]+)",
-      "flags": ""
+      "flags": "",
+      "pattern": ":\\/\\/(.[^/]+)"
     },
     "start": 11,
     "end": 26

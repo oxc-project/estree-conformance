@@ -471,8 +471,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Dash}+$/u",
     "regex": {
-      "pattern": "^\\p{Dash}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\p{Dash}+$"
     },
     "start": 915,
     "end": 929
@@ -1603,8 +1603,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Dash}+$/u",
     "regex": {
-      "pattern": "^\\P{Dash}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\P{Dash}+$"
     },
     "start": 1769,
     "end": 1783

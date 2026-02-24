@@ -111,8 +111,8 @@
     "type": "RegularExpression",
     "value": "/(?=(abcdefghijklmn))(?<=\\1)a/i",
     "regex": {
-      "pattern": "(?=(abcdefghijklmn))(?<=\\1)a",
-      "flags": "i"
+      "flags": "i",
+      "pattern": "(?=(abcdefghijklmn))(?<=\\1)a"
     },
     "start": 763,
     "end": 794
@@ -211,8 +211,8 @@
     "type": "RegularExpression",
     "value": "/(?=(abcdefghijklmn))(?<=\\1)a/",
     "regex": {
-      "pattern": "(?=(abcdefghijklmn))(?<=\\1)a",
-      "flags": ""
+      "flags": "",
+      "pattern": "(?=(abcdefghijklmn))(?<=\\1)a"
     },
     "start": 843,
     "end": 873
@@ -341,8 +341,8 @@
     "type": "RegularExpression",
     "value": "/(?=(abcdefg))(?<=\\1)/",
     "regex": {
-      "pattern": "(?=(abcdefg))(?<=\\1)",
-      "flags": ""
+      "flags": "",
+      "pattern": "(?=(abcdefg))(?<=\\1)"
     },
     "start": 936,
     "end": 958

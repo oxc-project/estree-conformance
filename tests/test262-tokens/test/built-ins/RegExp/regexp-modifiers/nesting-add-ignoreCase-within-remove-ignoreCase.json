@@ -21,8 +21,8 @@
     "type": "RegularExpression",
     "value": "/(?-i:a(?i:b))c/i",
     "regex": {
-      "pattern": "(?-i:a(?i:b))c",
-      "flags": "i"
+      "flags": "i",
+      "pattern": "(?-i:a(?i:b))c"
     },
     "start": 1706,
     "end": 1723

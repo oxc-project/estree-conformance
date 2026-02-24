@@ -70,8 +70,8 @@ __ESTREE_TEST__:TOKENS:
     "type": "RegularExpression",
     "value": "/\\u{FFFF}/gu",
     "regex": {
-      "pattern": "\\u{FFFF}",
-      "flags": "gu"
+      "flags": "gu",
+      "pattern": "\\u{FFFF}"
     },
     "start": 118,
     "end": 130

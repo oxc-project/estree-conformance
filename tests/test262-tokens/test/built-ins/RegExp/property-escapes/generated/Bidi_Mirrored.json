@@ -3303,8 +3303,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Bidi_Mirrored}+$/u",
     "regex": {
-      "pattern": "^\\p{Bidi_Mirrored}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\p{Bidi_Mirrored}+$"
     },
     "start": 3060,
     "end": 3083
@@ -3361,8 +3361,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Bidi_M}+$/u",
     "regex": {
-      "pattern": "^\\p{Bidi_M}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\p{Bidi_M}+$"
     },
     "start": 3150,
     "end": 3166
@@ -7055,8 +7055,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Bidi_Mirrored}+$/u",
     "regex": {
-      "pattern": "^\\P{Bidi_Mirrored}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\P{Bidi_Mirrored}+$"
     },
     "start": 6014,
     "end": 6037
@@ -7113,8 +7113,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Bidi_M}+$/u",
     "regex": {
-      "pattern": "^\\P{Bidi_M}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\P{Bidi_M}+$"
     },
     "start": 6107,
     "end": 6123

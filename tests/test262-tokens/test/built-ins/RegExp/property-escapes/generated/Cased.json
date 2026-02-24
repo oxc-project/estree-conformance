@@ -5103,8 +5103,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Cased}+$/u",
     "regex": {
-      "pattern": "^\\p{Cased}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\p{Cased}+$"
     },
     "start": 4304,
     "end": 4319
@@ -9565,8 +9565,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Cased}+$/u",
     "regex": {
-      "pattern": "^\\P{Cased}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\P{Cased}+$"
     },
     "start": 7902,
     "end": 7917

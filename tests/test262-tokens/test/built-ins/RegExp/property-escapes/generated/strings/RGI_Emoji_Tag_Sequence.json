@@ -33,8 +33,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{RGI_Emoji_Tag_Sequence}+$/v",
     "regex": {
-      "pattern": "^\\p{RGI_Emoji_Tag_Sequence}+$",
-      "flags": "v"
+      "flags": "v",
+      "pattern": "^\\p{RGI_Emoji_Tag_Sequence}+$"
     },
     "start": 531,
     "end": 563

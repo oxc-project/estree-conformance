@@ -10587,8 +10587,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Grapheme_Extend}+$/u",
     "regex": {
-      "pattern": "^\\p{Grapheme_Extend}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\p{Grapheme_Extend}+$"
     },
     "start": 8856,
     "end": 8881
@@ -10645,8 +10645,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Gr_Ext}+$/u",
     "regex": {
-      "pattern": "^\\p{Gr_Ext}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\p{Gr_Ext}+$"
     },
     "start": 8950,
     "end": 8966
@@ -22895,8 +22895,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Grapheme_Extend}+$/u",
     "regex": {
-      "pattern": "^\\P{Grapheme_Extend}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\P{Grapheme_Extend}+$"
     },
     "start": 18244,
     "end": 18269
@@ -22953,8 +22953,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Gr_Ext}+$/u",
     "regex": {
-      "pattern": "^\\P{Gr_Ext}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\P{Gr_Ext}+$"
     },
     "start": 18341,
     "end": 18357

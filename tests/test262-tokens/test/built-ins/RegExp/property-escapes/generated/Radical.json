@@ -225,8 +225,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Radical}+$/u",
     "regex": {
-      "pattern": "^\\p{Radical}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\p{Radical}+$"
     },
     "start": 622,
     "end": 639
@@ -571,8 +571,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Radical}+$/u",
     "regex": {
-      "pattern": "^\\P{Radical}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\P{Radical}+$"
     },
     "start": 926,
     "end": 943

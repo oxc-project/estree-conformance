@@ -219,8 +219,8 @@ __ESTREE_TEST__:TOKENS:
     "type": "RegularExpression",
     "value": "/[𝘈-𝘡][𝘡-𝘈]/",
     "regex": {
-      "pattern": "[𝘈-𝘡][𝘡-𝘈]",
-      "flags": ""
+      "flags": "",
+      "pattern": "[𝘈-𝘡][𝘡-𝘈]"
     },
     "start": 336,
     "end": 352
@@ -235,8 +235,8 @@ __ESTREE_TEST__:TOKENS:
     "type": "RegularExpression",
     "value": "/[𝘈-𝘡][𝘡-𝘈]/u",
     "regex": {
-      "pattern": "[𝘈-𝘡][𝘡-𝘈]",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "[𝘈-𝘡][𝘡-𝘈]"
     },
     "start": 355,
     "end": 372
@@ -251,8 +251,8 @@ __ESTREE_TEST__:TOKENS:
     "type": "RegularExpression",
     "value": "/[𝘈-𝘡][𝘡-𝘈]/v",
     "regex": {
-      "pattern": "[𝘈-𝘡][𝘡-𝘈]",
-      "flags": "v"
+      "flags": "v",
+      "pattern": "[𝘈-𝘡][𝘡-𝘈]"
     },
     "start": 375,
     "end": 392
@@ -267,8 +267,8 @@ __ESTREE_TEST__:TOKENS:
     "type": "RegularExpression",
     "value": "/[\\u{1D608}-\\u{1D621}][\\u{1D621}-\\u{1D608}]/",
     "regex": {
-      "pattern": "[\\u{1D608}-\\u{1D621}][\\u{1D621}-\\u{1D608}]",
-      "flags": ""
+      "flags": "",
+      "pattern": "[\\u{1D608}-\\u{1D621}][\\u{1D621}-\\u{1D608}]"
     },
     "start": 396,
     "end": 440
@@ -283,8 +283,8 @@ __ESTREE_TEST__:TOKENS:
     "type": "RegularExpression",
     "value": "/[\\u{1D608}-\\u{1D621}][\\u{1D621}-\\u{1D608}]/u",
     "regex": {
-      "pattern": "[\\u{1D608}-\\u{1D621}][\\u{1D621}-\\u{1D608}]",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "[\\u{1D608}-\\u{1D621}][\\u{1D621}-\\u{1D608}]"
     },
     "start": 443,
     "end": 488
@@ -299,8 +299,8 @@ __ESTREE_TEST__:TOKENS:
     "type": "RegularExpression",
     "value": "/[\\u{1D608}-\\u{1D621}][\\u{1D621}-\\u{1D608}]/v",
     "regex": {
-      "pattern": "[\\u{1D608}-\\u{1D621}][\\u{1D621}-\\u{1D608}]",
-      "flags": "v"
+      "flags": "v",
+      "pattern": "[\\u{1D608}-\\u{1D621}][\\u{1D621}-\\u{1D608}]"
     },
     "start": 491,
     "end": 536
@@ -315,8 +315,8 @@ __ESTREE_TEST__:TOKENS:
     "type": "RegularExpression",
     "value": "/[\\uD835\\uDE08-\\uD835\\uDE21][\\uD835\\uDE21-\\uD835\\uDE08]/",
     "regex": {
-      "pattern": "[\\uD835\\uDE08-\\uD835\\uDE21][\\uD835\\uDE21-\\uD835\\uDE08]",
-      "flags": ""
+      "flags": "",
+      "pattern": "[\\uD835\\uDE08-\\uD835\\uDE21][\\uD835\\uDE21-\\uD835\\uDE08]"
     },
     "start": 540,
     "end": 596
@@ -331,8 +331,8 @@ __ESTREE_TEST__:TOKENS:
     "type": "RegularExpression",
     "value": "/[\\uD835\\uDE08-\\uD835\\uDE21][\\uD835\\uDE21-\\uD835\\uDE08]/u",
     "regex": {
-      "pattern": "[\\uD835\\uDE08-\\uD835\\uDE21][\\uD835\\uDE21-\\uD835\\uDE08]",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "[\\uD835\\uDE08-\\uD835\\uDE21][\\uD835\\uDE21-\\uD835\\uDE08]"
     },
     "start": 599,
     "end": 656
@@ -347,8 +347,8 @@ __ESTREE_TEST__:TOKENS:
     "type": "RegularExpression",
     "value": "/[\\uD835\\uDE08-\\uD835\\uDE21][\\uD835\\uDE21-\\uD835\\uDE08]/v",
     "regex": {
-      "pattern": "[\\uD835\\uDE08-\\uD835\\uDE21][\\uD835\\uDE21-\\uD835\\uDE08]",
-      "flags": "v"
+      "flags": "v",
+      "pattern": "[\\uD835\\uDE08-\\uD835\\uDE21][\\uD835\\uDE21-\\uD835\\uDE08]"
     },
     "start": 659,
     "end": 716

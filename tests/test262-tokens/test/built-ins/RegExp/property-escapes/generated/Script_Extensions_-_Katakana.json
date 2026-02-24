@@ -783,8 +783,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script_Extensions=Katakana}+$/u",
     "regex": {
-      "pattern": "^\\p{Script_Extensions=Katakana}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\p{Script_Extensions=Katakana}+$"
     },
     "start": 1077,
     "end": 1113
@@ -841,8 +841,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script_Extensions=Kana}+$/u",
     "regex": {
-      "pattern": "^\\p{Script_Extensions=Kana}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\p{Script_Extensions=Kana}+$"
     },
     "start": 1193,
     "end": 1225
@@ -899,8 +899,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{scx=Katakana}+$/u",
     "regex": {
-      "pattern": "^\\p{scx=Katakana}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\p{scx=Katakana}+$"
     },
     "start": 1301,
     "end": 1323
@@ -957,8 +957,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{scx=Kana}+$/u",
     "regex": {
-      "pattern": "^\\p{scx=Kana}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\p{scx=Kana}+$"
     },
     "start": 1389,
     "end": 1407
@@ -1867,8 +1867,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script_Extensions=Katakana}+$/u",
     "regex": {
-      "pattern": "^\\P{Script_Extensions=Katakana}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\P{Script_Extensions=Katakana}+$"
     },
     "start": 2129,
     "end": 2165
@@ -1925,8 +1925,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script_Extensions=Kana}+$/u",
     "regex": {
-      "pattern": "^\\P{Script_Extensions=Kana}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\P{Script_Extensions=Kana}+$"
     },
     "start": 2248,
     "end": 2280
@@ -1983,8 +1983,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{scx=Katakana}+$/u",
     "regex": {
-      "pattern": "^\\P{scx=Katakana}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\P{scx=Katakana}+$"
     },
     "start": 2359,
     "end": 2381
@@ -2041,8 +2041,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{scx=Kana}+$/u",
     "regex": {
-      "pattern": "^\\P{scx=Kana}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\P{scx=Kana}+$"
     },
     "start": 2450,
     "end": 2468

@@ -189,8 +189,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script_Extensions=Inscriptional_Pahlavi}+$/u",
     "regex": {
-      "pattern": "^\\p{Script_Extensions=Inscriptional_Pahlavi}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\p{Script_Extensions=Inscriptional_Pahlavi}+$"
     },
     "start": 628,
     "end": 677
@@ -247,8 +247,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script_Extensions=Phli}+$/u",
     "regex": {
-      "pattern": "^\\p{Script_Extensions=Phli}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\p{Script_Extensions=Phli}+$"
     },
     "start": 770,
     "end": 802
@@ -305,8 +305,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{scx=Inscriptional_Pahlavi}+$/u",
     "regex": {
-      "pattern": "^\\p{scx=Inscriptional_Pahlavi}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\p{scx=Inscriptional_Pahlavi}+$"
     },
     "start": 878,
     "end": 913
@@ -363,8 +363,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{scx=Phli}+$/u",
     "regex": {
-      "pattern": "^\\p{scx=Phli}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\p{scx=Phli}+$"
     },
     "start": 992,
     "end": 1010
@@ -703,8 +703,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script_Extensions=Inscriptional_Pahlavi}+$/u",
     "regex": {
-      "pattern": "^\\P{Script_Extensions=Inscriptional_Pahlavi}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\P{Script_Extensions=Inscriptional_Pahlavi}+$"
     },
     "start": 1282,
     "end": 1331
@@ -761,8 +761,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script_Extensions=Phli}+$/u",
     "regex": {
-      "pattern": "^\\P{Script_Extensions=Phli}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\P{Script_Extensions=Phli}+$"
     },
     "start": 1427,
     "end": 1459
@@ -819,8 +819,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{scx=Inscriptional_Pahlavi}+$/u",
     "regex": {
-      "pattern": "^\\P{scx=Inscriptional_Pahlavi}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\P{scx=Inscriptional_Pahlavi}+$"
     },
     "start": 1538,
     "end": 1573
@@ -877,8 +877,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{scx=Phli}+$/u",
     "regex": {
-      "pattern": "^\\P{scx=Phli}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\P{scx=Phli}+$"
     },
     "start": 1655,
     "end": 1673

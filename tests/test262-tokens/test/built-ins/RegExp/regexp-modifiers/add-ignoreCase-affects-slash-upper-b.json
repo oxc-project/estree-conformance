@@ -21,8 +21,8 @@
     "type": "RegularExpression",
     "value": "/(?i:Z\\B)/u",
     "regex": {
-      "pattern": "(?i:Z\\B)",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "(?i:Z\\B)"
     },
     "start": 2699,
     "end": 2710
@@ -199,8 +199,8 @@
     "type": "RegularExpression",
     "value": "/(?i-:Z\\B)/u",
     "regex": {
-      "pattern": "(?i-:Z\\B)",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "(?i-:Z\\B)"
     },
     "start": 2863,
     "end": 2875

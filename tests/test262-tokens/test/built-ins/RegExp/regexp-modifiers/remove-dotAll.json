@@ -21,8 +21,8 @@
     "type": "RegularExpression",
     "value": "/(?-s:^.$)/s",
     "regex": {
-      "pattern": "(?-s:^.$)",
-      "flags": "s"
+      "flags": "s",
+      "pattern": "(?-s:^.$)"
     },
     "start": 1767,
     "end": 1779
@@ -2341,8 +2341,8 @@
     "type": "RegularExpression",
     "value": "/a.(?-s:b.b).c/s",
     "regex": {
-      "pattern": "a.(?-s:b.b).c",
-      "flags": "s"
+      "flags": "s",
+      "pattern": "a.(?-s:b.b).c"
     },
     "start": 4809,
     "end": 4825

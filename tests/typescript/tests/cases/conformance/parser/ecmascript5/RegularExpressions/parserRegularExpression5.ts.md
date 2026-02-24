@@ -123,8 +123,8 @@ __ESTREE_TEST__:TOKENS:
     "type": "RegularExpression",
     "value": "/ (\\\\ ? | & ) rct = j /",
     "regex": {
-      "pattern": " (\\\\ ? | & ) rct = j ",
-      "flags": ""
+      "flags": "",
+      "pattern": " (\\\\ ? | & ) rct = j "
     },
     "start": 7,
     "end": 30

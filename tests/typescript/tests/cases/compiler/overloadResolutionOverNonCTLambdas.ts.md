@@ -906,8 +906,8 @@ __ESTREE_TEST__:TOKENS:
     "type": "RegularExpression",
     "value": "/\\{(\\d+)\\}/g",
     "regex": {
-      "pattern": "\\{(\\d+)\\}",
-      "flags": "g"
+      "flags": "g",
+      "pattern": "\\{(\\d+)\\}"
     },
     "start": 228,
     "end": 240

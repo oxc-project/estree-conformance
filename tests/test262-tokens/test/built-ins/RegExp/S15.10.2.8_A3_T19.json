@@ -21,8 +21,8 @@
     "type": "RegularExpression",
     "value": "/([\\S]+([ \\t]+[\\S]+)*)[ \\t]*=[ \\t]*[\\S]+/",
     "regex": {
-      "pattern": "([\\S]+([ \\t]+[\\S]+)*)[ \\t]*=[ \\t]*[\\S]+",
-      "flags": ""
+      "flags": "",
+      "pattern": "([\\S]+([ \\t]+[\\S]+)*)[ \\t]*=[ \\t]*[\\S]+"
     },
     "start": 681,
     "end": 722

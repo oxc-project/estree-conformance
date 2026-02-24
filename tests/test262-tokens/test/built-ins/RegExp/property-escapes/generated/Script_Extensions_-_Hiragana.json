@@ -627,8 +627,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script_Extensions=Hiragana}+$/u",
     "regex": {
-      "pattern": "^\\p{Script_Extensions=Hiragana}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\p{Script_Extensions=Hiragana}+$"
     },
     "start": 959,
     "end": 995
@@ -685,8 +685,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script_Extensions=Hira}+$/u",
     "regex": {
-      "pattern": "^\\p{Script_Extensions=Hira}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\p{Script_Extensions=Hira}+$"
     },
     "start": 1075,
     "end": 1107
@@ -743,8 +743,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{scx=Hiragana}+$/u",
     "regex": {
-      "pattern": "^\\p{scx=Hiragana}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\p{scx=Hiragana}+$"
     },
     "start": 1183,
     "end": 1205
@@ -801,8 +801,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{scx=Hira}+$/u",
     "regex": {
-      "pattern": "^\\p{scx=Hira}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\p{scx=Hira}+$"
     },
     "start": 1271,
     "end": 1289
@@ -1627,8 +1627,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script_Extensions=Hiragana}+$/u",
     "regex": {
-      "pattern": "^\\P{Script_Extensions=Hiragana}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\P{Script_Extensions=Hiragana}+$"
     },
     "start": 1929,
     "end": 1965
@@ -1685,8 +1685,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script_Extensions=Hira}+$/u",
     "regex": {
-      "pattern": "^\\P{Script_Extensions=Hira}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\P{Script_Extensions=Hira}+$"
     },
     "start": 2048,
     "end": 2080
@@ -1743,8 +1743,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{scx=Hiragana}+$/u",
     "regex": {
-      "pattern": "^\\P{scx=Hiragana}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\P{scx=Hiragana}+$"
     },
     "start": 2159,
     "end": 2181
@@ -1801,8 +1801,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{scx=Hira}+$/u",
     "regex": {
-      "pattern": "^\\P{scx=Hira}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\P{scx=Hira}+$"
     },
     "start": 2250,
     "end": 2268

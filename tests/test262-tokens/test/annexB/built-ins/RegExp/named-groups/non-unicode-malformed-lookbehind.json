@@ -15,8 +15,8 @@
     "type": "RegularExpression",
     "value": "/\\k<a>(?<=>)a/",
     "regex": {
-      "pattern": "\\k<a>(?<=>)a",
-      "flags": ""
+      "flags": "",
+      "pattern": "\\k<a>(?<=>)a"
     },
     "start": 325,
     "end": 339
@@ -79,8 +79,8 @@
     "type": "RegularExpression",
     "value": "/(?<=>)\\k<a>/",
     "regex": {
-      "pattern": "(?<=>)\\k<a>",
-      "flags": ""
+      "flags": "",
+      "pattern": "(?<=>)\\k<a>"
     },
     "start": 363,
     "end": 376
@@ -143,8 +143,8 @@
     "type": "RegularExpression",
     "value": "/\\k<a>(?<!a)a/",
     "regex": {
-      "pattern": "\\k<a>(?<!a)a",
-      "flags": ""
+      "flags": "",
+      "pattern": "\\k<a>(?<!a)a"
     },
     "start": 401,
     "end": 415
@@ -207,8 +207,8 @@
     "type": "RegularExpression",
     "value": "/(?<!a>)\\k<a>/",
     "regex": {
-      "pattern": "(?<!a>)\\k<a>",
-      "flags": ""
+      "flags": "",
+      "pattern": "(?<!a>)\\k<a>"
     },
     "start": 439,
     "end": 453

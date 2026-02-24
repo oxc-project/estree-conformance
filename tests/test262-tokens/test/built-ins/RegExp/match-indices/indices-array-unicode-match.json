@@ -135,8 +135,8 @@
     "type": "RegularExpression",
     "value": "/(a)/du",
     "regex": {
-      "pattern": "(a)",
-      "flags": "du"
+      "flags": "du",
+      "pattern": "(a)"
     },
     "start": 1904,
     "end": 1911
@@ -307,8 +307,8 @@
     "type": "RegularExpression",
     "value": "/.(a)./du",
     "regex": {
-      "pattern": ".(a).",
-      "flags": "du"
+      "flags": "du",
+      "pattern": ".(a)."
     },
     "start": 1970,
     "end": 1979
@@ -515,8 +515,8 @@
     "type": "RegularExpression",
     "value": "/.(a)(.)/du",
     "regex": {
-      "pattern": ".(a)(.)",
-      "flags": "du"
+      "flags": "du",
+      "pattern": ".(a)(.)"
     },
     "start": 2046,
     "end": 2057
@@ -687,8 +687,8 @@
     "type": "RegularExpression",
     "value": "/.(\\w\\w)/du",
     "regex": {
-      "pattern": ".(\\w\\w)",
-      "flags": "du"
+      "flags": "du",
+      "pattern": ".(\\w\\w)"
     },
     "start": 2116,
     "end": 2127
@@ -859,8 +859,8 @@
     "type": "RegularExpression",
     "value": "/(\\w\\w\\w)/du",
     "regex": {
-      "pattern": "(\\w\\w\\w)",
-      "flags": "du"
+      "flags": "du",
+      "pattern": "(\\w\\w\\w)"
     },
     "start": 2186,
     "end": 2198
@@ -1067,8 +1067,8 @@
     "type": "RegularExpression",
     "value": "/(\\w\\w)(\\w)/du",
     "regex": {
-      "pattern": "(\\w\\w)(\\w)",
-      "flags": "du"
+      "flags": "du",
+      "pattern": "(\\w\\w)(\\w)"
     },
     "start": 2265,
     "end": 2279
@@ -1251,8 +1251,8 @@
     "type": "RegularExpression",
     "value": "/(\\w\\w)(\\W)?/du",
     "regex": {
-      "pattern": "(\\w\\w)(\\W)?",
-      "flags": "du"
+      "flags": "du",
+      "pattern": "(\\w\\w)(\\W)?"
     },
     "start": 2349,
     "end": 2364
@@ -1309,8 +1309,8 @@
     "type": "RegularExpression",
     "value": "/(?<a>.)(?<b>.)(?<c>.)\\k<c>\\k<b>\\k<a>/du",
     "regex": {
-      "pattern": "(?<a>.)(?<b>.)(?<c>.)\\k<c>\\k<b>\\k<a>",
-      "flags": "du"
+      "flags": "du",
+      "pattern": "(?<a>.)(?<b>.)(?<c>.)\\k<c>\\k<b>\\k<a>"
     },
     "start": 2390,
     "end": 2430
@@ -2321,8 +2321,8 @@
     "type": "RegularExpression",
     "value": "/./u",
     "regex": {
-      "pattern": ".",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "."
     },
     "start": 3314,
     "end": 3318
@@ -2451,8 +2451,8 @@
     "type": "RegularExpression",
     "value": "/./u",
     "regex": {
-      "pattern": ".",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "."
     },
     "start": 3447,
     "end": 3451
@@ -2581,8 +2581,8 @@
     "type": "RegularExpression",
     "value": "/./u",
     "regex": {
-      "pattern": ".",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "."
     },
     "start": 3591,
     "end": 3595
@@ -2735,8 +2735,8 @@
     "type": "RegularExpression",
     "value": "/./du",
     "regex": {
-      "pattern": ".",
-      "flags": "du"
+      "flags": "du",
+      "pattern": "."
     },
     "start": 3738,
     "end": 3743
@@ -2889,8 +2889,8 @@
     "type": "RegularExpression",
     "value": "/./du",
     "regex": {
-      "pattern": ".",
-      "flags": "du"
+      "flags": "du",
+      "pattern": "."
     },
     "start": 3862,
     "end": 3867
@@ -3043,8 +3043,8 @@
     "type": "RegularExpression",
     "value": "/./du",
     "regex": {
-      "pattern": ".",
-      "flags": "du"
+      "flags": "du",
+      "pattern": "."
     },
     "start": 3995,
     "end": 4000
@@ -3197,8 +3197,8 @@
     "type": "RegularExpression",
     "value": "/(?<a>.)/du",
     "regex": {
-      "pattern": "(?<a>.)",
-      "flags": "du"
+      "flags": "du",
+      "pattern": "(?<a>.)"
     },
     "start": 4122,
     "end": 4133
@@ -3357,8 +3357,8 @@
     "type": "RegularExpression",
     "value": "/(?<a>.)/du",
     "regex": {
-      "pattern": "(?<a>.)",
-      "flags": "du"
+      "flags": "du",
+      "pattern": "(?<a>.)"
     },
     "start": 4268,
     "end": 4279
@@ -3517,8 +3517,8 @@
     "type": "RegularExpression",
     "value": "/(?<a>.)/du",
     "regex": {
-      "pattern": "(?<a>.)",
-      "flags": "du"
+      "flags": "du",
+      "pattern": "(?<a>.)"
     },
     "start": 4425,
     "end": 4436

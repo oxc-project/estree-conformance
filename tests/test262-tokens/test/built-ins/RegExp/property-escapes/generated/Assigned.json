@@ -24963,8 +24963,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Assigned}+$/u",
     "regex": {
-      "pattern": "^\\p{Assigned}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\p{Assigned}+$"
     },
     "start": 18869,
     "end": 18887
@@ -45625,8 +45625,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Assigned}+$/u",
     "regex": {
-      "pattern": "^\\P{Assigned}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\P{Assigned}+$"
     },
     "start": 35165,
     "end": 35183

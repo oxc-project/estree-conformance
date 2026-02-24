@@ -2985,8 +2985,8 @@
     "type": "RegularExpression",
     "value": "/^[a-z0-9]{5,8}|[0-9][a-z0-9]{3}$/i",
     "regex": {
-      "pattern": "^[a-z0-9]{5,8}|[0-9][a-z0-9]{3}$",
-      "flags": "i"
+      "flags": "i",
+      "pattern": "^[a-z0-9]{5,8}|[0-9][a-z0-9]{3}$"
     },
     "start": 3994,
     "end": 4029
@@ -3091,8 +3091,8 @@
     "type": "RegularExpression",
     "value": "/(-([a-z0-9]{5,8}|[0-9][a-z0-9]{3}))+$/i",
     "regex": {
-      "pattern": "(-([a-z0-9]{5,8}|[0-9][a-z0-9]{3}))+$",
-      "flags": "i"
+      "flags": "i",
+      "pattern": "(-([a-z0-9]{5,8}|[0-9][a-z0-9]{3}))+$"
     },
     "start": 4087,
     "end": 4127

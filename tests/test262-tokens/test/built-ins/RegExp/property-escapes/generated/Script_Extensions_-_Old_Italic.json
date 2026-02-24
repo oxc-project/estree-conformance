@@ -189,8 +189,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script_Extensions=Old_Italic}+$/u",
     "regex": {
-      "pattern": "^\\p{Script_Extensions=Old_Italic}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\p{Script_Extensions=Old_Italic}+$"
     },
     "start": 617,
     "end": 655
@@ -247,8 +247,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script_Extensions=Ital}+$/u",
     "regex": {
-      "pattern": "^\\p{Script_Extensions=Ital}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\p{Script_Extensions=Ital}+$"
     },
     "start": 737,
     "end": 769
@@ -305,8 +305,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{scx=Old_Italic}+$/u",
     "regex": {
-      "pattern": "^\\p{scx=Old_Italic}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\p{scx=Old_Italic}+$"
     },
     "start": 845,
     "end": 869
@@ -363,8 +363,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{scx=Ital}+$/u",
     "regex": {
-      "pattern": "^\\p{scx=Ital}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\p{scx=Ital}+$"
     },
     "start": 937,
     "end": 955
@@ -703,8 +703,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script_Extensions=Old_Italic}+$/u",
     "regex": {
-      "pattern": "^\\P{Script_Extensions=Old_Italic}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\P{Script_Extensions=Old_Italic}+$"
     },
     "start": 1227,
     "end": 1265
@@ -761,8 +761,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script_Extensions=Ital}+$/u",
     "regex": {
-      "pattern": "^\\P{Script_Extensions=Ital}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\P{Script_Extensions=Ital}+$"
     },
     "start": 1350,
     "end": 1382
@@ -819,8 +819,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{scx=Old_Italic}+$/u",
     "regex": {
-      "pattern": "^\\P{scx=Old_Italic}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\P{scx=Old_Italic}+$"
     },
     "start": 1461,
     "end": 1485
@@ -877,8 +877,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{scx=Ital}+$/u",
     "regex": {
-      "pattern": "^\\P{scx=Ital}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\P{scx=Ital}+$"
     },
     "start": 1556,
     "end": 1574

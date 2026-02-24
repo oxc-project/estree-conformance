@@ -551,8 +551,8 @@ __ESTREE_TEST__:TOKENS:
     "type": "RegularExpression",
     "value": "/a/",
     "regex": {
-      "pattern": "a",
-      "flags": ""
+      "flags": "",
+      "pattern": "a"
     },
     "start": 92,
     "end": 95

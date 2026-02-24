@@ -69,8 +69,8 @@
     "type": "RegularExpression",
     "value": "/\\d/u",
     "regex": {
-      "pattern": "\\d",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "\\d"
     },
     "start": 709,
     "end": 714
@@ -223,8 +223,8 @@
     "type": "RegularExpression",
     "value": "/\\w/g",
     "regex": {
-      "pattern": "\\w",
-      "flags": "g"
+      "flags": "g",
+      "pattern": "\\w"
     },
     "start": 825,
     "end": 830

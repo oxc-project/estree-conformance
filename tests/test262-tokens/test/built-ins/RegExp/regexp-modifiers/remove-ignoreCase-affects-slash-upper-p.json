@@ -21,8 +21,8 @@
     "type": "RegularExpression",
     "value": "/(?-i:\\P{Lu})/ui",
     "regex": {
-      "pattern": "(?-i:\\P{Lu})",
-      "flags": "ui"
+      "flags": "ui",
+      "pattern": "(?-i:\\P{Lu})"
     },
     "start": 2703,
     "end": 2719

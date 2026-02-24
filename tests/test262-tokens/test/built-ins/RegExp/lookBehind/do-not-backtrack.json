@@ -51,8 +51,8 @@
     "type": "RegularExpression",
     "value": "/(?<=([abc]+)).\\1/",
     "regex": {
-      "pattern": "(?<=([abc]+)).\\1",
-      "flags": ""
+      "flags": "",
+      "pattern": "(?<=([abc]+)).\\1"
     },
     "start": 1082,
     "end": 1100

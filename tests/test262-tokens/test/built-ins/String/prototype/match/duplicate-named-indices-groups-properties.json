@@ -21,8 +21,8 @@
     "type": "RegularExpression",
     "value": "/(?:(?<x>a)|(?<y>a)(?<x>b))(?:(?<z>c)|(?<z>d))/d",
     "regex": {
-      "pattern": "(?:(?<x>a)|(?<y>a)(?<x>b))(?:(?<z>c)|(?<z>d))",
-      "flags": "d"
+      "flags": "d",
+      "pattern": "(?:(?<x>a)|(?<y>a)(?<x>b))(?:(?<z>c)|(?<z>d))"
     },
     "start": 356,
     "end": 404
@@ -1219,8 +1219,8 @@
     "type": "RegularExpression",
     "value": "/(?:(?:(?<x>a)|(?<x>b)|c)\\k<x>){2}/d",
     "regex": {
-      "pattern": "(?:(?:(?<x>a)|(?<x>b)|c)\\k<x>){2}",
-      "flags": "d"
+      "flags": "d",
+      "pattern": "(?:(?:(?<x>a)|(?<x>b)|c)\\k<x>){2}"
     },
     "start": 1403,
     "end": 1439

@@ -70,8 +70,8 @@ __ESTREE_TEST__:TOKENS:
     "type": "RegularExpression",
     "value": "/\\u{abcd}\\u{ef12}\\u{3456}\\u{7890}/gu",
     "regex": {
-      "pattern": "\\u{abcd}\\u{ef12}\\u{3456}\\u{7890}",
-      "flags": "gu"
+      "flags": "gu",
+      "pattern": "\\u{abcd}\\u{ef12}\\u{3456}\\u{7890}"
     },
     "start": 8,
     "end": 44

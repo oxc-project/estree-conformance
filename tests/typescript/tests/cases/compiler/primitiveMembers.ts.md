@@ -938,8 +938,8 @@ __ESTREE_TEST__:TOKENS:
     "type": "RegularExpression",
     "value": "/yo/",
     "regex": {
-      "pattern": "yo",
-      "flags": ""
+      "flags": "",
+      "pattern": "yo"
     },
     "start": 19,
     "end": 23
@@ -1326,8 +1326,8 @@ __ESTREE_TEST__:TOKENS:
     "type": "RegularExpression",
     "value": "/./g",
     "regex": {
-      "pattern": ".",
-      "flags": "g"
+      "flags": "g",
+      "pattern": "."
     },
     "start": 261,
     "end": 265

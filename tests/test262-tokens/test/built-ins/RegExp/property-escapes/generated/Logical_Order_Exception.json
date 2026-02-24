@@ -315,8 +315,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Logical_Order_Exception}+$/u",
     "regex": {
-      "pattern": "^\\p{Logical_Order_Exception}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\p{Logical_Order_Exception}+$"
     },
     "start": 720,
     "end": 753
@@ -373,8 +373,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{LOE}+$/u",
     "regex": {
-      "pattern": "^\\p{LOE}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\p{LOE}+$"
     },
     "start": 830,
     "end": 843
@@ -863,8 +863,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Logical_Order_Exception}+$/u",
     "regex": {
-      "pattern": "^\\P{Logical_Order_Exception}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\P{Logical_Order_Exception}+$"
     },
     "start": 1230,
     "end": 1263
@@ -921,8 +921,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{LOE}+$/u",
     "regex": {
-      "pattern": "^\\P{LOE}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\P{LOE}+$"
     },
     "start": 1343,
     "end": 1356

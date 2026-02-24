@@ -51,8 +51,8 @@
     "type": "RegularExpression",
     "value": "/\\s+/g",
     "regex": {
-      "pattern": "\\s+",
-      "flags": "g"
+      "flags": "g",
+      "pattern": "\\s+"
     },
     "start": 740,
     "end": 746
@@ -163,8 +163,8 @@
     "type": "RegularExpression",
     "value": "/\\S+/g",
     "regex": {
-      "pattern": "\\S+",
-      "flags": "g"
+      "flags": "g",
+      "pattern": "\\S+"
     },
     "start": 831,
     "end": 837

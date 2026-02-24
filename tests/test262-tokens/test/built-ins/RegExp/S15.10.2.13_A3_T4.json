@@ -21,8 +21,8 @@
     "type": "RegularExpression",
     "value": "/[^\\[\\b\\]]+/",
     "regex": {
-      "pattern": "[^\\[\\b\\]]+",
-      "flags": ""
+      "flags": "",
+      "pattern": "[^\\[\\b\\]]+"
     },
     "start": 318,
     "end": 330

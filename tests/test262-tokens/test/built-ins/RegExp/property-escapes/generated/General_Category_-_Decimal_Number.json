@@ -2709,8 +2709,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{General_Category=Decimal_Number}+$/u",
     "regex": {
-      "pattern": "^\\p{General_Category=Decimal_Number}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\p{General_Category=Decimal_Number}+$"
     },
     "start": 2440,
     "end": 2481
@@ -2767,8 +2767,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{General_Category=Nd}+$/u",
     "regex": {
-      "pattern": "^\\p{General_Category=Nd}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\p{General_Category=Nd}+$"
     },
     "start": 2566,
     "end": 2595
@@ -2825,8 +2825,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{General_Category=digit}+$/u",
     "regex": {
-      "pattern": "^\\p{General_Category=digit}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\p{General_Category=digit}+$"
     },
     "start": 2668,
     "end": 2700
@@ -2883,8 +2883,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{gc=Decimal_Number}+$/u",
     "regex": {
-      "pattern": "^\\p{gc=Decimal_Number}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\p{gc=Decimal_Number}+$"
     },
     "start": 2776,
     "end": 2803
@@ -2941,8 +2941,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{gc=Nd}+$/u",
     "regex": {
-      "pattern": "^\\p{gc=Nd}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\p{gc=Nd}+$"
     },
     "start": 2874,
     "end": 2889
@@ -2999,8 +2999,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{gc=digit}+$/u",
     "regex": {
-      "pattern": "^\\p{gc=digit}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\p{gc=digit}+$"
     },
     "start": 2948,
     "end": 2966
@@ -3057,8 +3057,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Decimal_Number}+$/u",
     "regex": {
-      "pattern": "^\\p{Decimal_Number}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\p{Decimal_Number}+$"
     },
     "start": 3028,
     "end": 3052
@@ -3115,8 +3115,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Nd}+$/u",
     "regex": {
-      "pattern": "^\\p{Nd}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\p{Nd}+$"
     },
     "start": 3120,
     "end": 3132
@@ -3173,8 +3173,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{digit}+$/u",
     "regex": {
-      "pattern": "^\\p{digit}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\p{digit}+$"
     },
     "start": 3188,
     "end": 3203
@@ -6033,8 +6033,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{General_Category=Decimal_Number}+$/u",
     "regex": {
-      "pattern": "^\\P{General_Category=Decimal_Number}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\P{General_Category=Decimal_Number}+$"
     },
     "start": 5292,
     "end": 5333
@@ -6091,8 +6091,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{General_Category=Nd}+$/u",
     "regex": {
-      "pattern": "^\\P{General_Category=Nd}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\P{General_Category=Nd}+$"
     },
     "start": 5421,
     "end": 5450
@@ -6149,8 +6149,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{General_Category=digit}+$/u",
     "regex": {
-      "pattern": "^\\P{General_Category=digit}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\P{General_Category=digit}+$"
     },
     "start": 5526,
     "end": 5558
@@ -6207,8 +6207,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{gc=Decimal_Number}+$/u",
     "regex": {
-      "pattern": "^\\P{gc=Decimal_Number}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\P{gc=Decimal_Number}+$"
     },
     "start": 5637,
     "end": 5664
@@ -6265,8 +6265,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{gc=Nd}+$/u",
     "regex": {
-      "pattern": "^\\P{gc=Nd}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\P{gc=Nd}+$"
     },
     "start": 5738,
     "end": 5753
@@ -6323,8 +6323,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{gc=digit}+$/u",
     "regex": {
-      "pattern": "^\\P{gc=digit}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\P{gc=digit}+$"
     },
     "start": 5815,
     "end": 5833
@@ -6381,8 +6381,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Decimal_Number}+$/u",
     "regex": {
-      "pattern": "^\\P{Decimal_Number}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\P{Decimal_Number}+$"
     },
     "start": 5898,
     "end": 5922
@@ -6439,8 +6439,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Nd}+$/u",
     "regex": {
-      "pattern": "^\\P{Nd}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\P{Nd}+$"
     },
     "start": 5993,
     "end": 6005
@@ -6497,8 +6497,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{digit}+$/u",
     "regex": {
-      "pattern": "^\\P{digit}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\P{digit}+$"
     },
     "start": 6064,
     "end": 6079

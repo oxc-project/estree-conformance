@@ -21,8 +21,8 @@
     "type": "RegularExpression",
     "value": "/(?i:\\W)/u",
     "regex": {
-      "pattern": "(?i:\\W)",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "(?i:\\W)"
     },
     "start": 2699,
     "end": 2709
@@ -211,8 +211,8 @@
     "type": "RegularExpression",
     "value": "/(?i-:\\W)/u",
     "regex": {
-      "pattern": "(?i-:\\W)",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "(?i-:\\W)"
     },
     "start": 2842,
     "end": 2853

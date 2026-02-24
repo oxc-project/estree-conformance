@@ -819,8 +819,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script=Han}+$/u",
     "regex": {
-      "pattern": "^\\p{Script=Han}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\p{Script=Han}+$"
     },
     "start": 1071,
     "end": 1091
@@ -877,8 +877,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script=Hani}+$/u",
     "regex": {
-      "pattern": "^\\p{Script=Hani}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\p{Script=Hani}+$"
     },
     "start": 1155,
     "end": 1176
@@ -935,8 +935,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{sc=Han}+$/u",
     "regex": {
-      "pattern": "^\\p{sc=Han}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\p{sc=Han}+$"
     },
     "start": 1241,
     "end": 1257
@@ -993,8 +993,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{sc=Hani}+$/u",
     "regex": {
-      "pattern": "^\\p{sc=Hani}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\p{sc=Hani}+$"
     },
     "start": 1317,
     "end": 1334
@@ -1963,8 +1963,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script=Han}+$/u",
     "regex": {
-      "pattern": "^\\P{Script=Han}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\P{Script=Han}+$"
     },
     "start": 2077,
     "end": 2097
@@ -2021,8 +2021,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script=Hani}+$/u",
     "regex": {
-      "pattern": "^\\P{Script=Hani}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\P{Script=Hani}+$"
     },
     "start": 2164,
     "end": 2185
@@ -2079,8 +2079,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{sc=Han}+$/u",
     "regex": {
-      "pattern": "^\\P{sc=Han}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\P{sc=Han}+$"
     },
     "start": 2253,
     "end": 2269
@@ -2137,8 +2137,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{sc=Hani}+$/u",
     "regex": {
-      "pattern": "^\\P{sc=Hani}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\P{sc=Hani}+$"
     },
     "start": 2332,
     "end": 2349

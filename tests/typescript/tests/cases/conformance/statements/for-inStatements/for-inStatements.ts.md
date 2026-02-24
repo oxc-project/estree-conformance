@@ -3194,8 +3194,8 @@ __ESTREE_TEST__:TOKENS:
     "type": "RegularExpression",
     "value": "/[a-z]/",
     "regex": {
-      "pattern": "[a-z]",
-      "flags": ""
+      "flags": "",
+      "pattern": "[a-z]"
     },
     "start": 227,
     "end": 234

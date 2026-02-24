@@ -21,8 +21,8 @@
     "type": "RegularExpression",
     "value": "/(?<a>a).|(?<x>x)/d",
     "regex": {
-      "pattern": "(?<a>a).|(?<x>x)",
-      "flags": "d"
+      "flags": "d",
+      "pattern": "(?<a>a).|(?<x>x)"
     },
     "start": 645,
     "end": 664

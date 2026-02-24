@@ -26139,8 +26139,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{ID_Continue}+$/u",
     "regex": {
-      "pattern": "^\\p{ID_Continue}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\p{ID_Continue}+$"
     },
     "start": 19956,
     "end": 19977
@@ -26197,8 +26197,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{IDC}+$/u",
     "regex": {
-      "pattern": "^\\p{IDC}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\p{IDC}+$"
     },
     "start": 20042,
     "end": 20055
@@ -48623,8 +48623,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{ID_Continue}+$/u",
     "regex": {
-      "pattern": "^\\P{ID_Continue}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\P{ID_Continue}+$"
     },
     "start": 37746,
     "end": 37767
@@ -48681,8 +48681,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{IDC}+$/u",
     "regex": {
-      "pattern": "^\\P{IDC}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\P{IDC}+$"
     },
     "start": 37835,
     "end": 37848
