@@ -22,14 +22,19 @@ await run({
     let output = "";
     for (const test of tests) {
       try {
-        const result = parseForESLint(test.content, {
+        // Convert hashbang to normal line comment.
+        // This is what ESLint does, before passing code to parser.
+        let code = test.content;
+        const hasHashbang = code.startsWith("#!");
+        if (hasHashbang) code = `//${code.slice(2)}`;
+
+        const result = parseForESLint(code, {
           filePath: path,
           sourceType: test.sourceType.module ? "module" : "script",
           ecmaFeatures: {
             jsx: test.sourceType.jsx,
           },
         });
-        // oxlint-disable-next-line no-unused-vars
         const { comments, tokens, ...program } = result.ast;
 
         // TS-ESLint parser has no `unambiguous` option, so emulate it here
@@ -72,6 +77,10 @@ await run({
             }
           }
         }
+
+        // Add `hashbang` property to AST if file starts with a hashbang.
+        // This property is non-standard and exclusive to Oxc.
+        program.hashbang = hasHashbang ? { ...comments[0], type: "Hashbang" } : null;
 
         const astJson = stringifyWith(program, transformerTs);
         output += "__ESTREE_TEST__:AST:\n```json\n" + astJson + "\n```\n";

@@ -9,7 +9,12 @@
     }
   ],
   "sourceType": "script",
-  "hashbang": null,
+  "hashbang": {
+    "type": "Hashbang",
+    "value": " this comment ends with a Paragraph Separator (U+2029)",
+    "start": 0,
+    "end": 56
+  },
   "start": 0,
   "end": 645
 }

@@ -42,6 +42,7 @@ await run({
     const isModule = preamble.flags?.includes("module");
 
     let ast;
+    const comments = [];
     try {
       ast = AcornParser.parse(code, {
         ecmaVersion: "latest",
@@ -51,6 +52,7 @@ await run({
         allowReturnOutsideFunction: true,
         // Note: Do not specify `allowAwaitOutsideFunction` option.
         // It defaults to `true` for modules, `false` for scripts, which is what we want.
+        onComment: comments,
       });
     } catch {
       try {
@@ -63,12 +65,21 @@ await run({
           globalReturn: true,
           webcompat: true, // I think this enables support for Annex B
           next: true, // Enable parsing decorators and import attributes
+          onComment: comments,
         });
       } catch {
         return;
       }
 
       fixMeriyahValue(ast);
+    }
+
+    // Add `hashbang` property to AST if file starts with a hashbang.
+    // This property is non-standard and exclusive to Oxc.
+    if (comments.length > 0 && code.startsWith("#!") && comments[0].type === "Line") {
+      ast.hashbang = { ...comments[0], type: "Hashbang" };
+    } else {
+      ast.hashbang = null;
     }
 
     // Parse tokens

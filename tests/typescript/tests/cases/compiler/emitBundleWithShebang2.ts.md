@@ -67,7 +67,12 @@ __ESTREE_TEST__:AST:
     }
   ],
   "sourceType": "script",
-  "hashbang": null,
+  "hashbang": {
+    "type": "Hashbang",
+    "value": "/usr/bin/env gjs",
+    "start": 0,
+    "end": 18
+  },
   "start": 19,
   "end": 60
 }
@@ -206,7 +211,12 @@ __ESTREE_TEST__:AST:
     }
   ],
   "sourceType": "script",
-  "hashbang": null,
+  "hashbang": {
+    "type": "Hashbang",
+    "value": "/usr/bin/env js",
+    "start": 0,
+    "end": 17
+  },
   "start": 18,
   "end": 61
 }
