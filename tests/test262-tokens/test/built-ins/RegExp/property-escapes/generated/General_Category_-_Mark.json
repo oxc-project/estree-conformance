@@ -10083,8 +10083,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{General_Category=Mark}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{General_Category=Mark}+$"
+      "pattern": "^\\p{General_Category=Mark}+$",
+      "flags": "u"
     },
     "start": 8162,
     "end": 8193
@@ -10141,8 +10141,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{General_Category=M}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{General_Category=M}+$"
+      "pattern": "^\\p{General_Category=M}+$",
+      "flags": "u"
     },
     "start": 8268,
     "end": 8296
@@ -10199,8 +10199,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{General_Category=Combining_Mark}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{General_Category=Combining_Mark}+$"
+      "pattern": "^\\p{General_Category=Combining_Mark}+$",
+      "flags": "u"
     },
     "start": 8368,
     "end": 8409
@@ -10257,8 +10257,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{gc=Mark}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{gc=Mark}+$"
+      "pattern": "^\\p{gc=Mark}+$",
+      "flags": "u"
     },
     "start": 8494,
     "end": 8511
@@ -10315,8 +10315,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{gc=M}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{gc=M}+$"
+      "pattern": "^\\p{gc=M}+$",
+      "flags": "u"
     },
     "start": 8572,
     "end": 8586
@@ -10373,8 +10373,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{gc=Combining_Mark}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{gc=Combining_Mark}+$"
+      "pattern": "^\\p{gc=Combining_Mark}+$",
+      "flags": "u"
     },
     "start": 8644,
     "end": 8671
@@ -10431,8 +10431,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Mark}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Mark}+$"
+      "pattern": "^\\p{Mark}+$",
+      "flags": "u"
     },
     "start": 8742,
     "end": 8756
@@ -10489,8 +10489,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{M}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{M}+$"
+      "pattern": "^\\p{M}+$",
+      "flags": "u"
     },
     "start": 8814,
     "end": 8825
@@ -10547,8 +10547,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Combining_Mark}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Combining_Mark}+$"
+      "pattern": "^\\p{Combining_Mark}+$",
+      "flags": "u"
     },
     "start": 8880,
     "end": 8904
@@ -20973,8 +20973,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{General_Category=Mark}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{General_Category=Mark}+$"
+      "pattern": "^\\P{General_Category=Mark}+$",
+      "flags": "u"
     },
     "start": 16830,
     "end": 16861
@@ -21031,8 +21031,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{General_Category=M}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{General_Category=M}+$"
+      "pattern": "^\\P{General_Category=M}+$",
+      "flags": "u"
     },
     "start": 16939,
     "end": 16967
@@ -21089,8 +21089,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{General_Category=Combining_Mark}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{General_Category=Combining_Mark}+$"
+      "pattern": "^\\P{General_Category=Combining_Mark}+$",
+      "flags": "u"
     },
     "start": 17042,
     "end": 17083
@@ -21147,8 +21147,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{gc=Mark}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{gc=Mark}+$"
+      "pattern": "^\\P{gc=Mark}+$",
+      "flags": "u"
     },
     "start": 17171,
     "end": 17188
@@ -21205,8 +21205,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{gc=M}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{gc=M}+$"
+      "pattern": "^\\P{gc=M}+$",
+      "flags": "u"
     },
     "start": 17252,
     "end": 17266
@@ -21263,8 +21263,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{gc=Combining_Mark}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{gc=Combining_Mark}+$"
+      "pattern": "^\\P{gc=Combining_Mark}+$",
+      "flags": "u"
     },
     "start": 17327,
     "end": 17354
@@ -21321,8 +21321,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Mark}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Mark}+$"
+      "pattern": "^\\P{Mark}+$",
+      "flags": "u"
     },
     "start": 17428,
     "end": 17442
@@ -21379,8 +21379,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{M}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{M}+$"
+      "pattern": "^\\P{M}+$",
+      "flags": "u"
     },
     "start": 17503,
     "end": 17514
@@ -21437,8 +21437,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Combining_Mark}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Combining_Mark}+$"
+      "pattern": "^\\P{Combining_Mark}+$",
+      "flags": "u"
     },
     "start": 17572,
     "end": 17596

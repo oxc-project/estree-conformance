@@ -621,8 +621,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script=Hangul}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script=Hangul}+$"
+      "pattern": "^\\p{Script=Hangul}+$",
+      "flags": "u"
     },
     "start": 914,
     "end": 937
@@ -679,8 +679,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script=Hang}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script=Hang}+$"
+      "pattern": "^\\p{Script=Hang}+$",
+      "flags": "u"
     },
     "start": 1004,
     "end": 1025
@@ -737,8 +737,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{sc=Hangul}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{sc=Hangul}+$"
+      "pattern": "^\\p{sc=Hangul}+$",
+      "flags": "u"
     },
     "start": 1090,
     "end": 1109
@@ -795,8 +795,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{sc=Hang}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{sc=Hang}+$"
+      "pattern": "^\\p{sc=Hang}+$",
+      "flags": "u"
     },
     "start": 1172,
     "end": 1189
@@ -1567,8 +1567,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script=Hangul}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script=Hangul}+$"
+      "pattern": "^\\P{Script=Hangul}+$",
+      "flags": "u"
     },
     "start": 1772,
     "end": 1795
@@ -1625,8 +1625,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script=Hang}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script=Hang}+$"
+      "pattern": "^\\P{Script=Hang}+$",
+      "flags": "u"
     },
     "start": 1865,
     "end": 1886
@@ -1683,8 +1683,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{sc=Hangul}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{sc=Hangul}+$"
+      "pattern": "^\\P{sc=Hangul}+$",
+      "flags": "u"
     },
     "start": 1954,
     "end": 1973
@@ -1741,8 +1741,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{sc=Hang}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{sc=Hang}+$"
+      "pattern": "^\\P{sc=Hang}+$",
+      "flags": "u"
     },
     "start": 2039,
     "end": 2056

@@ -27,8 +27,8 @@
     "type": "RegularExpression",
     "value": "/(.+).*\\1/u",
     "regex": {
-      "flags": "u",
-      "pattern": "(.+).*\\1"
+      "pattern": "(.+).*\\1",
+      "flags": "u"
     },
     "start": 1011,
     "end": 1022

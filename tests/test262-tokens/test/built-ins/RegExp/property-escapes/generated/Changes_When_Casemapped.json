@@ -4155,8 +4155,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Changes_When_Casemapped}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Changes_When_Casemapped}+$"
+      "pattern": "^\\p{Changes_When_Casemapped}+$",
+      "flags": "u"
     },
     "start": 3632,
     "end": 3665
@@ -4213,8 +4213,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{CWCM}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{CWCM}+$"
+      "pattern": "^\\p{CWCM}+$",
+      "flags": "u"
     },
     "start": 3742,
     "end": 3756
@@ -8159,8 +8159,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Changes_When_Casemapped}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Changes_When_Casemapped}+$"
+      "pattern": "^\\P{Changes_When_Casemapped}+$",
+      "flags": "u"
     },
     "start": 6864,
     "end": 6897
@@ -8217,8 +8217,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{CWCM}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{CWCM}+$"
+      "pattern": "^\\P{CWCM}+$",
+      "flags": "u"
     },
     "start": 6977,
     "end": 6991

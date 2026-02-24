@@ -705,8 +705,8 @@
     "type": "RegularExpression",
     "value": "/BC/",
     "regex": {
-      "flags": "",
-      "pattern": "BC"
+      "pattern": "BC",
+      "flags": ""
     },
     "start": 973,
     "end": 977
@@ -721,8 +721,8 @@
     "type": "RegularExpression",
     "value": "/AD|(?:^|[^B])CE/",
     "regex": {
-      "flags": "",
-      "pattern": "AD|(?:^|[^B])CE"
+      "pattern": "AD|(?:^|[^B])CE",
+      "flags": ""
     },
     "start": 980,
     "end": 997

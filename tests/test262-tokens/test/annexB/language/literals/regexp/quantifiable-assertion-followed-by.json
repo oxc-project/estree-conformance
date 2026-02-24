@@ -33,8 +33,8 @@
     "type": "RegularExpression",
     "value": "/.(?=Z)*/",
     "regex": {
-      "flags": "",
-      "pattern": ".(?=Z)*"
+      "pattern": ".(?=Z)*",
+      "flags": ""
     },
     "start": 1013,
     "end": 1022
@@ -175,8 +175,8 @@
     "type": "RegularExpression",
     "value": "/.(?=Z)+/",
     "regex": {
-      "flags": "",
-      "pattern": ".(?=Z)+"
+      "pattern": ".(?=Z)+",
+      "flags": ""
     },
     "start": 1111,
     "end": 1120
@@ -317,8 +317,8 @@
     "type": "RegularExpression",
     "value": "/.(?=Z)?/",
     "regex": {
-      "flags": "",
-      "pattern": ".(?=Z)?"
+      "pattern": ".(?=Z)?",
+      "flags": ""
     },
     "start": 1209,
     "end": 1218
@@ -459,8 +459,8 @@
     "type": "RegularExpression",
     "value": "/.(?=Z){2}/",
     "regex": {
-      "flags": "",
-      "pattern": ".(?=Z){2}"
+      "pattern": ".(?=Z){2}",
+      "flags": ""
     },
     "start": 1307,
     "end": 1318
@@ -601,8 +601,8 @@
     "type": "RegularExpression",
     "value": "/.(?=Z){2,}/",
     "regex": {
-      "flags": "",
-      "pattern": ".(?=Z){2,}"
+      "pattern": ".(?=Z){2,}",
+      "flags": ""
     },
     "start": 1423,
     "end": 1435
@@ -743,8 +743,8 @@
     "type": "RegularExpression",
     "value": "/.(?=Z){2,3}/",
     "regex": {
-      "flags": "",
-      "pattern": ".(?=Z){2,3}"
+      "pattern": ".(?=Z){2,3}",
+      "flags": ""
     },
     "start": 1542,
     "end": 1555
@@ -885,8 +885,8 @@
     "type": "RegularExpression",
     "value": "/.(?=Z)*?/",
     "regex": {
-      "flags": "",
-      "pattern": ".(?=Z)*?"
+      "pattern": ".(?=Z)*?",
+      "flags": ""
     },
     "start": 1680,
     "end": 1690
@@ -1027,8 +1027,8 @@
     "type": "RegularExpression",
     "value": "/.(?=Z)+?/",
     "regex": {
-      "flags": "",
-      "pattern": ".(?=Z)+?"
+      "pattern": ".(?=Z)+?",
+      "flags": ""
     },
     "start": 1781,
     "end": 1791
@@ -1169,8 +1169,8 @@
     "type": "RegularExpression",
     "value": "/.(?=Z)??/",
     "regex": {
-      "flags": "",
-      "pattern": ".(?=Z)??"
+      "pattern": ".(?=Z)??",
+      "flags": ""
     },
     "start": 1882,
     "end": 1892
@@ -1311,8 +1311,8 @@
     "type": "RegularExpression",
     "value": "/.(?=Z){2}?/",
     "regex": {
-      "flags": "",
-      "pattern": ".(?=Z){2}?"
+      "pattern": ".(?=Z){2}?",
+      "flags": ""
     },
     "start": 1983,
     "end": 1995
@@ -1453,8 +1453,8 @@
     "type": "RegularExpression",
     "value": "/.(?=Z){2,}?/",
     "regex": {
-      "flags": "",
-      "pattern": ".(?=Z){2,}?"
+      "pattern": ".(?=Z){2,}?",
+      "flags": ""
     },
     "start": 2102,
     "end": 2115
@@ -1595,8 +1595,8 @@
     "type": "RegularExpression",
     "value": "/.(?=Z){2,3}?/",
     "regex": {
-      "flags": "",
-      "pattern": ".(?=Z){2,3}?"
+      "pattern": ".(?=Z){2,3}?",
+      "flags": ""
     },
     "start": 2224,
     "end": 2238

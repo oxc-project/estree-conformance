@@ -297,8 +297,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script_Extensions=Tai_Tham}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script_Extensions=Tai_Tham}+$"
+      "pattern": "^\\p{Script_Extensions=Tai_Tham}+$",
+      "flags": "u"
     },
     "start": 693,
     "end": 729
@@ -355,8 +355,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script_Extensions=Lana}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script_Extensions=Lana}+$"
+      "pattern": "^\\p{Script_Extensions=Lana}+$",
+      "flags": "u"
     },
     "start": 809,
     "end": 841
@@ -413,8 +413,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{scx=Tai_Tham}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{scx=Tai_Tham}+$"
+      "pattern": "^\\p{scx=Tai_Tham}+$",
+      "flags": "u"
     },
     "start": 917,
     "end": 939
@@ -471,8 +471,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{scx=Lana}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{scx=Lana}+$"
+      "pattern": "^\\p{scx=Lana}+$",
+      "flags": "u"
     },
     "start": 1005,
     "end": 1023
@@ -889,8 +889,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script_Extensions=Tai_Tham}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script_Extensions=Tai_Tham}+$"
+      "pattern": "^\\P{Script_Extensions=Tai_Tham}+$",
+      "flags": "u"
     },
     "start": 1363,
     "end": 1399
@@ -947,8 +947,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script_Extensions=Lana}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script_Extensions=Lana}+$"
+      "pattern": "^\\P{Script_Extensions=Lana}+$",
+      "flags": "u"
     },
     "start": 1482,
     "end": 1514
@@ -1005,8 +1005,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{scx=Tai_Tham}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{scx=Tai_Tham}+$"
+      "pattern": "^\\P{scx=Tai_Tham}+$",
+      "flags": "u"
     },
     "start": 1593,
     "end": 1615
@@ -1063,8 +1063,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{scx=Lana}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{scx=Lana}+$"
+      "pattern": "^\\P{scx=Lana}+$",
+      "flags": "u"
     },
     "start": 1684,
     "end": 1702

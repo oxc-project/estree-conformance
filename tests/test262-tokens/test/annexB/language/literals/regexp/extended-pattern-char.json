@@ -33,8 +33,8 @@
     "type": "RegularExpression",
     "value": "/]/",
     "regex": {
-      "flags": "",
-      "pattern": "]"
+      "pattern": "]",
+      "flags": ""
     },
     "start": 685,
     "end": 688
@@ -163,8 +163,8 @@
     "type": "RegularExpression",
     "value": "/{/",
     "regex": {
-      "flags": "",
-      "pattern": "{"
+      "pattern": "{",
+      "flags": ""
     },
     "start": 745,
     "end": 748
@@ -293,8 +293,8 @@
     "type": "RegularExpression",
     "value": "/}/",
     "regex": {
-      "flags": "",
-      "pattern": "}"
+      "pattern": "}",
+      "flags": ""
     },
     "start": 805,
     "end": 808
@@ -423,8 +423,8 @@
     "type": "RegularExpression",
     "value": "/x{o}x/",
     "regex": {
-      "flags": "",
-      "pattern": "x{o}x"
+      "pattern": "x{o}x",
+      "flags": ""
     },
     "start": 865,
     "end": 872

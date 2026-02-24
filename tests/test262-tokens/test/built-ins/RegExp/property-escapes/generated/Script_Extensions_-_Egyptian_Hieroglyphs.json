@@ -189,8 +189,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script_Extensions=Egyptian_Hieroglyphs}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script_Extensions=Egyptian_Hieroglyphs}+$"
+      "pattern": "^\\p{Script_Extensions=Egyptian_Hieroglyphs}+$",
+      "flags": "u"
     },
     "start": 627,
     "end": 675
@@ -247,8 +247,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script_Extensions=Egyp}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script_Extensions=Egyp}+$"
+      "pattern": "^\\p{Script_Extensions=Egyp}+$",
+      "flags": "u"
     },
     "start": 767,
     "end": 799
@@ -305,8 +305,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{scx=Egyptian_Hieroglyphs}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{scx=Egyptian_Hieroglyphs}+$"
+      "pattern": "^\\p{scx=Egyptian_Hieroglyphs}+$",
+      "flags": "u"
     },
     "start": 875,
     "end": 909
@@ -363,8 +363,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{scx=Egyp}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{scx=Egyp}+$"
+      "pattern": "^\\p{scx=Egyp}+$",
+      "flags": "u"
     },
     "start": 987,
     "end": 1005
@@ -703,8 +703,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script_Extensions=Egyptian_Hieroglyphs}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script_Extensions=Egyptian_Hieroglyphs}+$"
+      "pattern": "^\\P{Script_Extensions=Egyptian_Hieroglyphs}+$",
+      "flags": "u"
     },
     "start": 1277,
     "end": 1325
@@ -761,8 +761,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script_Extensions=Egyp}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script_Extensions=Egyp}+$"
+      "pattern": "^\\P{Script_Extensions=Egyp}+$",
+      "flags": "u"
     },
     "start": 1420,
     "end": 1452
@@ -819,8 +819,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{scx=Egyptian_Hieroglyphs}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{scx=Egyptian_Hieroglyphs}+$"
+      "pattern": "^\\P{scx=Egyptian_Hieroglyphs}+$",
+      "flags": "u"
     },
     "start": 1531,
     "end": 1565
@@ -877,8 +877,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{scx=Egyp}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{scx=Egyp}+$"
+      "pattern": "^\\P{scx=Egyp}+$",
+      "flags": "u"
     },
     "start": 1646,
     "end": 1664

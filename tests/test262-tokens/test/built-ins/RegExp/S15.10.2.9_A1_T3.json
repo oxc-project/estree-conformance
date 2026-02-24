@@ -21,8 +21,8 @@
     "type": "RegularExpression",
     "value": "/([xu]\\d{2}([A-H]{2})?)\\1/",
     "regex": {
-      "flags": "",
-      "pattern": "([xu]\\d{2}([A-H]{2})?)\\1"
+      "pattern": "([xu]\\d{2}([A-H]{2})?)\\1",
+      "flags": ""
     },
     "start": 474,
     "end": 500

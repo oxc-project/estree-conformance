@@ -644,8 +644,8 @@ __ESTREE_TEST__:TOKENS:
     "type": "RegularExpression",
     "value": "/a/g",
     "regex": {
-      "flags": "g",
-      "pattern": "a"
+      "pattern": "a",
+      "flags": "g"
     },
     "start": 162,
     "end": 166

@@ -261,8 +261,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script_Extensions=Tagbanwa}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script_Extensions=Tagbanwa}+$"
+      "pattern": "^\\p{Script_Extensions=Tagbanwa}+$",
+      "flags": "u"
     },
     "start": 667,
     "end": 703
@@ -319,8 +319,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script_Extensions=Tagb}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script_Extensions=Tagb}+$"
+      "pattern": "^\\p{Script_Extensions=Tagb}+$",
+      "flags": "u"
     },
     "start": 783,
     "end": 815
@@ -377,8 +377,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{scx=Tagbanwa}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{scx=Tagbanwa}+$"
+      "pattern": "^\\p{scx=Tagbanwa}+$",
+      "flags": "u"
     },
     "start": 891,
     "end": 913
@@ -435,8 +435,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{scx=Tagb}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{scx=Tagb}+$"
+      "pattern": "^\\p{scx=Tagb}+$",
+      "flags": "u"
     },
     "start": 979,
     "end": 997
@@ -793,8 +793,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script_Extensions=Tagbanwa}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script_Extensions=Tagbanwa}+$"
+      "pattern": "^\\P{Script_Extensions=Tagbanwa}+$",
+      "flags": "u"
     },
     "start": 1299,
     "end": 1335
@@ -851,8 +851,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script_Extensions=Tagb}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script_Extensions=Tagb}+$"
+      "pattern": "^\\P{Script_Extensions=Tagb}+$",
+      "flags": "u"
     },
     "start": 1418,
     "end": 1450
@@ -909,8 +909,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{scx=Tagbanwa}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{scx=Tagbanwa}+$"
+      "pattern": "^\\P{scx=Tagbanwa}+$",
+      "flags": "u"
     },
     "start": 1529,
     "end": 1551
@@ -967,8 +967,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{scx=Tagb}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{scx=Tagb}+$"
+      "pattern": "^\\P{scx=Tagb}+$",
+      "flags": "u"
     },
     "start": 1620,
     "end": 1638

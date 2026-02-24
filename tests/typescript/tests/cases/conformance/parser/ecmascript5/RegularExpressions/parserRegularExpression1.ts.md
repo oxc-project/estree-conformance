@@ -34,8 +34,8 @@ __ESTREE_TEST__:TOKENS:
     "type": "RegularExpression",
     "value": "/(#?-?\\d*\\.\\d\\w*%?)|(@?#?[\\w-?]+%?)/g",
     "regex": {
-      "flags": "g",
-      "pattern": "(#?-?\\d*\\.\\d\\w*%?)|(@?#?[\\w-?]+%?)"
+      "pattern": "(#?-?\\d*\\.\\d\\w*%?)|(@?#?[\\w-?]+%?)",
+      "flags": "g"
     },
     "start": 0,
     "end": 37

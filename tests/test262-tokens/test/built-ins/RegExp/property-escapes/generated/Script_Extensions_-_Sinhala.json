@@ -555,8 +555,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script_Extensions=Sinhala}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script_Extensions=Sinhala}+$"
+      "pattern": "^\\p{Script_Extensions=Sinhala}+$",
+      "flags": "u"
     },
     "start": 906,
     "end": 941
@@ -613,8 +613,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script_Extensions=Sinh}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script_Extensions=Sinh}+$"
+      "pattern": "^\\p{Script_Extensions=Sinh}+$",
+      "flags": "u"
     },
     "start": 1020,
     "end": 1052
@@ -671,8 +671,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{scx=Sinhala}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{scx=Sinhala}+$"
+      "pattern": "^\\p{scx=Sinhala}+$",
+      "flags": "u"
     },
     "start": 1128,
     "end": 1149
@@ -729,8 +729,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{scx=Sinh}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{scx=Sinh}+$"
+      "pattern": "^\\p{scx=Sinh}+$",
+      "flags": "u"
     },
     "start": 1214,
     "end": 1232
@@ -1411,8 +1411,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script_Extensions=Sinhala}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script_Extensions=Sinhala}+$"
+      "pattern": "^\\P{Script_Extensions=Sinhala}+$",
+      "flags": "u"
     },
     "start": 1784,
     "end": 1819
@@ -1469,8 +1469,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script_Extensions=Sinh}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script_Extensions=Sinh}+$"
+      "pattern": "^\\P{Script_Extensions=Sinh}+$",
+      "flags": "u"
     },
     "start": 1901,
     "end": 1933
@@ -1527,8 +1527,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{scx=Sinhala}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{scx=Sinhala}+$"
+      "pattern": "^\\P{scx=Sinhala}+$",
+      "flags": "u"
     },
     "start": 2012,
     "end": 2033
@@ -1585,8 +1585,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{scx=Sinh}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{scx=Sinh}+$"
+      "pattern": "^\\P{scx=Sinh}+$",
+      "flags": "u"
     },
     "start": 2101,
     "end": 2119

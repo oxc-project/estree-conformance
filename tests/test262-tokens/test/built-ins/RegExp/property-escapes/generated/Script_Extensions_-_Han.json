@@ -1467,8 +1467,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script_Extensions=Han}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script_Extensions=Han}+$"
+      "pattern": "^\\p{Script_Extensions=Han}+$",
+      "flags": "u"
     },
     "start": 1566,
     "end": 1597
@@ -1525,8 +1525,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script_Extensions=Hani}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script_Extensions=Hani}+$"
+      "pattern": "^\\p{Script_Extensions=Hani}+$",
+      "flags": "u"
     },
     "start": 1672,
     "end": 1704
@@ -1583,8 +1583,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{scx=Han}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{scx=Han}+$"
+      "pattern": "^\\p{scx=Han}+$",
+      "flags": "u"
     },
     "start": 1780,
     "end": 1797
@@ -1641,8 +1641,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{scx=Hani}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{scx=Hani}+$"
+      "pattern": "^\\p{scx=Hani}+$",
+      "flags": "u"
     },
     "start": 1858,
     "end": 1876
@@ -3235,8 +3235,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script_Extensions=Han}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script_Extensions=Han}+$"
+      "pattern": "^\\P{Script_Extensions=Han}+$",
+      "flags": "u"
     },
     "start": 3092,
     "end": 3123
@@ -3293,8 +3293,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script_Extensions=Hani}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script_Extensions=Hani}+$"
+      "pattern": "^\\P{Script_Extensions=Hani}+$",
+      "flags": "u"
     },
     "start": 3201,
     "end": 3233
@@ -3351,8 +3351,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{scx=Han}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{scx=Han}+$"
+      "pattern": "^\\P{scx=Han}+$",
+      "flags": "u"
     },
     "start": 3312,
     "end": 3329
@@ -3409,8 +3409,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{scx=Hani}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{scx=Hani}+$"
+      "pattern": "^\\P{scx=Hani}+$",
+      "flags": "u"
     },
     "start": 3393,
     "end": 3411

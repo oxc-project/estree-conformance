@@ -622,8 +622,8 @@ __ESTREE_TEST__:TOKENS:
     "type": "RegularExpression",
     "value": "/(?<year>\\d{4})-(?<month>\\d{2})-(?<day>\\d{2})/u",
     "regex": {
-      "flags": "u",
-      "pattern": "(?<year>\\d{4})-(?<month>\\d{2})-(?<day>\\d{2})"
+      "pattern": "(?<year>\\d{4})-(?<month>\\d{2})-(?<day>\\d{2})",
+      "flags": "u"
     },
     "start": 9,
     "end": 56
@@ -1094,8 +1094,8 @@ __ESTREE_TEST__:TOKENS:
     "type": "RegularExpression",
     "value": "/(?<bar>foo)/",
     "regex": {
-      "flags": "",
-      "pattern": "(?<bar>foo)"
+      "pattern": "(?<bar>foo)",
+      "flags": ""
     },
     "start": 308,
     "end": 321

@@ -12375,8 +12375,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Case_Ignorable}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Case_Ignorable}+$"
+      "pattern": "^\\p{Case_Ignorable}+$",
+      "flags": "u"
     },
     "start": 10397,
     "end": 10421
@@ -12433,8 +12433,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{CI}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{CI}+$"
+      "pattern": "^\\p{CI}+$",
+      "flags": "u"
     },
     "start": 10489,
     "end": 10501
@@ -27359,8 +27359,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Case_Ignorable}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Case_Ignorable}+$"
+      "pattern": "^\\P{Case_Ignorable}+$",
+      "flags": "u"
     },
     "start": 21761,
     "end": 21785
@@ -27417,8 +27417,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{CI}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{CI}+$"
+      "pattern": "^\\P{CI}+$",
+      "flags": "u"
     },
     "start": 21856,
     "end": 21868

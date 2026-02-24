@@ -615,8 +615,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script=Gurmukhi}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script=Gurmukhi}+$"
+      "pattern": "^\\p{Script=Gurmukhi}+$",
+      "flags": "u"
     },
     "start": 934,
     "end": 959
@@ -673,8 +673,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script=Guru}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script=Guru}+$"
+      "pattern": "^\\p{Script=Guru}+$",
+      "flags": "u"
     },
     "start": 1028,
     "end": 1049
@@ -731,8 +731,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{sc=Gurmukhi}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{sc=Gurmukhi}+$"
+      "pattern": "^\\p{sc=Gurmukhi}+$",
+      "flags": "u"
     },
     "start": 1114,
     "end": 1135
@@ -789,8 +789,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{sc=Guru}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{sc=Guru}+$"
+      "pattern": "^\\p{sc=Guru}+$",
+      "flags": "u"
     },
     "start": 1200,
     "end": 1217
@@ -1459,8 +1459,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script=Gurmukhi}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script=Gurmukhi}+$"
+      "pattern": "^\\P{Script=Gurmukhi}+$",
+      "flags": "u"
     },
     "start": 1770,
     "end": 1795
@@ -1517,8 +1517,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script=Guru}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script=Guru}+$"
+      "pattern": "^\\P{Script=Guru}+$",
+      "flags": "u"
     },
     "start": 1867,
     "end": 1888
@@ -1575,8 +1575,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{sc=Gurmukhi}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{sc=Gurmukhi}+$"
+      "pattern": "^\\P{sc=Gurmukhi}+$",
+      "flags": "u"
     },
     "start": 1956,
     "end": 1977
@@ -1633,8 +1633,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{sc=Guru}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{sc=Guru}+$"
+      "pattern": "^\\P{sc=Guru}+$",
+      "flags": "u"
     },
     "start": 2045,
     "end": 2062

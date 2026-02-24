@@ -39,8 +39,8 @@
     "type": "RegularExpression",
     "value": "/^.$/s",
     "regex": {
-      "flags": "s",
-      "pattern": "^.$"
+      "pattern": "^.$",
+      "flags": "s"
     },
     "start": 640,
     "end": 646
@@ -55,8 +55,8 @@
     "type": "RegularExpression",
     "value": "/^.$/sm",
     "regex": {
-      "flags": "sm",
-      "pattern": "^.$"
+      "pattern": "^.$",
+      "flags": "sm"
     },
     "start": 648,
     "end": 655

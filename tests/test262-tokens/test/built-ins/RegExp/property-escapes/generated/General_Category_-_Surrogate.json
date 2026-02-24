@@ -189,8 +189,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{General_Category=Surrogate}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{General_Category=Surrogate}+$"
+      "pattern": "^\\p{General_Category=Surrogate}+$",
+      "flags": "u"
     },
     "start": 615,
     "end": 651
@@ -247,8 +247,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{General_Category=Cs}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{General_Category=Cs}+$"
+      "pattern": "^\\p{General_Category=Cs}+$",
+      "flags": "u"
     },
     "start": 731,
     "end": 760
@@ -305,8 +305,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{gc=Surrogate}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{gc=Surrogate}+$"
+      "pattern": "^\\p{gc=Surrogate}+$",
+      "flags": "u"
     },
     "start": 833,
     "end": 855
@@ -363,8 +363,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{gc=Cs}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{gc=Cs}+$"
+      "pattern": "^\\p{gc=Cs}+$",
+      "flags": "u"
     },
     "start": 921,
     "end": 936
@@ -421,8 +421,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Surrogate}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Surrogate}+$"
+      "pattern": "^\\p{Surrogate}+$",
+      "flags": "u"
     },
     "start": 995,
     "end": 1014
@@ -479,8 +479,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Cs}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Cs}+$"
+      "pattern": "^\\p{Cs}+$",
+      "flags": "u"
     },
     "start": 1077,
     "end": 1089
@@ -711,8 +711,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{General_Category=Surrogate}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{General_Category=Surrogate}+$"
+      "pattern": "^\\P{General_Category=Surrogate}+$",
+      "flags": "u"
     },
     "start": 1277,
     "end": 1313
@@ -769,8 +769,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{General_Category=Cs}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{General_Category=Cs}+$"
+      "pattern": "^\\P{General_Category=Cs}+$",
+      "flags": "u"
     },
     "start": 1396,
     "end": 1425
@@ -827,8 +827,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{gc=Surrogate}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{gc=Surrogate}+$"
+      "pattern": "^\\P{gc=Surrogate}+$",
+      "flags": "u"
     },
     "start": 1501,
     "end": 1523
@@ -885,8 +885,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{gc=Cs}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{gc=Cs}+$"
+      "pattern": "^\\P{gc=Cs}+$",
+      "flags": "u"
     },
     "start": 1592,
     "end": 1607
@@ -943,8 +943,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Surrogate}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Surrogate}+$"
+      "pattern": "^\\P{Surrogate}+$",
+      "flags": "u"
     },
     "start": 1669,
     "end": 1688
@@ -1001,8 +1001,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Cs}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Cs}+$"
+      "pattern": "^\\P{Cs}+$",
+      "flags": "u"
     },
     "start": 1754,
     "end": 1766

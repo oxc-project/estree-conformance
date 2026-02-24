@@ -267,8 +267,8 @@
     "type": "RegularExpression",
     "value": "/𠮷/",
     "regex": {
-      "flags": "",
-      "pattern": "𠮷"
+      "pattern": "𠮷",
+      "flags": ""
     },
     "start": 482,
     "end": 486
@@ -379,8 +379,8 @@
     "type": "RegularExpression",
     "value": "/𠮷/u",
     "regex": {
-      "flags": "u",
-      "pattern": "𠮷"
+      "pattern": "𠮷",
+      "flags": "u"
     },
     "start": 558,
     "end": 563
@@ -491,8 +491,8 @@
     "type": "RegularExpression",
     "value": "/\\p{Script=Han}/u",
     "regex": {
-      "flags": "u",
-      "pattern": "\\p{Script=Han}"
+      "pattern": "\\p{Script=Han}",
+      "flags": "u"
     },
     "start": 625,
     "end": 642
@@ -603,8 +603,8 @@
     "type": "RegularExpression",
     "value": "/./u",
     "regex": {
-      "flags": "u",
-      "pattern": "."
+      "pattern": ".",
+      "flags": "u"
     },
     "start": 724,
     "end": 728
@@ -715,8 +715,8 @@
     "type": "RegularExpression",
     "value": "/𠮷/v",
     "regex": {
-      "flags": "v",
-      "pattern": "𠮷"
+      "pattern": "𠮷",
+      "flags": "v"
     },
     "start": 790,
     "end": 795
@@ -827,8 +827,8 @@
     "type": "RegularExpression",
     "value": "/\\p{Script=Han}/v",
     "regex": {
-      "flags": "v",
-      "pattern": "\\p{Script=Han}"
+      "pattern": "\\p{Script=Han}",
+      "flags": "v"
     },
     "start": 857,
     "end": 874
@@ -939,8 +939,8 @@
     "type": "RegularExpression",
     "value": "/./v",
     "regex": {
-      "flags": "v",
-      "pattern": "."
+      "pattern": ".",
+      "flags": "v"
     },
     "start": 956,
     "end": 960
@@ -1051,8 +1051,8 @@
     "type": "RegularExpression",
     "value": "/\\p{ASCII}/u",
     "regex": {
-      "flags": "u",
-      "pattern": "\\p{ASCII}"
+      "pattern": "\\p{ASCII}",
+      "flags": "u"
     },
     "start": 1022,
     "end": 1034
@@ -1163,8 +1163,8 @@
     "type": "RegularExpression",
     "value": "/\\p{ASCII}/v",
     "regex": {
-      "flags": "v",
-      "pattern": "\\p{ASCII}"
+      "pattern": "\\p{ASCII}",
+      "flags": "v"
     },
     "start": 1096,
     "end": 1108
@@ -1275,8 +1275,8 @@
     "type": "RegularExpression",
     "value": "/x/u",
     "regex": {
-      "flags": "u",
-      "pattern": "x"
+      "pattern": "x",
+      "flags": "u"
     },
     "start": 1168,
     "end": 1172
@@ -1363,8 +1363,8 @@
     "type": "RegularExpression",
     "value": "/x/v",
     "regex": {
-      "flags": "v",
-      "pattern": "x"
+      "pattern": "x",
+      "flags": "v"
     },
     "start": 1240,
     "end": 1244
@@ -1433,8 +1433,8 @@
     "type": "RegularExpression",
     "value": "/(\\p{Script=Han})(.)/u",
     "regex": {
-      "flags": "u",
-      "pattern": "(\\p{Script=Han})(.)"
+      "pattern": "(\\p{Script=Han})(.)",
+      "flags": "u"
     },
     "start": 1314,
     "end": 1336
@@ -1773,8 +1773,8 @@
     "type": "RegularExpression",
     "value": "/(\\p{Script=Han})(.)/v",
     "regex": {
-      "flags": "v",
-      "pattern": "(\\p{Script=Han})(.)"
+      "pattern": "(\\p{Script=Han})(.)",
+      "flags": "v"
     },
     "start": 1656,
     "end": 1678
@@ -2149,8 +2149,8 @@
     "type": "RegularExpression",
     "value": "/\\P{ASCII}/u",
     "regex": {
-      "flags": "u",
-      "pattern": "\\P{ASCII}"
+      "pattern": "\\P{ASCII}",
+      "flags": "u"
     },
     "start": 2039,
     "end": 2051
@@ -2261,8 +2261,8 @@
     "type": "RegularExpression",
     "value": "/\\P{ASCII}/v",
     "regex": {
-      "flags": "v",
-      "pattern": "\\P{ASCII}"
+      "pattern": "\\P{ASCII}",
+      "flags": "v"
     },
     "start": 2132,
     "end": 2144

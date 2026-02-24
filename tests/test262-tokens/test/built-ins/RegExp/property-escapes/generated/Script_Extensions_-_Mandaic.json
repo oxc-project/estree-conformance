@@ -171,8 +171,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script_Extensions=Mandaic}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script_Extensions=Mandaic}+$"
+      "pattern": "^\\p{Script_Extensions=Mandaic}+$",
+      "flags": "u"
     },
     "start": 618,
     "end": 653
@@ -229,8 +229,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script_Extensions=Mand}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script_Extensions=Mand}+$"
+      "pattern": "^\\p{Script_Extensions=Mand}+$",
+      "flags": "u"
     },
     "start": 732,
     "end": 764
@@ -287,8 +287,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{scx=Mandaic}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{scx=Mandaic}+$"
+      "pattern": "^\\p{scx=Mandaic}+$",
+      "flags": "u"
     },
     "start": 840,
     "end": 861
@@ -345,8 +345,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{scx=Mand}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{scx=Mand}+$"
+      "pattern": "^\\p{scx=Mand}+$",
+      "flags": "u"
     },
     "start": 926,
     "end": 944
@@ -721,8 +721,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script_Extensions=Mandaic}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script_Extensions=Mandaic}+$"
+      "pattern": "^\\P{Script_Extensions=Mandaic}+$",
+      "flags": "u"
     },
     "start": 1242,
     "end": 1277
@@ -779,8 +779,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script_Extensions=Mand}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script_Extensions=Mand}+$"
+      "pattern": "^\\P{Script_Extensions=Mand}+$",
+      "flags": "u"
     },
     "start": 1359,
     "end": 1391
@@ -837,8 +837,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{scx=Mandaic}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{scx=Mandaic}+$"
+      "pattern": "^\\P{scx=Mandaic}+$",
+      "flags": "u"
     },
     "start": 1470,
     "end": 1491
@@ -895,8 +895,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{scx=Mand}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{scx=Mand}+$"
+      "pattern": "^\\P{scx=Mand}+$",
+      "flags": "u"
     },
     "start": 1559,
     "end": 1577

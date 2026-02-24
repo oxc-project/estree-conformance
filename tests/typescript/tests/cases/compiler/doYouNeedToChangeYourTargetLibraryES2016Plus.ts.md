@@ -3071,8 +3071,8 @@ __ESTREE_TEST__:TOKENS:
     "type": "RegularExpression",
     "value": "/(?<year>[0-9]{4})-(?<month>[0-9]{2})-(?<day>[0-9]{2})/g",
     "regex": {
-      "flags": "g",
-      "pattern": "(?<year>[0-9]{4})-(?<month>[0-9]{2})-(?<day>[0-9]{2})"
+      "pattern": "(?<year>[0-9]{4})-(?<month>[0-9]{2})-(?<day>[0-9]{2})",
+      "flags": "g"
     },
     "start": 677,
     "end": 733
@@ -3123,8 +3123,8 @@ __ESTREE_TEST__:TOKENS:
     "type": "RegularExpression",
     "value": "/(?<year>[0-9]{4})-(?<month>[0-9]{2})-(?<day>[0-9]{2})/g",
     "regex": {
-      "flags": "g",
-      "pattern": "(?<year>[0-9]{4})-(?<month>[0-9]{2})-(?<day>[0-9]{2})"
+      "pattern": "(?<year>[0-9]{4})-(?<month>[0-9]{2})-(?<day>[0-9]{2})",
+      "flags": "g"
     },
     "start": 777,
     "end": 833
@@ -3199,8 +3199,8 @@ __ESTREE_TEST__:TOKENS:
     "type": "RegularExpression",
     "value": "/foo/g",
     "regex": {
-      "flags": "g",
-      "pattern": "foo"
+      "pattern": "foo",
+      "flags": "g"
     },
     "start": 886,
     "end": 892
@@ -4283,8 +4283,8 @@ __ESTREE_TEST__:TOKENS:
     "type": "RegularExpression",
     "value": "/matchAll/g",
     "regex": {
-      "flags": "g",
-      "pattern": "matchAll"
+      "pattern": "matchAll",
+      "flags": "g"
     },
     "start": 1832,
     "end": 1843

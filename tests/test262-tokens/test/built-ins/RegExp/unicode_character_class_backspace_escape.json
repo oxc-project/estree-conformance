@@ -15,8 +15,8 @@
     "type": "RegularExpression",
     "value": "/[\\b]/u",
     "regex": {
-      "flags": "u",
-      "pattern": "[\\b]"
+      "pattern": "[\\b]",
+      "flags": "u"
     },
     "start": 413,
     "end": 420
@@ -79,8 +79,8 @@
     "type": "RegularExpression",
     "value": "/[\\b-A]/u",
     "regex": {
-      "flags": "u",
-      "pattern": "[\\b-A]"
+      "pattern": "[\\b-A]",
+      "flags": "u"
     },
     "start": 445,
     "end": 454

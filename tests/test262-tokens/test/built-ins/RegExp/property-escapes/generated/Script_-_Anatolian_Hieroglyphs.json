@@ -153,8 +153,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script=Anatolian_Hieroglyphs}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script=Anatolian_Hieroglyphs}+$"
+      "pattern": "^\\p{Script=Anatolian_Hieroglyphs}+$",
+      "flags": "u"
     },
     "start": 591,
     "end": 629
@@ -211,8 +211,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script=Hluw}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script=Hluw}+$"
+      "pattern": "^\\p{Script=Hluw}+$",
+      "flags": "u"
     },
     "start": 711,
     "end": 732
@@ -269,8 +269,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{sc=Anatolian_Hieroglyphs}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{sc=Anatolian_Hieroglyphs}+$"
+      "pattern": "^\\p{sc=Anatolian_Hieroglyphs}+$",
+      "flags": "u"
     },
     "start": 797,
     "end": 831
@@ -327,8 +327,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{sc=Hluw}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{sc=Hluw}+$"
+      "pattern": "^\\p{sc=Hluw}+$",
+      "flags": "u"
     },
     "start": 909,
     "end": 926
@@ -631,8 +631,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script=Anatolian_Hieroglyphs}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script=Anatolian_Hieroglyphs}+$"
+      "pattern": "^\\P{Script=Anatolian_Hieroglyphs}+$",
+      "flags": "u"
     },
     "start": 1171,
     "end": 1209
@@ -689,8 +689,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script=Hluw}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script=Hluw}+$"
+      "pattern": "^\\P{Script=Hluw}+$",
+      "flags": "u"
     },
     "start": 1294,
     "end": 1315
@@ -747,8 +747,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{sc=Anatolian_Hieroglyphs}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{sc=Anatolian_Hieroglyphs}+$"
+      "pattern": "^\\P{sc=Anatolian_Hieroglyphs}+$",
+      "flags": "u"
     },
     "start": 1383,
     "end": 1417
@@ -805,8 +805,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{sc=Hluw}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{sc=Hluw}+$"
+      "pattern": "^\\P{sc=Hluw}+$",
+      "flags": "u"
     },
     "start": 1498,
     "end": 1515

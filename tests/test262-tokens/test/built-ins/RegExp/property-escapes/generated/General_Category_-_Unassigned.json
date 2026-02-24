@@ -20619,8 +20619,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{General_Category=Unassigned}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{General_Category=Unassigned}+$"
+      "pattern": "^\\p{General_Category=Unassigned}+$",
+      "flags": "u"
     },
     "start": 16700,
     "end": 16737
@@ -20677,8 +20677,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{General_Category=Cn}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{General_Category=Cn}+$"
+      "pattern": "^\\p{General_Category=Cn}+$",
+      "flags": "u"
     },
     "start": 16818,
     "end": 16847
@@ -20735,8 +20735,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{gc=Unassigned}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{gc=Unassigned}+$"
+      "pattern": "^\\p{gc=Unassigned}+$",
+      "flags": "u"
     },
     "start": 16920,
     "end": 16943
@@ -20793,8 +20793,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{gc=Cn}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{gc=Cn}+$"
+      "pattern": "^\\p{gc=Cn}+$",
+      "flags": "u"
     },
     "start": 17010,
     "end": 17025
@@ -20851,8 +20851,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Unassigned}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Unassigned}+$"
+      "pattern": "^\\p{Unassigned}+$",
+      "flags": "u"
     },
     "start": 17084,
     "end": 17104
@@ -20909,8 +20909,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Cn}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Cn}+$"
+      "pattern": "^\\p{Cn}+$",
+      "flags": "u"
     },
     "start": 17168,
     "end": 17180
@@ -45915,8 +45915,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{General_Category=Unassigned}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{General_Category=Unassigned}+$"
+      "pattern": "^\\P{General_Category=Unassigned}+$",
+      "flags": "u"
     },
     "start": 35640,
     "end": 35677
@@ -45973,8 +45973,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{General_Category=Cn}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{General_Category=Cn}+$"
+      "pattern": "^\\P{General_Category=Cn}+$",
+      "flags": "u"
     },
     "start": 35761,
     "end": 35790
@@ -46031,8 +46031,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{gc=Unassigned}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{gc=Unassigned}+$"
+      "pattern": "^\\P{gc=Unassigned}+$",
+      "flags": "u"
     },
     "start": 35866,
     "end": 35889
@@ -46089,8 +46089,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{gc=Cn}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{gc=Cn}+$"
+      "pattern": "^\\P{gc=Cn}+$",
+      "flags": "u"
     },
     "start": 35959,
     "end": 35974
@@ -46147,8 +46147,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Unassigned}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Unassigned}+$"
+      "pattern": "^\\P{Unassigned}+$",
+      "flags": "u"
     },
     "start": 36036,
     "end": 36056
@@ -46205,8 +46205,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Cn}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Cn}+$"
+      "pattern": "^\\P{Cn}+$",
+      "flags": "u"
     },
     "start": 36123,
     "end": 36135

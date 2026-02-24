@@ -267,8 +267,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{General_Category=Initial_Punctuation}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{General_Category=Initial_Punctuation}+$"
+      "pattern": "^\\p{General_Category=Initial_Punctuation}+$",
+      "flags": "u"
     },
     "start": 741,
     "end": 787
@@ -325,8 +325,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{General_Category=Pi}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{General_Category=Pi}+$"
+      "pattern": "^\\p{General_Category=Pi}+$",
+      "flags": "u"
     },
     "start": 877,
     "end": 906
@@ -383,8 +383,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{gc=Initial_Punctuation}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{gc=Initial_Punctuation}+$"
+      "pattern": "^\\p{gc=Initial_Punctuation}+$",
+      "flags": "u"
     },
     "start": 979,
     "end": 1011
@@ -441,8 +441,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{gc=Pi}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{gc=Pi}+$"
+      "pattern": "^\\p{gc=Pi}+$",
+      "flags": "u"
     },
     "start": 1087,
     "end": 1102
@@ -499,8 +499,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Initial_Punctuation}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Initial_Punctuation}+$"
+      "pattern": "^\\p{Initial_Punctuation}+$",
+      "flags": "u"
     },
     "start": 1161,
     "end": 1190
@@ -557,8 +557,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Pi}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Pi}+$"
+      "pattern": "^\\p{Pi}+$",
+      "flags": "u"
     },
     "start": 1263,
     "end": 1275
@@ -1191,8 +1191,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{General_Category=Initial_Punctuation}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{General_Category=Initial_Punctuation}+$"
+      "pattern": "^\\P{General_Category=Initial_Punctuation}+$",
+      "flags": "u"
     },
     "start": 1765,
     "end": 1811
@@ -1249,8 +1249,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{General_Category=Pi}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{General_Category=Pi}+$"
+      "pattern": "^\\P{General_Category=Pi}+$",
+      "flags": "u"
     },
     "start": 1904,
     "end": 1933
@@ -1307,8 +1307,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{gc=Initial_Punctuation}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{gc=Initial_Punctuation}+$"
+      "pattern": "^\\P{gc=Initial_Punctuation}+$",
+      "flags": "u"
     },
     "start": 2009,
     "end": 2041
@@ -1365,8 +1365,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{gc=Pi}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{gc=Pi}+$"
+      "pattern": "^\\P{gc=Pi}+$",
+      "flags": "u"
     },
     "start": 2120,
     "end": 2135
@@ -1423,8 +1423,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Initial_Punctuation}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Initial_Punctuation}+$"
+      "pattern": "^\\P{Initial_Punctuation}+$",
+      "flags": "u"
     },
     "start": 2197,
     "end": 2226
@@ -1481,8 +1481,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Pi}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Pi}+$"
+      "pattern": "^\\P{Pi}+$",
+      "flags": "u"
     },
     "start": 2302,
     "end": 2314

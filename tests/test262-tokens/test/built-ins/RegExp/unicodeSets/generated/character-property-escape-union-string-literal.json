@@ -33,8 +33,8 @@
     "type": "RegularExpression",
     "value": "/^[\\p{ASCII_Hex_Digit}\\q{0|2|4|9\\uFE0F\\u20E3}]+$/v",
     "regex": {
-      "flags": "v",
-      "pattern": "^[\\p{ASCII_Hex_Digit}\\q{0|2|4|9\\uFE0F\\u20E3}]+$"
+      "pattern": "^[\\p{ASCII_Hex_Digit}\\q{0|2|4|9\\uFE0F\\u20E3}]+$",
+      "flags": "v"
     },
     "start": 556,
     "end": 606

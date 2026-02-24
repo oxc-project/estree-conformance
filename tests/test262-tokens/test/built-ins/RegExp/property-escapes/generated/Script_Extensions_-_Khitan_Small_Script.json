@@ -171,8 +171,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script_Extensions=Khitan_Small_Script}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script_Extensions=Khitan_Small_Script}+$"
+      "pattern": "^\\p{Script_Extensions=Khitan_Small_Script}+$",
+      "flags": "u"
     },
     "start": 630,
     "end": 677
@@ -229,8 +229,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script_Extensions=Kits}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script_Extensions=Kits}+$"
+      "pattern": "^\\p{Script_Extensions=Kits}+$",
+      "flags": "u"
     },
     "start": 768,
     "end": 800
@@ -287,8 +287,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{scx=Khitan_Small_Script}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{scx=Khitan_Small_Script}+$"
+      "pattern": "^\\p{scx=Khitan_Small_Script}+$",
+      "flags": "u"
     },
     "start": 876,
     "end": 909
@@ -345,8 +345,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{scx=Kits}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{scx=Kits}+$"
+      "pattern": "^\\p{scx=Kits}+$",
+      "flags": "u"
     },
     "start": 986,
     "end": 1004
@@ -721,8 +721,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script_Extensions=Khitan_Small_Script}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script_Extensions=Khitan_Small_Script}+$"
+      "pattern": "^\\P{Script_Extensions=Khitan_Small_Script}+$",
+      "flags": "u"
     },
     "start": 1302,
     "end": 1349
@@ -779,8 +779,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script_Extensions=Kits}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script_Extensions=Kits}+$"
+      "pattern": "^\\P{Script_Extensions=Kits}+$",
+      "flags": "u"
     },
     "start": 1443,
     "end": 1475
@@ -837,8 +837,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{scx=Khitan_Small_Script}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{scx=Khitan_Small_Script}+$"
+      "pattern": "^\\P{scx=Khitan_Small_Script}+$",
+      "flags": "u"
     },
     "start": 1554,
     "end": 1587
@@ -895,8 +895,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{scx=Kits}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{scx=Kits}+$"
+      "pattern": "^\\P{scx=Kits}+$",
+      "flags": "u"
     },
     "start": 1667,
     "end": 1685

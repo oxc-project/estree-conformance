@@ -1587,8 +1587,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{General_Category=Math_Symbol}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{General_Category=Math_Symbol}+$"
+      "pattern": "^\\p{General_Category=Math_Symbol}+$",
+      "flags": "u"
     },
     "start": 1841,
     "end": 1879
@@ -1645,8 +1645,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{General_Category=Sm}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{General_Category=Sm}+$"
+      "pattern": "^\\p{General_Category=Sm}+$",
+      "flags": "u"
     },
     "start": 1961,
     "end": 1990
@@ -1703,8 +1703,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{gc=Math_Symbol}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{gc=Math_Symbol}+$"
+      "pattern": "^\\p{gc=Math_Symbol}+$",
+      "flags": "u"
     },
     "start": 2063,
     "end": 2087
@@ -1761,8 +1761,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{gc=Sm}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{gc=Sm}+$"
+      "pattern": "^\\p{gc=Sm}+$",
+      "flags": "u"
     },
     "start": 2155,
     "end": 2170
@@ -1819,8 +1819,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Math_Symbol}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Math_Symbol}+$"
+      "pattern": "^\\p{Math_Symbol}+$",
+      "flags": "u"
     },
     "start": 2229,
     "end": 2250
@@ -1877,8 +1877,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Sm}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Sm}+$"
+      "pattern": "^\\p{Sm}+$",
+      "flags": "u"
     },
     "start": 2315,
     "end": 2327
@@ -4455,8 +4455,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{General_Category=Math_Symbol}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{General_Category=Math_Symbol}+$"
+      "pattern": "^\\P{General_Category=Math_Symbol}+$",
+      "flags": "u"
     },
     "start": 4237,
     "end": 4275
@@ -4513,8 +4513,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{General_Category=Sm}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{General_Category=Sm}+$"
+      "pattern": "^\\P{General_Category=Sm}+$",
+      "flags": "u"
     },
     "start": 4360,
     "end": 4389
@@ -4571,8 +4571,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{gc=Math_Symbol}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{gc=Math_Symbol}+$"
+      "pattern": "^\\P{gc=Math_Symbol}+$",
+      "flags": "u"
     },
     "start": 4465,
     "end": 4489
@@ -4629,8 +4629,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{gc=Sm}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{gc=Sm}+$"
+      "pattern": "^\\P{gc=Sm}+$",
+      "flags": "u"
     },
     "start": 4560,
     "end": 4575
@@ -4687,8 +4687,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Math_Symbol}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Math_Symbol}+$"
+      "pattern": "^\\P{Math_Symbol}+$",
+      "flags": "u"
     },
     "start": 4637,
     "end": 4658
@@ -4745,8 +4745,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Sm}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Sm}+$"
+      "pattern": "^\\P{Sm}+$",
+      "flags": "u"
     },
     "start": 4726,
     "end": 4738

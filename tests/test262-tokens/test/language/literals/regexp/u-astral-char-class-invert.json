@@ -27,8 +27,8 @@
     "type": "RegularExpression",
     "value": "/^[^❤️]$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^[^❤️]$"
+      "pattern": "^[^❤️]$",
+      "flags": "u"
     },
     "start": 913,
     "end": 923
@@ -115,8 +115,8 @@
     "type": "RegularExpression",
     "value": "/^[^🧡]/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^[^🧡]"
+      "pattern": "^[^🧡]",
+      "flags": "u"
     },
     "start": 960,
     "end": 969
@@ -203,8 +203,8 @@
     "type": "RegularExpression",
     "value": "/[^💛]$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "[^💛]$"
+      "pattern": "[^💛]$",
+      "flags": "u"
     },
     "start": 1006,
     "end": 1015
@@ -291,8 +291,8 @@
     "type": "RegularExpression",
     "value": "/[^💚]/u",
     "regex": {
-      "flags": "u",
-      "pattern": "[^💚]"
+      "pattern": "[^💚]",
+      "flags": "u"
     },
     "start": 1052,
     "end": 1060

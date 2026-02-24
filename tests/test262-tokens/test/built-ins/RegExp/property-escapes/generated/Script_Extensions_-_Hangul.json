@@ -819,8 +819,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script_Extensions=Hangul}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script_Extensions=Hangul}+$"
+      "pattern": "^\\p{Script_Extensions=Hangul}+$",
+      "flags": "u"
     },
     "start": 1085,
     "end": 1119
@@ -877,8 +877,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script_Extensions=Hang}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script_Extensions=Hang}+$"
+      "pattern": "^\\p{Script_Extensions=Hang}+$",
+      "flags": "u"
     },
     "start": 1197,
     "end": 1229
@@ -935,8 +935,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{scx=Hangul}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{scx=Hangul}+$"
+      "pattern": "^\\p{scx=Hangul}+$",
+      "flags": "u"
     },
     "start": 1305,
     "end": 1325
@@ -993,8 +993,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{scx=Hang}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{scx=Hang}+$"
+      "pattern": "^\\p{scx=Hang}+$",
+      "flags": "u"
     },
     "start": 1389,
     "end": 1407
@@ -1987,8 +1987,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script_Extensions=Hangul}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script_Extensions=Hangul}+$"
+      "pattern": "^\\P{Script_Extensions=Hangul}+$",
+      "flags": "u"
     },
     "start": 2163,
     "end": 2197
@@ -2045,8 +2045,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script_Extensions=Hang}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script_Extensions=Hang}+$"
+      "pattern": "^\\P{Script_Extensions=Hang}+$",
+      "flags": "u"
     },
     "start": 2278,
     "end": 2310
@@ -2103,8 +2103,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{scx=Hangul}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{scx=Hangul}+$"
+      "pattern": "^\\P{scx=Hangul}+$",
+      "flags": "u"
     },
     "start": 2389,
     "end": 2409
@@ -2161,8 +2161,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{scx=Hang}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{scx=Hang}+$"
+      "pattern": "^\\P{scx=Hang}+$",
+      "flags": "u"
     },
     "start": 2476,
     "end": 2494

@@ -33,8 +33,8 @@
     "type": "RegularExpression",
     "value": "/^[\\d&&_]+$/v",
     "regex": {
-      "flags": "v",
-      "pattern": "^[\\d&&_]+$"
+      "pattern": "^[\\d&&_]+$",
+      "flags": "v"
     },
     "start": 523,
     "end": 536

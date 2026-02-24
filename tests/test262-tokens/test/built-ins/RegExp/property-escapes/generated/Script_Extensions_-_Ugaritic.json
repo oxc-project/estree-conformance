@@ -159,8 +159,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script_Extensions=Ugaritic}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script_Extensions=Ugaritic}+$"
+      "pattern": "^\\p{Script_Extensions=Ugaritic}+$",
+      "flags": "u"
     },
     "start": 605,
     "end": 641
@@ -217,8 +217,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script_Extensions=Ugar}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script_Extensions=Ugar}+$"
+      "pattern": "^\\p{Script_Extensions=Ugar}+$",
+      "flags": "u"
     },
     "start": 721,
     "end": 753
@@ -275,8 +275,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{scx=Ugaritic}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{scx=Ugaritic}+$"
+      "pattern": "^\\p{scx=Ugaritic}+$",
+      "flags": "u"
     },
     "start": 829,
     "end": 851
@@ -333,8 +333,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{scx=Ugar}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{scx=Ugar}+$"
+      "pattern": "^\\p{scx=Ugar}+$",
+      "flags": "u"
     },
     "start": 917,
     "end": 935
@@ -643,8 +643,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script_Extensions=Ugaritic}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script_Extensions=Ugaritic}+$"
+      "pattern": "^\\P{Script_Extensions=Ugaritic}+$",
+      "flags": "u"
     },
     "start": 1197,
     "end": 1233
@@ -701,8 +701,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script_Extensions=Ugar}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script_Extensions=Ugar}+$"
+      "pattern": "^\\P{Script_Extensions=Ugar}+$",
+      "flags": "u"
     },
     "start": 1316,
     "end": 1348
@@ -759,8 +759,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{scx=Ugaritic}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{scx=Ugaritic}+$"
+      "pattern": "^\\P{scx=Ugaritic}+$",
+      "flags": "u"
     },
     "start": 1427,
     "end": 1449
@@ -817,8 +817,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{scx=Ugar}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{scx=Ugar}+$"
+      "pattern": "^\\P{scx=Ugar}+$",
+      "flags": "u"
     },
     "start": 1518,
     "end": 1536

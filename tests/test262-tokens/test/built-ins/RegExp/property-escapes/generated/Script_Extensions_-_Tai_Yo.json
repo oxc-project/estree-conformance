@@ -225,8 +225,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script_Extensions=Tai_Yo}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script_Extensions=Tai_Yo}+$"
+      "pattern": "^\\p{Script_Extensions=Tai_Yo}+$",
+      "flags": "u"
     },
     "start": 639,
     "end": 673
@@ -283,8 +283,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script_Extensions=Tayo}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script_Extensions=Tayo}+$"
+      "pattern": "^\\p{Script_Extensions=Tayo}+$",
+      "flags": "u"
     },
     "start": 751,
     "end": 783
@@ -341,8 +341,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{scx=Tai_Yo}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{scx=Tai_Yo}+$"
+      "pattern": "^\\p{scx=Tai_Yo}+$",
+      "flags": "u"
     },
     "start": 859,
     "end": 879
@@ -399,8 +399,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{scx=Tayo}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{scx=Tayo}+$"
+      "pattern": "^\\p{scx=Tayo}+$",
+      "flags": "u"
     },
     "start": 943,
     "end": 961
@@ -745,8 +745,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script_Extensions=Tai_Yo}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script_Extensions=Tai_Yo}+$"
+      "pattern": "^\\P{Script_Extensions=Tai_Yo}+$",
+      "flags": "u"
     },
     "start": 1249,
     "end": 1283
@@ -803,8 +803,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script_Extensions=Tayo}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script_Extensions=Tayo}+$"
+      "pattern": "^\\P{Script_Extensions=Tayo}+$",
+      "flags": "u"
     },
     "start": 1364,
     "end": 1396
@@ -861,8 +861,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{scx=Tai_Yo}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{scx=Tai_Yo}+$"
+      "pattern": "^\\P{scx=Tai_Yo}+$",
+      "flags": "u"
     },
     "start": 1475,
     "end": 1495
@@ -919,8 +919,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{scx=Tayo}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{scx=Tayo}+$"
+      "pattern": "^\\P{scx=Tayo}+$",
+      "flags": "u"
     },
     "start": 1562,
     "end": 1580

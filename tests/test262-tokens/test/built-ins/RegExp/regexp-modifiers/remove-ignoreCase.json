@@ -21,8 +21,8 @@
     "type": "RegularExpression",
     "value": "/(?-i:fo)o/i",
     "regex": {
-      "flags": "i",
-      "pattern": "(?-i:fo)o"
+      "pattern": "(?-i:fo)o",
+      "flags": "i"
     },
     "start": 1773,
     "end": 1785
@@ -721,8 +721,8 @@
     "type": "RegularExpression",
     "value": "/b(?-i:ar)/i",
     "regex": {
-      "flags": "i",
-      "pattern": "b(?-i:ar)"
+      "pattern": "b(?-i:ar)",
+      "flags": "i"
     },
     "start": 2519,
     "end": 2531
@@ -1421,8 +1421,8 @@
     "type": "RegularExpression",
     "value": "/b(?-i:a)z/i",
     "regex": {
-      "flags": "i",
-      "pattern": "b(?-i:a)z"
+      "pattern": "b(?-i:a)z",
+      "flags": "i"
     },
     "start": 3265,
     "end": 3277

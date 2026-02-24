@@ -51,8 +51,8 @@
     "type": "RegularExpression",
     "value": "/(?<=ab(?=c)\\wd)\\w\\w/",
     "regex": {
-      "flags": "",
-      "pattern": "(?<=ab(?=c)\\wd)\\w\\w"
+      "pattern": "(?<=ab(?=c)\\wd)\\w\\w",
+      "flags": ""
     },
     "start": 972,
     "end": 993
@@ -163,8 +163,8 @@
     "type": "RegularExpression",
     "value": "/(?<=a(?=([^a]{2})d)\\w{3})\\w\\w/",
     "regex": {
-      "flags": "",
-      "pattern": "(?<=a(?=([^a]{2})d)\\w{3})\\w\\w"
+      "pattern": "(?<=a(?=([^a]{2})d)\\w{3})\\w\\w",
+      "flags": ""
     },
     "start": 1046,
     "end": 1077
@@ -287,8 +287,8 @@
     "type": "RegularExpression",
     "value": "/(?<=a(?=([bc]{2}(?<!a{2}))d)\\w{3})\\w\\w/",
     "regex": {
-      "flags": "",
-      "pattern": "(?<=a(?=([bc]{2}(?<!a{2}))d)\\w{3})\\w\\w"
+      "pattern": "(?<=a(?=([bc]{2}(?<!a{2}))d)\\w{3})\\w\\w",
+      "flags": ""
     },
     "start": 1136,
     "end": 1176
@@ -411,8 +411,8 @@
     "type": "RegularExpression",
     "value": "/^faaao?(?<=^f[oa]+(?=o))/",
     "regex": {
-      "flags": "",
-      "pattern": "^faaao?(?<=^f[oa]+(?=o))"
+      "pattern": "^faaao?(?<=^f[oa]+(?=o))",
+      "flags": ""
     },
     "start": 1234,
     "end": 1260
@@ -523,8 +523,8 @@
     "type": "RegularExpression",
     "value": "/(?<=a(?=([bc]{2}(?<!a*))d)\\w{3})\\w\\w/",
     "regex": {
-      "flags": "",
-      "pattern": "(?<=a(?=([bc]{2}(?<!a*))d)\\w{3})\\w\\w"
+      "pattern": "(?<=a(?=([bc]{2}(?<!a*))d)\\w{3})\\w\\w",
+      "flags": ""
     },
     "start": 1313,
     "end": 1351

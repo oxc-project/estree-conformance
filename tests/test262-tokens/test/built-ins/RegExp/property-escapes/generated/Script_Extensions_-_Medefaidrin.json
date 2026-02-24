@@ -153,8 +153,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script_Extensions=Medefaidrin}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script_Extensions=Medefaidrin}+$"
+      "pattern": "^\\p{Script_Extensions=Medefaidrin}+$",
+      "flags": "u"
     },
     "start": 592,
     "end": 631
@@ -211,8 +211,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script_Extensions=Medf}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script_Extensions=Medf}+$"
+      "pattern": "^\\p{Script_Extensions=Medf}+$",
+      "flags": "u"
     },
     "start": 714,
     "end": 746
@@ -269,8 +269,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{scx=Medefaidrin}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{scx=Medefaidrin}+$"
+      "pattern": "^\\p{scx=Medefaidrin}+$",
+      "flags": "u"
     },
     "start": 822,
     "end": 847
@@ -327,8 +327,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{scx=Medf}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{scx=Medf}+$"
+      "pattern": "^\\p{scx=Medf}+$",
+      "flags": "u"
     },
     "start": 916,
     "end": 934
@@ -631,8 +631,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script_Extensions=Medefaidrin}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script_Extensions=Medefaidrin}+$"
+      "pattern": "^\\P{Script_Extensions=Medefaidrin}+$",
+      "flags": "u"
     },
     "start": 1180,
     "end": 1219
@@ -689,8 +689,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script_Extensions=Medf}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script_Extensions=Medf}+$"
+      "pattern": "^\\P{Script_Extensions=Medf}+$",
+      "flags": "u"
     },
     "start": 1305,
     "end": 1337
@@ -747,8 +747,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{scx=Medefaidrin}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{scx=Medefaidrin}+$"
+      "pattern": "^\\P{scx=Medefaidrin}+$",
+      "flags": "u"
     },
     "start": 1416,
     "end": 1441
@@ -805,8 +805,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{scx=Medf}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{scx=Medf}+$"
+      "pattern": "^\\P{scx=Medf}+$",
+      "flags": "u"
     },
     "start": 1513,
     "end": 1531

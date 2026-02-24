@@ -237,8 +237,8 @@
     "type": "RegularExpression",
     "value": "/\\W/",
     "regex": {
-      "flags": "",
-      "pattern": "\\W"
+      "pattern": "\\W",
+      "flags": ""
     },
     "start": 1768,
     "end": 1772
@@ -271,8 +271,8 @@
     "type": "RegularExpression",
     "value": "/\\W/u",
     "regex": {
-      "flags": "u",
-      "pattern": "\\W"
+      "pattern": "\\W",
+      "flags": "u"
     },
     "start": 1790,
     "end": 1795
@@ -305,8 +305,8 @@
     "type": "RegularExpression",
     "value": "/\\W/v",
     "regex": {
-      "flags": "v",
-      "pattern": "\\W"
+      "pattern": "\\W",
+      "flags": "v"
     },
     "start": 1811,
     "end": 1816

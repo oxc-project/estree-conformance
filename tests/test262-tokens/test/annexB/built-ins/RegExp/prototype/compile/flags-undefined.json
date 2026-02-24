@@ -45,8 +45,8 @@
     "type": "RegularExpression",
     "value": "/abc/ig",
     "regex": {
-      "flags": "ig",
-      "pattern": "abc"
+      "pattern": "abc",
+      "flags": "ig"
     },
     "start": 647,
     "end": 654
@@ -403,8 +403,8 @@
     "type": "RegularExpression",
     "value": "/abc/gi",
     "regex": {
-      "flags": "gi",
-      "pattern": "abc"
+      "pattern": "abc",
+      "flags": "gi"
     },
     "start": 970,
     "end": 977

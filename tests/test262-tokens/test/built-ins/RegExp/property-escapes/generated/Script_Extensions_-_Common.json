@@ -5235,8 +5235,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script_Extensions=Common}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script_Extensions=Common}+$"
+      "pattern": "^\\p{Script_Extensions=Common}+$",
+      "flags": "u"
     },
     "start": 4413,
     "end": 4447
@@ -5293,8 +5293,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script_Extensions=Zyyy}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script_Extensions=Zyyy}+$"
+      "pattern": "^\\p{Script_Extensions=Zyyy}+$",
+      "flags": "u"
     },
     "start": 4525,
     "end": 4557
@@ -5351,8 +5351,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{scx=Common}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{scx=Common}+$"
+      "pattern": "^\\p{scx=Common}+$",
+      "flags": "u"
     },
     "start": 4633,
     "end": 4653
@@ -5409,8 +5409,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{scx=Zyyy}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{scx=Zyyy}+$"
+      "pattern": "^\\p{scx=Zyyy}+$",
+      "flags": "u"
     },
     "start": 4717,
     "end": 4735
@@ -10375,8 +10375,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script_Extensions=Common}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script_Extensions=Common}+$"
+      "pattern": "^\\P{Script_Extensions=Common}+$",
+      "flags": "u"
     },
     "start": 8589,
     "end": 8623
@@ -10433,8 +10433,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script_Extensions=Zyyy}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script_Extensions=Zyyy}+$"
+      "pattern": "^\\P{Script_Extensions=Zyyy}+$",
+      "flags": "u"
     },
     "start": 8704,
     "end": 8736
@@ -10491,8 +10491,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{scx=Common}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{scx=Common}+$"
+      "pattern": "^\\P{scx=Common}+$",
+      "flags": "u"
     },
     "start": 8815,
     "end": 8835
@@ -10549,8 +10549,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{scx=Zyyy}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{scx=Zyyy}+$"
+      "pattern": "^\\P{scx=Zyyy}+$",
+      "flags": "u"
     },
     "start": 8902,
     "end": 8920

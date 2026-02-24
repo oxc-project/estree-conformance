@@ -765,8 +765,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Noncharacter_Code_Point}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Noncharacter_Code_Point}+$"
+      "pattern": "^\\p{Noncharacter_Code_Point}+$",
+      "flags": "u"
     },
     "start": 1028,
     "end": 1061
@@ -823,8 +823,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{NChar}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{NChar}+$"
+      "pattern": "^\\p{NChar}+$",
+      "flags": "u"
     },
     "start": 1138,
     "end": 1153
@@ -1703,8 +1703,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Noncharacter_Code_Point}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Noncharacter_Code_Point}+$"
+      "pattern": "^\\P{Noncharacter_Code_Point}+$",
+      "flags": "u"
     },
     "start": 1812,
     "end": 1845
@@ -1761,8 +1761,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{NChar}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{NChar}+$"
+      "pattern": "^\\P{NChar}+$",
+      "flags": "u"
     },
     "start": 1925,
     "end": 1940

@@ -549,8 +549,8 @@ __ESTREE_TEST__:TOKENS:
     "type": "RegularExpression",
     "value": "/\\q\\u\\i\\c\\k\\_\\f\\o\\x\\-\\j\\u\\m\\p\\s/",
     "regex": {
-      "flags": "",
-      "pattern": "\\q\\u\\i\\c\\k\\_\\f\\o\\x\\-\\j\\u\\m\\p\\s"
+      "pattern": "\\q\\u\\i\\c\\k\\_\\f\\o\\x\\-\\j\\u\\m\\p\\s",
+      "flags": ""
     },
     "start": 30,
     "end": 62
@@ -565,8 +565,8 @@ __ESTREE_TEST__:TOKENS:
     "type": "RegularExpression",
     "value": "/[\\q\\u\\i\\c\\k\\_\\f\\o\\x\\-\\j\\u\\m\\p\\s]/",
     "regex": {
-      "flags": "",
-      "pattern": "[\\q\\u\\i\\c\\k\\_\\f\\o\\x\\-\\j\\u\\m\\p\\s]"
+      "pattern": "[\\q\\u\\i\\c\\k\\_\\f\\o\\x\\-\\j\\u\\m\\p\\s]",
+      "flags": ""
     },
     "start": 66,
     "end": 100
@@ -581,8 +581,8 @@ __ESTREE_TEST__:TOKENS:
     "type": "RegularExpression",
     "value": "/\\P[\\P\\w-_]/",
     "regex": {
-      "flags": "",
-      "pattern": "\\P[\\P\\w-_]"
+      "pattern": "\\P[\\P\\w-_]",
+      "flags": ""
     },
     "start": 104,
     "end": 116
@@ -597,8 +597,8 @@ __ESTREE_TEST__:TOKENS:
     "type": "RegularExpression",
     "value": "/\\q\\u\\i\\c\\k\\_\\f\\o\\x\\-\\j\\u\\m\\p\\s/u",
     "regex": {
-      "flags": "u",
-      "pattern": "\\q\\u\\i\\c\\k\\_\\f\\o\\x\\-\\j\\u\\m\\p\\s"
+      "pattern": "\\q\\u\\i\\c\\k\\_\\f\\o\\x\\-\\j\\u\\m\\p\\s",
+      "flags": "u"
     },
     "start": 137,
     "end": 170
@@ -613,8 +613,8 @@ __ESTREE_TEST__:TOKENS:
     "type": "RegularExpression",
     "value": "/[\\q\\u\\i\\c\\k\\_\\f\\o\\x\\-\\j\\u\\m\\p\\s]/u",
     "regex": {
-      "flags": "u",
-      "pattern": "[\\q\\u\\i\\c\\k\\_\\f\\o\\x\\-\\j\\u\\m\\p\\s]"
+      "pattern": "[\\q\\u\\i\\c\\k\\_\\f\\o\\x\\-\\j\\u\\m\\p\\s]",
+      "flags": "u"
     },
     "start": 174,
     "end": 209
@@ -629,8 +629,8 @@ __ESTREE_TEST__:TOKENS:
     "type": "RegularExpression",
     "value": "/\\P[\\P\\w-_]/u",
     "regex": {
-      "flags": "u",
-      "pattern": "\\P[\\P\\w-_]"
+      "pattern": "\\P[\\P\\w-_]",
+      "flags": "u"
     },
     "start": 213,
     "end": 226
@@ -705,8 +705,8 @@ __ESTREE_TEST__:TOKENS:
     "type": "RegularExpression",
     "value": "/{??/",
     "regex": {
-      "flags": "",
-      "pattern": "{??"
+      "pattern": "{??",
+      "flags": ""
     },
     "start": 272,
     "end": 277
@@ -721,8 +721,8 @@ __ESTREE_TEST__:TOKENS:
     "type": "RegularExpression",
     "value": "/{,??/",
     "regex": {
-      "flags": "",
-      "pattern": "{,??"
+      "pattern": "{,??",
+      "flags": ""
     },
     "start": 281,
     "end": 287
@@ -737,8 +737,8 @@ __ESTREE_TEST__:TOKENS:
     "type": "RegularExpression",
     "value": "/{,1??/",
     "regex": {
-      "flags": "",
-      "pattern": "{,1??"
+      "pattern": "{,1??",
+      "flags": ""
     },
     "start": 291,
     "end": 298
@@ -753,8 +753,8 @@ __ESTREE_TEST__:TOKENS:
     "type": "RegularExpression",
     "value": "/{1??/",
     "regex": {
-      "flags": "",
-      "pattern": "{1??"
+      "pattern": "{1??",
+      "flags": ""
     },
     "start": 302,
     "end": 308
@@ -769,8 +769,8 @@ __ESTREE_TEST__:TOKENS:
     "type": "RegularExpression",
     "value": "/{1,??/",
     "regex": {
-      "flags": "",
-      "pattern": "{1,??"
+      "pattern": "{1,??",
+      "flags": ""
     },
     "start": 312,
     "end": 319
@@ -785,8 +785,8 @@ __ESTREE_TEST__:TOKENS:
     "type": "RegularExpression",
     "value": "/{1,2??/",
     "regex": {
-      "flags": "",
-      "pattern": "{1,2??"
+      "pattern": "{1,2??",
+      "flags": ""
     },
     "start": 323,
     "end": 331
@@ -801,8 +801,8 @@ __ESTREE_TEST__:TOKENS:
     "type": "RegularExpression",
     "value": "/{2,1??/",
     "regex": {
-      "flags": "",
-      "pattern": "{2,1??"
+      "pattern": "{2,1??",
+      "flags": ""
     },
     "start": 335,
     "end": 343
@@ -817,8 +817,8 @@ __ESTREE_TEST__:TOKENS:
     "type": "RegularExpression",
     "value": "/{}??/",
     "regex": {
-      "flags": "",
-      "pattern": "{}??"
+      "pattern": "{}??",
+      "flags": ""
     },
     "start": 347,
     "end": 353
@@ -833,8 +833,8 @@ __ESTREE_TEST__:TOKENS:
     "type": "RegularExpression",
     "value": "/{,}??/",
     "regex": {
-      "flags": "",
-      "pattern": "{,}??"
+      "pattern": "{,}??",
+      "flags": ""
     },
     "start": 357,
     "end": 364
@@ -849,8 +849,8 @@ __ESTREE_TEST__:TOKENS:
     "type": "RegularExpression",
     "value": "/{,1}??/",
     "regex": {
-      "flags": "",
-      "pattern": "{,1}??"
+      "pattern": "{,1}??",
+      "flags": ""
     },
     "start": 368,
     "end": 376
@@ -865,8 +865,8 @@ __ESTREE_TEST__:TOKENS:
     "type": "RegularExpression",
     "value": "/{1}??/",
     "regex": {
-      "flags": "",
-      "pattern": "{1}??"
+      "pattern": "{1}??",
+      "flags": ""
     },
     "start": 380,
     "end": 387
@@ -881,8 +881,8 @@ __ESTREE_TEST__:TOKENS:
     "type": "RegularExpression",
     "value": "/{1,}??/",
     "regex": {
-      "flags": "",
-      "pattern": "{1,}??"
+      "pattern": "{1,}??",
+      "flags": ""
     },
     "start": 391,
     "end": 399
@@ -897,8 +897,8 @@ __ESTREE_TEST__:TOKENS:
     "type": "RegularExpression",
     "value": "/{1,2}??/",
     "regex": {
-      "flags": "",
-      "pattern": "{1,2}??"
+      "pattern": "{1,2}??",
+      "flags": ""
     },
     "start": 403,
     "end": 412
@@ -913,8 +913,8 @@ __ESTREE_TEST__:TOKENS:
     "type": "RegularExpression",
     "value": "/{2,1}??/",
     "regex": {
-      "flags": "",
-      "pattern": "{2,1}??"
+      "pattern": "{2,1}??",
+      "flags": ""
     },
     "start": 416,
     "end": 425
@@ -929,8 +929,8 @@ __ESTREE_TEST__:TOKENS:
     "type": "RegularExpression",
     "value": "/{??/u",
     "regex": {
-      "flags": "u",
-      "pattern": "{??"
+      "pattern": "{??",
+      "flags": "u"
     },
     "start": 446,
     "end": 452
@@ -945,8 +945,8 @@ __ESTREE_TEST__:TOKENS:
     "type": "RegularExpression",
     "value": "/{,??/u",
     "regex": {
-      "flags": "u",
-      "pattern": "{,??"
+      "pattern": "{,??",
+      "flags": "u"
     },
     "start": 456,
     "end": 463
@@ -961,8 +961,8 @@ __ESTREE_TEST__:TOKENS:
     "type": "RegularExpression",
     "value": "/{,1??/u",
     "regex": {
-      "flags": "u",
-      "pattern": "{,1??"
+      "pattern": "{,1??",
+      "flags": "u"
     },
     "start": 467,
     "end": 475
@@ -977,8 +977,8 @@ __ESTREE_TEST__:TOKENS:
     "type": "RegularExpression",
     "value": "/{1??/u",
     "regex": {
-      "flags": "u",
-      "pattern": "{1??"
+      "pattern": "{1??",
+      "flags": "u"
     },
     "start": 479,
     "end": 486
@@ -993,8 +993,8 @@ __ESTREE_TEST__:TOKENS:
     "type": "RegularExpression",
     "value": "/{1,??/u",
     "regex": {
-      "flags": "u",
-      "pattern": "{1,??"
+      "pattern": "{1,??",
+      "flags": "u"
     },
     "start": 490,
     "end": 498
@@ -1009,8 +1009,8 @@ __ESTREE_TEST__:TOKENS:
     "type": "RegularExpression",
     "value": "/{1,2??/u",
     "regex": {
-      "flags": "u",
-      "pattern": "{1,2??"
+      "pattern": "{1,2??",
+      "flags": "u"
     },
     "start": 502,
     "end": 511
@@ -1025,8 +1025,8 @@ __ESTREE_TEST__:TOKENS:
     "type": "RegularExpression",
     "value": "/{2,1??/u",
     "regex": {
-      "flags": "u",
-      "pattern": "{2,1??"
+      "pattern": "{2,1??",
+      "flags": "u"
     },
     "start": 515,
     "end": 524
@@ -1041,8 +1041,8 @@ __ESTREE_TEST__:TOKENS:
     "type": "RegularExpression",
     "value": "/{}??/u",
     "regex": {
-      "flags": "u",
-      "pattern": "{}??"
+      "pattern": "{}??",
+      "flags": "u"
     },
     "start": 528,
     "end": 535
@@ -1057,8 +1057,8 @@ __ESTREE_TEST__:TOKENS:
     "type": "RegularExpression",
     "value": "/{,}??/u",
     "regex": {
-      "flags": "u",
-      "pattern": "{,}??"
+      "pattern": "{,}??",
+      "flags": "u"
     },
     "start": 539,
     "end": 547
@@ -1073,8 +1073,8 @@ __ESTREE_TEST__:TOKENS:
     "type": "RegularExpression",
     "value": "/{,1}??/u",
     "regex": {
-      "flags": "u",
-      "pattern": "{,1}??"
+      "pattern": "{,1}??",
+      "flags": "u"
     },
     "start": 551,
     "end": 560
@@ -1089,8 +1089,8 @@ __ESTREE_TEST__:TOKENS:
     "type": "RegularExpression",
     "value": "/{1}??/u",
     "regex": {
-      "flags": "u",
-      "pattern": "{1}??"
+      "pattern": "{1}??",
+      "flags": "u"
     },
     "start": 564,
     "end": 572
@@ -1105,8 +1105,8 @@ __ESTREE_TEST__:TOKENS:
     "type": "RegularExpression",
     "value": "/{1,}??/u",
     "regex": {
-      "flags": "u",
-      "pattern": "{1,}??"
+      "pattern": "{1,}??",
+      "flags": "u"
     },
     "start": 576,
     "end": 585
@@ -1121,8 +1121,8 @@ __ESTREE_TEST__:TOKENS:
     "type": "RegularExpression",
     "value": "/{1,2}??/u",
     "regex": {
-      "flags": "u",
-      "pattern": "{1,2}??"
+      "pattern": "{1,2}??",
+      "flags": "u"
     },
     "start": 589,
     "end": 599
@@ -1137,8 +1137,8 @@ __ESTREE_TEST__:TOKENS:
     "type": "RegularExpression",
     "value": "/{2,1}??/u",
     "regex": {
-      "flags": "u",
-      "pattern": "{2,1}??"
+      "pattern": "{2,1}??",
+      "flags": "u"
     },
     "start": 603,
     "end": 613

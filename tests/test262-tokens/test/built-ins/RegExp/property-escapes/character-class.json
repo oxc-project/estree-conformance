@@ -3,8 +3,8 @@
     "type": "RegularExpression",
     "value": "/[\\p{Hex}]/u",
     "regex": {
-      "flags": "u",
-      "pattern": "[\\p{Hex}]"
+      "pattern": "[\\p{Hex}]",
+      "flags": "u"
     },
     "start": 339,
     "end": 351
@@ -31,8 +31,8 @@
     "type": "RegularExpression",
     "value": "/[\\p{Hex}\\P{Hex}]/u",
     "regex": {
-      "flags": "u",
-      "pattern": "[\\p{Hex}\\P{Hex}]"
+      "pattern": "[\\p{Hex}\\P{Hex}]",
+      "flags": "u"
     },
     "start": 364,
     "end": 383

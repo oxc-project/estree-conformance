@@ -153,8 +153,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script_Extensions=Elymaic}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script_Extensions=Elymaic}+$"
+      "pattern": "^\\p{Script_Extensions=Elymaic}+$",
+      "flags": "u"
     },
     "start": 588,
     "end": 623
@@ -211,8 +211,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script_Extensions=Elym}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script_Extensions=Elym}+$"
+      "pattern": "^\\p{Script_Extensions=Elym}+$",
+      "flags": "u"
     },
     "start": 702,
     "end": 734
@@ -269,8 +269,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{scx=Elymaic}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{scx=Elymaic}+$"
+      "pattern": "^\\p{scx=Elymaic}+$",
+      "flags": "u"
     },
     "start": 810,
     "end": 831
@@ -327,8 +327,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{scx=Elym}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{scx=Elym}+$"
+      "pattern": "^\\p{scx=Elym}+$",
+      "flags": "u"
     },
     "start": 896,
     "end": 914
@@ -631,8 +631,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script_Extensions=Elymaic}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script_Extensions=Elymaic}+$"
+      "pattern": "^\\P{Script_Extensions=Elymaic}+$",
+      "flags": "u"
     },
     "start": 1160,
     "end": 1195
@@ -689,8 +689,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script_Extensions=Elym}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script_Extensions=Elym}+$"
+      "pattern": "^\\P{Script_Extensions=Elym}+$",
+      "flags": "u"
     },
     "start": 1277,
     "end": 1309
@@ -747,8 +747,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{scx=Elymaic}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{scx=Elymaic}+$"
+      "pattern": "^\\P{scx=Elymaic}+$",
+      "flags": "u"
     },
     "start": 1388,
     "end": 1409
@@ -805,8 +805,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{scx=Elym}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{scx=Elym}+$"
+      "pattern": "^\\P{scx=Elym}+$",
+      "flags": "u"
     },
     "start": 1477,
     "end": 1495

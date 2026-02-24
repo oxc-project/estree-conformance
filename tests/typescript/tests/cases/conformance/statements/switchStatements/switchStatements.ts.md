@@ -1613,8 +1613,8 @@ __ESTREE_TEST__:TOKENS:
     "type": "RegularExpression",
     "value": "/[a-z]/",
     "regex": {
-      "flags": "",
-      "pattern": "[a-z]"
+      "pattern": "[a-z]",
+      "flags": ""
     },
     "start": 234,
     "end": 241
@@ -2637,8 +2637,8 @@ __ESTREE_TEST__:TOKENS:
     "type": "RegularExpression",
     "value": "/[a-z]/",
     "regex": {
-      "flags": "",
-      "pattern": "[a-z]"
+      "pattern": "[a-z]",
+      "flags": ""
     },
     "start": 823,
     "end": 830

@@ -21,8 +21,8 @@
     "type": "RegularExpression",
     "value": "/(?i:.es)/",
     "regex": {
-      "flags": "",
-      "pattern": "(?i:.es)"
+      "pattern": "(?i:.es)",
+      "flags": ""
     },
     "start": 2170,
     "end": 2180
@@ -355,8 +355,8 @@
     "type": "RegularExpression",
     "value": "/(?i:.es)/s",
     "regex": {
-      "flags": "s",
-      "pattern": "(?i:.es)"
+      "pattern": "(?i:.es)",
+      "flags": "s"
     },
     "start": 2469,
     "end": 2480
@@ -677,8 +677,8 @@
     "type": "RegularExpression",
     "value": "/(?i-:.es)/",
     "regex": {
-      "flags": "",
-      "pattern": "(?i-:.es)"
+      "pattern": "(?i-:.es)",
+      "flags": ""
     },
     "start": 2759,
     "end": 2770
@@ -1011,8 +1011,8 @@
     "type": "RegularExpression",
     "value": "/(?i-:.es)/s",
     "regex": {
-      "flags": "s",
-      "pattern": "(?i-:.es)"
+      "pattern": "(?i-:.es)",
+      "flags": "s"
     },
     "start": 3059,
     "end": 3071

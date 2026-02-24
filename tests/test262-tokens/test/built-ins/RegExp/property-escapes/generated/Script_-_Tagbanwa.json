@@ -225,8 +225,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script=Tagbanwa}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script=Tagbanwa}+$"
+      "pattern": "^\\p{Script=Tagbanwa}+$",
+      "flags": "u"
     },
     "start": 630,
     "end": 655
@@ -283,8 +283,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script=Tagb}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script=Tagb}+$"
+      "pattern": "^\\p{Script=Tagb}+$",
+      "flags": "u"
     },
     "start": 724,
     "end": 745
@@ -341,8 +341,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{sc=Tagbanwa}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{sc=Tagbanwa}+$"
+      "pattern": "^\\p{sc=Tagbanwa}+$",
+      "flags": "u"
     },
     "start": 810,
     "end": 831
@@ -399,8 +399,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{sc=Tagb}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{sc=Tagb}+$"
+      "pattern": "^\\p{sc=Tagb}+$",
+      "flags": "u"
     },
     "start": 896,
     "end": 913
@@ -721,8 +721,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script=Tagbanwa}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script=Tagbanwa}+$"
+      "pattern": "^\\P{Script=Tagbanwa}+$",
+      "flags": "u"
     },
     "start": 1188,
     "end": 1213
@@ -779,8 +779,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script=Tagb}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script=Tagb}+$"
+      "pattern": "^\\P{Script=Tagb}+$",
+      "flags": "u"
     },
     "start": 1285,
     "end": 1306
@@ -837,8 +837,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{sc=Tagbanwa}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{sc=Tagbanwa}+$"
+      "pattern": "^\\P{sc=Tagbanwa}+$",
+      "flags": "u"
     },
     "start": 1374,
     "end": 1395
@@ -895,8 +895,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{sc=Tagb}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{sc=Tagb}+$"
+      "pattern": "^\\P{sc=Tagb}+$",
+      "flags": "u"
     },
     "start": 1463,
     "end": 1480
