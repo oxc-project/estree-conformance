@@ -262,7 +262,12 @@ __ESTREE_TEST__:AST:
     }
   ],
   "sourceType": "module",
-  "hashbang": null,
+  "hashbang": {
+    "type": "Hashbang",
+    "value": "/usr/bin/env node",
+    "start": 0,
+    "end": 19
+  },
   "start": 53,
   "end": 123
 }

@@ -36,7 +36,12 @@ __ESTREE_TEST__:AST:
     }
   ],
   "sourceType": "script",
-  "hashbang": null,
+  "hashbang": {
+    "type": "Hashbang",
+    "value": "/usr/bin/env node",
+    "start": 0,
+    "end": 19
+  },
   "start": 20,
   "end": 79
 }
