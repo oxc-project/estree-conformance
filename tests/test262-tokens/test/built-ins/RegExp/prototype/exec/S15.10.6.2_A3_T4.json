@@ -1539,8 +1539,8 @@
     "type": "RegularExpression",
     "value": "/([Nn]?ever|([Nn]othing\\s{1,}))more/g",
     "regex": {
-      "flags": "g",
-      "pattern": "([Nn]?ever|([Nn]othing\\s{1,}))more"
+      "pattern": "([Nn]?ever|([Nn]othing\\s{1,}))more",
+      "flags": "g"
     },
     "start": 8345,
     "end": 8382

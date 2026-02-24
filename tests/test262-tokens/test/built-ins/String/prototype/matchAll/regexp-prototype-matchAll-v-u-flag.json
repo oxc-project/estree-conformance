@@ -501,8 +501,8 @@
     "type": "RegularExpression",
     "value": "/𠮷/g",
     "regex": {
-      "flags": "g",
-      "pattern": "𠮷"
+      "pattern": "𠮷",
+      "flags": "g"
     },
     "start": 663,
     "end": 668
@@ -703,8 +703,8 @@
     "type": "RegularExpression",
     "value": "/𠮷/gu",
     "regex": {
-      "flags": "gu",
-      "pattern": "𠮷"
+      "pattern": "𠮷",
+      "flags": "gu"
     },
     "start": 800,
     "end": 806
@@ -905,8 +905,8 @@
     "type": "RegularExpression",
     "value": "/𠮷/gv",
     "regex": {
-      "flags": "gv",
-      "pattern": "𠮷"
+      "pattern": "𠮷",
+      "flags": "gv"
     },
     "start": 932,
     "end": 938
@@ -1107,8 +1107,8 @@
     "type": "RegularExpression",
     "value": "/\\p{Script=Han}/gu",
     "regex": {
-      "flags": "gu",
-      "pattern": "\\p{Script=Han}"
+      "pattern": "\\p{Script=Han}",
+      "flags": "gu"
     },
     "start": 1064,
     "end": 1082
@@ -1309,8 +1309,8 @@
     "type": "RegularExpression",
     "value": "/\\p{Script=Han}/gv",
     "regex": {
-      "flags": "gv",
-      "pattern": "\\p{Script=Han}"
+      "pattern": "\\p{Script=Han}",
+      "flags": "gv"
     },
     "start": 1224,
     "end": 1242
@@ -1511,8 +1511,8 @@
     "type": "RegularExpression",
     "value": "/./gu",
     "regex": {
-      "flags": "gu",
-      "pattern": "."
+      "pattern": ".",
+      "flags": "gu"
     },
     "start": 1384,
     "end": 1389
@@ -1761,8 +1761,8 @@
     "type": "RegularExpression",
     "value": "/./gv",
     "regex": {
-      "flags": "gv",
-      "pattern": "."
+      "pattern": ".",
+      "flags": "gv"
     },
     "start": 1526,
     "end": 1531
@@ -1987,8 +1987,8 @@
     "type": "RegularExpression",
     "value": "/(?:)/gu",
     "regex": {
-      "flags": "gu",
-      "pattern": "(?:)"
+      "pattern": "(?:)",
+      "flags": "gu"
     },
     "start": 1648,
     "end": 1656
@@ -2087,8 +2087,8 @@
     "type": "RegularExpression",
     "value": "/(?:)/gv",
     "regex": {
-      "flags": "gv",
-      "pattern": "(?:)"
+      "pattern": "(?:)",
+      "flags": "gv"
     },
     "start": 1737,
     "end": 1745
@@ -2277,8 +2277,8 @@
     "type": "RegularExpression",
     "value": "/\\P{ASCII}/gu",
     "regex": {
-      "flags": "gu",
-      "pattern": "\\P{ASCII}"
+      "pattern": "\\P{ASCII}",
+      "flags": "gu"
     },
     "start": 1913,
     "end": 1926
@@ -2515,8 +2515,8 @@
     "type": "RegularExpression",
     "value": "/\\P{ASCII}/gv",
     "regex": {
-      "flags": "gv",
-      "pattern": "\\P{ASCII}"
+      "pattern": "\\P{ASCII}",
+      "flags": "gv"
     },
     "start": 2085,
     "end": 2098

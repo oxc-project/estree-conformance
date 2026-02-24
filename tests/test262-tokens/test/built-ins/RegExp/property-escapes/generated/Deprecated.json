@@ -279,8 +279,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Deprecated}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Deprecated}+$"
+      "pattern": "^\\p{Deprecated}+$",
+      "flags": "u"
     },
     "start": 697,
     "end": 717
@@ -337,8 +337,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Dep}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Dep}+$"
+      "pattern": "^\\p{Dep}+$",
+      "flags": "u"
     },
     "start": 781,
     "end": 794
@@ -863,8 +863,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Deprecated}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Deprecated}+$"
+      "pattern": "^\\P{Deprecated}+$",
+      "flags": "u"
     },
     "start": 1207,
     "end": 1227
@@ -921,8 +921,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Dep}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Dep}+$"
+      "pattern": "^\\P{Dep}+$",
+      "flags": "u"
     },
     "start": 1294,
     "end": 1307

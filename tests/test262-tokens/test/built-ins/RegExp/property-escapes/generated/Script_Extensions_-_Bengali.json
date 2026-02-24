@@ -819,8 +819,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script_Extensions=Bengali}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script_Extensions=Bengali}+$"
+      "pattern": "^\\p{Script_Extensions=Bengali}+$",
+      "flags": "u"
     },
     "start": 1134,
     "end": 1169
@@ -877,8 +877,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script_Extensions=Beng}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script_Extensions=Beng}+$"
+      "pattern": "^\\p{Script_Extensions=Beng}+$",
+      "flags": "u"
     },
     "start": 1248,
     "end": 1280
@@ -935,8 +935,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{scx=Bengali}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{scx=Bengali}+$"
+      "pattern": "^\\p{scx=Bengali}+$",
+      "flags": "u"
     },
     "start": 1356,
     "end": 1377
@@ -993,8 +993,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{scx=Beng}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{scx=Beng}+$"
+      "pattern": "^\\p{scx=Beng}+$",
+      "flags": "u"
     },
     "start": 1442,
     "end": 1460
@@ -2083,8 +2083,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script_Extensions=Bengali}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script_Extensions=Bengali}+$"
+      "pattern": "^\\P{Script_Extensions=Bengali}+$",
+      "flags": "u"
     },
     "start": 2312,
     "end": 2347
@@ -2141,8 +2141,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script_Extensions=Beng}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script_Extensions=Beng}+$"
+      "pattern": "^\\P{Script_Extensions=Beng}+$",
+      "flags": "u"
     },
     "start": 2429,
     "end": 2461
@@ -2199,8 +2199,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{scx=Bengali}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{scx=Bengali}+$"
+      "pattern": "^\\P{scx=Bengali}+$",
+      "flags": "u"
     },
     "start": 2540,
     "end": 2561
@@ -2257,8 +2257,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{scx=Beng}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{scx=Beng}+$"
+      "pattern": "^\\P{scx=Beng}+$",
+      "flags": "u"
     },
     "start": 2629,
     "end": 2647

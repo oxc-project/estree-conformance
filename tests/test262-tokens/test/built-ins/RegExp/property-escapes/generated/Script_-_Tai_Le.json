@@ -189,8 +189,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script=Tai_Le}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script=Tai_Le}+$"
+      "pattern": "^\\p{Script=Tai_Le}+$",
+      "flags": "u"
     },
     "start": 602,
     "end": 625
@@ -247,8 +247,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script=Tale}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script=Tale}+$"
+      "pattern": "^\\p{Script=Tale}+$",
+      "flags": "u"
     },
     "start": 692,
     "end": 713
@@ -305,8 +305,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{sc=Tai_Le}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{sc=Tai_Le}+$"
+      "pattern": "^\\p{sc=Tai_Le}+$",
+      "flags": "u"
     },
     "start": 778,
     "end": 797
@@ -363,8 +363,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{sc=Tale}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{sc=Tale}+$"
+      "pattern": "^\\p{sc=Tale}+$",
+      "flags": "u"
     },
     "start": 860,
     "end": 877
@@ -703,8 +703,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script=Tai_Le}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script=Tai_Le}+$"
+      "pattern": "^\\P{Script=Tai_Le}+$",
+      "flags": "u"
     },
     "start": 1148,
     "end": 1171
@@ -761,8 +761,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script=Tale}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script=Tale}+$"
+      "pattern": "^\\P{Script=Tale}+$",
+      "flags": "u"
     },
     "start": 1241,
     "end": 1262
@@ -819,8 +819,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{sc=Tai_Le}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{sc=Tai_Le}+$"
+      "pattern": "^\\P{sc=Tai_Le}+$",
+      "flags": "u"
     },
     "start": 1330,
     "end": 1349
@@ -877,8 +877,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{sc=Tale}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{sc=Tale}+$"
+      "pattern": "^\\P{sc=Tale}+$",
+      "flags": "u"
     },
     "start": 1415,
     "end": 1432

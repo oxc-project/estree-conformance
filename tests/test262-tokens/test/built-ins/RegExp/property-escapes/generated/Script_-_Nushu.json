@@ -159,8 +159,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script=Nushu}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script=Nushu}+$"
+      "pattern": "^\\p{Script=Nushu}+$",
+      "flags": "u"
     },
     "start": 591,
     "end": 613
@@ -217,8 +217,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script=Nshu}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script=Nshu}+$"
+      "pattern": "^\\p{Script=Nshu}+$",
+      "flags": "u"
     },
     "start": 679,
     "end": 700
@@ -275,8 +275,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{sc=Nushu}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{sc=Nushu}+$"
+      "pattern": "^\\p{sc=Nushu}+$",
+      "flags": "u"
     },
     "start": 765,
     "end": 783
@@ -333,8 +333,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{sc=Nshu}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{sc=Nshu}+$"
+      "pattern": "^\\p{sc=Nshu}+$",
+      "flags": "u"
     },
     "start": 845,
     "end": 862
@@ -673,8 +673,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script=Nushu}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script=Nushu}+$"
+      "pattern": "^\\P{Script=Nushu}+$",
+      "flags": "u"
     },
     "start": 1133,
     "end": 1155
@@ -731,8 +731,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script=Nshu}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script=Nshu}+$"
+      "pattern": "^\\P{Script=Nshu}+$",
+      "flags": "u"
     },
     "start": 1224,
     "end": 1245
@@ -789,8 +789,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{sc=Nushu}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{sc=Nushu}+$"
+      "pattern": "^\\P{sc=Nushu}+$",
+      "flags": "u"
     },
     "start": 1313,
     "end": 1331
@@ -847,8 +847,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{sc=Nshu}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{sc=Nshu}+$"
+      "pattern": "^\\P{sc=Nshu}+$",
+      "flags": "u"
     },
     "start": 1396,
     "end": 1413

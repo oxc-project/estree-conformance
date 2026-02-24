@@ -153,8 +153,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script_Extensions=Runic}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script_Extensions=Runic}+$"
+      "pattern": "^\\p{Script_Extensions=Runic}+$",
+      "flags": "u"
     },
     "start": 586,
     "end": 619
@@ -211,8 +211,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script_Extensions=Runr}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script_Extensions=Runr}+$"
+      "pattern": "^\\p{Script_Extensions=Runr}+$",
+      "flags": "u"
     },
     "start": 696,
     "end": 728
@@ -269,8 +269,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{scx=Runic}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{scx=Runic}+$"
+      "pattern": "^\\p{scx=Runic}+$",
+      "flags": "u"
     },
     "start": 804,
     "end": 823
@@ -327,8 +327,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{scx=Runr}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{scx=Runr}+$"
+      "pattern": "^\\p{scx=Runr}+$",
+      "flags": "u"
     },
     "start": 886,
     "end": 904
@@ -631,8 +631,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script_Extensions=Runic}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script_Extensions=Runic}+$"
+      "pattern": "^\\P{Script_Extensions=Runic}+$",
+      "flags": "u"
     },
     "start": 1150,
     "end": 1183
@@ -689,8 +689,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script_Extensions=Runr}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script_Extensions=Runr}+$"
+      "pattern": "^\\P{Script_Extensions=Runr}+$",
+      "flags": "u"
     },
     "start": 1263,
     "end": 1295
@@ -747,8 +747,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{scx=Runic}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{scx=Runic}+$"
+      "pattern": "^\\P{scx=Runic}+$",
+      "flags": "u"
     },
     "start": 1374,
     "end": 1393
@@ -805,8 +805,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{scx=Runr}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{scx=Runr}+$"
+      "pattern": "^\\P{scx=Runr}+$",
+      "flags": "u"
     },
     "start": 1459,
     "end": 1477

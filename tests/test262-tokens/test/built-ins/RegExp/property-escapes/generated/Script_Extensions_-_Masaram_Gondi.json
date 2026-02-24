@@ -375,8 +375,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script_Extensions=Masaram_Gondi}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script_Extensions=Masaram_Gondi}+$"
+      "pattern": "^\\p{Script_Extensions=Masaram_Gondi}+$",
+      "flags": "u"
     },
     "start": 766,
     "end": 807
@@ -433,8 +433,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script_Extensions=Gonm}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script_Extensions=Gonm}+$"
+      "pattern": "^\\p{Script_Extensions=Gonm}+$",
+      "flags": "u"
     },
     "start": 892,
     "end": 924
@@ -491,8 +491,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{scx=Masaram_Gondi}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{scx=Masaram_Gondi}+$"
+      "pattern": "^\\p{scx=Masaram_Gondi}+$",
+      "flags": "u"
     },
     "start": 1000,
     "end": 1027
@@ -549,8 +549,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{scx=Gonm}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{scx=Gonm}+$"
+      "pattern": "^\\p{scx=Gonm}+$",
+      "flags": "u"
     },
     "start": 1098,
     "end": 1116
@@ -1003,8 +1003,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script_Extensions=Masaram_Gondi}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script_Extensions=Masaram_Gondi}+$"
+      "pattern": "^\\P{Script_Extensions=Masaram_Gondi}+$",
+      "flags": "u"
     },
     "start": 1498,
     "end": 1539
@@ -1061,8 +1061,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script_Extensions=Gonm}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script_Extensions=Gonm}+$"
+      "pattern": "^\\P{Script_Extensions=Gonm}+$",
+      "flags": "u"
     },
     "start": 1627,
     "end": 1659
@@ -1119,8 +1119,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{scx=Masaram_Gondi}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{scx=Masaram_Gondi}+$"
+      "pattern": "^\\P{scx=Masaram_Gondi}+$",
+      "flags": "u"
     },
     "start": 1738,
     "end": 1765
@@ -1177,8 +1177,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{scx=Gonm}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{scx=Gonm}+$"
+      "pattern": "^\\P{scx=Gonm}+$",
+      "flags": "u"
     },
     "start": 1839,
     "end": 1857

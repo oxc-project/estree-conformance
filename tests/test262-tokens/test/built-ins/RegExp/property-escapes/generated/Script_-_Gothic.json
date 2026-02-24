@@ -153,8 +153,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script=Gothic}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script=Gothic}+$"
+      "pattern": "^\\p{Script=Gothic}+$",
+      "flags": "u"
     },
     "start": 576,
     "end": 599
@@ -211,8 +211,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script=Goth}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script=Goth}+$"
+      "pattern": "^\\p{Script=Goth}+$",
+      "flags": "u"
     },
     "start": 666,
     "end": 687
@@ -269,8 +269,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{sc=Gothic}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{sc=Gothic}+$"
+      "pattern": "^\\p{sc=Gothic}+$",
+      "flags": "u"
     },
     "start": 752,
     "end": 771
@@ -327,8 +327,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{sc=Goth}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{sc=Goth}+$"
+      "pattern": "^\\p{sc=Goth}+$",
+      "flags": "u"
     },
     "start": 834,
     "end": 851
@@ -631,8 +631,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script=Gothic}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script=Gothic}+$"
+      "pattern": "^\\P{Script=Gothic}+$",
+      "flags": "u"
     },
     "start": 1096,
     "end": 1119
@@ -689,8 +689,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script=Goth}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script=Goth}+$"
+      "pattern": "^\\P{Script=Goth}+$",
+      "flags": "u"
     },
     "start": 1189,
     "end": 1210
@@ -747,8 +747,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{sc=Gothic}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{sc=Gothic}+$"
+      "pattern": "^\\P{sc=Gothic}+$",
+      "flags": "u"
     },
     "start": 1278,
     "end": 1297
@@ -805,8 +805,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{sc=Goth}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{sc=Goth}+$"
+      "pattern": "^\\P{sc=Goth}+$",
+      "flags": "u"
     },
     "start": 1363,
     "end": 1380

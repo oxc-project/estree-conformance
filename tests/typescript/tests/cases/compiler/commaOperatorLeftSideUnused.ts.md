@@ -2879,8 +2879,8 @@ __ESTREE_TEST__:TOKENS:
     "type": "RegularExpression",
     "value": "/323/",
     "regex": {
-      "flags": "",
-      "pattern": "323"
+      "pattern": "323",
+      "flags": ""
     },
     "start": 351,
     "end": 356

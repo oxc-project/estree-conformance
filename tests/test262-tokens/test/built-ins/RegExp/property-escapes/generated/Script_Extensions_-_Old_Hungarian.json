@@ -267,8 +267,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script_Extensions=Old_Hungarian}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script_Extensions=Old_Hungarian}+$"
+      "pattern": "^\\p{Script_Extensions=Old_Hungarian}+$",
+      "flags": "u"
     },
     "start": 704,
     "end": 745
@@ -325,8 +325,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script_Extensions=Hung}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script_Extensions=Hung}+$"
+      "pattern": "^\\p{Script_Extensions=Hung}+$",
+      "flags": "u"
     },
     "start": 830,
     "end": 862
@@ -383,8 +383,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{scx=Old_Hungarian}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{scx=Old_Hungarian}+$"
+      "pattern": "^\\p{scx=Old_Hungarian}+$",
+      "flags": "u"
     },
     "start": 938,
     "end": 965
@@ -441,8 +441,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{scx=Hung}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{scx=Hung}+$"
+      "pattern": "^\\p{scx=Hung}+$",
+      "flags": "u"
     },
     "start": 1036,
     "end": 1054
@@ -961,8 +961,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script_Extensions=Old_Hungarian}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script_Extensions=Old_Hungarian}+$"
+      "pattern": "^\\P{Script_Extensions=Old_Hungarian}+$",
+      "flags": "u"
     },
     "start": 1456,
     "end": 1497
@@ -1019,8 +1019,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script_Extensions=Hung}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script_Extensions=Hung}+$"
+      "pattern": "^\\P{Script_Extensions=Hung}+$",
+      "flags": "u"
     },
     "start": 1585,
     "end": 1617
@@ -1077,8 +1077,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{scx=Old_Hungarian}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{scx=Old_Hungarian}+$"
+      "pattern": "^\\P{scx=Old_Hungarian}+$",
+      "flags": "u"
     },
     "start": 1696,
     "end": 1723
@@ -1135,8 +1135,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{scx=Hung}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{scx=Hung}+$"
+      "pattern": "^\\P{scx=Hung}+$",
+      "flags": "u"
     },
     "start": 1797,
     "end": 1815

@@ -615,8 +615,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Unified_Ideograph}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Unified_Ideograph}+$"
+      "pattern": "^\\p{Unified_Ideograph}+$",
+      "flags": "u"
     },
     "start": 936,
     "end": 963
@@ -673,8 +673,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{UIdeo}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{UIdeo}+$"
+      "pattern": "^\\p{UIdeo}+$",
+      "flags": "u"
     },
     "start": 1034,
     "end": 1049
@@ -1415,8 +1415,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Unified_Ideograph}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Unified_Ideograph}+$"
+      "pattern": "^\\P{Unified_Ideograph}+$",
+      "flags": "u"
     },
     "start": 1636,
     "end": 1663
@@ -1473,8 +1473,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{UIdeo}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{UIdeo}+$"
+      "pattern": "^\\P{UIdeo}+$",
+      "flags": "u"
     },
     "start": 1737,
     "end": 1752

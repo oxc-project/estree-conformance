@@ -51,8 +51,8 @@
     "type": "RegularExpression",
     "value": "/^/",
     "regex": {
-      "flags": "",
-      "pattern": "^"
+      "pattern": "^",
+      "flags": ""
     },
     "start": 620,
     "end": 623
@@ -163,8 +163,8 @@
     "type": "RegularExpression",
     "value": "/$/",
     "regex": {
-      "flags": "",
-      "pattern": "$"
+      "pattern": "$",
+      "flags": ""
     },
     "start": 700,
     "end": 703
@@ -275,8 +275,8 @@
     "type": "RegularExpression",
     "value": "/.?/",
     "regex": {
-      "flags": "",
-      "pattern": ".?"
+      "pattern": ".?",
+      "flags": ""
     },
     "start": 780,
     "end": 784
@@ -399,8 +399,8 @@
     "type": "RegularExpression",
     "value": "/.*/",
     "regex": {
-      "flags": "",
-      "pattern": ".*"
+      "pattern": ".*",
+      "flags": ""
     },
     "start": 868,
     "end": 872
@@ -523,8 +523,8 @@
     "type": "RegularExpression",
     "value": "/.+/",
     "regex": {
-      "flags": "",
-      "pattern": ".+"
+      "pattern": ".+",
+      "flags": ""
     },
     "start": 956,
     "end": 960
@@ -647,8 +647,8 @@
     "type": "RegularExpression",
     "value": "/.*?/",
     "regex": {
-      "flags": "",
-      "pattern": ".*?"
+      "pattern": ".*?",
+      "flags": ""
     },
     "start": 1044,
     "end": 1049
@@ -759,8 +759,8 @@
     "type": "RegularExpression",
     "value": "/.{1}/",
     "regex": {
-      "flags": "",
-      "pattern": ".{1}"
+      "pattern": ".{1}",
+      "flags": ""
     },
     "start": 1128,
     "end": 1134
@@ -883,8 +883,8 @@
     "type": "RegularExpression",
     "value": "/.{1,}/",
     "regex": {
-      "flags": "",
-      "pattern": ".{1,}"
+      "pattern": ".{1,}",
+      "flags": ""
     },
     "start": 1220,
     "end": 1227
@@ -1007,8 +1007,8 @@
     "type": "RegularExpression",
     "value": "/.{1,2}/",
     "regex": {
-      "flags": "",
-      "pattern": ".{1,2}"
+      "pattern": ".{1,2}",
+      "flags": ""
     },
     "start": 1314,
     "end": 1322
@@ -1131,8 +1131,8 @@
     "type": "RegularExpression",
     "value": "/()/",
     "regex": {
-      "flags": "",
-      "pattern": "()"
+      "pattern": "()",
+      "flags": ""
     },
     "start": 1410,
     "end": 1414
@@ -1243,8 +1243,8 @@
     "type": "RegularExpression",
     "value": "/./",
     "regex": {
-      "flags": "",
-      "pattern": "."
+      "pattern": ".",
+      "flags": ""
     },
     "start": 1492,
     "end": 1495
@@ -1367,8 +1367,8 @@
     "type": "RegularExpression",
     "value": "/(?:)/",
     "regex": {
-      "flags": "",
-      "pattern": "(?:)"
+      "pattern": "(?:)",
+      "flags": ""
     },
     "start": 1576,
     "end": 1582
@@ -1479,8 +1479,8 @@
     "type": "RegularExpression",
     "value": "/(...)/",
     "regex": {
-      "flags": "",
-      "pattern": "(...)"
+      "pattern": "(...)",
+      "flags": ""
     },
     "start": 1662,
     "end": 1669
@@ -1591,8 +1591,8 @@
     "type": "RegularExpression",
     "value": "/(|)/",
     "regex": {
-      "flags": "",
-      "pattern": "(|)"
+      "pattern": "(|)",
+      "flags": ""
     },
     "start": 1750,
     "end": 1755
@@ -1703,8 +1703,8 @@
     "type": "RegularExpression",
     "value": "/[]/",
     "regex": {
-      "flags": "",
-      "pattern": "[]"
+      "pattern": "[]",
+      "flags": ""
     },
     "start": 1834,
     "end": 1838
@@ -1815,8 +1815,8 @@
     "type": "RegularExpression",
     "value": "/[^]/",
     "regex": {
-      "flags": "",
-      "pattern": "[^]"
+      "pattern": "[^]",
+      "flags": ""
     },
     "start": 1916,
     "end": 1921
@@ -1939,8 +1939,8 @@
     "type": "RegularExpression",
     "value": "/[.-.]/",
     "regex": {
-      "flags": "",
-      "pattern": "[.-.]"
+      "pattern": "[.-.]",
+      "flags": ""
     },
     "start": 2006,
     "end": 2013
@@ -2051,8 +2051,8 @@
     "type": "RegularExpression",
     "value": "/\\0/",
     "regex": {
-      "flags": "",
-      "pattern": "\\0"
+      "pattern": "\\0",
+      "flags": ""
     },
     "start": 2094,
     "end": 2098
@@ -2163,8 +2163,8 @@
     "type": "RegularExpression",
     "value": "/\\b/",
     "regex": {
-      "flags": "",
-      "pattern": "\\b"
+      "pattern": "\\b",
+      "flags": ""
     },
     "start": 2177,
     "end": 2181
@@ -2275,8 +2275,8 @@
     "type": "RegularExpression",
     "value": "/\\B/",
     "regex": {
-      "flags": "",
-      "pattern": "\\B"
+      "pattern": "\\B",
+      "flags": ""
     },
     "start": 2260,
     "end": 2264
@@ -2387,8 +2387,8 @@
     "type": "RegularExpression",
     "value": "/\\d/",
     "regex": {
-      "flags": "",
-      "pattern": "\\d"
+      "pattern": "\\d",
+      "flags": ""
     },
     "start": 2343,
     "end": 2347
@@ -2499,8 +2499,8 @@
     "type": "RegularExpression",
     "value": "/\\D/",
     "regex": {
-      "flags": "",
-      "pattern": "\\D"
+      "pattern": "\\D",
+      "flags": ""
     },
     "start": 2426,
     "end": 2430
@@ -2623,8 +2623,8 @@
     "type": "RegularExpression",
     "value": "/\\n/",
     "regex": {
-      "flags": "",
-      "pattern": "\\n"
+      "pattern": "\\n",
+      "flags": ""
     },
     "start": 2515,
     "end": 2519
@@ -2735,8 +2735,8 @@
     "type": "RegularExpression",
     "value": "/\\r/",
     "regex": {
-      "flags": "",
-      "pattern": "\\r"
+      "pattern": "\\r",
+      "flags": ""
     },
     "start": 2598,
     "end": 2602
@@ -2847,8 +2847,8 @@
     "type": "RegularExpression",
     "value": "/\\s/",
     "regex": {
-      "flags": "",
-      "pattern": "\\s"
+      "pattern": "\\s",
+      "flags": ""
     },
     "start": 2681,
     "end": 2685
@@ -2959,8 +2959,8 @@
     "type": "RegularExpression",
     "value": "/\\S/",
     "regex": {
-      "flags": "",
-      "pattern": "\\S"
+      "pattern": "\\S",
+      "flags": ""
     },
     "start": 2764,
     "end": 2768
@@ -3083,8 +3083,8 @@
     "type": "RegularExpression",
     "value": "/\\v/",
     "regex": {
-      "flags": "",
-      "pattern": "\\v"
+      "pattern": "\\v",
+      "flags": ""
     },
     "start": 2853,
     "end": 2857
@@ -3195,8 +3195,8 @@
     "type": "RegularExpression",
     "value": "/\\w/",
     "regex": {
-      "flags": "",
-      "pattern": "\\w"
+      "pattern": "\\w",
+      "flags": ""
     },
     "start": 2936,
     "end": 2940
@@ -3319,8 +3319,8 @@
     "type": "RegularExpression",
     "value": "/\\W/",
     "regex": {
-      "flags": "",
-      "pattern": "\\W"
+      "pattern": "\\W",
+      "flags": ""
     },
     "start": 3025,
     "end": 3029
@@ -3431,8 +3431,8 @@
     "type": "RegularExpression",
     "value": "/\\k<x>/",
     "regex": {
-      "flags": "",
-      "pattern": "\\k<x>"
+      "pattern": "\\k<x>",
+      "flags": ""
     },
     "start": 3108,
     "end": 3115
@@ -3543,8 +3543,8 @@
     "type": "RegularExpression",
     "value": "/\\xA0/",
     "regex": {
-      "flags": "",
-      "pattern": "\\xA0"
+      "pattern": "\\xA0",
+      "flags": ""
     },
     "start": 3197,
     "end": 3203
@@ -3655,8 +3655,8 @@
     "type": "RegularExpression",
     "value": "/\\XA0/",
     "regex": {
-      "flags": "",
-      "pattern": "\\XA0"
+      "pattern": "\\XA0",
+      "flags": ""
     },
     "start": 3284,
     "end": 3290
@@ -3767,8 +3767,8 @@
     "type": "RegularExpression",
     "value": "/\\ddd/",
     "regex": {
-      "flags": "",
-      "pattern": "\\ddd"
+      "pattern": "\\ddd",
+      "flags": ""
     },
     "start": 3371,
     "end": 3377
@@ -3879,8 +3879,8 @@
     "type": "RegularExpression",
     "value": "/\\cY/",
     "regex": {
-      "flags": "",
-      "pattern": "\\cY"
+      "pattern": "\\cY",
+      "flags": ""
     },
     "start": 3458,
     "end": 3463
@@ -3991,8 +3991,8 @@
     "type": "RegularExpression",
     "value": "/[\\b]/",
     "regex": {
-      "flags": "",
-      "pattern": "[\\b]"
+      "pattern": "[\\b]",
+      "flags": ""
     },
     "start": 3543,
     "end": 3549
@@ -4103,8 +4103,8 @@
     "type": "RegularExpression",
     "value": "/\\x/",
     "regex": {
-      "flags": "",
-      "pattern": "\\x"
+      "pattern": "\\x",
+      "flags": ""
     },
     "start": 3630,
     "end": 3634
@@ -4227,8 +4227,8 @@
     "type": "RegularExpression",
     "value": "/\\X/",
     "regex": {
-      "flags": "",
-      "pattern": "\\X"
+      "pattern": "\\X",
+      "flags": ""
     },
     "start": 3719,
     "end": 3723

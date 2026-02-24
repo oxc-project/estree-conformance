@@ -189,8 +189,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script=Khudawadi}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script=Khudawadi}+$"
+      "pattern": "^\\p{Script=Khudawadi}+$",
+      "flags": "u"
     },
     "start": 605,
     "end": 631
@@ -247,8 +247,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script=Sind}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script=Sind}+$"
+      "pattern": "^\\p{Script=Sind}+$",
+      "flags": "u"
     },
     "start": 701,
     "end": 722
@@ -305,8 +305,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{sc=Khudawadi}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{sc=Khudawadi}+$"
+      "pattern": "^\\p{sc=Khudawadi}+$",
+      "flags": "u"
     },
     "start": 787,
     "end": 809
@@ -363,8 +363,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{sc=Sind}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{sc=Sind}+$"
+      "pattern": "^\\p{sc=Sind}+$",
+      "flags": "u"
     },
     "start": 875,
     "end": 892
@@ -703,8 +703,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script=Khudawadi}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script=Khudawadi}+$"
+      "pattern": "^\\P{Script=Khudawadi}+$",
+      "flags": "u"
     },
     "start": 1163,
     "end": 1189
@@ -761,8 +761,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script=Sind}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script=Sind}+$"
+      "pattern": "^\\P{Script=Sind}+$",
+      "flags": "u"
     },
     "start": 1262,
     "end": 1283
@@ -819,8 +819,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{sc=Khudawadi}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{sc=Khudawadi}+$"
+      "pattern": "^\\P{sc=Khudawadi}+$",
+      "flags": "u"
     },
     "start": 1351,
     "end": 1373
@@ -877,8 +877,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{sc=Sind}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{sc=Sind}+$"
+      "pattern": "^\\P{sc=Sind}+$",
+      "flags": "u"
     },
     "start": 1442,
     "end": 1459

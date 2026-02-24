@@ -21,8 +21,8 @@
     "type": "RegularExpression",
     "value": "/^a$|^b$|(?-m:^c$)|^d$|^e$/m",
     "regex": {
-      "flags": "m",
-      "pattern": "^a$|^b$|(?-m:^c$)|^d$|^e$"
+      "pattern": "^a$|^b$|(?-m:^c$)|^d$|^e$",
+      "flags": "m"
     },
     "start": 1781,
     "end": 1809
@@ -421,8 +421,8 @@
     "type": "RegularExpression",
     "value": "/(^a$)|(?:^b$)|(?-m:^c$)|(?:^d$)|(^e$)/m",
     "regex": {
-      "flags": "m",
-      "pattern": "(^a$)|(?:^b$)|(?-m:^c$)|(?:^d$)|(^e$)"
+      "pattern": "(^a$)|(?:^b$)|(?-m:^c$)|(?:^d$)|(^e$)",
+      "flags": "m"
     },
     "start": 2196,
     "end": 2236

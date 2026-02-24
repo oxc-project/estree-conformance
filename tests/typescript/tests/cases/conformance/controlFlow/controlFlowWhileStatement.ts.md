@@ -3609,8 +3609,8 @@ __ESTREE_TEST__:TOKENS:
     "type": "RegularExpression",
     "value": "/a/",
     "regex": {
-      "flags": "",
-      "pattern": "a"
+      "pattern": "a",
+      "flags": ""
     },
     "start": 1003,
     "end": 1006
@@ -3967,8 +3967,8 @@ __ESTREE_TEST__:TOKENS:
     "type": "RegularExpression",
     "value": "/a/",
     "regex": {
-      "flags": "",
-      "pattern": "a"
+      "pattern": "a",
+      "flags": ""
     },
     "start": 1320,
     "end": 1323

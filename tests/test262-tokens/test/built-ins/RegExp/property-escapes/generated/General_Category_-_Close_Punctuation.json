@@ -1047,8 +1047,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{General_Category=Close_Punctuation}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{General_Category=Close_Punctuation}+$"
+      "pattern": "^\\p{General_Category=Close_Punctuation}+$",
+      "flags": "u"
     },
     "start": 1649,
     "end": 1693
@@ -1105,8 +1105,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{General_Category=Pe}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{General_Category=Pe}+$"
+      "pattern": "^\\p{General_Category=Pe}+$",
+      "flags": "u"
     },
     "start": 1781,
     "end": 1810
@@ -1163,8 +1163,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{gc=Close_Punctuation}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{gc=Close_Punctuation}+$"
+      "pattern": "^\\p{gc=Close_Punctuation}+$",
+      "flags": "u"
     },
     "start": 1883,
     "end": 1913
@@ -1221,8 +1221,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{gc=Pe}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{gc=Pe}+$"
+      "pattern": "^\\p{gc=Pe}+$",
+      "flags": "u"
     },
     "start": 1987,
     "end": 2002
@@ -1279,8 +1279,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Close_Punctuation}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Close_Punctuation}+$"
+      "pattern": "^\\p{Close_Punctuation}+$",
+      "flags": "u"
     },
     "start": 2061,
     "end": 2088
@@ -1337,8 +1337,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Pe}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Pe}+$"
+      "pattern": "^\\p{Pe}+$",
+      "flags": "u"
     },
     "start": 2159,
     "end": 2171
@@ -3255,8 +3255,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{General_Category=Close_Punctuation}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{General_Category=Close_Punctuation}+$"
+      "pattern": "^\\P{General_Category=Close_Punctuation}+$",
+      "flags": "u"
     },
     "start": 3823,
     "end": 3867
@@ -3313,8 +3313,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{General_Category=Pe}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{General_Category=Pe}+$"
+      "pattern": "^\\P{General_Category=Pe}+$",
+      "flags": "u"
     },
     "start": 3958,
     "end": 3987
@@ -3371,8 +3371,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{gc=Close_Punctuation}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{gc=Close_Punctuation}+$"
+      "pattern": "^\\P{gc=Close_Punctuation}+$",
+      "flags": "u"
     },
     "start": 4063,
     "end": 4093
@@ -3429,8 +3429,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{gc=Pe}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{gc=Pe}+$"
+      "pattern": "^\\P{gc=Pe}+$",
+      "flags": "u"
     },
     "start": 4170,
     "end": 4185
@@ -3487,8 +3487,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Close_Punctuation}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Close_Punctuation}+$"
+      "pattern": "^\\P{Close_Punctuation}+$",
+      "flags": "u"
     },
     "start": 4247,
     "end": 4274
@@ -3545,8 +3545,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Pe}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Pe}+$"
+      "pattern": "^\\P{Pe}+$",
+      "flags": "u"
     },
     "start": 4348,
     "end": 4360

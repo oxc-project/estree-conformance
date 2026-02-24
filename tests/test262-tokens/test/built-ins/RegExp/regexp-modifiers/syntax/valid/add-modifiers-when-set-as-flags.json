@@ -3,8 +3,8 @@
     "type": "RegularExpression",
     "value": "/(?i:)/i",
     "regex": {
-      "flags": "i",
-      "pattern": "(?i:)"
+      "pattern": "(?i:)",
+      "flags": "i"
     },
     "start": 1680,
     "end": 1688
@@ -19,8 +19,8 @@
     "type": "RegularExpression",
     "value": "/(?s:)/s",
     "regex": {
-      "flags": "s",
-      "pattern": "(?s:)"
+      "pattern": "(?s:)",
+      "flags": "s"
     },
     "start": 1690,
     "end": 1698
@@ -35,8 +35,8 @@
     "type": "RegularExpression",
     "value": "/(?m:)/m",
     "regex": {
-      "flags": "m",
-      "pattern": "(?m:)"
+      "pattern": "(?m:)",
+      "flags": "m"
     },
     "start": 1700,
     "end": 1708
@@ -51,8 +51,8 @@
     "type": "RegularExpression",
     "value": "/(?ims:)/ims",
     "regex": {
-      "flags": "ims",
-      "pattern": "(?ims:)"
+      "pattern": "(?ims:)",
+      "flags": "ims"
     },
     "start": 1710,
     "end": 1722

@@ -603,8 +603,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script=Grantha}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script=Grantha}+$"
+      "pattern": "^\\p{Script=Grantha}+$",
+      "flags": "u"
     },
     "start": 919,
     "end": 943
@@ -661,8 +661,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script=Gran}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script=Gran}+$"
+      "pattern": "^\\p{Script=Gran}+$",
+      "flags": "u"
     },
     "start": 1011,
     "end": 1032
@@ -719,8 +719,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{sc=Grantha}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{sc=Grantha}+$"
+      "pattern": "^\\p{sc=Grantha}+$",
+      "flags": "u"
     },
     "start": 1097,
     "end": 1117
@@ -777,8 +777,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{sc=Gran}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{sc=Gran}+$"
+      "pattern": "^\\p{sc=Gran}+$",
+      "flags": "u"
     },
     "start": 1181,
     "end": 1198
@@ -1483,8 +1483,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script=Grantha}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script=Grantha}+$"
+      "pattern": "^\\P{Script=Grantha}+$",
+      "flags": "u"
     },
     "start": 1761,
     "end": 1785
@@ -1541,8 +1541,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script=Gran}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script=Gran}+$"
+      "pattern": "^\\P{Script=Gran}+$",
+      "flags": "u"
     },
     "start": 1856,
     "end": 1877
@@ -1599,8 +1599,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{sc=Grantha}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{sc=Grantha}+$"
+      "pattern": "^\\P{sc=Grantha}+$",
+      "flags": "u"
     },
     "start": 1945,
     "end": 1965
@@ -1657,8 +1657,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{sc=Gran}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{sc=Gran}+$"
+      "pattern": "^\\P{sc=Gran}+$",
+      "flags": "u"
     },
     "start": 2032,
     "end": 2049

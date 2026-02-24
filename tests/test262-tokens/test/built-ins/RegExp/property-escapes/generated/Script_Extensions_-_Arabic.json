@@ -1551,8 +1551,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script_Extensions=Arabic}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script_Extensions=Arabic}+$"
+      "pattern": "^\\p{Script_Extensions=Arabic}+$",
+      "flags": "u"
     },
     "start": 1699,
     "end": 1733
@@ -1609,8 +1609,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script_Extensions=Arab}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script_Extensions=Arab}+$"
+      "pattern": "^\\p{Script_Extensions=Arab}+$",
+      "flags": "u"
     },
     "start": 1811,
     "end": 1843
@@ -1667,8 +1667,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{scx=Arabic}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{scx=Arabic}+$"
+      "pattern": "^\\p{scx=Arabic}+$",
+      "flags": "u"
     },
     "start": 1919,
     "end": 1939
@@ -1725,8 +1725,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{scx=Arab}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{scx=Arab}+$"
+      "pattern": "^\\p{scx=Arab}+$",
+      "flags": "u"
     },
     "start": 2003,
     "end": 2021
@@ -3139,8 +3139,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script_Extensions=Arabic}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script_Extensions=Arabic}+$"
+      "pattern": "^\\P{Script_Extensions=Arabic}+$",
+      "flags": "u"
     },
     "start": 3235,
     "end": 3269
@@ -3197,8 +3197,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script_Extensions=Arab}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script_Extensions=Arab}+$"
+      "pattern": "^\\P{Script_Extensions=Arab}+$",
+      "flags": "u"
     },
     "start": 3350,
     "end": 3382
@@ -3255,8 +3255,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{scx=Arabic}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{scx=Arabic}+$"
+      "pattern": "^\\P{scx=Arabic}+$",
+      "flags": "u"
     },
     "start": 3461,
     "end": 3481
@@ -3313,8 +3313,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{scx=Arab}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{scx=Arab}+$"
+      "pattern": "^\\P{scx=Arab}+$",
+      "flags": "u"
     },
     "start": 3548,
     "end": 3566

@@ -159,8 +159,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script_Extensions=Nushu}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script_Extensions=Nushu}+$"
+      "pattern": "^\\p{Script_Extensions=Nushu}+$",
+      "flags": "u"
     },
     "start": 602,
     "end": 635
@@ -217,8 +217,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script_Extensions=Nshu}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script_Extensions=Nshu}+$"
+      "pattern": "^\\p{Script_Extensions=Nshu}+$",
+      "flags": "u"
     },
     "start": 712,
     "end": 744
@@ -275,8 +275,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{scx=Nushu}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{scx=Nushu}+$"
+      "pattern": "^\\p{scx=Nushu}+$",
+      "flags": "u"
     },
     "start": 820,
     "end": 839
@@ -333,8 +333,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{scx=Nshu}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{scx=Nshu}+$"
+      "pattern": "^\\p{scx=Nshu}+$",
+      "flags": "u"
     },
     "start": 902,
     "end": 920
@@ -673,8 +673,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script_Extensions=Nushu}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script_Extensions=Nushu}+$"
+      "pattern": "^\\P{Script_Extensions=Nushu}+$",
+      "flags": "u"
     },
     "start": 1192,
     "end": 1225
@@ -731,8 +731,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script_Extensions=Nshu}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script_Extensions=Nshu}+$"
+      "pattern": "^\\P{Script_Extensions=Nshu}+$",
+      "flags": "u"
     },
     "start": 1305,
     "end": 1337
@@ -789,8 +789,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{scx=Nushu}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{scx=Nushu}+$"
+      "pattern": "^\\P{scx=Nushu}+$",
+      "flags": "u"
     },
     "start": 1416,
     "end": 1435
@@ -847,8 +847,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{scx=Nshu}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{scx=Nshu}+$"
+      "pattern": "^\\P{scx=Nshu}+$",
+      "flags": "u"
     },
     "start": 1501,
     "end": 1519

@@ -495,8 +495,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script_Extensions=Malayalam}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script_Extensions=Malayalam}+$"
+      "pattern": "^\\p{Script_Extensions=Malayalam}+$",
+      "flags": "u"
     },
     "start": 854,
     "end": 891
@@ -553,8 +553,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script_Extensions=Mlym}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script_Extensions=Mlym}+$"
+      "pattern": "^\\p{Script_Extensions=Mlym}+$",
+      "flags": "u"
     },
     "start": 972,
     "end": 1004
@@ -611,8 +611,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{scx=Malayalam}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{scx=Malayalam}+$"
+      "pattern": "^\\p{scx=Malayalam}+$",
+      "flags": "u"
     },
     "start": 1080,
     "end": 1103
@@ -669,8 +669,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{scx=Mlym}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{scx=Mlym}+$"
+      "pattern": "^\\p{scx=Mlym}+$",
+      "flags": "u"
     },
     "start": 1170,
     "end": 1188
@@ -1267,8 +1267,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script_Extensions=Malayalam}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script_Extensions=Malayalam}+$"
+      "pattern": "^\\P{Script_Extensions=Malayalam}+$",
+      "flags": "u"
     },
     "start": 1674,
     "end": 1711
@@ -1325,8 +1325,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script_Extensions=Mlym}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script_Extensions=Mlym}+$"
+      "pattern": "^\\P{Script_Extensions=Mlym}+$",
+      "flags": "u"
     },
     "start": 1795,
     "end": 1827
@@ -1383,8 +1383,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{scx=Malayalam}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{scx=Malayalam}+$"
+      "pattern": "^\\P{scx=Malayalam}+$",
+      "flags": "u"
     },
     "start": 1906,
     "end": 1929
@@ -1441,8 +1441,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{scx=Mlym}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{scx=Mlym}+$"
+      "pattern": "^\\P{scx=Mlym}+$",
+      "flags": "u"
     },
     "start": 1999,
     "end": 2017

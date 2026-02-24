@@ -51,8 +51,8 @@
     "type": "RegularExpression",
     "value": "/(?<!(^|[ab]))\\w{2}/",
     "regex": {
-      "flags": "",
-      "pattern": "(?<!(^|[ab]))\\w{2}"
+      "pattern": "(?<!(^|[ab]))\\w{2}",
+      "flags": ""
     },
     "start": 1017,
     "end": 1037

@@ -567,8 +567,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script=Bengali}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script=Bengali}+$"
+      "pattern": "^\\p{Script=Bengali}+$",
+      "flags": "u"
     },
     "start": 893,
     "end": 917
@@ -625,8 +625,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script=Beng}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script=Beng}+$"
+      "pattern": "^\\p{Script=Beng}+$",
+      "flags": "u"
     },
     "start": 985,
     "end": 1006
@@ -683,8 +683,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{sc=Bengali}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{sc=Bengali}+$"
+      "pattern": "^\\p{sc=Bengali}+$",
+      "flags": "u"
     },
     "start": 1071,
     "end": 1091
@@ -741,8 +741,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{sc=Beng}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{sc=Beng}+$"
+      "pattern": "^\\p{sc=Beng}+$",
+      "flags": "u"
     },
     "start": 1155,
     "end": 1172
@@ -1411,8 +1411,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script=Bengali}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script=Bengali}+$"
+      "pattern": "^\\P{Script=Bengali}+$",
+      "flags": "u"
     },
     "start": 1709,
     "end": 1733
@@ -1469,8 +1469,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script=Beng}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script=Beng}+$"
+      "pattern": "^\\P{Script=Beng}+$",
+      "flags": "u"
     },
     "start": 1804,
     "end": 1825
@@ -1527,8 +1527,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{sc=Bengali}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{sc=Bengali}+$"
+      "pattern": "^\\P{sc=Bengali}+$",
+      "flags": "u"
     },
     "start": 1893,
     "end": 1913
@@ -1585,8 +1585,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{sc=Beng}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{sc=Beng}+$"
+      "pattern": "^\\P{sc=Beng}+$",
+      "flags": "u"
     },
     "start": 1980,
     "end": 1997

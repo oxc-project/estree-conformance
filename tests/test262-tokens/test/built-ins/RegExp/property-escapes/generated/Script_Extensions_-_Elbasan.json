@@ -171,8 +171,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script_Extensions=Elbasan}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script_Extensions=Elbasan}+$"
+      "pattern": "^\\p{Script_Extensions=Elbasan}+$",
+      "flags": "u"
     },
     "start": 618,
     "end": 653
@@ -229,8 +229,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script_Extensions=Elba}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script_Extensions=Elba}+$"
+      "pattern": "^\\p{Script_Extensions=Elba}+$",
+      "flags": "u"
     },
     "start": 732,
     "end": 764
@@ -287,8 +287,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{scx=Elbasan}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{scx=Elbasan}+$"
+      "pattern": "^\\p{scx=Elbasan}+$",
+      "flags": "u"
     },
     "start": 840,
     "end": 861
@@ -345,8 +345,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{scx=Elba}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{scx=Elba}+$"
+      "pattern": "^\\p{scx=Elba}+$",
+      "flags": "u"
     },
     "start": 926,
     "end": 944
@@ -721,8 +721,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script_Extensions=Elbasan}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script_Extensions=Elbasan}+$"
+      "pattern": "^\\P{Script_Extensions=Elbasan}+$",
+      "flags": "u"
     },
     "start": 1242,
     "end": 1277
@@ -779,8 +779,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script_Extensions=Elba}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script_Extensions=Elba}+$"
+      "pattern": "^\\P{Script_Extensions=Elba}+$",
+      "flags": "u"
     },
     "start": 1359,
     "end": 1391
@@ -837,8 +837,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{scx=Elbasan}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{scx=Elbasan}+$"
+      "pattern": "^\\P{scx=Elbasan}+$",
+      "flags": "u"
     },
     "start": 1470,
     "end": 1491
@@ -895,8 +895,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{scx=Elba}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{scx=Elba}+$"
+      "pattern": "^\\P{scx=Elba}+$",
+      "flags": "u"
     },
     "start": 1559,
     "end": 1577

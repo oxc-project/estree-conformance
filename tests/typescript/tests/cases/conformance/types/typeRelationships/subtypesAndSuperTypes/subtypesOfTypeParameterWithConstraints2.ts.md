@@ -9505,8 +9505,8 @@ __ESTREE_TEST__:TOKENS:
     "type": "RegularExpression",
     "value": "/1/",
     "regex": {
-      "flags": "",
-      "pattern": "1"
+      "pattern": "1",
+      "flags": ""
     },
     "start": 1672,
     "end": 1675
@@ -9575,8 +9575,8 @@ __ESTREE_TEST__:TOKENS:
     "type": "RegularExpression",
     "value": "/1/",
     "regex": {
-      "flags": "",
-      "pattern": "1"
+      "pattern": "1",
+      "flags": ""
     },
     "start": 1711,
     "end": 1714

@@ -579,8 +579,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Default_Ignorable_Code_Point}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Default_Ignorable_Code_Point}+$"
+      "pattern": "^\\p{Default_Ignorable_Code_Point}+$",
+      "flags": "u"
     },
     "start": 937,
     "end": 975
@@ -637,8 +637,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{DI}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{DI}+$"
+      "pattern": "^\\p{DI}+$",
+      "flags": "u"
     },
     "start": 1057,
     "end": 1069
@@ -1517,8 +1517,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Default_Ignorable_Code_Point}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Default_Ignorable_Code_Point}+$"
+      "pattern": "^\\P{Default_Ignorable_Code_Point}+$",
+      "flags": "u"
     },
     "start": 1725,
     "end": 1763
@@ -1575,8 +1575,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{DI}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{DI}+$"
+      "pattern": "^\\P{DI}+$",
+      "flags": "u"
     },
     "start": 1848,
     "end": 1860

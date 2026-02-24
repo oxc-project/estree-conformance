@@ -135,8 +135,8 @@
     "type": "RegularExpression",
     "value": "/(a)/d",
     "regex": {
-      "flags": "d",
-      "pattern": "(a)"
+      "pattern": "(a)",
+      "flags": "d"
     },
     "start": 1408,
     "end": 1414
@@ -307,8 +307,8 @@
     "type": "RegularExpression",
     "value": "/.(a)./d",
     "regex": {
-      "flags": "d",
-      "pattern": ".(a)."
+      "pattern": ".(a).",
+      "flags": "d"
     },
     "start": 1473,
     "end": 1481
@@ -515,8 +515,8 @@
     "type": "RegularExpression",
     "value": "/.(a)(.)/d",
     "regex": {
-      "flags": "d",
-      "pattern": ".(a)(.)"
+      "pattern": ".(a)(.)",
+      "flags": "d"
     },
     "start": 1548,
     "end": 1558
@@ -687,8 +687,8 @@
     "type": "RegularExpression",
     "value": "/.(\\w\\w)/d",
     "regex": {
-      "flags": "d",
-      "pattern": ".(\\w\\w)"
+      "pattern": ".(\\w\\w)",
+      "flags": "d"
     },
     "start": 1617,
     "end": 1627
@@ -859,8 +859,8 @@
     "type": "RegularExpression",
     "value": "/(\\w\\w\\w)/d",
     "regex": {
-      "flags": "d",
-      "pattern": "(\\w\\w\\w)"
+      "pattern": "(\\w\\w\\w)",
+      "flags": "d"
     },
     "start": 1686,
     "end": 1697
@@ -1067,8 +1067,8 @@
     "type": "RegularExpression",
     "value": "/(\\w\\w)(\\w)/d",
     "regex": {
-      "flags": "d",
-      "pattern": "(\\w\\w)(\\w)"
+      "pattern": "(\\w\\w)(\\w)",
+      "flags": "d"
     },
     "start": 1764,
     "end": 1777
@@ -1251,8 +1251,8 @@
     "type": "RegularExpression",
     "value": "/(\\w\\w)(\\W)?/d",
     "regex": {
-      "flags": "d",
-      "pattern": "(\\w\\w)(\\W)?"
+      "pattern": "(\\w\\w)(\\W)?",
+      "flags": "d"
     },
     "start": 1847,
     "end": 1861
@@ -1309,8 +1309,8 @@
     "type": "RegularExpression",
     "value": "/(?<a>.)(?<b>.)(?<c>.)\\k<c>\\k<b>\\k<a>/d",
     "regex": {
-      "flags": "d",
-      "pattern": "(?<a>.)(?<b>.)(?<c>.)\\k<c>\\k<b>\\k<a>"
+      "pattern": "(?<a>.)(?<b>.)(?<c>.)\\k<c>\\k<b>\\k<a>",
+      "flags": "d"
     },
     "start": 1887,
     "end": 1926
@@ -2309,8 +2309,8 @@
     "type": "RegularExpression",
     "value": "/./",
     "regex": {
-      "flags": "",
-      "pattern": "."
+      "pattern": ".",
+      "flags": ""
     },
     "start": 2807,
     "end": 2810
@@ -2439,8 +2439,8 @@
     "type": "RegularExpression",
     "value": "/./",
     "regex": {
-      "flags": "",
-      "pattern": "."
+      "pattern": ".",
+      "flags": ""
     },
     "start": 2940,
     "end": 2943
@@ -2569,8 +2569,8 @@
     "type": "RegularExpression",
     "value": "/./",
     "regex": {
-      "flags": "",
-      "pattern": "."
+      "pattern": ".",
+      "flags": ""
     },
     "start": 3084,
     "end": 3087
@@ -2735,8 +2735,8 @@
     "type": "RegularExpression",
     "value": "/./d",
     "regex": {
-      "flags": "d",
-      "pattern": "."
+      "pattern": ".",
+      "flags": "d"
     },
     "start": 3234,
     "end": 3238
@@ -2889,8 +2889,8 @@
     "type": "RegularExpression",
     "value": "/./d",
     "regex": {
-      "flags": "d",
-      "pattern": "."
+      "pattern": ".",
+      "flags": "d"
     },
     "start": 3363,
     "end": 3367
@@ -3043,8 +3043,8 @@
     "type": "RegularExpression",
     "value": "/./d",
     "regex": {
-      "flags": "d",
-      "pattern": "."
+      "pattern": ".",
+      "flags": "d"
     },
     "start": 3503,
     "end": 3507
@@ -3197,8 +3197,8 @@
     "type": "RegularExpression",
     "value": "/(?<a>.)/d",
     "regex": {
-      "flags": "d",
-      "pattern": "(?<a>.)"
+      "pattern": "(?<a>.)",
+      "flags": "d"
     },
     "start": 3637,
     "end": 3647
@@ -3357,8 +3357,8 @@
     "type": "RegularExpression",
     "value": "/(?<a>.)/d",
     "regex": {
-      "flags": "d",
-      "pattern": "(?<a>.)"
+      "pattern": "(?<a>.)",
+      "flags": "d"
     },
     "start": 3790,
     "end": 3800
@@ -3517,8 +3517,8 @@
     "type": "RegularExpression",
     "value": "/(?<a>.)/d",
     "regex": {
-      "flags": "d",
-      "pattern": "(?<a>.)"
+      "pattern": "(?<a>.)",
+      "flags": "d"
     },
     "start": 3954,
     "end": 3964

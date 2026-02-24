@@ -261,8 +261,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script=New_Tai_Lue}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script=New_Tai_Lue}+$"
+      "pattern": "^\\p{Script=New_Tai_Lue}+$",
+      "flags": "u"
     },
     "start": 659,
     "end": 687
@@ -319,8 +319,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script=Talu}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script=Talu}+$"
+      "pattern": "^\\p{Script=Talu}+$",
+      "flags": "u"
     },
     "start": 759,
     "end": 780
@@ -377,8 +377,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{sc=New_Tai_Lue}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{sc=New_Tai_Lue}+$"
+      "pattern": "^\\p{sc=New_Tai_Lue}+$",
+      "flags": "u"
     },
     "start": 845,
     "end": 869
@@ -435,8 +435,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{sc=Talu}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{sc=Talu}+$"
+      "pattern": "^\\p{sc=Talu}+$",
+      "flags": "u"
     },
     "start": 937,
     "end": 954
@@ -847,8 +847,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script=New_Tai_Lue}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script=New_Tai_Lue}+$"
+      "pattern": "^\\P{Script=New_Tai_Lue}+$",
+      "flags": "u"
     },
     "start": 1277,
     "end": 1305
@@ -905,8 +905,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script=Talu}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script=Talu}+$"
+      "pattern": "^\\P{Script=Talu}+$",
+      "flags": "u"
     },
     "start": 1380,
     "end": 1401
@@ -963,8 +963,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{sc=New_Tai_Lue}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{sc=New_Tai_Lue}+$"
+      "pattern": "^\\P{sc=New_Tai_Lue}+$",
+      "flags": "u"
     },
     "start": 1469,
     "end": 1493
@@ -1021,8 +1021,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{sc=Talu}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{sc=Talu}+$"
+      "pattern": "^\\P{sc=Talu}+$",
+      "flags": "u"
     },
     "start": 1564,
     "end": 1581

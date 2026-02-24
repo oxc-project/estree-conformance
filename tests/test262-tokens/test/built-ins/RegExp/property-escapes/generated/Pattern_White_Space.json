@@ -243,8 +243,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Pattern_White_Space}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Pattern_White_Space}+$"
+      "pattern": "^\\p{Pattern_White_Space}+$",
+      "flags": "u"
     },
     "start": 664,
     "end": 693
@@ -301,8 +301,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Pat_WS}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Pat_WS}+$"
+      "pattern": "^\\p{Pat_WS}+$",
+      "flags": "u"
     },
     "start": 766,
     "end": 782
@@ -749,8 +749,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Pattern_White_Space}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Pattern_White_Space}+$"
+      "pattern": "^\\P{Pattern_White_Space}+$",
+      "flags": "u"
     },
     "start": 1130,
     "end": 1159
@@ -807,8 +807,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Pat_WS}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Pat_WS}+$"
+      "pattern": "^\\P{Pat_WS}+$",
+      "flags": "u"
     },
     "start": 1235,
     "end": 1251

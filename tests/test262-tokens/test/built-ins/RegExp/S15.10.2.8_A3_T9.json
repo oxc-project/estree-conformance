@@ -21,8 +21,8 @@
     "type": "RegularExpression",
     "value": "/(.{2}).+\\1/",
     "regex": {
-      "flags": "",
-      "pattern": "(.{2}).+\\1"
+      "pattern": "(.{2}).+\\1",
+      "flags": ""
     },
     "start": 630,
     "end": 642

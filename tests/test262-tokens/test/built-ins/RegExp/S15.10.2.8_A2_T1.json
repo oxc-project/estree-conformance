@@ -21,8 +21,8 @@
     "type": "RegularExpression",
     "value": "/(.*?)a(?!(a+)b\\2c)\\2(.*)/",
     "regex": {
-      "flags": "",
-      "pattern": "(.*?)a(?!(a+)b\\2c)\\2(.*)"
+      "pattern": "(.*?)a(?!(a+)b\\2c)\\2(.*)",
+      "flags": ""
     },
     "start": 536,
     "end": 562

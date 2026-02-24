@@ -225,8 +225,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script_Extensions=Lepcha}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script_Extensions=Lepcha}+$"
+      "pattern": "^\\p{Script_Extensions=Lepcha}+$",
+      "flags": "u"
     },
     "start": 639,
     "end": 673
@@ -283,8 +283,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script_Extensions=Lepc}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script_Extensions=Lepc}+$"
+      "pattern": "^\\p{Script_Extensions=Lepc}+$",
+      "flags": "u"
     },
     "start": 751,
     "end": 783
@@ -341,8 +341,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{scx=Lepcha}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{scx=Lepcha}+$"
+      "pattern": "^\\p{scx=Lepcha}+$",
+      "flags": "u"
     },
     "start": 859,
     "end": 879
@@ -399,8 +399,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{scx=Lepc}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{scx=Lepc}+$"
+      "pattern": "^\\p{scx=Lepc}+$",
+      "flags": "u"
     },
     "start": 943,
     "end": 961
@@ -775,8 +775,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script_Extensions=Lepcha}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script_Extensions=Lepcha}+$"
+      "pattern": "^\\P{Script_Extensions=Lepcha}+$",
+      "flags": "u"
     },
     "start": 1259,
     "end": 1293
@@ -833,8 +833,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script_Extensions=Lepc}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script_Extensions=Lepc}+$"
+      "pattern": "^\\P{Script_Extensions=Lepc}+$",
+      "flags": "u"
     },
     "start": 1374,
     "end": 1406
@@ -891,8 +891,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{scx=Lepcha}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{scx=Lepcha}+$"
+      "pattern": "^\\P{scx=Lepcha}+$",
+      "flags": "u"
     },
     "start": 1485,
     "end": 1505
@@ -949,8 +949,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{scx=Lepc}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{scx=Lepc}+$"
+      "pattern": "^\\P{scx=Lepc}+$",
+      "flags": "u"
     },
     "start": 1572,
     "end": 1590

@@ -303,8 +303,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script_Extensions=Tai_Le}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script_Extensions=Tai_Le}+$"
+      "pattern": "^\\p{Script_Extensions=Tai_Le}+$",
+      "flags": "u"
     },
     "start": 707,
     "end": 741
@@ -361,8 +361,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script_Extensions=Tale}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script_Extensions=Tale}+$"
+      "pattern": "^\\p{Script_Extensions=Tale}+$",
+      "flags": "u"
     },
     "start": 819,
     "end": 851
@@ -419,8 +419,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{scx=Tai_Le}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{scx=Tai_Le}+$"
+      "pattern": "^\\p{scx=Tai_Le}+$",
+      "flags": "u"
     },
     "start": 927,
     "end": 947
@@ -477,8 +477,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{scx=Tale}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{scx=Tale}+$"
+      "pattern": "^\\p{scx=Tale}+$",
+      "flags": "u"
     },
     "start": 1011,
     "end": 1029
@@ -961,8 +961,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script_Extensions=Tai_Le}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script_Extensions=Tai_Le}+$"
+      "pattern": "^\\P{Script_Extensions=Tai_Le}+$",
+      "flags": "u"
     },
     "start": 1405,
     "end": 1439
@@ -1019,8 +1019,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script_Extensions=Tale}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script_Extensions=Tale}+$"
+      "pattern": "^\\P{Script_Extensions=Tale}+$",
+      "flags": "u"
     },
     "start": 1520,
     "end": 1552
@@ -1077,8 +1077,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{scx=Tai_Le}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{scx=Tai_Le}+$"
+      "pattern": "^\\P{scx=Tai_Le}+$",
+      "flags": "u"
     },
     "start": 1631,
     "end": 1651
@@ -1135,8 +1135,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{scx=Tale}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{scx=Tale}+$"
+      "pattern": "^\\P{scx=Tale}+$",
+      "flags": "u"
     },
     "start": 1718,
     "end": 1736

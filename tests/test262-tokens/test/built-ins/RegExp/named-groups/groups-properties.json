@@ -87,8 +87,8 @@
     "type": "RegularExpression",
     "value": "/(?<fst>.)|(?<snd>.)/u",
     "regex": {
-      "flags": "u",
-      "pattern": "(?<fst>.)|(?<snd>.)"
+      "pattern": "(?<fst>.)|(?<snd>.)",
+      "flags": "u"
     },
     "start": 780,
     "end": 802
@@ -337,8 +337,8 @@
     "type": "RegularExpression",
     "value": "/(?<x>.)/",
     "regex": {
-      "flags": "",
-      "pattern": "(?<x>.)"
+      "pattern": "(?<x>.)",
+      "flags": ""
     },
     "start": 973,
     "end": 982

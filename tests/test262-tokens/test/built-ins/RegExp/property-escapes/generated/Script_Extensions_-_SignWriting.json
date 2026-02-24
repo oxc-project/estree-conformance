@@ -225,8 +225,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script_Extensions=SignWriting}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script_Extensions=SignWriting}+$"
+      "pattern": "^\\p{Script_Extensions=SignWriting}+$",
+      "flags": "u"
     },
     "start": 644,
     "end": 683
@@ -283,8 +283,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script_Extensions=Sgnw}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script_Extensions=Sgnw}+$"
+      "pattern": "^\\p{Script_Extensions=Sgnw}+$",
+      "flags": "u"
     },
     "start": 766,
     "end": 798
@@ -341,8 +341,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{scx=SignWriting}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{scx=SignWriting}+$"
+      "pattern": "^\\p{scx=SignWriting}+$",
+      "flags": "u"
     },
     "start": 874,
     "end": 899
@@ -399,8 +399,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{scx=Sgnw}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{scx=Sgnw}+$"
+      "pattern": "^\\p{scx=Sgnw}+$",
+      "flags": "u"
     },
     "start": 968,
     "end": 986
@@ -745,8 +745,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script_Extensions=SignWriting}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script_Extensions=SignWriting}+$"
+      "pattern": "^\\P{Script_Extensions=SignWriting}+$",
+      "flags": "u"
     },
     "start": 1274,
     "end": 1313
@@ -803,8 +803,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script_Extensions=Sgnw}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script_Extensions=Sgnw}+$"
+      "pattern": "^\\P{Script_Extensions=Sgnw}+$",
+      "flags": "u"
     },
     "start": 1399,
     "end": 1431
@@ -861,8 +861,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{scx=SignWriting}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{scx=SignWriting}+$"
+      "pattern": "^\\P{scx=SignWriting}+$",
+      "flags": "u"
     },
     "start": 1510,
     "end": 1535
@@ -919,8 +919,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{scx=Sgnw}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{scx=Sgnw}+$"
+      "pattern": "^\\P{scx=Sgnw}+$",
+      "flags": "u"
     },
     "start": 1607,
     "end": 1625

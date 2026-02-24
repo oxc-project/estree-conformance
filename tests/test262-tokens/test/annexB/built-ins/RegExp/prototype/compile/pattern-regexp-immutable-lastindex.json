@@ -21,8 +21,8 @@
     "type": "RegularExpression",
     "value": "/initial/",
     "regex": {
-      "flags": "",
-      "pattern": "initial"
+      "pattern": "initial",
+      "flags": ""
     },
     "start": 809,
     "end": 818
@@ -235,8 +235,8 @@
     "type": "RegularExpression",
     "value": "/updated/gi",
     "regex": {
-      "flags": "gi",
-      "pattern": "updated"
+      "pattern": "updated",
+      "flags": "gi"
     },
     "start": 954,
     "end": 965

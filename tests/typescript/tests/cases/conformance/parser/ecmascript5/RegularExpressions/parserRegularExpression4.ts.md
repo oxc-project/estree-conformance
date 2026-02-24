@@ -840,8 +840,8 @@ __ESTREE_TEST__:TOKENS:
     "type": "RegularExpression",
     "value": "/(\\\\?|&)adurl=/",
     "regex": {
-      "flags": "",
-      "pattern": "(\\\\?|&)adurl="
+      "pattern": "(\\\\?|&)adurl=",
+      "flags": ""
     },
     "start": 42,
     "end": 57
@@ -904,8 +904,8 @@ __ESTREE_TEST__:TOKENS:
     "type": "RegularExpression",
     "value": "/(\\\\?|&)q=/",
     "regex": {
-      "flags": "",
-      "pattern": "(\\\\?|&)q="
+      "pattern": "(\\\\?|&)q=",
+      "flags": ""
     },
     "start": 75,
     "end": 86
@@ -962,8 +962,8 @@ __ESTREE_TEST__:TOKENS:
     "type": "RegularExpression",
     "value": "/ (\\\\ ? | & ) rct = j /",
     "regex": {
-      "flags": "",
-      "pattern": " (\\\\ ? | & ) rct = j "
+      "pattern": " (\\\\ ? | & ) rct = j ",
+      "flags": ""
     },
     "start": 101,
     "end": 124
@@ -1056,8 +1056,8 @@ __ESTREE_TEST__:TOKENS:
     "type": "RegularExpression",
     "value": "/(\\\\?|&)q=/",
     "regex": {
-      "flags": "",
-      "pattern": "(\\\\?|&)q="
+      "pattern": "(\\\\?|&)q=",
+      "flags": ""
     },
     "start": 159,
     "end": 170

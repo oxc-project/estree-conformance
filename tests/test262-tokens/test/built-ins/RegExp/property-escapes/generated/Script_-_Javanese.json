@@ -225,8 +225,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script=Javanese}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script=Javanese}+$"
+      "pattern": "^\\p{Script=Javanese}+$",
+      "flags": "u"
     },
     "start": 630,
     "end": 655
@@ -283,8 +283,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script=Java}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script=Java}+$"
+      "pattern": "^\\p{Script=Java}+$",
+      "flags": "u"
     },
     "start": 724,
     "end": 745
@@ -341,8 +341,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{sc=Javanese}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{sc=Javanese}+$"
+      "pattern": "^\\p{sc=Javanese}+$",
+      "flags": "u"
     },
     "start": 810,
     "end": 831
@@ -399,8 +399,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{sc=Java}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{sc=Java}+$"
+      "pattern": "^\\p{sc=Java}+$",
+      "flags": "u"
     },
     "start": 896,
     "end": 913
@@ -775,8 +775,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script=Javanese}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script=Javanese}+$"
+      "pattern": "^\\P{Script=Javanese}+$",
+      "flags": "u"
     },
     "start": 1210,
     "end": 1235
@@ -833,8 +833,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script=Java}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script=Java}+$"
+      "pattern": "^\\P{Script=Java}+$",
+      "flags": "u"
     },
     "start": 1307,
     "end": 1328
@@ -891,8 +891,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{sc=Javanese}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{sc=Javanese}+$"
+      "pattern": "^\\P{sc=Javanese}+$",
+      "flags": "u"
     },
     "start": 1396,
     "end": 1417
@@ -949,8 +949,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{sc=Java}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{sc=Java}+$"
+      "pattern": "^\\P{sc=Java}+$",
+      "flags": "u"
     },
     "start": 1485,
     "end": 1502

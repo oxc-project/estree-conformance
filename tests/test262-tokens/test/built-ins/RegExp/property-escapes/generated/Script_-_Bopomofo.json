@@ -225,8 +225,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script=Bopomofo}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script=Bopomofo}+$"
+      "pattern": "^\\p{Script=Bopomofo}+$",
+      "flags": "u"
     },
     "start": 630,
     "end": 655
@@ -283,8 +283,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script=Bopo}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script=Bopo}+$"
+      "pattern": "^\\p{Script=Bopo}+$",
+      "flags": "u"
     },
     "start": 724,
     "end": 745
@@ -341,8 +341,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{sc=Bopomofo}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{sc=Bopomofo}+$"
+      "pattern": "^\\p{sc=Bopomofo}+$",
+      "flags": "u"
     },
     "start": 810,
     "end": 831
@@ -399,8 +399,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{sc=Bopo}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{sc=Bopo}+$"
+      "pattern": "^\\p{sc=Bopo}+$",
+      "flags": "u"
     },
     "start": 896,
     "end": 913
@@ -775,8 +775,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script=Bopomofo}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script=Bopomofo}+$"
+      "pattern": "^\\P{Script=Bopomofo}+$",
+      "flags": "u"
     },
     "start": 1210,
     "end": 1235
@@ -833,8 +833,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script=Bopo}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script=Bopo}+$"
+      "pattern": "^\\P{Script=Bopo}+$",
+      "flags": "u"
     },
     "start": 1307,
     "end": 1328
@@ -891,8 +891,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{sc=Bopomofo}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{sc=Bopomofo}+$"
+      "pattern": "^\\P{sc=Bopomofo}+$",
+      "flags": "u"
     },
     "start": 1396,
     "end": 1417
@@ -949,8 +949,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{sc=Bopo}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{sc=Bopo}+$"
+      "pattern": "^\\P{sc=Bopo}+$",
+      "flags": "u"
     },
     "start": 1485,
     "end": 1502

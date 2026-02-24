@@ -27,8 +27,8 @@
     "type": "RegularExpression",
     "value": "/(?<=a(.\\2)b(\\1)).{4}/",
     "regex": {
-      "flags": "",
-      "pattern": "(?<=a(.\\2)b(\\1)).{4}"
+      "pattern": "(?<=a(.\\2)b(\\1)).{4}",
+      "flags": ""
     },
     "start": 980,
     "end": 1002
@@ -163,8 +163,8 @@
     "type": "RegularExpression",
     "value": "/(?<=a(\\2)b(..\\1))b/",
     "regex": {
-      "flags": "",
-      "pattern": "(?<=a(\\2)b(..\\1))b"
+      "pattern": "(?<=a(\\2)b(..\\1))b",
+      "flags": ""
     },
     "start": 1067,
     "end": 1087
@@ -299,8 +299,8 @@
     "type": "RegularExpression",
     "value": "/(?<=(?:\\1b)(aa))./",
     "regex": {
-      "flags": "",
-      "pattern": "(?<=(?:\\1b)(aa))."
+      "pattern": "(?<=(?:\\1b)(aa)).",
+      "flags": ""
     },
     "start": 1151,
     "end": 1170
@@ -423,8 +423,8 @@
     "type": "RegularExpression",
     "value": "/(?<=(?:\\1|b)(aa))./",
     "regex": {
-      "flags": "",
-      "pattern": "(?<=(?:\\1|b)(aa))."
+      "pattern": "(?<=(?:\\1|b)(aa)).",
+      "flags": ""
     },
     "start": 1227,
     "end": 1247

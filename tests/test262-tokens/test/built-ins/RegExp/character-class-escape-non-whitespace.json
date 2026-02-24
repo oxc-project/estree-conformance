@@ -693,8 +693,8 @@
     "type": "RegularExpression",
     "value": "/\\S+/g",
     "regex": {
-      "flags": "g",
-      "pattern": "\\S+"
+      "pattern": "\\S+",
+      "flags": "g"
     },
     "start": 909,
     "end": 915

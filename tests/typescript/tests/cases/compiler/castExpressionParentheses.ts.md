@@ -1848,8 +1848,8 @@ __ESTREE_TEST__:TOKENS:
     "type": "RegularExpression",
     "value": "/regexp/g",
     "regex": {
-      "flags": "g",
-      "pattern": "regexp"
+      "pattern": "regexp",
+      "flags": "g"
     },
     "start": 193,
     "end": 202

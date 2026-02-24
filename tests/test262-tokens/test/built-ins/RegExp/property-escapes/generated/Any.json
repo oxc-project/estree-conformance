@@ -225,8 +225,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Any}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Any}+$"
+      "pattern": "^\\p{Any}+$",
+      "flags": "u"
     },
     "start": 618,
     "end": 631
@@ -289,8 +289,8 @@
     "type": "RegularExpression",
     "value": "/\\P{Any}/u",
     "regex": {
-      "flags": "u",
-      "pattern": "\\P{Any}"
+      "pattern": "\\P{Any}",
+      "flags": "u"
     },
     "start": 677,
     "end": 687

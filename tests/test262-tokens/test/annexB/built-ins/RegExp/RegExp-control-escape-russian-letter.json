@@ -507,8 +507,8 @@
     "type": "RegularExpression",
     "value": "/[0-9A-Za-z_\\$(|)\\[\\]\\/\\\\^]/",
     "regex": {
-      "flags": "",
-      "pattern": "[0-9A-Za-z_\\$(|)\\[\\]\\/\\\\^]"
+      "pattern": "[0-9A-Za-z_\\$(|)\\[\\]\\/\\\\^]",
+      "flags": ""
     },
     "start": 862,
     "end": 890

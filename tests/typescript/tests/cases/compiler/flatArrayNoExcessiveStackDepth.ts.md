@@ -1112,8 +1112,8 @@ __ESTREE_TEST__:TOKENS:
     "type": "RegularExpression",
     "value": "/anything/",
     "regex": {
-      "flags": "",
-      "pattern": "anything"
+      "pattern": "anything",
+      "flags": ""
     },
     "start": 318,
     "end": 328

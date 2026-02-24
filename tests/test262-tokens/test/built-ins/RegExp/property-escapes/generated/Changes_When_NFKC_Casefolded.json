@@ -15735,8 +15735,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Changes_When_NFKC_Casefolded}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Changes_When_NFKC_Casefolded}+$"
+      "pattern": "^\\p{Changes_When_NFKC_Casefolded}+$",
+      "flags": "u"
     },
     "start": 15163,
     "end": 15201
@@ -15793,8 +15793,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{CWKCF}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{CWKCF}+$"
+      "pattern": "^\\p{CWKCF}+$",
+      "flags": "u"
     },
     "start": 15283,
     "end": 15298
@@ -31391,8 +31391,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Changes_When_NFKC_Casefolded}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Changes_When_NFKC_Casefolded}+$"
+      "pattern": "^\\P{Changes_When_NFKC_Casefolded}+$",
+      "flags": "u"
     },
     "start": 29969,
     "end": 30007
@@ -31449,8 +31449,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{CWKCF}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{CWKCF}+$"
+      "pattern": "^\\P{CWKCF}+$",
+      "flags": "u"
     },
     "start": 30092,
     "end": 30107

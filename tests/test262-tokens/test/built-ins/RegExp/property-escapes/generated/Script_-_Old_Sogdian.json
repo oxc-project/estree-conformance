@@ -153,8 +153,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script=Old_Sogdian}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script=Old_Sogdian}+$"
+      "pattern": "^\\p{Script=Old_Sogdian}+$",
+      "flags": "u"
     },
     "start": 581,
     "end": 609
@@ -211,8 +211,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script=Sogo}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script=Sogo}+$"
+      "pattern": "^\\p{Script=Sogo}+$",
+      "flags": "u"
     },
     "start": 681,
     "end": 702
@@ -269,8 +269,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{sc=Old_Sogdian}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{sc=Old_Sogdian}+$"
+      "pattern": "^\\p{sc=Old_Sogdian}+$",
+      "flags": "u"
     },
     "start": 767,
     "end": 791
@@ -327,8 +327,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{sc=Sogo}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{sc=Sogo}+$"
+      "pattern": "^\\p{sc=Sogo}+$",
+      "flags": "u"
     },
     "start": 859,
     "end": 876
@@ -631,8 +631,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script=Old_Sogdian}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script=Old_Sogdian}+$"
+      "pattern": "^\\P{Script=Old_Sogdian}+$",
+      "flags": "u"
     },
     "start": 1121,
     "end": 1149
@@ -689,8 +689,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script=Sogo}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script=Sogo}+$"
+      "pattern": "^\\P{Script=Sogo}+$",
+      "flags": "u"
     },
     "start": 1224,
     "end": 1245
@@ -747,8 +747,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{sc=Old_Sogdian}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{sc=Old_Sogdian}+$"
+      "pattern": "^\\P{sc=Old_Sogdian}+$",
+      "flags": "u"
     },
     "start": 1313,
     "end": 1337
@@ -805,8 +805,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{sc=Sogo}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{sc=Sogo}+$"
+      "pattern": "^\\P{sc=Sogo}+$",
+      "flags": "u"
     },
     "start": 1408,
     "end": 1425

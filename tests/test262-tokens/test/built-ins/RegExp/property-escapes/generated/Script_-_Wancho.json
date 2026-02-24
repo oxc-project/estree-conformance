@@ -159,8 +159,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script=Wancho}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script=Wancho}+$"
+      "pattern": "^\\p{Script=Wancho}+$",
+      "flags": "u"
     },
     "start": 592,
     "end": 615
@@ -217,8 +217,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script=Wcho}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script=Wcho}+$"
+      "pattern": "^\\p{Script=Wcho}+$",
+      "flags": "u"
     },
     "start": 682,
     "end": 703
@@ -275,8 +275,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{sc=Wancho}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{sc=Wancho}+$"
+      "pattern": "^\\p{sc=Wancho}+$",
+      "flags": "u"
     },
     "start": 768,
     "end": 787
@@ -333,8 +333,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{sc=Wcho}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{sc=Wcho}+$"
+      "pattern": "^\\p{sc=Wcho}+$",
+      "flags": "u"
     },
     "start": 850,
     "end": 867
@@ -673,8 +673,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script=Wancho}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script=Wancho}+$"
+      "pattern": "^\\P{Script=Wancho}+$",
+      "flags": "u"
     },
     "start": 1138,
     "end": 1161
@@ -731,8 +731,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script=Wcho}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script=Wcho}+$"
+      "pattern": "^\\P{Script=Wcho}+$",
+      "flags": "u"
     },
     "start": 1231,
     "end": 1252
@@ -789,8 +789,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{sc=Wancho}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{sc=Wancho}+$"
+      "pattern": "^\\P{sc=Wancho}+$",
+      "flags": "u"
     },
     "start": 1320,
     "end": 1339
@@ -847,8 +847,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{sc=Wcho}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{sc=Wcho}+$"
+      "pattern": "^\\P{sc=Wcho}+$",
+      "flags": "u"
     },
     "start": 1405,
     "end": 1422
