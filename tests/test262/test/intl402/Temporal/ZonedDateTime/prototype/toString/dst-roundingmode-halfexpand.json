@@ -1,0 +1,394 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "kind": "var",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "zdtNonExistent",
+            "start": 316,
+            "end": 330
+          },
+          "init": {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "CallExpression",
+                "callee": {
+                  "type": "MemberExpression",
+                  "object": {
+                    "type": "MemberExpression",
+                    "object": {
+                      "type": "Identifier",
+                      "name": "Temporal",
+                      "start": 333,
+                      "end": 341
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "name": "PlainDateTime",
+                      "start": 342,
+                      "end": 355
+                    },
+                    "optional": false,
+                    "computed": false,
+                    "start": 333,
+                    "end": 355
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "name": "from",
+                    "start": 356,
+                    "end": 360
+                  },
+                  "optional": false,
+                  "computed": false,
+                  "start": 333,
+                  "end": 360
+                },
+                "arguments": [
+                  {
+                    "type": "Literal",
+                    "value": "2000-04-02T01:59:59.999999999",
+                    "raw": "\"2000-04-02T01:59:59.999999999\"",
+                    "start": 361,
+                    "end": 392
+                  }
+                ],
+                "optional": false,
+                "start": 333,
+                "end": 393
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "toZonedDateTime",
+                "start": 394,
+                "end": 409
+              },
+              "optional": false,
+              "computed": false,
+              "start": 333,
+              "end": 409
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "value": "America/Vancouver",
+                "raw": "\"America/Vancouver\"",
+                "start": 410,
+                "end": 429
+              }
+            ],
+            "optional": false,
+            "start": 333,
+            "end": 430
+          },
+          "start": 316,
+          "end": 430
+        }
+      ],
+      "start": 312,
+      "end": 431
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "var",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "roundedString",
+            "start": 436,
+            "end": 449
+          },
+          "init": {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "zdtNonExistent",
+                "start": 452,
+                "end": 466
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "toString",
+                "start": 467,
+                "end": 475
+              },
+              "optional": false,
+              "computed": false,
+              "start": 452,
+              "end": 475
+            },
+            "arguments": [
+              {
+                "type": "ObjectExpression",
+                "properties": [
+                  {
+                    "type": "Property",
+                    "kind": "init",
+                    "key": {
+                      "type": "Identifier",
+                      "name": "fractionalSecondDigits",
+                      "start": 480,
+                      "end": 502
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "value": 8,
+                      "raw": "8",
+                      "start": 504,
+                      "end": 505
+                    },
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "start": 480,
+                    "end": 505
+                  },
+                  {
+                    "type": "Property",
+                    "kind": "init",
+                    "key": {
+                      "type": "Identifier",
+                      "name": "roundingMode",
+                      "start": 509,
+                      "end": 521
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "value": "halfExpand",
+                      "raw": "\"halfExpand\"",
+                      "start": 523,
+                      "end": 535
+                    },
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "start": 509,
+                    "end": 535
+                  }
+                ],
+                "start": 476,
+                "end": 537
+              }
+            ],
+            "optional": false,
+            "start": 452,
+            "end": 538
+          },
+          "start": 436,
+          "end": 538
+        }
+      ],
+      "start": 432,
+      "end": 539
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 540,
+            "end": 546
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 547,
+            "end": 556
+          },
+          "optional": false,
+          "computed": false,
+          "start": 540,
+          "end": 556
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "name": "roundedString",
+            "start": 557,
+            "end": 570
+          },
+          {
+            "type": "Literal",
+            "value": "2000-04-02T03:00:00.00000000-07:00[America/Vancouver]",
+            "raw": "\"2000-04-02T03:00:00.00000000-07:00[America/Vancouver]\"",
+            "start": 572,
+            "end": 627
+          }
+        ],
+        "optional": false,
+        "start": 540,
+        "end": 628
+      },
+      "start": 540,
+      "end": 629
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "var",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "instant",
+            "start": 634,
+            "end": 641
+          },
+          "init": {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "Temporal",
+                  "start": 644,
+                  "end": 652
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "Instant",
+                  "start": 653,
+                  "end": 660
+                },
+                "optional": false,
+                "computed": false,
+                "start": 644,
+                "end": 660
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "from",
+                "start": 661,
+                "end": 665
+              },
+              "optional": false,
+              "computed": false,
+              "start": 644,
+              "end": 665
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "name": "roundedString",
+                "start": 666,
+                "end": 679
+              }
+            ],
+            "optional": false,
+            "start": 644,
+            "end": 680
+          },
+          "start": 634,
+          "end": 680
+        }
+      ],
+      "start": 630,
+      "end": 681
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 682,
+            "end": 688
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 689,
+            "end": 698
+          },
+          "optional": false,
+          "computed": false,
+          "start": 682,
+          "end": 698
+        },
+        "arguments": [
+          {
+            "type": "BinaryExpression",
+            "left": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "instant",
+                "start": 699,
+                "end": 706
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "epochNanoseconds",
+                "start": 707,
+                "end": 723
+              },
+              "optional": false,
+              "computed": false,
+              "start": 699,
+              "end": 723
+            },
+            "operator": "-",
+            "right": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "zdtNonExistent",
+                "start": 726,
+                "end": 740
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "epochNanoseconds",
+                "start": 741,
+                "end": 757
+              },
+              "optional": false,
+              "computed": false,
+              "start": 726,
+              "end": 757
+            },
+            "start": 699,
+            "end": 757
+          },
+          {
+            "type": "Literal",
+            "value": null,
+            "raw": "1n",
+            "bigint": "1",
+            "start": 759,
+            "end": 761
+          }
+        ],
+        "optional": false,
+        "start": 682,
+        "end": 762
+      },
+      "start": 682,
+      "end": 763
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 764
+}

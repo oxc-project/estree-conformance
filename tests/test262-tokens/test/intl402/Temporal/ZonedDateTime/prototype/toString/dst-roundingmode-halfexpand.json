@@ -1,0 +1,428 @@
+[
+  {
+    "type": "Keyword",
+    "value": "var",
+    "start": 312,
+    "end": 315
+  },
+  {
+    "type": "Identifier",
+    "value": "zdtNonExistent",
+    "start": 316,
+    "end": 330
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 331,
+    "end": 332
+  },
+  {
+    "type": "Identifier",
+    "value": "Temporal",
+    "start": 333,
+    "end": 341
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 341,
+    "end": 342
+  },
+  {
+    "type": "Identifier",
+    "value": "PlainDateTime",
+    "start": 342,
+    "end": 355
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 355,
+    "end": 356
+  },
+  {
+    "type": "Identifier",
+    "value": "from",
+    "start": 356,
+    "end": 360
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 360,
+    "end": 361
+  },
+  {
+    "type": "String",
+    "value": "\"2000-04-02T01:59:59.999999999\"",
+    "start": 361,
+    "end": 392
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 392,
+    "end": 393
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 393,
+    "end": 394
+  },
+  {
+    "type": "Identifier",
+    "value": "toZonedDateTime",
+    "start": 394,
+    "end": 409
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 409,
+    "end": 410
+  },
+  {
+    "type": "String",
+    "value": "\"America/Vancouver\"",
+    "start": 410,
+    "end": 429
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 429,
+    "end": 430
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 430,
+    "end": 431
+  },
+  {
+    "type": "Keyword",
+    "value": "var",
+    "start": 432,
+    "end": 435
+  },
+  {
+    "type": "Identifier",
+    "value": "roundedString",
+    "start": 436,
+    "end": 449
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 450,
+    "end": 451
+  },
+  {
+    "type": "Identifier",
+    "value": "zdtNonExistent",
+    "start": 452,
+    "end": 466
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 466,
+    "end": 467
+  },
+  {
+    "type": "Identifier",
+    "value": "toString",
+    "start": 467,
+    "end": 475
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 475,
+    "end": 476
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 476,
+    "end": 477
+  },
+  {
+    "type": "Identifier",
+    "value": "fractionalSecondDigits",
+    "start": 480,
+    "end": 502
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 502,
+    "end": 503
+  },
+  {
+    "type": "Numeric",
+    "value": "8",
+    "start": 504,
+    "end": 505
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 505,
+    "end": 506
+  },
+  {
+    "type": "Identifier",
+    "value": "roundingMode",
+    "start": 509,
+    "end": 521
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 521,
+    "end": 522
+  },
+  {
+    "type": "String",
+    "value": "\"halfExpand\"",
+    "start": 523,
+    "end": 535
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 536,
+    "end": 537
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 537,
+    "end": 538
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 538,
+    "end": 539
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 540,
+    "end": 546
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 546,
+    "end": 547
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 547,
+    "end": 556
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 556,
+    "end": 557
+  },
+  {
+    "type": "Identifier",
+    "value": "roundedString",
+    "start": 557,
+    "end": 570
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 570,
+    "end": 571
+  },
+  {
+    "type": "String",
+    "value": "\"2000-04-02T03:00:00.00000000-07:00[America/Vancouver]\"",
+    "start": 572,
+    "end": 627
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 627,
+    "end": 628
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 628,
+    "end": 629
+  },
+  {
+    "type": "Keyword",
+    "value": "var",
+    "start": 630,
+    "end": 633
+  },
+  {
+    "type": "Identifier",
+    "value": "instant",
+    "start": 634,
+    "end": 641
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 642,
+    "end": 643
+  },
+  {
+    "type": "Identifier",
+    "value": "Temporal",
+    "start": 644,
+    "end": 652
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 652,
+    "end": 653
+  },
+  {
+    "type": "Identifier",
+    "value": "Instant",
+    "start": 653,
+    "end": 660
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 660,
+    "end": 661
+  },
+  {
+    "type": "Identifier",
+    "value": "from",
+    "start": 661,
+    "end": 665
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 665,
+    "end": 666
+  },
+  {
+    "type": "Identifier",
+    "value": "roundedString",
+    "start": 666,
+    "end": 679
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 679,
+    "end": 680
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 680,
+    "end": 681
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 682,
+    "end": 688
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 688,
+    "end": 689
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 689,
+    "end": 698
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 698,
+    "end": 699
+  },
+  {
+    "type": "Identifier",
+    "value": "instant",
+    "start": 699,
+    "end": 706
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 706,
+    "end": 707
+  },
+  {
+    "type": "Identifier",
+    "value": "epochNanoseconds",
+    "start": 707,
+    "end": 723
+  },
+  {
+    "type": "Punctuator",
+    "value": "-",
+    "start": 724,
+    "end": 725
+  },
+  {
+    "type": "Identifier",
+    "value": "zdtNonExistent",
+    "start": 726,
+    "end": 740
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 740,
+    "end": 741
+  },
+  {
+    "type": "Identifier",
+    "value": "epochNanoseconds",
+    "start": 741,
+    "end": 757
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 757,
+    "end": 758
+  },
+  {
+    "type": "Numeric",
+    "value": "1n",
+    "start": 759,
+    "end": 761
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 761,
+    "end": 762
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 762,
+    "end": 763
+  }
+]

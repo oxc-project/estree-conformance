@@ -1,0 +1,1844 @@
+[
+  {
+    "type": "Keyword",
+    "value": "function",
+    "start": 1371,
+    "end": 1379
+  },
+  {
+    "type": "Identifier",
+    "value": "findPart",
+    "start": 1380,
+    "end": 1388
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1388,
+    "end": 1389
+  },
+  {
+    "type": "Identifier",
+    "value": "parts",
+    "start": 1389,
+    "end": 1394
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1394,
+    "end": 1395
+  },
+  {
+    "type": "Identifier",
+    "value": "expectedType",
+    "start": 1396,
+    "end": 1408
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1408,
+    "end": 1409
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 1410,
+    "end": 1411
+  },
+  {
+    "type": "Keyword",
+    "value": "return",
+    "start": 1414,
+    "end": 1420
+  },
+  {
+    "type": "Identifier",
+    "value": "parts",
+    "start": 1421,
+    "end": 1426
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1426,
+    "end": 1427
+  },
+  {
+    "type": "Identifier",
+    "value": "find",
+    "start": 1427,
+    "end": 1431
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1431,
+    "end": 1432
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1432,
+    "end": 1433
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 1433,
+    "end": 1434
+  },
+  {
+    "type": "Identifier",
+    "value": "type",
+    "start": 1435,
+    "end": 1439
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 1440,
+    "end": 1441
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1441,
+    "end": 1442
+  },
+  {
+    "type": "Punctuator",
+    "value": "=>",
+    "start": 1443,
+    "end": 1445
+  },
+  {
+    "type": "Identifier",
+    "value": "type",
+    "start": 1446,
+    "end": 1450
+  },
+  {
+    "type": "Punctuator",
+    "value": "===",
+    "start": 1451,
+    "end": 1454
+  },
+  {
+    "type": "Identifier",
+    "value": "expectedType",
+    "start": 1455,
+    "end": 1467
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1467,
+    "end": 1468
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1468,
+    "end": 1469
+  },
+  {
+    "type": "Identifier",
+    "value": "value",
+    "start": 1469,
+    "end": 1474
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1474,
+    "end": 1475
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 1476,
+    "end": 1477
+  },
+  {
+    "type": "Keyword",
+    "value": "const",
+    "start": 1479,
+    "end": 1484
+  },
+  {
+    "type": "Identifier",
+    "value": "date",
+    "start": 1485,
+    "end": 1489
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 1490,
+    "end": 1491
+  },
+  {
+    "type": "Identifier",
+    "value": "Temporal",
+    "start": 1492,
+    "end": 1500
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1500,
+    "end": 1501
+  },
+  {
+    "type": "Identifier",
+    "value": "PlainDate",
+    "start": 1501,
+    "end": 1510
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1510,
+    "end": 1511
+  },
+  {
+    "type": "Identifier",
+    "value": "from",
+    "start": 1511,
+    "end": 1515
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1515,
+    "end": 1516
+  },
+  {
+    "type": "String",
+    "value": "\"1976-11-18T15:23:30\"",
+    "start": 1516,
+    "end": 1537
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1537,
+    "end": 1538
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1538,
+    "end": 1539
+  },
+  {
+    "type": "Keyword",
+    "value": "const",
+    "start": 1541,
+    "end": 1546
+  },
+  {
+    "type": "Identifier",
+    "value": "dtfNY",
+    "start": 1547,
+    "end": 1552
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 1553,
+    "end": 1554
+  },
+  {
+    "type": "Keyword",
+    "value": "new",
+    "start": 1555,
+    "end": 1558
+  },
+  {
+    "type": "Identifier",
+    "value": "Intl",
+    "start": 1559,
+    "end": 1563
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1563,
+    "end": 1564
+  },
+  {
+    "type": "Identifier",
+    "value": "DateTimeFormat",
+    "start": 1564,
+    "end": 1578
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1578,
+    "end": 1579
+  },
+  {
+    "type": "String",
+    "value": "\"en-US\"",
+    "start": 1579,
+    "end": 1586
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1586,
+    "end": 1587
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 1588,
+    "end": 1589
+  },
+  {
+    "type": "Identifier",
+    "value": "timeZone",
+    "start": 1590,
+    "end": 1598
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 1598,
+    "end": 1599
+  },
+  {
+    "type": "String",
+    "value": "\"America/New_York\"",
+    "start": 1600,
+    "end": 1618
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 1619,
+    "end": 1620
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1620,
+    "end": 1621
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1621,
+    "end": 1622
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 1623,
+    "end": 1629
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1629,
+    "end": 1630
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 1630,
+    "end": 1639
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1639,
+    "end": 1640
+  },
+  {
+    "type": "Identifier",
+    "value": "date",
+    "start": 1643,
+    "end": 1647
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1647,
+    "end": 1648
+  },
+  {
+    "type": "Identifier",
+    "value": "toLocaleString",
+    "start": 1648,
+    "end": 1662
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1662,
+    "end": 1663
+  },
+  {
+    "type": "String",
+    "value": "\"en-US\"",
+    "start": 1663,
+    "end": 1670
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1670,
+    "end": 1671
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 1672,
+    "end": 1673
+  },
+  {
+    "type": "Identifier",
+    "value": "timeZone",
+    "start": 1674,
+    "end": 1682
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 1682,
+    "end": 1683
+  },
+  {
+    "type": "String",
+    "value": "\"America/New_York\"",
+    "start": 1684,
+    "end": 1702
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 1703,
+    "end": 1704
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1704,
+    "end": 1705
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1705,
+    "end": 1706
+  },
+  {
+    "type": "Identifier",
+    "value": "dtfNY",
+    "start": 1709,
+    "end": 1714
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1714,
+    "end": 1715
+  },
+  {
+    "type": "Identifier",
+    "value": "format",
+    "start": 1715,
+    "end": 1721
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1721,
+    "end": 1722
+  },
+  {
+    "type": "Identifier",
+    "value": "date",
+    "start": 1722,
+    "end": 1726
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1726,
+    "end": 1727
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1728,
+    "end": 1729
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1729,
+    "end": 1730
+  },
+  {
+    "type": "Keyword",
+    "value": "const",
+    "start": 1732,
+    "end": 1737
+  },
+  {
+    "type": "Identifier",
+    "value": "partsNY",
+    "start": 1738,
+    "end": 1745
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 1746,
+    "end": 1747
+  },
+  {
+    "type": "Identifier",
+    "value": "dtfNY",
+    "start": 1748,
+    "end": 1753
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1753,
+    "end": 1754
+  },
+  {
+    "type": "Identifier",
+    "value": "formatToParts",
+    "start": 1754,
+    "end": 1767
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1767,
+    "end": 1768
+  },
+  {
+    "type": "Identifier",
+    "value": "date",
+    "start": 1768,
+    "end": 1772
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1772,
+    "end": 1773
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1773,
+    "end": 1774
+  },
+  {
+    "type": "Keyword",
+    "value": "const",
+    "start": 1775,
+    "end": 1780
+  },
+  {
+    "type": "Identifier",
+    "value": "yearPartNY",
+    "start": 1781,
+    "end": 1791
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 1792,
+    "end": 1793
+  },
+  {
+    "type": "Identifier",
+    "value": "findPart",
+    "start": 1794,
+    "end": 1802
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1802,
+    "end": 1803
+  },
+  {
+    "type": "Identifier",
+    "value": "partsNY",
+    "start": 1803,
+    "end": 1810
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1810,
+    "end": 1811
+  },
+  {
+    "type": "String",
+    "value": "\"year\"",
+    "start": 1812,
+    "end": 1818
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1818,
+    "end": 1819
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1819,
+    "end": 1820
+  },
+  {
+    "type": "Keyword",
+    "value": "const",
+    "start": 1821,
+    "end": 1826
+  },
+  {
+    "type": "Identifier",
+    "value": "monthPartNY",
+    "start": 1827,
+    "end": 1838
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 1839,
+    "end": 1840
+  },
+  {
+    "type": "Identifier",
+    "value": "findPart",
+    "start": 1841,
+    "end": 1849
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1849,
+    "end": 1850
+  },
+  {
+    "type": "Identifier",
+    "value": "partsNY",
+    "start": 1850,
+    "end": 1857
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1857,
+    "end": 1858
+  },
+  {
+    "type": "String",
+    "value": "\"month\"",
+    "start": 1859,
+    "end": 1866
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1866,
+    "end": 1867
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1867,
+    "end": 1868
+  },
+  {
+    "type": "Keyword",
+    "value": "const",
+    "start": 1869,
+    "end": 1874
+  },
+  {
+    "type": "Identifier",
+    "value": "dayPartNY",
+    "start": 1875,
+    "end": 1884
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 1885,
+    "end": 1886
+  },
+  {
+    "type": "Identifier",
+    "value": "findPart",
+    "start": 1887,
+    "end": 1895
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1895,
+    "end": 1896
+  },
+  {
+    "type": "Identifier",
+    "value": "partsNY",
+    "start": 1896,
+    "end": 1903
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1903,
+    "end": 1904
+  },
+  {
+    "type": "String",
+    "value": "\"day\"",
+    "start": 1905,
+    "end": 1910
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1910,
+    "end": 1911
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1911,
+    "end": 1912
+  },
+  {
+    "type": "Keyword",
+    "value": "const",
+    "start": 1913,
+    "end": 1918
+  },
+  {
+    "type": "Identifier",
+    "value": "resultNY",
+    "start": 1919,
+    "end": 1927
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 1928,
+    "end": 1929
+  },
+  {
+    "type": "Identifier",
+    "value": "date",
+    "start": 1930,
+    "end": 1934
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1934,
+    "end": 1935
+  },
+  {
+    "type": "Identifier",
+    "value": "toLocaleString",
+    "start": 1935,
+    "end": 1949
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1949,
+    "end": 1950
+  },
+  {
+    "type": "String",
+    "value": "\"en-US\"",
+    "start": 1950,
+    "end": 1957
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1957,
+    "end": 1958
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 1959,
+    "end": 1960
+  },
+  {
+    "type": "Identifier",
+    "value": "timeZone",
+    "start": 1961,
+    "end": 1969
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 1969,
+    "end": 1970
+  },
+  {
+    "type": "String",
+    "value": "\"America/New_York\"",
+    "start": 1971,
+    "end": 1989
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 1990,
+    "end": 1991
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1991,
+    "end": 1992
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1992,
+    "end": 1993
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 1994,
+    "end": 2000
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 2000,
+    "end": 2001
+  },
+  {
+    "type": "Identifier",
+    "value": "resultNY",
+    "start": 2001,
+    "end": 2009
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 2009,
+    "end": 2010
+  },
+  {
+    "type": "Identifier",
+    "value": "includes",
+    "start": 2010,
+    "end": 2018
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 2018,
+    "end": 2019
+  },
+  {
+    "type": "Identifier",
+    "value": "yearPartNY",
+    "start": 2019,
+    "end": 2029
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 2029,
+    "end": 2030
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2030,
+    "end": 2031
+  },
+  {
+    "type": "String",
+    "value": "\"en-US locale string has a year part\"",
+    "start": 2032,
+    "end": 2069
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 2069,
+    "end": 2070
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 2070,
+    "end": 2071
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 2072,
+    "end": 2078
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 2078,
+    "end": 2079
+  },
+  {
+    "type": "Identifier",
+    "value": "resultNY",
+    "start": 2079,
+    "end": 2087
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 2087,
+    "end": 2088
+  },
+  {
+    "type": "Identifier",
+    "value": "includes",
+    "start": 2088,
+    "end": 2096
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 2096,
+    "end": 2097
+  },
+  {
+    "type": "Identifier",
+    "value": "monthPartNY",
+    "start": 2097,
+    "end": 2108
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 2108,
+    "end": 2109
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2109,
+    "end": 2110
+  },
+  {
+    "type": "String",
+    "value": "\"en-US locale string has a month part\"",
+    "start": 2111,
+    "end": 2149
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 2149,
+    "end": 2150
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 2150,
+    "end": 2151
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 2152,
+    "end": 2158
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 2158,
+    "end": 2159
+  },
+  {
+    "type": "Identifier",
+    "value": "resultNY",
+    "start": 2159,
+    "end": 2167
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 2167,
+    "end": 2168
+  },
+  {
+    "type": "Identifier",
+    "value": "includes",
+    "start": 2168,
+    "end": 2176
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 2176,
+    "end": 2177
+  },
+  {
+    "type": "Identifier",
+    "value": "dayPartNY",
+    "start": 2177,
+    "end": 2186
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 2186,
+    "end": 2187
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2187,
+    "end": 2188
+  },
+  {
+    "type": "String",
+    "value": "\"en-US locale string has a day part\"",
+    "start": 2189,
+    "end": 2225
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 2225,
+    "end": 2226
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 2226,
+    "end": 2227
+  },
+  {
+    "type": "Keyword",
+    "value": "const",
+    "start": 2229,
+    "end": 2234
+  },
+  {
+    "type": "Identifier",
+    "value": "dtfVienna",
+    "start": 2235,
+    "end": 2244
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 2245,
+    "end": 2246
+  },
+  {
+    "type": "Keyword",
+    "value": "new",
+    "start": 2247,
+    "end": 2250
+  },
+  {
+    "type": "Identifier",
+    "value": "Intl",
+    "start": 2251,
+    "end": 2255
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 2255,
+    "end": 2256
+  },
+  {
+    "type": "Identifier",
+    "value": "DateTimeFormat",
+    "start": 2256,
+    "end": 2270
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 2270,
+    "end": 2271
+  },
+  {
+    "type": "String",
+    "value": "\"de-AT\"",
+    "start": 2271,
+    "end": 2278
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2278,
+    "end": 2279
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 2280,
+    "end": 2281
+  },
+  {
+    "type": "Identifier",
+    "value": "timeZone",
+    "start": 2282,
+    "end": 2290
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 2290,
+    "end": 2291
+  },
+  {
+    "type": "String",
+    "value": "\"Europe/Vienna\"",
+    "start": 2292,
+    "end": 2307
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 2308,
+    "end": 2309
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 2309,
+    "end": 2310
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 2310,
+    "end": 2311
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 2312,
+    "end": 2318
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 2318,
+    "end": 2319
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 2319,
+    "end": 2328
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 2328,
+    "end": 2329
+  },
+  {
+    "type": "Identifier",
+    "value": "date",
+    "start": 2332,
+    "end": 2336
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 2336,
+    "end": 2337
+  },
+  {
+    "type": "Identifier",
+    "value": "toLocaleString",
+    "start": 2337,
+    "end": 2351
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 2351,
+    "end": 2352
+  },
+  {
+    "type": "String",
+    "value": "\"de-AT\"",
+    "start": 2352,
+    "end": 2359
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2359,
+    "end": 2360
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 2361,
+    "end": 2362
+  },
+  {
+    "type": "Identifier",
+    "value": "timeZone",
+    "start": 2363,
+    "end": 2371
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 2371,
+    "end": 2372
+  },
+  {
+    "type": "String",
+    "value": "\"Europe/Vienna\"",
+    "start": 2373,
+    "end": 2388
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 2389,
+    "end": 2390
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 2390,
+    "end": 2391
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2391,
+    "end": 2392
+  },
+  {
+    "type": "Identifier",
+    "value": "dtfVienna",
+    "start": 2395,
+    "end": 2404
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 2404,
+    "end": 2405
+  },
+  {
+    "type": "Identifier",
+    "value": "format",
+    "start": 2405,
+    "end": 2411
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 2411,
+    "end": 2412
+  },
+  {
+    "type": "Identifier",
+    "value": "date",
+    "start": 2412,
+    "end": 2416
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 2416,
+    "end": 2417
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 2418,
+    "end": 2419
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 2419,
+    "end": 2420
+  },
+  {
+    "type": "Keyword",
+    "value": "const",
+    "start": 2422,
+    "end": 2427
+  },
+  {
+    "type": "Identifier",
+    "value": "partsVienna",
+    "start": 2428,
+    "end": 2439
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 2440,
+    "end": 2441
+  },
+  {
+    "type": "Identifier",
+    "value": "dtfVienna",
+    "start": 2442,
+    "end": 2451
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 2451,
+    "end": 2452
+  },
+  {
+    "type": "Identifier",
+    "value": "formatToParts",
+    "start": 2452,
+    "end": 2465
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 2465,
+    "end": 2466
+  },
+  {
+    "type": "Identifier",
+    "value": "date",
+    "start": 2466,
+    "end": 2470
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 2470,
+    "end": 2471
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 2471,
+    "end": 2472
+  },
+  {
+    "type": "Keyword",
+    "value": "const",
+    "start": 2473,
+    "end": 2478
+  },
+  {
+    "type": "Identifier",
+    "value": "yearPartVienna",
+    "start": 2479,
+    "end": 2493
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 2494,
+    "end": 2495
+  },
+  {
+    "type": "Identifier",
+    "value": "findPart",
+    "start": 2496,
+    "end": 2504
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 2504,
+    "end": 2505
+  },
+  {
+    "type": "Identifier",
+    "value": "partsVienna",
+    "start": 2505,
+    "end": 2516
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2516,
+    "end": 2517
+  },
+  {
+    "type": "String",
+    "value": "\"year\"",
+    "start": 2518,
+    "end": 2524
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 2524,
+    "end": 2525
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 2525,
+    "end": 2526
+  },
+  {
+    "type": "Keyword",
+    "value": "const",
+    "start": 2527,
+    "end": 2532
+  },
+  {
+    "type": "Identifier",
+    "value": "monthPartVienna",
+    "start": 2533,
+    "end": 2548
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 2549,
+    "end": 2550
+  },
+  {
+    "type": "Identifier",
+    "value": "findPart",
+    "start": 2551,
+    "end": 2559
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 2559,
+    "end": 2560
+  },
+  {
+    "type": "Identifier",
+    "value": "partsVienna",
+    "start": 2560,
+    "end": 2571
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2571,
+    "end": 2572
+  },
+  {
+    "type": "String",
+    "value": "\"month\"",
+    "start": 2573,
+    "end": 2580
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 2580,
+    "end": 2581
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 2581,
+    "end": 2582
+  },
+  {
+    "type": "Keyword",
+    "value": "const",
+    "start": 2583,
+    "end": 2588
+  },
+  {
+    "type": "Identifier",
+    "value": "dayPartVienna",
+    "start": 2589,
+    "end": 2602
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 2603,
+    "end": 2604
+  },
+  {
+    "type": "Identifier",
+    "value": "findPart",
+    "start": 2605,
+    "end": 2613
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 2613,
+    "end": 2614
+  },
+  {
+    "type": "Identifier",
+    "value": "partsVienna",
+    "start": 2614,
+    "end": 2625
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2625,
+    "end": 2626
+  },
+  {
+    "type": "String",
+    "value": "\"day\"",
+    "start": 2627,
+    "end": 2632
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 2632,
+    "end": 2633
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 2633,
+    "end": 2634
+  },
+  {
+    "type": "Keyword",
+    "value": "const",
+    "start": 2635,
+    "end": 2640
+  },
+  {
+    "type": "Identifier",
+    "value": "resultVienna",
+    "start": 2641,
+    "end": 2653
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 2654,
+    "end": 2655
+  },
+  {
+    "type": "Identifier",
+    "value": "date",
+    "start": 2656,
+    "end": 2660
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 2660,
+    "end": 2661
+  },
+  {
+    "type": "Identifier",
+    "value": "toLocaleString",
+    "start": 2661,
+    "end": 2675
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 2675,
+    "end": 2676
+  },
+  {
+    "type": "String",
+    "value": "\"de-AT\"",
+    "start": 2676,
+    "end": 2683
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2683,
+    "end": 2684
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 2685,
+    "end": 2686
+  },
+  {
+    "type": "Identifier",
+    "value": "timeZone",
+    "start": 2687,
+    "end": 2695
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 2695,
+    "end": 2696
+  },
+  {
+    "type": "String",
+    "value": "\"Europe/Vienna\"",
+    "start": 2697,
+    "end": 2712
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 2713,
+    "end": 2714
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 2714,
+    "end": 2715
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 2715,
+    "end": 2716
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 2717,
+    "end": 2723
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 2723,
+    "end": 2724
+  },
+  {
+    "type": "Identifier",
+    "value": "resultVienna",
+    "start": 2724,
+    "end": 2736
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 2736,
+    "end": 2737
+  },
+  {
+    "type": "Identifier",
+    "value": "includes",
+    "start": 2737,
+    "end": 2745
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 2745,
+    "end": 2746
+  },
+  {
+    "type": "Identifier",
+    "value": "yearPartVienna",
+    "start": 2746,
+    "end": 2760
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 2760,
+    "end": 2761
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2761,
+    "end": 2762
+  },
+  {
+    "type": "String",
+    "value": "\"de-AT locale string has a year part\"",
+    "start": 2763,
+    "end": 2800
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 2800,
+    "end": 2801
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 2801,
+    "end": 2802
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 2803,
+    "end": 2809
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 2809,
+    "end": 2810
+  },
+  {
+    "type": "Identifier",
+    "value": "resultVienna",
+    "start": 2810,
+    "end": 2822
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 2822,
+    "end": 2823
+  },
+  {
+    "type": "Identifier",
+    "value": "includes",
+    "start": 2823,
+    "end": 2831
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 2831,
+    "end": 2832
+  },
+  {
+    "type": "Identifier",
+    "value": "monthPartVienna",
+    "start": 2832,
+    "end": 2847
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 2847,
+    "end": 2848
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2848,
+    "end": 2849
+  },
+  {
+    "type": "String",
+    "value": "\"de-AT locale string has a month part\"",
+    "start": 2850,
+    "end": 2888
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 2888,
+    "end": 2889
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 2889,
+    "end": 2890
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 2891,
+    "end": 2897
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 2897,
+    "end": 2898
+  },
+  {
+    "type": "Identifier",
+    "value": "resultVienna",
+    "start": 2898,
+    "end": 2910
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 2910,
+    "end": 2911
+  },
+  {
+    "type": "Identifier",
+    "value": "includes",
+    "start": 2911,
+    "end": 2919
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 2919,
+    "end": 2920
+  },
+  {
+    "type": "Identifier",
+    "value": "dayPartVienna",
+    "start": 2920,
+    "end": 2933
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 2933,
+    "end": 2934
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2934,
+    "end": 2935
+  },
+  {
+    "type": "String",
+    "value": "\"de-AT locale string has a day part\"",
+    "start": 2936,
+    "end": 2972
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 2972,
+    "end": 2973
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 2973,
+    "end": 2974
+  }
+]
