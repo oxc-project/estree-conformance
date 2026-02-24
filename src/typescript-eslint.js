@@ -29,7 +29,6 @@ await run({
             jsx: test.sourceType.jsx,
           },
         });
-        // oxlint-disable-next-line no-unused-vars
         const { comments, tokens, ...program } = result.ast;
 
         // TS-ESLint parser has no `unambiguous` option, so emulate it here
@@ -71,6 +70,20 @@ await run({
               if (err !== EXIT) throw err;
             }
           }
+        }
+
+        // Add `hashbang` property to AST if file starts with a hashbang.
+        // This property is non-standard and exclusive to Oxc.
+        if (comments.length > 0 && comments[0].type === "Shebang") {
+          const comment = comments[0];
+          program.hashbang = {
+            type: "Hashbang",
+            value: comment.value,
+            start: comment.range[0],
+            end: comment.range[1],
+          };
+        } else {
+          program.hashbang = null;
         }
 
         const astJson = stringifyWith(program, transformerTs);

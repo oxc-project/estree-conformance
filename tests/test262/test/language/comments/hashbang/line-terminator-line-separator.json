@@ -9,7 +9,12 @@
     }
   ],
   "sourceType": "script",
-  "hashbang": null,
+  "hashbang": {
+    "type": "Hashbang",
+    "value": " this comment ends with a Line Separator (U+2028)",
+    "start": 0,
+    "end": 51
+  },
   "start": 0,
   "end": 635
 }

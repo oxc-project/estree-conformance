@@ -2,7 +2,12 @@
   "type": "Program",
   "body": [],
   "sourceType": "script",
-  "hashbang": null,
+  "hashbang": {
+    "type": "Hashbang",
+    "value": " these characters should be treated as a comment",
+    "start": 0,
+    "end": 50
+  },
   "start": 0,
   "end": 412
 }

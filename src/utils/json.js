@@ -135,8 +135,6 @@ export function transformerTs(_key, value) {
 }
 
 export function stringifyWith(ast, transformer) {
-  // Add `hashbang` field
-  ast.hashbang = null;
   // Serialize to JSON, with modifications
   let json = JSON.stringify(ast, transformer, 2);
   json = json.replace(INFINITY_REGEXP, "1e+400");
