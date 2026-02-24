@@ -225,8 +225,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script=Old_Hungarian}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script=Old_Hungarian}+$"
+      "pattern": "^\\p{Script=Old_Hungarian}+$",
+      "flags": "u"
     },
     "start": 635,
     "end": 665
@@ -283,8 +283,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script=Hung}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script=Hung}+$"
+      "pattern": "^\\p{Script=Hung}+$",
+      "flags": "u"
     },
     "start": 739,
     "end": 760
@@ -341,8 +341,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{sc=Old_Hungarian}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{sc=Old_Hungarian}+$"
+      "pattern": "^\\p{sc=Old_Hungarian}+$",
+      "flags": "u"
     },
     "start": 825,
     "end": 851
@@ -399,8 +399,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{sc=Hung}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{sc=Hung}+$"
+      "pattern": "^\\p{sc=Hung}+$",
+      "flags": "u"
     },
     "start": 921,
     "end": 938
@@ -775,8 +775,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script=Old_Hungarian}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script=Old_Hungarian}+$"
+      "pattern": "^\\P{Script=Old_Hungarian}+$",
+      "flags": "u"
     },
     "start": 1235,
     "end": 1265
@@ -833,8 +833,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script=Hung}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script=Hung}+$"
+      "pattern": "^\\P{Script=Hung}+$",
+      "flags": "u"
     },
     "start": 1342,
     "end": 1363
@@ -891,8 +891,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{sc=Old_Hungarian}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{sc=Old_Hungarian}+$"
+      "pattern": "^\\P{sc=Old_Hungarian}+$",
+      "flags": "u"
     },
     "start": 1431,
     "end": 1457
@@ -949,8 +949,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{sc=Hung}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{sc=Hung}+$"
+      "pattern": "^\\P{sc=Hung}+$",
+      "flags": "u"
     },
     "start": 1530,
     "end": 1547

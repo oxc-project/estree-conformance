@@ -189,8 +189,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script_Extensions=Tangsa}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script_Extensions=Tangsa}+$"
+      "pattern": "^\\p{Script_Extensions=Tangsa}+$",
+      "flags": "u"
     },
     "start": 613,
     "end": 647
@@ -247,8 +247,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script_Extensions=Tnsa}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script_Extensions=Tnsa}+$"
+      "pattern": "^\\p{Script_Extensions=Tnsa}+$",
+      "flags": "u"
     },
     "start": 725,
     "end": 757
@@ -305,8 +305,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{scx=Tangsa}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{scx=Tangsa}+$"
+      "pattern": "^\\p{scx=Tangsa}+$",
+      "flags": "u"
     },
     "start": 833,
     "end": 853
@@ -363,8 +363,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{scx=Tnsa}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{scx=Tnsa}+$"
+      "pattern": "^\\p{scx=Tnsa}+$",
+      "flags": "u"
     },
     "start": 917,
     "end": 935
@@ -673,8 +673,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script_Extensions=Tangsa}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script_Extensions=Tangsa}+$"
+      "pattern": "^\\P{Script_Extensions=Tangsa}+$",
+      "flags": "u"
     },
     "start": 1197,
     "end": 1231
@@ -731,8 +731,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script_Extensions=Tnsa}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script_Extensions=Tnsa}+$"
+      "pattern": "^\\P{Script_Extensions=Tnsa}+$",
+      "flags": "u"
     },
     "start": 1312,
     "end": 1344
@@ -789,8 +789,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{scx=Tangsa}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{scx=Tangsa}+$"
+      "pattern": "^\\P{scx=Tangsa}+$",
+      "flags": "u"
     },
     "start": 1423,
     "end": 1443
@@ -847,8 +847,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{scx=Tnsa}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{scx=Tnsa}+$"
+      "pattern": "^\\P{scx=Tnsa}+$",
+      "flags": "u"
     },
     "start": 1510,
     "end": 1528

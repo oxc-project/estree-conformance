@@ -159,8 +159,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script=Mandaic}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script=Mandaic}+$"
+      "pattern": "^\\p{Script=Mandaic}+$",
+      "flags": "u"
     },
     "start": 593,
     "end": 617
@@ -217,8 +217,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script=Mand}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script=Mand}+$"
+      "pattern": "^\\p{Script=Mand}+$",
+      "flags": "u"
     },
     "start": 685,
     "end": 706
@@ -275,8 +275,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{sc=Mandaic}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{sc=Mandaic}+$"
+      "pattern": "^\\p{sc=Mandaic}+$",
+      "flags": "u"
     },
     "start": 771,
     "end": 791
@@ -333,8 +333,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{sc=Mand}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{sc=Mand}+$"
+      "pattern": "^\\p{sc=Mand}+$",
+      "flags": "u"
     },
     "start": 855,
     "end": 872
@@ -673,8 +673,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script=Mandaic}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script=Mandaic}+$"
+      "pattern": "^\\P{Script=Mandaic}+$",
+      "flags": "u"
     },
     "start": 1143,
     "end": 1167
@@ -731,8 +731,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script=Mand}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script=Mand}+$"
+      "pattern": "^\\P{Script=Mand}+$",
+      "flags": "u"
     },
     "start": 1238,
     "end": 1259
@@ -789,8 +789,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{sc=Mandaic}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{sc=Mandaic}+$"
+      "pattern": "^\\P{sc=Mandaic}+$",
+      "flags": "u"
     },
     "start": 1327,
     "end": 1347
@@ -847,8 +847,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{sc=Mand}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{sc=Mand}+$"
+      "pattern": "^\\P{sc=Mand}+$",
+      "flags": "u"
     },
     "start": 1414,
     "end": 1431

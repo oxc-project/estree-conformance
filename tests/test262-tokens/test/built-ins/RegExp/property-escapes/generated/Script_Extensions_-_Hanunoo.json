@@ -153,8 +153,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script_Extensions=Hanunoo}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script_Extensions=Hanunoo}+$"
+      "pattern": "^\\p{Script_Extensions=Hanunoo}+$",
+      "flags": "u"
     },
     "start": 588,
     "end": 623
@@ -211,8 +211,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script_Extensions=Hano}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script_Extensions=Hano}+$"
+      "pattern": "^\\p{Script_Extensions=Hano}+$",
+      "flags": "u"
     },
     "start": 702,
     "end": 734
@@ -269,8 +269,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{scx=Hanunoo}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{scx=Hanunoo}+$"
+      "pattern": "^\\p{scx=Hanunoo}+$",
+      "flags": "u"
     },
     "start": 810,
     "end": 831
@@ -327,8 +327,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{scx=Hano}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{scx=Hano}+$"
+      "pattern": "^\\p{scx=Hano}+$",
+      "flags": "u"
     },
     "start": 896,
     "end": 914
@@ -631,8 +631,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script_Extensions=Hanunoo}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script_Extensions=Hanunoo}+$"
+      "pattern": "^\\P{Script_Extensions=Hanunoo}+$",
+      "flags": "u"
     },
     "start": 1160,
     "end": 1195
@@ -689,8 +689,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script_Extensions=Hano}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script_Extensions=Hano}+$"
+      "pattern": "^\\P{Script_Extensions=Hano}+$",
+      "flags": "u"
     },
     "start": 1277,
     "end": 1309
@@ -747,8 +747,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{scx=Hanunoo}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{scx=Hanunoo}+$"
+      "pattern": "^\\P{scx=Hanunoo}+$",
+      "flags": "u"
     },
     "start": 1388,
     "end": 1409
@@ -805,8 +805,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{scx=Hano}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{scx=Hano}+$"
+      "pattern": "^\\P{scx=Hano}+$",
+      "flags": "u"
     },
     "start": 1477,
     "end": 1495

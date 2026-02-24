@@ -2415,8 +2415,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Sentence_Terminal}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Sentence_Terminal}+$"
+      "pattern": "^\\p{Sentence_Terminal}+$",
+      "flags": "u"
     },
     "start": 2412,
     "end": 2439
@@ -2473,8 +2473,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{STerm}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{STerm}+$"
+      "pattern": "^\\p{STerm}+$",
+      "flags": "u"
     },
     "start": 2510,
     "end": 2525
@@ -5831,8 +5831,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Sentence_Terminal}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Sentence_Terminal}+$"
+      "pattern": "^\\P{Sentence_Terminal}+$",
+      "flags": "u"
     },
     "start": 4996,
     "end": 5023
@@ -5889,8 +5889,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{STerm}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{STerm}+$"
+      "pattern": "^\\P{STerm}+$",
+      "flags": "u"
     },
     "start": 5097,
     "end": 5112

@@ -153,8 +153,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script=Soyombo}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script=Soyombo}+$"
+      "pattern": "^\\p{Script=Soyombo}+$",
+      "flags": "u"
     },
     "start": 577,
     "end": 601
@@ -211,8 +211,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script=Soyo}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script=Soyo}+$"
+      "pattern": "^\\p{Script=Soyo}+$",
+      "flags": "u"
     },
     "start": 669,
     "end": 690
@@ -269,8 +269,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{sc=Soyombo}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{sc=Soyombo}+$"
+      "pattern": "^\\p{sc=Soyombo}+$",
+      "flags": "u"
     },
     "start": 755,
     "end": 775
@@ -327,8 +327,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{sc=Soyo}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{sc=Soyo}+$"
+      "pattern": "^\\p{sc=Soyo}+$",
+      "flags": "u"
     },
     "start": 839,
     "end": 856
@@ -631,8 +631,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script=Soyombo}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script=Soyombo}+$"
+      "pattern": "^\\P{Script=Soyombo}+$",
+      "flags": "u"
     },
     "start": 1101,
     "end": 1125
@@ -689,8 +689,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script=Soyo}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script=Soyo}+$"
+      "pattern": "^\\P{Script=Soyo}+$",
+      "flags": "u"
     },
     "start": 1196,
     "end": 1217
@@ -747,8 +747,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{sc=Soyombo}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{sc=Soyombo}+$"
+      "pattern": "^\\P{sc=Soyombo}+$",
+      "flags": "u"
     },
     "start": 1285,
     "end": 1305
@@ -805,8 +805,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{sc=Soyo}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{sc=Soyo}+$"
+      "pattern": "^\\P{sc=Soyo}+$",
+      "flags": "u"
     },
     "start": 1372,
     "end": 1389

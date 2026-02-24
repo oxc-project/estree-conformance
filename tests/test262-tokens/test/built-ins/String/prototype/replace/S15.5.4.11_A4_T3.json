@@ -51,8 +51,8 @@
     "type": "RegularExpression",
     "value": "/([a-z]+)([0-9]+)/i",
     "regex": {
-      "flags": "i",
-      "pattern": "([a-z]+)([0-9]+)"
+      "pattern": "([a-z]+)([0-9]+)",
+      "flags": "i"
     },
     "start": 334,
     "end": 353

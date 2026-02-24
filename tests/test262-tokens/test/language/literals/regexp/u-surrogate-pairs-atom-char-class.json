@@ -15,8 +15,8 @@
     "type": "RegularExpression",
     "value": "/^[\\ud800\\udc00]$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^[\\ud800\\udc00]$"
+      "pattern": "^[\\ud800\\udc00]$",
+      "flags": "u"
     },
     "start": 772,
     "end": 791
@@ -91,8 +91,8 @@
     "type": "RegularExpression",
     "value": "/[\\ud800\\udc00]/u",
     "regex": {
-      "flags": "u",
-      "pattern": "[\\ud800\\udc00]"
+      "pattern": "[\\ud800\\udc00]",
+      "flags": "u"
     },
     "start": 835,
     "end": 852
@@ -191,8 +191,8 @@
     "type": "RegularExpression",
     "value": "/[\\ud800\\udc00]/u",
     "regex": {
-      "flags": "u",
-      "pattern": "[\\ud800\\udc00]"
+      "pattern": "[\\ud800\\udc00]",
+      "flags": "u"
     },
     "start": 948,
     "end": 965

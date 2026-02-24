@@ -189,8 +189,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script_Extensions=Tai_Viet}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script_Extensions=Tai_Viet}+$"
+      "pattern": "^\\p{Script_Extensions=Tai_Viet}+$",
+      "flags": "u"
     },
     "start": 615,
     "end": 651
@@ -247,8 +247,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script_Extensions=Tavt}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script_Extensions=Tavt}+$"
+      "pattern": "^\\p{Script_Extensions=Tavt}+$",
+      "flags": "u"
     },
     "start": 731,
     "end": 763
@@ -305,8 +305,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{scx=Tai_Viet}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{scx=Tai_Viet}+$"
+      "pattern": "^\\p{scx=Tai_Viet}+$",
+      "flags": "u"
     },
     "start": 839,
     "end": 861
@@ -363,8 +363,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{scx=Tavt}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{scx=Tavt}+$"
+      "pattern": "^\\p{scx=Tavt}+$",
+      "flags": "u"
     },
     "start": 927,
     "end": 945
@@ -703,8 +703,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script_Extensions=Tai_Viet}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script_Extensions=Tai_Viet}+$"
+      "pattern": "^\\P{Script_Extensions=Tai_Viet}+$",
+      "flags": "u"
     },
     "start": 1217,
     "end": 1253
@@ -761,8 +761,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script_Extensions=Tavt}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script_Extensions=Tavt}+$"
+      "pattern": "^\\P{Script_Extensions=Tavt}+$",
+      "flags": "u"
     },
     "start": 1336,
     "end": 1368
@@ -819,8 +819,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{scx=Tai_Viet}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{scx=Tai_Viet}+$"
+      "pattern": "^\\P{scx=Tai_Viet}+$",
+      "flags": "u"
     },
     "start": 1447,
     "end": 1469
@@ -877,8 +877,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{scx=Tavt}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{scx=Tavt}+$"
+      "pattern": "^\\P{scx=Tavt}+$",
+      "flags": "u"
     },
     "start": 1538,
     "end": 1556

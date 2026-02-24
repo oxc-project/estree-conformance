@@ -225,8 +225,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{General_Category=Private_Use}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{General_Category=Private_Use}+$"
+      "pattern": "^\\p{General_Category=Private_Use}+$",
+      "flags": "u"
     },
     "start": 643,
     "end": 681
@@ -283,8 +283,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{General_Category=Co}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{General_Category=Co}+$"
+      "pattern": "^\\p{General_Category=Co}+$",
+      "flags": "u"
     },
     "start": 763,
     "end": 792
@@ -341,8 +341,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{gc=Private_Use}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{gc=Private_Use}+$"
+      "pattern": "^\\p{gc=Private_Use}+$",
+      "flags": "u"
     },
     "start": 865,
     "end": 889
@@ -399,8 +399,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{gc=Co}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{gc=Co}+$"
+      "pattern": "^\\p{gc=Co}+$",
+      "flags": "u"
     },
     "start": 957,
     "end": 972
@@ -457,8 +457,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Private_Use}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Private_Use}+$"
+      "pattern": "^\\p{Private_Use}+$",
+      "flags": "u"
     },
     "start": 1031,
     "end": 1052
@@ -515,8 +515,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Co}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Co}+$"
+      "pattern": "^\\p{Co}+$",
+      "flags": "u"
     },
     "start": 1117,
     "end": 1129
@@ -855,8 +855,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{General_Category=Private_Use}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{General_Category=Private_Use}+$"
+      "pattern": "^\\P{General_Category=Private_Use}+$",
+      "flags": "u"
     },
     "start": 1395,
     "end": 1433
@@ -913,8 +913,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{General_Category=Co}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{General_Category=Co}+$"
+      "pattern": "^\\P{General_Category=Co}+$",
+      "flags": "u"
     },
     "start": 1518,
     "end": 1547
@@ -971,8 +971,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{gc=Private_Use}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{gc=Private_Use}+$"
+      "pattern": "^\\P{gc=Private_Use}+$",
+      "flags": "u"
     },
     "start": 1623,
     "end": 1647
@@ -1029,8 +1029,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{gc=Co}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{gc=Co}+$"
+      "pattern": "^\\P{gc=Co}+$",
+      "flags": "u"
     },
     "start": 1718,
     "end": 1733
@@ -1087,8 +1087,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Private_Use}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Private_Use}+$"
+      "pattern": "^\\P{Private_Use}+$",
+      "flags": "u"
     },
     "start": 1795,
     "end": 1816
@@ -1145,8 +1145,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Co}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Co}+$"
+      "pattern": "^\\P{Co}+$",
+      "flags": "u"
     },
     "start": 1884,
     "end": 1896

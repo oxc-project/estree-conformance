@@ -81,8 +81,8 @@
     "type": "RegularExpression",
     "value": "/x/",
     "regex": {
-      "flags": "",
-      "pattern": "x"
+      "pattern": "x",
+      "flags": ""
     },
     "start": 4117,
     "end": 4120
@@ -115,8 +115,8 @@
     "type": "RegularExpression",
     "value": "/(x)/",
     "regex": {
-      "flags": "",
-      "pattern": "(x)"
+      "pattern": "(x)",
+      "flags": ""
     },
     "start": 4132,
     "end": 4137
@@ -149,8 +149,8 @@
     "type": "RegularExpression",
     "value": "/(x)($^)?/",
     "regex": {
-      "flags": "",
-      "pattern": "(x)($^)?"
+      "pattern": "(x)($^)?",
+      "flags": ""
     },
     "start": 4150,
     "end": 4160
@@ -183,8 +183,8 @@
     "type": "RegularExpression",
     "value": "/((((((((((x))))))))))/",
     "regex": {
-      "flags": "",
-      "pattern": "((((((((((x))))))))))"
+      "pattern": "((((((((((x))))))))))",
+      "flags": ""
     },
     "start": 4173,
     "end": 4196

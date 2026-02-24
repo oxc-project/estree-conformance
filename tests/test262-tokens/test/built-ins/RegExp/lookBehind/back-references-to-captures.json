@@ -51,8 +51,8 @@
     "type": "RegularExpression",
     "value": "/(?<=\\1(\\w))d/i",
     "regex": {
-      "flags": "i",
-      "pattern": "(?<=\\1(\\w))d"
+      "pattern": "(?<=\\1(\\w))d",
+      "flags": "i"
     },
     "start": 1004,
     "end": 1019
@@ -175,8 +175,8 @@
     "type": "RegularExpression",
     "value": "/(?<=\\1([abx]))d/",
     "regex": {
-      "flags": "",
-      "pattern": "(?<=\\1([abx]))d"
+      "pattern": "(?<=\\1([abx]))d",
+      "flags": ""
     },
     "start": 1075,
     "end": 1092
@@ -299,8 +299,8 @@
     "type": "RegularExpression",
     "value": "/(?<=\\1(\\w+))c/",
     "regex": {
-      "flags": "",
-      "pattern": "(?<=\\1(\\w+))c"
+      "pattern": "(?<=\\1(\\w+))c",
+      "flags": ""
     },
     "start": 1148,
     "end": 1163
@@ -423,8 +423,8 @@
     "type": "RegularExpression",
     "value": "/(?<=\\1(\\w+))c/",
     "regex": {
-      "flags": "",
-      "pattern": "(?<=\\1(\\w+))c"
+      "pattern": "(?<=\\1(\\w+))c",
+      "flags": ""
     },
     "start": 1221,
     "end": 1236
@@ -547,8 +547,8 @@
     "type": "RegularExpression",
     "value": "/(?<=\\1(\\w+))c/",
     "regex": {
-      "flags": "",
-      "pattern": "(?<=\\1(\\w+))c"
+      "pattern": "(?<=\\1(\\w+))c",
+      "flags": ""
     },
     "start": 1290,
     "end": 1305
@@ -647,8 +647,8 @@
     "type": "RegularExpression",
     "value": "/(?<=(\\w+)\\1)c/",
     "regex": {
-      "flags": "",
-      "pattern": "(?<=(\\w+)\\1)c"
+      "pattern": "(?<=(\\w+)\\1)c",
+      "flags": ""
     },
     "start": 1355,
     "end": 1370

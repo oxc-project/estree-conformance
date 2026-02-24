@@ -4719,8 +4719,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{General_Category=Cased_Letter}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{General_Category=Cased_Letter}+$"
+      "pattern": "^\\p{General_Category=Cased_Letter}+$",
+      "flags": "u"
     },
     "start": 4024,
     "end": 4063
@@ -4777,8 +4777,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{General_Category=LC}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{General_Category=LC}+$"
+      "pattern": "^\\p{General_Category=LC}+$",
+      "flags": "u"
     },
     "start": 4146,
     "end": 4175
@@ -4835,8 +4835,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{gc=Cased_Letter}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{gc=Cased_Letter}+$"
+      "pattern": "^\\p{gc=Cased_Letter}+$",
+      "flags": "u"
     },
     "start": 4248,
     "end": 4273
@@ -4893,8 +4893,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{gc=LC}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{gc=LC}+$"
+      "pattern": "^\\p{gc=LC}+$",
+      "flags": "u"
     },
     "start": 4342,
     "end": 4357
@@ -4951,8 +4951,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Cased_Letter}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Cased_Letter}+$"
+      "pattern": "^\\p{Cased_Letter}+$",
+      "flags": "u"
     },
     "start": 4416,
     "end": 4438
@@ -5009,8 +5009,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{LC}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{LC}+$"
+      "pattern": "^\\p{LC}+$",
+      "flags": "u"
     },
     "start": 4504,
     "end": 4516
@@ -9039,8 +9039,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{General_Category=Cased_Letter}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{General_Category=Cased_Letter}+$"
+      "pattern": "^\\P{General_Category=Cased_Letter}+$",
+      "flags": "u"
     },
     "start": 7768,
     "end": 7807
@@ -9097,8 +9097,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{General_Category=LC}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{General_Category=LC}+$"
+      "pattern": "^\\P{General_Category=LC}+$",
+      "flags": "u"
     },
     "start": 7893,
     "end": 7922
@@ -9155,8 +9155,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{gc=Cased_Letter}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{gc=Cased_Letter}+$"
+      "pattern": "^\\P{gc=Cased_Letter}+$",
+      "flags": "u"
     },
     "start": 7998,
     "end": 8023
@@ -9213,8 +9213,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{gc=LC}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{gc=LC}+$"
+      "pattern": "^\\P{gc=LC}+$",
+      "flags": "u"
     },
     "start": 8095,
     "end": 8110
@@ -9271,8 +9271,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Cased_Letter}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Cased_Letter}+$"
+      "pattern": "^\\P{Cased_Letter}+$",
+      "flags": "u"
     },
     "start": 8172,
     "end": 8194
@@ -9329,8 +9329,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{LC}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{LC}+$"
+      "pattern": "^\\P{LC}+$",
+      "flags": "u"
     },
     "start": 8263,
     "end": 8275

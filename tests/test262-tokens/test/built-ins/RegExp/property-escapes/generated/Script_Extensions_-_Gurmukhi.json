@@ -723,8 +723,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script_Extensions=Gurmukhi}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script_Extensions=Gurmukhi}+$"
+      "pattern": "^\\p{Script_Extensions=Gurmukhi}+$",
+      "flags": "u"
     },
     "start": 1023,
     "end": 1059
@@ -781,8 +781,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script_Extensions=Guru}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script_Extensions=Guru}+$"
+      "pattern": "^\\p{Script_Extensions=Guru}+$",
+      "flags": "u"
     },
     "start": 1139,
     "end": 1171
@@ -839,8 +839,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{scx=Gurmukhi}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{scx=Gurmukhi}+$"
+      "pattern": "^\\p{scx=Gurmukhi}+$",
+      "flags": "u"
     },
     "start": 1247,
     "end": 1269
@@ -897,8 +897,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{scx=Guru}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{scx=Guru}+$"
+      "pattern": "^\\p{scx=Guru}+$",
+      "flags": "u"
     },
     "start": 1335,
     "end": 1353
@@ -1675,8 +1675,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script_Extensions=Gurmukhi}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script_Extensions=Gurmukhi}+$"
+      "pattern": "^\\P{Script_Extensions=Gurmukhi}+$",
+      "flags": "u"
     },
     "start": 1985,
     "end": 2021
@@ -1733,8 +1733,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script_Extensions=Guru}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script_Extensions=Guru}+$"
+      "pattern": "^\\P{Script_Extensions=Guru}+$",
+      "flags": "u"
     },
     "start": 2104,
     "end": 2136
@@ -1791,8 +1791,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{scx=Gurmukhi}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{scx=Gurmukhi}+$"
+      "pattern": "^\\P{scx=Gurmukhi}+$",
+      "flags": "u"
     },
     "start": 2215,
     "end": 2237
@@ -1849,8 +1849,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{scx=Guru}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{scx=Guru}+$"
+      "pattern": "^\\P{scx=Guru}+$",
+      "flags": "u"
     },
     "start": 2306,
     "end": 2324

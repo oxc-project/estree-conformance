@@ -21,8 +21,8 @@
     "type": "RegularExpression",
     "value": "/(?-i:\\x61)b/i",
     "regex": {
-      "flags": "i",
-      "pattern": "(?-i:\\x61)b"
+      "pattern": "(?-i:\\x61)b",
+      "flags": "i"
     },
     "start": 1787,
     "end": 1801
@@ -277,8 +277,8 @@
     "type": "RegularExpression",
     "value": "/(?-i:\\u0061)b/i",
     "regex": {
-      "flags": "i",
-      "pattern": "(?-i:\\u0061)b"
+      "pattern": "(?-i:\\u0061)b",
+      "flags": "i"
     },
     "start": 1959,
     "end": 1975
@@ -533,8 +533,8 @@
     "type": "RegularExpression",
     "value": "/(?-i:\\u{0061})b/iu",
     "regex": {
-      "flags": "iu",
-      "pattern": "(?-i:\\u{0061})b"
+      "pattern": "(?-i:\\u{0061})b",
+      "flags": "iu"
     },
     "start": 2137,
     "end": 2156

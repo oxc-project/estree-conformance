@@ -225,8 +225,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script_Extensions=Meroitic_Cursive}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script_Extensions=Meroitic_Cursive}+$"
+      "pattern": "^\\p{Script_Extensions=Meroitic_Cursive}+$",
+      "flags": "u"
     },
     "start": 649,
     "end": 693
@@ -283,8 +283,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script_Extensions=Merc}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script_Extensions=Merc}+$"
+      "pattern": "^\\p{Script_Extensions=Merc}+$",
+      "flags": "u"
     },
     "start": 781,
     "end": 813
@@ -341,8 +341,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{scx=Meroitic_Cursive}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{scx=Meroitic_Cursive}+$"
+      "pattern": "^\\p{scx=Meroitic_Cursive}+$",
+      "flags": "u"
     },
     "start": 889,
     "end": 919
@@ -399,8 +399,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{scx=Merc}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{scx=Merc}+$"
+      "pattern": "^\\p{scx=Merc}+$",
+      "flags": "u"
     },
     "start": 993,
     "end": 1011
@@ -775,8 +775,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script_Extensions=Meroitic_Cursive}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script_Extensions=Meroitic_Cursive}+$"
+      "pattern": "^\\P{Script_Extensions=Meroitic_Cursive}+$",
+      "flags": "u"
     },
     "start": 1309,
     "end": 1353
@@ -833,8 +833,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script_Extensions=Merc}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script_Extensions=Merc}+$"
+      "pattern": "^\\P{Script_Extensions=Merc}+$",
+      "flags": "u"
     },
     "start": 1444,
     "end": 1476
@@ -891,8 +891,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{scx=Meroitic_Cursive}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{scx=Meroitic_Cursive}+$"
+      "pattern": "^\\P{scx=Meroitic_Cursive}+$",
+      "flags": "u"
     },
     "start": 1555,
     "end": 1585
@@ -949,8 +949,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{scx=Merc}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{scx=Merc}+$"
+      "pattern": "^\\P{scx=Merc}+$",
+      "flags": "u"
     },
     "start": 1662,
     "end": 1680

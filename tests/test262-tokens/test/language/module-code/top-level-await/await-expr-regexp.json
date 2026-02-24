@@ -165,8 +165,8 @@
     "type": "RegularExpression",
     "value": "/x.y/g",
     "regex": {
-      "flags": "g",
-      "pattern": "x.y"
+      "pattern": "x.y",
+      "flags": "g"
     },
     "start": 1083,
     "end": 1089

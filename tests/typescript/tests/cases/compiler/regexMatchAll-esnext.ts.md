@@ -267,8 +267,8 @@ __ESTREE_TEST__:TOKENS:
     "type": "RegularExpression",
     "value": "/\\w/g",
     "regex": {
-      "flags": "g",
-      "pattern": "\\w"
+      "pattern": "\\w",
+      "flags": "g"
     },
     "start": 16,
     "end": 21

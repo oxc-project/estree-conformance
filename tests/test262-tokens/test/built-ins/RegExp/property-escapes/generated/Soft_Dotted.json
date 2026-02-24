@@ -903,8 +903,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Soft_Dotted}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Soft_Dotted}+$"
+      "pattern": "^\\p{Soft_Dotted}+$",
+      "flags": "u"
     },
     "start": 1218,
     "end": 1239
@@ -961,8 +961,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{SD}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{SD}+$"
+      "pattern": "^\\p{SD}+$",
+      "flags": "u"
     },
     "start": 1304,
     "end": 1316
@@ -2423,8 +2423,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Soft_Dotted}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Soft_Dotted}+$"
+      "pattern": "^\\P{Soft_Dotted}+$",
+      "flags": "u"
     },
     "start": 2404,
     "end": 2425
@@ -2481,8 +2481,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{SD}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{SD}+$"
+      "pattern": "^\\P{SD}+$",
+      "flags": "u"
     },
     "start": 2493,
     "end": 2505

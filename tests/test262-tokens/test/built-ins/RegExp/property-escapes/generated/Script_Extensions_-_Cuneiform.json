@@ -261,8 +261,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script_Extensions=Cuneiform}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script_Extensions=Cuneiform}+$"
+      "pattern": "^\\p{Script_Extensions=Cuneiform}+$",
+      "flags": "u"
     },
     "start": 668,
     "end": 705
@@ -319,8 +319,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script_Extensions=Xsux}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script_Extensions=Xsux}+$"
+      "pattern": "^\\p{Script_Extensions=Xsux}+$",
+      "flags": "u"
     },
     "start": 786,
     "end": 818
@@ -377,8 +377,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{scx=Cuneiform}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{scx=Cuneiform}+$"
+      "pattern": "^\\p{scx=Cuneiform}+$",
+      "flags": "u"
     },
     "start": 894,
     "end": 917
@@ -435,8 +435,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{scx=Xsux}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{scx=Xsux}+$"
+      "pattern": "^\\p{scx=Xsux}+$",
+      "flags": "u"
     },
     "start": 984,
     "end": 1002
@@ -817,8 +817,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script_Extensions=Cuneiform}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script_Extensions=Cuneiform}+$"
+      "pattern": "^\\P{Script_Extensions=Cuneiform}+$",
+      "flags": "u"
     },
     "start": 1316,
     "end": 1353
@@ -875,8 +875,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script_Extensions=Xsux}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script_Extensions=Xsux}+$"
+      "pattern": "^\\P{Script_Extensions=Xsux}+$",
+      "flags": "u"
     },
     "start": 1437,
     "end": 1469
@@ -933,8 +933,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{scx=Cuneiform}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{scx=Cuneiform}+$"
+      "pattern": "^\\P{scx=Cuneiform}+$",
+      "flags": "u"
     },
     "start": 1548,
     "end": 1571
@@ -991,8 +991,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{scx=Xsux}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{scx=Xsux}+$"
+      "pattern": "^\\P{scx=Xsux}+$",
+      "flags": "u"
     },
     "start": 1641,
     "end": 1659

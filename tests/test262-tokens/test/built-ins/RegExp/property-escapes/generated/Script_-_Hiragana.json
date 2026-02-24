@@ -279,8 +279,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script=Hiragana}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script=Hiragana}+$"
+      "pattern": "^\\p{Script=Hiragana}+$",
+      "flags": "u"
     },
     "start": 686,
     "end": 711
@@ -337,8 +337,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script=Hira}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script=Hira}+$"
+      "pattern": "^\\p{Script=Hira}+$",
+      "flags": "u"
     },
     "start": 780,
     "end": 801
@@ -395,8 +395,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{sc=Hiragana}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{sc=Hiragana}+$"
+      "pattern": "^\\p{sc=Hiragana}+$",
+      "flags": "u"
     },
     "start": 866,
     "end": 887
@@ -453,8 +453,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{sc=Hira}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{sc=Hira}+$"
+      "pattern": "^\\p{sc=Hira}+$",
+      "flags": "u"
     },
     "start": 952,
     "end": 969
@@ -937,8 +937,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script=Hiragana}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script=Hiragana}+$"
+      "pattern": "^\\P{Script=Hiragana}+$",
+      "flags": "u"
     },
     "start": 1344,
     "end": 1369
@@ -995,8 +995,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script=Hira}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script=Hira}+$"
+      "pattern": "^\\P{Script=Hira}+$",
+      "flags": "u"
     },
     "start": 1441,
     "end": 1462
@@ -1053,8 +1053,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{sc=Hiragana}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{sc=Hiragana}+$"
+      "pattern": "^\\P{sc=Hiragana}+$",
+      "flags": "u"
     },
     "start": 1530,
     "end": 1551
@@ -1111,8 +1111,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{sc=Hira}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{sc=Hira}+$"
+      "pattern": "^\\P{sc=Hira}+$",
+      "flags": "u"
     },
     "start": 1619,
     "end": 1636

@@ -339,8 +339,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script_Extensions=Mongolian}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script_Extensions=Mongolian}+$"
+      "pattern": "^\\p{Script_Extensions=Mongolian}+$",
+      "flags": "u"
     },
     "start": 736,
     "end": 773
@@ -397,8 +397,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script_Extensions=Mong}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script_Extensions=Mong}+$"
+      "pattern": "^\\p{Script_Extensions=Mong}+$",
+      "flags": "u"
     },
     "start": 854,
     "end": 886
@@ -455,8 +455,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{scx=Mongolian}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{scx=Mongolian}+$"
+      "pattern": "^\\p{scx=Mongolian}+$",
+      "flags": "u"
     },
     "start": 962,
     "end": 985
@@ -513,8 +513,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{scx=Mong}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{scx=Mong}+$"
+      "pattern": "^\\p{scx=Mong}+$",
+      "flags": "u"
     },
     "start": 1052,
     "end": 1070
@@ -1033,8 +1033,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script_Extensions=Mongolian}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script_Extensions=Mongolian}+$"
+      "pattern": "^\\P{Script_Extensions=Mongolian}+$",
+      "flags": "u"
     },
     "start": 1472,
     "end": 1509
@@ -1091,8 +1091,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script_Extensions=Mong}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script_Extensions=Mong}+$"
+      "pattern": "^\\P{Script_Extensions=Mong}+$",
+      "flags": "u"
     },
     "start": 1593,
     "end": 1625
@@ -1149,8 +1149,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{scx=Mongolian}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{scx=Mongolian}+$"
+      "pattern": "^\\P{scx=Mongolian}+$",
+      "flags": "u"
     },
     "start": 1704,
     "end": 1727
@@ -1207,8 +1207,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{scx=Mong}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{scx=Mong}+$"
+      "pattern": "^\\P{scx=Mong}+$",
+      "flags": "u"
     },
     "start": 1797,
     "end": 1815

@@ -21,8 +21,8 @@
     "type": "RegularExpression",
     "value": "/(?-s:.es$)/s",
     "regex": {
-      "flags": "s",
-      "pattern": "(?-s:.es$)"
+      "pattern": "(?-s:.es$)",
+      "flags": "s"
     },
     "start": 1787,
     "end": 1800
@@ -361,8 +361,8 @@
     "type": "RegularExpression",
     "value": "/(?-s:.es$)/sm",
     "regex": {
-      "flags": "sm",
-      "pattern": "(?-s:.es$)"
+      "pattern": "(?-s:.es$)",
+      "flags": "sm"
     },
     "start": 2106,
     "end": 2120

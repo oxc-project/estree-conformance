@@ -399,8 +399,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script_Extensions=Duployan}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script_Extensions=Duployan}+$"
+      "pattern": "^\\p{Script_Extensions=Duployan}+$",
+      "flags": "u"
     },
     "start": 789,
     "end": 825
@@ -457,8 +457,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script_Extensions=Dupl}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script_Extensions=Dupl}+$"
+      "pattern": "^\\p{Script_Extensions=Dupl}+$",
+      "flags": "u"
     },
     "start": 905,
     "end": 937
@@ -515,8 +515,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{scx=Duployan}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{scx=Duployan}+$"
+      "pattern": "^\\p{scx=Duployan}+$",
+      "flags": "u"
     },
     "start": 1013,
     "end": 1035
@@ -573,8 +573,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{scx=Dupl}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{scx=Dupl}+$"
+      "pattern": "^\\p{scx=Dupl}+$",
+      "flags": "u"
     },
     "start": 1101,
     "end": 1119
@@ -1171,8 +1171,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script_Extensions=Duployan}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script_Extensions=Duployan}+$"
+      "pattern": "^\\P{Script_Extensions=Duployan}+$",
+      "flags": "u"
     },
     "start": 1589,
     "end": 1625
@@ -1229,8 +1229,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script_Extensions=Dupl}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script_Extensions=Dupl}+$"
+      "pattern": "^\\P{Script_Extensions=Dupl}+$",
+      "flags": "u"
     },
     "start": 1708,
     "end": 1740
@@ -1287,8 +1287,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{scx=Duployan}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{scx=Duployan}+$"
+      "pattern": "^\\P{scx=Duployan}+$",
+      "flags": "u"
     },
     "start": 1819,
     "end": 1841
@@ -1345,8 +1345,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{scx=Dupl}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{scx=Dupl}+$"
+      "pattern": "^\\P{scx=Dupl}+$",
+      "flags": "u"
     },
     "start": 1910,
     "end": 1928

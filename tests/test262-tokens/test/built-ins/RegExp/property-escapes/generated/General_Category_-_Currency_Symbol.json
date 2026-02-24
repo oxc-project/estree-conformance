@@ -531,8 +531,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{General_Category=Currency_Symbol}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{General_Category=Currency_Symbol}+$"
+      "pattern": "^\\p{General_Category=Currency_Symbol}+$",
+      "flags": "u"
     },
     "start": 949,
     "end": 991
@@ -589,8 +589,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{General_Category=Sc}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{General_Category=Sc}+$"
+      "pattern": "^\\p{General_Category=Sc}+$",
+      "flags": "u"
     },
     "start": 1077,
     "end": 1106
@@ -647,8 +647,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{gc=Currency_Symbol}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{gc=Currency_Symbol}+$"
+      "pattern": "^\\p{gc=Currency_Symbol}+$",
+      "flags": "u"
     },
     "start": 1179,
     "end": 1207
@@ -705,8 +705,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{gc=Sc}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{gc=Sc}+$"
+      "pattern": "^\\p{gc=Sc}+$",
+      "flags": "u"
     },
     "start": 1279,
     "end": 1294
@@ -763,8 +763,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Currency_Symbol}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Currency_Symbol}+$"
+      "pattern": "^\\p{Currency_Symbol}+$",
+      "flags": "u"
     },
     "start": 1353,
     "end": 1378
@@ -821,8 +821,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Sc}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Sc}+$"
+      "pattern": "^\\p{Sc}+$",
+      "flags": "u"
     },
     "start": 1447,
     "end": 1459
@@ -1845,8 +1845,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{General_Category=Currency_Symbol}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{General_Category=Currency_Symbol}+$"
+      "pattern": "^\\P{General_Category=Currency_Symbol}+$",
+      "flags": "u"
     },
     "start": 2219,
     "end": 2261
@@ -1903,8 +1903,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{General_Category=Sc}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{General_Category=Sc}+$"
+      "pattern": "^\\P{General_Category=Sc}+$",
+      "flags": "u"
     },
     "start": 2350,
     "end": 2379
@@ -1961,8 +1961,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{gc=Currency_Symbol}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{gc=Currency_Symbol}+$"
+      "pattern": "^\\P{gc=Currency_Symbol}+$",
+      "flags": "u"
     },
     "start": 2455,
     "end": 2483
@@ -2019,8 +2019,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{gc=Sc}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{gc=Sc}+$"
+      "pattern": "^\\P{gc=Sc}+$",
+      "flags": "u"
     },
     "start": 2558,
     "end": 2573
@@ -2077,8 +2077,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Currency_Symbol}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Currency_Symbol}+$"
+      "pattern": "^\\P{Currency_Symbol}+$",
+      "flags": "u"
     },
     "start": 2635,
     "end": 2660
@@ -2135,8 +2135,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Sc}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Sc}+$"
+      "pattern": "^\\P{Sc}+$",
+      "flags": "u"
     },
     "start": 2732,
     "end": 2744

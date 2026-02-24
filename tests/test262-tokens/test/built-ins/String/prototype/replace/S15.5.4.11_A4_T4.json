@@ -51,8 +51,8 @@
     "type": "RegularExpression",
     "value": "/([a-z]+)([0-9]+)/ig",
     "regex": {
-      "flags": "ig",
-      "pattern": "([a-z]+)([0-9]+)"
+      "pattern": "([a-z]+)([0-9]+)",
+      "flags": "ig"
     },
     "start": 335,
     "end": 355

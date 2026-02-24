@@ -33,8 +33,8 @@
     "type": "RegularExpression",
     "value": "/^[\\p{ASCII_Hex_Digit}&&\\d]+$/v",
     "regex": {
-      "flags": "v",
-      "pattern": "^[\\p{ASCII_Hex_Digit}&&\\d]+$"
+      "pattern": "^[\\p{ASCII_Hex_Digit}&&\\d]+$",
+      "flags": "v"
     },
     "start": 556,
     "end": 587

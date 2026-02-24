@@ -21,8 +21,8 @@
     "type": "RegularExpression",
     "value": "/./g",
     "regex": {
-      "flags": "g",
-      "pattern": "."
+      "pattern": ".",
+      "flags": "g"
     },
     "start": 1074,
     "end": 1078
@@ -49,8 +49,8 @@
     "type": "RegularExpression",
     "value": "/./y",
     "regex": {
-      "flags": "y",
-      "pattern": "."
+      "pattern": ".",
+      "flags": "y"
     },
     "start": 1086,
     "end": 1090
@@ -77,8 +77,8 @@
     "type": "RegularExpression",
     "value": "/./gy",
     "regex": {
-      "flags": "gy",
-      "pattern": "."
+      "pattern": ".",
+      "flags": "gy"
     },
     "start": 1099,
     "end": 1104

@@ -81,8 +81,8 @@
     "type": "RegularExpression",
     "value": "/(?<=(c))def/",
     "regex": {
-      "flags": "",
-      "pattern": "(?<=(c))def"
+      "pattern": "(?<=(c))def",
+      "flags": ""
     },
     "start": 991,
     "end": 1004
@@ -205,8 +205,8 @@
     "type": "RegularExpression",
     "value": "/(?<=(\\w{2}))def/",
     "regex": {
-      "flags": "",
-      "pattern": "(?<=(\\w{2}))def"
+      "pattern": "(?<=(\\w{2}))def",
+      "flags": ""
     },
     "start": 1058,
     "end": 1075
@@ -329,8 +329,8 @@
     "type": "RegularExpression",
     "value": "/(?<=(\\w(\\w)))def/",
     "regex": {
-      "flags": "",
-      "pattern": "(?<=(\\w(\\w)))def"
+      "pattern": "(?<=(\\w(\\w)))def",
+      "flags": ""
     },
     "start": 1130,
     "end": 1148
@@ -465,8 +465,8 @@
     "type": "RegularExpression",
     "value": "/(?<=(\\w){3})def/",
     "regex": {
-      "flags": "",
-      "pattern": "(?<=(\\w){3})def"
+      "pattern": "(?<=(\\w){3})def",
+      "flags": ""
     },
     "start": 1208,
     "end": 1225
@@ -589,8 +589,8 @@
     "type": "RegularExpression",
     "value": "/(?<=(bc)|(cd))./",
     "regex": {
-      "flags": "",
-      "pattern": "(?<=(bc)|(cd))."
+      "pattern": "(?<=(bc)|(cd)).",
+      "flags": ""
     },
     "start": 1279,
     "end": 1296
@@ -725,8 +725,8 @@
     "type": "RegularExpression",
     "value": "/(?<=([ab]{1,2})\\D|(abc))\\w/",
     "regex": {
-      "flags": "",
-      "pattern": "(?<=([ab]{1,2})\\D|(abc))\\w"
+      "pattern": "(?<=([ab]{1,2})\\D|(abc))\\w",
+      "flags": ""
     },
     "start": 1360,
     "end": 1388
@@ -861,8 +861,8 @@
     "type": "RegularExpression",
     "value": "/\\D(?<=([ab]+))(\\w)/",
     "regex": {
-      "flags": "",
-      "pattern": "\\D(?<=([ab]+))(\\w)"
+      "pattern": "\\D(?<=([ab]+))(\\w)",
+      "flags": ""
     },
     "start": 1451,
     "end": 1471
@@ -997,8 +997,8 @@
     "type": "RegularExpression",
     "value": "/(?<=b|c)\\w/g",
     "regex": {
-      "flags": "g",
-      "pattern": "(?<=b|c)\\w"
+      "pattern": "(?<=b|c)\\w",
+      "flags": "g"
     },
     "start": 1529,
     "end": 1542
@@ -1121,8 +1121,8 @@
     "type": "RegularExpression",
     "value": "/(?<=[b-e])\\w{2}/g",
     "regex": {
-      "flags": "g",
-      "pattern": "(?<=[b-e])\\w{2}"
+      "pattern": "(?<=[b-e])\\w{2}",
+      "flags": "g"
     },
     "start": 1594,
     "end": 1612

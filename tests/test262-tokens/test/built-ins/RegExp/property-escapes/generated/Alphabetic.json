@@ -24507,8 +24507,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Alphabetic}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Alphabetic}+$"
+      "pattern": "^\\p{Alphabetic}+$",
+      "flags": "u"
     },
     "start": 18835,
     "end": 18855
@@ -24565,8 +24565,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Alpha}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Alpha}+$"
+      "pattern": "^\\p{Alpha}+$",
+      "flags": "u"
     },
     "start": 18919,
     "end": 18934
@@ -45695,8 +45695,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Alphabetic}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Alphabetic}+$"
+      "pattern": "^\\P{Alphabetic}+$",
+      "flags": "u"
     },
     "start": 35675,
     "end": 35695
@@ -45753,8 +45753,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Alpha}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Alpha}+$"
+      "pattern": "^\\P{Alpha}+$",
+      "flags": "u"
     },
     "start": 35762,
     "end": 35777

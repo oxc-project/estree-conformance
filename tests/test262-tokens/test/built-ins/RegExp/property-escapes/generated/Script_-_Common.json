@@ -5631,8 +5631,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script=Common}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script=Common}+$"
+      "pattern": "^\\p{Script=Common}+$",
+      "flags": "u"
     },
     "start": 4720,
     "end": 4743
@@ -5689,8 +5689,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script=Zyyy}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script=Zyyy}+$"
+      "pattern": "^\\p{Script=Zyyy}+$",
+      "flags": "u"
     },
     "start": 4810,
     "end": 4831
@@ -5747,8 +5747,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{sc=Common}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{sc=Common}+$"
+      "pattern": "^\\p{sc=Common}+$",
+      "flags": "u"
     },
     "start": 4896,
     "end": 4915
@@ -5805,8 +5805,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{sc=Zyyy}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{sc=Zyyy}+$"
+      "pattern": "^\\p{sc=Zyyy}+$",
+      "flags": "u"
     },
     "start": 4978,
     "end": 4995
@@ -11527,8 +11527,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script=Common}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script=Common}+$"
+      "pattern": "^\\P{Script=Common}+$",
+      "flags": "u"
     },
     "start": 9346,
     "end": 9369
@@ -11585,8 +11585,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script=Zyyy}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script=Zyyy}+$"
+      "pattern": "^\\P{Script=Zyyy}+$",
+      "flags": "u"
     },
     "start": 9439,
     "end": 9460
@@ -11643,8 +11643,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{sc=Common}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{sc=Common}+$"
+      "pattern": "^\\P{sc=Common}+$",
+      "flags": "u"
     },
     "start": 9528,
     "end": 9547
@@ -11701,8 +11701,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{sc=Zyyy}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{sc=Zyyy}+$"
+      "pattern": "^\\P{sc=Zyyy}+$",
+      "flags": "u"
     },
     "start": 9613,
     "end": 9630

@@ -21,8 +21,8 @@
     "type": "RegularExpression",
     "value": "/(a(b(c)))(d(e(f)))\\2\\5/",
     "regex": {
-      "flags": "",
-      "pattern": "(a(b(c)))(d(e(f)))\\2\\5"
+      "pattern": "(a(b(c)))(d(e(f)))\\2\\5",
+      "flags": ""
     },
     "start": 655,
     "end": 679

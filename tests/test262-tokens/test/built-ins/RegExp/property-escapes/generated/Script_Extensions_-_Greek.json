@@ -1263,8 +1263,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script_Extensions=Greek}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script_Extensions=Greek}+$"
+      "pattern": "^\\p{Script_Extensions=Greek}+$",
+      "flags": "u"
     },
     "start": 1490,
     "end": 1523
@@ -1321,8 +1321,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script_Extensions=Grek}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script_Extensions=Grek}+$"
+      "pattern": "^\\p{Script_Extensions=Grek}+$",
+      "flags": "u"
     },
     "start": 1600,
     "end": 1632
@@ -1379,8 +1379,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{scx=Greek}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{scx=Greek}+$"
+      "pattern": "^\\p{scx=Greek}+$",
+      "flags": "u"
     },
     "start": 1708,
     "end": 1727
@@ -1437,8 +1437,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{scx=Grek}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{scx=Grek}+$"
+      "pattern": "^\\p{scx=Grek}+$",
+      "flags": "u"
     },
     "start": 1790,
     "end": 1808
@@ -2899,8 +2899,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script_Extensions=Greek}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script_Extensions=Greek}+$"
+      "pattern": "^\\P{Script_Extensions=Greek}+$",
+      "flags": "u"
     },
     "start": 2982,
     "end": 3015
@@ -2957,8 +2957,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script_Extensions=Grek}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script_Extensions=Grek}+$"
+      "pattern": "^\\P{Script_Extensions=Grek}+$",
+      "flags": "u"
     },
     "start": 3095,
     "end": 3127
@@ -3015,8 +3015,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{scx=Greek}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{scx=Greek}+$"
+      "pattern": "^\\P{scx=Greek}+$",
+      "flags": "u"
     },
     "start": 3206,
     "end": 3225
@@ -3073,8 +3073,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{scx=Grek}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{scx=Grek}+$"
+      "pattern": "^\\P{scx=Grek}+$",
+      "flags": "u"
     },
     "start": 3291,
     "end": 3309

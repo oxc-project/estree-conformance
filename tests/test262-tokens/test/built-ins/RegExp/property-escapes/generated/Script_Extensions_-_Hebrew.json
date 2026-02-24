@@ -447,8 +447,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script_Extensions=Hebrew}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script_Extensions=Hebrew}+$"
+      "pattern": "^\\p{Script_Extensions=Hebrew}+$",
+      "flags": "u"
     },
     "start": 811,
     "end": 845
@@ -505,8 +505,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script_Extensions=Hebr}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script_Extensions=Hebr}+$"
+      "pattern": "^\\p{Script_Extensions=Hebr}+$",
+      "flags": "u"
     },
     "start": 923,
     "end": 955
@@ -563,8 +563,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{scx=Hebrew}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{scx=Hebrew}+$"
+      "pattern": "^\\p{scx=Hebrew}+$",
+      "flags": "u"
     },
     "start": 1031,
     "end": 1051
@@ -621,8 +621,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{scx=Hebr}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{scx=Hebr}+$"
+      "pattern": "^\\p{scx=Hebr}+$",
+      "flags": "u"
     },
     "start": 1115,
     "end": 1133
@@ -1123,8 +1123,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script_Extensions=Hebrew}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script_Extensions=Hebrew}+$"
+      "pattern": "^\\P{Script_Extensions=Hebrew}+$",
+      "flags": "u"
     },
     "start": 1555,
     "end": 1589
@@ -1181,8 +1181,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script_Extensions=Hebr}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script_Extensions=Hebr}+$"
+      "pattern": "^\\P{Script_Extensions=Hebr}+$",
+      "flags": "u"
     },
     "start": 1670,
     "end": 1702
@@ -1239,8 +1239,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{scx=Hebrew}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{scx=Hebrew}+$"
+      "pattern": "^\\P{scx=Hebrew}+$",
+      "flags": "u"
     },
     "start": 1781,
     "end": 1801
@@ -1297,8 +1297,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{scx=Hebr}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{scx=Hebr}+$"
+      "pattern": "^\\P{scx=Hebr}+$",
+      "flags": "u"
     },
     "start": 1868,
     "end": 1886

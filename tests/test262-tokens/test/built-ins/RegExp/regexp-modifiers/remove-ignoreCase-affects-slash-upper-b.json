@@ -21,8 +21,8 @@
     "type": "RegularExpression",
     "value": "/(?-i:Z\\B)/ui",
     "regex": {
-      "flags": "ui",
-      "pattern": "(?-i:Z\\B)"
+      "pattern": "(?-i:Z\\B)",
+      "flags": "ui"
     },
     "start": 2701,
     "end": 2714

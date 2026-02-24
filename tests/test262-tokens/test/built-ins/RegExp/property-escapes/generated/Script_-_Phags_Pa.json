@@ -153,8 +153,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script=Phags_Pa}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script=Phags_Pa}+$"
+      "pattern": "^\\p{Script=Phags_Pa}+$",
+      "flags": "u"
     },
     "start": 578,
     "end": 603
@@ -211,8 +211,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script=Phag}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script=Phag}+$"
+      "pattern": "^\\p{Script=Phag}+$",
+      "flags": "u"
     },
     "start": 672,
     "end": 693
@@ -269,8 +269,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{sc=Phags_Pa}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{sc=Phags_Pa}+$"
+      "pattern": "^\\p{sc=Phags_Pa}+$",
+      "flags": "u"
     },
     "start": 758,
     "end": 779
@@ -327,8 +327,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{sc=Phag}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{sc=Phag}+$"
+      "pattern": "^\\p{sc=Phag}+$",
+      "flags": "u"
     },
     "start": 844,
     "end": 861
@@ -631,8 +631,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script=Phags_Pa}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script=Phags_Pa}+$"
+      "pattern": "^\\P{Script=Phags_Pa}+$",
+      "flags": "u"
     },
     "start": 1106,
     "end": 1131
@@ -689,8 +689,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script=Phag}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script=Phag}+$"
+      "pattern": "^\\P{Script=Phag}+$",
+      "flags": "u"
     },
     "start": 1203,
     "end": 1224
@@ -747,8 +747,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{sc=Phags_Pa}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{sc=Phags_Pa}+$"
+      "pattern": "^\\P{sc=Phags_Pa}+$",
+      "flags": "u"
     },
     "start": 1292,
     "end": 1313
@@ -805,8 +805,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{sc=Phag}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{sc=Phag}+$"
+      "pattern": "^\\P{sc=Phag}+$",
+      "flags": "u"
     },
     "start": 1381,
     "end": 1398

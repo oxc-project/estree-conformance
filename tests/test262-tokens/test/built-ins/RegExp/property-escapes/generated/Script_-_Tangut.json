@@ -231,8 +231,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script=Tangut}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script=Tangut}+$"
+      "pattern": "^\\p{Script=Tangut}+$",
+      "flags": "u"
     },
     "start": 644,
     "end": 667
@@ -289,8 +289,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script=Tang}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script=Tang}+$"
+      "pattern": "^\\p{Script=Tang}+$",
+      "flags": "u"
     },
     "start": 734,
     "end": 755
@@ -347,8 +347,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{sc=Tangut}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{sc=Tangut}+$"
+      "pattern": "^\\p{sc=Tangut}+$",
+      "flags": "u"
     },
     "start": 820,
     "end": 839
@@ -405,8 +405,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{sc=Tang}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{sc=Tang}+$"
+      "pattern": "^\\p{sc=Tang}+$",
+      "flags": "u"
     },
     "start": 902,
     "end": 919
@@ -817,8 +817,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script=Tangut}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script=Tangut}+$"
+      "pattern": "^\\P{Script=Tangut}+$",
+      "flags": "u"
     },
     "start": 1242,
     "end": 1265
@@ -875,8 +875,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script=Tang}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script=Tang}+$"
+      "pattern": "^\\P{Script=Tang}+$",
+      "flags": "u"
     },
     "start": 1335,
     "end": 1356
@@ -933,8 +933,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{sc=Tangut}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{sc=Tangut}+$"
+      "pattern": "^\\P{sc=Tangut}+$",
+      "flags": "u"
     },
     "start": 1424,
     "end": 1443
@@ -991,8 +991,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{sc=Tang}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{sc=Tang}+$"
+      "pattern": "^\\P{sc=Tang}+$",
+      "flags": "u"
     },
     "start": 1509,
     "end": 1526

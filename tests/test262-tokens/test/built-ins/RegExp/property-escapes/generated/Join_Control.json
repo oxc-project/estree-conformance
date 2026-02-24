@@ -153,8 +153,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Join_Control}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Join_Control}+$"
+      "pattern": "^\\p{Join_Control}+$",
+      "flags": "u"
     },
     "start": 575,
     "end": 597
@@ -211,8 +211,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Join_C}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Join_C}+$"
+      "pattern": "^\\p{Join_C}+$",
+      "flags": "u"
     },
     "start": 663,
     "end": 679
@@ -515,8 +515,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Join_Control}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Join_Control}+$"
+      "pattern": "^\\P{Join_Control}+$",
+      "flags": "u"
     },
     "start": 923,
     "end": 945
@@ -573,8 +573,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Join_C}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Join_C}+$"
+      "pattern": "^\\P{Join_C}+$",
+      "flags": "u"
     },
     "start": 1014,
     "end": 1030

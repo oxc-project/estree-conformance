@@ -183,8 +183,8 @@
     "type": "RegularExpression",
     "value": "/(?<x>.)/d",
     "regex": {
-      "flags": "d",
-      "pattern": "(?<x>.)"
+      "pattern": "(?<x>.)",
+      "flags": "d"
     },
     "start": 769,
     "end": 779
@@ -451,8 +451,8 @@
     "type": "RegularExpression",
     "value": "/(?<__proto__>.)/d",
     "regex": {
-      "flags": "d",
-      "pattern": "(?<__proto__>.)"
+      "pattern": "(?<__proto__>.)",
+      "flags": "d"
     },
     "start": 1172,
     "end": 1190

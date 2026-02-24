@@ -39,8 +39,8 @@
     "type": "RegularExpression",
     "value": "/^.$/su",
     "regex": {
-      "flags": "su",
-      "pattern": "^.$"
+      "pattern": "^.$",
+      "flags": "su"
     },
     "start": 636,
     "end": 643
@@ -55,8 +55,8 @@
     "type": "RegularExpression",
     "value": "/^.$/sum",
     "regex": {
-      "flags": "sum",
-      "pattern": "^.$"
+      "pattern": "^.$",
+      "flags": "sum"
     },
     "start": 645,
     "end": 653

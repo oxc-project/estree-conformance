@@ -507,8 +507,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script=Sinhala}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script=Sinhala}+$"
+      "pattern": "^\\p{Script=Sinhala}+$",
+      "flags": "u"
     },
     "start": 855,
     "end": 879
@@ -565,8 +565,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script=Sinh}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script=Sinh}+$"
+      "pattern": "^\\p{Script=Sinh}+$",
+      "flags": "u"
     },
     "start": 947,
     "end": 968
@@ -623,8 +623,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{sc=Sinhala}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{sc=Sinhala}+$"
+      "pattern": "^\\p{sc=Sinhala}+$",
+      "flags": "u"
     },
     "start": 1033,
     "end": 1053
@@ -681,8 +681,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{sc=Sinh}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{sc=Sinh}+$"
+      "pattern": "^\\p{sc=Sinh}+$",
+      "flags": "u"
     },
     "start": 1117,
     "end": 1134
@@ -1291,8 +1291,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script=Sinhala}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script=Sinhala}+$"
+      "pattern": "^\\P{Script=Sinhala}+$",
+      "flags": "u"
     },
     "start": 1633,
     "end": 1657
@@ -1349,8 +1349,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script=Sinh}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script=Sinh}+$"
+      "pattern": "^\\P{Script=Sinh}+$",
+      "flags": "u"
     },
     "start": 1728,
     "end": 1749
@@ -1407,8 +1407,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{sc=Sinhala}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{sc=Sinhala}+$"
+      "pattern": "^\\P{sc=Sinhala}+$",
+      "flags": "u"
     },
     "start": 1817,
     "end": 1837
@@ -1465,8 +1465,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{sc=Sinh}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{sc=Sinh}+$"
+      "pattern": "^\\P{sc=Sinh}+$",
+      "flags": "u"
     },
     "start": 1904,
     "end": 1921

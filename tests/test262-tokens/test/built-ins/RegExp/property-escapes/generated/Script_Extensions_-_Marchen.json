@@ -225,8 +225,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script_Extensions=Marchen}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script_Extensions=Marchen}+$"
+      "pattern": "^\\p{Script_Extensions=Marchen}+$",
+      "flags": "u"
     },
     "start": 640,
     "end": 675
@@ -283,8 +283,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script_Extensions=Marc}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script_Extensions=Marc}+$"
+      "pattern": "^\\p{Script_Extensions=Marc}+$",
+      "flags": "u"
     },
     "start": 754,
     "end": 786
@@ -341,8 +341,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{scx=Marchen}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{scx=Marchen}+$"
+      "pattern": "^\\p{scx=Marchen}+$",
+      "flags": "u"
     },
     "start": 862,
     "end": 883
@@ -399,8 +399,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{scx=Marc}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{scx=Marc}+$"
+      "pattern": "^\\p{scx=Marc}+$",
+      "flags": "u"
     },
     "start": 948,
     "end": 966
@@ -745,8 +745,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script_Extensions=Marchen}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script_Extensions=Marchen}+$"
+      "pattern": "^\\P{Script_Extensions=Marchen}+$",
+      "flags": "u"
     },
     "start": 1254,
     "end": 1289
@@ -803,8 +803,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script_Extensions=Marc}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script_Extensions=Marc}+$"
+      "pattern": "^\\P{Script_Extensions=Marc}+$",
+      "flags": "u"
     },
     "start": 1371,
     "end": 1403
@@ -861,8 +861,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{scx=Marchen}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{scx=Marchen}+$"
+      "pattern": "^\\P{scx=Marchen}+$",
+      "flags": "u"
     },
     "start": 1482,
     "end": 1503
@@ -919,8 +919,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{scx=Marc}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{scx=Marc}+$"
+      "pattern": "^\\P{scx=Marc}+$",
+      "flags": "u"
     },
     "start": 1571,
     "end": 1589

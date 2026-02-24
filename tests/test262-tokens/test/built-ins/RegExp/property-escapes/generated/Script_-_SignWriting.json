@@ -225,8 +225,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script=SignWriting}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script=SignWriting}+$"
+      "pattern": "^\\p{Script=SignWriting}+$",
+      "flags": "u"
     },
     "start": 633,
     "end": 661
@@ -283,8 +283,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script=Sgnw}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script=Sgnw}+$"
+      "pattern": "^\\p{Script=Sgnw}+$",
+      "flags": "u"
     },
     "start": 733,
     "end": 754
@@ -341,8 +341,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{sc=SignWriting}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{sc=SignWriting}+$"
+      "pattern": "^\\p{sc=SignWriting}+$",
+      "flags": "u"
     },
     "start": 819,
     "end": 843
@@ -399,8 +399,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{sc=Sgnw}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{sc=Sgnw}+$"
+      "pattern": "^\\p{sc=Sgnw}+$",
+      "flags": "u"
     },
     "start": 911,
     "end": 928
@@ -745,8 +745,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script=SignWriting}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script=SignWriting}+$"
+      "pattern": "^\\P{Script=SignWriting}+$",
+      "flags": "u"
     },
     "start": 1215,
     "end": 1243
@@ -803,8 +803,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script=Sgnw}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script=Sgnw}+$"
+      "pattern": "^\\P{Script=Sgnw}+$",
+      "flags": "u"
     },
     "start": 1318,
     "end": 1339
@@ -861,8 +861,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{sc=SignWriting}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{sc=SignWriting}+$"
+      "pattern": "^\\P{sc=SignWriting}+$",
+      "flags": "u"
     },
     "start": 1407,
     "end": 1431
@@ -919,8 +919,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{sc=Sgnw}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{sc=Sgnw}+$"
+      "pattern": "^\\P{sc=Sgnw}+$",
+      "flags": "u"
     },
     "start": 1502,
     "end": 1519

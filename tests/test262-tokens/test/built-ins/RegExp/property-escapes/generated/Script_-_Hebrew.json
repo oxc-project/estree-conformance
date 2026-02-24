@@ -411,8 +411,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script=Hebrew}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script=Hebrew}+$"
+      "pattern": "^\\p{Script=Hebrew}+$",
+      "flags": "u"
     },
     "start": 774,
     "end": 797
@@ -469,8 +469,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script=Hebr}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script=Hebr}+$"
+      "pattern": "^\\p{Script=Hebr}+$",
+      "flags": "u"
     },
     "start": 864,
     "end": 885
@@ -527,8 +527,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{sc=Hebrew}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{sc=Hebrew}+$"
+      "pattern": "^\\p{sc=Hebrew}+$",
+      "flags": "u"
     },
     "start": 950,
     "end": 969
@@ -585,8 +585,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{sc=Hebr}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{sc=Hebr}+$"
+      "pattern": "^\\p{sc=Hebr}+$",
+      "flags": "u"
     },
     "start": 1032,
     "end": 1049
@@ -1051,8 +1051,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script=Hebrew}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script=Hebrew}+$"
+      "pattern": "^\\P{Script=Hebrew}+$",
+      "flags": "u"
     },
     "start": 1444,
     "end": 1467
@@ -1109,8 +1109,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script=Hebr}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script=Hebr}+$"
+      "pattern": "^\\P{Script=Hebr}+$",
+      "flags": "u"
     },
     "start": 1537,
     "end": 1558
@@ -1167,8 +1167,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{sc=Hebrew}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{sc=Hebrew}+$"
+      "pattern": "^\\P{sc=Hebrew}+$",
+      "flags": "u"
     },
     "start": 1626,
     "end": 1645
@@ -1225,8 +1225,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{sc=Hebr}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{sc=Hebr}+$"
+      "pattern": "^\\P{sc=Hebr}+$",
+      "flags": "u"
     },
     "start": 1711,
     "end": 1728

@@ -159,8 +159,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script=Ugaritic}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script=Ugaritic}+$"
+      "pattern": "^\\p{Script=Ugaritic}+$",
+      "flags": "u"
     },
     "start": 594,
     "end": 619
@@ -217,8 +217,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script=Ugar}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script=Ugar}+$"
+      "pattern": "^\\p{Script=Ugar}+$",
+      "flags": "u"
     },
     "start": 688,
     "end": 709
@@ -275,8 +275,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{sc=Ugaritic}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{sc=Ugaritic}+$"
+      "pattern": "^\\p{sc=Ugaritic}+$",
+      "flags": "u"
     },
     "start": 774,
     "end": 795
@@ -333,8 +333,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{sc=Ugar}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{sc=Ugar}+$"
+      "pattern": "^\\p{sc=Ugar}+$",
+      "flags": "u"
     },
     "start": 860,
     "end": 877
@@ -643,8 +643,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script=Ugaritic}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script=Ugaritic}+$"
+      "pattern": "^\\P{Script=Ugaritic}+$",
+      "flags": "u"
     },
     "start": 1138,
     "end": 1163
@@ -701,8 +701,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script=Ugar}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script=Ugar}+$"
+      "pattern": "^\\P{Script=Ugar}+$",
+      "flags": "u"
     },
     "start": 1235,
     "end": 1256
@@ -759,8 +759,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{sc=Ugaritic}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{sc=Ugaritic}+$"
+      "pattern": "^\\P{sc=Ugaritic}+$",
+      "flags": "u"
     },
     "start": 1324,
     "end": 1345
@@ -817,8 +817,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{sc=Ugar}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{sc=Ugar}+$"
+      "pattern": "^\\P{sc=Ugar}+$",
+      "flags": "u"
     },
     "start": 1413,
     "end": 1430

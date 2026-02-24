@@ -195,8 +195,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script_Extensions=Manichaean}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script_Extensions=Manichaean}+$"
+      "pattern": "^\\p{Script_Extensions=Manichaean}+$",
+      "flags": "u"
     },
     "start": 633,
     "end": 671
@@ -253,8 +253,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script_Extensions=Mani}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script_Extensions=Mani}+$"
+      "pattern": "^\\p{Script_Extensions=Mani}+$",
+      "flags": "u"
     },
     "start": 753,
     "end": 785
@@ -311,8 +311,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{scx=Manichaean}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{scx=Manichaean}+$"
+      "pattern": "^\\p{scx=Manichaean}+$",
+      "flags": "u"
     },
     "start": 861,
     "end": 885
@@ -369,8 +369,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{scx=Mani}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{scx=Mani}+$"
+      "pattern": "^\\p{scx=Mani}+$",
+      "flags": "u"
     },
     "start": 953,
     "end": 971
@@ -745,8 +745,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script_Extensions=Manichaean}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script_Extensions=Manichaean}+$"
+      "pattern": "^\\P{Script_Extensions=Manichaean}+$",
+      "flags": "u"
     },
     "start": 1269,
     "end": 1307
@@ -803,8 +803,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script_Extensions=Mani}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script_Extensions=Mani}+$"
+      "pattern": "^\\P{Script_Extensions=Mani}+$",
+      "flags": "u"
     },
     "start": 1392,
     "end": 1424
@@ -861,8 +861,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{scx=Manichaean}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{scx=Manichaean}+$"
+      "pattern": "^\\P{scx=Manichaean}+$",
+      "flags": "u"
     },
     "start": 1503,
     "end": 1527
@@ -919,8 +919,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{scx=Mani}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{scx=Mani}+$"
+      "pattern": "^\\P{scx=Mani}+$",
+      "flags": "u"
     },
     "start": 1598,
     "end": 1616

@@ -1371,8 +1371,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script_Extensions=Ethiopic}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script_Extensions=Ethiopic}+$"
+      "pattern": "^\\p{Script_Extensions=Ethiopic}+$",
+      "flags": "u"
     },
     "start": 1491,
     "end": 1527
@@ -1429,8 +1429,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script_Extensions=Ethi}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script_Extensions=Ethi}+$"
+      "pattern": "^\\p{Script_Extensions=Ethi}+$",
+      "flags": "u"
     },
     "start": 1607,
     "end": 1639
@@ -1487,8 +1487,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{scx=Ethiopic}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{scx=Ethiopic}+$"
+      "pattern": "^\\p{scx=Ethiopic}+$",
+      "flags": "u"
     },
     "start": 1715,
     "end": 1737
@@ -1545,8 +1545,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{scx=Ethi}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{scx=Ethi}+$"
+      "pattern": "^\\p{scx=Ethi}+$",
+      "flags": "u"
     },
     "start": 1803,
     "end": 1821
@@ -2659,8 +2659,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script_Extensions=Ethiopic}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script_Extensions=Ethiopic}+$"
+      "pattern": "^\\P{Script_Extensions=Ethiopic}+$",
+      "flags": "u"
     },
     "start": 2765,
     "end": 2801
@@ -2717,8 +2717,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script_Extensions=Ethi}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script_Extensions=Ethi}+$"
+      "pattern": "^\\P{Script_Extensions=Ethi}+$",
+      "flags": "u"
     },
     "start": 2884,
     "end": 2916
@@ -2775,8 +2775,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{scx=Ethiopic}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{scx=Ethiopic}+$"
+      "pattern": "^\\P{scx=Ethiopic}+$",
+      "flags": "u"
     },
     "start": 2995,
     "end": 3017
@@ -2833,8 +2833,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{scx=Ethi}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{scx=Ethi}+$"
+      "pattern": "^\\P{scx=Ethi}+$",
+      "flags": "u"
     },
     "start": 3086,
     "end": 3104

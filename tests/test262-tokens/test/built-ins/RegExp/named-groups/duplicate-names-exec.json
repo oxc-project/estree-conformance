@@ -27,8 +27,8 @@
     "type": "RegularExpression",
     "value": "/(?<x>a)|(?<x>b)/",
     "regex": {
-      "flags": "",
-      "pattern": "(?<x>a)|(?<x>b)"
+      "pattern": "(?<x>a)|(?<x>b)",
+      "flags": ""
     },
     "start": 319,
     "end": 336
@@ -151,8 +151,8 @@
     "type": "RegularExpression",
     "value": "/(?<x>b)|(?<x>a)/",
     "regex": {
-      "flags": "",
-      "pattern": "(?<x>b)|(?<x>a)"
+      "pattern": "(?<x>b)|(?<x>a)",
+      "flags": ""
     },
     "start": 394,
     "end": 411
@@ -275,8 +275,8 @@
     "type": "RegularExpression",
     "value": "/(?:(?<x>a)|(?<x>b))\\k<x>/",
     "regex": {
-      "flags": "",
-      "pattern": "(?:(?<x>a)|(?<x>b))\\k<x>"
+      "pattern": "(?:(?<x>a)|(?<x>b))\\k<x>",
+      "flags": ""
     },
     "start": 470,
     "end": 496
@@ -399,8 +399,8 @@
     "type": "RegularExpression",
     "value": "/(?:(?<x>a)|(?<x>b))\\k<x>/",
     "regex": {
-      "flags": "",
-      "pattern": "(?:(?<x>a)|(?<x>b))\\k<x>"
+      "pattern": "(?:(?<x>a)|(?<x>b))\\k<x>",
+      "flags": ""
     },
     "start": 554,
     "end": 580
@@ -517,8 +517,8 @@
     "type": "RegularExpression",
     "value": "/(?:(?:(?<x>a)|(?<x>b))\\k<x>){2}/",
     "regex": {
-      "flags": "",
-      "pattern": "(?:(?:(?<x>a)|(?<x>b))\\k<x>){2}"
+      "pattern": "(?:(?:(?<x>a)|(?<x>b))\\k<x>){2}",
+      "flags": ""
     },
     "start": 637,
     "end": 670
@@ -755,8 +755,8 @@
     "type": "RegularExpression",
     "value": "/(?:(?:(?<x>a)|(?<x>b))\\k<x>){2}/",
     "regex": {
-      "flags": "",
-      "pattern": "(?:(?:(?<x>a)|(?<x>b))\\k<x>){2}"
+      "pattern": "(?:(?:(?<x>a)|(?<x>b))\\k<x>){2}",
+      "flags": ""
     },
     "start": 808,
     "end": 841
@@ -843,8 +843,8 @@
     "type": "RegularExpression",
     "value": "/(?:(?<x>a)|(?<x>b))\\k<x>/",
     "regex": {
-      "flags": "",
-      "pattern": "(?:(?<x>a)|(?<x>b))\\k<x>"
+      "pattern": "(?:(?<x>a)|(?<x>b))\\k<x>",
+      "flags": ""
     },
     "start": 881,
     "end": 907
@@ -931,8 +931,8 @@
     "type": "RegularExpression",
     "value": "/(?:(?<x>a)|(?<x>b))\\k<x>/",
     "regex": {
-      "flags": "",
-      "pattern": "(?:(?<x>a)|(?<x>b))\\k<x>"
+      "pattern": "(?:(?<x>a)|(?<x>b))\\k<x>",
+      "flags": ""
     },
     "start": 947,
     "end": 973
@@ -1019,8 +1019,8 @@
     "type": "RegularExpression",
     "value": "/^(?:(?<a>x)|(?<a>y)|z)\\k<a>$/",
     "regex": {
-      "flags": "",
-      "pattern": "^(?:(?<a>x)|(?<a>y)|z)\\k<a>$"
+      "pattern": "^(?:(?<a>x)|(?<a>y)|z)\\k<a>$",
+      "flags": ""
     },
     "start": 1016,
     "end": 1046
@@ -1143,8 +1143,8 @@
     "type": "RegularExpression",
     "value": "/^(?:(?<a>x)|(?<a>y)|z)\\k<a>$/",
     "regex": {
-      "flags": "",
-      "pattern": "^(?:(?<a>x)|(?<a>y)|z)\\k<a>$"
+      "pattern": "^(?:(?<a>x)|(?<a>y)|z)\\k<a>$",
+      "flags": ""
     },
     "start": 1104,
     "end": 1134
@@ -1267,8 +1267,8 @@
     "type": "RegularExpression",
     "value": "/^(?:(?<a>x)|(?<a>y)|z)\\k<a>$/",
     "regex": {
-      "flags": "",
-      "pattern": "^(?:(?<a>x)|(?<a>y)|z)\\k<a>$"
+      "pattern": "^(?:(?<a>x)|(?<a>y)|z)\\k<a>$",
+      "flags": ""
     },
     "start": 1193,
     "end": 1223
@@ -1355,8 +1355,8 @@
     "type": "RegularExpression",
     "value": "/(?<a>x)|(?:zy\\k<a>)/",
     "regex": {
-      "flags": "",
-      "pattern": "(?<a>x)|(?:zy\\k<a>)"
+      "pattern": "(?<a>x)|(?:zy\\k<a>)",
+      "flags": ""
     },
     "start": 1263,
     "end": 1284
@@ -1467,8 +1467,8 @@
     "type": "RegularExpression",
     "value": "/^(?:(?<a>x)|(?<a>y)|z){2}\\k<a>$/",
     "regex": {
-      "flags": "",
-      "pattern": "^(?:(?<a>x)|(?<a>y)|z){2}\\k<a>$"
+      "pattern": "^(?:(?<a>x)|(?<a>y)|z){2}\\k<a>$",
+      "flags": ""
     },
     "start": 1338,
     "end": 1371
@@ -1591,8 +1591,8 @@
     "type": "RegularExpression",
     "value": "/^(?:(?<a>x)|(?<a>y)|z){2}\\k<a>$/",
     "regex": {
-      "flags": "",
-      "pattern": "^(?:(?<a>x)|(?<a>y)|z){2}\\k<a>$"
+      "pattern": "^(?:(?<a>x)|(?<a>y)|z){2}\\k<a>$",
+      "flags": ""
     },
     "start": 1435,
     "end": 1468
@@ -1715,8 +1715,8 @@
     "type": "RegularExpression",
     "value": "/^(?:(?<a>x)|(?<a>y)|z){2}\\k<a>$/",
     "regex": {
-      "flags": "",
-      "pattern": "^(?:(?<a>x)|(?<a>y)|z){2}\\k<a>$"
+      "pattern": "^(?:(?<a>x)|(?<a>y)|z){2}\\k<a>$",
+      "flags": ""
     },
     "start": 1529,
     "end": 1562
@@ -1803,8 +1803,8 @@
     "type": "RegularExpression",
     "value": "/^(?:(?<a>x)|(?<a>y)|z){2}\\k<a>$/",
     "regex": {
-      "flags": "",
-      "pattern": "^(?:(?<a>x)|(?<a>y)|z){2}\\k<a>$"
+      "pattern": "^(?:(?<a>x)|(?<a>y)|z){2}\\k<a>$",
+      "flags": ""
     },
     "start": 1600,
     "end": 1633

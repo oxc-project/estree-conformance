@@ -585,8 +585,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script=Telugu}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script=Telugu}+$"
+      "pattern": "^\\p{Script=Telugu}+$",
+      "flags": "u"
     },
     "start": 888,
     "end": 911
@@ -643,8 +643,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script=Telu}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{Script=Telu}+$"
+      "pattern": "^\\p{Script=Telu}+$",
+      "flags": "u"
     },
     "start": 978,
     "end": 999
@@ -701,8 +701,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{sc=Telugu}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{sc=Telugu}+$"
+      "pattern": "^\\p{sc=Telugu}+$",
+      "flags": "u"
     },
     "start": 1064,
     "end": 1083
@@ -759,8 +759,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{sc=Telu}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\p{sc=Telu}+$"
+      "pattern": "^\\p{sc=Telu}+$",
+      "flags": "u"
     },
     "start": 1146,
     "end": 1163
@@ -1321,8 +1321,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script=Telugu}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script=Telugu}+$"
+      "pattern": "^\\P{Script=Telugu}+$",
+      "flags": "u"
     },
     "start": 1638,
     "end": 1661
@@ -1379,8 +1379,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script=Telu}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{Script=Telu}+$"
+      "pattern": "^\\P{Script=Telu}+$",
+      "flags": "u"
     },
     "start": 1731,
     "end": 1752
@@ -1437,8 +1437,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{sc=Telugu}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{sc=Telugu}+$"
+      "pattern": "^\\P{sc=Telugu}+$",
+      "flags": "u"
     },
     "start": 1820,
     "end": 1839
@@ -1495,8 +1495,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{sc=Telu}+$/u",
     "regex": {
-      "flags": "u",
-      "pattern": "^\\P{sc=Telu}+$"
+      "pattern": "^\\P{sc=Telu}+$",
+      "flags": "u"
     },
     "start": 1905,
     "end": 1922

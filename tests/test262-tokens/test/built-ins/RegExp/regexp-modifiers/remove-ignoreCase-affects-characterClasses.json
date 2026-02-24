@@ -21,8 +21,8 @@
     "type": "RegularExpression",
     "value": "/(?-i:[ab])c/i",
     "regex": {
-      "flags": "i",
-      "pattern": "(?-i:[ab])c"
+      "pattern": "(?-i:[ab])c",
+      "flags": "i"
     },
     "start": 2171,
     "end": 2185
@@ -355,8 +355,8 @@
     "type": "RegularExpression",
     "value": "/(?-i:[^ab])c/i",
     "regex": {
-      "flags": "i",
-      "pattern": "(?-i:[^ab])c"
+      "pattern": "(?-i:[^ab])c",
+      "flags": "i"
     },
     "start": 2396,
     "end": 2411

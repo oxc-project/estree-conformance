@@ -63,8 +63,8 @@
     "type": "RegularExpression",
     "value": "/x/iy",
     "regex": {
-      "flags": "iy",
-      "pattern": "x"
+      "pattern": "x",
+      "flags": "iy"
     },
     "start": 901,
     "end": 906
@@ -271,8 +271,8 @@
     "type": "RegularExpression",
     "value": "/[db]/y",
     "regex": {
-      "flags": "y",
-      "pattern": "[db]"
+      "pattern": "[db]",
+      "flags": "y"
     },
     "start": 1033,
     "end": 1040

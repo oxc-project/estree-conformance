@@ -21,8 +21,8 @@
     "type": "RegularExpression",
     "value": "/(?i:\\p{Lu})/u",
     "regex": {
-      "flags": "u",
-      "pattern": "(?i:\\p{Lu})"
+      "pattern": "(?i:\\p{Lu})",
+      "flags": "u"
     },
     "start": 2701,
     "end": 2715
@@ -343,8 +343,8 @@
     "type": "RegularExpression",
     "value": "/(?i-:\\p{Lu})/u",
     "regex": {
-      "flags": "u",
-      "pattern": "(?i-:\\p{Lu})"
+      "pattern": "(?i-:\\p{Lu})",
+      "flags": "u"
     },
     "start": 2954,
     "end": 2969
