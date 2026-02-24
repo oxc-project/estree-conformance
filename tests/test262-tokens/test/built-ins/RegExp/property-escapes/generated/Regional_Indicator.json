@@ -153,8 +153,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Regional_Indicator}+$/u",
     "regex": {
-      "pattern": "^\\p{Regional_Indicator}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\p{Regional_Indicator}+$"
     },
     "start": 581,
     "end": 609
@@ -211,8 +211,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{RI}+$/u",
     "regex": {
-      "pattern": "^\\p{RI}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\p{RI}+$"
     },
     "start": 681,
     "end": 693
@@ -515,8 +515,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Regional_Indicator}+$/u",
     "regex": {
-      "pattern": "^\\P{Regional_Indicator}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\P{Regional_Indicator}+$"
     },
     "start": 933,
     "end": 961
@@ -573,8 +573,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{RI}+$/u",
     "regex": {
-      "pattern": "^\\P{RI}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\P{RI}+$"
     },
     "start": 1036,
     "end": 1048

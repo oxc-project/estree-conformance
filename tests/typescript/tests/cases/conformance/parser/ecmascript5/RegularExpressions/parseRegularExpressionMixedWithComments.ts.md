@@ -240,8 +240,8 @@ __ESTREE_TEST__:TOKENS:
     "type": "RegularExpression",
     "value": "/ asdf /",
     "regex": {
-      "pattern": " asdf ",
-      "flags": ""
+      "flags": "",
+      "pattern": " asdf "
     },
     "start": 13,
     "end": 21
@@ -274,8 +274,8 @@ __ESTREE_TEST__:TOKENS:
     "type": "RegularExpression",
     "value": "/ asdf /",
     "regex": {
-      "pattern": " asdf ",
-      "flags": ""
+      "flags": "",
+      "pattern": " asdf "
     },
     "start": 40,
     "end": 48
@@ -338,8 +338,8 @@ __ESTREE_TEST__:TOKENS:
     "type": "RegularExpression",
     "value": "/ /",
     "regex": {
-      "pattern": " ",
-      "flags": ""
+      "flags": "",
+      "pattern": " "
     },
     "start": 134,
     "end": 137
@@ -354,8 +354,8 @@ __ESTREE_TEST__:TOKENS:
     "type": "RegularExpression",
     "value": "/asdf /",
     "regex": {
-      "pattern": "asdf ",
-      "flags": ""
+      "flags": "",
+      "pattern": "asdf "
     },
     "start": 139,
     "end": 146
@@ -388,8 +388,8 @@ __ESTREE_TEST__:TOKENS:
     "type": "RegularExpression",
     "value": "/ asdf/",
     "regex": {
-      "pattern": " asdf",
-      "flags": ""
+      "flags": "",
+      "pattern": " asdf"
     },
     "start": 165,
     "end": 172
@@ -404,8 +404,8 @@ __ESTREE_TEST__:TOKENS:
     "type": "RegularExpression",
     "value": "/ /",
     "regex": {
-      "pattern": " ",
-      "flags": ""
+      "flags": "",
+      "pattern": " "
     },
     "start": 174,
     "end": 177

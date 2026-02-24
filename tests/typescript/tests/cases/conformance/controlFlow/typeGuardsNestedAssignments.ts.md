@@ -2202,8 +2202,8 @@ __ESTREE_TEST__:TOKENS:
     "type": "RegularExpression",
     "value": "/./g",
     "regex": {
-      "pattern": ".",
-      "flags": "g"
+      "flags": "g",
+      "pattern": "."
     },
     "start": 729,
     "end": 733

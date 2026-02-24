@@ -3867,8 +3867,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Math}+$/u",
     "regex": {
-      "pattern": "^\\p{Math}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\p{Math}+$"
     },
     "start": 3549,
     "end": 3563
@@ -7933,8 +7933,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Math}+$/u",
     "regex": {
-      "pattern": "^\\P{Math}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\P{Math}+$"
     },
     "start": 6811,
     "end": 6825

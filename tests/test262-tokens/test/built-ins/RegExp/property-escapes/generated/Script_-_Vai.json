@@ -153,8 +153,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script=Vai}+$/u",
     "regex": {
-      "pattern": "^\\p{Script=Vai}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\p{Script=Vai}+$"
     },
     "start": 573,
     "end": 593
@@ -211,8 +211,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script=Vaii}+$/u",
     "regex": {
-      "pattern": "^\\p{Script=Vaii}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\p{Script=Vaii}+$"
     },
     "start": 657,
     "end": 678
@@ -269,8 +269,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{sc=Vai}+$/u",
     "regex": {
-      "pattern": "^\\p{sc=Vai}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\p{sc=Vai}+$"
     },
     "start": 743,
     "end": 759
@@ -327,8 +327,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{sc=Vaii}+$/u",
     "regex": {
-      "pattern": "^\\p{sc=Vaii}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\p{sc=Vaii}+$"
     },
     "start": 819,
     "end": 836
@@ -631,8 +631,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script=Vai}+$/u",
     "regex": {
-      "pattern": "^\\P{Script=Vai}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\P{Script=Vai}+$"
     },
     "start": 1081,
     "end": 1101
@@ -689,8 +689,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script=Vaii}+$/u",
     "regex": {
-      "pattern": "^\\P{Script=Vaii}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\P{Script=Vaii}+$"
     },
     "start": 1168,
     "end": 1189
@@ -747,8 +747,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{sc=Vai}+$/u",
     "regex": {
-      "pattern": "^\\P{sc=Vai}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\P{sc=Vai}+$"
     },
     "start": 1257,
     "end": 1273
@@ -805,8 +805,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{sc=Vaii}+$/u",
     "regex": {
-      "pattern": "^\\P{sc=Vaii}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\P{sc=Vaii}+$"
     },
     "start": 1336,
     "end": 1353

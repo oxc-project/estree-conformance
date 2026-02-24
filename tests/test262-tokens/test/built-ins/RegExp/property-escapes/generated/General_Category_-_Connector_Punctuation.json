@@ -255,8 +255,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{General_Category=Connector_Punctuation}+$/u",
     "regex": {
-      "pattern": "^\\p{General_Category=Connector_Punctuation}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\p{General_Category=Connector_Punctuation}+$"
     },
     "start": 697,
     "end": 745
@@ -313,8 +313,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{General_Category=Pc}+$/u",
     "regex": {
-      "pattern": "^\\p{General_Category=Pc}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\p{General_Category=Pc}+$"
     },
     "start": 837,
     "end": 866
@@ -371,8 +371,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{gc=Connector_Punctuation}+$/u",
     "regex": {
-      "pattern": "^\\p{gc=Connector_Punctuation}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\p{gc=Connector_Punctuation}+$"
     },
     "start": 939,
     "end": 973
@@ -429,8 +429,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{gc=Pc}+$/u",
     "regex": {
-      "pattern": "^\\p{gc=Pc}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\p{gc=Pc}+$"
     },
     "start": 1051,
     "end": 1066
@@ -487,8 +487,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Connector_Punctuation}+$/u",
     "regex": {
-      "pattern": "^\\p{Connector_Punctuation}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\p{Connector_Punctuation}+$"
     },
     "start": 1125,
     "end": 1156
@@ -545,8 +545,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Pc}+$/u",
     "regex": {
-      "pattern": "^\\p{Pc}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\p{Pc}+$"
     },
     "start": 1231,
     "end": 1243
@@ -1029,8 +1029,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{General_Category=Connector_Punctuation}+$/u",
     "regex": {
-      "pattern": "^\\P{General_Category=Connector_Punctuation}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\P{General_Category=Connector_Punctuation}+$"
     },
     "start": 1613,
     "end": 1661
@@ -1087,8 +1087,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{General_Category=Pc}+$/u",
     "regex": {
-      "pattern": "^\\P{General_Category=Pc}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\P{General_Category=Pc}+$"
     },
     "start": 1756,
     "end": 1785
@@ -1145,8 +1145,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{gc=Connector_Punctuation}+$/u",
     "regex": {
-      "pattern": "^\\P{gc=Connector_Punctuation}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\P{gc=Connector_Punctuation}+$"
     },
     "start": 1861,
     "end": 1895
@@ -1203,8 +1203,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{gc=Pc}+$/u",
     "regex": {
-      "pattern": "^\\P{gc=Pc}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\P{gc=Pc}+$"
     },
     "start": 1976,
     "end": 1991
@@ -1261,8 +1261,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Connector_Punctuation}+$/u",
     "regex": {
-      "pattern": "^\\P{Connector_Punctuation}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\P{Connector_Punctuation}+$"
     },
     "start": 2053,
     "end": 2084
@@ -1319,8 +1319,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Pc}+$/u",
     "regex": {
-      "pattern": "^\\P{Pc}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\P{Pc}+$"
     },
     "start": 2162,
     "end": 2174

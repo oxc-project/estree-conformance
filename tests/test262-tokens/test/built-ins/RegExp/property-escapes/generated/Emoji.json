@@ -3843,8 +3843,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Emoji}+$/u",
     "regex": {
-      "pattern": "^\\p{Emoji}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\p{Emoji}+$"
     },
     "start": 3618,
     "end": 3633
@@ -8917,8 +8917,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Emoji}+$/u",
     "regex": {
-      "pattern": "^\\P{Emoji}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\P{Emoji}+$"
     },
     "start": 7466,
     "end": 7481

@@ -411,8 +411,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Quotation_Mark}+$/u",
     "regex": {
-      "pattern": "^\\p{Quotation_Mark}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\p{Quotation_Mark}+$"
     },
     "start": 807,
     "end": 831
@@ -469,8 +469,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{QMark}+$/u",
     "regex": {
-      "pattern": "^\\p{QMark}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\p{QMark}+$"
     },
     "start": 899,
     "end": 914
@@ -1205,8 +1205,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Quotation_Mark}+$/u",
     "regex": {
-      "pattern": "^\\P{Quotation_Mark}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\P{Quotation_Mark}+$"
     },
     "start": 1469,
     "end": 1493
@@ -1263,8 +1263,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{QMark}+$/u",
     "regex": {
-      "pattern": "^\\P{QMark}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\P{QMark}+$"
     },
     "start": 1564,
     "end": 1579

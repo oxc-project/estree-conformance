@@ -21,8 +21,8 @@
     "type": "RegularExpression",
     "value": "/(?<=^(\\w+))def/g",
     "regex": {
-      "pattern": "(?<=^(\\w+))def",
-      "flags": "g"
+      "flags": "g",
+      "pattern": "(?<=^(\\w+))def"
     },
     "start": 936,
     "end": 953
@@ -295,8 +295,8 @@
     "type": "RegularExpression",
     "value": "/\\Bdef/g",
     "regex": {
-      "pattern": "\\Bdef",
-      "flags": "g"
+      "flags": "g",
+      "pattern": "\\Bdef"
     },
     "start": 1101,
     "end": 1109

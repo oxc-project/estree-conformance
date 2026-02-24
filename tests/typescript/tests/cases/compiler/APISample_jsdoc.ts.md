@@ -4755,8 +4755,8 @@ __ESTREE_TEST__:TOKENS:
     "type": "RegularExpression",
     "value": "/\\r\\n/g",
     "regex": {
-      "pattern": "\\r\\n",
-      "flags": "g"
+      "flags": "g",
+      "pattern": "\\r\\n"
     },
     "start": 1131,
     "end": 1138

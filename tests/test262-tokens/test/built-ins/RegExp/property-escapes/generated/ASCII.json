@@ -153,8 +153,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{ASCII}+$/u",
     "regex": {
-      "pattern": "^\\p{ASCII}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\p{ASCII}+$"
     },
     "start": 568,
     "end": 583
@@ -421,8 +421,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{ASCII}+$/u",
     "regex": {
-      "pattern": "^\\P{ASCII}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\P{ASCII}+$"
     },
     "start": 800,
     "end": 815

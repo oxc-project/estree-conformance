@@ -21,8 +21,8 @@
     "type": "RegularExpression",
     "value": "/(?-m:es(?m:$)|js$)/m",
     "regex": {
-      "pattern": "(?-m:es(?m:$)|js$)",
-      "flags": "m"
+      "flags": "m",
+      "pattern": "(?-m:es(?m:$)|js$)"
     },
     "start": 1704,
     "end": 1725
@@ -277,8 +277,8 @@
     "type": "RegularExpression",
     "value": "/(?-m:es(?m-:$)|js$)/m",
     "regex": {
-      "pattern": "(?-m:es(?m-:$)|js$)",
-      "flags": "m"
+      "flags": "m",
+      "pattern": "(?-m:es(?m-:$)|js$)"
     },
     "start": 1972,
     "end": 1994

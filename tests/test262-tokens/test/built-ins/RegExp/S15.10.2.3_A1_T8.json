@@ -21,8 +21,8 @@
     "type": "RegularExpression",
     "value": "/(?:ab|cd)+|ef/i",
     "regex": {
-      "pattern": "(?:ab|cd)+|ef",
-      "flags": "i"
+      "flags": "i",
+      "pattern": "(?:ab|cd)+|ef"
     },
     "start": 553,
     "end": 569

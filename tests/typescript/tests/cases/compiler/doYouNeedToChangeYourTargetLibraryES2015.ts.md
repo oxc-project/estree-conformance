@@ -11319,8 +11319,8 @@ __ESTREE_TEST__:TOKENS:
     "type": "RegularExpression",
     "value": "/abc/g",
     "regex": {
-      "pattern": "abc",
-      "flags": "g"
+      "flags": "g",
+      "pattern": "abc"
     },
     "start": 3998,
     "end": 4004
@@ -11365,8 +11365,8 @@ __ESTREE_TEST__:TOKENS:
     "type": "RegularExpression",
     "value": "/abc/g",
     "regex": {
-      "pattern": "abc",
-      "flags": "g"
+      "flags": "g",
+      "pattern": "abc"
     },
     "start": 4037,
     "end": 4043
@@ -11411,8 +11411,8 @@ __ESTREE_TEST__:TOKENS:
     "type": "RegularExpression",
     "value": "/abc/g",
     "regex": {
-      "pattern": "abc",
-      "flags": "g"
+      "flags": "g",
+      "pattern": "abc"
     },
     "start": 4078,
     "end": 4084

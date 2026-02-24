@@ -33,8 +33,8 @@
     "type": "RegularExpression",
     "value": "/[--\\d]+/",
     "regex": {
-      "pattern": "[--\\d]+",
-      "flags": ""
+      "flags": "",
+      "pattern": "[--\\d]+"
     },
     "start": 1099,
     "end": 1108
@@ -163,8 +163,8 @@
     "type": "RegularExpression",
     "value": "/[--\\dz]+/",
     "regex": {
-      "pattern": "[--\\dz]+",
-      "flags": ""
+      "flags": "",
+      "pattern": "[--\\dz]+"
     },
     "start": 1186,
     "end": 1196

@@ -843,8 +843,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Ideographic}+$/u",
     "regex": {
-      "pattern": "^\\p{Ideographic}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\p{Ideographic}+$"
     },
     "start": 1084,
     "end": 1105
@@ -901,8 +901,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Ideo}+$/u",
     "regex": {
-      "pattern": "^\\p{Ideo}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\p{Ideo}+$"
     },
     "start": 1170,
     "end": 1184
@@ -1925,8 +1925,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Ideographic}+$/u",
     "regex": {
-      "pattern": "^\\P{Ideographic}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\P{Ideographic}+$"
     },
     "start": 1946,
     "end": 1967
@@ -1983,8 +1983,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Ideo}+$/u",
     "regex": {
-      "pattern": "^\\P{Ideo}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\P{Ideo}+$"
     },
     "start": 2035,
     "end": 2049

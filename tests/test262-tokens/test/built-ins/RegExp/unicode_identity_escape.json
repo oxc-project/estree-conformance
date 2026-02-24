@@ -15,8 +15,8 @@
     "type": "RegularExpression",
     "value": "/\\^/u",
     "regex": {
-      "pattern": "\\^",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "\\^"
     },
     "start": 494,
     "end": 499
@@ -91,8 +91,8 @@
     "type": "RegularExpression",
     "value": "/\\$/u",
     "regex": {
-      "pattern": "\\$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "\\$"
     },
     "start": 558,
     "end": 563
@@ -167,8 +167,8 @@
     "type": "RegularExpression",
     "value": "/\\\\/u",
     "regex": {
-      "pattern": "\\\\",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "\\\\"
     },
     "start": 622,
     "end": 627
@@ -243,8 +243,8 @@
     "type": "RegularExpression",
     "value": "/\\./u",
     "regex": {
-      "pattern": "\\.",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "\\."
     },
     "start": 688,
     "end": 693
@@ -319,8 +319,8 @@
     "type": "RegularExpression",
     "value": "/\\*/u",
     "regex": {
-      "pattern": "\\*",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "\\*"
     },
     "start": 752,
     "end": 757
@@ -395,8 +395,8 @@
     "type": "RegularExpression",
     "value": "/\\+/u",
     "regex": {
-      "pattern": "\\+",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "\\+"
     },
     "start": 816,
     "end": 821
@@ -471,8 +471,8 @@
     "type": "RegularExpression",
     "value": "/\\?/u",
     "regex": {
-      "pattern": "\\?",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "\\?"
     },
     "start": 880,
     "end": 885
@@ -547,8 +547,8 @@
     "type": "RegularExpression",
     "value": "/\\(/u",
     "regex": {
-      "pattern": "\\(",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "\\("
     },
     "start": 944,
     "end": 949
@@ -623,8 +623,8 @@
     "type": "RegularExpression",
     "value": "/\\)/u",
     "regex": {
-      "pattern": "\\)",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "\\)"
     },
     "start": 1008,
     "end": 1013
@@ -699,8 +699,8 @@
     "type": "RegularExpression",
     "value": "/\\[/u",
     "regex": {
-      "pattern": "\\[",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "\\["
     },
     "start": 1072,
     "end": 1077
@@ -775,8 +775,8 @@
     "type": "RegularExpression",
     "value": "/\\]/u",
     "regex": {
-      "pattern": "\\]",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "\\]"
     },
     "start": 1136,
     "end": 1141
@@ -851,8 +851,8 @@
     "type": "RegularExpression",
     "value": "/\\{/u",
     "regex": {
-      "pattern": "\\{",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "\\{"
     },
     "start": 1200,
     "end": 1205
@@ -927,8 +927,8 @@
     "type": "RegularExpression",
     "value": "/\\}/u",
     "regex": {
-      "pattern": "\\}",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "\\}"
     },
     "start": 1264,
     "end": 1269
@@ -1003,8 +1003,8 @@
     "type": "RegularExpression",
     "value": "/\\|/u",
     "regex": {
-      "pattern": "\\|",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "\\|"
     },
     "start": 1328,
     "end": 1333
@@ -1079,8 +1079,8 @@
     "type": "RegularExpression",
     "value": "/\\//u",
     "regex": {
-      "pattern": "\\/",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "\\/"
     },
     "start": 1392,
     "end": 1397
@@ -1155,8 +1155,8 @@
     "type": "RegularExpression",
     "value": "/[\\^]/u",
     "regex": {
-      "pattern": "[\\^]",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "[\\^]"
     },
     "start": 1491,
     "end": 1498
@@ -1231,8 +1231,8 @@
     "type": "RegularExpression",
     "value": "/[\\$]/u",
     "regex": {
-      "pattern": "[\\$]",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "[\\$]"
     },
     "start": 1560,
     "end": 1567
@@ -1307,8 +1307,8 @@
     "type": "RegularExpression",
     "value": "/[\\\\]/u",
     "regex": {
-      "pattern": "[\\\\]",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "[\\\\]"
     },
     "start": 1629,
     "end": 1636
@@ -1383,8 +1383,8 @@
     "type": "RegularExpression",
     "value": "/[\\.]/u",
     "regex": {
-      "pattern": "[\\.]",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "[\\.]"
     },
     "start": 1700,
     "end": 1707
@@ -1459,8 +1459,8 @@
     "type": "RegularExpression",
     "value": "/[\\*]/u",
     "regex": {
-      "pattern": "[\\*]",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "[\\*]"
     },
     "start": 1769,
     "end": 1776
@@ -1535,8 +1535,8 @@
     "type": "RegularExpression",
     "value": "/[\\+]/u",
     "regex": {
-      "pattern": "[\\+]",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "[\\+]"
     },
     "start": 1838,
     "end": 1845
@@ -1611,8 +1611,8 @@
     "type": "RegularExpression",
     "value": "/[\\?]/u",
     "regex": {
-      "pattern": "[\\?]",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "[\\?]"
     },
     "start": 1907,
     "end": 1914
@@ -1687,8 +1687,8 @@
     "type": "RegularExpression",
     "value": "/[\\(]/u",
     "regex": {
-      "pattern": "[\\(]",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "[\\(]"
     },
     "start": 1976,
     "end": 1983
@@ -1763,8 +1763,8 @@
     "type": "RegularExpression",
     "value": "/[\\)]/u",
     "regex": {
-      "pattern": "[\\)]",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "[\\)]"
     },
     "start": 2045,
     "end": 2052
@@ -1839,8 +1839,8 @@
     "type": "RegularExpression",
     "value": "/[\\[]/u",
     "regex": {
-      "pattern": "[\\[]",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "[\\[]"
     },
     "start": 2114,
     "end": 2121
@@ -1915,8 +1915,8 @@
     "type": "RegularExpression",
     "value": "/[\\]]/u",
     "regex": {
-      "pattern": "[\\]]",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "[\\]]"
     },
     "start": 2183,
     "end": 2190
@@ -1991,8 +1991,8 @@
     "type": "RegularExpression",
     "value": "/[\\{]/u",
     "regex": {
-      "pattern": "[\\{]",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "[\\{]"
     },
     "start": 2252,
     "end": 2259
@@ -2067,8 +2067,8 @@
     "type": "RegularExpression",
     "value": "/[\\}]/u",
     "regex": {
-      "pattern": "[\\}]",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "[\\}]"
     },
     "start": 2321,
     "end": 2328
@@ -2143,8 +2143,8 @@
     "type": "RegularExpression",
     "value": "/[\\|]/u",
     "regex": {
-      "pattern": "[\\|]",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "[\\|]"
     },
     "start": 2390,
     "end": 2397
@@ -2219,8 +2219,8 @@
     "type": "RegularExpression",
     "value": "/[\\/]/u",
     "regex": {
-      "pattern": "[\\/]",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "[\\/]"
     },
     "start": 2459,
     "end": 2466

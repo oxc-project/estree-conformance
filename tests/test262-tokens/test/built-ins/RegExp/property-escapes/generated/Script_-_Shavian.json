@@ -153,8 +153,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script=Shavian}+$/u",
     "regex": {
-      "pattern": "^\\p{Script=Shavian}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\p{Script=Shavian}+$"
     },
     "start": 577,
     "end": 601
@@ -211,8 +211,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script=Shaw}+$/u",
     "regex": {
-      "pattern": "^\\p{Script=Shaw}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\p{Script=Shaw}+$"
     },
     "start": 669,
     "end": 690
@@ -269,8 +269,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{sc=Shavian}+$/u",
     "regex": {
-      "pattern": "^\\p{sc=Shavian}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\p{sc=Shavian}+$"
     },
     "start": 755,
     "end": 775
@@ -327,8 +327,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{sc=Shaw}+$/u",
     "regex": {
-      "pattern": "^\\p{sc=Shaw}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\p{sc=Shaw}+$"
     },
     "start": 839,
     "end": 856
@@ -631,8 +631,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script=Shavian}+$/u",
     "regex": {
-      "pattern": "^\\P{Script=Shavian}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\P{Script=Shavian}+$"
     },
     "start": 1101,
     "end": 1125
@@ -689,8 +689,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script=Shaw}+$/u",
     "regex": {
-      "pattern": "^\\P{Script=Shaw}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\P{Script=Shaw}+$"
     },
     "start": 1196,
     "end": 1217
@@ -747,8 +747,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{sc=Shavian}+$/u",
     "regex": {
-      "pattern": "^\\P{sc=Shavian}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\P{sc=Shavian}+$"
     },
     "start": 1285,
     "end": 1305
@@ -805,8 +805,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{sc=Shaw}+$/u",
     "regex": {
-      "pattern": "^\\P{sc=Shaw}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\P{sc=Shaw}+$"
     },
     "start": 1372,
     "end": 1389

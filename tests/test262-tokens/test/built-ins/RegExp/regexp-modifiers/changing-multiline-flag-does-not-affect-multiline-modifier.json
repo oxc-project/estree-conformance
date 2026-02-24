@@ -39,8 +39,8 @@
     "type": "RegularExpression",
     "value": "/(?m:es$)/m",
     "regex": {
-      "pattern": "(?m:es$)",
-      "flags": "m"
+      "flags": "m",
+      "pattern": "(?m:es$)"
     },
     "start": 2196,
     "end": 2207
@@ -253,8 +253,8 @@
     "type": "RegularExpression",
     "value": "/^(?-m:es$)/",
     "regex": {
-      "pattern": "^(?-m:es$)",
-      "flags": ""
+      "flags": "",
+      "pattern": "^(?-m:es$)"
     },
     "start": 2392,
     "end": 2404

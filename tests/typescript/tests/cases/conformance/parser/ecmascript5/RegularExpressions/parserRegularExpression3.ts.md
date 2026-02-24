@@ -77,8 +77,8 @@ __ESTREE_TEST__:TOKENS:
     "type": "RegularExpression",
     "value": "/(\\\\?|&)adurl=/",
     "regex": {
-      "pattern": "(\\\\?|&)adurl=",
-      "flags": ""
+      "flags": "",
+      "pattern": "(\\\\?|&)adurl="
     },
     "start": 5,
     "end": 20

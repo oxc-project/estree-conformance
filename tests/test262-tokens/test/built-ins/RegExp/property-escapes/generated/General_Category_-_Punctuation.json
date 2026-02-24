@@ -5571,8 +5571,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{General_Category=Punctuation}+$/u",
     "regex": {
-      "pattern": "^\\p{General_Category=Punctuation}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\p{General_Category=Punctuation}+$"
     },
     "start": 4889,
     "end": 4927
@@ -5629,8 +5629,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{General_Category=P}+$/u",
     "regex": {
-      "pattern": "^\\p{General_Category=P}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\p{General_Category=P}+$"
     },
     "start": 5009,
     "end": 5037
@@ -5687,8 +5687,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{General_Category=punct}+$/u",
     "regex": {
-      "pattern": "^\\p{General_Category=punct}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\p{General_Category=punct}+$"
     },
     "start": 5109,
     "end": 5141
@@ -5745,8 +5745,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{gc=Punctuation}+$/u",
     "regex": {
-      "pattern": "^\\p{gc=Punctuation}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\p{gc=Punctuation}+$"
     },
     "start": 5217,
     "end": 5241
@@ -5803,8 +5803,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{gc=P}+$/u",
     "regex": {
-      "pattern": "^\\p{gc=P}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\p{gc=P}+$"
     },
     "start": 5309,
     "end": 5323
@@ -5861,8 +5861,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{gc=punct}+$/u",
     "regex": {
-      "pattern": "^\\p{gc=punct}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\p{gc=punct}+$"
     },
     "start": 5381,
     "end": 5399
@@ -5919,8 +5919,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Punctuation}+$/u",
     "regex": {
-      "pattern": "^\\p{Punctuation}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\p{Punctuation}+$"
     },
     "start": 5461,
     "end": 5482
@@ -5977,8 +5977,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{P}+$/u",
     "regex": {
-      "pattern": "^\\p{P}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\p{P}+$"
     },
     "start": 5547,
     "end": 5558
@@ -6035,8 +6035,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{punct}+$/u",
     "regex": {
-      "pattern": "^\\p{punct}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\p{punct}+$"
     },
     "start": 5613,
     "end": 5628
@@ -12789,8 +12789,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{General_Category=Punctuation}+$/u",
     "regex": {
-      "pattern": "^\\P{General_Category=Punctuation}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\P{General_Category=Punctuation}+$"
     },
     "start": 10685,
     "end": 10723
@@ -12847,8 +12847,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{General_Category=P}+$/u",
     "regex": {
-      "pattern": "^\\P{General_Category=P}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\P{General_Category=P}+$"
     },
     "start": 10808,
     "end": 10836
@@ -12905,8 +12905,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{General_Category=punct}+$/u",
     "regex": {
-      "pattern": "^\\P{General_Category=punct}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\P{General_Category=punct}+$"
     },
     "start": 10911,
     "end": 10943
@@ -12963,8 +12963,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{gc=Punctuation}+$/u",
     "regex": {
-      "pattern": "^\\P{gc=Punctuation}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\P{gc=Punctuation}+$"
     },
     "start": 11022,
     "end": 11046
@@ -13021,8 +13021,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{gc=P}+$/u",
     "regex": {
-      "pattern": "^\\P{gc=P}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\P{gc=P}+$"
     },
     "start": 11117,
     "end": 11131
@@ -13079,8 +13079,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{gc=punct}+$/u",
     "regex": {
-      "pattern": "^\\P{gc=punct}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\P{gc=punct}+$"
     },
     "start": 11192,
     "end": 11210
@@ -13137,8 +13137,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Punctuation}+$/u",
     "regex": {
-      "pattern": "^\\P{Punctuation}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\P{Punctuation}+$"
     },
     "start": 11275,
     "end": 11296
@@ -13195,8 +13195,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{P}+$/u",
     "regex": {
-      "pattern": "^\\P{P}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\P{P}+$"
     },
     "start": 11364,
     "end": 11375
@@ -13253,8 +13253,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{punct}+$/u",
     "regex": {
-      "pattern": "^\\P{punct}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\P{punct}+$"
     },
     "start": 11433,
     "end": 11448

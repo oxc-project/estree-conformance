@@ -153,8 +153,8 @@ __ESTREE_TEST__:TOKENS:
     "type": "RegularExpression",
     "value": "/\\u{10000}[\\u{10000}]/",
     "regex": {
-      "pattern": "\\u{10000}[\\u{10000}]",
-      "flags": ""
+      "flags": "",
+      "pattern": "\\u{10000}[\\u{10000}]"
     },
     "start": 29,
     "end": 51
@@ -169,8 +169,8 @@ __ESTREE_TEST__:TOKENS:
     "type": "RegularExpression",
     "value": "/\\u{10000}[\\u{10000}]/u",
     "regex": {
-      "pattern": "\\u{10000}[\\u{10000}]",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "\\u{10000}[\\u{10000}]"
     },
     "start": 54,
     "end": 77
@@ -185,8 +185,8 @@ __ESTREE_TEST__:TOKENS:
     "type": "RegularExpression",
     "value": "/\\u{10000}[\\u{10000}]/v",
     "regex": {
-      "pattern": "\\u{10000}[\\u{10000}]",
-      "flags": "v"
+      "flags": "v",
+      "pattern": "\\u{10000}[\\u{10000}]"
     },
     "start": 80,
     "end": 103

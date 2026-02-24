@@ -139272,8 +139272,8 @@ __ESTREE_TEST__:TOKENS:
     "type": "RegularExpression",
     "value": "/moe/",
     "regex": {
-      "pattern": "moe",
-      "flags": ""
+      "flags": "",
+      "pattern": "moe"
     },
     "start": 6028,
     "end": 6033
@@ -141094,8 +141094,8 @@ __ESTREE_TEST__:TOKENS:
     "type": "RegularExpression",
     "value": "/\\{\\{(.+?)\\}\\}/g",
     "regex": {
-      "pattern": "\\{\\{(.+?)\\}\\}",
-      "flags": "g"
+      "flags": "g",
+      "pattern": "\\{\\{(.+?)\\}\\}"
     },
     "start": 7245,
     "end": 7261

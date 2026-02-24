@@ -27,8 +27,8 @@
     "type": "RegularExpression",
     "value": "/b/u",
     "regex": {
-      "pattern": "b",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "b"
     },
     "start": 1106,
     "end": 1110
@@ -145,8 +145,8 @@
     "type": "RegularExpression",
     "value": "/./g",
     "regex": {
-      "pattern": ".",
-      "flags": "g"
+      "flags": "g",
+      "pattern": "."
     },
     "start": 1178,
     "end": 1182
@@ -263,8 +263,8 @@
     "type": "RegularExpression",
     "value": "/(b)./",
     "regex": {
-      "pattern": "(b).",
-      "flags": ""
+      "flags": "",
+      "pattern": "(b)."
     },
     "start": 1256,
     "end": 1262
@@ -381,8 +381,8 @@
     "type": "RegularExpression",
     "value": "/(?<foo>.)(?<bar>.)/",
     "regex": {
-      "pattern": "(?<foo>.)(?<bar>.)",
-      "flags": ""
+      "flags": "",
+      "pattern": "(?<foo>.)(?<bar>.)"
     },
     "start": 1330,
     "end": 1350
@@ -499,8 +499,8 @@
     "type": "RegularExpression",
     "value": "/(?<foo>.)(?<bar>.)/gu",
     "regex": {
-      "pattern": "(?<foo>.)(?<bar>.)",
-      "flags": "gu"
+      "flags": "gu",
+      "pattern": "(?<foo>.)(?<bar>.)"
     },
     "start": 1416,
     "end": 1438
@@ -617,8 +617,8 @@
     "type": "RegularExpression",
     "value": "/(?<foo>b)/u",
     "regex": {
-      "pattern": "(?<foo>b)",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "(?<foo>b)"
     },
     "start": 1503,
     "end": 1515
@@ -735,8 +735,8 @@
     "type": "RegularExpression",
     "value": "/(?<foo>.)/g",
     "regex": {
-      "pattern": "(?<foo>.)",
-      "flags": "g"
+      "flags": "g",
+      "pattern": "(?<foo>.)"
     },
     "start": 1578,
     "end": 1590
@@ -853,8 +853,8 @@
     "type": "RegularExpression",
     "value": "/(?<foo>b)/",
     "regex": {
-      "pattern": "(?<foo>b)",
-      "flags": ""
+      "flags": "",
+      "pattern": "(?<foo>b)"
     },
     "start": 1646,
     "end": 1657
@@ -971,8 +971,8 @@
     "type": "RegularExpression",
     "value": "/(?<foo>.)(?<bar>.)/g",
     "regex": {
-      "pattern": "(?<foo>.)(?<bar>.)",
-      "flags": "g"
+      "flags": "g",
+      "pattern": "(?<foo>.)(?<bar>.)"
     },
     "start": 1713,
     "end": 1734
@@ -1089,8 +1089,8 @@
     "type": "RegularExpression",
     "value": "/(?<foo>b)/u",
     "regex": {
-      "pattern": "(?<foo>b)",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "(?<foo>b)"
     },
     "start": 1792,
     "end": 1804
@@ -1207,8 +1207,8 @@
     "type": "RegularExpression",
     "value": "/(?<foo>.)/gu",
     "regex": {
-      "pattern": "(?<foo>.)",
-      "flags": "gu"
+      "flags": "gu",
+      "pattern": "(?<foo>.)"
     },
     "start": 1867,
     "end": 1880
@@ -1325,8 +1325,8 @@
     "type": "RegularExpression",
     "value": "/(?<foo>b)/",
     "regex": {
-      "pattern": "(?<foo>b)",
-      "flags": ""
+      "flags": "",
+      "pattern": "(?<foo>b)"
     },
     "start": 1937,
     "end": 1948
@@ -1443,8 +1443,8 @@
     "type": "RegularExpression",
     "value": "/(?<𝒜>b)/u",
     "regex": {
-      "pattern": "(?<𝒜>b)",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "(?<𝒜>b)"
     },
     "start": 2018,
     "end": 2029
@@ -1561,8 +1561,8 @@
     "type": "RegularExpression",
     "value": "/(?<$𐒤>b)/gu",
     "regex": {
-      "pattern": "(?<$𐒤>b)",
-      "flags": "gu"
+      "flags": "gu",
+      "pattern": "(?<$𐒤>b)"
     },
     "start": 2093,
     "end": 2106

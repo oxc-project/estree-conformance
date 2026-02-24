@@ -3,8 +3,8 @@
     "type": "RegularExpression",
     "value": "/\\p{Script_Extensions=Unknown}/u",
     "regex": {
-      "pattern": "\\p{Script_Extensions=Unknown}",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "\\p{Script_Extensions=Unknown}"
     },
     "start": 429,
     "end": 461
@@ -19,8 +19,8 @@
     "type": "RegularExpression",
     "value": "/\\p{Script_Extensions=Zzzz}/u",
     "regex": {
-      "pattern": "\\p{Script_Extensions=Zzzz}",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "\\p{Script_Extensions=Zzzz}"
     },
     "start": 463,
     "end": 492
@@ -35,8 +35,8 @@
     "type": "RegularExpression",
     "value": "/\\p{scx=Unknown}/u",
     "regex": {
-      "pattern": "\\p{scx=Unknown}",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "\\p{scx=Unknown}"
     },
     "start": 494,
     "end": 512
@@ -51,8 +51,8 @@
     "type": "RegularExpression",
     "value": "/\\p{scx=Zzzz}/u",
     "regex": {
-      "pattern": "\\p{scx=Zzzz}",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "\\p{scx=Zzzz}"
     },
     "start": 514,
     "end": 529

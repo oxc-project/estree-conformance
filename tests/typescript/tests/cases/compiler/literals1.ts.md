@@ -811,8 +811,8 @@ __ESTREE_TEST__:TOKENS:
     "type": "RegularExpression",
     "value": "/q/",
     "regex": {
-      "pattern": "q",
-      "flags": ""
+      "flags": "",
+      "pattern": "q"
     },
     "start": 171,
     "end": 174
@@ -845,8 +845,8 @@ __ESTREE_TEST__:TOKENS:
     "type": "RegularExpression",
     "value": "/\\d+/g",
     "regex": {
-      "pattern": "\\d+",
-      "flags": "g"
+      "flags": "g",
+      "pattern": "\\d+"
     },
     "start": 184,
     "end": 190
@@ -879,8 +879,8 @@ __ESTREE_TEST__:TOKENS:
     "type": "RegularExpression",
     "value": "/[3-5]+/i",
     "regex": {
-      "pattern": "[3-5]+",
-      "flags": "i"
+      "flags": "i",
+      "pattern": "[3-5]+"
     },
     "start": 200,
     "end": 209

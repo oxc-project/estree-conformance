@@ -495,8 +495,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script_Extensions=Cyrillic}+$/u",
     "regex": {
-      "pattern": "^\\p{Script_Extensions=Cyrillic}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\p{Script_Extensions=Cyrillic}+$"
     },
     "start": 901,
     "end": 937
@@ -553,8 +553,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script_Extensions=Cyrl}+$/u",
     "regex": {
-      "pattern": "^\\p{Script_Extensions=Cyrl}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\p{Script_Extensions=Cyrl}+$"
     },
     "start": 1017,
     "end": 1049
@@ -611,8 +611,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{scx=Cyrillic}+$/u",
     "regex": {
-      "pattern": "^\\p{scx=Cyrillic}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\p{scx=Cyrillic}+$"
     },
     "start": 1125,
     "end": 1147
@@ -669,8 +669,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{scx=Cyrl}+$/u",
     "regex": {
-      "pattern": "^\\p{scx=Cyrl}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\p{scx=Cyrl}+$"
     },
     "start": 1213,
     "end": 1231
@@ -1507,8 +1507,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script_Extensions=Cyrillic}+$/u",
     "regex": {
-      "pattern": "^\\P{Script_Extensions=Cyrillic}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\P{Script_Extensions=Cyrillic}+$"
     },
     "start": 1885,
     "end": 1921
@@ -1565,8 +1565,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script_Extensions=Cyrl}+$/u",
     "regex": {
-      "pattern": "^\\P{Script_Extensions=Cyrl}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\P{Script_Extensions=Cyrl}+$"
     },
     "start": 2004,
     "end": 2036
@@ -1623,8 +1623,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{scx=Cyrillic}+$/u",
     "regex": {
-      "pattern": "^\\P{scx=Cyrillic}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\P{scx=Cyrillic}+$"
     },
     "start": 2115,
     "end": 2137
@@ -1681,8 +1681,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{scx=Cyrl}+$/u",
     "regex": {
-      "pattern": "^\\P{scx=Cyrl}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\P{scx=Cyrl}+$"
     },
     "start": 2206,
     "end": 2224

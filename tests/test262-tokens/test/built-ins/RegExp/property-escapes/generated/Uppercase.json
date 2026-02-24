@@ -10527,8 +10527,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Uppercase}+$/u",
     "regex": {
-      "pattern": "^\\p{Uppercase}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\p{Uppercase}+$"
     },
     "start": 11036,
     "end": 11055
@@ -10585,8 +10585,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Upper}+$/u",
     "regex": {
-      "pattern": "^\\p{Upper}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\p{Upper}+$"
     },
     "start": 11118,
     "end": 11133
@@ -21623,8 +21623,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Uppercase}+$/u",
     "regex": {
-      "pattern": "^\\P{Uppercase}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\P{Uppercase}+$"
     },
     "start": 22020,
     "end": 22039
@@ -21681,8 +21681,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Upper}+$/u",
     "regex": {
-      "pattern": "^\\P{Upper}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\P{Upper}+$"
     },
     "start": 22105,
     "end": 22120

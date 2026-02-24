@@ -219,8 +219,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{General_Category=Space_Separator}+$/u",
     "regex": {
-      "pattern": "^\\p{General_Category=Space_Separator}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\p{General_Category=Space_Separator}+$"
     },
     "start": 681,
     "end": 723
@@ -277,8 +277,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{General_Category=Zs}+$/u",
     "regex": {
-      "pattern": "^\\p{General_Category=Zs}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\p{General_Category=Zs}+$"
     },
     "start": 809,
     "end": 838
@@ -335,8 +335,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{gc=Space_Separator}+$/u",
     "regex": {
-      "pattern": "^\\p{gc=Space_Separator}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\p{gc=Space_Separator}+$"
     },
     "start": 911,
     "end": 939
@@ -393,8 +393,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{gc=Zs}+$/u",
     "regex": {
-      "pattern": "^\\p{gc=Zs}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\p{gc=Zs}+$"
     },
     "start": 1011,
     "end": 1026
@@ -451,8 +451,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Space_Separator}+$/u",
     "regex": {
-      "pattern": "^\\p{Space_Separator}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\p{Space_Separator}+$"
     },
     "start": 1085,
     "end": 1110
@@ -509,8 +509,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Zs}+$/u",
     "regex": {
-      "pattern": "^\\p{Zs}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\p{Zs}+$"
     },
     "start": 1179,
     "end": 1191
@@ -1029,8 +1029,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{General_Category=Space_Separator}+$/u",
     "regex": {
-      "pattern": "^\\P{General_Category=Space_Separator}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\P{General_Category=Space_Separator}+$"
     },
     "start": 1587,
     "end": 1629
@@ -1087,8 +1087,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{General_Category=Zs}+$/u",
     "regex": {
-      "pattern": "^\\P{General_Category=Zs}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\P{General_Category=Zs}+$"
     },
     "start": 1718,
     "end": 1747
@@ -1145,8 +1145,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{gc=Space_Separator}+$/u",
     "regex": {
-      "pattern": "^\\P{gc=Space_Separator}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\P{gc=Space_Separator}+$"
     },
     "start": 1823,
     "end": 1851
@@ -1203,8 +1203,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{gc=Zs}+$/u",
     "regex": {
-      "pattern": "^\\P{gc=Zs}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\P{gc=Zs}+$"
     },
     "start": 1926,
     "end": 1941
@@ -1261,8 +1261,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Space_Separator}+$/u",
     "regex": {
-      "pattern": "^\\P{Space_Separator}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\P{Space_Separator}+$"
     },
     "start": 2003,
     "end": 2028
@@ -1319,8 +1319,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Zs}+$/u",
     "regex": {
-      "pattern": "^\\P{Zs}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\P{Zs}+$"
     },
     "start": 2100,
     "end": 2112

@@ -51,8 +51,8 @@
     "type": "RegularExpression",
     "value": "/^.(?<=a)/",
     "regex": {
-      "pattern": "^.(?<=a)",
-      "flags": ""
+      "flags": "",
+      "pattern": "^.(?<=a)"
     },
     "start": 974,
     "end": 984
@@ -151,8 +151,8 @@
     "type": "RegularExpression",
     "value": "/^f\\w\\w(?<=\\woo)/",
     "regex": {
-      "pattern": "^f\\w\\w(?<=\\woo)",
-      "flags": ""
+      "flags": "",
+      "pattern": "^f\\w\\w(?<=\\woo)"
     },
     "start": 1029,
     "end": 1046
@@ -251,8 +251,8 @@
     "type": "RegularExpression",
     "value": "/^f\\w\\w(?<=\\woo)/",
     "regex": {
-      "pattern": "^f\\w\\w(?<=\\woo)",
-      "flags": ""
+      "flags": "",
+      "pattern": "^f\\w\\w(?<=\\woo)"
     },
     "start": 1091,
     "end": 1108
@@ -351,8 +351,8 @@
     "type": "RegularExpression",
     "value": "/^f\\w\\w(?<=\\woo)/",
     "regex": {
-      "pattern": "^f\\w\\w(?<=\\woo)",
-      "flags": ""
+      "flags": "",
+      "pattern": "^f\\w\\w(?<=\\woo)"
     },
     "start": 1153,
     "end": 1170
@@ -451,8 +451,8 @@
     "type": "RegularExpression",
     "value": "/^.(?<=a)/",
     "regex": {
-      "pattern": "^.(?<=a)",
-      "flags": ""
+      "flags": "",
+      "pattern": "^.(?<=a)"
     },
     "start": 1217,
     "end": 1227
@@ -563,8 +563,8 @@
     "type": "RegularExpression",
     "value": "/^f..(?<=.oo)/",
     "regex": {
-      "pattern": "^f..(?<=.oo)",
-      "flags": ""
+      "flags": "",
+      "pattern": "^f..(?<=.oo)"
     },
     "start": 1277,
     "end": 1291
@@ -675,8 +675,8 @@
     "type": "RegularExpression",
     "value": "/^f\\w\\w(?<=\\woo)/",
     "regex": {
-      "pattern": "^f\\w\\w(?<=\\woo)",
-      "flags": ""
+      "flags": "",
+      "pattern": "^f\\w\\w(?<=\\woo)"
     },
     "start": 1343,
     "end": 1360
@@ -787,8 +787,8 @@
     "type": "RegularExpression",
     "value": "/(?<=abc)\\w\\w\\w/",
     "regex": {
-      "pattern": "(?<=abc)\\w\\w\\w",
-      "flags": ""
+      "flags": "",
+      "pattern": "(?<=abc)\\w\\w\\w"
     },
     "start": 1414,
     "end": 1430
@@ -899,8 +899,8 @@
     "type": "RegularExpression",
     "value": "/(?<=a.c)\\w\\w\\w/",
     "regex": {
-      "pattern": "(?<=a.c)\\w\\w\\w",
-      "flags": ""
+      "flags": "",
+      "pattern": "(?<=a.c)\\w\\w\\w"
     },
     "start": 1484,
     "end": 1500
@@ -1011,8 +1011,8 @@
     "type": "RegularExpression",
     "value": "/(?<=a\\wc)\\w\\w\\w/",
     "regex": {
-      "pattern": "(?<=a\\wc)\\w\\w\\w",
-      "flags": ""
+      "flags": "",
+      "pattern": "(?<=a\\wc)\\w\\w\\w"
     },
     "start": 1554,
     "end": 1571
@@ -1123,8 +1123,8 @@
     "type": "RegularExpression",
     "value": "/(?<=a[a-z])\\w\\w\\w/",
     "regex": {
-      "pattern": "(?<=a[a-z])\\w\\w\\w",
-      "flags": ""
+      "flags": "",
+      "pattern": "(?<=a[a-z])\\w\\w\\w"
     },
     "start": 1626,
     "end": 1645
@@ -1235,8 +1235,8 @@
     "type": "RegularExpression",
     "value": "/(?<=a[a-z][a-z])\\w\\w\\w/",
     "regex": {
-      "pattern": "(?<=a[a-z][a-z])\\w\\w\\w",
-      "flags": ""
+      "flags": "",
+      "pattern": "(?<=a[a-z][a-z])\\w\\w\\w"
     },
     "start": 1700,
     "end": 1724
@@ -1347,8 +1347,8 @@
     "type": "RegularExpression",
     "value": "/(?<=a[a-z]{2})\\w\\w\\w/",
     "regex": {
-      "pattern": "(?<=a[a-z]{2})\\w\\w\\w",
-      "flags": ""
+      "flags": "",
+      "pattern": "(?<=a[a-z]{2})\\w\\w\\w"
     },
     "start": 1779,
     "end": 1801
@@ -1459,8 +1459,8 @@
     "type": "RegularExpression",
     "value": "/(?<=a{1})\\w\\w\\w/",
     "regex": {
-      "pattern": "(?<=a{1})\\w\\w\\w",
-      "flags": ""
+      "flags": "",
+      "pattern": "(?<=a{1})\\w\\w\\w"
     },
     "start": 1856,
     "end": 1873
@@ -1571,8 +1571,8 @@
     "type": "RegularExpression",
     "value": "/(?<=a{1}b{1})\\w\\w\\w/",
     "regex": {
-      "pattern": "(?<=a{1}b{1})\\w\\w\\w",
-      "flags": ""
+      "flags": "",
+      "pattern": "(?<=a{1}b{1})\\w\\w\\w"
     },
     "start": 1928,
     "end": 1949
@@ -1683,8 +1683,8 @@
     "type": "RegularExpression",
     "value": "/(?<=a{1}[a-z]{2})\\w\\w\\w/",
     "regex": {
-      "pattern": "(?<=a{1}[a-z]{2})\\w\\w\\w",
-      "flags": ""
+      "flags": "",
+      "pattern": "(?<=a{1}[a-z]{2})\\w\\w\\w"
     },
     "start": 2004,
     "end": 2029

@@ -153,8 +153,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script=Braille}+$/u",
     "regex": {
-      "pattern": "^\\p{Script=Braille}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\p{Script=Braille}+$"
     },
     "start": 577,
     "end": 601
@@ -211,8 +211,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script=Brai}+$/u",
     "regex": {
-      "pattern": "^\\p{Script=Brai}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\p{Script=Brai}+$"
     },
     "start": 669,
     "end": 690
@@ -269,8 +269,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{sc=Braille}+$/u",
     "regex": {
-      "pattern": "^\\p{sc=Braille}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\p{sc=Braille}+$"
     },
     "start": 755,
     "end": 775
@@ -327,8 +327,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{sc=Brai}+$/u",
     "regex": {
-      "pattern": "^\\p{sc=Brai}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\p{sc=Brai}+$"
     },
     "start": 839,
     "end": 856
@@ -631,8 +631,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script=Braille}+$/u",
     "regex": {
-      "pattern": "^\\P{Script=Braille}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\P{Script=Braille}+$"
     },
     "start": 1101,
     "end": 1125
@@ -689,8 +689,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script=Brai}+$/u",
     "regex": {
-      "pattern": "^\\P{Script=Brai}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\P{Script=Brai}+$"
     },
     "start": 1196,
     "end": 1217
@@ -747,8 +747,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{sc=Braille}+$/u",
     "regex": {
-      "pattern": "^\\P{sc=Braille}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\P{sc=Braille}+$"
     },
     "start": 1285,
     "end": 1305
@@ -805,8 +805,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{sc=Brai}+$/u",
     "regex": {
-      "pattern": "^\\P{sc=Brai}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\P{sc=Brai}+$"
     },
     "start": 1372,
     "end": 1389

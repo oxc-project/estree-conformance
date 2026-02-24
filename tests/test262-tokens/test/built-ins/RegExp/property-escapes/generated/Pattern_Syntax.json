@@ -903,8 +903,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Pattern_Syntax}+$/u",
     "regex": {
-      "pattern": "^\\p{Pattern_Syntax}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\p{Pattern_Syntax}+$"
     },
     "start": 1173,
     "end": 1197
@@ -961,8 +961,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Pat_Syn}+$/u",
     "regex": {
-      "pattern": "^\\p{Pat_Syn}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\p{Pat_Syn}+$"
     },
     "start": 1265,
     "end": 1282
@@ -2087,8 +2087,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Pattern_Syntax}+$/u",
     "regex": {
-      "pattern": "^\\P{Pattern_Syntax}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\P{Pattern_Syntax}+$"
     },
     "start": 2159,
     "end": 2183
@@ -2145,8 +2145,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Pat_Syn}+$/u",
     "regex": {
-      "pattern": "^\\P{Pat_Syn}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\P{Pat_Syn}+$"
     },
     "start": 2254,
     "end": 2271

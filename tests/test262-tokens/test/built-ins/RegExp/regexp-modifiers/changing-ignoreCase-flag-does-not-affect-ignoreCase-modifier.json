@@ -39,8 +39,8 @@
     "type": "RegularExpression",
     "value": "/(?i:aB)/i",
     "regex": {
-      "pattern": "(?i:aB)",
-      "flags": "i"
+      "flags": "i",
+      "pattern": "(?i:aB)"
     },
     "start": 2198,
     "end": 2208
@@ -397,8 +397,8 @@
     "type": "RegularExpression",
     "value": "/(?-i:aB)/",
     "regex": {
-      "pattern": "(?-i:aB)",
-      "flags": ""
+      "flags": "",
+      "pattern": "(?-i:aB)"
     },
     "start": 2517,
     "end": 2527

@@ -63,8 +63,8 @@
     "type": "RegularExpression",
     "value": "/\\W/g",
     "regex": {
-      "pattern": "\\W",
-      "flags": "g"
+      "flags": "g",
+      "pattern": "\\W"
     },
     "start": 436,
     "end": 441
@@ -337,8 +337,8 @@
     "type": "RegularExpression",
     "value": "/\\W/",
     "regex": {
-      "pattern": "\\W",
-      "flags": ""
+      "flags": "",
+      "pattern": "\\W"
     },
     "start": 707,
     "end": 711

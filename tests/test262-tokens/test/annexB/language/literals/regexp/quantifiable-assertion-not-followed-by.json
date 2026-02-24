@@ -33,8 +33,8 @@
     "type": "RegularExpression",
     "value": "/[a-e](?!Z)*/",
     "regex": {
-      "pattern": "[a-e](?!Z)*",
-      "flags": ""
+      "flags": "",
+      "pattern": "[a-e](?!Z)*"
     },
     "start": 1013,
     "end": 1026
@@ -175,8 +175,8 @@
     "type": "RegularExpression",
     "value": "/[a-e](?!Z)+/",
     "regex": {
-      "pattern": "[a-e](?!Z)+",
-      "flags": ""
+      "flags": "",
+      "pattern": "[a-e](?!Z)+"
     },
     "start": 1115,
     "end": 1128
@@ -317,8 +317,8 @@
     "type": "RegularExpression",
     "value": "/[a-e](?!Z)?/",
     "regex": {
-      "pattern": "[a-e](?!Z)?",
-      "flags": ""
+      "flags": "",
+      "pattern": "[a-e](?!Z)?"
     },
     "start": 1217,
     "end": 1230
@@ -459,8 +459,8 @@
     "type": "RegularExpression",
     "value": "/[a-e](?!Z){2}/",
     "regex": {
-      "pattern": "[a-e](?!Z){2}",
-      "flags": ""
+      "flags": "",
+      "pattern": "[a-e](?!Z){2}"
     },
     "start": 1319,
     "end": 1334
@@ -601,8 +601,8 @@
     "type": "RegularExpression",
     "value": "/[a-e](?!Z){2,}/",
     "regex": {
-      "pattern": "[a-e](?!Z){2,}",
-      "flags": ""
+      "flags": "",
+      "pattern": "[a-e](?!Z){2,}"
     },
     "start": 1439,
     "end": 1455
@@ -743,8 +743,8 @@
     "type": "RegularExpression",
     "value": "/[a-e](?!Z){2,3}/",
     "regex": {
-      "pattern": "[a-e](?!Z){2,3}",
-      "flags": ""
+      "flags": "",
+      "pattern": "[a-e](?!Z){2,3}"
     },
     "start": 1562,
     "end": 1579
@@ -885,8 +885,8 @@
     "type": "RegularExpression",
     "value": "/[a-e](?!Z)*?/",
     "regex": {
-      "pattern": "[a-e](?!Z)*?",
-      "flags": ""
+      "flags": "",
+      "pattern": "[a-e](?!Z)*?"
     },
     "start": 1704,
     "end": 1718
@@ -1027,8 +1027,8 @@
     "type": "RegularExpression",
     "value": "/[a-e](?!Z)+?/",
     "regex": {
-      "pattern": "[a-e](?!Z)+?",
-      "flags": ""
+      "flags": "",
+      "pattern": "[a-e](?!Z)+?"
     },
     "start": 1809,
     "end": 1823
@@ -1169,8 +1169,8 @@
     "type": "RegularExpression",
     "value": "/[a-e](?!Z)??/",
     "regex": {
-      "pattern": "[a-e](?!Z)??",
-      "flags": ""
+      "flags": "",
+      "pattern": "[a-e](?!Z)??"
     },
     "start": 1914,
     "end": 1928
@@ -1311,8 +1311,8 @@
     "type": "RegularExpression",
     "value": "/[a-e](?!Z){2}?/",
     "regex": {
-      "pattern": "[a-e](?!Z){2}?",
-      "flags": ""
+      "flags": "",
+      "pattern": "[a-e](?!Z){2}?"
     },
     "start": 2019,
     "end": 2035
@@ -1453,8 +1453,8 @@
     "type": "RegularExpression",
     "value": "/[a-e](?!Z){2,}?/",
     "regex": {
-      "pattern": "[a-e](?!Z){2,}?",
-      "flags": ""
+      "flags": "",
+      "pattern": "[a-e](?!Z){2,}?"
     },
     "start": 2142,
     "end": 2159
@@ -1595,8 +1595,8 @@
     "type": "RegularExpression",
     "value": "/[a-e](?!Z){2,3}?/",
     "regex": {
-      "pattern": "[a-e](?!Z){2,3}?",
-      "flags": ""
+      "flags": "",
+      "pattern": "[a-e](?!Z){2,3}?"
     },
     "start": 2268,
     "end": 2286

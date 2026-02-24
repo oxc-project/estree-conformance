@@ -447,8 +447,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script_Extensions=Glagolitic}+$/u",
     "regex": {
-      "pattern": "^\\p{Script_Extensions=Glagolitic}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\p{Script_Extensions=Glagolitic}+$"
     },
     "start": 863,
     "end": 901
@@ -505,8 +505,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Script_Extensions=Glag}+$/u",
     "regex": {
-      "pattern": "^\\p{Script_Extensions=Glag}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\p{Script_Extensions=Glag}+$"
     },
     "start": 983,
     "end": 1015
@@ -563,8 +563,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{scx=Glagolitic}+$/u",
     "regex": {
-      "pattern": "^\\p{scx=Glagolitic}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\p{scx=Glagolitic}+$"
     },
     "start": 1091,
     "end": 1115
@@ -621,8 +621,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{scx=Glag}+$/u",
     "regex": {
-      "pattern": "^\\p{scx=Glag}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\p{scx=Glag}+$"
     },
     "start": 1183,
     "end": 1201
@@ -1363,8 +1363,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script_Extensions=Glagolitic}+$/u",
     "regex": {
-      "pattern": "^\\P{Script_Extensions=Glagolitic}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\P{Script_Extensions=Glagolitic}+$"
     },
     "start": 1791,
     "end": 1829
@@ -1421,8 +1421,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Script_Extensions=Glag}+$/u",
     "regex": {
-      "pattern": "^\\P{Script_Extensions=Glag}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\P{Script_Extensions=Glag}+$"
     },
     "start": 1914,
     "end": 1946
@@ -1479,8 +1479,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{scx=Glagolitic}+$/u",
     "regex": {
-      "pattern": "^\\P{scx=Glagolitic}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\P{scx=Glagolitic}+$"
     },
     "start": 2025,
     "end": 2049
@@ -1537,8 +1537,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{scx=Glag}+$/u",
     "regex": {
-      "pattern": "^\\P{scx=Glag}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\P{scx=Glag}+$"
     },
     "start": 2120,
     "end": 2138

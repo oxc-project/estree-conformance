@@ -591,8 +591,8 @@
     "type": "RegularExpression",
     "value": "/^[a-z0-9]{3,8}(-[a-z0-9]{3,8})*$/",
     "regex": {
-      "pattern": "^[a-z0-9]{3,8}(-[a-z0-9]{3,8})*$",
-      "flags": ""
+      "flags": "",
+      "pattern": "^[a-z0-9]{3,8}(-[a-z0-9]{3,8})*$"
     },
     "start": 1701,
     "end": 1735

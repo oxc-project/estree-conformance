@@ -5100,8 +5100,8 @@ __ESTREE_TEST__:TOKENS:
     "type": "RegularExpression",
     "value": "/[a-z]/",
     "regex": {
-      "pattern": "[a-z]",
-      "flags": ""
+      "flags": "",
+      "pattern": "[a-z]"
     },
     "start": 910,
     "end": 917
@@ -5140,8 +5140,8 @@ __ESTREE_TEST__:TOKENS:
     "type": "RegularExpression",
     "value": "/[a-z]/",
     "regex": {
-      "pattern": "[a-z]",
-      "flags": ""
+      "flags": "",
+      "pattern": "[a-z]"
     },
     "start": 930,
     "end": 937
@@ -5198,8 +5198,8 @@ __ESTREE_TEST__:TOKENS:
     "type": "RegularExpression",
     "value": "/[a-z]/",
     "regex": {
-      "pattern": "[a-z]",
-      "flags": ""
+      "flags": "",
+      "pattern": "[a-z]"
     },
     "start": 955,
     "end": 962
@@ -7362,8 +7362,8 @@ __ESTREE_TEST__:TOKENS:
     "type": "RegularExpression",
     "value": "/[a-z]/",
     "regex": {
-      "pattern": "[a-z]",
-      "flags": ""
+      "flags": "",
+      "pattern": "[a-z]"
     },
     "start": 1744,
     "end": 1751

@@ -1119,8 +1119,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Emoji_Modifier_Base}+$/u",
     "regex": {
-      "pattern": "^\\p{Emoji_Modifier_Base}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\p{Emoji_Modifier_Base}+$"
     },
     "start": 1382,
     "end": 1411
@@ -1177,8 +1177,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{EBase}+$/u",
     "regex": {
-      "pattern": "^\\p{EBase}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\p{EBase}+$"
     },
     "start": 1484,
     "end": 1499
@@ -2759,8 +2759,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Emoji_Modifier_Base}+$/u",
     "regex": {
-      "pattern": "^\\P{Emoji_Modifier_Base}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\P{Emoji_Modifier_Base}+$"
     },
     "start": 2698,
     "end": 2727
@@ -2817,8 +2817,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{EBase}+$/u",
     "regex": {
-      "pattern": "^\\P{EBase}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\P{EBase}+$"
     },
     "start": 2803,
     "end": 2818

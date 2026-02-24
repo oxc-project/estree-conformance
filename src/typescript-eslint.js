@@ -29,6 +29,7 @@ await run({
             jsx: test.sourceType.jsx,
           },
         });
+        // oxlint-disable-next-line no-unused-vars
         const { comments, tokens, ...program } = result.ast;
 
         // TS-ESLint parser has no `unambiguous` option, so emulate it here
@@ -72,49 +73,22 @@ await run({
           }
         }
 
-        // Add `hashbang` property to AST if file starts with a hashbang.
-        // This property is non-standard and exclusive to Oxc.
-        if (comments.length > 0 && comments[0].type === "Shebang") {
-          const comment = comments[0];
-          program.hashbang = {
-            type: "Hashbang",
-            value: comment.value,
-            start: comment.range[0],
-            end: comment.range[1],
-          };
-        } else {
-          program.hashbang = null;
-        }
-
         const astJson = stringifyWith(program, transformerTs);
         output += "__ESTREE_TEST__:AST:\n```json\n" + astJson + "\n```\n";
 
         // Conform tokens.
-        // * Remove `range` and `loc`.
-        // * Add `start` + `end`.
-        // * Move `regex` field to after `value`.
-        // * Reverse order of `regex` object properties (`pattern` first).
+        // * Remove `range` and `loc`
+        // * Move `regex` field to after `value`
+        // * Add `start` + `end`
         for (let i = 0; i < tokens.length; i++) {
-          const { range, loc: _loc, regex, ...token } = tokens[i];
+          let token, range, regex, _loc;
+          ({ regex, range, loc: _loc, ...token } = tokens[i]);
 
-          if (typeof regex === "object" && regex !== null) {
-            tokens[i] = {
-              type: undefined,
-              value: undefined,
-              regex: { pattern: undefined, flags: undefined, ...regex },
-              start: range[0],
-              end: range[1],
-              ...token,
-            };
-          } else {
-            tokens[i] = {
-              type: undefined,
-              value: undefined,
-              start: range[0],
-              end: range[1],
-              ...token,
-            };
-          }
+          if (regex !== undefined) token.regex = regex;
+          token.start = range[0];
+          token.end = range[1];
+
+          tokens[i] = token;
         }
 
         const tokensJson = JSON.stringify(tokens, null, 2);

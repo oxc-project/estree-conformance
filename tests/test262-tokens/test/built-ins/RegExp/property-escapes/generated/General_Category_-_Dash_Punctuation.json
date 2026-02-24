@@ -423,8 +423,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{General_Category=Dash_Punctuation}+$/u",
     "regex": {
-      "pattern": "^\\p{General_Category=Dash_Punctuation}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\p{General_Category=Dash_Punctuation}+$"
     },
     "start": 888,
     "end": 931
@@ -481,8 +481,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{General_Category=Pd}+$/u",
     "regex": {
-      "pattern": "^\\p{General_Category=Pd}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\p{General_Category=Pd}+$"
     },
     "start": 1018,
     "end": 1047
@@ -539,8 +539,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{gc=Dash_Punctuation}+$/u",
     "regex": {
-      "pattern": "^\\p{gc=Dash_Punctuation}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\p{gc=Dash_Punctuation}+$"
     },
     "start": 1120,
     "end": 1149
@@ -597,8 +597,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{gc=Pd}+$/u",
     "regex": {
-      "pattern": "^\\p{gc=Pd}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\p{gc=Pd}+$"
     },
     "start": 1222,
     "end": 1237
@@ -655,8 +655,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Dash_Punctuation}+$/u",
     "regex": {
-      "pattern": "^\\p{Dash_Punctuation}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\p{Dash_Punctuation}+$"
     },
     "start": 1296,
     "end": 1322
@@ -713,8 +713,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Pd}+$/u",
     "regex": {
-      "pattern": "^\\p{Pd}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\p{Pd}+$"
     },
     "start": 1392,
     "end": 1404
@@ -1701,8 +1701,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{General_Category=Dash_Punctuation}+$/u",
     "regex": {
-      "pattern": "^\\P{General_Category=Dash_Punctuation}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\P{General_Category=Dash_Punctuation}+$"
     },
     "start": 2138,
     "end": 2181
@@ -1759,8 +1759,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{General_Category=Pd}+$/u",
     "regex": {
-      "pattern": "^\\P{General_Category=Pd}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\P{General_Category=Pd}+$"
     },
     "start": 2271,
     "end": 2300
@@ -1817,8 +1817,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{gc=Dash_Punctuation}+$/u",
     "regex": {
-      "pattern": "^\\P{gc=Dash_Punctuation}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\P{gc=Dash_Punctuation}+$"
     },
     "start": 2376,
     "end": 2405
@@ -1875,8 +1875,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{gc=Pd}+$/u",
     "regex": {
-      "pattern": "^\\P{gc=Pd}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\P{gc=Pd}+$"
     },
     "start": 2481,
     "end": 2496
@@ -1933,8 +1933,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Dash_Punctuation}+$/u",
     "regex": {
-      "pattern": "^\\P{Dash_Punctuation}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\P{Dash_Punctuation}+$"
     },
     "start": 2558,
     "end": 2584
@@ -1991,8 +1991,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Pd}+$/u",
     "regex": {
-      "pattern": "^\\P{Pd}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\P{Pd}+$"
     },
     "start": 2657,
     "end": 2669

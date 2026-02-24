@@ -45,8 +45,8 @@
     "type": "RegularExpression",
     "value": "/(?<x>a)|(?<x>b)/d",
     "regex": {
-      "pattern": "(?<x>a)|(?<x>b)",
-      "flags": "d"
+      "flags": "d",
+      "pattern": "(?<x>a)|(?<x>b)"
     },
     "start": 362,
     "end": 380
@@ -217,8 +217,8 @@
     "type": "RegularExpression",
     "value": "/(?<x>a)|(?<x>b)/d",
     "regex": {
-      "pattern": "(?<x>a)|(?<x>b)",
-      "flags": "d"
+      "flags": "d",
+      "pattern": "(?<x>a)|(?<x>b)"
     },
     "start": 462,
     "end": 480

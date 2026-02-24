@@ -231,8 +231,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{Variation_Selector}+$/u",
     "regex": {
-      "pattern": "^\\p{Variation_Selector}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\p{Variation_Selector}+$"
     },
     "start": 649,
     "end": 677
@@ -289,8 +289,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{VS}+$/u",
     "regex": {
-      "pattern": "^\\p{VS}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\p{VS}+$"
     },
     "start": 749,
     "end": 761
@@ -671,8 +671,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{Variation_Selector}+$/u",
     "regex": {
-      "pattern": "^\\P{Variation_Selector}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\P{Variation_Selector}+$"
     },
     "start": 1069,
     "end": 1097
@@ -729,8 +729,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{VS}+$/u",
     "regex": {
-      "pattern": "^\\P{VS}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\P{VS}+$"
     },
     "start": 1172,
     "end": 1184

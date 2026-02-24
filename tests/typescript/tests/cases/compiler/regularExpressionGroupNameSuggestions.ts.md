@@ -70,8 +70,8 @@ __ESTREE_TEST__:TOKENS:
     "type": "RegularExpression",
     "value": "/(?<foo>)\\k<Foo>/",
     "regex": {
-      "pattern": "(?<foo>)\\k<Foo>",
-      "flags": ""
+      "flags": "",
+      "pattern": "(?<foo>)\\k<Foo>"
     },
     "start": 14,
     "end": 31

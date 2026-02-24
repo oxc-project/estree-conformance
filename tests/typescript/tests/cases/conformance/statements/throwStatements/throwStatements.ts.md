@@ -4010,8 +4010,8 @@ __ESTREE_TEST__:TOKENS:
     "type": "RegularExpression",
     "value": "/[a-z]/",
     "regex": {
-      "pattern": "[a-z]",
-      "flags": ""
+      "flags": "",
+      "pattern": "[a-z]"
     },
     "start": 1338,
     "end": 1345

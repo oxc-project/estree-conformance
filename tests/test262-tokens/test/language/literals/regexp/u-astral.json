@@ -15,8 +15,8 @@
     "type": "RegularExpression",
     "value": "/𝌆{2}/u",
     "regex": {
-      "pattern": "𝌆{2}",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "𝌆{2}"
     },
     "start": 966,
     "end": 974
@@ -91,8 +91,8 @@
     "type": "RegularExpression",
     "value": "/^[𝌆]$/u",
     "regex": {
-      "pattern": "^[𝌆]$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^[𝌆]$"
     },
     "start": 1024,
     "end": 1033
@@ -173,8 +173,8 @@
     "type": "RegularExpression",
     "value": "/[💩-💫]/u",
     "regex": {
-      "pattern": "[💩-💫]",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "[💩-💫]"
     },
     "start": 1080,
     "end": 1090
@@ -681,8 +681,8 @@
     "type": "RegularExpression",
     "value": "/[^𝌆]/u",
     "regex": {
-      "pattern": "[^𝌆]",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "[^𝌆]"
     },
     "start": 1724,
     "end": 1732
@@ -757,8 +757,8 @@
     "type": "RegularExpression",
     "value": "/[^𝌆]/u",
     "regex": {
-      "pattern": "[^𝌆]",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "[^𝌆]"
     },
     "start": 1802,
     "end": 1810

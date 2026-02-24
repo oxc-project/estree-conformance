@@ -70,8 +70,8 @@ __ESTREE_TEST__:TOKENS:
     "type": "RegularExpression",
     "value": "/(?𝘴𝘪-𝘮:^𝘧𝘰𝘰.)/𝘨𝘮𝘶",
     "regex": {
-      "pattern": "(?𝘴𝘪-𝘮:^𝘧𝘰𝘰.)",
-      "flags": "𝘨𝘮𝘶"
+      "flags": "𝘨𝘮𝘶",
+      "pattern": "(?𝘴𝘪-𝘮:^𝘧𝘰𝘰.)"
     },
     "start": 378,
     "end": 405

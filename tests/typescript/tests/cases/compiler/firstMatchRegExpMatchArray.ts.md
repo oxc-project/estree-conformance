@@ -273,8 +273,8 @@ __ESTREE_TEST__:TOKENS:
     "type": "RegularExpression",
     "value": "/ /",
     "regex": {
-      "pattern": " ",
-      "flags": ""
+      "flags": "",
+      "pattern": " "
     },
     "start": 23,
     "end": 26

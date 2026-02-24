@@ -225,8 +225,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{ASCII_Hex_Digit}+$/u",
     "regex": {
-      "pattern": "^\\p{ASCII_Hex_Digit}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\p{ASCII_Hex_Digit}+$"
     },
     "start": 630,
     "end": 655
@@ -283,8 +283,8 @@
     "type": "RegularExpression",
     "value": "/^\\p{AHex}+$/u",
     "regex": {
-      "pattern": "^\\p{AHex}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\p{AHex}+$"
     },
     "start": 724,
     "end": 738
@@ -659,8 +659,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{ASCII_Hex_Digit}+$/u",
     "regex": {
-      "pattern": "^\\P{ASCII_Hex_Digit}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\P{ASCII_Hex_Digit}+$"
     },
     "start": 1032,
     "end": 1057
@@ -717,8 +717,8 @@
     "type": "RegularExpression",
     "value": "/^\\P{AHex}+$/u",
     "regex": {
-      "pattern": "^\\P{AHex}+$",
-      "flags": "u"
+      "flags": "u",
+      "pattern": "^\\P{AHex}+$"
     },
     "start": 1129,
     "end": 1143
