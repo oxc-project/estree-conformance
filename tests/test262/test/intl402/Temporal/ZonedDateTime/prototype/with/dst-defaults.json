@@ -1,0 +1,662 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "dstStartDay",
+            "start": 326,
+            "end": 337
+          },
+          "init": {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "CallExpression",
+                "callee": {
+                  "type": "MemberExpression",
+                  "object": {
+                    "type": "MemberExpression",
+                    "object": {
+                      "type": "Identifier",
+                      "name": "Temporal",
+                      "start": 340,
+                      "end": 348
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "name": "PlainDateTime",
+                      "start": 349,
+                      "end": 362
+                    },
+                    "optional": false,
+                    "computed": false,
+                    "start": 340,
+                    "end": 362
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "name": "from",
+                    "start": 363,
+                    "end": 367
+                  },
+                  "optional": false,
+                  "computed": false,
+                  "start": 340,
+                  "end": 367
+                },
+                "arguments": [
+                  {
+                    "type": "Literal",
+                    "value": "2000-04-02T12:00:01",
+                    "raw": "\"2000-04-02T12:00:01\"",
+                    "start": 368,
+                    "end": 389
+                  }
+                ],
+                "optional": false,
+                "start": 340,
+                "end": 390
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "toZonedDateTime",
+                "start": 391,
+                "end": 406
+              },
+              "optional": false,
+              "computed": false,
+              "start": 340,
+              "end": 406
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "value": "America/Vancouver",
+                "raw": "\"America/Vancouver\"",
+                "start": 407,
+                "end": 426
+              }
+            ],
+            "optional": false,
+            "start": 340,
+            "end": 427
+          },
+          "start": 326,
+          "end": 427
+        }
+      ],
+      "start": 320,
+      "end": 428
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "dstEndDay",
+            "start": 435,
+            "end": 444
+          },
+          "init": {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "CallExpression",
+                "callee": {
+                  "type": "MemberExpression",
+                  "object": {
+                    "type": "MemberExpression",
+                    "object": {
+                      "type": "Identifier",
+                      "name": "Temporal",
+                      "start": 447,
+                      "end": 455
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "name": "PlainDateTime",
+                      "start": 456,
+                      "end": 469
+                    },
+                    "optional": false,
+                    "computed": false,
+                    "start": 447,
+                    "end": 469
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "name": "from",
+                    "start": 470,
+                    "end": 474
+                  },
+                  "optional": false,
+                  "computed": false,
+                  "start": 447,
+                  "end": 474
+                },
+                "arguments": [
+                  {
+                    "type": "Literal",
+                    "value": "2000-10-29T12:00:01",
+                    "raw": "\"2000-10-29T12:00:01\"",
+                    "start": 475,
+                    "end": 496
+                  }
+                ],
+                "optional": false,
+                "start": 447,
+                "end": 497
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "toZonedDateTime",
+                "start": 498,
+                "end": 513
+              },
+              "optional": false,
+              "computed": false,
+              "start": 447,
+              "end": 513
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "value": "America/Vancouver",
+                "raw": "\"America/Vancouver\"",
+                "start": 514,
+                "end": 533
+              }
+            ],
+            "optional": false,
+            "start": 447,
+            "end": 534
+          },
+          "start": 435,
+          "end": 534
+        }
+      ],
+      "start": 429,
+      "end": 535
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "twoThirty",
+            "start": 542,
+            "end": 551
+          },
+          "init": {
+            "type": "ObjectExpression",
+            "properties": [
+              {
+                "type": "Property",
+                "kind": "init",
+                "key": {
+                  "type": "Identifier",
+                  "name": "hour",
+                  "start": 558,
+                  "end": 562
+                },
+                "value": {
+                  "type": "Literal",
+                  "value": 2,
+                  "raw": "2",
+                  "start": 564,
+                  "end": 565
+                },
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "start": 558,
+                "end": 565
+              },
+              {
+                "type": "Property",
+                "kind": "init",
+                "key": {
+                  "type": "Identifier",
+                  "name": "minute",
+                  "start": 569,
+                  "end": 575
+                },
+                "value": {
+                  "type": "Literal",
+                  "value": 30,
+                  "raw": "30",
+                  "start": 577,
+                  "end": 579
+                },
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "start": 569,
+                "end": 579
+              }
+            ],
+            "start": 554,
+            "end": 581
+          },
+          "start": 542,
+          "end": 581
+        }
+      ],
+      "start": 536,
+      "end": 582
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "TemporalHelpers",
+            "start": 584,
+            "end": 599
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "assertZonedDateTimesEqual",
+            "start": 600,
+            "end": 625
+          },
+          "optional": false,
+          "computed": false,
+          "start": 584,
+          "end": 625
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "dstStartDay",
+                "start": 629,
+                "end": 640
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "with",
+                "start": 641,
+                "end": 645
+              },
+              "optional": false,
+              "computed": false,
+              "start": 629,
+              "end": 645
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "name": "twoThirty",
+                "start": 646,
+                "end": 655
+              }
+            ],
+            "optional": false,
+            "start": 629,
+            "end": 656
+          },
+          {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "dstStartDay",
+                "start": 660,
+                "end": 671
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "with",
+                "start": 672,
+                "end": 676
+              },
+              "optional": false,
+              "computed": false,
+              "start": 660,
+              "end": 676
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "name": "twoThirty",
+                "start": 677,
+                "end": 686
+              },
+              {
+                "type": "ObjectExpression",
+                "properties": [
+                  {
+                    "type": "Property",
+                    "kind": "init",
+                    "key": {
+                      "type": "Identifier",
+                      "name": "offset",
+                      "start": 690,
+                      "end": 696
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "value": "prefer",
+                      "raw": "\"prefer\"",
+                      "start": 698,
+                      "end": 706
+                    },
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "start": 690,
+                    "end": 706
+                  }
+                ],
+                "start": 688,
+                "end": 708
+              }
+            ],
+            "optional": false,
+            "start": 660,
+            "end": 709
+          },
+          {
+            "type": "Literal",
+            "value": "Option offset: prefer is the default",
+            "raw": "\"Option offset: prefer is the default\"",
+            "start": 713,
+            "end": 751
+          }
+        ],
+        "optional": false,
+        "start": 584,
+        "end": 752
+      },
+      "start": 584,
+      "end": 753
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "zdt1",
+            "start": 806,
+            "end": 810
+          },
+          "init": {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "dstStartDay",
+                "start": 813,
+                "end": 824
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "with",
+                "start": 825,
+                "end": 829
+              },
+              "optional": false,
+              "computed": false,
+              "start": 813,
+              "end": 829
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "name": "twoThirty",
+                "start": 830,
+                "end": 839
+              },
+              {
+                "type": "ObjectExpression",
+                "properties": [
+                  {
+                    "type": "Property",
+                    "kind": "init",
+                    "key": {
+                      "type": "Identifier",
+                      "name": "offset",
+                      "start": 843,
+                      "end": 849
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "value": "ignore",
+                      "raw": "\"ignore\"",
+                      "start": 851,
+                      "end": 859
+                    },
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "start": 843,
+                    "end": 859
+                  }
+                ],
+                "start": 841,
+                "end": 861
+              }
+            ],
+            "optional": false,
+            "start": 813,
+            "end": 862
+          },
+          "start": 806,
+          "end": 862
+        }
+      ],
+      "start": 800,
+      "end": 863
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "zdt2",
+            "start": 870,
+            "end": 874
+          },
+          "init": {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "dstStartDay",
+                "start": 877,
+                "end": 888
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "with",
+                "start": 889,
+                "end": 893
+              },
+              "optional": false,
+              "computed": false,
+              "start": 877,
+              "end": 893
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "name": "twoThirty",
+                "start": 894,
+                "end": 903
+              },
+              {
+                "type": "ObjectExpression",
+                "properties": [
+                  {
+                    "type": "Property",
+                    "kind": "init",
+                    "key": {
+                      "type": "Identifier",
+                      "name": "offset",
+                      "start": 907,
+                      "end": 913
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "value": "ignore",
+                      "raw": "\"ignore\"",
+                      "start": 915,
+                      "end": 923
+                    },
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "start": 907,
+                    "end": 923
+                  },
+                  {
+                    "type": "Property",
+                    "kind": "init",
+                    "key": {
+                      "type": "Identifier",
+                      "name": "disambiguation",
+                      "start": 925,
+                      "end": 939
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "value": "compatible",
+                      "raw": "\"compatible\"",
+                      "start": 941,
+                      "end": 953
+                    },
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "start": 925,
+                    "end": 953
+                  }
+                ],
+                "start": 905,
+                "end": 955
+              }
+            ],
+            "optional": false,
+            "start": 877,
+            "end": 956
+          },
+          "start": 870,
+          "end": 956
+        }
+      ],
+      "start": 864,
+      "end": 957
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 958,
+            "end": 964
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 965,
+            "end": 974
+          },
+          "optional": false,
+          "computed": false,
+          "start": 958,
+          "end": 974
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "Identifier",
+              "name": "zdt1",
+              "start": 978,
+              "end": 982
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "offset",
+              "start": 983,
+              "end": 989
+            },
+            "optional": false,
+            "computed": false,
+            "start": 978,
+            "end": 989
+          },
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "Identifier",
+              "name": "zdt2",
+              "start": 993,
+              "end": 997
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "offset",
+              "start": 998,
+              "end": 1004
+            },
+            "optional": false,
+            "computed": false,
+            "start": 993,
+            "end": 1004
+          },
+          {
+            "type": "Literal",
+            "value": "Option disambiguation: compatible is the default",
+            "raw": "\"Option disambiguation: compatible is the default\"",
+            "start": 1008,
+            "end": 1058
+          }
+        ],
+        "optional": false,
+        "start": 958,
+        "end": 1059
+      },
+      "start": 958,
+      "end": 1060
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 1061
+}

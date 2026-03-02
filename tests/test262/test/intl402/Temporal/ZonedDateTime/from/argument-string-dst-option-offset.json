@@ -1,0 +1,1600 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "kind": "let",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "zdt",
+            "start": 330,
+            "end": 333
+          },
+          "init": {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "Temporal",
+                  "start": 336,
+                  "end": 344
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "ZonedDateTime",
+                  "start": 345,
+                  "end": 358
+                },
+                "optional": false,
+                "computed": false,
+                "start": 336,
+                "end": 358
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "from",
+                "start": 359,
+                "end": 363
+              },
+              "optional": false,
+              "computed": false,
+              "start": 336,
+              "end": 363
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "value": "2020-11-01T01:30-07:00[America/Los_Angeles]",
+                "raw": "\"2020-11-01T01:30-07:00[America/Los_Angeles]\"",
+                "start": 367,
+                "end": 412
+              },
+              {
+                "type": "ObjectExpression",
+                "properties": [
+                  {
+                    "type": "Property",
+                    "kind": "init",
+                    "key": {
+                      "type": "Identifier",
+                      "name": "offset",
+                      "start": 418,
+                      "end": 424
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "value": "prefer",
+                      "raw": "\"prefer\"",
+                      "start": 426,
+                      "end": 434
+                    },
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "start": 418,
+                    "end": 434
+                  }
+                ],
+                "start": 416,
+                "end": 436
+              }
+            ],
+            "optional": false,
+            "start": 336,
+            "end": 437
+          },
+          "start": 330,
+          "end": 437
+        }
+      ],
+      "start": 326,
+      "end": 438
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 439,
+            "end": 445
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 446,
+            "end": 455
+          },
+          "optional": false,
+          "computed": false,
+          "start": 439,
+          "end": 455
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "Identifier",
+              "name": "zdt",
+              "start": 459,
+              "end": 462
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "offset",
+              "start": 463,
+              "end": 469
+            },
+            "optional": false,
+            "computed": false,
+            "start": 459,
+            "end": 469
+          },
+          {
+            "type": "Literal",
+            "value": "-07:00",
+            "raw": "\"-07:00\"",
+            "start": 473,
+            "end": 481
+          },
+          {
+            "type": "Literal",
+            "value": "Offset result when option offset: prefer and offset matches time zone (first 1:30 when DST ends)",
+            "raw": "\"Offset result when option offset: prefer and offset matches time zone (first 1:30 when DST ends)\"",
+            "start": 485,
+            "end": 583
+          }
+        ],
+        "optional": false,
+        "start": 439,
+        "end": 584
+      },
+      "start": 439,
+      "end": 585
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "AssignmentExpression",
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "name": "zdt",
+          "start": 587,
+          "end": 590
+        },
+        "right": {
+          "type": "CallExpression",
+          "callee": {
+            "type": "MemberExpression",
+            "object": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "Temporal",
+                "start": 593,
+                "end": 601
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "ZonedDateTime",
+                "start": 602,
+                "end": 615
+              },
+              "optional": false,
+              "computed": false,
+              "start": 593,
+              "end": 615
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "from",
+              "start": 616,
+              "end": 620
+            },
+            "optional": false,
+            "computed": false,
+            "start": 593,
+            "end": 620
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "value": "2020-11-01T01:30[America/Los_Angeles]",
+              "raw": "\"2020-11-01T01:30[America/Los_Angeles]\"",
+              "start": 624,
+              "end": 663
+            },
+            {
+              "type": "ObjectExpression",
+              "properties": [
+                {
+                  "type": "Property",
+                  "kind": "init",
+                  "key": {
+                    "type": "Identifier",
+                    "name": "offset",
+                    "start": 669,
+                    "end": 675
+                  },
+                  "value": {
+                    "type": "Literal",
+                    "value": "prefer",
+                    "raw": "\"prefer\"",
+                    "start": 677,
+                    "end": 685
+                  },
+                  "method": false,
+                  "shorthand": false,
+                  "computed": false,
+                  "start": 669,
+                  "end": 685
+                }
+              ],
+              "start": 667,
+              "end": 687
+            }
+          ],
+          "optional": false,
+          "start": 593,
+          "end": 688
+        },
+        "start": 587,
+        "end": 688
+      },
+      "start": 587,
+      "end": 689
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 690,
+            "end": 696
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 697,
+            "end": 706
+          },
+          "optional": false,
+          "computed": false,
+          "start": 690,
+          "end": 706
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "Identifier",
+              "name": "zdt",
+              "start": 710,
+              "end": 713
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "offset",
+              "start": 714,
+              "end": 720
+            },
+            "optional": false,
+            "computed": false,
+            "start": 710,
+            "end": 720
+          },
+          {
+            "type": "Literal",
+            "value": "-07:00",
+            "raw": "\"-07:00\"",
+            "start": 724,
+            "end": 732
+          },
+          {
+            "type": "Literal",
+            "value": "Offset result when option offset: prefer and string argument is ambiguous",
+            "raw": "\"Offset result when option offset: prefer and string argument is ambiguous\"",
+            "start": 736,
+            "end": 811
+          }
+        ],
+        "optional": false,
+        "start": 690,
+        "end": 812
+      },
+      "start": 690,
+      "end": 813
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "AssignmentExpression",
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "name": "zdt",
+          "start": 815,
+          "end": 818
+        },
+        "right": {
+          "type": "CallExpression",
+          "callee": {
+            "type": "MemberExpression",
+            "object": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "Temporal",
+                "start": 821,
+                "end": 829
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "ZonedDateTime",
+                "start": 830,
+                "end": 843
+              },
+              "optional": false,
+              "computed": false,
+              "start": 821,
+              "end": 843
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "from",
+              "start": 844,
+              "end": 848
+            },
+            "optional": false,
+            "computed": false,
+            "start": 821,
+            "end": 848
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "value": "2020-11-01T01:30-08:00[America/Los_Angeles]",
+              "raw": "\"2020-11-01T01:30-08:00[America/Los_Angeles]\"",
+              "start": 852,
+              "end": 897
+            },
+            {
+              "type": "ObjectExpression",
+              "properties": [
+                {
+                  "type": "Property",
+                  "kind": "init",
+                  "key": {
+                    "type": "Identifier",
+                    "name": "offset",
+                    "start": 903,
+                    "end": 909
+                  },
+                  "value": {
+                    "type": "Literal",
+                    "value": "prefer",
+                    "raw": "\"prefer\"",
+                    "start": 911,
+                    "end": 919
+                  },
+                  "method": false,
+                  "shorthand": false,
+                  "computed": false,
+                  "start": 903,
+                  "end": 919
+                }
+              ],
+              "start": 901,
+              "end": 921
+            }
+          ],
+          "optional": false,
+          "start": 821,
+          "end": 922
+        },
+        "start": 815,
+        "end": 922
+      },
+      "start": 815,
+      "end": 923
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 924,
+            "end": 930
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 931,
+            "end": 940
+          },
+          "optional": false,
+          "computed": false,
+          "start": 924,
+          "end": 940
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "Identifier",
+              "name": "zdt",
+              "start": 944,
+              "end": 947
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "offset",
+              "start": 948,
+              "end": 954
+            },
+            "optional": false,
+            "computed": false,
+            "start": 944,
+            "end": 954
+          },
+          {
+            "type": "Literal",
+            "value": "-08:00",
+            "raw": "\"-08:00\"",
+            "start": 958,
+            "end": 966
+          },
+          {
+            "type": "Literal",
+            "value": "Offset result when option offset: prefer and offset matches time zone (second 1:30 when DST ends)",
+            "raw": "\"Offset result when option offset: prefer and offset matches time zone (second 1:30 when DST ends)\"",
+            "start": 970,
+            "end": 1069
+          }
+        ],
+        "optional": false,
+        "start": 924,
+        "end": 1070
+      },
+      "start": 924,
+      "end": 1071
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "AssignmentExpression",
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "name": "zdt",
+          "start": 1073,
+          "end": 1076
+        },
+        "right": {
+          "type": "CallExpression",
+          "callee": {
+            "type": "MemberExpression",
+            "object": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "Temporal",
+                "start": 1079,
+                "end": 1087
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "ZonedDateTime",
+                "start": 1088,
+                "end": 1101
+              },
+              "optional": false,
+              "computed": false,
+              "start": 1079,
+              "end": 1101
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "from",
+              "start": 1102,
+              "end": 1106
+            },
+            "optional": false,
+            "computed": false,
+            "start": 1079,
+            "end": 1106
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "value": "2020-11-01T04:00-07:00[America/Los_Angeles]",
+              "raw": "\"2020-11-01T04:00-07:00[America/Los_Angeles]\"",
+              "start": 1110,
+              "end": 1155
+            },
+            {
+              "type": "ObjectExpression",
+              "properties": [
+                {
+                  "type": "Property",
+                  "kind": "init",
+                  "key": {
+                    "type": "Identifier",
+                    "name": "offset",
+                    "start": 1161,
+                    "end": 1167
+                  },
+                  "value": {
+                    "type": "Literal",
+                    "value": "prefer",
+                    "raw": "\"prefer\"",
+                    "start": 1169,
+                    "end": 1177
+                  },
+                  "method": false,
+                  "shorthand": false,
+                  "computed": false,
+                  "start": 1161,
+                  "end": 1177
+                }
+              ],
+              "start": 1159,
+              "end": 1179
+            }
+          ],
+          "optional": false,
+          "start": 1079,
+          "end": 1180
+        },
+        "start": 1073,
+        "end": 1180
+      },
+      "start": 1073,
+      "end": 1181
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 1182,
+            "end": 1188
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 1189,
+            "end": 1198
+          },
+          "optional": false,
+          "computed": false,
+          "start": 1182,
+          "end": 1198
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "Identifier",
+              "name": "zdt",
+              "start": 1202,
+              "end": 1205
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "offset",
+              "start": 1206,
+              "end": 1212
+            },
+            "optional": false,
+            "computed": false,
+            "start": 1202,
+            "end": 1212
+          },
+          {
+            "type": "Literal",
+            "value": "-08:00",
+            "raw": "\"-08:00\"",
+            "start": 1216,
+            "end": 1224
+          },
+          {
+            "type": "Literal",
+            "value": "Offset result when option offset: prefer and offset does not match time zone, DST end",
+            "raw": "\"Offset result when option offset: prefer and offset does not match time zone, DST end\"",
+            "start": 1228,
+            "end": 1315
+          }
+        ],
+        "optional": false,
+        "start": 1182,
+        "end": 1316
+      },
+      "start": 1182,
+      "end": 1317
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 1318,
+            "end": 1324
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 1325,
+            "end": 1334
+          },
+          "optional": false,
+          "computed": false,
+          "start": 1318,
+          "end": 1334
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "Identifier",
+              "name": "zdt",
+              "start": 1338,
+              "end": 1341
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "hour",
+              "start": 1342,
+              "end": 1346
+            },
+            "optional": false,
+            "computed": false,
+            "start": 1338,
+            "end": 1346
+          },
+          {
+            "type": "Literal",
+            "value": 4,
+            "raw": "4",
+            "start": 1350,
+            "end": 1351
+          },
+          {
+            "type": "Literal",
+            "value": "Hour result when option offset: prefer and offset does not match time zone, DST end",
+            "raw": "\"Hour result when option offset: prefer and offset does not match time zone, DST end\"",
+            "start": 1355,
+            "end": 1440
+          }
+        ],
+        "optional": false,
+        "start": 1318,
+        "end": 1441
+      },
+      "start": 1318,
+      "end": 1442
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "AssignmentExpression",
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "name": "zdt",
+          "start": 1444,
+          "end": 1447
+        },
+        "right": {
+          "type": "CallExpression",
+          "callee": {
+            "type": "MemberExpression",
+            "object": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "Temporal",
+                "start": 1450,
+                "end": 1458
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "ZonedDateTime",
+                "start": 1459,
+                "end": 1472
+              },
+              "optional": false,
+              "computed": false,
+              "start": 1450,
+              "end": 1472
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "from",
+              "start": 1473,
+              "end": 1477
+            },
+            "optional": false,
+            "computed": false,
+            "start": 1450,
+            "end": 1477
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "value": "2020-11-01T04:00-07:00[America/Los_Angeles]",
+              "raw": "\"2020-11-01T04:00-07:00[America/Los_Angeles]\"",
+              "start": 1481,
+              "end": 1526
+            },
+            {
+              "type": "ObjectExpression",
+              "properties": [
+                {
+                  "type": "Property",
+                  "kind": "init",
+                  "key": {
+                    "type": "Identifier",
+                    "name": "offset",
+                    "start": 1532,
+                    "end": 1538
+                  },
+                  "value": {
+                    "type": "Literal",
+                    "value": "use",
+                    "raw": "\"use\"",
+                    "start": 1540,
+                    "end": 1545
+                  },
+                  "method": false,
+                  "shorthand": false,
+                  "computed": false,
+                  "start": 1532,
+                  "end": 1545
+                }
+              ],
+              "start": 1530,
+              "end": 1547
+            }
+          ],
+          "optional": false,
+          "start": 1450,
+          "end": 1548
+        },
+        "start": 1444,
+        "end": 1548
+      },
+      "start": 1444,
+      "end": 1549
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 1550,
+            "end": 1556
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 1557,
+            "end": 1566
+          },
+          "optional": false,
+          "computed": false,
+          "start": 1550,
+          "end": 1566
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "Identifier",
+              "name": "zdt",
+              "start": 1570,
+              "end": 1573
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "offset",
+              "start": 1574,
+              "end": 1580
+            },
+            "optional": false,
+            "computed": false,
+            "start": 1570,
+            "end": 1580
+          },
+          {
+            "type": "Literal",
+            "value": "-08:00",
+            "raw": "\"-08:00\"",
+            "start": 1584,
+            "end": 1592
+          },
+          {
+            "type": "Literal",
+            "value": "Offset result when option offset: use and wrong offset, DST end",
+            "raw": "\"Offset result when option offset: use and wrong offset, DST end\"",
+            "start": 1596,
+            "end": 1661
+          }
+        ],
+        "optional": false,
+        "start": 1550,
+        "end": 1662
+      },
+      "start": 1550,
+      "end": 1663
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 1664,
+            "end": 1670
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 1671,
+            "end": 1680
+          },
+          "optional": false,
+          "computed": false,
+          "start": 1664,
+          "end": 1680
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "Identifier",
+              "name": "zdt",
+              "start": 1684,
+              "end": 1687
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "hour",
+              "start": 1688,
+              "end": 1692
+            },
+            "optional": false,
+            "computed": false,
+            "start": 1684,
+            "end": 1692
+          },
+          {
+            "type": "Literal",
+            "value": 3,
+            "raw": "3",
+            "start": 1696,
+            "end": 1697
+          },
+          {
+            "type": "Literal",
+            "value": "Hour result when option offset: use and wrong offset, DST end",
+            "raw": "\"Hour result when option offset: use and wrong offset, DST end\"",
+            "start": 1701,
+            "end": 1764
+          }
+        ],
+        "optional": false,
+        "start": 1664,
+        "end": 1765
+      },
+      "start": 1664,
+      "end": 1766
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "AssignmentExpression",
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "name": "zdt",
+          "start": 1768,
+          "end": 1771
+        },
+        "right": {
+          "type": "CallExpression",
+          "callee": {
+            "type": "MemberExpression",
+            "object": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "Temporal",
+                "start": 1774,
+                "end": 1782
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "ZonedDateTime",
+                "start": 1783,
+                "end": 1796
+              },
+              "optional": false,
+              "computed": false,
+              "start": 1774,
+              "end": 1796
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "from",
+              "start": 1797,
+              "end": 1801
+            },
+            "optional": false,
+            "computed": false,
+            "start": 1774,
+            "end": 1801
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "value": "2020-11-01T04:00-12:00[America/Los_Angeles]",
+              "raw": "\"2020-11-01T04:00-12:00[America/Los_Angeles]\"",
+              "start": 1805,
+              "end": 1850
+            },
+            {
+              "type": "ObjectExpression",
+              "properties": [
+                {
+                  "type": "Property",
+                  "kind": "init",
+                  "key": {
+                    "type": "Identifier",
+                    "name": "offset",
+                    "start": 1856,
+                    "end": 1862
+                  },
+                  "value": {
+                    "type": "Literal",
+                    "value": "ignore",
+                    "raw": "\"ignore\"",
+                    "start": 1864,
+                    "end": 1872
+                  },
+                  "method": false,
+                  "shorthand": false,
+                  "computed": false,
+                  "start": 1856,
+                  "end": 1872
+                }
+              ],
+              "start": 1854,
+              "end": 1874
+            }
+          ],
+          "optional": false,
+          "start": 1774,
+          "end": 1875
+        },
+        "start": 1768,
+        "end": 1875
+      },
+      "start": 1768,
+      "end": 1876
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 1877,
+            "end": 1883
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 1884,
+            "end": 1893
+          },
+          "optional": false,
+          "computed": false,
+          "start": 1877,
+          "end": 1893
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "Identifier",
+              "name": "zdt",
+              "start": 1897,
+              "end": 1900
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "offset",
+              "start": 1901,
+              "end": 1907
+            },
+            "optional": false,
+            "computed": false,
+            "start": 1897,
+            "end": 1907
+          },
+          {
+            "type": "Literal",
+            "value": "-08:00",
+            "raw": "\"-08:00\"",
+            "start": 1911,
+            "end": 1919
+          },
+          {
+            "type": "Literal",
+            "value": "Offset result when option offset: ignore and wrong offset, DST end",
+            "raw": "\"Offset result when option offset: ignore and wrong offset, DST end\"",
+            "start": 1923,
+            "end": 1991
+          }
+        ],
+        "optional": false,
+        "start": 1877,
+        "end": 1992
+      },
+      "start": 1877,
+      "end": 1993
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 1994,
+            "end": 2000
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 2001,
+            "end": 2010
+          },
+          "optional": false,
+          "computed": false,
+          "start": 1994,
+          "end": 2010
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "Identifier",
+              "name": "zdt",
+              "start": 2014,
+              "end": 2017
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "hour",
+              "start": 2018,
+              "end": 2022
+            },
+            "optional": false,
+            "computed": false,
+            "start": 2014,
+            "end": 2022
+          },
+          {
+            "type": "Literal",
+            "value": 4,
+            "raw": "4",
+            "start": 2026,
+            "end": 2027
+          },
+          {
+            "type": "Literal",
+            "value": "Hour result when option offset: ignore and wrong offset, DST end",
+            "raw": "\"Hour result when option offset: ignore and wrong offset, DST end\"",
+            "start": 2031,
+            "end": 2097
+          }
+        ],
+        "optional": false,
+        "start": 1994,
+        "end": 2098
+      },
+      "start": 1994,
+      "end": 2099
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "AssignmentExpression",
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "name": "zdt",
+          "start": 2121,
+          "end": 2124
+        },
+        "right": {
+          "type": "CallExpression",
+          "callee": {
+            "type": "MemberExpression",
+            "object": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "Temporal",
+                "start": 2127,
+                "end": 2135
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "ZonedDateTime",
+                "start": 2136,
+                "end": 2149
+              },
+              "optional": false,
+              "computed": false,
+              "start": 2127,
+              "end": 2149
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "from",
+              "start": 2150,
+              "end": 2154
+            },
+            "optional": false,
+            "computed": false,
+            "start": 2127,
+            "end": 2154
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "value": "2020-03-08T02:30[America/Los_Angeles]",
+              "raw": "\"2020-03-08T02:30[America/Los_Angeles]\"",
+              "start": 2158,
+              "end": 2197
+            },
+            {
+              "type": "ObjectExpression",
+              "properties": [
+                {
+                  "type": "Property",
+                  "kind": "init",
+                  "key": {
+                    "type": "Identifier",
+                    "name": "offset",
+                    "start": 2203,
+                    "end": 2209
+                  },
+                  "value": {
+                    "type": "Literal",
+                    "value": "ignore",
+                    "raw": "\"ignore\"",
+                    "start": 2211,
+                    "end": 2219
+                  },
+                  "method": false,
+                  "shorthand": false,
+                  "computed": false,
+                  "start": 2203,
+                  "end": 2219
+                }
+              ],
+              "start": 2201,
+              "end": 2221
+            }
+          ],
+          "optional": false,
+          "start": 2127,
+          "end": 2222
+        },
+        "start": 2121,
+        "end": 2222
+      },
+      "start": 2121,
+      "end": 2223
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 2224,
+            "end": 2230
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 2231,
+            "end": 2240
+          },
+          "optional": false,
+          "computed": false,
+          "start": 2224,
+          "end": 2240
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "Identifier",
+              "name": "zdt",
+              "start": 2244,
+              "end": 2247
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "offset",
+              "start": 2248,
+              "end": 2254
+            },
+            "optional": false,
+            "computed": false,
+            "start": 2244,
+            "end": 2254
+          },
+          {
+            "type": "Literal",
+            "value": "-07:00",
+            "raw": "\"-07:00\"",
+            "start": 2258,
+            "end": 2266
+          },
+          {
+            "type": "Literal",
+            "value": "Offset result when option offset: ignore, DST start",
+            "raw": "\"Offset result when option offset: ignore, DST start\"",
+            "start": 2270,
+            "end": 2323
+          }
+        ],
+        "optional": false,
+        "start": 2224,
+        "end": 2324
+      },
+      "start": 2224,
+      "end": 2325
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 2326,
+            "end": 2332
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 2333,
+            "end": 2342
+          },
+          "optional": false,
+          "computed": false,
+          "start": 2326,
+          "end": 2342
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "Identifier",
+              "name": "zdt",
+              "start": 2346,
+              "end": 2349
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "hour",
+              "start": 2350,
+              "end": 2354
+            },
+            "optional": false,
+            "computed": false,
+            "start": 2346,
+            "end": 2354
+          },
+          {
+            "type": "Literal",
+            "value": 3,
+            "raw": "3",
+            "start": 2358,
+            "end": 2359
+          },
+          {
+            "type": "Literal",
+            "value": "Hour result when option offset: ignore, DST start",
+            "raw": "\"Hour result when option offset: ignore, DST start\"",
+            "start": 2363,
+            "end": 2414
+          }
+        ],
+        "optional": false,
+        "start": 2326,
+        "end": 2415
+      },
+      "start": 2326,
+      "end": 2416
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "AssignmentExpression",
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "name": "zdt",
+          "start": 2418,
+          "end": 2421
+        },
+        "right": {
+          "type": "CallExpression",
+          "callee": {
+            "type": "MemberExpression",
+            "object": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "Temporal",
+                "start": 2424,
+                "end": 2432
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "ZonedDateTime",
+                "start": 2433,
+                "end": 2446
+              },
+              "optional": false,
+              "computed": false,
+              "start": 2424,
+              "end": 2446
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "from",
+              "start": 2447,
+              "end": 2451
+            },
+            "optional": false,
+            "computed": false,
+            "start": 2424,
+            "end": 2451
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "value": "2020-03-08T02:30-23:59[America/Los_Angeles]",
+              "raw": "\"2020-03-08T02:30-23:59[America/Los_Angeles]\"",
+              "start": 2455,
+              "end": 2500
+            },
+            {
+              "type": "ObjectExpression",
+              "properties": [
+                {
+                  "type": "Property",
+                  "kind": "init",
+                  "key": {
+                    "type": "Identifier",
+                    "name": "offset",
+                    "start": 2506,
+                    "end": 2512
+                  },
+                  "value": {
+                    "type": "Literal",
+                    "value": "prefer",
+                    "raw": "\"prefer\"",
+                    "start": 2514,
+                    "end": 2522
+                  },
+                  "method": false,
+                  "shorthand": false,
+                  "computed": false,
+                  "start": 2506,
+                  "end": 2522
+                }
+              ],
+              "start": 2504,
+              "end": 2524
+            }
+          ],
+          "optional": false,
+          "start": 2424,
+          "end": 2525
+        },
+        "start": 2418,
+        "end": 2525
+      },
+      "start": 2418,
+      "end": 2526
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 2527,
+            "end": 2533
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 2534,
+            "end": 2543
+          },
+          "optional": false,
+          "computed": false,
+          "start": 2527,
+          "end": 2543
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "Identifier",
+              "name": "zdt",
+              "start": 2547,
+              "end": 2550
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "offset",
+              "start": 2551,
+              "end": 2557
+            },
+            "optional": false,
+            "computed": false,
+            "start": 2547,
+            "end": 2557
+          },
+          {
+            "type": "Literal",
+            "value": "-07:00",
+            "raw": "\"-07:00\"",
+            "start": 2561,
+            "end": 2569
+          },
+          {
+            "type": "Literal",
+            "value": "Offset result when option offset: ignore and wrong offset, DST start",
+            "raw": "\"Offset result when option offset: ignore and wrong offset, DST start\"",
+            "start": 2573,
+            "end": 2643
+          }
+        ],
+        "optional": false,
+        "start": 2527,
+        "end": 2644
+      },
+      "start": 2527,
+      "end": 2645
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 2646,
+            "end": 2652
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 2653,
+            "end": 2662
+          },
+          "optional": false,
+          "computed": false,
+          "start": 2646,
+          "end": 2662
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "Identifier",
+              "name": "zdt",
+              "start": 2666,
+              "end": 2669
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "hour",
+              "start": 2670,
+              "end": 2674
+            },
+            "optional": false,
+            "computed": false,
+            "start": 2666,
+            "end": 2674
+          },
+          {
+            "type": "Literal",
+            "value": 3,
+            "raw": "3",
+            "start": 2678,
+            "end": 2679
+          },
+          {
+            "type": "Literal",
+            "value": "Hour result when option offset: ignore and wrong offset, DST start",
+            "raw": "\"Hour result when option offset: ignore and wrong offset, DST start\"",
+            "start": 2683,
+            "end": 2751
+          }
+        ],
+        "optional": false,
+        "start": 2646,
+        "end": 2752
+      },
+      "start": 2646,
+      "end": 2753
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 2754
+}

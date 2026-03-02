@@ -46,42 +46,126 @@
               },
               {
                 "type": "Literal",
+                "value": "1970-01-01T00+00",
+                "raw": "\"1970-01-01T00+00\"",
+                "start": 400,
+                "end": 418
+              },
+              {
+                "type": "Literal",
                 "value": "1970-01-01T00+00:00",
                 "raw": "\"1970-01-01T00+00:00\"",
-                "start": 400,
-                "end": 421
+                "start": 422,
+                "end": 443
+              },
+              {
+                "type": "Literal",
+                "value": "1970-01-01T00+00:00:00,0",
+                "raw": "\"1970-01-01T00+00:00:00,0\"",
+                "start": 447,
+                "end": 473
+              },
+              {
+                "type": "Literal",
+                "value": "1970-01-01T00+00:00:00.000000000",
+                "raw": "\"1970-01-01T00+00:00:00.000000000\"",
+                "start": 477,
+                "end": 511
+              },
+              {
+                "type": "Literal",
+                "value": "1970-01-01T00+0000",
+                "raw": "\"1970-01-01T00+0000\"",
+                "start": 515,
+                "end": 535
+              },
+              {
+                "type": "Literal",
+                "value": "1970-01-01T00+000000,0",
+                "raw": "\"1970-01-01T00+000000,0\"",
+                "start": 539,
+                "end": 563
+              },
+              {
+                "type": "Literal",
+                "value": "1970-01-01T00+000000.000000000",
+                "raw": "\"1970-01-01T00+000000.000000000\"",
+                "start": 567,
+                "end": 599
               },
               {
                 "type": "Literal",
                 "value": "1970-01-01T00+00:00[UTC]",
                 "raw": "\"1970-01-01T00+00:00[UTC]\"",
-                "start": 425,
-                "end": 451
+                "start": 603,
+                "end": 629
               },
               {
                 "type": "Literal",
                 "value": "1970-01-01T00+00:00[!UTC]",
                 "raw": "\"1970-01-01T00+00:00[!UTC]\"",
-                "start": 455,
-                "end": 482
+                "start": 633,
+                "end": 660
+              },
+              {
+                "type": "Literal",
+                "value": "1969-12-31T16-08[America/Vancouver]",
+                "raw": "\"1969-12-31T16-08[America/Vancouver]\"",
+                "start": 664,
+                "end": 701
               },
               {
                 "type": "Literal",
                 "value": "1969-12-31T16-08:00[America/Vancouver]",
                 "raw": "\"1969-12-31T16-08:00[America/Vancouver]\"",
-                "start": 486,
-                "end": 526
+                "start": 705,
+                "end": 745
+              },
+              {
+                "type": "Literal",
+                "value": "1969-12-31T16-08:00:00,0[America/Vancouver]",
+                "raw": "\"1969-12-31T16-08:00:00,0[America/Vancouver]\"",
+                "start": 749,
+                "end": 794
+              },
+              {
+                "type": "Literal",
+                "value": "1969-12-31T16-08:00:00.000000000[America/Vancouver]",
+                "raw": "\"1969-12-31T16-08:00:00.000000000[America/Vancouver]\"",
+                "start": 798,
+                "end": 851
+              },
+              {
+                "type": "Literal",
+                "value": "1969-12-31T16-0800[America/Vancouver]",
+                "raw": "\"1969-12-31T16-0800[America/Vancouver]\"",
+                "start": 855,
+                "end": 894
+              },
+              {
+                "type": "Literal",
+                "value": "1969-12-31T16-080000,0[America/Vancouver]",
+                "raw": "\"1969-12-31T16-080000,0[America/Vancouver]\"",
+                "start": 898,
+                "end": 941
+              },
+              {
+                "type": "Literal",
+                "value": "1969-12-31T16-080000.000000000[America/Vancouver]",
+                "raw": "\"1969-12-31T16-080000.000000000[America/Vancouver]\"",
+                "start": 945,
+                "end": 996
               }
             ],
             "start": 290,
-            "end": 529
+            "end": 999
           },
           "start": 275,
-          "end": 529
+          "end": 999
         }
       ],
       "start": 269,
-      "end": 530
+      "end": 1000
     },
     {
       "type": "ForOfStatement",
@@ -95,22 +179,22 @@
             "id": {
               "type": "Identifier",
               "name": "arg",
-              "start": 543,
-              "end": 546
+              "start": 1013,
+              "end": 1016
             },
             "init": null,
-            "start": 543,
-            "end": 546
+            "start": 1013,
+            "end": 1016
           }
         ],
-        "start": 537,
-        "end": 546
+        "start": 1007,
+        "end": 1016
       },
       "right": {
         "type": "Identifier",
         "name": "validStrings",
-        "start": 550,
-        "end": 562
+        "start": 1020,
+        "end": 1032
       },
       "body": {
         "type": "BlockStatement",
@@ -124,8 +208,8 @@
                 "id": {
                   "type": "Identifier",
                   "name": "result",
-                  "start": 574,
-                  "end": 580
+                  "start": 1044,
+                  "end": 1050
                 },
                 "init": {
                   "type": "CallExpression",
@@ -136,49 +220,49 @@
                       "object": {
                         "type": "Identifier",
                         "name": "Temporal",
-                        "start": 583,
-                        "end": 591
+                        "start": 1053,
+                        "end": 1061
                       },
                       "property": {
                         "type": "Identifier",
                         "name": "Instant",
-                        "start": 592,
-                        "end": 599
+                        "start": 1062,
+                        "end": 1069
                       },
                       "optional": false,
                       "computed": false,
-                      "start": 583,
-                      "end": 599
+                      "start": 1053,
+                      "end": 1069
                     },
                     "property": {
                       "type": "Identifier",
                       "name": "from",
-                      "start": 600,
-                      "end": 604
+                      "start": 1070,
+                      "end": 1074
                     },
                     "optional": false,
                     "computed": false,
-                    "start": 583,
-                    "end": 604
+                    "start": 1053,
+                    "end": 1074
                   },
                   "arguments": [
                     {
                       "type": "Identifier",
                       "name": "arg",
-                      "start": 605,
-                      "end": 608
+                      "start": 1075,
+                      "end": 1078
                     }
                   ],
                   "optional": false,
-                  "start": 583,
-                  "end": 609
+                  "start": 1053,
+                  "end": 1079
                 },
-                "start": 574,
-                "end": 609
+                "start": 1044,
+                "end": 1079
               }
             ],
-            "start": 568,
-            "end": 610
+            "start": 1038,
+            "end": 1080
           },
           {
             "type": "ExpressionStatement",
@@ -189,19 +273,19 @@
                 "object": {
                   "type": "Identifier",
                   "name": "assert",
-                  "start": 614,
-                  "end": 620
+                  "start": 1084,
+                  "end": 1090
                 },
                 "property": {
                   "type": "Identifier",
                   "name": "sameValue",
-                  "start": 621,
-                  "end": 630
+                  "start": 1091,
+                  "end": 1100
                 },
                 "optional": false,
                 "computed": false,
-                "start": 614,
-                "end": 630
+                "start": 1084,
+                "end": 1100
               },
               "arguments": [
                 {
@@ -209,27 +293,27 @@
                   "object": {
                     "type": "Identifier",
                     "name": "result",
-                    "start": 636,
-                    "end": 642
+                    "start": 1106,
+                    "end": 1112
                   },
                   "property": {
                     "type": "Identifier",
                     "name": "epochNanoseconds",
-                    "start": 643,
-                    "end": 659
+                    "start": 1113,
+                    "end": 1129
                   },
                   "optional": false,
                   "computed": false,
-                  "start": 636,
-                  "end": 659
+                  "start": 1106,
+                  "end": 1129
                 },
                 {
                   "type": "Literal",
                   "value": null,
                   "raw": "0n",
                   "bigint": "0",
-                  "start": 665,
-                  "end": 667
+                  "start": 1135,
+                  "end": 1137
                 },
                 {
                   "type": "TemplateLiteral",
@@ -241,8 +325,8 @@
                         "cooked": "\""
                       },
                       "tail": false,
-                      "start": 674,
-                      "end": 675
+                      "start": 1144,
+                      "end": 1145
                     },
                     {
                       "type": "TemplateElement",
@@ -251,35 +335,35 @@
                         "cooked": "\" is a valid UTC offset with time for Instant"
                       },
                       "tail": true,
-                      "start": 681,
-                      "end": 726
+                      "start": 1151,
+                      "end": 1196
                     }
                   ],
                   "expressions": [
                     {
                       "type": "Identifier",
                       "name": "arg",
-                      "start": 677,
-                      "end": 680
+                      "start": 1147,
+                      "end": 1150
                     }
                   ],
-                  "start": 673,
-                  "end": 727
+                  "start": 1143,
+                  "end": 1197
                 }
               ],
               "optional": false,
-              "start": 614,
-              "end": 731
+              "start": 1084,
+              "end": 1201
             },
-            "start": 614,
-            "end": 732
+            "start": 1084,
+            "end": 1202
           }
         ],
-        "start": 564,
-        "end": 734
+        "start": 1034,
+        "end": 1204
       },
-      "start": 532,
-      "end": 734
+      "start": 1002,
+      "end": 1204
     },
     {
       "type": "VariableDeclaration",
@@ -290,8 +374,8 @@
           "id": {
             "type": "Identifier",
             "name": "invalidStrings",
-            "start": 742,
-            "end": 756
+            "start": 1212,
+            "end": 1226
           },
           "init": {
             "type": "ArrayExpression",
@@ -300,61 +384,61 @@
                 "type": "Literal",
                 "value": "2022-09-15Z",
                 "raw": "\"2022-09-15Z\"",
-                "start": 763,
-                "end": 776
+                "start": 1233,
+                "end": 1246
               },
               {
                 "type": "Literal",
                 "value": "2022-09-15Z[UTC]",
                 "raw": "\"2022-09-15Z[UTC]\"",
-                "start": 780,
-                "end": 798
+                "start": 1250,
+                "end": 1268
               },
               {
                 "type": "Literal",
                 "value": "2022-09-15Z[Europe/Vienna]",
                 "raw": "\"2022-09-15Z[Europe/Vienna]\"",
-                "start": 802,
-                "end": 830
+                "start": 1272,
+                "end": 1300
               },
               {
                 "type": "Literal",
                 "value": "2022-09-15+00:00",
                 "raw": "\"2022-09-15+00:00\"",
-                "start": 834,
-                "end": 852
+                "start": 1304,
+                "end": 1322
               },
               {
                 "type": "Literal",
                 "value": "2022-09-15+00:00[UTC]",
                 "raw": "\"2022-09-15+00:00[UTC]\"",
-                "start": 856,
-                "end": 879
+                "start": 1326,
+                "end": 1349
               },
               {
                 "type": "Literal",
                 "value": "2022-09-15-02:30",
                 "raw": "\"2022-09-15-02:30\"",
-                "start": 883,
-                "end": 901
+                "start": 1353,
+                "end": 1371
               },
               {
                 "type": "Literal",
                 "value": "2022-09-15-02:30[America/St_Johns]",
                 "raw": "\"2022-09-15-02:30[America/St_Johns]\"",
-                "start": 905,
-                "end": 941
+                "start": 1375,
+                "end": 1411
               }
             ],
-            "start": 759,
-            "end": 944
+            "start": 1229,
+            "end": 1414
           },
-          "start": 742,
-          "end": 944
+          "start": 1212,
+          "end": 1414
         }
       ],
-      "start": 736,
-      "end": 945
+      "start": 1206,
+      "end": 1415
     },
     {
       "type": "ForOfStatement",
@@ -368,22 +452,22 @@
             "id": {
               "type": "Identifier",
               "name": "arg",
-              "start": 958,
-              "end": 961
+              "start": 1428,
+              "end": 1431
             },
             "init": null,
-            "start": 958,
-            "end": 961
+            "start": 1428,
+            "end": 1431
           }
         ],
-        "start": 952,
-        "end": 961
+        "start": 1422,
+        "end": 1431
       },
       "right": {
         "type": "Identifier",
         "name": "invalidStrings",
-        "start": 965,
-        "end": 979
+        "start": 1435,
+        "end": 1449
       },
       "body": {
         "type": "BlockStatement",
@@ -397,26 +481,26 @@
                 "object": {
                   "type": "Identifier",
                   "name": "assert",
-                  "start": 985,
-                  "end": 991
+                  "start": 1455,
+                  "end": 1461
                 },
                 "property": {
                   "type": "Identifier",
                   "name": "throws",
-                  "start": 992,
-                  "end": 998
+                  "start": 1462,
+                  "end": 1468
                 },
                 "optional": false,
                 "computed": false,
-                "start": 985,
-                "end": 998
+                "start": 1455,
+                "end": 1468
               },
               "arguments": [
                 {
                   "type": "Identifier",
                   "name": "RangeError",
-                  "start": 1004,
-                  "end": 1014
+                  "start": 1474,
+                  "end": 1484
                 },
                 {
                   "type": "ArrowFunctionExpression",
@@ -432,47 +516,47 @@
                         "object": {
                           "type": "Identifier",
                           "name": "Temporal",
-                          "start": 1026,
-                          "end": 1034
+                          "start": 1496,
+                          "end": 1504
                         },
                         "property": {
                           "type": "Identifier",
                           "name": "Instant",
-                          "start": 1035,
-                          "end": 1042
+                          "start": 1505,
+                          "end": 1512
                         },
                         "optional": false,
                         "computed": false,
-                        "start": 1026,
-                        "end": 1042
+                        "start": 1496,
+                        "end": 1512
                       },
                       "property": {
                         "type": "Identifier",
                         "name": "from",
-                        "start": 1043,
-                        "end": 1047
+                        "start": 1513,
+                        "end": 1517
                       },
                       "optional": false,
                       "computed": false,
-                      "start": 1026,
-                      "end": 1047
+                      "start": 1496,
+                      "end": 1517
                     },
                     "arguments": [
                       {
                         "type": "Identifier",
                         "name": "arg",
-                        "start": 1048,
-                        "end": 1051
+                        "start": 1518,
+                        "end": 1521
                       }
                     ],
                     "optional": false,
-                    "start": 1026,
-                    "end": 1052
+                    "start": 1496,
+                    "end": 1522
                   },
                   "id": null,
                   "generator": false,
-                  "start": 1020,
-                  "end": 1052
+                  "start": 1490,
+                  "end": 1522
                 },
                 {
                   "type": "TemplateLiteral",
@@ -484,8 +568,8 @@
                         "cooked": "\""
                       },
                       "tail": false,
-                      "start": 1059,
-                      "end": 1060
+                      "start": 1529,
+                      "end": 1530
                     },
                     {
                       "type": "TemplateElement",
@@ -494,39 +578,39 @@
                         "cooked": "\" UTC offset without time is not valid for Instant"
                       },
                       "tail": true,
-                      "start": 1066,
-                      "end": 1116
+                      "start": 1536,
+                      "end": 1586
                     }
                   ],
                   "expressions": [
                     {
                       "type": "Identifier",
                       "name": "arg",
-                      "start": 1062,
-                      "end": 1065
+                      "start": 1532,
+                      "end": 1535
                     }
                   ],
-                  "start": 1058,
-                  "end": 1117
+                  "start": 1528,
+                  "end": 1587
                 }
               ],
               "optional": false,
-              "start": 985,
-              "end": 1121
+              "start": 1455,
+              "end": 1591
             },
-            "start": 985,
-            "end": 1122
+            "start": 1455,
+            "end": 1592
           }
         ],
-        "start": 981,
-        "end": 1124
+        "start": 1451,
+        "end": 1594
       },
-      "start": 947,
-      "end": 1124
+      "start": 1417,
+      "end": 1594
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 1125
+  "end": 1595
 }

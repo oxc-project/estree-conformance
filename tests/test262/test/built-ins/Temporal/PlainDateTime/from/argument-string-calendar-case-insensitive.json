@@ -1,0 +1,165 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "arg",
+            "start": 257,
+            "end": 260
+          },
+          "init": {
+            "type": "Literal",
+            "value": "1976-11-18T00:00[u-ca=ISO8601]",
+            "raw": "\"1976-11-18T00:00[u-ca=ISO8601]\"",
+            "start": 263,
+            "end": 295
+          },
+          "start": 257,
+          "end": 295
+        }
+      ],
+      "start": 251,
+      "end": 296
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "result",
+            "start": 303,
+            "end": 309
+          },
+          "init": {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "Temporal",
+                  "start": 312,
+                  "end": 320
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "PlainDateTime",
+                  "start": 321,
+                  "end": 334
+                },
+                "optional": false,
+                "computed": false,
+                "start": 312,
+                "end": 334
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "from",
+                "start": 335,
+                "end": 339
+              },
+              "optional": false,
+              "computed": false,
+              "start": 312,
+              "end": 339
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "name": "arg",
+                "start": 340,
+                "end": 343
+              }
+            ],
+            "optional": false,
+            "start": 312,
+            "end": 344
+          },
+          "start": 303,
+          "end": 344
+        }
+      ],
+      "start": 297,
+      "end": 345
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 346,
+            "end": 352
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 353,
+            "end": 362
+          },
+          "optional": false,
+          "computed": false,
+          "start": 346,
+          "end": 362
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "Identifier",
+              "name": "result",
+              "start": 363,
+              "end": 369
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "calendarId",
+              "start": 370,
+              "end": 380
+            },
+            "optional": false,
+            "computed": false,
+            "start": 363,
+            "end": 380
+          },
+          {
+            "type": "Literal",
+            "value": "iso8601",
+            "raw": "\"iso8601\"",
+            "start": 382,
+            "end": 391
+          },
+          {
+            "type": "Literal",
+            "value": "Calendar is case-insensitive",
+            "raw": "\"Calendar is case-insensitive\"",
+            "start": 393,
+            "end": 423
+          }
+        ],
+        "optional": false,
+        "start": 346,
+        "end": 424
+      },
+      "start": 346,
+      "end": 425
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 426
+}
