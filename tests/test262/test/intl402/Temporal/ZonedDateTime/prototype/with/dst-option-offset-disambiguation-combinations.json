@@ -1,0 +1,3324 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "dstStartDay",
+            "start": 352,
+            "end": 363
+          },
+          "init": {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "CallExpression",
+                "callee": {
+                  "type": "MemberExpression",
+                  "object": {
+                    "type": "MemberExpression",
+                    "object": {
+                      "type": "Identifier",
+                      "name": "Temporal",
+                      "start": 366,
+                      "end": 374
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "name": "PlainDateTime",
+                      "start": 375,
+                      "end": 388
+                    },
+                    "optional": false,
+                    "computed": false,
+                    "start": 366,
+                    "end": 388
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "name": "from",
+                    "start": 389,
+                    "end": 393
+                  },
+                  "optional": false,
+                  "computed": false,
+                  "start": 366,
+                  "end": 393
+                },
+                "arguments": [
+                  {
+                    "type": "Literal",
+                    "value": "2000-04-02T12:00:01",
+                    "raw": "\"2000-04-02T12:00:01\"",
+                    "start": 394,
+                    "end": 415
+                  }
+                ],
+                "optional": false,
+                "start": 366,
+                "end": 416
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "toZonedDateTime",
+                "start": 417,
+                "end": 432
+              },
+              "optional": false,
+              "computed": false,
+              "start": 366,
+              "end": 432
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "value": "America/Vancouver",
+                "raw": "\"America/Vancouver\"",
+                "start": 433,
+                "end": 452
+              }
+            ],
+            "optional": false,
+            "start": 366,
+            "end": 453
+          },
+          "start": 352,
+          "end": 453
+        }
+      ],
+      "start": 346,
+      "end": 454
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "dstEndDay",
+            "start": 461,
+            "end": 470
+          },
+          "init": {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "CallExpression",
+                "callee": {
+                  "type": "MemberExpression",
+                  "object": {
+                    "type": "MemberExpression",
+                    "object": {
+                      "type": "Identifier",
+                      "name": "Temporal",
+                      "start": 473,
+                      "end": 481
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "name": "PlainDateTime",
+                      "start": 482,
+                      "end": 495
+                    },
+                    "optional": false,
+                    "computed": false,
+                    "start": 473,
+                    "end": 495
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "name": "from",
+                    "start": 496,
+                    "end": 500
+                  },
+                  "optional": false,
+                  "computed": false,
+                  "start": 473,
+                  "end": 500
+                },
+                "arguments": [
+                  {
+                    "type": "Literal",
+                    "value": "2000-10-29T12:00:01",
+                    "raw": "\"2000-10-29T12:00:01\"",
+                    "start": 501,
+                    "end": 522
+                  }
+                ],
+                "optional": false,
+                "start": 473,
+                "end": 523
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "toZonedDateTime",
+                "start": 524,
+                "end": 539
+              },
+              "optional": false,
+              "computed": false,
+              "start": 473,
+              "end": 539
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "value": "America/Vancouver",
+                "raw": "\"America/Vancouver\"",
+                "start": 540,
+                "end": 559
+              }
+            ],
+            "optional": false,
+            "start": 473,
+            "end": 560
+          },
+          "start": 461,
+          "end": 560
+        }
+      ],
+      "start": 455,
+      "end": 561
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "oneThirty",
+            "start": 568,
+            "end": 577
+          },
+          "init": {
+            "type": "ObjectExpression",
+            "properties": [
+              {
+                "type": "Property",
+                "kind": "init",
+                "key": {
+                  "type": "Identifier",
+                  "name": "hour",
+                  "start": 584,
+                  "end": 588
+                },
+                "value": {
+                  "type": "Literal",
+                  "value": 1,
+                  "raw": "1",
+                  "start": 590,
+                  "end": 591
+                },
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "start": 584,
+                "end": 591
+              },
+              {
+                "type": "Property",
+                "kind": "init",
+                "key": {
+                  "type": "Identifier",
+                  "name": "minute",
+                  "start": 595,
+                  "end": 601
+                },
+                "value": {
+                  "type": "Literal",
+                  "value": 30,
+                  "raw": "30",
+                  "start": 603,
+                  "end": 605
+                },
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "start": 595,
+                "end": 605
+              }
+            ],
+            "start": 580,
+            "end": 607
+          },
+          "start": 568,
+          "end": 607
+        }
+      ],
+      "start": 562,
+      "end": 608
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "twoThirty",
+            "start": 615,
+            "end": 624
+          },
+          "init": {
+            "type": "ObjectExpression",
+            "properties": [
+              {
+                "type": "Property",
+                "kind": "init",
+                "key": {
+                  "type": "Identifier",
+                  "name": "hour",
+                  "start": 631,
+                  "end": 635
+                },
+                "value": {
+                  "type": "Literal",
+                  "value": 2,
+                  "raw": "2",
+                  "start": 637,
+                  "end": 638
+                },
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "start": 631,
+                "end": 638
+              },
+              {
+                "type": "Property",
+                "kind": "init",
+                "key": {
+                  "type": "Identifier",
+                  "name": "minute",
+                  "start": 642,
+                  "end": 648
+                },
+                "value": {
+                  "type": "Literal",
+                  "value": 30,
+                  "raw": "30",
+                  "start": 650,
+                  "end": 652
+                },
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "start": 642,
+                "end": 652
+              }
+            ],
+            "start": 627,
+            "end": 654
+          },
+          "start": 615,
+          "end": 654
+        }
+      ],
+      "start": 609,
+      "end": 655
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "let",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "offset",
+            "start": 661,
+            "end": 667
+          },
+          "init": {
+            "type": "Literal",
+            "value": "ignore",
+            "raw": "\"ignore\"",
+            "start": 670,
+            "end": 678
+          },
+          "start": 661,
+          "end": 678
+        }
+      ],
+      "start": 657,
+      "end": 679
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "let",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "zdt",
+            "start": 733,
+            "end": 736
+          },
+          "init": {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "dstStartDay",
+                "start": 739,
+                "end": 750
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "with",
+                "start": 751,
+                "end": 755
+              },
+              "optional": false,
+              "computed": false,
+              "start": 739,
+              "end": 755
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "name": "twoThirty",
+                "start": 756,
+                "end": 765
+              },
+              {
+                "type": "ObjectExpression",
+                "properties": [
+                  {
+                    "type": "Property",
+                    "kind": "init",
+                    "key": {
+                      "type": "Identifier",
+                      "name": "offset",
+                      "start": 771,
+                      "end": 777
+                    },
+                    "value": {
+                      "type": "Identifier",
+                      "name": "offset",
+                      "start": 771,
+                      "end": 777
+                    },
+                    "method": false,
+                    "shorthand": true,
+                    "computed": false,
+                    "start": 771,
+                    "end": 777
+                  },
+                  {
+                    "type": "Property",
+                    "kind": "init",
+                    "key": {
+                      "type": "Identifier",
+                      "name": "disambiguation",
+                      "start": 781,
+                      "end": 795
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "value": "compatible",
+                      "raw": "\"compatible\"",
+                      "start": 797,
+                      "end": 809
+                    },
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "start": 781,
+                    "end": 809
+                  }
+                ],
+                "start": 767,
+                "end": 811
+              }
+            ],
+            "optional": false,
+            "start": 739,
+            "end": 812
+          },
+          "start": 733,
+          "end": 812
+        }
+      ],
+      "start": 729,
+      "end": 813
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 814,
+            "end": 820
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 821,
+            "end": 830
+          },
+          "optional": false,
+          "computed": false,
+          "start": 814,
+          "end": 830
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "Identifier",
+              "name": "zdt",
+              "start": 834,
+              "end": 837
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "offset",
+              "start": 838,
+              "end": 844
+            },
+            "optional": false,
+            "computed": false,
+            "start": 834,
+            "end": 844
+          },
+          {
+            "type": "Literal",
+            "value": "-07:00",
+            "raw": "\"-07:00\"",
+            "start": 848,
+            "end": 856
+          },
+          {
+            "type": "Literal",
+            "value": "Offset result when option offset: ignore and disambiguation: compatible, skipped time",
+            "raw": "\"Offset result when option offset: ignore and disambiguation: compatible, skipped time\"",
+            "start": 860,
+            "end": 947
+          }
+        ],
+        "optional": false,
+        "start": 814,
+        "end": 948
+      },
+      "start": 814,
+      "end": 949
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 950,
+            "end": 956
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 957,
+            "end": 966
+          },
+          "optional": false,
+          "computed": false,
+          "start": 950,
+          "end": 966
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "Identifier",
+              "name": "zdt",
+              "start": 970,
+              "end": 973
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "hour",
+              "start": 974,
+              "end": 978
+            },
+            "optional": false,
+            "computed": false,
+            "start": 970,
+            "end": 978
+          },
+          {
+            "type": "Literal",
+            "value": 3,
+            "raw": "3",
+            "start": 982,
+            "end": 983
+          },
+          {
+            "type": "Literal",
+            "value": "Hour result when option offset: ignore and disambiguation: compatible, skipped time",
+            "raw": "\"Hour result when option offset: ignore and disambiguation: compatible, skipped time\"",
+            "start": 987,
+            "end": 1072
+          }
+        ],
+        "optional": false,
+        "start": 950,
+        "end": 1073
+      },
+      "start": 950,
+      "end": 1074
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "AssignmentExpression",
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "name": "zdt",
+          "start": 1122,
+          "end": 1125
+        },
+        "right": {
+          "type": "CallExpression",
+          "callee": {
+            "type": "MemberExpression",
+            "object": {
+              "type": "Identifier",
+              "name": "dstStartDay",
+              "start": 1128,
+              "end": 1139
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "with",
+              "start": 1140,
+              "end": 1144
+            },
+            "optional": false,
+            "computed": false,
+            "start": 1128,
+            "end": 1144
+          },
+          "arguments": [
+            {
+              "type": "Identifier",
+              "name": "twoThirty",
+              "start": 1145,
+              "end": 1154
+            },
+            {
+              "type": "ObjectExpression",
+              "properties": [
+                {
+                  "type": "Property",
+                  "kind": "init",
+                  "key": {
+                    "type": "Identifier",
+                    "name": "offset",
+                    "start": 1160,
+                    "end": 1166
+                  },
+                  "value": {
+                    "type": "Identifier",
+                    "name": "offset",
+                    "start": 1160,
+                    "end": 1166
+                  },
+                  "method": false,
+                  "shorthand": true,
+                  "computed": false,
+                  "start": 1160,
+                  "end": 1166
+                },
+                {
+                  "type": "Property",
+                  "kind": "init",
+                  "key": {
+                    "type": "Identifier",
+                    "name": "disambiguation",
+                    "start": 1170,
+                    "end": 1184
+                  },
+                  "value": {
+                    "type": "Literal",
+                    "value": "earlier",
+                    "raw": "\"earlier\"",
+                    "start": 1186,
+                    "end": 1195
+                  },
+                  "method": false,
+                  "shorthand": false,
+                  "computed": false,
+                  "start": 1170,
+                  "end": 1195
+                }
+              ],
+              "start": 1156,
+              "end": 1197
+            }
+          ],
+          "optional": false,
+          "start": 1128,
+          "end": 1198
+        },
+        "start": 1122,
+        "end": 1198
+      },
+      "start": 1122,
+      "end": 1199
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 1200,
+            "end": 1206
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 1207,
+            "end": 1216
+          },
+          "optional": false,
+          "computed": false,
+          "start": 1200,
+          "end": 1216
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "Identifier",
+              "name": "zdt",
+              "start": 1220,
+              "end": 1223
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "offset",
+              "start": 1224,
+              "end": 1230
+            },
+            "optional": false,
+            "computed": false,
+            "start": 1220,
+            "end": 1230
+          },
+          {
+            "type": "Literal",
+            "value": "-08:00",
+            "raw": "\"-08:00\"",
+            "start": 1234,
+            "end": 1242
+          },
+          {
+            "type": "Literal",
+            "value": "Offset result when option offset: ignore and disambiguation: earlier, skipped time",
+            "raw": "\"Offset result when option offset: ignore and disambiguation: earlier, skipped time\"",
+            "start": 1246,
+            "end": 1330
+          }
+        ],
+        "optional": false,
+        "start": 1200,
+        "end": 1331
+      },
+      "start": 1200,
+      "end": 1332
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 1333,
+            "end": 1339
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 1340,
+            "end": 1349
+          },
+          "optional": false,
+          "computed": false,
+          "start": 1333,
+          "end": 1349
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "Identifier",
+              "name": "zdt",
+              "start": 1353,
+              "end": 1356
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "hour",
+              "start": 1357,
+              "end": 1361
+            },
+            "optional": false,
+            "computed": false,
+            "start": 1353,
+            "end": 1361
+          },
+          {
+            "type": "Literal",
+            "value": 1,
+            "raw": "1",
+            "start": 1365,
+            "end": 1366
+          },
+          {
+            "type": "Literal",
+            "value": "Hour result when option offset: ignore and disambiguation: earlier, skipped time",
+            "raw": "\"Hour result when option offset: ignore and disambiguation: earlier, skipped time\"",
+            "start": 1370,
+            "end": 1452
+          }
+        ],
+        "optional": false,
+        "start": 1333,
+        "end": 1453
+      },
+      "start": 1333,
+      "end": 1454
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "AssignmentExpression",
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "name": "zdt",
+          "start": 1500,
+          "end": 1503
+        },
+        "right": {
+          "type": "CallExpression",
+          "callee": {
+            "type": "MemberExpression",
+            "object": {
+              "type": "Identifier",
+              "name": "dstStartDay",
+              "start": 1506,
+              "end": 1517
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "with",
+              "start": 1518,
+              "end": 1522
+            },
+            "optional": false,
+            "computed": false,
+            "start": 1506,
+            "end": 1522
+          },
+          "arguments": [
+            {
+              "type": "Identifier",
+              "name": "twoThirty",
+              "start": 1523,
+              "end": 1532
+            },
+            {
+              "type": "ObjectExpression",
+              "properties": [
+                {
+                  "type": "Property",
+                  "kind": "init",
+                  "key": {
+                    "type": "Identifier",
+                    "name": "offset",
+                    "start": 1538,
+                    "end": 1544
+                  },
+                  "value": {
+                    "type": "Identifier",
+                    "name": "offset",
+                    "start": 1538,
+                    "end": 1544
+                  },
+                  "method": false,
+                  "shorthand": true,
+                  "computed": false,
+                  "start": 1538,
+                  "end": 1544
+                },
+                {
+                  "type": "Property",
+                  "kind": "init",
+                  "key": {
+                    "type": "Identifier",
+                    "name": "disambiguation",
+                    "start": 1548,
+                    "end": 1562
+                  },
+                  "value": {
+                    "type": "Literal",
+                    "value": "later",
+                    "raw": "\"later\"",
+                    "start": 1564,
+                    "end": 1571
+                  },
+                  "method": false,
+                  "shorthand": false,
+                  "computed": false,
+                  "start": 1548,
+                  "end": 1571
+                }
+              ],
+              "start": 1534,
+              "end": 1573
+            }
+          ],
+          "optional": false,
+          "start": 1506,
+          "end": 1574
+        },
+        "start": 1500,
+        "end": 1574
+      },
+      "start": 1500,
+      "end": 1575
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 1576,
+            "end": 1582
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 1583,
+            "end": 1592
+          },
+          "optional": false,
+          "computed": false,
+          "start": 1576,
+          "end": 1592
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "Identifier",
+              "name": "zdt",
+              "start": 1596,
+              "end": 1599
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "offset",
+              "start": 1600,
+              "end": 1606
+            },
+            "optional": false,
+            "computed": false,
+            "start": 1596,
+            "end": 1606
+          },
+          {
+            "type": "Literal",
+            "value": "-07:00",
+            "raw": "\"-07:00\"",
+            "start": 1610,
+            "end": 1618
+          },
+          {
+            "type": "Literal",
+            "value": "Offset result when option offset: ignore and disambiguation: later, skipped time",
+            "raw": "\"Offset result when option offset: ignore and disambiguation: later, skipped time\"",
+            "start": 1622,
+            "end": 1704
+          }
+        ],
+        "optional": false,
+        "start": 1576,
+        "end": 1705
+      },
+      "start": 1576,
+      "end": 1706
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 1707,
+            "end": 1713
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 1714,
+            "end": 1723
+          },
+          "optional": false,
+          "computed": false,
+          "start": 1707,
+          "end": 1723
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "Identifier",
+              "name": "zdt",
+              "start": 1727,
+              "end": 1730
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "hour",
+              "start": 1731,
+              "end": 1735
+            },
+            "optional": false,
+            "computed": false,
+            "start": 1727,
+            "end": 1735
+          },
+          {
+            "type": "Literal",
+            "value": 3,
+            "raw": "3",
+            "start": 1739,
+            "end": 1740
+          },
+          {
+            "type": "Literal",
+            "value": "Hour result when option offset: ignore and disambiguation: later, skipped time",
+            "raw": "\"Hour result when option offset: ignore and disambiguation: later, skipped time\"",
+            "start": 1744,
+            "end": 1824
+          }
+        ],
+        "optional": false,
+        "start": 1707,
+        "end": 1825
+      },
+      "start": 1707,
+      "end": 1826
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "AssignmentExpression",
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "name": "zdt",
+          "start": 1878,
+          "end": 1881
+        },
+        "right": {
+          "type": "CallExpression",
+          "callee": {
+            "type": "MemberExpression",
+            "object": {
+              "type": "Identifier",
+              "name": "dstEndDay",
+              "start": 1884,
+              "end": 1893
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "with",
+              "start": 1894,
+              "end": 1898
+            },
+            "optional": false,
+            "computed": false,
+            "start": 1884,
+            "end": 1898
+          },
+          "arguments": [
+            {
+              "type": "Identifier",
+              "name": "oneThirty",
+              "start": 1899,
+              "end": 1908
+            },
+            {
+              "type": "ObjectExpression",
+              "properties": [
+                {
+                  "type": "Property",
+                  "kind": "init",
+                  "key": {
+                    "type": "Identifier",
+                    "name": "offset",
+                    "start": 1914,
+                    "end": 1920
+                  },
+                  "value": {
+                    "type": "Identifier",
+                    "name": "offset",
+                    "start": 1914,
+                    "end": 1920
+                  },
+                  "method": false,
+                  "shorthand": true,
+                  "computed": false,
+                  "start": 1914,
+                  "end": 1920
+                },
+                {
+                  "type": "Property",
+                  "kind": "init",
+                  "key": {
+                    "type": "Identifier",
+                    "name": "disambiguation",
+                    "start": 1924,
+                    "end": 1938
+                  },
+                  "value": {
+                    "type": "Literal",
+                    "value": "compatible",
+                    "raw": "\"compatible\"",
+                    "start": 1940,
+                    "end": 1952
+                  },
+                  "method": false,
+                  "shorthand": false,
+                  "computed": false,
+                  "start": 1924,
+                  "end": 1952
+                }
+              ],
+              "start": 1910,
+              "end": 1954
+            }
+          ],
+          "optional": false,
+          "start": 1884,
+          "end": 1955
+        },
+        "start": 1878,
+        "end": 1955
+      },
+      "start": 1878,
+      "end": 1956
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 1957,
+            "end": 1963
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 1964,
+            "end": 1973
+          },
+          "optional": false,
+          "computed": false,
+          "start": 1957,
+          "end": 1973
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "Identifier",
+              "name": "zdt",
+              "start": 1977,
+              "end": 1980
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "offset",
+              "start": 1981,
+              "end": 1987
+            },
+            "optional": false,
+            "computed": false,
+            "start": 1977,
+            "end": 1987
+          },
+          {
+            "type": "Literal",
+            "value": "-07:00",
+            "raw": "\"-07:00\"",
+            "start": 1991,
+            "end": 1999
+          },
+          {
+            "type": "Literal",
+            "value": "Offset result when option offset: ignore and disambiguation: compatible, repeated time",
+            "raw": "\"Offset result when option offset: ignore and disambiguation: compatible, repeated time\"",
+            "start": 2003,
+            "end": 2091
+          }
+        ],
+        "optional": false,
+        "start": 1957,
+        "end": 2092
+      },
+      "start": 1957,
+      "end": 2093
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 2094,
+            "end": 2100
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 2101,
+            "end": 2110
+          },
+          "optional": false,
+          "computed": false,
+          "start": 2094,
+          "end": 2110
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "Identifier",
+              "name": "zdt",
+              "start": 2114,
+              "end": 2117
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "hour",
+              "start": 2118,
+              "end": 2122
+            },
+            "optional": false,
+            "computed": false,
+            "start": 2114,
+            "end": 2122
+          },
+          {
+            "type": "Literal",
+            "value": 1,
+            "raw": "1",
+            "start": 2126,
+            "end": 2127
+          },
+          {
+            "type": "Literal",
+            "value": "Hour result when option offset: ignore and disambiguation: compatible, repeated time",
+            "raw": "\"Hour result when option offset: ignore and disambiguation: compatible, repeated time\"",
+            "start": 2131,
+            "end": 2217
+          }
+        ],
+        "optional": false,
+        "start": 2094,
+        "end": 2218
+      },
+      "start": 2094,
+      "end": 2219
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "AssignmentExpression",
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "name": "zdt",
+          "start": 2268,
+          "end": 2271
+        },
+        "right": {
+          "type": "CallExpression",
+          "callee": {
+            "type": "MemberExpression",
+            "object": {
+              "type": "Identifier",
+              "name": "dstEndDay",
+              "start": 2274,
+              "end": 2283
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "with",
+              "start": 2284,
+              "end": 2288
+            },
+            "optional": false,
+            "computed": false,
+            "start": 2274,
+            "end": 2288
+          },
+          "arguments": [
+            {
+              "type": "Identifier",
+              "name": "oneThirty",
+              "start": 2289,
+              "end": 2298
+            },
+            {
+              "type": "ObjectExpression",
+              "properties": [
+                {
+                  "type": "Property",
+                  "kind": "init",
+                  "key": {
+                    "type": "Identifier",
+                    "name": "offset",
+                    "start": 2304,
+                    "end": 2310
+                  },
+                  "value": {
+                    "type": "Identifier",
+                    "name": "offset",
+                    "start": 2304,
+                    "end": 2310
+                  },
+                  "method": false,
+                  "shorthand": true,
+                  "computed": false,
+                  "start": 2304,
+                  "end": 2310
+                },
+                {
+                  "type": "Property",
+                  "kind": "init",
+                  "key": {
+                    "type": "Identifier",
+                    "name": "disambiguation",
+                    "start": 2314,
+                    "end": 2328
+                  },
+                  "value": {
+                    "type": "Literal",
+                    "value": "earlier",
+                    "raw": "\"earlier\"",
+                    "start": 2330,
+                    "end": 2339
+                  },
+                  "method": false,
+                  "shorthand": false,
+                  "computed": false,
+                  "start": 2314,
+                  "end": 2339
+                }
+              ],
+              "start": 2300,
+              "end": 2341
+            }
+          ],
+          "optional": false,
+          "start": 2274,
+          "end": 2342
+        },
+        "start": 2268,
+        "end": 2342
+      },
+      "start": 2268,
+      "end": 2343
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 2344,
+            "end": 2350
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 2351,
+            "end": 2360
+          },
+          "optional": false,
+          "computed": false,
+          "start": 2344,
+          "end": 2360
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "Identifier",
+              "name": "zdt",
+              "start": 2364,
+              "end": 2367
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "offset",
+              "start": 2368,
+              "end": 2374
+            },
+            "optional": false,
+            "computed": false,
+            "start": 2364,
+            "end": 2374
+          },
+          {
+            "type": "Literal",
+            "value": "-07:00",
+            "raw": "\"-07:00\"",
+            "start": 2378,
+            "end": 2386
+          },
+          {
+            "type": "Literal",
+            "value": "Offset result when option offset: ignore and disambiguation: earlier, repeated time",
+            "raw": "\"Offset result when option offset: ignore and disambiguation: earlier, repeated time\"",
+            "start": 2390,
+            "end": 2475
+          }
+        ],
+        "optional": false,
+        "start": 2344,
+        "end": 2476
+      },
+      "start": 2344,
+      "end": 2477
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 2478,
+            "end": 2484
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 2485,
+            "end": 2494
+          },
+          "optional": false,
+          "computed": false,
+          "start": 2478,
+          "end": 2494
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "Identifier",
+              "name": "zdt",
+              "start": 2498,
+              "end": 2501
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "hour",
+              "start": 2502,
+              "end": 2506
+            },
+            "optional": false,
+            "computed": false,
+            "start": 2498,
+            "end": 2506
+          },
+          {
+            "type": "Literal",
+            "value": 1,
+            "raw": "1",
+            "start": 2510,
+            "end": 2511
+          },
+          {
+            "type": "Literal",
+            "value": "Hour result when option offset: ignore and disambiguation: earlier, repeated time",
+            "raw": "\"Hour result when option offset: ignore and disambiguation: earlier, repeated time\"",
+            "start": 2515,
+            "end": 2598
+          }
+        ],
+        "optional": false,
+        "start": 2478,
+        "end": 2599
+      },
+      "start": 2478,
+      "end": 2600
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "AssignmentExpression",
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "name": "zdt",
+          "start": 2647,
+          "end": 2650
+        },
+        "right": {
+          "type": "CallExpression",
+          "callee": {
+            "type": "MemberExpression",
+            "object": {
+              "type": "Identifier",
+              "name": "dstEndDay",
+              "start": 2653,
+              "end": 2662
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "with",
+              "start": 2663,
+              "end": 2667
+            },
+            "optional": false,
+            "computed": false,
+            "start": 2653,
+            "end": 2667
+          },
+          "arguments": [
+            {
+              "type": "Identifier",
+              "name": "oneThirty",
+              "start": 2668,
+              "end": 2677
+            },
+            {
+              "type": "ObjectExpression",
+              "properties": [
+                {
+                  "type": "Property",
+                  "kind": "init",
+                  "key": {
+                    "type": "Identifier",
+                    "name": "offset",
+                    "start": 2683,
+                    "end": 2689
+                  },
+                  "value": {
+                    "type": "Identifier",
+                    "name": "offset",
+                    "start": 2683,
+                    "end": 2689
+                  },
+                  "method": false,
+                  "shorthand": true,
+                  "computed": false,
+                  "start": 2683,
+                  "end": 2689
+                },
+                {
+                  "type": "Property",
+                  "kind": "init",
+                  "key": {
+                    "type": "Identifier",
+                    "name": "disambiguation",
+                    "start": 2693,
+                    "end": 2707
+                  },
+                  "value": {
+                    "type": "Literal",
+                    "value": "later",
+                    "raw": "\"later\"",
+                    "start": 2709,
+                    "end": 2716
+                  },
+                  "method": false,
+                  "shorthand": false,
+                  "computed": false,
+                  "start": 2693,
+                  "end": 2716
+                }
+              ],
+              "start": 2679,
+              "end": 2718
+            }
+          ],
+          "optional": false,
+          "start": 2653,
+          "end": 2719
+        },
+        "start": 2647,
+        "end": 2719
+      },
+      "start": 2647,
+      "end": 2720
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 2721,
+            "end": 2727
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 2728,
+            "end": 2737
+          },
+          "optional": false,
+          "computed": false,
+          "start": 2721,
+          "end": 2737
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "Identifier",
+              "name": "zdt",
+              "start": 2741,
+              "end": 2744
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "offset",
+              "start": 2745,
+              "end": 2751
+            },
+            "optional": false,
+            "computed": false,
+            "start": 2741,
+            "end": 2751
+          },
+          {
+            "type": "Literal",
+            "value": "-08:00",
+            "raw": "\"-08:00\"",
+            "start": 2755,
+            "end": 2763
+          },
+          {
+            "type": "Literal",
+            "value": "Offset result when option offset: ignore and disambiguation: later, repeated time",
+            "raw": "\"Offset result when option offset: ignore and disambiguation: later, repeated time\"",
+            "start": 2767,
+            "end": 2850
+          }
+        ],
+        "optional": false,
+        "start": 2721,
+        "end": 2851
+      },
+      "start": 2721,
+      "end": 2852
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 2853,
+            "end": 2859
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 2860,
+            "end": 2869
+          },
+          "optional": false,
+          "computed": false,
+          "start": 2853,
+          "end": 2869
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "Identifier",
+              "name": "zdt",
+              "start": 2873,
+              "end": 2876
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "hour",
+              "start": 2877,
+              "end": 2881
+            },
+            "optional": false,
+            "computed": false,
+            "start": 2873,
+            "end": 2881
+          },
+          {
+            "type": "Literal",
+            "value": 1,
+            "raw": "1",
+            "start": 2885,
+            "end": 2886
+          },
+          {
+            "type": "Literal",
+            "value": "Hour result when option offset: ignore and disambiguation: later, repeated time",
+            "raw": "\"Hour result when option offset: ignore and disambiguation: later, repeated time\"",
+            "start": 2890,
+            "end": 2971
+          }
+        ],
+        "optional": false,
+        "start": 2853,
+        "end": 2972
+      },
+      "start": 2853,
+      "end": 2973
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 2975,
+            "end": 2981
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "throws",
+            "start": 2982,
+            "end": 2988
+          },
+          "optional": false,
+          "computed": false,
+          "start": 2975,
+          "end": 2988
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "name": "RangeError",
+            "start": 2989,
+            "end": 2999
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "expression": true,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "CallExpression",
+              "callee": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "dstStartDay",
+                  "start": 3007,
+                  "end": 3018
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "with",
+                  "start": 3019,
+                  "end": 3023
+                },
+                "optional": false,
+                "computed": false,
+                "start": 3007,
+                "end": 3023
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "name": "twoThirty",
+                  "start": 3024,
+                  "end": 3033
+                },
+                {
+                  "type": "ObjectExpression",
+                  "properties": [
+                    {
+                      "type": "Property",
+                      "kind": "init",
+                      "key": {
+                        "type": "Identifier",
+                        "name": "offset",
+                        "start": 3039,
+                        "end": 3045
+                      },
+                      "value": {
+                        "type": "Identifier",
+                        "name": "offset",
+                        "start": 3039,
+                        "end": 3045
+                      },
+                      "method": false,
+                      "shorthand": true,
+                      "computed": false,
+                      "start": 3039,
+                      "end": 3045
+                    },
+                    {
+                      "type": "Property",
+                      "kind": "init",
+                      "key": {
+                        "type": "Identifier",
+                        "name": "disambiguation",
+                        "start": 3049,
+                        "end": 3063
+                      },
+                      "value": {
+                        "type": "Literal",
+                        "value": "reject",
+                        "raw": "\"reject\"",
+                        "start": 3065,
+                        "end": 3073
+                      },
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false,
+                      "start": 3049,
+                      "end": 3073
+                    }
+                  ],
+                  "start": 3035,
+                  "end": 3075
+                }
+              ],
+              "optional": false,
+              "start": 3007,
+              "end": 3076
+            },
+            "id": null,
+            "generator": false,
+            "start": 3001,
+            "end": 3076
+          },
+          {
+            "type": "Literal",
+            "value": "Throws when option offset: ignore and disambiguation: reject",
+            "raw": "\"Throws when option offset: ignore and disambiguation: reject\"",
+            "start": 3078,
+            "end": 3140
+          }
+        ],
+        "optional": false,
+        "start": 2975,
+        "end": 3141
+      },
+      "start": 2975,
+      "end": 3142
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "bogus",
+            "start": 3167,
+            "end": 3172
+          },
+          "init": {
+            "type": "ObjectExpression",
+            "properties": [
+              {
+                "type": "SpreadElement",
+                "argument": {
+                  "type": "Identifier",
+                  "name": "twoThirty",
+                  "start": 3182,
+                  "end": 3191
+                },
+                "start": 3179,
+                "end": 3191
+              },
+              {
+                "type": "Property",
+                "kind": "init",
+                "key": {
+                  "type": "Identifier",
+                  "name": "offset",
+                  "start": 3195,
+                  "end": 3201
+                },
+                "value": {
+                  "type": "Literal",
+                  "value": "+23:59",
+                  "raw": "\"+23:59\"",
+                  "start": 3203,
+                  "end": 3211
+                },
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "start": 3195,
+                "end": 3211
+              }
+            ],
+            "start": 3175,
+            "end": 3213
+          },
+          "start": 3167,
+          "end": 3213
+        }
+      ],
+      "start": 3161,
+      "end": 3214
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "AssignmentExpression",
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "name": "offset",
+          "start": 3287,
+          "end": 3293
+        },
+        "right": {
+          "type": "Literal",
+          "value": "ignore",
+          "raw": "\"ignore\"",
+          "start": 3296,
+          "end": 3304
+        },
+        "start": 3287,
+        "end": 3304
+      },
+      "start": 3287,
+      "end": 3305
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "AssignmentExpression",
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "name": "zdt",
+          "start": 3306,
+          "end": 3309
+        },
+        "right": {
+          "type": "CallExpression",
+          "callee": {
+            "type": "MemberExpression",
+            "object": {
+              "type": "Identifier",
+              "name": "dstStartDay",
+              "start": 3312,
+              "end": 3323
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "with",
+              "start": 3324,
+              "end": 3328
+            },
+            "optional": false,
+            "computed": false,
+            "start": 3312,
+            "end": 3328
+          },
+          "arguments": [
+            {
+              "type": "Identifier",
+              "name": "bogus",
+              "start": 3329,
+              "end": 3334
+            },
+            {
+              "type": "ObjectExpression",
+              "properties": [
+                {
+                  "type": "Property",
+                  "kind": "init",
+                  "key": {
+                    "type": "Identifier",
+                    "name": "offset",
+                    "start": 3340,
+                    "end": 3346
+                  },
+                  "value": {
+                    "type": "Identifier",
+                    "name": "offset",
+                    "start": 3340,
+                    "end": 3346
+                  },
+                  "method": false,
+                  "shorthand": true,
+                  "computed": false,
+                  "start": 3340,
+                  "end": 3346
+                },
+                {
+                  "type": "Property",
+                  "kind": "init",
+                  "key": {
+                    "type": "Identifier",
+                    "name": "disambiguation",
+                    "start": 3350,
+                    "end": 3364
+                  },
+                  "value": {
+                    "type": "Literal",
+                    "value": "earlier",
+                    "raw": "\"earlier\"",
+                    "start": 3366,
+                    "end": 3375
+                  },
+                  "method": false,
+                  "shorthand": false,
+                  "computed": false,
+                  "start": 3350,
+                  "end": 3375
+                }
+              ],
+              "start": 3336,
+              "end": 3377
+            }
+          ],
+          "optional": false,
+          "start": 3312,
+          "end": 3378
+        },
+        "start": 3306,
+        "end": 3378
+      },
+      "start": 3306,
+      "end": 3379
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 3380,
+            "end": 3386
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 3387,
+            "end": 3396
+          },
+          "optional": false,
+          "computed": false,
+          "start": 3380,
+          "end": 3396
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "Identifier",
+              "name": "zdt",
+              "start": 3400,
+              "end": 3403
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "offset",
+              "start": 3404,
+              "end": 3410
+            },
+            "optional": false,
+            "computed": false,
+            "start": 3400,
+            "end": 3410
+          },
+          {
+            "type": "Literal",
+            "value": "-08:00",
+            "raw": "\"-08:00\"",
+            "start": 3414,
+            "end": 3422
+          },
+          {
+            "type": "Literal",
+            "value": "Offset result when offset is wrong, option offset:ignore  and disambiguation: earlier",
+            "raw": "\"Offset result when offset is wrong, option offset:ignore  and disambiguation: earlier\"",
+            "start": 3426,
+            "end": 3513
+          }
+        ],
+        "optional": false,
+        "start": 3380,
+        "end": 3514
+      },
+      "start": 3380,
+      "end": 3515
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 3516,
+            "end": 3522
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 3523,
+            "end": 3532
+          },
+          "optional": false,
+          "computed": false,
+          "start": 3516,
+          "end": 3532
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "Identifier",
+              "name": "zdt",
+              "start": 3536,
+              "end": 3539
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "hour",
+              "start": 3540,
+              "end": 3544
+            },
+            "optional": false,
+            "computed": false,
+            "start": 3536,
+            "end": 3544
+          },
+          {
+            "type": "Literal",
+            "value": 1,
+            "raw": "1",
+            "start": 3548,
+            "end": 3549
+          },
+          {
+            "type": "Literal",
+            "value": "Hour result when offset is wrong, option offset:ignore  and disambiguation: earlier",
+            "raw": "\"Hour result when offset is wrong, option offset:ignore  and disambiguation: earlier\"",
+            "start": 3553,
+            "end": 3638
+          }
+        ],
+        "optional": false,
+        "start": 3516,
+        "end": 3639
+      },
+      "start": 3516,
+      "end": 3640
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "AssignmentExpression",
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "name": "zdt",
+          "start": 3642,
+          "end": 3645
+        },
+        "right": {
+          "type": "CallExpression",
+          "callee": {
+            "type": "MemberExpression",
+            "object": {
+              "type": "Identifier",
+              "name": "dstStartDay",
+              "start": 3648,
+              "end": 3659
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "with",
+              "start": 3660,
+              "end": 3664
+            },
+            "optional": false,
+            "computed": false,
+            "start": 3648,
+            "end": 3664
+          },
+          "arguments": [
+            {
+              "type": "Identifier",
+              "name": "bogus",
+              "start": 3665,
+              "end": 3670
+            },
+            {
+              "type": "ObjectExpression",
+              "properties": [
+                {
+                  "type": "Property",
+                  "kind": "init",
+                  "key": {
+                    "type": "Identifier",
+                    "name": "offset",
+                    "start": 3676,
+                    "end": 3682
+                  },
+                  "value": {
+                    "type": "Identifier",
+                    "name": "offset",
+                    "start": 3676,
+                    "end": 3682
+                  },
+                  "method": false,
+                  "shorthand": true,
+                  "computed": false,
+                  "start": 3676,
+                  "end": 3682
+                },
+                {
+                  "type": "Property",
+                  "kind": "init",
+                  "key": {
+                    "type": "Identifier",
+                    "name": "disambiguation",
+                    "start": 3686,
+                    "end": 3700
+                  },
+                  "value": {
+                    "type": "Literal",
+                    "value": "later",
+                    "raw": "\"later\"",
+                    "start": 3702,
+                    "end": 3709
+                  },
+                  "method": false,
+                  "shorthand": false,
+                  "computed": false,
+                  "start": 3686,
+                  "end": 3709
+                }
+              ],
+              "start": 3672,
+              "end": 3711
+            }
+          ],
+          "optional": false,
+          "start": 3648,
+          "end": 3712
+        },
+        "start": 3642,
+        "end": 3712
+      },
+      "start": 3642,
+      "end": 3713
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 3714,
+            "end": 3720
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 3721,
+            "end": 3730
+          },
+          "optional": false,
+          "computed": false,
+          "start": 3714,
+          "end": 3730
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "Identifier",
+              "name": "zdt",
+              "start": 3734,
+              "end": 3737
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "offset",
+              "start": 3738,
+              "end": 3744
+            },
+            "optional": false,
+            "computed": false,
+            "start": 3734,
+            "end": 3744
+          },
+          {
+            "type": "Literal",
+            "value": "-07:00",
+            "raw": "\"-07:00\"",
+            "start": 3748,
+            "end": 3756
+          },
+          {
+            "type": "Literal",
+            "value": "Offset result when offset is wrong, option offset:ignore  and disambiguation: later",
+            "raw": "\"Offset result when offset is wrong, option offset:ignore  and disambiguation: later\"",
+            "start": 3760,
+            "end": 3845
+          }
+        ],
+        "optional": false,
+        "start": 3714,
+        "end": 3846
+      },
+      "start": 3714,
+      "end": 3847
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 3848,
+            "end": 3854
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 3855,
+            "end": 3864
+          },
+          "optional": false,
+          "computed": false,
+          "start": 3848,
+          "end": 3864
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "Identifier",
+              "name": "zdt",
+              "start": 3868,
+              "end": 3871
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "hour",
+              "start": 3872,
+              "end": 3876
+            },
+            "optional": false,
+            "computed": false,
+            "start": 3868,
+            "end": 3876
+          },
+          {
+            "type": "Literal",
+            "value": 3,
+            "raw": "3",
+            "start": 3880,
+            "end": 3881
+          },
+          {
+            "type": "Literal",
+            "value": "Hour result when offset is wrong, option offset:ignore  and disambiguation: later",
+            "raw": "\"Hour result when offset is wrong, option offset:ignore  and disambiguation: later\"",
+            "start": 3885,
+            "end": 3968
+          }
+        ],
+        "optional": false,
+        "start": 3848,
+        "end": 3969
+      },
+      "start": 3848,
+      "end": 3970
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "AssignmentExpression",
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "name": "offset",
+          "start": 4043,
+          "end": 4049
+        },
+        "right": {
+          "type": "Literal",
+          "value": "prefer",
+          "raw": "\"prefer\"",
+          "start": 4052,
+          "end": 4060
+        },
+        "start": 4043,
+        "end": 4060
+      },
+      "start": 4043,
+      "end": 4061
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "AssignmentExpression",
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "name": "zdt",
+          "start": 4062,
+          "end": 4065
+        },
+        "right": {
+          "type": "CallExpression",
+          "callee": {
+            "type": "MemberExpression",
+            "object": {
+              "type": "Identifier",
+              "name": "dstStartDay",
+              "start": 4068,
+              "end": 4079
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "with",
+              "start": 4080,
+              "end": 4084
+            },
+            "optional": false,
+            "computed": false,
+            "start": 4068,
+            "end": 4084
+          },
+          "arguments": [
+            {
+              "type": "Identifier",
+              "name": "bogus",
+              "start": 4085,
+              "end": 4090
+            },
+            {
+              "type": "ObjectExpression",
+              "properties": [
+                {
+                  "type": "Property",
+                  "kind": "init",
+                  "key": {
+                    "type": "Identifier",
+                    "name": "offset",
+                    "start": 4096,
+                    "end": 4102
+                  },
+                  "value": {
+                    "type": "Identifier",
+                    "name": "offset",
+                    "start": 4096,
+                    "end": 4102
+                  },
+                  "method": false,
+                  "shorthand": true,
+                  "computed": false,
+                  "start": 4096,
+                  "end": 4102
+                },
+                {
+                  "type": "Property",
+                  "kind": "init",
+                  "key": {
+                    "type": "Identifier",
+                    "name": "disambiguation",
+                    "start": 4106,
+                    "end": 4120
+                  },
+                  "value": {
+                    "type": "Literal",
+                    "value": "earlier",
+                    "raw": "\"earlier\"",
+                    "start": 4122,
+                    "end": 4131
+                  },
+                  "method": false,
+                  "shorthand": false,
+                  "computed": false,
+                  "start": 4106,
+                  "end": 4131
+                }
+              ],
+              "start": 4092,
+              "end": 4133
+            }
+          ],
+          "optional": false,
+          "start": 4068,
+          "end": 4134
+        },
+        "start": 4062,
+        "end": 4134
+      },
+      "start": 4062,
+      "end": 4135
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 4136,
+            "end": 4142
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 4143,
+            "end": 4152
+          },
+          "optional": false,
+          "computed": false,
+          "start": 4136,
+          "end": 4152
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "Identifier",
+              "name": "zdt",
+              "start": 4156,
+              "end": 4159
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "offset",
+              "start": 4160,
+              "end": 4166
+            },
+            "optional": false,
+            "computed": false,
+            "start": 4156,
+            "end": 4166
+          },
+          {
+            "type": "Literal",
+            "value": "-08:00",
+            "raw": "\"-08:00\"",
+            "start": 4170,
+            "end": 4178
+          },
+          {
+            "type": "Literal",
+            "value": "Offset result when offset is wrong, option offset: prefer and disambiguation: earlier",
+            "raw": "\"Offset result when offset is wrong, option offset: prefer and disambiguation: earlier\"",
+            "start": 4182,
+            "end": 4269
+          }
+        ],
+        "optional": false,
+        "start": 4136,
+        "end": 4270
+      },
+      "start": 4136,
+      "end": 4271
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 4272,
+            "end": 4278
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 4279,
+            "end": 4288
+          },
+          "optional": false,
+          "computed": false,
+          "start": 4272,
+          "end": 4288
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "Identifier",
+              "name": "zdt",
+              "start": 4292,
+              "end": 4295
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "hour",
+              "start": 4296,
+              "end": 4300
+            },
+            "optional": false,
+            "computed": false,
+            "start": 4292,
+            "end": 4300
+          },
+          {
+            "type": "Literal",
+            "value": 1,
+            "raw": "1",
+            "start": 4304,
+            "end": 4305
+          },
+          {
+            "type": "Literal",
+            "value": "Hour result when offset is wrong, option offset: prefer and disambiguation: earlier",
+            "raw": "\"Hour result when offset is wrong, option offset: prefer and disambiguation: earlier\"",
+            "start": 4309,
+            "end": 4394
+          }
+        ],
+        "optional": false,
+        "start": 4272,
+        "end": 4395
+      },
+      "start": 4272,
+      "end": 4396
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "AssignmentExpression",
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "name": "zdt",
+          "start": 4398,
+          "end": 4401
+        },
+        "right": {
+          "type": "CallExpression",
+          "callee": {
+            "type": "MemberExpression",
+            "object": {
+              "type": "Identifier",
+              "name": "dstStartDay",
+              "start": 4404,
+              "end": 4415
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "with",
+              "start": 4416,
+              "end": 4420
+            },
+            "optional": false,
+            "computed": false,
+            "start": 4404,
+            "end": 4420
+          },
+          "arguments": [
+            {
+              "type": "Identifier",
+              "name": "bogus",
+              "start": 4421,
+              "end": 4426
+            },
+            {
+              "type": "ObjectExpression",
+              "properties": [
+                {
+                  "type": "Property",
+                  "kind": "init",
+                  "key": {
+                    "type": "Identifier",
+                    "name": "offset",
+                    "start": 4432,
+                    "end": 4438
+                  },
+                  "value": {
+                    "type": "Identifier",
+                    "name": "offset",
+                    "start": 4432,
+                    "end": 4438
+                  },
+                  "method": false,
+                  "shorthand": true,
+                  "computed": false,
+                  "start": 4432,
+                  "end": 4438
+                },
+                {
+                  "type": "Property",
+                  "kind": "init",
+                  "key": {
+                    "type": "Identifier",
+                    "name": "disambiguation",
+                    "start": 4442,
+                    "end": 4456
+                  },
+                  "value": {
+                    "type": "Literal",
+                    "value": "later",
+                    "raw": "\"later\"",
+                    "start": 4458,
+                    "end": 4465
+                  },
+                  "method": false,
+                  "shorthand": false,
+                  "computed": false,
+                  "start": 4442,
+                  "end": 4465
+                }
+              ],
+              "start": 4428,
+              "end": 4467
+            }
+          ],
+          "optional": false,
+          "start": 4404,
+          "end": 4468
+        },
+        "start": 4398,
+        "end": 4468
+      },
+      "start": 4398,
+      "end": 4469
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 4470,
+            "end": 4476
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 4477,
+            "end": 4486
+          },
+          "optional": false,
+          "computed": false,
+          "start": 4470,
+          "end": 4486
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "Identifier",
+              "name": "zdt",
+              "start": 4490,
+              "end": 4493
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "offset",
+              "start": 4494,
+              "end": 4500
+            },
+            "optional": false,
+            "computed": false,
+            "start": 4490,
+            "end": 4500
+          },
+          {
+            "type": "Literal",
+            "value": "-07:00",
+            "raw": "\"-07:00\"",
+            "start": 4504,
+            "end": 4512
+          },
+          {
+            "type": "Literal",
+            "value": "Offset result when offset is wrong, option offset: prefer and disambiguation: later",
+            "raw": "\"Offset result when offset is wrong, option offset: prefer and disambiguation: later\"",
+            "start": 4516,
+            "end": 4601
+          }
+        ],
+        "optional": false,
+        "start": 4470,
+        "end": 4602
+      },
+      "start": 4470,
+      "end": 4603
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 4604,
+            "end": 4610
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 4611,
+            "end": 4620
+          },
+          "optional": false,
+          "computed": false,
+          "start": 4604,
+          "end": 4620
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "Identifier",
+              "name": "zdt",
+              "start": 4624,
+              "end": 4627
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "hour",
+              "start": 4628,
+              "end": 4632
+            },
+            "optional": false,
+            "computed": false,
+            "start": 4624,
+            "end": 4632
+          },
+          {
+            "type": "Literal",
+            "value": 3,
+            "raw": "3",
+            "start": 4636,
+            "end": 4637
+          },
+          {
+            "type": "Literal",
+            "value": "Hour result when offset is wrong, option offset: prefer and disambiguation: later",
+            "raw": "\"Hour result when offset is wrong, option offset: prefer and disambiguation: later\"",
+            "start": 4641,
+            "end": 4724
+          }
+        ],
+        "optional": false,
+        "start": 4604,
+        "end": 4725
+      },
+      "start": 4604,
+      "end": 4726
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "doubleTime",
+            "start": 4734,
+            "end": 4744
+          },
+          "init": {
+            "type": "NewExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "Temporal",
+                "start": 4751,
+                "end": 4759
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "ZonedDateTime",
+                "start": 4760,
+                "end": 4773
+              },
+              "optional": false,
+              "computed": false,
+              "start": 4751,
+              "end": 4773
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "value": null,
+                "raw": "972811801_000_000_000n",
+                "bigint": "972811801000000000",
+                "start": 4774,
+                "end": 4796
+              },
+              {
+                "type": "Literal",
+                "value": "America/Vancouver",
+                "raw": "\"America/Vancouver\"",
+                "start": 4798,
+                "end": 4817
+              }
+            ],
+            "start": 4747,
+            "end": 4818
+          },
+          "start": 4734,
+          "end": 4818
+        }
+      ],
+      "start": 4728,
+      "end": 4819
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "AssignmentExpression",
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "name": "offset",
+          "start": 4872,
+          "end": 4878
+        },
+        "right": {
+          "type": "Literal",
+          "value": "ignore",
+          "raw": "\"ignore\"",
+          "start": 4881,
+          "end": 4889
+        },
+        "start": 4872,
+        "end": 4889
+      },
+      "start": 4872,
+      "end": 4890
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 4891,
+            "end": 4897
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 4898,
+            "end": 4907
+          },
+          "optional": false,
+          "computed": false,
+          "start": 4891,
+          "end": 4907
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "CallExpression",
+              "callee": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "doubleTime",
+                  "start": 4908,
+                  "end": 4918
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "with",
+                  "start": 4919,
+                  "end": 4923
+                },
+                "optional": false,
+                "computed": false,
+                "start": 4908,
+                "end": 4923
+              },
+              "arguments": [
+                {
+                  "type": "ObjectExpression",
+                  "properties": [
+                    {
+                      "type": "Property",
+                      "kind": "init",
+                      "key": {
+                        "type": "Identifier",
+                        "name": "offset",
+                        "start": 4926,
+                        "end": 4932
+                      },
+                      "value": {
+                        "type": "Literal",
+                        "value": "-07:00",
+                        "raw": "\"-07:00\"",
+                        "start": 4934,
+                        "end": 4942
+                      },
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false,
+                      "start": 4926,
+                      "end": 4942
+                    }
+                  ],
+                  "start": 4924,
+                  "end": 4944
+                },
+                {
+                  "type": "ObjectExpression",
+                  "properties": [
+                    {
+                      "type": "Property",
+                      "kind": "init",
+                      "key": {
+                        "type": "Identifier",
+                        "name": "offset",
+                        "start": 4950,
+                        "end": 4956
+                      },
+                      "value": {
+                        "type": "Identifier",
+                        "name": "offset",
+                        "start": 4950,
+                        "end": 4956
+                      },
+                      "method": false,
+                      "shorthand": true,
+                      "computed": false,
+                      "start": 4950,
+                      "end": 4956
+                    },
+                    {
+                      "type": "Property",
+                      "kind": "init",
+                      "key": {
+                        "type": "Identifier",
+                        "name": "disambiguation",
+                        "start": 4960,
+                        "end": 4974
+                      },
+                      "value": {
+                        "type": "Literal",
+                        "value": "earlier",
+                        "raw": "\"earlier\"",
+                        "start": 4976,
+                        "end": 4985
+                      },
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false,
+                      "start": 4960,
+                      "end": 4985
+                    }
+                  ],
+                  "start": 4946,
+                  "end": 4987
+                }
+              ],
+              "optional": false,
+              "start": 4908,
+              "end": 4988
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "offset",
+              "start": 4989,
+              "end": 4995
+            },
+            "optional": false,
+            "computed": false,
+            "start": 4908,
+            "end": 4995
+          },
+          {
+            "type": "Literal",
+            "value": "-07:00",
+            "raw": "\"-07:00\"",
+            "start": 4997,
+            "end": 5005
+          },
+          {
+            "type": "Literal",
+            "value": "Offset result when option offset: prefer and disambiguation: later",
+            "raw": "\"Offset result when option offset: prefer and disambiguation: later\"",
+            "start": 5009,
+            "end": 5077
+          }
+        ],
+        "optional": false,
+        "start": 4891,
+        "end": 5078
+      },
+      "start": 4891,
+      "end": 5079
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 5081,
+            "end": 5087
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 5088,
+            "end": 5097
+          },
+          "optional": false,
+          "computed": false,
+          "start": 5081,
+          "end": 5097
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "CallExpression",
+              "callee": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "doubleTime",
+                  "start": 5098,
+                  "end": 5108
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "with",
+                  "start": 5109,
+                  "end": 5113
+                },
+                "optional": false,
+                "computed": false,
+                "start": 5098,
+                "end": 5113
+              },
+              "arguments": [
+                {
+                  "type": "ObjectExpression",
+                  "properties": [
+                    {
+                      "type": "Property",
+                      "kind": "init",
+                      "key": {
+                        "type": "Identifier",
+                        "name": "offset",
+                        "start": 5116,
+                        "end": 5122
+                      },
+                      "value": {
+                        "type": "Literal",
+                        "value": "-07:00",
+                        "raw": "\"-07:00\"",
+                        "start": 5124,
+                        "end": 5132
+                      },
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false,
+                      "start": 5116,
+                      "end": 5132
+                    }
+                  ],
+                  "start": 5114,
+                  "end": 5134
+                },
+                {
+                  "type": "ObjectExpression",
+                  "properties": [
+                    {
+                      "type": "Property",
+                      "kind": "init",
+                      "key": {
+                        "type": "Identifier",
+                        "name": "offset",
+                        "start": 5140,
+                        "end": 5146
+                      },
+                      "value": {
+                        "type": "Identifier",
+                        "name": "offset",
+                        "start": 5140,
+                        "end": 5146
+                      },
+                      "method": false,
+                      "shorthand": true,
+                      "computed": false,
+                      "start": 5140,
+                      "end": 5146
+                    },
+                    {
+                      "type": "Property",
+                      "kind": "init",
+                      "key": {
+                        "type": "Identifier",
+                        "name": "disambiguation",
+                        "start": 5150,
+                        "end": 5164
+                      },
+                      "value": {
+                        "type": "Literal",
+                        "value": "later",
+                        "raw": "\"later\"",
+                        "start": 5166,
+                        "end": 5173
+                      },
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false,
+                      "start": 5150,
+                      "end": 5173
+                    }
+                  ],
+                  "start": 5136,
+                  "end": 5175
+                }
+              ],
+              "optional": false,
+              "start": 5098,
+              "end": 5176
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "offset",
+              "start": 5177,
+              "end": 5183
+            },
+            "optional": false,
+            "computed": false,
+            "start": 5098,
+            "end": 5183
+          },
+          {
+            "type": "Literal",
+            "value": "-08:00",
+            "raw": "\"-08:00\"",
+            "start": 5185,
+            "end": 5193
+          },
+          {
+            "type": "Literal",
+            "value": "Offset result when option offset: prefer and disambiguation: later",
+            "raw": "\"Offset result when option offset: prefer and disambiguation: later\"",
+            "start": 5197,
+            "end": 5265
+          }
+        ],
+        "optional": false,
+        "start": 5081,
+        "end": 5266
+      },
+      "start": 5081,
+      "end": 5267
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 5268
+}

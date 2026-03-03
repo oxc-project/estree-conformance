@@ -1,0 +1,590 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "dayBeforeDstStart",
+            "start": 290,
+            "end": 307
+          },
+          "init": {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "NewExpression",
+                "callee": {
+                  "type": "MemberExpression",
+                  "object": {
+                    "type": "Identifier",
+                    "name": "Temporal",
+                    "start": 314,
+                    "end": 322
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "name": "PlainDateTime",
+                    "start": 323,
+                    "end": 336
+                  },
+                  "optional": false,
+                  "computed": false,
+                  "start": 314,
+                  "end": 336
+                },
+                "arguments": [
+                  {
+                    "type": "Literal",
+                    "value": 2000,
+                    "raw": "2000",
+                    "start": 337,
+                    "end": 341
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 4,
+                    "raw": "4",
+                    "start": 343,
+                    "end": 344
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 1,
+                    "raw": "1",
+                    "start": 346,
+                    "end": 347
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 2,
+                    "raw": "2",
+                    "start": 349,
+                    "end": 350
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 30,
+                    "raw": "30",
+                    "start": 352,
+                    "end": 354
+                  }
+                ],
+                "start": 310,
+                "end": 355
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "toZonedDateTime",
+                "start": 356,
+                "end": 371
+              },
+              "optional": false,
+              "computed": false,
+              "start": 310,
+              "end": 371
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "value": "America/Vancouver",
+                "raw": "\"America/Vancouver\"",
+                "start": 372,
+                "end": 391
+              }
+            ],
+            "optional": false,
+            "start": 310,
+            "end": 392
+          },
+          "start": 290,
+          "end": 392
+        }
+      ],
+      "start": 284,
+      "end": 393
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "TemporalHelpers",
+            "start": 395,
+            "end": 410
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "assertPlainDatesEqual",
+            "start": 411,
+            "end": 432
+          },
+          "optional": false,
+          "computed": false,
+          "start": 395,
+          "end": 432
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "CallExpression",
+                "callee": {
+                  "type": "MemberExpression",
+                  "object": {
+                    "type": "Identifier",
+                    "name": "dayBeforeDstStart",
+                    "start": 436,
+                    "end": 453
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "name": "startOfDay",
+                    "start": 454,
+                    "end": 464
+                  },
+                  "optional": false,
+                  "computed": false,
+                  "start": 436,
+                  "end": 464
+                },
+                "arguments": [],
+                "optional": false,
+                "start": 436,
+                "end": 466
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "toPlainDate",
+                "start": 467,
+                "end": 478
+              },
+              "optional": false,
+              "computed": false,
+              "start": 436,
+              "end": 478
+            },
+            "arguments": [],
+            "optional": false,
+            "start": 436,
+            "end": 480
+          },
+          {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "dayBeforeDstStart",
+                "start": 484,
+                "end": 501
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "toPlainDate",
+                "start": 502,
+                "end": 513
+              },
+              "optional": false,
+              "computed": false,
+              "start": 484,
+              "end": 513
+            },
+            "arguments": [],
+            "optional": false,
+            "start": 484,
+            "end": 515
+          },
+          {
+            "type": "Literal",
+            "value": "Date before dst start",
+            "raw": "\"Date before dst start\"",
+            "start": 519,
+            "end": 542
+          }
+        ],
+        "optional": false,
+        "start": 395,
+        "end": 543
+      },
+      "start": 395,
+      "end": 544
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "TemporalHelpers",
+            "start": 545,
+            "end": 560
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "assertPlainTime",
+            "start": 561,
+            "end": 576
+          },
+          "optional": false,
+          "computed": false,
+          "start": 545,
+          "end": 576
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "CallExpression",
+                "callee": {
+                  "type": "MemberExpression",
+                  "object": {
+                    "type": "Identifier",
+                    "name": "dayBeforeDstStart",
+                    "start": 580,
+                    "end": 597
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "name": "startOfDay",
+                    "start": 598,
+                    "end": 608
+                  },
+                  "optional": false,
+                  "computed": false,
+                  "start": 580,
+                  "end": 608
+                },
+                "arguments": [],
+                "optional": false,
+                "start": 580,
+                "end": 610
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "toPlainTime",
+                "start": 611,
+                "end": 622
+              },
+              "optional": false,
+              "computed": false,
+              "start": 580,
+              "end": 622
+            },
+            "arguments": [],
+            "optional": false,
+            "start": 580,
+            "end": 624
+          },
+          {
+            "type": "Literal",
+            "value": 0,
+            "raw": "0",
+            "start": 628,
+            "end": 629
+          },
+          {
+            "type": "Literal",
+            "value": 0,
+            "raw": "0",
+            "start": 631,
+            "end": 632
+          },
+          {
+            "type": "Literal",
+            "value": 0,
+            "raw": "0",
+            "start": 634,
+            "end": 635
+          },
+          {
+            "type": "Literal",
+            "value": 0,
+            "raw": "0",
+            "start": 637,
+            "end": 638
+          },
+          {
+            "type": "Literal",
+            "value": 0,
+            "raw": "0",
+            "start": 640,
+            "end": 641
+          },
+          {
+            "type": "Literal",
+            "value": 0,
+            "raw": "0",
+            "start": 643,
+            "end": 644
+          },
+          {
+            "type": "Literal",
+            "value": 0,
+            "raw": "0",
+            "start": 646,
+            "end": 647
+          },
+          {
+            "type": "Literal",
+            "value": "Time before dst start",
+            "raw": "\"Time before dst start\"",
+            "start": 651,
+            "end": 674
+          }
+        ],
+        "optional": false,
+        "start": 545,
+        "end": 675
+      },
+      "start": 545,
+      "end": 676
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "dayAfterSamoaDateLineChange",
+            "start": 684,
+            "end": 711
+          },
+          "init": {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "CallExpression",
+                "callee": {
+                  "type": "MemberExpression",
+                  "object": {
+                    "type": "MemberExpression",
+                    "object": {
+                      "type": "Identifier",
+                      "name": "Temporal",
+                      "start": 714,
+                      "end": 722
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "name": "PlainDateTime",
+                      "start": 723,
+                      "end": 736
+                    },
+                    "optional": false,
+                    "computed": false,
+                    "start": 714,
+                    "end": 736
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "name": "from",
+                    "start": 737,
+                    "end": 741
+                  },
+                  "optional": false,
+                  "computed": false,
+                  "start": 714,
+                  "end": 741
+                },
+                "arguments": [
+                  {
+                    "type": "Literal",
+                    "value": "2011-12-31T22:00",
+                    "raw": "\"2011-12-31T22:00\"",
+                    "start": 742,
+                    "end": 760
+                  }
+                ],
+                "optional": false,
+                "start": 714,
+                "end": 761
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "toZonedDateTime",
+                "start": 762,
+                "end": 777
+              },
+              "optional": false,
+              "computed": false,
+              "start": 714,
+              "end": 777
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "value": "Pacific/Apia",
+                "raw": "\"Pacific/Apia\"",
+                "start": 778,
+                "end": 792
+              }
+            ],
+            "optional": false,
+            "start": 714,
+            "end": 793
+          },
+          "start": 684,
+          "end": 793
+        }
+      ],
+      "start": 678,
+      "end": 794
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "TemporalHelpers",
+            "start": 795,
+            "end": 810
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "assertPlainTime",
+            "start": 811,
+            "end": 826
+          },
+          "optional": false,
+          "computed": false,
+          "start": 795,
+          "end": 826
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "CallExpression",
+                "callee": {
+                  "type": "MemberExpression",
+                  "object": {
+                    "type": "Identifier",
+                    "name": "dayAfterSamoaDateLineChange",
+                    "start": 830,
+                    "end": 857
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "name": "startOfDay",
+                    "start": 858,
+                    "end": 868
+                  },
+                  "optional": false,
+                  "computed": false,
+                  "start": 830,
+                  "end": 868
+                },
+                "arguments": [],
+                "optional": false,
+                "start": 830,
+                "end": 870
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "toPlainTime",
+                "start": 871,
+                "end": 882
+              },
+              "optional": false,
+              "computed": false,
+              "start": 830,
+              "end": 882
+            },
+            "arguments": [],
+            "optional": false,
+            "start": 830,
+            "end": 884
+          },
+          {
+            "type": "Literal",
+            "value": 0,
+            "raw": "0",
+            "start": 888,
+            "end": 889
+          },
+          {
+            "type": "Literal",
+            "value": 0,
+            "raw": "0",
+            "start": 891,
+            "end": 892
+          },
+          {
+            "type": "Literal",
+            "value": 0,
+            "raw": "0",
+            "start": 894,
+            "end": 895
+          },
+          {
+            "type": "Literal",
+            "value": 0,
+            "raw": "0",
+            "start": 897,
+            "end": 898
+          },
+          {
+            "type": "Literal",
+            "value": 0,
+            "raw": "0",
+            "start": 900,
+            "end": 901
+          },
+          {
+            "type": "Literal",
+            "value": 0,
+            "raw": "0",
+            "start": 903,
+            "end": 904
+          },
+          {
+            "type": "Literal",
+            "value": 0,
+            "raw": "0",
+            "start": 906,
+            "end": 907
+          },
+          {
+            "type": "Literal",
+            "value": "Time after Samoa's date line change.",
+            "raw": "\"Time after Samoa's date line change.\"",
+            "start": 911,
+            "end": 949
+          }
+        ],
+        "optional": false,
+        "start": 795,
+        "end": 950
+      },
+      "start": 795,
+      "end": 951
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 952
+}

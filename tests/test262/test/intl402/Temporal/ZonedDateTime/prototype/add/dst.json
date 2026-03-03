@@ -1,0 +1,2235 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "SamoaDateChangeStart",
+            "start": 370,
+            "end": 390
+          },
+          "init": {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "NewExpression",
+                "callee": {
+                  "type": "MemberExpression",
+                  "object": {
+                    "type": "Identifier",
+                    "name": "Temporal",
+                    "start": 397,
+                    "end": 405
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "name": "PlainDateTime",
+                    "start": 406,
+                    "end": 419
+                  },
+                  "optional": false,
+                  "computed": false,
+                  "start": 397,
+                  "end": 419
+                },
+                "arguments": [
+                  {
+                    "type": "Literal",
+                    "value": 2011,
+                    "raw": "2011",
+                    "start": 420,
+                    "end": 424
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 12,
+                    "raw": "12",
+                    "start": 426,
+                    "end": 428
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 29,
+                    "raw": "29",
+                    "start": 430,
+                    "end": 432
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 22,
+                    "raw": "22",
+                    "start": 434,
+                    "end": 436
+                  }
+                ],
+                "start": 393,
+                "end": 437
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "toZonedDateTime",
+                "start": 438,
+                "end": 453
+              },
+              "optional": false,
+              "computed": false,
+              "start": 393,
+              "end": 453
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "value": "Pacific/Apia",
+                "raw": "\"Pacific/Apia\"",
+                "start": 454,
+                "end": 468
+              }
+            ],
+            "optional": false,
+            "start": 393,
+            "end": 469
+          },
+          "start": 370,
+          "end": 469
+        }
+      ],
+      "start": 364,
+      "end": 470
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "let",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "result",
+            "start": 475,
+            "end": 481
+          },
+          "init": {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "SamoaDateChangeStart",
+                "start": 484,
+                "end": 504
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "add",
+                "start": 505,
+                "end": 508
+              },
+              "optional": false,
+              "computed": false,
+              "start": 484,
+              "end": 508
+            },
+            "arguments": [
+              {
+                "type": "ObjectExpression",
+                "properties": [
+                  {
+                    "type": "Property",
+                    "kind": "init",
+                    "key": {
+                      "type": "Identifier",
+                      "name": "days",
+                      "start": 513,
+                      "end": 517
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "value": 1,
+                      "raw": "1",
+                      "start": 519,
+                      "end": 520
+                    },
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "start": 513,
+                    "end": 520
+                  },
+                  {
+                    "type": "Property",
+                    "kind": "init",
+                    "key": {
+                      "type": "Identifier",
+                      "name": "hours",
+                      "start": 524,
+                      "end": 529
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "value": 1,
+                      "raw": "1",
+                      "start": 531,
+                      "end": 532
+                    },
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "start": 524,
+                    "end": 532
+                  }
+                ],
+                "start": 509,
+                "end": 534
+              }
+            ],
+            "optional": false,
+            "start": 484,
+            "end": 535
+          },
+          "start": 475,
+          "end": 535
+        }
+      ],
+      "start": 471,
+      "end": 536
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 537,
+            "end": 543
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 544,
+            "end": 553
+          },
+          "optional": false,
+          "computed": false,
+          "start": 537,
+          "end": 553
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "Identifier",
+              "name": "result",
+              "start": 554,
+              "end": 560
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "day",
+              "start": 561,
+              "end": 564
+            },
+            "optional": false,
+            "computed": false,
+            "start": 554,
+            "end": 564
+          },
+          {
+            "type": "Literal",
+            "value": 31,
+            "raw": "31",
+            "start": 566,
+            "end": 568
+          },
+          {
+            "type": "Literal",
+            "value": "Day result: Samoa date line change, add 1 day and 1 hour.",
+            "raw": "\"Day result: Samoa date line change, add 1 day and 1 hour.\"",
+            "start": 572,
+            "end": 631
+          }
+        ],
+        "optional": false,
+        "start": 537,
+        "end": 632
+      },
+      "start": 537,
+      "end": 633
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 634,
+            "end": 640
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 641,
+            "end": 650
+          },
+          "optional": false,
+          "computed": false,
+          "start": 634,
+          "end": 650
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "Identifier",
+              "name": "result",
+              "start": 651,
+              "end": 657
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "hour",
+              "start": 658,
+              "end": 662
+            },
+            "optional": false,
+            "computed": false,
+            "start": 651,
+            "end": 662
+          },
+          {
+            "type": "Literal",
+            "value": 23,
+            "raw": "23",
+            "start": 664,
+            "end": 666
+          },
+          {
+            "type": "Literal",
+            "value": "Hour result: Samoa date line change, add 1 day and 1 hour.",
+            "raw": "\"Hour result: Samoa date line change, add 1 day and 1 hour.\"",
+            "start": 670,
+            "end": 730
+          }
+        ],
+        "optional": false,
+        "start": 634,
+        "end": 731
+      },
+      "start": 634,
+      "end": 732
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 733,
+            "end": 739
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 740,
+            "end": 749
+          },
+          "optional": false,
+          "computed": false,
+          "start": 733,
+          "end": 749
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "Identifier",
+              "name": "result",
+              "start": 750,
+              "end": 756
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "minute",
+              "start": 757,
+              "end": 763
+            },
+            "optional": false,
+            "computed": false,
+            "start": 750,
+            "end": 763
+          },
+          {
+            "type": "Literal",
+            "value": 0,
+            "raw": "0",
+            "start": 765,
+            "end": 766
+          },
+          {
+            "type": "Literal",
+            "value": "Minute result: Samoa date line change, add 1 day and 1 hour.",
+            "raw": "\"Minute result: Samoa date line change, add 1 day and 1 hour.\"",
+            "start": 770,
+            "end": 832
+          }
+        ],
+        "optional": false,
+        "start": 733,
+        "end": 833
+      },
+      "start": 733,
+      "end": 834
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "beforeDstStart01_00",
+            "start": 920,
+            "end": 939
+          },
+          "init": {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "Temporal",
+                  "start": 942,
+                  "end": 950
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "ZonedDateTime",
+                  "start": 951,
+                  "end": 964
+                },
+                "optional": false,
+                "computed": false,
+                "start": 942,
+                "end": 964
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "from",
+                "start": 965,
+                "end": 969
+              },
+              "optional": false,
+              "computed": false,
+              "start": 942,
+              "end": 969
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "value": "2000-04-02T01:00:00-08:00[America/Vancouver]",
+                "raw": "\"2000-04-02T01:00:00-08:00[America/Vancouver]\"",
+                "start": 970,
+                "end": 1016
+              }
+            ],
+            "optional": false,
+            "start": 942,
+            "end": 1017
+          },
+          "start": 920,
+          "end": 1017
+        }
+      ],
+      "start": 914,
+      "end": 1018
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "afterDstStart03_00",
+            "start": 1025,
+            "end": 1043
+          },
+          "init": {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "Temporal",
+                  "start": 1046,
+                  "end": 1054
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "ZonedDateTime",
+                  "start": 1055,
+                  "end": 1068
+                },
+                "optional": false,
+                "computed": false,
+                "start": 1046,
+                "end": 1068
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "from",
+                "start": 1069,
+                "end": 1073
+              },
+              "optional": false,
+              "computed": false,
+              "start": 1046,
+              "end": 1073
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "value": "2000-04-02T03:00:00-07:00[America/Vancouver]",
+                "raw": "\"2000-04-02T03:00:00-07:00[America/Vancouver]\"",
+                "start": 1074,
+                "end": 1120
+              }
+            ],
+            "optional": false,
+            "start": 1046,
+            "end": 1121
+          },
+          "start": 1025,
+          "end": 1121
+        }
+      ],
+      "start": 1019,
+      "end": 1122
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "TemporalHelpers",
+            "start": 1123,
+            "end": 1138
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "assertZonedDateTimesEqual",
+            "start": 1139,
+            "end": 1164
+          },
+          "optional": false,
+          "computed": false,
+          "start": 1123,
+          "end": 1164
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "beforeDstStart01_00",
+                "start": 1168,
+                "end": 1187
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "add",
+                "start": 1188,
+                "end": 1191
+              },
+              "optional": false,
+              "computed": false,
+              "start": 1168,
+              "end": 1191
+            },
+            "arguments": [
+              {
+                "type": "ObjectExpression",
+                "properties": [
+                  {
+                    "type": "Property",
+                    "kind": "init",
+                    "key": {
+                      "type": "Identifier",
+                      "name": "hours",
+                      "start": 1194,
+                      "end": 1199
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "value": 1,
+                      "raw": "1",
+                      "start": 1201,
+                      "end": 1202
+                    },
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "start": 1194,
+                    "end": 1202
+                  }
+                ],
+                "start": 1192,
+                "end": 1204
+              }
+            ],
+            "optional": false,
+            "start": 1168,
+            "end": 1205
+          },
+          {
+            "type": "Identifier",
+            "name": "afterDstStart03_00",
+            "start": 1209,
+            "end": 1227
+          },
+          {
+            "type": "Literal",
+            "value": "1:00 day DST start + 1 hour ->  3:00 day DST start",
+            "raw": "\"1:00 day DST start + 1 hour ->  3:00 day DST start\"",
+            "start": 1231,
+            "end": 1283
+          }
+        ],
+        "optional": false,
+        "start": 1123,
+        "end": 1284
+      },
+      "start": 1123,
+      "end": 1285
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "afterDstStart03_30",
+            "start": 1293,
+            "end": 1311
+          },
+          "init": {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "Temporal",
+                  "start": 1314,
+                  "end": 1322
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "ZonedDateTime",
+                  "start": 1323,
+                  "end": 1336
+                },
+                "optional": false,
+                "computed": false,
+                "start": 1314,
+                "end": 1336
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "from",
+                "start": 1337,
+                "end": 1341
+              },
+              "optional": false,
+              "computed": false,
+              "start": 1314,
+              "end": 1341
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "value": "2000-04-02T03:30:00-07:00[America/Vancouver]",
+                "raw": "\"2000-04-02T03:30:00-07:00[America/Vancouver]\"",
+                "start": 1342,
+                "end": 1388
+              }
+            ],
+            "optional": false,
+            "start": 1314,
+            "end": 1389
+          },
+          "start": 1293,
+          "end": 1389
+        }
+      ],
+      "start": 1287,
+      "end": 1390
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "TemporalHelpers",
+            "start": 1391,
+            "end": 1406
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "assertZonedDateTimesEqual",
+            "start": 1407,
+            "end": 1432
+          },
+          "optional": false,
+          "computed": false,
+          "start": 1391,
+          "end": 1432
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "beforeDstStart01_00",
+                "start": 1436,
+                "end": 1455
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "add",
+                "start": 1456,
+                "end": 1459
+              },
+              "optional": false,
+              "computed": false,
+              "start": 1436,
+              "end": 1459
+            },
+            "arguments": [
+              {
+                "type": "ObjectExpression",
+                "properties": [
+                  {
+                    "type": "Property",
+                    "kind": "init",
+                    "key": {
+                      "type": "Identifier",
+                      "name": "hours",
+                      "start": 1466,
+                      "end": 1471
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "value": 1,
+                      "raw": "1",
+                      "start": 1473,
+                      "end": 1474
+                    },
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "start": 1466,
+                    "end": 1474
+                  },
+                  {
+                    "type": "Property",
+                    "kind": "init",
+                    "key": {
+                      "type": "Identifier",
+                      "name": "minutes",
+                      "start": 1480,
+                      "end": 1487
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "value": 30,
+                      "raw": "30",
+                      "start": 1489,
+                      "end": 1491
+                    },
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "start": 1480,
+                    "end": 1491
+                  }
+                ],
+                "start": 1460,
+                "end": 1495
+              }
+            ],
+            "optional": false,
+            "start": 1436,
+            "end": 1496
+          },
+          {
+            "type": "Identifier",
+            "name": "afterDstStart03_30",
+            "start": 1500,
+            "end": 1518
+          },
+          {
+            "type": "Literal",
+            "value": "1:00 day DST start + 1.5 hours -> 3:30 day of DST start.",
+            "raw": "\"1:00 day DST start + 1.5 hours -> 3:30 day of DST start.\"",
+            "start": 1522,
+            "end": 1580
+          }
+        ],
+        "optional": false,
+        "start": 1391,
+        "end": 1581
+      },
+      "start": 1391,
+      "end": 1582
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "dayAfterDstStart02_00",
+            "start": 1590,
+            "end": 1611
+          },
+          "init": {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "Temporal",
+                  "start": 1614,
+                  "end": 1622
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "ZonedDateTime",
+                  "start": 1623,
+                  "end": 1636
+                },
+                "optional": false,
+                "computed": false,
+                "start": 1614,
+                "end": 1636
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "from",
+                "start": 1637,
+                "end": 1641
+              },
+              "optional": false,
+              "computed": false,
+              "start": 1614,
+              "end": 1641
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "value": "2000-04-03T02:00:00-07:00[America/Vancouver]",
+                "raw": "\"2000-04-03T02:00:00-07:00[America/Vancouver]\"",
+                "start": 1642,
+                "end": 1688
+              }
+            ],
+            "optional": false,
+            "start": 1614,
+            "end": 1689
+          },
+          "start": 1590,
+          "end": 1689
+        }
+      ],
+      "start": 1584,
+      "end": 1690
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "TemporalHelpers",
+            "start": 1691,
+            "end": 1706
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "assertZonedDateTimesEqual",
+            "start": 1707,
+            "end": 1732
+          },
+          "optional": false,
+          "computed": false,
+          "start": 1691,
+          "end": 1732
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "beforeDstStart01_00",
+                "start": 1736,
+                "end": 1755
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "add",
+                "start": 1756,
+                "end": 1759
+              },
+              "optional": false,
+              "computed": false,
+              "start": 1736,
+              "end": 1759
+            },
+            "arguments": [
+              {
+                "type": "ObjectExpression",
+                "properties": [
+                  {
+                    "type": "Property",
+                    "kind": "init",
+                    "key": {
+                      "type": "Identifier",
+                      "name": "hours",
+                      "start": 1762,
+                      "end": 1767
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "value": 24,
+                      "raw": "24",
+                      "start": 1769,
+                      "end": 1771
+                    },
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "start": 1762,
+                    "end": 1771
+                  }
+                ],
+                "start": 1760,
+                "end": 1773
+              }
+            ],
+            "optional": false,
+            "start": 1736,
+            "end": 1774
+          },
+          {
+            "type": "Identifier",
+            "name": "dayAfterDstStart02_00",
+            "start": 1778,
+            "end": 1799
+          },
+          {
+            "type": "Literal",
+            "value": "1:00AM day DST starts -> (add 24 hours) -> 2:00AM day after DST starts.",
+            "raw": "\"1:00AM day DST starts -> (add 24 hours) -> 2:00AM day after DST starts.\"",
+            "start": 1803,
+            "end": 1876
+          }
+        ],
+        "optional": false,
+        "start": 1691,
+        "end": 1877
+      },
+      "start": 1691,
+      "end": 1878
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "beforeDstStart00_00",
+            "start": 1886,
+            "end": 1905
+          },
+          "init": {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "Temporal",
+                  "start": 1908,
+                  "end": 1916
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "ZonedDateTime",
+                  "start": 1917,
+                  "end": 1930
+                },
+                "optional": false,
+                "computed": false,
+                "start": 1908,
+                "end": 1930
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "from",
+                "start": 1931,
+                "end": 1935
+              },
+              "optional": false,
+              "computed": false,
+              "start": 1908,
+              "end": 1935
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "value": "2000-04-02T00:00:00-08:00[America/Vancouver]",
+                "raw": "\"2000-04-02T00:00:00-08:00[America/Vancouver]\"",
+                "start": 1936,
+                "end": 1982
+              }
+            ],
+            "optional": false,
+            "start": 1908,
+            "end": 1983
+          },
+          "start": 1886,
+          "end": 1983
+        }
+      ],
+      "start": 1880,
+      "end": 1984
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "dayAfterDstStart01_00",
+            "start": 1991,
+            "end": 2012
+          },
+          "init": {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "Temporal",
+                  "start": 2015,
+                  "end": 2023
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "ZonedDateTime",
+                  "start": 2024,
+                  "end": 2037
+                },
+                "optional": false,
+                "computed": false,
+                "start": 2015,
+                "end": 2037
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "from",
+                "start": 2038,
+                "end": 2042
+              },
+              "optional": false,
+              "computed": false,
+              "start": 2015,
+              "end": 2042
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "value": "2000-04-03T01:00:00-07:00[America/Vancouver]",
+                "raw": "\"2000-04-03T01:00:00-07:00[America/Vancouver]\"",
+                "start": 2043,
+                "end": 2089
+              }
+            ],
+            "optional": false,
+            "start": 2015,
+            "end": 2090
+          },
+          "start": 1991,
+          "end": 2090
+        }
+      ],
+      "start": 1985,
+      "end": 2091
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "TemporalHelpers",
+            "start": 2092,
+            "end": 2107
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "assertZonedDateTimesEqual",
+            "start": 2108,
+            "end": 2133
+          },
+          "optional": false,
+          "computed": false,
+          "start": 2092,
+          "end": 2133
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "beforeDstStart00_00",
+                "start": 2137,
+                "end": 2156
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "add",
+                "start": 2157,
+                "end": 2160
+              },
+              "optional": false,
+              "computed": false,
+              "start": 2137,
+              "end": 2160
+            },
+            "arguments": [
+              {
+                "type": "ObjectExpression",
+                "properties": [
+                  {
+                    "type": "Property",
+                    "kind": "init",
+                    "key": {
+                      "type": "Identifier",
+                      "name": "hours",
+                      "start": 2163,
+                      "end": 2168
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "value": 24,
+                      "raw": "24",
+                      "start": 2170,
+                      "end": 2172
+                    },
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "start": 2163,
+                    "end": 2172
+                  }
+                ],
+                "start": 2161,
+                "end": 2174
+              }
+            ],
+            "optional": false,
+            "start": 2137,
+            "end": 2175
+          },
+          {
+            "type": "Identifier",
+            "name": "dayAfterDstStart01_00",
+            "start": 2179,
+            "end": 2200
+          },
+          {
+            "type": "Literal",
+            "value": "12:00AM day DST starts + 24 hours -> 1:00AM day after DST starts.",
+            "raw": "\"12:00AM day DST starts + 24 hours -> 1:00AM day after DST starts.\"",
+            "start": 2204,
+            "end": 2271
+          }
+        ],
+        "optional": false,
+        "start": 2092,
+        "end": 2272
+      },
+      "start": 2092,
+      "end": 2273
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "beforeDstStart01_30",
+            "start": 2281,
+            "end": 2300
+          },
+          "init": {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "Temporal",
+                  "start": 2303,
+                  "end": 2311
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "ZonedDateTime",
+                  "start": 2312,
+                  "end": 2325
+                },
+                "optional": false,
+                "computed": false,
+                "start": 2303,
+                "end": 2325
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "from",
+                "start": 2326,
+                "end": 2330
+              },
+              "optional": false,
+              "computed": false,
+              "start": 2303,
+              "end": 2330
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "value": "2000-04-02T01:30:00-08:00[America/Vancouver]",
+                "raw": "\"2000-04-02T01:30:00-08:00[America/Vancouver]\"",
+                "start": 2331,
+                "end": 2377
+              }
+            ],
+            "optional": false,
+            "start": 2303,
+            "end": 2378
+          },
+          "start": 2281,
+          "end": 2378
+        }
+      ],
+      "start": 2275,
+      "end": 2379
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "afterDstStart04_30",
+            "start": 2386,
+            "end": 2404
+          },
+          "init": {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "Temporal",
+                  "start": 2407,
+                  "end": 2415
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "ZonedDateTime",
+                  "start": 2416,
+                  "end": 2429
+                },
+                "optional": false,
+                "computed": false,
+                "start": 2407,
+                "end": 2429
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "from",
+                "start": 2430,
+                "end": 2434
+              },
+              "optional": false,
+              "computed": false,
+              "start": 2407,
+              "end": 2434
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "value": "2000-04-02T04:30:00-07:00[America/Vancouver]",
+                "raw": "\"2000-04-02T04:30:00-07:00[America/Vancouver]\"",
+                "start": 2435,
+                "end": 2481
+              }
+            ],
+            "optional": false,
+            "start": 2407,
+            "end": 2482
+          },
+          "start": 2386,
+          "end": 2482
+        }
+      ],
+      "start": 2380,
+      "end": 2483
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "TemporalHelpers",
+            "start": 2484,
+            "end": 2499
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "assertZonedDateTimesEqual",
+            "start": 2500,
+            "end": 2525
+          },
+          "optional": false,
+          "computed": false,
+          "start": 2484,
+          "end": 2525
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "beforeDstStart01_30",
+                "start": 2529,
+                "end": 2548
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "add",
+                "start": 2549,
+                "end": 2552
+              },
+              "optional": false,
+              "computed": false,
+              "start": 2529,
+              "end": 2552
+            },
+            "arguments": [
+              {
+                "type": "ObjectExpression",
+                "properties": [
+                  {
+                    "type": "Property",
+                    "kind": "init",
+                    "key": {
+                      "type": "Identifier",
+                      "name": "hours",
+                      "start": 2555,
+                      "end": 2560
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "value": 2,
+                      "raw": "2",
+                      "start": 2562,
+                      "end": 2563
+                    },
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "start": 2555,
+                    "end": 2563
+                  }
+                ],
+                "start": 2553,
+                "end": 2565
+              }
+            ],
+            "optional": false,
+            "start": 2529,
+            "end": 2566
+          },
+          {
+            "type": "Identifier",
+            "name": "afterDstStart04_30",
+            "start": 2570,
+            "end": 2588
+          },
+          {
+            "type": "Literal",
+            "value": "1:30 day DST starts + 2 hours -> 4:30 day DST starts.",
+            "raw": "\"1:30 day DST starts + 2 hours -> 4:30 day DST starts.\"",
+            "start": 2592,
+            "end": 2647
+          }
+        ],
+        "optional": false,
+        "start": 2484,
+        "end": 2648
+      },
+      "start": 2484,
+      "end": 2649
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "beforeDstStart03_30",
+            "start": 2657,
+            "end": 2676
+          },
+          "init": {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "Temporal",
+                  "start": 2679,
+                  "end": 2687
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "ZonedDateTime",
+                  "start": 2688,
+                  "end": 2701
+                },
+                "optional": false,
+                "computed": false,
+                "start": 2679,
+                "end": 2701
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "from",
+                "start": 2702,
+                "end": 2706
+              },
+              "optional": false,
+              "computed": false,
+              "start": 2679,
+              "end": 2706
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "value": "2000-04-01T03:30:00-08:00[America/Vancouver]",
+                "raw": "\"2000-04-01T03:30:00-08:00[America/Vancouver]\"",
+                "start": 2707,
+                "end": 2753
+              }
+            ],
+            "optional": false,
+            "start": 2679,
+            "end": 2754
+          },
+          "start": 2657,
+          "end": 2754
+        }
+      ],
+      "start": 2651,
+      "end": 2755
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "TemporalHelpers",
+            "start": 2756,
+            "end": 2771
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "assertZonedDateTimesEqual",
+            "start": 2772,
+            "end": 2797
+          },
+          "optional": false,
+          "computed": false,
+          "start": 2756,
+          "end": 2797
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "beforeDstStart03_30",
+                "start": 2801,
+                "end": 2820
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "add",
+                "start": 2821,
+                "end": 2824
+              },
+              "optional": false,
+              "computed": false,
+              "start": 2801,
+              "end": 2824
+            },
+            "arguments": [
+              {
+                "type": "ObjectExpression",
+                "properties": [
+                  {
+                    "type": "Property",
+                    "kind": "init",
+                    "key": {
+                      "type": "Identifier",
+                      "name": "days",
+                      "start": 2827,
+                      "end": 2831
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "value": 1,
+                      "raw": "1",
+                      "start": 2833,
+                      "end": 2834
+                    },
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "start": 2827,
+                    "end": 2834
+                  }
+                ],
+                "start": 2825,
+                "end": 2836
+              }
+            ],
+            "optional": false,
+            "start": 2801,
+            "end": 2837
+          },
+          {
+            "type": "Identifier",
+            "name": "afterDstStart03_30",
+            "start": 2841,
+            "end": 2859
+          },
+          {
+            "type": "Literal",
+            "value": "3:30 day before DST start + 1 day -> 3:30 day of DST start.",
+            "raw": "\"3:30 day before DST start + 1 day -> 3:30 day of DST start.\"",
+            "start": 2863,
+            "end": 2924
+          }
+        ],
+        "optional": false,
+        "start": 2756,
+        "end": 2925
+      },
+      "start": 2756,
+      "end": 2926
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "beforeDstStart02_30",
+            "start": 2934,
+            "end": 2953
+          },
+          "init": {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "Temporal",
+                  "start": 2956,
+                  "end": 2964
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "ZonedDateTime",
+                  "start": 2965,
+                  "end": 2978
+                },
+                "optional": false,
+                "computed": false,
+                "start": 2956,
+                "end": 2978
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "from",
+                "start": 2979,
+                "end": 2983
+              },
+              "optional": false,
+              "computed": false,
+              "start": 2956,
+              "end": 2983
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "value": "2000-04-01T02:30:00-08:00[America/Vancouver]",
+                "raw": "\"2000-04-01T02:30:00-08:00[America/Vancouver]\"",
+                "start": 2984,
+                "end": 3030
+              }
+            ],
+            "optional": false,
+            "start": 2956,
+            "end": 3031
+          },
+          "start": 2934,
+          "end": 3031
+        }
+      ],
+      "start": 2928,
+      "end": 3032
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "TemporalHelpers",
+            "start": 3033,
+            "end": 3048
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "assertZonedDateTimesEqual",
+            "start": 3049,
+            "end": 3074
+          },
+          "optional": false,
+          "computed": false,
+          "start": 3033,
+          "end": 3074
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "beforeDstStart02_30",
+                "start": 3078,
+                "end": 3097
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "add",
+                "start": 3098,
+                "end": 3101
+              },
+              "optional": false,
+              "computed": false,
+              "start": 3078,
+              "end": 3101
+            },
+            "arguments": [
+              {
+                "type": "ObjectExpression",
+                "properties": [
+                  {
+                    "type": "Property",
+                    "kind": "init",
+                    "key": {
+                      "type": "Identifier",
+                      "name": "days",
+                      "start": 3104,
+                      "end": 3108
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "value": 1,
+                      "raw": "1",
+                      "start": 3110,
+                      "end": 3111
+                    },
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "start": 3104,
+                    "end": 3111
+                  }
+                ],
+                "start": 3102,
+                "end": 3113
+              }
+            ],
+            "optional": false,
+            "start": 3078,
+            "end": 3114
+          },
+          {
+            "type": "Identifier",
+            "name": "afterDstStart03_30",
+            "start": 3118,
+            "end": 3136
+          },
+          {
+            "type": "Literal",
+            "value": "2:30 day before DST start + 1 day -> 3:30 day of DST start.",
+            "raw": "\"2:30 day before DST start + 1 day -> 3:30 day of DST start.\"",
+            "start": 3140,
+            "end": 3201
+          }
+        ],
+        "optional": false,
+        "start": 3033,
+        "end": 3202
+      },
+      "start": 3033,
+      "end": 3203
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "beforeDstStart02_00",
+            "start": 3211,
+            "end": 3230
+          },
+          "init": {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "Temporal",
+                  "start": 3233,
+                  "end": 3241
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "ZonedDateTime",
+                  "start": 3242,
+                  "end": 3255
+                },
+                "optional": false,
+                "computed": false,
+                "start": 3233,
+                "end": 3255
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "from",
+                "start": 3256,
+                "end": 3260
+              },
+              "optional": false,
+              "computed": false,
+              "start": 3233,
+              "end": 3260
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "value": "2000-04-01T02:00:00-08:00[America/Vancouver]",
+                "raw": "\"2000-04-01T02:00:00-08:00[America/Vancouver]\"",
+                "start": 3261,
+                "end": 3307
+              }
+            ],
+            "optional": false,
+            "start": 3233,
+            "end": 3308
+          },
+          "start": 3211,
+          "end": 3308
+        }
+      ],
+      "start": 3205,
+      "end": 3309
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "TemporalHelpers",
+            "start": 3310,
+            "end": 3325
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "assertZonedDateTimesEqual",
+            "start": 3326,
+            "end": 3351
+          },
+          "optional": false,
+          "computed": false,
+          "start": 3310,
+          "end": 3351
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "beforeDstStart02_00",
+                "start": 3355,
+                "end": 3374
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "add",
+                "start": 3375,
+                "end": 3378
+              },
+              "optional": false,
+              "computed": false,
+              "start": 3355,
+              "end": 3378
+            },
+            "arguments": [
+              {
+                "type": "ObjectExpression",
+                "properties": [
+                  {
+                    "type": "Property",
+                    "kind": "init",
+                    "key": {
+                      "type": "Identifier",
+                      "name": "days",
+                      "start": 3381,
+                      "end": 3385
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "value": 1,
+                      "raw": "1",
+                      "start": 3387,
+                      "end": 3388
+                    },
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "start": 3381,
+                    "end": 3388
+                  }
+                ],
+                "start": 3379,
+                "end": 3390
+              }
+            ],
+            "optional": false,
+            "start": 3355,
+            "end": 3391
+          },
+          {
+            "type": "Identifier",
+            "name": "afterDstStart03_00",
+            "start": 3395,
+            "end": 3413
+          },
+          {
+            "type": "Literal",
+            "value": "2:00 day before DST starts + 1 day -> 3:00 day DST starts.",
+            "raw": "\"2:00 day before DST starts + 1 day -> 3:00 day DST starts.\"",
+            "start": 3417,
+            "end": 3477
+          }
+        ],
+        "optional": false,
+        "start": 3310,
+        "end": 3478
+      },
+      "start": 3310,
+      "end": 3479
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "twoDaysBeforeDstEnd01_45",
+            "start": 3566,
+            "end": 3590
+          },
+          "init": {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "Temporal",
+                  "start": 3593,
+                  "end": 3601
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "ZonedDateTime",
+                  "start": 3602,
+                  "end": 3615
+                },
+                "optional": false,
+                "computed": false,
+                "start": 3593,
+                "end": 3615
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "from",
+                "start": 3616,
+                "end": 3620
+              },
+              "optional": false,
+              "computed": false,
+              "start": 3593,
+              "end": 3620
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "value": "2000-10-27T01:45:00-07:00[America/Vancouver]",
+                "raw": "\"2000-10-27T01:45:00-07:00[America/Vancouver]\"",
+                "start": 3621,
+                "end": 3667
+              }
+            ],
+            "optional": false,
+            "start": 3593,
+            "end": 3668
+          },
+          "start": 3566,
+          "end": 3668
+        }
+      ],
+      "start": 3560,
+      "end": 3669
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "dayAfterDstEnd01_15",
+            "start": 3676,
+            "end": 3695
+          },
+          "init": {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "Temporal",
+                  "start": 3698,
+                  "end": 3706
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "ZonedDateTime",
+                  "start": 3707,
+                  "end": 3720
+                },
+                "optional": false,
+                "computed": false,
+                "start": 3698,
+                "end": 3720
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "from",
+                "start": 3721,
+                "end": 3725
+              },
+              "optional": false,
+              "computed": false,
+              "start": 3698,
+              "end": 3725
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "value": "2000-10-30T01:15:00-08:00[America/Vancouver]",
+                "raw": "\"2000-10-30T01:15:00-08:00[America/Vancouver]\"",
+                "start": 3726,
+                "end": 3772
+              }
+            ],
+            "optional": false,
+            "start": 3698,
+            "end": 3773
+          },
+          "start": 3676,
+          "end": 3773
+        }
+      ],
+      "start": 3670,
+      "end": 3774
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "TemporalHelpers",
+            "start": 3775,
+            "end": 3790
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "assertZonedDateTimesEqual",
+            "start": 3791,
+            "end": 3816
+          },
+          "optional": false,
+          "computed": false,
+          "start": 3775,
+          "end": 3816
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "twoDaysBeforeDstEnd01_45",
+                "start": 3820,
+                "end": 3844
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "add",
+                "start": 3845,
+                "end": 3848
+              },
+              "optional": false,
+              "computed": false,
+              "start": 3820,
+              "end": 3848
+            },
+            "arguments": [
+              {
+                "type": "ObjectExpression",
+                "properties": [
+                  {
+                    "type": "Property",
+                    "kind": "init",
+                    "key": {
+                      "type": "Identifier",
+                      "name": "days",
+                      "start": 3855,
+                      "end": 3859
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "value": 2,
+                      "raw": "2",
+                      "start": 3861,
+                      "end": 3862
+                    },
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "start": 3855,
+                    "end": 3862
+                  },
+                  {
+                    "type": "Property",
+                    "kind": "init",
+                    "key": {
+                      "type": "Identifier",
+                      "name": "hours",
+                      "start": 3868,
+                      "end": 3873
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "value": 24,
+                      "raw": "24",
+                      "start": 3875,
+                      "end": 3877
+                    },
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "start": 3868,
+                    "end": 3877
+                  },
+                  {
+                    "type": "Property",
+                    "kind": "init",
+                    "key": {
+                      "type": "Identifier",
+                      "name": "minutes",
+                      "start": 3883,
+                      "end": 3890
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "value": 30,
+                      "raw": "30",
+                      "start": 3892,
+                      "end": 3894
+                    },
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "start": 3883,
+                    "end": 3894
+                  }
+                ],
+                "start": 3849,
+                "end": 3898
+              }
+            ],
+            "optional": false,
+            "start": 3820,
+            "end": 3899
+          },
+          {
+            "type": "Identifier",
+            "name": "dayAfterDstEnd01_15",
+            "start": 3903,
+            "end": 3922
+          },
+          {
+            "type": "Literal",
+            "value": "1:45 two days before DST end + 2 days 24 hours 30 minutes -> 1:15 day after DST end.",
+            "raw": "\"1:45 two days before DST end + 2 days 24 hours 30 minutes -> 1:15 day after DST end.\"",
+            "start": 3926,
+            "end": 4012
+          }
+        ],
+        "optional": false,
+        "start": 3775,
+        "end": 4013
+      },
+      "start": 3775,
+      "end": 4014
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 4015
+}

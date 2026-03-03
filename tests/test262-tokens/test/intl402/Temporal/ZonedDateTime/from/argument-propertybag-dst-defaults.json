@@ -1,0 +1,698 @@
+[
+  {
+    "type": "Keyword",
+    "value": "const",
+    "start": 276,
+    "end": 281
+  },
+  {
+    "type": "Identifier",
+    "value": "DSTEnd",
+    "start": 282,
+    "end": 288
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 289,
+    "end": 290
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 291,
+    "end": 292
+  },
+  {
+    "type": "Identifier",
+    "value": "year",
+    "start": 295,
+    "end": 299
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 299,
+    "end": 300
+  },
+  {
+    "type": "Numeric",
+    "value": "2000",
+    "start": 301,
+    "end": 305
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 305,
+    "end": 306
+  },
+  {
+    "type": "Identifier",
+    "value": "month",
+    "start": 309,
+    "end": 314
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 314,
+    "end": 315
+  },
+  {
+    "type": "Numeric",
+    "value": "10",
+    "start": 316,
+    "end": 318
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 318,
+    "end": 319
+  },
+  {
+    "type": "Identifier",
+    "value": "day",
+    "start": 322,
+    "end": 325
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 325,
+    "end": 326
+  },
+  {
+    "type": "Numeric",
+    "value": "29",
+    "start": 327,
+    "end": 329
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 329,
+    "end": 330
+  },
+  {
+    "type": "Identifier",
+    "value": "hour",
+    "start": 333,
+    "end": 337
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 337,
+    "end": 338
+  },
+  {
+    "type": "Numeric",
+    "value": "1",
+    "start": 339,
+    "end": 340
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 340,
+    "end": 341
+  },
+  {
+    "type": "Identifier",
+    "value": "minute",
+    "start": 344,
+    "end": 350
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 350,
+    "end": 351
+  },
+  {
+    "type": "Numeric",
+    "value": "45",
+    "start": 352,
+    "end": 354
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 354,
+    "end": 355
+  },
+  {
+    "type": "Identifier",
+    "value": "timeZone",
+    "start": 358,
+    "end": 366
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 366,
+    "end": 367
+  },
+  {
+    "type": "String",
+    "value": "\"America/Vancouver\"",
+    "start": 368,
+    "end": 387
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 388,
+    "end": 389
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 389,
+    "end": 390
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 391,
+    "end": 397
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 397,
+    "end": 398
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 398,
+    "end": 407
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 407,
+    "end": 408
+  },
+  {
+    "type": "Identifier",
+    "value": "Temporal",
+    "start": 411,
+    "end": 419
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 419,
+    "end": 420
+  },
+  {
+    "type": "Identifier",
+    "value": "ZonedDateTime",
+    "start": 420,
+    "end": 433
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 433,
+    "end": 434
+  },
+  {
+    "type": "Identifier",
+    "value": "from",
+    "start": 434,
+    "end": 438
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 438,
+    "end": 439
+  },
+  {
+    "type": "Identifier",
+    "value": "DSTEnd",
+    "start": 439,
+    "end": 445
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 445,
+    "end": 446
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 446,
+    "end": 447
+  },
+  {
+    "type": "Identifier",
+    "value": "offset",
+    "start": 447,
+    "end": 453
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 453,
+    "end": 454
+  },
+  {
+    "type": "String",
+    "value": "\"-07:00\"",
+    "start": 457,
+    "end": 465
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 465,
+    "end": 466
+  },
+  {
+    "type": "String",
+    "value": "\"Ambiguous zoned date time\"",
+    "start": 469,
+    "end": 496
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 496,
+    "end": 497
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 497,
+    "end": 498
+  },
+  {
+    "type": "Keyword",
+    "value": "const",
+    "start": 500,
+    "end": 505
+  },
+  {
+    "type": "Identifier",
+    "value": "DSTStart",
+    "start": 506,
+    "end": 514
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 515,
+    "end": 516
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 517,
+    "end": 518
+  },
+  {
+    "type": "Identifier",
+    "value": "year",
+    "start": 521,
+    "end": 525
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 525,
+    "end": 526
+  },
+  {
+    "type": "Numeric",
+    "value": "2000",
+    "start": 527,
+    "end": 531
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 531,
+    "end": 532
+  },
+  {
+    "type": "Identifier",
+    "value": "month",
+    "start": 535,
+    "end": 540
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 540,
+    "end": 541
+  },
+  {
+    "type": "Numeric",
+    "value": "4",
+    "start": 542,
+    "end": 543
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 543,
+    "end": 544
+  },
+  {
+    "type": "Identifier",
+    "value": "day",
+    "start": 547,
+    "end": 550
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 550,
+    "end": 551
+  },
+  {
+    "type": "Numeric",
+    "value": "2",
+    "start": 552,
+    "end": 553
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 553,
+    "end": 554
+  },
+  {
+    "type": "Identifier",
+    "value": "hour",
+    "start": 557,
+    "end": 561
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 561,
+    "end": 562
+  },
+  {
+    "type": "Numeric",
+    "value": "2",
+    "start": 563,
+    "end": 564
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 564,
+    "end": 565
+  },
+  {
+    "type": "Identifier",
+    "value": "minute",
+    "start": 568,
+    "end": 574
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 574,
+    "end": 575
+  },
+  {
+    "type": "Numeric",
+    "value": "30",
+    "start": 576,
+    "end": 578
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 578,
+    "end": 579
+  },
+  {
+    "type": "Identifier",
+    "value": "timeZone",
+    "start": 582,
+    "end": 590
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 590,
+    "end": 591
+  },
+  {
+    "type": "String",
+    "value": "\"America/Vancouver\"",
+    "start": 592,
+    "end": 611
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 612,
+    "end": 613
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 613,
+    "end": 614
+  },
+  {
+    "type": "Keyword",
+    "value": "const",
+    "start": 615,
+    "end": 620
+  },
+  {
+    "type": "Identifier",
+    "value": "zdt",
+    "start": 621,
+    "end": 624
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 625,
+    "end": 626
+  },
+  {
+    "type": "Identifier",
+    "value": "Temporal",
+    "start": 627,
+    "end": 635
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 635,
+    "end": 636
+  },
+  {
+    "type": "Identifier",
+    "value": "ZonedDateTime",
+    "start": 636,
+    "end": 649
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 649,
+    "end": 650
+  },
+  {
+    "type": "Identifier",
+    "value": "from",
+    "start": 650,
+    "end": 654
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 654,
+    "end": 655
+  },
+  {
+    "type": "Identifier",
+    "value": "DSTStart",
+    "start": 655,
+    "end": 663
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 663,
+    "end": 664
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 664,
+    "end": 665
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 666,
+    "end": 672
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 672,
+    "end": 673
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 673,
+    "end": 682
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 682,
+    "end": 683
+  },
+  {
+    "type": "Identifier",
+    "value": "zdt",
+    "start": 686,
+    "end": 689
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 689,
+    "end": 690
+  },
+  {
+    "type": "Identifier",
+    "value": "offset",
+    "start": 690,
+    "end": 696
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 696,
+    "end": 697
+  },
+  {
+    "type": "String",
+    "value": "\"-07:00\"",
+    "start": 700,
+    "end": 708
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 708,
+    "end": 709
+  },
+  {
+    "type": "String",
+    "value": "\"Offset result, zoned date time in non existent time\"",
+    "start": 712,
+    "end": 765
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 765,
+    "end": 766
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 766,
+    "end": 767
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 768,
+    "end": 774
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 774,
+    "end": 775
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 775,
+    "end": 784
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 784,
+    "end": 785
+  },
+  {
+    "type": "Identifier",
+    "value": "zdt",
+    "start": 788,
+    "end": 791
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 791,
+    "end": 792
+  },
+  {
+    "type": "Identifier",
+    "value": "hour",
+    "start": 792,
+    "end": 796
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 796,
+    "end": 797
+  },
+  {
+    "type": "Numeric",
+    "value": "3",
+    "start": 800,
+    "end": 801
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 801,
+    "end": 802
+  },
+  {
+    "type": "String",
+    "value": "\"Hour result, zoned date time in non existent time\"",
+    "start": 805,
+    "end": 856
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 856,
+    "end": 857
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 857,
+    "end": 858
+  }
+]

@@ -1,0 +1,182 @@
+[
+  {
+    "type": "Keyword",
+    "value": "const",
+    "start": 251,
+    "end": 256
+  },
+  {
+    "type": "Identifier",
+    "value": "arg",
+    "start": 257,
+    "end": 260
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 261,
+    "end": 262
+  },
+  {
+    "type": "String",
+    "value": "\"11-18[+01:00][u-ca=ISO8601]\"",
+    "start": 263,
+    "end": 292
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 292,
+    "end": 293
+  },
+  {
+    "type": "Keyword",
+    "value": "const",
+    "start": 294,
+    "end": 299
+  },
+  {
+    "type": "Identifier",
+    "value": "result",
+    "start": 300,
+    "end": 306
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 307,
+    "end": 308
+  },
+  {
+    "type": "Identifier",
+    "value": "Temporal",
+    "start": 309,
+    "end": 317
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 317,
+    "end": 318
+  },
+  {
+    "type": "Identifier",
+    "value": "PlainMonthDay",
+    "start": 318,
+    "end": 331
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 331,
+    "end": 332
+  },
+  {
+    "type": "Identifier",
+    "value": "from",
+    "start": 332,
+    "end": 336
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 336,
+    "end": 337
+  },
+  {
+    "type": "Identifier",
+    "value": "arg",
+    "start": 337,
+    "end": 340
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 340,
+    "end": 341
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 341,
+    "end": 342
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 343,
+    "end": 349
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 349,
+    "end": 350
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 350,
+    "end": 359
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 359,
+    "end": 360
+  },
+  {
+    "type": "Identifier",
+    "value": "result",
+    "start": 360,
+    "end": 366
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 366,
+    "end": 367
+  },
+  {
+    "type": "Identifier",
+    "value": "calendarId",
+    "start": 367,
+    "end": 377
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 377,
+    "end": 378
+  },
+  {
+    "type": "String",
+    "value": "\"iso8601\"",
+    "start": 379,
+    "end": 388
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 388,
+    "end": 389
+  },
+  {
+    "type": "String",
+    "value": "\"Calendar is case-insensitive\"",
+    "start": 390,
+    "end": 420
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 420,
+    "end": 421
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 421,
+    "end": 422
+  }
+]

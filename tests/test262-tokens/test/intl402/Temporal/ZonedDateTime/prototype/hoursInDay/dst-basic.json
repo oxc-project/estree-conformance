@@ -1,0 +1,974 @@
+[
+  {
+    "type": "Keyword",
+    "value": "var",
+    "start": 257,
+    "end": 260
+  },
+  {
+    "type": "Identifier",
+    "value": "hourBeforeDstStart",
+    "start": 261,
+    "end": 279
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 280,
+    "end": 281
+  },
+  {
+    "type": "Keyword",
+    "value": "new",
+    "start": 282,
+    "end": 285
+  },
+  {
+    "type": "Identifier",
+    "value": "Temporal",
+    "start": 286,
+    "end": 294
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 294,
+    "end": 295
+  },
+  {
+    "type": "Identifier",
+    "value": "PlainDateTime",
+    "start": 295,
+    "end": 308
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 308,
+    "end": 309
+  },
+  {
+    "type": "Numeric",
+    "value": "2000",
+    "start": 309,
+    "end": 313
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 313,
+    "end": 314
+  },
+  {
+    "type": "Numeric",
+    "value": "4",
+    "start": 315,
+    "end": 316
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 316,
+    "end": 317
+  },
+  {
+    "type": "Numeric",
+    "value": "2",
+    "start": 318,
+    "end": 319
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 319,
+    "end": 320
+  },
+  {
+    "type": "Numeric",
+    "value": "1",
+    "start": 321,
+    "end": 322
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 322,
+    "end": 323
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 323,
+    "end": 324
+  },
+  {
+    "type": "Identifier",
+    "value": "toZonedDateTime",
+    "start": 324,
+    "end": 339
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 339,
+    "end": 340
+  },
+  {
+    "type": "String",
+    "value": "\"America/Vancouver\"",
+    "start": 340,
+    "end": 359
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 359,
+    "end": 360
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 360,
+    "end": 361
+  },
+  {
+    "type": "Keyword",
+    "value": "var",
+    "start": 362,
+    "end": 365
+  },
+  {
+    "type": "Identifier",
+    "value": "dayBeforeDstStart",
+    "start": 366,
+    "end": 383
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 384,
+    "end": 385
+  },
+  {
+    "type": "Keyword",
+    "value": "new",
+    "start": 386,
+    "end": 389
+  },
+  {
+    "type": "Identifier",
+    "value": "Temporal",
+    "start": 390,
+    "end": 398
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 398,
+    "end": 399
+  },
+  {
+    "type": "Identifier",
+    "value": "PlainDateTime",
+    "start": 399,
+    "end": 412
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 412,
+    "end": 413
+  },
+  {
+    "type": "Numeric",
+    "value": "2000",
+    "start": 413,
+    "end": 417
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 417,
+    "end": 418
+  },
+  {
+    "type": "Numeric",
+    "value": "4",
+    "start": 419,
+    "end": 420
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 420,
+    "end": 421
+  },
+  {
+    "type": "Numeric",
+    "value": "1",
+    "start": 422,
+    "end": 423
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 423,
+    "end": 424
+  },
+  {
+    "type": "Numeric",
+    "value": "2",
+    "start": 425,
+    "end": 426
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 426,
+    "end": 427
+  },
+  {
+    "type": "Numeric",
+    "value": "30",
+    "start": 428,
+    "end": 430
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 430,
+    "end": 431
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 431,
+    "end": 432
+  },
+  {
+    "type": "Identifier",
+    "value": "toZonedDateTime",
+    "start": 432,
+    "end": 447
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 447,
+    "end": 448
+  },
+  {
+    "type": "String",
+    "value": "\"America/Vancouver\"",
+    "start": 448,
+    "end": 467
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 467,
+    "end": 468
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 468,
+    "end": 469
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 506,
+    "end": 512
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 512,
+    "end": 513
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 513,
+    "end": 522
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 522,
+    "end": 523
+  },
+  {
+    "type": "Identifier",
+    "value": "hourBeforeDstStart",
+    "start": 523,
+    "end": 541
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 541,
+    "end": 542
+  },
+  {
+    "type": "Identifier",
+    "value": "hoursInDay",
+    "start": 542,
+    "end": 552
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 552,
+    "end": 553
+  },
+  {
+    "type": "Numeric",
+    "value": "23",
+    "start": 554,
+    "end": 556
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 556,
+    "end": 557
+  },
+  {
+    "type": "String",
+    "value": "\"23 hours in dst start day\"",
+    "start": 560,
+    "end": 587
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 587,
+    "end": 588
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 588,
+    "end": 589
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 629,
+    "end": 635
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 635,
+    "end": 636
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 636,
+    "end": 645
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 645,
+    "end": 646
+  },
+  {
+    "type": "Identifier",
+    "value": "dayBeforeDstStart",
+    "start": 646,
+    "end": 663
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 663,
+    "end": 664
+  },
+  {
+    "type": "Identifier",
+    "value": "hoursInDay",
+    "start": 664,
+    "end": 674
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 674,
+    "end": 675
+  },
+  {
+    "type": "Numeric",
+    "value": "24",
+    "start": 676,
+    "end": 678
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 678,
+    "end": 679
+  },
+  {
+    "type": "String",
+    "value": "\"24 hours in a non-DST day\"",
+    "start": 682,
+    "end": 709
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 709,
+    "end": 710
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 710,
+    "end": 711
+  },
+  {
+    "type": "Keyword",
+    "value": "var",
+    "start": 746,
+    "end": 749
+  },
+  {
+    "type": "Identifier",
+    "value": "dstEnd",
+    "start": 750,
+    "end": 756
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 757,
+    "end": 758
+  },
+  {
+    "type": "Identifier",
+    "value": "Temporal",
+    "start": 759,
+    "end": 767
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 767,
+    "end": 768
+  },
+  {
+    "type": "Identifier",
+    "value": "PlainDateTime",
+    "start": 768,
+    "end": 781
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 781,
+    "end": 782
+  },
+  {
+    "type": "Identifier",
+    "value": "from",
+    "start": 782,
+    "end": 786
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 786,
+    "end": 787
+  },
+  {
+    "type": "String",
+    "value": "\"2000-10-29T01:00\"",
+    "start": 787,
+    "end": 805
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 805,
+    "end": 806
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 806,
+    "end": 807
+  },
+  {
+    "type": "Identifier",
+    "value": "toZonedDateTime",
+    "start": 807,
+    "end": 822
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 822,
+    "end": 823
+  },
+  {
+    "type": "String",
+    "value": "\"America/Vancouver\"",
+    "start": 823,
+    "end": 842
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 842,
+    "end": 843
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 843,
+    "end": 844
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 845,
+    "end": 851
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 851,
+    "end": 852
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 852,
+    "end": 861
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 861,
+    "end": 862
+  },
+  {
+    "type": "Identifier",
+    "value": "dstEnd",
+    "start": 862,
+    "end": 868
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 868,
+    "end": 869
+  },
+  {
+    "type": "Identifier",
+    "value": "hoursInDay",
+    "start": 869,
+    "end": 879
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 879,
+    "end": 880
+  },
+  {
+    "type": "Numeric",
+    "value": "25",
+    "start": 881,
+    "end": 883
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 883,
+    "end": 884
+  },
+  {
+    "type": "String",
+    "value": "\"25 hours in DST end day\"",
+    "start": 887,
+    "end": 912
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 912,
+    "end": 913
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 913,
+    "end": 914
+  },
+  {
+    "type": "Keyword",
+    "value": "var",
+    "start": 916,
+    "end": 919
+  },
+  {
+    "type": "Identifier",
+    "value": "dayAfterSamoaDateLineChange",
+    "start": 920,
+    "end": 947
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 948,
+    "end": 949
+  },
+  {
+    "type": "Identifier",
+    "value": "Temporal",
+    "start": 950,
+    "end": 958
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 958,
+    "end": 959
+  },
+  {
+    "type": "Identifier",
+    "value": "PlainDateTime",
+    "start": 959,
+    "end": 972
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 972,
+    "end": 973
+  },
+  {
+    "type": "Identifier",
+    "value": "from",
+    "start": 973,
+    "end": 977
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 977,
+    "end": 978
+  },
+  {
+    "type": "String",
+    "value": "\"2011-12-31T22:00\"",
+    "start": 978,
+    "end": 996
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 996,
+    "end": 997
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 997,
+    "end": 998
+  },
+  {
+    "type": "Identifier",
+    "value": "toZonedDateTime",
+    "start": 998,
+    "end": 1013
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1013,
+    "end": 1014
+  },
+  {
+    "type": "String",
+    "value": "\"Pacific/Apia\"",
+    "start": 1014,
+    "end": 1028
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1028,
+    "end": 1029
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1029,
+    "end": 1030
+  },
+  {
+    "type": "Keyword",
+    "value": "var",
+    "start": 1031,
+    "end": 1034
+  },
+  {
+    "type": "Identifier",
+    "value": "dayBeforeSamoaDateLineChange",
+    "start": 1035,
+    "end": 1063
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 1064,
+    "end": 1065
+  },
+  {
+    "type": "Identifier",
+    "value": "Temporal",
+    "start": 1066,
+    "end": 1074
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1074,
+    "end": 1075
+  },
+  {
+    "type": "Identifier",
+    "value": "PlainDateTime",
+    "start": 1075,
+    "end": 1088
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1088,
+    "end": 1089
+  },
+  {
+    "type": "Identifier",
+    "value": "from",
+    "start": 1089,
+    "end": 1093
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1093,
+    "end": 1094
+  },
+  {
+    "type": "String",
+    "value": "\"2011-12-29T22:00\"",
+    "start": 1094,
+    "end": 1112
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1112,
+    "end": 1113
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1113,
+    "end": 1114
+  },
+  {
+    "type": "Identifier",
+    "value": "toZonedDateTime",
+    "start": 1114,
+    "end": 1129
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1129,
+    "end": 1130
+  },
+  {
+    "type": "String",
+    "value": "\"Pacific/Apia\"",
+    "start": 1130,
+    "end": 1144
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1144,
+    "end": 1145
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1145,
+    "end": 1146
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 1197,
+    "end": 1203
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1203,
+    "end": 1204
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 1204,
+    "end": 1213
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1213,
+    "end": 1214
+  },
+  {
+    "type": "Identifier",
+    "value": "dayAfterSamoaDateLineChange",
+    "start": 1214,
+    "end": 1241
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1241,
+    "end": 1242
+  },
+  {
+    "type": "Identifier",
+    "value": "hoursInDay",
+    "start": 1242,
+    "end": 1252
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1252,
+    "end": 1253
+  },
+  {
+    "type": "Numeric",
+    "value": "24",
+    "start": 1254,
+    "end": 1256
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1256,
+    "end": 1257
+  },
+  {
+    "type": "String",
+    "value": "\"24 hours in day after Samoa date line change\"",
+    "start": 1260,
+    "end": 1306
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1306,
+    "end": 1307
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1307,
+    "end": 1308
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 1360,
+    "end": 1366
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1366,
+    "end": 1367
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 1367,
+    "end": 1376
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1376,
+    "end": 1377
+  },
+  {
+    "type": "Identifier",
+    "value": "dayBeforeSamoaDateLineChange",
+    "start": 1377,
+    "end": 1405
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1405,
+    "end": 1406
+  },
+  {
+    "type": "Identifier",
+    "value": "hoursInDay",
+    "start": 1406,
+    "end": 1416
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1416,
+    "end": 1417
+  },
+  {
+    "type": "Numeric",
+    "value": "24",
+    "start": 1418,
+    "end": 1420
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1420,
+    "end": 1421
+  },
+  {
+    "type": "String",
+    "value": "\"24 hours in day before Samoa date line change\"",
+    "start": 1424,
+    "end": 1471
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1471,
+    "end": 1472
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1472,
+    "end": 1473
+  }
+]
