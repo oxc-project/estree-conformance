@@ -1,0 +1,296 @@
+[
+  {
+    "type": "Keyword",
+    "value": "var",
+    "start": 768,
+    "end": 771
+  },
+  {
+    "type": "Identifier",
+    "value": "zdt",
+    "start": 772,
+    "end": 775
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 776,
+    "end": 777
+  },
+  {
+    "type": "Identifier",
+    "value": "Temporal",
+    "start": 778,
+    "end": 786
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 786,
+    "end": 787
+  },
+  {
+    "type": "Identifier",
+    "value": "ZonedDateTime",
+    "start": 787,
+    "end": 800
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 800,
+    "end": 801
+  },
+  {
+    "type": "Identifier",
+    "value": "from",
+    "start": 801,
+    "end": 805
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 805,
+    "end": 806
+  },
+  {
+    "type": "String",
+    "value": "\"2024-06-15T12:00:00[Asia/Kolkata]\"",
+    "start": 806,
+    "end": 841
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 841,
+    "end": 842
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 842,
+    "end": 843
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 845,
+    "end": 851
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 851,
+    "end": 852
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 852,
+    "end": 861
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 861,
+    "end": 862
+  },
+  {
+    "type": "Identifier",
+    "value": "zdt",
+    "start": 865,
+    "end": 868
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 868,
+    "end": 869
+  },
+  {
+    "type": "Identifier",
+    "value": "getTimeZoneTransition",
+    "start": 869,
+    "end": 890
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 890,
+    "end": 891
+  },
+  {
+    "type": "String",
+    "value": "\"next\"",
+    "start": 891,
+    "end": 897
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 897,
+    "end": 898
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 898,
+    "end": 899
+  },
+  {
+    "type": "Null",
+    "value": "null",
+    "start": 902,
+    "end": 906
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 906,
+    "end": 907
+  },
+  {
+    "type": "String",
+    "value": "\"Asia/Kolkata should have no next time zone transition from 2024\"",
+    "start": 910,
+    "end": 975
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 976,
+    "end": 977
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 977,
+    "end": 978
+  },
+  {
+    "type": "Keyword",
+    "value": "var",
+    "start": 980,
+    "end": 983
+  },
+  {
+    "type": "Identifier",
+    "value": "prev",
+    "start": 984,
+    "end": 988
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 989,
+    "end": 990
+  },
+  {
+    "type": "Identifier",
+    "value": "zdt",
+    "start": 991,
+    "end": 994
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 994,
+    "end": 995
+  },
+  {
+    "type": "Identifier",
+    "value": "getTimeZoneTransition",
+    "start": 995,
+    "end": 1016
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1016,
+    "end": 1017
+  },
+  {
+    "type": "String",
+    "value": "\"previous\"",
+    "start": 1017,
+    "end": 1027
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1027,
+    "end": 1028
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1028,
+    "end": 1029
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 1030,
+    "end": 1036
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1036,
+    "end": 1037
+  },
+  {
+    "type": "Identifier",
+    "value": "notSameValue",
+    "start": 1037,
+    "end": 1049
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1049,
+    "end": 1050
+  },
+  {
+    "type": "Identifier",
+    "value": "prev",
+    "start": 1053,
+    "end": 1057
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1057,
+    "end": 1058
+  },
+  {
+    "type": "Null",
+    "value": "null",
+    "start": 1061,
+    "end": 1065
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1065,
+    "end": 1066
+  },
+  {
+    "type": "String",
+    "value": "\"Asia/Kolkata should have a previous time zone transition (historical)\"",
+    "start": 1069,
+    "end": 1140
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1141,
+    "end": 1142
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1142,
+    "end": 1143
+  }
+]
