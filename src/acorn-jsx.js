@@ -1,6 +1,7 @@
 import * as acorn from "acorn";
 import fs from "node:fs/promises";
 import { join as pathJoin } from "node:path";
+import vm from "node:vm";
 import acornJsx from "../submodules/acorn-jsx/index.js";
 import { transformerAcorn } from "./utils/json.js";
 import { parseEspreeTokens } from "./utils/tokens.js";
@@ -23,17 +24,18 @@ for (const [index, code] of fixtures.entries()) {
 async function collectFixtures() {
   // evaluate tester and collect tests
   const testCode = await fs.readFile(TEST_FILE_PATH, "utf8");
-  const testCodeFn = `
-var __tests = [];
+  const context = { __tests: [] };
+  vm.runInNewContext(
+    `
 var test = code => __tests.push(code);
 var testFail = test;
 var jsxTokens = {};
 var acornTokens = {};
-${testCode};
-return __tests;
-`;
-  const tests = new Function(testCodeFn)();
-  return tests;
+${testCode}
+`,
+    context,
+  );
+  return context.__tests;
 }
 
 await run({

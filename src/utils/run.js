@@ -91,7 +91,7 @@ export async function run({ submodule, subDirectory, filter, transform, process 
  * @param {function} [filter] - Function to filter fixtures (optional).
  *   Is passed the path of the fixture relative to fixtures subdirectory.
  *   Should return `true` if the fixture should be processed, or `false` otherwise.
- * @returns {Array<string>} List of fixture paths
+ * @returns {Promise<Array<string>>} List of fixture paths
  */
 async function getFixturePaths(fixturesRootPath, subDirectory, filter) {
   const files = await fs.readdir(pathJoin(fixturesRootPath, subDirectory), {
@@ -118,7 +118,7 @@ async function getFixturePaths(fixturesRootPath, subDirectory, filter) {
  * Paths use forward slashes, even on Windows.
  *
  * @param {string} outputsDirPath - Full path to the root of output directory for submodule
- * @returns {Array<string>} List of output paths relative to the output directory
+ * @returns {Promise<Array<string>>} List of output paths relative to the output directory
  */
 async function getOutputPaths(outputsDirPath) {
   const files = await fs.readdir(outputsDirPath, { recursive: true, withFileTypes: true });

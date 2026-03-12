@@ -4,6 +4,12 @@ import { join as pathJoin } from "node:path";
 const INFINITY_PLACEHOLDER = "__INFINITY__INFINITY__INFINITY__";
 const INFINITY_REGEXP = new RegExp(`"${INFINITY_PLACEHOLDER}"`, "g");
 
+function compareCharacters(left, right) {
+  if (left < right) return -1;
+  if (left > right) return 1;
+  return 0;
+}
+
 const fieldOrdersJson = await fs.readFile(
   pathJoin(import.meta.dirname, "../field-orders.json"),
   "utf8",
@@ -35,7 +41,7 @@ export function transformerAcorn(_key, value) {
       typeof value.regex === "object" &&
       typeof value.regex.flags === "string"
     ) {
-      value.regex.flags = [...value.regex.flags].sort().join("");
+      value.regex.flags = [...value.regex.flags].sort(compareCharacters).join("");
       if (Object.hasOwn(value, "value")) value.value = null;
     }
   } else if (
@@ -89,7 +95,7 @@ export function transformerTs(_key, value) {
       typeof value.regex === "object" &&
       typeof value.regex.flags === "string"
     ) {
-      value.regex.flags = [...value.regex.flags].sort().join("");
+      value.regex.flags = [...value.regex.flags].sort(compareCharacters).join("");
       if (Object.hasOwn(value, "value")) value.value = null;
       // Reverse order of `pattern` and `flags` fields to match Acorn
       value.regex = { pattern: undefined, ...value.regex };
