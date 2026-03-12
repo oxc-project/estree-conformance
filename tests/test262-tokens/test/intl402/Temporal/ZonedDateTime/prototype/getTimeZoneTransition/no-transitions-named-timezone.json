@@ -1,0 +1,338 @@
+[
+  {
+    "type": "Keyword",
+    "value": "var",
+    "start": 787,
+    "end": 790
+  },
+  {
+    "type": "Identifier",
+    "value": "riyadh",
+    "start": 791,
+    "end": 797
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 798,
+    "end": 799
+  },
+  {
+    "type": "Identifier",
+    "value": "Temporal",
+    "start": 800,
+    "end": 808
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 808,
+    "end": 809
+  },
+  {
+    "type": "Identifier",
+    "value": "ZonedDateTime",
+    "start": 809,
+    "end": 822
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 822,
+    "end": 823
+  },
+  {
+    "type": "Identifier",
+    "value": "from",
+    "start": 823,
+    "end": 827
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 827,
+    "end": 828
+  },
+  {
+    "type": "String",
+    "value": "\"2024-06-15T12:00:00[Asia/Riyadh]\"",
+    "start": 828,
+    "end": 862
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 862,
+    "end": 863
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 863,
+    "end": 864
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 866,
+    "end": 872
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 872,
+    "end": 873
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 873,
+    "end": 882
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 882,
+    "end": 883
+  },
+  {
+    "type": "Identifier",
+    "value": "riyadh",
+    "start": 886,
+    "end": 892
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 892,
+    "end": 893
+  },
+  {
+    "type": "Identifier",
+    "value": "getTimeZoneTransition",
+    "start": 893,
+    "end": 914
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 914,
+    "end": 915
+  },
+  {
+    "type": "String",
+    "value": "\"next\"",
+    "start": 915,
+    "end": 921
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 921,
+    "end": 922
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 922,
+    "end": 923
+  },
+  {
+    "type": "Null",
+    "value": "null",
+    "start": 926,
+    "end": 930
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 930,
+    "end": 931
+  },
+  {
+    "type": "String",
+    "value": "\"Asia/Riyadh should have no next time zone transition from 2024\"",
+    "start": 934,
+    "end": 998
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 999,
+    "end": 1000
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1000,
+    "end": 1001
+  },
+  {
+    "type": "Keyword",
+    "value": "var",
+    "start": 1078,
+    "end": 1081
+  },
+  {
+    "type": "Identifier",
+    "value": "earlyRiyadh",
+    "start": 1082,
+    "end": 1093
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 1094,
+    "end": 1095
+  },
+  {
+    "type": "Identifier",
+    "value": "Temporal",
+    "start": 1096,
+    "end": 1104
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1104,
+    "end": 1105
+  },
+  {
+    "type": "Identifier",
+    "value": "ZonedDateTime",
+    "start": 1105,
+    "end": 1118
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1118,
+    "end": 1119
+  },
+  {
+    "type": "Identifier",
+    "value": "from",
+    "start": 1119,
+    "end": 1123
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1123,
+    "end": 1124
+  },
+  {
+    "type": "String",
+    "value": "\"1850-01-01T00:00:00[Asia/Riyadh]\"",
+    "start": 1124,
+    "end": 1158
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1158,
+    "end": 1159
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1159,
+    "end": 1160
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 1162,
+    "end": 1168
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1168,
+    "end": 1169
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 1169,
+    "end": 1178
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1178,
+    "end": 1179
+  },
+  {
+    "type": "Identifier",
+    "value": "earlyRiyadh",
+    "start": 1182,
+    "end": 1193
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1193,
+    "end": 1194
+  },
+  {
+    "type": "Identifier",
+    "value": "getTimeZoneTransition",
+    "start": 1194,
+    "end": 1215
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1215,
+    "end": 1216
+  },
+  {
+    "type": "String",
+    "value": "\"previous\"",
+    "start": 1216,
+    "end": 1226
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1226,
+    "end": 1227
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1227,
+    "end": 1228
+  },
+  {
+    "type": "Null",
+    "value": "null",
+    "start": 1231,
+    "end": 1235
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1235,
+    "end": 1236
+  },
+  {
+    "type": "String",
+    "value": "\"Asia/Riyadh should have no previous transition from 1850\"",
+    "start": 1239,
+    "end": 1297
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1298,
+    "end": 1299
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1299,
+    "end": 1300
+  }
+]

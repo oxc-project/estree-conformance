@@ -1,0 +1,771 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "kind": "var",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "outOfRangeCommonYear",
+            "start": 431,
+            "end": 451
+          },
+          "init": {
+            "type": "UnaryExpression",
+            "operator": "-",
+            "argument": {
+              "type": "Literal",
+              "value": 999999,
+              "raw": "999999",
+              "start": 455,
+              "end": 461
+            },
+            "prefix": true,
+            "start": 454,
+            "end": 461
+          },
+          "start": 431,
+          "end": 461
+        }
+      ],
+      "start": 427,
+      "end": 462
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "var",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "outOfRangeLeapYear",
+            "start": 467,
+            "end": 485
+          },
+          "init": {
+            "type": "UnaryExpression",
+            "operator": "-",
+            "argument": {
+              "type": "Literal",
+              "value": 1000000,
+              "raw": "1000000",
+              "start": 489,
+              "end": 496
+            },
+            "prefix": true,
+            "start": 488,
+            "end": 496
+          },
+          "start": 467,
+          "end": 496
+        }
+      ],
+      "start": 463,
+      "end": 497
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "var",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "md",
+            "start": 503,
+            "end": 505
+          },
+          "init": {
+            "type": "NewExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "Temporal",
+                "start": 512,
+                "end": 520
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "PlainMonthDay",
+                "start": 521,
+                "end": 534
+              },
+              "optional": false,
+              "computed": false,
+              "start": 512,
+              "end": 534
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "value": 1,
+                "raw": "1",
+                "start": 535,
+                "end": 536
+              },
+              {
+                "type": "Literal",
+                "value": 1,
+                "raw": "1",
+                "start": 538,
+                "end": 539
+              },
+              {
+                "type": "Literal",
+                "value": "iso8601",
+                "raw": "\"iso8601\"",
+                "start": 541,
+                "end": 550
+              },
+              {
+                "type": "Literal",
+                "value": 1972,
+                "raw": "1972",
+                "start": 552,
+                "end": 556
+              }
+            ],
+            "start": 508,
+            "end": 557
+          },
+          "start": 503,
+          "end": 557
+        }
+      ],
+      "start": 499,
+      "end": 558
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "var",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "result",
+            "start": 563,
+            "end": 569
+          },
+          "init": {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "md",
+                "start": 572,
+                "end": 574
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "with",
+                "start": 575,
+                "end": 579
+              },
+              "optional": false,
+              "computed": false,
+              "start": 572,
+              "end": 579
+            },
+            "arguments": [
+              {
+                "type": "ObjectExpression",
+                "properties": [
+                  {
+                    "type": "Property",
+                    "kind": "init",
+                    "key": {
+                      "type": "Identifier",
+                      "name": "year",
+                      "start": 582,
+                      "end": 586
+                    },
+                    "value": {
+                      "type": "Identifier",
+                      "name": "outOfRangeCommonYear",
+                      "start": 588,
+                      "end": 608
+                    },
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "start": 582,
+                    "end": 608
+                  }
+                ],
+                "start": 580,
+                "end": 610
+              }
+            ],
+            "optional": false,
+            "start": 572,
+            "end": 611
+          },
+          "start": 563,
+          "end": 611
+        }
+      ],
+      "start": 559,
+      "end": 612
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "TemporalHelpers",
+            "start": 613,
+            "end": 628
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "assertPlainMonthDay",
+            "start": 629,
+            "end": 648
+          },
+          "optional": false,
+          "computed": false,
+          "start": 613,
+          "end": 648
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "name": "result",
+            "start": 649,
+            "end": 655
+          },
+          {
+            "type": "Literal",
+            "value": "M01",
+            "raw": "\"M01\"",
+            "start": 657,
+            "end": 662
+          },
+          {
+            "type": "Literal",
+            "value": 1,
+            "raw": "1",
+            "start": 664,
+            "end": 665
+          },
+          {
+            "type": "Literal",
+            "value": "ISO year is not checked for range",
+            "raw": "\"ISO year is not checked for range\"",
+            "start": 667,
+            "end": 702
+          }
+        ],
+        "optional": false,
+        "start": 613,
+        "end": 703
+      },
+      "start": 613,
+      "end": 704
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "var",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "leap",
+            "start": 710,
+            "end": 714
+          },
+          "init": {
+            "type": "NewExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "Temporal",
+                "start": 721,
+                "end": 729
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "PlainMonthDay",
+                "start": 730,
+                "end": 743
+              },
+              "optional": false,
+              "computed": false,
+              "start": 721,
+              "end": 743
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "value": 2,
+                "raw": "2",
+                "start": 744,
+                "end": 745
+              },
+              {
+                "type": "Literal",
+                "value": 29,
+                "raw": "29",
+                "start": 747,
+                "end": 749
+              },
+              {
+                "type": "Literal",
+                "value": "iso8601",
+                "raw": "\"iso8601\"",
+                "start": 751,
+                "end": 760
+              },
+              {
+                "type": "Literal",
+                "value": 1972,
+                "raw": "1972",
+                "start": 762,
+                "end": 766
+              }
+            ],
+            "start": 717,
+            "end": 767
+          },
+          "start": 710,
+          "end": 767
+        }
+      ],
+      "start": 706,
+      "end": 768
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "var",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "commonResult",
+            "start": 773,
+            "end": 785
+          },
+          "init": {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "leap",
+                "start": 788,
+                "end": 792
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "with",
+                "start": 793,
+                "end": 797
+              },
+              "optional": false,
+              "computed": false,
+              "start": 788,
+              "end": 797
+            },
+            "arguments": [
+              {
+                "type": "ObjectExpression",
+                "properties": [
+                  {
+                    "type": "Property",
+                    "kind": "init",
+                    "key": {
+                      "type": "Identifier",
+                      "name": "year",
+                      "start": 800,
+                      "end": 804
+                    },
+                    "value": {
+                      "type": "Identifier",
+                      "name": "outOfRangeCommonYear",
+                      "start": 806,
+                      "end": 826
+                    },
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "start": 800,
+                    "end": 826
+                  }
+                ],
+                "start": 798,
+                "end": 828
+              }
+            ],
+            "optional": false,
+            "start": 788,
+            "end": 829
+          },
+          "start": 773,
+          "end": 829
+        }
+      ],
+      "start": 769,
+      "end": 830
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "TemporalHelpers",
+            "start": 831,
+            "end": 846
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "assertPlainMonthDay",
+            "start": 847,
+            "end": 866
+          },
+          "optional": false,
+          "computed": false,
+          "start": 831,
+          "end": 866
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "name": "commonResult",
+            "start": 867,
+            "end": 879
+          },
+          {
+            "type": "Literal",
+            "value": "M02",
+            "raw": "\"M02\"",
+            "start": 881,
+            "end": 886
+          },
+          {
+            "type": "Literal",
+            "value": 28,
+            "raw": "28",
+            "start": 888,
+            "end": 890
+          },
+          {
+            "type": "Literal",
+            "value": "ISO year is used to apply overflow",
+            "raw": "\"ISO year is used to apply overflow\"",
+            "start": 892,
+            "end": 928
+          }
+        ],
+        "optional": false,
+        "start": 831,
+        "end": 929
+      },
+      "start": 831,
+      "end": 930
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 932,
+            "end": 938
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "throws",
+            "start": 939,
+            "end": 945
+          },
+          "optional": false,
+          "computed": false,
+          "start": 932,
+          "end": 945
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "name": "RangeError",
+            "start": 946,
+            "end": 956
+          },
+          {
+            "type": "FunctionExpression",
+            "id": null,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "expression": {
+                    "type": "CallExpression",
+                    "callee": {
+                      "type": "MemberExpression",
+                      "object": {
+                        "type": "Identifier",
+                        "name": "leap",
+                        "start": 974,
+                        "end": 978
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "name": "with",
+                        "start": 979,
+                        "end": 983
+                      },
+                      "optional": false,
+                      "computed": false,
+                      "start": 974,
+                      "end": 983
+                    },
+                    "arguments": [
+                      {
+                        "type": "ObjectExpression",
+                        "properties": [
+                          {
+                            "type": "Property",
+                            "kind": "init",
+                            "key": {
+                              "type": "Identifier",
+                              "name": "year",
+                              "start": 986,
+                              "end": 990
+                            },
+                            "value": {
+                              "type": "Identifier",
+                              "name": "outOfRangeCommonYear",
+                              "start": 992,
+                              "end": 1012
+                            },
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false,
+                            "start": 986,
+                            "end": 1012
+                          }
+                        ],
+                        "start": 984,
+                        "end": 1014
+                      },
+                      {
+                        "type": "ObjectExpression",
+                        "properties": [
+                          {
+                            "type": "Property",
+                            "kind": "init",
+                            "key": {
+                              "type": "Identifier",
+                              "name": "overflow",
+                              "start": 1018,
+                              "end": 1026
+                            },
+                            "value": {
+                              "type": "Literal",
+                              "value": "reject",
+                              "raw": "\"reject\"",
+                              "start": 1028,
+                              "end": 1036
+                            },
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false,
+                            "start": 1018,
+                            "end": 1036
+                          }
+                        ],
+                        "start": 1016,
+                        "end": 1038
+                      }
+                    ],
+                    "optional": false,
+                    "start": 974,
+                    "end": 1039
+                  },
+                  "start": 974,
+                  "end": 1040
+                }
+              ],
+              "start": 970,
+              "end": 1042
+            },
+            "expression": false,
+            "start": 958,
+            "end": 1042
+          },
+          {
+            "type": "Literal",
+            "value": "ISO year is used to apply overflow",
+            "raw": "\"ISO year is used to apply overflow\"",
+            "start": 1044,
+            "end": 1080
+          }
+        ],
+        "optional": false,
+        "start": 932,
+        "end": 1081
+      },
+      "start": 932,
+      "end": 1082
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "var",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "leapResult",
+            "start": 1088,
+            "end": 1098
+          },
+          "init": {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "leap",
+                "start": 1101,
+                "end": 1105
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "with",
+                "start": 1106,
+                "end": 1110
+              },
+              "optional": false,
+              "computed": false,
+              "start": 1101,
+              "end": 1110
+            },
+            "arguments": [
+              {
+                "type": "ObjectExpression",
+                "properties": [
+                  {
+                    "type": "Property",
+                    "kind": "init",
+                    "key": {
+                      "type": "Identifier",
+                      "name": "year",
+                      "start": 1113,
+                      "end": 1117
+                    },
+                    "value": {
+                      "type": "Identifier",
+                      "name": "outOfRangeLeapYear",
+                      "start": 1119,
+                      "end": 1137
+                    },
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "start": 1113,
+                    "end": 1137
+                  }
+                ],
+                "start": 1111,
+                "end": 1139
+              }
+            ],
+            "optional": false,
+            "start": 1101,
+            "end": 1140
+          },
+          "start": 1088,
+          "end": 1140
+        }
+      ],
+      "start": 1084,
+      "end": 1141
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "TemporalHelpers",
+            "start": 1142,
+            "end": 1157
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "assertPlainMonthDay",
+            "start": 1158,
+            "end": 1177
+          },
+          "optional": false,
+          "computed": false,
+          "start": 1142,
+          "end": 1177
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "name": "leapResult",
+            "start": 1178,
+            "end": 1188
+          },
+          {
+            "type": "Literal",
+            "value": "M02",
+            "raw": "\"M02\"",
+            "start": 1190,
+            "end": 1195
+          },
+          {
+            "type": "Literal",
+            "value": 29,
+            "raw": "29",
+            "start": 1197,
+            "end": 1199
+          },
+          {
+            "type": "Literal",
+            "value": "ISO year is used to apply overflow",
+            "raw": "\"ISO year is used to apply overflow\"",
+            "start": 1201,
+            "end": 1237
+          }
+        ],
+        "optional": false,
+        "start": 1142,
+        "end": 1238
+      },
+      "start": 1142,
+      "end": 1239
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 1240
+}

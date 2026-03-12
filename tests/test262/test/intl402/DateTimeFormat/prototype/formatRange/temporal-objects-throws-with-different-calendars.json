@@ -1,0 +1,495 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "dtf",
+            "start": 272,
+            "end": 275
+          },
+          "init": {
+            "type": "NewExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "Intl",
+                "start": 282,
+                "end": 286
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "DateTimeFormat",
+                "start": 287,
+                "end": 301
+              },
+              "optional": false,
+              "computed": false,
+              "start": 282,
+              "end": 301
+            },
+            "arguments": [],
+            "start": 278,
+            "end": 303
+          },
+          "start": 272,
+          "end": 303
+        }
+      ],
+      "start": 266,
+      "end": 304
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "t1",
+            "start": 311,
+            "end": 313
+          },
+          "init": {
+            "type": "Literal",
+            "value": "1976-11-18T14:23:30+00:00[UTC]",
+            "raw": "\"1976-11-18T14:23:30+00:00[UTC]\"",
+            "start": 316,
+            "end": 348
+          },
+          "start": 311,
+          "end": 348
+        }
+      ],
+      "start": 305,
+      "end": 349
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "t2",
+            "start": 356,
+            "end": 358
+          },
+          "init": {
+            "type": "Literal",
+            "value": "2020-02-20T15:44:56-05:00[America/New_York]",
+            "raw": "\"2020-02-20T15:44:56-05:00[America/New_York]\"",
+            "start": 361,
+            "end": 406
+          },
+          "start": 356,
+          "end": 406
+        }
+      ],
+      "start": 350,
+      "end": 407
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 409,
+            "end": 415
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "throws",
+            "start": 416,
+            "end": 422
+          },
+          "optional": false,
+          "computed": false,
+          "start": 409,
+          "end": 422
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "name": "RangeError",
+            "start": 423,
+            "end": 433
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "expression": true,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "CallExpression",
+              "callee": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "dtf",
+                  "start": 443,
+                  "end": 446
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "formatRange",
+                  "start": 447,
+                  "end": 458
+                },
+                "optional": false,
+                "computed": false,
+                "start": 443,
+                "end": 458
+              },
+              "arguments": [
+                {
+                  "type": "CallExpression",
+                  "callee": {
+                    "type": "MemberExpression",
+                    "object": {
+                      "type": "MemberExpression",
+                      "object": {
+                        "type": "Identifier",
+                        "name": "Temporal",
+                        "start": 459,
+                        "end": 467
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "name": "PlainDateTime",
+                        "start": 468,
+                        "end": 481
+                      },
+                      "optional": false,
+                      "computed": false,
+                      "start": 459,
+                      "end": 481
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "name": "from",
+                      "start": 482,
+                      "end": 486
+                    },
+                    "optional": false,
+                    "computed": false,
+                    "start": 459,
+                    "end": 486
+                  },
+                  "arguments": [
+                    {
+                      "type": "Identifier",
+                      "name": "t1",
+                      "start": 487,
+                      "end": 489
+                    }
+                  ],
+                  "optional": false,
+                  "start": 459,
+                  "end": 490
+                },
+                {
+                  "type": "CallExpression",
+                  "callee": {
+                    "type": "MemberExpression",
+                    "object": {
+                      "type": "CallExpression",
+                      "callee": {
+                        "type": "MemberExpression",
+                        "object": {
+                          "type": "MemberExpression",
+                          "object": {
+                            "type": "Identifier",
+                            "name": "Temporal",
+                            "start": 492,
+                            "end": 500
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "name": "PlainDateTime",
+                            "start": 501,
+                            "end": 514
+                          },
+                          "optional": false,
+                          "computed": false,
+                          "start": 492,
+                          "end": 514
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "name": "from",
+                          "start": 515,
+                          "end": 519
+                        },
+                        "optional": false,
+                        "computed": false,
+                        "start": 492,
+                        "end": 519
+                      },
+                      "arguments": [
+                        {
+                          "type": "Identifier",
+                          "name": "t2",
+                          "start": 520,
+                          "end": 522
+                        }
+                      ],
+                      "optional": false,
+                      "start": 492,
+                      "end": 523
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "name": "withCalendar",
+                      "start": 524,
+                      "end": 536
+                    },
+                    "optional": false,
+                    "computed": false,
+                    "start": 492,
+                    "end": 536
+                  },
+                  "arguments": [
+                    {
+                      "type": "Literal",
+                      "value": "japanese",
+                      "raw": "\"japanese\"",
+                      "start": 537,
+                      "end": 547
+                    }
+                  ],
+                  "optional": false,
+                  "start": 492,
+                  "end": 548
+                }
+              ],
+              "optional": false,
+              "start": 443,
+              "end": 549
+            },
+            "id": null,
+            "generator": false,
+            "start": 435,
+            "end": 549
+          }
+        ],
+        "optional": false,
+        "start": 409,
+        "end": 551
+      },
+      "start": 409,
+      "end": 552
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 553,
+            "end": 559
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "throws",
+            "start": 560,
+            "end": 566
+          },
+          "optional": false,
+          "computed": false,
+          "start": 553,
+          "end": 566
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "name": "RangeError",
+            "start": 567,
+            "end": 577
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "expression": true,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "CallExpression",
+              "callee": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "dtf",
+                  "start": 587,
+                  "end": 590
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "formatRange",
+                  "start": 591,
+                  "end": 602
+                },
+                "optional": false,
+                "computed": false,
+                "start": 587,
+                "end": 602
+              },
+              "arguments": [
+                {
+                  "type": "CallExpression",
+                  "callee": {
+                    "type": "MemberExpression",
+                    "object": {
+                      "type": "MemberExpression",
+                      "object": {
+                        "type": "Identifier",
+                        "name": "Temporal",
+                        "start": 603,
+                        "end": 611
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "name": "PlainDate",
+                        "start": 612,
+                        "end": 621
+                      },
+                      "optional": false,
+                      "computed": false,
+                      "start": 603,
+                      "end": 621
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "name": "from",
+                      "start": 622,
+                      "end": 626
+                    },
+                    "optional": false,
+                    "computed": false,
+                    "start": 603,
+                    "end": 626
+                  },
+                  "arguments": [
+                    {
+                      "type": "Identifier",
+                      "name": "t1",
+                      "start": 627,
+                      "end": 629
+                    }
+                  ],
+                  "optional": false,
+                  "start": 603,
+                  "end": 630
+                },
+                {
+                  "type": "CallExpression",
+                  "callee": {
+                    "type": "MemberExpression",
+                    "object": {
+                      "type": "CallExpression",
+                      "callee": {
+                        "type": "MemberExpression",
+                        "object": {
+                          "type": "MemberExpression",
+                          "object": {
+                            "type": "Identifier",
+                            "name": "Temporal",
+                            "start": 632,
+                            "end": 640
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "name": "PlainDate",
+                            "start": 641,
+                            "end": 650
+                          },
+                          "optional": false,
+                          "computed": false,
+                          "start": 632,
+                          "end": 650
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "name": "from",
+                          "start": 651,
+                          "end": 655
+                        },
+                        "optional": false,
+                        "computed": false,
+                        "start": 632,
+                        "end": 655
+                      },
+                      "arguments": [
+                        {
+                          "type": "Identifier",
+                          "name": "t2",
+                          "start": 656,
+                          "end": 658
+                        }
+                      ],
+                      "optional": false,
+                      "start": 632,
+                      "end": 659
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "name": "withCalendar",
+                      "start": 660,
+                      "end": 672
+                    },
+                    "optional": false,
+                    "computed": false,
+                    "start": 632,
+                    "end": 672
+                  },
+                  "arguments": [
+                    {
+                      "type": "Literal",
+                      "value": "japanese",
+                      "raw": "\"japanese\"",
+                      "start": 673,
+                      "end": 683
+                    }
+                  ],
+                  "optional": false,
+                  "start": 632,
+                  "end": 684
+                }
+              ],
+              "optional": false,
+              "start": 587,
+              "end": 685
+            },
+            "id": null,
+            "generator": false,
+            "start": 579,
+            "end": 685
+          }
+        ],
+        "optional": false,
+        "start": 553,
+        "end": 687
+      },
+      "start": 553,
+      "end": 688
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 689
+}

@@ -1,0 +1,260 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "kind": "var",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "zdt",
+            "start": 772,
+            "end": 775
+          },
+          "init": {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "Temporal",
+                  "start": 778,
+                  "end": 786
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "ZonedDateTime",
+                  "start": 787,
+                  "end": 800
+                },
+                "optional": false,
+                "computed": false,
+                "start": 778,
+                "end": 800
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "from",
+                "start": 801,
+                "end": 805
+              },
+              "optional": false,
+              "computed": false,
+              "start": 778,
+              "end": 805
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "value": "2024-06-15T12:00:00[Asia/Kolkata]",
+                "raw": "\"2024-06-15T12:00:00[Asia/Kolkata]\"",
+                "start": 806,
+                "end": 841
+              }
+            ],
+            "optional": false,
+            "start": 778,
+            "end": 842
+          },
+          "start": 772,
+          "end": 842
+        }
+      ],
+      "start": 768,
+      "end": 843
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 845,
+            "end": 851
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 852,
+            "end": 861
+          },
+          "optional": false,
+          "computed": false,
+          "start": 845,
+          "end": 861
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "zdt",
+                "start": 865,
+                "end": 868
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "getTimeZoneTransition",
+                "start": 869,
+                "end": 890
+              },
+              "optional": false,
+              "computed": false,
+              "start": 865,
+              "end": 890
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "value": "next",
+                "raw": "\"next\"",
+                "start": 891,
+                "end": 897
+              }
+            ],
+            "optional": false,
+            "start": 865,
+            "end": 898
+          },
+          {
+            "type": "Literal",
+            "value": null,
+            "raw": "null",
+            "start": 902,
+            "end": 906
+          },
+          {
+            "type": "Literal",
+            "value": "Asia/Kolkata should have no next time zone transition from 2024",
+            "raw": "\"Asia/Kolkata should have no next time zone transition from 2024\"",
+            "start": 910,
+            "end": 975
+          }
+        ],
+        "optional": false,
+        "start": 845,
+        "end": 977
+      },
+      "start": 845,
+      "end": 978
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "var",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "prev",
+            "start": 984,
+            "end": 988
+          },
+          "init": {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "zdt",
+                "start": 991,
+                "end": 994
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "getTimeZoneTransition",
+                "start": 995,
+                "end": 1016
+              },
+              "optional": false,
+              "computed": false,
+              "start": 991,
+              "end": 1016
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "value": "previous",
+                "raw": "\"previous\"",
+                "start": 1017,
+                "end": 1027
+              }
+            ],
+            "optional": false,
+            "start": 991,
+            "end": 1028
+          },
+          "start": 984,
+          "end": 1028
+        }
+      ],
+      "start": 980,
+      "end": 1029
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 1030,
+            "end": 1036
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "notSameValue",
+            "start": 1037,
+            "end": 1049
+          },
+          "optional": false,
+          "computed": false,
+          "start": 1030,
+          "end": 1049
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "name": "prev",
+            "start": 1053,
+            "end": 1057
+          },
+          {
+            "type": "Literal",
+            "value": null,
+            "raw": "null",
+            "start": 1061,
+            "end": 1065
+          },
+          {
+            "type": "Literal",
+            "value": "Asia/Kolkata should have a previous time zone transition (historical)",
+            "raw": "\"Asia/Kolkata should have a previous time zone transition (historical)\"",
+            "start": 1069,
+            "end": 1140
+          }
+        ],
+        "optional": false,
+        "start": 1030,
+        "end": 1142
+      },
+      "start": 1030,
+      "end": 1143
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 1144
+}
