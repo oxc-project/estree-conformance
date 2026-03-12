@@ -14,8 +14,9 @@
     "gen-test262": "node src/test262.js",
     "gen-acorn-jsx": "node src/acorn-jsx.js",
     "gen-typescript": "node src/typescript-eslint.js",
-    "lint": "oxlint src",
-    "fmt": "oxfmt"
+    "lint": "vp lint src",
+    "fmt": "vp fmt",
+    "prepare": "vp config"
   },
   "devDependencies": {
     "@typescript-eslint/parser": "^8.48.0",
@@ -23,9 +24,14 @@
     "espree": "^11.0.0",
     "estree-walker": "^3.0.3",
     "meriyah": "^7.0.0",
-    "oxfmt": "^0.39.0",
-    "oxlint": "^1.30.0",
+    "vite-plus": "latest",
     "yaml": "^2.8.1"
   },
-  "packageManager": "pnpm@10.30.2"
+  "packageManager": "pnpm@10.30.2",
+  "pnpm": {
+    "overrides": {
+      "vite": "npm:@voidzero-dev/vite-plus-core@latest",
+      "vitest": "npm:@voidzero-dev/vite-plus-test@latest"
+    }
+  }
 }
