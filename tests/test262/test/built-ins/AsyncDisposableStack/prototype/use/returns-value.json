@@ -1,0 +1,466 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "kind": "var",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "stack",
+            "start": 357,
+            "end": 362
+          },
+          "init": {
+            "type": "NewExpression",
+            "callee": {
+              "type": "Identifier",
+              "name": "AsyncDisposableStack",
+              "start": 369,
+              "end": 389
+            },
+            "arguments": [],
+            "start": 365,
+            "end": 391
+          },
+          "start": 357,
+          "end": 391
+        }
+      ],
+      "start": 353,
+      "end": 392
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "var",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "resource1",
+            "start": 397,
+            "end": 406
+          },
+          "init": {
+            "type": "ObjectExpression",
+            "properties": [
+              {
+                "type": "Property",
+                "kind": "init",
+                "key": {
+                  "type": "MemberExpression",
+                  "object": {
+                    "type": "Identifier",
+                    "name": "Symbol",
+                    "start": 418,
+                    "end": 424
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "name": "asyncDispose",
+                    "start": 425,
+                    "end": 437
+                  },
+                  "optional": false,
+                  "computed": false,
+                  "start": 418,
+                  "end": 437
+                },
+                "value": {
+                  "type": "FunctionExpression",
+                  "id": null,
+                  "generator": false,
+                  "async": true,
+                  "params": [],
+                  "body": {
+                    "type": "BlockStatement",
+                    "body": [],
+                    "start": 441,
+                    "end": 444
+                  },
+                  "expression": false,
+                  "start": 438,
+                  "end": 444
+                },
+                "method": true,
+                "shorthand": false,
+                "computed": true,
+                "start": 411,
+                "end": 444
+              }
+            ],
+            "start": 409,
+            "end": 446
+          },
+          "start": 397,
+          "end": 446
+        }
+      ],
+      "start": 393,
+      "end": 447
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "var",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "resource2",
+            "start": 452,
+            "end": 461
+          },
+          "init": {
+            "type": "ObjectExpression",
+            "properties": [
+              {
+                "type": "Property",
+                "kind": "init",
+                "key": {
+                  "type": "MemberExpression",
+                  "object": {
+                    "type": "Identifier",
+                    "name": "Symbol",
+                    "start": 467,
+                    "end": 473
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "name": "dispose",
+                    "start": 474,
+                    "end": 481
+                  },
+                  "optional": false,
+                  "computed": false,
+                  "start": 467,
+                  "end": 481
+                },
+                "value": {
+                  "type": "FunctionExpression",
+                  "id": null,
+                  "generator": false,
+                  "async": false,
+                  "params": [],
+                  "body": {
+                    "type": "BlockStatement",
+                    "body": [],
+                    "start": 485,
+                    "end": 488
+                  },
+                  "expression": false,
+                  "start": 482,
+                  "end": 488
+                },
+                "method": true,
+                "shorthand": false,
+                "computed": true,
+                "start": 466,
+                "end": 488
+              }
+            ],
+            "start": 464,
+            "end": 490
+          },
+          "start": 452,
+          "end": 490
+        }
+      ],
+      "start": 448,
+      "end": 491
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 492,
+            "end": 498
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 499,
+            "end": 508
+          },
+          "optional": false,
+          "computed": false,
+          "start": 492,
+          "end": 508
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "stack",
+                "start": 509,
+                "end": 514
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "use",
+                "start": 515,
+                "end": 518
+              },
+              "optional": false,
+              "computed": false,
+              "start": 509,
+              "end": 518
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "name": "resource1",
+                "start": 519,
+                "end": 528
+              }
+            ],
+            "optional": false,
+            "start": 509,
+            "end": 529
+          },
+          {
+            "type": "Identifier",
+            "name": "resource1",
+            "start": 531,
+            "end": 540
+          }
+        ],
+        "optional": false,
+        "start": 492,
+        "end": 541
+      },
+      "start": 492,
+      "end": 542
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 543,
+            "end": 549
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 550,
+            "end": 559
+          },
+          "optional": false,
+          "computed": false,
+          "start": 543,
+          "end": 559
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "stack",
+                "start": 560,
+                "end": 565
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "use",
+                "start": 566,
+                "end": 569
+              },
+              "optional": false,
+              "computed": false,
+              "start": 560,
+              "end": 569
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "name": "resource2",
+                "start": 570,
+                "end": 579
+              }
+            ],
+            "optional": false,
+            "start": 560,
+            "end": 580
+          },
+          {
+            "type": "Identifier",
+            "name": "resource2",
+            "start": 582,
+            "end": 591
+          }
+        ],
+        "optional": false,
+        "start": 543,
+        "end": 592
+      },
+      "start": 543,
+      "end": 593
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 594,
+            "end": 600
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 601,
+            "end": 610
+          },
+          "optional": false,
+          "computed": false,
+          "start": 594,
+          "end": 610
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "stack",
+                "start": 611,
+                "end": 616
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "use",
+                "start": 617,
+                "end": 620
+              },
+              "optional": false,
+              "computed": false,
+              "start": 611,
+              "end": 620
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "value": null,
+                "raw": "null",
+                "start": 621,
+                "end": 625
+              }
+            ],
+            "optional": false,
+            "start": 611,
+            "end": 626
+          },
+          {
+            "type": "Literal",
+            "value": null,
+            "raw": "null",
+            "start": 628,
+            "end": 632
+          }
+        ],
+        "optional": false,
+        "start": 594,
+        "end": 633
+      },
+      "start": 594,
+      "end": 634
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 635,
+            "end": 641
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 642,
+            "end": 651
+          },
+          "optional": false,
+          "computed": false,
+          "start": 635,
+          "end": 651
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "stack",
+                "start": 652,
+                "end": 657
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "use",
+                "start": 658,
+                "end": 661
+              },
+              "optional": false,
+              "computed": false,
+              "start": 652,
+              "end": 661
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "name": "undefined",
+                "start": 662,
+                "end": 671
+              }
+            ],
+            "optional": false,
+            "start": 652,
+            "end": 672
+          },
+          {
+            "type": "Identifier",
+            "name": "undefined",
+            "start": 674,
+            "end": 683
+          }
+        ],
+        "optional": false,
+        "start": 635,
+        "end": 684
+      },
+      "start": 635,
+      "end": 685
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 686
+}

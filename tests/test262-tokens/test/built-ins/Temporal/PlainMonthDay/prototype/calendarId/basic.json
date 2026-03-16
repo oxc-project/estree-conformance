@@ -1,0 +1,146 @@
+[
+  {
+    "type": "Keyword",
+    "value": "const",
+    "start": 272,
+    "end": 277
+  },
+  {
+    "type": "Identifier",
+    "value": "instance",
+    "start": 278,
+    "end": 286
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 287,
+    "end": 288
+  },
+  {
+    "type": "Keyword",
+    "value": "new",
+    "start": 289,
+    "end": 292
+  },
+  {
+    "type": "Identifier",
+    "value": "Temporal",
+    "start": 293,
+    "end": 301
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 301,
+    "end": 302
+  },
+  {
+    "type": "Identifier",
+    "value": "PlainMonthDay",
+    "start": 302,
+    "end": 315
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 315,
+    "end": 316
+  },
+  {
+    "type": "Numeric",
+    "value": "3",
+    "start": 316,
+    "end": 317
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 317,
+    "end": 318
+  },
+  {
+    "type": "Numeric",
+    "value": "6",
+    "start": 319,
+    "end": 320
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 320,
+    "end": 321
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 321,
+    "end": 322
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 323,
+    "end": 329
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 329,
+    "end": 330
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 330,
+    "end": 339
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 339,
+    "end": 340
+  },
+  {
+    "type": "Identifier",
+    "value": "instance",
+    "start": 340,
+    "end": 348
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 348,
+    "end": 349
+  },
+  {
+    "type": "Identifier",
+    "value": "calendarId",
+    "start": 349,
+    "end": 359
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 359,
+    "end": 360
+  },
+  {
+    "type": "String",
+    "value": "\"iso8601\"",
+    "start": 361,
+    "end": 370
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 370,
+    "end": 371
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 371,
+    "end": 372
+  }
+]

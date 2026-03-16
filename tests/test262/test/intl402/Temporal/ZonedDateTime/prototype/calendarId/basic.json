@@ -1,0 +1,134 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "instance",
+            "start": 278,
+            "end": 286
+          },
+          "init": {
+            "type": "NewExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "Temporal",
+                "start": 293,
+                "end": 301
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "ZonedDateTime",
+                "start": 302,
+                "end": 315
+              },
+              "optional": false,
+              "computed": false,
+              "start": 293,
+              "end": 315
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "value": null,
+                "raw": "0n",
+                "bigint": "0",
+                "start": 316,
+                "end": 318
+              },
+              {
+                "type": "Literal",
+                "value": "Europe/Madrid",
+                "raw": "\"Europe/Madrid\"",
+                "start": 320,
+                "end": 335
+              },
+              {
+                "type": "Literal",
+                "value": "gregory",
+                "raw": "\"gregory\"",
+                "start": 337,
+                "end": 346
+              }
+            ],
+            "start": 289,
+            "end": 347
+          },
+          "start": 278,
+          "end": 347
+        }
+      ],
+      "start": 272,
+      "end": 348
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 349,
+            "end": 355
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 356,
+            "end": 365
+          },
+          "optional": false,
+          "computed": false,
+          "start": 349,
+          "end": 365
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "Identifier",
+              "name": "instance",
+              "start": 366,
+              "end": 374
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "calendarId",
+              "start": 375,
+              "end": 385
+            },
+            "optional": false,
+            "computed": false,
+            "start": 366,
+            "end": 385
+          },
+          {
+            "type": "Literal",
+            "value": "gregory",
+            "raw": "\"gregory\"",
+            "start": 387,
+            "end": 396
+          }
+        ],
+        "optional": false,
+        "start": 349,
+        "end": 397
+      },
+      "start": 349,
+      "end": 398
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 399
+}

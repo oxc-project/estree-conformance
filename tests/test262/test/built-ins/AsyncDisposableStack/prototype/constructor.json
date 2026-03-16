@@ -1,0 +1,148 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "Identifier",
+          "name": "verifyProperty",
+          "start": 499,
+          "end": 513
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "Identifier",
+              "name": "AsyncDisposableStack",
+              "start": 514,
+              "end": 534
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "prototype",
+              "start": 535,
+              "end": 544
+            },
+            "optional": false,
+            "computed": false,
+            "start": 514,
+            "end": 544
+          },
+          {
+            "type": "Literal",
+            "value": "constructor",
+            "raw": "'constructor'",
+            "start": 546,
+            "end": 559
+          },
+          {
+            "type": "ObjectExpression",
+            "properties": [
+              {
+                "type": "Property",
+                "kind": "init",
+                "key": {
+                  "type": "Identifier",
+                  "name": "value",
+                  "start": 565,
+                  "end": 570
+                },
+                "value": {
+                  "type": "Identifier",
+                  "name": "AsyncDisposableStack",
+                  "start": 572,
+                  "end": 592
+                },
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "start": 565,
+                "end": 592
+              },
+              {
+                "type": "Property",
+                "kind": "init",
+                "key": {
+                  "type": "Identifier",
+                  "name": "writable",
+                  "start": 596,
+                  "end": 604
+                },
+                "value": {
+                  "type": "Literal",
+                  "value": true,
+                  "raw": "true",
+                  "start": 606,
+                  "end": 610
+                },
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "start": 596,
+                "end": 610
+              },
+              {
+                "type": "Property",
+                "kind": "init",
+                "key": {
+                  "type": "Identifier",
+                  "name": "enumerable",
+                  "start": 614,
+                  "end": 624
+                },
+                "value": {
+                  "type": "Literal",
+                  "value": false,
+                  "raw": "false",
+                  "start": 626,
+                  "end": 631
+                },
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "start": 614,
+                "end": 631
+              },
+              {
+                "type": "Property",
+                "kind": "init",
+                "key": {
+                  "type": "Identifier",
+                  "name": "configurable",
+                  "start": 635,
+                  "end": 647
+                },
+                "value": {
+                  "type": "Literal",
+                  "value": true,
+                  "raw": "true",
+                  "start": 649,
+                  "end": 653
+                },
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "start": 635,
+                "end": 653
+              }
+            ],
+            "start": 561,
+            "end": 655
+          }
+        ],
+        "optional": false,
+        "start": 499,
+        "end": 656
+      },
+      "start": 499,
+      "end": 657
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 658
+}

@@ -1,0 +1,173 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "kind": "var",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "stack1",
+            "start": 1104,
+            "end": 1110
+          },
+          "init": {
+            "type": "NewExpression",
+            "callee": {
+              "type": "Identifier",
+              "name": "AsyncDisposableStack",
+              "start": 1117,
+              "end": 1137
+            },
+            "arguments": [],
+            "start": 1113,
+            "end": 1139
+          },
+          "start": 1104,
+          "end": 1139
+        }
+      ],
+      "start": 1100,
+      "end": 1140
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "var",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "stack2",
+            "start": 1145,
+            "end": 1151
+          },
+          "init": {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "stack1",
+                "start": 1154,
+                "end": 1160
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "move",
+                "start": 1161,
+                "end": 1165
+              },
+              "optional": false,
+              "computed": false,
+              "start": 1154,
+              "end": 1165
+            },
+            "arguments": [],
+            "optional": false,
+            "start": 1154,
+            "end": 1167
+          },
+          "start": 1145,
+          "end": 1167
+        }
+      ],
+      "start": 1141,
+      "end": 1168
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "Identifier",
+          "name": "assert",
+          "start": 1169,
+          "end": 1175
+        },
+        "arguments": [
+          {
+            "type": "BinaryExpression",
+            "left": {
+              "type": "Identifier",
+              "name": "stack2",
+              "start": 1176,
+              "end": 1182
+            },
+            "operator": "!==",
+            "right": {
+              "type": "Identifier",
+              "name": "stack1",
+              "start": 1187,
+              "end": 1193
+            },
+            "start": 1176,
+            "end": 1193
+          },
+          {
+            "type": "Literal",
+            "value": "Expected stack2 to not be the same reference as stack1",
+            "raw": "'Expected stack2 to not be the same reference as stack1'",
+            "start": 1195,
+            "end": 1251
+          }
+        ],
+        "optional": false,
+        "start": 1169,
+        "end": 1252
+      },
+      "start": 1169,
+      "end": 1253
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "Identifier",
+          "name": "assert",
+          "start": 1254,
+          "end": 1260
+        },
+        "arguments": [
+          {
+            "type": "BinaryExpression",
+            "left": {
+              "type": "Identifier",
+              "name": "stack2",
+              "start": 1261,
+              "end": 1267
+            },
+            "operator": "instanceof",
+            "right": {
+              "type": "Identifier",
+              "name": "AsyncDisposableStack",
+              "start": 1279,
+              "end": 1299
+            },
+            "start": 1261,
+            "end": 1299
+          },
+          {
+            "type": "Literal",
+            "value": "Expected stack2 to be an instance of AsyncDisposableStack",
+            "raw": "'Expected stack2 to be an instance of AsyncDisposableStack'",
+            "start": 1301,
+            "end": 1360
+          }
+        ],
+        "optional": false,
+        "start": 1254,
+        "end": 1361
+      },
+      "start": 1254,
+      "end": 1362
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 1363
+}

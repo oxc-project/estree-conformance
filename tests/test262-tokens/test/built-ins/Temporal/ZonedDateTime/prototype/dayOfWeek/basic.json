@@ -1,0 +1,146 @@
+[
+  {
+    "type": "Keyword",
+    "value": "const",
+    "start": 252,
+    "end": 257
+  },
+  {
+    "type": "Identifier",
+    "value": "instance",
+    "start": 258,
+    "end": 266
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 267,
+    "end": 268
+  },
+  {
+    "type": "Keyword",
+    "value": "new",
+    "start": 269,
+    "end": 272
+  },
+  {
+    "type": "Identifier",
+    "value": "Temporal",
+    "start": 273,
+    "end": 281
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 281,
+    "end": 282
+  },
+  {
+    "type": "Identifier",
+    "value": "ZonedDateTime",
+    "start": 282,
+    "end": 295
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 295,
+    "end": 296
+  },
+  {
+    "type": "Numeric",
+    "value": "217178610_123_456_789n",
+    "start": 296,
+    "end": 318
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 318,
+    "end": 319
+  },
+  {
+    "type": "String",
+    "value": "\"UTC\"",
+    "start": 320,
+    "end": 325
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 325,
+    "end": 326
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 326,
+    "end": 327
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 328,
+    "end": 334
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 334,
+    "end": 335
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 335,
+    "end": 344
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 344,
+    "end": 345
+  },
+  {
+    "type": "Identifier",
+    "value": "instance",
+    "start": 345,
+    "end": 353
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 353,
+    "end": 354
+  },
+  {
+    "type": "Identifier",
+    "value": "dayOfWeek",
+    "start": 354,
+    "end": 363
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 363,
+    "end": 364
+  },
+  {
+    "type": "Numeric",
+    "value": "4",
+    "start": 365,
+    "end": 366
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 366,
+    "end": 367
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 367,
+    "end": 368
+  }
+]

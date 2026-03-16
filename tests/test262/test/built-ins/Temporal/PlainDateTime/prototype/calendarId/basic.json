@@ -1,0 +1,175 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "instance",
+            "start": 278,
+            "end": 286
+          },
+          "init": {
+            "type": "NewExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "Temporal",
+                "start": 293,
+                "end": 301
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "PlainDateTime",
+                "start": 302,
+                "end": 315
+              },
+              "optional": false,
+              "computed": false,
+              "start": 293,
+              "end": 315
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "value": 2000,
+                "raw": "2000",
+                "start": 316,
+                "end": 320
+              },
+              {
+                "type": "Literal",
+                "value": 3,
+                "raw": "3",
+                "start": 322,
+                "end": 323
+              },
+              {
+                "type": "Literal",
+                "value": 6,
+                "raw": "6",
+                "start": 325,
+                "end": 326
+              },
+              {
+                "type": "Literal",
+                "value": 12,
+                "raw": "12",
+                "start": 328,
+                "end": 330
+              },
+              {
+                "type": "Literal",
+                "value": 45,
+                "raw": "45",
+                "start": 332,
+                "end": 334
+              },
+              {
+                "type": "Literal",
+                "value": 22,
+                "raw": "22",
+                "start": 336,
+                "end": 338
+              },
+              {
+                "type": "Literal",
+                "value": 768,
+                "raw": "768",
+                "start": 340,
+                "end": 343
+              },
+              {
+                "type": "Literal",
+                "value": 234,
+                "raw": "234",
+                "start": 345,
+                "end": 348
+              },
+              {
+                "type": "Literal",
+                "value": 899,
+                "raw": "899",
+                "start": 350,
+                "end": 353
+              }
+            ],
+            "start": 289,
+            "end": 354
+          },
+          "start": 278,
+          "end": 354
+        }
+      ],
+      "start": 272,
+      "end": 355
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 356,
+            "end": 362
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 363,
+            "end": 372
+          },
+          "optional": false,
+          "computed": false,
+          "start": 356,
+          "end": 372
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "Identifier",
+              "name": "instance",
+              "start": 373,
+              "end": 381
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "calendarId",
+              "start": 382,
+              "end": 392
+            },
+            "optional": false,
+            "computed": false,
+            "start": 373,
+            "end": 392
+          },
+          {
+            "type": "Literal",
+            "value": "iso8601",
+            "raw": "\"iso8601\"",
+            "start": 394,
+            "end": 403
+          }
+        ],
+        "optional": false,
+        "start": 356,
+        "end": 404
+      },
+      "start": 356,
+      "end": 405
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 406
+}

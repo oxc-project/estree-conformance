@@ -1,0 +1,98 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "kind": "var",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "stack",
+            "start": 501,
+            "end": 506
+          },
+          "init": {
+            "type": "NewExpression",
+            "callee": {
+              "type": "Identifier",
+              "name": "AsyncDisposableStack",
+              "start": 513,
+              "end": 533
+            },
+            "arguments": [],
+            "start": 509,
+            "end": 535
+          },
+          "start": 501,
+          "end": 535
+        }
+      ],
+      "start": 497,
+      "end": 536
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 538,
+            "end": 544
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 545,
+            "end": 554
+          },
+          "optional": false,
+          "computed": false,
+          "start": 538,
+          "end": 554
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "Identifier",
+              "name": "stack",
+              "start": 555,
+              "end": 560
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "disposed",
+              "start": 561,
+              "end": 569
+            },
+            "optional": false,
+            "computed": false,
+            "start": 555,
+            "end": 569
+          },
+          {
+            "type": "Literal",
+            "value": false,
+            "raw": "false",
+            "start": 571,
+            "end": 576
+          }
+        ],
+        "optional": false,
+        "start": 538,
+        "end": 577
+      },
+      "start": 538,
+      "end": 578
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 579
+}

@@ -1,0 +1,140 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "instance",
+            "start": 278,
+            "end": 286
+          },
+          "init": {
+            "type": "NewExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "Temporal",
+                "start": 293,
+                "end": 301
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "PlainMonthDay",
+                "start": 302,
+                "end": 315
+              },
+              "optional": false,
+              "computed": false,
+              "start": 293,
+              "end": 315
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "value": 3,
+                "raw": "3",
+                "start": 316,
+                "end": 317
+              },
+              {
+                "type": "Literal",
+                "value": 6,
+                "raw": "6",
+                "start": 319,
+                "end": 320
+              },
+              {
+                "type": "Literal",
+                "value": "gregory",
+                "raw": "\"gregory\"",
+                "start": 322,
+                "end": 331
+              },
+              {
+                "type": "Literal",
+                "value": 1972,
+                "raw": "1972",
+                "start": 333,
+                "end": 337
+              }
+            ],
+            "start": 289,
+            "end": 338
+          },
+          "start": 278,
+          "end": 338
+        }
+      ],
+      "start": 272,
+      "end": 339
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 340,
+            "end": 346
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 347,
+            "end": 356
+          },
+          "optional": false,
+          "computed": false,
+          "start": 340,
+          "end": 356
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "Identifier",
+              "name": "instance",
+              "start": 357,
+              "end": 365
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "calendarId",
+              "start": 366,
+              "end": 376
+            },
+            "optional": false,
+            "computed": false,
+            "start": 357,
+            "end": 376
+          },
+          {
+            "type": "Literal",
+            "value": "gregory",
+            "raw": "\"gregory\"",
+            "start": 378,
+            "end": 387
+          }
+        ],
+        "optional": false,
+        "start": 340,
+        "end": 388
+      },
+      "start": 340,
+      "end": 389
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 390
+}

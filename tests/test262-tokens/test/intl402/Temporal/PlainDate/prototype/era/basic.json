@@ -1,0 +1,170 @@
+[
+  {
+    "type": "Keyword",
+    "value": "const",
+    "start": 267,
+    "end": 272
+  },
+  {
+    "type": "Identifier",
+    "value": "instance",
+    "start": 273,
+    "end": 281
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 282,
+    "end": 283
+  },
+  {
+    "type": "Keyword",
+    "value": "new",
+    "start": 284,
+    "end": 287
+  },
+  {
+    "type": "Identifier",
+    "value": "Temporal",
+    "start": 288,
+    "end": 296
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 296,
+    "end": 297
+  },
+  {
+    "type": "Identifier",
+    "value": "PlainDate",
+    "start": 297,
+    "end": 306
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 306,
+    "end": 307
+  },
+  {
+    "type": "Numeric",
+    "value": "2000",
+    "start": 307,
+    "end": 311
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 311,
+    "end": 312
+  },
+  {
+    "type": "Numeric",
+    "value": "3",
+    "start": 313,
+    "end": 314
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 314,
+    "end": 315
+  },
+  {
+    "type": "Numeric",
+    "value": "6",
+    "start": 316,
+    "end": 317
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 317,
+    "end": 318
+  },
+  {
+    "type": "String",
+    "value": "\"gregory\"",
+    "start": 319,
+    "end": 328
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 328,
+    "end": 329
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 329,
+    "end": 330
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 331,
+    "end": 337
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 337,
+    "end": 338
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 338,
+    "end": 347
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 347,
+    "end": 348
+  },
+  {
+    "type": "Identifier",
+    "value": "instance",
+    "start": 348,
+    "end": 356
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 356,
+    "end": 357
+  },
+  {
+    "type": "Identifier",
+    "value": "era",
+    "start": 357,
+    "end": 360
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 360,
+    "end": 361
+  },
+  {
+    "type": "String",
+    "value": "\"ce\"",
+    "start": 362,
+    "end": 366
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 366,
+    "end": 367
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 367,
+    "end": 368
+  }
+]

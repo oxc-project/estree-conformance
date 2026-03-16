@@ -1,0 +1,128 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "kind": "var",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "stack",
+            "start": 362,
+            "end": 367
+          },
+          "init": {
+            "type": "NewExpression",
+            "callee": {
+              "type": "Identifier",
+              "name": "AsyncDisposableStack",
+              "start": 374,
+              "end": 394
+            },
+            "arguments": [],
+            "start": 370,
+            "end": 396
+          },
+          "start": 362,
+          "end": 396
+        }
+      ],
+      "start": 358,
+      "end": 397
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 398,
+            "end": 404
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 405,
+            "end": 414
+          },
+          "optional": false,
+          "computed": false,
+          "start": 398,
+          "end": 414
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "stack",
+                "start": 415,
+                "end": 420
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "defer",
+                "start": 421,
+                "end": 426
+              },
+              "optional": false,
+              "computed": false,
+              "start": 415,
+              "end": 426
+            },
+            "arguments": [
+              {
+                "type": "ArrowFunctionExpression",
+                "expression": false,
+                "async": false,
+                "params": [
+                  {
+                    "type": "Identifier",
+                    "name": "_",
+                    "start": 427,
+                    "end": 428
+                  }
+                ],
+                "body": {
+                  "type": "BlockStatement",
+                  "body": [],
+                  "start": 432,
+                  "end": 434
+                },
+                "id": null,
+                "generator": false,
+                "start": 427,
+                "end": 434
+              }
+            ],
+            "optional": false,
+            "start": 415,
+            "end": 435
+          },
+          {
+            "type": "Identifier",
+            "name": "undefined",
+            "start": 437,
+            "end": 446
+          }
+        ],
+        "optional": false,
+        "start": 398,
+        "end": 447
+      },
+      "start": 398,
+      "end": 448
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 449
+}

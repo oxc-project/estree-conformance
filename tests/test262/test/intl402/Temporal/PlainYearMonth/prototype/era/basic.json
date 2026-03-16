@@ -1,0 +1,140 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "instance",
+            "start": 278,
+            "end": 286
+          },
+          "init": {
+            "type": "NewExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "Temporal",
+                "start": 293,
+                "end": 301
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "PlainYearMonth",
+                "start": 302,
+                "end": 316
+              },
+              "optional": false,
+              "computed": false,
+              "start": 293,
+              "end": 316
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "value": 2000,
+                "raw": "2000",
+                "start": 317,
+                "end": 321
+              },
+              {
+                "type": "Literal",
+                "value": 3,
+                "raw": "3",
+                "start": 323,
+                "end": 324
+              },
+              {
+                "type": "Literal",
+                "value": "gregory",
+                "raw": "\"gregory\"",
+                "start": 326,
+                "end": 335
+              },
+              {
+                "type": "Literal",
+                "value": 1,
+                "raw": "1",
+                "start": 337,
+                "end": 338
+              }
+            ],
+            "start": 289,
+            "end": 339
+          },
+          "start": 278,
+          "end": 339
+        }
+      ],
+      "start": 272,
+      "end": 340
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 341,
+            "end": 347
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 348,
+            "end": 357
+          },
+          "optional": false,
+          "computed": false,
+          "start": 341,
+          "end": 357
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "Identifier",
+              "name": "instance",
+              "start": 358,
+              "end": 366
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "era",
+              "start": 367,
+              "end": 370
+            },
+            "optional": false,
+            "computed": false,
+            "start": 358,
+            "end": 370
+          },
+          {
+            "type": "Literal",
+            "value": "ce",
+            "raw": "\"ce\"",
+            "start": 372,
+            "end": 376
+          }
+        ],
+        "optional": false,
+        "start": 341,
+        "end": 377
+      },
+      "start": 341,
+      "end": 378
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 379
+}

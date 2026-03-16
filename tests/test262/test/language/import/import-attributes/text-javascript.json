@@ -1,0 +1,107 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ImportDeclaration",
+      "specifiers": [
+        {
+          "type": "ImportDefaultSpecifier",
+          "local": {
+            "type": "Identifier",
+            "name": "value",
+            "start": 605,
+            "end": 610
+          },
+          "start": 605,
+          "end": 610
+        }
+      ],
+      "source": {
+        "type": "Literal",
+        "value": "./text-javascript_FIXTURE.js",
+        "raw": "'./text-javascript_FIXTURE.js'",
+        "start": 616,
+        "end": 646
+      },
+      "phase": null,
+      "attributes": [
+        {
+          "type": "ImportAttribute",
+          "key": {
+            "type": "Identifier",
+            "name": "type",
+            "start": 654,
+            "end": 658
+          },
+          "value": {
+            "type": "Literal",
+            "value": "text",
+            "raw": "'text'",
+            "start": 660,
+            "end": 666
+          },
+          "start": 654,
+          "end": 666
+        }
+      ],
+      "start": 598,
+      "end": 669
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 671,
+            "end": 677
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 678,
+            "end": 687
+          },
+          "optional": false,
+          "computed": false,
+          "start": 671,
+          "end": 687
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "operator": "typeof",
+            "argument": {
+              "type": "Identifier",
+              "name": "value",
+              "start": 695,
+              "end": 700
+            },
+            "prefix": true,
+            "start": 688,
+            "end": 700
+          },
+          {
+            "type": "Literal",
+            "value": "string",
+            "raw": "'string'",
+            "start": 702,
+            "end": 710
+          }
+        ],
+        "optional": false,
+        "start": 671,
+        "end": 711
+      },
+      "start": 671,
+      "end": 712
+    }
+  ],
+  "sourceType": "module",
+  "hashbang": null,
+  "start": 0,
+  "end": 713
+}

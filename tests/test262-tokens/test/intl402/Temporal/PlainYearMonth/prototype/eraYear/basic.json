@@ -1,0 +1,170 @@
+[
+  {
+    "type": "Keyword",
+    "value": "const",
+    "start": 280,
+    "end": 285
+  },
+  {
+    "type": "Identifier",
+    "value": "instance",
+    "start": 286,
+    "end": 294
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 295,
+    "end": 296
+  },
+  {
+    "type": "Keyword",
+    "value": "new",
+    "start": 297,
+    "end": 300
+  },
+  {
+    "type": "Identifier",
+    "value": "Temporal",
+    "start": 301,
+    "end": 309
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 309,
+    "end": 310
+  },
+  {
+    "type": "Identifier",
+    "value": "PlainYearMonth",
+    "start": 310,
+    "end": 324
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 324,
+    "end": 325
+  },
+  {
+    "type": "Numeric",
+    "value": "2000",
+    "start": 325,
+    "end": 329
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 329,
+    "end": 330
+  },
+  {
+    "type": "Numeric",
+    "value": "3",
+    "start": 331,
+    "end": 332
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 332,
+    "end": 333
+  },
+  {
+    "type": "String",
+    "value": "\"gregory\"",
+    "start": 334,
+    "end": 343
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 343,
+    "end": 344
+  },
+  {
+    "type": "Numeric",
+    "value": "1",
+    "start": 345,
+    "end": 346
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 346,
+    "end": 347
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 347,
+    "end": 348
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 349,
+    "end": 355
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 355,
+    "end": 356
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 356,
+    "end": 365
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 365,
+    "end": 366
+  },
+  {
+    "type": "Identifier",
+    "value": "instance",
+    "start": 366,
+    "end": 374
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 374,
+    "end": 375
+  },
+  {
+    "type": "Identifier",
+    "value": "eraYear",
+    "start": 375,
+    "end": 382
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 382,
+    "end": 383
+  },
+  {
+    "type": "Numeric",
+    "value": "2000",
+    "start": 384,
+    "end": 388
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 388,
+    "end": 389
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 389,
+    "end": 390
+  }
+]

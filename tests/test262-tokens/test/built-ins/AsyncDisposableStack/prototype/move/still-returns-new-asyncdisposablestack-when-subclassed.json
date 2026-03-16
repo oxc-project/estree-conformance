@@ -1,0 +1,266 @@
+[
+  {
+    "type": "Keyword",
+    "value": "class",
+    "start": 1124,
+    "end": 1129
+  },
+  {
+    "type": "Identifier",
+    "value": "MyAsyncDisposableStack",
+    "start": 1130,
+    "end": 1152
+  },
+  {
+    "type": "Keyword",
+    "value": "extends",
+    "start": 1153,
+    "end": 1160
+  },
+  {
+    "type": "Identifier",
+    "value": "AsyncDisposableStack",
+    "start": 1161,
+    "end": 1181
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 1182,
+    "end": 1183
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 1183,
+    "end": 1184
+  },
+  {
+    "type": "Keyword",
+    "value": "var",
+    "start": 1186,
+    "end": 1189
+  },
+  {
+    "type": "Identifier",
+    "value": "stack1",
+    "start": 1190,
+    "end": 1196
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 1197,
+    "end": 1198
+  },
+  {
+    "type": "Keyword",
+    "value": "new",
+    "start": 1199,
+    "end": 1202
+  },
+  {
+    "type": "Identifier",
+    "value": "MyAsyncDisposableStack",
+    "start": 1203,
+    "end": 1225
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1225,
+    "end": 1226
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1226,
+    "end": 1227
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1227,
+    "end": 1228
+  },
+  {
+    "type": "Keyword",
+    "value": "var",
+    "start": 1229,
+    "end": 1232
+  },
+  {
+    "type": "Identifier",
+    "value": "stack2",
+    "start": 1233,
+    "end": 1239
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 1240,
+    "end": 1241
+  },
+  {
+    "type": "Identifier",
+    "value": "stack1",
+    "start": 1242,
+    "end": 1248
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1248,
+    "end": 1249
+  },
+  {
+    "type": "Identifier",
+    "value": "move",
+    "start": 1249,
+    "end": 1253
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1253,
+    "end": 1254
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1254,
+    "end": 1255
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1255,
+    "end": 1256
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 1257,
+    "end": 1263
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1263,
+    "end": 1264
+  },
+  {
+    "type": "Identifier",
+    "value": "stack2",
+    "start": 1264,
+    "end": 1270
+  },
+  {
+    "type": "Keyword",
+    "value": "instanceof",
+    "start": 1271,
+    "end": 1281
+  },
+  {
+    "type": "Identifier",
+    "value": "AsyncDisposableStack",
+    "start": 1282,
+    "end": 1302
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1302,
+    "end": 1303
+  },
+  {
+    "type": "String",
+    "value": "'Expected stack2 to be an instance of AsyncDisposableStack'",
+    "start": 1304,
+    "end": 1363
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1363,
+    "end": 1364
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1364,
+    "end": 1365
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 1366,
+    "end": 1372
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1372,
+    "end": 1373
+  },
+  {
+    "type": "Punctuator",
+    "value": "!",
+    "start": 1373,
+    "end": 1374
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1374,
+    "end": 1375
+  },
+  {
+    "type": "Identifier",
+    "value": "stack2",
+    "start": 1375,
+    "end": 1381
+  },
+  {
+    "type": "Keyword",
+    "value": "instanceof",
+    "start": 1382,
+    "end": 1392
+  },
+  {
+    "type": "Identifier",
+    "value": "MyAsyncDisposableStack",
+    "start": 1393,
+    "end": 1415
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1415,
+    "end": 1416
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1416,
+    "end": 1417
+  },
+  {
+    "type": "String",
+    "value": "'Expected stack2 to not be an instance of MyAsyncDisposableStack'",
+    "start": 1418,
+    "end": 1483
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1483,
+    "end": 1484
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1484,
+    "end": 1485
+  }
+]

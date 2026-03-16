@@ -123,17 +123,59 @@
                 ],
                 "start": 381,
                 "end": 429
+              },
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "value": "1997-12-04[u-ca=11111111]",
+                    "raw": "\"1997-12-04[u-ca=11111111]\"",
+                    "start": 434,
+                    "end": 461
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "compact ISO date used as calendar name",
+                    "raw": "\"compact ISO date used as calendar name\"",
+                    "start": 463,
+                    "end": 503
+                  }
+                ],
+                "start": 433,
+                "end": 504
+              },
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "value": "1997-12-04[u-ca=1111-11-11]",
+                    "raw": "\"1997-12-04[u-ca=1111-11-11]\"",
+                    "start": 509,
+                    "end": 538
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "extended ISO date used as calendar name",
+                    "raw": "\"extended ISO date used as calendar name\"",
+                    "start": 540,
+                    "end": 581
+                  }
+                ],
+                "start": 508,
+                "end": 582
               }
             ],
             "start": 353,
-            "end": 432
+            "end": 585
           },
           "start": 336,
-          "end": 432
+          "end": 585
         }
       ],
       "start": 330,
-      "end": 433
+      "end": 586
     },
     {
       "type": "ForOfStatement",
@@ -150,32 +192,32 @@
                 {
                   "type": "Identifier",
                   "name": "arg",
-                  "start": 447,
-                  "end": 450
+                  "start": 600,
+                  "end": 603
                 },
                 {
                   "type": "Identifier",
                   "name": "description",
-                  "start": 452,
-                  "end": 463
+                  "start": 605,
+                  "end": 616
                 }
               ],
-              "start": 446,
-              "end": 464
+              "start": 599,
+              "end": 617
             },
             "init": null,
-            "start": 446,
-            "end": 464
+            "start": 599,
+            "end": 617
           }
         ],
-        "start": 440,
-        "end": 464
+        "start": 593,
+        "end": 617
       },
       "right": {
         "type": "Identifier",
         "name": "invalidStrings",
-        "start": 468,
-        "end": 482
+        "start": 621,
+        "end": 635
       },
       "body": {
         "type": "BlockStatement",
@@ -189,26 +231,26 @@
                 "object": {
                   "type": "Identifier",
                   "name": "assert",
-                  "start": 488,
-                  "end": 494
+                  "start": 641,
+                  "end": 647
                 },
                 "property": {
                   "type": "Identifier",
                   "name": "throws",
-                  "start": 495,
-                  "end": 501
+                  "start": 648,
+                  "end": 654
                 },
                 "optional": false,
                 "computed": false,
-                "start": 488,
-                "end": 501
+                "start": 641,
+                "end": 654
               },
               "arguments": [
                 {
                   "type": "Identifier",
                   "name": "RangeError",
-                  "start": 507,
-                  "end": 517
+                  "start": 660,
+                  "end": 670
                 },
                 {
                   "type": "ArrowFunctionExpression",
@@ -222,36 +264,36 @@
                       "object": {
                         "type": "Identifier",
                         "name": "instance",
-                        "start": 529,
-                        "end": 537
+                        "start": 682,
+                        "end": 690
                       },
                       "property": {
                         "type": "Identifier",
                         "name": "equals",
-                        "start": 538,
-                        "end": 544
+                        "start": 691,
+                        "end": 697
                       },
                       "optional": false,
                       "computed": false,
-                      "start": 529,
-                      "end": 544
+                      "start": 682,
+                      "end": 697
                     },
                     "arguments": [
                       {
                         "type": "Identifier",
                         "name": "arg",
-                        "start": 545,
-                        "end": 548
+                        "start": 698,
+                        "end": 701
                       }
                     ],
                     "optional": false,
-                    "start": 529,
-                    "end": 549
+                    "start": 682,
+                    "end": 702
                   },
                   "id": null,
                   "generator": false,
-                  "start": 523,
-                  "end": 549
+                  "start": 676,
+                  "end": 702
                 },
                 {
                   "type": "TemplateLiteral",
@@ -263,8 +305,8 @@
                         "cooked": ""
                       },
                       "tail": false,
-                      "start": 556,
-                      "end": 556
+                      "start": 709,
+                      "end": 709
                     },
                     {
                       "type": "TemplateElement",
@@ -273,39 +315,39 @@
                         "cooked": " is not a valid calendar ID"
                       },
                       "tail": true,
-                      "start": 570,
-                      "end": 597
+                      "start": 723,
+                      "end": 750
                     }
                   ],
                   "expressions": [
                     {
                       "type": "Identifier",
                       "name": "description",
-                      "start": 558,
-                      "end": 569
+                      "start": 711,
+                      "end": 722
                     }
                   ],
-                  "start": 555,
-                  "end": 598
+                  "start": 708,
+                  "end": 751
                 }
               ],
               "optional": false,
-              "start": 488,
-              "end": 602
+              "start": 641,
+              "end": 755
             },
-            "start": 488,
-            "end": 603
+            "start": 641,
+            "end": 756
           }
         ],
-        "start": 484,
-        "end": 605
+        "start": 637,
+        "end": 758
       },
-      "start": 435,
-      "end": 605
+      "start": 588,
+      "end": 758
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 606
+  "end": 759
 }
