@@ -78,17 +78,59 @@
                 ],
                 "start": 422,
                 "end": 453
+              },
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "value": "11111111",
+                    "raw": "\"11111111\"",
+                    "start": 458,
+                    "end": 468
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "compact ISO date used as calendar name",
+                    "raw": "\"compact ISO date used as calendar name\"",
+                    "start": 470,
+                    "end": 510
+                  }
+                ],
+                "start": 457,
+                "end": 511
+              },
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "value": "1111-11-11",
+                    "raw": "\"1111-11-11\"",
+                    "start": 516,
+                    "end": 528
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "extended ISO date used as calendar name",
+                    "raw": "\"extended ISO date used as calendar name\"",
+                    "start": 530,
+                    "end": 571
+                  }
+                ],
+                "start": 515,
+                "end": 572
               }
             ],
             "start": 323,
-            "end": 456
+            "end": 575
           },
           "start": 306,
-          "end": 456
+          "end": 575
         }
       ],
       "start": 300,
-      "end": 457
+      "end": 576
     },
     {
       "type": "ForOfStatement",
@@ -105,32 +147,32 @@
                 {
                   "type": "Identifier",
                   "name": "arg",
-                  "start": 471,
-                  "end": 474
+                  "start": 590,
+                  "end": 593
                 },
                 {
                   "type": "Identifier",
                   "name": "description",
-                  "start": 476,
-                  "end": 487
+                  "start": 595,
+                  "end": 606
                 }
               ],
-              "start": 470,
-              "end": 488
+              "start": 589,
+              "end": 607
             },
             "init": null,
-            "start": 470,
-            "end": 488
+            "start": 589,
+            "end": 607
           }
         ],
-        "start": 464,
-        "end": 488
+        "start": 583,
+        "end": 607
       },
       "right": {
         "type": "Identifier",
         "name": "invalidStrings",
-        "start": 492,
-        "end": 506
+        "start": 611,
+        "end": 625
       },
       "body": {
         "type": "BlockStatement",
@@ -144,26 +186,26 @@
                 "object": {
                   "type": "Identifier",
                   "name": "assert",
-                  "start": 512,
-                  "end": 518
+                  "start": 631,
+                  "end": 637
                 },
                 "property": {
                   "type": "Identifier",
                   "name": "throws",
-                  "start": 519,
-                  "end": 525
+                  "start": 638,
+                  "end": 644
                 },
                 "optional": false,
                 "computed": false,
-                "start": 512,
-                "end": 525
+                "start": 631,
+                "end": 644
               },
               "arguments": [
                 {
                   "type": "Identifier",
                   "name": "RangeError",
-                  "start": 531,
-                  "end": 541
+                  "start": 650,
+                  "end": 660
                 },
                 {
                   "type": "ArrowFunctionExpression",
@@ -177,56 +219,56 @@
                       "object": {
                         "type": "Identifier",
                         "name": "Temporal",
-                        "start": 557,
-                        "end": 565
+                        "start": 676,
+                        "end": 684
                       },
                       "property": {
                         "type": "Identifier",
                         "name": "PlainYearMonth",
-                        "start": 566,
-                        "end": 580
+                        "start": 685,
+                        "end": 699
                       },
                       "optional": false,
                       "computed": false,
-                      "start": 557,
-                      "end": 580
+                      "start": 676,
+                      "end": 699
                     },
                     "arguments": [
                       {
                         "type": "Literal",
                         "value": 2000,
                         "raw": "2000",
-                        "start": 581,
-                        "end": 585
+                        "start": 700,
+                        "end": 704
                       },
                       {
                         "type": "Literal",
                         "value": 5,
                         "raw": "5",
-                        "start": 587,
-                        "end": 588
+                        "start": 706,
+                        "end": 707
                       },
                       {
                         "type": "Identifier",
                         "name": "arg",
-                        "start": 590,
-                        "end": 593
+                        "start": 709,
+                        "end": 712
                       },
                       {
                         "type": "Literal",
                         "value": 1,
                         "raw": "1",
-                        "start": 595,
-                        "end": 596
+                        "start": 714,
+                        "end": 715
                       }
                     ],
-                    "start": 553,
-                    "end": 597
+                    "start": 672,
+                    "end": 716
                   },
                   "id": null,
                   "generator": false,
-                  "start": 547,
-                  "end": 597
+                  "start": 666,
+                  "end": 716
                 },
                 {
                   "type": "TemplateLiteral",
@@ -238,8 +280,8 @@
                         "cooked": ""
                       },
                       "tail": false,
-                      "start": 604,
-                      "end": 604
+                      "start": 723,
+                      "end": 723
                     },
                     {
                       "type": "TemplateElement",
@@ -248,39 +290,39 @@
                         "cooked": " is not a valid calendar ID"
                       },
                       "tail": true,
-                      "start": 618,
-                      "end": 645
+                      "start": 737,
+                      "end": 764
                     }
                   ],
                   "expressions": [
                     {
                       "type": "Identifier",
                       "name": "description",
-                      "start": 606,
-                      "end": 617
+                      "start": 725,
+                      "end": 736
                     }
                   ],
-                  "start": 603,
-                  "end": 646
+                  "start": 722,
+                  "end": 765
                 }
               ],
               "optional": false,
-              "start": 512,
-              "end": 650
+              "start": 631,
+              "end": 769
             },
-            "start": 512,
-            "end": 651
+            "start": 631,
+            "end": 770
           }
         ],
-        "start": 508,
-        "end": 653
+        "start": 627,
+        "end": 772
       },
-      "start": 459,
-      "end": 653
+      "start": 578,
+      "end": 772
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 654
+  "end": 773
 }

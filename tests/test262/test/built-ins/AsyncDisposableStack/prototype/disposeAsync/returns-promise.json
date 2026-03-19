@@ -1,0 +1,144 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "kind": "var",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "stack",
+            "start": 1774,
+            "end": 1779
+          },
+          "init": {
+            "type": "NewExpression",
+            "callee": {
+              "type": "Identifier",
+              "name": "AsyncDisposableStack",
+              "start": 1786,
+              "end": 1806
+            },
+            "arguments": [],
+            "start": 1782,
+            "end": 1808
+          },
+          "start": 1774,
+          "end": 1808
+        }
+      ],
+      "start": 1770,
+      "end": 1809
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 1810,
+            "end": 1816
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 1817,
+            "end": 1826
+          },
+          "optional": false,
+          "computed": false,
+          "start": 1810,
+          "end": 1826
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "Object",
+                "start": 1827,
+                "end": 1833
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "getPrototypeOf",
+                "start": 1834,
+                "end": 1848
+              },
+              "optional": false,
+              "computed": false,
+              "start": 1827,
+              "end": 1848
+            },
+            "arguments": [
+              {
+                "type": "CallExpression",
+                "callee": {
+                  "type": "MemberExpression",
+                  "object": {
+                    "type": "Identifier",
+                    "name": "stack",
+                    "start": 1849,
+                    "end": 1854
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "name": "disposeAsync",
+                    "start": 1855,
+                    "end": 1867
+                  },
+                  "optional": false,
+                  "computed": false,
+                  "start": 1849,
+                  "end": 1867
+                },
+                "arguments": [],
+                "optional": false,
+                "start": 1849,
+                "end": 1869
+              }
+            ],
+            "optional": false,
+            "start": 1827,
+            "end": 1870
+          },
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "Identifier",
+              "name": "Promise",
+              "start": 1872,
+              "end": 1879
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "prototype",
+              "start": 1880,
+              "end": 1889
+            },
+            "optional": false,
+            "computed": false,
+            "start": 1872,
+            "end": 1889
+          }
+        ],
+        "optional": false,
+        "start": 1810,
+        "end": 1890
+      },
+      "start": 1810,
+      "end": 1891
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 1892
+}

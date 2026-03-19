@@ -1,0 +1,170 @@
+[
+  {
+    "type": "Keyword",
+    "value": "const",
+    "start": 273,
+    "end": 278
+  },
+  {
+    "type": "Identifier",
+    "value": "instance",
+    "start": 279,
+    "end": 287
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 288,
+    "end": 289
+  },
+  {
+    "type": "Keyword",
+    "value": "new",
+    "start": 290,
+    "end": 293
+  },
+  {
+    "type": "Identifier",
+    "value": "Temporal",
+    "start": 294,
+    "end": 302
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 302,
+    "end": 303
+  },
+  {
+    "type": "Identifier",
+    "value": "PlainYearMonth",
+    "start": 303,
+    "end": 317
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 317,
+    "end": 318
+  },
+  {
+    "type": "Numeric",
+    "value": "2000",
+    "start": 318,
+    "end": 322
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 322,
+    "end": 323
+  },
+  {
+    "type": "Numeric",
+    "value": "3",
+    "start": 324,
+    "end": 325
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 325,
+    "end": 326
+  },
+  {
+    "type": "String",
+    "value": "\"gregory\"",
+    "start": 327,
+    "end": 336
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 336,
+    "end": 337
+  },
+  {
+    "type": "Numeric",
+    "value": "1",
+    "start": 338,
+    "end": 339
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 339,
+    "end": 340
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 340,
+    "end": 341
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 342,
+    "end": 348
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 348,
+    "end": 349
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 349,
+    "end": 358
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 358,
+    "end": 359
+  },
+  {
+    "type": "Identifier",
+    "value": "instance",
+    "start": 359,
+    "end": 367
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 367,
+    "end": 368
+  },
+  {
+    "type": "Identifier",
+    "value": "calendarId",
+    "start": 368,
+    "end": 378
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 378,
+    "end": 379
+  },
+  {
+    "type": "String",
+    "value": "\"gregory\"",
+    "start": 380,
+    "end": 389
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 389,
+    "end": 390
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 390,
+    "end": 391
+  }
+]

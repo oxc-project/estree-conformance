@@ -1,0 +1,383 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "Identifier",
+          "name": "asyncTest",
+          "start": 1812,
+          "end": 1821
+        },
+        "arguments": [
+          {
+            "type": "FunctionExpression",
+            "id": null,
+            "generator": false,
+            "async": true,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "body": [
+                {
+                  "type": "VariableDeclaration",
+                  "kind": "var",
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "id": {
+                        "type": "Identifier",
+                        "name": "stack",
+                        "start": 1848,
+                        "end": 1853
+                      },
+                      "init": {
+                        "type": "NewExpression",
+                        "callee": {
+                          "type": "Identifier",
+                          "name": "AsyncDisposableStack",
+                          "start": 1860,
+                          "end": 1880
+                        },
+                        "arguments": [],
+                        "start": 1856,
+                        "end": 1882
+                      },
+                      "start": 1848,
+                      "end": 1882
+                    }
+                  ],
+                  "start": 1844,
+                  "end": 1883
+                },
+                {
+                  "type": "VariableDeclaration",
+                  "kind": "var",
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "id": {
+                        "type": "Identifier",
+                        "name": "p",
+                        "start": 1890,
+                        "end": 1891
+                      },
+                      "init": {
+                        "type": "CallExpression",
+                        "callee": {
+                          "type": "MemberExpression",
+                          "object": {
+                            "type": "Identifier",
+                            "name": "stack",
+                            "start": 1894,
+                            "end": 1899
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "name": "disposeAsync",
+                            "start": 1900,
+                            "end": 1912
+                          },
+                          "optional": false,
+                          "computed": false,
+                          "start": 1894,
+                          "end": 1912
+                        },
+                        "arguments": [],
+                        "optional": false,
+                        "start": 1894,
+                        "end": 1914
+                      },
+                      "start": 1890,
+                      "end": 1914
+                    }
+                  ],
+                  "start": 1886,
+                  "end": 1915
+                },
+                {
+                  "type": "VariableDeclaration",
+                  "kind": "var",
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "id": {
+                        "type": "Identifier",
+                        "name": "r1",
+                        "start": 1922,
+                        "end": 1924
+                      },
+                      "init": {
+                        "type": "AwaitExpression",
+                        "argument": {
+                          "type": "CallExpression",
+                          "callee": {
+                            "type": "MemberExpression",
+                            "object": {
+                              "type": "Identifier",
+                              "name": "stack",
+                              "start": 1933,
+                              "end": 1938
+                            },
+                            "property": {
+                              "type": "Identifier",
+                              "name": "disposeAsync",
+                              "start": 1939,
+                              "end": 1951
+                            },
+                            "optional": false,
+                            "computed": false,
+                            "start": 1933,
+                            "end": 1951
+                          },
+                          "arguments": [],
+                          "optional": false,
+                          "start": 1933,
+                          "end": 1953
+                        },
+                        "start": 1927,
+                        "end": 1953
+                      },
+                      "start": 1922,
+                      "end": 1953
+                    }
+                  ],
+                  "start": 1918,
+                  "end": 1954
+                },
+                {
+                  "type": "VariableDeclaration",
+                  "kind": "var",
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "id": {
+                        "type": "Identifier",
+                        "name": "r2",
+                        "start": 1961,
+                        "end": 1963
+                      },
+                      "init": {
+                        "type": "AwaitExpression",
+                        "argument": {
+                          "type": "Identifier",
+                          "name": "p",
+                          "start": 1972,
+                          "end": 1973
+                        },
+                        "start": 1966,
+                        "end": 1973
+                      },
+                      "start": 1961,
+                      "end": 1973
+                    }
+                  ],
+                  "start": 1957,
+                  "end": 1974
+                },
+                {
+                  "type": "VariableDeclaration",
+                  "kind": "var",
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "id": {
+                        "type": "Identifier",
+                        "name": "r3",
+                        "start": 1981,
+                        "end": 1983
+                      },
+                      "init": {
+                        "type": "AwaitExpression",
+                        "argument": {
+                          "type": "CallExpression",
+                          "callee": {
+                            "type": "MemberExpression",
+                            "object": {
+                              "type": "Identifier",
+                              "name": "stack",
+                              "start": 1992,
+                              "end": 1997
+                            },
+                            "property": {
+                              "type": "Identifier",
+                              "name": "disposeAsync",
+                              "start": 1998,
+                              "end": 2010
+                            },
+                            "optional": false,
+                            "computed": false,
+                            "start": 1992,
+                            "end": 2010
+                          },
+                          "arguments": [],
+                          "optional": false,
+                          "start": 1992,
+                          "end": 2012
+                        },
+                        "start": 1986,
+                        "end": 2012
+                      },
+                      "start": 1981,
+                      "end": 2012
+                    }
+                  ],
+                  "start": 1977,
+                  "end": 2013
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "expression": {
+                    "type": "CallExpression",
+                    "callee": {
+                      "type": "MemberExpression",
+                      "object": {
+                        "type": "Identifier",
+                        "name": "assert",
+                        "start": 2016,
+                        "end": 2022
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "name": "sameValue",
+                        "start": 2023,
+                        "end": 2032
+                      },
+                      "optional": false,
+                      "computed": false,
+                      "start": 2016,
+                      "end": 2032
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "name": "r1",
+                        "start": 2033,
+                        "end": 2035
+                      },
+                      {
+                        "type": "Identifier",
+                        "name": "undefined",
+                        "start": 2037,
+                        "end": 2046
+                      }
+                    ],
+                    "optional": false,
+                    "start": 2016,
+                    "end": 2047
+                  },
+                  "start": 2016,
+                  "end": 2048
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "expression": {
+                    "type": "CallExpression",
+                    "callee": {
+                      "type": "MemberExpression",
+                      "object": {
+                        "type": "Identifier",
+                        "name": "assert",
+                        "start": 2051,
+                        "end": 2057
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "name": "sameValue",
+                        "start": 2058,
+                        "end": 2067
+                      },
+                      "optional": false,
+                      "computed": false,
+                      "start": 2051,
+                      "end": 2067
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "name": "r2",
+                        "start": 2068,
+                        "end": 2070
+                      },
+                      {
+                        "type": "Identifier",
+                        "name": "undefined",
+                        "start": 2072,
+                        "end": 2081
+                      }
+                    ],
+                    "optional": false,
+                    "start": 2051,
+                    "end": 2082
+                  },
+                  "start": 2051,
+                  "end": 2083
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "expression": {
+                    "type": "CallExpression",
+                    "callee": {
+                      "type": "MemberExpression",
+                      "object": {
+                        "type": "Identifier",
+                        "name": "assert",
+                        "start": 2086,
+                        "end": 2092
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "name": "sameValue",
+                        "start": 2093,
+                        "end": 2102
+                      },
+                      "optional": false,
+                      "computed": false,
+                      "start": 2086,
+                      "end": 2102
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "name": "r3",
+                        "start": 2103,
+                        "end": 2105
+                      },
+                      {
+                        "type": "Identifier",
+                        "name": "undefined",
+                        "start": 2107,
+                        "end": 2116
+                      }
+                    ],
+                    "optional": false,
+                    "start": 2086,
+                    "end": 2117
+                  },
+                  "start": 2086,
+                  "end": 2118
+                }
+              ],
+              "start": 1840,
+              "end": 2120
+            },
+            "expression": false,
+            "start": 1822,
+            "end": 2120
+          }
+        ],
+        "optional": false,
+        "start": 1812,
+        "end": 2121
+      },
+      "start": 1812,
+      "end": 2122
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 2123
+}

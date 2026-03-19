@@ -1,0 +1,343 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "Identifier",
+          "name": "asyncTest",
+          "start": 1813,
+          "end": 1822
+        },
+        "arguments": [
+          {
+            "type": "FunctionExpression",
+            "id": null,
+            "generator": false,
+            "async": true,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "body": [
+                {
+                  "type": "VariableDeclaration",
+                  "kind": "var",
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "id": {
+                        "type": "Identifier",
+                        "name": "stack1",
+                        "start": 1849,
+                        "end": 1855
+                      },
+                      "init": {
+                        "type": "NewExpression",
+                        "callee": {
+                          "type": "Identifier",
+                          "name": "AsyncDisposableStack",
+                          "start": 1862,
+                          "end": 1882
+                        },
+                        "arguments": [],
+                        "start": 1858,
+                        "end": 1884
+                      },
+                      "start": 1849,
+                      "end": 1884
+                    }
+                  ],
+                  "start": 1845,
+                  "end": 1885
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "expression": {
+                    "type": "CallExpression",
+                    "callee": {
+                      "type": "MemberExpression",
+                      "object": {
+                        "type": "Identifier",
+                        "name": "assert",
+                        "start": 1888,
+                        "end": 1894
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "name": "sameValue",
+                        "start": 1895,
+                        "end": 1904
+                      },
+                      "optional": false,
+                      "computed": false,
+                      "start": 1888,
+                      "end": 1904
+                    },
+                    "arguments": [
+                      {
+                        "type": "AwaitExpression",
+                        "argument": {
+                          "type": "CallExpression",
+                          "callee": {
+                            "type": "MemberExpression",
+                            "object": {
+                              "type": "Identifier",
+                              "name": "stack1",
+                              "start": 1911,
+                              "end": 1917
+                            },
+                            "property": {
+                              "type": "Identifier",
+                              "name": "disposeAsync",
+                              "start": 1918,
+                              "end": 1930
+                            },
+                            "optional": false,
+                            "computed": false,
+                            "start": 1911,
+                            "end": 1930
+                          },
+                          "arguments": [],
+                          "optional": false,
+                          "start": 1911,
+                          "end": 1932
+                        },
+                        "start": 1905,
+                        "end": 1932
+                      },
+                      {
+                        "type": "Identifier",
+                        "name": "undefined",
+                        "start": 1934,
+                        "end": 1943
+                      }
+                    ],
+                    "optional": false,
+                    "start": 1888,
+                    "end": 1944
+                  },
+                  "start": 1888,
+                  "end": 1945
+                },
+                {
+                  "type": "VariableDeclaration",
+                  "kind": "var",
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "id": {
+                        "type": "Identifier",
+                        "name": "stack2",
+                        "start": 1953,
+                        "end": 1959
+                      },
+                      "init": {
+                        "type": "NewExpression",
+                        "callee": {
+                          "type": "Identifier",
+                          "name": "AsyncDisposableStack",
+                          "start": 1966,
+                          "end": 1986
+                        },
+                        "arguments": [],
+                        "start": 1962,
+                        "end": 1988
+                      },
+                      "start": 1953,
+                      "end": 1988
+                    }
+                  ],
+                  "start": 1949,
+                  "end": 1989
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "expression": {
+                    "type": "CallExpression",
+                    "callee": {
+                      "type": "MemberExpression",
+                      "object": {
+                        "type": "Identifier",
+                        "name": "stack2",
+                        "start": 1992,
+                        "end": 1998
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "name": "defer",
+                        "start": 1999,
+                        "end": 2004
+                      },
+                      "optional": false,
+                      "computed": false,
+                      "start": 1992,
+                      "end": 2004
+                    },
+                    "arguments": [
+                      {
+                        "type": "ArrowFunctionExpression",
+                        "expression": true,
+                        "async": true,
+                        "params": [],
+                        "body": {
+                          "type": "Literal",
+                          "value": 1,
+                          "raw": "1",
+                          "start": 2017,
+                          "end": 2018
+                        },
+                        "id": null,
+                        "generator": false,
+                        "start": 2005,
+                        "end": 2018
+                      }
+                    ],
+                    "optional": false,
+                    "start": 1992,
+                    "end": 2019
+                  },
+                  "start": 1992,
+                  "end": 2020
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "expression": {
+                    "type": "CallExpression",
+                    "callee": {
+                      "type": "MemberExpression",
+                      "object": {
+                        "type": "Identifier",
+                        "name": "stack2",
+                        "start": 2023,
+                        "end": 2029
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "name": "defer",
+                        "start": 2030,
+                        "end": 2035
+                      },
+                      "optional": false,
+                      "computed": false,
+                      "start": 2023,
+                      "end": 2035
+                    },
+                    "arguments": [
+                      {
+                        "type": "ArrowFunctionExpression",
+                        "expression": true,
+                        "async": false,
+                        "params": [],
+                        "body": {
+                          "type": "Literal",
+                          "value": 2,
+                          "raw": "2",
+                          "start": 2042,
+                          "end": 2043
+                        },
+                        "id": null,
+                        "generator": false,
+                        "start": 2036,
+                        "end": 2043
+                      }
+                    ],
+                    "optional": false,
+                    "start": 2023,
+                    "end": 2044
+                  },
+                  "start": 2023,
+                  "end": 2045
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "expression": {
+                    "type": "CallExpression",
+                    "callee": {
+                      "type": "MemberExpression",
+                      "object": {
+                        "type": "Identifier",
+                        "name": "assert",
+                        "start": 2048,
+                        "end": 2054
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "name": "sameValue",
+                        "start": 2055,
+                        "end": 2064
+                      },
+                      "optional": false,
+                      "computed": false,
+                      "start": 2048,
+                      "end": 2064
+                    },
+                    "arguments": [
+                      {
+                        "type": "AwaitExpression",
+                        "argument": {
+                          "type": "CallExpression",
+                          "callee": {
+                            "type": "MemberExpression",
+                            "object": {
+                              "type": "Identifier",
+                              "name": "stack2",
+                              "start": 2071,
+                              "end": 2077
+                            },
+                            "property": {
+                              "type": "Identifier",
+                              "name": "disposeAsync",
+                              "start": 2078,
+                              "end": 2090
+                            },
+                            "optional": false,
+                            "computed": false,
+                            "start": 2071,
+                            "end": 2090
+                          },
+                          "arguments": [],
+                          "optional": false,
+                          "start": 2071,
+                          "end": 2092
+                        },
+                        "start": 2065,
+                        "end": 2092
+                      },
+                      {
+                        "type": "Identifier",
+                        "name": "undefined",
+                        "start": 2094,
+                        "end": 2103
+                      }
+                    ],
+                    "optional": false,
+                    "start": 2048,
+                    "end": 2104
+                  },
+                  "start": 2048,
+                  "end": 2105
+                }
+              ],
+              "start": 1841,
+              "end": 2107
+            },
+            "expression": false,
+            "start": 1823,
+            "end": 2107
+          }
+        ],
+        "optional": false,
+        "start": 1813,
+        "end": 2108
+      },
+      "start": 1813,
+      "end": 2109
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 2110
+}

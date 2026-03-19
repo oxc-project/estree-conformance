@@ -1,0 +1,212 @@
+[
+  {
+    "type": "Keyword",
+    "value": "var",
+    "start": 1100,
+    "end": 1103
+  },
+  {
+    "type": "Identifier",
+    "value": "stack1",
+    "start": 1104,
+    "end": 1110
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 1111,
+    "end": 1112
+  },
+  {
+    "type": "Keyword",
+    "value": "new",
+    "start": 1113,
+    "end": 1116
+  },
+  {
+    "type": "Identifier",
+    "value": "AsyncDisposableStack",
+    "start": 1117,
+    "end": 1137
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1137,
+    "end": 1138
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1138,
+    "end": 1139
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1139,
+    "end": 1140
+  },
+  {
+    "type": "Keyword",
+    "value": "var",
+    "start": 1141,
+    "end": 1144
+  },
+  {
+    "type": "Identifier",
+    "value": "stack2",
+    "start": 1145,
+    "end": 1151
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 1152,
+    "end": 1153
+  },
+  {
+    "type": "Identifier",
+    "value": "stack1",
+    "start": 1154,
+    "end": 1160
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1160,
+    "end": 1161
+  },
+  {
+    "type": "Identifier",
+    "value": "move",
+    "start": 1161,
+    "end": 1165
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1165,
+    "end": 1166
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1166,
+    "end": 1167
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1167,
+    "end": 1168
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 1169,
+    "end": 1175
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1175,
+    "end": 1176
+  },
+  {
+    "type": "Identifier",
+    "value": "stack2",
+    "start": 1176,
+    "end": 1182
+  },
+  {
+    "type": "Punctuator",
+    "value": "!==",
+    "start": 1183,
+    "end": 1186
+  },
+  {
+    "type": "Identifier",
+    "value": "stack1",
+    "start": 1187,
+    "end": 1193
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1193,
+    "end": 1194
+  },
+  {
+    "type": "String",
+    "value": "'Expected stack2 to not be the same reference as stack1'",
+    "start": 1195,
+    "end": 1251
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1251,
+    "end": 1252
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1252,
+    "end": 1253
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 1254,
+    "end": 1260
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1260,
+    "end": 1261
+  },
+  {
+    "type": "Identifier",
+    "value": "stack2",
+    "start": 1261,
+    "end": 1267
+  },
+  {
+    "type": "Keyword",
+    "value": "instanceof",
+    "start": 1268,
+    "end": 1278
+  },
+  {
+    "type": "Identifier",
+    "value": "AsyncDisposableStack",
+    "start": 1279,
+    "end": 1299
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1299,
+    "end": 1300
+  },
+  {
+    "type": "String",
+    "value": "'Expected stack2 to be an instance of AsyncDisposableStack'",
+    "start": 1301,
+    "end": 1360
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1360,
+    "end": 1361
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1361,
+    "end": 1362
+  }
+]

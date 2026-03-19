@@ -1,0 +1,129 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "kind": "var",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "stack",
+            "start": 493,
+            "end": 498
+          },
+          "init": {
+            "type": "NewExpression",
+            "callee": {
+              "type": "Identifier",
+              "name": "AsyncDisposableStack",
+              "start": 505,
+              "end": 525
+            },
+            "arguments": [],
+            "start": 501,
+            "end": 527
+          },
+          "start": 493,
+          "end": 527
+        }
+      ],
+      "start": 489,
+      "end": 528
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "stack",
+            "start": 529,
+            "end": 534
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "disposeAsync",
+            "start": 535,
+            "end": 547
+          },
+          "optional": false,
+          "computed": false,
+          "start": 529,
+          "end": 547
+        },
+        "arguments": [],
+        "optional": false,
+        "start": 529,
+        "end": 549
+      },
+      "start": 529,
+      "end": 550
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 551,
+            "end": 557
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 558,
+            "end": 567
+          },
+          "optional": false,
+          "computed": false,
+          "start": 551,
+          "end": 567
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "Identifier",
+              "name": "stack",
+              "start": 568,
+              "end": 573
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "disposed",
+              "start": 574,
+              "end": 582
+            },
+            "optional": false,
+            "computed": false,
+            "start": 568,
+            "end": 582
+          },
+          {
+            "type": "Literal",
+            "value": true,
+            "raw": "true",
+            "start": 584,
+            "end": 588
+          }
+        ],
+        "optional": false,
+        "start": 551,
+        "end": 589
+      },
+      "start": 551,
+      "end": 590
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 591
+}

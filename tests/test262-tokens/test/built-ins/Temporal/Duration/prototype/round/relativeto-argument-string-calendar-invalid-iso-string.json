@@ -211,266 +211,338 @@
   },
   {
     "type": "Punctuator",
+    "value": "[",
+    "start": 455,
+    "end": 456
+  },
+  {
+    "type": "String",
+    "value": "\"1997-12-04[u-ca=11111111]\"",
+    "start": 456,
+    "end": 483
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 483,
+    "end": 484
+  },
+  {
+    "type": "String",
+    "value": "\"compact ISO date used as calendar name\"",
+    "start": 485,
+    "end": 525
+  },
+  {
+    "type": "Punctuator",
     "value": "]",
-    "start": 453,
-    "end": 454
+    "start": 525,
+    "end": 526
   },
   {
     "type": "Punctuator",
-    "value": ";",
-    "start": 454,
-    "end": 455
-  },
-  {
-    "type": "Keyword",
-    "value": "for",
-    "start": 457,
-    "end": 460
-  },
-  {
-    "type": "Punctuator",
-    "value": "(",
-    "start": 461,
-    "end": 462
-  },
-  {
-    "type": "Keyword",
-    "value": "const",
-    "start": 462,
-    "end": 467
+    "value": ",",
+    "start": 526,
+    "end": 527
   },
   {
     "type": "Punctuator",
     "value": "[",
-    "start": 468,
-    "end": 469
+    "start": 530,
+    "end": 531
   },
   {
-    "type": "Identifier",
-    "value": "arg",
-    "start": 469,
-    "end": 472
+    "type": "String",
+    "value": "\"1997-12-04[u-ca=1111-11-11]\"",
+    "start": 531,
+    "end": 560
   },
   {
     "type": "Punctuator",
     "value": ",",
-    "start": 472,
-    "end": 473
+    "start": 560,
+    "end": 561
   },
   {
-    "type": "Identifier",
-    "value": "description",
-    "start": 474,
-    "end": 485
+    "type": "String",
+    "value": "\"extended ISO date used as calendar name\"",
+    "start": 562,
+    "end": 603
   },
   {
     "type": "Punctuator",
     "value": "]",
-    "start": 485,
-    "end": 486
-  },
-  {
-    "type": "Identifier",
-    "value": "of",
-    "start": 487,
-    "end": 489
-  },
-  {
-    "type": "Identifier",
-    "value": "invalidStrings",
-    "start": 490,
-    "end": 504
-  },
-  {
-    "type": "Punctuator",
-    "value": ")",
-    "start": 504,
-    "end": 505
-  },
-  {
-    "type": "Punctuator",
-    "value": "{",
-    "start": 506,
-    "end": 507
-  },
-  {
-    "type": "Identifier",
-    "value": "assert",
-    "start": 510,
-    "end": 516
-  },
-  {
-    "type": "Punctuator",
-    "value": ".",
-    "start": 516,
-    "end": 517
-  },
-  {
-    "type": "Identifier",
-    "value": "throws",
-    "start": 517,
-    "end": 523
-  },
-  {
-    "type": "Punctuator",
-    "value": "(",
-    "start": 523,
-    "end": 524
-  },
-  {
-    "type": "Identifier",
-    "value": "RangeError",
-    "start": 529,
-    "end": 539
-  },
-  {
-    "type": "Punctuator",
-    "value": ",",
-    "start": 539,
-    "end": 540
-  },
-  {
-    "type": "Punctuator",
-    "value": "(",
-    "start": 545,
-    "end": 546
-  },
-  {
-    "type": "Punctuator",
-    "value": ")",
-    "start": 546,
-    "end": 547
-  },
-  {
-    "type": "Punctuator",
-    "value": "=>",
-    "start": 548,
-    "end": 550
-  },
-  {
-    "type": "Identifier",
-    "value": "instance",
-    "start": 551,
-    "end": 559
-  },
-  {
-    "type": "Punctuator",
-    "value": ".",
-    "start": 559,
-    "end": 560
-  },
-  {
-    "type": "Identifier",
-    "value": "round",
-    "start": 560,
-    "end": 565
-  },
-  {
-    "type": "Punctuator",
-    "value": "(",
-    "start": 565,
-    "end": 566
-  },
-  {
-    "type": "Punctuator",
-    "value": "{",
-    "start": 566,
-    "end": 567
-  },
-  {
-    "type": "Identifier",
-    "value": "largestUnit",
-    "start": 568,
-    "end": 579
-  },
-  {
-    "type": "Punctuator",
-    "value": ":",
-    "start": 579,
-    "end": 580
-  },
-  {
-    "type": "String",
-    "value": "\"months\"",
-    "start": 581,
-    "end": 589
-  },
-  {
-    "type": "Punctuator",
-    "value": ",",
-    "start": 589,
-    "end": 590
-  },
-  {
-    "type": "Identifier",
-    "value": "relativeTo",
-    "start": 591,
-    "end": 601
-  },
-  {
-    "type": "Punctuator",
-    "value": ":",
-    "start": 601,
-    "end": 602
-  },
-  {
-    "type": "Identifier",
-    "value": "arg",
     "start": 603,
-    "end": 606
-  },
-  {
-    "type": "Punctuator",
-    "value": "}",
-    "start": 607,
-    "end": 608
-  },
-  {
-    "type": "Punctuator",
-    "value": ")",
-    "start": 608,
-    "end": 609
+    "end": 604
   },
   {
     "type": "Punctuator",
     "value": ",",
-    "start": 609,
-    "end": 610
-  },
-  {
-    "type": "Template",
-    "value": "`${",
-    "start": 615,
-    "end": 618
-  },
-  {
-    "type": "Identifier",
-    "value": "description",
-    "start": 618,
-    "end": 629
-  },
-  {
-    "type": "Template",
-    "value": "} is not a valid calendar ID`",
-    "start": 629,
-    "end": 658
+    "start": 604,
+    "end": 605
   },
   {
     "type": "Punctuator",
-    "value": ")",
-    "start": 661,
-    "end": 662
+    "value": "]",
+    "start": 606,
+    "end": 607
   },
   {
     "type": "Punctuator",
     "value": ";",
-    "start": 662,
-    "end": 663
+    "start": 607,
+    "end": 608
+  },
+  {
+    "type": "Keyword",
+    "value": "for",
+    "start": 610,
+    "end": 613
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 614,
+    "end": 615
+  },
+  {
+    "type": "Keyword",
+    "value": "const",
+    "start": 615,
+    "end": 620
+  },
+  {
+    "type": "Punctuator",
+    "value": "[",
+    "start": 621,
+    "end": 622
+  },
+  {
+    "type": "Identifier",
+    "value": "arg",
+    "start": 622,
+    "end": 625
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 625,
+    "end": 626
+  },
+  {
+    "type": "Identifier",
+    "value": "description",
+    "start": 627,
+    "end": 638
+  },
+  {
+    "type": "Punctuator",
+    "value": "]",
+    "start": 638,
+    "end": 639
+  },
+  {
+    "type": "Identifier",
+    "value": "of",
+    "start": 640,
+    "end": 642
+  },
+  {
+    "type": "Identifier",
+    "value": "invalidStrings",
+    "start": 643,
+    "end": 657
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 657,
+    "end": 658
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 659,
+    "end": 660
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 663,
+    "end": 669
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 669,
+    "end": 670
+  },
+  {
+    "type": "Identifier",
+    "value": "throws",
+    "start": 670,
+    "end": 676
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 676,
+    "end": 677
+  },
+  {
+    "type": "Identifier",
+    "value": "RangeError",
+    "start": 682,
+    "end": 692
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 692,
+    "end": 693
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 698,
+    "end": 699
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 699,
+    "end": 700
+  },
+  {
+    "type": "Punctuator",
+    "value": "=>",
+    "start": 701,
+    "end": 703
+  },
+  {
+    "type": "Identifier",
+    "value": "instance",
+    "start": 704,
+    "end": 712
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 712,
+    "end": 713
+  },
+  {
+    "type": "Identifier",
+    "value": "round",
+    "start": 713,
+    "end": 718
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 718,
+    "end": 719
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 719,
+    "end": 720
+  },
+  {
+    "type": "Identifier",
+    "value": "largestUnit",
+    "start": 721,
+    "end": 732
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 732,
+    "end": 733
+  },
+  {
+    "type": "String",
+    "value": "\"months\"",
+    "start": 734,
+    "end": 742
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 742,
+    "end": 743
+  },
+  {
+    "type": "Identifier",
+    "value": "relativeTo",
+    "start": 744,
+    "end": 754
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 754,
+    "end": 755
+  },
+  {
+    "type": "Identifier",
+    "value": "arg",
+    "start": 756,
+    "end": 759
   },
   {
     "type": "Punctuator",
     "value": "}",
-    "start": 664,
-    "end": 665
+    "start": 760,
+    "end": 761
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 761,
+    "end": 762
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 762,
+    "end": 763
+  },
+  {
+    "type": "Template",
+    "value": "`${",
+    "start": 768,
+    "end": 771
+  },
+  {
+    "type": "Identifier",
+    "value": "description",
+    "start": 771,
+    "end": 782
+  },
+  {
+    "type": "Template",
+    "value": "} is not a valid calendar ID`",
+    "start": 782,
+    "end": 811
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 814,
+    "end": 815
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 815,
+    "end": 816
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 817,
+    "end": 818
   }
 ]

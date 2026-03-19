@@ -1,0 +1,349 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "kind": "var",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "stack",
+            "start": 377,
+            "end": 382
+          },
+          "init": {
+            "type": "NewExpression",
+            "callee": {
+              "type": "Identifier",
+              "name": "AsyncDisposableStack",
+              "start": 389,
+              "end": 409
+            },
+            "arguments": [],
+            "start": 385,
+            "end": 411
+          },
+          "start": 377,
+          "end": 411
+        }
+      ],
+      "start": 373,
+      "end": 412
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "var",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "resource",
+            "start": 417,
+            "end": 425
+          },
+          "init": {
+            "type": "ObjectExpression",
+            "properties": [],
+            "start": 428,
+            "end": 430
+          },
+          "start": 417,
+          "end": 430
+        }
+      ],
+      "start": 413,
+      "end": 431
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 432,
+            "end": 438
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 439,
+            "end": 448
+          },
+          "optional": false,
+          "computed": false,
+          "start": 432,
+          "end": 448
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "stack",
+                "start": 449,
+                "end": 454
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "adopt",
+                "start": 455,
+                "end": 460
+              },
+              "optional": false,
+              "computed": false,
+              "start": 449,
+              "end": 460
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "name": "resource",
+                "start": 461,
+                "end": 469
+              },
+              {
+                "type": "ArrowFunctionExpression",
+                "expression": false,
+                "async": true,
+                "params": [
+                  {
+                    "type": "Identifier",
+                    "name": "_",
+                    "start": 477,
+                    "end": 478
+                  }
+                ],
+                "body": {
+                  "type": "BlockStatement",
+                  "body": [],
+                  "start": 482,
+                  "end": 484
+                },
+                "id": null,
+                "generator": false,
+                "start": 471,
+                "end": 484
+              }
+            ],
+            "optional": false,
+            "start": 449,
+            "end": 485
+          },
+          {
+            "type": "Identifier",
+            "name": "resource",
+            "start": 487,
+            "end": 495
+          }
+        ],
+        "optional": false,
+        "start": 432,
+        "end": 496
+      },
+      "start": 432,
+      "end": 497
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 498,
+            "end": 504
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 505,
+            "end": 514
+          },
+          "optional": false,
+          "computed": false,
+          "start": 498,
+          "end": 514
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "stack",
+                "start": 515,
+                "end": 520
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "adopt",
+                "start": 521,
+                "end": 526
+              },
+              "optional": false,
+              "computed": false,
+              "start": 515,
+              "end": 526
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "value": null,
+                "raw": "null",
+                "start": 527,
+                "end": 531
+              },
+              {
+                "type": "ArrowFunctionExpression",
+                "expression": false,
+                "async": true,
+                "params": [
+                  {
+                    "type": "Identifier",
+                    "name": "_",
+                    "start": 539,
+                    "end": 540
+                  }
+                ],
+                "body": {
+                  "type": "BlockStatement",
+                  "body": [],
+                  "start": 544,
+                  "end": 546
+                },
+                "id": null,
+                "generator": false,
+                "start": 533,
+                "end": 546
+              }
+            ],
+            "optional": false,
+            "start": 515,
+            "end": 547
+          },
+          {
+            "type": "Literal",
+            "value": null,
+            "raw": "null",
+            "start": 549,
+            "end": 553
+          }
+        ],
+        "optional": false,
+        "start": 498,
+        "end": 554
+      },
+      "start": 498,
+      "end": 555
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 556,
+            "end": 562
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 563,
+            "end": 572
+          },
+          "optional": false,
+          "computed": false,
+          "start": 556,
+          "end": 572
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "stack",
+                "start": 573,
+                "end": 578
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "adopt",
+                "start": 579,
+                "end": 584
+              },
+              "optional": false,
+              "computed": false,
+              "start": 573,
+              "end": 584
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "name": "undefined",
+                "start": 585,
+                "end": 594
+              },
+              {
+                "type": "ArrowFunctionExpression",
+                "expression": false,
+                "async": true,
+                "params": [
+                  {
+                    "type": "Identifier",
+                    "name": "_",
+                    "start": 602,
+                    "end": 603
+                  }
+                ],
+                "body": {
+                  "type": "BlockStatement",
+                  "body": [],
+                  "start": 607,
+                  "end": 609
+                },
+                "id": null,
+                "generator": false,
+                "start": 596,
+                "end": 609
+              }
+            ],
+            "optional": false,
+            "start": 573,
+            "end": 610
+          },
+          {
+            "type": "Identifier",
+            "name": "undefined",
+            "start": 612,
+            "end": 621
+          }
+        ],
+        "optional": false,
+        "start": 556,
+        "end": 622
+      },
+      "start": 556,
+      "end": 623
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 624
+}

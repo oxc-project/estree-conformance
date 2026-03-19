@@ -1,0 +1,474 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "Identifier",
+          "name": "asyncTest",
+          "start": 1818,
+          "end": 1827
+        },
+        "arguments": [
+          {
+            "type": "FunctionExpression",
+            "id": null,
+            "generator": false,
+            "async": true,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "body": [
+                {
+                  "type": "VariableDeclaration",
+                  "kind": "var",
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "id": {
+                        "type": "Identifier",
+                        "name": "stack",
+                        "start": 1854,
+                        "end": 1859
+                      },
+                      "init": {
+                        "type": "NewExpression",
+                        "callee": {
+                          "type": "Identifier",
+                          "name": "AsyncDisposableStack",
+                          "start": 1866,
+                          "end": 1886
+                        },
+                        "arguments": [],
+                        "start": 1862,
+                        "end": 1888
+                      },
+                      "start": 1854,
+                      "end": 1888
+                    }
+                  ],
+                  "start": 1850,
+                  "end": 1889
+                },
+                {
+                  "type": "VariableDeclaration",
+                  "kind": "var",
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "id": {
+                        "type": "Identifier",
+                        "name": "resource",
+                        "start": 1896,
+                        "end": 1904
+                      },
+                      "init": {
+                        "type": "ObjectExpression",
+                        "properties": [
+                          {
+                            "type": "Property",
+                            "kind": "init",
+                            "key": {
+                              "type": "Identifier",
+                              "name": "disposeReadCount",
+                              "start": 1915,
+                              "end": 1931
+                            },
+                            "value": {
+                              "type": "Literal",
+                              "value": 0,
+                              "raw": "0",
+                              "start": 1933,
+                              "end": 1934
+                            },
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false,
+                            "start": 1915,
+                            "end": 1934
+                          },
+                          {
+                            "type": "Property",
+                            "kind": "get",
+                            "key": {
+                              "type": "MemberExpression",
+                              "object": {
+                                "type": "Identifier",
+                                "name": "Symbol",
+                                "start": 1947,
+                                "end": 1953
+                              },
+                              "property": {
+                                "type": "Identifier",
+                                "name": "dispose",
+                                "start": 1954,
+                                "end": 1961
+                              },
+                              "optional": false,
+                              "computed": false,
+                              "start": 1947,
+                              "end": 1961
+                            },
+                            "value": {
+                              "type": "FunctionExpression",
+                              "id": null,
+                              "generator": false,
+                              "async": false,
+                              "params": [],
+                              "body": {
+                                "type": "BlockStatement",
+                                "body": [
+                                  {
+                                    "type": "ExpressionStatement",
+                                    "expression": {
+                                      "type": "UpdateExpression",
+                                      "operator": "++",
+                                      "prefix": false,
+                                      "argument": {
+                                        "type": "MemberExpression",
+                                        "object": {
+                                          "type": "ThisExpression",
+                                          "start": 1977,
+                                          "end": 1981
+                                        },
+                                        "property": {
+                                          "type": "Identifier",
+                                          "name": "disposeReadCount",
+                                          "start": 1982,
+                                          "end": 1998
+                                        },
+                                        "optional": false,
+                                        "computed": false,
+                                        "start": 1977,
+                                        "end": 1998
+                                      },
+                                      "start": 1977,
+                                      "end": 2000
+                                    },
+                                    "start": 1977,
+                                    "end": 2001
+                                  },
+                                  {
+                                    "type": "ReturnStatement",
+                                    "argument": {
+                                      "type": "FunctionExpression",
+                                      "id": null,
+                                      "generator": false,
+                                      "async": false,
+                                      "params": [],
+                                      "body": {
+                                        "type": "BlockStatement",
+                                        "body": [],
+                                        "start": 2030,
+                                        "end": 2033
+                                      },
+                                      "expression": false,
+                                      "start": 2019,
+                                      "end": 2033
+                                    },
+                                    "start": 2012,
+                                    "end": 2034
+                                  }
+                                ],
+                                "start": 1965,
+                                "end": 2042
+                              },
+                              "expression": false,
+                              "start": 1962,
+                              "end": 2042
+                            },
+                            "method": false,
+                            "shorthand": false,
+                            "computed": true,
+                            "start": 1942,
+                            "end": 2042
+                          }
+                        ],
+                        "start": 1907,
+                        "end": 2046
+                      },
+                      "start": 1896,
+                      "end": 2046
+                    }
+                  ],
+                  "start": 1892,
+                  "end": 2047
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "expression": {
+                    "type": "CallExpression",
+                    "callee": {
+                      "type": "MemberExpression",
+                      "object": {
+                        "type": "Identifier",
+                        "name": "stack",
+                        "start": 2050,
+                        "end": 2055
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "name": "use",
+                        "start": 2056,
+                        "end": 2059
+                      },
+                      "optional": false,
+                      "computed": false,
+                      "start": 2050,
+                      "end": 2059
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "name": "resource",
+                        "start": 2060,
+                        "end": 2068
+                      }
+                    ],
+                    "optional": false,
+                    "start": 2050,
+                    "end": 2069
+                  },
+                  "start": 2050,
+                  "end": 2070
+                },
+                {
+                  "type": "VariableDeclaration",
+                  "kind": "var",
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "id": {
+                        "type": "Identifier",
+                        "name": "countAfterUse",
+                        "start": 2077,
+                        "end": 2090
+                      },
+                      "init": {
+                        "type": "MemberExpression",
+                        "object": {
+                          "type": "Identifier",
+                          "name": "resource",
+                          "start": 2093,
+                          "end": 2101
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "name": "disposeReadCount",
+                          "start": 2102,
+                          "end": 2118
+                        },
+                        "optional": false,
+                        "computed": false,
+                        "start": 2093,
+                        "end": 2118
+                      },
+                      "start": 2077,
+                      "end": 2118
+                    }
+                  ],
+                  "start": 2073,
+                  "end": 2119
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "expression": {
+                    "type": "AwaitExpression",
+                    "argument": {
+                      "type": "CallExpression",
+                      "callee": {
+                        "type": "MemberExpression",
+                        "object": {
+                          "type": "Identifier",
+                          "name": "stack",
+                          "start": 2128,
+                          "end": 2133
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "name": "disposeAsync",
+                          "start": 2134,
+                          "end": 2146
+                        },
+                        "optional": false,
+                        "computed": false,
+                        "start": 2128,
+                        "end": 2146
+                      },
+                      "arguments": [],
+                      "optional": false,
+                      "start": 2128,
+                      "end": 2148
+                    },
+                    "start": 2122,
+                    "end": 2148
+                  },
+                  "start": 2122,
+                  "end": 2149
+                },
+                {
+                  "type": "VariableDeclaration",
+                  "kind": "var",
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "id": {
+                        "type": "Identifier",
+                        "name": "countAfterDispose",
+                        "start": 2156,
+                        "end": 2173
+                      },
+                      "init": {
+                        "type": "MemberExpression",
+                        "object": {
+                          "type": "Identifier",
+                          "name": "resource",
+                          "start": 2176,
+                          "end": 2184
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "name": "disposeReadCount",
+                          "start": 2185,
+                          "end": 2201
+                        },
+                        "optional": false,
+                        "computed": false,
+                        "start": 2176,
+                        "end": 2201
+                      },
+                      "start": 2156,
+                      "end": 2201
+                    }
+                  ],
+                  "start": 2152,
+                  "end": 2202
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "expression": {
+                    "type": "CallExpression",
+                    "callee": {
+                      "type": "MemberExpression",
+                      "object": {
+                        "type": "Identifier",
+                        "name": "assert",
+                        "start": 2205,
+                        "end": 2211
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "name": "sameValue",
+                        "start": 2212,
+                        "end": 2221
+                      },
+                      "optional": false,
+                      "computed": false,
+                      "start": 2205,
+                      "end": 2221
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "name": "countAfterUse",
+                        "start": 2222,
+                        "end": 2235
+                      },
+                      {
+                        "type": "Literal",
+                        "value": 1,
+                        "raw": "1",
+                        "start": 2237,
+                        "end": 2238
+                      },
+                      {
+                        "type": "Literal",
+                        "value": "Expected [Symbol.dispose] to have been read only once",
+                        "raw": "'Expected [Symbol.dispose] to have been read only once'",
+                        "start": 2240,
+                        "end": 2295
+                      }
+                    ],
+                    "optional": false,
+                    "start": 2205,
+                    "end": 2296
+                  },
+                  "start": 2205,
+                  "end": 2297
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "expression": {
+                    "type": "CallExpression",
+                    "callee": {
+                      "type": "MemberExpression",
+                      "object": {
+                        "type": "Identifier",
+                        "name": "assert",
+                        "start": 2300,
+                        "end": 2306
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "name": "sameValue",
+                        "start": 2307,
+                        "end": 2316
+                      },
+                      "optional": false,
+                      "computed": false,
+                      "start": 2300,
+                      "end": 2316
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "name": "countAfterDispose",
+                        "start": 2317,
+                        "end": 2334
+                      },
+                      {
+                        "type": "Literal",
+                        "value": 1,
+                        "raw": "1",
+                        "start": 2336,
+                        "end": 2337
+                      },
+                      {
+                        "type": "Literal",
+                        "value": "Expected [Symbol.dispose] to have been read only once",
+                        "raw": "'Expected [Symbol.dispose] to have been read only once'",
+                        "start": 2339,
+                        "end": 2394
+                      }
+                    ],
+                    "optional": false,
+                    "start": 2300,
+                    "end": 2395
+                  },
+                  "start": 2300,
+                  "end": 2396
+                }
+              ],
+              "start": 1846,
+              "end": 2398
+            },
+            "expression": false,
+            "start": 1828,
+            "end": 2398
+          }
+        ],
+        "optional": false,
+        "start": 1818,
+        "end": 2399
+      },
+      "start": 1818,
+      "end": 2400
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 2401
+}

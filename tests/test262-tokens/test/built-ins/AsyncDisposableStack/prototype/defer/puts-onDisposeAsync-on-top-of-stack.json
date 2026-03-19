@@ -1,0 +1,668 @@
+[
+  {
+    "type": "Identifier",
+    "value": "asyncTest",
+    "start": 1153,
+    "end": 1162
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1162,
+    "end": 1163
+  },
+  {
+    "type": "Identifier",
+    "value": "async",
+    "start": 1163,
+    "end": 1168
+  },
+  {
+    "type": "Keyword",
+    "value": "function",
+    "start": 1169,
+    "end": 1177
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1178,
+    "end": 1179
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1179,
+    "end": 1180
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 1181,
+    "end": 1182
+  },
+  {
+    "type": "Keyword",
+    "value": "var",
+    "start": 1185,
+    "end": 1188
+  },
+  {
+    "type": "Identifier",
+    "value": "stack",
+    "start": 1189,
+    "end": 1194
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 1195,
+    "end": 1196
+  },
+  {
+    "type": "Keyword",
+    "value": "new",
+    "start": 1197,
+    "end": 1200
+  },
+  {
+    "type": "Identifier",
+    "value": "AsyncDisposableStack",
+    "start": 1201,
+    "end": 1221
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1221,
+    "end": 1222
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1222,
+    "end": 1223
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1223,
+    "end": 1224
+  },
+  {
+    "type": "Keyword",
+    "value": "var",
+    "start": 1227,
+    "end": 1230
+  },
+  {
+    "type": "Identifier",
+    "value": "disposed",
+    "start": 1231,
+    "end": 1239
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 1240,
+    "end": 1241
+  },
+  {
+    "type": "Punctuator",
+    "value": "[",
+    "start": 1242,
+    "end": 1243
+  },
+  {
+    "type": "Punctuator",
+    "value": "]",
+    "start": 1243,
+    "end": 1244
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1244,
+    "end": 1245
+  },
+  {
+    "type": "Identifier",
+    "value": "async",
+    "start": 1248,
+    "end": 1253
+  },
+  {
+    "type": "Keyword",
+    "value": "function",
+    "start": 1254,
+    "end": 1262
+  },
+  {
+    "type": "Identifier",
+    "value": "dispose1",
+    "start": 1263,
+    "end": 1271
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1271,
+    "end": 1272
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1272,
+    "end": 1273
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 1274,
+    "end": 1275
+  },
+  {
+    "type": "Identifier",
+    "value": "disposed",
+    "start": 1276,
+    "end": 1284
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1284,
+    "end": 1285
+  },
+  {
+    "type": "Identifier",
+    "value": "push",
+    "start": 1285,
+    "end": 1289
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1289,
+    "end": 1290
+  },
+  {
+    "type": "Identifier",
+    "value": "dispose1",
+    "start": 1290,
+    "end": 1298
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1298,
+    "end": 1299
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1299,
+    "end": 1300
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 1301,
+    "end": 1302
+  },
+  {
+    "type": "Keyword",
+    "value": "function",
+    "start": 1305,
+    "end": 1313
+  },
+  {
+    "type": "Identifier",
+    "value": "dispose2",
+    "start": 1314,
+    "end": 1322
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1322,
+    "end": 1323
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1323,
+    "end": 1324
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 1325,
+    "end": 1326
+  },
+  {
+    "type": "Identifier",
+    "value": "disposed",
+    "start": 1327,
+    "end": 1335
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1335,
+    "end": 1336
+  },
+  {
+    "type": "Identifier",
+    "value": "push",
+    "start": 1336,
+    "end": 1340
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1340,
+    "end": 1341
+  },
+  {
+    "type": "Identifier",
+    "value": "dispose2",
+    "start": 1341,
+    "end": 1349
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1349,
+    "end": 1350
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1350,
+    "end": 1351
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 1352,
+    "end": 1353
+  },
+  {
+    "type": "Identifier",
+    "value": "stack",
+    "start": 1356,
+    "end": 1361
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1361,
+    "end": 1362
+  },
+  {
+    "type": "Identifier",
+    "value": "defer",
+    "start": 1362,
+    "end": 1367
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1367,
+    "end": 1368
+  },
+  {
+    "type": "Identifier",
+    "value": "dispose1",
+    "start": 1368,
+    "end": 1376
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1376,
+    "end": 1377
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1377,
+    "end": 1378
+  },
+  {
+    "type": "Identifier",
+    "value": "stack",
+    "start": 1381,
+    "end": 1386
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1386,
+    "end": 1387
+  },
+  {
+    "type": "Identifier",
+    "value": "defer",
+    "start": 1387,
+    "end": 1392
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1392,
+    "end": 1393
+  },
+  {
+    "type": "Identifier",
+    "value": "dispose2",
+    "start": 1393,
+    "end": 1401
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1401,
+    "end": 1402
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1402,
+    "end": 1403
+  },
+  {
+    "type": "Identifier",
+    "value": "await",
+    "start": 1406,
+    "end": 1411
+  },
+  {
+    "type": "Identifier",
+    "value": "stack",
+    "start": 1412,
+    "end": 1417
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1417,
+    "end": 1418
+  },
+  {
+    "type": "Identifier",
+    "value": "disposeAsync",
+    "start": 1418,
+    "end": 1430
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1430,
+    "end": 1431
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1431,
+    "end": 1432
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1432,
+    "end": 1433
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 1436,
+    "end": 1442
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1442,
+    "end": 1443
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 1443,
+    "end": 1452
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1452,
+    "end": 1453
+  },
+  {
+    "type": "Numeric",
+    "value": "2",
+    "start": 1453,
+    "end": 1454
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1454,
+    "end": 1455
+  },
+  {
+    "type": "Identifier",
+    "value": "disposed",
+    "start": 1456,
+    "end": 1464
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1464,
+    "end": 1465
+  },
+  {
+    "type": "Identifier",
+    "value": "length",
+    "start": 1465,
+    "end": 1471
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1471,
+    "end": 1472
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1472,
+    "end": 1473
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 1476,
+    "end": 1482
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1482,
+    "end": 1483
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 1483,
+    "end": 1492
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1492,
+    "end": 1493
+  },
+  {
+    "type": "Identifier",
+    "value": "disposed",
+    "start": 1493,
+    "end": 1501
+  },
+  {
+    "type": "Punctuator",
+    "value": "[",
+    "start": 1501,
+    "end": 1502
+  },
+  {
+    "type": "Numeric",
+    "value": "0",
+    "start": 1502,
+    "end": 1503
+  },
+  {
+    "type": "Punctuator",
+    "value": "]",
+    "start": 1503,
+    "end": 1504
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1504,
+    "end": 1505
+  },
+  {
+    "type": "Identifier",
+    "value": "dispose2",
+    "start": 1506,
+    "end": 1514
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1514,
+    "end": 1515
+  },
+  {
+    "type": "String",
+    "value": "'Expected dispose2 to be the first onDisposeAsync invoked'",
+    "start": 1516,
+    "end": 1574
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1574,
+    "end": 1575
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1575,
+    "end": 1576
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 1579,
+    "end": 1585
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1585,
+    "end": 1586
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 1586,
+    "end": 1595
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1595,
+    "end": 1596
+  },
+  {
+    "type": "Identifier",
+    "value": "disposed",
+    "start": 1596,
+    "end": 1604
+  },
+  {
+    "type": "Punctuator",
+    "value": "[",
+    "start": 1604,
+    "end": 1605
+  },
+  {
+    "type": "Numeric",
+    "value": "1",
+    "start": 1605,
+    "end": 1606
+  },
+  {
+    "type": "Punctuator",
+    "value": "]",
+    "start": 1606,
+    "end": 1607
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1607,
+    "end": 1608
+  },
+  {
+    "type": "Identifier",
+    "value": "dispose1",
+    "start": 1609,
+    "end": 1617
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1617,
+    "end": 1618
+  },
+  {
+    "type": "String",
+    "value": "'Expected dispose1 to be the second onDisposeAsync invoked'",
+    "start": 1619,
+    "end": 1678
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1678,
+    "end": 1679
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1679,
+    "end": 1680
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 1681,
+    "end": 1682
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1682,
+    "end": 1683
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1683,
+    "end": 1684
+  }
+]

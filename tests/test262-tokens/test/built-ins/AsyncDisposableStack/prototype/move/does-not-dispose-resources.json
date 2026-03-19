@@ -1,0 +1,260 @@
+[
+  {
+    "type": "Keyword",
+    "value": "var",
+    "start": 1126,
+    "end": 1129
+  },
+  {
+    "type": "Identifier",
+    "value": "stack",
+    "start": 1130,
+    "end": 1135
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 1136,
+    "end": 1137
+  },
+  {
+    "type": "Keyword",
+    "value": "new",
+    "start": 1138,
+    "end": 1141
+  },
+  {
+    "type": "Identifier",
+    "value": "AsyncDisposableStack",
+    "start": 1142,
+    "end": 1162
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1162,
+    "end": 1163
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1163,
+    "end": 1164
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1164,
+    "end": 1165
+  },
+  {
+    "type": "Keyword",
+    "value": "var",
+    "start": 1166,
+    "end": 1169
+  },
+  {
+    "type": "Identifier",
+    "value": "disposed",
+    "start": 1170,
+    "end": 1178
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 1179,
+    "end": 1180
+  },
+  {
+    "type": "Boolean",
+    "value": "false",
+    "start": 1181,
+    "end": 1186
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1186,
+    "end": 1187
+  },
+  {
+    "type": "Identifier",
+    "value": "stack",
+    "start": 1188,
+    "end": 1193
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1193,
+    "end": 1194
+  },
+  {
+    "type": "Identifier",
+    "value": "defer",
+    "start": 1194,
+    "end": 1199
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1199,
+    "end": 1200
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1200,
+    "end": 1201
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1201,
+    "end": 1202
+  },
+  {
+    "type": "Punctuator",
+    "value": "=>",
+    "start": 1203,
+    "end": 1205
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 1206,
+    "end": 1207
+  },
+  {
+    "type": "Identifier",
+    "value": "disposed",
+    "start": 1208,
+    "end": 1216
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 1217,
+    "end": 1218
+  },
+  {
+    "type": "Boolean",
+    "value": "true",
+    "start": 1219,
+    "end": 1223
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1223,
+    "end": 1224
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 1225,
+    "end": 1226
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1226,
+    "end": 1227
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1227,
+    "end": 1228
+  },
+  {
+    "type": "Identifier",
+    "value": "stack",
+    "start": 1229,
+    "end": 1234
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1234,
+    "end": 1235
+  },
+  {
+    "type": "Identifier",
+    "value": "move",
+    "start": 1235,
+    "end": 1239
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1239,
+    "end": 1240
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1240,
+    "end": 1241
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1241,
+    "end": 1242
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 1243,
+    "end": 1249
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1249,
+    "end": 1250
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 1250,
+    "end": 1259
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1259,
+    "end": 1260
+  },
+  {
+    "type": "Identifier",
+    "value": "disposed",
+    "start": 1260,
+    "end": 1268
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1268,
+    "end": 1269
+  },
+  {
+    "type": "Boolean",
+    "value": "false",
+    "start": 1270,
+    "end": 1275
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1275,
+    "end": 1276
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1276,
+    "end": 1277
+  }
+]

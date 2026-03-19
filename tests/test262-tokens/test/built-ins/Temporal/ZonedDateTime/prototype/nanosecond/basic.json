@@ -1,0 +1,146 @@
+[
+  {
+    "type": "Keyword",
+    "value": "const",
+    "start": 253,
+    "end": 258
+  },
+  {
+    "type": "Identifier",
+    "value": "instance",
+    "start": 259,
+    "end": 267
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 268,
+    "end": 269
+  },
+  {
+    "type": "Keyword",
+    "value": "new",
+    "start": 270,
+    "end": 273
+  },
+  {
+    "type": "Identifier",
+    "value": "Temporal",
+    "start": 274,
+    "end": 282
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 282,
+    "end": 283
+  },
+  {
+    "type": "Identifier",
+    "value": "ZonedDateTime",
+    "start": 283,
+    "end": 296
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 296,
+    "end": 297
+  },
+  {
+    "type": "Numeric",
+    "value": "3721_001_001_001n",
+    "start": 297,
+    "end": 314
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 314,
+    "end": 315
+  },
+  {
+    "type": "String",
+    "value": "\"UTC\"",
+    "start": 316,
+    "end": 321
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 321,
+    "end": 322
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 322,
+    "end": 323
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 324,
+    "end": 330
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 330,
+    "end": 331
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 331,
+    "end": 340
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 340,
+    "end": 341
+  },
+  {
+    "type": "Identifier",
+    "value": "instance",
+    "start": 341,
+    "end": 349
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 349,
+    "end": 350
+  },
+  {
+    "type": "Identifier",
+    "value": "nanosecond",
+    "start": 350,
+    "end": 360
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 360,
+    "end": 361
+  },
+  {
+    "type": "Numeric",
+    "value": "1",
+    "start": 362,
+    "end": 363
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 363,
+    "end": 364
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 364,
+    "end": 365
+  }
+]

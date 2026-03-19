@@ -1,0 +1,127 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "instance",
+            "start": 253,
+            "end": 261
+          },
+          "init": {
+            "type": "NewExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "Temporal",
+                "start": 268,
+                "end": 276
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "ZonedDateTime",
+                "start": 277,
+                "end": 290
+              },
+              "optional": false,
+              "computed": false,
+              "start": 268,
+              "end": 290
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "value": null,
+                "raw": "3721_001_001_001n",
+                "bigint": "3721001001001",
+                "start": 291,
+                "end": 308
+              },
+              {
+                "type": "Literal",
+                "value": "UTC",
+                "raw": "\"UTC\"",
+                "start": 310,
+                "end": 315
+              }
+            ],
+            "start": 264,
+            "end": 316
+          },
+          "start": 253,
+          "end": 316
+        }
+      ],
+      "start": 247,
+      "end": 317
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 318,
+            "end": 324
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 325,
+            "end": 334
+          },
+          "optional": false,
+          "computed": false,
+          "start": 318,
+          "end": 334
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "Identifier",
+              "name": "instance",
+              "start": 335,
+              "end": 343
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "hour",
+              "start": 344,
+              "end": 348
+            },
+            "optional": false,
+            "computed": false,
+            "start": 335,
+            "end": 348
+          },
+          {
+            "type": "Literal",
+            "value": 1,
+            "raw": "1",
+            "start": 350,
+            "end": 351
+          }
+        ],
+        "optional": false,
+        "start": 318,
+        "end": 352
+      },
+      "start": 318,
+      "end": 353
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 354
+}

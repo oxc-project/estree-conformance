@@ -1,0 +1,157 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "kind": "var",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "stack",
+            "start": 588,
+            "end": 593
+          },
+          "init": {
+            "type": "NewExpression",
+            "callee": {
+              "type": "Identifier",
+              "name": "AsyncDisposableStack",
+              "start": 600,
+              "end": 620
+            },
+            "arguments": [],
+            "start": 596,
+            "end": 622
+          },
+          "start": 588,
+          "end": 622
+        }
+      ],
+      "start": 584,
+      "end": 623
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "stack",
+            "start": 624,
+            "end": 629
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "disposeAsync",
+            "start": 630,
+            "end": 642
+          },
+          "optional": false,
+          "computed": false,
+          "start": 624,
+          "end": 642
+        },
+        "arguments": [],
+        "optional": false,
+        "start": 624,
+        "end": 644
+      },
+      "start": 624,
+      "end": 645
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 647,
+            "end": 653
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "throws",
+            "start": 654,
+            "end": 660
+          },
+          "optional": false,
+          "computed": false,
+          "start": 647,
+          "end": 660
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "name": "ReferenceError",
+            "start": 661,
+            "end": 675
+          },
+          {
+            "type": "FunctionExpression",
+            "id": null,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "expression": {
+                    "type": "CallExpression",
+                    "callee": {
+                      "type": "MemberExpression",
+                      "object": {
+                        "type": "Identifier",
+                        "name": "stack",
+                        "start": 692,
+                        "end": 697
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "name": "move",
+                        "start": 698,
+                        "end": 702
+                      },
+                      "optional": false,
+                      "computed": false,
+                      "start": 692,
+                      "end": 702
+                    },
+                    "arguments": [],
+                    "optional": false,
+                    "start": 692,
+                    "end": 704
+                  },
+                  "start": 692,
+                  "end": 705
+                }
+              ],
+              "start": 688,
+              "end": 707
+            },
+            "expression": false,
+            "start": 677,
+            "end": 707
+          }
+        ],
+        "optional": false,
+        "start": 647,
+        "end": 708
+      },
+      "start": 647,
+      "end": 709
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 710
+}

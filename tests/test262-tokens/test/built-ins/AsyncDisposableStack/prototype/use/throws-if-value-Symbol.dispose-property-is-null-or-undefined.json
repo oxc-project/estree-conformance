@@ -1,0 +1,410 @@
+[
+  {
+    "type": "Keyword",
+    "value": "var",
+    "start": 1786,
+    "end": 1789
+  },
+  {
+    "type": "Identifier",
+    "value": "stack",
+    "start": 1790,
+    "end": 1795
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 1796,
+    "end": 1797
+  },
+  {
+    "type": "Keyword",
+    "value": "new",
+    "start": 1798,
+    "end": 1801
+  },
+  {
+    "type": "Identifier",
+    "value": "AsyncDisposableStack",
+    "start": 1802,
+    "end": 1822
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1822,
+    "end": 1823
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1823,
+    "end": 1824
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1824,
+    "end": 1825
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 1826,
+    "end": 1832
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1832,
+    "end": 1833
+  },
+  {
+    "type": "Identifier",
+    "value": "throws",
+    "start": 1833,
+    "end": 1839
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1839,
+    "end": 1840
+  },
+  {
+    "type": "Identifier",
+    "value": "TypeError",
+    "start": 1840,
+    "end": 1849
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1849,
+    "end": 1850
+  },
+  {
+    "type": "Keyword",
+    "value": "function",
+    "start": 1851,
+    "end": 1859
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1859,
+    "end": 1860
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1860,
+    "end": 1861
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 1862,
+    "end": 1863
+  },
+  {
+    "type": "Identifier",
+    "value": "stack",
+    "start": 1866,
+    "end": 1871
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1871,
+    "end": 1872
+  },
+  {
+    "type": "Identifier",
+    "value": "use",
+    "start": 1872,
+    "end": 1875
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1875,
+    "end": 1876
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 1876,
+    "end": 1877
+  },
+  {
+    "type": "Punctuator",
+    "value": "[",
+    "start": 1878,
+    "end": 1879
+  },
+  {
+    "type": "Identifier",
+    "value": "Symbol",
+    "start": 1879,
+    "end": 1885
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1885,
+    "end": 1886
+  },
+  {
+    "type": "Identifier",
+    "value": "dispose",
+    "start": 1886,
+    "end": 1893
+  },
+  {
+    "type": "Punctuator",
+    "value": "]",
+    "start": 1893,
+    "end": 1894
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 1894,
+    "end": 1895
+  },
+  {
+    "type": "Null",
+    "value": "null",
+    "start": 1896,
+    "end": 1900
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 1901,
+    "end": 1902
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1902,
+    "end": 1903
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1903,
+    "end": 1904
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 1905,
+    "end": 1906
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1906,
+    "end": 1907
+  },
+  {
+    "type": "String",
+    "value": "'null'",
+    "start": 1908,
+    "end": 1914
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1914,
+    "end": 1915
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1915,
+    "end": 1916
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 1917,
+    "end": 1923
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1923,
+    "end": 1924
+  },
+  {
+    "type": "Identifier",
+    "value": "throws",
+    "start": 1924,
+    "end": 1930
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1930,
+    "end": 1931
+  },
+  {
+    "type": "Identifier",
+    "value": "TypeError",
+    "start": 1931,
+    "end": 1940
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1940,
+    "end": 1941
+  },
+  {
+    "type": "Keyword",
+    "value": "function",
+    "start": 1942,
+    "end": 1950
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1950,
+    "end": 1951
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1951,
+    "end": 1952
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 1953,
+    "end": 1954
+  },
+  {
+    "type": "Identifier",
+    "value": "stack",
+    "start": 1957,
+    "end": 1962
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1962,
+    "end": 1963
+  },
+  {
+    "type": "Identifier",
+    "value": "use",
+    "start": 1963,
+    "end": 1966
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1966,
+    "end": 1967
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 1967,
+    "end": 1968
+  },
+  {
+    "type": "Punctuator",
+    "value": "[",
+    "start": 1969,
+    "end": 1970
+  },
+  {
+    "type": "Identifier",
+    "value": "Symbol",
+    "start": 1970,
+    "end": 1976
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1976,
+    "end": 1977
+  },
+  {
+    "type": "Identifier",
+    "value": "dispose",
+    "start": 1977,
+    "end": 1984
+  },
+  {
+    "type": "Punctuator",
+    "value": "]",
+    "start": 1984,
+    "end": 1985
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 1985,
+    "end": 1986
+  },
+  {
+    "type": "Identifier",
+    "value": "undefined",
+    "start": 1987,
+    "end": 1996
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 1997,
+    "end": 1998
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1998,
+    "end": 1999
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1999,
+    "end": 2000
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 2001,
+    "end": 2002
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2002,
+    "end": 2003
+  },
+  {
+    "type": "String",
+    "value": "'undefined'",
+    "start": 2004,
+    "end": 2015
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 2015,
+    "end": 2016
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 2016,
+    "end": 2017
+  }
+]

@@ -1,0 +1,158 @@
+[
+  {
+    "type": "Keyword",
+    "value": "const",
+    "start": 279,
+    "end": 284
+  },
+  {
+    "type": "Identifier",
+    "value": "instance",
+    "start": 285,
+    "end": 293
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 294,
+    "end": 295
+  },
+  {
+    "type": "Keyword",
+    "value": "new",
+    "start": 296,
+    "end": 299
+  },
+  {
+    "type": "Identifier",
+    "value": "Temporal",
+    "start": 300,
+    "end": 308
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 308,
+    "end": 309
+  },
+  {
+    "type": "Identifier",
+    "value": "ZonedDateTime",
+    "start": 309,
+    "end": 322
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 322,
+    "end": 323
+  },
+  {
+    "type": "Numeric",
+    "value": "0n",
+    "start": 323,
+    "end": 325
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 325,
+    "end": 326
+  },
+  {
+    "type": "String",
+    "value": "\"UTC\"",
+    "start": 327,
+    "end": 332
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 332,
+    "end": 333
+  },
+  {
+    "type": "String",
+    "value": "\"gregory\"",
+    "start": 334,
+    "end": 343
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 343,
+    "end": 344
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 344,
+    "end": 345
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 346,
+    "end": 352
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 352,
+    "end": 353
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 353,
+    "end": 362
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 362,
+    "end": 363
+  },
+  {
+    "type": "Identifier",
+    "value": "instance",
+    "start": 363,
+    "end": 371
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 371,
+    "end": 372
+  },
+  {
+    "type": "Identifier",
+    "value": "eraYear",
+    "start": 372,
+    "end": 379
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 379,
+    "end": 380
+  },
+  {
+    "type": "Numeric",
+    "value": "1970",
+    "start": 381,
+    "end": 385
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 385,
+    "end": 386
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 386,
+    "end": 387
+  }
+]
