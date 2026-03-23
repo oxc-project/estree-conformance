@@ -178,18 +178,18 @@
           },
           {
             "type": "Literal",
-            "value": "Set is initially empty of regular symbol",
-            "raw": "'Set is initially empty of regular symbol'",
+            "value": "WeakSet is initially empty of regular symbol",
+            "raw": "'WeakSet is initially empty of regular symbol'",
             "start": 509,
-            "end": 551
+            "end": 555
           }
         ],
         "optional": false,
         "start": 473,
-        "end": 552
+        "end": 556
       },
       "start": 473,
-      "end": 553
+      "end": 557
     },
     {
       "type": "ExpressionStatement",
@@ -200,19 +200,19 @@
           "object": {
             "type": "Identifier",
             "name": "assert",
-            "start": 554,
-            "end": 560
+            "start": 558,
+            "end": 564
           },
           "property": {
             "type": "Identifier",
             "name": "sameValue",
-            "start": 561,
-            "end": 570
+            "start": 565,
+            "end": 574
           },
           "optional": false,
           "computed": false,
-          "start": 554,
-          "end": 570
+          "start": 558,
+          "end": 574
         },
         "arguments": [
           {
@@ -222,19 +222,19 @@
               "object": {
                 "type": "Identifier",
                 "name": "s",
-                "start": 571,
-                "end": 572
+                "start": 575,
+                "end": 576
               },
               "property": {
                 "type": "Identifier",
                 "name": "has",
-                "start": 573,
-                "end": 576
+                "start": 577,
+                "end": 580
               },
               "optional": false,
               "computed": false,
-              "start": 571,
-              "end": 576
+              "start": 575,
+              "end": 580
             },
             "arguments": [
               {
@@ -242,46 +242,46 @@
                 "object": {
                   "type": "Identifier",
                   "name": "Symbol",
-                  "start": 577,
-                  "end": 583
+                  "start": 581,
+                  "end": 587
                 },
                 "property": {
                   "type": "Identifier",
                   "name": "hasInstance",
-                  "start": 584,
-                  "end": 595
+                  "start": 588,
+                  "end": 599
                 },
                 "optional": false,
                 "computed": false,
-                "start": 577,
-                "end": 595
+                "start": 581,
+                "end": 599
               }
             ],
             "optional": false,
-            "start": 571,
-            "end": 596
+            "start": 575,
+            "end": 600
           },
           {
             "type": "Literal",
             "value": false,
             "raw": "false",
-            "start": 598,
-            "end": 603
+            "start": 602,
+            "end": 607
           },
           {
             "type": "Literal",
-            "value": "Set is initially empty of well-known symbol",
-            "raw": "'Set is initially empty of well-known symbol'",
-            "start": 605,
-            "end": 650
+            "value": "WeakSet is initially empty of well-known symbol",
+            "raw": "'WeakSet is initially empty of well-known symbol'",
+            "start": 609,
+            "end": 658
           }
         ],
         "optional": false,
-        "start": 554,
-        "end": 651
+        "start": 558,
+        "end": 659
       },
-      "start": 554,
-      "end": 652
+      "start": 558,
+      "end": 660
     },
     {
       "type": "ExpressionStatement",
@@ -292,34 +292,34 @@
           "object": {
             "type": "Identifier",
             "name": "s",
-            "start": 654,
-            "end": 655
+            "start": 662,
+            "end": 663
           },
           "property": {
             "type": "Identifier",
             "name": "add",
-            "start": 656,
-            "end": 659
+            "start": 664,
+            "end": 667
           },
           "optional": false,
           "computed": false,
-          "start": 654,
-          "end": 659
+          "start": 662,
+          "end": 667
         },
         "arguments": [
           {
             "type": "Identifier",
             "name": "foo",
-            "start": 660,
-            "end": 663
+            "start": 668,
+            "end": 671
           }
         ],
         "optional": false,
-        "start": 654,
-        "end": 664
+        "start": 662,
+        "end": 672
       },
-      "start": 654,
-      "end": 665
+      "start": 662,
+      "end": 673
     },
     {
       "type": "ExpressionStatement",
@@ -330,19 +330,19 @@
           "object": {
             "type": "Identifier",
             "name": "assert",
-            "start": 666,
-            "end": 672
+            "start": 674,
+            "end": 680
           },
           "property": {
             "type": "Identifier",
             "name": "sameValue",
-            "start": 673,
-            "end": 682
+            "start": 681,
+            "end": 690
           },
           "optional": false,
           "computed": false,
-          "start": 666,
-          "end": 682
+          "start": 674,
+          "end": 690
         },
         "arguments": [
           {
@@ -352,53 +352,53 @@
               "object": {
                 "type": "Identifier",
                 "name": "s",
-                "start": 683,
-                "end": 684
+                "start": 691,
+                "end": 692
               },
               "property": {
                 "type": "Identifier",
                 "name": "has",
-                "start": 685,
-                "end": 688
+                "start": 693,
+                "end": 696
               },
               "optional": false,
               "computed": false,
-              "start": 683,
-              "end": 688
+              "start": 691,
+              "end": 696
             },
             "arguments": [
               {
                 "type": "Identifier",
                 "name": "bar",
-                "start": 689,
-                "end": 692
+                "start": 697,
+                "end": 700
               }
             ],
             "optional": false,
-            "start": 683,
-            "end": 693
+            "start": 691,
+            "end": 701
           },
           {
             "type": "Literal",
             "value": false,
             "raw": "false",
-            "start": 695,
-            "end": 700
+            "start": 703,
+            "end": 708
           },
           {
             "type": "Literal",
             "value": "Symbols with the same description are not aliased to each other",
             "raw": "'Symbols with the same description are not aliased to each other'",
-            "start": 702,
-            "end": 767
+            "start": 710,
+            "end": 775
           }
         ],
         "optional": false,
-        "start": 666,
-        "end": 768
+        "start": 674,
+        "end": 776
       },
-      "start": 666,
-      "end": 769
+      "start": 674,
+      "end": 777
     },
     {
       "type": "ExpressionStatement",
@@ -409,34 +409,34 @@
           "object": {
             "type": "Identifier",
             "name": "s",
-            "start": 771,
-            "end": 772
+            "start": 779,
+            "end": 780
           },
           "property": {
             "type": "Identifier",
             "name": "delete",
-            "start": 773,
-            "end": 779
+            "start": 781,
+            "end": 787
           },
           "optional": false,
           "computed": false,
-          "start": 771,
-          "end": 779
+          "start": 779,
+          "end": 787
         },
         "arguments": [
           {
             "type": "Identifier",
             "name": "foo",
-            "start": 780,
-            "end": 783
+            "start": 788,
+            "end": 791
           }
         ],
         "optional": false,
-        "start": 771,
-        "end": 784
+        "start": 779,
+        "end": 792
       },
-      "start": 771,
-      "end": 785
+      "start": 779,
+      "end": 793
     },
     {
       "type": "ExpressionStatement",
@@ -447,19 +447,19 @@
           "object": {
             "type": "Identifier",
             "name": "assert",
-            "start": 786,
-            "end": 792
+            "start": 794,
+            "end": 800
           },
           "property": {
             "type": "Identifier",
             "name": "sameValue",
-            "start": 793,
-            "end": 802
+            "start": 801,
+            "end": 810
           },
           "optional": false,
           "computed": false,
-          "start": 786,
-          "end": 802
+          "start": 794,
+          "end": 810
         },
         "arguments": [
           {
@@ -469,53 +469,53 @@
               "object": {
                 "type": "Identifier",
                 "name": "s",
-                "start": 803,
-                "end": 804
+                "start": 811,
+                "end": 812
               },
               "property": {
                 "type": "Identifier",
                 "name": "has",
-                "start": 805,
-                "end": 808
+                "start": 813,
+                "end": 816
               },
               "optional": false,
               "computed": false,
-              "start": 803,
-              "end": 808
+              "start": 811,
+              "end": 816
             },
             "arguments": [
               {
                 "type": "Identifier",
                 "name": "foo",
-                "start": 809,
-                "end": 812
+                "start": 817,
+                "end": 820
               }
             ],
             "optional": false,
-            "start": 803,
-            "end": 813
+            "start": 811,
+            "end": 821
           },
           {
             "type": "Literal",
             "value": false,
             "raw": "false",
-            "start": 815,
-            "end": 820
+            "start": 823,
+            "end": 828
           },
           {
             "type": "Literal",
-            "value": "Set is again empty of regular symbol after deleting",
-            "raw": "'Set is again empty of regular symbol after deleting'",
-            "start": 822,
-            "end": 875
+            "value": "WeakSet is again empty of regular symbol after deleting",
+            "raw": "'WeakSet is again empty of regular symbol after deleting'",
+            "start": 830,
+            "end": 887
           }
         ],
         "optional": false,
-        "start": 786,
-        "end": 876
+        "start": 794,
+        "end": 888
       },
-      "start": 786,
-      "end": 877
+      "start": 794,
+      "end": 889
     },
     {
       "type": "ExpressionStatement",
@@ -526,19 +526,19 @@
           "object": {
             "type": "Identifier",
             "name": "s",
-            "start": 878,
-            "end": 879
+            "start": 890,
+            "end": 891
           },
           "property": {
             "type": "Identifier",
             "name": "delete",
-            "start": 880,
-            "end": 886
+            "start": 892,
+            "end": 898
           },
           "optional": false,
           "computed": false,
-          "start": 878,
-          "end": 886
+          "start": 890,
+          "end": 898
         },
         "arguments": [
           {
@@ -546,27 +546,27 @@
             "object": {
               "type": "Identifier",
               "name": "Symbol",
-              "start": 887,
-              "end": 893
+              "start": 899,
+              "end": 905
             },
             "property": {
               "type": "Identifier",
               "name": "hasInstance",
-              "start": 894,
-              "end": 905
+              "start": 906,
+              "end": 917
             },
             "optional": false,
             "computed": false,
-            "start": 887,
-            "end": 905
+            "start": 899,
+            "end": 917
           }
         ],
         "optional": false,
-        "start": 878,
-        "end": 906
+        "start": 890,
+        "end": 918
       },
-      "start": 878,
-      "end": 907
+      "start": 890,
+      "end": 919
     },
     {
       "type": "ExpressionStatement",
@@ -577,19 +577,19 @@
           "object": {
             "type": "Identifier",
             "name": "assert",
-            "start": 908,
-            "end": 914
+            "start": 920,
+            "end": 926
           },
           "property": {
             "type": "Identifier",
             "name": "sameValue",
-            "start": 915,
-            "end": 924
+            "start": 927,
+            "end": 936
           },
           "optional": false,
           "computed": false,
-          "start": 908,
-          "end": 924
+          "start": 920,
+          "end": 936
         },
         "arguments": [
           {
@@ -599,19 +599,19 @@
               "object": {
                 "type": "Identifier",
                 "name": "s",
-                "start": 925,
-                "end": 926
+                "start": 937,
+                "end": 938
               },
               "property": {
                 "type": "Identifier",
                 "name": "has",
-                "start": 927,
-                "end": 930
+                "start": 939,
+                "end": 942
               },
               "optional": false,
               "computed": false,
-              "start": 925,
-              "end": 930
+              "start": 937,
+              "end": 942
             },
             "arguments": [
               {
@@ -619,50 +619,50 @@
                 "object": {
                   "type": "Identifier",
                   "name": "Symbol",
-                  "start": 931,
-                  "end": 937
+                  "start": 943,
+                  "end": 949
                 },
                 "property": {
                   "type": "Identifier",
                   "name": "hasInstance",
-                  "start": 938,
-                  "end": 949
+                  "start": 950,
+                  "end": 961
                 },
                 "optional": false,
                 "computed": false,
-                "start": 931,
-                "end": 949
+                "start": 943,
+                "end": 961
               }
             ],
             "optional": false,
-            "start": 925,
-            "end": 950
+            "start": 937,
+            "end": 962
           },
           {
             "type": "Literal",
             "value": false,
             "raw": "false",
-            "start": 952,
-            "end": 957
+            "start": 964,
+            "end": 969
           },
           {
             "type": "Literal",
-            "value": "Set is again empty of well-known symbol after deleting",
-            "raw": "'Set is again empty of well-known symbol after deleting'",
-            "start": 959,
-            "end": 1015
+            "value": "WeakSet is again empty of well-known symbol after deleting",
+            "raw": "'WeakSet is again empty of well-known symbol after deleting'",
+            "start": 971,
+            "end": 1031
           }
         ],
         "optional": false,
-        "start": 908,
-        "end": 1016
+        "start": 920,
+        "end": 1032
       },
-      "start": 908,
-      "end": 1017
+      "start": 920,
+      "end": 1033
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 1018
+  "end": 1034
 }

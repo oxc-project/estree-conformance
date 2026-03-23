@@ -358,10 +358,156 @@
       },
       "start": 508,
       "end": 578
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "lambda",
+            "start": 586,
+            "end": 592
+          },
+          "init": {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "Temporal",
+                  "start": 595,
+                  "end": 603
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "PlainDateTime",
+                  "start": 604,
+                  "end": 617
+                },
+                "optional": false,
+                "computed": false,
+                "start": 595,
+                "end": 617
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "from",
+                "start": 618,
+                "end": 622
+              },
+              "optional": false,
+              "computed": false,
+              "start": 595,
+              "end": 622
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "name": "fields",
+                "start": 623,
+                "end": 629
+              },
+              {
+                "type": "ArrowFunctionExpression",
+                "expression": false,
+                "async": false,
+                "params": [],
+                "body": {
+                  "type": "BlockStatement",
+                  "body": [],
+                  "start": 637,
+                  "end": 639
+                },
+                "id": null,
+                "generator": false,
+                "start": 631,
+                "end": 639
+              }
+            ],
+            "optional": false,
+            "start": 595,
+            "end": 640
+          },
+          "start": 586,
+          "end": 640
+        }
+      ],
+      "start": 580,
+      "end": 641
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 642,
+            "end": 648
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 649,
+            "end": 658
+          },
+          "optional": false,
+          "computed": false,
+          "start": 642,
+          "end": 658
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "Identifier",
+              "name": "lambda",
+              "start": 659,
+              "end": 665
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "month",
+              "start": 666,
+              "end": 671
+            },
+            "optional": false,
+            "computed": false,
+            "start": 659,
+            "end": 671
+          },
+          {
+            "type": "Literal",
+            "value": 12,
+            "raw": "12",
+            "start": 673,
+            "end": 675
+          },
+          {
+            "type": "Literal",
+            "value": "default overflow is constrain",
+            "raw": "\"default overflow is constrain\"",
+            "start": 677,
+            "end": 708
+          }
+        ],
+        "optional": false,
+        "start": 642,
+        "end": 709
+      },
+      "start": 642,
+      "end": 710
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 579
+  "end": 711
 }

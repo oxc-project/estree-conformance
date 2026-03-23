@@ -412,5 +412,191 @@
     "value": ";",
     "start": 577,
     "end": 578
+  },
+  {
+    "type": "Keyword",
+    "value": "const",
+    "start": 580,
+    "end": 585
+  },
+  {
+    "type": "Identifier",
+    "value": "lambda",
+    "start": 586,
+    "end": 592
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 593,
+    "end": 594
+  },
+  {
+    "type": "Identifier",
+    "value": "Temporal",
+    "start": 595,
+    "end": 603
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 603,
+    "end": 604
+  },
+  {
+    "type": "Identifier",
+    "value": "PlainDateTime",
+    "start": 604,
+    "end": 617
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 617,
+    "end": 618
+  },
+  {
+    "type": "Identifier",
+    "value": "from",
+    "start": 618,
+    "end": 622
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 622,
+    "end": 623
+  },
+  {
+    "type": "Identifier",
+    "value": "fields",
+    "start": 623,
+    "end": 629
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 629,
+    "end": 630
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 631,
+    "end": 632
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 632,
+    "end": 633
+  },
+  {
+    "type": "Punctuator",
+    "value": "=>",
+    "start": 634,
+    "end": 636
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 637,
+    "end": 638
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 638,
+    "end": 639
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 639,
+    "end": 640
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 640,
+    "end": 641
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 642,
+    "end": 648
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 648,
+    "end": 649
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 649,
+    "end": 658
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 658,
+    "end": 659
+  },
+  {
+    "type": "Identifier",
+    "value": "lambda",
+    "start": 659,
+    "end": 665
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 665,
+    "end": 666
+  },
+  {
+    "type": "Identifier",
+    "value": "month",
+    "start": 666,
+    "end": 671
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 671,
+    "end": 672
+  },
+  {
+    "type": "Numeric",
+    "value": "12",
+    "start": 673,
+    "end": 675
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 675,
+    "end": 676
+  },
+  {
+    "type": "String",
+    "value": "\"default overflow is constrain\"",
+    "start": 677,
+    "end": 708
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 708,
+    "end": 709
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 709,
+    "end": 710
   }
 ]

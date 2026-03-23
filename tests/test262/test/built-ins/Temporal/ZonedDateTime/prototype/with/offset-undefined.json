@@ -376,10 +376,167 @@
       },
       "start": 946,
       "end": 1043
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "lambda",
+            "start": 1050,
+            "end": 1056
+          },
+          "init": {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "datetime",
+                "start": 1059,
+                "end": 1067
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "with",
+                "start": 1068,
+                "end": 1072
+              },
+              "optional": false,
+              "computed": false,
+              "start": 1059,
+              "end": 1072
+            },
+            "arguments": [
+              {
+                "type": "ObjectExpression",
+                "properties": [
+                  {
+                    "type": "Property",
+                    "kind": "init",
+                    "key": {
+                      "type": "Identifier",
+                      "name": "minute",
+                      "start": 1075,
+                      "end": 1081
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "value": 31,
+                      "raw": "31",
+                      "start": 1083,
+                      "end": 1085
+                    },
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "start": 1075,
+                    "end": 1085
+                  }
+                ],
+                "start": 1073,
+                "end": 1087
+              },
+              {
+                "type": "ArrowFunctionExpression",
+                "expression": false,
+                "async": false,
+                "params": [],
+                "body": {
+                  "type": "BlockStatement",
+                  "body": [],
+                  "start": 1095,
+                  "end": 1097
+                },
+                "id": null,
+                "generator": false,
+                "start": 1089,
+                "end": 1097
+              }
+            ],
+            "optional": false,
+            "start": 1059,
+            "end": 1098
+          },
+          "start": 1050,
+          "end": 1098
+        }
+      ],
+      "start": 1044,
+      "end": 1099
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 1100,
+            "end": 1106
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 1107,
+            "end": 1116
+          },
+          "optional": false,
+          "computed": false,
+          "start": 1100,
+          "end": 1116
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "Identifier",
+              "name": "lambda",
+              "start": 1117,
+              "end": 1123
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "epochNanoseconds",
+              "start": 1124,
+              "end": 1140
+            },
+            "optional": false,
+            "computed": false,
+            "start": 1117,
+            "end": 1140
+          },
+          {
+            "type": "Literal",
+            "value": null,
+            "raw": "1572757261_000_000_000n",
+            "bigint": "1572757261000000000",
+            "start": 1142,
+            "end": 1165
+          },
+          {
+            "type": "Literal",
+            "value": "default offset is prefer",
+            "raw": "\"default offset is prefer\"",
+            "start": 1167,
+            "end": 1193
+          }
+        ],
+        "optional": false,
+        "start": 1100,
+        "end": 1194
+      },
+      "start": 1100,
+      "end": 1195
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 1044
+  "end": 1196
 }

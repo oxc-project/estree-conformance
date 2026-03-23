@@ -700,5 +700,275 @@
     "value": ";",
     "start": 1859,
     "end": 1860
+  },
+  {
+    "type": "Keyword",
+    "value": "const",
+    "start": 1861,
+    "end": 1866
+  },
+  {
+    "type": "Identifier",
+    "value": "lambda",
+    "start": 1867,
+    "end": 1873
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 1874,
+    "end": 1875
+  },
+  {
+    "type": "Identifier",
+    "value": "datetime",
+    "start": 1876,
+    "end": 1884
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1884,
+    "end": 1885
+  },
+  {
+    "type": "Identifier",
+    "value": "add",
+    "start": 1885,
+    "end": 1888
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1888,
+    "end": 1889
+  },
+  {
+    "type": "Identifier",
+    "value": "duration",
+    "start": 1889,
+    "end": 1897
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1897,
+    "end": 1898
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1899,
+    "end": 1900
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1900,
+    "end": 1901
+  },
+  {
+    "type": "Punctuator",
+    "value": "=>",
+    "start": 1902,
+    "end": 1904
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 1905,
+    "end": 1906
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 1906,
+    "end": 1907
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1907,
+    "end": 1908
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1908,
+    "end": 1909
+  },
+  {
+    "type": "Identifier",
+    "value": "TemporalHelpers",
+    "start": 1910,
+    "end": 1925
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1925,
+    "end": 1926
+  },
+  {
+    "type": "Identifier",
+    "value": "assertPlainDateTime",
+    "start": 1926,
+    "end": 1945
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1945,
+    "end": 1946
+  },
+  {
+    "type": "Identifier",
+    "value": "lambda",
+    "start": 1946,
+    "end": 1952
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1952,
+    "end": 1953
+  },
+  {
+    "type": "Numeric",
+    "value": "2003",
+    "start": 1954,
+    "end": 1958
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1958,
+    "end": 1959
+  },
+  {
+    "type": "Numeric",
+    "value": "6",
+    "start": 1960,
+    "end": 1961
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1961,
+    "end": 1962
+  },
+  {
+    "type": "String",
+    "value": "\"M06\"",
+    "start": 1963,
+    "end": 1968
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1968,
+    "end": 1969
+  },
+  {
+    "type": "Numeric",
+    "value": "30",
+    "start": 1970,
+    "end": 1972
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1972,
+    "end": 1973
+  },
+  {
+    "type": "Numeric",
+    "value": "12",
+    "start": 1974,
+    "end": 1976
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1976,
+    "end": 1977
+  },
+  {
+    "type": "Numeric",
+    "value": "0",
+    "start": 1978,
+    "end": 1979
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1979,
+    "end": 1980
+  },
+  {
+    "type": "Numeric",
+    "value": "0",
+    "start": 1981,
+    "end": 1982
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1982,
+    "end": 1983
+  },
+  {
+    "type": "Numeric",
+    "value": "0",
+    "start": 1984,
+    "end": 1985
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1985,
+    "end": 1986
+  },
+  {
+    "type": "Numeric",
+    "value": "0",
+    "start": 1987,
+    "end": 1988
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1988,
+    "end": 1989
+  },
+  {
+    "type": "Numeric",
+    "value": "0",
+    "start": 1990,
+    "end": 1991
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1991,
+    "end": 1992
+  },
+  {
+    "type": "String",
+    "value": "\"default overflow is constrain\"",
+    "start": 1993,
+    "end": 2024
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 2024,
+    "end": 2025
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 2025,
+    "end": 2026
   }
 ]

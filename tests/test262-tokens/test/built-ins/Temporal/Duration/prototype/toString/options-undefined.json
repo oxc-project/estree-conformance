@@ -418,5 +418,155 @@
     "value": ";",
     "start": 646,
     "end": 647
+  },
+  {
+    "type": "Keyword",
+    "value": "const",
+    "start": 649,
+    "end": 654
+  },
+  {
+    "type": "Identifier",
+    "value": "lambda",
+    "start": 655,
+    "end": 661
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 662,
+    "end": 663
+  },
+  {
+    "type": "Identifier",
+    "value": "duration",
+    "start": 664,
+    "end": 672
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 672,
+    "end": 673
+  },
+  {
+    "type": "Identifier",
+    "value": "toString",
+    "start": 673,
+    "end": 681
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 681,
+    "end": 682
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 682,
+    "end": 683
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 683,
+    "end": 684
+  },
+  {
+    "type": "Punctuator",
+    "value": "=>",
+    "start": 685,
+    "end": 687
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 688,
+    "end": 689
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 689,
+    "end": 690
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 690,
+    "end": 691
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 691,
+    "end": 692
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 693,
+    "end": 699
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 699,
+    "end": 700
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 700,
+    "end": 709
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 709,
+    "end": 710
+  },
+  {
+    "type": "Identifier",
+    "value": "lambda",
+    "start": 710,
+    "end": 716
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 716,
+    "end": 717
+  },
+  {
+    "type": "String",
+    "value": "\"P1Y2M3W4DT5H6M7.98765S\"",
+    "start": 718,
+    "end": 742
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 742,
+    "end": 743
+  },
+  {
+    "type": "String",
+    "value": "\"default precision is auto, and rounding is trunc\"",
+    "start": 744,
+    "end": 794
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 794,
+    "end": 795
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 795,
+    "end": 796
   }
 ]
