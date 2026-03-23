@@ -316,10 +316,124 @@
       },
       "start": 542,
       "end": 647
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "lambda",
+            "start": 655,
+            "end": 661
+          },
+          "init": {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "duration",
+                "start": 664,
+                "end": 672
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "toString",
+                "start": 673,
+                "end": 681
+              },
+              "optional": false,
+              "computed": false,
+              "start": 664,
+              "end": 681
+            },
+            "arguments": [
+              {
+                "type": "ArrowFunctionExpression",
+                "expression": false,
+                "async": false,
+                "params": [],
+                "body": {
+                  "type": "BlockStatement",
+                  "body": [],
+                  "start": 688,
+                  "end": 690
+                },
+                "id": null,
+                "generator": false,
+                "start": 682,
+                "end": 690
+              }
+            ],
+            "optional": false,
+            "start": 664,
+            "end": 691
+          },
+          "start": 655,
+          "end": 691
+        }
+      ],
+      "start": 649,
+      "end": 692
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 693,
+            "end": 699
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 700,
+            "end": 709
+          },
+          "optional": false,
+          "computed": false,
+          "start": 693,
+          "end": 709
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "name": "lambda",
+            "start": 710,
+            "end": 716
+          },
+          {
+            "type": "Literal",
+            "value": "P1Y2M3W4DT5H6M7.98765S",
+            "raw": "\"P1Y2M3W4DT5H6M7.98765S\"",
+            "start": 718,
+            "end": 742
+          },
+          {
+            "type": "Literal",
+            "value": "default precision is auto, and rounding is trunc",
+            "raw": "\"default precision is auto, and rounding is trunc\"",
+            "start": 744,
+            "end": 794
+          }
+        ],
+        "optional": false,
+        "start": 693,
+        "end": 795
+      },
+      "start": 693,
+      "end": 796
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 648
+  "end": 797
 }

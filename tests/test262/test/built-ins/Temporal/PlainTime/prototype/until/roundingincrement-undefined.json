@@ -542,10 +542,193 @@
       },
       "start": 1057,
       "end": 1162
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "lambda",
+            "start": 1170,
+            "end": 1176
+          },
+          "init": {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "earlier",
+                "start": 1179,
+                "end": 1186
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "until",
+                "start": 1187,
+                "end": 1192
+              },
+              "optional": false,
+              "computed": false,
+              "start": 1179,
+              "end": 1192
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "name": "later",
+                "start": 1193,
+                "end": 1198
+              },
+              {
+                "type": "ArrowFunctionExpression",
+                "expression": false,
+                "async": false,
+                "params": [],
+                "body": {
+                  "type": "BlockStatement",
+                  "body": [],
+                  "start": 1206,
+                  "end": 1208
+                },
+                "id": null,
+                "generator": false,
+                "start": 1200,
+                "end": 1208
+              }
+            ],
+            "optional": false,
+            "start": 1179,
+            "end": 1209
+          },
+          "start": 1170,
+          "end": 1209
+        }
+      ],
+      "start": 1164,
+      "end": 1210
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "TemporalHelpers",
+            "start": 1211,
+            "end": 1226
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "assertDuration",
+            "start": 1227,
+            "end": 1241
+          },
+          "optional": false,
+          "computed": false,
+          "start": 1211,
+          "end": 1241
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "name": "lambda",
+            "start": 1242,
+            "end": 1248
+          },
+          {
+            "type": "Literal",
+            "value": 0,
+            "raw": "0",
+            "start": 1250,
+            "end": 1251
+          },
+          {
+            "type": "Literal",
+            "value": 0,
+            "raw": "0",
+            "start": 1253,
+            "end": 1254
+          },
+          {
+            "type": "Literal",
+            "value": 0,
+            "raw": "0",
+            "start": 1256,
+            "end": 1257
+          },
+          {
+            "type": "Literal",
+            "value": 0,
+            "raw": "0",
+            "start": 1259,
+            "end": 1260
+          },
+          {
+            "type": "Literal",
+            "value": 1,
+            "raw": "1",
+            "start": 1262,
+            "end": 1263
+          },
+          {
+            "type": "Literal",
+            "value": 1,
+            "raw": "1",
+            "start": 1265,
+            "end": 1266
+          },
+          {
+            "type": "Literal",
+            "value": 1,
+            "raw": "1",
+            "start": 1268,
+            "end": 1269
+          },
+          {
+            "type": "Literal",
+            "value": 1,
+            "raw": "1",
+            "start": 1271,
+            "end": 1272
+          },
+          {
+            "type": "Literal",
+            "value": 1,
+            "raw": "1",
+            "start": 1274,
+            "end": 1275
+          },
+          {
+            "type": "Literal",
+            "value": 1,
+            "raw": "1",
+            "start": 1277,
+            "end": 1278
+          },
+          {
+            "type": "Literal",
+            "value": "default roundingIncrement is 1",
+            "raw": "\"default roundingIncrement is 1\"",
+            "start": 1280,
+            "end": 1312
+          }
+        ],
+        "optional": false,
+        "start": 1211,
+        "end": 1313
+      },
+      "start": 1211,
+      "end": 1314
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 1163
+  "end": 1315
 }

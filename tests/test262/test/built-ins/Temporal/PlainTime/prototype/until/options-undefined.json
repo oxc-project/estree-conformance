@@ -544,10 +544,208 @@
       },
       "start": 735,
       "end": 833
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "lambda",
+            "start": 841,
+            "end": 847
+          },
+          "init": {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "earlier",
+                "start": 850,
+                "end": 857
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "until",
+                "start": 858,
+                "end": 863
+              },
+              "optional": false,
+              "computed": false,
+              "start": 850,
+              "end": 863
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "name": "later",
+                "start": 864,
+                "end": 869
+              },
+              {
+                "type": "ArrowFunctionExpression",
+                "expression": false,
+                "async": false,
+                "params": [],
+                "body": {
+                  "type": "BlockStatement",
+                  "body": [],
+                  "start": 877,
+                  "end": 879
+                },
+                "id": null,
+                "generator": false,
+                "start": 871,
+                "end": 879
+              }
+            ],
+            "optional": false,
+            "start": 850,
+            "end": 880
+          },
+          "start": 841,
+          "end": 880
+        }
+      ],
+      "start": 835,
+      "end": 881
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 882,
+            "end": 888
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 889,
+            "end": 898
+          },
+          "optional": false,
+          "computed": false,
+          "start": 882,
+          "end": 898
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "Identifier",
+              "name": "lambda",
+              "start": 899,
+              "end": 905
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "hours",
+              "start": 906,
+              "end": 911
+            },
+            "optional": false,
+            "computed": false,
+            "start": 899,
+            "end": 911
+          },
+          {
+            "type": "Literal",
+            "value": 6,
+            "raw": "6",
+            "start": 913,
+            "end": 914
+          },
+          {
+            "type": "Literal",
+            "value": "default largest unit is hours",
+            "raw": "\"default largest unit is hours\"",
+            "start": 916,
+            "end": 947
+          }
+        ],
+        "optional": false,
+        "start": 882,
+        "end": 948
+      },
+      "start": 882,
+      "end": 949
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 950,
+            "end": 956
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 957,
+            "end": 966
+          },
+          "optional": false,
+          "computed": false,
+          "start": 950,
+          "end": 966
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "Identifier",
+              "name": "lambda",
+              "start": 967,
+              "end": 973
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "nanoseconds",
+              "start": 974,
+              "end": 985
+            },
+            "optional": false,
+            "computed": false,
+            "start": 967,
+            "end": 985
+          },
+          {
+            "type": "Literal",
+            "value": 1,
+            "raw": "1",
+            "start": 987,
+            "end": 988
+          },
+          {
+            "type": "Literal",
+            "value": "default smallest unit is nanoseconds and no rounding",
+            "raw": "\"default smallest unit is nanoseconds and no rounding\"",
+            "start": 990,
+            "end": 1044
+          }
+        ],
+        "optional": false,
+        "start": 950,
+        "end": 1045
+      },
+      "start": 950,
+      "end": 1046
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 834
+  "end": 1047
 }

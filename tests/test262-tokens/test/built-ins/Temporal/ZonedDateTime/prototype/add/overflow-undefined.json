@@ -490,5 +490,179 @@
     "value": ";",
     "start": 1597,
     "end": 1598
+  },
+  {
+    "type": "Keyword",
+    "value": "const",
+    "start": 1599,
+    "end": 1604
+  },
+  {
+    "type": "Identifier",
+    "value": "lambda",
+    "start": 1605,
+    "end": 1611
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 1612,
+    "end": 1613
+  },
+  {
+    "type": "Identifier",
+    "value": "datetime",
+    "start": 1614,
+    "end": 1622
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1622,
+    "end": 1623
+  },
+  {
+    "type": "Identifier",
+    "value": "add",
+    "start": 1623,
+    "end": 1626
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1626,
+    "end": 1627
+  },
+  {
+    "type": "Identifier",
+    "value": "duration",
+    "start": 1627,
+    "end": 1635
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1635,
+    "end": 1636
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1637,
+    "end": 1638
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1638,
+    "end": 1639
+  },
+  {
+    "type": "Punctuator",
+    "value": "=>",
+    "start": 1640,
+    "end": 1642
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 1643,
+    "end": 1644
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 1644,
+    "end": 1645
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1645,
+    "end": 1646
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1646,
+    "end": 1647
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 1648,
+    "end": 1654
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1654,
+    "end": 1655
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 1655,
+    "end": 1664
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1664,
+    "end": 1665
+  },
+  {
+    "type": "Identifier",
+    "value": "lambda",
+    "start": 1665,
+    "end": 1671
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1671,
+    "end": 1672
+  },
+  {
+    "type": "Identifier",
+    "value": "epochNanoseconds",
+    "start": 1672,
+    "end": 1688
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1688,
+    "end": 1689
+  },
+  {
+    "type": "Numeric",
+    "value": "5097599_999_999_999n",
+    "start": 1690,
+    "end": 1710
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1710,
+    "end": 1711
+  },
+  {
+    "type": "String",
+    "value": "\"default overflow is constrain\"",
+    "start": 1712,
+    "end": 1743
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1743,
+    "end": 1744
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1744,
+    "end": 1745
   }
 ]

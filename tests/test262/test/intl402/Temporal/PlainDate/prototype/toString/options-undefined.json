@@ -431,27 +431,140 @@
                   },
                   "start": 651,
                   "end": 727
+                },
+                {
+                  "type": "VariableDeclaration",
+                  "kind": "const",
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "id": {
+                        "type": "Identifier",
+                        "name": "lambda",
+                        "start": 737,
+                        "end": 743
+                      },
+                      "init": {
+                        "type": "CallExpression",
+                        "callee": {
+                          "type": "MemberExpression",
+                          "object": {
+                            "type": "Identifier",
+                            "name": "date",
+                            "start": 746,
+                            "end": 750
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "name": "toString",
+                            "start": 751,
+                            "end": 759
+                          },
+                          "optional": false,
+                          "computed": false,
+                          "start": 746,
+                          "end": 759
+                        },
+                        "arguments": [
+                          {
+                            "type": "ArrowFunctionExpression",
+                            "expression": false,
+                            "async": false,
+                            "params": [],
+                            "body": {
+                              "type": "BlockStatement",
+                              "body": [],
+                              "start": 766,
+                              "end": 768
+                            },
+                            "id": null,
+                            "generator": false,
+                            "start": 760,
+                            "end": 768
+                          }
+                        ],
+                        "optional": false,
+                        "start": 746,
+                        "end": 769
+                      },
+                      "start": 737,
+                      "end": 769
+                    }
+                  ],
+                  "start": 731,
+                  "end": 770
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "expression": {
+                    "type": "CallExpression",
+                    "callee": {
+                      "type": "MemberExpression",
+                      "object": {
+                        "type": "Identifier",
+                        "name": "assert",
+                        "start": 773,
+                        "end": 779
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "name": "sameValue",
+                        "start": 780,
+                        "end": 789
+                      },
+                      "optional": false,
+                      "computed": false,
+                      "start": 773,
+                      "end": 789
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "name": "lambda",
+                        "start": 790,
+                        "end": 796
+                      },
+                      {
+                        "type": "Identifier",
+                        "name": "expected",
+                        "start": 798,
+                        "end": 806
+                      },
+                      {
+                        "type": "Literal",
+                        "value": "default calendarName option is auto",
+                        "raw": "\"default calendarName option is auto\"",
+                        "start": 808,
+                        "end": 845
+                      }
+                    ],
+                    "optional": false,
+                    "start": 773,
+                    "end": 846
+                  },
+                  "start": 773,
+                  "end": 847
                 }
               ],
               "start": 486,
-              "end": 729
+              "end": 849
             },
             "id": null,
             "generator": false,
             "start": 464,
-            "end": 729
+            "end": 849
           }
         ],
         "optional": false,
         "start": 388,
-        "end": 730
+        "end": 850
       },
       "start": 388,
-      "end": 731
+      "end": 851
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 732
+  "end": 852
 }

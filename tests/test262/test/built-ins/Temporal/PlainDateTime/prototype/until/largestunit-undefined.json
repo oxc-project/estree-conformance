@@ -584,10 +584,193 @@
       },
       "start": 672,
       "end": 781
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "lambda",
+            "start": 788,
+            "end": 794
+          },
+          "init": {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "earlier",
+                "start": 797,
+                "end": 804
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "until",
+                "start": 805,
+                "end": 810
+              },
+              "optional": false,
+              "computed": false,
+              "start": 797,
+              "end": 810
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "name": "later",
+                "start": 811,
+                "end": 816
+              },
+              {
+                "type": "ArrowFunctionExpression",
+                "expression": false,
+                "async": false,
+                "params": [],
+                "body": {
+                  "type": "BlockStatement",
+                  "body": [],
+                  "start": 824,
+                  "end": 826
+                },
+                "id": null,
+                "generator": false,
+                "start": 818,
+                "end": 826
+              }
+            ],
+            "optional": false,
+            "start": 797,
+            "end": 827
+          },
+          "start": 788,
+          "end": 827
+        }
+      ],
+      "start": 782,
+      "end": 828
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "TemporalHelpers",
+            "start": 829,
+            "end": 844
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "assertDuration",
+            "start": 845,
+            "end": 859
+          },
+          "optional": false,
+          "computed": false,
+          "start": 829,
+          "end": 859
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "name": "lambda",
+            "start": 860,
+            "end": 866
+          },
+          {
+            "type": "Literal",
+            "value": 0,
+            "raw": "0",
+            "start": 868,
+            "end": 869
+          },
+          {
+            "type": "Literal",
+            "value": 0,
+            "raw": "0",
+            "start": 871,
+            "end": 872
+          },
+          {
+            "type": "Literal",
+            "value": 0,
+            "raw": "0",
+            "start": 874,
+            "end": 875
+          },
+          {
+            "type": "Literal",
+            "value": 397,
+            "raw": "397",
+            "start": 877,
+            "end": 880
+          },
+          {
+            "type": "Literal",
+            "value": 1,
+            "raw": "1",
+            "start": 882,
+            "end": 883
+          },
+          {
+            "type": "Literal",
+            "value": 1,
+            "raw": "1",
+            "start": 885,
+            "end": 886
+          },
+          {
+            "type": "Literal",
+            "value": 1,
+            "raw": "1",
+            "start": 888,
+            "end": 889
+          },
+          {
+            "type": "Literal",
+            "value": 987,
+            "raw": "987",
+            "start": 891,
+            "end": 894
+          },
+          {
+            "type": "Literal",
+            "value": 654,
+            "raw": "654",
+            "start": 896,
+            "end": 899
+          },
+          {
+            "type": "Literal",
+            "value": 321,
+            "raw": "321",
+            "start": 901,
+            "end": 904
+          },
+          {
+            "type": "Literal",
+            "value": "default largestUnit is day",
+            "raw": "\"default largestUnit is day\"",
+            "start": 906,
+            "end": 934
+          }
+        ],
+        "optional": false,
+        "start": 829,
+        "end": 935
+      },
+      "start": 829,
+      "end": 936
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 782
+  "end": 937
 }

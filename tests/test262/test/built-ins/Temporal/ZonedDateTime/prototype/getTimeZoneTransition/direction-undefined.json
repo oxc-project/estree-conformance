@@ -244,10 +244,101 @@
       },
       "start": 485,
       "end": 570
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 571,
+            "end": 577
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "throws",
+            "start": 578,
+            "end": 584
+          },
+          "optional": false,
+          "computed": false,
+          "start": 571,
+          "end": 584
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "name": "RangeError",
+            "start": 585,
+            "end": 595
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "expression": true,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "CallExpression",
+              "callee": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "zdt",
+                  "start": 603,
+                  "end": 606
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "getTimeZoneTransition",
+                  "start": 607,
+                  "end": 628
+                },
+                "optional": false,
+                "computed": false,
+                "start": 603,
+                "end": 628
+              },
+              "arguments": [
+                {
+                  "type": "ArrowFunctionExpression",
+                  "expression": false,
+                  "async": false,
+                  "params": [],
+                  "body": {
+                    "type": "BlockStatement",
+                    "body": [],
+                    "start": 635,
+                    "end": 637
+                  },
+                  "id": null,
+                  "generator": false,
+                  "start": 629,
+                  "end": 637
+                }
+              ],
+              "optional": false,
+              "start": 603,
+              "end": 638
+            },
+            "id": null,
+            "generator": false,
+            "start": 597,
+            "end": 638
+          }
+        ],
+        "optional": false,
+        "start": 571,
+        "end": 639
+      },
+      "start": 571,
+      "end": 640
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 571
+  "end": 641
 }

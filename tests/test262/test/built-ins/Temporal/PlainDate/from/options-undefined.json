@@ -494,10 +494,156 @@
       },
       "start": 627,
       "end": 702
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "lambda",
+            "start": 710,
+            "end": 716
+          },
+          "init": {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "Temporal",
+                  "start": 719,
+                  "end": 727
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "PlainDate",
+                  "start": 728,
+                  "end": 737
+                },
+                "optional": false,
+                "computed": false,
+                "start": 719,
+                "end": 737
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "from",
+                "start": 738,
+                "end": 742
+              },
+              "optional": false,
+              "computed": false,
+              "start": 719,
+              "end": 742
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "name": "fields",
+                "start": 743,
+                "end": 749
+              },
+              {
+                "type": "ArrowFunctionExpression",
+                "expression": false,
+                "async": false,
+                "params": [],
+                "body": {
+                  "type": "BlockStatement",
+                  "body": [],
+                  "start": 757,
+                  "end": 759
+                },
+                "id": null,
+                "generator": false,
+                "start": 751,
+                "end": 759
+              }
+            ],
+            "optional": false,
+            "start": 719,
+            "end": 760
+          },
+          "start": 710,
+          "end": 760
+        }
+      ],
+      "start": 704,
+      "end": 761
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 762,
+            "end": 768
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 769,
+            "end": 778
+          },
+          "optional": false,
+          "computed": false,
+          "start": 762,
+          "end": 778
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "Identifier",
+              "name": "lambda",
+              "start": 779,
+              "end": 785
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "month",
+              "start": 786,
+              "end": 791
+            },
+            "optional": false,
+            "computed": false,
+            "start": 779,
+            "end": 791
+          },
+          {
+            "type": "Literal",
+            "value": 12,
+            "raw": "12",
+            "start": 793,
+            "end": 795
+          },
+          {
+            "type": "Literal",
+            "value": "default overflow is constrain",
+            "raw": "\"default overflow is constrain\"",
+            "start": 797,
+            "end": 828
+          }
+        ],
+        "optional": false,
+        "start": 762,
+        "end": 829
+      },
+      "start": 762,
+      "end": 830
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 703
+  "end": 831
 }

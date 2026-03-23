@@ -178,18 +178,18 @@
           },
           {
             "type": "Literal",
-            "value": "Map is initially empty of regular symbol",
-            "raw": "'Map is initially empty of regular symbol'",
+            "value": "WeakMap is initially empty of regular symbol",
+            "raw": "'WeakMap is initially empty of regular symbol'",
             "start": 509,
-            "end": 551
+            "end": 555
           }
         ],
         "optional": false,
         "start": 471,
-        "end": 552
+        "end": 556
       },
       "start": 471,
-      "end": 553
+      "end": 557
     },
     {
       "type": "ExpressionStatement",
@@ -200,19 +200,19 @@
           "object": {
             "type": "Identifier",
             "name": "assert",
-            "start": 554,
-            "end": 560
+            "start": 558,
+            "end": 564
           },
           "property": {
             "type": "Identifier",
             "name": "sameValue",
-            "start": 561,
-            "end": 570
+            "start": 565,
+            "end": 574
           },
           "optional": false,
           "computed": false,
-          "start": 554,
-          "end": 570
+          "start": 558,
+          "end": 574
         },
         "arguments": [
           {
@@ -222,19 +222,19 @@
               "object": {
                 "type": "Identifier",
                 "name": "map",
-                "start": 571,
-                "end": 574
+                "start": 575,
+                "end": 578
               },
               "property": {
                 "type": "Identifier",
                 "name": "has",
-                "start": 575,
-                "end": 578
+                "start": 579,
+                "end": 582
               },
               "optional": false,
               "computed": false,
-              "start": 571,
-              "end": 578
+              "start": 575,
+              "end": 582
             },
             "arguments": [
               {
@@ -242,46 +242,46 @@
                 "object": {
                   "type": "Identifier",
                   "name": "Symbol",
-                  "start": 579,
-                  "end": 585
+                  "start": 583,
+                  "end": 589
                 },
                 "property": {
                   "type": "Identifier",
                   "name": "hasInstance",
-                  "start": 586,
-                  "end": 597
+                  "start": 590,
+                  "end": 601
                 },
                 "optional": false,
                 "computed": false,
-                "start": 579,
-                "end": 597
+                "start": 583,
+                "end": 601
               }
             ],
             "optional": false,
-            "start": 571,
-            "end": 598
+            "start": 575,
+            "end": 602
           },
           {
             "type": "Literal",
             "value": false,
             "raw": "false",
-            "start": 600,
-            "end": 605
+            "start": 604,
+            "end": 609
           },
           {
             "type": "Literal",
-            "value": "Map is initially empty of well-known symbol",
-            "raw": "'Map is initially empty of well-known symbol'",
-            "start": 607,
-            "end": 652
+            "value": "WeakMap is initially empty of well-known symbol",
+            "raw": "'WeakMap is initially empty of well-known symbol'",
+            "start": 611,
+            "end": 660
           }
         ],
         "optional": false,
-        "start": 554,
-        "end": 653
+        "start": 558,
+        "end": 661
       },
-      "start": 554,
-      "end": 654
+      "start": 558,
+      "end": 662
     },
     {
       "type": "ExpressionStatement",
@@ -292,41 +292,41 @@
           "object": {
             "type": "Identifier",
             "name": "map",
-            "start": 656,
-            "end": 659
+            "start": 664,
+            "end": 667
           },
           "property": {
             "type": "Identifier",
             "name": "set",
-            "start": 660,
-            "end": 663
+            "start": 668,
+            "end": 671
           },
           "optional": false,
           "computed": false,
-          "start": 656,
-          "end": 663
+          "start": 664,
+          "end": 671
         },
         "arguments": [
           {
             "type": "Identifier",
             "name": "foo",
-            "start": 664,
-            "end": 667
+            "start": 672,
+            "end": 675
           },
           {
             "type": "Literal",
             "value": 1,
             "raw": "1",
-            "start": 669,
-            "end": 670
+            "start": 677,
+            "end": 678
           }
         ],
         "optional": false,
-        "start": 656,
-        "end": 671
+        "start": 664,
+        "end": 679
       },
-      "start": 656,
-      "end": 672
+      "start": 664,
+      "end": 680
     },
     {
       "type": "ExpressionStatement",
@@ -337,19 +337,19 @@
           "object": {
             "type": "Identifier",
             "name": "assert",
-            "start": 673,
-            "end": 679
+            "start": 681,
+            "end": 687
           },
           "property": {
             "type": "Identifier",
             "name": "sameValue",
-            "start": 680,
-            "end": 689
+            "start": 688,
+            "end": 697
           },
           "optional": false,
           "computed": false,
-          "start": 673,
-          "end": 689
+          "start": 681,
+          "end": 697
         },
         "arguments": [
           {
@@ -359,53 +359,53 @@
               "object": {
                 "type": "Identifier",
                 "name": "map",
-                "start": 690,
-                "end": 693
+                "start": 698,
+                "end": 701
               },
               "property": {
                 "type": "Identifier",
                 "name": "has",
-                "start": 694,
-                "end": 697
+                "start": 702,
+                "end": 705
               },
               "optional": false,
               "computed": false,
-              "start": 690,
-              "end": 697
+              "start": 698,
+              "end": 705
             },
             "arguments": [
               {
                 "type": "Identifier",
                 "name": "bar",
-                "start": 698,
-                "end": 701
+                "start": 706,
+                "end": 709
               }
             ],
             "optional": false,
-            "start": 690,
-            "end": 702
+            "start": 698,
+            "end": 710
           },
           {
             "type": "Literal",
             "value": false,
             "raw": "false",
-            "start": 704,
-            "end": 709
+            "start": 712,
+            "end": 717
           },
           {
             "type": "Literal",
             "value": "Symbols with the same description don't alias each other",
             "raw": "\"Symbols with the same description don't alias each other\"",
-            "start": 711,
-            "end": 769
+            "start": 719,
+            "end": 777
           }
         ],
         "optional": false,
-        "start": 673,
-        "end": 770
+        "start": 681,
+        "end": 778
       },
-      "start": 673,
-      "end": 771
+      "start": 681,
+      "end": 779
     },
     {
       "type": "ExpressionStatement",
@@ -416,34 +416,34 @@
           "object": {
             "type": "Identifier",
             "name": "map",
-            "start": 773,
-            "end": 776
+            "start": 781,
+            "end": 784
           },
           "property": {
             "type": "Identifier",
             "name": "delete",
-            "start": 777,
-            "end": 783
+            "start": 785,
+            "end": 791
           },
           "optional": false,
           "computed": false,
-          "start": 773,
-          "end": 783
+          "start": 781,
+          "end": 791
         },
         "arguments": [
           {
             "type": "Identifier",
             "name": "foo",
-            "start": 784,
-            "end": 787
+            "start": 792,
+            "end": 795
           }
         ],
         "optional": false,
-        "start": 773,
-        "end": 788
+        "start": 781,
+        "end": 796
       },
-      "start": 773,
-      "end": 789
+      "start": 781,
+      "end": 797
     },
     {
       "type": "ExpressionStatement",
@@ -454,19 +454,19 @@
           "object": {
             "type": "Identifier",
             "name": "assert",
-            "start": 790,
-            "end": 796
+            "start": 798,
+            "end": 804
           },
           "property": {
             "type": "Identifier",
             "name": "sameValue",
-            "start": 797,
-            "end": 806
+            "start": 805,
+            "end": 814
           },
           "optional": false,
           "computed": false,
-          "start": 790,
-          "end": 806
+          "start": 798,
+          "end": 814
         },
         "arguments": [
           {
@@ -476,53 +476,53 @@
               "object": {
                 "type": "Identifier",
                 "name": "map",
-                "start": 807,
-                "end": 810
+                "start": 815,
+                "end": 818
               },
               "property": {
                 "type": "Identifier",
                 "name": "has",
-                "start": 811,
-                "end": 814
+                "start": 819,
+                "end": 822
               },
               "optional": false,
               "computed": false,
-              "start": 807,
-              "end": 814
+              "start": 815,
+              "end": 822
             },
             "arguments": [
               {
                 "type": "Identifier",
                 "name": "foo",
-                "start": 815,
-                "end": 818
+                "start": 823,
+                "end": 826
               }
             ],
             "optional": false,
-            "start": 807,
-            "end": 819
+            "start": 815,
+            "end": 827
           },
           {
             "type": "Literal",
             "value": false,
             "raw": "false",
-            "start": 821,
-            "end": 826
+            "start": 829,
+            "end": 834
           },
           {
             "type": "Literal",
-            "value": "Map is empty again of regular symbol after deleting",
-            "raw": "'Map is empty again of regular symbol after deleting'",
-            "start": 828,
-            "end": 881
+            "value": "WeakMap is empty again of regular symbol after deleting",
+            "raw": "'WeakMap is empty again of regular symbol after deleting'",
+            "start": 836,
+            "end": 893
           }
         ],
         "optional": false,
-        "start": 790,
-        "end": 882
+        "start": 798,
+        "end": 894
       },
-      "start": 790,
-      "end": 883
+      "start": 798,
+      "end": 895
     },
     {
       "type": "ExpressionStatement",
@@ -533,19 +533,19 @@
           "object": {
             "type": "Identifier",
             "name": "map",
-            "start": 885,
-            "end": 888
+            "start": 897,
+            "end": 900
           },
           "property": {
             "type": "Identifier",
             "name": "set",
-            "start": 889,
-            "end": 892
+            "start": 901,
+            "end": 904
           },
           "optional": false,
           "computed": false,
-          "start": 885,
-          "end": 892
+          "start": 897,
+          "end": 904
         },
         "arguments": [
           {
@@ -553,34 +553,34 @@
             "object": {
               "type": "Identifier",
               "name": "Symbol",
-              "start": 893,
-              "end": 899
+              "start": 905,
+              "end": 911
             },
             "property": {
               "type": "Identifier",
               "name": "hasInstance",
-              "start": 900,
-              "end": 911
+              "start": 912,
+              "end": 923
             },
             "optional": false,
             "computed": false,
-            "start": 893,
-            "end": 911
+            "start": 905,
+            "end": 923
           },
           {
             "type": "Literal",
             "value": 2,
             "raw": "2",
-            "start": 913,
-            "end": 914
+            "start": 925,
+            "end": 926
           }
         ],
         "optional": false,
-        "start": 885,
-        "end": 915
+        "start": 897,
+        "end": 927
       },
-      "start": 885,
-      "end": 916
+      "start": 897,
+      "end": 928
     },
     {
       "type": "ExpressionStatement",
@@ -591,19 +591,19 @@
           "object": {
             "type": "Identifier",
             "name": "map",
-            "start": 917,
-            "end": 920
+            "start": 929,
+            "end": 932
           },
           "property": {
             "type": "Identifier",
             "name": "delete",
-            "start": 921,
-            "end": 927
+            "start": 933,
+            "end": 939
           },
           "optional": false,
           "computed": false,
-          "start": 917,
-          "end": 927
+          "start": 929,
+          "end": 939
         },
         "arguments": [
           {
@@ -611,27 +611,27 @@
             "object": {
               "type": "Identifier",
               "name": "Symbol",
-              "start": 928,
-              "end": 934
+              "start": 940,
+              "end": 946
             },
             "property": {
               "type": "Identifier",
               "name": "hasInstance",
-              "start": 935,
-              "end": 946
+              "start": 947,
+              "end": 958
             },
             "optional": false,
             "computed": false,
-            "start": 928,
-            "end": 946
+            "start": 940,
+            "end": 958
           }
         ],
         "optional": false,
-        "start": 917,
-        "end": 947
+        "start": 929,
+        "end": 959
       },
-      "start": 917,
-      "end": 948
+      "start": 929,
+      "end": 960
     },
     {
       "type": "ExpressionStatement",
@@ -642,19 +642,19 @@
           "object": {
             "type": "Identifier",
             "name": "assert",
-            "start": 949,
-            "end": 955
+            "start": 961,
+            "end": 967
           },
           "property": {
             "type": "Identifier",
             "name": "sameValue",
-            "start": 956,
-            "end": 965
+            "start": 968,
+            "end": 977
           },
           "optional": false,
           "computed": false,
-          "start": 949,
-          "end": 965
+          "start": 961,
+          "end": 977
         },
         "arguments": [
           {
@@ -664,19 +664,19 @@
               "object": {
                 "type": "Identifier",
                 "name": "map",
-                "start": 966,
-                "end": 969
+                "start": 978,
+                "end": 981
               },
               "property": {
                 "type": "Identifier",
                 "name": "has",
-                "start": 970,
-                "end": 973
+                "start": 982,
+                "end": 985
               },
               "optional": false,
               "computed": false,
-              "start": 966,
-              "end": 973
+              "start": 978,
+              "end": 985
             },
             "arguments": [
               {
@@ -684,50 +684,50 @@
                 "object": {
                   "type": "Identifier",
                   "name": "Symbol",
-                  "start": 974,
-                  "end": 980
+                  "start": 986,
+                  "end": 992
                 },
                 "property": {
                   "type": "Identifier",
                   "name": "hasInstance",
-                  "start": 981,
-                  "end": 992
+                  "start": 993,
+                  "end": 1004
                 },
                 "optional": false,
                 "computed": false,
-                "start": 974,
-                "end": 992
+                "start": 986,
+                "end": 1004
               }
             ],
             "optional": false,
-            "start": 966,
-            "end": 993
+            "start": 978,
+            "end": 1005
           },
           {
             "type": "Literal",
             "value": false,
             "raw": "false",
-            "start": 995,
-            "end": 1000
+            "start": 1007,
+            "end": 1012
           },
           {
             "type": "Literal",
-            "value": "Map is empty again of well-known symbol after deleting",
-            "raw": "'Map is empty again of well-known symbol after deleting'",
-            "start": 1002,
-            "end": 1058
+            "value": "WeakMap is empty again of well-known symbol after deleting",
+            "raw": "'WeakMap is empty again of well-known symbol after deleting'",
+            "start": 1014,
+            "end": 1074
           }
         ],
         "optional": false,
-        "start": 949,
-        "end": 1059
+        "start": 961,
+        "end": 1075
       },
-      "start": 949,
-      "end": 1060
+      "start": 961,
+      "end": 1076
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 1061
+  "end": 1077
 }

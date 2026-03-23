@@ -500,10 +500,193 @@
       },
       "start": 1742,
       "end": 1860
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "lambda",
+            "start": 1867,
+            "end": 1873
+          },
+          "init": {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "datetime",
+                "start": 1876,
+                "end": 1884
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "add",
+                "start": 1885,
+                "end": 1888
+              },
+              "optional": false,
+              "computed": false,
+              "start": 1876,
+              "end": 1888
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "name": "duration",
+                "start": 1889,
+                "end": 1897
+              },
+              {
+                "type": "ArrowFunctionExpression",
+                "expression": false,
+                "async": false,
+                "params": [],
+                "body": {
+                  "type": "BlockStatement",
+                  "body": [],
+                  "start": 1905,
+                  "end": 1907
+                },
+                "id": null,
+                "generator": false,
+                "start": 1899,
+                "end": 1907
+              }
+            ],
+            "optional": false,
+            "start": 1876,
+            "end": 1908
+          },
+          "start": 1867,
+          "end": 1908
+        }
+      ],
+      "start": 1861,
+      "end": 1909
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "TemporalHelpers",
+            "start": 1910,
+            "end": 1925
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "assertPlainDateTime",
+            "start": 1926,
+            "end": 1945
+          },
+          "optional": false,
+          "computed": false,
+          "start": 1910,
+          "end": 1945
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "name": "lambda",
+            "start": 1946,
+            "end": 1952
+          },
+          {
+            "type": "Literal",
+            "value": 2003,
+            "raw": "2003",
+            "start": 1954,
+            "end": 1958
+          },
+          {
+            "type": "Literal",
+            "value": 6,
+            "raw": "6",
+            "start": 1960,
+            "end": 1961
+          },
+          {
+            "type": "Literal",
+            "value": "M06",
+            "raw": "\"M06\"",
+            "start": 1963,
+            "end": 1968
+          },
+          {
+            "type": "Literal",
+            "value": 30,
+            "raw": "30",
+            "start": 1970,
+            "end": 1972
+          },
+          {
+            "type": "Literal",
+            "value": 12,
+            "raw": "12",
+            "start": 1974,
+            "end": 1976
+          },
+          {
+            "type": "Literal",
+            "value": 0,
+            "raw": "0",
+            "start": 1978,
+            "end": 1979
+          },
+          {
+            "type": "Literal",
+            "value": 0,
+            "raw": "0",
+            "start": 1981,
+            "end": 1982
+          },
+          {
+            "type": "Literal",
+            "value": 0,
+            "raw": "0",
+            "start": 1984,
+            "end": 1985
+          },
+          {
+            "type": "Literal",
+            "value": 0,
+            "raw": "0",
+            "start": 1987,
+            "end": 1988
+          },
+          {
+            "type": "Literal",
+            "value": 0,
+            "raw": "0",
+            "start": 1990,
+            "end": 1991
+          },
+          {
+            "type": "Literal",
+            "value": "default overflow is constrain",
+            "raw": "\"default overflow is constrain\"",
+            "start": 1993,
+            "end": 2024
+          }
+        ],
+        "optional": false,
+        "start": 1910,
+        "end": 2025
+      },
+      "start": 1910,
+      "end": 2026
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 1861
+  "end": 2027
 }

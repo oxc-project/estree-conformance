@@ -347,10 +347,143 @@
       },
       "start": 529,
       "end": 599
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "lambda",
+            "start": 607,
+            "end": 613
+          },
+          "init": {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "yearmonth",
+                "start": 616,
+                "end": 625
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "with",
+                "start": 626,
+                "end": 630
+              },
+              "optional": false,
+              "computed": false,
+              "start": 616,
+              "end": 630
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "name": "fields",
+                "start": 631,
+                "end": 637
+              },
+              {
+                "type": "ArrowFunctionExpression",
+                "expression": false,
+                "async": false,
+                "params": [],
+                "body": {
+                  "type": "BlockStatement",
+                  "body": [],
+                  "start": 645,
+                  "end": 647
+                },
+                "id": null,
+                "generator": false,
+                "start": 639,
+                "end": 647
+              }
+            ],
+            "optional": false,
+            "start": 616,
+            "end": 648
+          },
+          "start": 607,
+          "end": 648
+        }
+      ],
+      "start": 601,
+      "end": 649
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 650,
+            "end": 656
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 657,
+            "end": 666
+          },
+          "optional": false,
+          "computed": false,
+          "start": 650,
+          "end": 666
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "Identifier",
+              "name": "lambda",
+              "start": 667,
+              "end": 673
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "month",
+              "start": 674,
+              "end": 679
+            },
+            "optional": false,
+            "computed": false,
+            "start": 667,
+            "end": 679
+          },
+          {
+            "type": "Literal",
+            "value": 12,
+            "raw": "12",
+            "start": 681,
+            "end": 683
+          },
+          {
+            "type": "Literal",
+            "value": "default overflow is constrain",
+            "raw": "\"default overflow is constrain\"",
+            "start": 685,
+            "end": 716
+          }
+        ],
+        "optional": false,
+        "start": 650,
+        "end": 717
+      },
+      "start": 650,
+      "end": 718
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 600
+  "end": 719
 }

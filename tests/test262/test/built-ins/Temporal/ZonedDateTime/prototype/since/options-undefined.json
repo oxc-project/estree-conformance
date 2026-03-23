@@ -1010,10 +1010,468 @@
       },
       "start": 1327,
       "end": 1425
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "lambda",
+            "start": 1433,
+            "end": 1439
+          },
+          "init": {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "later",
+                "start": 1442,
+                "end": 1447
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "since",
+                "start": 1448,
+                "end": 1453
+              },
+              "optional": false,
+              "computed": false,
+              "start": 1442,
+              "end": 1453
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "name": "earlier",
+                "start": 1454,
+                "end": 1461
+              },
+              {
+                "type": "ArrowFunctionExpression",
+                "expression": false,
+                "async": false,
+                "params": [],
+                "body": {
+                  "type": "BlockStatement",
+                  "body": [],
+                  "start": 1469,
+                  "end": 1471
+                },
+                "id": null,
+                "generator": false,
+                "start": 1463,
+                "end": 1471
+              }
+            ],
+            "optional": false,
+            "start": 1442,
+            "end": 1472
+          },
+          "start": 1433,
+          "end": 1472
+        }
+      ],
+      "start": 1427,
+      "end": 1473
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 1474,
+            "end": 1480
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 1481,
+            "end": 1490
+          },
+          "optional": false,
+          "computed": false,
+          "start": 1474,
+          "end": 1490
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "Identifier",
+              "name": "lambda",
+              "start": 1491,
+              "end": 1497
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "years",
+              "start": 1498,
+              "end": 1503
+            },
+            "optional": false,
+            "computed": false,
+            "start": 1491,
+            "end": 1503
+          },
+          {
+            "type": "Literal",
+            "value": 0,
+            "raw": "0",
+            "start": 1505,
+            "end": 1506
+          },
+          {
+            "type": "Literal",
+            "value": "default largest unit is hours",
+            "raw": "\"default largest unit is hours\"",
+            "start": 1508,
+            "end": 1539
+          }
+        ],
+        "optional": false,
+        "start": 1474,
+        "end": 1540
+      },
+      "start": 1474,
+      "end": 1541
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 1542,
+            "end": 1548
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 1549,
+            "end": 1558
+          },
+          "optional": false,
+          "computed": false,
+          "start": 1542,
+          "end": 1558
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "Identifier",
+              "name": "lambda",
+              "start": 1559,
+              "end": 1565
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "months",
+              "start": 1566,
+              "end": 1572
+            },
+            "optional": false,
+            "computed": false,
+            "start": 1559,
+            "end": 1572
+          },
+          {
+            "type": "Literal",
+            "value": 0,
+            "raw": "0",
+            "start": 1574,
+            "end": 1575
+          },
+          {
+            "type": "Literal",
+            "value": "default largest unit is hours",
+            "raw": "\"default largest unit is hours\"",
+            "start": 1577,
+            "end": 1608
+          }
+        ],
+        "optional": false,
+        "start": 1542,
+        "end": 1609
+      },
+      "start": 1542,
+      "end": 1610
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 1611,
+            "end": 1617
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 1618,
+            "end": 1627
+          },
+          "optional": false,
+          "computed": false,
+          "start": 1611,
+          "end": 1627
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "Identifier",
+              "name": "lambda",
+              "start": 1628,
+              "end": 1634
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "weeks",
+              "start": 1635,
+              "end": 1640
+            },
+            "optional": false,
+            "computed": false,
+            "start": 1628,
+            "end": 1640
+          },
+          {
+            "type": "Literal",
+            "value": 0,
+            "raw": "0",
+            "start": 1642,
+            "end": 1643
+          },
+          {
+            "type": "Literal",
+            "value": "default largest unit is hours",
+            "raw": "\"default largest unit is hours\"",
+            "start": 1645,
+            "end": 1676
+          }
+        ],
+        "optional": false,
+        "start": 1611,
+        "end": 1677
+      },
+      "start": 1611,
+      "end": 1678
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 1679,
+            "end": 1685
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 1686,
+            "end": 1695
+          },
+          "optional": false,
+          "computed": false,
+          "start": 1679,
+          "end": 1695
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "Identifier",
+              "name": "lambda",
+              "start": 1696,
+              "end": 1702
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "days",
+              "start": 1703,
+              "end": 1707
+            },
+            "optional": false,
+            "computed": false,
+            "start": 1696,
+            "end": 1707
+          },
+          {
+            "type": "Literal",
+            "value": 0,
+            "raw": "0",
+            "start": 1709,
+            "end": 1710
+          },
+          {
+            "type": "Literal",
+            "value": "default largest unit is hours",
+            "raw": "\"default largest unit is hours\"",
+            "start": 1712,
+            "end": 1743
+          }
+        ],
+        "optional": false,
+        "start": 1679,
+        "end": 1744
+      },
+      "start": 1679,
+      "end": 1745
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 1746,
+            "end": 1752
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 1753,
+            "end": 1762
+          },
+          "optional": false,
+          "computed": false,
+          "start": 1746,
+          "end": 1762
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "Identifier",
+              "name": "lambda",
+              "start": 1763,
+              "end": 1769
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "hours",
+              "start": 1770,
+              "end": 1775
+            },
+            "optional": false,
+            "computed": false,
+            "start": 1763,
+            "end": 1775
+          },
+          {
+            "type": "Literal",
+            "value": 744,
+            "raw": "744",
+            "start": 1777,
+            "end": 1780
+          },
+          {
+            "type": "Literal",
+            "value": "default largest unit is hours",
+            "raw": "\"default largest unit is hours\"",
+            "start": 1782,
+            "end": 1813
+          }
+        ],
+        "optional": false,
+        "start": 1746,
+        "end": 1814
+      },
+      "start": 1746,
+      "end": 1815
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 1816,
+            "end": 1822
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 1823,
+            "end": 1832
+          },
+          "optional": false,
+          "computed": false,
+          "start": 1816,
+          "end": 1832
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "Identifier",
+              "name": "lambda",
+              "start": 1833,
+              "end": 1839
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "nanoseconds",
+              "start": 1840,
+              "end": 1851
+            },
+            "optional": false,
+            "computed": false,
+            "start": 1833,
+            "end": 1851
+          },
+          {
+            "type": "Literal",
+            "value": 1,
+            "raw": "1",
+            "start": 1853,
+            "end": 1854
+          },
+          {
+            "type": "Literal",
+            "value": "default smallest unit is nanoseconds and no rounding",
+            "raw": "\"default smallest unit is nanoseconds and no rounding\"",
+            "start": 1856,
+            "end": 1910
+          }
+        ],
+        "optional": false,
+        "start": 1816,
+        "end": 1911
+      },
+      "start": 1816,
+      "end": 1912
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 1426
+  "end": 1913
 }

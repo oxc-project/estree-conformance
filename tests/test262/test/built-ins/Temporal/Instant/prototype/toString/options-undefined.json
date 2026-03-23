@@ -217,10 +217,99 @@
       },
       "start": 492,
       "end": 647
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 649,
+            "end": 655
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 656,
+            "end": 665
+          },
+          "optional": false,
+          "computed": false,
+          "start": 649,
+          "end": 665
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "instant",
+                "start": 669,
+                "end": 676
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "toString",
+                "start": 677,
+                "end": 685
+              },
+              "optional": false,
+              "computed": false,
+              "start": 669,
+              "end": 685
+            },
+            "arguments": [
+              {
+                "type": "ArrowFunctionExpression",
+                "expression": false,
+                "async": false,
+                "params": [],
+                "body": {
+                  "type": "BlockStatement",
+                  "body": [],
+                  "start": 692,
+                  "end": 694
+                },
+                "id": null,
+                "generator": false,
+                "start": 686,
+                "end": 694
+              }
+            ],
+            "optional": false,
+            "start": 669,
+            "end": 695
+          },
+          {
+            "type": "Literal",
+            "value": "1975-02-02T14:25:36.12345Z",
+            "raw": "\"1975-02-02T14:25:36.12345Z\"",
+            "start": 699,
+            "end": 727
+          },
+          {
+            "type": "Literal",
+            "value": "default time zone is none, precision is auto, and rounding is trunc",
+            "raw": "\"default time zone is none, precision is auto, and rounding is trunc\"",
+            "start": 731,
+            "end": 800
+          }
+        ],
+        "optional": false,
+        "start": 649,
+        "end": 802
+      },
+      "start": 649,
+      "end": 803
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 648
+  "end": 804
 }

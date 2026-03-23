@@ -694,5 +694,257 @@
     "value": ";",
     "start": 832,
     "end": 833
+  },
+  {
+    "type": "Keyword",
+    "value": "const",
+    "start": 835,
+    "end": 840
+  },
+  {
+    "type": "Identifier",
+    "value": "lambda",
+    "start": 841,
+    "end": 847
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 848,
+    "end": 849
+  },
+  {
+    "type": "Identifier",
+    "value": "later",
+    "start": 850,
+    "end": 855
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 855,
+    "end": 856
+  },
+  {
+    "type": "Identifier",
+    "value": "since",
+    "start": 856,
+    "end": 861
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 861,
+    "end": 862
+  },
+  {
+    "type": "Identifier",
+    "value": "earlier",
+    "start": 862,
+    "end": 869
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 869,
+    "end": 870
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 871,
+    "end": 872
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 872,
+    "end": 873
+  },
+  {
+    "type": "Punctuator",
+    "value": "=>",
+    "start": 874,
+    "end": 876
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 877,
+    "end": 878
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 878,
+    "end": 879
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 879,
+    "end": 880
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 880,
+    "end": 881
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 882,
+    "end": 888
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 888,
+    "end": 889
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 889,
+    "end": 898
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 898,
+    "end": 899
+  },
+  {
+    "type": "Identifier",
+    "value": "lambda",
+    "start": 899,
+    "end": 905
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 905,
+    "end": 906
+  },
+  {
+    "type": "Identifier",
+    "value": "hours",
+    "start": 906,
+    "end": 911
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 911,
+    "end": 912
+  },
+  {
+    "type": "Numeric",
+    "value": "6",
+    "start": 913,
+    "end": 914
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 914,
+    "end": 915
+  },
+  {
+    "type": "String",
+    "value": "\"default largest unit is hours\"",
+    "start": 916,
+    "end": 947
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 947,
+    "end": 948
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 948,
+    "end": 949
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 950,
+    "end": 956
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 956,
+    "end": 957
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 957,
+    "end": 966
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 966,
+    "end": 967
+  },
+  {
+    "type": "Identifier",
+    "value": "lambda",
+    "start": 967,
+    "end": 973
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 973,
+    "end": 974
+  },
+  {
+    "type": "Identifier",
+    "value": "nanoseconds",
+    "start": 974,
+    "end": 985
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 985,
+    "end": 986
+  },
+  {
+    "type": "Numeric",
+    "value": "1",
+    "start": 987,
+    "end": 988
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 988,
+    "end": 989
+  },
+  {
+    "type": "String",
+    "value": "\"default smallest unit is nanoseconds and no rounding\"",
+    "start": 990,
+    "end": 1044
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1044,
+    "end": 1045
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1045,
+    "end": 1046
   }
 ]
