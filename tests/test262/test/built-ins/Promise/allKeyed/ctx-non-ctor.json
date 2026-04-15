@@ -1,0 +1,115 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 506,
+            "end": 512
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "throws",
+            "start": 513,
+            "end": 519
+          },
+          "optional": false,
+          "computed": false,
+          "start": 506,
+          "end": 519
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "name": "TypeError",
+            "start": 520,
+            "end": 529
+          },
+          {
+            "type": "FunctionExpression",
+            "id": null,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "expression": {
+                    "type": "CallExpression",
+                    "callee": {
+                      "type": "MemberExpression",
+                      "object": {
+                        "type": "MemberExpression",
+                        "object": {
+                          "type": "Identifier",
+                          "name": "Promise",
+                          "start": 546,
+                          "end": 553
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "name": "allKeyed",
+                          "start": 554,
+                          "end": 562
+                        },
+                        "optional": false,
+                        "computed": false,
+                        "start": 546,
+                        "end": 562
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "name": "call",
+                        "start": 563,
+                        "end": 567
+                      },
+                      "optional": false,
+                      "computed": false,
+                      "start": 546,
+                      "end": 567
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "name": "eval",
+                        "start": 568,
+                        "end": 572
+                      }
+                    ],
+                    "optional": false,
+                    "start": 546,
+                    "end": 573
+                  },
+                  "start": 546,
+                  "end": 574
+                }
+              ],
+              "start": 542,
+              "end": 576
+            },
+            "expression": false,
+            "start": 531,
+            "end": 576
+          }
+        ],
+        "optional": false,
+        "start": 506,
+        "end": 577
+      },
+      "start": 506,
+      "end": 578
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 579
+}
