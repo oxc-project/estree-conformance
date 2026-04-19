@@ -89,13 +89,22 @@ jobs:
 
           echo "shas_changed=$CHANGED" >> $GITHUB_OUTPUT
 
+      - uses: actions/create-github-app-token@1b10c78c7865c340bc4f6099eb2f838309f1e8c3 # v3
+        id: app-token
+        if: steps.check-changes.outputs.shas_changed == 'true'
+        with:
+          client-id: ${{ secrets.APP_ID }}
+          private-key: ${{ secrets.APP_PRIVATE_KEY }}
+          owner: oxc-project
+          repositories: oxc
+
       - name: Trigger oxc update_submodules workflow
         if: steps.check-changes.outputs.shas_changed == 'true'
         uses: benc-uk/workflow-dispatch@7a027648b88c2413826b6ddd6c76114894dc5ec4 # v1.3.1
         with:
           repo: oxc-project/oxc
           workflow: update_submodules.yml
-          token: ${{ secrets.OXC_BOT_PAT }}
+          token: ${{ steps.app-token.outputs.token }}
           ref: main
           inputs: |
             {
