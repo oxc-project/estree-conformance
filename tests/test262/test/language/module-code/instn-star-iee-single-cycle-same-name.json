@@ -1,0 +1,87 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ImportDeclaration",
+      "specifiers": [
+        {
+          "type": "ImportSpecifier",
+          "imported": {
+            "type": "Identifier",
+            "name": "foo",
+            "start": 1810,
+            "end": 1813
+          },
+          "local": {
+            "type": "Identifier",
+            "name": "foo",
+            "start": 1810,
+            "end": 1813
+          },
+          "start": 1810,
+          "end": 1813
+        }
+      ],
+      "source": {
+        "type": "Literal",
+        "value": "./instn-star-iee-single-cycle-same-name-a_FIXTURE.js",
+        "raw": "'./instn-star-iee-single-cycle-same-name-a_FIXTURE.js'",
+        "start": 1821,
+        "end": 1875
+      },
+      "phase": null,
+      "attributes": [],
+      "start": 1801,
+      "end": 1876
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 1878,
+            "end": 1884
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 1885,
+            "end": 1894
+          },
+          "optional": false,
+          "computed": false,
+          "start": 1878,
+          "end": 1894
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "name": "foo",
+            "start": 1895,
+            "end": 1898
+          },
+          {
+            "type": "Literal",
+            "value": 42,
+            "raw": "42",
+            "start": 1900,
+            "end": 1902
+          }
+        ],
+        "optional": false,
+        "start": 1878,
+        "end": 1903
+      },
+      "start": 1878,
+      "end": 1904
+    }
+  ],
+  "sourceType": "module",
+  "hashbang": null,
+  "start": 0,
+  "end": 1905
+}
