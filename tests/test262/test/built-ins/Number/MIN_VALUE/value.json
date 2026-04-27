@@ -1,0 +1,287 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 591,
+            "end": 597
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 598,
+            "end": 607
+          },
+          "optional": false,
+          "computed": false,
+          "start": 591,
+          "end": 607
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "operator": "typeof",
+            "argument": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "Number",
+                "start": 615,
+                "end": 621
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "MIN_VALUE",
+                "start": 622,
+                "end": 631
+              },
+              "optional": false,
+              "computed": false,
+              "start": 615,
+              "end": 631
+            },
+            "prefix": true,
+            "start": 608,
+            "end": 631
+          },
+          {
+            "type": "Literal",
+            "value": "number",
+            "raw": "\"number\"",
+            "start": 633,
+            "end": 641
+          },
+          {
+            "type": "Literal",
+            "value": "Number.MIN_VALUE should be a number",
+            "raw": "\"Number.MIN_VALUE should be a number\"",
+            "start": 643,
+            "end": 680
+          }
+        ],
+        "optional": false,
+        "start": 591,
+        "end": 681
+      },
+      "start": 591,
+      "end": 682
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "Identifier",
+          "name": "assert",
+          "start": 683,
+          "end": 689
+        },
+        "arguments": [
+          {
+            "type": "BinaryExpression",
+            "left": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "Number",
+                "start": 690,
+                "end": 696
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "MIN_VALUE",
+                "start": 697,
+                "end": 706
+              },
+              "optional": false,
+              "computed": false,
+              "start": 690,
+              "end": 706
+            },
+            "operator": ">",
+            "right": {
+              "type": "Literal",
+              "value": 0,
+              "raw": "0",
+              "start": 709,
+              "end": 710
+            },
+            "start": 690,
+            "end": 710
+          },
+          {
+            "type": "Literal",
+            "value": "Number.MIN_VALUE must be positive",
+            "raw": "\"Number.MIN_VALUE must be positive\"",
+            "start": 712,
+            "end": 747
+          }
+        ],
+        "optional": false,
+        "start": 683,
+        "end": 748
+      },
+      "start": 683,
+      "end": 749
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "Identifier",
+          "name": "assert",
+          "start": 751,
+          "end": 757
+        },
+        "arguments": [
+          {
+            "type": "BinaryExpression",
+            "left": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "Number",
+                "start": 758,
+                "end": 764
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "MIN_VALUE",
+                "start": 765,
+                "end": 774
+              },
+              "optional": false,
+              "computed": false,
+              "start": 758,
+              "end": 774
+            },
+            "operator": "<",
+            "right": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "Number",
+                "start": 777,
+                "end": 783
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "EPSILON",
+                "start": 784,
+                "end": 791
+              },
+              "optional": false,
+              "computed": false,
+              "start": 777,
+              "end": 791
+            },
+            "start": 758,
+            "end": 791
+          },
+          {
+            "type": "Literal",
+            "value": "Number.MIN_VALUE should be smaller than Number.EPSILON",
+            "raw": "\"Number.MIN_VALUE should be smaller than Number.EPSILON\"",
+            "start": 793,
+            "end": 849
+          }
+        ],
+        "optional": false,
+        "start": 751,
+        "end": 850
+      },
+      "start": 751,
+      "end": 850
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 852,
+            "end": 858
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 859,
+            "end": 868
+          },
+          "optional": false,
+          "computed": false,
+          "start": 852,
+          "end": 868
+        },
+        "arguments": [
+          {
+            "type": "BinaryExpression",
+            "left": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "Number",
+                "start": 869,
+                "end": 875
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "MIN_VALUE",
+                "start": 876,
+                "end": 885
+              },
+              "optional": false,
+              "computed": false,
+              "start": 869,
+              "end": 885
+            },
+            "operator": "/",
+            "right": {
+              "type": "Literal",
+              "value": 2,
+              "raw": "2",
+              "start": 888,
+              "end": 889
+            },
+            "start": 869,
+            "end": 889
+          },
+          {
+            "type": "Literal",
+            "value": 0,
+            "raw": "0",
+            "start": 891,
+            "end": 892
+          },
+          {
+            "type": "Literal",
+            "value": "Number.MIN_VALUE divided by 2 should underflow to 0",
+            "raw": "\"Number.MIN_VALUE divided by 2 should underflow to 0\"",
+            "start": 894,
+            "end": 947
+          }
+        ],
+        "optional": false,
+        "start": 852,
+        "end": 948
+      },
+      "start": 852,
+      "end": 949
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 950
+}
