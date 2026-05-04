@@ -190,14 +190,14 @@
               },
               "property": {
                 "type": "Identifier",
-                "name": "substr",
+                "name": "slice",
                 "start": 433,
-                "end": 439
+                "end": 438
               },
               "optional": false,
               "computed": false,
               "start": 426,
-              "end": 439
+              "end": 438
             },
             "arguments": [
               {
@@ -207,39 +207,39 @@
                   "type": "Literal",
                   "value": 6,
                   "raw": "6",
-                  "start": 441,
-                  "end": 442
+                  "start": 440,
+                  "end": 441
                 },
                 "prefix": true,
-                "start": 440,
-                "end": 442
+                "start": 439,
+                "end": 441
               }
             ],
             "optional": false,
             "start": 426,
-            "end": 443
+            "end": 442
           },
           {
             "type": "Literal",
             "value": "+00:00",
             "raw": "\"+00:00\"",
-            "start": 445,
-            "end": 453
+            "start": 444,
+            "end": 452
           },
           {
             "type": "Literal",
             "value": "leap second is a valid ISO string for TimeZone",
             "raw": "\"leap second is a valid ISO string for TimeZone\"",
-            "start": 455,
-            "end": 503
+            "start": 454,
+            "end": 502
           }
         ],
         "optional": false,
         "start": 409,
-        "end": 504
+        "end": 503
       },
       "start": 409,
-      "end": 505
+      "end": 504
     },
     {
       "type": "ExpressionStatement",
@@ -249,21 +249,21 @@
         "left": {
           "type": "Identifier",
           "name": "timeZone",
-          "start": 507,
-          "end": 515
+          "start": 506,
+          "end": 514
         },
         "right": {
           "type": "Literal",
           "value": "2021-08-19T17:30:45.123456789+23:59[+23:59:60]",
           "raw": "\"2021-08-19T17:30:45.123456789+23:59[+23:59:60]\"",
-          "start": 518,
-          "end": 566
+          "start": 517,
+          "end": 565
         },
-        "start": 507,
-        "end": 566
+        "start": 506,
+        "end": 565
       },
-      "start": 507,
-      "end": 567
+      "start": 506,
+      "end": 566
     },
     {
       "type": "ExpressionStatement",
@@ -274,26 +274,26 @@
           "object": {
             "type": "Identifier",
             "name": "assert",
-            "start": 568,
-            "end": 574
+            "start": 567,
+            "end": 573
           },
           "property": {
             "type": "Identifier",
             "name": "throws",
-            "start": 575,
-            "end": 581
+            "start": 574,
+            "end": 580
           },
           "optional": false,
           "computed": false,
-          "start": 568,
-          "end": 581
+          "start": 567,
+          "end": 580
         },
         "arguments": [
           {
             "type": "Identifier",
             "name": "RangeError",
-            "start": 582,
-            "end": 592
+            "start": 581,
+            "end": 591
           },
           {
             "type": "ArrowFunctionExpression",
@@ -307,19 +307,19 @@
                 "object": {
                   "type": "Identifier",
                   "name": "instance",
-                  "start": 600,
-                  "end": 608
+                  "start": 599,
+                  "end": 607
                 },
                 "property": {
                   "type": "Identifier",
                   "name": "toString",
-                  "start": 609,
-                  "end": 617
+                  "start": 608,
+                  "end": 616
                 },
                 "optional": false,
                 "computed": false,
-                "start": 600,
-                "end": 617
+                "start": 599,
+                "end": 616
               },
               "arguments": [
                 {
@@ -331,53 +331,53 @@
                       "key": {
                         "type": "Identifier",
                         "name": "timeZone",
-                        "start": 620,
-                        "end": 628
+                        "start": 619,
+                        "end": 627
                       },
                       "value": {
                         "type": "Identifier",
                         "name": "timeZone",
-                        "start": 620,
-                        "end": 628
+                        "start": 619,
+                        "end": 627
                       },
                       "method": false,
                       "shorthand": true,
                       "computed": false,
-                      "start": 620,
-                      "end": 628
+                      "start": 619,
+                      "end": 627
                     }
                   ],
-                  "start": 618,
-                  "end": 630
+                  "start": 617,
+                  "end": 629
                 }
               ],
               "optional": false,
-              "start": 600,
-              "end": 631
+              "start": 599,
+              "end": 630
             },
             "id": null,
             "generator": false,
-            "start": 594,
-            "end": 631
+            "start": 593,
+            "end": 630
           },
           {
             "type": "Literal",
             "value": "leap second in time zone name not valid",
             "raw": "\"leap second in time zone name not valid\"",
-            "start": 633,
-            "end": 674
+            "start": 632,
+            "end": 673
           }
         ],
         "optional": false,
-        "start": 568,
-        "end": 675
+        "start": 567,
+        "end": 674
       },
-      "start": 568,
-      "end": 676
+      "start": 567,
+      "end": 675
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 677
+  "end": 676
 }
