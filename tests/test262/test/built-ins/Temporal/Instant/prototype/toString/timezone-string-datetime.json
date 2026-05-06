@@ -659,14 +659,14 @@
               },
               "property": {
                 "type": "Identifier",
-                "name": "substr",
+                "name": "slice",
                 "start": 1491,
-                "end": 1497
+                "end": 1496
               },
               "optional": false,
               "computed": false,
               "start": 1483,
-              "end": 1497
+              "end": 1496
             },
             "arguments": [
               {
@@ -676,39 +676,39 @@
                   "type": "Literal",
                   "value": 6,
                   "raw": "6",
-                  "start": 1499,
-                  "end": 1500
+                  "start": 1498,
+                  "end": 1499
                 },
                 "prefix": true,
-                "start": 1498,
-                "end": 1500
+                "start": 1497,
+                "end": 1499
               }
             ],
             "optional": false,
             "start": 1483,
-            "end": 1501
+            "end": 1500
           },
           {
             "type": "Literal",
             "value": "+00:00",
             "raw": "\"+00:00\"",
-            "start": 1503,
-            "end": 1511
+            "start": 1502,
+            "end": 1510
           },
           {
             "type": "Literal",
             "value": "date-time + Z is UTC time zone",
             "raw": "\"date-time + Z is UTC time zone\"",
-            "start": 1513,
-            "end": 1545
+            "start": 1512,
+            "end": 1544
           }
         ],
         "optional": false,
         "start": 1466,
-        "end": 1546
+        "end": 1545
       },
       "start": 1466,
-      "end": 1547
+      "end": 1546
     },
     {
       "type": "ExpressionStatement",
@@ -718,21 +718,21 @@
         "left": {
           "type": "Identifier",
           "name": "timeZone",
-          "start": 1549,
-          "end": 1557
+          "start": 1548,
+          "end": 1556
         },
         "right": {
           "type": "Literal",
           "value": "2021-08-19T17:30-07:00",
           "raw": "\"2021-08-19T17:30-07:00\"",
-          "start": 1560,
-          "end": 1584
+          "start": 1559,
+          "end": 1583
         },
-        "start": 1549,
-        "end": 1584
+        "start": 1548,
+        "end": 1583
       },
-      "start": 1549,
-      "end": 1585
+      "start": 1548,
+      "end": 1584
     },
     {
       "type": "VariableDeclaration",
@@ -743,8 +743,8 @@
           "id": {
             "type": "Identifier",
             "name": "result2",
-            "start": 1592,
-            "end": 1599
+            "start": 1591,
+            "end": 1598
           },
           "init": {
             "type": "CallExpression",
@@ -753,19 +753,19 @@
               "object": {
                 "type": "Identifier",
                 "name": "instance",
-                "start": 1602,
-                "end": 1610
+                "start": 1601,
+                "end": 1609
               },
               "property": {
                 "type": "Identifier",
                 "name": "toString",
-                "start": 1611,
-                "end": 1619
+                "start": 1610,
+                "end": 1618
               },
               "optional": false,
               "computed": false,
-              "start": 1602,
-              "end": 1619
+              "start": 1601,
+              "end": 1618
             },
             "arguments": [
               {
@@ -777,36 +777,36 @@
                     "key": {
                       "type": "Identifier",
                       "name": "timeZone",
-                      "start": 1622,
-                      "end": 1630
+                      "start": 1621,
+                      "end": 1629
                     },
                     "value": {
                       "type": "Identifier",
                       "name": "timeZone",
-                      "start": 1622,
-                      "end": 1630
+                      "start": 1621,
+                      "end": 1629
                     },
                     "method": false,
                     "shorthand": true,
                     "computed": false,
-                    "start": 1622,
-                    "end": 1630
+                    "start": 1621,
+                    "end": 1629
                   }
                 ],
-                "start": 1620,
-                "end": 1632
+                "start": 1619,
+                "end": 1631
               }
             ],
             "optional": false,
-            "start": 1602,
-            "end": 1633
+            "start": 1601,
+            "end": 1632
           },
-          "start": 1592,
-          "end": 1633
+          "start": 1591,
+          "end": 1632
         }
       ],
-      "start": 1586,
-      "end": 1634
+      "start": 1585,
+      "end": 1633
     },
     {
       "type": "ExpressionStatement",
@@ -817,19 +817,19 @@
           "object": {
             "type": "Identifier",
             "name": "assert",
-            "start": 1635,
-            "end": 1641
+            "start": 1634,
+            "end": 1640
           },
           "property": {
             "type": "Identifier",
             "name": "sameValue",
-            "start": 1642,
-            "end": 1651
+            "start": 1641,
+            "end": 1650
           },
           "optional": false,
           "computed": false,
-          "start": 1635,
-          "end": 1651
+          "start": 1634,
+          "end": 1650
         },
         "arguments": [
           {
@@ -839,19 +839,19 @@
               "object": {
                 "type": "Identifier",
                 "name": "result2",
-                "start": 1652,
-                "end": 1659
+                "start": 1651,
+                "end": 1658
               },
               "property": {
                 "type": "Identifier",
-                "name": "substr",
-                "start": 1660,
-                "end": 1666
+                "name": "slice",
+                "start": 1659,
+                "end": 1664
               },
               "optional": false,
               "computed": false,
-              "start": 1652,
-              "end": 1666
+              "start": 1651,
+              "end": 1664
             },
             "arguments": [
               {
@@ -861,39 +861,39 @@
                   "type": "Literal",
                   "value": 6,
                   "raw": "6",
-                  "start": 1668,
-                  "end": 1669
+                  "start": 1666,
+                  "end": 1667
                 },
                 "prefix": true,
-                "start": 1667,
-                "end": 1669
+                "start": 1665,
+                "end": 1667
               }
             ],
             "optional": false,
-            "start": 1652,
-            "end": 1670
+            "start": 1651,
+            "end": 1668
           },
           {
             "type": "Literal",
             "value": "-07:00",
             "raw": "\"-07:00\"",
-            "start": 1672,
-            "end": 1680
+            "start": 1670,
+            "end": 1678
           },
           {
             "type": "Literal",
             "value": "date-time + offset is the offset time zone",
             "raw": "\"date-time + offset is the offset time zone\"",
-            "start": 1682,
-            "end": 1726
+            "start": 1680,
+            "end": 1724
           }
         ],
         "optional": false,
-        "start": 1635,
-        "end": 1727
+        "start": 1634,
+        "end": 1725
       },
-      "start": 1635,
-      "end": 1728
+      "start": 1634,
+      "end": 1726
     },
     {
       "type": "ExpressionStatement",
@@ -903,21 +903,21 @@
         "left": {
           "type": "Identifier",
           "name": "timeZone",
-          "start": 1730,
-          "end": 1738
+          "start": 1728,
+          "end": 1736
         },
         "right": {
           "type": "Literal",
           "value": "2021-08-19T17:30[UTC]",
           "raw": "\"2021-08-19T17:30[UTC]\"",
-          "start": 1741,
-          "end": 1764
+          "start": 1739,
+          "end": 1762
         },
-        "start": 1730,
-        "end": 1764
+        "start": 1728,
+        "end": 1762
       },
-      "start": 1730,
-      "end": 1765
+      "start": 1728,
+      "end": 1763
     },
     {
       "type": "VariableDeclaration",
@@ -928,8 +928,8 @@
           "id": {
             "type": "Identifier",
             "name": "result3",
-            "start": 1772,
-            "end": 1779
+            "start": 1770,
+            "end": 1777
           },
           "init": {
             "type": "CallExpression",
@@ -938,19 +938,19 @@
               "object": {
                 "type": "Identifier",
                 "name": "instance",
-                "start": 1782,
-                "end": 1790
+                "start": 1780,
+                "end": 1788
               },
               "property": {
                 "type": "Identifier",
                 "name": "toString",
-                "start": 1791,
-                "end": 1799
+                "start": 1789,
+                "end": 1797
               },
               "optional": false,
               "computed": false,
-              "start": 1782,
-              "end": 1799
+              "start": 1780,
+              "end": 1797
             },
             "arguments": [
               {
@@ -962,36 +962,36 @@
                     "key": {
                       "type": "Identifier",
                       "name": "timeZone",
-                      "start": 1802,
-                      "end": 1810
+                      "start": 1800,
+                      "end": 1808
                     },
                     "value": {
                       "type": "Identifier",
                       "name": "timeZone",
-                      "start": 1802,
-                      "end": 1810
+                      "start": 1800,
+                      "end": 1808
                     },
                     "method": false,
                     "shorthand": true,
                     "computed": false,
-                    "start": 1802,
-                    "end": 1810
+                    "start": 1800,
+                    "end": 1808
                   }
                 ],
-                "start": 1800,
-                "end": 1812
+                "start": 1798,
+                "end": 1810
               }
             ],
             "optional": false,
-            "start": 1782,
-            "end": 1813
+            "start": 1780,
+            "end": 1811
           },
-          "start": 1772,
-          "end": 1813
+          "start": 1770,
+          "end": 1811
         }
       ],
-      "start": 1766,
-      "end": 1814
+      "start": 1764,
+      "end": 1812
     },
     {
       "type": "ExpressionStatement",
@@ -1002,19 +1002,19 @@
           "object": {
             "type": "Identifier",
             "name": "assert",
-            "start": 1815,
-            "end": 1821
+            "start": 1813,
+            "end": 1819
           },
           "property": {
             "type": "Identifier",
             "name": "sameValue",
-            "start": 1822,
-            "end": 1831
+            "start": 1820,
+            "end": 1829
           },
           "optional": false,
           "computed": false,
-          "start": 1815,
-          "end": 1831
+          "start": 1813,
+          "end": 1829
         },
         "arguments": [
           {
@@ -1024,19 +1024,19 @@
               "object": {
                 "type": "Identifier",
                 "name": "result3",
-                "start": 1832,
-                "end": 1839
+                "start": 1830,
+                "end": 1837
               },
               "property": {
                 "type": "Identifier",
-                "name": "substr",
-                "start": 1840,
-                "end": 1846
+                "name": "slice",
+                "start": 1838,
+                "end": 1843
               },
               "optional": false,
               "computed": false,
-              "start": 1832,
-              "end": 1846
+              "start": 1830,
+              "end": 1843
             },
             "arguments": [
               {
@@ -1046,39 +1046,39 @@
                   "type": "Literal",
                   "value": 6,
                   "raw": "6",
-                  "start": 1848,
-                  "end": 1849
+                  "start": 1845,
+                  "end": 1846
                 },
                 "prefix": true,
-                "start": 1847,
-                "end": 1849
+                "start": 1844,
+                "end": 1846
               }
             ],
             "optional": false,
-            "start": 1832,
-            "end": 1850
+            "start": 1830,
+            "end": 1847
           },
           {
             "type": "Literal",
             "value": "+00:00",
             "raw": "\"+00:00\"",
-            "start": 1852,
-            "end": 1860
+            "start": 1849,
+            "end": 1857
           },
           {
             "type": "Literal",
             "value": "date-time + IANA annotation is the offset time zone",
             "raw": "\"date-time + IANA annotation is the offset time zone\"",
-            "start": 1862,
-            "end": 1915
+            "start": 1859,
+            "end": 1912
           }
         ],
         "optional": false,
-        "start": 1815,
-        "end": 1916
+        "start": 1813,
+        "end": 1913
       },
-      "start": 1815,
-      "end": 1917
+      "start": 1813,
+      "end": 1914
     },
     {
       "type": "ExpressionStatement",
@@ -1088,21 +1088,21 @@
         "left": {
           "type": "Identifier",
           "name": "timeZone",
-          "start": 1919,
-          "end": 1927
+          "start": 1916,
+          "end": 1924
         },
         "right": {
           "type": "Literal",
           "value": "2021-08-19T17:30Z[UTC]",
           "raw": "\"2021-08-19T17:30Z[UTC]\"",
-          "start": 1930,
-          "end": 1954
+          "start": 1927,
+          "end": 1951
         },
-        "start": 1919,
-        "end": 1954
+        "start": 1916,
+        "end": 1951
       },
-      "start": 1919,
-      "end": 1955
+      "start": 1916,
+      "end": 1952
     },
     {
       "type": "VariableDeclaration",
@@ -1113,8 +1113,8 @@
           "id": {
             "type": "Identifier",
             "name": "result4",
-            "start": 1962,
-            "end": 1969
+            "start": 1959,
+            "end": 1966
           },
           "init": {
             "type": "CallExpression",
@@ -1123,19 +1123,19 @@
               "object": {
                 "type": "Identifier",
                 "name": "instance",
-                "start": 1972,
-                "end": 1980
+                "start": 1969,
+                "end": 1977
               },
               "property": {
                 "type": "Identifier",
                 "name": "toString",
-                "start": 1981,
-                "end": 1989
+                "start": 1978,
+                "end": 1986
               },
               "optional": false,
               "computed": false,
-              "start": 1972,
-              "end": 1989
+              "start": 1969,
+              "end": 1986
             },
             "arguments": [
               {
@@ -1147,36 +1147,36 @@
                     "key": {
                       "type": "Identifier",
                       "name": "timeZone",
-                      "start": 1992,
-                      "end": 2000
+                      "start": 1989,
+                      "end": 1997
                     },
                     "value": {
                       "type": "Identifier",
                       "name": "timeZone",
-                      "start": 1992,
-                      "end": 2000
+                      "start": 1989,
+                      "end": 1997
                     },
                     "method": false,
                     "shorthand": true,
                     "computed": false,
-                    "start": 1992,
-                    "end": 2000
+                    "start": 1989,
+                    "end": 1997
                   }
                 ],
-                "start": 1990,
-                "end": 2002
+                "start": 1987,
+                "end": 1999
               }
             ],
             "optional": false,
-            "start": 1972,
-            "end": 2003
+            "start": 1969,
+            "end": 2000
           },
-          "start": 1962,
-          "end": 2003
+          "start": 1959,
+          "end": 2000
         }
       ],
-      "start": 1956,
-      "end": 2004
+      "start": 1953,
+      "end": 2001
     },
     {
       "type": "ExpressionStatement",
@@ -1187,19 +1187,19 @@
           "object": {
             "type": "Identifier",
             "name": "assert",
-            "start": 2005,
-            "end": 2011
+            "start": 2002,
+            "end": 2008
           },
           "property": {
             "type": "Identifier",
             "name": "sameValue",
-            "start": 2012,
-            "end": 2021
+            "start": 2009,
+            "end": 2018
           },
           "optional": false,
           "computed": false,
-          "start": 2005,
-          "end": 2021
+          "start": 2002,
+          "end": 2018
         },
         "arguments": [
           {
@@ -1209,19 +1209,19 @@
               "object": {
                 "type": "Identifier",
                 "name": "result4",
-                "start": 2022,
-                "end": 2029
+                "start": 2019,
+                "end": 2026
               },
               "property": {
                 "type": "Identifier",
-                "name": "substr",
-                "start": 2030,
-                "end": 2036
+                "name": "slice",
+                "start": 2027,
+                "end": 2032
               },
               "optional": false,
               "computed": false,
-              "start": 2022,
-              "end": 2036
+              "start": 2019,
+              "end": 2032
             },
             "arguments": [
               {
@@ -1231,39 +1231,39 @@
                   "type": "Literal",
                   "value": 6,
                   "raw": "6",
-                  "start": 2038,
-                  "end": 2039
+                  "start": 2034,
+                  "end": 2035
                 },
                 "prefix": true,
-                "start": 2037,
-                "end": 2039
+                "start": 2033,
+                "end": 2035
               }
             ],
             "optional": false,
-            "start": 2022,
-            "end": 2040
+            "start": 2019,
+            "end": 2036
           },
           {
             "type": "Literal",
             "value": "+00:00",
             "raw": "\"+00:00\"",
-            "start": 2042,
-            "end": 2050
+            "start": 2038,
+            "end": 2046
           },
           {
             "type": "Literal",
             "value": "date-time + Z + IANA annotation is the offset time zone",
             "raw": "\"date-time + Z + IANA annotation is the offset time zone\"",
-            "start": 2052,
-            "end": 2109
+            "start": 2048,
+            "end": 2105
           }
         ],
         "optional": false,
-        "start": 2005,
-        "end": 2110
+        "start": 2002,
+        "end": 2106
       },
-      "start": 2005,
-      "end": 2111
+      "start": 2002,
+      "end": 2107
     },
     {
       "type": "ExpressionStatement",
@@ -1273,21 +1273,21 @@
         "left": {
           "type": "Identifier",
           "name": "timeZone",
-          "start": 2113,
-          "end": 2121
+          "start": 2109,
+          "end": 2117
         },
         "right": {
           "type": "Literal",
           "value": "2021-08-19T17:30-07:00[UTC]",
           "raw": "\"2021-08-19T17:30-07:00[UTC]\"",
-          "start": 2124,
-          "end": 2153
+          "start": 2120,
+          "end": 2149
         },
-        "start": 2113,
-        "end": 2153
+        "start": 2109,
+        "end": 2149
       },
-      "start": 2113,
-      "end": 2154
+      "start": 2109,
+      "end": 2150
     },
     {
       "type": "VariableDeclaration",
@@ -1298,8 +1298,8 @@
           "id": {
             "type": "Identifier",
             "name": "result5",
-            "start": 2161,
-            "end": 2168
+            "start": 2157,
+            "end": 2164
           },
           "init": {
             "type": "CallExpression",
@@ -1308,19 +1308,19 @@
               "object": {
                 "type": "Identifier",
                 "name": "instance",
-                "start": 2171,
-                "end": 2179
+                "start": 2167,
+                "end": 2175
               },
               "property": {
                 "type": "Identifier",
                 "name": "toString",
-                "start": 2180,
-                "end": 2188
+                "start": 2176,
+                "end": 2184
               },
               "optional": false,
               "computed": false,
-              "start": 2171,
-              "end": 2188
+              "start": 2167,
+              "end": 2184
             },
             "arguments": [
               {
@@ -1332,36 +1332,36 @@
                     "key": {
                       "type": "Identifier",
                       "name": "timeZone",
-                      "start": 2191,
-                      "end": 2199
+                      "start": 2187,
+                      "end": 2195
                     },
                     "value": {
                       "type": "Identifier",
                       "name": "timeZone",
-                      "start": 2191,
-                      "end": 2199
+                      "start": 2187,
+                      "end": 2195
                     },
                     "method": false,
                     "shorthand": true,
                     "computed": false,
-                    "start": 2191,
-                    "end": 2199
+                    "start": 2187,
+                    "end": 2195
                   }
                 ],
-                "start": 2189,
-                "end": 2201
+                "start": 2185,
+                "end": 2197
               }
             ],
             "optional": false,
-            "start": 2171,
-            "end": 2202
+            "start": 2167,
+            "end": 2198
           },
-          "start": 2161,
-          "end": 2202
+          "start": 2157,
+          "end": 2198
         }
       ],
-      "start": 2155,
-      "end": 2203
+      "start": 2151,
+      "end": 2199
     },
     {
       "type": "ExpressionStatement",
@@ -1372,19 +1372,19 @@
           "object": {
             "type": "Identifier",
             "name": "assert",
-            "start": 2204,
-            "end": 2210
+            "start": 2200,
+            "end": 2206
           },
           "property": {
             "type": "Identifier",
             "name": "sameValue",
-            "start": 2211,
-            "end": 2220
+            "start": 2207,
+            "end": 2216
           },
           "optional": false,
           "computed": false,
-          "start": 2204,
-          "end": 2220
+          "start": 2200,
+          "end": 2216
         },
         "arguments": [
           {
@@ -1394,19 +1394,19 @@
               "object": {
                 "type": "Identifier",
                 "name": "result5",
-                "start": 2221,
-                "end": 2228
+                "start": 2217,
+                "end": 2224
               },
               "property": {
                 "type": "Identifier",
-                "name": "substr",
-                "start": 2229,
-                "end": 2235
+                "name": "slice",
+                "start": 2225,
+                "end": 2230
               },
               "optional": false,
               "computed": false,
-              "start": 2221,
-              "end": 2235
+              "start": 2217,
+              "end": 2230
             },
             "arguments": [
               {
@@ -1416,43 +1416,43 @@
                   "type": "Literal",
                   "value": 6,
                   "raw": "6",
-                  "start": 2237,
-                  "end": 2238
+                  "start": 2232,
+                  "end": 2233
                 },
                 "prefix": true,
-                "start": 2236,
-                "end": 2238
+                "start": 2231,
+                "end": 2233
               }
             ],
             "optional": false,
-            "start": 2221,
-            "end": 2239
+            "start": 2217,
+            "end": 2234
           },
           {
             "type": "Literal",
             "value": "+00:00",
             "raw": "\"+00:00\"",
-            "start": 2241,
-            "end": 2249
+            "start": 2236,
+            "end": 2244
           },
           {
             "type": "Literal",
             "value": "date-time + offset + IANA annotation is the offset time zone",
             "raw": "\"date-time + offset + IANA annotation is the offset time zone\"",
-            "start": 2251,
-            "end": 2313
+            "start": 2246,
+            "end": 2308
           }
         ],
         "optional": false,
-        "start": 2204,
-        "end": 2314
+        "start": 2200,
+        "end": 2309
       },
-      "start": 2204,
-      "end": 2315
+      "start": 2200,
+      "end": 2310
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 2316
+  "end": 2311
 }

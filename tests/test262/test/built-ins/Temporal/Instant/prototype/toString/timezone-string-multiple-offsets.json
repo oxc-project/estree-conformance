@@ -190,14 +190,14 @@
               },
               "property": {
                 "type": "Identifier",
-                "name": "substr",
+                "name": "slice",
                 "start": 462,
-                "end": 468
+                "end": 467
               },
               "optional": false,
               "computed": false,
               "start": 455,
-              "end": 468
+              "end": 467
             },
             "arguments": [
               {
@@ -207,43 +207,43 @@
                   "type": "Literal",
                   "value": 6,
                   "raw": "6",
-                  "start": 470,
-                  "end": 471
+                  "start": 469,
+                  "end": 470
                 },
                 "prefix": true,
-                "start": 469,
-                "end": 471
+                "start": 468,
+                "end": 470
               }
             ],
             "optional": false,
             "start": 455,
-            "end": 472
+            "end": 471
           },
           {
             "type": "Literal",
             "value": "+01:46",
             "raw": "\"+01:46\"",
-            "start": 474,
-            "end": 482
+            "start": 473,
+            "end": 481
           },
           {
             "type": "Literal",
             "value": "Time zone string determined from bracket name",
             "raw": "\"Time zone string determined from bracket name\"",
-            "start": 484,
-            "end": 531
+            "start": 483,
+            "end": 530
           }
         ],
         "optional": false,
         "start": 438,
-        "end": 532
+        "end": 531
       },
       "start": 438,
-      "end": 533
+      "end": 532
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 534
+  "end": 533
 }

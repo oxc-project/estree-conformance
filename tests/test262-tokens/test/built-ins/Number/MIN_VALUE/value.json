@@ -1,0 +1,314 @@
+[
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 591,
+    "end": 597
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 597,
+    "end": 598
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 598,
+    "end": 607
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 607,
+    "end": 608
+  },
+  {
+    "type": "Keyword",
+    "value": "typeof",
+    "start": 608,
+    "end": 614
+  },
+  {
+    "type": "Identifier",
+    "value": "Number",
+    "start": 615,
+    "end": 621
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 621,
+    "end": 622
+  },
+  {
+    "type": "Identifier",
+    "value": "MIN_VALUE",
+    "start": 622,
+    "end": 631
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 631,
+    "end": 632
+  },
+  {
+    "type": "String",
+    "value": "\"number\"",
+    "start": 633,
+    "end": 641
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 641,
+    "end": 642
+  },
+  {
+    "type": "String",
+    "value": "\"Number.MIN_VALUE should be a number\"",
+    "start": 643,
+    "end": 680
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 680,
+    "end": 681
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 681,
+    "end": 682
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 683,
+    "end": 689
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 689,
+    "end": 690
+  },
+  {
+    "type": "Identifier",
+    "value": "Number",
+    "start": 690,
+    "end": 696
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 696,
+    "end": 697
+  },
+  {
+    "type": "Identifier",
+    "value": "MIN_VALUE",
+    "start": 697,
+    "end": 706
+  },
+  {
+    "type": "Punctuator",
+    "value": ">",
+    "start": 707,
+    "end": 708
+  },
+  {
+    "type": "Numeric",
+    "value": "0",
+    "start": 709,
+    "end": 710
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 710,
+    "end": 711
+  },
+  {
+    "type": "String",
+    "value": "\"Number.MIN_VALUE must be positive\"",
+    "start": 712,
+    "end": 747
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 747,
+    "end": 748
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 748,
+    "end": 749
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 751,
+    "end": 757
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 757,
+    "end": 758
+  },
+  {
+    "type": "Identifier",
+    "value": "Number",
+    "start": 758,
+    "end": 764
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 764,
+    "end": 765
+  },
+  {
+    "type": "Identifier",
+    "value": "MIN_VALUE",
+    "start": 765,
+    "end": 774
+  },
+  {
+    "type": "Punctuator",
+    "value": "<",
+    "start": 775,
+    "end": 776
+  },
+  {
+    "type": "Identifier",
+    "value": "Number",
+    "start": 777,
+    "end": 783
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 783,
+    "end": 784
+  },
+  {
+    "type": "Identifier",
+    "value": "EPSILON",
+    "start": 784,
+    "end": 791
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 791,
+    "end": 792
+  },
+  {
+    "type": "String",
+    "value": "\"Number.MIN_VALUE should be smaller than Number.EPSILON\"",
+    "start": 793,
+    "end": 849
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 849,
+    "end": 850
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 852,
+    "end": 858
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 858,
+    "end": 859
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 859,
+    "end": 868
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 868,
+    "end": 869
+  },
+  {
+    "type": "Identifier",
+    "value": "Number",
+    "start": 869,
+    "end": 875
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 875,
+    "end": 876
+  },
+  {
+    "type": "Identifier",
+    "value": "MIN_VALUE",
+    "start": 876,
+    "end": 885
+  },
+  {
+    "type": "Punctuator",
+    "value": "/",
+    "start": 886,
+    "end": 887
+  },
+  {
+    "type": "Numeric",
+    "value": "2",
+    "start": 888,
+    "end": 889
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 889,
+    "end": 890
+  },
+  {
+    "type": "Numeric",
+    "value": "0",
+    "start": 891,
+    "end": 892
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 892,
+    "end": 893
+  },
+  {
+    "type": "String",
+    "value": "\"Number.MIN_VALUE divided by 2 should underflow to 0\"",
+    "start": 894,
+    "end": 947
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 947,
+    "end": 948
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 948,
+    "end": 949
+  }
+]

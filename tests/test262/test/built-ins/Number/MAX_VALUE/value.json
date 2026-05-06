@@ -1,0 +1,408 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 250,
+            "end": 256
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 257,
+            "end": 266
+          },
+          "optional": false,
+          "computed": false,
+          "start": 250,
+          "end": 266
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "operator": "typeof",
+            "argument": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "Number",
+                "start": 274,
+                "end": 280
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "MAX_VALUE",
+                "start": 281,
+                "end": 290
+              },
+              "optional": false,
+              "computed": false,
+              "start": 274,
+              "end": 290
+            },
+            "prefix": true,
+            "start": 267,
+            "end": 290
+          },
+          {
+            "type": "Literal",
+            "value": "number",
+            "raw": "\"number\"",
+            "start": 292,
+            "end": 300
+          },
+          {
+            "type": "Literal",
+            "value": "Number.MAX_VALUE should be a number",
+            "raw": "\"Number.MAX_VALUE should be a number\"",
+            "start": 302,
+            "end": 339
+          }
+        ],
+        "optional": false,
+        "start": 250,
+        "end": 340
+      },
+      "start": 250,
+      "end": 341
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "Identifier",
+          "name": "assert",
+          "start": 342,
+          "end": 348
+        },
+        "arguments": [
+          {
+            "type": "BinaryExpression",
+            "left": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "Number",
+                "start": 349,
+                "end": 355
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "MAX_VALUE",
+                "start": 356,
+                "end": 365
+              },
+              "optional": false,
+              "computed": false,
+              "start": 349,
+              "end": 365
+            },
+            "operator": ">",
+            "right": {
+              "type": "Literal",
+              "value": 0,
+              "raw": "0",
+              "start": 368,
+              "end": 369
+            },
+            "start": 349,
+            "end": 369
+          },
+          {
+            "type": "Literal",
+            "value": "Number.MAX_VALUE must be positive",
+            "raw": "\"Number.MAX_VALUE must be positive\"",
+            "start": 371,
+            "end": 406
+          }
+        ],
+        "optional": false,
+        "start": 342,
+        "end": 407
+      },
+      "start": 342,
+      "end": 408
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "Identifier",
+          "name": "assert",
+          "start": 410,
+          "end": 416
+        },
+        "arguments": [
+          {
+            "type": "BinaryExpression",
+            "left": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "Number",
+                "start": 417,
+                "end": 423
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "MAX_VALUE",
+                "start": 424,
+                "end": 433
+              },
+              "optional": false,
+              "computed": false,
+              "start": 417,
+              "end": 433
+            },
+            "operator": ">",
+            "right": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "Number",
+                "start": 436,
+                "end": 442
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "MAX_SAFE_INTEGER",
+                "start": 443,
+                "end": 459
+              },
+              "optional": false,
+              "computed": false,
+              "start": 436,
+              "end": 459
+            },
+            "start": 417,
+            "end": 459
+          },
+          {
+            "type": "Literal",
+            "value": "Number.MAX_VALUE should be larger than Number.MAX_SAFE_INTEGER",
+            "raw": "\"Number.MAX_VALUE should be larger than Number.MAX_SAFE_INTEGER\"",
+            "start": 461,
+            "end": 525
+          }
+        ],
+        "optional": false,
+        "start": 410,
+        "end": 526
+      },
+      "start": 410,
+      "end": 527
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "Identifier",
+          "name": "assert",
+          "start": 528,
+          "end": 534
+        },
+        "arguments": [
+          {
+            "type": "BinaryExpression",
+            "left": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "Number",
+                "start": 535,
+                "end": 541
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "MAX_VALUE",
+                "start": 542,
+                "end": 551
+              },
+              "optional": false,
+              "computed": false,
+              "start": 535,
+              "end": 551
+            },
+            "operator": "<",
+            "right": {
+              "type": "Identifier",
+              "name": "Infinity",
+              "start": 554,
+              "end": 562
+            },
+            "start": 535,
+            "end": 562
+          },
+          {
+            "type": "Literal",
+            "value": "Number.MAX_VALUE should be less than Infinity",
+            "raw": "\"Number.MAX_VALUE should be less than Infinity\"",
+            "start": 564,
+            "end": 611
+          }
+        ],
+        "optional": false,
+        "start": 528,
+        "end": 612
+      },
+      "start": 528,
+      "end": 613
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 615,
+            "end": 621
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 622,
+            "end": 631
+          },
+          "optional": false,
+          "computed": false,
+          "start": 615,
+          "end": 631
+        },
+        "arguments": [
+          {
+            "type": "BinaryExpression",
+            "left": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "Number",
+                "start": 632,
+                "end": 638
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "MAX_VALUE",
+                "start": 639,
+                "end": 648
+              },
+              "optional": false,
+              "computed": false,
+              "start": 632,
+              "end": 648
+            },
+            "operator": "*",
+            "right": {
+              "type": "Literal",
+              "value": 2,
+              "raw": "2",
+              "start": 651,
+              "end": 652
+            },
+            "start": 632,
+            "end": 652
+          },
+          {
+            "type": "Identifier",
+            "name": "Infinity",
+            "start": 654,
+            "end": 662
+          },
+          {
+            "type": "Literal",
+            "value": "Number.MAX_VALUE multiplied by 2 should be Infinity",
+            "raw": "\"Number.MAX_VALUE multiplied by 2 should be Infinity\"",
+            "start": 664,
+            "end": 717
+          }
+        ],
+        "optional": false,
+        "start": 615,
+        "end": 718
+      },
+      "start": 615,
+      "end": 719
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 720,
+            "end": 726
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 727,
+            "end": 736
+          },
+          "optional": false,
+          "computed": false,
+          "start": 720,
+          "end": 736
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "Identifier",
+              "name": "Number",
+              "start": 737,
+              "end": 743
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "MAX_VALUE",
+              "start": 744,
+              "end": 753
+            },
+            "optional": false,
+            "computed": false,
+            "start": 737,
+            "end": 753
+          },
+          {
+            "type": "Literal",
+            "value": 1.7976931348623157e+308,
+            "raw": "1.7976931348623157e+308",
+            "start": 755,
+            "end": 778
+          },
+          {
+            "type": "Literal",
+            "value": "Number.MAX_VALUE should be approximately 1.7976931348623157e+308",
+            "raw": "\"Number.MAX_VALUE should be approximately 1.7976931348623157e+308\"",
+            "start": 780,
+            "end": 846
+          }
+        ],
+        "optional": false,
+        "start": 720,
+        "end": 847
+      },
+      "start": 720,
+      "end": 848
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 849
+}

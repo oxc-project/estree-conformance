@@ -165,14 +165,14 @@
               },
               "property": {
                 "type": "Identifier",
-                "name": "substr",
+                "name": "slice",
                 "start": 392,
-                "end": 398
+                "end": 397
               },
               "optional": false,
               "computed": false,
               "start": 384,
-              "end": 398
+              "end": 397
             },
             "arguments": [
               {
@@ -182,39 +182,39 @@
                   "type": "Literal",
                   "value": 6,
                   "raw": "6",
-                  "start": 400,
-                  "end": 401
+                  "start": 399,
+                  "end": 400
                 },
                 "prefix": true,
-                "start": 399,
-                "end": 401
+                "start": 398,
+                "end": 400
               }
             ],
             "optional": false,
             "start": 384,
-            "end": 402
+            "end": 401
           },
           {
             "type": "Literal",
             "value": "+00:00",
             "raw": "\"+00:00\"",
-            "start": 404,
-            "end": 412
+            "start": 403,
+            "end": 411
           },
           {
             "type": "Literal",
             "value": "Time zone created from string 'UTC'",
             "raw": "\"Time zone created from string 'UTC'\"",
-            "start": 414,
-            "end": 451
+            "start": 413,
+            "end": 450
           }
         ],
         "optional": false,
         "start": 367,
-        "end": 452
+        "end": 451
       },
       "start": 367,
-      "end": 453
+      "end": 452
     },
     {
       "type": "VariableDeclaration",
@@ -225,8 +225,8 @@
           "id": {
             "type": "Identifier",
             "name": "result2",
-            "start": 461,
-            "end": 468
+            "start": 460,
+            "end": 467
           },
           "init": {
             "type": "CallExpression",
@@ -235,19 +235,19 @@
               "object": {
                 "type": "Identifier",
                 "name": "instance",
-                "start": 471,
-                "end": 479
+                "start": 470,
+                "end": 478
               },
               "property": {
                 "type": "Identifier",
                 "name": "toString",
-                "start": 480,
-                "end": 488
+                "start": 479,
+                "end": 487
               },
               "optional": false,
               "computed": false,
-              "start": 471,
-              "end": 488
+              "start": 470,
+              "end": 487
             },
             "arguments": [
               {
@@ -259,37 +259,37 @@
                     "key": {
                       "type": "Identifier",
                       "name": "timeZone",
-                      "start": 491,
-                      "end": 499
+                      "start": 490,
+                      "end": 498
                     },
                     "value": {
                       "type": "Literal",
                       "value": "-01:30",
                       "raw": "\"-01:30\"",
-                      "start": 501,
-                      "end": 509
+                      "start": 500,
+                      "end": 508
                     },
                     "method": false,
                     "shorthand": false,
                     "computed": false,
-                    "start": 491,
-                    "end": 509
+                    "start": 490,
+                    "end": 508
                   }
                 ],
-                "start": 489,
-                "end": 511
+                "start": 488,
+                "end": 510
               }
             ],
             "optional": false,
-            "start": 471,
-            "end": 512
+            "start": 470,
+            "end": 511
           },
-          "start": 461,
-          "end": 512
+          "start": 460,
+          "end": 511
         }
       ],
-      "start": 455,
-      "end": 513
+      "start": 454,
+      "end": 512
     },
     {
       "type": "ExpressionStatement",
@@ -300,19 +300,19 @@
           "object": {
             "type": "Identifier",
             "name": "assert",
-            "start": 514,
-            "end": 520
+            "start": 513,
+            "end": 519
           },
           "property": {
             "type": "Identifier",
             "name": "sameValue",
-            "start": 521,
-            "end": 530
+            "start": 520,
+            "end": 529
           },
           "optional": false,
           "computed": false,
-          "start": 514,
-          "end": 530
+          "start": 513,
+          "end": 529
         },
         "arguments": [
           {
@@ -322,19 +322,19 @@
               "object": {
                 "type": "Identifier",
                 "name": "result2",
-                "start": 531,
-                "end": 538
+                "start": 530,
+                "end": 537
               },
               "property": {
                 "type": "Identifier",
-                "name": "substr",
-                "start": 539,
-                "end": 545
+                "name": "slice",
+                "start": 538,
+                "end": 543
               },
               "optional": false,
               "computed": false,
-              "start": 531,
-              "end": 545
+              "start": 530,
+              "end": 543
             },
             "arguments": [
               {
@@ -344,43 +344,43 @@
                   "type": "Literal",
                   "value": 6,
                   "raw": "6",
-                  "start": 547,
-                  "end": 548
+                  "start": 545,
+                  "end": 546
                 },
                 "prefix": true,
-                "start": 546,
-                "end": 548
+                "start": 544,
+                "end": 546
               }
             ],
             "optional": false,
-            "start": 531,
-            "end": 549
+            "start": 530,
+            "end": 547
           },
           {
             "type": "Literal",
             "value": "-01:30",
             "raw": "\"-01:30\"",
-            "start": 551,
-            "end": 559
+            "start": 549,
+            "end": 557
           },
           {
             "type": "Literal",
             "value": "Time zone created from string '-01:30'",
             "raw": "\"Time zone created from string '-01:30'\"",
-            "start": 561,
-            "end": 601
+            "start": 559,
+            "end": 599
           }
         ],
         "optional": false,
-        "start": 514,
-        "end": 602
+        "start": 513,
+        "end": 600
       },
-      "start": 514,
-      "end": 603
+      "start": 513,
+      "end": 601
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 604
+  "end": 602
 }
