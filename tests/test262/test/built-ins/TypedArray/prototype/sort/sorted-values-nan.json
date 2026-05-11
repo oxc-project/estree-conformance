@@ -1087,18 +1087,39 @@
             "name": "floatArrayConstructors",
             "start": 1416,
             "end": 1438
+          },
+          {
+            "type": "Literal",
+            "value": null,
+            "raw": "null",
+            "start": 1440,
+            "end": 1444
+          },
+          {
+            "type": "ArrayExpression",
+            "elements": [
+              {
+                "type": "Literal",
+                "value": "immutable",
+                "raw": "\"immutable\"",
+                "start": 1447,
+                "end": 1458
+              }
+            ],
+            "start": 1446,
+            "end": 1459
           }
         ],
         "optional": false,
         "start": 646,
-        "end": 1439
+        "end": 1460
       },
       "start": 646,
-      "end": 1440
+      "end": 1461
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 1441
+  "end": 1462
 }

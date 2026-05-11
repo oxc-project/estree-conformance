@@ -20,8 +20,14 @@
               {
                 "type": "Identifier",
                 "name": "TA",
-                "start": 374,
-                "end": 376
+                "start": 375,
+                "end": 377
+              },
+              {
+                "type": "Identifier",
+                "name": "makeCtorArg",
+                "start": 379,
+                "end": 390
               }
             ],
             "body": {
@@ -36,35 +42,36 @@
                       "id": {
                         "type": "Identifier",
                         "name": "buffer",
-                        "start": 390,
-                        "end": 396
+                        "start": 405,
+                        "end": 411
                       },
                       "init": {
-                        "type": "NewExpression",
+                        "type": "CallExpression",
                         "callee": {
                           "type": "Identifier",
-                          "name": "ArrayBuffer",
-                          "start": 403,
-                          "end": 414
+                          "name": "makeCtorArg",
+                          "start": 414,
+                          "end": 425
                         },
                         "arguments": [
                           {
                             "type": "Literal",
-                            "value": 16,
-                            "raw": "16",
-                            "start": 415,
-                            "end": 417
+                            "value": 4,
+                            "raw": "4",
+                            "start": 426,
+                            "end": 427
                           }
                         ],
-                        "start": 399,
-                        "end": 418
+                        "optional": false,
+                        "start": 414,
+                        "end": 428
                       },
-                      "start": 390,
-                      "end": 418
+                      "start": 405,
+                      "end": 428
                     }
                   ],
-                  "start": 384,
-                  "end": 419
+                  "start": 399,
+                  "end": 429
                 },
                 {
                   "type": "VariableDeclaration",
@@ -75,34 +82,34 @@
                       "id": {
                         "type": "Identifier",
                         "name": "view",
-                        "start": 428,
-                        "end": 432
+                        "start": 438,
+                        "end": 442
                       },
                       "init": {
                         "type": "NewExpression",
                         "callee": {
                           "type": "Identifier",
                           "name": "TA",
-                          "start": 439,
-                          "end": 441
+                          "start": 449,
+                          "end": 451
                         },
                         "arguments": [
                           {
                             "type": "Identifier",
                             "name": "buffer",
-                            "start": 442,
-                            "end": 448
+                            "start": 452,
+                            "end": 458
                           }
                         ],
-                        "start": 435,
-                        "end": 449
+                        "start": 445,
+                        "end": 459
                       },
-                      "start": 428,
-                      "end": 449
+                      "start": 438,
+                      "end": 459
                     }
                   ],
-                  "start": 422,
-                  "end": 450
+                  "start": 432,
+                  "end": 460
                 },
                 {
                   "type": "ExpressionStatement",
@@ -113,26 +120,26 @@
                       "object": {
                         "type": "Identifier",
                         "name": "assert",
-                        "start": 454,
-                        "end": 460
+                        "start": 464,
+                        "end": 470
                       },
                       "property": {
                         "type": "Identifier",
                         "name": "throws",
-                        "start": 461,
-                        "end": 467
+                        "start": 471,
+                        "end": 477
                       },
                       "optional": false,
                       "computed": false,
-                      "start": 454,
-                      "end": 467
+                      "start": 464,
+                      "end": 477
                     },
                     "arguments": [
                       {
                         "type": "Identifier",
                         "name": "TypeError",
-                        "start": 468,
-                        "end": 477
+                        "start": 478,
+                        "end": 487
                       },
                       {
                         "type": "FunctionExpression",
@@ -152,56 +159,56 @@
                                   "object": {
                                     "type": "Identifier",
                                     "name": "Atomics",
-                                    "start": 496,
-                                    "end": 503
+                                    "start": 506,
+                                    "end": 513
                                   },
                                   "property": {
                                     "type": "Identifier",
                                     "name": "sub",
-                                    "start": 504,
-                                    "end": 507
+                                    "start": 514,
+                                    "end": 517
                                   },
                                   "optional": false,
                                   "computed": false,
-                                  "start": 496,
-                                  "end": 507
+                                  "start": 506,
+                                  "end": 517
                                 },
                                 "arguments": [
                                   {
                                     "type": "Identifier",
                                     "name": "view",
-                                    "start": 508,
-                                    "end": 512
+                                    "start": 518,
+                                    "end": 522
                                   },
                                   {
                                     "type": "Literal",
                                     "value": 0,
                                     "raw": "0",
-                                    "start": 514,
-                                    "end": 515
+                                    "start": 524,
+                                    "end": 525
                                   },
                                   {
                                     "type": "Literal",
                                     "value": 1,
                                     "raw": "1",
-                                    "start": 517,
-                                    "end": 518
+                                    "start": 527,
+                                    "end": 528
                                   }
                                 ],
                                 "optional": false,
-                                "start": 496,
-                                "end": 519
+                                "start": 506,
+                                "end": 529
                               },
-                              "start": 496,
-                              "end": 520
+                              "start": 506,
+                              "end": 530
                             }
                           ],
-                          "start": 490,
-                          "end": 524
+                          "start": 500,
+                          "end": 534
                         },
                         "expression": false,
-                        "start": 479,
-                        "end": 524
+                        "start": 489,
+                        "end": 534
                       },
                       {
                         "type": "TemplateLiteral",
@@ -213,8 +220,8 @@
                               "cooked": "Atomics.sub(new "
                             },
                             "tail": false,
-                            "start": 527,
-                            "end": 543
+                            "start": 537,
+                            "end": 553
                           },
                           {
                             "type": "TemplateElement",
@@ -223,8 +230,8 @@
                               "cooked": "(buffer), 0, 1) throws TypeError"
                             },
                             "tail": true,
-                            "start": 553,
-                            "end": 585
+                            "start": 563,
+                            "end": 595
                           }
                         ],
                         "expressions": [
@@ -233,73 +240,66 @@
                             "object": {
                               "type": "Identifier",
                               "name": "TA",
-                              "start": 545,
-                              "end": 547
+                              "start": 555,
+                              "end": 557
                             },
                             "property": {
                               "type": "Identifier",
                               "name": "name",
-                              "start": 548,
-                              "end": 552
+                              "start": 558,
+                              "end": 562
                             },
                             "optional": false,
                             "computed": false,
-                            "start": 545,
-                            "end": 552
+                            "start": 555,
+                            "end": 562
                           }
                         ],
-                        "start": 526,
-                        "end": 586
+                        "start": 536,
+                        "end": 596
                       }
                     ],
                     "optional": false,
-                    "start": 454,
-                    "end": 587
+                    "start": 464,
+                    "end": 597
                   },
-                  "start": 454,
-                  "end": 588
+                  "start": 464,
+                  "end": 598
                 }
               ],
-              "start": 380,
-              "end": 590
+              "start": 395,
+              "end": 600
             },
             "id": null,
             "generator": false,
             "start": 374,
-            "end": 590
-          },
-          {
-            "type": "Literal",
-            "value": null,
-            "raw": "null",
-            "start": 592,
-            "end": 596
+            "end": 600
           },
           {
             "type": "ArrayExpression",
             "elements": [
               {
                 "type": "Literal",
-                "value": "passthrough",
-                "raw": "\"passthrough\"",
-                "start": 599,
-                "end": 612
+                "value": "arraybuffer",
+                "raw": "\"arraybuffer\"",
+                "start": 603,
+                "end": 616
               }
             ],
-            "start": 598,
-            "end": 613
+            "start": 602,
+            "end": 617
           }
         ],
         "optional": false,
         "start": 325,
-        "end": 614
+        "end": 618
       },
       "start": 325,
-      "end": 615
+      "end": 619
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 616
+  "end": 620
 }

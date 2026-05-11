@@ -1851,18 +1851,32 @@
             "name": "views",
             "start": 2626,
             "end": 2631
+          },
+          {
+            "type": "ArrayExpression",
+            "elements": [
+              {
+                "type": "Literal",
+                "value": "passthrough",
+                "raw": "\"passthrough\"",
+                "start": 2634,
+                "end": 2647
+              }
+            ],
+            "start": 2633,
+            "end": 2648
           }
         ],
         "optional": false,
         "start": 489,
-        "end": 2632
+        "end": 2649
       },
       "start": 489,
-      "end": 2633
+      "end": 2650
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 2634
+  "end": 2651
 }

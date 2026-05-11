@@ -1,0 +1,68 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "Identifier",
+          "name": "verifyPrimordialCallableProperty",
+          "start": 883,
+          "end": 915
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "Identifier",
+              "name": "ArrayBuffer",
+              "start": 919,
+              "end": 930
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "prototype",
+              "start": 931,
+              "end": 940
+            },
+            "optional": false,
+            "computed": false,
+            "start": 919,
+            "end": 940
+          },
+          {
+            "type": "Literal",
+            "value": "sliceToImmutable",
+            "raw": "\"sliceToImmutable\"",
+            "start": 944,
+            "end": 962
+          },
+          {
+            "type": "Literal",
+            "value": "sliceToImmutable",
+            "raw": "\"sliceToImmutable\"",
+            "start": 966,
+            "end": 984
+          },
+          {
+            "type": "Literal",
+            "value": 2,
+            "raw": "2",
+            "start": 988,
+            "end": 989
+          }
+        ],
+        "optional": false,
+        "start": 883,
+        "end": 991
+      },
+      "start": 883,
+      "end": 992
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 993
+}

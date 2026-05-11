@@ -4126,18 +4126,39 @@
             "name": "int_views",
             "start": 3756,
             "end": 3765
+          },
+          {
+            "type": "Literal",
+            "value": null,
+            "raw": "null",
+            "start": 3767,
+            "end": 3771
+          },
+          {
+            "type": "ArrayExpression",
+            "elements": [
+              {
+                "type": "Literal",
+                "value": "immutable",
+                "raw": "\"immutable\"",
+                "start": 3774,
+                "end": 3785
+              }
+            ],
+            "start": 3773,
+            "end": 3786
           }
         ],
         "optional": false,
         "start": 584,
-        "end": 3766
+        "end": 3787
       },
       "start": 584,
-      "end": 3767
+      "end": 3788
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 3768
+  "end": 3789
 }

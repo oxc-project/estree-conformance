@@ -743,18 +743,46 @@
             "expression": false,
             "start": 1306,
             "end": 1949
+          },
+          {
+            "type": "Literal",
+            "value": null,
+            "raw": "null",
+            "start": 1951,
+            "end": 1955
+          },
+          {
+            "type": "Literal",
+            "value": null,
+            "raw": "null",
+            "start": 1957,
+            "end": 1961
+          },
+          {
+            "type": "ArrayExpression",
+            "elements": [
+              {
+                "type": "Literal",
+                "value": "immutable",
+                "raw": "\"immutable\"",
+                "start": 1964,
+                "end": 1975
+              }
+            ],
+            "start": 1963,
+            "end": 1976
           }
         ],
         "optional": false,
         "start": 1269,
-        "end": 1950
+        "end": 1977
       },
       "start": 1269,
-      "end": 1951
+      "end": 1978
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 1952
+  "end": 1979
 }

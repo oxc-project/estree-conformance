@@ -1006,18 +1006,46 @@
             "expression": false,
             "start": 1233,
             "end": 2007
+          },
+          {
+            "type": "Literal",
+            "value": null,
+            "raw": "null",
+            "start": 2009,
+            "end": 2013
+          },
+          {
+            "type": "Literal",
+            "value": null,
+            "raw": "null",
+            "start": 2015,
+            "end": 2019
+          },
+          {
+            "type": "ArrayExpression",
+            "elements": [
+              {
+                "type": "Literal",
+                "value": "immutable",
+                "raw": "\"immutable\"",
+                "start": 2022,
+                "end": 2033
+              }
+            ],
+            "start": 2021,
+            "end": 2034
           }
         ],
         "optional": false,
         "start": 1196,
-        "end": 2008
+        "end": 2035
       },
       "start": 1196,
-      "end": 2009
+      "end": 2036
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 2010
+  "end": 2037
 }
