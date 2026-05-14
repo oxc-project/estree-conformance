@@ -1064,18 +1064,32 @@
             "name": "views",
             "start": 1603,
             "end": 1608
+          },
+          {
+            "type": "ArrayExpression",
+            "elements": [
+              {
+                "type": "Literal",
+                "value": "passthrough",
+                "raw": "\"passthrough\"",
+                "start": 1611,
+                "end": 1624
+              }
+            ],
+            "start": 1610,
+            "end": 1625
           }
         ],
         "optional": false,
         "start": 501,
-        "end": 1609
+        "end": 1626
       },
       "start": 501,
-      "end": 1610
+      "end": 1627
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 1611
+  "end": 1628
 }

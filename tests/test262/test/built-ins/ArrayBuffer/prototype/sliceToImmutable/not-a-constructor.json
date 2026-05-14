@@ -1,0 +1,212 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "Identifier",
+          "name": "assert",
+          "start": 605,
+          "end": 611
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "operator": "!",
+            "argument": {
+              "type": "CallExpression",
+              "callee": {
+                "type": "Identifier",
+                "name": "isConstructor",
+                "start": 613,
+                "end": 626
+              },
+              "arguments": [
+                {
+                  "type": "MemberExpression",
+                  "object": {
+                    "type": "MemberExpression",
+                    "object": {
+                      "type": "Identifier",
+                      "name": "ArrayBuffer",
+                      "start": 627,
+                      "end": 638
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "name": "prototype",
+                      "start": 639,
+                      "end": 648
+                    },
+                    "optional": false,
+                    "computed": false,
+                    "start": 627,
+                    "end": 648
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "name": "sliceToImmutable",
+                    "start": 649,
+                    "end": 665
+                  },
+                  "optional": false,
+                  "computed": false,
+                  "start": 627,
+                  "end": 665
+                }
+              ],
+              "optional": false,
+              "start": 613,
+              "end": 666
+            },
+            "prefix": true,
+            "start": 612,
+            "end": 666
+          },
+          {
+            "type": "Literal",
+            "value": "ArrayBuffer.prototype.sliceToImmutable is not a constructor",
+            "raw": "\"ArrayBuffer.prototype.sliceToImmutable is not a constructor\"",
+            "start": 670,
+            "end": 731
+          }
+        ],
+        "optional": false,
+        "start": 605,
+        "end": 732
+      },
+      "start": 605,
+      "end": 733
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "var",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "arrayBuffer",
+            "start": 739,
+            "end": 750
+          },
+          "init": {
+            "type": "NewExpression",
+            "callee": {
+              "type": "Identifier",
+              "name": "ArrayBuffer",
+              "start": 757,
+              "end": 768
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "value": 8,
+                "raw": "8",
+                "start": 769,
+                "end": 770
+              }
+            ],
+            "start": 753,
+            "end": 771
+          },
+          "start": 739,
+          "end": 771
+        }
+      ],
+      "start": 735,
+      "end": 772
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 773,
+            "end": 779
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "throws",
+            "start": 780,
+            "end": 786
+          },
+          "optional": false,
+          "computed": false,
+          "start": 773,
+          "end": 786
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "name": "TypeError",
+            "start": 787,
+            "end": 796
+          },
+          {
+            "type": "FunctionExpression",
+            "id": null,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "expression": {
+                    "type": "NewExpression",
+                    "callee": {
+                      "type": "MemberExpression",
+                      "object": {
+                        "type": "Identifier",
+                        "name": "arrayBuffer",
+                        "start": 817,
+                        "end": 828
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "name": "sliceToImmutable",
+                        "start": 829,
+                        "end": 845
+                      },
+                      "optional": false,
+                      "computed": false,
+                      "start": 817,
+                      "end": 845
+                    },
+                    "arguments": [],
+                    "start": 813,
+                    "end": 847
+                  },
+                  "start": 813,
+                  "end": 848
+                }
+              ],
+              "start": 809,
+              "end": 850
+            },
+            "expression": false,
+            "start": 798,
+            "end": 850
+          }
+        ],
+        "optional": false,
+        "start": 773,
+        "end": 851
+      },
+      "start": 773,
+      "end": 852
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 853
+}

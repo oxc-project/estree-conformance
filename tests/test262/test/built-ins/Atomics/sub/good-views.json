@@ -1455,18 +1455,32 @@
             "name": "views",
             "start": 1938,
             "end": 1943
+          },
+          {
+            "type": "ArrayExpression",
+            "elements": [
+              {
+                "type": "Literal",
+                "value": "passthrough",
+                "raw": "\"passthrough\"",
+                "start": 1946,
+                "end": 1959
+              }
+            ],
+            "start": 1945,
+            "end": 1960
           }
         ],
         "optional": false,
         "start": 491,
-        "end": 1944
+        "end": 1961
       },
       "start": 491,
-      "end": 1945
+      "end": 1962
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 1946
+  "end": 1963
 }

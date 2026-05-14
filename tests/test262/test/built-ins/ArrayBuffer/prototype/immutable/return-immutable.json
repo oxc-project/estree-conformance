@@ -1,0 +1,292 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "kind": "var",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "ab",
+            "start": 736,
+            "end": 738
+          },
+          "init": {
+            "type": "NewExpression",
+            "callee": {
+              "type": "Identifier",
+              "name": "ArrayBuffer",
+              "start": 745,
+              "end": 756
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "value": 1,
+                "raw": "1",
+                "start": 757,
+                "end": 758
+              }
+            ],
+            "start": 741,
+            "end": 759
+          },
+          "start": 736,
+          "end": 759
+        }
+      ],
+      "start": 732,
+      "end": 760
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 761,
+            "end": 767
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 768,
+            "end": 777
+          },
+          "optional": false,
+          "computed": false,
+          "start": 761,
+          "end": 777
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "Identifier",
+              "name": "ab",
+              "start": 778,
+              "end": 780
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "immutable",
+              "start": 781,
+              "end": 790
+            },
+            "optional": false,
+            "computed": false,
+            "start": 778,
+            "end": 790
+          },
+          {
+            "type": "Literal",
+            "value": false,
+            "raw": "false",
+            "start": 792,
+            "end": 797
+          }
+        ],
+        "optional": false,
+        "start": 761,
+        "end": 798
+      },
+      "start": 761,
+      "end": 799
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "var",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "iab",
+            "start": 805,
+            "end": 808
+          },
+          "init": {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "ab",
+                "start": 811,
+                "end": 813
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "transferToImmutable",
+                "start": 814,
+                "end": 833
+              },
+              "optional": false,
+              "computed": false,
+              "start": 811,
+              "end": 833
+            },
+            "arguments": [],
+            "optional": false,
+            "start": 811,
+            "end": 835
+          },
+          "start": 805,
+          "end": 835
+        }
+      ],
+      "start": 801,
+      "end": 836
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 837,
+            "end": 843
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 844,
+            "end": 853
+          },
+          "optional": false,
+          "computed": false,
+          "start": 837,
+          "end": 853
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "Identifier",
+              "name": "iab",
+              "start": 854,
+              "end": 857
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "immutable",
+              "start": 858,
+              "end": 867
+            },
+            "optional": false,
+            "computed": false,
+            "start": 854,
+            "end": 867
+          },
+          {
+            "type": "Literal",
+            "value": true,
+            "raw": "true",
+            "start": 869,
+            "end": 873
+          }
+        ],
+        "optional": false,
+        "start": 837,
+        "end": 874
+      },
+      "start": 837,
+      "end": 875
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "Identifier",
+          "name": "$DETACHBUFFER",
+          "start": 877,
+          "end": 890
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "name": "ab",
+            "start": 891,
+            "end": 893
+          }
+        ],
+        "optional": false,
+        "start": 877,
+        "end": 894
+      },
+      "start": 877,
+      "end": 895
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 896,
+            "end": 902
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 903,
+            "end": 912
+          },
+          "optional": false,
+          "computed": false,
+          "start": 896,
+          "end": 912
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "Identifier",
+              "name": "ab",
+              "start": 913,
+              "end": 915
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "immutable",
+              "start": 916,
+              "end": 925
+            },
+            "optional": false,
+            "computed": false,
+            "start": 913,
+            "end": 925
+          },
+          {
+            "type": "Literal",
+            "value": false,
+            "raw": "false",
+            "start": 927,
+            "end": 932
+          }
+        ],
+        "optional": false,
+        "start": 896,
+        "end": 933
+      },
+      "start": 896,
+      "end": 934
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 935
+}

@@ -4136,18 +4136,46 @@
             "expression": false,
             "start": 537,
             "end": 3753
+          },
+          {
+            "type": "Literal",
+            "value": null,
+            "raw": "null",
+            "start": 3755,
+            "end": 3759
+          },
+          {
+            "type": "Literal",
+            "value": null,
+            "raw": "null",
+            "start": 3761,
+            "end": 3765
+          },
+          {
+            "type": "ArrayExpression",
+            "elements": [
+              {
+                "type": "Literal",
+                "value": "immutable",
+                "raw": "\"immutable\"",
+                "start": 3768,
+                "end": 3779
+              }
+            ],
+            "start": 3767,
+            "end": 3780
           }
         ],
         "optional": false,
         "start": 500,
-        "end": 3754
+        "end": 3781
       },
       "start": 500,
-      "end": 3755
+      "end": 3782
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 3756
+  "end": 3783
 }

@@ -978,18 +978,46 @@
             "expression": false,
             "start": 1458,
             "end": 1945
+          },
+          {
+            "type": "Literal",
+            "value": null,
+            "raw": "null",
+            "start": 1947,
+            "end": 1951
+          },
+          {
+            "type": "Literal",
+            "value": null,
+            "raw": "null",
+            "start": 1953,
+            "end": 1957
+          },
+          {
+            "type": "ArrayExpression",
+            "elements": [
+              {
+                "type": "Literal",
+                "value": "immutable",
+                "raw": "\"immutable\"",
+                "start": 1960,
+                "end": 1971
+              }
+            ],
+            "start": 1959,
+            "end": 1972
           }
         ],
         "optional": false,
         "start": 1427,
-        "end": 1946
+        "end": 1973
       },
       "start": 1427,
-      "end": 1947
+      "end": 1974
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 1948
+  "end": 1975
 }

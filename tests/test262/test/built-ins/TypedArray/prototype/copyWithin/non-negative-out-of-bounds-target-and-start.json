@@ -1367,18 +1367,46 @@
             "expression": false,
             "start": 865,
             "end": 2013
+          },
+          {
+            "type": "Literal",
+            "value": null,
+            "raw": "null",
+            "start": 2015,
+            "end": 2019
+          },
+          {
+            "type": "Literal",
+            "value": null,
+            "raw": "null",
+            "start": 2021,
+            "end": 2025
+          },
+          {
+            "type": "ArrayExpression",
+            "elements": [
+              {
+                "type": "Literal",
+                "value": "immutable",
+                "raw": "\"immutable\"",
+                "start": 2028,
+                "end": 2039
+              }
+            ],
+            "start": 2027,
+            "end": 2040
           }
         ],
         "optional": false,
         "start": 834,
-        "end": 2014
+        "end": 2041
       },
       "start": 834,
-      "end": 2015
+      "end": 2042
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 2016
+  "end": 2043
 }

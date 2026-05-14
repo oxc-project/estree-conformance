@@ -1,0 +1,177 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "Identifier",
+          "name": "verifyPrimordialAccessorProperty",
+          "start": 1101,
+          "end": 1133
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "Identifier",
+              "name": "ArrayBuffer",
+              "start": 1134,
+              "end": 1145
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "prototype",
+              "start": 1146,
+              "end": 1155
+            },
+            "optional": false,
+            "computed": false,
+            "start": 1134,
+            "end": 1155
+          },
+          {
+            "type": "Literal",
+            "value": "immutable",
+            "raw": "\"immutable\"",
+            "start": 1157,
+            "end": 1168
+          },
+          {
+            "type": "ObjectExpression",
+            "properties": [
+              {
+                "type": "Property",
+                "kind": "init",
+                "key": {
+                  "type": "Identifier",
+                  "name": "get",
+                  "start": 1174,
+                  "end": 1177
+                },
+                "value": {
+                  "type": "ObjectExpression",
+                  "properties": [
+                    {
+                      "type": "Property",
+                      "kind": "init",
+                      "key": {
+                        "type": "Identifier",
+                        "name": "name",
+                        "start": 1181,
+                        "end": 1185
+                      },
+                      "value": {
+                        "type": "Literal",
+                        "value": "get immutable",
+                        "raw": "\"get immutable\"",
+                        "start": 1187,
+                        "end": 1202
+                      },
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false,
+                      "start": 1181,
+                      "end": 1202
+                    },
+                    {
+                      "type": "Property",
+                      "kind": "init",
+                      "key": {
+                        "type": "Identifier",
+                        "name": "length",
+                        "start": 1204,
+                        "end": 1210
+                      },
+                      "value": {
+                        "type": "Literal",
+                        "value": 0,
+                        "raw": "0",
+                        "start": 1212,
+                        "end": 1213
+                      },
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false,
+                      "start": 1204,
+                      "end": 1213
+                    }
+                  ],
+                  "start": 1179,
+                  "end": 1215
+                },
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "start": 1174,
+                "end": 1215
+              },
+              {
+                "type": "Property",
+                "kind": "init",
+                "key": {
+                  "type": "Identifier",
+                  "name": "set",
+                  "start": 1219,
+                  "end": 1222
+                },
+                "value": {
+                  "type": "Identifier",
+                  "name": "undefined",
+                  "start": 1224,
+                  "end": 1233
+                },
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "start": 1219,
+                "end": 1233
+              }
+            ],
+            "start": 1170,
+            "end": 1236
+          },
+          {
+            "type": "ObjectExpression",
+            "properties": [
+              {
+                "type": "Property",
+                "kind": "init",
+                "key": {
+                  "type": "Identifier",
+                  "name": "label",
+                  "start": 1240,
+                  "end": 1245
+                },
+                "value": {
+                  "type": "Literal",
+                  "value": "ArrayBuffer.prototype.immutable",
+                  "raw": "\"ArrayBuffer.prototype.immutable\"",
+                  "start": 1247,
+                  "end": 1280
+                },
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "start": 1240,
+                "end": 1280
+              }
+            ],
+            "start": 1238,
+            "end": 1282
+          }
+        ],
+        "optional": false,
+        "start": 1101,
+        "end": 1283
+      },
+      "start": 1101,
+      "end": 1284
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 1285
+}

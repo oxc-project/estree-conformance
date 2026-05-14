@@ -366,13 +366,13 @@
                 "operator": "!==",
                 "right": {
                   "type": "Literal",
-                  "value": "obj['prop'] descriptor value should be 2; obj['prop'] value should be 2",
-                  "raw": "\"obj['prop'] descriptor value should be 2; obj['prop'] value should be 2\"",
+                  "value": "prop descriptor value should be 2; prop value should be 2",
+                  "raw": "\"prop descriptor value should be 2; prop value should be 2\"",
                   "start": 631,
-                  "end": 704
+                  "end": 690
                 },
                 "start": 615,
-                "end": 704
+                "end": 690
               },
               "consequent": {
                 "type": "BlockStatement",
@@ -384,42 +384,42 @@
                       "callee": {
                         "type": "Identifier",
                         "name": "Error",
-                        "start": 722,
-                        "end": 727
+                        "start": 708,
+                        "end": 713
                       },
                       "arguments": [
                         {
                           "type": "Literal",
                           "value": "The error thrown did not define the specified message",
                           "raw": "'The error thrown did not define the specified message'",
-                          "start": 728,
-                          "end": 783
+                          "start": 714,
+                          "end": 769
                         }
                       ],
-                      "start": 718,
-                      "end": 784
+                      "start": 704,
+                      "end": 770
                     },
-                    "start": 712,
-                    "end": 785
+                    "start": 698,
+                    "end": 771
                   }
                 ],
-                "start": 706,
-                "end": 789
+                "start": 692,
+                "end": 775
               },
               "alternate": null,
               "start": 611,
-              "end": 789
+              "end": 775
             }
           ],
           "start": 428,
-          "end": 791
+          "end": 777
         },
         "start": 417,
-        "end": 791
+        "end": 777
       },
       "finalizer": null,
       "start": 355,
-      "end": 791
+      "end": 777
     },
     {
       "type": "IfStatement",
@@ -428,19 +428,19 @@
         "left": {
           "type": "Identifier",
           "name": "threw",
-          "start": 797,
-          "end": 802
+          "start": 783,
+          "end": 788
         },
         "operator": "===",
         "right": {
           "type": "Literal",
           "value": false,
           "raw": "false",
-          "start": 807,
-          "end": 812
+          "start": 793,
+          "end": 798
         },
-        "start": 797,
-        "end": 812
+        "start": 783,
+        "end": 798
       },
       "consequent": {
         "type": "BlockStatement",
@@ -452,35 +452,35 @@
               "callee": {
                 "type": "Identifier",
                 "name": "Error",
-                "start": 828,
-                "end": 833
+                "start": 814,
+                "end": 819
               },
               "arguments": [
                 {
                   "type": "Literal",
                   "value": "Expected a Test262Error, but no error was thrown.",
                   "raw": "'Expected a Test262Error, but no error was thrown.'",
-                  "start": 834,
-                  "end": 885
+                  "start": 820,
+                  "end": 871
                 }
               ],
-              "start": 824,
-              "end": 886
+              "start": 810,
+              "end": 872
             },
-            "start": 818,
-            "end": 887
+            "start": 804,
+            "end": 873
           }
         ],
-        "start": 814,
-        "end": 889
+        "start": 800,
+        "end": 875
       },
       "alternate": null,
-      "start": 793,
-      "end": 889
+      "start": 779,
+      "end": 875
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 890
+  "end": 876
 }

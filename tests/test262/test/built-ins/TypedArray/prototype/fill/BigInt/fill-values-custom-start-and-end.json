@@ -1029,18 +1029,46 @@
             "expression": false,
             "start": 1472,
             "end": 2010
+          },
+          {
+            "type": "Literal",
+            "value": null,
+            "raw": "null",
+            "start": 2012,
+            "end": 2016
+          },
+          {
+            "type": "Literal",
+            "value": null,
+            "raw": "null",
+            "start": 2018,
+            "end": 2022
+          },
+          {
+            "type": "ArrayExpression",
+            "elements": [
+              {
+                "type": "Literal",
+                "value": "immutable",
+                "raw": "\"immutable\"",
+                "start": 2025,
+                "end": 2036
+              }
+            ],
+            "start": 2024,
+            "end": 2037
           }
         ],
         "optional": false,
         "start": 1435,
-        "end": 2011
+        "end": 2038
       },
       "start": 1435,
-      "end": 2012
+      "end": 2039
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 2013
+  "end": 2040
 }
