@@ -23,6 +23,12 @@
                 "name": "TA",
                 "start": 922,
                 "end": 924
+              },
+              {
+                "type": "Identifier",
+                "name": "makeCtorArg",
+                "start": 926,
+                "end": 937
               }
             ],
             "body": {
@@ -37,22 +43,22 @@
                       "id": {
                         "type": "Identifier",
                         "name": "called",
-                        "start": 934,
-                        "end": 940
+                        "start": 947,
+                        "end": 953
                       },
                       "init": {
                         "type": "Literal",
                         "value": 0,
                         "raw": "0",
-                        "start": 943,
-                        "end": 944
+                        "start": 956,
+                        "end": 957
                       },
-                      "start": 934,
-                      "end": 944
+                      "start": 947,
+                      "end": 957
                     }
                   ],
-                  "start": 930,
-                  "end": 945
+                  "start": 943,
+                  "end": 958
                 },
                 {
                   "type": "ExpressionStatement",
@@ -65,23 +71,45 @@
                         "callee": {
                           "type": "Identifier",
                           "name": "TA",
-                          "start": 953,
-                          "end": 955
+                          "start": 966,
+                          "end": 968
                         },
-                        "arguments": [],
-                        "start": 949,
-                        "end": 957
+                        "arguments": [
+                          {
+                            "type": "CallExpression",
+                            "callee": {
+                              "type": "Identifier",
+                              "name": "makeCtorArg",
+                              "start": 969,
+                              "end": 980
+                            },
+                            "arguments": [
+                              {
+                                "type": "Literal",
+                                "value": 0,
+                                "raw": "0",
+                                "start": 981,
+                                "end": 982
+                              }
+                            ],
+                            "optional": false,
+                            "start": 969,
+                            "end": 983
+                          }
+                        ],
+                        "start": 962,
+                        "end": 984
                       },
                       "property": {
                         "type": "Identifier",
                         "name": "forEach",
-                        "start": 958,
-                        "end": 965
+                        "start": 985,
+                        "end": 992
                       },
                       "optional": false,
                       "computed": false,
-                      "start": 949,
-                      "end": 965
+                      "start": 962,
+                      "end": 992
                     },
                     "arguments": [
                       {
@@ -102,30 +130,30 @@
                                 "argument": {
                                   "type": "Identifier",
                                   "name": "called",
-                                  "start": 983,
-                                  "end": 989
+                                  "start": 1010,
+                                  "end": 1016
                                 },
-                                "start": 983,
-                                "end": 991
+                                "start": 1010,
+                                "end": 1018
                               },
-                              "start": 983,
-                              "end": 992
+                              "start": 1010,
+                              "end": 1019
                             }
                           ],
-                          "start": 977,
-                          "end": 996
+                          "start": 1004,
+                          "end": 1023
                         },
                         "expression": false,
-                        "start": 966,
-                        "end": 996
+                        "start": 993,
+                        "end": 1023
                       }
                     ],
                     "optional": false,
-                    "start": 949,
-                    "end": 997
+                    "start": 962,
+                    "end": 1024
                   },
-                  "start": 949,
-                  "end": 998
+                  "start": 962,
+                  "end": 1025
                 },
                 {
                   "type": "ExpressionStatement",
@@ -136,82 +164,61 @@
                       "object": {
                         "type": "Identifier",
                         "name": "assert",
-                        "start": 1002,
-                        "end": 1008
+                        "start": 1029,
+                        "end": 1035
                       },
                       "property": {
                         "type": "Identifier",
                         "name": "sameValue",
-                        "start": 1009,
-                        "end": 1018
+                        "start": 1036,
+                        "end": 1045
                       },
                       "optional": false,
                       "computed": false,
-                      "start": 1002,
-                      "end": 1018
+                      "start": 1029,
+                      "end": 1045
                     },
                     "arguments": [
                       {
                         "type": "Identifier",
                         "name": "called",
-                        "start": 1019,
-                        "end": 1025
+                        "start": 1046,
+                        "end": 1052
                       },
                       {
                         "type": "Literal",
                         "value": 0,
                         "raw": "0",
-                        "start": 1027,
-                        "end": 1028
+                        "start": 1054,
+                        "end": 1055
                       }
                     ],
                     "optional": false,
-                    "start": 1002,
-                    "end": 1029
+                    "start": 1029,
+                    "end": 1056
                   },
-                  "start": 1002,
-                  "end": 1030
+                  "start": 1029,
+                  "end": 1057
                 }
               ],
-              "start": 926,
-              "end": 1032
+              "start": 939,
+              "end": 1059
             },
             "expression": false,
             "start": 913,
-            "end": 1032
-          },
-          {
-            "type": "Literal",
-            "value": null,
-            "raw": "null",
-            "start": 1034,
-            "end": 1038
-          },
-          {
-            "type": "ArrayExpression",
-            "elements": [
-              {
-                "type": "Literal",
-                "value": "passthrough",
-                "raw": "\"passthrough\"",
-                "start": 1041,
-                "end": 1054
-              }
-            ],
-            "start": 1040,
-            "end": 1055
+            "end": 1059
           }
         ],
         "optional": false,
         "start": 876,
-        "end": 1056
+        "end": 1060
       },
       "start": 876,
-      "end": 1057
+      "end": 1061
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 1058
+  "end": 1062
 }

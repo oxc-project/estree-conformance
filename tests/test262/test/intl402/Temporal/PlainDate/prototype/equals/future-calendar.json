@@ -1,0 +1,500 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "okDate",
+            "start": 320,
+            "end": 326
+          },
+          "init": {
+            "type": "NewExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "Temporal",
+                "start": 333,
+                "end": 341
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "PlainDate",
+                "start": 342,
+                "end": 351
+              },
+              "optional": false,
+              "computed": false,
+              "start": 333,
+              "end": 351
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "value": 1970,
+                "raw": "1970",
+                "start": 352,
+                "end": 356
+              },
+              {
+                "type": "Literal",
+                "value": 1,
+                "raw": "1",
+                "start": 358,
+                "end": 359
+              },
+              {
+                "type": "Literal",
+                "value": 1,
+                "raw": "1",
+                "start": 361,
+                "end": 362
+              }
+            ],
+            "start": 329,
+            "end": 363
+          },
+          "start": 320,
+          "end": 363
+        }
+      ],
+      "start": 314,
+      "end": 364
+    },
+    {
+      "type": "ForOfStatement",
+      "await": false,
+      "left": {
+        "type": "VariableDeclaration",
+        "kind": "const",
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "id": {
+              "type": "Identifier",
+              "name": "calendar",
+              "start": 377,
+              "end": 385
+            },
+            "init": null,
+            "start": 377,
+            "end": 385
+          }
+        ],
+        "start": 371,
+        "end": 385
+      },
+      "right": {
+        "type": "MemberExpression",
+        "object": {
+          "type": "Identifier",
+          "name": "TemporalHelpers",
+          "start": 389,
+          "end": 404
+        },
+        "property": {
+          "type": "Identifier",
+          "name": "NotYetSupportedCalendars",
+          "start": 405,
+          "end": 429
+        },
+        "optional": false,
+        "computed": false,
+        "start": 389,
+        "end": 429
+      },
+      "body": {
+        "type": "BlockStatement",
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "expression": {
+              "type": "CallExpression",
+              "callee": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "assert",
+                  "start": 435,
+                  "end": 441
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "throws",
+                  "start": 442,
+                  "end": 448
+                },
+                "optional": false,
+                "computed": false,
+                "start": 435,
+                "end": 448
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "name": "RangeError",
+                  "start": 449,
+                  "end": 459
+                },
+                {
+                  "type": "FunctionExpression",
+                  "id": null,
+                  "generator": false,
+                  "async": false,
+                  "params": [],
+                  "body": {
+                    "type": "BlockStatement",
+                    "body": [
+                      {
+                        "type": "ExpressionStatement",
+                        "expression": {
+                          "type": "CallExpression",
+                          "callee": {
+                            "type": "MemberExpression",
+                            "object": {
+                              "type": "Identifier",
+                              "name": "okDate",
+                              "start": 479,
+                              "end": 485
+                            },
+                            "property": {
+                              "type": "Identifier",
+                              "name": "equals",
+                              "start": 486,
+                              "end": 492
+                            },
+                            "optional": false,
+                            "computed": false,
+                            "start": 479,
+                            "end": 492
+                          },
+                          "arguments": [
+                            {
+                              "type": "TemplateLiteral",
+                              "quasis": [
+                                {
+                                  "type": "TemplateElement",
+                                  "value": {
+                                    "raw": "1970-01-01[u-ca=",
+                                    "cooked": "1970-01-01[u-ca="
+                                  },
+                                  "tail": false,
+                                  "start": 494,
+                                  "end": 510
+                                },
+                                {
+                                  "type": "TemplateElement",
+                                  "value": {
+                                    "raw": "]",
+                                    "cooked": "]"
+                                  },
+                                  "tail": true,
+                                  "start": 521,
+                                  "end": 522
+                                }
+                              ],
+                              "expressions": [
+                                {
+                                  "type": "Identifier",
+                                  "name": "calendar",
+                                  "start": 512,
+                                  "end": 520
+                                }
+                              ],
+                              "start": 493,
+                              "end": 523
+                            }
+                          ],
+                          "optional": false,
+                          "start": 479,
+                          "end": 524
+                        },
+                        "start": 479,
+                        "end": 525
+                      }
+                    ],
+                    "start": 473,
+                    "end": 529
+                  },
+                  "expression": false,
+                  "start": 461,
+                  "end": 529
+                },
+                {
+                  "type": "TemplateLiteral",
+                  "quasis": [
+                    {
+                      "type": "TemplateElement",
+                      "value": {
+                        "raw": "",
+                        "cooked": ""
+                      },
+                      "tail": false,
+                      "start": 532,
+                      "end": 532
+                    },
+                    {
+                      "type": "TemplateElement",
+                      "value": {
+                        "raw": " is not yet supported (string)",
+                        "cooked": " is not yet supported (string)"
+                      },
+                      "tail": true,
+                      "start": 543,
+                      "end": 573
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "name": "calendar",
+                      "start": 534,
+                      "end": 542
+                    }
+                  ],
+                  "start": 531,
+                  "end": 574
+                }
+              ],
+              "optional": false,
+              "start": 435,
+              "end": 575
+            },
+            "start": 435,
+            "end": 576
+          },
+          {
+            "type": "ExpressionStatement",
+            "expression": {
+              "type": "CallExpression",
+              "callee": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "assert",
+                  "start": 579,
+                  "end": 585
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "throws",
+                  "start": 586,
+                  "end": 592
+                },
+                "optional": false,
+                "computed": false,
+                "start": 579,
+                "end": 592
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "name": "RangeError",
+                  "start": 593,
+                  "end": 603
+                },
+                {
+                  "type": "FunctionExpression",
+                  "id": null,
+                  "generator": false,
+                  "async": false,
+                  "params": [],
+                  "body": {
+                    "type": "BlockStatement",
+                    "body": [
+                      {
+                        "type": "ExpressionStatement",
+                        "expression": {
+                          "type": "CallExpression",
+                          "callee": {
+                            "type": "MemberExpression",
+                            "object": {
+                              "type": "Identifier",
+                              "name": "okDate",
+                              "start": 623,
+                              "end": 629
+                            },
+                            "property": {
+                              "type": "Identifier",
+                              "name": "equals",
+                              "start": 630,
+                              "end": 636
+                            },
+                            "optional": false,
+                            "computed": false,
+                            "start": 623,
+                            "end": 636
+                          },
+                          "arguments": [
+                            {
+                              "type": "ObjectExpression",
+                              "properties": [
+                                {
+                                  "type": "Property",
+                                  "kind": "init",
+                                  "key": {
+                                    "type": "Identifier",
+                                    "name": "year",
+                                    "start": 639,
+                                    "end": 643
+                                  },
+                                  "value": {
+                                    "type": "Literal",
+                                    "value": 1970,
+                                    "raw": "1970",
+                                    "start": 645,
+                                    "end": 649
+                                  },
+                                  "method": false,
+                                  "shorthand": false,
+                                  "computed": false,
+                                  "start": 639,
+                                  "end": 649
+                                },
+                                {
+                                  "type": "Property",
+                                  "kind": "init",
+                                  "key": {
+                                    "type": "Identifier",
+                                    "name": "month",
+                                    "start": 651,
+                                    "end": 656
+                                  },
+                                  "value": {
+                                    "type": "Literal",
+                                    "value": 1,
+                                    "raw": "1",
+                                    "start": 658,
+                                    "end": 659
+                                  },
+                                  "method": false,
+                                  "shorthand": false,
+                                  "computed": false,
+                                  "start": 651,
+                                  "end": 659
+                                },
+                                {
+                                  "type": "Property",
+                                  "kind": "init",
+                                  "key": {
+                                    "type": "Identifier",
+                                    "name": "day",
+                                    "start": 661,
+                                    "end": 664
+                                  },
+                                  "value": {
+                                    "type": "Literal",
+                                    "value": 1,
+                                    "raw": "1",
+                                    "start": 666,
+                                    "end": 667
+                                  },
+                                  "method": false,
+                                  "shorthand": false,
+                                  "computed": false,
+                                  "start": 661,
+                                  "end": 667
+                                },
+                                {
+                                  "type": "Property",
+                                  "kind": "init",
+                                  "key": {
+                                    "type": "Identifier",
+                                    "name": "calendar",
+                                    "start": 669,
+                                    "end": 677
+                                  },
+                                  "value": {
+                                    "type": "Identifier",
+                                    "name": "calendar",
+                                    "start": 669,
+                                    "end": 677
+                                  },
+                                  "method": false,
+                                  "shorthand": true,
+                                  "computed": false,
+                                  "start": 669,
+                                  "end": 677
+                                }
+                              ],
+                              "start": 637,
+                              "end": 679
+                            }
+                          ],
+                          "optional": false,
+                          "start": 623,
+                          "end": 680
+                        },
+                        "start": 623,
+                        "end": 681
+                      }
+                    ],
+                    "start": 617,
+                    "end": 685
+                  },
+                  "expression": false,
+                  "start": 605,
+                  "end": 685
+                },
+                {
+                  "type": "TemplateLiteral",
+                  "quasis": [
+                    {
+                      "type": "TemplateElement",
+                      "value": {
+                        "raw": "",
+                        "cooked": ""
+                      },
+                      "tail": false,
+                      "start": 688,
+                      "end": 688
+                    },
+                    {
+                      "type": "TemplateElement",
+                      "value": {
+                        "raw": " is not yet supported (property bag)",
+                        "cooked": " is not yet supported (property bag)"
+                      },
+                      "tail": true,
+                      "start": 699,
+                      "end": 735
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "name": "calendar",
+                      "start": 690,
+                      "end": 698
+                    }
+                  ],
+                  "start": 687,
+                  "end": 736
+                }
+              ],
+              "optional": false,
+              "start": 579,
+              "end": 737
+            },
+            "start": 579,
+            "end": 738
+          }
+        ],
+        "start": 431,
+        "end": 740
+      },
+      "start": 366,
+      "end": 740
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 741
+}

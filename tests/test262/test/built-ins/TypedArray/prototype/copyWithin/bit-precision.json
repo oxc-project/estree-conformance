@@ -28,6 +28,12 @@
                 "name": "FloatArray",
                 "start": 602,
                 "end": 612
+              },
+              {
+                "type": "Identifier",
+                "name": "makeCtorArg",
+                "start": 614,
+                "end": 625
               }
             ],
             "body": {
@@ -42,60 +48,74 @@
                       "id": {
                         "type": "Identifier",
                         "name": "subject",
-                        "start": 622,
-                        "end": 629
+                        "start": 635,
+                        "end": 642
                       },
                       "init": {
                         "type": "NewExpression",
                         "callee": {
                           "type": "Identifier",
                           "name": "FloatArray",
-                          "start": 636,
-                          "end": 646
+                          "start": 649,
+                          "end": 659
                         },
                         "arguments": [
                           {
-                            "type": "BinaryExpression",
-                            "left": {
-                              "type": "MemberExpression",
-                              "object": {
-                                "type": "Identifier",
-                                "name": "NaNs",
-                                "start": 647,
-                                "end": 651
-                              },
-                              "property": {
-                                "type": "Identifier",
-                                "name": "length",
-                                "start": 652,
-                                "end": 658
-                              },
-                              "optional": false,
-                              "computed": false,
-                              "start": 647,
-                              "end": 658
+                            "type": "CallExpression",
+                            "callee": {
+                              "type": "Identifier",
+                              "name": "makeCtorArg",
+                              "start": 660,
+                              "end": 671
                             },
-                            "operator": "*",
-                            "right": {
-                              "type": "Literal",
-                              "value": 2,
-                              "raw": "2",
-                              "start": 661,
-                              "end": 662
-                            },
-                            "start": 647,
-                            "end": 662
+                            "arguments": [
+                              {
+                                "type": "BinaryExpression",
+                                "left": {
+                                  "type": "MemberExpression",
+                                  "object": {
+                                    "type": "Identifier",
+                                    "name": "NaNs",
+                                    "start": 672,
+                                    "end": 676
+                                  },
+                                  "property": {
+                                    "type": "Identifier",
+                                    "name": "length",
+                                    "start": 677,
+                                    "end": 683
+                                  },
+                                  "optional": false,
+                                  "computed": false,
+                                  "start": 672,
+                                  "end": 683
+                                },
+                                "operator": "*",
+                                "right": {
+                                  "type": "Literal",
+                                  "value": 2,
+                                  "raw": "2",
+                                  "start": 686,
+                                  "end": 687
+                                },
+                                "start": 672,
+                                "end": 687
+                              }
+                            ],
+                            "optional": false,
+                            "start": 660,
+                            "end": 688
                           }
                         ],
-                        "start": 632,
-                        "end": 663
+                        "start": 645,
+                        "end": 689
                       },
-                      "start": 622,
-                      "end": 663
+                      "start": 635,
+                      "end": 689
                     }
                   ],
-                  "start": 618,
-                  "end": 664
+                  "start": 631,
+                  "end": 690
                 },
                 {
                   "type": "ExpressionStatement",
@@ -106,19 +126,19 @@
                       "object": {
                         "type": "Identifier",
                         "name": "NaNs",
-                        "start": 668,
-                        "end": 672
+                        "start": 694,
+                        "end": 698
                       },
                       "property": {
                         "type": "Identifier",
                         "name": "forEach",
-                        "start": 673,
-                        "end": 680
+                        "start": 699,
+                        "end": 706
                       },
                       "optional": false,
                       "computed": false,
-                      "start": 668,
-                      "end": 680
+                      "start": 694,
+                      "end": 706
                     },
                     "arguments": [
                       {
@@ -130,14 +150,14 @@
                           {
                             "type": "Identifier",
                             "name": "v",
-                            "start": 690,
-                            "end": 691
+                            "start": 716,
+                            "end": 717
                           },
                           {
                             "type": "Identifier",
                             "name": "i",
-                            "start": 693,
-                            "end": 694
+                            "start": 719,
+                            "end": 720
                           }
                         ],
                         "body": {
@@ -153,47 +173,47 @@
                                   "object": {
                                     "type": "Identifier",
                                     "name": "subject",
-                                    "start": 702,
-                                    "end": 709
+                                    "start": 728,
+                                    "end": 735
                                   },
                                   "property": {
                                     "type": "Identifier",
                                     "name": "i",
-                                    "start": 710,
-                                    "end": 711
+                                    "start": 736,
+                                    "end": 737
                                   },
                                   "optional": false,
                                   "computed": true,
-                                  "start": 702,
-                                  "end": 712
+                                  "start": 728,
+                                  "end": 738
                                 },
                                 "right": {
                                   "type": "Identifier",
                                   "name": "v",
-                                  "start": 715,
-                                  "end": 716
+                                  "start": 741,
+                                  "end": 742
                                 },
-                                "start": 702,
-                                "end": 716
+                                "start": 728,
+                                "end": 742
                               },
-                              "start": 702,
-                              "end": 717
+                              "start": 728,
+                              "end": 743
                             }
                           ],
-                          "start": 696,
-                          "end": 721
+                          "start": 722,
+                          "end": 747
                         },
                         "expression": false,
-                        "start": 681,
-                        "end": 721
+                        "start": 707,
+                        "end": 747
                       }
                     ],
                     "optional": false,
-                    "start": 668,
-                    "end": 722
+                    "start": 694,
+                    "end": 748
                   },
-                  "start": 668,
-                  "end": 723
+                  "start": 694,
+                  "end": 749
                 },
                 {
                   "type": "VariableDeclaration",
@@ -204,28 +224,28 @@
                       "id": {
                         "type": "Identifier",
                         "name": "originalBytes",
-                        "start": 731,
-                        "end": 744
+                        "start": 757,
+                        "end": 770
                       },
                       "init": null,
-                      "start": 731,
-                      "end": 744
+                      "start": 757,
+                      "end": 770
                     },
                     {
                       "type": "VariableDeclarator",
                       "id": {
                         "type": "Identifier",
                         "name": "copiedBytes",
-                        "start": 746,
-                        "end": 757
+                        "start": 772,
+                        "end": 783
                       },
                       "init": null,
-                      "start": 746,
-                      "end": 757
+                      "start": 772,
+                      "end": 783
                     }
                   ],
-                  "start": 727,
-                  "end": 758
+                  "start": 753,
+                  "end": 784
                 },
                 {
                   "type": "VariableDeclaration",
@@ -236,8 +256,8 @@
                       "id": {
                         "type": "Identifier",
                         "name": "length",
-                        "start": 765,
-                        "end": 771
+                        "start": 791,
+                        "end": 797
                       },
                       "init": {
                         "type": "BinaryExpression",
@@ -246,19 +266,19 @@
                           "object": {
                             "type": "Identifier",
                             "name": "NaNs",
-                            "start": 774,
-                            "end": 778
+                            "start": 800,
+                            "end": 804
                           },
                           "property": {
                             "type": "Identifier",
                             "name": "length",
-                            "start": 779,
-                            "end": 785
+                            "start": 805,
+                            "end": 811
                           },
                           "optional": false,
                           "computed": false,
-                          "start": 774,
-                          "end": 785
+                          "start": 800,
+                          "end": 811
                         },
                         "operator": "*",
                         "right": {
@@ -266,29 +286,29 @@
                           "object": {
                             "type": "Identifier",
                             "name": "FloatArray",
-                            "start": 788,
-                            "end": 798
+                            "start": 814,
+                            "end": 824
                           },
                           "property": {
                             "type": "Identifier",
                             "name": "BYTES_PER_ELEMENT",
-                            "start": 799,
-                            "end": 816
+                            "start": 825,
+                            "end": 842
                           },
                           "optional": false,
                           "computed": false,
-                          "start": 788,
-                          "end": 816
+                          "start": 814,
+                          "end": 842
                         },
-                        "start": 774,
-                        "end": 816
+                        "start": 800,
+                        "end": 842
                       },
-                      "start": 765,
-                      "end": 816
+                      "start": 791,
+                      "end": 842
                     }
                   ],
-                  "start": 761,
-                  "end": 817
+                  "start": 787,
+                  "end": 843
                 },
                 {
                   "type": "ExpressionStatement",
@@ -298,16 +318,16 @@
                     "left": {
                       "type": "Identifier",
                       "name": "originalBytes",
-                      "start": 821,
-                      "end": 834
+                      "start": 847,
+                      "end": 860
                     },
                     "right": {
                       "type": "NewExpression",
                       "callee": {
                         "type": "Identifier",
                         "name": "Uint8Array",
-                        "start": 841,
-                        "end": 851
+                        "start": 867,
+                        "end": 877
                       },
                       "arguments": [
                         {
@@ -315,42 +335,42 @@
                           "object": {
                             "type": "Identifier",
                             "name": "subject",
-                            "start": 857,
-                            "end": 864
+                            "start": 883,
+                            "end": 890
                           },
                           "property": {
                             "type": "Identifier",
                             "name": "buffer",
-                            "start": 865,
-                            "end": 871
+                            "start": 891,
+                            "end": 897
                           },
                           "optional": false,
                           "computed": false,
-                          "start": 857,
-                          "end": 871
+                          "start": 883,
+                          "end": 897
                         },
                         {
                           "type": "Literal",
                           "value": 0,
                           "raw": "0",
-                          "start": 877,
-                          "end": 878
+                          "start": 903,
+                          "end": 904
                         },
                         {
                           "type": "Identifier",
                           "name": "length",
-                          "start": 884,
-                          "end": 890
+                          "start": 910,
+                          "end": 916
                         }
                       ],
-                      "start": 837,
-                      "end": 894
+                      "start": 863,
+                      "end": 920
                     },
-                    "start": 821,
-                    "end": 894
+                    "start": 847,
+                    "end": 920
                   },
-                  "start": 821,
-                  "end": 895
+                  "start": 847,
+                  "end": 921
                 },
                 {
                   "type": "ExpressionStatement",
@@ -361,19 +381,19 @@
                       "object": {
                         "type": "Identifier",
                         "name": "subject",
-                        "start": 899,
-                        "end": 906
+                        "start": 925,
+                        "end": 932
                       },
                       "property": {
                         "type": "Identifier",
                         "name": "copyWithin",
-                        "start": 907,
-                        "end": 917
+                        "start": 933,
+                        "end": 943
                       },
                       "optional": false,
                       "computed": false,
-                      "start": 899,
-                      "end": 917
+                      "start": 925,
+                      "end": 943
                     },
                     "arguments": [
                       {
@@ -381,34 +401,34 @@
                         "object": {
                           "type": "Identifier",
                           "name": "NaNs",
-                          "start": 918,
-                          "end": 922
+                          "start": 944,
+                          "end": 948
                         },
                         "property": {
                           "type": "Identifier",
                           "name": "length",
-                          "start": 923,
-                          "end": 929
+                          "start": 949,
+                          "end": 955
                         },
                         "optional": false,
                         "computed": false,
-                        "start": 918,
-                        "end": 929
+                        "start": 944,
+                        "end": 955
                       },
                       {
                         "type": "Literal",
                         "value": 0,
                         "raw": "0",
-                        "start": 931,
-                        "end": 932
+                        "start": 957,
+                        "end": 958
                       }
                     ],
                     "optional": false,
-                    "start": 899,
-                    "end": 933
+                    "start": 925,
+                    "end": 959
                   },
-                  "start": 899,
-                  "end": 934
+                  "start": 925,
+                  "end": 960
                 },
                 {
                   "type": "ExpressionStatement",
@@ -418,16 +438,16 @@
                     "left": {
                       "type": "Identifier",
                       "name": "copiedBytes",
-                      "start": 937,
-                      "end": 948
+                      "start": 963,
+                      "end": 974
                     },
                     "right": {
                       "type": "NewExpression",
                       "callee": {
                         "type": "Identifier",
                         "name": "Uint8Array",
-                        "start": 955,
-                        "end": 965
+                        "start": 981,
+                        "end": 991
                       },
                       "arguments": [
                         {
@@ -435,35 +455,35 @@
                           "object": {
                             "type": "Identifier",
                             "name": "subject",
-                            "start": 971,
-                            "end": 978
+                            "start": 997,
+                            "end": 1004
                           },
                           "property": {
                             "type": "Identifier",
                             "name": "buffer",
-                            "start": 979,
-                            "end": 985
+                            "start": 1005,
+                            "end": 1011
                           },
                           "optional": false,
                           "computed": false,
-                          "start": 971,
-                          "end": 985
+                          "start": 997,
+                          "end": 1011
                         },
                         {
                           "type": "Identifier",
                           "name": "length",
-                          "start": 991,
-                          "end": 997
+                          "start": 1017,
+                          "end": 1023
                         }
                       ],
-                      "start": 951,
-                      "end": 1001
+                      "start": 977,
+                      "end": 1027
                     },
-                    "start": 937,
-                    "end": 1001
+                    "start": 963,
+                    "end": 1027
                   },
-                  "start": 937,
-                  "end": 1002
+                  "start": 963,
+                  "end": 1028
                 },
                 {
                   "type": "ExpressionStatement",
@@ -472,8 +492,8 @@
                     "callee": {
                       "type": "Identifier",
                       "name": "assert",
-                      "start": 1006,
-                      "end": 1012
+                      "start": 1032,
+                      "end": 1038
                     },
                     "arguments": [
                       {
@@ -481,60 +501,81 @@
                         "callee": {
                           "type": "Identifier",
                           "name": "compareArray",
-                          "start": 1013,
-                          "end": 1025
+                          "start": 1039,
+                          "end": 1051
                         },
                         "arguments": [
                           {
                             "type": "Identifier",
                             "name": "originalBytes",
-                            "start": 1026,
-                            "end": 1039
+                            "start": 1052,
+                            "end": 1065
                           },
                           {
                             "type": "Identifier",
                             "name": "copiedBytes",
-                            "start": 1041,
-                            "end": 1052
+                            "start": 1067,
+                            "end": 1078
                           }
                         ],
                         "optional": false,
-                        "start": 1013,
-                        "end": 1053
+                        "start": 1039,
+                        "end": 1079
                       }
                     ],
                     "optional": false,
-                    "start": 1006,
-                    "end": 1054
+                    "start": 1032,
+                    "end": 1080
                   },
-                  "start": 1006,
-                  "end": 1055
+                  "start": 1032,
+                  "end": 1081
                 }
               ],
-              "start": 614,
-              "end": 1057
+              "start": 627,
+              "end": 1083
             },
             "expression": false,
             "start": 588,
-            "end": 1057
+            "end": 1083
           },
           {
             "type": "Identifier",
             "name": "floatArrayConstructors",
-            "start": 1059,
-            "end": 1081
+            "start": 1085,
+            "end": 1107
+          },
+          {
+            "type": "Literal",
+            "value": null,
+            "raw": "null",
+            "start": 1109,
+            "end": 1113
+          },
+          {
+            "type": "ArrayExpression",
+            "elements": [
+              {
+                "type": "Literal",
+                "value": "immutable",
+                "raw": "\"immutable\"",
+                "start": 1116,
+                "end": 1127
+              }
+            ],
+            "start": 1115,
+            "end": 1128
           }
         ],
         "optional": false,
         "start": 557,
-        "end": 1082
+        "end": 1129
       },
       "start": 557,
-      "end": 1083
+      "end": 1130
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 1084
+  "end": 1131
 }
