@@ -23,6 +23,12 @@
                 "name": "TA",
                 "start": 546,
                 "end": 548
+              },
+              {
+                "type": "Identifier",
+                "name": "makeCtorArg",
+                "start": 550,
+                "end": 561
               }
             ],
             "body": {
@@ -37,22 +43,22 @@
                       "id": {
                         "type": "Identifier",
                         "name": "called",
-                        "start": 558,
-                        "end": 564
+                        "start": 571,
+                        "end": 577
                       },
                       "init": {
                         "type": "Literal",
                         "value": 0,
                         "raw": "0",
-                        "start": 567,
-                        "end": 568
+                        "start": 580,
+                        "end": 581
                       },
-                      "start": 558,
-                      "end": 568
+                      "start": 571,
+                      "end": 581
                     }
                   ],
-                  "start": 554,
-                  "end": 569
+                  "start": 567,
+                  "end": 582
                 },
                 {
                   "type": "ExpressionStatement",
@@ -65,23 +71,45 @@
                         "callee": {
                           "type": "Identifier",
                           "name": "TA",
-                          "start": 577,
-                          "end": 579
+                          "start": 590,
+                          "end": 592
                         },
-                        "arguments": [],
-                        "start": 573,
-                        "end": 581
+                        "arguments": [
+                          {
+                            "type": "CallExpression",
+                            "callee": {
+                              "type": "Identifier",
+                              "name": "makeCtorArg",
+                              "start": 593,
+                              "end": 604
+                            },
+                            "arguments": [
+                              {
+                                "type": "Literal",
+                                "value": 0,
+                                "raw": "0",
+                                "start": 605,
+                                "end": 606
+                              }
+                            ],
+                            "optional": false,
+                            "start": 593,
+                            "end": 607
+                          }
+                        ],
+                        "start": 586,
+                        "end": 608
                       },
                       "property": {
                         "type": "Identifier",
                         "name": "filter",
-                        "start": 582,
-                        "end": 588
+                        "start": 609,
+                        "end": 615
                       },
                       "optional": false,
                       "computed": false,
-                      "start": 573,
-                      "end": 588
+                      "start": 586,
+                      "end": 615
                     },
                     "arguments": [
                       {
@@ -102,30 +130,30 @@
                                 "argument": {
                                   "type": "Identifier",
                                   "name": "called",
-                                  "start": 606,
-                                  "end": 612
+                                  "start": 633,
+                                  "end": 639
                                 },
-                                "start": 606,
-                                "end": 614
+                                "start": 633,
+                                "end": 641
                               },
-                              "start": 606,
-                              "end": 615
+                              "start": 633,
+                              "end": 642
                             }
                           ],
-                          "start": 600,
-                          "end": 619
+                          "start": 627,
+                          "end": 646
                         },
                         "expression": false,
-                        "start": 589,
-                        "end": 619
+                        "start": 616,
+                        "end": 646
                       }
                     ],
                     "optional": false,
-                    "start": 573,
-                    "end": 620
+                    "start": 586,
+                    "end": 647
                   },
-                  "start": 573,
-                  "end": 621
+                  "start": 586,
+                  "end": 648
                 },
                 {
                   "type": "ExpressionStatement",
@@ -136,82 +164,61 @@
                       "object": {
                         "type": "Identifier",
                         "name": "assert",
-                        "start": 625,
-                        "end": 631
+                        "start": 652,
+                        "end": 658
                       },
                       "property": {
                         "type": "Identifier",
                         "name": "sameValue",
-                        "start": 632,
-                        "end": 641
+                        "start": 659,
+                        "end": 668
                       },
                       "optional": false,
                       "computed": false,
-                      "start": 625,
-                      "end": 641
+                      "start": 652,
+                      "end": 668
                     },
                     "arguments": [
                       {
                         "type": "Identifier",
                         "name": "called",
-                        "start": 642,
-                        "end": 648
+                        "start": 669,
+                        "end": 675
                       },
                       {
                         "type": "Literal",
                         "value": 0,
                         "raw": "0",
-                        "start": 650,
-                        "end": 651
+                        "start": 677,
+                        "end": 678
                       }
                     ],
                     "optional": false,
-                    "start": 625,
-                    "end": 652
+                    "start": 652,
+                    "end": 679
                   },
-                  "start": 625,
-                  "end": 653
+                  "start": 652,
+                  "end": 680
                 }
               ],
-              "start": 550,
-              "end": 655
+              "start": 563,
+              "end": 682
             },
             "expression": false,
             "start": 537,
-            "end": 655
-          },
-          {
-            "type": "Literal",
-            "value": null,
-            "raw": "null",
-            "start": 657,
-            "end": 661
-          },
-          {
-            "type": "ArrayExpression",
-            "elements": [
-              {
-                "type": "Literal",
-                "value": "passthrough",
-                "raw": "\"passthrough\"",
-                "start": 664,
-                "end": 677
-              }
-            ],
-            "start": 663,
-            "end": 678
+            "end": 682
           }
         ],
         "optional": false,
         "start": 506,
-        "end": 679
+        "end": 683
       },
       "start": 506,
-      "end": 680
+      "end": 684
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 681
+  "end": 685
 }

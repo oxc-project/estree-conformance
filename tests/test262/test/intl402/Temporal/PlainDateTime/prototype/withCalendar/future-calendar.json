@@ -1,0 +1,255 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "okDate",
+            "start": 330,
+            "end": 336
+          },
+          "init": {
+            "type": "NewExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "Temporal",
+                "start": 343,
+                "end": 351
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "PlainDateTime",
+                "start": 352,
+                "end": 365
+              },
+              "optional": false,
+              "computed": false,
+              "start": 343,
+              "end": 365
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "value": 1970,
+                "raw": "1970",
+                "start": 366,
+                "end": 370
+              },
+              {
+                "type": "Literal",
+                "value": 1,
+                "raw": "1",
+                "start": 372,
+                "end": 373
+              },
+              {
+                "type": "Literal",
+                "value": 1,
+                "raw": "1",
+                "start": 375,
+                "end": 376
+              }
+            ],
+            "start": 339,
+            "end": 377
+          },
+          "start": 330,
+          "end": 377
+        }
+      ],
+      "start": 324,
+      "end": 378
+    },
+    {
+      "type": "ForOfStatement",
+      "await": false,
+      "left": {
+        "type": "VariableDeclaration",
+        "kind": "const",
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "id": {
+              "type": "Identifier",
+              "name": "calendar",
+              "start": 391,
+              "end": 399
+            },
+            "init": null,
+            "start": 391,
+            "end": 399
+          }
+        ],
+        "start": 385,
+        "end": 399
+      },
+      "right": {
+        "type": "MemberExpression",
+        "object": {
+          "type": "Identifier",
+          "name": "TemporalHelpers",
+          "start": 403,
+          "end": 418
+        },
+        "property": {
+          "type": "Identifier",
+          "name": "NotYetSupportedCalendars",
+          "start": 419,
+          "end": 443
+        },
+        "optional": false,
+        "computed": false,
+        "start": 403,
+        "end": 443
+      },
+      "body": {
+        "type": "BlockStatement",
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "expression": {
+              "type": "CallExpression",
+              "callee": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "assert",
+                  "start": 449,
+                  "end": 455
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "throws",
+                  "start": 456,
+                  "end": 462
+                },
+                "optional": false,
+                "computed": false,
+                "start": 449,
+                "end": 462
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "name": "RangeError",
+                  "start": 463,
+                  "end": 473
+                },
+                {
+                  "type": "FunctionExpression",
+                  "id": null,
+                  "generator": false,
+                  "async": false,
+                  "params": [],
+                  "body": {
+                    "type": "BlockStatement",
+                    "body": [
+                      {
+                        "type": "ExpressionStatement",
+                        "expression": {
+                          "type": "CallExpression",
+                          "callee": {
+                            "type": "MemberExpression",
+                            "object": {
+                              "type": "Identifier",
+                              "name": "okDate",
+                              "start": 493,
+                              "end": 499
+                            },
+                            "property": {
+                              "type": "Identifier",
+                              "name": "withCalendar",
+                              "start": 500,
+                              "end": 512
+                            },
+                            "optional": false,
+                            "computed": false,
+                            "start": 493,
+                            "end": 512
+                          },
+                          "arguments": [
+                            {
+                              "type": "Identifier",
+                              "name": "calendar",
+                              "start": 513,
+                              "end": 521
+                            }
+                          ],
+                          "optional": false,
+                          "start": 493,
+                          "end": 522
+                        },
+                        "start": 493,
+                        "end": 523
+                      }
+                    ],
+                    "start": 487,
+                    "end": 527
+                  },
+                  "expression": false,
+                  "start": 475,
+                  "end": 527
+                },
+                {
+                  "type": "TemplateLiteral",
+                  "quasis": [
+                    {
+                      "type": "TemplateElement",
+                      "value": {
+                        "raw": "",
+                        "cooked": ""
+                      },
+                      "tail": false,
+                      "start": 530,
+                      "end": 530
+                    },
+                    {
+                      "type": "TemplateElement",
+                      "value": {
+                        "raw": " is not yet supported",
+                        "cooked": " is not yet supported"
+                      },
+                      "tail": true,
+                      "start": 541,
+                      "end": 562
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "name": "calendar",
+                      "start": 532,
+                      "end": 540
+                    }
+                  ],
+                  "start": 529,
+                  "end": 563
+                }
+              ],
+              "optional": false,
+              "start": 449,
+              "end": 564
+            },
+            "start": 449,
+            "end": 565
+          }
+        ],
+        "start": 445,
+        "end": 567
+      },
+      "start": 380,
+      "end": 567
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 568
+}
