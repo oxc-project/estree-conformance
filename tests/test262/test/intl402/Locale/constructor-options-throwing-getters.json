@@ -6,8 +6,8 @@
       "id": {
         "type": "Identifier",
         "name": "CustomError",
-        "start": 287,
-        "end": 298
+        "start": 318,
+        "end": 329
       },
       "generator": false,
       "async": false,
@@ -15,12 +15,12 @@
       "body": {
         "type": "BlockStatement",
         "body": [],
-        "start": 301,
-        "end": 303
+        "start": 332,
+        "end": 334
       },
       "expression": false,
-      "start": 278,
-      "end": 303
+      "start": 309,
+      "end": 334
     },
     {
       "type": "VariableDeclaration",
@@ -31,8 +31,8 @@
           "id": {
             "type": "Identifier",
             "name": "options",
-            "start": 311,
-            "end": 318
+            "start": 342,
+            "end": 349
           },
           "init": {
             "type": "ArrayExpression",
@@ -41,82 +41,89 @@
                 "type": "Literal",
                 "value": "language",
                 "raw": "\"language\"",
-                "start": 325,
-                "end": 335
+                "start": 356,
+                "end": 366
               },
               {
                 "type": "Literal",
                 "value": "script",
                 "raw": "\"script\"",
-                "start": 339,
-                "end": 347
+                "start": 370,
+                "end": 378
               },
               {
                 "type": "Literal",
                 "value": "region",
                 "raw": "\"region\"",
-                "start": 351,
-                "end": 359
+                "start": 382,
+                "end": 390
               },
               {
                 "type": "Literal",
                 "value": "variants",
                 "raw": "\"variants\"",
-                "start": 363,
-                "end": 373
+                "start": 394,
+                "end": 404
               },
               {
                 "type": "Literal",
                 "value": "calendar",
                 "raw": "\"calendar\"",
-                "start": 377,
-                "end": 387
+                "start": 408,
+                "end": 418
               },
               {
                 "type": "Literal",
                 "value": "collation",
                 "raw": "\"collation\"",
-                "start": 391,
-                "end": 402
+                "start": 422,
+                "end": 433
+              },
+              {
+                "type": "Literal",
+                "value": "firstDayOfWeek",
+                "raw": "\"firstDayOfWeek\"",
+                "start": 437,
+                "end": 453
               },
               {
                 "type": "Literal",
                 "value": "hourCycle",
                 "raw": "\"hourCycle\"",
-                "start": 406,
-                "end": 417
+                "start": 457,
+                "end": 468
               },
               {
                 "type": "Literal",
                 "value": "caseFirst",
                 "raw": "\"caseFirst\"",
-                "start": 421,
-                "end": 432
+                "start": 472,
+                "end": 483
               },
               {
                 "type": "Literal",
                 "value": "numeric",
                 "raw": "\"numeric\"",
-                "start": 436,
-                "end": 445
+                "start": 487,
+                "end": 496
               },
               {
                 "type": "Literal",
                 "value": "numberingSystem",
                 "raw": "\"numberingSystem\"",
-                "start": 449,
-                "end": 466
+                "start": 500,
+                "end": 517
               }
             ],
-            "start": 321,
-            "end": 469
+            "start": 352,
+            "end": 520
           },
-          "start": 311,
-          "end": 469
+          "start": 342,
+          "end": 520
         }
       ],
-      "start": 305,
-      "end": 470
+      "start": 336,
+      "end": 521
     },
     {
       "type": "ForOfStatement",
@@ -130,22 +137,22 @@
             "id": {
               "type": "Identifier",
               "name": "option",
-              "start": 483,
-              "end": 489
+              "start": 534,
+              "end": 540
             },
             "init": null,
-            "start": 483,
-            "end": 489
+            "start": 534,
+            "end": 540
           }
         ],
-        "start": 477,
-        "end": 489
+        "start": 528,
+        "end": 540
       },
       "right": {
         "type": "Identifier",
         "name": "options",
-        "start": 493,
-        "end": 500
+        "start": 544,
+        "end": 551
       },
       "body": {
         "type": "BlockStatement",
@@ -159,26 +166,26 @@
                 "object": {
                   "type": "Identifier",
                   "name": "assert",
-                  "start": 506,
-                  "end": 512
+                  "start": 557,
+                  "end": 563
                 },
                 "property": {
                   "type": "Identifier",
                   "name": "throws",
-                  "start": 513,
-                  "end": 519
+                  "start": 564,
+                  "end": 570
                 },
                 "optional": false,
                 "computed": false,
-                "start": 506,
-                "end": 519
+                "start": 557,
+                "end": 570
               },
               "arguments": [
                 {
                   "type": "Identifier",
                   "name": "CustomError",
-                  "start": 520,
-                  "end": 531
+                  "start": 571,
+                  "end": 582
                 },
                 {
                   "type": "ArrowFunctionExpression",
@@ -197,27 +204,27 @@
                             "object": {
                               "type": "Identifier",
                               "name": "Intl",
-                              "start": 549,
-                              "end": 553
+                              "start": 600,
+                              "end": 604
                             },
                             "property": {
                               "type": "Identifier",
                               "name": "Locale",
-                              "start": 554,
-                              "end": 560
+                              "start": 605,
+                              "end": 611
                             },
                             "optional": false,
                             "computed": false,
-                            "start": 549,
-                            "end": 560
+                            "start": 600,
+                            "end": 611
                           },
                           "arguments": [
                             {
                               "type": "Literal",
                               "value": "en",
                               "raw": "\"en\"",
-                              "start": 561,
-                              "end": 565
+                              "start": 612,
+                              "end": 616
                             },
                             {
                               "type": "ObjectExpression",
@@ -228,8 +235,8 @@
                                   "key": {
                                     "type": "Identifier",
                                     "name": "option",
-                                    "start": 580,
-                                    "end": 586
+                                    "start": 631,
+                                    "end": 637
                                   },
                                   "value": {
                                     "type": "FunctionExpression",
@@ -247,49 +254,49 @@
                                             "callee": {
                                               "type": "Identifier",
                                               "name": "CustomError",
-                                              "start": 610,
-                                              "end": 621
+                                              "start": 661,
+                                              "end": 672
                                             },
                                             "arguments": [],
-                                            "start": 606,
-                                            "end": 623
+                                            "start": 657,
+                                            "end": 674
                                           },
-                                          "start": 600,
-                                          "end": 624
+                                          "start": 651,
+                                          "end": 675
                                         }
                                       ],
-                                      "start": 590,
-                                      "end": 632
+                                      "start": 641,
+                                      "end": 683
                                     },
                                     "expression": false,
-                                    "start": 587,
-                                    "end": 632
+                                    "start": 638,
+                                    "end": 683
                                   },
                                   "method": false,
                                   "shorthand": false,
                                   "computed": true,
-                                  "start": 575,
-                                  "end": 632
+                                  "start": 626,
+                                  "end": 683
                                 }
                               ],
-                              "start": 567,
-                              "end": 638
+                              "start": 618,
+                              "end": 689
                             }
                           ],
-                          "start": 545,
-                          "end": 639
+                          "start": 596,
+                          "end": 690
                         },
-                        "start": 545,
-                        "end": 640
+                        "start": 596,
+                        "end": 691
                       }
                     ],
-                    "start": 539,
-                    "end": 644
+                    "start": 590,
+                    "end": 695
                   },
                   "id": null,
                   "generator": false,
-                  "start": 533,
-                  "end": 644
+                  "start": 584,
+                  "end": 695
                 },
                 {
                   "type": "TemplateLiteral",
@@ -301,8 +308,8 @@
                         "cooked": "new Intl.Locale(\"en\", {get "
                       },
                       "tail": false,
-                      "start": 649,
-                      "end": 676
+                      "start": 700,
+                      "end": 727
                     },
                     {
                       "type": "TemplateElement",
@@ -311,39 +318,39 @@
                         "cooked": "() {throw new CustomError();}}) throws CustomError"
                       },
                       "tail": true,
-                      "start": 685,
-                      "end": 735
+                      "start": 736,
+                      "end": 786
                     }
                   ],
                   "expressions": [
                     {
                       "type": "Identifier",
                       "name": "option",
-                      "start": 678,
-                      "end": 684
+                      "start": 729,
+                      "end": 735
                     }
                   ],
-                  "start": 648,
-                  "end": 736
+                  "start": 699,
+                  "end": 787
                 }
               ],
               "optional": false,
-              "start": 506,
-              "end": 737
+              "start": 557,
+              "end": 788
             },
-            "start": 506,
-            "end": 738
+            "start": 557,
+            "end": 789
           }
         ],
-        "start": 502,
-        "end": 740
+        "start": 553,
+        "end": 791
       },
-      "start": 472,
-      "end": 740
+      "start": 523,
+      "end": 791
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 741
+  "end": 792
 }

@@ -10,8 +10,8 @@
           "id": {
             "type": "Identifier",
             "name": "invalidNumberingSystemOptions",
-            "start": 652,
-            "end": 681
+            "start": 691,
+            "end": 720
           },
           "init": {
             "type": "ArrayExpression",
@@ -20,110 +20,110 @@
                 "type": "Literal",
                 "value": "",
                 "raw": "\"\"",
-                "start": 688,
-                "end": 690
+                "start": 727,
+                "end": 729
               },
               {
                 "type": "Literal",
                 "value": "a",
                 "raw": "\"a\"",
-                "start": 694,
-                "end": 697
+                "start": 733,
+                "end": 736
               },
               {
                 "type": "Literal",
                 "value": "ab",
                 "raw": "\"ab\"",
-                "start": 701,
-                "end": 705
+                "start": 740,
+                "end": 744
               },
               {
                 "type": "Literal",
                 "value": "abcdefghi",
                 "raw": "\"abcdefghi\"",
-                "start": 709,
-                "end": 720
+                "start": 748,
+                "end": 759
               },
               {
                 "type": "Literal",
                 "value": "abc-abcdefghi",
                 "raw": "\"abc-abcdefghi\"",
-                "start": 724,
-                "end": 739
+                "start": 763,
+                "end": 778
               },
               {
                 "type": "Literal",
                 "value": "!invalid!",
                 "raw": "\"!invalid!\"",
-                "start": 743,
-                "end": 754
+                "start": 782,
+                "end": 793
               },
               {
                 "type": "Literal",
                 "value": "-latn-",
                 "raw": "\"-latn-\"",
-                "start": 758,
-                "end": 766
+                "start": 797,
+                "end": 805
               },
               {
                 "type": "Literal",
                 "value": "latn-",
                 "raw": "\"latn-\"",
-                "start": 770,
-                "end": 777
+                "start": 809,
+                "end": 816
               },
               {
                 "type": "Literal",
                 "value": "latn--",
                 "raw": "\"latn--\"",
-                "start": 781,
-                "end": 789
+                "start": 820,
+                "end": 828
               },
               {
                 "type": "Literal",
                 "value": "latn-ca",
                 "raw": "\"latn-ca\"",
-                "start": 793,
-                "end": 802
+                "start": 832,
+                "end": 841
               },
               {
                 "type": "Literal",
                 "value": "latn-ca-",
                 "raw": "\"latn-ca-\"",
-                "start": 806,
-                "end": 816
+                "start": 845,
+                "end": 855
               },
               {
                 "type": "Literal",
                 "value": "latn-ca-gregory",
                 "raw": "\"latn-ca-gregory\"",
-                "start": 820,
-                "end": 837
+                "start": 859,
+                "end": 876
               },
               {
                 "type": "Literal",
                 "value": "latné",
                 "raw": "\"latné\"",
-                "start": 841,
-                "end": 848
+                "start": 880,
+                "end": 887
               },
               {
                 "type": "Literal",
                 "value": "latn编号",
                 "raw": "\"latn编号\"",
-                "start": 852,
-                "end": 860
+                "start": 891,
+                "end": 899
               }
             ],
-            "start": 684,
-            "end": 863
+            "start": 723,
+            "end": 902
           },
-          "start": 652,
-          "end": 863
+          "start": 691,
+          "end": 902
         }
       ],
-      "start": 646,
-      "end": 864
+      "start": 685,
+      "end": 903
     },
     {
       "type": "ForOfStatement",
@@ -137,22 +137,22 @@
             "id": {
               "type": "Identifier",
               "name": "numberingSystem",
-              "start": 876,
-              "end": 891
+              "start": 915,
+              "end": 930
             },
             "init": null,
-            "start": 876,
-            "end": 891
+            "start": 915,
+            "end": 930
           }
         ],
-        "start": 870,
-        "end": 891
+        "start": 909,
+        "end": 930
       },
       "right": {
         "type": "Identifier",
         "name": "invalidNumberingSystemOptions",
-        "start": 895,
-        "end": 924
+        "start": 934,
+        "end": 963
       },
       "body": {
         "type": "BlockStatement",
@@ -166,26 +166,26 @@
                 "object": {
                   "type": "Identifier",
                   "name": "assert",
-                  "start": 930,
-                  "end": 936
+                  "start": 969,
+                  "end": 975
                 },
                 "property": {
                   "type": "Identifier",
                   "name": "throws",
-                  "start": 937,
-                  "end": 943
+                  "start": 976,
+                  "end": 982
                 },
                 "optional": false,
                 "computed": false,
-                "start": 930,
-                "end": 943
+                "start": 969,
+                "end": 982
               },
               "arguments": [
                 {
                   "type": "Identifier",
                   "name": "RangeError",
-                  "start": 944,
-                  "end": 954
+                  "start": 983,
+                  "end": 993
                 },
                 {
                   "type": "FunctionExpression",
@@ -205,27 +205,27 @@
                             "object": {
                               "type": "Identifier",
                               "name": "Intl",
-                              "start": 977,
-                              "end": 981
+                              "start": 1016,
+                              "end": 1020
                             },
                             "property": {
                               "type": "Identifier",
                               "name": "NumberFormat",
-                              "start": 982,
-                              "end": 994
+                              "start": 1021,
+                              "end": 1033
                             },
                             "optional": false,
                             "computed": false,
-                            "start": 977,
-                            "end": 994
+                            "start": 1016,
+                            "end": 1033
                           },
                           "arguments": [
                             {
                               "type": "Literal",
                               "value": "en",
                               "raw": "'en'",
-                              "start": 995,
-                              "end": 999
+                              "start": 1034,
+                              "end": 1038
                             },
                             {
                               "type": "ObjectExpression",
@@ -236,39 +236,39 @@
                                   "key": {
                                     "type": "Identifier",
                                     "name": "numberingSystem",
-                                    "start": 1002,
-                                    "end": 1017
+                                    "start": 1041,
+                                    "end": 1056
                                   },
                                   "value": {
                                     "type": "Identifier",
                                     "name": "numberingSystem",
-                                    "start": 1002,
-                                    "end": 1017
+                                    "start": 1041,
+                                    "end": 1056
                                   },
                                   "method": false,
                                   "shorthand": true,
                                   "computed": false,
-                                  "start": 1002,
-                                  "end": 1017
+                                  "start": 1041,
+                                  "end": 1056
                                 }
                               ],
-                              "start": 1001,
-                              "end": 1018
+                              "start": 1040,
+                              "end": 1057
                             }
                           ],
-                          "start": 973,
-                          "end": 1019
+                          "start": 1012,
+                          "end": 1058
                         },
-                        "start": 973,
-                        "end": 1020
+                        "start": 1012,
+                        "end": 1059
                       }
                     ],
-                    "start": 967,
-                    "end": 1024
+                    "start": 1006,
+                    "end": 1063
                   },
                   "expression": false,
-                  "start": 956,
-                  "end": 1024
+                  "start": 995,
+                  "end": 1063
                 },
                 {
                   "type": "TemplateLiteral",
@@ -280,8 +280,8 @@
                         "cooked": "new Intl.NumberFormat(\"en\", {numberingSystem: \""
                       },
                       "tail": false,
-                      "start": 1027,
-                      "end": 1074
+                      "start": 1066,
+                      "end": 1113
                     },
                     {
                       "type": "TemplateElement",
@@ -290,39 +290,39 @@
                         "cooked": "\"}) throws RangeError"
                       },
                       "tail": true,
-                      "start": 1092,
-                      "end": 1113
+                      "start": 1131,
+                      "end": 1152
                     }
                   ],
                   "expressions": [
                     {
                       "type": "Identifier",
                       "name": "numberingSystem",
-                      "start": 1076,
-                      "end": 1091
+                      "start": 1115,
+                      "end": 1130
                     }
                   ],
-                  "start": 1026,
-                  "end": 1114
+                  "start": 1065,
+                  "end": 1153
                 }
               ],
               "optional": false,
-              "start": 930,
-              "end": 1115
+              "start": 969,
+              "end": 1154
             },
-            "start": 930,
-            "end": 1116
+            "start": 969,
+            "end": 1155
           }
         ],
-        "start": 926,
-        "end": 1118
+        "start": 965,
+        "end": 1157
       },
-      "start": 865,
-      "end": 1118
+      "start": 904,
+      "end": 1157
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 1119
+  "end": 1158
 }

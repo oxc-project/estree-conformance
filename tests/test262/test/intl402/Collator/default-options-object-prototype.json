@@ -10,8 +10,8 @@
           "id": {
             "type": "Identifier",
             "name": "defaultSensitivity",
-            "start": 459,
-            "end": 477
+            "start": 304,
+            "end": 322
           },
           "init": {
             "type": "MemberExpression",
@@ -26,65 +26,65 @@
                     "object": {
                       "type": "Identifier",
                       "name": "Intl",
-                      "start": 484,
-                      "end": 488
+                      "start": 329,
+                      "end": 333
                     },
                     "property": {
                       "type": "Identifier",
                       "name": "Collator",
-                      "start": 489,
-                      "end": 497
+                      "start": 334,
+                      "end": 342
                     },
                     "optional": false,
                     "computed": false,
-                    "start": 484,
-                    "end": 497
+                    "start": 329,
+                    "end": 342
                   },
                   "arguments": [
                     {
                       "type": "Literal",
                       "value": "en",
                       "raw": "\"en\"",
-                      "start": 498,
-                      "end": 502
+                      "start": 343,
+                      "end": 347
                     }
                   ],
-                  "start": 480,
-                  "end": 503
+                  "start": 325,
+                  "end": 348
                 },
                 "property": {
                   "type": "Identifier",
                   "name": "resolvedOptions",
-                  "start": 504,
-                  "end": 519
+                  "start": 349,
+                  "end": 364
                 },
                 "optional": false,
                 "computed": false,
-                "start": 480,
-                "end": 519
+                "start": 325,
+                "end": 364
               },
               "arguments": [],
               "optional": false,
-              "start": 480,
-              "end": 521
+              "start": 325,
+              "end": 366
             },
             "property": {
               "type": "Identifier",
               "name": "sensitivity",
-              "start": 522,
-              "end": 533
+              "start": 367,
+              "end": 378
             },
             "optional": false,
             "computed": false,
-            "start": 480,
-            "end": 533
+            "start": 325,
+            "end": 378
           },
-          "start": 459,
-          "end": 533
+          "start": 304,
+          "end": 378
         }
       ],
-      "start": 455,
-      "end": 534
+      "start": 300,
+      "end": 379
     },
     {
       "type": "ExpressionStatement",
@@ -98,43 +98,43 @@
             "object": {
               "type": "Identifier",
               "name": "Object",
-              "start": 536,
-              "end": 542
+              "start": 381,
+              "end": 387
             },
             "property": {
               "type": "Identifier",
               "name": "prototype",
-              "start": 543,
-              "end": 552
+              "start": 388,
+              "end": 397
             },
             "optional": false,
             "computed": false,
-            "start": 536,
-            "end": 552
+            "start": 381,
+            "end": 397
           },
           "property": {
             "type": "Identifier",
             "name": "sensitivity",
-            "start": 553,
-            "end": 564
+            "start": 398,
+            "end": 409
           },
           "optional": false,
           "computed": false,
-          "start": 536,
-          "end": 564
+          "start": 381,
+          "end": 409
         },
         "right": {
           "type": "Literal",
           "value": "base",
           "raw": "\"base\"",
-          "start": 567,
-          "end": 573
+          "start": 412,
+          "end": 418
         },
-        "start": 536,
-        "end": 573
+        "start": 381,
+        "end": 418
       },
-      "start": 536,
-      "end": 574
+      "start": 381,
+      "end": 419
     },
     {
       "type": "VariableDeclaration",
@@ -145,8 +145,8 @@
           "id": {
             "type": "Identifier",
             "name": "collator",
-            "start": 579,
-            "end": 587
+            "start": 424,
+            "end": 432
           },
           "init": {
             "type": "NewExpression",
@@ -155,38 +155,38 @@
               "object": {
                 "type": "Identifier",
                 "name": "Intl",
-                "start": 594,
-                "end": 598
+                "start": 439,
+                "end": 443
               },
               "property": {
                 "type": "Identifier",
                 "name": "Collator",
-                "start": 599,
-                "end": 607
+                "start": 444,
+                "end": 452
               },
               "optional": false,
               "computed": false,
-              "start": 594,
-              "end": 607
+              "start": 439,
+              "end": 452
             },
             "arguments": [
               {
                 "type": "Literal",
                 "value": "en",
                 "raw": "\"en\"",
-                "start": 608,
-                "end": 612
+                "start": 453,
+                "end": 457
               }
             ],
-            "start": 590,
-            "end": 613
+            "start": 435,
+            "end": 458
           },
-          "start": 579,
-          "end": 613
+          "start": 424,
+          "end": 458
         }
       ],
-      "start": 575,
-      "end": 614
+      "start": 420,
+      "end": 459
     },
     {
       "type": "ExpressionStatement",
@@ -197,19 +197,19 @@
           "object": {
             "type": "Identifier",
             "name": "assert",
-            "start": 615,
-            "end": 621
+            "start": 460,
+            "end": 466
           },
           "property": {
             "type": "Identifier",
             "name": "sameValue",
-            "start": 622,
-            "end": 631
+            "start": 467,
+            "end": 476
           },
           "optional": false,
           "computed": false,
-          "start": 615,
-          "end": 631
+          "start": 460,
+          "end": 476
         },
         "arguments": [
           {
@@ -221,53 +221,53 @@
                 "object": {
                   "type": "Identifier",
                   "name": "collator",
-                  "start": 632,
-                  "end": 640
+                  "start": 477,
+                  "end": 485
                 },
                 "property": {
                   "type": "Identifier",
                   "name": "resolvedOptions",
-                  "start": 641,
-                  "end": 656
+                  "start": 486,
+                  "end": 501
                 },
                 "optional": false,
                 "computed": false,
-                "start": 632,
-                "end": 656
+                "start": 477,
+                "end": 501
               },
               "arguments": [],
               "optional": false,
-              "start": 632,
-              "end": 658
+              "start": 477,
+              "end": 503
             },
             "property": {
               "type": "Identifier",
               "name": "sensitivity",
-              "start": 659,
-              "end": 670
+              "start": 504,
+              "end": 515
             },
             "optional": false,
             "computed": false,
-            "start": 632,
-            "end": 670
+            "start": 477,
+            "end": 515
           },
           {
             "type": "Identifier",
             "name": "defaultSensitivity",
-            "start": 672,
-            "end": 690
+            "start": 517,
+            "end": 535
           }
         ],
         "optional": false,
-        "start": 615,
-        "end": 691
+        "start": 460,
+        "end": 536
       },
-      "start": 615,
-      "end": 692
+      "start": 460,
+      "end": 537
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 693
+  "end": 538
 }

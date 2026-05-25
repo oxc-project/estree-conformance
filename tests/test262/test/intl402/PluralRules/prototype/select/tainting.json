@@ -8,8 +8,8 @@
         "callee": {
           "type": "Identifier",
           "name": "taintProperties",
-          "start": 523,
-          "end": 538
+          "start": 513,
+          "end": 528
         },
         "arguments": [
           {
@@ -19,20 +19,20 @@
                 "type": "Literal",
                 "value": "type",
                 "raw": "\"type\"",
-                "start": 540,
-                "end": 546
+                "start": 530,
+                "end": 536
               }
             ],
-            "start": 539,
-            "end": 547
+            "start": 529,
+            "end": 537
           }
         ],
         "optional": false,
-        "start": 523,
-        "end": 548
+        "start": 513,
+        "end": 538
       },
-      "start": 523,
-      "end": 549
+      "start": 513,
+      "end": 539
     },
     {
       "type": "VariableDeclaration",
@@ -43,8 +43,8 @@
           "id": {
             "type": "Identifier",
             "name": "pr",
-            "start": 555,
-            "end": 557
+            "start": 545,
+            "end": 547
           },
           "init": {
             "type": "NewExpression",
@@ -53,30 +53,30 @@
               "object": {
                 "type": "Identifier",
                 "name": "Intl",
-                "start": 564,
-                "end": 568
+                "start": 554,
+                "end": 558
               },
               "property": {
                 "type": "Identifier",
                 "name": "PluralRules",
-                "start": 569,
-                "end": 580
+                "start": 559,
+                "end": 570
               },
               "optional": false,
               "computed": false,
-              "start": 564,
-              "end": 580
+              "start": 554,
+              "end": 570
             },
             "arguments": [],
-            "start": 560,
-            "end": 582
+            "start": 550,
+            "end": 572
           },
-          "start": 555,
-          "end": 582
+          "start": 545,
+          "end": 572
         }
       ],
-      "start": 551,
-      "end": 583
+      "start": 541,
+      "end": 573
     },
     {
       "type": "VariableDeclaration",
@@ -87,8 +87,8 @@
           "id": {
             "type": "Identifier",
             "name": "time",
-            "start": 588,
-            "end": 592
+            "start": 578,
+            "end": 582
           },
           "init": {
             "type": "CallExpression",
@@ -97,43 +97,43 @@
               "object": {
                 "type": "Identifier",
                 "name": "pr",
-                "start": 595,
-                "end": 597
+                "start": 585,
+                "end": 587
               },
               "property": {
                 "type": "Identifier",
                 "name": "select",
-                "start": 598,
-                "end": 604
+                "start": 588,
+                "end": 594
               },
               "optional": false,
               "computed": false,
-              "start": 595,
-              "end": 604
+              "start": 585,
+              "end": 594
             },
             "arguments": [
               {
                 "type": "Literal",
                 "value": 9,
                 "raw": "9",
-                "start": 605,
-                "end": 606
+                "start": 595,
+                "end": 596
               }
             ],
             "optional": false,
-            "start": 595,
-            "end": 607
+            "start": 585,
+            "end": 597
           },
-          "start": 588,
-          "end": 607
+          "start": 578,
+          "end": 597
         }
       ],
-      "start": 584,
-      "end": 608
+      "start": 574,
+      "end": 598
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 609
+  "end": 599
 }

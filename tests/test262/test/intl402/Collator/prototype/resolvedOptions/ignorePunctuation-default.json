@@ -10,19 +10,19 @@
           "object": {
             "type": "Identifier",
             "name": "assert",
-            "start": 279,
-            "end": 285
+            "start": 274,
+            "end": 280
           },
           "property": {
             "type": "Identifier",
             "name": "sameValue",
-            "start": 286,
-            "end": 295
+            "start": 281,
+            "end": 290
           },
           "optional": false,
           "computed": false,
-          "start": 279,
-          "end": 295
+          "start": 274,
+          "end": 290
         },
         "arguments": [
           {
@@ -40,83 +40,83 @@
                       "object": {
                         "type": "Identifier",
                         "name": "Intl",
-                        "start": 304,
-                        "end": 308
+                        "start": 299,
+                        "end": 303
                       },
                       "property": {
                         "type": "Identifier",
                         "name": "Collator",
-                        "start": 309,
-                        "end": 317
+                        "start": 304,
+                        "end": 312
                       },
                       "optional": false,
                       "computed": false,
-                      "start": 304,
-                      "end": 317
+                      "start": 299,
+                      "end": 312
                     },
                     "arguments": [
                       {
                         "type": "Literal",
                         "value": "en",
                         "raw": "\"en\"",
-                        "start": 318,
-                        "end": 322
+                        "start": 313,
+                        "end": 317
                       }
                     ],
-                    "start": 300,
-                    "end": 323
+                    "start": 295,
+                    "end": 318
                   },
-                  "start": 299,
-                  "end": 324
+                  "start": 294,
+                  "end": 319
                 },
                 "property": {
                   "type": "Identifier",
                   "name": "resolvedOptions",
-                  "start": 325,
-                  "end": 340
+                  "start": 320,
+                  "end": 335
                 },
                 "optional": false,
                 "computed": false,
-                "start": 299,
-                "end": 340
+                "start": 294,
+                "end": 335
               },
               "arguments": [],
               "optional": false,
-              "start": 299,
-              "end": 342
+              "start": 294,
+              "end": 337
             },
             "property": {
               "type": "Identifier",
               "name": "ignorePunctuation",
-              "start": 343,
-              "end": 360
+              "start": 338,
+              "end": 355
             },
             "optional": false,
             "computed": false,
-            "start": 299,
-            "end": 360
+            "start": 294,
+            "end": 355
           },
           {
             "type": "Literal",
             "value": false,
             "raw": "false",
-            "start": 364,
-            "end": 369
+            "start": 359,
+            "end": 364
           },
           {
             "type": "Literal",
             "value": "English default ignorePunctuation to false",
             "raw": "\"English default ignorePunctuation to false\"",
-            "start": 371,
-            "end": 415
+            "start": 366,
+            "end": 410
           }
         ],
         "optional": false,
-        "start": 279,
-        "end": 416
+        "start": 274,
+        "end": 411
       },
-      "start": 279,
-      "end": 417
+      "start": 274,
+      "end": 412
     },
     {
       "type": "ExpressionStatement",
@@ -127,19 +127,19 @@
           "object": {
             "type": "Identifier",
             "name": "assert",
-            "start": 418,
-            "end": 424
+            "start": 413,
+            "end": 419
           },
           "property": {
             "type": "Identifier",
             "name": "sameValue",
-            "start": 425,
-            "end": 434
+            "start": 420,
+            "end": 429
           },
           "optional": false,
           "computed": false,
-          "start": 418,
-          "end": 434
+          "start": 413,
+          "end": 429
         },
         "arguments": [
           {
@@ -157,83 +157,83 @@
                       "object": {
                         "type": "Identifier",
                         "name": "Intl",
-                        "start": 443,
-                        "end": 447
+                        "start": 438,
+                        "end": 442
                       },
                       "property": {
                         "type": "Identifier",
                         "name": "Collator",
-                        "start": 448,
-                        "end": 456
+                        "start": 443,
+                        "end": 451
                       },
                       "optional": false,
                       "computed": false,
-                      "start": 443,
-                      "end": 456
+                      "start": 438,
+                      "end": 451
                     },
                     "arguments": [
                       {
                         "type": "Literal",
                         "value": "th",
                         "raw": "\"th\"",
-                        "start": 457,
-                        "end": 461
+                        "start": 452,
+                        "end": 456
                       }
                     ],
-                    "start": 439,
-                    "end": 462
+                    "start": 434,
+                    "end": 457
                   },
-                  "start": 438,
-                  "end": 463
+                  "start": 433,
+                  "end": 458
                 },
                 "property": {
                   "type": "Identifier",
                   "name": "resolvedOptions",
-                  "start": 464,
-                  "end": 479
+                  "start": 459,
+                  "end": 474
                 },
                 "optional": false,
                 "computed": false,
-                "start": 438,
-                "end": 479
+                "start": 433,
+                "end": 474
               },
               "arguments": [],
               "optional": false,
-              "start": 438,
-              "end": 481
+              "start": 433,
+              "end": 476
             },
             "property": {
               "type": "Identifier",
               "name": "ignorePunctuation",
-              "start": 482,
-              "end": 499
+              "start": 477,
+              "end": 494
             },
             "optional": false,
             "computed": false,
-            "start": 438,
-            "end": 499
+            "start": 433,
+            "end": 494
           },
           {
             "type": "Literal",
             "value": true,
             "raw": "true",
-            "start": 503,
-            "end": 507
+            "start": 498,
+            "end": 502
           },
           {
             "type": "Literal",
             "value": "Thai default ignorePunctuation to true",
             "raw": "\"Thai default ignorePunctuation to true\"",
-            "start": 509,
-            "end": 549
+            "start": 504,
+            "end": 544
           }
         ],
         "optional": false,
-        "start": 418,
-        "end": 550
+        "start": 413,
+        "end": 545
       },
-      "start": 418,
-      "end": 551
+      "start": 413,
+      "end": 546
     },
     {
       "type": "ExpressionStatement",
@@ -244,19 +244,19 @@
           "object": {
             "type": "Identifier",
             "name": "assert",
-            "start": 552,
-            "end": 558
+            "start": 547,
+            "end": 553
           },
           "property": {
             "type": "Identifier",
             "name": "sameValue",
-            "start": 559,
-            "end": 568
+            "start": 554,
+            "end": 563
           },
           "optional": false,
           "computed": false,
-          "start": 552,
-          "end": 568
+          "start": 547,
+          "end": 563
         },
         "arguments": [
           {
@@ -274,87 +274,87 @@
                       "object": {
                         "type": "Identifier",
                         "name": "Intl",
-                        "start": 577,
-                        "end": 581
+                        "start": 572,
+                        "end": 576
                       },
                       "property": {
                         "type": "Identifier",
                         "name": "Collator",
-                        "start": 582,
-                        "end": 590
+                        "start": 577,
+                        "end": 585
                       },
                       "optional": false,
                       "computed": false,
-                      "start": 577,
-                      "end": 590
+                      "start": 572,
+                      "end": 585
                     },
                     "arguments": [
                       {
                         "type": "Literal",
                         "value": "ja",
                         "raw": "\"ja\"",
-                        "start": 591,
-                        "end": 595
+                        "start": 586,
+                        "end": 590
                       }
                     ],
-                    "start": 573,
-                    "end": 596
+                    "start": 568,
+                    "end": 591
                   },
-                  "start": 572,
-                  "end": 597
+                  "start": 567,
+                  "end": 592
                 },
                 "property": {
                   "type": "Identifier",
                   "name": "resolvedOptions",
-                  "start": 598,
-                  "end": 613
+                  "start": 593,
+                  "end": 608
                 },
                 "optional": false,
                 "computed": false,
-                "start": 572,
-                "end": 613
+                "start": 567,
+                "end": 608
               },
               "arguments": [],
               "optional": false,
-              "start": 572,
-              "end": 615
+              "start": 567,
+              "end": 610
             },
             "property": {
               "type": "Identifier",
               "name": "ignorePunctuation",
-              "start": 616,
-              "end": 633
+              "start": 611,
+              "end": 628
             },
             "optional": false,
             "computed": false,
-            "start": 572,
-            "end": 633
+            "start": 567,
+            "end": 628
           },
           {
             "type": "Literal",
             "value": false,
             "raw": "false",
-            "start": 637,
-            "end": 642
+            "start": 632,
+            "end": 637
           },
           {
             "type": "Literal",
             "value": "Japanese default ignorePunctuation to false",
             "raw": "\"Japanese default ignorePunctuation to false\"",
-            "start": 644,
-            "end": 689
+            "start": 639,
+            "end": 684
           }
         ],
         "optional": false,
-        "start": 552,
-        "end": 690
+        "start": 547,
+        "end": 685
       },
-      "start": 552,
-      "end": 691
+      "start": 547,
+      "end": 686
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 692
+  "end": 687
 }

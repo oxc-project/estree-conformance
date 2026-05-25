@@ -10,8 +10,8 @@
           "id": {
             "type": "Identifier",
             "name": "wontThrow",
-            "start": 572,
-            "end": 581
+            "start": 615,
+            "end": 624
           },
           "init": {
             "type": "NewExpression",
@@ -20,26 +20,26 @@
               "object": {
                 "type": "Identifier",
                 "name": "Intl",
-                "start": 588,
-                "end": 592
+                "start": 631,
+                "end": 635
               },
               "property": {
                 "type": "Identifier",
                 "name": "NumberFormat",
-                "start": 593,
-                "end": 605
+                "start": 636,
+                "end": 648
               },
               "optional": false,
               "computed": false,
-              "start": 588,
-              "end": 605
+              "start": 631,
+              "end": 648
             },
             "arguments": [
               {
                 "type": "Identifier",
                 "name": "undefined",
-                "start": 606,
-                "end": 615
+                "start": 649,
+                "end": 658
               },
               {
                 "type": "ObjectExpression",
@@ -50,36 +50,36 @@
                     "key": {
                       "type": "Identifier",
                       "name": "maximumFractionDigits",
-                      "start": 618,
-                      "end": 639
+                      "start": 661,
+                      "end": 682
                     },
                     "value": {
                       "type": "Literal",
                       "value": 0,
                       "raw": "0",
-                      "start": 641,
-                      "end": 642
+                      "start": 684,
+                      "end": 685
                     },
                     "method": false,
                     "shorthand": false,
                     "computed": false,
-                    "start": 618,
-                    "end": 642
+                    "start": 661,
+                    "end": 685
                   }
                 ],
-                "start": 617,
-                "end": 643
+                "start": 660,
+                "end": 686
               }
             ],
-            "start": 584,
-            "end": 644
+            "start": 627,
+            "end": 687
           },
-          "start": 572,
-          "end": 644
+          "start": 615,
+          "end": 687
         }
       ],
-      "start": 568,
-      "end": 645
+      "start": 611,
+      "end": 688
     },
     {
       "type": "ExpressionStatement",
@@ -90,26 +90,26 @@
           "object": {
             "type": "Identifier",
             "name": "assert",
-            "start": 647,
-            "end": 653
+            "start": 690,
+            "end": 696
           },
           "property": {
             "type": "Identifier",
             "name": "throws",
-            "start": 654,
-            "end": 660
+            "start": 697,
+            "end": 703
           },
           "optional": false,
           "computed": false,
-          "start": 647,
-          "end": 660
+          "start": 690,
+          "end": 703
         },
         "arguments": [
           {
             "type": "Identifier",
             "name": "RangeError",
-            "start": 661,
-            "end": 671
+            "start": 704,
+            "end": 714
           },
           {
             "type": "FunctionExpression",
@@ -129,26 +129,26 @@
                       "object": {
                         "type": "Identifier",
                         "name": "Intl",
-                        "start": 706,
-                        "end": 710
+                        "start": 749,
+                        "end": 753
                       },
                       "property": {
                         "type": "Identifier",
                         "name": "NumberFormat",
-                        "start": 711,
-                        "end": 723
+                        "start": 754,
+                        "end": 766
                       },
                       "optional": false,
                       "computed": false,
-                      "start": 706,
-                      "end": 723
+                      "start": 749,
+                      "end": 766
                     },
                     "arguments": [
                       {
                         "type": "Identifier",
                         "name": "undefined",
-                        "start": 724,
-                        "end": 733
+                        "start": 767,
+                        "end": 776
                       },
                       {
                         "type": "ObjectExpression",
@@ -159,8 +159,8 @@
                             "key": {
                               "type": "Identifier",
                               "name": "maximumFractionDigits",
-                              "start": 736,
-                              "end": 757
+                              "start": 779,
+                              "end": 800
                             },
                             "value": {
                               "type": "UnaryExpression",
@@ -169,56 +169,56 @@
                                 "type": "Literal",
                                 "value": 1,
                                 "raw": "1",
-                                "start": 760,
-                                "end": 761
+                                "start": 803,
+                                "end": 804
                               },
                               "prefix": true,
-                              "start": 759,
-                              "end": 761
+                              "start": 802,
+                              "end": 804
                             },
                             "method": false,
                             "shorthand": false,
                             "computed": false,
-                            "start": 736,
-                            "end": 761
+                            "start": 779,
+                            "end": 804
                           }
                         ],
-                        "start": 735,
-                        "end": 762
+                        "start": 778,
+                        "end": 805
                       }
                     ],
-                    "start": 702,
-                    "end": 763
+                    "start": 745,
+                    "end": 806
                   },
-                  "start": 695,
-                  "end": 764
+                  "start": 738,
+                  "end": 807
                 }
               ],
-              "start": 685,
-              "end": 766
+              "start": 728,
+              "end": 809
             },
             "expression": false,
-            "start": 673,
-            "end": 766
+            "start": 716,
+            "end": 809
           },
           {
             "type": "Literal",
             "value": "Throws RangeError when maximumFractionDigits is less than 0.",
             "raw": "\"Throws RangeError when maximumFractionDigits is less than 0.\"",
-            "start": 768,
-            "end": 830
+            "start": 811,
+            "end": 873
           }
         ],
         "optional": false,
-        "start": 647,
-        "end": 831
+        "start": 690,
+        "end": 874
       },
-      "start": 647,
-      "end": 832
+      "start": 690,
+      "end": 875
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 833
+  "end": 876
 }

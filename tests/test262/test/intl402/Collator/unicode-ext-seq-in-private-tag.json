@@ -10,8 +10,8 @@
           "id": {
             "type": "Identifier",
             "name": "c",
-            "start": 899,
-            "end": 900
+            "start": 782,
+            "end": 783
           },
           "init": {
             "type": "NewExpression",
@@ -20,38 +20,38 @@
               "object": {
                 "type": "Identifier",
                 "name": "Intl",
-                "start": 907,
-                "end": 911
+                "start": 790,
+                "end": 794
               },
               "property": {
                 "type": "Identifier",
                 "name": "Collator",
-                "start": 912,
-                "end": 920
+                "start": 795,
+                "end": 803
               },
               "optional": false,
               "computed": false,
-              "start": 907,
-              "end": 920
+              "start": 790,
+              "end": 803
             },
             "arguments": [
               {
                 "type": "Literal",
                 "value": "de-x-u-co-phonebk",
                 "raw": "\"de-x-u-co-phonebk\"",
-                "start": 921,
-                "end": 940
+                "start": 804,
+                "end": 823
               }
             ],
-            "start": 903,
-            "end": 941
+            "start": 786,
+            "end": 824
           },
-          "start": 899,
-          "end": 941
+          "start": 782,
+          "end": 824
         }
       ],
-      "start": 895,
-      "end": 942
+      "start": 778,
+      "end": 825
     },
     {
       "type": "VariableDeclaration",
@@ -62,8 +62,8 @@
           "id": {
             "type": "Identifier",
             "name": "resolved",
-            "start": 947,
-            "end": 955
+            "start": 830,
+            "end": 838
           },
           "init": {
             "type": "CallExpression",
@@ -72,31 +72,31 @@
               "object": {
                 "type": "Identifier",
                 "name": "c",
-                "start": 958,
-                "end": 959
+                "start": 841,
+                "end": 842
               },
               "property": {
                 "type": "Identifier",
                 "name": "resolvedOptions",
-                "start": 960,
-                "end": 975
+                "start": 843,
+                "end": 858
               },
               "optional": false,
               "computed": false,
-              "start": 958,
-              "end": 975
+              "start": 841,
+              "end": 858
             },
             "arguments": [],
             "optional": false,
-            "start": 958,
-            "end": 977
+            "start": 841,
+            "end": 860
           },
-          "start": 947,
-          "end": 977
+          "start": 830,
+          "end": 860
         }
       ],
-      "start": 943,
-      "end": 978
+      "start": 826,
+      "end": 861
     },
     {
       "type": "ExpressionStatement",
@@ -107,19 +107,19 @@
           "object": {
             "type": "Identifier",
             "name": "assert",
-            "start": 980,
-            "end": 986
+            "start": 863,
+            "end": 869
           },
           "property": {
             "type": "Identifier",
             "name": "sameValue",
-            "start": 987,
-            "end": 996
+            "start": 870,
+            "end": 879
           },
           "optional": false,
           "computed": false,
-          "start": 980,
-          "end": 996
+          "start": 863,
+          "end": 879
         },
         "arguments": [
           {
@@ -127,38 +127,38 @@
             "object": {
               "type": "Identifier",
               "name": "resolved",
-              "start": 997,
-              "end": 1005
+              "start": 880,
+              "end": 888
             },
             "property": {
               "type": "Identifier",
               "name": "collation",
-              "start": 1006,
-              "end": 1015
+              "start": 889,
+              "end": 898
             },
             "optional": false,
             "computed": false,
-            "start": 997,
-            "end": 1015
+            "start": 880,
+            "end": 898
           },
           {
             "type": "Literal",
             "value": "default",
             "raw": "\"default\"",
-            "start": 1017,
-            "end": 1026
+            "start": 900,
+            "end": 909
           }
         ],
         "optional": false,
-        "start": 980,
-        "end": 1027
+        "start": 863,
+        "end": 910
       },
-      "start": 980,
-      "end": 1028
+      "start": 863,
+      "end": 911
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 1029
+  "end": 912
 }

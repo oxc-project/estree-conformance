@@ -10,26 +10,26 @@
           "object": {
             "type": "Identifier",
             "name": "assert",
-            "start": 281,
-            "end": 287
+            "start": 276,
+            "end": 282
           },
           "property": {
             "type": "Identifier",
             "name": "throws",
-            "start": 288,
-            "end": 294
+            "start": 283,
+            "end": 289
           },
           "optional": false,
           "computed": false,
-          "start": 281,
-          "end": 294
+          "start": 276,
+          "end": 289
         },
         "arguments": [
           {
             "type": "Identifier",
             "name": "RangeError",
-            "start": 295,
-            "end": 305
+            "start": 290,
+            "end": 300
           },
           {
             "type": "FunctionExpression",
@@ -49,26 +49,26 @@
                       "object": {
                         "type": "Identifier",
                         "name": "Intl",
-                        "start": 326,
-                        "end": 330
+                        "start": 321,
+                        "end": 325
                       },
                       "property": {
                         "type": "Identifier",
                         "name": "NumberFormat",
-                        "start": 331,
-                        "end": 343
+                        "start": 326,
+                        "end": 338
                       },
                       "optional": false,
                       "computed": false,
-                      "start": 326,
-                      "end": 343
+                      "start": 321,
+                      "end": 338
                     },
                     "arguments": [
                       {
                         "type": "ArrayExpression",
                         "elements": [],
-                        "start": 344,
-                        "end": 346
+                        "start": 339,
+                        "end": 341
                       },
                       {
                         "type": "ObjectExpression",
@@ -79,55 +79,55 @@
                             "key": {
                               "type": "Identifier",
                               "name": "trailingZeroDisplay",
-                              "start": 349,
-                              "end": 368
+                              "start": 344,
+                              "end": 363
                             },
                             "value": {
                               "type": "Literal",
                               "value": "",
                               "raw": "''",
-                              "start": 370,
-                              "end": 372
+                              "start": 365,
+                              "end": 367
                             },
                             "method": false,
                             "shorthand": false,
                             "computed": false,
-                            "start": 349,
-                            "end": 372
+                            "start": 344,
+                            "end": 367
                           }
                         ],
-                        "start": 348,
-                        "end": 373
+                        "start": 343,
+                        "end": 368
                       }
                     ],
-                    "start": 322,
-                    "end": 374
+                    "start": 317,
+                    "end": 369
                   },
-                  "start": 322,
-                  "end": 375
+                  "start": 317,
+                  "end": 370
                 }
               ],
-              "start": 318,
-              "end": 377
+              "start": 313,
+              "end": 372
             },
             "expression": false,
-            "start": 307,
-            "end": 377
+            "start": 302,
+            "end": 372
           },
           {
             "type": "Literal",
             "value": "empty string",
             "raw": "'empty string'",
-            "start": 379,
-            "end": 393
+            "start": 374,
+            "end": 388
           }
         ],
         "optional": false,
-        "start": 281,
-        "end": 394
+        "start": 276,
+        "end": 389
       },
-      "start": 281,
-      "end": 395
+      "start": 276,
+      "end": 390
     },
     {
       "type": "ExpressionStatement",
@@ -138,26 +138,26 @@
           "object": {
             "type": "Identifier",
             "name": "assert",
-            "start": 397,
-            "end": 403
+            "start": 392,
+            "end": 398
           },
           "property": {
             "type": "Identifier",
             "name": "throws",
-            "start": 404,
-            "end": 410
+            "start": 399,
+            "end": 405
           },
           "optional": false,
           "computed": false,
-          "start": 397,
-          "end": 410
+          "start": 392,
+          "end": 405
         },
         "arguments": [
           {
             "type": "Identifier",
             "name": "RangeError",
-            "start": 411,
-            "end": 421
+            "start": 406,
+            "end": 416
           },
           {
             "type": "FunctionExpression",
@@ -177,26 +177,26 @@
                       "object": {
                         "type": "Identifier",
                         "name": "Intl",
-                        "start": 442,
-                        "end": 446
+                        "start": 437,
+                        "end": 441
                       },
                       "property": {
                         "type": "Identifier",
                         "name": "NumberFormat",
-                        "start": 447,
-                        "end": 459
+                        "start": 442,
+                        "end": 454
                       },
                       "optional": false,
                       "computed": false,
-                      "start": 442,
-                      "end": 459
+                      "start": 437,
+                      "end": 454
                     },
                     "arguments": [
                       {
                         "type": "ArrayExpression",
                         "elements": [],
-                        "start": 460,
-                        "end": 462
+                        "start": 455,
+                        "end": 457
                       },
                       {
                         "type": "ObjectExpression",
@@ -207,55 +207,55 @@
                             "key": {
                               "type": "Identifier",
                               "name": "trailingZeroDisplay",
-                              "start": 465,
-                              "end": 484
+                              "start": 460,
+                              "end": 479
                             },
                             "value": {
                               "type": "Literal",
                               "value": "Auto",
                               "raw": "'Auto'",
-                              "start": 486,
-                              "end": 492
+                              "start": 481,
+                              "end": 487
                             },
                             "method": false,
                             "shorthand": false,
                             "computed": false,
-                            "start": 465,
-                            "end": 492
+                            "start": 460,
+                            "end": 487
                           }
                         ],
-                        "start": 464,
-                        "end": 493
+                        "start": 459,
+                        "end": 488
                       }
                     ],
-                    "start": 438,
-                    "end": 494
+                    "start": 433,
+                    "end": 489
                   },
-                  "start": 438,
-                  "end": 495
+                  "start": 433,
+                  "end": 490
                 }
               ],
-              "start": 434,
-              "end": 497
+              "start": 429,
+              "end": 492
             },
             "expression": false,
-            "start": 423,
-            "end": 497
+            "start": 418,
+            "end": 492
           },
           {
             "type": "Literal",
             "value": "Auto",
             "raw": "'Auto'",
-            "start": 499,
-            "end": 505
+            "start": 494,
+            "end": 500
           }
         ],
         "optional": false,
-        "start": 397,
-        "end": 506
+        "start": 392,
+        "end": 501
       },
-      "start": 397,
-      "end": 507
+      "start": 392,
+      "end": 502
     },
     {
       "type": "ExpressionStatement",
@@ -266,26 +266,26 @@
           "object": {
             "type": "Identifier",
             "name": "assert",
-            "start": 509,
-            "end": 515
+            "start": 504,
+            "end": 510
           },
           "property": {
             "type": "Identifier",
             "name": "throws",
-            "start": 516,
-            "end": 522
+            "start": 511,
+            "end": 517
           },
           "optional": false,
           "computed": false,
-          "start": 509,
-          "end": 522
+          "start": 504,
+          "end": 517
         },
         "arguments": [
           {
             "type": "Identifier",
             "name": "RangeError",
-            "start": 523,
-            "end": 533
+            "start": 518,
+            "end": 528
           },
           {
             "type": "FunctionExpression",
@@ -305,26 +305,26 @@
                       "object": {
                         "type": "Identifier",
                         "name": "Intl",
-                        "start": 554,
-                        "end": 558
+                        "start": 549,
+                        "end": 553
                       },
                       "property": {
                         "type": "Identifier",
                         "name": "NumberFormat",
-                        "start": 559,
-                        "end": 571
+                        "start": 554,
+                        "end": 566
                       },
                       "optional": false,
                       "computed": false,
-                      "start": 554,
-                      "end": 571
+                      "start": 549,
+                      "end": 566
                     },
                     "arguments": [
                       {
                         "type": "ArrayExpression",
                         "elements": [],
-                        "start": 572,
-                        "end": 574
+                        "start": 567,
+                        "end": 569
                       },
                       {
                         "type": "ObjectExpression",
@@ -335,55 +335,55 @@
                             "key": {
                               "type": "Identifier",
                               "name": "trailingZeroDisplay",
-                              "start": 577,
-                              "end": 596
+                              "start": 572,
+                              "end": 591
                             },
                             "value": {
                               "type": "Literal",
                               "value": "StripIfInteger",
                               "raw": "'StripIfInteger'",
-                              "start": 598,
-                              "end": 614
+                              "start": 593,
+                              "end": 609
                             },
                             "method": false,
                             "shorthand": false,
                             "computed": false,
-                            "start": 577,
-                            "end": 614
+                            "start": 572,
+                            "end": 609
                           }
                         ],
-                        "start": 576,
-                        "end": 615
+                        "start": 571,
+                        "end": 610
                       }
                     ],
-                    "start": 550,
-                    "end": 616
+                    "start": 545,
+                    "end": 611
                   },
-                  "start": 550,
-                  "end": 617
+                  "start": 545,
+                  "end": 612
                 }
               ],
-              "start": 546,
-              "end": 619
+              "start": 541,
+              "end": 614
             },
             "expression": false,
-            "start": 535,
-            "end": 619
+            "start": 530,
+            "end": 614
           },
           {
             "type": "Literal",
             "value": "StripIfInteger",
             "raw": "'StripIfInteger'",
-            "start": 621,
-            "end": 637
+            "start": 616,
+            "end": 632
           }
         ],
         "optional": false,
-        "start": 509,
-        "end": 638
+        "start": 504,
+        "end": 633
       },
-      "start": 509,
-      "end": 639
+      "start": 504,
+      "end": 634
     },
     {
       "type": "ExpressionStatement",
@@ -394,26 +394,26 @@
           "object": {
             "type": "Identifier",
             "name": "assert",
-            "start": 641,
-            "end": 647
+            "start": 636,
+            "end": 642
           },
           "property": {
             "type": "Identifier",
             "name": "throws",
-            "start": 648,
-            "end": 654
+            "start": 643,
+            "end": 649
           },
           "optional": false,
           "computed": false,
-          "start": 641,
-          "end": 654
+          "start": 636,
+          "end": 649
         },
         "arguments": [
           {
             "type": "Identifier",
             "name": "RangeError",
-            "start": 655,
-            "end": 665
+            "start": 650,
+            "end": 660
           },
           {
             "type": "FunctionExpression",
@@ -433,26 +433,26 @@
                       "object": {
                         "type": "Identifier",
                         "name": "Intl",
-                        "start": 686,
-                        "end": 690
+                        "start": 681,
+                        "end": 685
                       },
                       "property": {
                         "type": "Identifier",
                         "name": "NumberFormat",
-                        "start": 691,
-                        "end": 703
+                        "start": 686,
+                        "end": 698
                       },
                       "optional": false,
                       "computed": false,
-                      "start": 686,
-                      "end": 703
+                      "start": 681,
+                      "end": 698
                     },
                     "arguments": [
                       {
                         "type": "ArrayExpression",
                         "elements": [],
-                        "start": 704,
-                        "end": 706
+                        "start": 699,
+                        "end": 701
                       },
                       {
                         "type": "ObjectExpression",
@@ -463,55 +463,55 @@
                             "key": {
                               "type": "Identifier",
                               "name": "trailingZeroDisplay",
-                              "start": 709,
-                              "end": 728
+                              "start": 704,
+                              "end": 723
                             },
                             "value": {
                               "type": "Literal",
                               "value": "stripifinteger",
                               "raw": "'stripifinteger'",
-                              "start": 730,
-                              "end": 746
+                              "start": 725,
+                              "end": 741
                             },
                             "method": false,
                             "shorthand": false,
                             "computed": false,
-                            "start": 709,
-                            "end": 746
+                            "start": 704,
+                            "end": 741
                           }
                         ],
-                        "start": 708,
-                        "end": 747
+                        "start": 703,
+                        "end": 742
                       }
                     ],
-                    "start": 682,
-                    "end": 748
+                    "start": 677,
+                    "end": 743
                   },
-                  "start": 682,
-                  "end": 749
+                  "start": 677,
+                  "end": 744
                 }
               ],
-              "start": 678,
-              "end": 751
+              "start": 673,
+              "end": 746
             },
             "expression": false,
-            "start": 667,
-            "end": 751
+            "start": 662,
+            "end": 746
           },
           {
             "type": "Literal",
             "value": "stripifinteger",
             "raw": "'stripifinteger'",
-            "start": 753,
-            "end": 769
+            "start": 748,
+            "end": 764
           }
         ],
         "optional": false,
-        "start": 641,
-        "end": 770
+        "start": 636,
+        "end": 765
       },
-      "start": 641,
-      "end": 771
+      "start": 636,
+      "end": 766
     },
     {
       "type": "ExpressionStatement",
@@ -522,26 +522,26 @@
           "object": {
             "type": "Identifier",
             "name": "assert",
-            "start": 773,
-            "end": 779
+            "start": 768,
+            "end": 774
           },
           "property": {
             "type": "Identifier",
             "name": "throws",
-            "start": 780,
-            "end": 786
+            "start": 775,
+            "end": 781
           },
           "optional": false,
           "computed": false,
-          "start": 773,
-          "end": 786
+          "start": 768,
+          "end": 781
         },
         "arguments": [
           {
             "type": "Identifier",
             "name": "RangeError",
-            "start": 787,
-            "end": 797
+            "start": 782,
+            "end": 792
           },
           {
             "type": "FunctionExpression",
@@ -561,26 +561,26 @@
                       "object": {
                         "type": "Identifier",
                         "name": "Intl",
-                        "start": 818,
-                        "end": 822
+                        "start": 813,
+                        "end": 817
                       },
                       "property": {
                         "type": "Identifier",
                         "name": "NumberFormat",
-                        "start": 823,
-                        "end": 835
+                        "start": 818,
+                        "end": 830
                       },
                       "optional": false,
                       "computed": false,
-                      "start": 818,
-                      "end": 835
+                      "start": 813,
+                      "end": 830
                     },
                     "arguments": [
                       {
                         "type": "ArrayExpression",
                         "elements": [],
-                        "start": 836,
-                        "end": 838
+                        "start": 831,
+                        "end": 833
                       },
                       {
                         "type": "ObjectExpression",
@@ -591,55 +591,55 @@
                             "key": {
                               "type": "Identifier",
                               "name": "trailingZeroDisplay",
-                              "start": 841,
-                              "end": 860
+                              "start": 836,
+                              "end": 855
                             },
                             "value": {
                               "type": "Literal",
                               "value": " auto",
                               "raw": "' auto'",
-                              "start": 862,
-                              "end": 869
+                              "start": 857,
+                              "end": 864
                             },
                             "method": false,
                             "shorthand": false,
                             "computed": false,
-                            "start": 841,
-                            "end": 869
+                            "start": 836,
+                            "end": 864
                           }
                         ],
-                        "start": 840,
-                        "end": 870
+                        "start": 835,
+                        "end": 865
                       }
                     ],
-                    "start": 814,
-                    "end": 871
+                    "start": 809,
+                    "end": 866
                   },
-                  "start": 814,
-                  "end": 872
+                  "start": 809,
+                  "end": 867
                 }
               ],
-              "start": 810,
-              "end": 874
+              "start": 805,
+              "end": 869
             },
             "expression": false,
-            "start": 799,
-            "end": 874
+            "start": 794,
+            "end": 869
           },
           {
             "type": "Literal",
             "value": "\" auto\" (with leading space)",
             "raw": "'\" auto\" (with leading space)'",
-            "start": 876,
-            "end": 906
+            "start": 871,
+            "end": 901
           }
         ],
         "optional": false,
-        "start": 773,
-        "end": 907
+        "start": 768,
+        "end": 902
       },
-      "start": 773,
-      "end": 908
+      "start": 768,
+      "end": 903
     },
     {
       "type": "ExpressionStatement",
@@ -650,26 +650,26 @@
           "object": {
             "type": "Identifier",
             "name": "assert",
-            "start": 910,
-            "end": 916
+            "start": 905,
+            "end": 911
           },
           "property": {
             "type": "Identifier",
             "name": "throws",
-            "start": 917,
-            "end": 923
+            "start": 912,
+            "end": 918
           },
           "optional": false,
           "computed": false,
-          "start": 910,
-          "end": 923
+          "start": 905,
+          "end": 918
         },
         "arguments": [
           {
             "type": "Identifier",
             "name": "RangeError",
-            "start": 924,
-            "end": 934
+            "start": 919,
+            "end": 929
           },
           {
             "type": "FunctionExpression",
@@ -689,26 +689,26 @@
                       "object": {
                         "type": "Identifier",
                         "name": "Intl",
-                        "start": 955,
-                        "end": 959
+                        "start": 950,
+                        "end": 954
                       },
                       "property": {
                         "type": "Identifier",
                         "name": "NumberFormat",
-                        "start": 960,
-                        "end": 972
+                        "start": 955,
+                        "end": 967
                       },
                       "optional": false,
                       "computed": false,
-                      "start": 955,
-                      "end": 972
+                      "start": 950,
+                      "end": 967
                     },
                     "arguments": [
                       {
                         "type": "ArrayExpression",
                         "elements": [],
-                        "start": 973,
-                        "end": 975
+                        "start": 968,
+                        "end": 970
                       },
                       {
                         "type": "ObjectExpression",
@@ -719,59 +719,59 @@
                             "key": {
                               "type": "Identifier",
                               "name": "trailingZeroDisplay",
-                              "start": 978,
-                              "end": 997
+                              "start": 973,
+                              "end": 992
                             },
                             "value": {
                               "type": "Literal",
                               "value": "auto ",
                               "raw": "'auto '",
-                              "start": 999,
-                              "end": 1006
+                              "start": 994,
+                              "end": 1001
                             },
                             "method": false,
                             "shorthand": false,
                             "computed": false,
-                            "start": 978,
-                            "end": 1006
+                            "start": 973,
+                            "end": 1001
                           }
                         ],
-                        "start": 977,
-                        "end": 1007
+                        "start": 972,
+                        "end": 1002
                       }
                     ],
-                    "start": 951,
-                    "end": 1008
+                    "start": 946,
+                    "end": 1003
                   },
-                  "start": 951,
-                  "end": 1009
+                  "start": 946,
+                  "end": 1004
                 }
               ],
-              "start": 947,
-              "end": 1011
+              "start": 942,
+              "end": 1006
             },
             "expression": false,
-            "start": 936,
-            "end": 1011
+            "start": 931,
+            "end": 1006
           },
           {
             "type": "Literal",
             "value": "\"auto \" (with trailing space)",
             "raw": "'\"auto \" (with trailing space)'",
-            "start": 1013,
-            "end": 1044
+            "start": 1008,
+            "end": 1039
           }
         ],
         "optional": false,
-        "start": 910,
-        "end": 1045
+        "start": 905,
+        "end": 1040
       },
-      "start": 910,
-      "end": 1046
+      "start": 905,
+      "end": 1041
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 1047
+  "end": 1042
 }

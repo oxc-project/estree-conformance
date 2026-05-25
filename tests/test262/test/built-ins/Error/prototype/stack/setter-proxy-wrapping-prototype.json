@@ -1,0 +1,1117 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "kind": "var",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "set",
+            "start": 1047,
+            "end": 1050
+          },
+          "init": {
+            "type": "MemberExpression",
+            "object": {
+              "type": "CallExpression",
+              "callee": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "Object",
+                  "start": 1053,
+                  "end": 1059
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "getOwnPropertyDescriptor",
+                  "start": 1060,
+                  "end": 1084
+                },
+                "optional": false,
+                "computed": false,
+                "start": 1053,
+                "end": 1084
+              },
+              "arguments": [
+                {
+                  "type": "MemberExpression",
+                  "object": {
+                    "type": "Identifier",
+                    "name": "Error",
+                    "start": 1085,
+                    "end": 1090
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "name": "prototype",
+                    "start": 1091,
+                    "end": 1100
+                  },
+                  "optional": false,
+                  "computed": false,
+                  "start": 1085,
+                  "end": 1100
+                },
+                {
+                  "type": "Literal",
+                  "value": "stack",
+                  "raw": "'stack'",
+                  "start": 1102,
+                  "end": 1109
+                }
+              ],
+              "optional": false,
+              "start": 1053,
+              "end": 1110
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "set",
+              "start": 1111,
+              "end": 1114
+            },
+            "optional": false,
+            "computed": false,
+            "start": 1053,
+            "end": 1114
+          },
+          "start": 1047,
+          "end": 1114
+        }
+      ],
+      "start": 1043,
+      "end": 1115
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "var",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "trapLog",
+            "start": 1121,
+            "end": 1128
+          },
+          "init": {
+            "type": "ArrayExpression",
+            "elements": [],
+            "start": 1131,
+            "end": 1133
+          },
+          "start": 1121,
+          "end": 1133
+        }
+      ],
+      "start": 1117,
+      "end": 1134
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "var",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "p",
+            "start": 1139,
+            "end": 1140
+          },
+          "init": {
+            "type": "NewExpression",
+            "callee": {
+              "type": "Identifier",
+              "name": "Proxy",
+              "start": 1147,
+              "end": 1152
+            },
+            "arguments": [
+              {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "Error",
+                  "start": 1153,
+                  "end": 1158
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "prototype",
+                  "start": 1159,
+                  "end": 1168
+                },
+                "optional": false,
+                "computed": false,
+                "start": 1153,
+                "end": 1168
+              },
+              {
+                "type": "CallExpression",
+                "callee": {
+                  "type": "Identifier",
+                  "name": "allowProxyTraps",
+                  "start": 1170,
+                  "end": 1185
+                },
+                "arguments": [
+                  {
+                    "type": "ObjectExpression",
+                    "properties": [
+                      {
+                        "type": "Property",
+                        "kind": "init",
+                        "key": {
+                          "type": "Identifier",
+                          "name": "getOwnPropertyDescriptor",
+                          "start": 1190,
+                          "end": 1214
+                        },
+                        "value": {
+                          "type": "FunctionExpression",
+                          "id": null,
+                          "generator": false,
+                          "async": false,
+                          "params": [
+                            {
+                              "type": "Identifier",
+                              "name": "t",
+                              "start": 1226,
+                              "end": 1227
+                            },
+                            {
+                              "type": "Identifier",
+                              "name": "key",
+                              "start": 1229,
+                              "end": 1232
+                            }
+                          ],
+                          "body": {
+                            "type": "BlockStatement",
+                            "body": [
+                              {
+                                "type": "ExpressionStatement",
+                                "expression": {
+                                  "type": "CallExpression",
+                                  "callee": {
+                                    "type": "MemberExpression",
+                                    "object": {
+                                      "type": "Identifier",
+                                      "name": "trapLog",
+                                      "start": 1240,
+                                      "end": 1247
+                                    },
+                                    "property": {
+                                      "type": "Identifier",
+                                      "name": "push",
+                                      "start": 1248,
+                                      "end": 1252
+                                    },
+                                    "optional": false,
+                                    "computed": false,
+                                    "start": 1240,
+                                    "end": 1252
+                                  },
+                                  "arguments": [
+                                    {
+                                      "type": "ArrayExpression",
+                                      "elements": [
+                                        {
+                                          "type": "Literal",
+                                          "value": "gOPD",
+                                          "raw": "'gOPD'",
+                                          "start": 1254,
+                                          "end": 1260
+                                        },
+                                        {
+                                          "type": "Identifier",
+                                          "name": "key",
+                                          "start": 1262,
+                                          "end": 1265
+                                        }
+                                      ],
+                                      "start": 1253,
+                                      "end": 1266
+                                    }
+                                  ],
+                                  "optional": false,
+                                  "start": 1240,
+                                  "end": 1267
+                                },
+                                "start": 1240,
+                                "end": 1268
+                              },
+                              {
+                                "type": "ReturnStatement",
+                                "argument": {
+                                  "type": "CallExpression",
+                                  "callee": {
+                                    "type": "MemberExpression",
+                                    "object": {
+                                      "type": "Identifier",
+                                      "name": "Object",
+                                      "start": 1280,
+                                      "end": 1286
+                                    },
+                                    "property": {
+                                      "type": "Identifier",
+                                      "name": "getOwnPropertyDescriptor",
+                                      "start": 1287,
+                                      "end": 1311
+                                    },
+                                    "optional": false,
+                                    "computed": false,
+                                    "start": 1280,
+                                    "end": 1311
+                                  },
+                                  "arguments": [
+                                    {
+                                      "type": "Identifier",
+                                      "name": "t",
+                                      "start": 1312,
+                                      "end": 1313
+                                    },
+                                    {
+                                      "type": "Identifier",
+                                      "name": "key",
+                                      "start": 1315,
+                                      "end": 1318
+                                    }
+                                  ],
+                                  "optional": false,
+                                  "start": 1280,
+                                  "end": 1319
+                                },
+                                "start": 1273,
+                                "end": 1320
+                              }
+                            ],
+                            "start": 1234,
+                            "end": 1324
+                          },
+                          "expression": false,
+                          "start": 1216,
+                          "end": 1324
+                        },
+                        "method": false,
+                        "shorthand": false,
+                        "computed": false,
+                        "start": 1190,
+                        "end": 1324
+                      },
+                      {
+                        "type": "Property",
+                        "kind": "init",
+                        "key": {
+                          "type": "Identifier",
+                          "name": "set",
+                          "start": 1328,
+                          "end": 1331
+                        },
+                        "value": {
+                          "type": "FunctionExpression",
+                          "id": null,
+                          "generator": false,
+                          "async": false,
+                          "params": [
+                            {
+                              "type": "Identifier",
+                              "name": "t",
+                              "start": 1343,
+                              "end": 1344
+                            },
+                            {
+                              "type": "Identifier",
+                              "name": "key",
+                              "start": 1346,
+                              "end": 1349
+                            },
+                            {
+                              "type": "Identifier",
+                              "name": "value",
+                              "start": 1351,
+                              "end": 1356
+                            }
+                          ],
+                          "body": {
+                            "type": "BlockStatement",
+                            "body": [
+                              {
+                                "type": "ExpressionStatement",
+                                "expression": {
+                                  "type": "CallExpression",
+                                  "callee": {
+                                    "type": "MemberExpression",
+                                    "object": {
+                                      "type": "Identifier",
+                                      "name": "trapLog",
+                                      "start": 1364,
+                                      "end": 1371
+                                    },
+                                    "property": {
+                                      "type": "Identifier",
+                                      "name": "push",
+                                      "start": 1372,
+                                      "end": 1376
+                                    },
+                                    "optional": false,
+                                    "computed": false,
+                                    "start": 1364,
+                                    "end": 1376
+                                  },
+                                  "arguments": [
+                                    {
+                                      "type": "ArrayExpression",
+                                      "elements": [
+                                        {
+                                          "type": "Literal",
+                                          "value": "set",
+                                          "raw": "'set'",
+                                          "start": 1378,
+                                          "end": 1383
+                                        },
+                                        {
+                                          "type": "Identifier",
+                                          "name": "key",
+                                          "start": 1385,
+                                          "end": 1388
+                                        },
+                                        {
+                                          "type": "Identifier",
+                                          "name": "value",
+                                          "start": 1390,
+                                          "end": 1395
+                                        }
+                                      ],
+                                      "start": 1377,
+                                      "end": 1396
+                                    }
+                                  ],
+                                  "optional": false,
+                                  "start": 1364,
+                                  "end": 1397
+                                },
+                                "start": 1364,
+                                "end": 1398
+                              },
+                              {
+                                "type": "ReturnStatement",
+                                "argument": {
+                                  "type": "Literal",
+                                  "value": true,
+                                  "raw": "true",
+                                  "start": 1474,
+                                  "end": 1478
+                                },
+                                "start": 1467,
+                                "end": 1479
+                              }
+                            ],
+                            "start": 1358,
+                            "end": 1483
+                          },
+                          "expression": false,
+                          "start": 1333,
+                          "end": 1483
+                        },
+                        "method": false,
+                        "shorthand": false,
+                        "computed": false,
+                        "start": 1328,
+                        "end": 1483
+                      }
+                    ],
+                    "start": 1186,
+                    "end": 1485
+                  }
+                ],
+                "optional": false,
+                "start": 1170,
+                "end": 1486
+              }
+            ],
+            "start": 1143,
+            "end": 1487
+          },
+          "start": 1139,
+          "end": 1487
+        }
+      ],
+      "start": 1135,
+      "end": 1488
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "set",
+            "start": 1659,
+            "end": 1662
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "call",
+            "start": 1663,
+            "end": 1667
+          },
+          "optional": false,
+          "computed": false,
+          "start": 1659,
+          "end": 1667
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "name": "p",
+            "start": 1668,
+            "end": 1669
+          },
+          {
+            "type": "Literal",
+            "value": "sentinel",
+            "raw": "'sentinel'",
+            "start": 1671,
+            "end": 1681
+          }
+        ],
+        "optional": false,
+        "start": 1659,
+        "end": 1682
+      },
+      "start": 1659,
+      "end": 1683
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "Identifier",
+          "name": "assert",
+          "start": 1685,
+          "end": 1691
+        },
+        "arguments": [
+          {
+            "type": "BinaryExpression",
+            "left": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "trapLog",
+                "start": 1692,
+                "end": 1699
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "length",
+                "start": 1700,
+                "end": 1706
+              },
+              "optional": false,
+              "computed": false,
+              "start": 1692,
+              "end": 1706
+            },
+            "operator": ">=",
+            "right": {
+              "type": "Literal",
+              "value": 1,
+              "raw": "1",
+              "start": 1710,
+              "end": 1711
+            },
+            "start": 1692,
+            "end": 1711
+          },
+          {
+            "type": "Literal",
+            "value": "at least one trap was invoked",
+            "raw": "'at least one trap was invoked'",
+            "start": 1713,
+            "end": 1744
+          }
+        ],
+        "optional": false,
+        "start": 1685,
+        "end": 1745
+      },
+      "start": 1685,
+      "end": 1746
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 1747,
+            "end": 1753
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 1754,
+            "end": 1763
+          },
+          "optional": false,
+          "computed": false,
+          "start": 1747,
+          "end": 1763
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "trapLog",
+                "start": 1764,
+                "end": 1771
+              },
+              "property": {
+                "type": "Literal",
+                "value": 0,
+                "raw": "0",
+                "start": 1772,
+                "end": 1773
+              },
+              "optional": false,
+              "computed": true,
+              "start": 1764,
+              "end": 1774
+            },
+            "property": {
+              "type": "Literal",
+              "value": 0,
+              "raw": "0",
+              "start": 1775,
+              "end": 1776
+            },
+            "optional": false,
+            "computed": true,
+            "start": 1764,
+            "end": 1777
+          },
+          {
+            "type": "Literal",
+            "value": "gOPD",
+            "raw": "'gOPD'",
+            "start": 1779,
+            "end": 1785
+          },
+          {
+            "type": "Literal",
+            "value": "getOwnPropertyDescriptor trap fired first",
+            "raw": "'getOwnPropertyDescriptor trap fired first'",
+            "start": 1787,
+            "end": 1830
+          }
+        ],
+        "optional": false,
+        "start": 1747,
+        "end": 1831
+      },
+      "start": 1747,
+      "end": 1832
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 1833,
+            "end": 1839
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 1840,
+            "end": 1849
+          },
+          "optional": false,
+          "computed": false,
+          "start": 1833,
+          "end": 1849
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "trapLog",
+                "start": 1850,
+                "end": 1857
+              },
+              "property": {
+                "type": "Literal",
+                "value": 0,
+                "raw": "0",
+                "start": 1858,
+                "end": 1859
+              },
+              "optional": false,
+              "computed": true,
+              "start": 1850,
+              "end": 1860
+            },
+            "property": {
+              "type": "Literal",
+              "value": 1,
+              "raw": "1",
+              "start": 1861,
+              "end": 1862
+            },
+            "optional": false,
+            "computed": true,
+            "start": 1850,
+            "end": 1863
+          },
+          {
+            "type": "Literal",
+            "value": "stack",
+            "raw": "'stack'",
+            "start": 1865,
+            "end": 1872
+          },
+          {
+            "type": "Literal",
+            "value": "getOwnPropertyDescriptor trap was called for \"stack\"",
+            "raw": "'getOwnPropertyDescriptor trap was called for \"stack\"'",
+            "start": 1874,
+            "end": 1928
+          }
+        ],
+        "optional": false,
+        "start": 1833,
+        "end": 1929
+      },
+      "start": 1833,
+      "end": 1930
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "var",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "sawSet",
+            "start": 2108,
+            "end": 2114
+          },
+          "init": {
+            "type": "Literal",
+            "value": false,
+            "raw": "false",
+            "start": 2117,
+            "end": 2122
+          },
+          "start": 2108,
+          "end": 2122
+        }
+      ],
+      "start": 2104,
+      "end": 2123
+    },
+    {
+      "type": "ForStatement",
+      "init": {
+        "type": "VariableDeclaration",
+        "kind": "var",
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "id": {
+              "type": "Identifier",
+              "name": "i",
+              "start": 2133,
+              "end": 2134
+            },
+            "init": {
+              "type": "Literal",
+              "value": 0,
+              "raw": "0",
+              "start": 2137,
+              "end": 2138
+            },
+            "start": 2133,
+            "end": 2138
+          }
+        ],
+        "start": 2129,
+        "end": 2138
+      },
+      "test": {
+        "type": "BinaryExpression",
+        "left": {
+          "type": "Identifier",
+          "name": "i",
+          "start": 2140,
+          "end": 2141
+        },
+        "operator": "<",
+        "right": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "trapLog",
+            "start": 2144,
+            "end": 2151
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "length",
+            "start": 2152,
+            "end": 2158
+          },
+          "optional": false,
+          "computed": false,
+          "start": 2144,
+          "end": 2158
+        },
+        "start": 2140,
+        "end": 2158
+      },
+      "update": {
+        "type": "UpdateExpression",
+        "operator": "++",
+        "prefix": true,
+        "argument": {
+          "type": "Identifier",
+          "name": "i",
+          "start": 2162,
+          "end": 2163
+        },
+        "start": 2160,
+        "end": 2163
+      },
+      "body": {
+        "type": "BlockStatement",
+        "body": [
+          {
+            "type": "IfStatement",
+            "test": {
+              "type": "BinaryExpression",
+              "left": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "MemberExpression",
+                  "object": {
+                    "type": "Identifier",
+                    "name": "trapLog",
+                    "start": 2173,
+                    "end": 2180
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "name": "i",
+                    "start": 2181,
+                    "end": 2182
+                  },
+                  "optional": false,
+                  "computed": true,
+                  "start": 2173,
+                  "end": 2183
+                },
+                "property": {
+                  "type": "Literal",
+                  "value": 0,
+                  "raw": "0",
+                  "start": 2184,
+                  "end": 2185
+                },
+                "optional": false,
+                "computed": true,
+                "start": 2173,
+                "end": 2186
+              },
+              "operator": "===",
+              "right": {
+                "type": "Literal",
+                "value": "set",
+                "raw": "'set'",
+                "start": 2191,
+                "end": 2196
+              },
+              "start": 2173,
+              "end": 2196
+            },
+            "consequent": {
+              "type": "BlockStatement",
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "expression": {
+                    "type": "AssignmentExpression",
+                    "operator": "=",
+                    "left": {
+                      "type": "Identifier",
+                      "name": "sawSet",
+                      "start": 2204,
+                      "end": 2210
+                    },
+                    "right": {
+                      "type": "Literal",
+                      "value": true,
+                      "raw": "true",
+                      "start": 2213,
+                      "end": 2217
+                    },
+                    "start": 2204,
+                    "end": 2217
+                  },
+                  "start": 2204,
+                  "end": 2218
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "expression": {
+                    "type": "CallExpression",
+                    "callee": {
+                      "type": "MemberExpression",
+                      "object": {
+                        "type": "Identifier",
+                        "name": "assert",
+                        "start": 2223,
+                        "end": 2229
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "name": "sameValue",
+                        "start": 2230,
+                        "end": 2239
+                      },
+                      "optional": false,
+                      "computed": false,
+                      "start": 2223,
+                      "end": 2239
+                    },
+                    "arguments": [
+                      {
+                        "type": "MemberExpression",
+                        "object": {
+                          "type": "MemberExpression",
+                          "object": {
+                            "type": "Identifier",
+                            "name": "trapLog",
+                            "start": 2240,
+                            "end": 2247
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "name": "i",
+                            "start": 2248,
+                            "end": 2249
+                          },
+                          "optional": false,
+                          "computed": true,
+                          "start": 2240,
+                          "end": 2250
+                        },
+                        "property": {
+                          "type": "Literal",
+                          "value": 1,
+                          "raw": "1",
+                          "start": 2251,
+                          "end": 2252
+                        },
+                        "optional": false,
+                        "computed": true,
+                        "start": 2240,
+                        "end": 2253
+                      },
+                      {
+                        "type": "Literal",
+                        "value": "stack",
+                        "raw": "'stack'",
+                        "start": 2255,
+                        "end": 2262
+                      },
+                      {
+                        "type": "Literal",
+                        "value": "set trap was called for \"stack\"",
+                        "raw": "'set trap was called for \"stack\"'",
+                        "start": 2264,
+                        "end": 2297
+                      }
+                    ],
+                    "optional": false,
+                    "start": 2223,
+                    "end": 2298
+                  },
+                  "start": 2223,
+                  "end": 2299
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "expression": {
+                    "type": "CallExpression",
+                    "callee": {
+                      "type": "MemberExpression",
+                      "object": {
+                        "type": "Identifier",
+                        "name": "assert",
+                        "start": 2304,
+                        "end": 2310
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "name": "sameValue",
+                        "start": 2311,
+                        "end": 2320
+                      },
+                      "optional": false,
+                      "computed": false,
+                      "start": 2304,
+                      "end": 2320
+                    },
+                    "arguments": [
+                      {
+                        "type": "MemberExpression",
+                        "object": {
+                          "type": "MemberExpression",
+                          "object": {
+                            "type": "Identifier",
+                            "name": "trapLog",
+                            "start": 2321,
+                            "end": 2328
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "name": "i",
+                            "start": 2329,
+                            "end": 2330
+                          },
+                          "optional": false,
+                          "computed": true,
+                          "start": 2321,
+                          "end": 2331
+                        },
+                        "property": {
+                          "type": "Literal",
+                          "value": 2,
+                          "raw": "2",
+                          "start": 2332,
+                          "end": 2333
+                        },
+                        "optional": false,
+                        "computed": true,
+                        "start": 2321,
+                        "end": 2334
+                      },
+                      {
+                        "type": "Literal",
+                        "value": "sentinel",
+                        "raw": "'sentinel'",
+                        "start": 2336,
+                        "end": 2346
+                      },
+                      {
+                        "type": "Literal",
+                        "value": "set trap received the value",
+                        "raw": "'set trap received the value'",
+                        "start": 2348,
+                        "end": 2377
+                      }
+                    ],
+                    "optional": false,
+                    "start": 2304,
+                    "end": 2378
+                  },
+                  "start": 2304,
+                  "end": 2379
+                }
+              ],
+              "start": 2198,
+              "end": 2383
+            },
+            "alternate": null,
+            "start": 2169,
+            "end": 2383
+          }
+        ],
+        "start": 2165,
+        "end": 2385
+      },
+      "start": 2124,
+      "end": 2385
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 2386,
+            "end": 2392
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 2393,
+            "end": 2402
+          },
+          "optional": false,
+          "computed": false,
+          "start": 2386,
+          "end": 2402
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "name": "sawSet",
+            "start": 2403,
+            "end": 2409
+          },
+          {
+            "type": "Literal",
+            "value": true,
+            "raw": "true",
+            "start": 2411,
+            "end": 2415
+          },
+          {
+            "type": "Literal",
+            "value": "set trap was invoked",
+            "raw": "'set trap was invoked'",
+            "start": 2417,
+            "end": 2439
+          }
+        ],
+        "optional": false,
+        "start": 2386,
+        "end": 2440
+      },
+      "start": 2386,
+      "end": 2441
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 2442
+}
