@@ -1,0 +1,2325 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "zdt1",
+            "start": 444,
+            "end": 448
+          },
+          "init": {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "Temporal",
+                  "start": 451,
+                  "end": 459
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "ZonedDateTime",
+                  "start": 460,
+                  "end": 473
+                },
+                "optional": false,
+                "computed": false,
+                "start": 451,
+                "end": 473
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "from",
+                "start": 474,
+                "end": 478
+              },
+              "optional": false,
+              "computed": false,
+              "start": 451,
+              "end": 478
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "value": "2010-03-04T23:10:00+11:00[Antarctica/Casey]",
+                "raw": "'2010-03-04T23:10:00+11:00[Antarctica/Casey]'",
+                "start": 479,
+                "end": 524
+              }
+            ],
+            "optional": false,
+            "start": 451,
+            "end": 525
+          },
+          "start": 444,
+          "end": 525
+        }
+      ],
+      "start": 438,
+      "end": 526
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "zdt2",
+            "start": 533,
+            "end": 537
+          },
+          "init": {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "Temporal",
+                  "start": 540,
+                  "end": 548
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "ZonedDateTime",
+                  "start": 549,
+                  "end": 562
+                },
+                "optional": false,
+                "computed": false,
+                "start": 540,
+                "end": 562
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "from",
+                "start": 563,
+                "end": 567
+              },
+              "optional": false,
+              "computed": false,
+              "start": 540,
+              "end": 567
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "value": "2010-03-05T00:45:00+11:00[Antarctica/Casey]",
+                "raw": "'2010-03-05T00:45:00+11:00[Antarctica/Casey]'",
+                "start": 568,
+                "end": 613
+              }
+            ],
+            "optional": false,
+            "start": 540,
+            "end": 614
+          },
+          "start": 533,
+          "end": 614
+        }
+      ],
+      "start": 527,
+      "end": 615
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "zdt3",
+            "start": 680,
+            "end": 684
+          },
+          "init": {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "Temporal",
+                  "start": 687,
+                  "end": 695
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "ZonedDateTime",
+                  "start": 696,
+                  "end": 709
+                },
+                "optional": false,
+                "computed": false,
+                "start": 687,
+                "end": 709
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "from",
+                "start": 710,
+                "end": 714
+              },
+              "optional": false,
+              "computed": false,
+              "start": 687,
+              "end": 714
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "value": "2010-03-04T23:10:00+08:00[Antarctica/Casey]",
+                "raw": "'2010-03-04T23:10:00+08:00[Antarctica/Casey]'",
+                "start": 715,
+                "end": 760
+              }
+            ],
+            "optional": false,
+            "start": 687,
+            "end": 761
+          },
+          "start": 680,
+          "end": 761
+        }
+      ],
+      "start": 674,
+      "end": 762
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "zdt4",
+            "start": 769,
+            "end": 773
+          },
+          "init": {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "Temporal",
+                  "start": 776,
+                  "end": 784
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "ZonedDateTime",
+                  "start": 785,
+                  "end": 798
+                },
+                "optional": false,
+                "computed": false,
+                "start": 776,
+                "end": 798
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "from",
+                "start": 799,
+                "end": 803
+              },
+              "optional": false,
+              "computed": false,
+              "start": 776,
+              "end": 803
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "value": "2010-03-05T00:45:00+08:00[Antarctica/Casey]",
+                "raw": "'2010-03-05T00:45:00+08:00[Antarctica/Casey]'",
+                "start": 804,
+                "end": 849
+              }
+            ],
+            "optional": false,
+            "start": 776,
+            "end": 850
+          },
+          "start": 769,
+          "end": 850
+        }
+      ],
+      "start": 763,
+      "end": 851
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "startOfMarch4",
+            "start": 859,
+            "end": 872
+          },
+          "init": {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "Temporal",
+                  "start": 875,
+                  "end": 883
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "ZonedDateTime",
+                  "start": 884,
+                  "end": 897
+                },
+                "optional": false,
+                "computed": false,
+                "start": 875,
+                "end": 897
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "from",
+                "start": 898,
+                "end": 902
+              },
+              "optional": false,
+              "computed": false,
+              "start": 875,
+              "end": 902
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "value": "2010-03-04T00:00:00+11:00[Antarctica/Casey]",
+                "raw": "\"2010-03-04T00:00:00+11:00[Antarctica/Casey]\"",
+                "start": 903,
+                "end": 948
+              }
+            ],
+            "optional": false,
+            "start": 875,
+            "end": 949
+          },
+          "start": 859,
+          "end": 949
+        }
+      ],
+      "start": 853,
+      "end": 950
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "startOfMarch5",
+            "start": 957,
+            "end": 970
+          },
+          "init": {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "Temporal",
+                  "start": 973,
+                  "end": 981
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "ZonedDateTime",
+                  "start": 982,
+                  "end": 995
+                },
+                "optional": false,
+                "computed": false,
+                "start": 973,
+                "end": 995
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "from",
+                "start": 996,
+                "end": 1000
+              },
+              "optional": false,
+              "computed": false,
+              "start": 973,
+              "end": 1000
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "value": "2010-03-05T00:00:00+11:00[Antarctica/Casey]",
+                "raw": "\"2010-03-05T00:00:00+11:00[Antarctica/Casey]\"",
+                "start": 1001,
+                "end": 1046
+              }
+            ],
+            "optional": false,
+            "start": 973,
+            "end": 1047
+          },
+          "start": 957,
+          "end": 1047
+        }
+      ],
+      "start": 951,
+      "end": 1048
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "startOfMarch6",
+            "start": 1055,
+            "end": 1068
+          },
+          "init": {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "Temporal",
+                  "start": 1071,
+                  "end": 1079
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "ZonedDateTime",
+                  "start": 1080,
+                  "end": 1093
+                },
+                "optional": false,
+                "computed": false,
+                "start": 1071,
+                "end": 1093
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "from",
+                "start": 1094,
+                "end": 1098
+              },
+              "optional": false,
+              "computed": false,
+              "start": 1071,
+              "end": 1098
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "value": "2010-03-06T00:00:00+08:00[Antarctica/Casey]",
+                "raw": "\"2010-03-06T00:00:00+08:00[Antarctica/Casey]\"",
+                "start": 1099,
+                "end": 1144
+              }
+            ],
+            "optional": false,
+            "start": 1071,
+            "end": 1145
+          },
+          "start": 1055,
+          "end": 1145
+        }
+      ],
+      "start": 1049,
+      "end": 1146
+    },
+    {
+      "type": "ForOfStatement",
+      "await": false,
+      "left": {
+        "type": "VariableDeclaration",
+        "kind": "const",
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "id": {
+              "type": "Identifier",
+              "name": "roundingMode",
+              "start": 1177,
+              "end": 1189
+            },
+            "init": null,
+            "start": 1177,
+            "end": 1189
+          }
+        ],
+        "start": 1171,
+        "end": 1189
+      },
+      "right": {
+        "type": "ArrayExpression",
+        "elements": [
+          {
+            "type": "Literal",
+            "value": "floor",
+            "raw": "\"floor\"",
+            "start": 1194,
+            "end": 1201
+          },
+          {
+            "type": "Literal",
+            "value": "trunc",
+            "raw": "\"trunc\"",
+            "start": 1203,
+            "end": 1210
+          }
+        ],
+        "start": 1193,
+        "end": 1211
+      },
+      "body": {
+        "type": "BlockStatement",
+        "body": [
+          {
+            "type": "VariableDeclaration",
+            "kind": "const",
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "id": {
+                  "type": "Identifier",
+                  "name": "options",
+                  "start": 1223,
+                  "end": 1230
+                },
+                "init": {
+                  "type": "ObjectExpression",
+                  "properties": [
+                    {
+                      "type": "Property",
+                      "kind": "init",
+                      "key": {
+                        "type": "Identifier",
+                        "name": "smallestUnit",
+                        "start": 1235,
+                        "end": 1247
+                      },
+                      "value": {
+                        "type": "Literal",
+                        "value": "days",
+                        "raw": "\"days\"",
+                        "start": 1249,
+                        "end": 1255
+                      },
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false,
+                      "start": 1235,
+                      "end": 1255
+                    },
+                    {
+                      "type": "Property",
+                      "kind": "init",
+                      "key": {
+                        "type": "Identifier",
+                        "name": "roundingMode",
+                        "start": 1257,
+                        "end": 1269
+                      },
+                      "value": {
+                        "type": "Identifier",
+                        "name": "roundingMode",
+                        "start": 1257,
+                        "end": 1269
+                      },
+                      "method": false,
+                      "shorthand": true,
+                      "computed": false,
+                      "start": 1257,
+                      "end": 1269
+                    }
+                  ],
+                  "start": 1233,
+                  "end": 1271
+                },
+                "start": 1223,
+                "end": 1271
+              }
+            ],
+            "start": 1217,
+            "end": 1272
+          },
+          {
+            "type": "ExpressionStatement",
+            "expression": {
+              "type": "CallExpression",
+              "callee": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "TemporalHelpers",
+                  "start": 1275,
+                  "end": 1290
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "assertZonedDateTimesEqual",
+                  "start": 1291,
+                  "end": 1316
+                },
+                "optional": false,
+                "computed": false,
+                "start": 1275,
+                "end": 1316
+              },
+              "arguments": [
+                {
+                  "type": "CallExpression",
+                  "callee": {
+                    "type": "MemberExpression",
+                    "object": {
+                      "type": "Identifier",
+                      "name": "zdt1",
+                      "start": 1317,
+                      "end": 1321
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "name": "round",
+                      "start": 1322,
+                      "end": 1327
+                    },
+                    "optional": false,
+                    "computed": false,
+                    "start": 1317,
+                    "end": 1327
+                  },
+                  "arguments": [
+                    {
+                      "type": "Identifier",
+                      "name": "options",
+                      "start": 1328,
+                      "end": 1335
+                    }
+                  ],
+                  "optional": false,
+                  "start": 1317,
+                  "end": 1336
+                },
+                {
+                  "type": "Identifier",
+                  "name": "startOfMarch4",
+                  "start": 1338,
+                  "end": 1351
+                },
+                {
+                  "type": "TemplateLiteral",
+                  "quasis": [
+                    {
+                      "type": "TemplateElement",
+                      "value": {
+                        "raw": "",
+                        "cooked": ""
+                      },
+                      "tail": false,
+                      "start": 1354,
+                      "end": 1354
+                    },
+                    {
+                      "type": "TemplateElement",
+                      "value": {
+                        "raw": " ",
+                        "cooked": " "
+                      },
+                      "tail": false,
+                      "start": 1361,
+                      "end": 1362
+                    },
+                    {
+                      "type": "TemplateElement",
+                      "value": {
+                        "raw": "",
+                        "cooked": ""
+                      },
+                      "tail": true,
+                      "start": 1377,
+                      "end": 1377
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "name": "zdt1",
+                      "start": 1356,
+                      "end": 1360
+                    },
+                    {
+                      "type": "Identifier",
+                      "name": "roundingMode",
+                      "start": 1364,
+                      "end": 1376
+                    }
+                  ],
+                  "start": 1353,
+                  "end": 1378
+                }
+              ],
+              "optional": false,
+              "start": 1275,
+              "end": 1379
+            },
+            "start": 1275,
+            "end": 1380
+          },
+          {
+            "type": "ExpressionStatement",
+            "expression": {
+              "type": "CallExpression",
+              "callee": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "TemporalHelpers",
+                  "start": 1383,
+                  "end": 1398
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "assertZonedDateTimesEqual",
+                  "start": 1399,
+                  "end": 1424
+                },
+                "optional": false,
+                "computed": false,
+                "start": 1383,
+                "end": 1424
+              },
+              "arguments": [
+                {
+                  "type": "CallExpression",
+                  "callee": {
+                    "type": "MemberExpression",
+                    "object": {
+                      "type": "Identifier",
+                      "name": "zdt2",
+                      "start": 1425,
+                      "end": 1429
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "name": "round",
+                      "start": 1430,
+                      "end": 1435
+                    },
+                    "optional": false,
+                    "computed": false,
+                    "start": 1425,
+                    "end": 1435
+                  },
+                  "arguments": [
+                    {
+                      "type": "Identifier",
+                      "name": "options",
+                      "start": 1436,
+                      "end": 1443
+                    }
+                  ],
+                  "optional": false,
+                  "start": 1425,
+                  "end": 1444
+                },
+                {
+                  "type": "Identifier",
+                  "name": "startOfMarch5",
+                  "start": 1446,
+                  "end": 1459
+                },
+                {
+                  "type": "TemplateLiteral",
+                  "quasis": [
+                    {
+                      "type": "TemplateElement",
+                      "value": {
+                        "raw": "",
+                        "cooked": ""
+                      },
+                      "tail": false,
+                      "start": 1462,
+                      "end": 1462
+                    },
+                    {
+                      "type": "TemplateElement",
+                      "value": {
+                        "raw": " ",
+                        "cooked": " "
+                      },
+                      "tail": false,
+                      "start": 1469,
+                      "end": 1470
+                    },
+                    {
+                      "type": "TemplateElement",
+                      "value": {
+                        "raw": "",
+                        "cooked": ""
+                      },
+                      "tail": true,
+                      "start": 1485,
+                      "end": 1485
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "name": "zdt2",
+                      "start": 1464,
+                      "end": 1468
+                    },
+                    {
+                      "type": "Identifier",
+                      "name": "roundingMode",
+                      "start": 1472,
+                      "end": 1484
+                    }
+                  ],
+                  "start": 1461,
+                  "end": 1486
+                }
+              ],
+              "optional": false,
+              "start": 1383,
+              "end": 1487
+            },
+            "start": 1383,
+            "end": 1488
+          },
+          {
+            "type": "ExpressionStatement",
+            "expression": {
+              "type": "CallExpression",
+              "callee": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "TemporalHelpers",
+                  "start": 1491,
+                  "end": 1506
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "assertZonedDateTimesEqual",
+                  "start": 1507,
+                  "end": 1532
+                },
+                "optional": false,
+                "computed": false,
+                "start": 1491,
+                "end": 1532
+              },
+              "arguments": [
+                {
+                  "type": "CallExpression",
+                  "callee": {
+                    "type": "MemberExpression",
+                    "object": {
+                      "type": "Identifier",
+                      "name": "zdt3",
+                      "start": 1533,
+                      "end": 1537
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "name": "round",
+                      "start": 1538,
+                      "end": 1543
+                    },
+                    "optional": false,
+                    "computed": false,
+                    "start": 1533,
+                    "end": 1543
+                  },
+                  "arguments": [
+                    {
+                      "type": "Identifier",
+                      "name": "options",
+                      "start": 1544,
+                      "end": 1551
+                    }
+                  ],
+                  "optional": false,
+                  "start": 1533,
+                  "end": 1552
+                },
+                {
+                  "type": "Identifier",
+                  "name": "startOfMarch4",
+                  "start": 1554,
+                  "end": 1567
+                },
+                {
+                  "type": "TemplateLiteral",
+                  "quasis": [
+                    {
+                      "type": "TemplateElement",
+                      "value": {
+                        "raw": "",
+                        "cooked": ""
+                      },
+                      "tail": false,
+                      "start": 1570,
+                      "end": 1570
+                    },
+                    {
+                      "type": "TemplateElement",
+                      "value": {
+                        "raw": " ",
+                        "cooked": " "
+                      },
+                      "tail": false,
+                      "start": 1577,
+                      "end": 1578
+                    },
+                    {
+                      "type": "TemplateElement",
+                      "value": {
+                        "raw": "",
+                        "cooked": ""
+                      },
+                      "tail": true,
+                      "start": 1593,
+                      "end": 1593
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "name": "zdt3",
+                      "start": 1572,
+                      "end": 1576
+                    },
+                    {
+                      "type": "Identifier",
+                      "name": "roundingMode",
+                      "start": 1580,
+                      "end": 1592
+                    }
+                  ],
+                  "start": 1569,
+                  "end": 1594
+                }
+              ],
+              "optional": false,
+              "start": 1491,
+              "end": 1595
+            },
+            "start": 1491,
+            "end": 1596
+          },
+          {
+            "type": "ExpressionStatement",
+            "expression": {
+              "type": "CallExpression",
+              "callee": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "TemporalHelpers",
+                  "start": 1599,
+                  "end": 1614
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "assertZonedDateTimesEqual",
+                  "start": 1615,
+                  "end": 1640
+                },
+                "optional": false,
+                "computed": false,
+                "start": 1599,
+                "end": 1640
+              },
+              "arguments": [
+                {
+                  "type": "CallExpression",
+                  "callee": {
+                    "type": "MemberExpression",
+                    "object": {
+                      "type": "Identifier",
+                      "name": "zdt4",
+                      "start": 1641,
+                      "end": 1645
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "name": "round",
+                      "start": 1646,
+                      "end": 1651
+                    },
+                    "optional": false,
+                    "computed": false,
+                    "start": 1641,
+                    "end": 1651
+                  },
+                  "arguments": [
+                    {
+                      "type": "Identifier",
+                      "name": "options",
+                      "start": 1652,
+                      "end": 1659
+                    }
+                  ],
+                  "optional": false,
+                  "start": 1641,
+                  "end": 1660
+                },
+                {
+                  "type": "Identifier",
+                  "name": "startOfMarch5",
+                  "start": 1662,
+                  "end": 1675
+                },
+                {
+                  "type": "TemplateLiteral",
+                  "quasis": [
+                    {
+                      "type": "TemplateElement",
+                      "value": {
+                        "raw": "",
+                        "cooked": ""
+                      },
+                      "tail": false,
+                      "start": 1678,
+                      "end": 1678
+                    },
+                    {
+                      "type": "TemplateElement",
+                      "value": {
+                        "raw": " ",
+                        "cooked": " "
+                      },
+                      "tail": false,
+                      "start": 1685,
+                      "end": 1686
+                    },
+                    {
+                      "type": "TemplateElement",
+                      "value": {
+                        "raw": "",
+                        "cooked": ""
+                      },
+                      "tail": true,
+                      "start": 1701,
+                      "end": 1701
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "name": "zdt4",
+                      "start": 1680,
+                      "end": 1684
+                    },
+                    {
+                      "type": "Identifier",
+                      "name": "roundingMode",
+                      "start": 1688,
+                      "end": 1700
+                    }
+                  ],
+                  "start": 1677,
+                  "end": 1702
+                }
+              ],
+              "optional": false,
+              "start": 1599,
+              "end": 1703
+            },
+            "start": 1599,
+            "end": 1704
+          }
+        ],
+        "start": 1213,
+        "end": 1706
+      },
+      "start": 1166,
+      "end": 1706
+    },
+    {
+      "type": "ForOfStatement",
+      "await": false,
+      "left": {
+        "type": "VariableDeclaration",
+        "kind": "const",
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "id": {
+              "type": "Identifier",
+              "name": "roundingMode",
+              "start": 1743,
+              "end": 1755
+            },
+            "init": null,
+            "start": 1743,
+            "end": 1755
+          }
+        ],
+        "start": 1737,
+        "end": 1755
+      },
+      "right": {
+        "type": "ArrayExpression",
+        "elements": [
+          {
+            "type": "Literal",
+            "value": "halfCeil",
+            "raw": "\"halfCeil\"",
+            "start": 1760,
+            "end": 1770
+          },
+          {
+            "type": "Literal",
+            "value": "halfEven",
+            "raw": "\"halfEven\"",
+            "start": 1772,
+            "end": 1782
+          },
+          {
+            "type": "Literal",
+            "value": "halfExpand",
+            "raw": "\"halfExpand\"",
+            "start": 1784,
+            "end": 1796
+          },
+          {
+            "type": "Literal",
+            "value": "halfFloor",
+            "raw": "\"halfFloor\"",
+            "start": 1798,
+            "end": 1809
+          },
+          {
+            "type": "Literal",
+            "value": "halfTrunc",
+            "raw": "\"halfTrunc\"",
+            "start": 1811,
+            "end": 1822
+          }
+        ],
+        "start": 1759,
+        "end": 1823
+      },
+      "body": {
+        "type": "BlockStatement",
+        "body": [
+          {
+            "type": "VariableDeclaration",
+            "kind": "const",
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "id": {
+                  "type": "Identifier",
+                  "name": "options",
+                  "start": 1835,
+                  "end": 1842
+                },
+                "init": {
+                  "type": "ObjectExpression",
+                  "properties": [
+                    {
+                      "type": "Property",
+                      "kind": "init",
+                      "key": {
+                        "type": "Identifier",
+                        "name": "smallestUnit",
+                        "start": 1847,
+                        "end": 1859
+                      },
+                      "value": {
+                        "type": "Literal",
+                        "value": "days",
+                        "raw": "\"days\"",
+                        "start": 1861,
+                        "end": 1867
+                      },
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false,
+                      "start": 1847,
+                      "end": 1867
+                    },
+                    {
+                      "type": "Property",
+                      "kind": "init",
+                      "key": {
+                        "type": "Identifier",
+                        "name": "roundingMode",
+                        "start": 1869,
+                        "end": 1881
+                      },
+                      "value": {
+                        "type": "Identifier",
+                        "name": "roundingMode",
+                        "start": 1869,
+                        "end": 1881
+                      },
+                      "method": false,
+                      "shorthand": true,
+                      "computed": false,
+                      "start": 1869,
+                      "end": 1881
+                    }
+                  ],
+                  "start": 1845,
+                  "end": 1883
+                },
+                "start": 1835,
+                "end": 1883
+              }
+            ],
+            "start": 1829,
+            "end": 1884
+          },
+          {
+            "type": "ExpressionStatement",
+            "expression": {
+              "type": "CallExpression",
+              "callee": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "TemporalHelpers",
+                  "start": 1887,
+                  "end": 1902
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "assertZonedDateTimesEqual",
+                  "start": 1903,
+                  "end": 1928
+                },
+                "optional": false,
+                "computed": false,
+                "start": 1887,
+                "end": 1928
+              },
+              "arguments": [
+                {
+                  "type": "CallExpression",
+                  "callee": {
+                    "type": "MemberExpression",
+                    "object": {
+                      "type": "Identifier",
+                      "name": "zdt1",
+                      "start": 1929,
+                      "end": 1933
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "name": "round",
+                      "start": 1934,
+                      "end": 1939
+                    },
+                    "optional": false,
+                    "computed": false,
+                    "start": 1929,
+                    "end": 1939
+                  },
+                  "arguments": [
+                    {
+                      "type": "Identifier",
+                      "name": "options",
+                      "start": 1940,
+                      "end": 1947
+                    }
+                  ],
+                  "optional": false,
+                  "start": 1929,
+                  "end": 1948
+                },
+                {
+                  "type": "Identifier",
+                  "name": "startOfMarch5",
+                  "start": 1950,
+                  "end": 1963
+                },
+                {
+                  "type": "TemplateLiteral",
+                  "quasis": [
+                    {
+                      "type": "TemplateElement",
+                      "value": {
+                        "raw": "",
+                        "cooked": ""
+                      },
+                      "tail": false,
+                      "start": 1966,
+                      "end": 1966
+                    },
+                    {
+                      "type": "TemplateElement",
+                      "value": {
+                        "raw": " ",
+                        "cooked": " "
+                      },
+                      "tail": false,
+                      "start": 1973,
+                      "end": 1974
+                    },
+                    {
+                      "type": "TemplateElement",
+                      "value": {
+                        "raw": "",
+                        "cooked": ""
+                      },
+                      "tail": true,
+                      "start": 1989,
+                      "end": 1989
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "name": "zdt1",
+                      "start": 1968,
+                      "end": 1972
+                    },
+                    {
+                      "type": "Identifier",
+                      "name": "roundingMode",
+                      "start": 1976,
+                      "end": 1988
+                    }
+                  ],
+                  "start": 1965,
+                  "end": 1990
+                }
+              ],
+              "optional": false,
+              "start": 1887,
+              "end": 1991
+            },
+            "start": 1887,
+            "end": 1992
+          },
+          {
+            "type": "ExpressionStatement",
+            "expression": {
+              "type": "CallExpression",
+              "callee": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "TemporalHelpers",
+                  "start": 1995,
+                  "end": 2010
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "assertZonedDateTimesEqual",
+                  "start": 2011,
+                  "end": 2036
+                },
+                "optional": false,
+                "computed": false,
+                "start": 1995,
+                "end": 2036
+              },
+              "arguments": [
+                {
+                  "type": "CallExpression",
+                  "callee": {
+                    "type": "MemberExpression",
+                    "object": {
+                      "type": "Identifier",
+                      "name": "zdt2",
+                      "start": 2037,
+                      "end": 2041
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "name": "round",
+                      "start": 2042,
+                      "end": 2047
+                    },
+                    "optional": false,
+                    "computed": false,
+                    "start": 2037,
+                    "end": 2047
+                  },
+                  "arguments": [
+                    {
+                      "type": "Identifier",
+                      "name": "options",
+                      "start": 2048,
+                      "end": 2055
+                    }
+                  ],
+                  "optional": false,
+                  "start": 2037,
+                  "end": 2056
+                },
+                {
+                  "type": "Identifier",
+                  "name": "startOfMarch5",
+                  "start": 2058,
+                  "end": 2071
+                },
+                {
+                  "type": "TemplateLiteral",
+                  "quasis": [
+                    {
+                      "type": "TemplateElement",
+                      "value": {
+                        "raw": "",
+                        "cooked": ""
+                      },
+                      "tail": false,
+                      "start": 2074,
+                      "end": 2074
+                    },
+                    {
+                      "type": "TemplateElement",
+                      "value": {
+                        "raw": " ",
+                        "cooked": " "
+                      },
+                      "tail": false,
+                      "start": 2081,
+                      "end": 2082
+                    },
+                    {
+                      "type": "TemplateElement",
+                      "value": {
+                        "raw": "",
+                        "cooked": ""
+                      },
+                      "tail": true,
+                      "start": 2097,
+                      "end": 2097
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "name": "zdt2",
+                      "start": 2076,
+                      "end": 2080
+                    },
+                    {
+                      "type": "Identifier",
+                      "name": "roundingMode",
+                      "start": 2084,
+                      "end": 2096
+                    }
+                  ],
+                  "start": 2073,
+                  "end": 2098
+                }
+              ],
+              "optional": false,
+              "start": 1995,
+              "end": 2099
+            },
+            "start": 1995,
+            "end": 2100
+          },
+          {
+            "type": "ExpressionStatement",
+            "expression": {
+              "type": "CallExpression",
+              "callee": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "TemporalHelpers",
+                  "start": 2103,
+                  "end": 2118
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "assertZonedDateTimesEqual",
+                  "start": 2119,
+                  "end": 2144
+                },
+                "optional": false,
+                "computed": false,
+                "start": 2103,
+                "end": 2144
+              },
+              "arguments": [
+                {
+                  "type": "CallExpression",
+                  "callee": {
+                    "type": "MemberExpression",
+                    "object": {
+                      "type": "Identifier",
+                      "name": "zdt3",
+                      "start": 2145,
+                      "end": 2149
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "name": "round",
+                      "start": 2150,
+                      "end": 2155
+                    },
+                    "optional": false,
+                    "computed": false,
+                    "start": 2145,
+                    "end": 2155
+                  },
+                  "arguments": [
+                    {
+                      "type": "Identifier",
+                      "name": "options",
+                      "start": 2156,
+                      "end": 2163
+                    }
+                  ],
+                  "optional": false,
+                  "start": 2145,
+                  "end": 2164
+                },
+                {
+                  "type": "Identifier",
+                  "name": "startOfMarch5",
+                  "start": 2166,
+                  "end": 2179
+                },
+                {
+                  "type": "TemplateLiteral",
+                  "quasis": [
+                    {
+                      "type": "TemplateElement",
+                      "value": {
+                        "raw": "",
+                        "cooked": ""
+                      },
+                      "tail": false,
+                      "start": 2182,
+                      "end": 2182
+                    },
+                    {
+                      "type": "TemplateElement",
+                      "value": {
+                        "raw": " ",
+                        "cooked": " "
+                      },
+                      "tail": false,
+                      "start": 2189,
+                      "end": 2190
+                    },
+                    {
+                      "type": "TemplateElement",
+                      "value": {
+                        "raw": "",
+                        "cooked": ""
+                      },
+                      "tail": true,
+                      "start": 2205,
+                      "end": 2205
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "name": "zdt3",
+                      "start": 2184,
+                      "end": 2188
+                    },
+                    {
+                      "type": "Identifier",
+                      "name": "roundingMode",
+                      "start": 2192,
+                      "end": 2204
+                    }
+                  ],
+                  "start": 2181,
+                  "end": 2206
+                }
+              ],
+              "optional": false,
+              "start": 2103,
+              "end": 2207
+            },
+            "start": 2103,
+            "end": 2208
+          },
+          {
+            "type": "ExpressionStatement",
+            "expression": {
+              "type": "CallExpression",
+              "callee": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "TemporalHelpers",
+                  "start": 2211,
+                  "end": 2226
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "assertZonedDateTimesEqual",
+                  "start": 2227,
+                  "end": 2252
+                },
+                "optional": false,
+                "computed": false,
+                "start": 2211,
+                "end": 2252
+              },
+              "arguments": [
+                {
+                  "type": "CallExpression",
+                  "callee": {
+                    "type": "MemberExpression",
+                    "object": {
+                      "type": "Identifier",
+                      "name": "zdt4",
+                      "start": 2253,
+                      "end": 2257
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "name": "round",
+                      "start": 2258,
+                      "end": 2263
+                    },
+                    "optional": false,
+                    "computed": false,
+                    "start": 2253,
+                    "end": 2263
+                  },
+                  "arguments": [
+                    {
+                      "type": "Identifier",
+                      "name": "options",
+                      "start": 2264,
+                      "end": 2271
+                    }
+                  ],
+                  "optional": false,
+                  "start": 2253,
+                  "end": 2272
+                },
+                {
+                  "type": "Identifier",
+                  "name": "startOfMarch5",
+                  "start": 2274,
+                  "end": 2287
+                },
+                {
+                  "type": "TemplateLiteral",
+                  "quasis": [
+                    {
+                      "type": "TemplateElement",
+                      "value": {
+                        "raw": "",
+                        "cooked": ""
+                      },
+                      "tail": false,
+                      "start": 2290,
+                      "end": 2290
+                    },
+                    {
+                      "type": "TemplateElement",
+                      "value": {
+                        "raw": " ",
+                        "cooked": " "
+                      },
+                      "tail": false,
+                      "start": 2297,
+                      "end": 2298
+                    },
+                    {
+                      "type": "TemplateElement",
+                      "value": {
+                        "raw": "",
+                        "cooked": ""
+                      },
+                      "tail": true,
+                      "start": 2313,
+                      "end": 2313
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "name": "zdt4",
+                      "start": 2292,
+                      "end": 2296
+                    },
+                    {
+                      "type": "Identifier",
+                      "name": "roundingMode",
+                      "start": 2300,
+                      "end": 2312
+                    }
+                  ],
+                  "start": 2289,
+                  "end": 2314
+                }
+              ],
+              "optional": false,
+              "start": 2211,
+              "end": 2315
+            },
+            "start": 2211,
+            "end": 2316
+          }
+        ],
+        "start": 1825,
+        "end": 2318
+      },
+      "start": 1732,
+      "end": 2318
+    },
+    {
+      "type": "ForOfStatement",
+      "await": false,
+      "left": {
+        "type": "VariableDeclaration",
+        "kind": "const",
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "id": {
+              "type": "Identifier",
+              "name": "roundingMode",
+              "start": 2347,
+              "end": 2359
+            },
+            "init": null,
+            "start": 2347,
+            "end": 2359
+          }
+        ],
+        "start": 2341,
+        "end": 2359
+      },
+      "right": {
+        "type": "ArrayExpression",
+        "elements": [
+          {
+            "type": "Literal",
+            "value": "ceil",
+            "raw": "\"ceil\"",
+            "start": 2364,
+            "end": 2370
+          },
+          {
+            "type": "Literal",
+            "value": "expand",
+            "raw": "\"expand\"",
+            "start": 2372,
+            "end": 2380
+          }
+        ],
+        "start": 2363,
+        "end": 2381
+      },
+      "body": {
+        "type": "BlockStatement",
+        "body": [
+          {
+            "type": "VariableDeclaration",
+            "kind": "const",
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "id": {
+                  "type": "Identifier",
+                  "name": "options",
+                  "start": 2393,
+                  "end": 2400
+                },
+                "init": {
+                  "type": "ObjectExpression",
+                  "properties": [
+                    {
+                      "type": "Property",
+                      "kind": "init",
+                      "key": {
+                        "type": "Identifier",
+                        "name": "smallestUnit",
+                        "start": 2405,
+                        "end": 2417
+                      },
+                      "value": {
+                        "type": "Literal",
+                        "value": "days",
+                        "raw": "\"days\"",
+                        "start": 2419,
+                        "end": 2425
+                      },
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false,
+                      "start": 2405,
+                      "end": 2425
+                    },
+                    {
+                      "type": "Property",
+                      "kind": "init",
+                      "key": {
+                        "type": "Identifier",
+                        "name": "roundingMode",
+                        "start": 2427,
+                        "end": 2439
+                      },
+                      "value": {
+                        "type": "Identifier",
+                        "name": "roundingMode",
+                        "start": 2427,
+                        "end": 2439
+                      },
+                      "method": false,
+                      "shorthand": true,
+                      "computed": false,
+                      "start": 2427,
+                      "end": 2439
+                    }
+                  ],
+                  "start": 2403,
+                  "end": 2441
+                },
+                "start": 2393,
+                "end": 2441
+              }
+            ],
+            "start": 2387,
+            "end": 2442
+          },
+          {
+            "type": "ExpressionStatement",
+            "expression": {
+              "type": "CallExpression",
+              "callee": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "TemporalHelpers",
+                  "start": 2445,
+                  "end": 2460
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "assertZonedDateTimesEqual",
+                  "start": 2461,
+                  "end": 2486
+                },
+                "optional": false,
+                "computed": false,
+                "start": 2445,
+                "end": 2486
+              },
+              "arguments": [
+                {
+                  "type": "CallExpression",
+                  "callee": {
+                    "type": "MemberExpression",
+                    "object": {
+                      "type": "Identifier",
+                      "name": "zdt1",
+                      "start": 2487,
+                      "end": 2491
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "name": "round",
+                      "start": 2492,
+                      "end": 2497
+                    },
+                    "optional": false,
+                    "computed": false,
+                    "start": 2487,
+                    "end": 2497
+                  },
+                  "arguments": [
+                    {
+                      "type": "Identifier",
+                      "name": "options",
+                      "start": 2498,
+                      "end": 2505
+                    }
+                  ],
+                  "optional": false,
+                  "start": 2487,
+                  "end": 2506
+                },
+                {
+                  "type": "Identifier",
+                  "name": "startOfMarch5",
+                  "start": 2508,
+                  "end": 2521
+                },
+                {
+                  "type": "TemplateLiteral",
+                  "quasis": [
+                    {
+                      "type": "TemplateElement",
+                      "value": {
+                        "raw": "",
+                        "cooked": ""
+                      },
+                      "tail": false,
+                      "start": 2524,
+                      "end": 2524
+                    },
+                    {
+                      "type": "TemplateElement",
+                      "value": {
+                        "raw": " ",
+                        "cooked": " "
+                      },
+                      "tail": false,
+                      "start": 2531,
+                      "end": 2532
+                    },
+                    {
+                      "type": "TemplateElement",
+                      "value": {
+                        "raw": "",
+                        "cooked": ""
+                      },
+                      "tail": true,
+                      "start": 2547,
+                      "end": 2547
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "name": "zdt1",
+                      "start": 2526,
+                      "end": 2530
+                    },
+                    {
+                      "type": "Identifier",
+                      "name": "roundingMode",
+                      "start": 2534,
+                      "end": 2546
+                    }
+                  ],
+                  "start": 2523,
+                  "end": 2548
+                }
+              ],
+              "optional": false,
+              "start": 2445,
+              "end": 2549
+            },
+            "start": 2445,
+            "end": 2550
+          },
+          {
+            "type": "ExpressionStatement",
+            "expression": {
+              "type": "CallExpression",
+              "callee": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "TemporalHelpers",
+                  "start": 2553,
+                  "end": 2568
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "assertZonedDateTimesEqual",
+                  "start": 2569,
+                  "end": 2594
+                },
+                "optional": false,
+                "computed": false,
+                "start": 2553,
+                "end": 2594
+              },
+              "arguments": [
+                {
+                  "type": "CallExpression",
+                  "callee": {
+                    "type": "MemberExpression",
+                    "object": {
+                      "type": "Identifier",
+                      "name": "zdt2",
+                      "start": 2595,
+                      "end": 2599
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "name": "round",
+                      "start": 2600,
+                      "end": 2605
+                    },
+                    "optional": false,
+                    "computed": false,
+                    "start": 2595,
+                    "end": 2605
+                  },
+                  "arguments": [
+                    {
+                      "type": "Identifier",
+                      "name": "options",
+                      "start": 2606,
+                      "end": 2613
+                    }
+                  ],
+                  "optional": false,
+                  "start": 2595,
+                  "end": 2614
+                },
+                {
+                  "type": "Identifier",
+                  "name": "startOfMarch6",
+                  "start": 2616,
+                  "end": 2629
+                },
+                {
+                  "type": "TemplateLiteral",
+                  "quasis": [
+                    {
+                      "type": "TemplateElement",
+                      "value": {
+                        "raw": "",
+                        "cooked": ""
+                      },
+                      "tail": false,
+                      "start": 2632,
+                      "end": 2632
+                    },
+                    {
+                      "type": "TemplateElement",
+                      "value": {
+                        "raw": " ",
+                        "cooked": " "
+                      },
+                      "tail": false,
+                      "start": 2639,
+                      "end": 2640
+                    },
+                    {
+                      "type": "TemplateElement",
+                      "value": {
+                        "raw": "",
+                        "cooked": ""
+                      },
+                      "tail": true,
+                      "start": 2655,
+                      "end": 2655
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "name": "zdt2",
+                      "start": 2634,
+                      "end": 2638
+                    },
+                    {
+                      "type": "Identifier",
+                      "name": "roundingMode",
+                      "start": 2642,
+                      "end": 2654
+                    }
+                  ],
+                  "start": 2631,
+                  "end": 2656
+                }
+              ],
+              "optional": false,
+              "start": 2553,
+              "end": 2657
+            },
+            "start": 2553,
+            "end": 2658
+          },
+          {
+            "type": "ExpressionStatement",
+            "expression": {
+              "type": "CallExpression",
+              "callee": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "TemporalHelpers",
+                  "start": 2661,
+                  "end": 2676
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "assertZonedDateTimesEqual",
+                  "start": 2677,
+                  "end": 2702
+                },
+                "optional": false,
+                "computed": false,
+                "start": 2661,
+                "end": 2702
+              },
+              "arguments": [
+                {
+                  "type": "CallExpression",
+                  "callee": {
+                    "type": "MemberExpression",
+                    "object": {
+                      "type": "Identifier",
+                      "name": "zdt3",
+                      "start": 2703,
+                      "end": 2707
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "name": "round",
+                      "start": 2708,
+                      "end": 2713
+                    },
+                    "optional": false,
+                    "computed": false,
+                    "start": 2703,
+                    "end": 2713
+                  },
+                  "arguments": [
+                    {
+                      "type": "Identifier",
+                      "name": "options",
+                      "start": 2714,
+                      "end": 2721
+                    }
+                  ],
+                  "optional": false,
+                  "start": 2703,
+                  "end": 2722
+                },
+                {
+                  "type": "Identifier",
+                  "name": "startOfMarch5",
+                  "start": 2724,
+                  "end": 2737
+                },
+                {
+                  "type": "TemplateLiteral",
+                  "quasis": [
+                    {
+                      "type": "TemplateElement",
+                      "value": {
+                        "raw": "",
+                        "cooked": ""
+                      },
+                      "tail": false,
+                      "start": 2740,
+                      "end": 2740
+                    },
+                    {
+                      "type": "TemplateElement",
+                      "value": {
+                        "raw": " ",
+                        "cooked": " "
+                      },
+                      "tail": false,
+                      "start": 2747,
+                      "end": 2748
+                    },
+                    {
+                      "type": "TemplateElement",
+                      "value": {
+                        "raw": "",
+                        "cooked": ""
+                      },
+                      "tail": true,
+                      "start": 2763,
+                      "end": 2763
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "name": "zdt3",
+                      "start": 2742,
+                      "end": 2746
+                    },
+                    {
+                      "type": "Identifier",
+                      "name": "roundingMode",
+                      "start": 2750,
+                      "end": 2762
+                    }
+                  ],
+                  "start": 2739,
+                  "end": 2764
+                }
+              ],
+              "optional": false,
+              "start": 2661,
+              "end": 2765
+            },
+            "start": 2661,
+            "end": 2766
+          },
+          {
+            "type": "ExpressionStatement",
+            "expression": {
+              "type": "CallExpression",
+              "callee": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "TemporalHelpers",
+                  "start": 2769,
+                  "end": 2784
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "assertZonedDateTimesEqual",
+                  "start": 2785,
+                  "end": 2810
+                },
+                "optional": false,
+                "computed": false,
+                "start": 2769,
+                "end": 2810
+              },
+              "arguments": [
+                {
+                  "type": "CallExpression",
+                  "callee": {
+                    "type": "MemberExpression",
+                    "object": {
+                      "type": "Identifier",
+                      "name": "zdt4",
+                      "start": 2811,
+                      "end": 2815
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "name": "round",
+                      "start": 2816,
+                      "end": 2821
+                    },
+                    "optional": false,
+                    "computed": false,
+                    "start": 2811,
+                    "end": 2821
+                  },
+                  "arguments": [
+                    {
+                      "type": "Identifier",
+                      "name": "options",
+                      "start": 2822,
+                      "end": 2829
+                    }
+                  ],
+                  "optional": false,
+                  "start": 2811,
+                  "end": 2830
+                },
+                {
+                  "type": "Identifier",
+                  "name": "startOfMarch6",
+                  "start": 2832,
+                  "end": 2845
+                },
+                {
+                  "type": "TemplateLiteral",
+                  "quasis": [
+                    {
+                      "type": "TemplateElement",
+                      "value": {
+                        "raw": "",
+                        "cooked": ""
+                      },
+                      "tail": false,
+                      "start": 2848,
+                      "end": 2848
+                    },
+                    {
+                      "type": "TemplateElement",
+                      "value": {
+                        "raw": " ",
+                        "cooked": " "
+                      },
+                      "tail": false,
+                      "start": 2855,
+                      "end": 2856
+                    },
+                    {
+                      "type": "TemplateElement",
+                      "value": {
+                        "raw": "",
+                        "cooked": ""
+                      },
+                      "tail": true,
+                      "start": 2871,
+                      "end": 2871
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "name": "zdt4",
+                      "start": 2850,
+                      "end": 2854
+                    },
+                    {
+                      "type": "Identifier",
+                      "name": "roundingMode",
+                      "start": 2858,
+                      "end": 2870
+                    }
+                  ],
+                  "start": 2847,
+                  "end": 2872
+                }
+              ],
+              "optional": false,
+              "start": 2769,
+              "end": 2873
+            },
+            "start": 2769,
+            "end": 2874
+          }
+        ],
+        "start": 2383,
+        "end": 2876
+      },
+      "start": 2336,
+      "end": 2876
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 2877
+}

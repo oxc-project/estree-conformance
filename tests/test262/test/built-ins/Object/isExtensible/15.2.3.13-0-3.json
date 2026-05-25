@@ -10,27 +10,27 @@
           "id": {
             "type": "Identifier",
             "name": "o",
-            "start": 416,
-            "end": 417
+            "start": 417,
+            "end": 418
           },
           "init": {
             "type": "NewExpression",
             "callee": {
               "type": "Identifier",
               "name": "Object",
-              "start": 424,
-              "end": 430
+              "start": 425,
+              "end": 431
             },
             "arguments": [],
-            "start": 420,
-            "end": 432
+            "start": 421,
+            "end": 433
           },
-          "start": 416,
-          "end": 432
+          "start": 417,
+          "end": 433
         }
       ],
-      "start": 412,
-      "end": 433
+      "start": 413,
+      "end": 434
     },
     {
       "type": "ExpressionStatement",
@@ -41,19 +41,19 @@
           "object": {
             "type": "Identifier",
             "name": "assert",
-            "start": 435,
-            "end": 441
+            "start": 436,
+            "end": 442
           },
           "property": {
             "type": "Identifier",
             "name": "sameValue",
-            "start": 442,
-            "end": 451
+            "start": 443,
+            "end": 452
           },
           "optional": false,
           "computed": false,
-          "start": 435,
-          "end": 451
+          "start": 436,
+          "end": 452
         },
         "arguments": [
           {
@@ -63,57 +63,57 @@
               "object": {
                 "type": "Identifier",
                 "name": "Object",
-                "start": 452,
-                "end": 458
+                "start": 453,
+                "end": 459
               },
               "property": {
                 "type": "Identifier",
                 "name": "isExtensible",
-                "start": 459,
-                "end": 471
+                "start": 460,
+                "end": 472
               },
               "optional": false,
               "computed": false,
-              "start": 452,
-              "end": 471
+              "start": 453,
+              "end": 472
             },
             "arguments": [
               {
                 "type": "Identifier",
                 "name": "o",
-                "start": 472,
-                "end": 473
+                "start": 473,
+                "end": 474
               }
             ],
             "optional": false,
-            "start": 452,
-            "end": 474
+            "start": 453,
+            "end": 475
           },
           {
             "type": "Literal",
             "value": true,
             "raw": "true",
-            "start": 476,
-            "end": 480
+            "start": 477,
+            "end": 481
           },
           {
             "type": "Literal",
             "value": "Object.isExtensible(o)",
             "raw": "'Object.isExtensible(o)'",
-            "start": 482,
-            "end": 506
+            "start": 483,
+            "end": 507
           }
         ],
         "optional": false,
-        "start": 435,
-        "end": 507
+        "start": 436,
+        "end": 508
       },
-      "start": 435,
-      "end": 508
+      "start": 436,
+      "end": 509
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 509
+  "end": 510
 }

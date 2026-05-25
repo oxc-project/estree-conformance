@@ -1,0 +1,158 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ImportDeclaration",
+      "specifiers": [
+        {
+          "type": "ImportSpecifier",
+          "imported": {
+            "type": "Identifier",
+            "name": "x",
+            "start": 1718,
+            "end": 1719
+          },
+          "local": {
+            "type": "Identifier",
+            "name": "x",
+            "start": 1718,
+            "end": 1719
+          },
+          "start": 1718,
+          "end": 1719
+        }
+      ],
+      "source": {
+        "type": "Literal",
+        "value": "./reexport-source-binding_FIXTURE.js",
+        "raw": "'./reexport-source-binding_FIXTURE.js'",
+        "start": 1727,
+        "end": 1765
+      },
+      "phase": null,
+      "attributes": [],
+      "start": 1709,
+      "end": 1766
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 1768,
+            "end": 1774
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 1775,
+            "end": 1784
+          },
+          "optional": false,
+          "computed": false,
+          "start": 1768,
+          "end": 1784
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "operator": "typeof",
+            "argument": {
+              "type": "Identifier",
+              "name": "x",
+              "start": 1792,
+              "end": 1793
+            },
+            "prefix": true,
+            "start": 1785,
+            "end": 1793
+          },
+          {
+            "type": "Literal",
+            "value": "object",
+            "raw": "'object'",
+            "start": 1795,
+            "end": 1803
+          },
+          {
+            "type": "Literal",
+            "value": "Named import of a re-exported source binding should be bound to an object",
+            "raw": "'Named import of a re-exported source binding should be bound to an object'",
+            "start": 1807,
+            "end": 1882
+          }
+        ],
+        "optional": false,
+        "start": 1768,
+        "end": 1883
+      },
+      "start": 1768,
+      "end": 1884
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "Identifier",
+          "name": "assert",
+          "start": 1885,
+          "end": 1891
+        },
+        "arguments": [
+          {
+            "type": "BinaryExpression",
+            "left": {
+              "type": "Identifier",
+              "name": "x",
+              "start": 1892,
+              "end": 1893
+            },
+            "operator": "instanceof",
+            "right": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "$262",
+                "start": 1905,
+                "end": 1909
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "AbstractModuleSource",
+                "start": 1910,
+                "end": 1930
+              },
+              "optional": false,
+              "computed": false,
+              "start": 1905,
+              "end": 1930
+            },
+            "start": 1892,
+            "end": 1930
+          },
+          {
+            "type": "Literal",
+            "value": "x should be a %AbstractModuleSource% instance (the underlying ModuleSource)",
+            "raw": "'x should be a %AbstractModuleSource% instance (the underlying ModuleSource)'",
+            "start": 1934,
+            "end": 2011
+          }
+        ],
+        "optional": false,
+        "start": 1885,
+        "end": 2012
+      },
+      "start": 1885,
+      "end": 2013
+    }
+  ],
+  "sourceType": "module",
+  "hashbang": null,
+  "start": 0,
+  "end": 2014
+}

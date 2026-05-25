@@ -18,69 +18,69 @@
                   "object": {
                     "type": "Identifier",
                     "name": "Intl",
-                    "start": 479,
-                    "end": 483
+                    "start": 464,
+                    "end": 468
                   },
                   "property": {
                     "type": "Identifier",
                     "name": "NumberFormat",
-                    "start": 484,
-                    "end": 496
+                    "start": 469,
+                    "end": 481
                   },
                   "optional": false,
                   "computed": false,
-                  "start": 479,
-                  "end": 496
+                  "start": 464,
+                  "end": 481
                 },
                 "arguments": [
                   {
                     "type": "Literal",
                     "value": "en",
                     "raw": "\"en\"",
-                    "start": 497,
-                    "end": 501
+                    "start": 482,
+                    "end": 486
                   }
                 ],
-                "start": 475,
-                "end": 502
+                "start": 460,
+                "end": 487
               },
               "property": {
                 "type": "Identifier",
                 "name": "resolvedOptions",
-                "start": 503,
-                "end": 518
+                "start": 488,
+                "end": 503
               },
               "optional": false,
               "computed": false,
-              "start": 475,
-              "end": 518
+              "start": 460,
+              "end": 503
             },
             "arguments": [],
             "optional": false,
-            "start": 475,
-            "end": 520
+            "start": 460,
+            "end": 505
           },
           "property": {
             "type": "Identifier",
             "name": "locale",
-            "start": 521,
-            "end": 527
+            "start": 506,
+            "end": 512
           },
           "optional": false,
           "computed": false,
-          "start": 475,
-          "end": 527
+          "start": 460,
+          "end": 512
         },
         "operator": "===",
         "right": {
           "type": "Literal",
           "value": "en",
           "raw": "\"en\"",
-          "start": 532,
-          "end": 536
+          "start": 517,
+          "end": 521
         },
-        "start": 475,
-        "end": 536
+        "start": 460,
+        "end": 521
       },
       "consequent": {
         "type": "BlockStatement",
@@ -97,43 +97,43 @@
                   "object": {
                     "type": "Identifier",
                     "name": "Object",
-                    "start": 542,
-                    "end": 548
+                    "start": 527,
+                    "end": 533
                   },
                   "property": {
                     "type": "Identifier",
                     "name": "prototype",
-                    "start": 549,
-                    "end": 558
+                    "start": 534,
+                    "end": 543
                   },
                   "optional": false,
                   "computed": false,
-                  "start": 542,
-                  "end": 558
+                  "start": 527,
+                  "end": 543
                 },
                 "property": {
                   "type": "Identifier",
                   "name": "maximumFractionDigits",
-                  "start": 559,
-                  "end": 580
+                  "start": 544,
+                  "end": 565
                 },
                 "optional": false,
                 "computed": false,
-                "start": 542,
-                "end": 580
+                "start": 527,
+                "end": 565
               },
               "right": {
                 "type": "Literal",
                 "value": 1,
                 "raw": "1",
-                "start": 583,
-                "end": 584
+                "start": 568,
+                "end": 569
               },
-              "start": 542,
-              "end": 584
+              "start": 527,
+              "end": 569
             },
-            "start": 542,
-            "end": 585
+            "start": 527,
+            "end": 570
           },
           {
             "type": "ExpressionStatement",
@@ -144,19 +144,19 @@
                 "object": {
                   "type": "Identifier",
                   "name": "assert",
-                  "start": 588,
-                  "end": 594
+                  "start": 573,
+                  "end": 579
                 },
                 "property": {
                   "type": "Identifier",
                   "name": "sameValue",
-                  "start": 595,
-                  "end": 604
+                  "start": 580,
+                  "end": 589
                 },
                 "optional": false,
                 "computed": false,
-                "start": 588,
-                "end": 604
+                "start": 573,
+                "end": 589
               },
               "arguments": [
                 {
@@ -167,59 +167,59 @@
                       "type": "Literal",
                       "value": 1.23,
                       "raw": "1.23",
-                      "start": 605,
-                      "end": 609
+                      "start": 590,
+                      "end": 594
                     },
                     "property": {
                       "type": "Identifier",
                       "name": "toLocaleString",
-                      "start": 610,
-                      "end": 624
+                      "start": 595,
+                      "end": 609
                     },
                     "optional": false,
                     "computed": false,
-                    "start": 605,
-                    "end": 624
+                    "start": 590,
+                    "end": 609
                   },
                   "arguments": [
                     {
                       "type": "Literal",
                       "value": "en",
                       "raw": "\"en\"",
-                      "start": 625,
-                      "end": 629
+                      "start": 610,
+                      "end": 614
                     }
                   ],
                   "optional": false,
-                  "start": 605,
-                  "end": 630
+                  "start": 590,
+                  "end": 615
                 },
                 {
                   "type": "Literal",
                   "value": "1.23",
                   "raw": "\"1.23\"",
-                  "start": 632,
-                  "end": 638
+                  "start": 617,
+                  "end": 623
                 }
               ],
               "optional": false,
-              "start": 588,
-              "end": 639
+              "start": 573,
+              "end": 624
             },
-            "start": 588,
-            "end": 640
+            "start": 573,
+            "end": 625
           }
         ],
-        "start": 538,
-        "end": 642
+        "start": 523,
+        "end": 627
       },
       "alternate": null,
-      "start": 471,
-      "end": 642
+      "start": 456,
+      "end": 627
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 643
+  "end": 628
 }

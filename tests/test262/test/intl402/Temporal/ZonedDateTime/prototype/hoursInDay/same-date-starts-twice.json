@@ -10,8 +10,8 @@
           "id": {
             "type": "Identifier",
             "name": "zdt1",
-            "start": 449,
-            "end": 453
+            "start": 480,
+            "end": 484
           },
           "init": {
             "type": "CallExpression",
@@ -22,50 +22,50 @@
                 "object": {
                   "type": "Identifier",
                   "name": "Temporal",
-                  "start": 456,
-                  "end": 464
+                  "start": 487,
+                  "end": 495
                 },
                 "property": {
                   "type": "Identifier",
                   "name": "ZonedDateTime",
-                  "start": 465,
-                  "end": 478
+                  "start": 496,
+                  "end": 509
                 },
                 "optional": false,
                 "computed": false,
-                "start": 456,
-                "end": 478
+                "start": 487,
+                "end": 509
               },
               "property": {
                 "type": "Identifier",
                 "name": "from",
-                "start": 479,
-                "end": 483
+                "start": 510,
+                "end": 514
               },
               "optional": false,
               "computed": false,
-              "start": 456,
-              "end": 483
+              "start": 487,
+              "end": 514
             },
             "arguments": [
               {
                 "type": "Literal",
                 "value": "2010-11-06T00:00:00-02:30[America/St_Johns]",
                 "raw": "'2010-11-06T00:00:00-02:30[America/St_Johns]'",
-                "start": 484,
-                "end": 529
+                "start": 515,
+                "end": 560
               }
             ],
             "optional": false,
-            "start": 456,
-            "end": 530
+            "start": 487,
+            "end": 561
           },
-          "start": 449,
-          "end": 530
+          "start": 480,
+          "end": 561
         }
       ],
-      "start": 443,
-      "end": 531
+      "start": 474,
+      "end": 562
     },
     {
       "type": "VariableDeclaration",
@@ -76,8 +76,8 @@
           "id": {
             "type": "Identifier",
             "name": "zdt2",
-            "start": 538,
-            "end": 542
+            "start": 569,
+            "end": 573
           },
           "init": {
             "type": "CallExpression",
@@ -88,50 +88,50 @@
                 "object": {
                   "type": "Identifier",
                   "name": "Temporal",
-                  "start": 545,
-                  "end": 553
+                  "start": 576,
+                  "end": 584
                 },
                 "property": {
                   "type": "Identifier",
                   "name": "ZonedDateTime",
-                  "start": 554,
-                  "end": 567
+                  "start": 585,
+                  "end": 598
                 },
                 "optional": false,
                 "computed": false,
-                "start": 545,
-                "end": 567
+                "start": 576,
+                "end": 598
               },
               "property": {
                 "type": "Identifier",
                 "name": "from",
-                "start": 568,
-                "end": 572
+                "start": 599,
+                "end": 603
               },
               "optional": false,
               "computed": false,
-              "start": 545,
-              "end": 572
+              "start": 576,
+              "end": 603
             },
             "arguments": [
               {
                 "type": "Literal",
                 "value": "2010-11-07T23:00:00-03:30[America/St_Johns]",
                 "raw": "'2010-11-07T23:00:00-03:30[America/St_Johns]'",
-                "start": 573,
-                "end": 618
+                "start": 604,
+                "end": 649
               }
             ],
             "optional": false,
-            "start": 545,
-            "end": 619
+            "start": 576,
+            "end": 650
           },
-          "start": 538,
-          "end": 619
+          "start": 569,
+          "end": 650
         }
       ],
-      "start": 532,
-      "end": 620
+      "start": 563,
+      "end": 651
     },
     {
       "type": "VariableDeclaration",
@@ -142,8 +142,8 @@
           "id": {
             "type": "Identifier",
             "name": "zdt3",
-            "start": 627,
-            "end": 631
+            "start": 658,
+            "end": 662
           },
           "init": {
             "type": "CallExpression",
@@ -154,50 +154,50 @@
                 "object": {
                   "type": "Identifier",
                   "name": "Temporal",
-                  "start": 634,
-                  "end": 642
+                  "start": 665,
+                  "end": 673
                 },
                 "property": {
                   "type": "Identifier",
                   "name": "ZonedDateTime",
-                  "start": 643,
-                  "end": 656
+                  "start": 674,
+                  "end": 687
                 },
                 "optional": false,
                 "computed": false,
-                "start": 634,
-                "end": 656
+                "start": 665,
+                "end": 687
               },
               "property": {
                 "type": "Identifier",
                 "name": "from",
-                "start": 657,
-                "end": 661
+                "start": 688,
+                "end": 692
               },
               "optional": false,
               "computed": false,
-              "start": 634,
-              "end": 661
+              "start": 665,
+              "end": 692
             },
             "arguments": [
               {
                 "type": "Literal",
                 "value": "2010-11-08T23:00:00-03:30[America/St_Johns]",
                 "raw": "'2010-11-08T23:00:00-03:30[America/St_Johns]'",
-                "start": 662,
-                "end": 707
+                "start": 693,
+                "end": 738
               }
             ],
             "optional": false,
-            "start": 634,
-            "end": 708
+            "start": 665,
+            "end": 739
           },
-          "start": 627,
-          "end": 708
+          "start": 658,
+          "end": 739
         }
       ],
-      "start": 621,
-      "end": 709
+      "start": 652,
+      "end": 740
     },
     {
       "type": "ExpressionStatement",
@@ -208,19 +208,19 @@
           "object": {
             "type": "Identifier",
             "name": "assert",
-            "start": 711,
-            "end": 717
+            "start": 742,
+            "end": 748
           },
           "property": {
             "type": "Identifier",
             "name": "sameValue",
-            "start": 718,
-            "end": 727
+            "start": 749,
+            "end": 758
           },
           "optional": false,
           "computed": false,
-          "start": 711,
-          "end": 727
+          "start": 742,
+          "end": 758
         },
         "arguments": [
           {
@@ -228,34 +228,34 @@
             "object": {
               "type": "Identifier",
               "name": "zdt1",
-              "start": 728,
-              "end": 732
+              "start": 759,
+              "end": 763
             },
             "property": {
               "type": "Identifier",
               "name": "hoursInDay",
-              "start": 733,
-              "end": 743
+              "start": 764,
+              "end": 774
             },
             "optional": false,
             "computed": false,
-            "start": 728,
-            "end": 743
+            "start": 759,
+            "end": 774
           },
           {
             "type": "Literal",
             "value": 24,
             "raw": "24",
-            "start": 745,
-            "end": 747
+            "start": 776,
+            "end": 778
           }
         ],
         "optional": false,
-        "start": 711,
-        "end": 748
+        "start": 742,
+        "end": 779
       },
-      "start": 711,
-      "end": 749
+      "start": 742,
+      "end": 780
     },
     {
       "type": "ExpressionStatement",
@@ -266,19 +266,19 @@
           "object": {
             "type": "Identifier",
             "name": "assert",
-            "start": 750,
-            "end": 756
+            "start": 781,
+            "end": 787
           },
           "property": {
             "type": "Identifier",
             "name": "sameValue",
-            "start": 757,
-            "end": 766
+            "start": 788,
+            "end": 797
           },
           "optional": false,
           "computed": false,
-          "start": 750,
-          "end": 766
+          "start": 781,
+          "end": 797
         },
         "arguments": [
           {
@@ -286,34 +286,34 @@
             "object": {
               "type": "Identifier",
               "name": "zdt2",
-              "start": 767,
-              "end": 771
+              "start": 798,
+              "end": 802
             },
             "property": {
               "type": "Identifier",
               "name": "hoursInDay",
-              "start": 772,
-              "end": 782
+              "start": 803,
+              "end": 813
             },
             "optional": false,
             "computed": false,
-            "start": 767,
-            "end": 782
+            "start": 798,
+            "end": 813
           },
           {
             "type": "Literal",
             "value": 25,
             "raw": "25",
-            "start": 784,
-            "end": 786
+            "start": 815,
+            "end": 817
           }
         ],
         "optional": false,
-        "start": 750,
-        "end": 787
+        "start": 781,
+        "end": 818
       },
-      "start": 750,
-      "end": 788
+      "start": 781,
+      "end": 819
     },
     {
       "type": "ExpressionStatement",
@@ -324,19 +324,19 @@
           "object": {
             "type": "Identifier",
             "name": "assert",
-            "start": 789,
-            "end": 795
+            "start": 820,
+            "end": 826
           },
           "property": {
             "type": "Identifier",
             "name": "sameValue",
-            "start": 796,
-            "end": 805
+            "start": 827,
+            "end": 836
           },
           "optional": false,
           "computed": false,
-          "start": 789,
-          "end": 805
+          "start": 820,
+          "end": 836
         },
         "arguments": [
           {
@@ -344,38 +344,807 @@
             "object": {
               "type": "Identifier",
               "name": "zdt3",
-              "start": 806,
-              "end": 810
+              "start": 837,
+              "end": 841
             },
             "property": {
               "type": "Identifier",
               "name": "hoursInDay",
-              "start": 811,
-              "end": 821
+              "start": 842,
+              "end": 852
             },
             "optional": false,
             "computed": false,
-            "start": 806,
-            "end": 821
+            "start": 837,
+            "end": 852
           },
           {
             "type": "Literal",
             "value": 24,
             "raw": "24",
-            "start": 823,
-            "end": 825
+            "start": 854,
+            "end": 856
           }
         ],
         "optional": false,
-        "start": 789,
-        "end": 826
+        "start": 820,
+        "end": 857
       },
-      "start": 789,
-      "end": 827
+      "start": 820,
+      "end": 858
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "zdt4",
+            "start": 866,
+            "end": 870
+          },
+          "init": {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "Temporal",
+                  "start": 873,
+                  "end": 881
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "ZonedDateTime",
+                  "start": 882,
+                  "end": 895
+                },
+                "optional": false,
+                "computed": false,
+                "start": 873,
+                "end": 895
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "from",
+                "start": 896,
+                "end": 900
+              },
+              "optional": false,
+              "computed": false,
+              "start": 873,
+              "end": 900
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "value": "2010-03-04T23:10:00+11:00[Antarctica/Casey]",
+                "raw": "\"2010-03-04T23:10:00+11:00[Antarctica/Casey]\"",
+                "start": 901,
+                "end": 946
+              }
+            ],
+            "optional": false,
+            "start": 873,
+            "end": 947
+          },
+          "start": 866,
+          "end": 947
+        }
+      ],
+      "start": 860,
+      "end": 948
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "zdt5",
+            "start": 955,
+            "end": 959
+          },
+          "init": {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "Temporal",
+                  "start": 962,
+                  "end": 970
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "ZonedDateTime",
+                  "start": 971,
+                  "end": 984
+                },
+                "optional": false,
+                "computed": false,
+                "start": 962,
+                "end": 984
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "from",
+                "start": 985,
+                "end": 989
+              },
+              "optional": false,
+              "computed": false,
+              "start": 962,
+              "end": 989
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "value": "2010-03-05T00:45:00+11:00[Antarctica/Casey]",
+                "raw": "\"2010-03-05T00:45:00+11:00[Antarctica/Casey]\"",
+                "start": 990,
+                "end": 1035
+              }
+            ],
+            "optional": false,
+            "start": 962,
+            "end": 1036
+          },
+          "start": 955,
+          "end": 1036
+        }
+      ],
+      "start": 949,
+      "end": 1037
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "zdt6",
+            "start": 1102,
+            "end": 1106
+          },
+          "init": {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "Temporal",
+                  "start": 1109,
+                  "end": 1117
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "ZonedDateTime",
+                  "start": 1118,
+                  "end": 1131
+                },
+                "optional": false,
+                "computed": false,
+                "start": 1109,
+                "end": 1131
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "from",
+                "start": 1132,
+                "end": 1136
+              },
+              "optional": false,
+              "computed": false,
+              "start": 1109,
+              "end": 1136
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "value": "2010-03-04T23:10:00+08:00[Antarctica/Casey]",
+                "raw": "\"2010-03-04T23:10:00+08:00[Antarctica/Casey]\"",
+                "start": 1137,
+                "end": 1182
+              }
+            ],
+            "optional": false,
+            "start": 1109,
+            "end": 1183
+          },
+          "start": 1102,
+          "end": 1183
+        }
+      ],
+      "start": 1096,
+      "end": 1184
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "zdt7",
+            "start": 1191,
+            "end": 1195
+          },
+          "init": {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "Temporal",
+                  "start": 1198,
+                  "end": 1206
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "ZonedDateTime",
+                  "start": 1207,
+                  "end": 1220
+                },
+                "optional": false,
+                "computed": false,
+                "start": 1198,
+                "end": 1220
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "from",
+                "start": 1221,
+                "end": 1225
+              },
+              "optional": false,
+              "computed": false,
+              "start": 1198,
+              "end": 1225
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "value": "2010-03-05T00:45:00+08:00[Antarctica/Casey]",
+                "raw": "\"2010-03-05T00:45:00+08:00[Antarctica/Casey]\"",
+                "start": 1226,
+                "end": 1271
+              }
+            ],
+            "optional": false,
+            "start": 1198,
+            "end": 1272
+          },
+          "start": 1191,
+          "end": 1272
+        }
+      ],
+      "start": 1185,
+      "end": 1273
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 1275,
+            "end": 1281
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 1282,
+            "end": 1291
+          },
+          "optional": false,
+          "computed": false,
+          "start": 1275,
+          "end": 1291
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "Identifier",
+              "name": "zdt4",
+              "start": 1292,
+              "end": 1296
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "hoursInDay",
+              "start": 1297,
+              "end": 1307
+            },
+            "optional": false,
+            "computed": false,
+            "start": 1292,
+            "end": 1307
+          },
+          {
+            "type": "Literal",
+            "value": 24,
+            "raw": "24",
+            "start": 1309,
+            "end": 1311
+          },
+          {
+            "type": "Literal",
+            "value": "March 4 has 24 hours (excluding discontiguous piece)",
+            "raw": "\"March 4 has 24 hours (excluding discontiguous piece)\"",
+            "start": 1313,
+            "end": 1367
+          }
+        ],
+        "optional": false,
+        "start": 1275,
+        "end": 1368
+      },
+      "start": 1275,
+      "end": 1369
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 1370,
+            "end": 1376
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 1377,
+            "end": 1386
+          },
+          "optional": false,
+          "computed": false,
+          "start": 1370,
+          "end": 1386
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "Identifier",
+              "name": "zdt5",
+              "start": 1387,
+              "end": 1391
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "hoursInDay",
+              "start": 1392,
+              "end": 1402
+            },
+            "optional": false,
+            "computed": false,
+            "start": 1387,
+            "end": 1402
+          },
+          {
+            "type": "Literal",
+            "value": 27,
+            "raw": "27",
+            "start": 1404,
+            "end": 1406
+          },
+          {
+            "type": "Literal",
+            "value": "March 5 has 27 hours (calculated from discontiguous piece)",
+            "raw": "\"March 5 has 27 hours (calculated from discontiguous piece)\"",
+            "start": 1408,
+            "end": 1468
+          }
+        ],
+        "optional": false,
+        "start": 1370,
+        "end": 1469
+      },
+      "start": 1370,
+      "end": 1470
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 1471,
+            "end": 1477
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 1478,
+            "end": 1487
+          },
+          "optional": false,
+          "computed": false,
+          "start": 1471,
+          "end": 1487
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "Identifier",
+              "name": "zdt6",
+              "start": 1488,
+              "end": 1492
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "hoursInDay",
+              "start": 1493,
+              "end": 1503
+            },
+            "optional": false,
+            "computed": false,
+            "start": 1488,
+            "end": 1503
+          },
+          {
+            "type": "Literal",
+            "value": 24,
+            "raw": "24",
+            "start": 1505,
+            "end": 1507
+          },
+          {
+            "type": "Literal",
+            "value": "March 4 has 24 hours (calculated from discontiguous piece)",
+            "raw": "\"March 4 has 24 hours (calculated from discontiguous piece)\"",
+            "start": 1509,
+            "end": 1569
+          }
+        ],
+        "optional": false,
+        "start": 1471,
+        "end": 1570
+      },
+      "start": 1471,
+      "end": 1571
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 1572,
+            "end": 1578
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 1579,
+            "end": 1588
+          },
+          "optional": false,
+          "computed": false,
+          "start": 1572,
+          "end": 1588
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "Identifier",
+              "name": "zdt7",
+              "start": 1589,
+              "end": 1593
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "hoursInDay",
+              "start": 1594,
+              "end": 1604
+            },
+            "optional": false,
+            "computed": false,
+            "start": 1589,
+            "end": 1604
+          },
+          {
+            "type": "Literal",
+            "value": 27,
+            "raw": "27",
+            "start": 1606,
+            "end": 1608
+          },
+          {
+            "type": "Literal",
+            "value": "March 5 has 27 hours (including discontiguous piece of March 4)",
+            "raw": "\"March 5 has 27 hours (including discontiguous piece of March 4)\"",
+            "start": 1610,
+            "end": 1675
+          }
+        ],
+        "optional": false,
+        "start": 1572,
+        "end": 1676
+      },
+      "start": 1572,
+      "end": 1677
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "startOfMarch4",
+            "start": 1685,
+            "end": 1698
+          },
+          "init": {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "Temporal",
+                  "start": 1701,
+                  "end": 1709
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "ZonedDateTime",
+                  "start": 1710,
+                  "end": 1723
+                },
+                "optional": false,
+                "computed": false,
+                "start": 1701,
+                "end": 1723
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "from",
+                "start": 1724,
+                "end": 1728
+              },
+              "optional": false,
+              "computed": false,
+              "start": 1701,
+              "end": 1728
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "value": "2010-03-04T00:00:00+11:00[Antarctica/Casey]",
+                "raw": "\"2010-03-04T00:00:00+11:00[Antarctica/Casey]\"",
+                "start": 1729,
+                "end": 1774
+              }
+            ],
+            "optional": false,
+            "start": 1701,
+            "end": 1775
+          },
+          "start": 1685,
+          "end": 1775
+        }
+      ],
+      "start": 1679,
+      "end": 1776
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "startOfMarch5",
+            "start": 1783,
+            "end": 1796
+          },
+          "init": {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "Temporal",
+                  "start": 1799,
+                  "end": 1807
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "ZonedDateTime",
+                  "start": 1808,
+                  "end": 1821
+                },
+                "optional": false,
+                "computed": false,
+                "start": 1799,
+                "end": 1821
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "from",
+                "start": 1822,
+                "end": 1826
+              },
+              "optional": false,
+              "computed": false,
+              "start": 1799,
+              "end": 1826
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "value": "2010-03-05T00:00:00+11:00[Antarctica/Casey]",
+                "raw": "\"2010-03-05T00:00:00+11:00[Antarctica/Casey]\"",
+                "start": 1827,
+                "end": 1872
+              }
+            ],
+            "optional": false,
+            "start": 1799,
+            "end": 1873
+          },
+          "start": 1783,
+          "end": 1873
+        }
+      ],
+      "start": 1777,
+      "end": 1874
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "TemporalHelpers",
+            "start": 1876,
+            "end": 1891
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "assertZonedDateTimesEqual",
+            "start": 1892,
+            "end": 1917
+          },
+          "optional": false,
+          "computed": false,
+          "start": 1876,
+          "end": 1917
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "startOfMarch4",
+                "start": 1921,
+                "end": 1934
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "add",
+                "start": 1935,
+                "end": 1938
+              },
+              "optional": false,
+              "computed": false,
+              "start": 1921,
+              "end": 1938
+            },
+            "arguments": [
+              {
+                "type": "ObjectExpression",
+                "properties": [
+                  {
+                    "type": "Property",
+                    "kind": "init",
+                    "key": {
+                      "type": "Identifier",
+                      "name": "hours",
+                      "start": 1941,
+                      "end": 1946
+                    },
+                    "value": {
+                      "type": "MemberExpression",
+                      "object": {
+                        "type": "Identifier",
+                        "name": "startOfMarch4",
+                        "start": 1948,
+                        "end": 1961
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "name": "hoursInDay",
+                        "start": 1962,
+                        "end": 1972
+                      },
+                      "optional": false,
+                      "computed": false,
+                      "start": 1948,
+                      "end": 1972
+                    },
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "start": 1941,
+                    "end": 1972
+                  }
+                ],
+                "start": 1939,
+                "end": 1974
+              }
+            ],
+            "optional": false,
+            "start": 1921,
+            "end": 1975
+          },
+          {
+            "type": "Identifier",
+            "name": "startOfMarch5",
+            "start": 1979,
+            "end": 1992
+          },
+          {
+            "type": "Literal",
+            "value": "start of day + hours in day = start of next day",
+            "raw": "\"start of day + hours in day = start of next day\"",
+            "start": 1996,
+            "end": 2045
+          }
+        ],
+        "optional": false,
+        "start": 1876,
+        "end": 2047
+      },
+      "start": 1876,
+      "end": 2048
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 828
+  "end": 2049
 }

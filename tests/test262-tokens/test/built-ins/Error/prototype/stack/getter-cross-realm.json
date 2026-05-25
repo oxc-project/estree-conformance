@@ -1,0 +1,1112 @@
+[
+  {
+    "type": "Keyword",
+    "value": "var",
+    "start": 748,
+    "end": 751
+  },
+  {
+    "type": "Identifier",
+    "value": "getA",
+    "start": 752,
+    "end": 756
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 757,
+    "end": 758
+  },
+  {
+    "type": "Identifier",
+    "value": "Object",
+    "start": 759,
+    "end": 765
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 765,
+    "end": 766
+  },
+  {
+    "type": "Identifier",
+    "value": "getOwnPropertyDescriptor",
+    "start": 766,
+    "end": 790
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 790,
+    "end": 791
+  },
+  {
+    "type": "Identifier",
+    "value": "Error",
+    "start": 791,
+    "end": 796
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 796,
+    "end": 797
+  },
+  {
+    "type": "Identifier",
+    "value": "prototype",
+    "start": 797,
+    "end": 806
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 806,
+    "end": 807
+  },
+  {
+    "type": "String",
+    "value": "'stack'",
+    "start": 808,
+    "end": 815
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 815,
+    "end": 816
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 816,
+    "end": 817
+  },
+  {
+    "type": "Identifier",
+    "value": "get",
+    "start": 817,
+    "end": 820
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 820,
+    "end": 821
+  },
+  {
+    "type": "Keyword",
+    "value": "var",
+    "start": 823,
+    "end": 826
+  },
+  {
+    "type": "Identifier",
+    "value": "realmB",
+    "start": 827,
+    "end": 833
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 834,
+    "end": 835
+  },
+  {
+    "type": "Identifier",
+    "value": "$262",
+    "start": 836,
+    "end": 840
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 840,
+    "end": 841
+  },
+  {
+    "type": "Identifier",
+    "value": "createRealm",
+    "start": 841,
+    "end": 852
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 852,
+    "end": 853
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 853,
+    "end": 854
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 854,
+    "end": 855
+  },
+  {
+    "type": "Identifier",
+    "value": "global",
+    "start": 855,
+    "end": 861
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 861,
+    "end": 862
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 864,
+    "end": 870
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 870,
+    "end": 871
+  },
+  {
+    "type": "Identifier",
+    "value": "notSameValue",
+    "start": 871,
+    "end": 883
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 883,
+    "end": 884
+  },
+  {
+    "type": "Identifier",
+    "value": "Error",
+    "start": 887,
+    "end": 892
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 892,
+    "end": 893
+  },
+  {
+    "type": "Identifier",
+    "value": "prototype",
+    "start": 893,
+    "end": 902
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 902,
+    "end": 903
+  },
+  {
+    "type": "Identifier",
+    "value": "realmB",
+    "start": 906,
+    "end": 912
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 912,
+    "end": 913
+  },
+  {
+    "type": "Identifier",
+    "value": "Error",
+    "start": 913,
+    "end": 918
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 918,
+    "end": 919
+  },
+  {
+    "type": "Identifier",
+    "value": "prototype",
+    "start": 919,
+    "end": 928
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 928,
+    "end": 929
+  },
+  {
+    "type": "String",
+    "value": "'precondition: the two realms have distinct Error.prototype objects'",
+    "start": 932,
+    "end": 1000
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1001,
+    "end": 1002
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1002,
+    "end": 1003
+  },
+  {
+    "type": "Keyword",
+    "value": "var",
+    "start": 1168,
+    "end": 1171
+  },
+  {
+    "type": "Identifier",
+    "value": "errB",
+    "start": 1172,
+    "end": 1176
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 1177,
+    "end": 1178
+  },
+  {
+    "type": "Keyword",
+    "value": "new",
+    "start": 1179,
+    "end": 1182
+  },
+  {
+    "type": "Identifier",
+    "value": "realmB",
+    "start": 1183,
+    "end": 1189
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1189,
+    "end": 1190
+  },
+  {
+    "type": "Identifier",
+    "value": "Error",
+    "start": 1190,
+    "end": 1195
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1195,
+    "end": 1196
+  },
+  {
+    "type": "String",
+    "value": "'msg'",
+    "start": 1196,
+    "end": 1201
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1201,
+    "end": 1202
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1202,
+    "end": 1203
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 1204,
+    "end": 1210
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1210,
+    "end": 1211
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 1211,
+    "end": 1220
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1220,
+    "end": 1221
+  },
+  {
+    "type": "Keyword",
+    "value": "typeof",
+    "start": 1221,
+    "end": 1227
+  },
+  {
+    "type": "Identifier",
+    "value": "getA",
+    "start": 1228,
+    "end": 1232
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1232,
+    "end": 1233
+  },
+  {
+    "type": "Identifier",
+    "value": "call",
+    "start": 1233,
+    "end": 1237
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1237,
+    "end": 1238
+  },
+  {
+    "type": "Identifier",
+    "value": "errB",
+    "start": 1238,
+    "end": 1242
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1242,
+    "end": 1243
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1243,
+    "end": 1244
+  },
+  {
+    "type": "String",
+    "value": "'string'",
+    "start": 1245,
+    "end": 1253
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1253,
+    "end": 1254
+  },
+  {
+    "type": "String",
+    "value": "'cross-realm Error instance returns a string'",
+    "start": 1255,
+    "end": 1300
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1300,
+    "end": 1301
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1301,
+    "end": 1302
+  },
+  {
+    "type": "Keyword",
+    "value": "var",
+    "start": 1395,
+    "end": 1398
+  },
+  {
+    "type": "Identifier",
+    "value": "plainB",
+    "start": 1399,
+    "end": 1405
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 1406,
+    "end": 1407
+  },
+  {
+    "type": "Keyword",
+    "value": "new",
+    "start": 1408,
+    "end": 1411
+  },
+  {
+    "type": "Identifier",
+    "value": "realmB",
+    "start": 1412,
+    "end": 1418
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1418,
+    "end": 1419
+  },
+  {
+    "type": "Identifier",
+    "value": "Object",
+    "start": 1419,
+    "end": 1425
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1425,
+    "end": 1426
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1426,
+    "end": 1427
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1427,
+    "end": 1428
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 1429,
+    "end": 1435
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1435,
+    "end": 1436
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 1436,
+    "end": 1445
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1445,
+    "end": 1446
+  },
+  {
+    "type": "Identifier",
+    "value": "getA",
+    "start": 1446,
+    "end": 1450
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1450,
+    "end": 1451
+  },
+  {
+    "type": "Identifier",
+    "value": "call",
+    "start": 1451,
+    "end": 1455
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1455,
+    "end": 1456
+  },
+  {
+    "type": "Identifier",
+    "value": "plainB",
+    "start": 1456,
+    "end": 1462
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1462,
+    "end": 1463
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1463,
+    "end": 1464
+  },
+  {
+    "type": "Identifier",
+    "value": "undefined",
+    "start": 1465,
+    "end": 1474
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1474,
+    "end": 1475
+  },
+  {
+    "type": "String",
+    "value": "'cross-realm plain object returns undefined'",
+    "start": 1476,
+    "end": 1520
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1520,
+    "end": 1521
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1521,
+    "end": 1522
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 1669,
+    "end": 1675
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1675,
+    "end": 1676
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 1676,
+    "end": 1685
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1685,
+    "end": 1686
+  },
+  {
+    "type": "Identifier",
+    "value": "getA",
+    "start": 1686,
+    "end": 1690
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1690,
+    "end": 1691
+  },
+  {
+    "type": "Identifier",
+    "value": "call",
+    "start": 1691,
+    "end": 1695
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1695,
+    "end": 1696
+  },
+  {
+    "type": "Identifier",
+    "value": "realmB",
+    "start": 1696,
+    "end": 1702
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1702,
+    "end": 1703
+  },
+  {
+    "type": "Identifier",
+    "value": "Error",
+    "start": 1703,
+    "end": 1708
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1708,
+    "end": 1709
+  },
+  {
+    "type": "Identifier",
+    "value": "prototype",
+    "start": 1709,
+    "end": 1718
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1718,
+    "end": 1719
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1719,
+    "end": 1720
+  },
+  {
+    "type": "Identifier",
+    "value": "undefined",
+    "start": 1721,
+    "end": 1730
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1730,
+    "end": 1731
+  },
+  {
+    "type": "String",
+    "value": "'cross-realm Error.prototype returns undefined'",
+    "start": 1732,
+    "end": 1779
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1779,
+    "end": 1780
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1780,
+    "end": 1781
+  },
+  {
+    "type": "Keyword",
+    "value": "var",
+    "start": 1859,
+    "end": 1862
+  },
+  {
+    "type": "Identifier",
+    "value": "getB",
+    "start": 1863,
+    "end": 1867
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 1868,
+    "end": 1869
+  },
+  {
+    "type": "Identifier",
+    "value": "Object",
+    "start": 1870,
+    "end": 1876
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1876,
+    "end": 1877
+  },
+  {
+    "type": "Identifier",
+    "value": "getOwnPropertyDescriptor",
+    "start": 1877,
+    "end": 1901
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1901,
+    "end": 1902
+  },
+  {
+    "type": "Identifier",
+    "value": "realmB",
+    "start": 1902,
+    "end": 1908
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1908,
+    "end": 1909
+  },
+  {
+    "type": "Identifier",
+    "value": "Error",
+    "start": 1909,
+    "end": 1914
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1914,
+    "end": 1915
+  },
+  {
+    "type": "Identifier",
+    "value": "prototype",
+    "start": 1915,
+    "end": 1924
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1924,
+    "end": 1925
+  },
+  {
+    "type": "String",
+    "value": "'stack'",
+    "start": 1926,
+    "end": 1933
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1933,
+    "end": 1934
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1934,
+    "end": 1935
+  },
+  {
+    "type": "Identifier",
+    "value": "get",
+    "start": 1935,
+    "end": 1938
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1938,
+    "end": 1939
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 1940,
+    "end": 1946
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1946,
+    "end": 1947
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 1947,
+    "end": 1956
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1956,
+    "end": 1957
+  },
+  {
+    "type": "Keyword",
+    "value": "typeof",
+    "start": 1957,
+    "end": 1963
+  },
+  {
+    "type": "Identifier",
+    "value": "getB",
+    "start": 1964,
+    "end": 1968
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1968,
+    "end": 1969
+  },
+  {
+    "type": "String",
+    "value": "'function'",
+    "start": 1970,
+    "end": 1980
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1980,
+    "end": 1981
+  },
+  {
+    "type": "String",
+    "value": "'realm B has its own getter'",
+    "start": 1982,
+    "end": 2010
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 2010,
+    "end": 2011
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 2011,
+    "end": 2012
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 2013,
+    "end": 2019
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 2019,
+    "end": 2020
+  },
+  {
+    "type": "Identifier",
+    "value": "notSameValue",
+    "start": 2020,
+    "end": 2032
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 2032,
+    "end": 2033
+  },
+  {
+    "type": "Identifier",
+    "value": "getA",
+    "start": 2033,
+    "end": 2037
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2037,
+    "end": 2038
+  },
+  {
+    "type": "Identifier",
+    "value": "getB",
+    "start": 2039,
+    "end": 2043
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2043,
+    "end": 2044
+  },
+  {
+    "type": "String",
+    "value": "'the two realms have distinct getter functions'",
+    "start": 2045,
+    "end": 2092
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 2092,
+    "end": 2093
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 2093,
+    "end": 2094
+  },
+  {
+    "type": "Keyword",
+    "value": "var",
+    "start": 2096,
+    "end": 2099
+  },
+  {
+    "type": "Identifier",
+    "value": "errA",
+    "start": 2100,
+    "end": 2104
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 2105,
+    "end": 2106
+  },
+  {
+    "type": "Keyword",
+    "value": "new",
+    "start": 2107,
+    "end": 2110
+  },
+  {
+    "type": "Identifier",
+    "value": "Error",
+    "start": 2111,
+    "end": 2116
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 2116,
+    "end": 2117
+  },
+  {
+    "type": "String",
+    "value": "'msg'",
+    "start": 2117,
+    "end": 2122
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 2122,
+    "end": 2123
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 2123,
+    "end": 2124
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 2125,
+    "end": 2131
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 2131,
+    "end": 2132
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 2132,
+    "end": 2141
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 2141,
+    "end": 2142
+  },
+  {
+    "type": "Keyword",
+    "value": "typeof",
+    "start": 2142,
+    "end": 2148
+  },
+  {
+    "type": "Identifier",
+    "value": "getB",
+    "start": 2149,
+    "end": 2153
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 2153,
+    "end": 2154
+  },
+  {
+    "type": "Identifier",
+    "value": "call",
+    "start": 2154,
+    "end": 2158
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 2158,
+    "end": 2159
+  },
+  {
+    "type": "Identifier",
+    "value": "errA",
+    "start": 2159,
+    "end": 2163
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 2163,
+    "end": 2164
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2164,
+    "end": 2165
+  },
+  {
+    "type": "String",
+    "value": "'string'",
+    "start": 2166,
+    "end": 2174
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2174,
+    "end": 2175
+  },
+  {
+    "type": "String",
+    "value": "'realm B getter on realm A Error instance returns a string'",
+    "start": 2176,
+    "end": 2235
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 2235,
+    "end": 2236
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 2236,
+    "end": 2237
+  }
+]

@@ -1,0 +1,182 @@
+[
+  {
+    "type": "Keyword",
+    "value": "import",
+    "start": 2471,
+    "end": 2477
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 2478,
+    "end": 2479
+  },
+  {
+    "type": "Identifier",
+    "value": "mod",
+    "start": 2480,
+    "end": 2483
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 2484,
+    "end": 2485
+  },
+  {
+    "type": "Identifier",
+    "value": "from",
+    "start": 2486,
+    "end": 2490
+  },
+  {
+    "type": "String",
+    "value": "'./namespace-import-source-and-export-reexport_FIXTURE.js'",
+    "start": 2491,
+    "end": 2549
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 2549,
+    "end": 2550
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 2552,
+    "end": 2558
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 2558,
+    "end": 2559
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 2559,
+    "end": 2568
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 2568,
+    "end": 2569
+  },
+  {
+    "type": "Keyword",
+    "value": "typeof",
+    "start": 2569,
+    "end": 2575
+  },
+  {
+    "type": "Identifier",
+    "value": "mod",
+    "start": 2576,
+    "end": 2579
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2579,
+    "end": 2580
+  },
+  {
+    "type": "String",
+    "value": "'object'",
+    "start": 2581,
+    "end": 2589
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2589,
+    "end": 2590
+  },
+  {
+    "type": "String",
+    "value": "'Re-exported source-phase binding should resolve to a ModuleSource object'",
+    "start": 2593,
+    "end": 2667
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 2667,
+    "end": 2668
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 2668,
+    "end": 2669
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 2670,
+    "end": 2676
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 2676,
+    "end": 2677
+  },
+  {
+    "type": "Identifier",
+    "value": "mod",
+    "start": 2677,
+    "end": 2680
+  },
+  {
+    "type": "Keyword",
+    "value": "instanceof",
+    "start": 2681,
+    "end": 2691
+  },
+  {
+    "type": "Identifier",
+    "value": "$262",
+    "start": 2692,
+    "end": 2696
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 2696,
+    "end": 2697
+  },
+  {
+    "type": "Identifier",
+    "value": "AbstractModuleSource",
+    "start": 2697,
+    "end": 2717
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2717,
+    "end": 2718
+  },
+  {
+    "type": "String",
+    "value": "'`mod` should be an instance of %AbstractModuleSource%'",
+    "start": 2721,
+    "end": 2776
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 2776,
+    "end": 2777
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 2777,
+    "end": 2778
+  }
+]
