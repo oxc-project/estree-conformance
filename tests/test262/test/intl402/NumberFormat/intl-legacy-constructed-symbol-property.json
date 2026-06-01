@@ -1,0 +1,553 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "object",
+            "start": 575,
+            "end": 581
+          },
+          "init": {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "Object",
+                "start": 584,
+                "end": 590
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "create",
+                "start": 591,
+                "end": 597
+              },
+              "optional": false,
+              "computed": false,
+              "start": 584,
+              "end": 597
+            },
+            "arguments": [
+              {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "MemberExpression",
+                  "object": {
+                    "type": "Identifier",
+                    "name": "Intl",
+                    "start": 598,
+                    "end": 602
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "name": "NumberFormat",
+                    "start": 603,
+                    "end": 615
+                  },
+                  "optional": false,
+                  "computed": false,
+                  "start": 598,
+                  "end": 615
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "prototype",
+                  "start": 616,
+                  "end": 625
+                },
+                "optional": false,
+                "computed": false,
+                "start": 598,
+                "end": 625
+              }
+            ],
+            "optional": false,
+            "start": 584,
+            "end": 626
+          },
+          "start": 575,
+          "end": 626
+        }
+      ],
+      "start": 569,
+      "end": 627
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "fallbackNF",
+            "start": 634,
+            "end": 644
+          },
+          "init": {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "Intl",
+                  "start": 647,
+                  "end": 651
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "NumberFormat",
+                  "start": 652,
+                  "end": 664
+                },
+                "optional": false,
+                "computed": false,
+                "start": 647,
+                "end": 664
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "call",
+                "start": 665,
+                "end": 669
+              },
+              "optional": false,
+              "computed": false,
+              "start": 647,
+              "end": 669
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "name": "object",
+                "start": 670,
+                "end": 676
+              }
+            ],
+            "optional": false,
+            "start": 647,
+            "end": 677
+          },
+          "start": 634,
+          "end": 677
+        }
+      ],
+      "start": 628,
+      "end": 678
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 679,
+            "end": 685
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 686,
+            "end": 695
+          },
+          "optional": false,
+          "computed": false,
+          "start": 679,
+          "end": 695
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "name": "object",
+            "start": 696,
+            "end": 702
+          },
+          {
+            "type": "Identifier",
+            "name": "fallbackNF",
+            "start": 704,
+            "end": 714
+          },
+          {
+            "type": "Literal",
+            "value": "return value of Intl.NumberFormat constructor",
+            "raw": "\"return value of Intl.NumberFormat constructor\"",
+            "start": 716,
+            "end": 763
+          }
+        ],
+        "optional": false,
+        "start": 679,
+        "end": 764
+      },
+      "start": 679,
+      "end": 765
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "symbolProps",
+            "start": 773,
+            "end": 784
+          },
+          "init": {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "Object",
+                "start": 787,
+                "end": 793
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "getOwnPropertySymbols",
+                "start": 794,
+                "end": 815
+              },
+              "optional": false,
+              "computed": false,
+              "start": 787,
+              "end": 815
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "name": "fallbackNF",
+                "start": 816,
+                "end": 826
+              }
+            ],
+            "optional": false,
+            "start": 787,
+            "end": 827
+          },
+          "start": 773,
+          "end": 827
+        }
+      ],
+      "start": 767,
+      "end": 828
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "fallbackSymbol",
+            "start": 835,
+            "end": 849
+          },
+          "init": {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "symbolProps",
+                "start": 852,
+                "end": 863
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "find",
+                "start": 864,
+                "end": 868
+              },
+              "optional": false,
+              "computed": false,
+              "start": 852,
+              "end": 868
+            },
+            "arguments": [
+              {
+                "type": "ArrowFunctionExpression",
+                "expression": true,
+                "async": false,
+                "params": [
+                  {
+                    "type": "Identifier",
+                    "name": "sym",
+                    "start": 870,
+                    "end": 873
+                  }
+                ],
+                "body": {
+                  "type": "BinaryExpression",
+                  "left": {
+                    "type": "MemberExpression",
+                    "object": {
+                      "type": "Identifier",
+                      "name": "sym",
+                      "start": 878,
+                      "end": 881
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "name": "description",
+                      "start": 882,
+                      "end": 893
+                    },
+                    "optional": false,
+                    "computed": false,
+                    "start": 878,
+                    "end": 893
+                  },
+                  "operator": "===",
+                  "right": {
+                    "type": "Literal",
+                    "value": "IntlLegacyConstructedSymbol",
+                    "raw": "\"IntlLegacyConstructedSymbol\"",
+                    "start": 898,
+                    "end": 927
+                  },
+                  "start": 878,
+                  "end": 927
+                },
+                "id": null,
+                "generator": false,
+                "start": 869,
+                "end": 927
+              }
+            ],
+            "optional": false,
+            "start": 852,
+            "end": 928
+          },
+          "start": 835,
+          "end": 928
+        }
+      ],
+      "start": 829,
+      "end": 929
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "Identifier",
+          "name": "assert",
+          "start": 931,
+          "end": 937
+        },
+        "arguments": [
+          {
+            "type": "BinaryExpression",
+            "left": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "fallbackNF",
+                "start": 941,
+                "end": 951
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "fallbackSymbol",
+                "start": 952,
+                "end": 966
+              },
+              "optional": false,
+              "computed": true,
+              "start": 941,
+              "end": 967
+            },
+            "operator": "instanceof",
+            "right": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "Intl",
+                "start": 979,
+                "end": 983
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "NumberFormat",
+                "start": 984,
+                "end": 996
+              },
+              "optional": false,
+              "computed": false,
+              "start": 979,
+              "end": 996
+            },
+            "start": 941,
+            "end": 996
+          },
+          {
+            "type": "Literal",
+            "value": "value of legacy symbol property must be an Intl.NumberFormat",
+            "raw": "\"value of legacy symbol property must be an Intl.NumberFormat\"",
+            "start": 1000,
+            "end": 1062
+          }
+        ],
+        "optional": false,
+        "start": 931,
+        "end": 1064
+      },
+      "start": 931,
+      "end": 1065
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "Identifier",
+          "name": "verifyProperty",
+          "start": 1066,
+          "end": 1080
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "name": "fallbackNF",
+            "start": 1084,
+            "end": 1094
+          },
+          {
+            "type": "Identifier",
+            "name": "fallbackSymbol",
+            "start": 1098,
+            "end": 1112
+          },
+          {
+            "type": "ObjectExpression",
+            "properties": [
+              {
+                "type": "Property",
+                "kind": "init",
+                "key": {
+                  "type": "Identifier",
+                  "name": "writable",
+                  "start": 1122,
+                  "end": 1130
+                },
+                "value": {
+                  "type": "Literal",
+                  "value": false,
+                  "raw": "false",
+                  "start": 1132,
+                  "end": 1137
+                },
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "start": 1122,
+                "end": 1137
+              },
+              {
+                "type": "Property",
+                "kind": "init",
+                "key": {
+                  "type": "Identifier",
+                  "name": "enumerable",
+                  "start": 1143,
+                  "end": 1153
+                },
+                "value": {
+                  "type": "Literal",
+                  "value": false,
+                  "raw": "false",
+                  "start": 1155,
+                  "end": 1160
+                },
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "start": 1143,
+                "end": 1160
+              },
+              {
+                "type": "Property",
+                "kind": "init",
+                "key": {
+                  "type": "Identifier",
+                  "name": "configurable",
+                  "start": 1166,
+                  "end": 1178
+                },
+                "value": {
+                  "type": "Literal",
+                  "value": false,
+                  "raw": "false",
+                  "start": 1180,
+                  "end": 1185
+                },
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "start": 1166,
+                "end": 1185
+              }
+            ],
+            "start": 1116,
+            "end": 1189
+          },
+          {
+            "type": "ObjectExpression",
+            "properties": [
+              {
+                "type": "Property",
+                "kind": "init",
+                "key": {
+                  "type": "Identifier",
+                  "name": "label",
+                  "start": 1195,
+                  "end": 1200
+                },
+                "value": {
+                  "type": "Literal",
+                  "value": "%Intl%.[[FallbackSymbol]]",
+                  "raw": "\"%Intl%.[[FallbackSymbol]]\"",
+                  "start": 1202,
+                  "end": 1229
+                },
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "start": 1195,
+                "end": 1229
+              }
+            ],
+            "start": 1193,
+            "end": 1231
+          }
+        ],
+        "optional": false,
+        "start": 1066,
+        "end": 1233
+      },
+      "start": 1066,
+      "end": 1234
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 1235
+}
