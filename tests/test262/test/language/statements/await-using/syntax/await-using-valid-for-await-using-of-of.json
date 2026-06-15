@@ -1,0 +1,69 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "FunctionDeclaration",
+      "id": {
+        "type": "Identifier",
+        "name": "f",
+        "start": 332,
+        "end": 333
+      },
+      "generator": false,
+      "async": true,
+      "params": [],
+      "body": {
+        "type": "BlockStatement",
+        "body": [
+          {
+            "type": "ForOfStatement",
+            "await": false,
+            "left": {
+              "type": "VariableDeclaration",
+              "kind": "await using",
+              "declarations": [
+                {
+                  "type": "VariableDeclarator",
+                  "id": {
+                    "type": "Identifier",
+                    "name": "of",
+                    "start": 357,
+                    "end": 359
+                  },
+                  "init": null,
+                  "start": 357,
+                  "end": 359
+                }
+              ],
+              "start": 345,
+              "end": 359
+            },
+            "right": {
+              "type": "ArrayExpression",
+              "elements": [],
+              "start": 363,
+              "end": 365
+            },
+            "body": {
+              "type": "BlockStatement",
+              "body": [],
+              "start": 367,
+              "end": 370
+            },
+            "start": 340,
+            "end": 370
+          }
+        ],
+        "start": 336,
+        "end": 372
+      },
+      "expression": false,
+      "start": 317,
+      "end": 372
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 373
+}
