@@ -1,0 +1,87 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ForStatement",
+      "init": {
+        "type": "VariableDeclaration",
+        "kind": "using",
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "id": {
+              "type": "Identifier",
+              "name": "x",
+              "start": 319,
+              "end": 320
+            },
+            "init": {
+              "type": "Literal",
+              "value": null,
+              "raw": "null",
+              "start": 323,
+              "end": 327
+            },
+            "start": 319,
+            "end": 327
+          }
+        ],
+        "start": 313,
+        "end": 327
+      },
+      "test": null,
+      "update": null,
+      "body": {
+        "type": "BreakStatement",
+        "label": null,
+        "start": 331,
+        "end": 337
+      },
+      "start": 308,
+      "end": 337
+    },
+    {
+      "type": "ForStatement",
+      "init": {
+        "type": "VariableDeclaration",
+        "kind": "using",
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "id": {
+              "type": "Identifier",
+              "name": "of",
+              "start": 503,
+              "end": 505
+            },
+            "init": {
+              "type": "Literal",
+              "value": null,
+              "raw": "null",
+              "start": 508,
+              "end": 512
+            },
+            "start": 503,
+            "end": 512
+          }
+        ],
+        "start": 497,
+        "end": 512
+      },
+      "test": null,
+      "update": null,
+      "body": {
+        "type": "BreakStatement",
+        "label": null,
+        "start": 516,
+        "end": 522
+      },
+      "start": 492,
+      "end": 522
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 524
+}
