@@ -2,271 +2,271 @@
   {
     "type": "Keyword",
     "value": "const",
-    "start": 710,
-    "end": 715
+    "start": 493,
+    "end": 498
   },
   {
     "type": "Identifier",
     "value": "loc",
-    "start": 716,
-    "end": 719
+    "start": 499,
+    "end": 502
   },
   {
     "type": "Punctuator",
     "value": "=",
-    "start": 720,
-    "end": 721
+    "start": 503,
+    "end": 504
   },
   {
     "type": "Keyword",
     "value": "new",
-    "start": 722,
-    "end": 725
+    "start": 505,
+    "end": 508
   },
   {
     "type": "Identifier",
     "value": "Intl",
-    "start": 726,
-    "end": 730
+    "start": 509,
+    "end": 513
   },
   {
     "type": "Punctuator",
     "value": ".",
-    "start": 730,
-    "end": 731
+    "start": 513,
+    "end": 514
   },
   {
     "type": "Identifier",
     "value": "Locale",
-    "start": 731,
-    "end": 737
+    "start": 514,
+    "end": 520
   },
   {
     "type": "Punctuator",
     "value": "(",
-    "start": 737,
-    "end": 738
+    "start": 520,
+    "end": 521
   },
   {
     "type": "String",
     "value": "'en'",
-    "start": 738,
-    "end": 742
+    "start": 521,
+    "end": 525
   },
   {
     "type": "Punctuator",
     "value": ",",
-    "start": 742,
-    "end": 743
+    "start": 525,
+    "end": 526
   },
   {
     "type": "Punctuator",
     "value": "{",
-    "start": 744,
-    "end": 745
+    "start": 527,
+    "end": 528
   },
   {
     "type": "Identifier",
     "value": "calendar",
-    "start": 745,
-    "end": 753
+    "start": 528,
+    "end": 536
   },
   {
     "type": "Punctuator",
     "value": ":",
-    "start": 753,
-    "end": 754
+    "start": 536,
+    "end": 537
   },
   {
     "type": "String",
     "value": "'islamicc'",
-    "start": 755,
-    "end": 765
+    "start": 538,
+    "end": 548
   },
   {
     "type": "Punctuator",
     "value": "}",
-    "start": 765,
-    "end": 766
+    "start": 548,
+    "end": 549
   },
   {
     "type": "Punctuator",
     "value": ")",
-    "start": 766,
-    "end": 767
+    "start": 549,
+    "end": 550
   },
   {
     "type": "Punctuator",
     "value": ";",
-    "start": 767,
-    "end": 768
+    "start": 550,
+    "end": 551
   },
   {
     "type": "Identifier",
     "value": "assert",
-    "start": 770,
-    "end": 776
+    "start": 553,
+    "end": 559
   },
   {
     "type": "Punctuator",
     "value": ".",
-    "start": 776,
-    "end": 777
+    "start": 559,
+    "end": 560
   },
   {
     "type": "Identifier",
     "value": "sameValue",
-    "start": 777,
-    "end": 786
+    "start": 560,
+    "end": 569
   },
   {
     "type": "Punctuator",
     "value": "(",
-    "start": 786,
-    "end": 787
+    "start": 569,
+    "end": 570
   },
   {
     "type": "Identifier",
     "value": "loc",
-    "start": 787,
-    "end": 790
+    "start": 570,
+    "end": 573
   },
   {
     "type": "Punctuator",
     "value": ".",
-    "start": 790,
-    "end": 791
+    "start": 573,
+    "end": 574
   },
   {
     "type": "Identifier",
     "value": "toString",
-    "start": 791,
-    "end": 799
+    "start": 574,
+    "end": 582
   },
   {
     "type": "Punctuator",
     "value": "(",
-    "start": 799,
-    "end": 800
+    "start": 582,
+    "end": 583
   },
   {
     "type": "Punctuator",
     "value": ")",
-    "start": 800,
-    "end": 801
+    "start": 583,
+    "end": 584
   },
   {
     "type": "Punctuator",
     "value": ",",
-    "start": 801,
-    "end": 802
+    "start": 584,
+    "end": 585
   },
   {
     "type": "String",
     "value": "\"en-u-ca-islamic-civil\"",
-    "start": 803,
-    "end": 826
+    "start": 586,
+    "end": 609
   },
   {
     "type": "Punctuator",
     "value": ",",
-    "start": 826,
-    "end": 827
+    "start": 609,
+    "end": 610
   },
   {
     "type": "String",
-    "value": "\"'islamicc' should be canonicalize to 'islamic-civil'\"",
-    "start": 832,
-    "end": 886
+    "value": "\"'islamicc' should be canonicalized to 'islamic-civil'\"",
+    "start": 615,
+    "end": 670
   },
   {
     "type": "Punctuator",
     "value": ")",
-    "start": 886,
-    "end": 887
+    "start": 670,
+    "end": 671
   },
   {
     "type": "Punctuator",
     "value": ";",
-    "start": 887,
-    "end": 888
+    "start": 671,
+    "end": 672
   },
   {
     "type": "Identifier",
     "value": "assert",
-    "start": 890,
-    "end": 896
+    "start": 674,
+    "end": 680
   },
   {
     "type": "Punctuator",
     "value": ".",
-    "start": 896,
-    "end": 897
+    "start": 680,
+    "end": 681
   },
   {
     "type": "Identifier",
     "value": "sameValue",
-    "start": 897,
-    "end": 906
+    "start": 681,
+    "end": 690
   },
   {
     "type": "Punctuator",
     "value": "(",
-    "start": 906,
-    "end": 907
+    "start": 690,
+    "end": 691
   },
   {
     "type": "Identifier",
     "value": "loc",
-    "start": 907,
-    "end": 910
+    "start": 691,
+    "end": 694
   },
   {
     "type": "Punctuator",
     "value": ".",
-    "start": 910,
-    "end": 911
+    "start": 694,
+    "end": 695
   },
   {
     "type": "Identifier",
     "value": "calendar",
-    "start": 911,
-    "end": 919
+    "start": 695,
+    "end": 703
   },
   {
     "type": "Punctuator",
     "value": ",",
-    "start": 919,
-    "end": 920
+    "start": 703,
+    "end": 704
   },
   {
     "type": "String",
     "value": "\"islamic-civil\"",
-    "start": 921,
-    "end": 936
+    "start": 705,
+    "end": 720
   },
   {
     "type": "Punctuator",
     "value": ",",
-    "start": 936,
-    "end": 937
+    "start": 720,
+    "end": 721
   },
   {
     "type": "String",
-    "value": "\"'islamicc' should be canonicalize to 'islamic-civil'\"",
-    "start": 942,
-    "end": 996
+    "value": "\"'islamicc' should be canonicalized to 'islamic-civil'\"",
+    "start": 726,
+    "end": 781
   },
   {
     "type": "Punctuator",
     "value": ")",
-    "start": 996,
-    "end": 997
+    "start": 781,
+    "end": 782
   },
   {
     "type": "Punctuator",
     "value": ";",
-    "start": 997,
-    "end": 998
+    "start": 782,
+    "end": 783
   }
 ]
