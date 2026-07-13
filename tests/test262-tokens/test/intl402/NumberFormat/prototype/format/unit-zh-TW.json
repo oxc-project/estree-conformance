@@ -2,985 +2,769 @@
   {
     "type": "Keyword",
     "value": "const",
-    "start": 285,
-    "end": 290
+    "start": 493,
+    "end": 498
   },
   {
     "type": "Identifier",
-    "value": "tests",
-    "start": 291,
-    "end": 296
+    "value": "shortSep",
+    "start": 499,
+    "end": 507
   },
   {
     "type": "Punctuator",
     "value": "=",
-    "start": 297,
-    "end": 298
+    "start": 508,
+    "end": 509
+  },
+  {
+    "type": "Identifier",
+    "value": "getUnitSeparators",
+    "start": 510,
+    "end": 527
   },
   {
     "type": "Punctuator",
-    "value": "[",
-    "start": 299,
-    "end": 300
+    "value": "(",
+    "start": 527,
+    "end": 528
   },
   {
-    "type": "Punctuator",
-    "value": "[",
-    "start": 303,
-    "end": 304
-  },
-  {
-    "type": "Punctuator",
-    "value": "-",
-    "start": 309,
-    "end": 310
-  },
-  {
-    "type": "Numeric",
-    "value": "987",
-    "start": 310,
-    "end": 313
+    "type": "String",
+    "value": "\"zh-TW\"",
+    "start": 528,
+    "end": 535
   },
   {
     "type": "Punctuator",
     "value": ",",
-    "start": 313,
-    "end": 314
-  },
-  {
-    "type": "Punctuator",
-    "value": "{",
-    "start": 319,
-    "end": 320
+    "start": 535,
+    "end": 536
   },
   {
     "type": "String",
     "value": "\"short\"",
-    "start": 327,
-    "end": 334
-  },
-  {
-    "type": "Punctuator",
-    "value": ":",
-    "start": 334,
-    "end": 335
-  },
-  {
-    "type": "String",
-    "value": "\"-987 公里/小時\"",
-    "start": 336,
-    "end": 348
-  },
-  {
-    "type": "Punctuator",
-    "value": ",",
-    "start": 348,
-    "end": 349
-  },
-  {
-    "type": "String",
-    "value": "\"narrow\"",
-    "start": 356,
-    "end": 364
-  },
-  {
-    "type": "Punctuator",
-    "value": ":",
-    "start": 364,
-    "end": 365
-  },
-  {
-    "type": "String",
-    "value": "\"-987公里/小時\"",
-    "start": 366,
-    "end": 377
-  },
-  {
-    "type": "Punctuator",
-    "value": ",",
-    "start": 377,
-    "end": 378
-  },
-  {
-    "type": "String",
-    "value": "\"long\"",
-    "start": 385,
-    "end": 391
-  },
-  {
-    "type": "Punctuator",
-    "value": ":",
-    "start": 391,
-    "end": 392
-  },
-  {
-    "type": "String",
-    "value": "\"每小時 -987 公里\"",
-    "start": 393,
-    "end": 406
-  },
-  {
-    "type": "Punctuator",
-    "value": ",",
-    "start": 406,
-    "end": 407
-  },
-  {
-    "type": "Punctuator",
-    "value": "}",
-    "start": 412,
-    "end": 413
-  },
-  {
-    "type": "Punctuator",
-    "value": "]",
-    "start": 416,
-    "end": 417
-  },
-  {
-    "type": "Punctuator",
-    "value": ",",
-    "start": 417,
-    "end": 418
-  },
-  {
-    "type": "Punctuator",
-    "value": "[",
-    "start": 421,
-    "end": 422
-  },
-  {
-    "type": "Punctuator",
-    "value": "-",
-    "start": 427,
-    "end": 428
-  },
-  {
-    "type": "Numeric",
-    "value": "0.001",
-    "start": 428,
-    "end": 433
-  },
-  {
-    "type": "Punctuator",
-    "value": ",",
-    "start": 433,
-    "end": 434
-  },
-  {
-    "type": "Punctuator",
-    "value": "{",
-    "start": 439,
-    "end": 440
-  },
-  {
-    "type": "String",
-    "value": "\"short\"",
-    "start": 447,
-    "end": 454
-  },
-  {
-    "type": "Punctuator",
-    "value": ":",
-    "start": 454,
-    "end": 455
-  },
-  {
-    "type": "String",
-    "value": "\"-0.001 公里/小時\"",
-    "start": 456,
-    "end": 470
-  },
-  {
-    "type": "Punctuator",
-    "value": ",",
-    "start": 470,
-    "end": 471
-  },
-  {
-    "type": "String",
-    "value": "\"narrow\"",
-    "start": 478,
-    "end": 486
-  },
-  {
-    "type": "Punctuator",
-    "value": ":",
-    "start": 486,
-    "end": 487
-  },
-  {
-    "type": "String",
-    "value": "\"-0.001公里/小時\"",
-    "start": 488,
-    "end": 501
-  },
-  {
-    "type": "Punctuator",
-    "value": ",",
-    "start": 501,
-    "end": 502
-  },
-  {
-    "type": "String",
-    "value": "\"long\"",
-    "start": 509,
-    "end": 515
-  },
-  {
-    "type": "Punctuator",
-    "value": ":",
-    "start": 515,
-    "end": 516
-  },
-  {
-    "type": "String",
-    "value": "\"每小時 -0.001 公里\"",
-    "start": 517,
-    "end": 532
-  },
-  {
-    "type": "Punctuator",
-    "value": ",",
-    "start": 532,
-    "end": 533
-  },
-  {
-    "type": "Punctuator",
-    "value": "}",
-    "start": 538,
-    "end": 539
-  },
-  {
-    "type": "Punctuator",
-    "value": "]",
-    "start": 542,
-    "end": 543
-  },
-  {
-    "type": "Punctuator",
-    "value": ",",
-    "start": 543,
+    "start": 537,
     "end": 544
   },
   {
     "type": "Punctuator",
-    "value": "[",
+    "value": ")",
+    "start": 544,
+    "end": 545
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 545,
+    "end": 546
+  },
+  {
+    "type": "Keyword",
+    "value": "const",
     "start": 547,
-    "end": 548
+    "end": 552
   },
   {
-    "type": "Punctuator",
-    "value": "-",
+    "type": "Identifier",
+    "value": "narrowSep",
     "start": 553,
-    "end": 554
-  },
-  {
-    "type": "Numeric",
-    "value": "0",
-    "start": 554,
-    "end": 555
-  },
-  {
-    "type": "Punctuator",
-    "value": ",",
-    "start": 555,
-    "end": 556
-  },
-  {
-    "type": "Punctuator",
-    "value": "{",
-    "start": 561,
     "end": 562
   },
   {
-    "type": "String",
-    "value": "\"short\"",
-    "start": 569,
-    "end": 576
+    "type": "Punctuator",
+    "value": "=",
+    "start": 563,
+    "end": 564
+  },
+  {
+    "type": "Identifier",
+    "value": "getUnitSeparators",
+    "start": 565,
+    "end": 582
   },
   {
     "type": "Punctuator",
-    "value": ":",
-    "start": 576,
-    "end": 577
+    "value": "(",
+    "start": 582,
+    "end": 583
   },
   {
     "type": "String",
-    "value": "\"-0 公里/小時\"",
-    "start": 578,
-    "end": 588
+    "value": "\"zh-TW\"",
+    "start": 583,
+    "end": 590
   },
   {
     "type": "Punctuator",
     "value": ",",
-    "start": 588,
-    "end": 589
+    "start": 590,
+    "end": 591
   },
   {
     "type": "String",
     "value": "\"narrow\"",
-    "start": 596,
-    "end": 604
+    "start": 592,
+    "end": 600
   },
   {
     "type": "Punctuator",
-    "value": ":",
-    "start": 604,
-    "end": 605
+    "value": ")",
+    "start": 600,
+    "end": 601
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 601,
+    "end": 602
+  },
+  {
+    "type": "Keyword",
+    "value": "const",
+    "start": 603,
+    "end": 608
+  },
+  {
+    "type": "Identifier",
+    "value": "longSep",
+    "start": 609,
+    "end": 616
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 617,
+    "end": 618
+  },
+  {
+    "type": "Identifier",
+    "value": "getUnitSeparators",
+    "start": 619,
+    "end": 636
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 636,
+    "end": 637
   },
   {
     "type": "String",
-    "value": "\"-0公里/小時\"",
-    "start": 606,
-    "end": 615
+    "value": "\"zh-TW\"",
+    "start": 637,
+    "end": 644
   },
   {
     "type": "Punctuator",
     "value": ",",
-    "start": 615,
-    "end": 616
+    "start": 644,
+    "end": 645
   },
   {
     "type": "String",
     "value": "\"long\"",
-    "start": 623,
-    "end": 629
+    "start": 646,
+    "end": 652
   },
   {
     "type": "Punctuator",
-    "value": ":",
-    "start": 629,
-    "end": 630
-  },
-  {
-    "type": "String",
-    "value": "\"每小時 -0 公里\"",
-    "start": 631,
-    "end": 642
-  },
-  {
-    "type": "Punctuator",
-    "value": ",",
-    "start": 642,
-    "end": 643
-  },
-  {
-    "type": "Punctuator",
-    "value": "}",
-    "start": 648,
-    "end": 649
-  },
-  {
-    "type": "Punctuator",
-    "value": "]",
+    "value": ")",
     "start": 652,
     "end": 653
   },
   {
     "type": "Punctuator",
-    "value": ",",
+    "value": ";",
     "start": 653,
     "end": 654
   },
   {
+    "type": "Keyword",
+    "value": "const",
+    "start": 656,
+    "end": 661
+  },
+  {
+    "type": "Identifier",
+    "value": "tests",
+    "start": 662,
+    "end": 667
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 668,
+    "end": 669
+  },
+  {
     "type": "Punctuator",
     "value": "[",
-    "start": 657,
-    "end": 658
-  },
-  {
-    "type": "Numeric",
-    "value": "0",
-    "start": 663,
-    "end": 664
-  },
-  {
-    "type": "Punctuator",
-    "value": ",",
-    "start": 664,
-    "end": 665
-  },
-  {
-    "type": "Punctuator",
-    "value": "{",
     "start": 670,
     "end": 671
   },
   {
-    "type": "String",
-    "value": "\"short\"",
-    "start": 678,
-    "end": 685
+    "type": "Punctuator",
+    "value": "[",
+    "start": 674,
+    "end": 675
   },
   {
     "type": "Punctuator",
-    "value": ":",
-    "start": 685,
-    "end": 686
+    "value": "-",
+    "start": 680,
+    "end": 681
   },
   {
-    "type": "String",
-    "value": "\"0 公里/小時\"",
-    "start": 687,
-    "end": 696
+    "type": "Numeric",
+    "value": "987",
+    "start": 681,
+    "end": 684
   },
   {
     "type": "Punctuator",
     "value": ",",
-    "start": 696,
-    "end": 697
+    "start": 684,
+    "end": 685
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 690,
+    "end": 691
   },
   {
     "type": "String",
-    "value": "\"narrow\"",
-    "start": 704,
-    "end": 712
+    "value": "\"short\"",
+    "start": 698,
+    "end": 705
   },
   {
     "type": "Punctuator",
     "value": ":",
-    "start": 712,
-    "end": 713
+    "start": 705,
+    "end": 706
   },
   {
-    "type": "String",
-    "value": "\"0公里/小時\"",
+    "type": "Template",
+    "value": "`-987${",
+    "start": 707,
+    "end": 714
+  },
+  {
+    "type": "Identifier",
+    "value": "shortSep",
     "start": 714,
     "end": 722
   },
   {
     "type": "Punctuator",
-    "value": ",",
+    "value": ".",
     "start": 722,
     "end": 723
   },
   {
-    "type": "String",
-    "value": "\"long\"",
-    "start": 730,
+    "type": "Identifier",
+    "value": "suffix",
+    "start": 723,
+    "end": 729
+  },
+  {
+    "type": "Template",
+    "value": "}公里/小時`",
+    "start": 729,
     "end": 736
   },
   {
     "type": "Punctuator",
-    "value": ":",
+    "value": ",",
     "start": 736,
     "end": 737
   },
   {
     "type": "String",
-    "value": "\"每小時 0 公里\"",
-    "start": 738,
-    "end": 748
+    "value": "\"narrow\"",
+    "start": 744,
+    "end": 752
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 752,
+    "end": 753
+  },
+  {
+    "type": "Template",
+    "value": "`-987${",
+    "start": 754,
+    "end": 761
+  },
+  {
+    "type": "Identifier",
+    "value": "narrowSep",
+    "start": 761,
+    "end": 770
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 770,
+    "end": 771
+  },
+  {
+    "type": "Identifier",
+    "value": "suffix",
+    "start": 771,
+    "end": 777
+  },
+  {
+    "type": "Template",
+    "value": "}公里/小時`",
+    "start": 777,
+    "end": 784
   },
   {
     "type": "Punctuator",
     "value": ",",
-    "start": 748,
-    "end": 749
+    "start": 784,
+    "end": 785
+  },
+  {
+    "type": "String",
+    "value": "\"long\"",
+    "start": 792,
+    "end": 798
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 798,
+    "end": 799
+  },
+  {
+    "type": "Template",
+    "value": "`每小時${",
+    "start": 800,
+    "end": 806
+  },
+  {
+    "type": "Identifier",
+    "value": "longSep",
+    "start": 806,
+    "end": 813
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 813,
+    "end": 814
+  },
+  {
+    "type": "Identifier",
+    "value": "prefix",
+    "start": 814,
+    "end": 820
+  },
+  {
+    "type": "Template",
+    "value": "}-987${",
+    "start": 820,
+    "end": 827
+  },
+  {
+    "type": "Identifier",
+    "value": "longSep",
+    "start": 827,
+    "end": 834
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 834,
+    "end": 835
+  },
+  {
+    "type": "Identifier",
+    "value": "suffix",
+    "start": 835,
+    "end": 841
+  },
+  {
+    "type": "Template",
+    "value": "}公里`",
+    "start": 841,
+    "end": 845
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 845,
+    "end": 846
   },
   {
     "type": "Punctuator",
     "value": "}",
-    "start": 754,
-    "end": 755
+    "start": 851,
+    "end": 852
   },
   {
     "type": "Punctuator",
     "value": "]",
-    "start": 758,
-    "end": 759
+    "start": 855,
+    "end": 856
   },
   {
     "type": "Punctuator",
     "value": ",",
-    "start": 759,
-    "end": 760
+    "start": 856,
+    "end": 857
   },
   {
     "type": "Punctuator",
     "value": "[",
-    "start": 763,
-    "end": 764
+    "start": 860,
+    "end": 861
+  },
+  {
+    "type": "Punctuator",
+    "value": "-",
+    "start": 866,
+    "end": 867
   },
   {
     "type": "Numeric",
     "value": "0.001",
-    "start": 769,
-    "end": 774
+    "start": 867,
+    "end": 872
   },
   {
     "type": "Punctuator",
     "value": ",",
-    "start": 774,
-    "end": 775
+    "start": 872,
+    "end": 873
   },
   {
     "type": "Punctuator",
     "value": "{",
-    "start": 780,
-    "end": 781
+    "start": 878,
+    "end": 879
   },
   {
     "type": "String",
     "value": "\"short\"",
-    "start": 788,
-    "end": 795
+    "start": 886,
+    "end": 893
   },
   {
     "type": "Punctuator",
     "value": ":",
-    "start": 795,
-    "end": 796
-  },
-  {
-    "type": "String",
-    "value": "\"0.001 公里/小時\"",
-    "start": 797,
-    "end": 810
-  },
-  {
-    "type": "Punctuator",
-    "value": ",",
-    "start": 810,
-    "end": 811
-  },
-  {
-    "type": "String",
-    "value": "\"narrow\"",
-    "start": 818,
-    "end": 826
-  },
-  {
-    "type": "Punctuator",
-    "value": ":",
-    "start": 826,
-    "end": 827
-  },
-  {
-    "type": "String",
-    "value": "\"0.001公里/小時\"",
-    "start": 828,
-    "end": 840
-  },
-  {
-    "type": "Punctuator",
-    "value": ",",
-    "start": 840,
-    "end": 841
-  },
-  {
-    "type": "String",
-    "value": "\"long\"",
-    "start": 848,
-    "end": 854
-  },
-  {
-    "type": "Punctuator",
-    "value": ":",
-    "start": 854,
-    "end": 855
-  },
-  {
-    "type": "String",
-    "value": "\"每小時 0.001 公里\"",
-    "start": 856,
-    "end": 870
-  },
-  {
-    "type": "Punctuator",
-    "value": ",",
-    "start": 870,
-    "end": 871
-  },
-  {
-    "type": "Punctuator",
-    "value": "}",
-    "start": 876,
-    "end": 877
-  },
-  {
-    "type": "Punctuator",
-    "value": "]",
-    "start": 880,
-    "end": 881
-  },
-  {
-    "type": "Punctuator",
-    "value": ",",
-    "start": 881,
-    "end": 882
-  },
-  {
-    "type": "Punctuator",
-    "value": "[",
-    "start": 885,
-    "end": 886
-  },
-  {
-    "type": "Numeric",
-    "value": "987",
-    "start": 891,
+    "start": 893,
     "end": 894
   },
   {
+    "type": "Template",
+    "value": "`-0.001${",
+    "start": 895,
+    "end": 904
+  },
+  {
+    "type": "Identifier",
+    "value": "shortSep",
+    "start": 904,
+    "end": 912
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 912,
+    "end": 913
+  },
+  {
+    "type": "Identifier",
+    "value": "suffix",
+    "start": 913,
+    "end": 919
+  },
+  {
+    "type": "Template",
+    "value": "}公里/小時`",
+    "start": 919,
+    "end": 926
+  },
+  {
     "type": "Punctuator",
     "value": ",",
-    "start": 894,
-    "end": 895
-  },
-  {
-    "type": "Punctuator",
-    "value": "{",
-    "start": 900,
-    "end": 901
-  },
-  {
-    "type": "String",
-    "value": "\"short\"",
-    "start": 908,
-    "end": 915
-  },
-  {
-    "type": "Punctuator",
-    "value": ":",
-    "start": 915,
-    "end": 916
-  },
-  {
-    "type": "String",
-    "value": "\"987 公里/小時\"",
-    "start": 917,
-    "end": 928
-  },
-  {
-    "type": "Punctuator",
-    "value": ",",
-    "start": 928,
-    "end": 929
+    "start": 926,
+    "end": 927
   },
   {
     "type": "String",
     "value": "\"narrow\"",
-    "start": 936,
-    "end": 944
+    "start": 934,
+    "end": 942
   },
   {
     "type": "Punctuator",
     "value": ":",
-    "start": 944,
-    "end": 945
+    "start": 942,
+    "end": 943
   },
   {
-    "type": "String",
-    "value": "\"987公里/小時\"",
-    "start": 946,
-    "end": 956
+    "type": "Template",
+    "value": "`-0.001${",
+    "start": 944,
+    "end": 953
+  },
+  {
+    "type": "Identifier",
+    "value": "narrowSep",
+    "start": 953,
+    "end": 962
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 962,
+    "end": 963
+  },
+  {
+    "type": "Identifier",
+    "value": "suffix",
+    "start": 963,
+    "end": 969
+  },
+  {
+    "type": "Template",
+    "value": "}公里/小時`",
+    "start": 969,
+    "end": 976
   },
   {
     "type": "Punctuator",
     "value": ",",
-    "start": 956,
-    "end": 957
+    "start": 976,
+    "end": 977
   },
   {
     "type": "String",
     "value": "\"long\"",
-    "start": 964,
-    "end": 970
+    "start": 984,
+    "end": 990
   },
   {
     "type": "Punctuator",
     "value": ":",
-    "start": 970,
-    "end": 971
-  },
-  {
-    "type": "String",
-    "value": "\"每小時 987 公里\"",
-    "start": 972,
-    "end": 984
-  },
-  {
-    "type": "Punctuator",
-    "value": ",",
-    "start": 984,
-    "end": 985
-  },
-  {
-    "type": "Punctuator",
-    "value": "}",
     "start": 990,
     "end": 991
   },
   {
-    "type": "Punctuator",
-    "value": "]",
-    "start": 994,
-    "end": 995
-  },
-  {
-    "type": "Punctuator",
-    "value": ",",
-    "start": 995,
-    "end": 996
-  },
-  {
-    "type": "Punctuator",
-    "value": "]",
-    "start": 997,
+    "type": "Template",
+    "value": "`每小時${",
+    "start": 992,
     "end": 998
   },
   {
-    "type": "Punctuator",
-    "value": ";",
+    "type": "Identifier",
+    "value": "longSep",
     "start": 998,
-    "end": 999
-  },
-  {
-    "type": "Keyword",
-    "value": "for",
-    "start": 1001,
-    "end": 1004
+    "end": 1005
   },
   {
     "type": "Punctuator",
-    "value": "(",
+    "value": ".",
     "start": 1005,
     "end": 1006
   },
   {
-    "type": "Keyword",
-    "value": "const",
+    "type": "Identifier",
+    "value": "prefix",
     "start": 1006,
-    "end": 1011
+    "end": 1012
   },
   {
-    "type": "Punctuator",
-    "value": "[",
+    "type": "Template",
+    "value": "}-0.001${",
     "start": 1012,
-    "end": 1013
+    "end": 1021
   },
   {
     "type": "Identifier",
-    "value": "number",
-    "start": 1013,
-    "end": 1019
+    "value": "longSep",
+    "start": 1021,
+    "end": 1028
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1028,
+    "end": 1029
+  },
+  {
+    "type": "Identifier",
+    "value": "suffix",
+    "start": 1029,
+    "end": 1035
+  },
+  {
+    "type": "Template",
+    "value": "}公里`",
+    "start": 1035,
+    "end": 1039
   },
   {
     "type": "Punctuator",
     "value": ",",
-    "start": 1019,
-    "end": 1020
-  },
-  {
-    "type": "Identifier",
-    "value": "expectedData",
-    "start": 1021,
-    "end": 1033
+    "start": 1039,
+    "end": 1040
   },
   {
     "type": "Punctuator",
-    "value": "]",
-    "start": 1033,
-    "end": 1034
-  },
-  {
-    "type": "Identifier",
-    "value": "of",
-    "start": 1035,
-    "end": 1037
-  },
-  {
-    "type": "Identifier",
-    "value": "tests",
-    "start": 1038,
-    "end": 1043
-  },
-  {
-    "type": "Punctuator",
-    "value": ")",
-    "start": 1043,
-    "end": 1044
-  },
-  {
-    "type": "Punctuator",
-    "value": "{",
+    "value": "}",
     "start": 1045,
     "end": 1046
   },
   {
-    "type": "Keyword",
-    "value": "for",
+    "type": "Punctuator",
+    "value": "]",
     "start": 1049,
-    "end": 1052
+    "end": 1050
   },
   {
     "type": "Punctuator",
-    "value": "(",
-    "start": 1053,
-    "end": 1054
-  },
-  {
-    "type": "Keyword",
-    "value": "const",
-    "start": 1054,
-    "end": 1059
+    "value": ",",
+    "start": 1050,
+    "end": 1051
   },
   {
     "type": "Punctuator",
     "value": "[",
+    "start": 1054,
+    "end": 1055
+  },
+  {
+    "type": "Punctuator",
+    "value": "-",
     "start": 1060,
     "end": 1061
   },
   {
-    "type": "Identifier",
-    "value": "unitDisplay",
+    "type": "Numeric",
+    "value": "0",
     "start": 1061,
-    "end": 1072
+    "end": 1062
   },
   {
     "type": "Punctuator",
     "value": ",",
-    "start": 1072,
-    "end": 1073
-  },
-  {
-    "type": "Identifier",
-    "value": "expected",
-    "start": 1074,
-    "end": 1082
-  },
-  {
-    "type": "Punctuator",
-    "value": "]",
-    "start": 1082,
-    "end": 1083
-  },
-  {
-    "type": "Identifier",
-    "value": "of",
-    "start": 1084,
-    "end": 1086
-  },
-  {
-    "type": "Identifier",
-    "value": "Object",
-    "start": 1087,
-    "end": 1093
-  },
-  {
-    "type": "Punctuator",
-    "value": ".",
-    "start": 1093,
-    "end": 1094
-  },
-  {
-    "type": "Identifier",
-    "value": "entries",
-    "start": 1094,
-    "end": 1101
-  },
-  {
-    "type": "Punctuator",
-    "value": "(",
-    "start": 1101,
-    "end": 1102
-  },
-  {
-    "type": "Identifier",
-    "value": "expectedData",
-    "start": 1102,
-    "end": 1114
-  },
-  {
-    "type": "Punctuator",
-    "value": ")",
-    "start": 1114,
-    "end": 1115
-  },
-  {
-    "type": "Punctuator",
-    "value": ")",
-    "start": 1115,
-    "end": 1116
+    "start": 1062,
+    "end": 1063
   },
   {
     "type": "Punctuator",
     "value": "{",
-    "start": 1117,
-    "end": 1118
-  },
-  {
-    "type": "Keyword",
-    "value": "const",
-    "start": 1123,
-    "end": 1128
-  },
-  {
-    "type": "Identifier",
-    "value": "nf",
-    "start": 1129,
-    "end": 1131
-  },
-  {
-    "type": "Punctuator",
-    "value": "=",
-    "start": 1132,
-    "end": 1133
-  },
-  {
-    "type": "Keyword",
-    "value": "new",
-    "start": 1134,
-    "end": 1137
-  },
-  {
-    "type": "Identifier",
-    "value": "Intl",
-    "start": 1138,
-    "end": 1142
-  },
-  {
-    "type": "Punctuator",
-    "value": ".",
-    "start": 1142,
-    "end": 1143
-  },
-  {
-    "type": "Identifier",
-    "value": "NumberFormat",
-    "start": 1143,
-    "end": 1155
-  },
-  {
-    "type": "Punctuator",
-    "value": "(",
-    "start": 1155,
-    "end": 1156
+    "start": 1068,
+    "end": 1069
   },
   {
     "type": "String",
-    "value": "\"zh-TW\"",
-    "start": 1156,
-    "end": 1163
+    "value": "\"short\"",
+    "start": 1076,
+    "end": 1083
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 1083,
+    "end": 1084
+  },
+  {
+    "type": "Template",
+    "value": "`-0${",
+    "start": 1085,
+    "end": 1090
+  },
+  {
+    "type": "Identifier",
+    "value": "shortSep",
+    "start": 1090,
+    "end": 1098
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1098,
+    "end": 1099
+  },
+  {
+    "type": "Identifier",
+    "value": "suffix",
+    "start": 1099,
+    "end": 1105
+  },
+  {
+    "type": "Template",
+    "value": "}公里/小時`",
+    "start": 1105,
+    "end": 1112
   },
   {
     "type": "Punctuator",
     "value": ",",
-    "start": 1163,
-    "end": 1164
+    "start": 1112,
+    "end": 1113
+  },
+  {
+    "type": "String",
+    "value": "\"narrow\"",
+    "start": 1120,
+    "end": 1128
   },
   {
     "type": "Punctuator",
-    "value": "{",
-    "start": 1165,
-    "end": 1166
+    "value": ":",
+    "start": 1128,
+    "end": 1129
+  },
+  {
+    "type": "Template",
+    "value": "`-0${",
+    "start": 1130,
+    "end": 1135
   },
   {
     "type": "Identifier",
-    "value": "style",
-    "start": 1167,
+    "value": "narrowSep",
+    "start": 1135,
+    "end": 1144
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1144,
+    "end": 1145
+  },
+  {
+    "type": "Identifier",
+    "value": "suffix",
+    "start": 1145,
+    "end": 1151
+  },
+  {
+    "type": "Template",
+    "value": "}公里/小時`",
+    "start": 1151,
+    "end": 1158
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1158,
+    "end": 1159
+  },
+  {
+    "type": "String",
+    "value": "\"long\"",
+    "start": 1166,
     "end": 1172
   },
   {
@@ -990,159 +774,1131 @@
     "end": 1173
   },
   {
-    "type": "String",
-    "value": "\"unit\"",
+    "type": "Template",
+    "value": "`每小時${",
     "start": 1174,
     "end": 1180
   },
   {
-    "type": "Punctuator",
-    "value": ",",
-    "start": 1180,
-    "end": 1181
-  },
-  {
     "type": "Identifier",
-    "value": "unit",
-    "start": 1182,
-    "end": 1186
-  },
-  {
-    "type": "Punctuator",
-    "value": ":",
-    "start": 1186,
+    "value": "longSep",
+    "start": 1180,
     "end": 1187
   },
   {
-    "type": "String",
-    "value": "\"kilometer-per-hour\"",
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1187,
+    "end": 1188
+  },
+  {
+    "type": "Identifier",
+    "value": "prefix",
     "start": 1188,
-    "end": 1208
+    "end": 1194
+  },
+  {
+    "type": "Template",
+    "value": "}-0${",
+    "start": 1194,
+    "end": 1199
+  },
+  {
+    "type": "Identifier",
+    "value": "longSep",
+    "start": 1199,
+    "end": 1206
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1206,
+    "end": 1207
+  },
+  {
+    "type": "Identifier",
+    "value": "suffix",
+    "start": 1207,
+    "end": 1213
+  },
+  {
+    "type": "Template",
+    "value": "}公里`",
+    "start": 1213,
+    "end": 1217
   },
   {
     "type": "Punctuator",
     "value": ",",
-    "start": 1208,
-    "end": 1209
-  },
-  {
-    "type": "Identifier",
-    "value": "unitDisplay",
-    "start": 1210,
-    "end": 1221
+    "start": 1217,
+    "end": 1218
   },
   {
     "type": "Punctuator",
     "value": "}",
-    "start": 1222,
-    "end": 1223
-  },
-  {
-    "type": "Punctuator",
-    "value": ")",
     "start": 1223,
     "end": 1224
   },
   {
     "type": "Punctuator",
-    "value": ";",
-    "start": 1224,
-    "end": 1225
-  },
-  {
-    "type": "Identifier",
-    "value": "assert",
-    "start": 1230,
-    "end": 1236
-  },
-  {
-    "type": "Punctuator",
-    "value": ".",
-    "start": 1236,
-    "end": 1237
-  },
-  {
-    "type": "Identifier",
-    "value": "sameValue",
-    "start": 1237,
-    "end": 1246
-  },
-  {
-    "type": "Punctuator",
-    "value": "(",
-    "start": 1246,
-    "end": 1247
-  },
-  {
-    "type": "Identifier",
-    "value": "nf",
-    "start": 1247,
-    "end": 1249
-  },
-  {
-    "type": "Punctuator",
-    "value": ".",
-    "start": 1249,
-    "end": 1250
-  },
-  {
-    "type": "Identifier",
-    "value": "format",
-    "start": 1250,
-    "end": 1256
-  },
-  {
-    "type": "Punctuator",
-    "value": "(",
-    "start": 1256,
-    "end": 1257
-  },
-  {
-    "type": "Identifier",
-    "value": "number",
-    "start": 1257,
-    "end": 1263
-  },
-  {
-    "type": "Punctuator",
-    "value": ")",
-    "start": 1263,
-    "end": 1264
+    "value": "]",
+    "start": 1227,
+    "end": 1228
   },
   {
     "type": "Punctuator",
     "value": ",",
-    "start": 1264,
-    "end": 1265
+    "start": 1228,
+    "end": 1229
+  },
+  {
+    "type": "Punctuator",
+    "value": "[",
+    "start": 1232,
+    "end": 1233
+  },
+  {
+    "type": "Numeric",
+    "value": "0",
+    "start": 1238,
+    "end": 1239
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1239,
+    "end": 1240
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 1245,
+    "end": 1246
+  },
+  {
+    "type": "String",
+    "value": "\"short\"",
+    "start": 1253,
+    "end": 1260
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 1260,
+    "end": 1261
+  },
+  {
+    "type": "Template",
+    "value": "`0${",
+    "start": 1262,
+    "end": 1266
   },
   {
     "type": "Identifier",
-    "value": "expected",
+    "value": "shortSep",
     "start": 1266,
     "end": 1274
   },
   {
     "type": "Punctuator",
-    "value": ")",
+    "value": ".",
     "start": 1274,
     "end": 1275
   },
   {
+    "type": "Identifier",
+    "value": "suffix",
+    "start": 1275,
+    "end": 1281
+  },
+  {
+    "type": "Template",
+    "value": "}公里/小時`",
+    "start": 1281,
+    "end": 1288
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1288,
+    "end": 1289
+  },
+  {
+    "type": "String",
+    "value": "\"narrow\"",
+    "start": 1296,
+    "end": 1304
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 1304,
+    "end": 1305
+  },
+  {
+    "type": "Template",
+    "value": "`0${",
+    "start": 1306,
+    "end": 1310
+  },
+  {
+    "type": "Identifier",
+    "value": "narrowSep",
+    "start": 1310,
+    "end": 1319
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1319,
+    "end": 1320
+  },
+  {
+    "type": "Identifier",
+    "value": "suffix",
+    "start": 1320,
+    "end": 1326
+  },
+  {
+    "type": "Template",
+    "value": "}公里/小時`",
+    "start": 1326,
+    "end": 1333
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1333,
+    "end": 1334
+  },
+  {
+    "type": "String",
+    "value": "\"long\"",
+    "start": 1341,
+    "end": 1347
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 1347,
+    "end": 1348
+  },
+  {
+    "type": "Template",
+    "value": "`每小時${",
+    "start": 1349,
+    "end": 1355
+  },
+  {
+    "type": "Identifier",
+    "value": "longSep",
+    "start": 1355,
+    "end": 1362
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1362,
+    "end": 1363
+  },
+  {
+    "type": "Identifier",
+    "value": "prefix",
+    "start": 1363,
+    "end": 1369
+  },
+  {
+    "type": "Template",
+    "value": "}0${",
+    "start": 1369,
+    "end": 1373
+  },
+  {
+    "type": "Identifier",
+    "value": "longSep",
+    "start": 1373,
+    "end": 1380
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1380,
+    "end": 1381
+  },
+  {
+    "type": "Identifier",
+    "value": "suffix",
+    "start": 1381,
+    "end": 1387
+  },
+  {
+    "type": "Template",
+    "value": "}公里`",
+    "start": 1387,
+    "end": 1391
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1391,
+    "end": 1392
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 1397,
+    "end": 1398
+  },
+  {
+    "type": "Punctuator",
+    "value": "]",
+    "start": 1401,
+    "end": 1402
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1402,
+    "end": 1403
+  },
+  {
+    "type": "Punctuator",
+    "value": "[",
+    "start": 1406,
+    "end": 1407
+  },
+  {
+    "type": "Numeric",
+    "value": "0.001",
+    "start": 1412,
+    "end": 1417
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1417,
+    "end": 1418
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 1423,
+    "end": 1424
+  },
+  {
+    "type": "String",
+    "value": "\"short\"",
+    "start": 1431,
+    "end": 1438
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 1438,
+    "end": 1439
+  },
+  {
+    "type": "Template",
+    "value": "`0.001${",
+    "start": 1440,
+    "end": 1448
+  },
+  {
+    "type": "Identifier",
+    "value": "shortSep",
+    "start": 1448,
+    "end": 1456
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1456,
+    "end": 1457
+  },
+  {
+    "type": "Identifier",
+    "value": "suffix",
+    "start": 1457,
+    "end": 1463
+  },
+  {
+    "type": "Template",
+    "value": "}公里/小時`",
+    "start": 1463,
+    "end": 1470
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1470,
+    "end": 1471
+  },
+  {
+    "type": "String",
+    "value": "\"narrow\"",
+    "start": 1478,
+    "end": 1486
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 1486,
+    "end": 1487
+  },
+  {
+    "type": "Template",
+    "value": "`0.001${",
+    "start": 1488,
+    "end": 1496
+  },
+  {
+    "type": "Identifier",
+    "value": "narrowSep",
+    "start": 1496,
+    "end": 1505
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1505,
+    "end": 1506
+  },
+  {
+    "type": "Identifier",
+    "value": "suffix",
+    "start": 1506,
+    "end": 1512
+  },
+  {
+    "type": "Template",
+    "value": "}公里/小時`",
+    "start": 1512,
+    "end": 1519
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1519,
+    "end": 1520
+  },
+  {
+    "type": "String",
+    "value": "\"long\"",
+    "start": 1527,
+    "end": 1533
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 1533,
+    "end": 1534
+  },
+  {
+    "type": "Template",
+    "value": "`每小時${",
+    "start": 1535,
+    "end": 1541
+  },
+  {
+    "type": "Identifier",
+    "value": "longSep",
+    "start": 1541,
+    "end": 1548
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1548,
+    "end": 1549
+  },
+  {
+    "type": "Identifier",
+    "value": "prefix",
+    "start": 1549,
+    "end": 1555
+  },
+  {
+    "type": "Template",
+    "value": "}0.001${",
+    "start": 1555,
+    "end": 1563
+  },
+  {
+    "type": "Identifier",
+    "value": "longSep",
+    "start": 1563,
+    "end": 1570
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1570,
+    "end": 1571
+  },
+  {
+    "type": "Identifier",
+    "value": "suffix",
+    "start": 1571,
+    "end": 1577
+  },
+  {
+    "type": "Template",
+    "value": "}公里`",
+    "start": 1577,
+    "end": 1581
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1581,
+    "end": 1582
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 1587,
+    "end": 1588
+  },
+  {
+    "type": "Punctuator",
+    "value": "]",
+    "start": 1591,
+    "end": 1592
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1592,
+    "end": 1593
+  },
+  {
+    "type": "Punctuator",
+    "value": "[",
+    "start": 1596,
+    "end": 1597
+  },
+  {
+    "type": "Numeric",
+    "value": "987",
+    "start": 1602,
+    "end": 1605
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1605,
+    "end": 1606
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 1611,
+    "end": 1612
+  },
+  {
+    "type": "String",
+    "value": "\"short\"",
+    "start": 1619,
+    "end": 1626
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 1626,
+    "end": 1627
+  },
+  {
+    "type": "Template",
+    "value": "`987${",
+    "start": 1628,
+    "end": 1634
+  },
+  {
+    "type": "Identifier",
+    "value": "shortSep",
+    "start": 1634,
+    "end": 1642
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1642,
+    "end": 1643
+  },
+  {
+    "type": "Identifier",
+    "value": "suffix",
+    "start": 1643,
+    "end": 1649
+  },
+  {
+    "type": "Template",
+    "value": "}公里/小時`",
+    "start": 1649,
+    "end": 1656
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1656,
+    "end": 1657
+  },
+  {
+    "type": "String",
+    "value": "\"narrow\"",
+    "start": 1664,
+    "end": 1672
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 1672,
+    "end": 1673
+  },
+  {
+    "type": "Template",
+    "value": "`987${",
+    "start": 1674,
+    "end": 1680
+  },
+  {
+    "type": "Identifier",
+    "value": "narrowSep",
+    "start": 1680,
+    "end": 1689
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1689,
+    "end": 1690
+  },
+  {
+    "type": "Identifier",
+    "value": "suffix",
+    "start": 1690,
+    "end": 1696
+  },
+  {
+    "type": "Template",
+    "value": "}公里/小時`",
+    "start": 1696,
+    "end": 1703
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1703,
+    "end": 1704
+  },
+  {
+    "type": "String",
+    "value": "\"long\"",
+    "start": 1711,
+    "end": 1717
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 1717,
+    "end": 1718
+  },
+  {
+    "type": "Template",
+    "value": "`每小時${",
+    "start": 1719,
+    "end": 1725
+  },
+  {
+    "type": "Identifier",
+    "value": "longSep",
+    "start": 1725,
+    "end": 1732
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1732,
+    "end": 1733
+  },
+  {
+    "type": "Identifier",
+    "value": "prefix",
+    "start": 1733,
+    "end": 1739
+  },
+  {
+    "type": "Template",
+    "value": "}987${",
+    "start": 1739,
+    "end": 1745
+  },
+  {
+    "type": "Identifier",
+    "value": "longSep",
+    "start": 1745,
+    "end": 1752
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1752,
+    "end": 1753
+  },
+  {
+    "type": "Identifier",
+    "value": "suffix",
+    "start": 1753,
+    "end": 1759
+  },
+  {
+    "type": "Template",
+    "value": "}公里`",
+    "start": 1759,
+    "end": 1763
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1763,
+    "end": 1764
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 1769,
+    "end": 1770
+  },
+  {
+    "type": "Punctuator",
+    "value": "]",
+    "start": 1773,
+    "end": 1774
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1774,
+    "end": 1775
+  },
+  {
+    "type": "Punctuator",
+    "value": "]",
+    "start": 1776,
+    "end": 1777
+  },
+  {
     "type": "Punctuator",
     "value": ";",
-    "start": 1275,
-    "end": 1276
+    "start": 1777,
+    "end": 1778
+  },
+  {
+    "type": "Keyword",
+    "value": "for",
+    "start": 1780,
+    "end": 1783
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1784,
+    "end": 1785
+  },
+  {
+    "type": "Keyword",
+    "value": "const",
+    "start": 1785,
+    "end": 1790
+  },
+  {
+    "type": "Punctuator",
+    "value": "[",
+    "start": 1791,
+    "end": 1792
+  },
+  {
+    "type": "Identifier",
+    "value": "number",
+    "start": 1792,
+    "end": 1798
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1798,
+    "end": 1799
+  },
+  {
+    "type": "Identifier",
+    "value": "expectedData",
+    "start": 1800,
+    "end": 1812
+  },
+  {
+    "type": "Punctuator",
+    "value": "]",
+    "start": 1812,
+    "end": 1813
+  },
+  {
+    "type": "Identifier",
+    "value": "of",
+    "start": 1814,
+    "end": 1816
+  },
+  {
+    "type": "Identifier",
+    "value": "tests",
+    "start": 1817,
+    "end": 1822
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1822,
+    "end": 1823
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 1824,
+    "end": 1825
+  },
+  {
+    "type": "Keyword",
+    "value": "for",
+    "start": 1828,
+    "end": 1831
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1832,
+    "end": 1833
+  },
+  {
+    "type": "Keyword",
+    "value": "const",
+    "start": 1833,
+    "end": 1838
+  },
+  {
+    "type": "Punctuator",
+    "value": "[",
+    "start": 1839,
+    "end": 1840
+  },
+  {
+    "type": "Identifier",
+    "value": "unitDisplay",
+    "start": 1840,
+    "end": 1851
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1851,
+    "end": 1852
+  },
+  {
+    "type": "Identifier",
+    "value": "expected",
+    "start": 1853,
+    "end": 1861
+  },
+  {
+    "type": "Punctuator",
+    "value": "]",
+    "start": 1861,
+    "end": 1862
+  },
+  {
+    "type": "Identifier",
+    "value": "of",
+    "start": 1863,
+    "end": 1865
+  },
+  {
+    "type": "Identifier",
+    "value": "Object",
+    "start": 1866,
+    "end": 1872
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1872,
+    "end": 1873
+  },
+  {
+    "type": "Identifier",
+    "value": "entries",
+    "start": 1873,
+    "end": 1880
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1880,
+    "end": 1881
+  },
+  {
+    "type": "Identifier",
+    "value": "expectedData",
+    "start": 1881,
+    "end": 1893
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1893,
+    "end": 1894
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1894,
+    "end": 1895
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 1896,
+    "end": 1897
+  },
+  {
+    "type": "Keyword",
+    "value": "const",
+    "start": 1902,
+    "end": 1907
+  },
+  {
+    "type": "Identifier",
+    "value": "nf",
+    "start": 1908,
+    "end": 1910
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 1911,
+    "end": 1912
+  },
+  {
+    "type": "Keyword",
+    "value": "new",
+    "start": 1913,
+    "end": 1916
+  },
+  {
+    "type": "Identifier",
+    "value": "Intl",
+    "start": 1917,
+    "end": 1921
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1921,
+    "end": 1922
+  },
+  {
+    "type": "Identifier",
+    "value": "NumberFormat",
+    "start": 1922,
+    "end": 1934
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1934,
+    "end": 1935
+  },
+  {
+    "type": "String",
+    "value": "\"zh-TW\"",
+    "start": 1935,
+    "end": 1942
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1942,
+    "end": 1943
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 1944,
+    "end": 1945
+  },
+  {
+    "type": "Identifier",
+    "value": "style",
+    "start": 1946,
+    "end": 1951
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 1951,
+    "end": 1952
+  },
+  {
+    "type": "String",
+    "value": "\"unit\"",
+    "start": 1953,
+    "end": 1959
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1959,
+    "end": 1960
+  },
+  {
+    "type": "Identifier",
+    "value": "unit",
+    "start": 1961,
+    "end": 1965
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 1965,
+    "end": 1966
+  },
+  {
+    "type": "String",
+    "value": "\"kilometer-per-hour\"",
+    "start": 1967,
+    "end": 1987
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1987,
+    "end": 1988
+  },
+  {
+    "type": "Identifier",
+    "value": "unitDisplay",
+    "start": 1989,
+    "end": 2000
   },
   {
     "type": "Punctuator",
     "value": "}",
-    "start": 1279,
-    "end": 1280
+    "start": 2001,
+    "end": 2002
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 2002,
+    "end": 2003
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 2003,
+    "end": 2004
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 2009,
+    "end": 2015
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 2015,
+    "end": 2016
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 2016,
+    "end": 2025
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 2025,
+    "end": 2026
+  },
+  {
+    "type": "Identifier",
+    "value": "nf",
+    "start": 2026,
+    "end": 2028
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 2028,
+    "end": 2029
+  },
+  {
+    "type": "Identifier",
+    "value": "format",
+    "start": 2029,
+    "end": 2035
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 2035,
+    "end": 2036
+  },
+  {
+    "type": "Identifier",
+    "value": "number",
+    "start": 2036,
+    "end": 2042
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 2042,
+    "end": 2043
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2043,
+    "end": 2044
+  },
+  {
+    "type": "Identifier",
+    "value": "expected",
+    "start": 2045,
+    "end": 2053
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 2053,
+    "end": 2054
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 2054,
+    "end": 2055
   },
   {
     "type": "Punctuator",
     "value": "}",
-    "start": 1281,
-    "end": 1282
+    "start": 2058,
+    "end": 2059
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 2060,
+    "end": 2061
   }
 ]

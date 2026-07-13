@@ -218,18 +218,46 @@
             "expression": false,
             "start": 1999,
             "end": 2141
+          },
+          {
+            "type": "Literal",
+            "value": null,
+            "raw": "null",
+            "start": 2143,
+            "end": 2147
+          },
+          {
+            "type": "Literal",
+            "value": null,
+            "raw": "null",
+            "start": 2149,
+            "end": 2153
+          },
+          {
+            "type": "ArrayExpression",
+            "elements": [
+              {
+                "type": "Literal",
+                "value": "immutable",
+                "raw": "\"immutable\"",
+                "start": 2156,
+                "end": 2167
+              }
+            ],
+            "start": 2155,
+            "end": 2168
           }
         ],
         "optional": false,
         "start": 1962,
-        "end": 2142
+        "end": 2169
       },
       "start": 1962,
-      "end": 2143
+      "end": 2170
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 2144
+  "end": 2171
 }

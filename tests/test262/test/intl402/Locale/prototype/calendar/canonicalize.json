@@ -10,8 +10,8 @@
           "id": {
             "type": "Identifier",
             "name": "loc",
-            "start": 716,
-            "end": 719
+            "start": 499,
+            "end": 502
           },
           "init": {
             "type": "NewExpression",
@@ -20,27 +20,27 @@
               "object": {
                 "type": "Identifier",
                 "name": "Intl",
-                "start": 726,
-                "end": 730
+                "start": 509,
+                "end": 513
               },
               "property": {
                 "type": "Identifier",
                 "name": "Locale",
-                "start": 731,
-                "end": 737
+                "start": 514,
+                "end": 520
               },
               "optional": false,
               "computed": false,
-              "start": 726,
-              "end": 737
+              "start": 509,
+              "end": 520
             },
             "arguments": [
               {
                 "type": "Literal",
                 "value": "en",
                 "raw": "'en'",
-                "start": 738,
-                "end": 742
+                "start": 521,
+                "end": 525
               },
               {
                 "type": "ObjectExpression",
@@ -51,36 +51,36 @@
                     "key": {
                       "type": "Identifier",
                       "name": "calendar",
-                      "start": 745,
-                      "end": 753
+                      "start": 528,
+                      "end": 536
                     },
                     "value": {
                       "type": "Literal",
                       "value": "islamicc",
                       "raw": "'islamicc'",
-                      "start": 755,
-                      "end": 765
+                      "start": 538,
+                      "end": 548
                     },
                     "method": false,
                     "shorthand": false,
                     "computed": false,
-                    "start": 745,
-                    "end": 765
+                    "start": 528,
+                    "end": 548
                   }
                 ],
-                "start": 744,
-                "end": 766
+                "start": 527,
+                "end": 549
               }
             ],
-            "start": 722,
-            "end": 767
+            "start": 505,
+            "end": 550
           },
-          "start": 716,
-          "end": 767
+          "start": 499,
+          "end": 550
         }
       ],
-      "start": 710,
-      "end": 768
+      "start": 493,
+      "end": 551
     },
     {
       "type": "ExpressionStatement",
@@ -91,19 +91,19 @@
           "object": {
             "type": "Identifier",
             "name": "assert",
-            "start": 770,
-            "end": 776
+            "start": 553,
+            "end": 559
           },
           "property": {
             "type": "Identifier",
             "name": "sameValue",
-            "start": 777,
-            "end": 786
+            "start": 560,
+            "end": 569
           },
           "optional": false,
           "computed": false,
-          "start": 770,
-          "end": 786
+          "start": 553,
+          "end": 569
         },
         "arguments": [
           {
@@ -113,46 +113,46 @@
               "object": {
                 "type": "Identifier",
                 "name": "loc",
-                "start": 787,
-                "end": 790
+                "start": 570,
+                "end": 573
               },
               "property": {
                 "type": "Identifier",
                 "name": "toString",
-                "start": 791,
-                "end": 799
+                "start": 574,
+                "end": 582
               },
               "optional": false,
               "computed": false,
-              "start": 787,
-              "end": 799
+              "start": 570,
+              "end": 582
             },
             "arguments": [],
             "optional": false,
-            "start": 787,
-            "end": 801
+            "start": 570,
+            "end": 584
           },
           {
             "type": "Literal",
             "value": "en-u-ca-islamic-civil",
             "raw": "\"en-u-ca-islamic-civil\"",
-            "start": 803,
-            "end": 826
+            "start": 586,
+            "end": 609
           },
           {
             "type": "Literal",
-            "value": "'islamicc' should be canonicalize to 'islamic-civil'",
-            "raw": "\"'islamicc' should be canonicalize to 'islamic-civil'\"",
-            "start": 832,
-            "end": 886
+            "value": "'islamicc' should be canonicalized to 'islamic-civil'",
+            "raw": "\"'islamicc' should be canonicalized to 'islamic-civil'\"",
+            "start": 615,
+            "end": 670
           }
         ],
         "optional": false,
-        "start": 770,
-        "end": 887
+        "start": 553,
+        "end": 671
       },
-      "start": 770,
-      "end": 888
+      "start": 553,
+      "end": 672
     },
     {
       "type": "ExpressionStatement",
@@ -163,19 +163,19 @@
           "object": {
             "type": "Identifier",
             "name": "assert",
-            "start": 890,
-            "end": 896
+            "start": 674,
+            "end": 680
           },
           "property": {
             "type": "Identifier",
             "name": "sameValue",
-            "start": 897,
-            "end": 906
+            "start": 681,
+            "end": 690
           },
           "optional": false,
           "computed": false,
-          "start": 890,
-          "end": 906
+          "start": 674,
+          "end": 690
         },
         "arguments": [
           {
@@ -183,45 +183,45 @@
             "object": {
               "type": "Identifier",
               "name": "loc",
-              "start": 907,
-              "end": 910
+              "start": 691,
+              "end": 694
             },
             "property": {
               "type": "Identifier",
               "name": "calendar",
-              "start": 911,
-              "end": 919
+              "start": 695,
+              "end": 703
             },
             "optional": false,
             "computed": false,
-            "start": 907,
-            "end": 919
+            "start": 691,
+            "end": 703
           },
           {
             "type": "Literal",
             "value": "islamic-civil",
             "raw": "\"islamic-civil\"",
-            "start": 921,
-            "end": 936
+            "start": 705,
+            "end": 720
           },
           {
             "type": "Literal",
-            "value": "'islamicc' should be canonicalize to 'islamic-civil'",
-            "raw": "\"'islamicc' should be canonicalize to 'islamic-civil'\"",
-            "start": 942,
-            "end": 996
+            "value": "'islamicc' should be canonicalized to 'islamic-civil'",
+            "raw": "\"'islamicc' should be canonicalized to 'islamic-civil'\"",
+            "start": 726,
+            "end": 781
           }
         ],
         "optional": false,
-        "start": 890,
-        "end": 997
+        "start": 674,
+        "end": 782
       },
-      "start": 890,
-      "end": 998
+      "start": 674,
+      "end": 783
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 999
+  "end": 784
 }
