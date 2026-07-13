@@ -1,0 +1,530 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "Identifier",
+          "name": "asyncTest",
+          "start": 2408,
+          "end": 2417
+        },
+        "arguments": [
+          {
+            "type": "FunctionExpression",
+            "id": null,
+            "generator": false,
+            "async": true,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "body": [
+                {
+                  "type": "VariableDeclaration",
+                  "kind": "var",
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "id": {
+                        "type": "Identifier",
+                        "name": "errorFromMain",
+                        "start": 2444,
+                        "end": 2457
+                      },
+                      "init": {
+                        "type": "Literal",
+                        "value": null,
+                        "raw": "null",
+                        "start": 2460,
+                        "end": 2464
+                      },
+                      "start": 2444,
+                      "end": 2464
+                    }
+                  ],
+                  "start": 2440,
+                  "end": 2465
+                },
+                {
+                  "type": "TryStatement",
+                  "block": {
+                    "type": "BlockStatement",
+                    "body": [
+                      {
+                        "type": "ExpressionStatement",
+                        "expression": {
+                          "type": "AwaitExpression",
+                          "argument": {
+                            "type": "ImportExpression",
+                            "source": {
+                              "type": "Literal",
+                              "value": "./import-fulfilled-member-of-errored-cycle-main_FIXTURE.js",
+                              "raw": "\"./import-fulfilled-member-of-errored-cycle-main_FIXTURE.js\"",
+                              "start": 2491,
+                              "end": 2551
+                            },
+                            "options": null,
+                            "phase": null,
+                            "start": 2484,
+                            "end": 2552
+                          },
+                          "start": 2478,
+                          "end": 2552
+                        },
+                        "start": 2478,
+                        "end": 2553
+                      }
+                    ],
+                    "start": 2472,
+                    "end": 2557
+                  },
+                  "handler": {
+                    "type": "CatchClause",
+                    "param": {
+                      "type": "Identifier",
+                      "name": "err",
+                      "start": 2565,
+                      "end": 2568
+                    },
+                    "body": {
+                      "type": "BlockStatement",
+                      "body": [
+                        {
+                          "type": "ExpressionStatement",
+                          "expression": {
+                            "type": "AssignmentExpression",
+                            "operator": "=",
+                            "left": {
+                              "type": "Identifier",
+                              "name": "errorFromMain",
+                              "start": 2576,
+                              "end": 2589
+                            },
+                            "right": {
+                              "type": "Identifier",
+                              "name": "err",
+                              "start": 2592,
+                              "end": 2595
+                            },
+                            "start": 2576,
+                            "end": 2595
+                          },
+                          "start": 2576,
+                          "end": 2596
+                        }
+                      ],
+                      "start": 2570,
+                      "end": 2600
+                    },
+                    "start": 2558,
+                    "end": 2600
+                  },
+                  "finalizer": null,
+                  "start": 2468,
+                  "end": 2600
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "expression": {
+                    "type": "CallExpression",
+                    "callee": {
+                      "type": "MemberExpression",
+                      "object": {
+                        "type": "Identifier",
+                        "name": "assert",
+                        "start": 2603,
+                        "end": 2609
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "name": "notSameValue",
+                        "start": 2610,
+                        "end": 2622
+                      },
+                      "optional": false,
+                      "computed": false,
+                      "start": 2603,
+                      "end": 2622
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "name": "errorFromMain",
+                        "start": 2623,
+                        "end": 2636
+                      },
+                      {
+                        "type": "Literal",
+                        "value": null,
+                        "raw": "null",
+                        "start": 2638,
+                        "end": 2642
+                      },
+                      {
+                        "type": "Literal",
+                        "value": "The import of main should reject",
+                        "raw": "\"The import of main should reject\"",
+                        "start": 2644,
+                        "end": 2678
+                      }
+                    ],
+                    "optional": false,
+                    "start": 2603,
+                    "end": 2679
+                  },
+                  "start": 2603,
+                  "end": 2680
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "expression": {
+                    "type": "CallExpression",
+                    "callee": {
+                      "type": "MemberExpression",
+                      "object": {
+                        "type": "Identifier",
+                        "name": "assert",
+                        "start": 2683,
+                        "end": 2689
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "name": "sameValue",
+                        "start": 2690,
+                        "end": 2699
+                      },
+                      "optional": false,
+                      "computed": false,
+                      "start": 2683,
+                      "end": 2699
+                    },
+                    "arguments": [
+                      {
+                        "type": "BinaryExpression",
+                        "left": {
+                          "type": "Identifier",
+                          "name": "errorFromMain",
+                          "start": 2705,
+                          "end": 2718
+                        },
+                        "operator": "instanceof",
+                        "right": {
+                          "type": "Identifier",
+                          "name": "Error",
+                          "start": 2730,
+                          "end": 2735
+                        },
+                        "start": 2705,
+                        "end": 2735
+                      },
+                      {
+                        "type": "Literal",
+                        "value": true,
+                        "raw": "true",
+                        "start": 2741,
+                        "end": 2745
+                      },
+                      {
+                        "type": "Literal",
+                        "value": "The import of main should reject with the error thrown in B",
+                        "raw": "\"The import of main should reject with the error thrown in B\"",
+                        "start": 2751,
+                        "end": 2812
+                      }
+                    ],
+                    "optional": false,
+                    "start": 2683,
+                    "end": 2816
+                  },
+                  "start": 2683,
+                  "end": 2817
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "expression": {
+                    "type": "CallExpression",
+                    "callee": {
+                      "type": "MemberExpression",
+                      "object": {
+                        "type": "Identifier",
+                        "name": "assert",
+                        "start": 2820,
+                        "end": 2826
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "name": "sameValue",
+                        "start": 2827,
+                        "end": 2836
+                      },
+                      "optional": false,
+                      "computed": false,
+                      "start": 2820,
+                      "end": 2836
+                    },
+                    "arguments": [
+                      {
+                        "type": "MemberExpression",
+                        "object": {
+                          "type": "Identifier",
+                          "name": "errorFromMain",
+                          "start": 2837,
+                          "end": 2850
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "name": "message",
+                          "start": 2851,
+                          "end": 2858
+                        },
+                        "optional": false,
+                        "computed": false,
+                        "start": 2837,
+                        "end": 2858
+                      },
+                      {
+                        "type": "Literal",
+                        "value": "async error in B",
+                        "raw": "\"async error in B\"",
+                        "start": 2860,
+                        "end": 2878
+                      }
+                    ],
+                    "optional": false,
+                    "start": 2820,
+                    "end": 2879
+                  },
+                  "start": 2820,
+                  "end": 2880
+                },
+                {
+                  "type": "VariableDeclaration",
+                  "kind": "var",
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "id": {
+                        "type": "Identifier",
+                        "name": "errorFromC",
+                        "start": 2888,
+                        "end": 2898
+                      },
+                      "init": {
+                        "type": "Literal",
+                        "value": null,
+                        "raw": "null",
+                        "start": 2901,
+                        "end": 2905
+                      },
+                      "start": 2888,
+                      "end": 2905
+                    }
+                  ],
+                  "start": 2884,
+                  "end": 2906
+                },
+                {
+                  "type": "TryStatement",
+                  "block": {
+                    "type": "BlockStatement",
+                    "body": [
+                      {
+                        "type": "ExpressionStatement",
+                        "expression": {
+                          "type": "AwaitExpression",
+                          "argument": {
+                            "type": "ImportExpression",
+                            "source": {
+                              "type": "Literal",
+                              "value": "./import-fulfilled-member-of-errored-cycle-c_FIXTURE.js",
+                              "raw": "\"./import-fulfilled-member-of-errored-cycle-c_FIXTURE.js\"",
+                              "start": 2932,
+                              "end": 2989
+                            },
+                            "options": null,
+                            "phase": null,
+                            "start": 2925,
+                            "end": 2990
+                          },
+                          "start": 2919,
+                          "end": 2990
+                        },
+                        "start": 2919,
+                        "end": 2991
+                      }
+                    ],
+                    "start": 2913,
+                    "end": 2995
+                  },
+                  "handler": {
+                    "type": "CatchClause",
+                    "param": {
+                      "type": "Identifier",
+                      "name": "err",
+                      "start": 3003,
+                      "end": 3006
+                    },
+                    "body": {
+                      "type": "BlockStatement",
+                      "body": [
+                        {
+                          "type": "ExpressionStatement",
+                          "expression": {
+                            "type": "AssignmentExpression",
+                            "operator": "=",
+                            "left": {
+                              "type": "Identifier",
+                              "name": "errorFromC",
+                              "start": 3014,
+                              "end": 3024
+                            },
+                            "right": {
+                              "type": "Identifier",
+                              "name": "err",
+                              "start": 3027,
+                              "end": 3030
+                            },
+                            "start": 3014,
+                            "end": 3030
+                          },
+                          "start": 3014,
+                          "end": 3031
+                        }
+                      ],
+                      "start": 3008,
+                      "end": 3035
+                    },
+                    "start": 2996,
+                    "end": 3035
+                  },
+                  "finalizer": null,
+                  "start": 2909,
+                  "end": 3035
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "expression": {
+                    "type": "CallExpression",
+                    "callee": {
+                      "type": "MemberExpression",
+                      "object": {
+                        "type": "Identifier",
+                        "name": "assert",
+                        "start": 3038,
+                        "end": 3044
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "name": "notSameValue",
+                        "start": 3045,
+                        "end": 3057
+                      },
+                      "optional": false,
+                      "computed": false,
+                      "start": 3038,
+                      "end": 3057
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "name": "errorFromC",
+                        "start": 3058,
+                        "end": 3068
+                      },
+                      {
+                        "type": "Literal",
+                        "value": null,
+                        "raw": "null",
+                        "start": 3070,
+                        "end": 3074
+                      },
+                      {
+                        "type": "Literal",
+                        "value": "The import of C should reject",
+                        "raw": "\"The import of C should reject\"",
+                        "start": 3076,
+                        "end": 3107
+                      }
+                    ],
+                    "optional": false,
+                    "start": 3038,
+                    "end": 3108
+                  },
+                  "start": 3038,
+                  "end": 3109
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "expression": {
+                    "type": "CallExpression",
+                    "callee": {
+                      "type": "MemberExpression",
+                      "object": {
+                        "type": "Identifier",
+                        "name": "assert",
+                        "start": 3112,
+                        "end": 3118
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "name": "sameValue",
+                        "start": 3119,
+                        "end": 3128
+                      },
+                      "optional": false,
+                      "computed": false,
+                      "start": 3112,
+                      "end": 3128
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "name": "errorFromC",
+                        "start": 3134,
+                        "end": 3144
+                      },
+                      {
+                        "type": "Identifier",
+                        "name": "errorFromMain",
+                        "start": 3150,
+                        "end": 3163
+                      },
+                      {
+                        "type": "Literal",
+                        "value": "The import of C should reject with the [[EvaluationError]] recorded for the cycle root B",
+                        "raw": "\"The import of C should reject with the [[EvaluationError]] recorded for the cycle root B\"",
+                        "start": 3169,
+                        "end": 3259
+                      }
+                    ],
+                    "optional": false,
+                    "start": 3112,
+                    "end": 3263
+                  },
+                  "start": 3112,
+                  "end": 3264
+                }
+              ],
+              "start": 2436,
+              "end": 3266
+            },
+            "expression": false,
+            "start": 2418,
+            "end": 3266
+          }
+        ],
+        "optional": false,
+        "start": 2408,
+        "end": 3267
+      },
+      "start": 2408,
+      "end": 3268
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 3269
+}

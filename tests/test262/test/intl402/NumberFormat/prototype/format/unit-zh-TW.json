@@ -9,9 +9,150 @@
           "type": "VariableDeclarator",
           "id": {
             "type": "Identifier",
+            "name": "shortSep",
+            "start": 499,
+            "end": 507
+          },
+          "init": {
+            "type": "CallExpression",
+            "callee": {
+              "type": "Identifier",
+              "name": "getUnitSeparators",
+              "start": 510,
+              "end": 527
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "value": "zh-TW",
+                "raw": "\"zh-TW\"",
+                "start": 528,
+                "end": 535
+              },
+              {
+                "type": "Literal",
+                "value": "short",
+                "raw": "\"short\"",
+                "start": 537,
+                "end": 544
+              }
+            ],
+            "optional": false,
+            "start": 510,
+            "end": 545
+          },
+          "start": 499,
+          "end": 545
+        }
+      ],
+      "start": 493,
+      "end": 546
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "narrowSep",
+            "start": 553,
+            "end": 562
+          },
+          "init": {
+            "type": "CallExpression",
+            "callee": {
+              "type": "Identifier",
+              "name": "getUnitSeparators",
+              "start": 565,
+              "end": 582
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "value": "zh-TW",
+                "raw": "\"zh-TW\"",
+                "start": 583,
+                "end": 590
+              },
+              {
+                "type": "Literal",
+                "value": "narrow",
+                "raw": "\"narrow\"",
+                "start": 592,
+                "end": 600
+              }
+            ],
+            "optional": false,
+            "start": 565,
+            "end": 601
+          },
+          "start": 553,
+          "end": 601
+        }
+      ],
+      "start": 547,
+      "end": 602
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "longSep",
+            "start": 609,
+            "end": 616
+          },
+          "init": {
+            "type": "CallExpression",
+            "callee": {
+              "type": "Identifier",
+              "name": "getUnitSeparators",
+              "start": 619,
+              "end": 636
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "value": "zh-TW",
+                "raw": "\"zh-TW\"",
+                "start": 637,
+                "end": 644
+              },
+              {
+                "type": "Literal",
+                "value": "long",
+                "raw": "\"long\"",
+                "start": 646,
+                "end": 652
+              }
+            ],
+            "optional": false,
+            "start": 619,
+            "end": 653
+          },
+          "start": 609,
+          "end": 653
+        }
+      ],
+      "start": 603,
+      "end": 654
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
             "name": "tests",
-            "start": 291,
-            "end": 296
+            "start": 662,
+            "end": 667
           },
           "init": {
             "type": "ArrayExpression",
@@ -26,12 +167,12 @@
                       "type": "Literal",
                       "value": 987,
                       "raw": "987",
-                      "start": 310,
-                      "end": 313
+                      "start": 681,
+                      "end": 684
                     },
                     "prefix": true,
-                    "start": 309,
-                    "end": 313
+                    "start": 680,
+                    "end": 684
                   },
                   {
                     "type": "ObjectExpression",
@@ -43,21 +184,62 @@
                           "type": "Literal",
                           "value": "short",
                           "raw": "\"short\"",
-                          "start": 327,
-                          "end": 334
+                          "start": 698,
+                          "end": 705
                         },
                         "value": {
-                          "type": "Literal",
-                          "value": "-987 公里/小時",
-                          "raw": "\"-987 公里/小時\"",
-                          "start": 336,
-                          "end": 348
+                          "type": "TemplateLiteral",
+                          "quasis": [
+                            {
+                              "type": "TemplateElement",
+                              "value": {
+                                "raw": "-987",
+                                "cooked": "-987"
+                              },
+                              "tail": false,
+                              "start": 708,
+                              "end": 712
+                            },
+                            {
+                              "type": "TemplateElement",
+                              "value": {
+                                "raw": "公里/小時",
+                                "cooked": "公里/小時"
+                              },
+                              "tail": true,
+                              "start": 730,
+                              "end": 735
+                            }
+                          ],
+                          "expressions": [
+                            {
+                              "type": "MemberExpression",
+                              "object": {
+                                "type": "Identifier",
+                                "name": "shortSep",
+                                "start": 714,
+                                "end": 722
+                              },
+                              "property": {
+                                "type": "Identifier",
+                                "name": "suffix",
+                                "start": 723,
+                                "end": 729
+                              },
+                              "optional": false,
+                              "computed": false,
+                              "start": 714,
+                              "end": 729
+                            }
+                          ],
+                          "start": 707,
+                          "end": 736
                         },
                         "method": false,
                         "shorthand": false,
                         "computed": false,
-                        "start": 327,
-                        "end": 348
+                        "start": 698,
+                        "end": 736
                       },
                       {
                         "type": "Property",
@@ -66,21 +248,62 @@
                           "type": "Literal",
                           "value": "narrow",
                           "raw": "\"narrow\"",
-                          "start": 356,
-                          "end": 364
+                          "start": 744,
+                          "end": 752
                         },
                         "value": {
-                          "type": "Literal",
-                          "value": "-987公里/小時",
-                          "raw": "\"-987公里/小時\"",
-                          "start": 366,
-                          "end": 377
+                          "type": "TemplateLiteral",
+                          "quasis": [
+                            {
+                              "type": "TemplateElement",
+                              "value": {
+                                "raw": "-987",
+                                "cooked": "-987"
+                              },
+                              "tail": false,
+                              "start": 755,
+                              "end": 759
+                            },
+                            {
+                              "type": "TemplateElement",
+                              "value": {
+                                "raw": "公里/小時",
+                                "cooked": "公里/小時"
+                              },
+                              "tail": true,
+                              "start": 778,
+                              "end": 783
+                            }
+                          ],
+                          "expressions": [
+                            {
+                              "type": "MemberExpression",
+                              "object": {
+                                "type": "Identifier",
+                                "name": "narrowSep",
+                                "start": 761,
+                                "end": 770
+                              },
+                              "property": {
+                                "type": "Identifier",
+                                "name": "suffix",
+                                "start": 771,
+                                "end": 777
+                              },
+                              "optional": false,
+                              "computed": false,
+                              "start": 761,
+                              "end": 777
+                            }
+                          ],
+                          "start": 754,
+                          "end": 784
                         },
                         "method": false,
                         "shorthand": false,
                         "computed": false,
-                        "start": 356,
-                        "end": 377
+                        "start": 744,
+                        "end": 784
                       },
                       {
                         "type": "Property",
@@ -89,29 +312,99 @@
                           "type": "Literal",
                           "value": "long",
                           "raw": "\"long\"",
-                          "start": 385,
-                          "end": 391
+                          "start": 792,
+                          "end": 798
                         },
                         "value": {
-                          "type": "Literal",
-                          "value": "每小時 -987 公里",
-                          "raw": "\"每小時 -987 公里\"",
-                          "start": 393,
-                          "end": 406
+                          "type": "TemplateLiteral",
+                          "quasis": [
+                            {
+                              "type": "TemplateElement",
+                              "value": {
+                                "raw": "每小時",
+                                "cooked": "每小時"
+                              },
+                              "tail": false,
+                              "start": 801,
+                              "end": 804
+                            },
+                            {
+                              "type": "TemplateElement",
+                              "value": {
+                                "raw": "-987",
+                                "cooked": "-987"
+                              },
+                              "tail": false,
+                              "start": 821,
+                              "end": 825
+                            },
+                            {
+                              "type": "TemplateElement",
+                              "value": {
+                                "raw": "公里",
+                                "cooked": "公里"
+                              },
+                              "tail": true,
+                              "start": 842,
+                              "end": 844
+                            }
+                          ],
+                          "expressions": [
+                            {
+                              "type": "MemberExpression",
+                              "object": {
+                                "type": "Identifier",
+                                "name": "longSep",
+                                "start": 806,
+                                "end": 813
+                              },
+                              "property": {
+                                "type": "Identifier",
+                                "name": "prefix",
+                                "start": 814,
+                                "end": 820
+                              },
+                              "optional": false,
+                              "computed": false,
+                              "start": 806,
+                              "end": 820
+                            },
+                            {
+                              "type": "MemberExpression",
+                              "object": {
+                                "type": "Identifier",
+                                "name": "longSep",
+                                "start": 827,
+                                "end": 834
+                              },
+                              "property": {
+                                "type": "Identifier",
+                                "name": "suffix",
+                                "start": 835,
+                                "end": 841
+                              },
+                              "optional": false,
+                              "computed": false,
+                              "start": 827,
+                              "end": 841
+                            }
+                          ],
+                          "start": 800,
+                          "end": 845
                         },
                         "method": false,
                         "shorthand": false,
                         "computed": false,
-                        "start": 385,
-                        "end": 406
+                        "start": 792,
+                        "end": 845
                       }
                     ],
-                    "start": 319,
-                    "end": 413
+                    "start": 690,
+                    "end": 852
                   }
                 ],
-                "start": 303,
-                "end": 417
+                "start": 674,
+                "end": 856
               },
               {
                 "type": "ArrayExpression",
@@ -123,12 +416,12 @@
                       "type": "Literal",
                       "value": 0.001,
                       "raw": "0.001",
-                      "start": 428,
-                      "end": 433
+                      "start": 867,
+                      "end": 872
                     },
                     "prefix": true,
-                    "start": 427,
-                    "end": 433
+                    "start": 866,
+                    "end": 872
                   },
                   {
                     "type": "ObjectExpression",
@@ -140,21 +433,62 @@
                           "type": "Literal",
                           "value": "short",
                           "raw": "\"short\"",
-                          "start": 447,
-                          "end": 454
+                          "start": 886,
+                          "end": 893
                         },
                         "value": {
-                          "type": "Literal",
-                          "value": "-0.001 公里/小時",
-                          "raw": "\"-0.001 公里/小時\"",
-                          "start": 456,
-                          "end": 470
+                          "type": "TemplateLiteral",
+                          "quasis": [
+                            {
+                              "type": "TemplateElement",
+                              "value": {
+                                "raw": "-0.001",
+                                "cooked": "-0.001"
+                              },
+                              "tail": false,
+                              "start": 896,
+                              "end": 902
+                            },
+                            {
+                              "type": "TemplateElement",
+                              "value": {
+                                "raw": "公里/小時",
+                                "cooked": "公里/小時"
+                              },
+                              "tail": true,
+                              "start": 920,
+                              "end": 925
+                            }
+                          ],
+                          "expressions": [
+                            {
+                              "type": "MemberExpression",
+                              "object": {
+                                "type": "Identifier",
+                                "name": "shortSep",
+                                "start": 904,
+                                "end": 912
+                              },
+                              "property": {
+                                "type": "Identifier",
+                                "name": "suffix",
+                                "start": 913,
+                                "end": 919
+                              },
+                              "optional": false,
+                              "computed": false,
+                              "start": 904,
+                              "end": 919
+                            }
+                          ],
+                          "start": 895,
+                          "end": 926
                         },
                         "method": false,
                         "shorthand": false,
                         "computed": false,
-                        "start": 447,
-                        "end": 470
+                        "start": 886,
+                        "end": 926
                       },
                       {
                         "type": "Property",
@@ -163,21 +497,62 @@
                           "type": "Literal",
                           "value": "narrow",
                           "raw": "\"narrow\"",
-                          "start": 478,
-                          "end": 486
+                          "start": 934,
+                          "end": 942
                         },
                         "value": {
-                          "type": "Literal",
-                          "value": "-0.001公里/小時",
-                          "raw": "\"-0.001公里/小時\"",
-                          "start": 488,
-                          "end": 501
+                          "type": "TemplateLiteral",
+                          "quasis": [
+                            {
+                              "type": "TemplateElement",
+                              "value": {
+                                "raw": "-0.001",
+                                "cooked": "-0.001"
+                              },
+                              "tail": false,
+                              "start": 945,
+                              "end": 951
+                            },
+                            {
+                              "type": "TemplateElement",
+                              "value": {
+                                "raw": "公里/小時",
+                                "cooked": "公里/小時"
+                              },
+                              "tail": true,
+                              "start": 970,
+                              "end": 975
+                            }
+                          ],
+                          "expressions": [
+                            {
+                              "type": "MemberExpression",
+                              "object": {
+                                "type": "Identifier",
+                                "name": "narrowSep",
+                                "start": 953,
+                                "end": 962
+                              },
+                              "property": {
+                                "type": "Identifier",
+                                "name": "suffix",
+                                "start": 963,
+                                "end": 969
+                              },
+                              "optional": false,
+                              "computed": false,
+                              "start": 953,
+                              "end": 969
+                            }
+                          ],
+                          "start": 944,
+                          "end": 976
                         },
                         "method": false,
                         "shorthand": false,
                         "computed": false,
-                        "start": 478,
-                        "end": 501
+                        "start": 934,
+                        "end": 976
                       },
                       {
                         "type": "Property",
@@ -186,29 +561,99 @@
                           "type": "Literal",
                           "value": "long",
                           "raw": "\"long\"",
-                          "start": 509,
-                          "end": 515
+                          "start": 984,
+                          "end": 990
                         },
                         "value": {
-                          "type": "Literal",
-                          "value": "每小時 -0.001 公里",
-                          "raw": "\"每小時 -0.001 公里\"",
-                          "start": 517,
-                          "end": 532
+                          "type": "TemplateLiteral",
+                          "quasis": [
+                            {
+                              "type": "TemplateElement",
+                              "value": {
+                                "raw": "每小時",
+                                "cooked": "每小時"
+                              },
+                              "tail": false,
+                              "start": 993,
+                              "end": 996
+                            },
+                            {
+                              "type": "TemplateElement",
+                              "value": {
+                                "raw": "-0.001",
+                                "cooked": "-0.001"
+                              },
+                              "tail": false,
+                              "start": 1013,
+                              "end": 1019
+                            },
+                            {
+                              "type": "TemplateElement",
+                              "value": {
+                                "raw": "公里",
+                                "cooked": "公里"
+                              },
+                              "tail": true,
+                              "start": 1036,
+                              "end": 1038
+                            }
+                          ],
+                          "expressions": [
+                            {
+                              "type": "MemberExpression",
+                              "object": {
+                                "type": "Identifier",
+                                "name": "longSep",
+                                "start": 998,
+                                "end": 1005
+                              },
+                              "property": {
+                                "type": "Identifier",
+                                "name": "prefix",
+                                "start": 1006,
+                                "end": 1012
+                              },
+                              "optional": false,
+                              "computed": false,
+                              "start": 998,
+                              "end": 1012
+                            },
+                            {
+                              "type": "MemberExpression",
+                              "object": {
+                                "type": "Identifier",
+                                "name": "longSep",
+                                "start": 1021,
+                                "end": 1028
+                              },
+                              "property": {
+                                "type": "Identifier",
+                                "name": "suffix",
+                                "start": 1029,
+                                "end": 1035
+                              },
+                              "optional": false,
+                              "computed": false,
+                              "start": 1021,
+                              "end": 1035
+                            }
+                          ],
+                          "start": 992,
+                          "end": 1039
                         },
                         "method": false,
                         "shorthand": false,
                         "computed": false,
-                        "start": 509,
-                        "end": 532
+                        "start": 984,
+                        "end": 1039
                       }
                     ],
-                    "start": 439,
-                    "end": 539
+                    "start": 878,
+                    "end": 1046
                   }
                 ],
-                "start": 421,
-                "end": 543
+                "start": 860,
+                "end": 1050
               },
               {
                 "type": "ArrayExpression",
@@ -220,12 +665,12 @@
                       "type": "Literal",
                       "value": 0,
                       "raw": "0",
-                      "start": 554,
-                      "end": 555
+                      "start": 1061,
+                      "end": 1062
                     },
                     "prefix": true,
-                    "start": 553,
-                    "end": 555
+                    "start": 1060,
+                    "end": 1062
                   },
                   {
                     "type": "ObjectExpression",
@@ -237,21 +682,62 @@
                           "type": "Literal",
                           "value": "short",
                           "raw": "\"short\"",
-                          "start": 569,
-                          "end": 576
+                          "start": 1076,
+                          "end": 1083
                         },
                         "value": {
-                          "type": "Literal",
-                          "value": "-0 公里/小時",
-                          "raw": "\"-0 公里/小時\"",
-                          "start": 578,
-                          "end": 588
+                          "type": "TemplateLiteral",
+                          "quasis": [
+                            {
+                              "type": "TemplateElement",
+                              "value": {
+                                "raw": "-0",
+                                "cooked": "-0"
+                              },
+                              "tail": false,
+                              "start": 1086,
+                              "end": 1088
+                            },
+                            {
+                              "type": "TemplateElement",
+                              "value": {
+                                "raw": "公里/小時",
+                                "cooked": "公里/小時"
+                              },
+                              "tail": true,
+                              "start": 1106,
+                              "end": 1111
+                            }
+                          ],
+                          "expressions": [
+                            {
+                              "type": "MemberExpression",
+                              "object": {
+                                "type": "Identifier",
+                                "name": "shortSep",
+                                "start": 1090,
+                                "end": 1098
+                              },
+                              "property": {
+                                "type": "Identifier",
+                                "name": "suffix",
+                                "start": 1099,
+                                "end": 1105
+                              },
+                              "optional": false,
+                              "computed": false,
+                              "start": 1090,
+                              "end": 1105
+                            }
+                          ],
+                          "start": 1085,
+                          "end": 1112
                         },
                         "method": false,
                         "shorthand": false,
                         "computed": false,
-                        "start": 569,
-                        "end": 588
+                        "start": 1076,
+                        "end": 1112
                       },
                       {
                         "type": "Property",
@@ -260,21 +746,62 @@
                           "type": "Literal",
                           "value": "narrow",
                           "raw": "\"narrow\"",
-                          "start": 596,
-                          "end": 604
+                          "start": 1120,
+                          "end": 1128
                         },
                         "value": {
-                          "type": "Literal",
-                          "value": "-0公里/小時",
-                          "raw": "\"-0公里/小時\"",
-                          "start": 606,
-                          "end": 615
+                          "type": "TemplateLiteral",
+                          "quasis": [
+                            {
+                              "type": "TemplateElement",
+                              "value": {
+                                "raw": "-0",
+                                "cooked": "-0"
+                              },
+                              "tail": false,
+                              "start": 1131,
+                              "end": 1133
+                            },
+                            {
+                              "type": "TemplateElement",
+                              "value": {
+                                "raw": "公里/小時",
+                                "cooked": "公里/小時"
+                              },
+                              "tail": true,
+                              "start": 1152,
+                              "end": 1157
+                            }
+                          ],
+                          "expressions": [
+                            {
+                              "type": "MemberExpression",
+                              "object": {
+                                "type": "Identifier",
+                                "name": "narrowSep",
+                                "start": 1135,
+                                "end": 1144
+                              },
+                              "property": {
+                                "type": "Identifier",
+                                "name": "suffix",
+                                "start": 1145,
+                                "end": 1151
+                              },
+                              "optional": false,
+                              "computed": false,
+                              "start": 1135,
+                              "end": 1151
+                            }
+                          ],
+                          "start": 1130,
+                          "end": 1158
                         },
                         "method": false,
                         "shorthand": false,
                         "computed": false,
-                        "start": 596,
-                        "end": 615
+                        "start": 1120,
+                        "end": 1158
                       },
                       {
                         "type": "Property",
@@ -283,29 +810,99 @@
                           "type": "Literal",
                           "value": "long",
                           "raw": "\"long\"",
-                          "start": 623,
-                          "end": 629
+                          "start": 1166,
+                          "end": 1172
                         },
                         "value": {
-                          "type": "Literal",
-                          "value": "每小時 -0 公里",
-                          "raw": "\"每小時 -0 公里\"",
-                          "start": 631,
-                          "end": 642
+                          "type": "TemplateLiteral",
+                          "quasis": [
+                            {
+                              "type": "TemplateElement",
+                              "value": {
+                                "raw": "每小時",
+                                "cooked": "每小時"
+                              },
+                              "tail": false,
+                              "start": 1175,
+                              "end": 1178
+                            },
+                            {
+                              "type": "TemplateElement",
+                              "value": {
+                                "raw": "-0",
+                                "cooked": "-0"
+                              },
+                              "tail": false,
+                              "start": 1195,
+                              "end": 1197
+                            },
+                            {
+                              "type": "TemplateElement",
+                              "value": {
+                                "raw": "公里",
+                                "cooked": "公里"
+                              },
+                              "tail": true,
+                              "start": 1214,
+                              "end": 1216
+                            }
+                          ],
+                          "expressions": [
+                            {
+                              "type": "MemberExpression",
+                              "object": {
+                                "type": "Identifier",
+                                "name": "longSep",
+                                "start": 1180,
+                                "end": 1187
+                              },
+                              "property": {
+                                "type": "Identifier",
+                                "name": "prefix",
+                                "start": 1188,
+                                "end": 1194
+                              },
+                              "optional": false,
+                              "computed": false,
+                              "start": 1180,
+                              "end": 1194
+                            },
+                            {
+                              "type": "MemberExpression",
+                              "object": {
+                                "type": "Identifier",
+                                "name": "longSep",
+                                "start": 1199,
+                                "end": 1206
+                              },
+                              "property": {
+                                "type": "Identifier",
+                                "name": "suffix",
+                                "start": 1207,
+                                "end": 1213
+                              },
+                              "optional": false,
+                              "computed": false,
+                              "start": 1199,
+                              "end": 1213
+                            }
+                          ],
+                          "start": 1174,
+                          "end": 1217
                         },
                         "method": false,
                         "shorthand": false,
                         "computed": false,
-                        "start": 623,
-                        "end": 642
+                        "start": 1166,
+                        "end": 1217
                       }
                     ],
-                    "start": 561,
-                    "end": 649
+                    "start": 1068,
+                    "end": 1224
                   }
                 ],
-                "start": 547,
-                "end": 653
+                "start": 1054,
+                "end": 1228
               },
               {
                 "type": "ArrayExpression",
@@ -314,8 +911,8 @@
                     "type": "Literal",
                     "value": 0,
                     "raw": "0",
-                    "start": 663,
-                    "end": 664
+                    "start": 1238,
+                    "end": 1239
                   },
                   {
                     "type": "ObjectExpression",
@@ -327,21 +924,62 @@
                           "type": "Literal",
                           "value": "short",
                           "raw": "\"short\"",
-                          "start": 678,
-                          "end": 685
+                          "start": 1253,
+                          "end": 1260
                         },
                         "value": {
-                          "type": "Literal",
-                          "value": "0 公里/小時",
-                          "raw": "\"0 公里/小時\"",
-                          "start": 687,
-                          "end": 696
+                          "type": "TemplateLiteral",
+                          "quasis": [
+                            {
+                              "type": "TemplateElement",
+                              "value": {
+                                "raw": "0",
+                                "cooked": "0"
+                              },
+                              "tail": false,
+                              "start": 1263,
+                              "end": 1264
+                            },
+                            {
+                              "type": "TemplateElement",
+                              "value": {
+                                "raw": "公里/小時",
+                                "cooked": "公里/小時"
+                              },
+                              "tail": true,
+                              "start": 1282,
+                              "end": 1287
+                            }
+                          ],
+                          "expressions": [
+                            {
+                              "type": "MemberExpression",
+                              "object": {
+                                "type": "Identifier",
+                                "name": "shortSep",
+                                "start": 1266,
+                                "end": 1274
+                              },
+                              "property": {
+                                "type": "Identifier",
+                                "name": "suffix",
+                                "start": 1275,
+                                "end": 1281
+                              },
+                              "optional": false,
+                              "computed": false,
+                              "start": 1266,
+                              "end": 1281
+                            }
+                          ],
+                          "start": 1262,
+                          "end": 1288
                         },
                         "method": false,
                         "shorthand": false,
                         "computed": false,
-                        "start": 678,
-                        "end": 696
+                        "start": 1253,
+                        "end": 1288
                       },
                       {
                         "type": "Property",
@@ -350,21 +988,62 @@
                           "type": "Literal",
                           "value": "narrow",
                           "raw": "\"narrow\"",
-                          "start": 704,
-                          "end": 712
+                          "start": 1296,
+                          "end": 1304
                         },
                         "value": {
-                          "type": "Literal",
-                          "value": "0公里/小時",
-                          "raw": "\"0公里/小時\"",
-                          "start": 714,
-                          "end": 722
+                          "type": "TemplateLiteral",
+                          "quasis": [
+                            {
+                              "type": "TemplateElement",
+                              "value": {
+                                "raw": "0",
+                                "cooked": "0"
+                              },
+                              "tail": false,
+                              "start": 1307,
+                              "end": 1308
+                            },
+                            {
+                              "type": "TemplateElement",
+                              "value": {
+                                "raw": "公里/小時",
+                                "cooked": "公里/小時"
+                              },
+                              "tail": true,
+                              "start": 1327,
+                              "end": 1332
+                            }
+                          ],
+                          "expressions": [
+                            {
+                              "type": "MemberExpression",
+                              "object": {
+                                "type": "Identifier",
+                                "name": "narrowSep",
+                                "start": 1310,
+                                "end": 1319
+                              },
+                              "property": {
+                                "type": "Identifier",
+                                "name": "suffix",
+                                "start": 1320,
+                                "end": 1326
+                              },
+                              "optional": false,
+                              "computed": false,
+                              "start": 1310,
+                              "end": 1326
+                            }
+                          ],
+                          "start": 1306,
+                          "end": 1333
                         },
                         "method": false,
                         "shorthand": false,
                         "computed": false,
-                        "start": 704,
-                        "end": 722
+                        "start": 1296,
+                        "end": 1333
                       },
                       {
                         "type": "Property",
@@ -373,29 +1052,99 @@
                           "type": "Literal",
                           "value": "long",
                           "raw": "\"long\"",
-                          "start": 730,
-                          "end": 736
+                          "start": 1341,
+                          "end": 1347
                         },
                         "value": {
-                          "type": "Literal",
-                          "value": "每小時 0 公里",
-                          "raw": "\"每小時 0 公里\"",
-                          "start": 738,
-                          "end": 748
+                          "type": "TemplateLiteral",
+                          "quasis": [
+                            {
+                              "type": "TemplateElement",
+                              "value": {
+                                "raw": "每小時",
+                                "cooked": "每小時"
+                              },
+                              "tail": false,
+                              "start": 1350,
+                              "end": 1353
+                            },
+                            {
+                              "type": "TemplateElement",
+                              "value": {
+                                "raw": "0",
+                                "cooked": "0"
+                              },
+                              "tail": false,
+                              "start": 1370,
+                              "end": 1371
+                            },
+                            {
+                              "type": "TemplateElement",
+                              "value": {
+                                "raw": "公里",
+                                "cooked": "公里"
+                              },
+                              "tail": true,
+                              "start": 1388,
+                              "end": 1390
+                            }
+                          ],
+                          "expressions": [
+                            {
+                              "type": "MemberExpression",
+                              "object": {
+                                "type": "Identifier",
+                                "name": "longSep",
+                                "start": 1355,
+                                "end": 1362
+                              },
+                              "property": {
+                                "type": "Identifier",
+                                "name": "prefix",
+                                "start": 1363,
+                                "end": 1369
+                              },
+                              "optional": false,
+                              "computed": false,
+                              "start": 1355,
+                              "end": 1369
+                            },
+                            {
+                              "type": "MemberExpression",
+                              "object": {
+                                "type": "Identifier",
+                                "name": "longSep",
+                                "start": 1373,
+                                "end": 1380
+                              },
+                              "property": {
+                                "type": "Identifier",
+                                "name": "suffix",
+                                "start": 1381,
+                                "end": 1387
+                              },
+                              "optional": false,
+                              "computed": false,
+                              "start": 1373,
+                              "end": 1387
+                            }
+                          ],
+                          "start": 1349,
+                          "end": 1391
                         },
                         "method": false,
                         "shorthand": false,
                         "computed": false,
-                        "start": 730,
-                        "end": 748
+                        "start": 1341,
+                        "end": 1391
                       }
                     ],
-                    "start": 670,
-                    "end": 755
+                    "start": 1245,
+                    "end": 1398
                   }
                 ],
-                "start": 657,
-                "end": 759
+                "start": 1232,
+                "end": 1402
               },
               {
                 "type": "ArrayExpression",
@@ -404,8 +1153,8 @@
                     "type": "Literal",
                     "value": 0.001,
                     "raw": "0.001",
-                    "start": 769,
-                    "end": 774
+                    "start": 1412,
+                    "end": 1417
                   },
                   {
                     "type": "ObjectExpression",
@@ -417,21 +1166,62 @@
                           "type": "Literal",
                           "value": "short",
                           "raw": "\"short\"",
-                          "start": 788,
-                          "end": 795
+                          "start": 1431,
+                          "end": 1438
                         },
                         "value": {
-                          "type": "Literal",
-                          "value": "0.001 公里/小時",
-                          "raw": "\"0.001 公里/小時\"",
-                          "start": 797,
-                          "end": 810
+                          "type": "TemplateLiteral",
+                          "quasis": [
+                            {
+                              "type": "TemplateElement",
+                              "value": {
+                                "raw": "0.001",
+                                "cooked": "0.001"
+                              },
+                              "tail": false,
+                              "start": 1441,
+                              "end": 1446
+                            },
+                            {
+                              "type": "TemplateElement",
+                              "value": {
+                                "raw": "公里/小時",
+                                "cooked": "公里/小時"
+                              },
+                              "tail": true,
+                              "start": 1464,
+                              "end": 1469
+                            }
+                          ],
+                          "expressions": [
+                            {
+                              "type": "MemberExpression",
+                              "object": {
+                                "type": "Identifier",
+                                "name": "shortSep",
+                                "start": 1448,
+                                "end": 1456
+                              },
+                              "property": {
+                                "type": "Identifier",
+                                "name": "suffix",
+                                "start": 1457,
+                                "end": 1463
+                              },
+                              "optional": false,
+                              "computed": false,
+                              "start": 1448,
+                              "end": 1463
+                            }
+                          ],
+                          "start": 1440,
+                          "end": 1470
                         },
                         "method": false,
                         "shorthand": false,
                         "computed": false,
-                        "start": 788,
-                        "end": 810
+                        "start": 1431,
+                        "end": 1470
                       },
                       {
                         "type": "Property",
@@ -440,21 +1230,62 @@
                           "type": "Literal",
                           "value": "narrow",
                           "raw": "\"narrow\"",
-                          "start": 818,
-                          "end": 826
+                          "start": 1478,
+                          "end": 1486
                         },
                         "value": {
-                          "type": "Literal",
-                          "value": "0.001公里/小時",
-                          "raw": "\"0.001公里/小時\"",
-                          "start": 828,
-                          "end": 840
+                          "type": "TemplateLiteral",
+                          "quasis": [
+                            {
+                              "type": "TemplateElement",
+                              "value": {
+                                "raw": "0.001",
+                                "cooked": "0.001"
+                              },
+                              "tail": false,
+                              "start": 1489,
+                              "end": 1494
+                            },
+                            {
+                              "type": "TemplateElement",
+                              "value": {
+                                "raw": "公里/小時",
+                                "cooked": "公里/小時"
+                              },
+                              "tail": true,
+                              "start": 1513,
+                              "end": 1518
+                            }
+                          ],
+                          "expressions": [
+                            {
+                              "type": "MemberExpression",
+                              "object": {
+                                "type": "Identifier",
+                                "name": "narrowSep",
+                                "start": 1496,
+                                "end": 1505
+                              },
+                              "property": {
+                                "type": "Identifier",
+                                "name": "suffix",
+                                "start": 1506,
+                                "end": 1512
+                              },
+                              "optional": false,
+                              "computed": false,
+                              "start": 1496,
+                              "end": 1512
+                            }
+                          ],
+                          "start": 1488,
+                          "end": 1519
                         },
                         "method": false,
                         "shorthand": false,
                         "computed": false,
-                        "start": 818,
-                        "end": 840
+                        "start": 1478,
+                        "end": 1519
                       },
                       {
                         "type": "Property",
@@ -463,29 +1294,99 @@
                           "type": "Literal",
                           "value": "long",
                           "raw": "\"long\"",
-                          "start": 848,
-                          "end": 854
+                          "start": 1527,
+                          "end": 1533
                         },
                         "value": {
-                          "type": "Literal",
-                          "value": "每小時 0.001 公里",
-                          "raw": "\"每小時 0.001 公里\"",
-                          "start": 856,
-                          "end": 870
+                          "type": "TemplateLiteral",
+                          "quasis": [
+                            {
+                              "type": "TemplateElement",
+                              "value": {
+                                "raw": "每小時",
+                                "cooked": "每小時"
+                              },
+                              "tail": false,
+                              "start": 1536,
+                              "end": 1539
+                            },
+                            {
+                              "type": "TemplateElement",
+                              "value": {
+                                "raw": "0.001",
+                                "cooked": "0.001"
+                              },
+                              "tail": false,
+                              "start": 1556,
+                              "end": 1561
+                            },
+                            {
+                              "type": "TemplateElement",
+                              "value": {
+                                "raw": "公里",
+                                "cooked": "公里"
+                              },
+                              "tail": true,
+                              "start": 1578,
+                              "end": 1580
+                            }
+                          ],
+                          "expressions": [
+                            {
+                              "type": "MemberExpression",
+                              "object": {
+                                "type": "Identifier",
+                                "name": "longSep",
+                                "start": 1541,
+                                "end": 1548
+                              },
+                              "property": {
+                                "type": "Identifier",
+                                "name": "prefix",
+                                "start": 1549,
+                                "end": 1555
+                              },
+                              "optional": false,
+                              "computed": false,
+                              "start": 1541,
+                              "end": 1555
+                            },
+                            {
+                              "type": "MemberExpression",
+                              "object": {
+                                "type": "Identifier",
+                                "name": "longSep",
+                                "start": 1563,
+                                "end": 1570
+                              },
+                              "property": {
+                                "type": "Identifier",
+                                "name": "suffix",
+                                "start": 1571,
+                                "end": 1577
+                              },
+                              "optional": false,
+                              "computed": false,
+                              "start": 1563,
+                              "end": 1577
+                            }
+                          ],
+                          "start": 1535,
+                          "end": 1581
                         },
                         "method": false,
                         "shorthand": false,
                         "computed": false,
-                        "start": 848,
-                        "end": 870
+                        "start": 1527,
+                        "end": 1581
                       }
                     ],
-                    "start": 780,
-                    "end": 877
+                    "start": 1423,
+                    "end": 1588
                   }
                 ],
-                "start": 763,
-                "end": 881
+                "start": 1406,
+                "end": 1592
               },
               {
                 "type": "ArrayExpression",
@@ -494,8 +1395,8 @@
                     "type": "Literal",
                     "value": 987,
                     "raw": "987",
-                    "start": 891,
-                    "end": 894
+                    "start": 1602,
+                    "end": 1605
                   },
                   {
                     "type": "ObjectExpression",
@@ -507,21 +1408,62 @@
                           "type": "Literal",
                           "value": "short",
                           "raw": "\"short\"",
-                          "start": 908,
-                          "end": 915
+                          "start": 1619,
+                          "end": 1626
                         },
                         "value": {
-                          "type": "Literal",
-                          "value": "987 公里/小時",
-                          "raw": "\"987 公里/小時\"",
-                          "start": 917,
-                          "end": 928
+                          "type": "TemplateLiteral",
+                          "quasis": [
+                            {
+                              "type": "TemplateElement",
+                              "value": {
+                                "raw": "987",
+                                "cooked": "987"
+                              },
+                              "tail": false,
+                              "start": 1629,
+                              "end": 1632
+                            },
+                            {
+                              "type": "TemplateElement",
+                              "value": {
+                                "raw": "公里/小時",
+                                "cooked": "公里/小時"
+                              },
+                              "tail": true,
+                              "start": 1650,
+                              "end": 1655
+                            }
+                          ],
+                          "expressions": [
+                            {
+                              "type": "MemberExpression",
+                              "object": {
+                                "type": "Identifier",
+                                "name": "shortSep",
+                                "start": 1634,
+                                "end": 1642
+                              },
+                              "property": {
+                                "type": "Identifier",
+                                "name": "suffix",
+                                "start": 1643,
+                                "end": 1649
+                              },
+                              "optional": false,
+                              "computed": false,
+                              "start": 1634,
+                              "end": 1649
+                            }
+                          ],
+                          "start": 1628,
+                          "end": 1656
                         },
                         "method": false,
                         "shorthand": false,
                         "computed": false,
-                        "start": 908,
-                        "end": 928
+                        "start": 1619,
+                        "end": 1656
                       },
                       {
                         "type": "Property",
@@ -530,21 +1472,62 @@
                           "type": "Literal",
                           "value": "narrow",
                           "raw": "\"narrow\"",
-                          "start": 936,
-                          "end": 944
+                          "start": 1664,
+                          "end": 1672
                         },
                         "value": {
-                          "type": "Literal",
-                          "value": "987公里/小時",
-                          "raw": "\"987公里/小時\"",
-                          "start": 946,
-                          "end": 956
+                          "type": "TemplateLiteral",
+                          "quasis": [
+                            {
+                              "type": "TemplateElement",
+                              "value": {
+                                "raw": "987",
+                                "cooked": "987"
+                              },
+                              "tail": false,
+                              "start": 1675,
+                              "end": 1678
+                            },
+                            {
+                              "type": "TemplateElement",
+                              "value": {
+                                "raw": "公里/小時",
+                                "cooked": "公里/小時"
+                              },
+                              "tail": true,
+                              "start": 1697,
+                              "end": 1702
+                            }
+                          ],
+                          "expressions": [
+                            {
+                              "type": "MemberExpression",
+                              "object": {
+                                "type": "Identifier",
+                                "name": "narrowSep",
+                                "start": 1680,
+                                "end": 1689
+                              },
+                              "property": {
+                                "type": "Identifier",
+                                "name": "suffix",
+                                "start": 1690,
+                                "end": 1696
+                              },
+                              "optional": false,
+                              "computed": false,
+                              "start": 1680,
+                              "end": 1696
+                            }
+                          ],
+                          "start": 1674,
+                          "end": 1703
                         },
                         "method": false,
                         "shorthand": false,
                         "computed": false,
-                        "start": 936,
-                        "end": 956
+                        "start": 1664,
+                        "end": 1703
                       },
                       {
                         "type": "Property",
@@ -553,40 +1536,110 @@
                           "type": "Literal",
                           "value": "long",
                           "raw": "\"long\"",
-                          "start": 964,
-                          "end": 970
+                          "start": 1711,
+                          "end": 1717
                         },
                         "value": {
-                          "type": "Literal",
-                          "value": "每小時 987 公里",
-                          "raw": "\"每小時 987 公里\"",
-                          "start": 972,
-                          "end": 984
+                          "type": "TemplateLiteral",
+                          "quasis": [
+                            {
+                              "type": "TemplateElement",
+                              "value": {
+                                "raw": "每小時",
+                                "cooked": "每小時"
+                              },
+                              "tail": false,
+                              "start": 1720,
+                              "end": 1723
+                            },
+                            {
+                              "type": "TemplateElement",
+                              "value": {
+                                "raw": "987",
+                                "cooked": "987"
+                              },
+                              "tail": false,
+                              "start": 1740,
+                              "end": 1743
+                            },
+                            {
+                              "type": "TemplateElement",
+                              "value": {
+                                "raw": "公里",
+                                "cooked": "公里"
+                              },
+                              "tail": true,
+                              "start": 1760,
+                              "end": 1762
+                            }
+                          ],
+                          "expressions": [
+                            {
+                              "type": "MemberExpression",
+                              "object": {
+                                "type": "Identifier",
+                                "name": "longSep",
+                                "start": 1725,
+                                "end": 1732
+                              },
+                              "property": {
+                                "type": "Identifier",
+                                "name": "prefix",
+                                "start": 1733,
+                                "end": 1739
+                              },
+                              "optional": false,
+                              "computed": false,
+                              "start": 1725,
+                              "end": 1739
+                            },
+                            {
+                              "type": "MemberExpression",
+                              "object": {
+                                "type": "Identifier",
+                                "name": "longSep",
+                                "start": 1745,
+                                "end": 1752
+                              },
+                              "property": {
+                                "type": "Identifier",
+                                "name": "suffix",
+                                "start": 1753,
+                                "end": 1759
+                              },
+                              "optional": false,
+                              "computed": false,
+                              "start": 1745,
+                              "end": 1759
+                            }
+                          ],
+                          "start": 1719,
+                          "end": 1763
                         },
                         "method": false,
                         "shorthand": false,
                         "computed": false,
-                        "start": 964,
-                        "end": 984
+                        "start": 1711,
+                        "end": 1763
                       }
                     ],
-                    "start": 900,
-                    "end": 991
+                    "start": 1611,
+                    "end": 1770
                   }
                 ],
-                "start": 885,
-                "end": 995
+                "start": 1596,
+                "end": 1774
               }
             ],
-            "start": 299,
-            "end": 998
+            "start": 670,
+            "end": 1777
           },
-          "start": 291,
-          "end": 998
+          "start": 662,
+          "end": 1777
         }
       ],
-      "start": 285,
-      "end": 999
+      "start": 656,
+      "end": 1778
     },
     {
       "type": "ForOfStatement",
@@ -603,32 +1656,32 @@
                 {
                   "type": "Identifier",
                   "name": "number",
-                  "start": 1013,
-                  "end": 1019
+                  "start": 1792,
+                  "end": 1798
                 },
                 {
                   "type": "Identifier",
                   "name": "expectedData",
-                  "start": 1021,
-                  "end": 1033
+                  "start": 1800,
+                  "end": 1812
                 }
               ],
-              "start": 1012,
-              "end": 1034
+              "start": 1791,
+              "end": 1813
             },
             "init": null,
-            "start": 1012,
-            "end": 1034
+            "start": 1791,
+            "end": 1813
           }
         ],
-        "start": 1006,
-        "end": 1034
+        "start": 1785,
+        "end": 1813
       },
       "right": {
         "type": "Identifier",
         "name": "tests",
-        "start": 1038,
-        "end": 1043
+        "start": 1817,
+        "end": 1822
       },
       "body": {
         "type": "BlockStatement",
@@ -648,26 +1701,26 @@
                       {
                         "type": "Identifier",
                         "name": "unitDisplay",
-                        "start": 1061,
-                        "end": 1072
+                        "start": 1840,
+                        "end": 1851
                       },
                       {
                         "type": "Identifier",
                         "name": "expected",
-                        "start": 1074,
-                        "end": 1082
+                        "start": 1853,
+                        "end": 1861
                       }
                     ],
-                    "start": 1060,
-                    "end": 1083
+                    "start": 1839,
+                    "end": 1862
                   },
                   "init": null,
-                  "start": 1060,
-                  "end": 1083
+                  "start": 1839,
+                  "end": 1862
                 }
               ],
-              "start": 1054,
-              "end": 1083
+              "start": 1833,
+              "end": 1862
             },
             "right": {
               "type": "CallExpression",
@@ -676,31 +1729,31 @@
                 "object": {
                   "type": "Identifier",
                   "name": "Object",
-                  "start": 1087,
-                  "end": 1093
+                  "start": 1866,
+                  "end": 1872
                 },
                 "property": {
                   "type": "Identifier",
                   "name": "entries",
-                  "start": 1094,
-                  "end": 1101
+                  "start": 1873,
+                  "end": 1880
                 },
                 "optional": false,
                 "computed": false,
-                "start": 1087,
-                "end": 1101
+                "start": 1866,
+                "end": 1880
               },
               "arguments": [
                 {
                   "type": "Identifier",
                   "name": "expectedData",
-                  "start": 1102,
-                  "end": 1114
+                  "start": 1881,
+                  "end": 1893
                 }
               ],
               "optional": false,
-              "start": 1087,
-              "end": 1115
+              "start": 1866,
+              "end": 1894
             },
             "body": {
               "type": "BlockStatement",
@@ -714,8 +1767,8 @@
                       "id": {
                         "type": "Identifier",
                         "name": "nf",
-                        "start": 1129,
-                        "end": 1131
+                        "start": 1908,
+                        "end": 1910
                       },
                       "init": {
                         "type": "NewExpression",
@@ -724,27 +1777,27 @@
                           "object": {
                             "type": "Identifier",
                             "name": "Intl",
-                            "start": 1138,
-                            "end": 1142
+                            "start": 1917,
+                            "end": 1921
                           },
                           "property": {
                             "type": "Identifier",
                             "name": "NumberFormat",
-                            "start": 1143,
-                            "end": 1155
+                            "start": 1922,
+                            "end": 1934
                           },
                           "optional": false,
                           "computed": false,
-                          "start": 1138,
-                          "end": 1155
+                          "start": 1917,
+                          "end": 1934
                         },
                         "arguments": [
                           {
                             "type": "Literal",
                             "value": "zh-TW",
                             "raw": "\"zh-TW\"",
-                            "start": 1156,
-                            "end": 1163
+                            "start": 1935,
+                            "end": 1942
                           },
                           {
                             "type": "ObjectExpression",
@@ -755,21 +1808,21 @@
                                 "key": {
                                   "type": "Identifier",
                                   "name": "style",
-                                  "start": 1167,
-                                  "end": 1172
+                                  "start": 1946,
+                                  "end": 1951
                                 },
                                 "value": {
                                   "type": "Literal",
                                   "value": "unit",
                                   "raw": "\"unit\"",
-                                  "start": 1174,
-                                  "end": 1180
+                                  "start": 1953,
+                                  "end": 1959
                                 },
                                 "method": false,
                                 "shorthand": false,
                                 "computed": false,
-                                "start": 1167,
-                                "end": 1180
+                                "start": 1946,
+                                "end": 1959
                               },
                               {
                                 "type": "Property",
@@ -777,21 +1830,21 @@
                                 "key": {
                                   "type": "Identifier",
                                   "name": "unit",
-                                  "start": 1182,
-                                  "end": 1186
+                                  "start": 1961,
+                                  "end": 1965
                                 },
                                 "value": {
                                   "type": "Literal",
                                   "value": "kilometer-per-hour",
                                   "raw": "\"kilometer-per-hour\"",
-                                  "start": 1188,
-                                  "end": 1208
+                                  "start": 1967,
+                                  "end": 1987
                                 },
                                 "method": false,
                                 "shorthand": false,
                                 "computed": false,
-                                "start": 1182,
-                                "end": 1208
+                                "start": 1961,
+                                "end": 1987
                               },
                               {
                                 "type": "Property",
@@ -799,35 +1852,35 @@
                                 "key": {
                                   "type": "Identifier",
                                   "name": "unitDisplay",
-                                  "start": 1210,
-                                  "end": 1221
+                                  "start": 1989,
+                                  "end": 2000
                                 },
                                 "value": {
                                   "type": "Identifier",
                                   "name": "unitDisplay",
-                                  "start": 1210,
-                                  "end": 1221
+                                  "start": 1989,
+                                  "end": 2000
                                 },
                                 "method": false,
                                 "shorthand": true,
                                 "computed": false,
-                                "start": 1210,
-                                "end": 1221
+                                "start": 1989,
+                                "end": 2000
                               }
                             ],
-                            "start": 1165,
-                            "end": 1223
+                            "start": 1944,
+                            "end": 2002
                           }
                         ],
-                        "start": 1134,
-                        "end": 1224
+                        "start": 1913,
+                        "end": 2003
                       },
-                      "start": 1129,
-                      "end": 1224
+                      "start": 1908,
+                      "end": 2003
                     }
                   ],
-                  "start": 1123,
-                  "end": 1225
+                  "start": 1902,
+                  "end": 2004
                 },
                 {
                   "type": "ExpressionStatement",
@@ -838,19 +1891,19 @@
                       "object": {
                         "type": "Identifier",
                         "name": "assert",
-                        "start": 1230,
-                        "end": 1236
+                        "start": 2009,
+                        "end": 2015
                       },
                       "property": {
                         "type": "Identifier",
                         "name": "sameValue",
-                        "start": 1237,
-                        "end": 1246
+                        "start": 2016,
+                        "end": 2025
                       },
                       "optional": false,
                       "computed": false,
-                      "start": 1230,
-                      "end": 1246
+                      "start": 2009,
+                      "end": 2025
                     },
                     "arguments": [
                       {
@@ -860,63 +1913,63 @@
                           "object": {
                             "type": "Identifier",
                             "name": "nf",
-                            "start": 1247,
-                            "end": 1249
+                            "start": 2026,
+                            "end": 2028
                           },
                           "property": {
                             "type": "Identifier",
                             "name": "format",
-                            "start": 1250,
-                            "end": 1256
+                            "start": 2029,
+                            "end": 2035
                           },
                           "optional": false,
                           "computed": false,
-                          "start": 1247,
-                          "end": 1256
+                          "start": 2026,
+                          "end": 2035
                         },
                         "arguments": [
                           {
                             "type": "Identifier",
                             "name": "number",
-                            "start": 1257,
-                            "end": 1263
+                            "start": 2036,
+                            "end": 2042
                           }
                         ],
                         "optional": false,
-                        "start": 1247,
-                        "end": 1264
+                        "start": 2026,
+                        "end": 2043
                       },
                       {
                         "type": "Identifier",
                         "name": "expected",
-                        "start": 1266,
-                        "end": 1274
+                        "start": 2045,
+                        "end": 2053
                       }
                     ],
                     "optional": false,
-                    "start": 1230,
-                    "end": 1275
+                    "start": 2009,
+                    "end": 2054
                   },
-                  "start": 1230,
-                  "end": 1276
+                  "start": 2009,
+                  "end": 2055
                 }
               ],
-              "start": 1117,
-              "end": 1280
+              "start": 1896,
+              "end": 2059
             },
-            "start": 1049,
-            "end": 1280
+            "start": 1828,
+            "end": 2059
           }
         ],
-        "start": 1045,
-        "end": 1282
+        "start": 1824,
+        "end": 2061
       },
-      "start": 1001,
-      "end": 1282
+      "start": 1780,
+      "end": 2061
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 1284
+  "end": 2062
 }
