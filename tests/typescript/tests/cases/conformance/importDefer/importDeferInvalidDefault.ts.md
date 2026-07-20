@@ -216,7 +216,7 @@ __ESTREE_TEST__:AST:
         "start": 22,
         "end": 27
       },
-      "phase": null,
+      "phase": "defer",
       "attributes": [],
       "importKind": "value",
       "start": 0,

@@ -1,0 +1,651 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "FunctionDeclaration",
+      "id": {
+        "type": "Identifier",
+        "name": "findSuitableTestData",
+        "start": 1772,
+        "end": 1792
+      },
+      "generator": false,
+      "async": false,
+      "params": [],
+      "body": {
+        "type": "BlockStatement",
+        "body": [
+          {
+            "type": "VariableDeclaration",
+            "kind": "const",
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "id": {
+                  "type": "Identifier",
+                  "name": "candidates",
+                  "start": 1805,
+                  "end": 1815
+                },
+                "init": {
+                  "type": "ArrayExpression",
+                  "elements": [
+                    {
+                      "type": "ArrayExpression",
+                      "elements": [
+                        {
+                          "type": "Literal",
+                          "value": "en-US-u-rg-gbzzzz",
+                          "raw": "\"en-US-u-rg-gbzzzz\"",
+                          "start": 1825,
+                          "end": 1844
+                        },
+                        {
+                          "type": "Literal",
+                          "value": "en-GB",
+                          "raw": "\"en-GB\"",
+                          "start": 1846,
+                          "end": 1853
+                        }
+                      ],
+                      "start": 1824,
+                      "end": 1854
+                    },
+                    {
+                      "type": "ArrayExpression",
+                      "elements": [
+                        {
+                          "type": "Literal",
+                          "value": "en-US-u-rg-dezzzz",
+                          "raw": "\"en-US-u-rg-dezzzz\"",
+                          "start": 1861,
+                          "end": 1880
+                        },
+                        {
+                          "type": "Literal",
+                          "value": "en-DE",
+                          "raw": "\"en-DE\"",
+                          "start": 1882,
+                          "end": 1889
+                        }
+                      ],
+                      "start": 1860,
+                      "end": 1890
+                    },
+                    {
+                      "type": "ArrayExpression",
+                      "elements": [
+                        {
+                          "type": "Literal",
+                          "value": "en-US-u-rg-frzzzz",
+                          "raw": "\"en-US-u-rg-frzzzz\"",
+                          "start": 1897,
+                          "end": 1916
+                        },
+                        {
+                          "type": "Literal",
+                          "value": "en-FR",
+                          "raw": "\"en-FR\"",
+                          "start": 1918,
+                          "end": 1925
+                        }
+                      ],
+                      "start": 1896,
+                      "end": 1926
+                    }
+                  ],
+                  "start": 1818,
+                  "end": 1931
+                },
+                "start": 1805,
+                "end": 1931
+              }
+            ],
+            "start": 1799,
+            "end": 1932
+          },
+          {
+            "type": "ForOfStatement",
+            "await": false,
+            "left": {
+              "type": "VariableDeclaration",
+              "kind": "const",
+              "declarations": [
+                {
+                  "type": "VariableDeclarator",
+                  "id": {
+                    "type": "ArrayPattern",
+                    "elements": [
+                      {
+                        "type": "Identifier",
+                        "name": "overrideTag",
+                        "start": 1948,
+                        "end": 1959
+                      },
+                      {
+                        "type": "Identifier",
+                        "name": "regionTag",
+                        "start": 1961,
+                        "end": 1970
+                      }
+                    ],
+                    "start": 1947,
+                    "end": 1971
+                  },
+                  "init": null,
+                  "start": 1947,
+                  "end": 1971
+                }
+              ],
+              "start": 1941,
+              "end": 1971
+            },
+            "right": {
+              "type": "Identifier",
+              "name": "candidates",
+              "start": 1975,
+              "end": 1985
+            },
+            "body": {
+              "type": "BlockStatement",
+              "body": [
+                {
+                  "type": "VariableDeclaration",
+                  "kind": "const",
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "id": {
+                        "type": "Identifier",
+                        "name": "hourCyclesWithOverrideRegion",
+                        "start": 1999,
+                        "end": 2027
+                      },
+                      "init": {
+                        "type": "CallExpression",
+                        "callee": {
+                          "type": "MemberExpression",
+                          "object": {
+                            "type": "NewExpression",
+                            "callee": {
+                              "type": "MemberExpression",
+                              "object": {
+                                "type": "Identifier",
+                                "name": "Intl",
+                                "start": 2034,
+                                "end": 2038
+                              },
+                              "property": {
+                                "type": "Identifier",
+                                "name": "Locale",
+                                "start": 2039,
+                                "end": 2045
+                              },
+                              "optional": false,
+                              "computed": false,
+                              "start": 2034,
+                              "end": 2045
+                            },
+                            "arguments": [
+                              {
+                                "type": "Identifier",
+                                "name": "regionTag",
+                                "start": 2046,
+                                "end": 2055
+                              }
+                            ],
+                            "start": 2030,
+                            "end": 2056
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "name": "getHourCycles",
+                            "start": 2057,
+                            "end": 2070
+                          },
+                          "optional": false,
+                          "computed": false,
+                          "start": 2030,
+                          "end": 2070
+                        },
+                        "arguments": [],
+                        "optional": false,
+                        "start": 2030,
+                        "end": 2072
+                      },
+                      "start": 1999,
+                      "end": 2072
+                    }
+                  ],
+                  "start": 1993,
+                  "end": 2073
+                },
+                {
+                  "type": "VariableDeclaration",
+                  "kind": "const",
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "id": {
+                        "type": "Identifier",
+                        "name": "withoutOverride",
+                        "start": 2085,
+                        "end": 2100
+                      },
+                      "init": {
+                        "type": "NewExpression",
+                        "callee": {
+                          "type": "MemberExpression",
+                          "object": {
+                            "type": "Identifier",
+                            "name": "Intl",
+                            "start": 2107,
+                            "end": 2111
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "name": "Locale",
+                            "start": 2112,
+                            "end": 2118
+                          },
+                          "optional": false,
+                          "computed": false,
+                          "start": 2107,
+                          "end": 2118
+                        },
+                        "arguments": [
+                          {
+                            "type": "MemberExpression",
+                            "object": {
+                              "type": "NewExpression",
+                              "callee": {
+                                "type": "MemberExpression",
+                                "object": {
+                                  "type": "Identifier",
+                                  "name": "Intl",
+                                  "start": 2123,
+                                  "end": 2127
+                                },
+                                "property": {
+                                  "type": "Identifier",
+                                  "name": "Locale",
+                                  "start": 2128,
+                                  "end": 2134
+                                },
+                                "optional": false,
+                                "computed": false,
+                                "start": 2123,
+                                "end": 2134
+                              },
+                              "arguments": [
+                                {
+                                  "type": "Identifier",
+                                  "name": "overrideTag",
+                                  "start": 2135,
+                                  "end": 2146
+                                }
+                              ],
+                              "start": 2119,
+                              "end": 2147
+                            },
+                            "property": {
+                              "type": "Identifier",
+                              "name": "baseName",
+                              "start": 2148,
+                              "end": 2156
+                            },
+                            "optional": false,
+                            "computed": false,
+                            "start": 2119,
+                            "end": 2156
+                          }
+                        ],
+                        "start": 2103,
+                        "end": 2157
+                      },
+                      "start": 2085,
+                      "end": 2157
+                    }
+                  ],
+                  "start": 2079,
+                  "end": 2158
+                },
+                {
+                  "type": "IfStatement",
+                  "test": {
+                    "type": "UnaryExpression",
+                    "operator": "!",
+                    "argument": {
+                      "type": "CallExpression",
+                      "callee": {
+                        "type": "Identifier",
+                        "name": "compareArray",
+                        "start": 2168,
+                        "end": 2180
+                      },
+                      "arguments": [
+                        {
+                          "type": "CallExpression",
+                          "callee": {
+                            "type": "MemberExpression",
+                            "object": {
+                              "type": "Identifier",
+                              "name": "withoutOverride",
+                              "start": 2181,
+                              "end": 2196
+                            },
+                            "property": {
+                              "type": "Identifier",
+                              "name": "getHourCycles",
+                              "start": 2197,
+                              "end": 2210
+                            },
+                            "optional": false,
+                            "computed": false,
+                            "start": 2181,
+                            "end": 2210
+                          },
+                          "arguments": [],
+                          "optional": false,
+                          "start": 2181,
+                          "end": 2212
+                        },
+                        {
+                          "type": "Identifier",
+                          "name": "hourCyclesWithOverrideRegion",
+                          "start": 2214,
+                          "end": 2242
+                        }
+                      ],
+                      "optional": false,
+                      "start": 2168,
+                      "end": 2243
+                    },
+                    "prefix": true,
+                    "start": 2167,
+                    "end": 2243
+                  },
+                  "consequent": {
+                    "type": "BlockStatement",
+                    "body": [
+                      {
+                        "type": "ReturnStatement",
+                        "argument": {
+                          "type": "ArrayExpression",
+                          "elements": [
+                            {
+                              "type": "Identifier",
+                              "name": "overrideTag",
+                              "start": 2261,
+                              "end": 2272
+                            },
+                            {
+                              "type": "Identifier",
+                              "name": "hourCyclesWithOverrideRegion",
+                              "start": 2274,
+                              "end": 2302
+                            }
+                          ],
+                          "start": 2260,
+                          "end": 2303
+                        },
+                        "start": 2253,
+                        "end": 2304
+                      }
+                    ],
+                    "start": 2245,
+                    "end": 2310
+                  },
+                  "alternate": null,
+                  "start": 2163,
+                  "end": 2310
+                }
+              ],
+              "start": 1987,
+              "end": 2314
+            },
+            "start": 1936,
+            "end": 2314
+          },
+          {
+            "type": "ExpressionStatement",
+            "expression": {
+              "type": "CallExpression",
+              "callee": {
+                "type": "Identifier",
+                "name": "assert",
+                "start": 2318,
+                "end": 2324
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "value": false,
+                  "raw": "false",
+                  "start": 2325,
+                  "end": 2330
+                },
+                {
+                  "type": "Literal",
+                  "value": "No suitable test data found in this implementation. Consider updating the candidate list",
+                  "raw": "\"No suitable test data found in this implementation. Consider updating the candidate list\"",
+                  "start": 2332,
+                  "end": 2422
+                }
+              ],
+              "optional": false,
+              "start": 2318,
+              "end": 2423
+            },
+            "start": 2318,
+            "end": 2424
+          }
+        ],
+        "start": 1795,
+        "end": 2426
+      },
+      "expression": false,
+      "start": 1763,
+      "end": 2426
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "ArrayPattern",
+            "elements": [
+              {
+                "type": "Identifier",
+                "name": "overrideTag",
+                "start": 2435,
+                "end": 2446
+              },
+              {
+                "type": "Identifier",
+                "name": "expectedHourCycles",
+                "start": 2448,
+                "end": 2466
+              }
+            ],
+            "start": 2434,
+            "end": 2467
+          },
+          "init": {
+            "type": "CallExpression",
+            "callee": {
+              "type": "Identifier",
+              "name": "findSuitableTestData",
+              "start": 2470,
+              "end": 2490
+            },
+            "arguments": [],
+            "optional": false,
+            "start": 2470,
+            "end": 2492
+          },
+          "start": 2434,
+          "end": 2492
+        }
+      ],
+      "start": 2428,
+      "end": 2493
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "locale",
+            "start": 2501,
+            "end": 2507
+          },
+          "init": {
+            "type": "NewExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "Intl",
+                "start": 2514,
+                "end": 2518
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "Locale",
+                "start": 2519,
+                "end": 2525
+              },
+              "optional": false,
+              "computed": false,
+              "start": 2514,
+              "end": 2525
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "name": "overrideTag",
+                "start": 2526,
+                "end": 2537
+              }
+            ],
+            "start": 2510,
+            "end": 2538
+          },
+          "start": 2501,
+          "end": 2538
+        }
+      ],
+      "start": 2495,
+      "end": 2539
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 2540,
+            "end": 2546
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "compareArray",
+            "start": 2547,
+            "end": 2559
+          },
+          "optional": false,
+          "computed": false,
+          "start": 2540,
+          "end": 2559
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "locale",
+                "start": 2563,
+                "end": 2569
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "getHourCycles",
+                "start": 2570,
+                "end": 2583
+              },
+              "optional": false,
+              "computed": false,
+              "start": 2563,
+              "end": 2583
+            },
+            "arguments": [],
+            "optional": false,
+            "start": 2563,
+            "end": 2585
+          },
+          {
+            "type": "Identifier",
+            "name": "expectedHourCycles",
+            "start": 2589,
+            "end": 2607
+          },
+          {
+            "type": "TemplateLiteral",
+            "quasis": [
+              {
+                "type": "TemplateElement",
+                "value": {
+                  "raw": "getHourCycles() for \"",
+                  "cooked": "getHourCycles() for \""
+                },
+                "tail": false,
+                "start": 2612,
+                "end": 2633
+              },
+              {
+                "type": "TemplateElement",
+                "value": {
+                  "raw": "\" should equal getHourCycles() for the override region",
+                  "cooked": "\" should equal getHourCycles() for the override region"
+                },
+                "tail": true,
+                "start": 2647,
+                "end": 2701
+              }
+            ],
+            "expressions": [
+              {
+                "type": "Identifier",
+                "name": "overrideTag",
+                "start": 2635,
+                "end": 2646
+              }
+            ],
+            "start": 2611,
+            "end": 2702
+          }
+        ],
+        "optional": false,
+        "start": 2540,
+        "end": 2704
+      },
+      "start": 2540,
+      "end": 2705
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 2706
+}
