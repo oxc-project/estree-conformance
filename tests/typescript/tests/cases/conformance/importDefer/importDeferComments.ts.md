@@ -79,7 +79,7 @@ __ESTREE_TEST__:AST:
         "start": 69,
         "end": 72
       },
-      "phase": null,
+      "phase": "defer",
       "attributes": [],
       "importKind": "value",
       "start": 6,

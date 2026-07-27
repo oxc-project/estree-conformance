@@ -1,0 +1,717 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "FunctionDeclaration",
+      "id": {
+        "type": "Identifier",
+        "name": "findSuitableTestData",
+        "start": 1620,
+        "end": 1640
+      },
+      "generator": false,
+      "async": false,
+      "params": [],
+      "body": {
+        "type": "BlockStatement",
+        "body": [
+          {
+            "type": "VariableDeclaration",
+            "kind": "const",
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "id": {
+                  "type": "Identifier",
+                  "name": "candidates",
+                  "start": 1653,
+                  "end": 1663
+                },
+                "init": {
+                  "type": "ArrayExpression",
+                  "elements": [
+                    {
+                      "type": "ArrayExpression",
+                      "elements": [
+                        {
+                          "type": "Literal",
+                          "value": "en-u-sd-th10",
+                          "raw": "\"en-u-sd-th10\"",
+                          "start": 1673,
+                          "end": 1687
+                        },
+                        {
+                          "type": "Literal",
+                          "value": "en-TH",
+                          "raw": "\"en-TH\"",
+                          "start": 1689,
+                          "end": 1696
+                        }
+                      ],
+                      "start": 1672,
+                      "end": 1697
+                    },
+                    {
+                      "type": "ArrayExpression",
+                      "elements": [
+                        {
+                          "type": "Literal",
+                          "value": "en-u-sd-jp13",
+                          "raw": "\"en-u-sd-jp13\"",
+                          "start": 1704,
+                          "end": 1718
+                        },
+                        {
+                          "type": "Literal",
+                          "value": "en-JP",
+                          "raw": "\"en-JP\"",
+                          "start": 1720,
+                          "end": 1727
+                        }
+                      ],
+                      "start": 1703,
+                      "end": 1728
+                    },
+                    {
+                      "type": "ArrayExpression",
+                      "elements": [
+                        {
+                          "type": "Literal",
+                          "value": "en-u-sd-inka",
+                          "raw": "\"en-u-sd-inka\"",
+                          "start": 1735,
+                          "end": 1749
+                        },
+                        {
+                          "type": "Literal",
+                          "value": "en-IN",
+                          "raw": "\"en-IN\"",
+                          "start": 1751,
+                          "end": 1758
+                        }
+                      ],
+                      "start": 1734,
+                      "end": 1759
+                    },
+                    {
+                      "type": "ArrayExpression",
+                      "elements": [
+                        {
+                          "type": "Literal",
+                          "value": "en-u-sd-irthr",
+                          "raw": "\"en-u-sd-irthr\"",
+                          "start": 1766,
+                          "end": 1781
+                        },
+                        {
+                          "type": "Literal",
+                          "value": "en-IR",
+                          "raw": "\"en-IR\"",
+                          "start": 1783,
+                          "end": 1790
+                        }
+                      ],
+                      "start": 1765,
+                      "end": 1791
+                    }
+                  ],
+                  "start": 1666,
+                  "end": 1796
+                },
+                "start": 1653,
+                "end": 1796
+              }
+            ],
+            "start": 1647,
+            "end": 1797
+          },
+          {
+            "type": "ForOfStatement",
+            "await": false,
+            "left": {
+              "type": "VariableDeclaration",
+              "kind": "const",
+              "declarations": [
+                {
+                  "type": "VariableDeclarator",
+                  "id": {
+                    "type": "ArrayPattern",
+                    "elements": [
+                      {
+                        "type": "Identifier",
+                        "name": "subdivisionTag",
+                        "start": 1813,
+                        "end": 1827
+                      },
+                      {
+                        "type": "Identifier",
+                        "name": "regionTag",
+                        "start": 1829,
+                        "end": 1838
+                      }
+                    ],
+                    "start": 1812,
+                    "end": 1839
+                  },
+                  "init": null,
+                  "start": 1812,
+                  "end": 1839
+                }
+              ],
+              "start": 1806,
+              "end": 1839
+            },
+            "right": {
+              "type": "Identifier",
+              "name": "candidates",
+              "start": 1843,
+              "end": 1853
+            },
+            "body": {
+              "type": "BlockStatement",
+              "body": [
+                {
+                  "type": "VariableDeclaration",
+                  "kind": "const",
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "id": {
+                        "type": "Identifier",
+                        "name": "calendarsWithSubdivisionRegion",
+                        "start": 1867,
+                        "end": 1897
+                      },
+                      "init": {
+                        "type": "CallExpression",
+                        "callee": {
+                          "type": "MemberExpression",
+                          "object": {
+                            "type": "NewExpression",
+                            "callee": {
+                              "type": "MemberExpression",
+                              "object": {
+                                "type": "Identifier",
+                                "name": "Intl",
+                                "start": 1904,
+                                "end": 1908
+                              },
+                              "property": {
+                                "type": "Identifier",
+                                "name": "Locale",
+                                "start": 1909,
+                                "end": 1915
+                              },
+                              "optional": false,
+                              "computed": false,
+                              "start": 1904,
+                              "end": 1915
+                            },
+                            "arguments": [
+                              {
+                                "type": "Identifier",
+                                "name": "regionTag",
+                                "start": 1916,
+                                "end": 1925
+                              }
+                            ],
+                            "start": 1900,
+                            "end": 1926
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "name": "getCalendars",
+                            "start": 1927,
+                            "end": 1939
+                          },
+                          "optional": false,
+                          "computed": false,
+                          "start": 1900,
+                          "end": 1939
+                        },
+                        "arguments": [],
+                        "optional": false,
+                        "start": 1900,
+                        "end": 1941
+                      },
+                      "start": 1867,
+                      "end": 1941
+                    }
+                  ],
+                  "start": 1861,
+                  "end": 1942
+                },
+                {
+                  "type": "VariableDeclaration",
+                  "kind": "const",
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "id": {
+                        "type": "Identifier",
+                        "name": "bareLanguage",
+                        "start": 1954,
+                        "end": 1966
+                      },
+                      "init": {
+                        "type": "MemberExpression",
+                        "object": {
+                          "type": "NewExpression",
+                          "callee": {
+                            "type": "MemberExpression",
+                            "object": {
+                              "type": "Identifier",
+                              "name": "Intl",
+                              "start": 1973,
+                              "end": 1977
+                            },
+                            "property": {
+                              "type": "Identifier",
+                              "name": "Locale",
+                              "start": 1978,
+                              "end": 1984
+                            },
+                            "optional": false,
+                            "computed": false,
+                            "start": 1973,
+                            "end": 1984
+                          },
+                          "arguments": [
+                            {
+                              "type": "Identifier",
+                              "name": "subdivisionTag",
+                              "start": 1985,
+                              "end": 1999
+                            }
+                          ],
+                          "start": 1969,
+                          "end": 2000
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "name": "baseName",
+                          "start": 2001,
+                          "end": 2009
+                        },
+                        "optional": false,
+                        "computed": false,
+                        "start": 1969,
+                        "end": 2009
+                      },
+                      "start": 1954,
+                      "end": 2009
+                    }
+                  ],
+                  "start": 1948,
+                  "end": 2010
+                },
+                {
+                  "type": "VariableDeclaration",
+                  "kind": "const",
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "id": {
+                        "type": "Identifier",
+                        "name": "fallbackLocale",
+                        "start": 2021,
+                        "end": 2035
+                      },
+                      "init": {
+                        "type": "CallExpression",
+                        "callee": {
+                          "type": "MemberExpression",
+                          "object": {
+                            "type": "NewExpression",
+                            "callee": {
+                              "type": "MemberExpression",
+                              "object": {
+                                "type": "Identifier",
+                                "name": "Intl",
+                                "start": 2042,
+                                "end": 2046
+                              },
+                              "property": {
+                                "type": "Identifier",
+                                "name": "Locale",
+                                "start": 2047,
+                                "end": 2053
+                              },
+                              "optional": false,
+                              "computed": false,
+                              "start": 2042,
+                              "end": 2053
+                            },
+                            "arguments": [
+                              {
+                                "type": "Identifier",
+                                "name": "bareLanguage",
+                                "start": 2054,
+                                "end": 2066
+                              }
+                            ],
+                            "start": 2038,
+                            "end": 2067
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "name": "maximize",
+                            "start": 2068,
+                            "end": 2076
+                          },
+                          "optional": false,
+                          "computed": false,
+                          "start": 2038,
+                          "end": 2076
+                        },
+                        "arguments": [],
+                        "optional": false,
+                        "start": 2038,
+                        "end": 2078
+                      },
+                      "start": 2021,
+                      "end": 2078
+                    }
+                  ],
+                  "start": 2015,
+                  "end": 2079
+                },
+                {
+                  "type": "IfStatement",
+                  "test": {
+                    "type": "UnaryExpression",
+                    "operator": "!",
+                    "argument": {
+                      "type": "CallExpression",
+                      "callee": {
+                        "type": "Identifier",
+                        "name": "compareArray",
+                        "start": 2089,
+                        "end": 2101
+                      },
+                      "arguments": [
+                        {
+                          "type": "CallExpression",
+                          "callee": {
+                            "type": "MemberExpression",
+                            "object": {
+                              "type": "Identifier",
+                              "name": "fallbackLocale",
+                              "start": 2102,
+                              "end": 2116
+                            },
+                            "property": {
+                              "type": "Identifier",
+                              "name": "getCalendars",
+                              "start": 2117,
+                              "end": 2129
+                            },
+                            "optional": false,
+                            "computed": false,
+                            "start": 2102,
+                            "end": 2129
+                          },
+                          "arguments": [],
+                          "optional": false,
+                          "start": 2102,
+                          "end": 2131
+                        },
+                        {
+                          "type": "Identifier",
+                          "name": "calendarsWithSubdivisionRegion",
+                          "start": 2133,
+                          "end": 2163
+                        }
+                      ],
+                      "optional": false,
+                      "start": 2089,
+                      "end": 2164
+                    },
+                    "prefix": true,
+                    "start": 2088,
+                    "end": 2164
+                  },
+                  "consequent": {
+                    "type": "BlockStatement",
+                    "body": [
+                      {
+                        "type": "ReturnStatement",
+                        "argument": {
+                          "type": "ArrayExpression",
+                          "elements": [
+                            {
+                              "type": "Identifier",
+                              "name": "subdivisionTag",
+                              "start": 2182,
+                              "end": 2196
+                            },
+                            {
+                              "type": "Identifier",
+                              "name": "calendarsWithSubdivisionRegion",
+                              "start": 2198,
+                              "end": 2228
+                            }
+                          ],
+                          "start": 2181,
+                          "end": 2229
+                        },
+                        "start": 2174,
+                        "end": 2230
+                      }
+                    ],
+                    "start": 2166,
+                    "end": 2236
+                  },
+                  "alternate": null,
+                  "start": 2084,
+                  "end": 2236
+                }
+              ],
+              "start": 1855,
+              "end": 2240
+            },
+            "start": 1801,
+            "end": 2240
+          },
+          {
+            "type": "ExpressionStatement",
+            "expression": {
+              "type": "CallExpression",
+              "callee": {
+                "type": "Identifier",
+                "name": "assert",
+                "start": 2244,
+                "end": 2250
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "value": false,
+                  "raw": "false",
+                  "start": 2251,
+                  "end": 2256
+                },
+                {
+                  "type": "Literal",
+                  "value": "No suitable test data found in this implementation. Consider updating the candidate list",
+                  "raw": "\"No suitable test data found in this implementation. Consider updating the candidate list\"",
+                  "start": 2258,
+                  "end": 2348
+                }
+              ],
+              "optional": false,
+              "start": 2244,
+              "end": 2349
+            },
+            "start": 2244,
+            "end": 2350
+          }
+        ],
+        "start": 1643,
+        "end": 2352
+      },
+      "expression": false,
+      "start": 1611,
+      "end": 2352
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "ArrayPattern",
+            "elements": [
+              {
+                "type": "Identifier",
+                "name": "subdivisionTag",
+                "start": 2361,
+                "end": 2375
+              },
+              {
+                "type": "Identifier",
+                "name": "expectedCalendars",
+                "start": 2377,
+                "end": 2394
+              }
+            ],
+            "start": 2360,
+            "end": 2395
+          },
+          "init": {
+            "type": "CallExpression",
+            "callee": {
+              "type": "Identifier",
+              "name": "findSuitableTestData",
+              "start": 2398,
+              "end": 2418
+            },
+            "arguments": [],
+            "optional": false,
+            "start": 2398,
+            "end": 2420
+          },
+          "start": 2360,
+          "end": 2420
+        }
+      ],
+      "start": 2354,
+      "end": 2421
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "locale",
+            "start": 2429,
+            "end": 2435
+          },
+          "init": {
+            "type": "NewExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "Intl",
+                "start": 2442,
+                "end": 2446
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "Locale",
+                "start": 2447,
+                "end": 2453
+              },
+              "optional": false,
+              "computed": false,
+              "start": 2442,
+              "end": 2453
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "name": "subdivisionTag",
+                "start": 2454,
+                "end": 2468
+              }
+            ],
+            "start": 2438,
+            "end": 2469
+          },
+          "start": 2429,
+          "end": 2469
+        }
+      ],
+      "start": 2423,
+      "end": 2470
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 2471,
+            "end": 2477
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "compareArray",
+            "start": 2478,
+            "end": 2490
+          },
+          "optional": false,
+          "computed": false,
+          "start": 2471,
+          "end": 2490
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "locale",
+                "start": 2494,
+                "end": 2500
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "getCalendars",
+                "start": 2501,
+                "end": 2513
+              },
+              "optional": false,
+              "computed": false,
+              "start": 2494,
+              "end": 2513
+            },
+            "arguments": [],
+            "optional": false,
+            "start": 2494,
+            "end": 2515
+          },
+          {
+            "type": "Identifier",
+            "name": "expectedCalendars",
+            "start": 2519,
+            "end": 2536
+          },
+          {
+            "type": "TemplateLiteral",
+            "quasis": [
+              {
+                "type": "TemplateElement",
+                "value": {
+                  "raw": "getCalendars() for \"",
+                  "cooked": "getCalendars() for \""
+                },
+                "tail": false,
+                "start": 2541,
+                "end": 2561
+              },
+              {
+                "type": "TemplateElement",
+                "value": {
+                  "raw": "\" should equal getCalendars() for the subdivision's region",
+                  "cooked": "\" should equal getCalendars() for the subdivision's region"
+                },
+                "tail": true,
+                "start": 2578,
+                "end": 2636
+              }
+            ],
+            "expressions": [
+              {
+                "type": "Identifier",
+                "name": "subdivisionTag",
+                "start": 2563,
+                "end": 2577
+              }
+            ],
+            "start": 2540,
+            "end": 2637
+          }
+        ],
+        "optional": false,
+        "start": 2471,
+        "end": 2639
+      },
+      "start": 2471,
+      "end": 2640
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 2641
+}

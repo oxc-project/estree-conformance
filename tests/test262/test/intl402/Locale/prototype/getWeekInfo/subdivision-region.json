@@ -1,0 +1,994 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "FunctionDeclaration",
+      "id": {
+        "type": "Identifier",
+        "name": "weekInfoEqual",
+        "start": 1609,
+        "end": 1622
+      },
+      "generator": false,
+      "async": false,
+      "params": [
+        {
+          "type": "Identifier",
+          "name": "a",
+          "start": 1623,
+          "end": 1624
+        },
+        {
+          "type": "Identifier",
+          "name": "b",
+          "start": 1626,
+          "end": 1627
+        }
+      ],
+      "body": {
+        "type": "BlockStatement",
+        "body": [
+          {
+            "type": "ReturnStatement",
+            "argument": {
+              "type": "LogicalExpression",
+              "left": {
+                "type": "BinaryExpression",
+                "left": {
+                  "type": "MemberExpression",
+                  "object": {
+                    "type": "Identifier",
+                    "name": "a",
+                    "start": 1640,
+                    "end": 1641
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "name": "firstDay",
+                    "start": 1642,
+                    "end": 1650
+                  },
+                  "optional": false,
+                  "computed": false,
+                  "start": 1640,
+                  "end": 1650
+                },
+                "operator": "===",
+                "right": {
+                  "type": "MemberExpression",
+                  "object": {
+                    "type": "Identifier",
+                    "name": "b",
+                    "start": 1655,
+                    "end": 1656
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "name": "firstDay",
+                    "start": 1657,
+                    "end": 1665
+                  },
+                  "optional": false,
+                  "computed": false,
+                  "start": 1655,
+                  "end": 1665
+                },
+                "start": 1640,
+                "end": 1665
+              },
+              "operator": "&&",
+              "right": {
+                "type": "CallExpression",
+                "callee": {
+                  "type": "Identifier",
+                  "name": "compareArray",
+                  "start": 1669,
+                  "end": 1681
+                },
+                "arguments": [
+                  {
+                    "type": "MemberExpression",
+                    "object": {
+                      "type": "Identifier",
+                      "name": "a",
+                      "start": 1682,
+                      "end": 1683
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "name": "weekend",
+                      "start": 1684,
+                      "end": 1691
+                    },
+                    "optional": false,
+                    "computed": false,
+                    "start": 1682,
+                    "end": 1691
+                  },
+                  {
+                    "type": "MemberExpression",
+                    "object": {
+                      "type": "Identifier",
+                      "name": "b",
+                      "start": 1693,
+                      "end": 1694
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "name": "weekend",
+                      "start": 1695,
+                      "end": 1702
+                    },
+                    "optional": false,
+                    "computed": false,
+                    "start": 1693,
+                    "end": 1702
+                  }
+                ],
+                "optional": false,
+                "start": 1669,
+                "end": 1703
+              },
+              "start": 1640,
+              "end": 1703
+            },
+            "start": 1633,
+            "end": 1704
+          }
+        ],
+        "start": 1629,
+        "end": 1706
+      },
+      "expression": false,
+      "start": 1600,
+      "end": 1706
+    },
+    {
+      "type": "FunctionDeclaration",
+      "id": {
+        "type": "Identifier",
+        "name": "findSuitableTestData",
+        "start": 1717,
+        "end": 1737
+      },
+      "generator": false,
+      "async": false,
+      "params": [],
+      "body": {
+        "type": "BlockStatement",
+        "body": [
+          {
+            "type": "VariableDeclaration",
+            "kind": "const",
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "id": {
+                  "type": "Identifier",
+                  "name": "candidates",
+                  "start": 1750,
+                  "end": 1760
+                },
+                "init": {
+                  "type": "ArrayExpression",
+                  "elements": [
+                    {
+                      "type": "ArrayExpression",
+                      "elements": [
+                        {
+                          "type": "Literal",
+                          "value": "en-u-sd-inka",
+                          "raw": "\"en-u-sd-inka\"",
+                          "start": 1770,
+                          "end": 1784
+                        },
+                        {
+                          "type": "Literal",
+                          "value": "en-IN",
+                          "raw": "\"en-IN\"",
+                          "start": 1786,
+                          "end": 1793
+                        }
+                      ],
+                      "start": 1769,
+                      "end": 1794
+                    },
+                    {
+                      "type": "ArrayExpression",
+                      "elements": [
+                        {
+                          "type": "Literal",
+                          "value": "en-u-sd-irthr",
+                          "raw": "\"en-u-sd-irthr\"",
+                          "start": 1801,
+                          "end": 1816
+                        },
+                        {
+                          "type": "Literal",
+                          "value": "en-IR",
+                          "raw": "\"en-IR\"",
+                          "start": 1818,
+                          "end": 1825
+                        }
+                      ],
+                      "start": 1800,
+                      "end": 1826
+                    },
+                    {
+                      "type": "ArrayExpression",
+                      "elements": [
+                        {
+                          "type": "Literal",
+                          "value": "en-u-sd-afgh",
+                          "raw": "\"en-u-sd-afgh\"",
+                          "start": 1833,
+                          "end": 1847
+                        },
+                        {
+                          "type": "Literal",
+                          "value": "en-AF",
+                          "raw": "\"en-AF\"",
+                          "start": 1849,
+                          "end": 1856
+                        }
+                      ],
+                      "start": 1832,
+                      "end": 1857
+                    }
+                  ],
+                  "start": 1763,
+                  "end": 1862
+                },
+                "start": 1750,
+                "end": 1862
+              }
+            ],
+            "start": 1744,
+            "end": 1863
+          },
+          {
+            "type": "ForOfStatement",
+            "await": false,
+            "left": {
+              "type": "VariableDeclaration",
+              "kind": "const",
+              "declarations": [
+                {
+                  "type": "VariableDeclarator",
+                  "id": {
+                    "type": "ArrayPattern",
+                    "elements": [
+                      {
+                        "type": "Identifier",
+                        "name": "subdivisionTag",
+                        "start": 1879,
+                        "end": 1893
+                      },
+                      {
+                        "type": "Identifier",
+                        "name": "regionTag",
+                        "start": 1895,
+                        "end": 1904
+                      }
+                    ],
+                    "start": 1878,
+                    "end": 1905
+                  },
+                  "init": null,
+                  "start": 1878,
+                  "end": 1905
+                }
+              ],
+              "start": 1872,
+              "end": 1905
+            },
+            "right": {
+              "type": "Identifier",
+              "name": "candidates",
+              "start": 1909,
+              "end": 1919
+            },
+            "body": {
+              "type": "BlockStatement",
+              "body": [
+                {
+                  "type": "VariableDeclaration",
+                  "kind": "const",
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "id": {
+                        "type": "Identifier",
+                        "name": "weekInfoWithSubdivisionRegion",
+                        "start": 1933,
+                        "end": 1962
+                      },
+                      "init": {
+                        "type": "CallExpression",
+                        "callee": {
+                          "type": "MemberExpression",
+                          "object": {
+                            "type": "NewExpression",
+                            "callee": {
+                              "type": "MemberExpression",
+                              "object": {
+                                "type": "Identifier",
+                                "name": "Intl",
+                                "start": 1969,
+                                "end": 1973
+                              },
+                              "property": {
+                                "type": "Identifier",
+                                "name": "Locale",
+                                "start": 1974,
+                                "end": 1980
+                              },
+                              "optional": false,
+                              "computed": false,
+                              "start": 1969,
+                              "end": 1980
+                            },
+                            "arguments": [
+                              {
+                                "type": "Identifier",
+                                "name": "regionTag",
+                                "start": 1981,
+                                "end": 1990
+                              }
+                            ],
+                            "start": 1965,
+                            "end": 1991
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "name": "getWeekInfo",
+                            "start": 1992,
+                            "end": 2003
+                          },
+                          "optional": false,
+                          "computed": false,
+                          "start": 1965,
+                          "end": 2003
+                        },
+                        "arguments": [],
+                        "optional": false,
+                        "start": 1965,
+                        "end": 2005
+                      },
+                      "start": 1933,
+                      "end": 2005
+                    }
+                  ],
+                  "start": 1927,
+                  "end": 2006
+                },
+                {
+                  "type": "VariableDeclaration",
+                  "kind": "const",
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "id": {
+                        "type": "Identifier",
+                        "name": "baseName",
+                        "start": 2018,
+                        "end": 2026
+                      },
+                      "init": {
+                        "type": "CallExpression",
+                        "callee": {
+                          "type": "MemberExpression",
+                          "object": {
+                            "type": "Identifier",
+                            "name": "subdivisionTag",
+                            "start": 2029,
+                            "end": 2043
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "name": "replace",
+                            "start": 2044,
+                            "end": 2051
+                          },
+                          "optional": false,
+                          "computed": false,
+                          "start": 2029,
+                          "end": 2051
+                        },
+                        "arguments": [
+                          {
+                            "type": "Literal",
+                            "value": null,
+                            "raw": "/-u-.*/",
+                            "regex": {
+                              "pattern": "-u-.*",
+                              "flags": ""
+                            },
+                            "start": 2052,
+                            "end": 2059
+                          },
+                          {
+                            "type": "Literal",
+                            "value": "",
+                            "raw": "\"\"",
+                            "start": 2061,
+                            "end": 2063
+                          }
+                        ],
+                        "optional": false,
+                        "start": 2029,
+                        "end": 2064
+                      },
+                      "start": 2018,
+                      "end": 2064
+                    }
+                  ],
+                  "start": 2012,
+                  "end": 2065
+                },
+                {
+                  "type": "VariableDeclaration",
+                  "kind": "const",
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "id": {
+                        "type": "Identifier",
+                        "name": "fallbackLocale",
+                        "start": 2076,
+                        "end": 2090
+                      },
+                      "init": {
+                        "type": "CallExpression",
+                        "callee": {
+                          "type": "MemberExpression",
+                          "object": {
+                            "type": "NewExpression",
+                            "callee": {
+                              "type": "MemberExpression",
+                              "object": {
+                                "type": "Identifier",
+                                "name": "Intl",
+                                "start": 2097,
+                                "end": 2101
+                              },
+                              "property": {
+                                "type": "Identifier",
+                                "name": "Locale",
+                                "start": 2102,
+                                "end": 2108
+                              },
+                              "optional": false,
+                              "computed": false,
+                              "start": 2097,
+                              "end": 2108
+                            },
+                            "arguments": [
+                              {
+                                "type": "Identifier",
+                                "name": "baseName",
+                                "start": 2109,
+                                "end": 2117
+                              }
+                            ],
+                            "start": 2093,
+                            "end": 2118
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "name": "maximize",
+                            "start": 2119,
+                            "end": 2127
+                          },
+                          "optional": false,
+                          "computed": false,
+                          "start": 2093,
+                          "end": 2127
+                        },
+                        "arguments": [],
+                        "optional": false,
+                        "start": 2093,
+                        "end": 2129
+                      },
+                      "start": 2076,
+                      "end": 2129
+                    }
+                  ],
+                  "start": 2070,
+                  "end": 2130
+                },
+                {
+                  "type": "IfStatement",
+                  "test": {
+                    "type": "UnaryExpression",
+                    "operator": "!",
+                    "argument": {
+                      "type": "CallExpression",
+                      "callee": {
+                        "type": "Identifier",
+                        "name": "weekInfoEqual",
+                        "start": 2140,
+                        "end": 2153
+                      },
+                      "arguments": [
+                        {
+                          "type": "CallExpression",
+                          "callee": {
+                            "type": "MemberExpression",
+                            "object": {
+                              "type": "Identifier",
+                              "name": "fallbackLocale",
+                              "start": 2154,
+                              "end": 2168
+                            },
+                            "property": {
+                              "type": "Identifier",
+                              "name": "getWeekInfo",
+                              "start": 2169,
+                              "end": 2180
+                            },
+                            "optional": false,
+                            "computed": false,
+                            "start": 2154,
+                            "end": 2180
+                          },
+                          "arguments": [],
+                          "optional": false,
+                          "start": 2154,
+                          "end": 2182
+                        },
+                        {
+                          "type": "Identifier",
+                          "name": "weekInfoWithSubdivisionRegion",
+                          "start": 2184,
+                          "end": 2213
+                        }
+                      ],
+                      "optional": false,
+                      "start": 2140,
+                      "end": 2214
+                    },
+                    "prefix": true,
+                    "start": 2139,
+                    "end": 2214
+                  },
+                  "consequent": {
+                    "type": "BlockStatement",
+                    "body": [
+                      {
+                        "type": "ReturnStatement",
+                        "argument": {
+                          "type": "ArrayExpression",
+                          "elements": [
+                            {
+                              "type": "Identifier",
+                              "name": "subdivisionTag",
+                              "start": 2232,
+                              "end": 2246
+                            },
+                            {
+                              "type": "Identifier",
+                              "name": "weekInfoWithSubdivisionRegion",
+                              "start": 2248,
+                              "end": 2277
+                            }
+                          ],
+                          "start": 2231,
+                          "end": 2278
+                        },
+                        "start": 2224,
+                        "end": 2279
+                      }
+                    ],
+                    "start": 2216,
+                    "end": 2285
+                  },
+                  "alternate": null,
+                  "start": 2135,
+                  "end": 2285
+                }
+              ],
+              "start": 1921,
+              "end": 2289
+            },
+            "start": 1867,
+            "end": 2289
+          },
+          {
+            "type": "ExpressionStatement",
+            "expression": {
+              "type": "CallExpression",
+              "callee": {
+                "type": "Identifier",
+                "name": "assert",
+                "start": 2293,
+                "end": 2299
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "value": false,
+                  "raw": "false",
+                  "start": 2300,
+                  "end": 2305
+                },
+                {
+                  "type": "Literal",
+                  "value": "No suitable test data found in this implementation. Consider updating the candidate list",
+                  "raw": "\"No suitable test data found in this implementation. Consider updating the candidate list\"",
+                  "start": 2307,
+                  "end": 2397
+                }
+              ],
+              "optional": false,
+              "start": 2293,
+              "end": 2398
+            },
+            "start": 2293,
+            "end": 2399
+          }
+        ],
+        "start": 1740,
+        "end": 2401
+      },
+      "expression": false,
+      "start": 1708,
+      "end": 2401
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "ArrayPattern",
+            "elements": [
+              {
+                "type": "Identifier",
+                "name": "subdivisionTag",
+                "start": 2410,
+                "end": 2424
+              },
+              {
+                "type": "Identifier",
+                "name": "expectedWeekInfo",
+                "start": 2426,
+                "end": 2442
+              }
+            ],
+            "start": 2409,
+            "end": 2443
+          },
+          "init": {
+            "type": "CallExpression",
+            "callee": {
+              "type": "Identifier",
+              "name": "findSuitableTestData",
+              "start": 2446,
+              "end": 2466
+            },
+            "arguments": [],
+            "optional": false,
+            "start": 2446,
+            "end": 2468
+          },
+          "start": 2409,
+          "end": 2468
+        }
+      ],
+      "start": 2403,
+      "end": 2469
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "locale",
+            "start": 2477,
+            "end": 2483
+          },
+          "init": {
+            "type": "NewExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "Intl",
+                "start": 2490,
+                "end": 2494
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "Locale",
+                "start": 2495,
+                "end": 2501
+              },
+              "optional": false,
+              "computed": false,
+              "start": 2490,
+              "end": 2501
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "name": "subdivisionTag",
+                "start": 2502,
+                "end": 2516
+              }
+            ],
+            "start": 2486,
+            "end": 2517
+          },
+          "start": 2477,
+          "end": 2517
+        }
+      ],
+      "start": 2471,
+      "end": 2518
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "weekInfo",
+            "start": 2525,
+            "end": 2533
+          },
+          "init": {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "locale",
+                "start": 2536,
+                "end": 2542
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "getWeekInfo",
+                "start": 2543,
+                "end": 2554
+              },
+              "optional": false,
+              "computed": false,
+              "start": 2536,
+              "end": 2554
+            },
+            "arguments": [],
+            "optional": false,
+            "start": 2536,
+            "end": 2556
+          },
+          "start": 2525,
+          "end": 2556
+        }
+      ],
+      "start": 2519,
+      "end": 2557
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 2558,
+            "end": 2564
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 2565,
+            "end": 2574
+          },
+          "optional": false,
+          "computed": false,
+          "start": 2558,
+          "end": 2574
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "Identifier",
+              "name": "weekInfo",
+              "start": 2578,
+              "end": 2586
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "firstDay",
+              "start": 2587,
+              "end": 2595
+            },
+            "optional": false,
+            "computed": false,
+            "start": 2578,
+            "end": 2595
+          },
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "Identifier",
+              "name": "expectedWeekInfo",
+              "start": 2599,
+              "end": 2615
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "firstDay",
+              "start": 2616,
+              "end": 2624
+            },
+            "optional": false,
+            "computed": false,
+            "start": 2599,
+            "end": 2624
+          },
+          {
+            "type": "TemplateLiteral",
+            "quasis": [
+              {
+                "type": "TemplateElement",
+                "value": {
+                  "raw": "getWeekInfo() for \"",
+                  "cooked": "getWeekInfo() for \""
+                },
+                "tail": false,
+                "start": 2629,
+                "end": 2648
+              },
+              {
+                "type": "TemplateElement",
+                "value": {
+                  "raw": "\" should return firstDay that matches the subdivision's region",
+                  "cooked": "\" should return firstDay that matches the subdivision's region"
+                },
+                "tail": true,
+                "start": 2665,
+                "end": 2727
+              }
+            ],
+            "expressions": [
+              {
+                "type": "Identifier",
+                "name": "subdivisionTag",
+                "start": 2650,
+                "end": 2664
+              }
+            ],
+            "start": 2628,
+            "end": 2728
+          }
+        ],
+        "optional": false,
+        "start": 2558,
+        "end": 2730
+      },
+      "start": 2558,
+      "end": 2731
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 2732,
+            "end": 2738
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "compareArray",
+            "start": 2739,
+            "end": 2751
+          },
+          "optional": false,
+          "computed": false,
+          "start": 2732,
+          "end": 2751
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "Identifier",
+              "name": "weekInfo",
+              "start": 2755,
+              "end": 2763
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "weekend",
+              "start": 2764,
+              "end": 2771
+            },
+            "optional": false,
+            "computed": false,
+            "start": 2755,
+            "end": 2771
+          },
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "Identifier",
+              "name": "expectedWeekInfo",
+              "start": 2775,
+              "end": 2791
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "weekend",
+              "start": 2792,
+              "end": 2799
+            },
+            "optional": false,
+            "computed": false,
+            "start": 2775,
+            "end": 2799
+          },
+          {
+            "type": "TemplateLiteral",
+            "quasis": [
+              {
+                "type": "TemplateElement",
+                "value": {
+                  "raw": "getWeekInfo() for \"",
+                  "cooked": "getWeekInfo() for \""
+                },
+                "tail": false,
+                "start": 2804,
+                "end": 2823
+              },
+              {
+                "type": "TemplateElement",
+                "value": {
+                  "raw": "\" should return weekend that matches the subdivision's region",
+                  "cooked": "\" should return weekend that matches the subdivision's region"
+                },
+                "tail": true,
+                "start": 2840,
+                "end": 2901
+              }
+            ],
+            "expressions": [
+              {
+                "type": "Identifier",
+                "name": "subdivisionTag",
+                "start": 2825,
+                "end": 2839
+              }
+            ],
+            "start": 2803,
+            "end": 2902
+          }
+        ],
+        "optional": false,
+        "start": 2732,
+        "end": 2904
+      },
+      "start": 2732,
+      "end": 2905
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 2906
+}
