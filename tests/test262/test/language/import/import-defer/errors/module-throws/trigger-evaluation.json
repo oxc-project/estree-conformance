@@ -1,0 +1,359 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ImportDeclaration",
+      "specifiers": [
+        {
+          "type": "ImportNamespaceSpecifier",
+          "local": {
+            "type": "Identifier",
+            "name": "ns",
+            "start": 918,
+            "end": 920
+          },
+          "start": 913,
+          "end": 920
+        }
+      ],
+      "source": {
+        "type": "Literal",
+        "value": "./throws_FIXTURE.js",
+        "raw": "\"./throws_FIXTURE.js\"",
+        "start": 926,
+        "end": 947
+      },
+      "phase": "defer",
+      "attributes": [],
+      "start": 900,
+      "end": 948
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "let",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "err1",
+            "start": 954,
+            "end": 958
+          },
+          "init": null,
+          "start": 954,
+          "end": 958
+        },
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "err2",
+            "start": 960,
+            "end": 964
+          },
+          "init": null,
+          "start": 960,
+          "end": 964
+        }
+      ],
+      "start": 950,
+      "end": 965
+    },
+    {
+      "type": "TryStatement",
+      "block": {
+        "type": "BlockStatement",
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "expression": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "ns",
+                "start": 972,
+                "end": 974
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "foo",
+                "start": 975,
+                "end": 978
+              },
+              "optional": false,
+              "computed": false,
+              "start": 972,
+              "end": 978
+            },
+            "start": 972,
+            "end": 978
+          }
+        ],
+        "start": 970,
+        "end": 980
+      },
+      "handler": {
+        "type": "CatchClause",
+        "param": {
+          "type": "Identifier",
+          "name": "e",
+          "start": 988,
+          "end": 989
+        },
+        "body": {
+          "type": "BlockStatement",
+          "body": [
+            {
+              "type": "ExpressionStatement",
+              "expression": {
+                "type": "AssignmentExpression",
+                "operator": "=",
+                "left": {
+                  "type": "Identifier",
+                  "name": "err1",
+                  "start": 993,
+                  "end": 997
+                },
+                "right": {
+                  "type": "Identifier",
+                  "name": "e",
+                  "start": 1000,
+                  "end": 1001
+                },
+                "start": 993,
+                "end": 1001
+              },
+              "start": 993,
+              "end": 1001
+            }
+          ],
+          "start": 991,
+          "end": 1003
+        },
+        "start": 981,
+        "end": 1003
+      },
+      "finalizer": null,
+      "start": 966,
+      "end": 1003
+    },
+    {
+      "type": "EmptyStatement",
+      "start": 1003,
+      "end": 1004
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 1005,
+            "end": 1011
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "deepEqual",
+            "start": 1012,
+            "end": 1021
+          },
+          "optional": false,
+          "computed": false,
+          "start": 1005,
+          "end": 1021
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "name": "err1",
+            "start": 1022,
+            "end": 1026
+          },
+          {
+            "type": "ObjectExpression",
+            "properties": [
+              {
+                "type": "Property",
+                "kind": "init",
+                "key": {
+                  "type": "Identifier",
+                  "name": "someError",
+                  "start": 1030,
+                  "end": 1039
+                },
+                "value": {
+                  "type": "Literal",
+                  "value": "the error from throws_FIXTURE",
+                  "raw": "\"the error from throws_FIXTURE\"",
+                  "start": 1041,
+                  "end": 1072
+                },
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "start": 1030,
+                "end": 1072
+              }
+            ],
+            "start": 1028,
+            "end": 1074
+          },
+          {
+            "type": "Literal",
+            "value": "Evaluation errors are thrown when evaluating",
+            "raw": "\"Evaluation errors are thrown when evaluating\"",
+            "start": 1076,
+            "end": 1122
+          }
+        ],
+        "optional": false,
+        "start": 1005,
+        "end": 1123
+      },
+      "start": 1005,
+      "end": 1124
+    },
+    {
+      "type": "TryStatement",
+      "block": {
+        "type": "BlockStatement",
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "expression": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "ns",
+                "start": 1132,
+                "end": 1134
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "foo",
+                "start": 1135,
+                "end": 1138
+              },
+              "optional": false,
+              "computed": false,
+              "start": 1132,
+              "end": 1138
+            },
+            "start": 1132,
+            "end": 1138
+          }
+        ],
+        "start": 1130,
+        "end": 1140
+      },
+      "handler": {
+        "type": "CatchClause",
+        "param": {
+          "type": "Identifier",
+          "name": "e",
+          "start": 1148,
+          "end": 1149
+        },
+        "body": {
+          "type": "BlockStatement",
+          "body": [
+            {
+              "type": "ExpressionStatement",
+              "expression": {
+                "type": "AssignmentExpression",
+                "operator": "=",
+                "left": {
+                  "type": "Identifier",
+                  "name": "err2",
+                  "start": 1153,
+                  "end": 1157
+                },
+                "right": {
+                  "type": "Identifier",
+                  "name": "e",
+                  "start": 1160,
+                  "end": 1161
+                },
+                "start": 1153,
+                "end": 1161
+              },
+              "start": 1153,
+              "end": 1161
+            }
+          ],
+          "start": 1151,
+          "end": 1163
+        },
+        "start": 1141,
+        "end": 1163
+      },
+      "finalizer": null,
+      "start": 1126,
+      "end": 1163
+    },
+    {
+      "type": "EmptyStatement",
+      "start": 1163,
+      "end": 1164
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 1165,
+            "end": 1171
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 1172,
+            "end": 1181
+          },
+          "optional": false,
+          "computed": false,
+          "start": 1165,
+          "end": 1181
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "name": "err1",
+            "start": 1182,
+            "end": 1186
+          },
+          {
+            "type": "Identifier",
+            "name": "err2",
+            "start": 1188,
+            "end": 1192
+          },
+          {
+            "type": "Literal",
+            "value": "Evaluation errors are thrown for already evaluated modules",
+            "raw": "\"Evaluation errors are thrown for already evaluated modules\"",
+            "start": 1194,
+            "end": 1254
+          }
+        ],
+        "optional": false,
+        "start": 1165,
+        "end": 1255
+      },
+      "start": 1165,
+      "end": 1256
+    }
+  ],
+  "sourceType": "module",
+  "hashbang": null,
+  "start": 0,
+  "end": 1257
+}

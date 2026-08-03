@@ -9,40 +9,74 @@
           "type": "MemberExpression",
           "object": {
             "type": "Identifier",
-            "name": "Object",
+            "name": "assert",
             "start": 273,
             "end": 279
           },
           "property": {
             "type": "Identifier",
-            "name": "isFrozen",
+            "name": "sameValue",
             "start": 280,
-            "end": 288
+            "end": 289
           },
           "optional": false,
           "computed": false,
           "start": 273,
-          "end": 288
+          "end": 289
         },
         "arguments": [
+          {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "Object",
+                "start": 290,
+                "end": 296
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "isFrozen",
+                "start": 297,
+                "end": 305
+              },
+              "optional": false,
+              "computed": false,
+              "start": 290,
+              "end": 305
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "value": true,
+                "raw": "true",
+                "start": 306,
+                "end": 310
+              }
+            ],
+            "optional": false,
+            "start": 290,
+            "end": 311
+          },
           {
             "type": "Literal",
             "value": true,
             "raw": "true",
-            "start": 289,
-            "end": 293
+            "start": 313,
+            "end": 317
           }
         ],
         "optional": false,
         "start": 273,
-        "end": 294
+        "end": 318
       },
       "start": 273,
-      "end": 295
+      "end": 319
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 296
+  "end": 320
 }

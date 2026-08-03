@@ -1,0 +1,663 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "FunctionDeclaration",
+      "id": {
+        "type": "Identifier",
+        "name": "findSuitableTestData",
+        "start": 2026,
+        "end": 2046
+      },
+      "generator": false,
+      "async": false,
+      "params": [],
+      "body": {
+        "type": "BlockStatement",
+        "body": [
+          {
+            "type": "VariableDeclaration",
+            "kind": "const",
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "id": {
+                  "type": "Identifier",
+                  "name": "candidates",
+                  "start": 2059,
+                  "end": 2069
+                },
+                "init": {
+                  "type": "ArrayExpression",
+                  "elements": [
+                    {
+                      "type": "Literal",
+                      "value": "th-TH",
+                      "raw": "\"th-TH\"",
+                      "start": 2073,
+                      "end": 2080
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "fa-IR",
+                      "raw": "\"fa-IR\"",
+                      "start": 2082,
+                      "end": 2089
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "ja-JP",
+                      "raw": "\"ja-JP\"",
+                      "start": 2091,
+                      "end": 2098
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "sa-IN",
+                      "raw": "\"sa-IN\"",
+                      "start": 2100,
+                      "end": 2107
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "ps-AF",
+                      "raw": "\"ps-AF\"",
+                      "start": 2109,
+                      "end": 2116
+                    }
+                  ],
+                  "start": 2072,
+                  "end": 2117
+                },
+                "start": 2059,
+                "end": 2117
+              }
+            ],
+            "start": 2053,
+            "end": 2118
+          },
+          {
+            "type": "ForOfStatement",
+            "await": false,
+            "left": {
+              "type": "VariableDeclaration",
+              "kind": "const",
+              "declarations": [
+                {
+                  "type": "VariableDeclarator",
+                  "id": {
+                    "type": "Identifier",
+                    "name": "candidate",
+                    "start": 2133,
+                    "end": 2142
+                  },
+                  "init": null,
+                  "start": 2133,
+                  "end": 2142
+                }
+              ],
+              "start": 2127,
+              "end": 2142
+            },
+            "right": {
+              "type": "Identifier",
+              "name": "candidates",
+              "start": 2146,
+              "end": 2156
+            },
+            "body": {
+              "type": "BlockStatement",
+              "body": [
+                {
+                  "type": "VariableDeclaration",
+                  "kind": "const",
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "id": {
+                        "type": "Identifier",
+                        "name": "locale",
+                        "start": 2170,
+                        "end": 2176
+                      },
+                      "init": {
+                        "type": "NewExpression",
+                        "callee": {
+                          "type": "MemberExpression",
+                          "object": {
+                            "type": "Identifier",
+                            "name": "Intl",
+                            "start": 2183,
+                            "end": 2187
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "name": "Locale",
+                            "start": 2188,
+                            "end": 2194
+                          },
+                          "optional": false,
+                          "computed": false,
+                          "start": 2183,
+                          "end": 2194
+                        },
+                        "arguments": [
+                          {
+                            "type": "Identifier",
+                            "name": "candidate",
+                            "start": 2195,
+                            "end": 2204
+                          }
+                        ],
+                        "start": 2179,
+                        "end": 2205
+                      },
+                      "start": 2170,
+                      "end": 2205
+                    }
+                  ],
+                  "start": 2164,
+                  "end": 2206
+                },
+                {
+                  "type": "VariableDeclaration",
+                  "kind": "const",
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "id": {
+                        "type": "Identifier",
+                        "name": "calendarsWithLikelyRegion",
+                        "start": 2217,
+                        "end": 2242
+                      },
+                      "init": {
+                        "type": "CallExpression",
+                        "callee": {
+                          "type": "MemberExpression",
+                          "object": {
+                            "type": "Identifier",
+                            "name": "locale",
+                            "start": 2245,
+                            "end": 2251
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "name": "getCalendars",
+                            "start": 2252,
+                            "end": 2264
+                          },
+                          "optional": false,
+                          "computed": false,
+                          "start": 2245,
+                          "end": 2264
+                        },
+                        "arguments": [],
+                        "optional": false,
+                        "start": 2245,
+                        "end": 2266
+                      },
+                      "start": 2217,
+                      "end": 2266
+                    }
+                  ],
+                  "start": 2211,
+                  "end": 2267
+                },
+                {
+                  "type": "VariableDeclaration",
+                  "kind": "const",
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "id": {
+                        "type": "Identifier",
+                        "name": "bareLanguage",
+                        "start": 2279,
+                        "end": 2291
+                      },
+                      "init": {
+                        "type": "MemberExpression",
+                        "object": {
+                          "type": "Identifier",
+                          "name": "locale",
+                          "start": 2294,
+                          "end": 2300
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "name": "language",
+                          "start": 2301,
+                          "end": 2309
+                        },
+                        "optional": false,
+                        "computed": false,
+                        "start": 2294,
+                        "end": 2309
+                      },
+                      "start": 2279,
+                      "end": 2309
+                    }
+                  ],
+                  "start": 2273,
+                  "end": 2310
+                },
+                {
+                  "type": "VariableDeclaration",
+                  "kind": "const",
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "id": {
+                        "type": "Identifier",
+                        "name": "fallbackLocale",
+                        "start": 2321,
+                        "end": 2335
+                      },
+                      "init": {
+                        "type": "NewExpression",
+                        "callee": {
+                          "type": "MemberExpression",
+                          "object": {
+                            "type": "Identifier",
+                            "name": "Intl",
+                            "start": 2342,
+                            "end": 2346
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "name": "Locale",
+                            "start": 2347,
+                            "end": 2353
+                          },
+                          "optional": false,
+                          "computed": false,
+                          "start": 2342,
+                          "end": 2353
+                        },
+                        "arguments": [
+                          {
+                            "type": "TemplateLiteral",
+                            "quasis": [
+                              {
+                                "type": "TemplateElement",
+                                "value": {
+                                  "raw": "",
+                                  "cooked": ""
+                                },
+                                "tail": false,
+                                "start": 2355,
+                                "end": 2355
+                              },
+                              {
+                                "type": "TemplateElement",
+                                "value": {
+                                  "raw": "-001",
+                                  "cooked": "-001"
+                                },
+                                "tail": true,
+                                "start": 2370,
+                                "end": 2374
+                              }
+                            ],
+                            "expressions": [
+                              {
+                                "type": "Identifier",
+                                "name": "bareLanguage",
+                                "start": 2357,
+                                "end": 2369
+                              }
+                            ],
+                            "start": 2354,
+                            "end": 2375
+                          }
+                        ],
+                        "start": 2338,
+                        "end": 2376
+                      },
+                      "start": 2321,
+                      "end": 2376
+                    }
+                  ],
+                  "start": 2315,
+                  "end": 2377
+                },
+                {
+                  "type": "IfStatement",
+                  "test": {
+                    "type": "UnaryExpression",
+                    "operator": "!",
+                    "argument": {
+                      "type": "CallExpression",
+                      "callee": {
+                        "type": "Identifier",
+                        "name": "compareArray",
+                        "start": 2387,
+                        "end": 2399
+                      },
+                      "arguments": [
+                        {
+                          "type": "CallExpression",
+                          "callee": {
+                            "type": "MemberExpression",
+                            "object": {
+                              "type": "Identifier",
+                              "name": "fallbackLocale",
+                              "start": 2400,
+                              "end": 2414
+                            },
+                            "property": {
+                              "type": "Identifier",
+                              "name": "getCalendars",
+                              "start": 2415,
+                              "end": 2427
+                            },
+                            "optional": false,
+                            "computed": false,
+                            "start": 2400,
+                            "end": 2427
+                          },
+                          "arguments": [],
+                          "optional": false,
+                          "start": 2400,
+                          "end": 2429
+                        },
+                        {
+                          "type": "Identifier",
+                          "name": "calendarsWithLikelyRegion",
+                          "start": 2431,
+                          "end": 2456
+                        }
+                      ],
+                      "optional": false,
+                      "start": 2387,
+                      "end": 2457
+                    },
+                    "prefix": true,
+                    "start": 2386,
+                    "end": 2457
+                  },
+                  "consequent": {
+                    "type": "BlockStatement",
+                    "body": [
+                      {
+                        "type": "ReturnStatement",
+                        "argument": {
+                          "type": "ArrayExpression",
+                          "elements": [
+                            {
+                              "type": "Identifier",
+                              "name": "bareLanguage",
+                              "start": 2475,
+                              "end": 2487
+                            },
+                            {
+                              "type": "Identifier",
+                              "name": "calendarsWithLikelyRegion",
+                              "start": 2489,
+                              "end": 2514
+                            }
+                          ],
+                          "start": 2474,
+                          "end": 2515
+                        },
+                        "start": 2467,
+                        "end": 2516
+                      }
+                    ],
+                    "start": 2459,
+                    "end": 2522
+                  },
+                  "alternate": null,
+                  "start": 2382,
+                  "end": 2522
+                }
+              ],
+              "start": 2158,
+              "end": 2526
+            },
+            "start": 2122,
+            "end": 2526
+          },
+          {
+            "type": "ExpressionStatement",
+            "expression": {
+              "type": "CallExpression",
+              "callee": {
+                "type": "Identifier",
+                "name": "assert",
+                "start": 2530,
+                "end": 2536
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "value": false,
+                  "raw": "false",
+                  "start": 2537,
+                  "end": 2542
+                },
+                {
+                  "type": "Literal",
+                  "value": "No suitable test data found in this implementation. Consider updating the candidate list",
+                  "raw": "\"No suitable test data found in this implementation. Consider updating the candidate list\"",
+                  "start": 2544,
+                  "end": 2634
+                }
+              ],
+              "optional": false,
+              "start": 2530,
+              "end": 2635
+            },
+            "start": 2530,
+            "end": 2636
+          }
+        ],
+        "start": 2049,
+        "end": 2638
+      },
+      "expression": false,
+      "start": 2017,
+      "end": 2638
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "ArrayPattern",
+            "elements": [
+              {
+                "type": "Identifier",
+                "name": "language",
+                "start": 2647,
+                "end": 2655
+              },
+              {
+                "type": "Identifier",
+                "name": "expectedCalendars",
+                "start": 2657,
+                "end": 2674
+              }
+            ],
+            "start": 2646,
+            "end": 2675
+          },
+          "init": {
+            "type": "CallExpression",
+            "callee": {
+              "type": "Identifier",
+              "name": "findSuitableTestData",
+              "start": 2678,
+              "end": 2698
+            },
+            "arguments": [],
+            "optional": false,
+            "start": 2678,
+            "end": 2700
+          },
+          "start": 2646,
+          "end": 2700
+        }
+      ],
+      "start": 2640,
+      "end": 2701
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "locale",
+            "start": 2709,
+            "end": 2715
+          },
+          "init": {
+            "type": "NewExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "Intl",
+                "start": 2722,
+                "end": 2726
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "Locale",
+                "start": 2727,
+                "end": 2733
+              },
+              "optional": false,
+              "computed": false,
+              "start": 2722,
+              "end": 2733
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "name": "language",
+                "start": 2734,
+                "end": 2742
+              }
+            ],
+            "start": 2718,
+            "end": 2743
+          },
+          "start": 2709,
+          "end": 2743
+        }
+      ],
+      "start": 2703,
+      "end": 2744
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 2745,
+            "end": 2751
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "compareArray",
+            "start": 2752,
+            "end": 2764
+          },
+          "optional": false,
+          "computed": false,
+          "start": 2745,
+          "end": 2764
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "locale",
+                "start": 2768,
+                "end": 2774
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "getCalendars",
+                "start": 2775,
+                "end": 2787
+              },
+              "optional": false,
+              "computed": false,
+              "start": 2768,
+              "end": 2787
+            },
+            "arguments": [],
+            "optional": false,
+            "start": 2768,
+            "end": 2789
+          },
+          {
+            "type": "Identifier",
+            "name": "expectedCalendars",
+            "start": 2793,
+            "end": 2810
+          },
+          {
+            "type": "TemplateLiteral",
+            "quasis": [
+              {
+                "type": "TemplateElement",
+                "value": {
+                  "raw": "getCalendars() for \"",
+                  "cooked": "getCalendars() for \""
+                },
+                "tail": false,
+                "start": 2815,
+                "end": 2835
+              },
+              {
+                "type": "TemplateElement",
+                "value": {
+                  "raw": "\" should equal getCalendars() for locale with likely region",
+                  "cooked": "\" should equal getCalendars() for locale with likely region"
+                },
+                "tail": true,
+                "start": 2846,
+                "end": 2905
+              }
+            ],
+            "expressions": [
+              {
+                "type": "Identifier",
+                "name": "language",
+                "start": 2837,
+                "end": 2845
+              }
+            ],
+            "start": 2814,
+            "end": 2906
+          }
+        ],
+        "optional": false,
+        "start": 2745,
+        "end": 2908
+      },
+      "start": 2745,
+      "end": 2909
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 2910
+}

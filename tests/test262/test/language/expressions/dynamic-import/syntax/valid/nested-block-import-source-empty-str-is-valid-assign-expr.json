@@ -1,0 +1,40 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "BlockStatement",
+      "body": [
+        {
+          "type": "ExpressionStatement",
+          "expression": {
+            "type": "ImportExpression",
+            "source": {
+              "type": "Literal",
+              "value": "<module source>",
+              "raw": "'<module source>'",
+              "start": 1130,
+              "end": 1147
+            },
+            "options": null,
+            "phase": "source",
+            "start": 1116,
+            "end": 1148
+          },
+          "start": 1116,
+          "end": 1149
+        }
+      ],
+      "start": 1112,
+      "end": 1151
+    },
+    {
+      "type": "EmptyStatement",
+      "start": 1151,
+      "end": 1152
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 1153
+}

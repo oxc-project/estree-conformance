@@ -1,0 +1,119 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 350,
+            "end": 356
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 357,
+            "end": 366
+          },
+          "optional": false,
+          "computed": false,
+          "start": 350,
+          "end": 366
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "Object",
+                "start": 367,
+                "end": 373
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "getPrototypeOf",
+                "start": 374,
+                "end": 388
+              },
+              "optional": false,
+              "computed": false,
+              "start": 367,
+              "end": 388
+            },
+            "arguments": [
+              {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "MemberExpression",
+                  "object": {
+                    "type": "Identifier",
+                    "name": "Iterator",
+                    "start": 389,
+                    "end": 397
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "name": "prototype",
+                    "start": 398,
+                    "end": 407
+                  },
+                  "optional": false,
+                  "computed": false,
+                  "start": 389,
+                  "end": 407
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "windows",
+                  "start": 408,
+                  "end": 415
+                },
+                "optional": false,
+                "computed": false,
+                "start": 389,
+                "end": 415
+              }
+            ],
+            "optional": false,
+            "start": 367,
+            "end": 416
+          },
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "Identifier",
+              "name": "Function",
+              "start": 418,
+              "end": 426
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "prototype",
+              "start": 427,
+              "end": 436
+            },
+            "optional": false,
+            "computed": false,
+            "start": 418,
+            "end": 436
+          }
+        ],
+        "optional": false,
+        "start": 350,
+        "end": 437
+      },
+      "start": 350,
+      "end": 438
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 439
+}

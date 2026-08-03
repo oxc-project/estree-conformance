@@ -1,0 +1,245 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ImportDeclaration",
+      "specifiers": [],
+      "source": {
+        "type": "Literal",
+        "value": "./setup_FIXTURE.js",
+        "raw": "\"./setup_FIXTURE.js\"",
+        "start": 390,
+        "end": 410
+      },
+      "phase": null,
+      "attributes": [],
+      "start": 383,
+      "end": 411
+    },
+    {
+      "type": "ImportDeclaration",
+      "specifiers": [
+        {
+          "type": "ImportNamespaceSpecifier",
+          "local": {
+            "type": "Identifier",
+            "name": "ns",
+            "start": 431,
+            "end": 433
+          },
+          "start": 426,
+          "end": 433
+        }
+      ],
+      "source": {
+        "type": "Literal",
+        "value": "./dep_FIXTURE.js",
+        "raw": "\"./dep_FIXTURE.js\"",
+        "start": 439,
+        "end": 457
+      },
+      "phase": "defer",
+      "attributes": [],
+      "start": 413,
+      "end": 458
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 460,
+            "end": 466
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 467,
+            "end": 476
+          },
+          "optional": false,
+          "computed": false,
+          "start": 460,
+          "end": 476
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "globalThis",
+                "start": 477,
+                "end": 487
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "evaluations",
+                "start": 488,
+                "end": 499
+              },
+              "optional": false,
+              "computed": false,
+              "start": 477,
+              "end": 499
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "length",
+              "start": 500,
+              "end": 506
+            },
+            "optional": false,
+            "computed": false,
+            "start": 477,
+            "end": 506
+          },
+          {
+            "type": "Literal",
+            "value": 0,
+            "raw": "0",
+            "start": 508,
+            "end": 509
+          },
+          {
+            "type": "Literal",
+            "value": "import defer does not trigger evaluation",
+            "raw": "\"import defer does not trigger evaluation\"",
+            "start": 511,
+            "end": 553
+          }
+        ],
+        "optional": false,
+        "start": 460,
+        "end": 554
+      },
+      "start": 460,
+      "end": 555
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "Object",
+            "start": 557,
+            "end": 563
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "isExtensible",
+            "start": 564,
+            "end": 576
+          },
+          "optional": false,
+          "computed": false,
+          "start": 557,
+          "end": 576
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "name": "ns",
+            "start": 577,
+            "end": 579
+          }
+        ],
+        "optional": false,
+        "start": 557,
+        "end": 580
+      },
+      "start": 557,
+      "end": 581
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 583,
+            "end": 589
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 590,
+            "end": 599
+          },
+          "optional": false,
+          "computed": false,
+          "start": 583,
+          "end": 599
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "globalThis",
+                "start": 600,
+                "end": 610
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "evaluations",
+                "start": 611,
+                "end": 622
+              },
+              "optional": false,
+              "computed": false,
+              "start": 600,
+              "end": 622
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "length",
+              "start": 623,
+              "end": 629
+            },
+            "optional": false,
+            "computed": false,
+            "start": 600,
+            "end": 629
+          },
+          {
+            "type": "Literal",
+            "value": 0,
+            "raw": "0",
+            "start": 631,
+            "end": 632
+          },
+          {
+            "type": "Literal",
+            "value": "It does not trigger evaluation",
+            "raw": "\"It does not trigger evaluation\"",
+            "start": 634,
+            "end": 666
+          }
+        ],
+        "optional": false,
+        "start": 583,
+        "end": 667
+      },
+      "start": 583,
+      "end": 668
+    }
+  ],
+  "sourceType": "module",
+  "hashbang": null,
+  "start": 0,
+  "end": 669
+}

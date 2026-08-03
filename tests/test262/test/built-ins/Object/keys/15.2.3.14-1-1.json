@@ -9,40 +9,73 @@
           "type": "MemberExpression",
           "object": {
             "type": "Identifier",
-            "name": "Object",
-            "start": 267,
-            "end": 273
+            "name": "assert",
+            "start": 295,
+            "end": 301
           },
           "property": {
             "type": "Identifier",
-            "name": "keys",
-            "start": 274,
-            "end": 278
+            "name": "compareArray",
+            "start": 302,
+            "end": 314
           },
           "optional": false,
           "computed": false,
-          "start": 267,
-          "end": 278
+          "start": 295,
+          "end": 314
         },
         "arguments": [
           {
-            "type": "Literal",
-            "value": 0,
-            "raw": "0",
-            "start": 279,
-            "end": 280
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "Object",
+                "start": 315,
+                "end": 321
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "keys",
+                "start": 322,
+                "end": 326
+              },
+              "optional": false,
+              "computed": false,
+              "start": 315,
+              "end": 326
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "value": 0,
+                "raw": "0",
+                "start": 327,
+                "end": 328
+              }
+            ],
+            "optional": false,
+            "start": 315,
+            "end": 329
+          },
+          {
+            "type": "ArrayExpression",
+            "elements": [],
+            "start": 331,
+            "end": 333
           }
         ],
         "optional": false,
-        "start": 267,
-        "end": 281
+        "start": 295,
+        "end": 334
       },
-      "start": 267,
-      "end": 282
+      "start": 295,
+      "end": 335
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 283
+  "end": 336
 }

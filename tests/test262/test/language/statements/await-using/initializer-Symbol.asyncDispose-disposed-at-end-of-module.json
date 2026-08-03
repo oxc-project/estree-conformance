@@ -1,0 +1,277 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "kind": "var",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "disposed",
+            "start": 361,
+            "end": 369
+          },
+          "init": {
+            "type": "Literal",
+            "value": false,
+            "raw": "false",
+            "start": 372,
+            "end": 377
+          },
+          "start": 361,
+          "end": 377
+        }
+      ],
+      "start": 357,
+      "end": 378
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "var",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "resource",
+            "start": 383,
+            "end": 391
+          },
+          "init": {
+            "type": "ObjectExpression",
+            "properties": [
+              {
+                "type": "Property",
+                "kind": "init",
+                "key": {
+                  "type": "MemberExpression",
+                  "object": {
+                    "type": "Identifier",
+                    "name": "Symbol",
+                    "start": 405,
+                    "end": 411
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "name": "asyncDispose",
+                    "start": 412,
+                    "end": 424
+                  },
+                  "optional": false,
+                  "computed": false,
+                  "start": 405,
+                  "end": 424
+                },
+                "value": {
+                  "type": "FunctionExpression",
+                  "id": null,
+                  "generator": false,
+                  "async": true,
+                  "params": [],
+                  "body": {
+                    "type": "BlockStatement",
+                    "body": [
+                      {
+                        "type": "ExpressionStatement",
+                        "expression": {
+                          "type": "CallExpression",
+                          "callee": {
+                            "type": "MemberExpression",
+                            "object": {
+                              "type": "Identifier",
+                              "name": "assert",
+                              "start": 434,
+                              "end": 440
+                            },
+                            "property": {
+                              "type": "Identifier",
+                              "name": "sameValue",
+                              "start": 441,
+                              "end": 450
+                            },
+                            "optional": false,
+                            "computed": false,
+                            "start": 434,
+                            "end": 450
+                          },
+                          "arguments": [
+                            {
+                              "type": "Identifier",
+                              "name": "disposed",
+                              "start": 451,
+                              "end": 459
+                            },
+                            {
+                              "type": "Literal",
+                              "value": false,
+                              "raw": "false",
+                              "start": 461,
+                              "end": 466
+                            },
+                            {
+                              "type": "Literal",
+                              "value": "disposal should happen once",
+                              "raw": "'disposal should happen once'",
+                              "start": 468,
+                              "end": 497
+                            }
+                          ],
+                          "optional": false,
+                          "start": 434,
+                          "end": 498
+                        },
+                        "start": 434,
+                        "end": 499
+                      },
+                      {
+                        "type": "ExpressionStatement",
+                        "expression": {
+                          "type": "AssignmentExpression",
+                          "operator": "=",
+                          "left": {
+                            "type": "Identifier",
+                            "name": "disposed",
+                            "start": 504,
+                            "end": 512
+                          },
+                          "right": {
+                            "type": "Literal",
+                            "value": true,
+                            "raw": "true",
+                            "start": 515,
+                            "end": 519
+                          },
+                          "start": 504,
+                          "end": 519
+                        },
+                        "start": 504,
+                        "end": 520
+                      },
+                      {
+                        "type": "ExpressionStatement",
+                        "expression": {
+                          "type": "CallExpression",
+                          "callee": {
+                            "type": "Identifier",
+                            "name": "$DONE",
+                            "start": 525,
+                            "end": 530
+                          },
+                          "arguments": [],
+                          "optional": false,
+                          "start": 525,
+                          "end": 532
+                        },
+                        "start": 525,
+                        "end": 533
+                      }
+                    ],
+                    "start": 428,
+                    "end": 537
+                  },
+                  "expression": false,
+                  "start": 425,
+                  "end": 537
+                },
+                "method": true,
+                "shorthand": false,
+                "computed": true,
+                "start": 398,
+                "end": 537
+              }
+            ],
+            "start": 394,
+            "end": 539
+          },
+          "start": 383,
+          "end": 539
+        }
+      ],
+      "start": 379,
+      "end": 540
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "await using",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "_",
+            "start": 554,
+            "end": 555
+          },
+          "init": {
+            "type": "Identifier",
+            "name": "resource",
+            "start": 558,
+            "end": 566
+          },
+          "start": 554,
+          "end": 566
+        }
+      ],
+      "start": 542,
+      "end": 567
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 569,
+            "end": 575
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 576,
+            "end": 585
+          },
+          "optional": false,
+          "computed": false,
+          "start": 569,
+          "end": 585
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "name": "disposed",
+            "start": 586,
+            "end": 594
+          },
+          {
+            "type": "Literal",
+            "value": false,
+            "raw": "false",
+            "start": 596,
+            "end": 601
+          },
+          {
+            "type": "Literal",
+            "value": "resources should not be disposed until module evaluation finishes",
+            "raw": "'resources should not be disposed until module evaluation finishes'",
+            "start": 603,
+            "end": 670
+          }
+        ],
+        "optional": false,
+        "start": 569,
+        "end": 671
+      },
+      "start": 569,
+      "end": 672
+    }
+  ],
+  "sourceType": "module",
+  "hashbang": null,
+  "start": 0,
+  "end": 673
+}

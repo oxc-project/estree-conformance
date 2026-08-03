@@ -1,0 +1,87 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 276,
+            "end": 282
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 283,
+            "end": 292
+          },
+          "optional": false,
+          "computed": false,
+          "start": 276,
+          "end": 292
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "operator": "typeof",
+            "argument": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "Iterator",
+                  "start": 300,
+                  "end": 308
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "prototype",
+                  "start": 309,
+                  "end": 318
+                },
+                "optional": false,
+                "computed": false,
+                "start": 300,
+                "end": 318
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "chunks",
+                "start": 319,
+                "end": 325
+              },
+              "optional": false,
+              "computed": false,
+              "start": 300,
+              "end": 325
+            },
+            "prefix": true,
+            "start": 293,
+            "end": 325
+          },
+          {
+            "type": "Literal",
+            "value": "function",
+            "raw": "'function'",
+            "start": 327,
+            "end": 337
+          }
+        ],
+        "optional": false,
+        "start": 276,
+        "end": 338
+      },
+      "start": 276,
+      "end": 339
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 340
+}

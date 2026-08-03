@@ -9,40 +9,95 @@
           "type": "MemberExpression",
           "object": {
             "type": "Identifier",
-            "name": "Object",
-            "start": 276,
-            "end": 282
+            "name": "assert",
+            "start": 304,
+            "end": 310
           },
           "property": {
             "type": "Identifier",
-            "name": "keys",
-            "start": 283,
-            "end": 287
+            "name": "compareArray",
+            "start": 311,
+            "end": 323
           },
           "optional": false,
           "computed": false,
-          "start": 276,
-          "end": 287
+          "start": 304,
+          "end": 323
         },
         "arguments": [
           {
-            "type": "Literal",
-            "value": "abc",
-            "raw": "'abc'",
-            "start": 288,
-            "end": 293
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "Object",
+                "start": 324,
+                "end": 330
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "keys",
+                "start": 331,
+                "end": 335
+              },
+              "optional": false,
+              "computed": false,
+              "start": 324,
+              "end": 335
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "value": "abc",
+                "raw": "'abc'",
+                "start": 336,
+                "end": 341
+              }
+            ],
+            "optional": false,
+            "start": 324,
+            "end": 342
+          },
+          {
+            "type": "ArrayExpression",
+            "elements": [
+              {
+                "type": "Literal",
+                "value": "0",
+                "raw": "\"0\"",
+                "start": 345,
+                "end": 348
+              },
+              {
+                "type": "Literal",
+                "value": "1",
+                "raw": "\"1\"",
+                "start": 350,
+                "end": 353
+              },
+              {
+                "type": "Literal",
+                "value": "2",
+                "raw": "\"2\"",
+                "start": 355,
+                "end": 358
+              }
+            ],
+            "start": 344,
+            "end": 359
           }
         ],
         "optional": false,
-        "start": 276,
-        "end": 294
+        "start": 304,
+        "end": 360
       },
-      "start": 276,
-      "end": 295
+      "start": 304,
+      "end": 361
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 296
+  "end": 362
 }

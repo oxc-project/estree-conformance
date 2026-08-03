@@ -1,0 +1,28 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "ImportExpression",
+        "source": {
+          "type": "Literal",
+          "value": "./empty_FIXTURE.js",
+          "raw": "'./empty_FIXTURE.js'",
+          "start": 456,
+          "end": 476
+        },
+        "options": null,
+        "phase": "defer",
+        "start": 443,
+        "end": 477
+      },
+      "start": 443,
+      "end": 478
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 479
+}

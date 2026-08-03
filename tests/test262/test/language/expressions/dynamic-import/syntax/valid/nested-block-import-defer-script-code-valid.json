@@ -1,0 +1,40 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "BlockStatement",
+      "body": [
+        {
+          "type": "ExpressionStatement",
+          "expression": {
+            "type": "ImportExpression",
+            "source": {
+              "type": "Literal",
+              "value": "./empty_FIXTURE.js",
+              "raw": "'./empty_FIXTURE.js'",
+              "start": 1087,
+              "end": 1107
+            },
+            "options": null,
+            "phase": "defer",
+            "start": 1074,
+            "end": 1108
+          },
+          "start": 1074,
+          "end": 1109
+        }
+      ],
+      "start": 1070,
+      "end": 1111
+    },
+    {
+      "type": "EmptyStatement",
+      "start": 1111,
+      "end": 1112
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 1113
+}

@@ -1,0 +1,91 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "kind": "var",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "smoosh",
+            "start": 1294,
+            "end": 1300
+          },
+          "init": null,
+          "start": 1294,
+          "end": 1300
+        }
+      ],
+      "start": 1290,
+      "end": 1301
+    },
+    {
+      "type": "FunctionDeclaration",
+      "id": {
+        "type": "Identifier",
+        "name": "smoosh",
+        "start": 1311,
+        "end": 1317
+      },
+      "generator": false,
+      "async": false,
+      "params": [],
+      "body": {
+        "type": "BlockStatement",
+        "body": [],
+        "start": 1320,
+        "end": 1322
+      },
+      "expression": false,
+      "start": 1302,
+      "end": 1322
+    },
+    {
+      "type": "FunctionDeclaration",
+      "id": {
+        "type": "Identifier",
+        "name": "f",
+        "start": 1340,
+        "end": 1341
+      },
+      "generator": false,
+      "async": true,
+      "params": [],
+      "body": {
+        "type": "BlockStatement",
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "expression": {
+              "type": "ImportExpression",
+              "source": {
+                "type": "Literal",
+                "value": "<module source>",
+                "raw": "'<module source>'",
+                "start": 1362,
+                "end": 1379
+              },
+              "options": null,
+              "phase": "source",
+              "start": 1348,
+              "end": 1380
+            },
+            "start": 1348,
+            "end": 1381
+          }
+        ],
+        "start": 1344,
+        "end": 1383
+      },
+      "expression": false,
+      "start": 1325,
+      "end": 1383
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 1385
+}

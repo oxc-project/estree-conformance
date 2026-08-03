@@ -1,0 +1,50 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "FunctionDeclaration",
+      "id": {
+        "type": "Identifier",
+        "name": "fn",
+        "start": 1085,
+        "end": 1087
+      },
+      "generator": false,
+      "async": false,
+      "params": [],
+      "body": {
+        "type": "BlockStatement",
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "expression": {
+              "type": "ImportExpression",
+              "source": {
+                "type": "Literal",
+                "value": "./empty_FIXTURE.js",
+                "raw": "'./empty_FIXTURE.js'",
+                "start": 1107,
+                "end": 1127
+              },
+              "options": null,
+              "phase": "defer",
+              "start": 1094,
+              "end": 1128
+            },
+            "start": 1094,
+            "end": 1129
+          }
+        ],
+        "start": 1090,
+        "end": 1131
+      },
+      "expression": false,
+      "start": 1076,
+      "end": 1131
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 1132
+}

@@ -1,0 +1,55 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "FunctionDeclaration",
+      "id": {
+        "type": "Identifier",
+        "name": "f",
+        "start": 1177,
+        "end": 1178
+      },
+      "generator": true,
+      "async": true,
+      "params": [],
+      "body": {
+        "type": "BlockStatement",
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "expression": {
+              "type": "AwaitExpression",
+              "argument": {
+                "type": "ImportExpression",
+                "source": {
+                  "type": "Literal",
+                  "value": "<module source>",
+                  "raw": "'<module source>'",
+                  "start": 1205,
+                  "end": 1222
+                },
+                "options": null,
+                "phase": "source",
+                "start": 1191,
+                "end": 1223
+              },
+              "start": 1185,
+              "end": 1223
+            },
+            "start": 1185,
+            "end": 1223
+          }
+        ],
+        "start": 1181,
+        "end": 1225
+      },
+      "expression": false,
+      "start": 1160,
+      "end": 1225
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 1226
+}

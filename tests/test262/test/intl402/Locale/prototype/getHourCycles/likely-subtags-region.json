@@ -1,0 +1,684 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "FunctionDeclaration",
+      "id": {
+        "type": "Identifier",
+        "name": "findSuitableTestData",
+        "start": 2033,
+        "end": 2053
+      },
+      "generator": false,
+      "async": false,
+      "params": [],
+      "body": {
+        "type": "BlockStatement",
+        "body": [
+          {
+            "type": "VariableDeclaration",
+            "kind": "const",
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "id": {
+                  "type": "Identifier",
+                  "name": "candidates",
+                  "start": 2066,
+                  "end": 2076
+                },
+                "init": {
+                  "type": "ArrayExpression",
+                  "elements": [
+                    {
+                      "type": "Literal",
+                      "value": "am-ET",
+                      "raw": "\"am-ET\"",
+                      "start": 2085,
+                      "end": 2092
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "bn-BD",
+                      "raw": "\"bn-BD\"",
+                      "start": 2098,
+                      "end": 2105
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "el-GR",
+                      "raw": "\"el-GR\"",
+                      "start": 2111,
+                      "end": 2118
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "fil-PH",
+                      "raw": "\"fil-PH\"",
+                      "start": 2124,
+                      "end": 2132
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "hi-IN",
+                      "raw": "\"hi-IN\"",
+                      "start": 2138,
+                      "end": 2145
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "ko-KR",
+                      "raw": "\"ko-KR\"",
+                      "start": 2151,
+                      "end": 2158
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "ms-MY",
+                      "raw": "\"ms-MY\"",
+                      "start": 2164,
+                      "end": 2171
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "ur-PK",
+                      "raw": "\"ur-PK\"",
+                      "start": 2177,
+                      "end": 2184
+                    }
+                  ],
+                  "start": 2079,
+                  "end": 2189
+                },
+                "start": 2066,
+                "end": 2189
+              }
+            ],
+            "start": 2060,
+            "end": 2190
+          },
+          {
+            "type": "ForOfStatement",
+            "await": false,
+            "left": {
+              "type": "VariableDeclaration",
+              "kind": "const",
+              "declarations": [
+                {
+                  "type": "VariableDeclarator",
+                  "id": {
+                    "type": "Identifier",
+                    "name": "candidate",
+                    "start": 2205,
+                    "end": 2214
+                  },
+                  "init": null,
+                  "start": 2205,
+                  "end": 2214
+                }
+              ],
+              "start": 2199,
+              "end": 2214
+            },
+            "right": {
+              "type": "Identifier",
+              "name": "candidates",
+              "start": 2218,
+              "end": 2228
+            },
+            "body": {
+              "type": "BlockStatement",
+              "body": [
+                {
+                  "type": "VariableDeclaration",
+                  "kind": "const",
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "id": {
+                        "type": "Identifier",
+                        "name": "locale",
+                        "start": 2242,
+                        "end": 2248
+                      },
+                      "init": {
+                        "type": "NewExpression",
+                        "callee": {
+                          "type": "MemberExpression",
+                          "object": {
+                            "type": "Identifier",
+                            "name": "Intl",
+                            "start": 2255,
+                            "end": 2259
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "name": "Locale",
+                            "start": 2260,
+                            "end": 2266
+                          },
+                          "optional": false,
+                          "computed": false,
+                          "start": 2255,
+                          "end": 2266
+                        },
+                        "arguments": [
+                          {
+                            "type": "Identifier",
+                            "name": "candidate",
+                            "start": 2267,
+                            "end": 2276
+                          }
+                        ],
+                        "start": 2251,
+                        "end": 2277
+                      },
+                      "start": 2242,
+                      "end": 2277
+                    }
+                  ],
+                  "start": 2236,
+                  "end": 2278
+                },
+                {
+                  "type": "VariableDeclaration",
+                  "kind": "const",
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "id": {
+                        "type": "Identifier",
+                        "name": "hourCyclesWithLikelyRegion",
+                        "start": 2289,
+                        "end": 2315
+                      },
+                      "init": {
+                        "type": "CallExpression",
+                        "callee": {
+                          "type": "MemberExpression",
+                          "object": {
+                            "type": "Identifier",
+                            "name": "locale",
+                            "start": 2318,
+                            "end": 2324
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "name": "getHourCycles",
+                            "start": 2325,
+                            "end": 2338
+                          },
+                          "optional": false,
+                          "computed": false,
+                          "start": 2318,
+                          "end": 2338
+                        },
+                        "arguments": [],
+                        "optional": false,
+                        "start": 2318,
+                        "end": 2340
+                      },
+                      "start": 2289,
+                      "end": 2340
+                    }
+                  ],
+                  "start": 2283,
+                  "end": 2341
+                },
+                {
+                  "type": "VariableDeclaration",
+                  "kind": "const",
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "id": {
+                        "type": "Identifier",
+                        "name": "bareLanguage",
+                        "start": 2353,
+                        "end": 2365
+                      },
+                      "init": {
+                        "type": "MemberExpression",
+                        "object": {
+                          "type": "Identifier",
+                          "name": "locale",
+                          "start": 2368,
+                          "end": 2374
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "name": "language",
+                          "start": 2375,
+                          "end": 2383
+                        },
+                        "optional": false,
+                        "computed": false,
+                        "start": 2368,
+                        "end": 2383
+                      },
+                      "start": 2353,
+                      "end": 2383
+                    }
+                  ],
+                  "start": 2347,
+                  "end": 2384
+                },
+                {
+                  "type": "VariableDeclaration",
+                  "kind": "const",
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "id": {
+                        "type": "Identifier",
+                        "name": "fallbackLocale",
+                        "start": 2395,
+                        "end": 2409
+                      },
+                      "init": {
+                        "type": "NewExpression",
+                        "callee": {
+                          "type": "MemberExpression",
+                          "object": {
+                            "type": "Identifier",
+                            "name": "Intl",
+                            "start": 2416,
+                            "end": 2420
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "name": "Locale",
+                            "start": 2421,
+                            "end": 2427
+                          },
+                          "optional": false,
+                          "computed": false,
+                          "start": 2416,
+                          "end": 2427
+                        },
+                        "arguments": [
+                          {
+                            "type": "TemplateLiteral",
+                            "quasis": [
+                              {
+                                "type": "TemplateElement",
+                                "value": {
+                                  "raw": "",
+                                  "cooked": ""
+                                },
+                                "tail": false,
+                                "start": 2429,
+                                "end": 2429
+                              },
+                              {
+                                "type": "TemplateElement",
+                                "value": {
+                                  "raw": "-001",
+                                  "cooked": "-001"
+                                },
+                                "tail": true,
+                                "start": 2444,
+                                "end": 2448
+                              }
+                            ],
+                            "expressions": [
+                              {
+                                "type": "Identifier",
+                                "name": "bareLanguage",
+                                "start": 2431,
+                                "end": 2443
+                              }
+                            ],
+                            "start": 2428,
+                            "end": 2449
+                          }
+                        ],
+                        "start": 2412,
+                        "end": 2450
+                      },
+                      "start": 2395,
+                      "end": 2450
+                    }
+                  ],
+                  "start": 2389,
+                  "end": 2451
+                },
+                {
+                  "type": "IfStatement",
+                  "test": {
+                    "type": "UnaryExpression",
+                    "operator": "!",
+                    "argument": {
+                      "type": "CallExpression",
+                      "callee": {
+                        "type": "Identifier",
+                        "name": "compareArray",
+                        "start": 2461,
+                        "end": 2473
+                      },
+                      "arguments": [
+                        {
+                          "type": "CallExpression",
+                          "callee": {
+                            "type": "MemberExpression",
+                            "object": {
+                              "type": "Identifier",
+                              "name": "fallbackLocale",
+                              "start": 2474,
+                              "end": 2488
+                            },
+                            "property": {
+                              "type": "Identifier",
+                              "name": "getHourCycles",
+                              "start": 2489,
+                              "end": 2502
+                            },
+                            "optional": false,
+                            "computed": false,
+                            "start": 2474,
+                            "end": 2502
+                          },
+                          "arguments": [],
+                          "optional": false,
+                          "start": 2474,
+                          "end": 2504
+                        },
+                        {
+                          "type": "Identifier",
+                          "name": "hourCyclesWithLikelyRegion",
+                          "start": 2506,
+                          "end": 2532
+                        }
+                      ],
+                      "optional": false,
+                      "start": 2461,
+                      "end": 2533
+                    },
+                    "prefix": true,
+                    "start": 2460,
+                    "end": 2533
+                  },
+                  "consequent": {
+                    "type": "BlockStatement",
+                    "body": [
+                      {
+                        "type": "ReturnStatement",
+                        "argument": {
+                          "type": "ArrayExpression",
+                          "elements": [
+                            {
+                              "type": "Identifier",
+                              "name": "bareLanguage",
+                              "start": 2551,
+                              "end": 2563
+                            },
+                            {
+                              "type": "Identifier",
+                              "name": "hourCyclesWithLikelyRegion",
+                              "start": 2565,
+                              "end": 2591
+                            }
+                          ],
+                          "start": 2550,
+                          "end": 2592
+                        },
+                        "start": 2543,
+                        "end": 2593
+                      }
+                    ],
+                    "start": 2535,
+                    "end": 2599
+                  },
+                  "alternate": null,
+                  "start": 2456,
+                  "end": 2599
+                }
+              ],
+              "start": 2230,
+              "end": 2603
+            },
+            "start": 2194,
+            "end": 2603
+          },
+          {
+            "type": "ExpressionStatement",
+            "expression": {
+              "type": "CallExpression",
+              "callee": {
+                "type": "Identifier",
+                "name": "assert",
+                "start": 2607,
+                "end": 2613
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "value": false,
+                  "raw": "false",
+                  "start": 2614,
+                  "end": 2619
+                },
+                {
+                  "type": "Literal",
+                  "value": "No suitable test data found in this implementation. Consider updating the candidate list",
+                  "raw": "\"No suitable test data found in this implementation. Consider updating the candidate list\"",
+                  "start": 2621,
+                  "end": 2711
+                }
+              ],
+              "optional": false,
+              "start": 2607,
+              "end": 2712
+            },
+            "start": 2607,
+            "end": 2713
+          }
+        ],
+        "start": 2056,
+        "end": 2715
+      },
+      "expression": false,
+      "start": 2024,
+      "end": 2715
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "ArrayPattern",
+            "elements": [
+              {
+                "type": "Identifier",
+                "name": "language",
+                "start": 2724,
+                "end": 2732
+              },
+              {
+                "type": "Identifier",
+                "name": "expectedHourCycles",
+                "start": 2734,
+                "end": 2752
+              }
+            ],
+            "start": 2723,
+            "end": 2753
+          },
+          "init": {
+            "type": "CallExpression",
+            "callee": {
+              "type": "Identifier",
+              "name": "findSuitableTestData",
+              "start": 2756,
+              "end": 2776
+            },
+            "arguments": [],
+            "optional": false,
+            "start": 2756,
+            "end": 2778
+          },
+          "start": 2723,
+          "end": 2778
+        }
+      ],
+      "start": 2717,
+      "end": 2779
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "locale",
+            "start": 2787,
+            "end": 2793
+          },
+          "init": {
+            "type": "NewExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "Intl",
+                "start": 2800,
+                "end": 2804
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "Locale",
+                "start": 2805,
+                "end": 2811
+              },
+              "optional": false,
+              "computed": false,
+              "start": 2800,
+              "end": 2811
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "name": "language",
+                "start": 2812,
+                "end": 2820
+              }
+            ],
+            "start": 2796,
+            "end": 2821
+          },
+          "start": 2787,
+          "end": 2821
+        }
+      ],
+      "start": 2781,
+      "end": 2822
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 2823,
+            "end": 2829
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "compareArray",
+            "start": 2830,
+            "end": 2842
+          },
+          "optional": false,
+          "computed": false,
+          "start": 2823,
+          "end": 2842
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "locale",
+                "start": 2846,
+                "end": 2852
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "getHourCycles",
+                "start": 2853,
+                "end": 2866
+              },
+              "optional": false,
+              "computed": false,
+              "start": 2846,
+              "end": 2866
+            },
+            "arguments": [],
+            "optional": false,
+            "start": 2846,
+            "end": 2868
+          },
+          {
+            "type": "Identifier",
+            "name": "expectedHourCycles",
+            "start": 2872,
+            "end": 2890
+          },
+          {
+            "type": "TemplateLiteral",
+            "quasis": [
+              {
+                "type": "TemplateElement",
+                "value": {
+                  "raw": "getHourCycles() for \"",
+                  "cooked": "getHourCycles() for \""
+                },
+                "tail": false,
+                "start": 2895,
+                "end": 2916
+              },
+              {
+                "type": "TemplateElement",
+                "value": {
+                  "raw": "\" should equal getHourCycles() for locale with likely region",
+                  "cooked": "\" should equal getHourCycles() for locale with likely region"
+                },
+                "tail": true,
+                "start": 2927,
+                "end": 2987
+              }
+            ],
+            "expressions": [
+              {
+                "type": "Identifier",
+                "name": "language",
+                "start": 2918,
+                "end": 2926
+              }
+            ],
+            "start": 2894,
+            "end": 2988
+          }
+        ],
+        "optional": false,
+        "start": 2823,
+        "end": 2990
+      },
+      "start": 2823,
+      "end": 2991
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 2992
+}

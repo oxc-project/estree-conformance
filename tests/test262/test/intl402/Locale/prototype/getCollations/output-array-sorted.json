@@ -1,0 +1,476 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "kind": "var",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "tags",
+            "start": 520,
+            "end": 524
+          },
+          "init": {
+            "type": "ArrayExpression",
+            "elements": [
+              {
+                "type": "Literal",
+                "value": "ar",
+                "raw": "\"ar\"",
+                "start": 528,
+                "end": 532
+              },
+              {
+                "type": "Literal",
+                "value": "de",
+                "raw": "\"de\"",
+                "start": 534,
+                "end": 538
+              },
+              {
+                "type": "Literal",
+                "value": "en",
+                "raw": "\"en\"",
+                "start": 540,
+                "end": 544
+              },
+              {
+                "type": "Literal",
+                "value": "ja",
+                "raw": "\"ja\"",
+                "start": 546,
+                "end": 550
+              },
+              {
+                "type": "Literal",
+                "value": "ko",
+                "raw": "\"ko\"",
+                "start": 552,
+                "end": 556
+              },
+              {
+                "type": "Literal",
+                "value": "sv",
+                "raw": "\"sv\"",
+                "start": 558,
+                "end": 562
+              },
+              {
+                "type": "Literal",
+                "value": "tr",
+                "raw": "\"tr\"",
+                "start": 564,
+                "end": 568
+              },
+              {
+                "type": "Literal",
+                "value": "zh",
+                "raw": "\"zh\"",
+                "start": 570,
+                "end": 574
+              }
+            ],
+            "start": 527,
+            "end": 575
+          },
+          "start": 520,
+          "end": 575
+        }
+      ],
+      "start": 516,
+      "end": 576
+    },
+    {
+      "type": "ForStatement",
+      "init": {
+        "type": "VariableDeclaration",
+        "kind": "var",
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "id": {
+              "type": "Identifier",
+              "name": "i",
+              "start": 587,
+              "end": 588
+            },
+            "init": {
+              "type": "Literal",
+              "value": 0,
+              "raw": "0",
+              "start": 591,
+              "end": 592
+            },
+            "start": 587,
+            "end": 592
+          }
+        ],
+        "start": 583,
+        "end": 592
+      },
+      "test": {
+        "type": "BinaryExpression",
+        "left": {
+          "type": "Identifier",
+          "name": "i",
+          "start": 594,
+          "end": 595
+        },
+        "operator": "<",
+        "right": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "tags",
+            "start": 598,
+            "end": 602
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "length",
+            "start": 603,
+            "end": 609
+          },
+          "optional": false,
+          "computed": false,
+          "start": 598,
+          "end": 609
+        },
+        "start": 594,
+        "end": 609
+      },
+      "update": {
+        "type": "UpdateExpression",
+        "operator": "++",
+        "prefix": false,
+        "argument": {
+          "type": "Identifier",
+          "name": "i",
+          "start": 611,
+          "end": 612
+        },
+        "start": 611,
+        "end": 614
+      },
+      "body": {
+        "type": "BlockStatement",
+        "body": [
+          {
+            "type": "VariableDeclaration",
+            "kind": "var",
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "id": {
+                  "type": "Identifier",
+                  "name": "tag",
+                  "start": 624,
+                  "end": 627
+                },
+                "init": {
+                  "type": "MemberExpression",
+                  "object": {
+                    "type": "Identifier",
+                    "name": "tags",
+                    "start": 630,
+                    "end": 634
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "name": "i",
+                    "start": 635,
+                    "end": 636
+                  },
+                  "optional": false,
+                  "computed": true,
+                  "start": 630,
+                  "end": 637
+                },
+                "start": 624,
+                "end": 637
+              }
+            ],
+            "start": 620,
+            "end": 638
+          },
+          {
+            "type": "VariableDeclaration",
+            "kind": "var",
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "id": {
+                  "type": "Identifier",
+                  "name": "collations",
+                  "start": 645,
+                  "end": 655
+                },
+                "init": {
+                  "type": "CallExpression",
+                  "callee": {
+                    "type": "MemberExpression",
+                    "object": {
+                      "type": "NewExpression",
+                      "callee": {
+                        "type": "MemberExpression",
+                        "object": {
+                          "type": "Identifier",
+                          "name": "Intl",
+                          "start": 662,
+                          "end": 666
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "name": "Locale",
+                          "start": 667,
+                          "end": 673
+                        },
+                        "optional": false,
+                        "computed": false,
+                        "start": 662,
+                        "end": 673
+                      },
+                      "arguments": [
+                        {
+                          "type": "Identifier",
+                          "name": "tag",
+                          "start": 674,
+                          "end": 677
+                        }
+                      ],
+                      "start": 658,
+                      "end": 678
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "name": "getCollations",
+                      "start": 679,
+                      "end": 692
+                    },
+                    "optional": false,
+                    "computed": false,
+                    "start": 658,
+                    "end": 692
+                  },
+                  "arguments": [],
+                  "optional": false,
+                  "start": 658,
+                  "end": 694
+                },
+                "start": 645,
+                "end": 694
+              }
+            ],
+            "start": 641,
+            "end": 695
+          },
+          {
+            "type": "VariableDeclaration",
+            "kind": "var",
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "id": {
+                  "type": "Identifier",
+                  "name": "sortedCollations",
+                  "start": 702,
+                  "end": 718
+                },
+                "init": {
+                  "type": "CallExpression",
+                  "callee": {
+                    "type": "MemberExpression",
+                    "object": {
+                      "type": "CallExpression",
+                      "callee": {
+                        "type": "MemberExpression",
+                        "object": {
+                          "type": "ArrayExpression",
+                          "elements": [],
+                          "start": 721,
+                          "end": 723
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "name": "concat",
+                          "start": 724,
+                          "end": 730
+                        },
+                        "optional": false,
+                        "computed": false,
+                        "start": 721,
+                        "end": 730
+                      },
+                      "arguments": [
+                        {
+                          "type": "CallExpression",
+                          "callee": {
+                            "type": "MemberExpression",
+                            "object": {
+                              "type": "NewExpression",
+                              "callee": {
+                                "type": "MemberExpression",
+                                "object": {
+                                  "type": "Identifier",
+                                  "name": "Intl",
+                                  "start": 735,
+                                  "end": 739
+                                },
+                                "property": {
+                                  "type": "Identifier",
+                                  "name": "Locale",
+                                  "start": 740,
+                                  "end": 746
+                                },
+                                "optional": false,
+                                "computed": false,
+                                "start": 735,
+                                "end": 746
+                              },
+                              "arguments": [
+                                {
+                                  "type": "Identifier",
+                                  "name": "tag",
+                                  "start": 747,
+                                  "end": 750
+                                }
+                              ],
+                              "start": 731,
+                              "end": 751
+                            },
+                            "property": {
+                              "type": "Identifier",
+                              "name": "getCollations",
+                              "start": 752,
+                              "end": 765
+                            },
+                            "optional": false,
+                            "computed": false,
+                            "start": 731,
+                            "end": 765
+                          },
+                          "arguments": [],
+                          "optional": false,
+                          "start": 731,
+                          "end": 767
+                        }
+                      ],
+                      "optional": false,
+                      "start": 721,
+                      "end": 768
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "name": "sort",
+                      "start": 769,
+                      "end": 773
+                    },
+                    "optional": false,
+                    "computed": false,
+                    "start": 721,
+                    "end": 773
+                  },
+                  "arguments": [],
+                  "optional": false,
+                  "start": 721,
+                  "end": 775
+                },
+                "start": 702,
+                "end": 775
+              }
+            ],
+            "start": 698,
+            "end": 776
+          },
+          {
+            "type": "ExpressionStatement",
+            "expression": {
+              "type": "CallExpression",
+              "callee": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "assert",
+                  "start": 779,
+                  "end": 785
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "compareArray",
+                  "start": 786,
+                  "end": 798
+                },
+                "optional": false,
+                "computed": false,
+                "start": 779,
+                "end": 798
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "name": "collations",
+                  "start": 804,
+                  "end": 814
+                },
+                {
+                  "type": "Identifier",
+                  "name": "sortedCollations",
+                  "start": 820,
+                  "end": 836
+                },
+                {
+                  "type": "BinaryExpression",
+                  "left": {
+                    "type": "BinaryExpression",
+                    "left": {
+                      "type": "Literal",
+                      "value": "getCollations() for ",
+                      "raw": "\"getCollations() for \"",
+                      "start": 842,
+                      "end": 864
+                    },
+                    "operator": "+",
+                    "right": {
+                      "type": "Identifier",
+                      "name": "tag",
+                      "start": 867,
+                      "end": 870
+                    },
+                    "start": 842,
+                    "end": 870
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "Literal",
+                    "value": " should be sorted in lexicographic code unit order",
+                    "raw": "\" should be sorted in lexicographic code unit order\"",
+                    "start": 873,
+                    "end": 925
+                  },
+                  "start": 842,
+                  "end": 925
+                }
+              ],
+              "optional": false,
+              "start": 779,
+              "end": 929
+            },
+            "start": 779,
+            "end": 930
+          }
+        ],
+        "start": 616,
+        "end": 932
+      },
+      "start": 578,
+      "end": 932
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 933
+}

@@ -9,40 +9,74 @@
           "type": "MemberExpression",
           "object": {
             "type": "Identifier",
-            "name": "Object",
+            "name": "assert",
             "start": 272,
             "end": 278
           },
           "property": {
             "type": "Identifier",
-            "name": "isFrozen",
+            "name": "sameValue",
             "start": 279,
-            "end": 287
+            "end": 288
           },
           "optional": false,
           "computed": false,
           "start": 272,
-          "end": 287
+          "end": 288
         },
         "arguments": [
           {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "Object",
+                "start": 289,
+                "end": 295
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "isFrozen",
+                "start": 296,
+                "end": 304
+              },
+              "optional": false,
+              "computed": false,
+              "start": 289,
+              "end": 304
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "value": "abc",
+                "raw": "\"abc\"",
+                "start": 305,
+                "end": 310
+              }
+            ],
+            "optional": false,
+            "start": 289,
+            "end": 311
+          },
+          {
             "type": "Literal",
-            "value": "abc",
-            "raw": "\"abc\"",
-            "start": 288,
-            "end": 293
+            "value": true,
+            "raw": "true",
+            "start": 313,
+            "end": 317
           }
         ],
         "optional": false,
         "start": 272,
-        "end": 294
+        "end": 318
       },
       "start": 272,
-      "end": 295
+      "end": 319
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 296
+  "end": 320
 }

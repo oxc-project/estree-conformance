@@ -1,0 +1,238 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ImportDeclaration",
+      "specifiers": [],
+      "source": {
+        "type": "Literal",
+        "value": "./setup_FIXTURE.js",
+        "raw": "\"./setup_FIXTURE.js\"",
+        "start": 434,
+        "end": 454
+      },
+      "phase": null,
+      "attributes": [],
+      "start": 427,
+      "end": 455
+    },
+    {
+      "type": "ImportDeclaration",
+      "specifiers": [
+        {
+          "type": "ImportNamespaceSpecifier",
+          "local": {
+            "type": "Identifier",
+            "name": "ns",
+            "start": 475,
+            "end": 477
+          },
+          "start": 470,
+          "end": 477
+        }
+      ],
+      "source": {
+        "type": "Literal",
+        "value": "./dep_FIXTURE.js",
+        "raw": "\"./dep_FIXTURE.js\"",
+        "start": 483,
+        "end": 501
+      },
+      "phase": "defer",
+      "attributes": [],
+      "start": 457,
+      "end": 502
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 504,
+            "end": 510
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 511,
+            "end": 520
+          },
+          "optional": false,
+          "computed": false,
+          "start": 504,
+          "end": 520
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "globalThis",
+                "start": 521,
+                "end": 531
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "evaluations",
+                "start": 532,
+                "end": 543
+              },
+              "optional": false,
+              "computed": false,
+              "start": 521,
+              "end": 543
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "length",
+              "start": 544,
+              "end": 550
+            },
+            "optional": false,
+            "computed": false,
+            "start": 521,
+            "end": 550
+          },
+          {
+            "type": "Literal",
+            "value": 0,
+            "raw": "0",
+            "start": 552,
+            "end": 553
+          },
+          {
+            "type": "Literal",
+            "value": "import defer does not trigger evaluation",
+            "raw": "\"import defer does not trigger evaluation\"",
+            "start": 555,
+            "end": 597
+          }
+        ],
+        "optional": false,
+        "start": 504,
+        "end": 598
+      },
+      "start": 504,
+      "end": 599
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "Reflect",
+            "start": 601,
+            "end": 608
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "ownKeys",
+            "start": 609,
+            "end": 616
+          },
+          "optional": false,
+          "computed": false,
+          "start": 601,
+          "end": 616
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "name": "ns",
+            "start": 617,
+            "end": 619
+          }
+        ],
+        "optional": false,
+        "start": 601,
+        "end": 620
+      },
+      "start": 601,
+      "end": 621
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "Identifier",
+          "name": "assert",
+          "start": 623,
+          "end": 629
+        },
+        "arguments": [
+          {
+            "type": "BinaryExpression",
+            "left": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "globalThis",
+                  "start": 630,
+                  "end": 640
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "evaluations",
+                  "start": 641,
+                  "end": 652
+                },
+                "optional": false,
+                "computed": false,
+                "start": 630,
+                "end": 652
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "length",
+                "start": 653,
+                "end": 659
+              },
+              "optional": false,
+              "computed": false,
+              "start": 630,
+              "end": 659
+            },
+            "operator": ">",
+            "right": {
+              "type": "Literal",
+              "value": 0,
+              "raw": "0",
+              "start": 662,
+              "end": 663
+            },
+            "start": 630,
+            "end": 663
+          },
+          {
+            "type": "Literal",
+            "value": "It triggers evaluation",
+            "raw": "\"It triggers evaluation\"",
+            "start": 665,
+            "end": 689
+          }
+        ],
+        "optional": false,
+        "start": 623,
+        "end": 690
+      },
+      "start": 623,
+      "end": 691
+    }
+  ],
+  "sourceType": "module",
+  "hashbang": null,
+  "start": 0,
+  "end": 692
+}

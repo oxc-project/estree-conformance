@@ -1,0 +1,69 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "kind": "var",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "smoosh",
+            "start": 662,
+            "end": 668
+          },
+          "init": null,
+          "start": 662,
+          "end": 668
+        }
+      ],
+      "start": 658,
+      "end": 669
+    },
+    {
+      "type": "FunctionDeclaration",
+      "id": {
+        "type": "Identifier",
+        "name": "smoosh",
+        "start": 679,
+        "end": 685
+      },
+      "generator": false,
+      "async": false,
+      "params": [],
+      "body": {
+        "type": "BlockStatement",
+        "body": [],
+        "start": 688,
+        "end": 690
+      },
+      "expression": false,
+      "start": 670,
+      "end": 690
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "ImportExpression",
+        "source": {
+          "type": "Literal",
+          "value": "<module source>",
+          "raw": "'<module source>'",
+          "start": 707,
+          "end": 724
+        },
+        "options": null,
+        "phase": "source",
+        "start": 693,
+        "end": 725
+      },
+      "start": 693,
+      "end": 726
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 727
+}

@@ -1,0 +1,704 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "FunctionDeclaration",
+      "id": {
+        "type": "Identifier",
+        "name": "g",
+        "start": 448,
+        "end": 449
+      },
+      "generator": true,
+      "async": false,
+      "params": [],
+      "body": {
+        "type": "BlockStatement",
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "expression": {
+              "type": "YieldExpression",
+              "delegate": false,
+              "argument": {
+                "type": "Literal",
+                "value": 0,
+                "raw": "0",
+                "start": 462,
+                "end": 463
+              },
+              "start": 456,
+              "end": 463
+            },
+            "start": 456,
+            "end": 464
+          },
+          {
+            "type": "ExpressionStatement",
+            "expression": {
+              "type": "YieldExpression",
+              "delegate": false,
+              "argument": {
+                "type": "Literal",
+                "value": 1,
+                "raw": "1",
+                "start": 473,
+                "end": 474
+              },
+              "start": 467,
+              "end": 474
+            },
+            "start": 467,
+            "end": 475
+          },
+          {
+            "type": "ExpressionStatement",
+            "expression": {
+              "type": "YieldExpression",
+              "delegate": false,
+              "argument": {
+                "type": "Literal",
+                "value": 2,
+                "raw": "2",
+                "start": 484,
+                "end": 485
+              },
+              "start": 478,
+              "end": 485
+            },
+            "start": 478,
+            "end": 486
+          },
+          {
+            "type": "ExpressionStatement",
+            "expression": {
+              "type": "YieldExpression",
+              "delegate": false,
+              "argument": {
+                "type": "Literal",
+                "value": 3,
+                "raw": "3",
+                "start": 495,
+                "end": 496
+              },
+              "start": 489,
+              "end": 496
+            },
+            "start": 489,
+            "end": 497
+          }
+        ],
+        "start": 452,
+        "end": 499
+      },
+      "expression": false,
+      "start": 438,
+      "end": 499
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "let",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "windows",
+            "start": 505,
+            "end": 512
+          },
+          "init": {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "Array",
+                "start": 515,
+                "end": 520
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "from",
+                "start": 521,
+                "end": 525
+              },
+              "optional": false,
+              "computed": false,
+              "start": 515,
+              "end": 525
+            },
+            "arguments": [
+              {
+                "type": "CallExpression",
+                "callee": {
+                  "type": "MemberExpression",
+                  "object": {
+                    "type": "CallExpression",
+                    "callee": {
+                      "type": "Identifier",
+                      "name": "g",
+                      "start": 526,
+                      "end": 527
+                    },
+                    "arguments": [],
+                    "optional": false,
+                    "start": 526,
+                    "end": 529
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "name": "windows",
+                    "start": 530,
+                    "end": 537
+                  },
+                  "optional": false,
+                  "computed": false,
+                  "start": 526,
+                  "end": 537
+                },
+                "arguments": [
+                  {
+                    "type": "Literal",
+                    "value": 2,
+                    "raw": "2",
+                    "start": 538,
+                    "end": 539
+                  }
+                ],
+                "optional": false,
+                "start": 526,
+                "end": 540
+              }
+            ],
+            "optional": false,
+            "start": 515,
+            "end": 541
+          },
+          "start": 505,
+          "end": 541
+        }
+      ],
+      "start": 501,
+      "end": 542
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 544,
+            "end": 550
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 551,
+            "end": 560
+          },
+          "optional": false,
+          "computed": false,
+          "start": 544,
+          "end": 560
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "Identifier",
+              "name": "windows",
+              "start": 561,
+              "end": 568
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "length",
+              "start": 569,
+              "end": 575
+            },
+            "optional": false,
+            "computed": false,
+            "start": 561,
+            "end": 575
+          },
+          {
+            "type": "Literal",
+            "value": 3,
+            "raw": "3",
+            "start": 577,
+            "end": 578
+          }
+        ],
+        "optional": false,
+        "start": 544,
+        "end": 579
+      },
+      "start": 544,
+      "end": 580
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "Identifier",
+          "name": "assert",
+          "start": 581,
+          "end": 587
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "Array",
+                "start": 588,
+                "end": 593
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "isArray",
+                "start": 594,
+                "end": 601
+              },
+              "optional": false,
+              "computed": false,
+              "start": 588,
+              "end": 601
+            },
+            "arguments": [
+              {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "windows",
+                  "start": 602,
+                  "end": 609
+                },
+                "property": {
+                  "type": "Literal",
+                  "value": 0,
+                  "raw": "0",
+                  "start": 610,
+                  "end": 611
+                },
+                "optional": false,
+                "computed": true,
+                "start": 602,
+                "end": 612
+              }
+            ],
+            "optional": false,
+            "start": 588,
+            "end": 613
+          },
+          {
+            "type": "Literal",
+            "value": "windows[0] is an Array",
+            "raw": "'windows[0] is an Array'",
+            "start": 615,
+            "end": 639
+          }
+        ],
+        "optional": false,
+        "start": 581,
+        "end": 640
+      },
+      "start": 581,
+      "end": 641
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "Identifier",
+          "name": "assert",
+          "start": 642,
+          "end": 648
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "Array",
+                "start": 649,
+                "end": 654
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "isArray",
+                "start": 655,
+                "end": 662
+              },
+              "optional": false,
+              "computed": false,
+              "start": 649,
+              "end": 662
+            },
+            "arguments": [
+              {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "windows",
+                  "start": 663,
+                  "end": 670
+                },
+                "property": {
+                  "type": "Literal",
+                  "value": 1,
+                  "raw": "1",
+                  "start": 671,
+                  "end": 672
+                },
+                "optional": false,
+                "computed": true,
+                "start": 663,
+                "end": 673
+              }
+            ],
+            "optional": false,
+            "start": 649,
+            "end": 674
+          },
+          {
+            "type": "Literal",
+            "value": "windows[1] is an Array",
+            "raw": "'windows[1] is an Array'",
+            "start": 676,
+            "end": 700
+          }
+        ],
+        "optional": false,
+        "start": 642,
+        "end": 701
+      },
+      "start": 642,
+      "end": 702
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "Identifier",
+          "name": "assert",
+          "start": 703,
+          "end": 709
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "Array",
+                "start": 710,
+                "end": 715
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "isArray",
+                "start": 716,
+                "end": 723
+              },
+              "optional": false,
+              "computed": false,
+              "start": 710,
+              "end": 723
+            },
+            "arguments": [
+              {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "windows",
+                  "start": 724,
+                  "end": 731
+                },
+                "property": {
+                  "type": "Literal",
+                  "value": 2,
+                  "raw": "2",
+                  "start": 732,
+                  "end": 733
+                },
+                "optional": false,
+                "computed": true,
+                "start": 724,
+                "end": 734
+              }
+            ],
+            "optional": false,
+            "start": 710,
+            "end": 735
+          },
+          {
+            "type": "Literal",
+            "value": "windows[2] is an Array",
+            "raw": "'windows[2] is an Array'",
+            "start": 737,
+            "end": 761
+          }
+        ],
+        "optional": false,
+        "start": 703,
+        "end": 762
+      },
+      "start": 703,
+      "end": 763
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 764,
+            "end": 770
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "notSameValue",
+            "start": 771,
+            "end": 783
+          },
+          "optional": false,
+          "computed": false,
+          "start": 764,
+          "end": 783
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "Identifier",
+              "name": "windows",
+              "start": 784,
+              "end": 791
+            },
+            "property": {
+              "type": "Literal",
+              "value": 0,
+              "raw": "0",
+              "start": 792,
+              "end": 793
+            },
+            "optional": false,
+            "computed": true,
+            "start": 784,
+            "end": 794
+          },
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "Identifier",
+              "name": "windows",
+              "start": 796,
+              "end": 803
+            },
+            "property": {
+              "type": "Literal",
+              "value": 1,
+              "raw": "1",
+              "start": 804,
+              "end": 805
+            },
+            "optional": false,
+            "computed": true,
+            "start": 796,
+            "end": 806
+          },
+          {
+            "type": "Literal",
+            "value": "windows[0] !== windows[1]",
+            "raw": "'windows[0] !== windows[1]'",
+            "start": 808,
+            "end": 835
+          }
+        ],
+        "optional": false,
+        "start": 764,
+        "end": 836
+      },
+      "start": 764,
+      "end": 837
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 838,
+            "end": 844
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "notSameValue",
+            "start": 845,
+            "end": 857
+          },
+          "optional": false,
+          "computed": false,
+          "start": 838,
+          "end": 857
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "Identifier",
+              "name": "windows",
+              "start": 858,
+              "end": 865
+            },
+            "property": {
+              "type": "Literal",
+              "value": 1,
+              "raw": "1",
+              "start": 866,
+              "end": 867
+            },
+            "optional": false,
+            "computed": true,
+            "start": 858,
+            "end": 868
+          },
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "Identifier",
+              "name": "windows",
+              "start": 870,
+              "end": 877
+            },
+            "property": {
+              "type": "Literal",
+              "value": 2,
+              "raw": "2",
+              "start": 878,
+              "end": 879
+            },
+            "optional": false,
+            "computed": true,
+            "start": 870,
+            "end": 880
+          },
+          {
+            "type": "Literal",
+            "value": "windows[1] !== windows[2]",
+            "raw": "'windows[1] !== windows[2]'",
+            "start": 882,
+            "end": 909
+          }
+        ],
+        "optional": false,
+        "start": 838,
+        "end": 910
+      },
+      "start": 838,
+      "end": 911
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 912,
+            "end": 918
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "notSameValue",
+            "start": 919,
+            "end": 931
+          },
+          "optional": false,
+          "computed": false,
+          "start": 912,
+          "end": 931
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "Identifier",
+              "name": "windows",
+              "start": 932,
+              "end": 939
+            },
+            "property": {
+              "type": "Literal",
+              "value": 0,
+              "raw": "0",
+              "start": 940,
+              "end": 941
+            },
+            "optional": false,
+            "computed": true,
+            "start": 932,
+            "end": 942
+          },
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "Identifier",
+              "name": "windows",
+              "start": 944,
+              "end": 951
+            },
+            "property": {
+              "type": "Literal",
+              "value": 2,
+              "raw": "2",
+              "start": 952,
+              "end": 953
+            },
+            "optional": false,
+            "computed": true,
+            "start": 944,
+            "end": 954
+          },
+          {
+            "type": "Literal",
+            "value": "windows[0] !== windows[2]",
+            "raw": "'windows[0] !== windows[2]'",
+            "start": 956,
+            "end": 983
+          }
+        ],
+        "optional": false,
+        "start": 912,
+        "end": 984
+      },
+      "start": 912,
+      "end": 985
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 986
+}

@@ -9,40 +9,74 @@
           "type": "MemberExpression",
           "object": {
             "type": "Identifier",
-            "name": "Object",
+            "name": "assert",
             "start": 266,
             "end": 272
           },
           "property": {
             "type": "Identifier",
-            "name": "freeze",
+            "name": "sameValue",
             "start": 273,
-            "end": 279
+            "end": 282
           },
           "optional": false,
           "computed": false,
           "start": 266,
-          "end": 279
+          "end": 282
         },
         "arguments": [
+          {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "Object",
+                "start": 283,
+                "end": 289
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "freeze",
+                "start": 290,
+                "end": 296
+              },
+              "optional": false,
+              "computed": false,
+              "start": 283,
+              "end": 296
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "value": 0,
+                "raw": "0",
+                "start": 297,
+                "end": 298
+              }
+            ],
+            "optional": false,
+            "start": 283,
+            "end": 299
+          },
           {
             "type": "Literal",
             "value": 0,
             "raw": "0",
-            "start": 280,
-            "end": 281
+            "start": 301,
+            "end": 302
           }
         ],
         "optional": false,
         "start": 266,
-        "end": 282
+        "end": 303
       },
       "start": 266,
-      "end": 283
+      "end": 304
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 284
+  "end": 305
 }

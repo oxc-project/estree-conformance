@@ -1,0 +1,109 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ImportDeclaration",
+      "specifiers": [
+        {
+          "type": "ImportSpecifier",
+          "imported": {
+            "type": "Identifier",
+            "name": "disposed",
+            "start": 393,
+            "end": 401
+          },
+          "local": {
+            "type": "Identifier",
+            "name": "disposed",
+            "start": 393,
+            "end": 401
+          },
+          "start": 393,
+          "end": 401
+        },
+        {
+          "type": "ImportSpecifier",
+          "imported": {
+            "type": "Identifier",
+            "name": "resource",
+            "start": 403,
+            "end": 411
+          },
+          "local": {
+            "type": "Identifier",
+            "name": "resource",
+            "start": 403,
+            "end": 411
+          },
+          "start": 403,
+          "end": 411
+        }
+      ],
+      "source": {
+        "type": "Literal",
+        "value": "./initializer-Symbol.asyncDispose-disposed-at-end-of-imported-module_FIXTURE.js",
+        "raw": "'./initializer-Symbol.asyncDispose-disposed-at-end-of-imported-module_FIXTURE.js'",
+        "start": 419,
+        "end": 500
+      },
+      "phase": null,
+      "attributes": [],
+      "start": 384,
+      "end": 501
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "Identifier",
+          "name": "assert",
+          "start": 503,
+          "end": 509
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "name": "disposed",
+            "start": 510,
+            "end": 518
+          },
+          {
+            "type": "Literal",
+            "value": "resource should be disposed once imported module evaluation finishes",
+            "raw": "'resource should be disposed once imported module evaluation finishes'",
+            "start": 520,
+            "end": 590
+          }
+        ],
+        "optional": false,
+        "start": 503,
+        "end": 591
+      },
+      "start": 503,
+      "end": 592
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "Identifier",
+          "name": "$DONE",
+          "start": 593,
+          "end": 598
+        },
+        "arguments": [],
+        "optional": false,
+        "start": 593,
+        "end": 600
+      },
+      "start": 593,
+      "end": 601
+    }
+  ],
+  "sourceType": "module",
+  "hashbang": null,
+  "start": 0,
+  "end": 602
+}

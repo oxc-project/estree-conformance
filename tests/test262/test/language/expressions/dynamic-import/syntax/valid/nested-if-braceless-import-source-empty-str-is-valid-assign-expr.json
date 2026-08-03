@@ -1,0 +1,41 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "IfStatement",
+      "test": {
+        "type": "Literal",
+        "value": true,
+        "raw": "true",
+        "start": 1120,
+        "end": 1124
+      },
+      "consequent": {
+        "type": "ExpressionStatement",
+        "expression": {
+          "type": "ImportExpression",
+          "source": {
+            "type": "Literal",
+            "value": "<module source>",
+            "raw": "'<module source>'",
+            "start": 1140,
+            "end": 1157
+          },
+          "options": null,
+          "phase": "source",
+          "start": 1126,
+          "end": 1158
+        },
+        "start": 1126,
+        "end": 1159
+      },
+      "alternate": null,
+      "start": 1116,
+      "end": 1159
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 1160
+}
