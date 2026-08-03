@@ -1,0 +1,1189 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "levels",
+            "start": 2687,
+            "end": 2693
+          },
+          "init": {
+            "type": "ArrayExpression",
+            "elements": [
+              {
+                "type": "ObjectExpression",
+                "properties": [
+                  {
+                    "type": "Property",
+                    "kind": "init",
+                    "key": {
+                      "type": "Identifier",
+                      "name": "description",
+                      "start": 2702,
+                      "end": 2713
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "value": "the \"rg\" region override",
+                      "raw": "'the \"rg\" region override'",
+                      "start": 2715,
+                      "end": 2741
+                    },
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "start": 2702,
+                    "end": 2741
+                  },
+                  {
+                    "type": "Property",
+                    "kind": "init",
+                    "key": {
+                      "type": "Identifier",
+                      "name": "locale",
+                      "start": 2743,
+                      "end": 2749
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "value": "en-US-u-sd-gbeng-rg-gbzzzz",
+                      "raw": "\"en-US-u-sd-gbeng-rg-gbzzzz\"",
+                      "start": 2751,
+                      "end": 2779
+                    },
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "start": 2743,
+                    "end": 2779
+                  },
+                  {
+                    "type": "Property",
+                    "kind": "init",
+                    "key": {
+                      "type": "Identifier",
+                      "name": "region",
+                      "start": 2781,
+                      "end": 2787
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "value": "en-GB",
+                      "raw": "\"en-GB\"",
+                      "start": 2789,
+                      "end": 2796
+                    },
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "start": 2781,
+                    "end": 2796
+                  }
+                ],
+                "start": 2700,
+                "end": 2798
+              },
+              {
+                "type": "ObjectExpression",
+                "properties": [
+                  {
+                    "type": "Property",
+                    "kind": "init",
+                    "key": {
+                      "type": "Identifier",
+                      "name": "description",
+                      "start": 2804,
+                      "end": 2815
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "value": "the region subtag",
+                      "raw": "\"the region subtag\"",
+                      "start": 2817,
+                      "end": 2836
+                    },
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "start": 2804,
+                    "end": 2836
+                  },
+                  {
+                    "type": "Property",
+                    "kind": "init",
+                    "key": {
+                      "type": "Identifier",
+                      "name": "locale",
+                      "start": 2838,
+                      "end": 2844
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "value": "en-US-u-sd-gbeng",
+                      "raw": "\"en-US-u-sd-gbeng\"",
+                      "start": 2846,
+                      "end": 2864
+                    },
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "start": 2838,
+                    "end": 2864
+                  },
+                  {
+                    "type": "Property",
+                    "kind": "init",
+                    "key": {
+                      "type": "Identifier",
+                      "name": "region",
+                      "start": 2866,
+                      "end": 2872
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "value": "en-US",
+                      "raw": "\"en-US\"",
+                      "start": 2874,
+                      "end": 2881
+                    },
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "start": 2866,
+                    "end": 2881
+                  }
+                ],
+                "start": 2802,
+                "end": 2883
+              },
+              {
+                "type": "ObjectExpression",
+                "properties": [
+                  {
+                    "type": "Property",
+                    "kind": "init",
+                    "key": {
+                      "type": "Identifier",
+                      "name": "description",
+                      "start": 2889,
+                      "end": 2900
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "value": "the \"sd\" subdivision",
+                      "raw": "'the \"sd\" subdivision'",
+                      "start": 2902,
+                      "end": 2924
+                    },
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "start": 2889,
+                    "end": 2924
+                  },
+                  {
+                    "type": "Property",
+                    "kind": "init",
+                    "key": {
+                      "type": "Identifier",
+                      "name": "locale",
+                      "start": 2926,
+                      "end": 2932
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "value": "en-u-sd-gbeng",
+                      "raw": "\"en-u-sd-gbeng\"",
+                      "start": 2934,
+                      "end": 2949
+                    },
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "start": 2926,
+                    "end": 2949
+                  },
+                  {
+                    "type": "Property",
+                    "kind": "init",
+                    "key": {
+                      "type": "Identifier",
+                      "name": "region",
+                      "start": 2951,
+                      "end": 2957
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "value": "en-GB",
+                      "raw": "\"en-GB\"",
+                      "start": 2959,
+                      "end": 2966
+                    },
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "start": 2951,
+                    "end": 2966
+                  }
+                ],
+                "start": 2887,
+                "end": 2968
+              },
+              {
+                "type": "ObjectExpression",
+                "properties": [
+                  {
+                    "type": "Property",
+                    "kind": "init",
+                    "key": {
+                      "type": "Identifier",
+                      "name": "description",
+                      "start": 2974,
+                      "end": 2985
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "value": "the Add Likely Subtags region",
+                      "raw": "\"the Add Likely Subtags region\"",
+                      "start": 2987,
+                      "end": 3018
+                    },
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "start": 2974,
+                    "end": 3018
+                  },
+                  {
+                    "type": "Property",
+                    "kind": "init",
+                    "key": {
+                      "type": "Identifier",
+                      "name": "locale",
+                      "start": 3020,
+                      "end": 3026
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "value": "en",
+                      "raw": "\"en\"",
+                      "start": 3028,
+                      "end": 3032
+                    },
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "start": 3020,
+                    "end": 3032
+                  },
+                  {
+                    "type": "Property",
+                    "kind": "init",
+                    "key": {
+                      "type": "Identifier",
+                      "name": "region",
+                      "start": 3034,
+                      "end": 3040
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "value": "en-US",
+                      "raw": "\"en-US\"",
+                      "start": 3042,
+                      "end": 3049
+                    },
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "start": 3034,
+                    "end": 3049
+                  }
+                ],
+                "start": 2972,
+                "end": 3051
+              },
+              {
+                "type": "ObjectExpression",
+                "properties": [
+                  {
+                    "type": "Property",
+                    "kind": "init",
+                    "key": {
+                      "type": "Identifier",
+                      "name": "description",
+                      "start": 3057,
+                      "end": 3068
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "value": "the \"001\" region",
+                      "raw": "'the \"001\" region'",
+                      "start": 3070,
+                      "end": 3088
+                    },
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "start": 3057,
+                    "end": 3088
+                  },
+                  {
+                    "type": "Property",
+                    "kind": "init",
+                    "key": {
+                      "type": "Identifier",
+                      "name": "locale",
+                      "start": 3090,
+                      "end": 3096
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "value": "eo",
+                      "raw": "\"eo\"",
+                      "start": 3098,
+                      "end": 3102
+                    },
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "start": 3090,
+                    "end": 3102
+                  },
+                  {
+                    "type": "Property",
+                    "kind": "init",
+                    "key": {
+                      "type": "Identifier",
+                      "name": "region",
+                      "start": 3104,
+                      "end": 3110
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "value": "eo-001",
+                      "raw": "\"eo-001\"",
+                      "start": 3112,
+                      "end": 3120
+                    },
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "start": 3104,
+                    "end": 3120
+                  }
+                ],
+                "start": 3055,
+                "end": 3122
+              }
+            ],
+            "start": 2696,
+            "end": 3125
+          },
+          "start": 2687,
+          "end": 3125
+        }
+      ],
+      "start": 2681,
+      "end": 3126
+    },
+    {
+      "type": "ForStatement",
+      "init": {
+        "type": "VariableDeclaration",
+        "kind": "let",
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "id": {
+              "type": "Identifier",
+              "name": "i",
+              "start": 3361,
+              "end": 3362
+            },
+            "init": {
+              "type": "Literal",
+              "value": 0,
+              "raw": "0",
+              "start": 3365,
+              "end": 3366
+            },
+            "start": 3361,
+            "end": 3366
+          }
+        ],
+        "start": 3357,
+        "end": 3366
+      },
+      "test": {
+        "type": "BinaryExpression",
+        "left": {
+          "type": "Identifier",
+          "name": "i",
+          "start": 3368,
+          "end": 3369
+        },
+        "operator": "<",
+        "right": {
+          "type": "BinaryExpression",
+          "left": {
+            "type": "MemberExpression",
+            "object": {
+              "type": "Identifier",
+              "name": "levels",
+              "start": 3372,
+              "end": 3378
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "length",
+              "start": 3379,
+              "end": 3385
+            },
+            "optional": false,
+            "computed": false,
+            "start": 3372,
+            "end": 3385
+          },
+          "operator": "-",
+          "right": {
+            "type": "Literal",
+            "value": 1,
+            "raw": "1",
+            "start": 3388,
+            "end": 3389
+          },
+          "start": 3372,
+          "end": 3389
+        },
+        "start": 3368,
+        "end": 3389
+      },
+      "update": {
+        "type": "UpdateExpression",
+        "operator": "++",
+        "prefix": false,
+        "argument": {
+          "type": "Identifier",
+          "name": "i",
+          "start": 3391,
+          "end": 3392
+        },
+        "start": 3391,
+        "end": 3394
+      },
+      "body": {
+        "type": "BlockStatement",
+        "body": [
+          {
+            "type": "VariableDeclaration",
+            "kind": "const",
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "id": {
+                  "type": "Identifier",
+                  "name": "higher",
+                  "start": 3406,
+                  "end": 3412
+                },
+                "init": {
+                  "type": "CallExpression",
+                  "callee": {
+                    "type": "MemberExpression",
+                    "object": {
+                      "type": "NewExpression",
+                      "callee": {
+                        "type": "MemberExpression",
+                        "object": {
+                          "type": "Identifier",
+                          "name": "Intl",
+                          "start": 3419,
+                          "end": 3423
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "name": "Locale",
+                          "start": 3424,
+                          "end": 3430
+                        },
+                        "optional": false,
+                        "computed": false,
+                        "start": 3419,
+                        "end": 3430
+                      },
+                      "arguments": [
+                        {
+                          "type": "MemberExpression",
+                          "object": {
+                            "type": "MemberExpression",
+                            "object": {
+                              "type": "Identifier",
+                              "name": "levels",
+                              "start": 3431,
+                              "end": 3437
+                            },
+                            "property": {
+                              "type": "Identifier",
+                              "name": "i",
+                              "start": 3438,
+                              "end": 3439
+                            },
+                            "optional": false,
+                            "computed": true,
+                            "start": 3431,
+                            "end": 3440
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "name": "region",
+                            "start": 3441,
+                            "end": 3447
+                          },
+                          "optional": false,
+                          "computed": false,
+                          "start": 3431,
+                          "end": 3447
+                        }
+                      ],
+                      "start": 3415,
+                      "end": 3448
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "name": "getHourCycles",
+                      "start": 3449,
+                      "end": 3462
+                    },
+                    "optional": false,
+                    "computed": false,
+                    "start": 3415,
+                    "end": 3462
+                  },
+                  "arguments": [],
+                  "optional": false,
+                  "start": 3415,
+                  "end": 3464
+                },
+                "start": 3406,
+                "end": 3464
+              }
+            ],
+            "start": 3400,
+            "end": 3465
+          },
+          {
+            "type": "VariableDeclaration",
+            "kind": "const",
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "id": {
+                  "type": "Identifier",
+                  "name": "lower",
+                  "start": 3474,
+                  "end": 3479
+                },
+                "init": {
+                  "type": "CallExpression",
+                  "callee": {
+                    "type": "MemberExpression",
+                    "object": {
+                      "type": "NewExpression",
+                      "callee": {
+                        "type": "MemberExpression",
+                        "object": {
+                          "type": "Identifier",
+                          "name": "Intl",
+                          "start": 3486,
+                          "end": 3490
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "name": "Locale",
+                          "start": 3491,
+                          "end": 3497
+                        },
+                        "optional": false,
+                        "computed": false,
+                        "start": 3486,
+                        "end": 3497
+                      },
+                      "arguments": [
+                        {
+                          "type": "MemberExpression",
+                          "object": {
+                            "type": "MemberExpression",
+                            "object": {
+                              "type": "Identifier",
+                              "name": "levels",
+                              "start": 3498,
+                              "end": 3504
+                            },
+                            "property": {
+                              "type": "BinaryExpression",
+                              "left": {
+                                "type": "Identifier",
+                                "name": "i",
+                                "start": 3505,
+                                "end": 3506
+                              },
+                              "operator": "+",
+                              "right": {
+                                "type": "Literal",
+                                "value": 1,
+                                "raw": "1",
+                                "start": 3509,
+                                "end": 3510
+                              },
+                              "start": 3505,
+                              "end": 3510
+                            },
+                            "optional": false,
+                            "computed": true,
+                            "start": 3498,
+                            "end": 3511
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "name": "region",
+                            "start": 3512,
+                            "end": 3518
+                          },
+                          "optional": false,
+                          "computed": false,
+                          "start": 3498,
+                          "end": 3518
+                        }
+                      ],
+                      "start": 3482,
+                      "end": 3519
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "name": "getHourCycles",
+                      "start": 3520,
+                      "end": 3533
+                    },
+                    "optional": false,
+                    "computed": false,
+                    "start": 3482,
+                    "end": 3533
+                  },
+                  "arguments": [],
+                  "optional": false,
+                  "start": 3482,
+                  "end": 3535
+                },
+                "start": 3474,
+                "end": 3535
+              }
+            ],
+            "start": 3468,
+            "end": 3536
+          },
+          {
+            "type": "ExpressionStatement",
+            "expression": {
+              "type": "CallExpression",
+              "callee": {
+                "type": "Identifier",
+                "name": "assert",
+                "start": 3539,
+                "end": 3545
+              },
+              "arguments": [
+                {
+                  "type": "UnaryExpression",
+                  "operator": "!",
+                  "argument": {
+                    "type": "CallExpression",
+                    "callee": {
+                      "type": "Identifier",
+                      "name": "compareArray",
+                      "start": 3552,
+                      "end": 3564
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "name": "higher",
+                        "start": 3565,
+                        "end": 3571
+                      },
+                      {
+                        "type": "Identifier",
+                        "name": "lower",
+                        "start": 3573,
+                        "end": 3578
+                      }
+                    ],
+                    "optional": false,
+                    "start": 3552,
+                    "end": 3579
+                  },
+                  "prefix": true,
+                  "start": 3551,
+                  "end": 3579
+                },
+                {
+                  "type": "BinaryExpression",
+                  "left": {
+                    "type": "TemplateLiteral",
+                    "quasis": [
+                      {
+                        "type": "TemplateElement",
+                        "value": {
+                          "raw": "Inconclusive: ",
+                          "cooked": "Inconclusive: "
+                        },
+                        "tail": false,
+                        "start": 3586,
+                        "end": 3600
+                      },
+                      {
+                        "type": "TemplateElement",
+                        "value": {
+                          "raw": " and ",
+                          "cooked": " and "
+                        },
+                        "tail": false,
+                        "start": 3624,
+                        "end": 3629
+                      },
+                      {
+                        "type": "TemplateElement",
+                        "value": {
+                          "raw": " ",
+                          "cooked": " "
+                        },
+                        "tail": true,
+                        "start": 3657,
+                        "end": 3658
+                      }
+                    ],
+                    "expressions": [
+                      {
+                        "type": "MemberExpression",
+                        "object": {
+                          "type": "MemberExpression",
+                          "object": {
+                            "type": "Identifier",
+                            "name": "levels",
+                            "start": 3602,
+                            "end": 3608
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "name": "i",
+                            "start": 3609,
+                            "end": 3610
+                          },
+                          "optional": false,
+                          "computed": true,
+                          "start": 3602,
+                          "end": 3611
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "name": "description",
+                          "start": 3612,
+                          "end": 3623
+                        },
+                        "optional": false,
+                        "computed": false,
+                        "start": 3602,
+                        "end": 3623
+                      },
+                      {
+                        "type": "MemberExpression",
+                        "object": {
+                          "type": "MemberExpression",
+                          "object": {
+                            "type": "Identifier",
+                            "name": "levels",
+                            "start": 3631,
+                            "end": 3637
+                          },
+                          "property": {
+                            "type": "BinaryExpression",
+                            "left": {
+                              "type": "Identifier",
+                              "name": "i",
+                              "start": 3638,
+                              "end": 3639
+                            },
+                            "operator": "+",
+                            "right": {
+                              "type": "Literal",
+                              "value": 1,
+                              "raw": "1",
+                              "start": 3642,
+                              "end": 3643
+                            },
+                            "start": 3638,
+                            "end": 3643
+                          },
+                          "optional": false,
+                          "computed": true,
+                          "start": 3631,
+                          "end": 3644
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "name": "description",
+                          "start": 3645,
+                          "end": 3656
+                        },
+                        "optional": false,
+                        "computed": false,
+                        "start": 3631,
+                        "end": 3656
+                      }
+                    ],
+                    "start": 3585,
+                    "end": 3659
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "Literal",
+                    "value": "select regions with identical hour cycles in this implementation. Consider updating the test data",
+                    "raw": "\"select regions with identical hour cycles in this implementation. Consider updating the test data\"",
+                    "start": 3666,
+                    "end": 3765
+                  },
+                  "start": 3585,
+                  "end": 3765
+                }
+              ],
+              "optional": false,
+              "start": 3539,
+              "end": 3769
+            },
+            "start": 3539,
+            "end": 3770
+          }
+        ],
+        "start": 3396,
+        "end": 3772
+      },
+      "start": 3352,
+      "end": 3772
+    },
+    {
+      "type": "ForOfStatement",
+      "await": false,
+      "left": {
+        "type": "VariableDeclaration",
+        "kind": "const",
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "id": {
+              "type": "ObjectPattern",
+              "properties": [
+                {
+                  "type": "Property",
+                  "kind": "init",
+                  "key": {
+                    "type": "Identifier",
+                    "name": "description",
+                    "start": 3787,
+                    "end": 3798
+                  },
+                  "value": {
+                    "type": "Identifier",
+                    "name": "description",
+                    "start": 3787,
+                    "end": 3798
+                  },
+                  "method": false,
+                  "shorthand": true,
+                  "computed": false,
+                  "start": 3787,
+                  "end": 3798
+                },
+                {
+                  "type": "Property",
+                  "kind": "init",
+                  "key": {
+                    "type": "Identifier",
+                    "name": "locale",
+                    "start": 3800,
+                    "end": 3806
+                  },
+                  "value": {
+                    "type": "Identifier",
+                    "name": "locale",
+                    "start": 3800,
+                    "end": 3806
+                  },
+                  "method": false,
+                  "shorthand": true,
+                  "computed": false,
+                  "start": 3800,
+                  "end": 3806
+                },
+                {
+                  "type": "Property",
+                  "kind": "init",
+                  "key": {
+                    "type": "Identifier",
+                    "name": "region",
+                    "start": 3808,
+                    "end": 3814
+                  },
+                  "value": {
+                    "type": "Identifier",
+                    "name": "region",
+                    "start": 3808,
+                    "end": 3814
+                  },
+                  "method": false,
+                  "shorthand": true,
+                  "computed": false,
+                  "start": 3808,
+                  "end": 3814
+                }
+              ],
+              "start": 3785,
+              "end": 3816
+            },
+            "init": null,
+            "start": 3785,
+            "end": 3816
+          }
+        ],
+        "start": 3779,
+        "end": 3816
+      },
+      "right": {
+        "type": "Identifier",
+        "name": "levels",
+        "start": 3820,
+        "end": 3826
+      },
+      "body": {
+        "type": "BlockStatement",
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "expression": {
+              "type": "CallExpression",
+              "callee": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "assert",
+                  "start": 3832,
+                  "end": 3838
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "compareArray",
+                  "start": 3839,
+                  "end": 3851
+                },
+                "optional": false,
+                "computed": false,
+                "start": 3832,
+                "end": 3851
+              },
+              "arguments": [
+                {
+                  "type": "CallExpression",
+                  "callee": {
+                    "type": "MemberExpression",
+                    "object": {
+                      "type": "NewExpression",
+                      "callee": {
+                        "type": "MemberExpression",
+                        "object": {
+                          "type": "Identifier",
+                          "name": "Intl",
+                          "start": 3861,
+                          "end": 3865
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "name": "Locale",
+                          "start": 3866,
+                          "end": 3872
+                        },
+                        "optional": false,
+                        "computed": false,
+                        "start": 3861,
+                        "end": 3872
+                      },
+                      "arguments": [
+                        {
+                          "type": "Identifier",
+                          "name": "locale",
+                          "start": 3873,
+                          "end": 3879
+                        }
+                      ],
+                      "start": 3857,
+                      "end": 3880
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "name": "getHourCycles",
+                      "start": 3881,
+                      "end": 3894
+                    },
+                    "optional": false,
+                    "computed": false,
+                    "start": 3857,
+                    "end": 3894
+                  },
+                  "arguments": [],
+                  "optional": false,
+                  "start": 3857,
+                  "end": 3896
+                },
+                {
+                  "type": "CallExpression",
+                  "callee": {
+                    "type": "MemberExpression",
+                    "object": {
+                      "type": "NewExpression",
+                      "callee": {
+                        "type": "MemberExpression",
+                        "object": {
+                          "type": "Identifier",
+                          "name": "Intl",
+                          "start": 3906,
+                          "end": 3910
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "name": "Locale",
+                          "start": 3911,
+                          "end": 3917
+                        },
+                        "optional": false,
+                        "computed": false,
+                        "start": 3906,
+                        "end": 3917
+                      },
+                      "arguments": [
+                        {
+                          "type": "Identifier",
+                          "name": "region",
+                          "start": 3918,
+                          "end": 3924
+                        }
+                      ],
+                      "start": 3902,
+                      "end": 3925
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "name": "getHourCycles",
+                      "start": 3926,
+                      "end": 3939
+                    },
+                    "optional": false,
+                    "computed": false,
+                    "start": 3902,
+                    "end": 3939
+                  },
+                  "arguments": [],
+                  "optional": false,
+                  "start": 3902,
+                  "end": 3941
+                },
+                {
+                  "type": "TemplateLiteral",
+                  "quasis": [
+                    {
+                      "type": "TemplateElement",
+                      "value": {
+                        "raw": "getHourCycles() for \"",
+                        "cooked": "getHourCycles() for \""
+                      },
+                      "tail": false,
+                      "start": 3948,
+                      "end": 3969
+                    },
+                    {
+                      "type": "TemplateElement",
+                      "value": {
+                        "raw": "\" should use ",
+                        "cooked": "\" should use "
+                      },
+                      "tail": false,
+                      "start": 3978,
+                      "end": 3991
+                    },
+                    {
+                      "type": "TemplateElement",
+                      "value": {
+                        "raw": ", like \"",
+                        "cooked": ", like \""
+                      },
+                      "tail": false,
+                      "start": 4005,
+                      "end": 4013
+                    },
+                    {
+                      "type": "TemplateElement",
+                      "value": {
+                        "raw": "\"",
+                        "cooked": "\""
+                      },
+                      "tail": true,
+                      "start": 4022,
+                      "end": 4023
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "name": "locale",
+                      "start": 3971,
+                      "end": 3977
+                    },
+                    {
+                      "type": "Identifier",
+                      "name": "description",
+                      "start": 3993,
+                      "end": 4004
+                    },
+                    {
+                      "type": "Identifier",
+                      "name": "region",
+                      "start": 4015,
+                      "end": 4021
+                    }
+                  ],
+                  "start": 3947,
+                  "end": 4024
+                }
+              ],
+              "optional": false,
+              "start": 3832,
+              "end": 4028
+            },
+            "start": 3832,
+            "end": 4029
+          }
+        ],
+        "start": 3828,
+        "end": 4031
+      },
+      "start": 3774,
+      "end": 4031
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 4032
+}

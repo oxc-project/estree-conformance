@@ -1,0 +1,119 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 348,
+            "end": 354
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 355,
+            "end": 364
+          },
+          "optional": false,
+          "computed": false,
+          "start": 348,
+          "end": 364
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "Object",
+                "start": 365,
+                "end": 371
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "getPrototypeOf",
+                "start": 372,
+                "end": 386
+              },
+              "optional": false,
+              "computed": false,
+              "start": 365,
+              "end": 386
+            },
+            "arguments": [
+              {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "MemberExpression",
+                  "object": {
+                    "type": "Identifier",
+                    "name": "Iterator",
+                    "start": 387,
+                    "end": 395
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "name": "prototype",
+                    "start": 396,
+                    "end": 405
+                  },
+                  "optional": false,
+                  "computed": false,
+                  "start": 387,
+                  "end": 405
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "chunks",
+                  "start": 406,
+                  "end": 412
+                },
+                "optional": false,
+                "computed": false,
+                "start": 387,
+                "end": 412
+              }
+            ],
+            "optional": false,
+            "start": 365,
+            "end": 413
+          },
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "Identifier",
+              "name": "Function",
+              "start": 415,
+              "end": 423
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "prototype",
+              "start": 424,
+              "end": 433
+            },
+            "optional": false,
+            "computed": false,
+            "start": 415,
+            "end": 433
+          }
+        ],
+        "optional": false,
+        "start": 348,
+        "end": 434
+      },
+      "start": 348,
+      "end": 435
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 436
+}

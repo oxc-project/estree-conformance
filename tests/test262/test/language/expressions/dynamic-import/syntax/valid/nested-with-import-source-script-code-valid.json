@@ -1,0 +1,87 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "kind": "var",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "smoosh",
+            "start": 1293,
+            "end": 1299
+          },
+          "init": null,
+          "start": 1293,
+          "end": 1299
+        }
+      ],
+      "start": 1289,
+      "end": 1300
+    },
+    {
+      "type": "FunctionDeclaration",
+      "id": {
+        "type": "Identifier",
+        "name": "smoosh",
+        "start": 1310,
+        "end": 1316
+      },
+      "generator": false,
+      "async": false,
+      "params": [],
+      "body": {
+        "type": "BlockStatement",
+        "body": [],
+        "start": 1319,
+        "end": 1321
+      },
+      "expression": false,
+      "start": 1301,
+      "end": 1321
+    },
+    {
+      "type": "WithStatement",
+      "object": {
+        "type": "ObjectExpression",
+        "properties": [],
+        "start": 1330,
+        "end": 1332
+      },
+      "body": {
+        "type": "BlockStatement",
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "expression": {
+              "type": "ImportExpression",
+              "source": {
+                "type": "Literal",
+                "value": "<module source>",
+                "raw": "'<module source>'",
+                "start": 1352,
+                "end": 1369
+              },
+              "options": null,
+              "phase": "source",
+              "start": 1338,
+              "end": 1370
+            },
+            "start": 1338,
+            "end": 1371
+          }
+        ],
+        "start": 1334,
+        "end": 1373
+      },
+      "start": 1324,
+      "end": 1373
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 1374
+}

@@ -1,0 +1,175 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "FunctionDeclaration",
+      "id": {
+        "type": "Identifier",
+        "name": "g",
+        "start": 575,
+        "end": 576
+      },
+      "generator": true,
+      "async": false,
+      "params": [],
+      "body": {
+        "type": "BlockStatement",
+        "body": [],
+        "start": 579,
+        "end": 581
+      },
+      "expression": false,
+      "start": 565,
+      "end": 581
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "let",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "chunks",
+            "start": 587,
+            "end": 593
+          },
+          "init": {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "Array",
+                "start": 596,
+                "end": 601
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "from",
+                "start": 602,
+                "end": 606
+              },
+              "optional": false,
+              "computed": false,
+              "start": 596,
+              "end": 606
+            },
+            "arguments": [
+              {
+                "type": "CallExpression",
+                "callee": {
+                  "type": "MemberExpression",
+                  "object": {
+                    "type": "CallExpression",
+                    "callee": {
+                      "type": "Identifier",
+                      "name": "g",
+                      "start": 607,
+                      "end": 608
+                    },
+                    "arguments": [],
+                    "optional": false,
+                    "start": 607,
+                    "end": 610
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "name": "chunks",
+                    "start": 611,
+                    "end": 617
+                  },
+                  "optional": false,
+                  "computed": false,
+                  "start": 607,
+                  "end": 617
+                },
+                "arguments": [
+                  {
+                    "type": "Literal",
+                    "value": 2,
+                    "raw": "2",
+                    "start": 618,
+                    "end": 619
+                  }
+                ],
+                "optional": false,
+                "start": 607,
+                "end": 620
+              }
+            ],
+            "optional": false,
+            "start": 596,
+            "end": 621
+          },
+          "start": 587,
+          "end": 621
+        }
+      ],
+      "start": 583,
+      "end": 622
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 623,
+            "end": 629
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 630,
+            "end": 639
+          },
+          "optional": false,
+          "computed": false,
+          "start": 623,
+          "end": 639
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "Identifier",
+              "name": "chunks",
+              "start": 640,
+              "end": 646
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "length",
+              "start": 647,
+              "end": 653
+            },
+            "optional": false,
+            "computed": false,
+            "start": 640,
+            "end": 653
+          },
+          {
+            "type": "Literal",
+            "value": 0,
+            "raw": "0",
+            "start": 655,
+            "end": 656
+          }
+        ],
+        "optional": false,
+        "start": 623,
+        "end": 657
+      },
+      "start": 623,
+      "end": 658
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 659
+}

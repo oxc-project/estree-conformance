@@ -1,0 +1,175 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ImportDeclaration",
+      "specifiers": [
+        {
+          "type": "ImportNamespaceSpecifier",
+          "local": {
+            "type": "Identifier",
+            "name": "ns",
+            "start": 829,
+            "end": 831
+          },
+          "start": 824,
+          "end": 831
+        }
+      ],
+      "source": {
+        "type": "Literal",
+        "value": "./dep_FIXTURE.js",
+        "raw": "\"./dep_FIXTURE.js\"",
+        "start": 837,
+        "end": 855
+      },
+      "phase": "defer",
+      "attributes": [],
+      "start": 811,
+      "end": 856
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "Identifier",
+          "name": "verifyProperty",
+          "start": 858,
+          "end": 872
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "name": "ns",
+            "start": 873,
+            "end": 875
+          },
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "Identifier",
+              "name": "Symbol",
+              "start": 877,
+              "end": 883
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "toStringTag",
+              "start": 884,
+              "end": 895
+            },
+            "optional": false,
+            "computed": false,
+            "start": 877,
+            "end": 895
+          },
+          {
+            "type": "ObjectExpression",
+            "properties": [
+              {
+                "type": "Property",
+                "kind": "init",
+                "key": {
+                  "type": "Identifier",
+                  "name": "value",
+                  "start": 901,
+                  "end": 906
+                },
+                "value": {
+                  "type": "Literal",
+                  "value": "Deferred Module",
+                  "raw": "\"Deferred Module\"",
+                  "start": 908,
+                  "end": 925
+                },
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "start": 901,
+                "end": 925
+              },
+              {
+                "type": "Property",
+                "kind": "init",
+                "key": {
+                  "type": "Identifier",
+                  "name": "writable",
+                  "start": 929,
+                  "end": 937
+                },
+                "value": {
+                  "type": "Literal",
+                  "value": false,
+                  "raw": "false",
+                  "start": 939,
+                  "end": 944
+                },
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "start": 929,
+                "end": 944
+              },
+              {
+                "type": "Property",
+                "kind": "init",
+                "key": {
+                  "type": "Identifier",
+                  "name": "enumerable",
+                  "start": 948,
+                  "end": 958
+                },
+                "value": {
+                  "type": "Literal",
+                  "value": false,
+                  "raw": "false",
+                  "start": 960,
+                  "end": 965
+                },
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "start": 948,
+                "end": 965
+              },
+              {
+                "type": "Property",
+                "kind": "init",
+                "key": {
+                  "type": "Identifier",
+                  "name": "configurable",
+                  "start": 969,
+                  "end": 981
+                },
+                "value": {
+                  "type": "Literal",
+                  "value": false,
+                  "raw": "false",
+                  "start": 983,
+                  "end": 988
+                },
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "start": 969,
+                "end": 988
+              }
+            ],
+            "start": 897,
+            "end": 991
+          }
+        ],
+        "optional": false,
+        "start": 858,
+        "end": 992
+      },
+      "start": 858,
+      "end": 993
+    }
+  ],
+  "sourceType": "module",
+  "hashbang": null,
+  "start": 0,
+  "end": 994
+}

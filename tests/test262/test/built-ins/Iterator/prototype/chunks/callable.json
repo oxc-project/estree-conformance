@@ -1,0 +1,179 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "FunctionDeclaration",
+      "id": {
+        "type": "Identifier",
+        "name": "g",
+        "start": 286,
+        "end": 287
+      },
+      "generator": true,
+      "async": false,
+      "params": [],
+      "body": {
+        "type": "BlockStatement",
+        "body": [],
+        "start": 290,
+        "end": 292
+      },
+      "expression": false,
+      "start": 276,
+      "end": 292
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "MemberExpression",
+            "object": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "Iterator",
+                "start": 293,
+                "end": 301
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "prototype",
+                "start": 302,
+                "end": 311
+              },
+              "optional": false,
+              "computed": false,
+              "start": 293,
+              "end": 311
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "chunks",
+              "start": 312,
+              "end": 318
+            },
+            "optional": false,
+            "computed": false,
+            "start": 293,
+            "end": 318
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "call",
+            "start": 319,
+            "end": 323
+          },
+          "optional": false,
+          "computed": false,
+          "start": 293,
+          "end": 323
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "callee": {
+              "type": "Identifier",
+              "name": "g",
+              "start": 324,
+              "end": 325
+            },
+            "arguments": [],
+            "optional": false,
+            "start": 324,
+            "end": 327
+          },
+          {
+            "type": "Literal",
+            "value": 1,
+            "raw": "1",
+            "start": 329,
+            "end": 330
+          }
+        ],
+        "optional": false,
+        "start": 293,
+        "end": 331
+      },
+      "start": 293,
+      "end": 332
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "let",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "iter",
+            "start": 338,
+            "end": 342
+          },
+          "init": {
+            "type": "CallExpression",
+            "callee": {
+              "type": "Identifier",
+              "name": "g",
+              "start": 345,
+              "end": 346
+            },
+            "arguments": [],
+            "optional": false,
+            "start": 345,
+            "end": 348
+          },
+          "start": 338,
+          "end": 348
+        }
+      ],
+      "start": 334,
+      "end": 349
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "iter",
+            "start": 350,
+            "end": 354
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "chunks",
+            "start": 355,
+            "end": 361
+          },
+          "optional": false,
+          "computed": false,
+          "start": 350,
+          "end": 361
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "value": 1,
+            "raw": "1",
+            "start": 362,
+            "end": 363
+          }
+        ],
+        "optional": false,
+        "start": 350,
+        "end": 364
+      },
+      "start": 350,
+      "end": 365
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 366
+}

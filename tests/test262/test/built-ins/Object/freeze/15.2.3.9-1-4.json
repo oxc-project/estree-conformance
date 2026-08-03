@@ -9,40 +9,74 @@
           "type": "MemberExpression",
           "object": {
             "type": "Identifier",
-            "name": "Object",
+            "name": "assert",
             "start": 274,
             "end": 280
           },
           "property": {
             "type": "Identifier",
-            "name": "freeze",
+            "name": "sameValue",
             "start": 281,
-            "end": 287
+            "end": 290
           },
           "optional": false,
           "computed": false,
           "start": 274,
-          "end": 287
+          "end": 290
         },
         "arguments": [
+          {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "Object",
+                "start": 291,
+                "end": 297
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "freeze",
+                "start": 298,
+                "end": 304
+              },
+              "optional": false,
+              "computed": false,
+              "start": 291,
+              "end": 304
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "value": "abc",
+                "raw": "\"abc\"",
+                "start": 305,
+                "end": 310
+              }
+            ],
+            "optional": false,
+            "start": 291,
+            "end": 311
+          },
           {
             "type": "Literal",
             "value": "abc",
             "raw": "\"abc\"",
-            "start": 288,
-            "end": 293
+            "start": 313,
+            "end": 318
           }
         ],
         "optional": false,
         "start": 274,
-        "end": 294
+        "end": 319
       },
       "start": 274,
-      "end": 295
+      "end": 320
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 296
+  "end": 321
 }

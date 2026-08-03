@@ -1,0 +1,54 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "Identifier",
+          "name": "$DONOTEVALUATE",
+          "start": 515,
+          "end": 529
+        },
+        "arguments": [],
+        "optional": false,
+        "start": 515,
+        "end": 531
+      },
+      "start": 515,
+      "end": 532
+    },
+    {
+      "type": "ImportDeclaration",
+      "specifiers": [
+        {
+          "type": "ImportNamespaceSpecifier",
+          "local": {
+            "type": "Identifier",
+            "name": "ns",
+            "start": 552,
+            "end": 554
+          },
+          "start": 547,
+          "end": 554
+        }
+      ],
+      "source": {
+        "type": "Literal",
+        "value": "./syntax-error_FIXTURE.js",
+        "raw": "\"./syntax-error_FIXTURE.js\"",
+        "start": 560,
+        "end": 587
+      },
+      "phase": "defer",
+      "attributes": [],
+      "start": 534,
+      "end": 588
+    }
+  ],
+  "sourceType": "module",
+  "hashbang": null,
+  "start": 0,
+  "end": 589
+}

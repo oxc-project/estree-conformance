@@ -1,0 +1,325 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ImportDeclaration",
+      "specifiers": [
+        {
+          "type": "ImportSpecifier",
+          "imported": {
+            "type": "Identifier",
+            "name": "aStarted",
+            "start": 3289,
+            "end": 3297
+          },
+          "local": {
+            "type": "Identifier",
+            "name": "aStarted",
+            "start": 3289,
+            "end": 3297
+          },
+          "start": 3289,
+          "end": 3297
+        }
+      ],
+      "source": {
+        "type": "Literal",
+        "value": "./setup_FIXTURE.js",
+        "raw": "\"./setup_FIXTURE.js\"",
+        "start": 3305,
+        "end": 3325
+      },
+      "phase": null,
+      "attributes": [],
+      "start": 3280,
+      "end": 3326
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "pA",
+            "start": 3334,
+            "end": 3336
+          },
+          "init": {
+            "type": "ImportExpression",
+            "source": {
+              "type": "Literal",
+              "value": "./a-tla_FIXTURE.js",
+              "raw": "\"./a-tla_FIXTURE.js\"",
+              "start": 3346,
+              "end": 3366
+            },
+            "options": null,
+            "phase": null,
+            "start": 3339,
+            "end": 3367
+          },
+          "start": 3334,
+          "end": 3367
+        }
+      ],
+      "start": 3328,
+      "end": 3368
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "AwaitExpression",
+        "argument": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "aStarted",
+            "start": 3531,
+            "end": 3539
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "promise",
+            "start": 3540,
+            "end": 3547
+          },
+          "optional": false,
+          "computed": false,
+          "start": 3531,
+          "end": 3547
+        },
+        "start": 3525,
+        "end": 3547
+      },
+      "start": 3525,
+      "end": 3548
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "pC",
+            "start": 3556,
+            "end": 3558
+          },
+          "init": {
+            "type": "ImportExpression",
+            "source": {
+              "type": "Literal",
+              "value": "./c_FIXTURE.js",
+              "raw": "\"./c_FIXTURE.js\"",
+              "start": 3568,
+              "end": 3584
+            },
+            "options": null,
+            "phase": null,
+            "start": 3561,
+            "end": 3585
+          },
+          "start": 3556,
+          "end": 3585
+        }
+      ],
+      "start": 3550,
+      "end": 3586
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "AwaitExpression",
+        "argument": {
+          "type": "CallExpression",
+          "callee": {
+            "type": "MemberExpression",
+            "object": {
+              "type": "Identifier",
+              "name": "Promise",
+              "start": 3594,
+              "end": 3601
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "all",
+              "start": 3602,
+              "end": 3605
+            },
+            "optional": false,
+            "computed": false,
+            "start": 3594,
+            "end": 3605
+          },
+          "arguments": [
+            {
+              "type": "ArrayExpression",
+              "elements": [
+                {
+                  "type": "Identifier",
+                  "name": "pA",
+                  "start": 3607,
+                  "end": 3609
+                },
+                {
+                  "type": "Identifier",
+                  "name": "pC",
+                  "start": 3611,
+                  "end": 3613
+                }
+              ],
+              "start": 3606,
+              "end": 3614
+            }
+          ],
+          "optional": false,
+          "start": 3594,
+          "end": 3615
+        },
+        "start": 3588,
+        "end": 3615
+      },
+      "start": 3588,
+      "end": 3616
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 3618,
+            "end": 3624
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "compareArray",
+            "start": 3625,
+            "end": 3637
+          },
+          "optional": false,
+          "computed": false,
+          "start": 3618,
+          "end": 3637
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "Identifier",
+              "name": "globalThis",
+              "start": 3638,
+              "end": 3648
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "evaluations",
+              "start": 3649,
+              "end": 3660
+            },
+            "optional": false,
+            "computed": false,
+            "start": 3638,
+            "end": 3660
+          },
+          {
+            "type": "ArrayExpression",
+            "elements": [
+              {
+                "type": "Literal",
+                "value": "B",
+                "raw": "\"B\"",
+                "start": 3666,
+                "end": 3669
+              },
+              {
+                "type": "Literal",
+                "value": "A-before-await",
+                "raw": "\"A-before-await\"",
+                "start": 3673,
+                "end": 3689
+              },
+              {
+                "type": "Literal",
+                "value": "resolve-blocker",
+                "raw": "\"resolve-blocker\"",
+                "start": 3693,
+                "end": 3710
+              },
+              {
+                "type": "Literal",
+                "value": "A-after-await",
+                "raw": "\"A-after-await\"",
+                "start": 3714,
+                "end": 3729
+              },
+              {
+                "type": "Literal",
+                "value": "Middle-before-nsD.z",
+                "raw": "\"Middle-before-nsD.z\"",
+                "start": 3733,
+                "end": 3754
+              },
+              {
+                "type": "Literal",
+                "value": "D",
+                "raw": "\"D\"",
+                "start": 3758,
+                "end": 3761
+              },
+              {
+                "type": "Literal",
+                "value": "Middle-after-nsD.z",
+                "raw": "\"Middle-after-nsD.z\"",
+                "start": 3765,
+                "end": 3785
+              },
+              {
+                "type": "Literal",
+                "value": "C",
+                "raw": "\"C\"",
+                "start": 3789,
+                "end": 3792
+              }
+            ],
+            "start": 3662,
+            "end": 3795
+          }
+        ],
+        "optional": false,
+        "start": 3618,
+        "end": 3796
+      },
+      "start": 3618,
+      "end": 3797
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "Identifier",
+          "name": "$DONE",
+          "start": 3799,
+          "end": 3804
+        },
+        "arguments": [],
+        "optional": false,
+        "start": 3799,
+        "end": 3806
+      },
+      "start": 3799,
+      "end": 3807
+    }
+  ],
+  "sourceType": "module",
+  "hashbang": null,
+  "start": 0,
+  "end": 3808
+}

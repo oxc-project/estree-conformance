@@ -1,0 +1,722 @@
+[
+  {
+    "type": "Keyword",
+    "value": "function",
+    "start": 409,
+    "end": 417
+  },
+  {
+    "type": "Punctuator",
+    "value": "*",
+    "start": 417,
+    "end": 418
+  },
+  {
+    "type": "Identifier",
+    "value": "g",
+    "start": 419,
+    "end": 420
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 420,
+    "end": 421
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 421,
+    "end": 422
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 423,
+    "end": 424
+  },
+  {
+    "type": "Keyword",
+    "value": "yield",
+    "start": 427,
+    "end": 432
+  },
+  {
+    "type": "Numeric",
+    "value": "0",
+    "start": 433,
+    "end": 434
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 434,
+    "end": 435
+  },
+  {
+    "type": "Keyword",
+    "value": "yield",
+    "start": 438,
+    "end": 443
+  },
+  {
+    "type": "Numeric",
+    "value": "1",
+    "start": 444,
+    "end": 445
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 445,
+    "end": 446
+  },
+  {
+    "type": "Keyword",
+    "value": "yield",
+    "start": 449,
+    "end": 454
+  },
+  {
+    "type": "Numeric",
+    "value": "2",
+    "start": 455,
+    "end": 456
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 456,
+    "end": 457
+  },
+  {
+    "type": "Keyword",
+    "value": "yield",
+    "start": 460,
+    "end": 465
+  },
+  {
+    "type": "Numeric",
+    "value": "3",
+    "start": 466,
+    "end": 467
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 467,
+    "end": 468
+  },
+  {
+    "type": "Keyword",
+    "value": "yield",
+    "start": 471,
+    "end": 476
+  },
+  {
+    "type": "Numeric",
+    "value": "4",
+    "start": 477,
+    "end": 478
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 478,
+    "end": 479
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 480,
+    "end": 481
+  },
+  {
+    "type": "Keyword",
+    "value": "let",
+    "start": 483,
+    "end": 486
+  },
+  {
+    "type": "Identifier",
+    "value": "windows",
+    "start": 487,
+    "end": 494
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 495,
+    "end": 496
+  },
+  {
+    "type": "Identifier",
+    "value": "Array",
+    "start": 497,
+    "end": 502
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 502,
+    "end": 503
+  },
+  {
+    "type": "Identifier",
+    "value": "from",
+    "start": 503,
+    "end": 507
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 507,
+    "end": 508
+  },
+  {
+    "type": "Identifier",
+    "value": "g",
+    "start": 508,
+    "end": 509
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 509,
+    "end": 510
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 510,
+    "end": 511
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 511,
+    "end": 512
+  },
+  {
+    "type": "Identifier",
+    "value": "windows",
+    "start": 512,
+    "end": 519
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 519,
+    "end": 520
+  },
+  {
+    "type": "Numeric",
+    "value": "1",
+    "start": 520,
+    "end": 521
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 521,
+    "end": 522
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 522,
+    "end": 523
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 523,
+    "end": 524
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 526,
+    "end": 532
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 532,
+    "end": 533
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 533,
+    "end": 542
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 542,
+    "end": 543
+  },
+  {
+    "type": "Identifier",
+    "value": "windows",
+    "start": 543,
+    "end": 550
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 550,
+    "end": 551
+  },
+  {
+    "type": "Identifier",
+    "value": "length",
+    "start": 551,
+    "end": 557
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 557,
+    "end": 558
+  },
+  {
+    "type": "Numeric",
+    "value": "5",
+    "start": 559,
+    "end": 560
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 560,
+    "end": 561
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 561,
+    "end": 562
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 563,
+    "end": 569
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 569,
+    "end": 570
+  },
+  {
+    "type": "Identifier",
+    "value": "compareArray",
+    "start": 570,
+    "end": 582
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 582,
+    "end": 583
+  },
+  {
+    "type": "Identifier",
+    "value": "windows",
+    "start": 583,
+    "end": 590
+  },
+  {
+    "type": "Punctuator",
+    "value": "[",
+    "start": 590,
+    "end": 591
+  },
+  {
+    "type": "Numeric",
+    "value": "0",
+    "start": 591,
+    "end": 592
+  },
+  {
+    "type": "Punctuator",
+    "value": "]",
+    "start": 592,
+    "end": 593
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 593,
+    "end": 594
+  },
+  {
+    "type": "Punctuator",
+    "value": "[",
+    "start": 595,
+    "end": 596
+  },
+  {
+    "type": "Numeric",
+    "value": "0",
+    "start": 596,
+    "end": 597
+  },
+  {
+    "type": "Punctuator",
+    "value": "]",
+    "start": 597,
+    "end": 598
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 598,
+    "end": 599
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 599,
+    "end": 600
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 601,
+    "end": 607
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 607,
+    "end": 608
+  },
+  {
+    "type": "Identifier",
+    "value": "compareArray",
+    "start": 608,
+    "end": 620
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 620,
+    "end": 621
+  },
+  {
+    "type": "Identifier",
+    "value": "windows",
+    "start": 621,
+    "end": 628
+  },
+  {
+    "type": "Punctuator",
+    "value": "[",
+    "start": 628,
+    "end": 629
+  },
+  {
+    "type": "Numeric",
+    "value": "1",
+    "start": 629,
+    "end": 630
+  },
+  {
+    "type": "Punctuator",
+    "value": "]",
+    "start": 630,
+    "end": 631
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 631,
+    "end": 632
+  },
+  {
+    "type": "Punctuator",
+    "value": "[",
+    "start": 633,
+    "end": 634
+  },
+  {
+    "type": "Numeric",
+    "value": "1",
+    "start": 634,
+    "end": 635
+  },
+  {
+    "type": "Punctuator",
+    "value": "]",
+    "start": 635,
+    "end": 636
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 636,
+    "end": 637
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 637,
+    "end": 638
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 639,
+    "end": 645
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 645,
+    "end": 646
+  },
+  {
+    "type": "Identifier",
+    "value": "compareArray",
+    "start": 646,
+    "end": 658
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 658,
+    "end": 659
+  },
+  {
+    "type": "Identifier",
+    "value": "windows",
+    "start": 659,
+    "end": 666
+  },
+  {
+    "type": "Punctuator",
+    "value": "[",
+    "start": 666,
+    "end": 667
+  },
+  {
+    "type": "Numeric",
+    "value": "2",
+    "start": 667,
+    "end": 668
+  },
+  {
+    "type": "Punctuator",
+    "value": "]",
+    "start": 668,
+    "end": 669
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 669,
+    "end": 670
+  },
+  {
+    "type": "Punctuator",
+    "value": "[",
+    "start": 671,
+    "end": 672
+  },
+  {
+    "type": "Numeric",
+    "value": "2",
+    "start": 672,
+    "end": 673
+  },
+  {
+    "type": "Punctuator",
+    "value": "]",
+    "start": 673,
+    "end": 674
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 674,
+    "end": 675
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 675,
+    "end": 676
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 677,
+    "end": 683
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 683,
+    "end": 684
+  },
+  {
+    "type": "Identifier",
+    "value": "compareArray",
+    "start": 684,
+    "end": 696
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 696,
+    "end": 697
+  },
+  {
+    "type": "Identifier",
+    "value": "windows",
+    "start": 697,
+    "end": 704
+  },
+  {
+    "type": "Punctuator",
+    "value": "[",
+    "start": 704,
+    "end": 705
+  },
+  {
+    "type": "Numeric",
+    "value": "3",
+    "start": 705,
+    "end": 706
+  },
+  {
+    "type": "Punctuator",
+    "value": "]",
+    "start": 706,
+    "end": 707
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 707,
+    "end": 708
+  },
+  {
+    "type": "Punctuator",
+    "value": "[",
+    "start": 709,
+    "end": 710
+  },
+  {
+    "type": "Numeric",
+    "value": "3",
+    "start": 710,
+    "end": 711
+  },
+  {
+    "type": "Punctuator",
+    "value": "]",
+    "start": 711,
+    "end": 712
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 712,
+    "end": 713
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 713,
+    "end": 714
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 715,
+    "end": 721
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 721,
+    "end": 722
+  },
+  {
+    "type": "Identifier",
+    "value": "compareArray",
+    "start": 722,
+    "end": 734
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 734,
+    "end": 735
+  },
+  {
+    "type": "Identifier",
+    "value": "windows",
+    "start": 735,
+    "end": 742
+  },
+  {
+    "type": "Punctuator",
+    "value": "[",
+    "start": 742,
+    "end": 743
+  },
+  {
+    "type": "Numeric",
+    "value": "4",
+    "start": 743,
+    "end": 744
+  },
+  {
+    "type": "Punctuator",
+    "value": "]",
+    "start": 744,
+    "end": 745
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 745,
+    "end": 746
+  },
+  {
+    "type": "Punctuator",
+    "value": "[",
+    "start": 747,
+    "end": 748
+  },
+  {
+    "type": "Numeric",
+    "value": "4",
+    "start": 748,
+    "end": 749
+  },
+  {
+    "type": "Punctuator",
+    "value": "]",
+    "start": 749,
+    "end": 750
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 750,
+    "end": 751
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 751,
+    "end": 752
+  }
+]

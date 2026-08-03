@@ -9,39 +9,72 @@
           "type": "MemberExpression",
           "object": {
             "type": "Identifier",
-            "name": "Object",
+            "name": "assert",
             "start": 267,
             "end": 273
           },
           "property": {
             "type": "Identifier",
-            "name": "freeze",
+            "name": "sameValue",
             "start": 274,
-            "end": 280
+            "end": 283
           },
           "optional": false,
           "computed": false,
           "start": 267,
-          "end": 280
+          "end": 283
         },
         "arguments": [
           {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "Object",
+                "start": 284,
+                "end": 290
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "freeze",
+                "start": 291,
+                "end": 297
+              },
+              "optional": false,
+              "computed": false,
+              "start": 284,
+              "end": 297
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "name": "undefined",
+                "start": 298,
+                "end": 307
+              }
+            ],
+            "optional": false,
+            "start": 284,
+            "end": 308
+          },
+          {
             "type": "Identifier",
             "name": "undefined",
-            "start": 281,
-            "end": 290
+            "start": 310,
+            "end": 319
           }
         ],
         "optional": false,
         "start": 267,
-        "end": 291
+        "end": 320
       },
       "start": 267,
-      "end": 292
+      "end": 321
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 293
+  "end": 322
 }

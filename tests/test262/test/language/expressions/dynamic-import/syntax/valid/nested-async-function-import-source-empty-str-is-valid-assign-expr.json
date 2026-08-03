@@ -1,0 +1,50 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "FunctionDeclaration",
+      "id": {
+        "type": "Identifier",
+        "name": "f",
+        "start": 1136,
+        "end": 1137
+      },
+      "generator": false,
+      "async": true,
+      "params": [],
+      "body": {
+        "type": "BlockStatement",
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "expression": {
+              "type": "ImportExpression",
+              "source": {
+                "type": "Literal",
+                "value": "<module source>",
+                "raw": "'<module source>'",
+                "start": 1158,
+                "end": 1175
+              },
+              "options": null,
+              "phase": "source",
+              "start": 1144,
+              "end": 1176
+            },
+            "start": 1144,
+            "end": 1177
+          }
+        ],
+        "start": 1140,
+        "end": 1179
+      },
+      "expression": false,
+      "start": 1121,
+      "end": 1179
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 1181
+}

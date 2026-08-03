@@ -1,0 +1,36 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ImportDeclaration",
+      "specifiers": [
+        {
+          "type": "ImportNamespaceSpecifier",
+          "local": {
+            "type": "Identifier",
+            "name": "ns",
+            "start": 492,
+            "end": 494
+          },
+          "start": 487,
+          "end": 494
+        }
+      ],
+      "source": {
+        "type": "Literal",
+        "value": "./dep_FIXTURE.js",
+        "raw": "\"./dep_FIXTURE.js\"",
+        "start": 500,
+        "end": 518
+      },
+      "phase": "defer",
+      "attributes": [],
+      "start": 474,
+      "end": 519
+    }
+  ],
+  "sourceType": "module",
+  "hashbang": null,
+  "start": 0,
+  "end": 520
+}

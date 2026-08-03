@@ -1,0 +1,136 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ImportDeclaration",
+      "specifiers": [
+        {
+          "type": "ImportNamespaceSpecifier",
+          "local": {
+            "type": "Identifier",
+            "name": "ns",
+            "start": 1893,
+            "end": 1895
+          },
+          "start": 1888,
+          "end": 1895
+        }
+      ],
+      "source": {
+        "type": "Literal",
+        "value": "./dep_FIXTURE.js",
+        "raw": "\"./dep_FIXTURE.js\"",
+        "start": 1901,
+        "end": 1919
+      },
+      "phase": "defer",
+      "attributes": [],
+      "start": 1875,
+      "end": 1920
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "Identifier",
+          "name": "assert",
+          "start": 1922,
+          "end": 1928
+        },
+        "arguments": [
+          {
+            "type": "BinaryExpression",
+            "left": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "globalThis",
+                "start": 1929,
+                "end": 1939
+              },
+              "property": {
+                "type": "Literal",
+                "value": "error on ns.foo",
+                "raw": "\"error on ns.foo\"",
+                "start": 1940,
+                "end": 1957
+              },
+              "optional": false,
+              "computed": true,
+              "start": 1929,
+              "end": 1958
+            },
+            "operator": "instanceof",
+            "right": {
+              "type": "Identifier",
+              "name": "TypeError",
+              "start": 1970,
+              "end": 1979
+            },
+            "start": 1929,
+            "end": 1979
+          },
+          {
+            "type": "Literal",
+            "value": "ns.foo while evaluating throws a TypeError",
+            "raw": "\"ns.foo while evaluating throws a TypeError\"",
+            "start": 1981,
+            "end": 2025
+          }
+        ],
+        "optional": false,
+        "start": 1922,
+        "end": 2026
+      },
+      "start": 1922,
+      "end": 2027
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "MemberExpression",
+        "object": {
+          "type": "Identifier",
+          "name": "ns",
+          "start": 2029,
+          "end": 2031
+        },
+        "property": {
+          "type": "Identifier",
+          "name": "foo",
+          "start": 2032,
+          "end": 2035
+        },
+        "optional": false,
+        "computed": false,
+        "start": 2029,
+        "end": 2035
+      },
+      "start": 2029,
+      "end": 2036
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "Identifier",
+          "name": "$DONE",
+          "start": 2038,
+          "end": 2043
+        },
+        "arguments": [],
+        "optional": false,
+        "start": 2038,
+        "end": 2045
+      },
+      "start": 2038,
+      "end": 2046
+    }
+  ],
+  "sourceType": "module",
+  "hashbang": null,
+  "start": 0,
+  "end": 2047
+}

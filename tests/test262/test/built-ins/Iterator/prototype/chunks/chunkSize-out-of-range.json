@@ -1,0 +1,670 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "kind": "let",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "iterator",
+            "start": 633,
+            "end": 641
+          },
+          "init": {
+            "type": "CallExpression",
+            "callee": {
+              "type": "ParenthesizedExpression",
+              "expression": {
+                "type": "FunctionExpression",
+                "id": null,
+                "generator": true,
+                "async": false,
+                "params": [],
+                "body": {
+                  "type": "BlockStatement",
+                  "body": [],
+                  "start": 658,
+                  "end": 660
+                },
+                "expression": false,
+                "start": 645,
+                "end": 660
+              },
+              "start": 644,
+              "end": 661
+            },
+            "arguments": [],
+            "optional": false,
+            "start": 644,
+            "end": 663
+          },
+          "start": 633,
+          "end": 663
+        }
+      ],
+      "start": 629,
+      "end": 664
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 666,
+            "end": 672
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "throws",
+            "start": 673,
+            "end": 679
+          },
+          "optional": false,
+          "computed": false,
+          "start": 666,
+          "end": 679
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "name": "RangeError",
+            "start": 680,
+            "end": 690
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "expression": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "expression": {
+                    "type": "CallExpression",
+                    "callee": {
+                      "type": "MemberExpression",
+                      "object": {
+                        "type": "Identifier",
+                        "name": "iterator",
+                        "start": 702,
+                        "end": 710
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "name": "chunks",
+                        "start": 711,
+                        "end": 717
+                      },
+                      "optional": false,
+                      "computed": false,
+                      "start": 702,
+                      "end": 717
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "value": 0,
+                        "raw": "0",
+                        "start": 718,
+                        "end": 719
+                      }
+                    ],
+                    "optional": false,
+                    "start": 702,
+                    "end": 720
+                  },
+                  "start": 702,
+                  "end": 721
+                }
+              ],
+              "start": 698,
+              "end": 723
+            },
+            "id": null,
+            "generator": false,
+            "start": 692,
+            "end": 723
+          }
+        ],
+        "optional": false,
+        "start": 666,
+        "end": 724
+      },
+      "start": 666,
+      "end": 725
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 727,
+            "end": 733
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "throws",
+            "start": 734,
+            "end": 740
+          },
+          "optional": false,
+          "computed": false,
+          "start": 727,
+          "end": 740
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "name": "RangeError",
+            "start": 741,
+            "end": 751
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "expression": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "expression": {
+                    "type": "CallExpression",
+                    "callee": {
+                      "type": "MemberExpression",
+                      "object": {
+                        "type": "Identifier",
+                        "name": "iterator",
+                        "start": 763,
+                        "end": 771
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "name": "chunks",
+                        "start": 772,
+                        "end": 778
+                      },
+                      "optional": false,
+                      "computed": false,
+                      "start": 763,
+                      "end": 778
+                    },
+                    "arguments": [
+                      {
+                        "type": "UnaryExpression",
+                        "operator": "-",
+                        "argument": {
+                          "type": "Literal",
+                          "value": 0,
+                          "raw": "0",
+                          "start": 780,
+                          "end": 781
+                        },
+                        "prefix": true,
+                        "start": 779,
+                        "end": 781
+                      }
+                    ],
+                    "optional": false,
+                    "start": 763,
+                    "end": 782
+                  },
+                  "start": 763,
+                  "end": 783
+                }
+              ],
+              "start": 759,
+              "end": 785
+            },
+            "id": null,
+            "generator": false,
+            "start": 753,
+            "end": 785
+          }
+        ],
+        "optional": false,
+        "start": 727,
+        "end": 786
+      },
+      "start": 727,
+      "end": 787
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 789,
+            "end": 795
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "throws",
+            "start": 796,
+            "end": 802
+          },
+          "optional": false,
+          "computed": false,
+          "start": 789,
+          "end": 802
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "name": "RangeError",
+            "start": 803,
+            "end": 813
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "expression": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "expression": {
+                    "type": "CallExpression",
+                    "callee": {
+                      "type": "MemberExpression",
+                      "object": {
+                        "type": "Identifier",
+                        "name": "iterator",
+                        "start": 825,
+                        "end": 833
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "name": "chunks",
+                        "start": 834,
+                        "end": 840
+                      },
+                      "optional": false,
+                      "computed": false,
+                      "start": 825,
+                      "end": 840
+                    },
+                    "arguments": [
+                      {
+                        "type": "UnaryExpression",
+                        "operator": "-",
+                        "argument": {
+                          "type": "Literal",
+                          "value": 1,
+                          "raw": "1",
+                          "start": 842,
+                          "end": 843
+                        },
+                        "prefix": true,
+                        "start": 841,
+                        "end": 843
+                      }
+                    ],
+                    "optional": false,
+                    "start": 825,
+                    "end": 844
+                  },
+                  "start": 825,
+                  "end": 845
+                }
+              ],
+              "start": 821,
+              "end": 847
+            },
+            "id": null,
+            "generator": false,
+            "start": 815,
+            "end": 847
+          }
+        ],
+        "optional": false,
+        "start": 789,
+        "end": 848
+      },
+      "start": 789,
+      "end": 849
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 851,
+            "end": 857
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "throws",
+            "start": 858,
+            "end": 864
+          },
+          "optional": false,
+          "computed": false,
+          "start": 851,
+          "end": 864
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "name": "RangeError",
+            "start": 865,
+            "end": 875
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "expression": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "expression": {
+                    "type": "CallExpression",
+                    "callee": {
+                      "type": "MemberExpression",
+                      "object": {
+                        "type": "Identifier",
+                        "name": "iterator",
+                        "start": 887,
+                        "end": 895
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "name": "chunks",
+                        "start": 896,
+                        "end": 902
+                      },
+                      "optional": false,
+                      "computed": false,
+                      "start": 887,
+                      "end": 902
+                    },
+                    "arguments": [
+                      {
+                        "type": "BinaryExpression",
+                        "left": {
+                          "type": "Literal",
+                          "value": 2,
+                          "raw": "2",
+                          "start": 903,
+                          "end": 904
+                        },
+                        "operator": "**",
+                        "right": {
+                          "type": "Literal",
+                          "value": 32,
+                          "raw": "32",
+                          "start": 908,
+                          "end": 910
+                        },
+                        "start": 903,
+                        "end": 910
+                      }
+                    ],
+                    "optional": false,
+                    "start": 887,
+                    "end": 911
+                  },
+                  "start": 887,
+                  "end": 912
+                }
+              ],
+              "start": 883,
+              "end": 914
+            },
+            "id": null,
+            "generator": false,
+            "start": 877,
+            "end": 914
+          }
+        ],
+        "optional": false,
+        "start": 851,
+        "end": 915
+      },
+      "start": 851,
+      "end": 916
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 918,
+            "end": 924
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "throws",
+            "start": 925,
+            "end": 931
+          },
+          "optional": false,
+          "computed": false,
+          "start": 918,
+          "end": 931
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "name": "RangeError",
+            "start": 932,
+            "end": 942
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "expression": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "expression": {
+                    "type": "CallExpression",
+                    "callee": {
+                      "type": "MemberExpression",
+                      "object": {
+                        "type": "Identifier",
+                        "name": "iterator",
+                        "start": 954,
+                        "end": 962
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "name": "chunks",
+                        "start": 963,
+                        "end": 969
+                      },
+                      "optional": false,
+                      "computed": false,
+                      "start": 954,
+                      "end": 969
+                    },
+                    "arguments": [
+                      {
+                        "type": "BinaryExpression",
+                        "left": {
+                          "type": "Literal",
+                          "value": 2,
+                          "raw": "2",
+                          "start": 970,
+                          "end": 971
+                        },
+                        "operator": "**",
+                        "right": {
+                          "type": "Literal",
+                          "value": 53,
+                          "raw": "53",
+                          "start": 975,
+                          "end": 977
+                        },
+                        "start": 970,
+                        "end": 977
+                      }
+                    ],
+                    "optional": false,
+                    "start": 954,
+                    "end": 978
+                  },
+                  "start": 954,
+                  "end": 979
+                }
+              ],
+              "start": 950,
+              "end": 981
+            },
+            "id": null,
+            "generator": false,
+            "start": 944,
+            "end": 981
+          }
+        ],
+        "optional": false,
+        "start": 918,
+        "end": 982
+      },
+      "start": 918,
+      "end": 983
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "iterator",
+            "start": 1024,
+            "end": 1032
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "chunks",
+            "start": 1033,
+            "end": 1039
+          },
+          "optional": false,
+          "computed": false,
+          "start": 1024,
+          "end": 1039
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "value": 1,
+            "raw": "1",
+            "start": 1040,
+            "end": 1041
+          }
+        ],
+        "optional": false,
+        "start": 1024,
+        "end": 1042
+      },
+      "start": 1024,
+      "end": 1043
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "iterator",
+            "start": 1044,
+            "end": 1052
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "chunks",
+            "start": 1053,
+            "end": 1059
+          },
+          "optional": false,
+          "computed": false,
+          "start": 1044,
+          "end": 1059
+        },
+        "arguments": [
+          {
+            "type": "BinaryExpression",
+            "left": {
+              "type": "BinaryExpression",
+              "left": {
+                "type": "Literal",
+                "value": 2,
+                "raw": "2",
+                "start": 1060,
+                "end": 1061
+              },
+              "operator": "**",
+              "right": {
+                "type": "Literal",
+                "value": 32,
+                "raw": "32",
+                "start": 1065,
+                "end": 1067
+              },
+              "start": 1060,
+              "end": 1067
+            },
+            "operator": "-",
+            "right": {
+              "type": "Literal",
+              "value": 1,
+              "raw": "1",
+              "start": 1070,
+              "end": 1071
+            },
+            "start": 1060,
+            "end": 1071
+          }
+        ],
+        "optional": false,
+        "start": 1044,
+        "end": 1072
+      },
+      "start": 1044,
+      "end": 1073
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 1074
+}

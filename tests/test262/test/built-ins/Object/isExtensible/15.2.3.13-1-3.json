@@ -9,40 +9,74 @@
           "type": "MemberExpression",
           "object": {
             "type": "Identifier",
-            "name": "Object",
+            "name": "assert",
             "start": 248,
             "end": 254
           },
           "property": {
             "type": "Identifier",
-            "name": "isExtensible",
+            "name": "sameValue",
             "start": 255,
-            "end": 267
+            "end": 264
           },
           "optional": false,
           "computed": false,
           "start": 248,
-          "end": 267
+          "end": 264
         },
         "arguments": [
           {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "Object",
+                "start": 265,
+                "end": 271
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "isExtensible",
+                "start": 272,
+                "end": 284
+              },
+              "optional": false,
+              "computed": false,
+              "start": 265,
+              "end": 284
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "value": true,
+                "raw": "true",
+                "start": 285,
+                "end": 289
+              }
+            ],
+            "optional": false,
+            "start": 265,
+            "end": 290
+          },
+          {
             "type": "Literal",
-            "value": true,
-            "raw": "true",
-            "start": 268,
-            "end": 272
+            "value": false,
+            "raw": "false",
+            "start": 292,
+            "end": 297
           }
         ],
         "optional": false,
         "start": 248,
-        "end": 273
+        "end": 298
       },
       "start": 248,
-      "end": 274
+      "end": 299
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 275
+  "end": 300
 }

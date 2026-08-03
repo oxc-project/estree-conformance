@@ -1,0 +1,167 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ImportDeclaration",
+      "specifiers": [],
+      "source": {
+        "type": "Literal",
+        "value": "./setup_FIXTURE.js",
+        "raw": "\"./setup_FIXTURE.js\"",
+        "start": 2054,
+        "end": 2074
+      },
+      "phase": null,
+      "attributes": [],
+      "start": 2047,
+      "end": 2075
+    },
+    {
+      "type": "ImportDeclaration",
+      "specifiers": [
+        {
+          "type": "ImportNamespaceSpecifier",
+          "local": {
+            "type": "Identifier",
+            "name": "ns1",
+            "start": 2095,
+            "end": 2098
+          },
+          "start": 2090,
+          "end": 2098
+        }
+      ],
+      "source": {
+        "type": "Literal",
+        "value": "./dep-1_FIXTURE.js",
+        "raw": "\"./dep-1_FIXTURE.js\"",
+        "start": 2104,
+        "end": 2124
+      },
+      "phase": "defer",
+      "attributes": [],
+      "start": 2077,
+      "end": 2125
+    },
+    {
+      "type": "ImportDeclaration",
+      "specifiers": [],
+      "source": {
+        "type": "Literal",
+        "value": "./dep-2_FIXTURE.js",
+        "raw": "\"./dep-2_FIXTURE.js\"",
+        "start": 2133,
+        "end": 2153
+      },
+      "phase": null,
+      "attributes": [],
+      "start": 2126,
+      "end": 2154
+    },
+    {
+      "type": "ImportDeclaration",
+      "specifiers": [],
+      "source": {
+        "type": "Literal",
+        "value": "./dep-1_FIXTURE.js",
+        "raw": "\"./dep-1_FIXTURE.js\"",
+        "start": 2162,
+        "end": 2182
+      },
+      "phase": null,
+      "attributes": [],
+      "start": 2155,
+      "end": 2183
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 2185,
+            "end": 2191
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "compareArray",
+            "start": 2192,
+            "end": 2204
+          },
+          "optional": false,
+          "computed": false,
+          "start": 2185,
+          "end": 2204
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "Identifier",
+              "name": "globalThis",
+              "start": 2205,
+              "end": 2215
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "evaluations",
+              "start": 2216,
+              "end": 2227
+            },
+            "optional": false,
+            "computed": false,
+            "start": 2205,
+            "end": 2227
+          },
+          {
+            "type": "ArrayExpression",
+            "elements": [
+              {
+                "type": "Literal",
+                "value": 2,
+                "raw": "2",
+                "start": 2230,
+                "end": 2231
+              },
+              {
+                "type": "Literal",
+                "value": 1.1,
+                "raw": "1.1",
+                "start": 2233,
+                "end": 2236
+              },
+              {
+                "type": "Literal",
+                "value": 1,
+                "raw": "1",
+                "start": 2238,
+                "end": 2239
+              }
+            ],
+            "start": 2229,
+            "end": 2240
+          },
+          {
+            "type": "Literal",
+            "value": "the module is evaluated in the order where it's imported as non-deferred",
+            "raw": "\"the module is evaluated in the order where it's imported as non-deferred\"",
+            "start": 2242,
+            "end": 2316
+          }
+        ],
+        "optional": false,
+        "start": 2185,
+        "end": 2317
+      },
+      "start": 2185,
+      "end": 2318
+    }
+  ],
+  "sourceType": "module",
+  "hashbang": null,
+  "start": 0,
+  "end": 2319
+}

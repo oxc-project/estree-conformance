@@ -1,0 +1,60 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "ParenthesizedExpression",
+        "expression": {
+          "type": "ArrowFunctionExpression",
+          "expression": false,
+          "async": true,
+          "params": [],
+          "body": {
+            "type": "BlockStatement",
+            "body": [
+              {
+                "type": "ExpressionStatement",
+                "expression": {
+                  "type": "AwaitExpression",
+                  "argument": {
+                    "type": "ImportExpression",
+                    "source": {
+                      "type": "Literal",
+                      "value": "./empty_FIXTURE.js",
+                      "raw": "'./empty_FIXTURE.js'",
+                      "start": 1132,
+                      "end": 1152
+                    },
+                    "options": null,
+                    "phase": "defer",
+                    "start": 1119,
+                    "end": 1153
+                  },
+                  "start": 1113,
+                  "end": 1153
+                },
+                "start": 1113,
+                "end": 1153
+              }
+            ],
+            "start": 1109,
+            "end": 1155
+          },
+          "id": null,
+          "generator": false,
+          "start": 1097,
+          "end": 1155
+        },
+        "start": 1096,
+        "end": 1156
+      },
+      "start": 1096,
+      "end": 1157
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 1158
+}

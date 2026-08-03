@@ -1,7 +1,7 @@
 [
   {
     "type": "Identifier",
-    "value": "Object",
+    "value": "assert",
     "start": 273,
     "end": 279
   },
@@ -13,32 +13,74 @@
   },
   {
     "type": "Identifier",
-    "value": "isFrozen",
+    "value": "sameValue",
     "start": 280,
-    "end": 288
+    "end": 289
   },
   {
     "type": "Punctuator",
     "value": "(",
-    "start": 288,
-    "end": 289
+    "start": 289,
+    "end": 290
+  },
+  {
+    "type": "Identifier",
+    "value": "Object",
+    "start": 290,
+    "end": 296
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 296,
+    "end": 297
+  },
+  {
+    "type": "Identifier",
+    "value": "isFrozen",
+    "start": 297,
+    "end": 305
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 305,
+    "end": 306
   },
   {
     "type": "Identifier",
     "value": "undefined",
-    "start": 289,
-    "end": 298
+    "start": 306,
+    "end": 315
   },
   {
     "type": "Punctuator",
     "value": ")",
-    "start": 298,
-    "end": 299
+    "start": 315,
+    "end": 316
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 316,
+    "end": 317
+  },
+  {
+    "type": "Boolean",
+    "value": "true",
+    "start": 318,
+    "end": 322
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 322,
+    "end": 323
   },
   {
     "type": "Punctuator",
     "value": ";",
-    "start": 299,
-    "end": 300
+    "start": 323,
+    "end": 324
   }
 ]

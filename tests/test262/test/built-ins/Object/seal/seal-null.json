@@ -9,40 +9,74 @@
           "type": "MemberExpression",
           "object": {
             "type": "Identifier",
-            "name": "Object",
+            "name": "assert",
             "start": 1158,
             "end": 1164
           },
           "property": {
             "type": "Identifier",
-            "name": "seal",
+            "name": "sameValue",
             "start": 1165,
-            "end": 1169
+            "end": 1174
           },
           "optional": false,
           "computed": false,
           "start": 1158,
-          "end": 1169
+          "end": 1174
         },
         "arguments": [
+          {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "Object",
+                "start": 1175,
+                "end": 1181
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "seal",
+                "start": 1182,
+                "end": 1186
+              },
+              "optional": false,
+              "computed": false,
+              "start": 1175,
+              "end": 1186
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "value": null,
+                "raw": "null",
+                "start": 1187,
+                "end": 1191
+              }
+            ],
+            "optional": false,
+            "start": 1175,
+            "end": 1192
+          },
           {
             "type": "Literal",
             "value": null,
             "raw": "null",
-            "start": 1170,
-            "end": 1174
+            "start": 1194,
+            "end": 1198
           }
         ],
         "optional": false,
         "start": 1158,
-        "end": 1175
+        "end": 1199
       },
       "start": 1158,
-      "end": 1176
+      "end": 1200
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 1177
+  "end": 1201
 }

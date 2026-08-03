@@ -1,0 +1,289 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ImportDeclaration",
+      "specifiers": [],
+      "source": {
+        "type": "Literal",
+        "value": "./setup_FIXTURE.js",
+        "raw": "\"./setup_FIXTURE.js\"",
+        "start": 3495,
+        "end": 3515
+      },
+      "phase": null,
+      "attributes": [],
+      "start": 3488,
+      "end": 3516
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "ImportExpression",
+                "source": {
+                  "type": "Literal",
+                  "value": "./tla_FIXTURE.js",
+                  "raw": "\"./tla_FIXTURE.js\"",
+                  "start": 3531,
+                  "end": 3549
+                },
+                "options": null,
+                "phase": "defer",
+                "start": 3518,
+                "end": 3550
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "then",
+                "start": 3551,
+                "end": 3555
+              },
+              "optional": false,
+              "computed": false,
+              "start": 3518,
+              "end": 3555
+            },
+            "arguments": [
+              {
+                "type": "ArrowFunctionExpression",
+                "expression": false,
+                "async": false,
+                "params": [
+                  {
+                    "type": "Identifier",
+                    "name": "ns",
+                    "start": 3556,
+                    "end": 3558
+                  }
+                ],
+                "body": {
+                  "type": "BlockStatement",
+                  "body": [
+                    {
+                      "type": "ExpressionStatement",
+                      "expression": {
+                        "type": "CallExpression",
+                        "callee": {
+                          "type": "MemberExpression",
+                          "object": {
+                            "type": "Identifier",
+                            "name": "assert",
+                            "start": 3566,
+                            "end": 3572
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "name": "compareArray",
+                            "start": 3573,
+                            "end": 3585
+                          },
+                          "optional": false,
+                          "computed": false,
+                          "start": 3566,
+                          "end": 3585
+                        },
+                        "arguments": [
+                          {
+                            "type": "MemberExpression",
+                            "object": {
+                              "type": "Identifier",
+                              "name": "globalThis",
+                              "start": 3586,
+                              "end": 3596
+                            },
+                            "property": {
+                              "type": "Identifier",
+                              "name": "evaluations",
+                              "start": 3597,
+                              "end": 3608
+                            },
+                            "optional": false,
+                            "computed": false,
+                            "start": 3586,
+                            "end": 3608
+                          },
+                          {
+                            "type": "ArrayExpression",
+                            "elements": [
+                              {
+                                "type": "Literal",
+                                "value": "tla start",
+                                "raw": "\"tla start\"",
+                                "start": 3611,
+                                "end": 3622
+                              },
+                              {
+                                "type": "Literal",
+                                "value": "tla end",
+                                "raw": "\"tla end\"",
+                                "start": 3624,
+                                "end": 3633
+                              }
+                            ],
+                            "start": 3610,
+                            "end": 3634
+                          }
+                        ],
+                        "optional": false,
+                        "start": 3566,
+                        "end": 3635
+                      },
+                      "start": 3566,
+                      "end": 3636
+                    },
+                    {
+                      "type": "ExpressionStatement",
+                      "expression": {
+                        "type": "MemberExpression",
+                        "object": {
+                          "type": "Identifier",
+                          "name": "ns",
+                          "start": 3639,
+                          "end": 3641
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "name": "x",
+                          "start": 3642,
+                          "end": 3643
+                        },
+                        "optional": false,
+                        "computed": false,
+                        "start": 3639,
+                        "end": 3643
+                      },
+                      "start": 3639,
+                      "end": 3644
+                    },
+                    {
+                      "type": "ExpressionStatement",
+                      "expression": {
+                        "type": "CallExpression",
+                        "callee": {
+                          "type": "MemberExpression",
+                          "object": {
+                            "type": "Identifier",
+                            "name": "assert",
+                            "start": 3647,
+                            "end": 3653
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "name": "compareArray",
+                            "start": 3654,
+                            "end": 3666
+                          },
+                          "optional": false,
+                          "computed": false,
+                          "start": 3647,
+                          "end": 3666
+                        },
+                        "arguments": [
+                          {
+                            "type": "MemberExpression",
+                            "object": {
+                              "type": "Identifier",
+                              "name": "globalThis",
+                              "start": 3667,
+                              "end": 3677
+                            },
+                            "property": {
+                              "type": "Identifier",
+                              "name": "evaluations",
+                              "start": 3678,
+                              "end": 3689
+                            },
+                            "optional": false,
+                            "computed": false,
+                            "start": 3667,
+                            "end": 3689
+                          },
+                          {
+                            "type": "ArrayExpression",
+                            "elements": [
+                              {
+                                "type": "Literal",
+                                "value": "tla start",
+                                "raw": "\"tla start\"",
+                                "start": 3692,
+                                "end": 3703
+                              },
+                              {
+                                "type": "Literal",
+                                "value": "tla end",
+                                "raw": "\"tla end\"",
+                                "start": 3705,
+                                "end": 3714
+                              }
+                            ],
+                            "start": 3691,
+                            "end": 3715
+                          }
+                        ],
+                        "optional": false,
+                        "start": 3647,
+                        "end": 3716
+                      },
+                      "start": 3647,
+                      "end": 3717
+                    }
+                  ],
+                  "start": 3562,
+                  "end": 3719
+                },
+                "id": null,
+                "generator": false,
+                "start": 3556,
+                "end": 3719
+              }
+            ],
+            "optional": false,
+            "start": 3518,
+            "end": 3720
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "then",
+            "start": 3721,
+            "end": 3725
+          },
+          "optional": false,
+          "computed": false,
+          "start": 3518,
+          "end": 3725
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "name": "$DONE",
+            "start": 3726,
+            "end": 3731
+          },
+          {
+            "type": "Identifier",
+            "name": "$DONE",
+            "start": 3733,
+            "end": 3738
+          }
+        ],
+        "optional": false,
+        "start": 3518,
+        "end": 3739
+      },
+      "start": 3518,
+      "end": 3740
+    }
+  ],
+  "sourceType": "module",
+  "hashbang": null,
+  "start": 0,
+  "end": 3741
+}

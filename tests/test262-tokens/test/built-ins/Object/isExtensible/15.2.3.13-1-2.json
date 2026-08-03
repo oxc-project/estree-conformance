@@ -1,7 +1,7 @@
 [
   {
     "type": "Identifier",
-    "value": "Object",
+    "value": "assert",
     "start": 243,
     "end": 249
   },
@@ -13,32 +13,74 @@
   },
   {
     "type": "Identifier",
-    "value": "isExtensible",
+    "value": "sameValue",
     "start": 250,
-    "end": 262
+    "end": 259
   },
   {
     "type": "Punctuator",
     "value": "(",
-    "start": 262,
-    "end": 263
+    "start": 259,
+    "end": 260
+  },
+  {
+    "type": "Identifier",
+    "value": "Object",
+    "start": 260,
+    "end": 266
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 266,
+    "end": 267
+  },
+  {
+    "type": "Identifier",
+    "value": "isExtensible",
+    "start": 267,
+    "end": 279
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 279,
+    "end": 280
   },
   {
     "type": "Null",
     "value": "null",
-    "start": 263,
-    "end": 267
+    "start": 280,
+    "end": 284
   },
   {
     "type": "Punctuator",
     "value": ")",
-    "start": 267,
-    "end": 268
+    "start": 284,
+    "end": 285
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 285,
+    "end": 286
+  },
+  {
+    "type": "Boolean",
+    "value": "false",
+    "start": 287,
+    "end": 292
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 292,
+    "end": 293
   },
   {
     "type": "Punctuator",
     "value": ";",
-    "start": 268,
-    "end": 269
+    "start": 293,
+    "end": 294
   }
 ]

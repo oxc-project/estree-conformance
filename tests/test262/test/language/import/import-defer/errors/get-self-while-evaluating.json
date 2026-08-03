@@ -1,0 +1,103 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ImportDeclaration",
+      "specifiers": [
+        {
+          "type": "ImportNamespaceSpecifier",
+          "local": {
+            "type": "Identifier",
+            "name": "self",
+            "start": 1549,
+            "end": 1553
+          },
+          "start": 1544,
+          "end": 1553
+        }
+      ],
+      "source": {
+        "type": "Literal",
+        "value": "./get-self-while-evaluating.js",
+        "raw": "\"./get-self-while-evaluating.js\"",
+        "start": 1559,
+        "end": 1591
+      },
+      "phase": "defer",
+      "attributes": [],
+      "start": 1531,
+      "end": 1592
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 1594,
+            "end": 1600
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "throws",
+            "start": 1601,
+            "end": 1607
+          },
+          "optional": false,
+          "computed": false,
+          "start": 1594,
+          "end": 1607
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "name": "TypeError",
+            "start": 1608,
+            "end": 1617
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "expression": true,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "self",
+                "start": 1625,
+                "end": 1629
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "foo",
+                "start": 1630,
+                "end": 1633
+              },
+              "optional": false,
+              "computed": false,
+              "start": 1625,
+              "end": 1633
+            },
+            "id": null,
+            "generator": false,
+            "start": 1619,
+            "end": 1633
+          }
+        ],
+        "optional": false,
+        "start": 1594,
+        "end": 1634
+      },
+      "start": 1594,
+      "end": 1635
+    }
+  ],
+  "sourceType": "module",
+  "hashbang": null,
+  "start": 0,
+  "end": 1636
+}

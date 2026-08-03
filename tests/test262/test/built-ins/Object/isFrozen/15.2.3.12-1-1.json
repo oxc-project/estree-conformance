@@ -9,39 +9,73 @@
           "type": "MemberExpression",
           "object": {
             "type": "Identifier",
-            "name": "Object",
+            "name": "assert",
             "start": 273,
             "end": 279
           },
           "property": {
             "type": "Identifier",
-            "name": "isFrozen",
+            "name": "sameValue",
             "start": 280,
-            "end": 288
+            "end": 289
           },
           "optional": false,
           "computed": false,
           "start": 273,
-          "end": 288
+          "end": 289
         },
         "arguments": [
           {
-            "type": "Identifier",
-            "name": "undefined",
-            "start": 289,
-            "end": 298
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "Object",
+                "start": 290,
+                "end": 296
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "isFrozen",
+                "start": 297,
+                "end": 305
+              },
+              "optional": false,
+              "computed": false,
+              "start": 290,
+              "end": 305
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "name": "undefined",
+                "start": 306,
+                "end": 315
+              }
+            ],
+            "optional": false,
+            "start": 290,
+            "end": 316
+          },
+          {
+            "type": "Literal",
+            "value": true,
+            "raw": "true",
+            "start": 318,
+            "end": 322
           }
         ],
         "optional": false,
         "start": 273,
-        "end": 299
+        "end": 323
       },
       "start": 273,
-      "end": 300
+      "end": 324
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 301
+  "end": 325
 }

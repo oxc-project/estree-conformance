@@ -9,36 +9,70 @@
           "type": "MemberExpression",
           "object": {
             "type": "Identifier",
-            "name": "Object",
+            "name": "assert",
             "start": 275,
             "end": 281
           },
           "property": {
             "type": "Identifier",
-            "name": "freeze",
+            "name": "sameValue",
             "start": 282,
-            "end": 288
+            "end": 291
           },
           "optional": false,
           "computed": false,
           "start": 275,
-          "end": 288
+          "end": 291
         },
         "arguments": [
+          {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "Object",
+                "start": 292,
+                "end": 298
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "freeze",
+                "start": 299,
+                "end": 305
+              },
+              "optional": false,
+              "computed": false,
+              "start": 292,
+              "end": 305
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "value": false,
+                "raw": "false",
+                "start": 306,
+                "end": 311
+              }
+            ],
+            "optional": false,
+            "start": 292,
+            "end": 312
+          },
           {
             "type": "Literal",
             "value": false,
             "raw": "false",
-            "start": 289,
-            "end": 294
+            "start": 314,
+            "end": 319
           }
         ],
         "optional": false,
         "start": 275,
-        "end": 295
+        "end": 320
       },
       "start": 275,
-      "end": 296
+      "end": 321
     },
     {
       "type": "ExpressionStatement",
@@ -48,40 +82,74 @@
           "type": "MemberExpression",
           "object": {
             "type": "Identifier",
-            "name": "Object",
-            "start": 297,
-            "end": 303
+            "name": "assert",
+            "start": 322,
+            "end": 328
           },
           "property": {
             "type": "Identifier",
-            "name": "freeze",
-            "start": 304,
-            "end": 310
+            "name": "sameValue",
+            "start": 329,
+            "end": 338
           },
           "optional": false,
           "computed": false,
-          "start": 297,
-          "end": 310
+          "start": 322,
+          "end": 338
         },
         "arguments": [
+          {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "Object",
+                "start": 339,
+                "end": 345
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "freeze",
+                "start": 346,
+                "end": 352
+              },
+              "optional": false,
+              "computed": false,
+              "start": 339,
+              "end": 352
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "value": true,
+                "raw": "true",
+                "start": 353,
+                "end": 357
+              }
+            ],
+            "optional": false,
+            "start": 339,
+            "end": 358
+          },
           {
             "type": "Literal",
             "value": true,
             "raw": "true",
-            "start": 311,
-            "end": 315
+            "start": 360,
+            "end": 364
           }
         ],
         "optional": false,
-        "start": 297,
-        "end": 316
+        "start": 322,
+        "end": 365
       },
-      "start": 297,
-      "end": 317
+      "start": 322,
+      "end": 366
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 318
+  "end": 367
 }

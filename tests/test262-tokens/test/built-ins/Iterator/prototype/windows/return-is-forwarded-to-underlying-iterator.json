@@ -1,0 +1,554 @@
+[
+  {
+    "type": "Keyword",
+    "value": "let",
+    "start": 372,
+    "end": 375
+  },
+  {
+    "type": "Identifier",
+    "value": "returnCount",
+    "start": 376,
+    "end": 387
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 388,
+    "end": 389
+  },
+  {
+    "type": "Numeric",
+    "value": "0",
+    "start": 390,
+    "end": 391
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 391,
+    "end": 392
+  },
+  {
+    "type": "Keyword",
+    "value": "class",
+    "start": 394,
+    "end": 399
+  },
+  {
+    "type": "Identifier",
+    "value": "TestIterator",
+    "start": 400,
+    "end": 412
+  },
+  {
+    "type": "Keyword",
+    "value": "extends",
+    "start": 413,
+    "end": 420
+  },
+  {
+    "type": "Identifier",
+    "value": "Iterator",
+    "start": 421,
+    "end": 429
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 430,
+    "end": 431
+  },
+  {
+    "type": "Identifier",
+    "value": "next",
+    "start": 434,
+    "end": 438
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 438,
+    "end": 439
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 439,
+    "end": 440
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 441,
+    "end": 442
+  },
+  {
+    "type": "Keyword",
+    "value": "return",
+    "start": 447,
+    "end": 453
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 454,
+    "end": 455
+  },
+  {
+    "type": "Identifier",
+    "value": "done",
+    "start": 462,
+    "end": 466
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 466,
+    "end": 467
+  },
+  {
+    "type": "Boolean",
+    "value": "false",
+    "start": 468,
+    "end": 473
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 473,
+    "end": 474
+  },
+  {
+    "type": "Identifier",
+    "value": "value",
+    "start": 481,
+    "end": 486
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 486,
+    "end": 487
+  },
+  {
+    "type": "Numeric",
+    "value": "1",
+    "start": 488,
+    "end": 489
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 489,
+    "end": 490
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 495,
+    "end": 496
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 496,
+    "end": 497
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 500,
+    "end": 501
+  },
+  {
+    "type": "Identifier",
+    "value": "return",
+    "start": 504,
+    "end": 510
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 510,
+    "end": 511
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 511,
+    "end": 512
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 513,
+    "end": 514
+  },
+  {
+    "type": "Punctuator",
+    "value": "++",
+    "start": 519,
+    "end": 521
+  },
+  {
+    "type": "Identifier",
+    "value": "returnCount",
+    "start": 521,
+    "end": 532
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 532,
+    "end": 533
+  },
+  {
+    "type": "Keyword",
+    "value": "return",
+    "start": 538,
+    "end": 544
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 545,
+    "end": 546
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 546,
+    "end": 547
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 547,
+    "end": 548
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 551,
+    "end": 552
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 553,
+    "end": 554
+  },
+  {
+    "type": "Keyword",
+    "value": "let",
+    "start": 556,
+    "end": 559
+  },
+  {
+    "type": "Identifier",
+    "value": "iterator",
+    "start": 560,
+    "end": 568
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 569,
+    "end": 570
+  },
+  {
+    "type": "Keyword",
+    "value": "new",
+    "start": 571,
+    "end": 574
+  },
+  {
+    "type": "Identifier",
+    "value": "TestIterator",
+    "start": 575,
+    "end": 587
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 587,
+    "end": 588
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 588,
+    "end": 589
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 589,
+    "end": 590
+  },
+  {
+    "type": "Identifier",
+    "value": "windows",
+    "start": 590,
+    "end": 597
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 597,
+    "end": 598
+  },
+  {
+    "type": "Numeric",
+    "value": "2",
+    "start": 598,
+    "end": 599
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 599,
+    "end": 600
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 600,
+    "end": 601
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 602,
+    "end": 608
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 608,
+    "end": 609
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 609,
+    "end": 618
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 618,
+    "end": 619
+  },
+  {
+    "type": "Identifier",
+    "value": "returnCount",
+    "start": 619,
+    "end": 630
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 630,
+    "end": 631
+  },
+  {
+    "type": "Numeric",
+    "value": "0",
+    "start": 632,
+    "end": 633
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 633,
+    "end": 634
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 634,
+    "end": 635
+  },
+  {
+    "type": "Identifier",
+    "value": "iterator",
+    "start": 636,
+    "end": 644
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 644,
+    "end": 645
+  },
+  {
+    "type": "Identifier",
+    "value": "return",
+    "start": 645,
+    "end": 651
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 651,
+    "end": 652
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 652,
+    "end": 653
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 653,
+    "end": 654
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 655,
+    "end": 661
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 661,
+    "end": 662
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 662,
+    "end": 671
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 671,
+    "end": 672
+  },
+  {
+    "type": "Identifier",
+    "value": "returnCount",
+    "start": 672,
+    "end": 683
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 683,
+    "end": 684
+  },
+  {
+    "type": "Numeric",
+    "value": "1",
+    "start": 685,
+    "end": 686
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 686,
+    "end": 687
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 687,
+    "end": 688
+  },
+  {
+    "type": "Identifier",
+    "value": "iterator",
+    "start": 689,
+    "end": 697
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 697,
+    "end": 698
+  },
+  {
+    "type": "Identifier",
+    "value": "return",
+    "start": 698,
+    "end": 704
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 704,
+    "end": 705
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 705,
+    "end": 706
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 706,
+    "end": 707
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 708,
+    "end": 714
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 714,
+    "end": 715
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 715,
+    "end": 724
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 724,
+    "end": 725
+  },
+  {
+    "type": "Identifier",
+    "value": "returnCount",
+    "start": 725,
+    "end": 736
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 736,
+    "end": 737
+  },
+  {
+    "type": "Numeric",
+    "value": "1",
+    "start": 738,
+    "end": 739
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 739,
+    "end": 740
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 740,
+    "end": 741
+  }
+]

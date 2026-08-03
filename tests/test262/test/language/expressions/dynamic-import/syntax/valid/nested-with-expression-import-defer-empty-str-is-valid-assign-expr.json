@@ -1,0 +1,149 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "WithStatement",
+      "object": {
+        "type": "ImportExpression",
+        "source": {
+          "type": "Literal",
+          "value": "./empty_FIXTURE.js",
+          "raw": "'./empty_FIXTURE.js'",
+          "start": 1131,
+          "end": 1151
+        },
+        "options": null,
+        "phase": "defer",
+        "start": 1118,
+        "end": 1152
+      },
+      "body": {
+        "type": "BlockStatement",
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "expression": {
+              "type": "CallExpression",
+              "callee": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "assert",
+                  "start": 1160,
+                  "end": 1166
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "sameValue",
+                  "start": 1167,
+                  "end": 1176
+                },
+                "optional": false,
+                "computed": false,
+                "start": 1160,
+                "end": 1176
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "name": "then",
+                  "start": 1177,
+                  "end": 1181
+                },
+                {
+                  "type": "MemberExpression",
+                  "object": {
+                    "type": "MemberExpression",
+                    "object": {
+                      "type": "Identifier",
+                      "name": "Promise",
+                      "start": 1183,
+                      "end": 1190
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "name": "prototype",
+                      "start": 1191,
+                      "end": 1200
+                    },
+                    "optional": false,
+                    "computed": false,
+                    "start": 1183,
+                    "end": 1200
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "name": "then",
+                    "start": 1201,
+                    "end": 1205
+                  },
+                  "optional": false,
+                  "computed": false,
+                  "start": 1183,
+                  "end": 1205
+                }
+              ],
+              "optional": false,
+              "start": 1160,
+              "end": 1206
+            },
+            "start": 1160,
+            "end": 1207
+          },
+          {
+            "type": "ExpressionStatement",
+            "expression": {
+              "type": "CallExpression",
+              "callee": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "assert",
+                  "start": 1212,
+                  "end": 1218
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "sameValue",
+                  "start": 1219,
+                  "end": 1228
+                },
+                "optional": false,
+                "computed": false,
+                "start": 1212,
+                "end": 1228
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "name": "constructor",
+                  "start": 1229,
+                  "end": 1240
+                },
+                {
+                  "type": "Identifier",
+                  "name": "Promise",
+                  "start": 1242,
+                  "end": 1249
+                }
+              ],
+              "optional": false,
+              "start": 1212,
+              "end": 1250
+            },
+            "start": 1212,
+            "end": 1251
+          }
+        ],
+        "start": 1154,
+        "end": 1253
+      },
+      "start": 1112,
+      "end": 1253
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 1254
+}

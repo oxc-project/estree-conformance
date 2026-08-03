@@ -1,0 +1,365 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ImportDeclaration",
+      "specifiers": [
+        {
+          "type": "ImportNamespaceSpecifier",
+          "local": {
+            "type": "Identifier",
+            "name": "nsEager",
+            "start": 995,
+            "end": 1002
+          },
+          "start": 990,
+          "end": 1002
+        }
+      ],
+      "source": {
+        "type": "Literal",
+        "value": "./dep_FIXTURE.js",
+        "raw": "\"./dep_FIXTURE.js\"",
+        "start": 1008,
+        "end": 1026
+      },
+      "phase": null,
+      "attributes": [],
+      "start": 983,
+      "end": 1027
+    },
+    {
+      "type": "ImportDeclaration",
+      "specifiers": [
+        {
+          "type": "ImportNamespaceSpecifier",
+          "local": {
+            "type": "Identifier",
+            "name": "nsDeferred1",
+            "start": 1047,
+            "end": 1058
+          },
+          "start": 1042,
+          "end": 1058
+        }
+      ],
+      "source": {
+        "type": "Literal",
+        "value": "./dep_FIXTURE.js",
+        "raw": "\"./dep_FIXTURE.js\"",
+        "start": 1064,
+        "end": 1082
+      },
+      "phase": "defer",
+      "attributes": [],
+      "start": 1029,
+      "end": 1083
+    },
+    {
+      "type": "ImportDeclaration",
+      "specifiers": [
+        {
+          "type": "ImportNamespaceSpecifier",
+          "local": {
+            "type": "Identifier",
+            "name": "nsDeferred2",
+            "start": 1102,
+            "end": 1113
+          },
+          "start": 1097,
+          "end": 1113
+        }
+      ],
+      "source": {
+        "type": "Literal",
+        "value": "./dep_FIXTURE.js",
+        "raw": "\"./dep_FIXTURE.js\"",
+        "start": 1119,
+        "end": 1137
+      },
+      "phase": "defer",
+      "attributes": [],
+      "start": 1084,
+      "end": 1138
+    },
+    {
+      "type": "ImportDeclaration",
+      "specifiers": [
+        {
+          "type": "ImportSpecifier",
+          "imported": {
+            "type": "Identifier",
+            "name": "depDeferredNamespace",
+            "start": 1148,
+            "end": 1168
+          },
+          "local": {
+            "type": "Identifier",
+            "name": "nsDeferred3",
+            "start": 1172,
+            "end": 1183
+          },
+          "start": 1148,
+          "end": 1183
+        }
+      ],
+      "source": {
+        "type": "Literal",
+        "value": "./dep-defer-ns_FIXTURE.js",
+        "raw": "\"./dep-defer-ns_FIXTURE.js\"",
+        "start": 1191,
+        "end": 1218
+      },
+      "phase": null,
+      "attributes": [],
+      "start": 1139,
+      "end": 1219
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "nsDeferred4",
+            "start": 1226,
+            "end": 1237
+          },
+          "init": {
+            "type": "AwaitExpression",
+            "argument": {
+              "type": "ImportExpression",
+              "source": {
+                "type": "Literal",
+                "value": "./dep_FIXTURE.js",
+                "raw": "\"./dep_FIXTURE.js\"",
+                "start": 1259,
+                "end": 1277
+              },
+              "options": null,
+              "phase": "defer",
+              "start": 1246,
+              "end": 1278
+            },
+            "start": 1240,
+            "end": 1278
+          },
+          "start": 1226,
+          "end": 1278
+        }
+      ],
+      "start": 1220,
+      "end": 1279
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 1281,
+            "end": 1287
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 1288,
+            "end": 1297
+          },
+          "optional": false,
+          "computed": false,
+          "start": 1281,
+          "end": 1297
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "name": "nsDeferred1",
+            "start": 1298,
+            "end": 1309
+          },
+          {
+            "type": "Identifier",
+            "name": "nsDeferred2",
+            "start": 1311,
+            "end": 1322
+          },
+          {
+            "type": "Literal",
+            "value": "Deferred import of the same module twice gives the same object",
+            "raw": "\"Deferred import of the same module twice gives the same object\"",
+            "start": 1324,
+            "end": 1388
+          }
+        ],
+        "optional": false,
+        "start": 1281,
+        "end": 1389
+      },
+      "start": 1281,
+      "end": 1390
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 1391,
+            "end": 1397
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 1398,
+            "end": 1407
+          },
+          "optional": false,
+          "computed": false,
+          "start": 1391,
+          "end": 1407
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "name": "nsDeferred1",
+            "start": 1408,
+            "end": 1419
+          },
+          {
+            "type": "Identifier",
+            "name": "nsDeferred3",
+            "start": 1421,
+            "end": 1432
+          },
+          {
+            "type": "Literal",
+            "value": "Deferred import of the same module twice from different files gives the same object",
+            "raw": "\"Deferred import of the same module twice from different files gives the same object\"",
+            "start": 1434,
+            "end": 1519
+          }
+        ],
+        "optional": false,
+        "start": 1391,
+        "end": 1520
+      },
+      "start": 1391,
+      "end": 1521
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 1522,
+            "end": 1528
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 1529,
+            "end": 1538
+          },
+          "optional": false,
+          "computed": false,
+          "start": 1522,
+          "end": 1538
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "name": "nsDeferred1",
+            "start": 1539,
+            "end": 1550
+          },
+          {
+            "type": "Identifier",
+            "name": "nsDeferred4",
+            "start": 1552,
+            "end": 1563
+          },
+          {
+            "type": "Literal",
+            "value": "Static and dynamic deferred import of the same module gives the same object",
+            "raw": "\"Static and dynamic deferred import of the same module gives the same object\"",
+            "start": 1565,
+            "end": 1642
+          }
+        ],
+        "optional": false,
+        "start": 1522,
+        "end": 1643
+      },
+      "start": 1522,
+      "end": 1644
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 1645,
+            "end": 1651
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "notSameValue",
+            "start": 1652,
+            "end": 1664
+          },
+          "optional": false,
+          "computed": false,
+          "start": 1645,
+          "end": 1664
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "name": "nsDeferred1",
+            "start": 1665,
+            "end": 1676
+          },
+          {
+            "type": "Identifier",
+            "name": "nsEager",
+            "start": 1678,
+            "end": 1685
+          },
+          {
+            "type": "Literal",
+            "value": "Deferred namespaces are distinct from eager namespaces",
+            "raw": "\"Deferred namespaces are distinct from eager namespaces\"",
+            "start": 1687,
+            "end": 1743
+          }
+        ],
+        "optional": false,
+        "start": 1645,
+        "end": 1744
+      },
+      "start": 1645,
+      "end": 1745
+    }
+  ],
+  "sourceType": "module",
+  "hashbang": null,
+  "start": 0,
+  "end": 1746
+}

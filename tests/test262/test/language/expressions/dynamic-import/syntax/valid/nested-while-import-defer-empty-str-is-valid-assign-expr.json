@@ -1,0 +1,102 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "kind": "let",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "x",
+            "start": 1070,
+            "end": 1071
+          },
+          "init": {
+            "type": "Literal",
+            "value": 0,
+            "raw": "0",
+            "start": 1074,
+            "end": 1075
+          },
+          "start": 1070,
+          "end": 1075
+        }
+      ],
+      "start": 1066,
+      "end": 1076
+    },
+    {
+      "type": "WhileStatement",
+      "test": {
+        "type": "UnaryExpression",
+        "operator": "!",
+        "argument": {
+          "type": "Identifier",
+          "name": "x",
+          "start": 1085,
+          "end": 1086
+        },
+        "prefix": true,
+        "start": 1084,
+        "end": 1086
+      },
+      "body": {
+        "type": "BlockStatement",
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "expression": {
+              "type": "UpdateExpression",
+              "operator": "++",
+              "prefix": false,
+              "argument": {
+                "type": "Identifier",
+                "name": "x",
+                "start": 1092,
+                "end": 1093
+              },
+              "start": 1092,
+              "end": 1095
+            },
+            "start": 1092,
+            "end": 1096
+          },
+          {
+            "type": "ExpressionStatement",
+            "expression": {
+              "type": "ImportExpression",
+              "source": {
+                "type": "Literal",
+                "value": "./empty_FIXTURE.js",
+                "raw": "'./empty_FIXTURE.js'",
+                "start": 1112,
+                "end": 1132
+              },
+              "options": null,
+              "phase": "defer",
+              "start": 1099,
+              "end": 1133
+            },
+            "start": 1099,
+            "end": 1134
+          }
+        ],
+        "start": 1088,
+        "end": 1136
+      },
+      "start": 1077,
+      "end": 1136
+    },
+    {
+      "type": "EmptyStatement",
+      "start": 1136,
+      "end": 1137
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 1138
+}
