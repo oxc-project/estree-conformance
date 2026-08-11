@@ -195,41 +195,16 @@ __ESTREE_TEST__:AST:
         "callee": {
           "type": "MemberExpression",
           "object": {
-            "type": "CallExpression",
-            "callee": {
-              "type": "MetaProperty",
-              "meta": {
-                "type": "Identifier",
-                "decorators": [],
-                "name": "import",
-                "optional": false,
-                "typeAnnotation": null,
-                "start": 0,
-                "end": 6
-              },
-              "property": {
-                "type": "Identifier",
-                "decorators": [],
-                "name": "defer",
-                "optional": false,
-                "typeAnnotation": null,
-                "start": 7,
-                "end": 12
-              },
-              "start": 0,
-              "end": 12
+            "type": "ImportExpression",
+            "source": {
+              "type": "Literal",
+              "value": "./a.js",
+              "raw": "\"./a.js\"",
+              "start": 13,
+              "end": 21
             },
-            "typeArguments": null,
-            "arguments": [
-              {
-                "type": "Literal",
-                "value": "./a.js",
-                "raw": "\"./a.js\"",
-                "start": 13,
-                "end": 21
-              }
-            ],
-            "optional": false,
+            "options": null,
+            "phase": "defer",
             "start": 0,
             "end": 22
           },
