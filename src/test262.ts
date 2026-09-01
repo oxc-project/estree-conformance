@@ -1,9 +1,20 @@
-import { Parser as AcornParser } from "acorn";
+import { Parser as AcornParser, type Comment } from "acorn";
 import { parse as meriyahParse } from "meriyah";
 import YAML from "yaml";
-import { transformerAcorn } from "./utils/json.js";
-import { parseEspreeTokens } from "./utils/tokens.js";
-import { run } from "./utils/run.js";
+import { transformerAcorn } from "./utils/json.ts";
+import { parseEspreeTokens } from "./utils/tokens.ts";
+import { run, type Output } from "./utils/run.ts";
+
+type JsonObject = Record<string, unknown>;
+type MutableProgram = JsonObject & { hashbang: JsonObject | null; type: "Program" };
+
+interface Test262Preamble {
+  flags?: string[];
+  negative?: {
+    phase?: string;
+    type?: string;
+  };
+}
 
 const DISALLOW = [
   // Meriyah fails to produce syntax error for this case
@@ -27,9 +38,9 @@ await run({
     const end = code.indexOf("---*/");
     const yaml = code.substring(start + 5, end);
 
-    let preamble;
+    let preamble: Test262Preamble;
     try {
-      preamble = YAML.parse(yaml);
+      preamble = YAML.parse(yaml) as Test262Preamble;
     } catch {
       // console.log('Cannot parse YAML config');
       return;
@@ -39,10 +50,10 @@ await run({
       preamble.negative?.phase === "parse" && preamble.negative?.type === "SyntaxError";
     if (cannotParse) return;
 
-    const isModule = preamble.flags?.includes("module");
+    const isModule = preamble.flags?.includes("module") ?? false;
 
-    let ast;
-    const comments = [];
+    let ast: MutableProgram;
+    const comments: Comment[] = [];
     try {
       ast = AcornParser.parse(code, {
         ecmaVersion: "latest",
@@ -53,7 +64,7 @@ await run({
         // Note: Do not specify `allowAwaitOutsideFunction` option.
         // It defaults to `true` for modules, `false` for scripts, which is what we want.
         onComment: comments,
-      });
+      }) as unknown as MutableProgram;
     } catch {
       try {
         ast = meriyahParse(code, {
@@ -65,8 +76,8 @@ await run({
           globalReturn: true,
           webcompat: true, // I think this enables support for Annex B
           next: true, // Enable parsing decorators and import attributes
-          onComment: comments,
-        });
+          onComment: comments as never,
+        }) as unknown as MutableProgram;
       } catch {
         return;
       }
@@ -87,14 +98,14 @@ await run({
 
     // Output AST and tokens
     const astPath = `${path}on`; // Replace `.js` with `.json`
-    const outputs = [{ path: astPath, ast }];
+    const outputs: Output[] = [{ path: astPath, ast }];
     if (tokensJson) outputs.push({ path: `../test262-tokens/${astPath}`, content: tokensJson });
     return outputs;
   },
 });
 
 // Alter Meriyah's AST to fix mistakes and to match Acorn's
-function fixMeriyahValue(value) {
+function fixMeriyahValue(value: unknown): void {
   if (value === null || typeof value !== "object") return;
 
   if (Array.isArray(value)) {
@@ -104,17 +115,19 @@ function fixMeriyahValue(value) {
     return;
   }
 
-  if (Object.hasOwn(value, "type")) fixMeriyahNode(value);
+  if (!isJsonObject(value)) return;
+
+  if (isAstNode(value)) fixMeriyahNode(value);
 
   for (const prop of Object.values(value)) {
     fixMeriyahValue(prop);
   }
 }
 
-function fixMeriyahNode(node) {
+function fixMeriyahNode(node: JsonObject & { type: string }): void {
   const { type } = node;
   if (type === "TemplateElement") {
-    if (Object.hasOwn(node, "value") && node.value && typeof node.value === "object") {
+    if (isJsonObject(node.value)) {
       // `cooked` and `raw` in opposite order from Acorn (cosmetic difference only)
       if (Object.hasOwn(node.value, "raw")) node.value = { raw: undefined, ...node.value };
     }
@@ -125,4 +138,12 @@ function fixMeriyahNode(node) {
     // `id` field is not in ESTree spec. Not sure why Acorn includes it.
     if (!Object.hasOwn(node, "id")) node.id = null;
   }
+}
+
+function isJsonObject(value: unknown): value is JsonObject {
+  return typeof value === "object" && value !== null;
+}
+
+function isAstNode(value: JsonObject): value is JsonObject & { type: string } {
+  return typeof value.type === "string";
 }

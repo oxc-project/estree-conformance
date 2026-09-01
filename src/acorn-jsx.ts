@@ -3,9 +3,9 @@ import fs from "node:fs/promises";
 import { join as pathJoin } from "node:path";
 import vm from "node:vm";
 import acornJsx from "../submodules/acorn-jsx/index.js";
-import { transformerAcorn } from "./utils/json.js";
-import { parseEspreeTokens } from "./utils/tokens.js";
-import { run } from "./utils/run.js";
+import { transformerAcorn } from "./utils/json.ts";
+import { parseEspreeTokens } from "./utils/tokens.ts";
+import { run } from "./utils/run.ts";
 
 const Parser = acorn.Parser.extend(acornJsx());
 
@@ -21,10 +21,10 @@ for (const [index, code] of fixtures.entries()) {
   await fs.writeFile(pathJoin(FIXTURES_DIR_PATH, filename), code);
 }
 
-async function collectFixtures() {
+async function collectFixtures(): Promise<string[]> {
   // evaluate tester and collect tests
   const testCode = await fs.readFile(TEST_FILE_PATH, "utf8");
-  const context = { __tests: [] };
+  const context: { __tests: string[] } = { __tests: [] };
   vm.runInNewContext(
     `
 var test = code => __tests.push(code);
@@ -44,7 +44,7 @@ await run({
   transform: transformerAcorn,
   async process(path, code) {
     // Parse AST
-    let ast;
+    let ast: acorn.Program & { hashbang: null };
     try {
       ast = Parser.parse(code, {
         ecmaVersion: "latest",
@@ -52,7 +52,7 @@ await run({
         preserveParens: true,
         allowHashBang: true,
         allowReturnOutsideFunction: true,
-      });
+      }) as acorn.Program & { hashbang: null };
       ast.hashbang = null;
     } catch {
       return;

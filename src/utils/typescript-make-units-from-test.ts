@@ -5,19 +5,19 @@
 // This file is duplicated in `oxc-project/oxc` repo in `napi/parser/test` directory.
 // Any changes made here also need to be replicated there.
 
-const path = require("path");
-const fs = require("fs");
+import fs from "node:fs";
+import path from "node:path";
 
 // Regex patterns equivalent to the Rust version
 const META_OPTIONS_REGEX = /^\/\/\s*@(\w+)\s*:\s*([^\r\n]*)/gm;
 
 /**
  * Convert settings value to boolean
- * @param {string|null} value - Setting value
- * @param {boolean} defaultValue - Default value if setting is not present
- * @returns {boolean}
+ * @param value - Setting value
+ * @param defaultValue - Default value if setting is not present
+ * @returns Converted boolean value
  */
-function valueToBoolean(value, defaultValue) {
+function valueToBoolean(value: string | undefined, defaultValue: boolean): boolean {
   if (value === "true") return true;
   if (value === "false") return false;
   return defaultValue;
@@ -25,20 +25,19 @@ function valueToBoolean(value, defaultValue) {
 
 /**
  * Split comma-separated values into array
- * @param {string|null} value - Setting value
- * @returns {string[]}
+ * @param value - Setting value
  */
-function splitValueOptions(value) {
+function splitValueOptions(value: string | undefined): string[] {
   if (!value) return [];
   return value.split(",").map((s) => s.trim().toLowerCase());
 }
 
 /**
  * Create compiler settings from options map
- * @param {Map<string, string>} options - Compiler options
- * @returns {Object} CompilerSettings
+ * @param options - Compiler options
+ * @returns Compiler settings
  */
-function createCompilerSettings(options) {
+function createCompilerSettings(options: Map<string, string>): CompilerSettings {
   return {
     modules: splitValueOptions(options.get("module")),
     targets: splitValueOptions(options.get("target")),
@@ -55,7 +54,7 @@ function createCompilerSettings(options) {
 }
 
 // Mapping from file extension to source type
-const EXTENSIONS = {
+const EXTENSIONS: Record<string, SourceType> = {
   ".js": { typescript: false, jsx: false, module: true },
   ".mjs": { typescript: false, jsx: false, module: true },
   ".cjs": { typescript: false, jsx: false, module: false },
@@ -71,11 +70,11 @@ const EXTENSIONS = {
  * - If explicitly set to non-"auto", returns that value
  * - For jsx/tsx files with react-jsx setting, returns "force"
  * - Default: "legacy"
- * @param {Object} settings - Compiler settings
- * @param {string} filename - File name
- * @returns {string}
+ * @param settings - Compiler settings
+ * @param filename - File name
+ * @returns Effective module detection mode
  */
-function getModuleDetectionMode(settings, filename) {
+function getModuleDetectionMode(settings: CompilerSettings, filename: string): string {
   const mode = settings.moduleDetection[0] ?? "auto";
   if (mode !== "auto") {
     return mode;
@@ -90,29 +89,29 @@ function getModuleDetectionMode(settings, filename) {
 
 /**
  * Check if file is a declaration file
- * @param {string} name - File name
- * @returns {boolean}
+ * @param name - File name
+ * @returns Whether the file is a declaration file
  */
-function isDeclarationFile(name) {
+function isDeclarationFile(name: string): boolean {
   return name.endsWith(".d.ts") || name.endsWith(".d.mts") || name.endsWith(".d.cts");
 }
 
 /**
  * Check if extension explicitly indicates module type
- * @param {string} ext - File extension (lowercase, with dot)
- * @returns {boolean}
+ * @param ext - File extension (lowercase, with dot)
+ * @returns Whether the extension has explicit module semantics
  */
-function isExplicitModuleExtension(ext) {
+function isExplicitModuleExtension(ext: string): boolean {
   return [".mts", ".mjs", ".cjs", ".cts"].includes(ext);
 }
 
 /**
  * Get source type from file path
- * @param {string} filePath - Path to the file
- * @param {Object} options - Compiler options
- * @returns {Object|null} Source type
+ * @param filePath - Path to the file
+ * @param options - Compiler options
+ * @returns Source type, if supported
  */
-function getSourceType(filePath, options) {
+function getSourceType(filePath: string, options: CompilerSettings): SourceType | null {
   const ext = path.extname(filePath).toLowerCase();
   let sourceType = EXTENSIONS[ext];
 
@@ -131,11 +130,11 @@ function getSourceType(filePath, options) {
 
 /**
  * Get error files for the test
- * @param {string} filePath - Path to the test file
- * @param {Object} options - Compiler options
- * @returns {string[]} Error files content
+ * @param filePath - Path to the test file
+ * @param options - Compiler options
+ * @returns Error file contents
  */
-function getErrorFiles(filePath, options) {
+function getErrorFiles(filePath: string, options: CompilerSettings): string[] {
   const fileName = path.basename(filePath, path.extname(filePath));
   const root = path.join(process.cwd(), "typescript/tests/baselines/reference");
 
@@ -165,14 +164,14 @@ function getErrorFiles(filePath, options) {
 
 /**
  * Extract individual test units from a TypeScript test file
- * @param {string} filePath - Path to the test file
- * @param {string} code - Content of the test file
- * @returns {Object} TestCaseContent object
+ * @param filePath - Path to the test file
+ * @param code - Content of the test file
+ * @returns TestCaseContent object
  */
-function makeUnitsFromTest(filePath, code) {
-  const currentFileOptions = new Map();
-  let currentFileName = null;
-  const testUnitData = [];
+export function makeUnitsFromTest(filePath: string, code: string): TestCaseContent {
+  const currentFileOptions = new Map<string, string>();
+  let currentFileName: string | null = null;
+  const testUnitData: PendingTestUnit[] = [];
   let currentFileContent = "";
 
   // Process the file line by line
@@ -220,15 +219,15 @@ function makeUnitsFromTest(filePath, code) {
   const settings = createCompilerSettings(currentFileOptions);
 
   // Update source types and filter out unsupported files
-  const validTestUnits = testUnitData.filter((unit) => {
+  const validTestUnits: TestUnit[] = [];
+  for (const unit of testUnitData) {
     const sourceType = getSourceType(unit.name, settings);
-    if (!sourceType) return false;
+    if (!sourceType) continue;
     if (getModuleDetectionMode(settings, unit.name) === "force" && !isDeclarationFile(unit.name)) {
       sourceType.module = true;
     }
-    unit.sourceType = sourceType;
-    return true;
-  });
+    validTestUnits.push({ ...unit, sourceType });
+  }
 
   const errorFiles = getErrorFiles(filePath, settings);
 
@@ -239,4 +238,38 @@ function makeUnitsFromTest(filePath, code) {
   };
 }
 
-module.exports.makeUnitsFromTest = makeUnitsFromTest;
+interface CompilerSettings {
+  modules: string[];
+  targets: string[];
+  strict: boolean;
+  jsx: string[];
+  declaration: boolean;
+  emitDeclarationOnly: boolean;
+  alwaysStrict: boolean;
+  allowUnreachableCode: boolean;
+  allowUnusedLabels: boolean;
+  noFallthroughCasesInSwitch: boolean;
+  moduleDetection: string[];
+}
+
+interface SourceType {
+  typescript: boolean;
+  jsx: boolean;
+  module: boolean;
+}
+
+interface PendingTestUnit {
+  name: string;
+  content: string;
+  sourceType: null;
+}
+
+export interface TestUnit extends Omit<PendingTestUnit, "sourceType"> {
+  sourceType: SourceType;
+}
+
+export interface TestCaseContent {
+  tests: TestUnit[];
+  settings: CompilerSettings;
+  errorFiles: string[];
+}

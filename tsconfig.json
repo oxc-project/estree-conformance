@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "allowImportingTsExtensions": true,
+    "module": "NodeNext",
+    "noEmit": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "target": "ESNext",
+    "types": ["node"]
+  },
+  "include": ["src/**/*.ts", "vite.config.ts"]
+}

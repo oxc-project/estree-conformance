@@ -4,7 +4,11 @@ import { join as pathJoin } from "node:path";
 const INFINITY_PLACEHOLDER = "__INFINITY__INFINITY__INFINITY__";
 const INFINITY_REGEXP = new RegExp(`"${INFINITY_PLACEHOLDER}"`, "g");
 
-function compareCharacters(left, right) {
+type JsonObject = Record<string, unknown>;
+
+export type Transformer = (key: string, value: unknown) => unknown;
+
+function compareCharacters(left: string, right: string): number {
   if (left < right) return -1;
   if (left > right) return 1;
   return 0;
@@ -14,7 +18,7 @@ const fieldOrdersJson = await fs.readFile(
   pathJoin(import.meta.dirname, "../field-orders.json"),
   "utf8",
 );
-const fieldOrders = JSON.parse(fieldOrdersJson);
+const fieldOrders = JSON.parse(fieldOrdersJson) as Record<string, string[]>;
 
 // Transformer for Acorn AST.
 //
@@ -25,11 +29,11 @@ const fieldOrders = JSON.parse(fieldOrdersJson);
 // * Sort RegExp `Literal`s' `regex.flags` property in alphabetical order, the way V8 does.
 // * Add `phase` field to `ImportDeclaration` and `ImportExpression`.
 // * Add `decorators` field to classes, class methods, and class properties.
-export function transformerAcorn(_key, value) {
+export function transformerAcorn(_key: string, value: unknown): unknown {
   if (typeof value === "bigint") return null;
   if (value === Infinity) return INFINITY_PLACEHOLDER;
 
-  if (typeof value !== "object" || value === null || !Object.hasOwn(value, "type")) return value;
+  if (!isAstNode(value)) return value;
 
   const { type } = value;
   if (type === "ImportDeclaration" || type === "ImportExpression") {
@@ -37,11 +41,10 @@ export function transformerAcorn(_key, value) {
   } else if (type === "Literal") {
     if (
       Object.hasOwn(value, "regex") &&
-      value.regex &&
-      typeof value.regex === "object" &&
+      isJsonObject(value.regex) &&
       typeof value.regex.flags === "string"
     ) {
-      value.regex.flags = [...value.regex.flags].sort(compareCharacters).join("");
+      value.regex.flags = Array.from(value.regex.flags).sort(compareCharacters).join("");
       if (Object.hasOwn(value, "value")) value.value = null;
     }
   } else if (
@@ -57,7 +60,7 @@ export function transformerAcorn(_key, value) {
   const keys = fieldOrders[type];
   if (!keys) return value;
 
-  const reordered = { type };
+  const reordered: JsonObject = { type };
   for (const key of keys) {
     if (key === "type" || key === "span") continue;
     if (Object.hasOwn(value, key)) reordered[key] = value[key];
@@ -79,11 +82,11 @@ export function transformerAcorn(_key, value) {
 // * Replaces `undefined` with `null`.
 // * Alters field order of regex `Literal`s and `TemplateElement`s.
 // * Does not add `decorators` fields, as they already exist.
-export function transformerTs(_key, value) {
+export function transformerTs(_key: string, value: unknown): unknown {
   if (typeof value === "bigint") return null;
   if (value === Infinity) return INFINITY_PLACEHOLDER;
 
-  if (typeof value !== "object" || value === null || !Object.hasOwn(value, "type")) return value;
+  if (!isAstNode(value)) return value;
 
   const { type } = value;
   if (type === "ImportDeclaration" || type === "ImportExpression") {
@@ -91,17 +94,16 @@ export function transformerTs(_key, value) {
   } else if (type === "Literal") {
     if (
       Object.hasOwn(value, "regex") &&
-      value.regex &&
-      typeof value.regex === "object" &&
+      isJsonObject(value.regex) &&
       typeof value.regex.flags === "string"
     ) {
-      value.regex.flags = [...value.regex.flags].sort(compareCharacters).join("");
+      value.regex.flags = Array.from(value.regex.flags).sort(compareCharacters).join("");
       if (Object.hasOwn(value, "value")) value.value = null;
       // Reverse order of `pattern` and `flags` fields to match Acorn
       value.regex = { pattern: undefined, ...value.regex };
     }
   } else if (type === "TemplateElement") {
-    if (value.value && typeof value.value === "object" && Object.hasOwn(value.value, "raw")) {
+    if (isJsonObject(value.value) && Object.hasOwn(value.value, "raw")) {
       // Reverse order of `raw` and `cooked` fields to match Acorn
       value.value = { raw: undefined, ...value.value };
     }
@@ -115,7 +117,7 @@ export function transformerTs(_key, value) {
   }
 
   // Re-order fields
-  const reordered = { type };
+  const reordered: JsonObject = { type };
 
   const keys = fieldOrders[type];
   if (keys) {
@@ -134,15 +136,24 @@ export function transformerTs(_key, value) {
   }
 
   // Convert `range` field to `start` + `end`
+  if (!Array.isArray(value.range)) throw new TypeError(`Missing range on ${type}`);
   reordered.start = value.range[0];
   reordered.end = value.range[1];
 
   return reordered;
 }
 
-export function stringifyWith(ast, transformer) {
+export function stringifyWith(ast: unknown, transformer: Transformer): string {
   // Serialize to JSON, with modifications
   let json = JSON.stringify(ast, transformer, 2);
   json = json.replace(INFINITY_REGEXP, "1e+400");
   return json;
+}
+
+function isJsonObject(value: unknown): value is JsonObject {
+  return typeof value === "object" && value !== null;
+}
+
+function isAstNode(value: unknown): value is JsonObject & { type: string } {
+  return isJsonObject(value) && typeof value.type === "string";
 }
