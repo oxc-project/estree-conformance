@@ -1,0 +1,172 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "kind": "var",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "sentinel",
+            "start": 283,
+            "end": 291
+          },
+          "init": {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "Promise",
+                "start": 294,
+                "end": 301
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "resolve",
+                "start": 302,
+                "end": 309
+              },
+              "optional": false,
+              "computed": false,
+              "start": 294,
+              "end": 309
+            },
+            "arguments": [],
+            "optional": false,
+            "start": 294,
+            "end": 311
+          },
+          "start": 283,
+          "end": 311
+        }
+      ],
+      "start": 279,
+      "end": 312
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "var",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "returnValue",
+            "start": 318,
+            "end": 329
+          },
+          "init": {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "Promise",
+                "start": 332,
+                "end": 339
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "try",
+                "start": 340,
+                "end": 343
+              },
+              "optional": false,
+              "computed": false,
+              "start": 332,
+              "end": 343
+            },
+            "arguments": [
+              {
+                "type": "FunctionExpression",
+                "id": null,
+                "generator": false,
+                "async": false,
+                "params": [],
+                "body": {
+                  "type": "BlockStatement",
+                  "body": [
+                    {
+                      "type": "ReturnStatement",
+                      "argument": {
+                        "type": "Identifier",
+                        "name": "sentinel",
+                        "start": 367,
+                        "end": 375
+                      },
+                      "start": 360,
+                      "end": 376
+                    }
+                  ],
+                  "start": 356,
+                  "end": 378
+                },
+                "expression": false,
+                "start": 344,
+                "end": 378
+              }
+            ],
+            "optional": false,
+            "start": 332,
+            "end": 379
+          },
+          "start": 318,
+          "end": 379
+        }
+      ],
+      "start": 314,
+      "end": 380
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 381,
+            "end": 387
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 388,
+            "end": 397
+          },
+          "optional": false,
+          "computed": false,
+          "start": 381,
+          "end": 397
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "name": "returnValue",
+            "start": 398,
+            "end": 409
+          },
+          {
+            "type": "Identifier",
+            "name": "sentinel",
+            "start": 411,
+            "end": 419
+          }
+        ],
+        "optional": false,
+        "start": 381,
+        "end": 420
+      },
+      "start": 381,
+      "end": 421
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 422
+}
