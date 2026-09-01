@@ -137,7 +137,7 @@ function getSourceType(filePath, options) {
  */
 function getErrorFiles(filePath, options) {
   const fileName = path.basename(filePath, path.extname(filePath));
-  const root = path.join(process.cwd(), "typescript/tests/baselines/reference");
+  const root = path.join(process.cwd(), "submodules/typescript/tests/baselines/reference");
 
   const suffixes = [
     "",
