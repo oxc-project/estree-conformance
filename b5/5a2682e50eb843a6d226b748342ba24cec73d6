@@ -1,0 +1,19 @@
+.github/workflows/update-fixtures.yml
+  s_ff31726993a587::t_ebf316db99a242 150
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "b55a2682e50eb843a6d226b748342ba24cec73d6",
+  "prompts": {},
+  "sessions": {
+    "s_ff31726993a587": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a05c16-6434-74c3-b140-a59f82feba34",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "Cameron <cclark@cloudflare.com>"
+    }
+  }
+}
