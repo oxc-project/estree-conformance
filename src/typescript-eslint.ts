@@ -1,8 +1,8 @@
 import { parseForESLint } from "@typescript-eslint/parser";
 import { walk } from "estree-walker";
-import { stringifyWith, transformerTs } from "./utils/json.js";
-import { run } from "./utils/run.js";
-import { makeUnitsFromTest } from "./utils/typescript-make-units-from-test.cjs";
+import { stringifyWith, transformerTs } from "./utils/json.ts";
+import { run } from "./utils/run.ts";
+import { makeUnitsFromTest } from "./utils/typescript-make-units-from-test.ts";
 
 const EXIT = {};
 
@@ -35,7 +35,10 @@ await run({
             jsx: test.sourceType.jsx,
           },
         });
-        const { comments, tokens, ...program } = result.ast;
+        const { comments, tokens, ...parsedProgram } = result.ast;
+        const program = parsedProgram as typeof parsedProgram & {
+          hashbang?: Record<string, unknown> | null;
+        };
 
         // TS-ESLint parser has no `unambiguous` option, so emulate it here
         if (program.sourceType === "script") {
@@ -58,7 +61,7 @@ await run({
           if (program.sourceType === "script") {
             // Didn't find any module declarations. Need to walk whole AST to search for `import.meta`.
             try {
-              walk(program, {
+              walk(program as unknown as Parameters<typeof walk>[0], {
                 enter(node) {
                   if (
                     node.type === "MetaProperty" &&
@@ -90,30 +93,27 @@ await run({
         // * Add `start` + `end`.
         // * Move `regex` field to after `value`.
         // * Reverse order of `regex` object properties (`pattern` first).
-        for (let i = 0; i < tokens.length; i++) {
-          const { range, loc: _loc, regex, ...token } = tokens[i];
+        const conformedTokens = tokens.map((originalToken) => {
+          const token = originalToken as unknown as Record<string, unknown> & {
+            range: [number, number];
+            type: string;
+            value: string;
+          };
+          const { range, loc: _loc, regex, type, value, ...rest } = token;
 
-          if (typeof regex === "object" && regex !== null) {
-            tokens[i] = {
-              type: undefined,
-              value: undefined,
-              regex: { pattern: undefined, flags: undefined, ...regex },
-              start: range[0],
-              end: range[1],
-              ...token,
-            };
-          } else {
-            tokens[i] = {
-              type: undefined,
-              value: undefined,
-              start: range[0],
-              end: range[1],
-              ...token,
-            };
-          }
-        }
+          return typeof regex === "object" && regex !== null
+            ? {
+                type,
+                value,
+                regex: { pattern: undefined, flags: undefined, ...regex },
+                start: range[0],
+                end: range[1],
+                ...rest,
+              }
+            : { type, value, start: range[0], end: range[1], ...rest };
+        });
 
-        const tokensJson = JSON.stringify(tokens, null, 2);
+        const tokensJson = JSON.stringify(conformedTokens, null, 2);
         output += "__ESTREE_TEST__:TOKENS:\n```json\n" + tokensJson + "\n```\n";
       } catch {
         return;

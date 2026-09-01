@@ -11,14 +11,15 @@
     "clone-acorn-jsx": "just clone-submodule submodules/acorn-jsx https://github.com/acornjs/acorn-jsx.git 8ed96d6ddec2065204ba07d924bb2e7bca539ea6",
     "clone-typescript": "just clone-submodule submodules/typescript https://github.com/microsoft/TypeScript.git b465fdbfe175304d9b977da137b2c178ae1091d3",
     "start": "pnpm run gen-test262 && pnpm run gen-acorn-jsx && pnpm run gen-typescript",
-    "gen-test262": "node src/test262.js",
-    "gen-acorn-jsx": "node src/acorn-jsx.js",
-    "gen-typescript": "node src/typescript-eslint.js",
+    "gen-test262": "node src/test262.ts",
+    "gen-acorn-jsx": "node src/acorn-jsx.ts",
+    "gen-typescript": "node src/typescript-eslint.ts",
     "lint": "vp lint src",
     "fmt": "vp fmt",
     "prepare": "vp config"
   },
   "devDependencies": {
+    "@types/node": "^26.4.0",
     "@typescript-eslint/parser": "^8.65.0",
     "acorn": "^8.18.0",
     "espree": "^11.2.0",

@@ -1,18 +1,18 @@
-import { parse as espreeParse } from "espree";
+import { parse as espreeParse, type EspreeToken } from "espree";
 
 /**
  * Parse with Espree to get tokens, and serialize them to JSON.
  *
- * @param {string} code - Source text
- * @param {boolean} isModule - `true` if code is a module, `false` if it's a script
- * @param {boolean} jsx - `true` if file is JSX, `false` otherwise
+ * @param code - Source text
+ * @param isModule - `true` if code is a module, `false` if it's a script
+ * @param jsx - `true` if file is JSX, `false` otherwise
  * @returns Tokens as JSON string, or `null` if parsing failed
  */
-export function parseEspreeTokens(code, isModule, jsx) {
+export function parseEspreeTokens(code: string, isModule: boolean, jsx: boolean) {
   // Parse with Espree
-  let tokens;
+  let tokens: EspreeToken[];
   try {
-    tokens = espreeParse(code, {
+    const program = espreeParse(code, {
       ecmaVersion: "latest",
       sourceType: isModule ? "module" : "script",
       tokens: true,
@@ -22,7 +22,8 @@ export function parseEspreeTokens(code, isModule, jsx) {
         jsx,
         globalReturn: true, // Allow top-level `return`
       },
-    }).tokens;
+    }) as ReturnType<typeof espreeParse> & { tokens: EspreeToken[] };
+    tokens = program.tokens;
   } catch {
     return null;
   }
@@ -34,11 +35,12 @@ export function parseEspreeTokens(code, isModule, jsx) {
   for (let i = 0; i < tokens.length; i++) {
     const { range: _range, regex, ...token } = tokens[i];
     if (typeof regex === "object" && regex !== null) {
+      const { type, value, ...rest } = token;
       tokens[i] = {
-        type: undefined,
-        value: undefined,
-        regex: { pattern: undefined, flags: undefined, ...regex },
-        ...token,
+        type,
+        value,
+        regex: { pattern: regex.pattern, flags: regex.flags },
+        ...rest,
       };
     } else {
       tokens[i] = token;
