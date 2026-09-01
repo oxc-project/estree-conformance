@@ -147,8 +147,7 @@ jobs:
         with:
           token: ${{ steps.app-token.outputs.token }}
           commit-message: update fixtures
-          title: update fixtures
+          title: 'chore: update fixtures'
           branch: update
           branch-suffix: timestamp
           base: main
-          assignees: Boshen
