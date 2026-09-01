@@ -1,0 +1,297 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ClassDeclaration",
+      "decorators": [],
+      "id": {
+        "type": "Identifier",
+        "name": "SubPromise",
+        "start": 308,
+        "end": 318
+      },
+      "superClass": {
+        "type": "Identifier",
+        "name": "Promise",
+        "start": 327,
+        "end": 334
+      },
+      "body": {
+        "type": "ClassBody",
+        "body": [
+          {
+            "type": "MethodDefinition",
+            "decorators": [],
+            "key": {
+              "type": "Identifier",
+              "name": "constructor",
+              "start": 339,
+              "end": 350
+            },
+            "value": {
+              "type": "FunctionExpression",
+              "id": null,
+              "generator": false,
+              "async": false,
+              "params": [
+                {
+                  "type": "Identifier",
+                  "name": "executor",
+                  "start": 351,
+                  "end": 359
+                }
+              ],
+              "body": {
+                "type": "BlockStatement",
+                "body": [
+                  {
+                    "type": "ExpressionStatement",
+                    "expression": {
+                      "type": "CallExpression",
+                      "callee": {
+                        "type": "Super",
+                        "start": 367,
+                        "end": 372
+                      },
+                      "arguments": [
+                        {
+                          "type": "Identifier",
+                          "name": "executor",
+                          "start": 373,
+                          "end": 381
+                        }
+                      ],
+                      "optional": false,
+                      "start": 367,
+                      "end": 382
+                    },
+                    "start": 367,
+                    "end": 383
+                  }
+                ],
+                "start": 361,
+                "end": 387
+              },
+              "expression": false,
+              "start": 350,
+              "end": 387
+            },
+            "kind": "constructor",
+            "computed": false,
+            "static": false,
+            "start": 339,
+            "end": 387
+          }
+        ],
+        "start": 335,
+        "end": 389
+      },
+      "start": 302,
+      "end": 389
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "var",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "sentinel",
+            "start": 395,
+            "end": 403
+          },
+          "init": {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "SubPromise",
+                "start": 406,
+                "end": 416
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "resolve",
+                "start": 417,
+                "end": 424
+              },
+              "optional": false,
+              "computed": false,
+              "start": 406,
+              "end": 424
+            },
+            "arguments": [],
+            "optional": false,
+            "start": 406,
+            "end": 426
+          },
+          "start": 395,
+          "end": 426
+        }
+      ],
+      "start": 391,
+      "end": 427
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "Identifier",
+          "name": "assert",
+          "start": 428,
+          "end": 434
+        },
+        "arguments": [
+          {
+            "type": "BinaryExpression",
+            "left": {
+              "type": "Identifier",
+              "name": "sentinel",
+              "start": 435,
+              "end": 443
+            },
+            "operator": "instanceof",
+            "right": {
+              "type": "Identifier",
+              "name": "SubPromise",
+              "start": 455,
+              "end": 465
+            },
+            "start": 435,
+            "end": 465
+          }
+        ],
+        "optional": false,
+        "start": 428,
+        "end": 466
+      },
+      "start": 428,
+      "end": 467
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "var",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "returnValue",
+            "start": 473,
+            "end": 484
+          },
+          "init": {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "SubPromise",
+                "start": 487,
+                "end": 497
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "try",
+                "start": 498,
+                "end": 501
+              },
+              "optional": false,
+              "computed": false,
+              "start": 487,
+              "end": 501
+            },
+            "arguments": [
+              {
+                "type": "FunctionExpression",
+                "id": null,
+                "generator": false,
+                "async": false,
+                "params": [],
+                "body": {
+                  "type": "BlockStatement",
+                  "body": [
+                    {
+                      "type": "ReturnStatement",
+                      "argument": {
+                        "type": "Identifier",
+                        "name": "sentinel",
+                        "start": 525,
+                        "end": 533
+                      },
+                      "start": 518,
+                      "end": 534
+                    }
+                  ],
+                  "start": 514,
+                  "end": 536
+                },
+                "expression": false,
+                "start": 502,
+                "end": 536
+              }
+            ],
+            "optional": false,
+            "start": 487,
+            "end": 537
+          },
+          "start": 473,
+          "end": 537
+        }
+      ],
+      "start": 469,
+      "end": 538
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 539,
+            "end": 545
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 546,
+            "end": 555
+          },
+          "optional": false,
+          "computed": false,
+          "start": 539,
+          "end": 555
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "name": "returnValue",
+            "start": 556,
+            "end": 567
+          },
+          {
+            "type": "Identifier",
+            "name": "sentinel",
+            "start": 569,
+            "end": 577
+          }
+        ],
+        "optional": false,
+        "start": 539,
+        "end": 578
+      },
+      "start": 539,
+      "end": 579
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 580
+}
