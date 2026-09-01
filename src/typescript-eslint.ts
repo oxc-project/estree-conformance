@@ -8,9 +8,12 @@ const EXIT = {};
 
 await run({
   submodule: "typescript",
-  subDirectory: "tests/cases",
+  subDirectory: "tsc/testdata/tests/cases",
   filter(path) {
-    return path.startsWith("tests/cases/compiler/") || path.startsWith("tests/cases/conformance/");
+    return (
+      path.startsWith("tsc/testdata/tests/cases/compiler/") ||
+      path.startsWith("tsc/testdata/tests/cases/conformance/")
+    );
   },
   async process(path, code) {
     // Trim off UTF-8 BOM
