@@ -1,0 +1,440 @@
+[
+  {
+    "type": "Keyword",
+    "value": "const",
+    "start": 309,
+    "end": 314
+  },
+  {
+    "type": "Identifier",
+    "value": "instance",
+    "start": 315,
+    "end": 323
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 324,
+    "end": 325
+  },
+  {
+    "type": "Keyword",
+    "value": "new",
+    "start": 326,
+    "end": 329
+  },
+  {
+    "type": "Identifier",
+    "value": "Temporal",
+    "start": 330,
+    "end": 338
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 338,
+    "end": 339
+  },
+  {
+    "type": "Identifier",
+    "value": "Instant",
+    "start": 339,
+    "end": 346
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 346,
+    "end": 347
+  },
+  {
+    "type": "Numeric",
+    "value": "0n",
+    "start": 347,
+    "end": 349
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 349,
+    "end": 350
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 350,
+    "end": 351
+  },
+  {
+    "type": "Keyword",
+    "value": "const",
+    "start": 353,
+    "end": 358
+  },
+  {
+    "type": "Identifier",
+    "value": "unknown",
+    "start": 359,
+    "end": 366
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 367,
+    "end": 368
+  },
+  {
+    "type": "Punctuator",
+    "value": "[",
+    "start": 369,
+    "end": 370
+  },
+  {
+    "type": "String",
+    "value": "\"Mars/Olympus_Mons\"",
+    "start": 370,
+    "end": 389
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 389,
+    "end": 390
+  },
+  {
+    "type": "String",
+    "value": "\"America/Nonexistent\"",
+    "start": 391,
+    "end": 412
+  },
+  {
+    "type": "Punctuator",
+    "value": "]",
+    "start": 412,
+    "end": 413
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 413,
+    "end": 414
+  },
+  {
+    "type": "Keyword",
+    "value": "for",
+    "start": 416,
+    "end": 419
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 420,
+    "end": 421
+  },
+  {
+    "type": "Keyword",
+    "value": "const",
+    "start": 421,
+    "end": 426
+  },
+  {
+    "type": "Identifier",
+    "value": "timeZone",
+    "start": 427,
+    "end": 435
+  },
+  {
+    "type": "Identifier",
+    "value": "of",
+    "start": 436,
+    "end": 438
+  },
+  {
+    "type": "Identifier",
+    "value": "unknown",
+    "start": 439,
+    "end": 446
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 446,
+    "end": 447
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 448,
+    "end": 449
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 452,
+    "end": 458
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 458,
+    "end": 459
+  },
+  {
+    "type": "Identifier",
+    "value": "throws",
+    "start": 459,
+    "end": 465
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 465,
+    "end": 466
+  },
+  {
+    "type": "Identifier",
+    "value": "RangeError",
+    "start": 471,
+    "end": 481
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 481,
+    "end": 482
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 487,
+    "end": 488
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 488,
+    "end": 489
+  },
+  {
+    "type": "Punctuator",
+    "value": "=>",
+    "start": 490,
+    "end": 492
+  },
+  {
+    "type": "Identifier",
+    "value": "instance",
+    "start": 493,
+    "end": 501
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 501,
+    "end": 502
+  },
+  {
+    "type": "Identifier",
+    "value": "toZonedDateTimeISO",
+    "start": 502,
+    "end": 520
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 520,
+    "end": 521
+  },
+  {
+    "type": "Identifier",
+    "value": "timeZone",
+    "start": 521,
+    "end": 529
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 529,
+    "end": 530
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 530,
+    "end": 531
+  },
+  {
+    "type": "Template",
+    "value": "`${",
+    "start": 536,
+    "end": 539
+  },
+  {
+    "type": "Identifier",
+    "value": "timeZone",
+    "start": 539,
+    "end": 547
+  },
+  {
+    "type": "Template",
+    "value": "} is not an available named time zone`",
+    "start": 547,
+    "end": 585
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 588,
+    "end": 589
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 589,
+    "end": 590
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 594,
+    "end": 600
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 600,
+    "end": 601
+  },
+  {
+    "type": "Identifier",
+    "value": "throws",
+    "start": 601,
+    "end": 607
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 607,
+    "end": 608
+  },
+  {
+    "type": "Identifier",
+    "value": "RangeError",
+    "start": 613,
+    "end": 623
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 623,
+    "end": 624
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 629,
+    "end": 630
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 630,
+    "end": 631
+  },
+  {
+    "type": "Punctuator",
+    "value": "=>",
+    "start": 632,
+    "end": 634
+  },
+  {
+    "type": "Identifier",
+    "value": "instance",
+    "start": 635,
+    "end": 643
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 643,
+    "end": 644
+  },
+  {
+    "type": "Identifier",
+    "value": "toZonedDateTimeISO",
+    "start": 644,
+    "end": 662
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 662,
+    "end": 663
+  },
+  {
+    "type": "Template",
+    "value": "`1970-01-01T00:00+01:00[${",
+    "start": 663,
+    "end": 689
+  },
+  {
+    "type": "Identifier",
+    "value": "timeZone",
+    "start": 689,
+    "end": 697
+  },
+  {
+    "type": "Template",
+    "value": "}]`",
+    "start": 697,
+    "end": 700
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 700,
+    "end": 701
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 701,
+    "end": 702
+  },
+  {
+    "type": "Template",
+    "value": "`${",
+    "start": 707,
+    "end": 710
+  },
+  {
+    "type": "Identifier",
+    "value": "timeZone",
+    "start": 710,
+    "end": 718
+  },
+  {
+    "type": "Template",
+    "value": "} in a time zone annotation is not an available named time zone, and the offset is not a fallback`",
+    "start": 718,
+    "end": 816
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 819,
+    "end": 820
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 820,
+    "end": 821
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 822,
+    "end": 823
+  }
+]
