@@ -35,8 +35,8 @@ __ESTREE_TEST__:AST:
   "body": [],
   "sourceType": "script",
   "hashbang": null,
-  "start": 147,
-  "end": 147
+  "start": 67,
+  "end": 67
 }
 ```
 __ESTREE_TEST__:TOKENS:
