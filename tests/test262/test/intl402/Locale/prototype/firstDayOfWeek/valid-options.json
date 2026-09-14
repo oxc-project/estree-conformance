@@ -498,17 +498,473 @@
                 ],
                 "start": 769,
                 "end": 779
+              },
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "UnaryExpression",
+                    "operator": "-",
+                    "argument": {
+                      "type": "Literal",
+                      "value": 0,
+                      "raw": "0",
+                      "start": 785,
+                      "end": 786
+                    },
+                    "prefix": true,
+                    "start": 784,
+                    "end": 786
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "sun",
+                    "raw": "\"sun\"",
+                    "start": 788,
+                    "end": 793
+                  }
+                ],
+                "start": 783,
+                "end": 794
+              },
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "value": 100,
+                    "raw": "100",
+                    "start": 799,
+                    "end": 802
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "100",
+                    "raw": "\"100\"",
+                    "start": 804,
+                    "end": 809
+                  }
+                ],
+                "start": 798,
+                "end": 810
+              },
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "value": 1000,
+                    "raw": "1000",
+                    "start": 815,
+                    "end": 819
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "1000",
+                    "raw": "\"1000\"",
+                    "start": 821,
+                    "end": 827
+                  }
+                ],
+                "start": 814,
+                "end": 828
+              },
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "value": null,
+                    "raw": "1n",
+                    "bigint": "1",
+                    "start": 833,
+                    "end": 835
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "mon",
+                    "raw": "\"mon\"",
+                    "start": 837,
+                    "end": 842
+                  }
+                ],
+                "start": 832,
+                "end": 843
+              },
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "value": null,
+                    "raw": "2n",
+                    "bigint": "2",
+                    "start": 848,
+                    "end": 850
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "tue",
+                    "raw": "\"tue\"",
+                    "start": 852,
+                    "end": 857
+                  }
+                ],
+                "start": 847,
+                "end": 858
+              },
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "value": null,
+                    "raw": "3n",
+                    "bigint": "3",
+                    "start": 863,
+                    "end": 865
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "wed",
+                    "raw": "\"wed\"",
+                    "start": 867,
+                    "end": 872
+                  }
+                ],
+                "start": 862,
+                "end": 873
+              },
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "value": null,
+                    "raw": "4n",
+                    "bigint": "4",
+                    "start": 878,
+                    "end": 880
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "thu",
+                    "raw": "\"thu\"",
+                    "start": 882,
+                    "end": 887
+                  }
+                ],
+                "start": 877,
+                "end": 888
+              },
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "value": null,
+                    "raw": "5n",
+                    "bigint": "5",
+                    "start": 893,
+                    "end": 895
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "fri",
+                    "raw": "\"fri\"",
+                    "start": 897,
+                    "end": 902
+                  }
+                ],
+                "start": 892,
+                "end": 903
+              },
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "value": null,
+                    "raw": "6n",
+                    "bigint": "6",
+                    "start": 908,
+                    "end": 910
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "sat",
+                    "raw": "\"sat\"",
+                    "start": 912,
+                    "end": 917
+                  }
+                ],
+                "start": 907,
+                "end": 918
+              },
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "value": null,
+                    "raw": "7n",
+                    "bigint": "7",
+                    "start": 923,
+                    "end": 925
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "sun",
+                    "raw": "\"sun\"",
+                    "start": 927,
+                    "end": 932
+                  }
+                ],
+                "start": 922,
+                "end": 933
+              },
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "value": null,
+                    "raw": "0n",
+                    "bigint": "0",
+                    "start": 938,
+                    "end": 940
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "sun",
+                    "raw": "\"sun\"",
+                    "start": 942,
+                    "end": 947
+                  }
+                ],
+                "start": 937,
+                "end": 948
+              },
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "value": null,
+                    "raw": "100n",
+                    "bigint": "100",
+                    "start": 953,
+                    "end": 957
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "100",
+                    "raw": "\"100\"",
+                    "start": 959,
+                    "end": 964
+                  }
+                ],
+                "start": 952,
+                "end": 965
+              },
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "value": null,
+                    "raw": "1000n",
+                    "bigint": "1000",
+                    "start": 970,
+                    "end": 975
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "1000",
+                    "raw": "\"1000\"",
+                    "start": 977,
+                    "end": 983
+                  }
+                ],
+                "start": 969,
+                "end": 984
+              },
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "Identifier",
+                    "name": "NaN",
+                    "start": 989,
+                    "end": 992
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "nan",
+                    "raw": "\"nan\"",
+                    "start": 994,
+                    "end": 999
+                  }
+                ],
+                "start": 988,
+                "end": 1000
+              },
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "Identifier",
+                    "name": "Infinity",
+                    "start": 1005,
+                    "end": 1013
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "infinity",
+                    "raw": "\"infinity\"",
+                    "start": 1015,
+                    "end": 1025
+                  }
+                ],
+                "start": 1004,
+                "end": 1026
+              },
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "value": true,
+                    "raw": "true",
+                    "start": 1031,
+                    "end": 1035
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "",
+                    "raw": "\"\"",
+                    "start": 1037,
+                    "end": 1039
+                  }
+                ],
+                "start": 1030,
+                "end": 1040
+              },
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "value": false,
+                    "raw": "false",
+                    "start": 1045,
+                    "end": 1050
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "false",
+                    "raw": "\"false\"",
+                    "start": 1052,
+                    "end": 1059
+                  }
+                ],
+                "start": 1044,
+                "end": 1060
+              },
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "value": null,
+                    "raw": "null",
+                    "start": 1065,
+                    "end": 1069
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "null",
+                    "raw": "\"null\"",
+                    "start": 1071,
+                    "end": 1077
+                  }
+                ],
+                "start": 1064,
+                "end": 1078
+              },
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "value": "yes",
+                    "raw": "\"yes\"",
+                    "start": 1083,
+                    "end": 1088
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "yes",
+                    "raw": "\"yes\"",
+                    "start": 1090,
+                    "end": 1095
+                  }
+                ],
+                "start": 1082,
+                "end": 1096
+              },
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "value": "lunedi",
+                    "raw": "\"lunedi\"",
+                    "start": 1101,
+                    "end": 1109
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "lunedi",
+                    "raw": "\"lunedi\"",
+                    "start": 1111,
+                    "end": 1119
+                  }
+                ],
+                "start": 1100,
+                "end": 1120
+              },
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "value": "montag",
+                    "raw": "\"montag\"",
+                    "start": 1125,
+                    "end": 1133
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "montag",
+                    "raw": "\"montag\"",
+                    "start": 1135,
+                    "end": 1143
+                  }
+                ],
+                "start": 1124,
+                "end": 1144
               }
             ],
             "start": 413,
-            "end": 782
+            "end": 1147
           },
           "start": 384,
-          "end": 782
+          "end": 1147
         }
       ],
       "start": 378,
-      "end": 783
+      "end": 1148
     },
     {
       "type": "ForOfStatement",
@@ -525,32 +981,32 @@
                 {
                   "type": "Identifier",
                   "name": "firstDayOfWeek",
-                  "start": 796,
-                  "end": 810
+                  "start": 1161,
+                  "end": 1175
                 },
                 {
                   "type": "Identifier",
                   "name": "expected",
-                  "start": 812,
-                  "end": 820
+                  "start": 1177,
+                  "end": 1185
                 }
               ],
-              "start": 795,
-              "end": 821
+              "start": 1160,
+              "end": 1186
             },
             "init": null,
-            "start": 795,
-            "end": 821
+            "start": 1160,
+            "end": 1186
           }
         ],
-        "start": 789,
-        "end": 821
+        "start": 1154,
+        "end": 1186
       },
       "right": {
         "type": "Identifier",
         "name": "validFirstDayOfWeekOptions",
-        "start": 825,
-        "end": 851
+        "start": 1190,
+        "end": 1216
       },
       "body": {
         "type": "BlockStatement",
@@ -564,19 +1020,19 @@
                 "object": {
                   "type": "Identifier",
                   "name": "assert",
-                  "start": 857,
-                  "end": 863
+                  "start": 1222,
+                  "end": 1228
                 },
                 "property": {
                   "type": "Identifier",
                   "name": "sameValue",
-                  "start": 864,
-                  "end": 873
+                  "start": 1229,
+                  "end": 1238
                 },
                 "optional": false,
                 "computed": false,
-                "start": 857,
-                "end": 873
+                "start": 1222,
+                "end": 1238
               },
               "arguments": [
                 {
@@ -588,27 +1044,27 @@
                       "object": {
                         "type": "Identifier",
                         "name": "Intl",
-                        "start": 883,
-                        "end": 887
+                        "start": 1248,
+                        "end": 1252
                       },
                       "property": {
                         "type": "Identifier",
                         "name": "Locale",
-                        "start": 888,
-                        "end": 894
+                        "start": 1253,
+                        "end": 1259
                       },
                       "optional": false,
                       "computed": false,
-                      "start": 883,
-                      "end": 894
+                      "start": 1248,
+                      "end": 1259
                     },
                     "arguments": [
                       {
                         "type": "Literal",
                         "value": "en",
-                        "raw": "'en'",
-                        "start": 895,
-                        "end": 899
+                        "raw": "\"en\"",
+                        "start": 1260,
+                        "end": 1264
                       },
                       {
                         "type": "ObjectExpression",
@@ -619,45 +1075,45 @@
                             "key": {
                               "type": "Identifier",
                               "name": "firstDayOfWeek",
-                              "start": 903,
-                              "end": 917
+                              "start": 1268,
+                              "end": 1282
                             },
                             "value": {
                               "type": "Identifier",
                               "name": "firstDayOfWeek",
-                              "start": 903,
-                              "end": 917
+                              "start": 1268,
+                              "end": 1282
                             },
                             "method": false,
                             "shorthand": true,
                             "computed": false,
-                            "start": 903,
-                            "end": 917
+                            "start": 1268,
+                            "end": 1282
                           }
                         ],
-                        "start": 901,
-                        "end": 919
+                        "start": 1266,
+                        "end": 1284
                       }
                     ],
-                    "start": 879,
-                    "end": 920
+                    "start": 1244,
+                    "end": 1285
                   },
                   "property": {
                     "type": "Identifier",
                     "name": "firstDayOfWeek",
-                    "start": 921,
-                    "end": 935
+                    "start": 1286,
+                    "end": 1300
                   },
                   "optional": false,
                   "computed": false,
-                  "start": 879,
-                  "end": 935
+                  "start": 1244,
+                  "end": 1300
                 },
                 {
                   "type": "Identifier",
                   "name": "expected",
-                  "start": 941,
-                  "end": 949
+                  "start": 1306,
+                  "end": 1314
                 },
                 {
                   "type": "TemplateLiteral",
@@ -669,8 +1125,8 @@
                         "cooked": "new Intl.Locale(\"en\", { firstDayOfWeek: "
                       },
                       "tail": false,
-                      "start": 956,
-                      "end": 996
+                      "start": 1321,
+                      "end": 1361
                     },
                     {
                       "type": "TemplateElement",
@@ -679,8 +1135,8 @@
                         "cooked": " }).firstDayOfWeek returns \""
                       },
                       "tail": false,
-                      "start": 1013,
-                      "end": 1041
+                      "start": 1378,
+                      "end": 1406
                     },
                     {
                       "type": "TemplateElement",
@@ -689,34 +1145,34 @@
                         "cooked": "\""
                       },
                       "tail": true,
-                      "start": 1052,
-                      "end": 1053
+                      "start": 1417,
+                      "end": 1418
                     }
                   ],
                   "expressions": [
                     {
                       "type": "Identifier",
                       "name": "firstDayOfWeek",
-                      "start": 998,
-                      "end": 1012
+                      "start": 1363,
+                      "end": 1377
                     },
                     {
                       "type": "Identifier",
                       "name": "expected",
-                      "start": 1043,
-                      "end": 1051
+                      "start": 1408,
+                      "end": 1416
                     }
                   ],
-                  "start": 955,
-                  "end": 1054
+                  "start": 1320,
+                  "end": 1419
                 }
               ],
               "optional": false,
-              "start": 857,
-              "end": 1058
+              "start": 1222,
+              "end": 1423
             },
-            "start": 857,
-            "end": 1059
+            "start": 1222,
+            "end": 1424
           },
           {
             "type": "ExpressionStatement",
@@ -727,19 +1183,19 @@
                 "object": {
                   "type": "Identifier",
                   "name": "assert",
-                  "start": 1062,
-                  "end": 1068
+                  "start": 1427,
+                  "end": 1433
                 },
                 "property": {
                   "type": "Identifier",
                   "name": "sameValue",
-                  "start": 1069,
-                  "end": 1078
+                  "start": 1434,
+                  "end": 1443
                 },
                 "optional": false,
                 "computed": false,
-                "start": 1062,
-                "end": 1078
+                "start": 1427,
+                "end": 1443
               },
               "arguments": [
                 {
@@ -751,27 +1207,27 @@
                       "object": {
                         "type": "Identifier",
                         "name": "Intl",
-                        "start": 1088,
-                        "end": 1092
+                        "start": 1453,
+                        "end": 1457
                       },
                       "property": {
                         "type": "Identifier",
                         "name": "Locale",
-                        "start": 1093,
-                        "end": 1099
+                        "start": 1458,
+                        "end": 1464
                       },
                       "optional": false,
                       "computed": false,
-                      "start": 1088,
-                      "end": 1099
+                      "start": 1453,
+                      "end": 1464
                     },
                     "arguments": [
                       {
                         "type": "Literal",
                         "value": "en-u-fw-WED",
-                        "raw": "'en-u-fw-WED'",
-                        "start": 1100,
-                        "end": 1113
+                        "raw": "\"en-u-fw-WED\"",
+                        "start": 1465,
+                        "end": 1478
                       },
                       {
                         "type": "ObjectExpression",
@@ -782,45 +1238,45 @@
                             "key": {
                               "type": "Identifier",
                               "name": "firstDayOfWeek",
-                              "start": 1117,
-                              "end": 1131
+                              "start": 1482,
+                              "end": 1496
                             },
                             "value": {
                               "type": "Identifier",
                               "name": "firstDayOfWeek",
-                              "start": 1117,
-                              "end": 1131
+                              "start": 1482,
+                              "end": 1496
                             },
                             "method": false,
                             "shorthand": true,
                             "computed": false,
-                            "start": 1117,
-                            "end": 1131
+                            "start": 1482,
+                            "end": 1496
                           }
                         ],
-                        "start": 1115,
-                        "end": 1133
+                        "start": 1480,
+                        "end": 1498
                       }
                     ],
-                    "start": 1084,
-                    "end": 1134
+                    "start": 1449,
+                    "end": 1499
                   },
                   "property": {
                     "type": "Identifier",
                     "name": "firstDayOfWeek",
-                    "start": 1135,
-                    "end": 1149
+                    "start": 1500,
+                    "end": 1514
                   },
                   "optional": false,
                   "computed": false,
-                  "start": 1084,
-                  "end": 1149
+                  "start": 1449,
+                  "end": 1514
                 },
                 {
                   "type": "Identifier",
                   "name": "expected",
-                  "start": 1155,
-                  "end": 1163
+                  "start": 1520,
+                  "end": 1528
                 },
                 {
                   "type": "TemplateLiteral",
@@ -832,8 +1288,8 @@
                         "cooked": "new Intl.Locale(\"en-u-fw-WED\", { firstDayOfWeek: "
                       },
                       "tail": false,
-                      "start": 1170,
-                      "end": 1219
+                      "start": 1535,
+                      "end": 1584
                     },
                     {
                       "type": "TemplateElement",
@@ -842,8 +1298,8 @@
                         "cooked": " }).firstDayOfWeek returns \""
                       },
                       "tail": false,
-                      "start": 1236,
-                      "end": 1264
+                      "start": 1601,
+                      "end": 1629
                     },
                     {
                       "type": "TemplateElement",
@@ -852,45 +1308,267 @@
                         "cooked": "\""
                       },
                       "tail": true,
-                      "start": 1275,
-                      "end": 1276
+                      "start": 1640,
+                      "end": 1641
                     }
                   ],
                   "expressions": [
                     {
                       "type": "Identifier",
                       "name": "firstDayOfWeek",
-                      "start": 1221,
-                      "end": 1235
+                      "start": 1586,
+                      "end": 1600
                     },
                     {
                       "type": "Identifier",
                       "name": "expected",
-                      "start": 1266,
-                      "end": 1274
+                      "start": 1631,
+                      "end": 1639
                     }
                   ],
-                  "start": 1169,
-                  "end": 1277
+                  "start": 1534,
+                  "end": 1642
                 }
               ],
               "optional": false,
-              "start": 1062,
-              "end": 1281
+              "start": 1427,
+              "end": 1646
             },
-            "start": 1062,
-            "end": 1282
+            "start": 1427,
+            "end": 1647
+          },
+          {
+            "type": "VariableDeclaration",
+            "kind": "let",
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "id": {
+                  "type": "Identifier",
+                  "name": "upperCase",
+                  "start": 1655,
+                  "end": 1664
+                },
+                "init": {
+                  "type": "CallExpression",
+                  "callee": {
+                    "type": "MemberExpression",
+                    "object": {
+                      "type": "CallExpression",
+                      "callee": {
+                        "type": "Identifier",
+                        "name": "String",
+                        "start": 1667,
+                        "end": 1673
+                      },
+                      "arguments": [
+                        {
+                          "type": "Identifier",
+                          "name": "firstDayOfWeek",
+                          "start": 1674,
+                          "end": 1688
+                        }
+                      ],
+                      "optional": false,
+                      "start": 1667,
+                      "end": 1689
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "name": "toUpperCase",
+                      "start": 1690,
+                      "end": 1701
+                    },
+                    "optional": false,
+                    "computed": false,
+                    "start": 1667,
+                    "end": 1701
+                  },
+                  "arguments": [],
+                  "optional": false,
+                  "start": 1667,
+                  "end": 1703
+                },
+                "start": 1655,
+                "end": 1703
+              }
+            ],
+            "start": 1651,
+            "end": 1704
+          },
+          {
+            "type": "ExpressionStatement",
+            "expression": {
+              "type": "CallExpression",
+              "callee": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "assert",
+                  "start": 1707,
+                  "end": 1713
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "sameValue",
+                  "start": 1714,
+                  "end": 1723
+                },
+                "optional": false,
+                "computed": false,
+                "start": 1707,
+                "end": 1723
+              },
+              "arguments": [
+                {
+                  "type": "MemberExpression",
+                  "object": {
+                    "type": "NewExpression",
+                    "callee": {
+                      "type": "MemberExpression",
+                      "object": {
+                        "type": "Identifier",
+                        "name": "Intl",
+                        "start": 1733,
+                        "end": 1737
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "name": "Locale",
+                        "start": 1738,
+                        "end": 1744
+                      },
+                      "optional": false,
+                      "computed": false,
+                      "start": 1733,
+                      "end": 1744
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "value": "en",
+                        "raw": "\"en\"",
+                        "start": 1745,
+                        "end": 1749
+                      },
+                      {
+                        "type": "ObjectExpression",
+                        "properties": [
+                          {
+                            "type": "Property",
+                            "kind": "init",
+                            "key": {
+                              "type": "Identifier",
+                              "name": "firstDayOfWeek",
+                              "start": 1753,
+                              "end": 1767
+                            },
+                            "value": {
+                              "type": "Identifier",
+                              "name": "upperCase",
+                              "start": 1769,
+                              "end": 1778
+                            },
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false,
+                            "start": 1753,
+                            "end": 1778
+                          }
+                        ],
+                        "start": 1751,
+                        "end": 1780
+                      }
+                    ],
+                    "start": 1729,
+                    "end": 1781
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "name": "firstDayOfWeek",
+                    "start": 1782,
+                    "end": 1796
+                  },
+                  "optional": false,
+                  "computed": false,
+                  "start": 1729,
+                  "end": 1796
+                },
+                {
+                  "type": "Identifier",
+                  "name": "expected",
+                  "start": 1802,
+                  "end": 1810
+                },
+                {
+                  "type": "TemplateLiteral",
+                  "quasis": [
+                    {
+                      "type": "TemplateElement",
+                      "value": {
+                        "raw": "new Intl.Locale(\"en\", { firstDayOfWeek: ",
+                        "cooked": "new Intl.Locale(\"en\", { firstDayOfWeek: "
+                      },
+                      "tail": false,
+                      "start": 1817,
+                      "end": 1857
+                    },
+                    {
+                      "type": "TemplateElement",
+                      "value": {
+                        "raw": " }).firstDayOfWeek returns \"",
+                        "cooked": " }).firstDayOfWeek returns \""
+                      },
+                      "tail": false,
+                      "start": 1869,
+                      "end": 1897
+                    },
+                    {
+                      "type": "TemplateElement",
+                      "value": {
+                        "raw": "\"",
+                        "cooked": "\""
+                      },
+                      "tail": true,
+                      "start": 1908,
+                      "end": 1909
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "name": "upperCase",
+                      "start": 1859,
+                      "end": 1868
+                    },
+                    {
+                      "type": "Identifier",
+                      "name": "expected",
+                      "start": 1899,
+                      "end": 1907
+                    }
+                  ],
+                  "start": 1816,
+                  "end": 1910
+                }
+              ],
+              "optional": false,
+              "start": 1707,
+              "end": 1914
+            },
+            "start": 1707,
+            "end": 1915
           }
         ],
-        "start": 853,
-        "end": 1284
+        "start": 1218,
+        "end": 1917
       },
-      "start": 784,
-      "end": 1284
+      "start": 1149,
+      "end": 1917
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 1285
+  "end": 1918
 }

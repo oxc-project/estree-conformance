@@ -10,8 +10,8 @@
           "id": {
             "type": "Identifier",
             "name": "invalidFirstDayOfWeekOptions",
-            "start": 657,
-            "end": 685
+            "start": 623,
+            "end": 651
           },
           "init": {
             "type": "ArrayExpression",
@@ -20,40 +20,268 @@
                 "type": "Literal",
                 "value": "",
                 "raw": "\"\"",
-                "start": 692,
-                "end": 694
+                "start": 658,
+                "end": 660
               },
               {
                 "type": "Literal",
                 "value": "m",
                 "raw": "\"m\"",
-                "start": 698,
-                "end": 701
+                "start": 664,
+                "end": 667
               },
               {
                 "type": "Literal",
                 "value": "mo",
                 "raw": "\"mo\"",
-                "start": 705,
-                "end": 709
+                "start": 671,
+                "end": 675
               },
               {
                 "type": "Literal",
                 "value": "longerThan8Chars",
                 "raw": "\"longerThan8Chars\"",
-                "start": 713,
-                "end": 731
+                "start": 679,
+                "end": 697
+              },
+              {
+                "type": "Literal",
+                "value": "abc\u0000abc",
+                "raw": "\"abc\\0abc\"",
+                "start": 701,
+                "end": 711
+              },
+              {
+                "type": "Literal",
+                "value": "abc?",
+                "raw": "\"abc?\"",
+                "start": 715,
+                "end": 721
+              },
+              {
+                "type": "Literal",
+                "value": "äöü",
+                "raw": "\"äöü\"",
+                "start": 725,
+                "end": 730
+              },
+              {
+                "type": "Literal",
+                "value": "慡bc",
+                "raw": "\"\\u6161bc\"",
+                "start": 734,
+                "end": 744
+              },
+              {
+                "type": "Literal",
+                "value": 8,
+                "raw": "8",
+                "start": 748,
+                "end": 749
+              },
+              {
+                "type": "Literal",
+                "value": 9,
+                "raw": "9",
+                "start": 753,
+                "end": 754
+              },
+              {
+                "type": "Literal",
+                "value": 10,
+                "raw": "10",
+                "start": 758,
+                "end": 760
+              },
+              {
+                "type": "UnaryExpression",
+                "operator": "-",
+                "argument": {
+                  "type": "Literal",
+                  "value": 1,
+                  "raw": "1",
+                  "start": 765,
+                  "end": 766
+                },
+                "prefix": true,
+                "start": 764,
+                "end": 766
+              },
+              {
+                "type": "UnaryExpression",
+                "operator": "-",
+                "argument": {
+                  "type": "Literal",
+                  "value": 10,
+                  "raw": "10",
+                  "start": 771,
+                  "end": 773
+                },
+                "prefix": true,
+                "start": 770,
+                "end": 773
+              },
+              {
+                "type": "UnaryExpression",
+                "operator": "-",
+                "argument": {
+                  "type": "Literal",
+                  "value": 100,
+                  "raw": "100",
+                  "start": 778,
+                  "end": 781
+                },
+                "prefix": true,
+                "start": 777,
+                "end": 781
+              },
+              {
+                "type": "UnaryExpression",
+                "operator": "-",
+                "argument": {
+                  "type": "Literal",
+                  "value": 1000,
+                  "raw": "1000",
+                  "start": 786,
+                  "end": 790
+                },
+                "prefix": true,
+                "start": 785,
+                "end": 790
+              },
+              {
+                "type": "Literal",
+                "value": null,
+                "raw": "8n",
+                "bigint": "8",
+                "start": 794,
+                "end": 796
+              },
+              {
+                "type": "Literal",
+                "value": null,
+                "raw": "9n",
+                "bigint": "9",
+                "start": 800,
+                "end": 802
+              },
+              {
+                "type": "Literal",
+                "value": null,
+                "raw": "10n",
+                "bigint": "10",
+                "start": 806,
+                "end": 809
+              },
+              {
+                "type": "UnaryExpression",
+                "operator": "-",
+                "argument": {
+                  "type": "Literal",
+                  "value": null,
+                  "raw": "1n",
+                  "bigint": "1",
+                  "start": 814,
+                  "end": 816
+                },
+                "prefix": true,
+                "start": 813,
+                "end": 816
+              },
+              {
+                "type": "UnaryExpression",
+                "operator": "-",
+                "argument": {
+                  "type": "Literal",
+                  "value": null,
+                  "raw": "10n",
+                  "bigint": "10",
+                  "start": 821,
+                  "end": 824
+                },
+                "prefix": true,
+                "start": 820,
+                "end": 824
+              },
+              {
+                "type": "UnaryExpression",
+                "operator": "-",
+                "argument": {
+                  "type": "Literal",
+                  "value": null,
+                  "raw": "100n",
+                  "bigint": "100",
+                  "start": 829,
+                  "end": 833
+                },
+                "prefix": true,
+                "start": 828,
+                "end": 833
+              },
+              {
+                "type": "UnaryExpression",
+                "operator": "-",
+                "argument": {
+                  "type": "Literal",
+                  "value": null,
+                  "raw": "1000n",
+                  "bigint": "1000",
+                  "start": 838,
+                  "end": 843
+                },
+                "prefix": true,
+                "start": 837,
+                "end": 843
+              },
+              {
+                "type": "Literal",
+                "value": 0.5,
+                "raw": "0.5",
+                "start": 847,
+                "end": 850
+              },
+              {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "Number",
+                  "start": 854,
+                  "end": 860
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "MIN_VALUE",
+                  "start": 861,
+                  "end": 870
+                },
+                "optional": false,
+                "computed": false,
+                "start": 854,
+                "end": 870
+              },
+              {
+                "type": "UnaryExpression",
+                "operator": "-",
+                "argument": {
+                  "type": "Identifier",
+                  "name": "Infinity",
+                  "start": 875,
+                  "end": 883
+                },
+                "prefix": true,
+                "start": 874,
+                "end": 883
               }
             ],
-            "start": 688,
-            "end": 734
+            "start": 654,
+            "end": 886
           },
-          "start": 657,
-          "end": 734
+          "start": 623,
+          "end": 886
         }
       ],
-      "start": 651,
-      "end": 735
+      "start": 617,
+      "end": 887
     },
     {
       "type": "ForOfStatement",
@@ -67,22 +295,22 @@
             "id": {
               "type": "Identifier",
               "name": "firstDayOfWeek",
-              "start": 747,
-              "end": 761
+              "start": 899,
+              "end": 913
             },
             "init": null,
-            "start": 747,
-            "end": 761
+            "start": 899,
+            "end": 913
           }
         ],
-        "start": 741,
-        "end": 761
+        "start": 893,
+        "end": 913
       },
       "right": {
         "type": "Identifier",
         "name": "invalidFirstDayOfWeekOptions",
-        "start": 765,
-        "end": 793
+        "start": 917,
+        "end": 945
       },
       "body": {
         "type": "BlockStatement",
@@ -96,26 +324,26 @@
                 "object": {
                   "type": "Identifier",
                   "name": "assert",
-                  "start": 799,
-                  "end": 805
+                  "start": 951,
+                  "end": 957
                 },
                 "property": {
                   "type": "Identifier",
                   "name": "throws",
-                  "start": 806,
-                  "end": 812
+                  "start": 958,
+                  "end": 964
                 },
                 "optional": false,
                 "computed": false,
-                "start": 799,
-                "end": 812
+                "start": 951,
+                "end": 964
               },
               "arguments": [
                 {
                   "type": "Identifier",
                   "name": "RangeError",
-                  "start": 813,
-                  "end": 823
+                  "start": 965,
+                  "end": 975
                 },
                 {
                   "type": "FunctionExpression",
@@ -135,27 +363,27 @@
                             "object": {
                               "type": "Identifier",
                               "name": "Intl",
-                              "start": 846,
-                              "end": 850
+                              "start": 998,
+                              "end": 1002
                             },
                             "property": {
                               "type": "Identifier",
                               "name": "Locale",
-                              "start": 851,
-                              "end": 857
+                              "start": 1003,
+                              "end": 1009
                             },
                             "optional": false,
                             "computed": false,
-                            "start": 846,
-                            "end": 857
+                            "start": 998,
+                            "end": 1009
                           },
                           "arguments": [
                             {
                               "type": "Literal",
                               "value": "en",
-                              "raw": "'en'",
-                              "start": 858,
-                              "end": 862
+                              "raw": "\"en\"",
+                              "start": 1010,
+                              "end": 1014
                             },
                             {
                               "type": "ObjectExpression",
@@ -166,39 +394,39 @@
                                   "key": {
                                     "type": "Identifier",
                                     "name": "firstDayOfWeek",
-                                    "start": 865,
-                                    "end": 879
+                                    "start": 1017,
+                                    "end": 1031
                                   },
                                   "value": {
                                     "type": "Identifier",
                                     "name": "firstDayOfWeek",
-                                    "start": 865,
-                                    "end": 879
+                                    "start": 1017,
+                                    "end": 1031
                                   },
                                   "method": false,
                                   "shorthand": true,
                                   "computed": false,
-                                  "start": 865,
-                                  "end": 879
+                                  "start": 1017,
+                                  "end": 1031
                                 }
                               ],
-                              "start": 864,
-                              "end": 880
+                              "start": 1016,
+                              "end": 1032
                             }
                           ],
-                          "start": 842,
-                          "end": 881
+                          "start": 994,
+                          "end": 1033
                         },
-                        "start": 842,
-                        "end": 882
+                        "start": 994,
+                        "end": 1034
                       }
                     ],
-                    "start": 836,
-                    "end": 886
+                    "start": 988,
+                    "end": 1038
                   },
                   "expression": false,
-                  "start": 825,
-                  "end": 886
+                  "start": 977,
+                  "end": 1038
                 },
                 {
                   "type": "TemplateLiteral",
@@ -210,8 +438,8 @@
                         "cooked": "new Intl.Locale(\"en\", {firstDayOfWeek: \""
                       },
                       "tail": false,
-                      "start": 889,
-                      "end": 929
+                      "start": 1041,
+                      "end": 1081
                     },
                     {
                       "type": "TemplateElement",
@@ -220,39 +448,39 @@
                         "cooked": "\"}) throws RangeError"
                       },
                       "tail": true,
-                      "start": 946,
-                      "end": 967
+                      "start": 1098,
+                      "end": 1119
                     }
                   ],
                   "expressions": [
                     {
                       "type": "Identifier",
                       "name": "firstDayOfWeek",
-                      "start": 931,
-                      "end": 945
+                      "start": 1083,
+                      "end": 1097
                     }
                   ],
-                  "start": 888,
-                  "end": 968
+                  "start": 1040,
+                  "end": 1120
                 }
               ],
               "optional": false,
-              "start": 799,
-              "end": 969
+              "start": 951,
+              "end": 1121
             },
-            "start": 799,
-            "end": 970
+            "start": 951,
+            "end": 1122
           }
         ],
-        "start": 795,
-        "end": 972
+        "start": 947,
+        "end": 1124
       },
-      "start": 736,
-      "end": 972
+      "start": 888,
+      "end": 1124
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 973
+  "end": 1125
 }
