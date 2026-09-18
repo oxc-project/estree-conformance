@@ -10,73 +10,87 @@
           "id": {
             "type": "Identifier",
             "name": "defaultLocale",
-            "start": 292,
-            "end": 305
+            "start": 316,
+            "end": 329
           },
           "init": {
-            "type": "MemberExpression",
-            "object": {
-              "type": "CallExpression",
-              "callee": {
+            "type": "CallExpression",
+            "callee": {
+              "type": "Identifier",
+              "name": "getLocaleBaseName",
+              "start": 332,
+              "end": 349
+            },
+            "arguments": [
+              {
                 "type": "MemberExpression",
                 "object": {
-                  "type": "NewExpression",
+                  "type": "CallExpression",
                   "callee": {
                     "type": "MemberExpression",
                     "object": {
-                      "type": "Identifier",
-                      "name": "Intl",
-                      "start": 312,
-                      "end": 316
+                      "type": "NewExpression",
+                      "callee": {
+                        "type": "MemberExpression",
+                        "object": {
+                          "type": "Identifier",
+                          "name": "Intl",
+                          "start": 354,
+                          "end": 358
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "name": "NumberFormat",
+                          "start": 359,
+                          "end": 371
+                        },
+                        "optional": false,
+                        "computed": false,
+                        "start": 354,
+                        "end": 371
+                      },
+                      "arguments": [],
+                      "start": 350,
+                      "end": 373
                     },
                     "property": {
                       "type": "Identifier",
-                      "name": "NumberFormat",
-                      "start": 317,
-                      "end": 329
+                      "name": "resolvedOptions",
+                      "start": 374,
+                      "end": 389
                     },
                     "optional": false,
                     "computed": false,
-                    "start": 312,
-                    "end": 329
+                    "start": 350,
+                    "end": 389
                   },
                   "arguments": [],
-                  "start": 308,
-                  "end": 331
+                  "optional": false,
+                  "start": 350,
+                  "end": 391
                 },
                 "property": {
                   "type": "Identifier",
-                  "name": "resolvedOptions",
-                  "start": 332,
-                  "end": 347
+                  "name": "locale",
+                  "start": 392,
+                  "end": 398
                 },
                 "optional": false,
                 "computed": false,
-                "start": 308,
-                "end": 347
-              },
-              "arguments": [],
-              "optional": false,
-              "start": 308,
-              "end": 349
-            },
-            "property": {
-              "type": "Identifier",
-              "name": "locale",
-              "start": 350,
-              "end": 356
-            },
+                "start": 350,
+                "end": 398
+              }
+            ],
             "optional": false,
-            "computed": false,
-            "start": 308,
-            "end": 356
+            "start": 332,
+            "end": 399
           },
-          "start": 292,
-          "end": 356
+          "start": 316,
+          "end": 399
         }
       ],
-      "start": 288,
-      "end": 357
+      "start": 312,
+      "end": 400
     },
     {
       "type": "ExpressionStatement",
@@ -87,26 +101,26 @@
           "object": {
             "type": "Identifier",
             "name": "assert",
-            "start": 359,
-            "end": 365
+            "start": 402,
+            "end": 408
           },
           "property": {
             "type": "Identifier",
             "name": "throws",
-            "start": 366,
-            "end": 372
+            "start": 409,
+            "end": 415
           },
           "optional": false,
           "computed": false,
-          "start": 359,
-          "end": 372
+          "start": 402,
+          "end": 415
         },
         "arguments": [
           {
             "type": "Identifier",
             "name": "TypeError",
-            "start": 373,
-            "end": 382
+            "start": 416,
+            "end": 425
           },
           {
             "type": "FunctionExpression",
@@ -126,19 +140,19 @@
                       "object": {
                         "type": "Identifier",
                         "name": "Intl",
-                        "start": 417,
-                        "end": 421
+                        "start": 460,
+                        "end": 464
                       },
                       "property": {
                         "type": "Identifier",
                         "name": "NumberFormat",
-                        "start": 422,
-                        "end": 434
+                        "start": 465,
+                        "end": 477
                       },
                       "optional": false,
                       "computed": false,
-                      "start": 417,
-                      "end": 434
+                      "start": 460,
+                      "end": 477
                     },
                     "arguments": [
                       {
@@ -147,12 +161,12 @@
                           {
                             "type": "Identifier",
                             "name": "defaultLocale",
-                            "start": 436,
-                            "end": 449
+                            "start": 479,
+                            "end": 492
                           }
                         ],
-                        "start": 435,
-                        "end": 450
+                        "start": 478,
+                        "end": 493
                       },
                       {
                         "type": "ObjectExpression",
@@ -163,55 +177,55 @@
                             "key": {
                               "type": "Identifier",
                               "name": "style",
-                              "start": 453,
-                              "end": 458
+                              "start": 496,
+                              "end": 501
                             },
                             "value": {
                               "type": "Literal",
                               "value": "currency",
                               "raw": "\"currency\"",
-                              "start": 460,
-                              "end": 470
+                              "start": 503,
+                              "end": 513
                             },
                             "method": false,
                             "shorthand": false,
                             "computed": false,
-                            "start": 453,
-                            "end": 470
+                            "start": 496,
+                            "end": 513
                           }
                         ],
-                        "start": 452,
-                        "end": 471
+                        "start": 495,
+                        "end": 514
                       }
                     ],
-                    "start": 413,
-                    "end": 472
+                    "start": 456,
+                    "end": 515
                   },
-                  "start": 406,
-                  "end": 473
+                  "start": 449,
+                  "end": 516
                 }
               ],
-              "start": 396,
-              "end": 475
+              "start": 439,
+              "end": 518
             },
             "expression": false,
-            "start": 384,
-            "end": 475
+            "start": 427,
+            "end": 518
           },
           {
             "type": "Literal",
             "value": "Throws TypeError when currency code is not specified.",
             "raw": "\"Throws TypeError when currency code is not specified.\"",
-            "start": 477,
-            "end": 532
+            "start": 520,
+            "end": 575
           }
         ],
         "optional": false,
-        "start": 359,
-        "end": 533
+        "start": 402,
+        "end": 576
       },
-      "start": 359,
-      "end": 534
+      "start": 402,
+      "end": 577
     },
     {
       "type": "ExpressionStatement",
@@ -222,26 +236,26 @@
           "object": {
             "type": "Identifier",
             "name": "assert",
-            "start": 536,
-            "end": 542
+            "start": 579,
+            "end": 585
           },
           "property": {
             "type": "Identifier",
             "name": "throws",
-            "start": 543,
-            "end": 549
+            "start": 586,
+            "end": 592
           },
           "optional": false,
           "computed": false,
-          "start": 536,
-          "end": 549
+          "start": 579,
+          "end": 592
         },
         "arguments": [
           {
             "type": "Identifier",
             "name": "TypeError",
-            "start": 550,
-            "end": 559
+            "start": 593,
+            "end": 602
           },
           {
             "type": "FunctionExpression",
@@ -261,19 +275,19 @@
                       "object": {
                         "type": "Identifier",
                         "name": "Intl",
-                        "start": 594,
-                        "end": 598
+                        "start": 637,
+                        "end": 641
                       },
                       "property": {
                         "type": "Identifier",
                         "name": "NumberFormat",
-                        "start": 599,
-                        "end": 611
+                        "start": 642,
+                        "end": 654
                       },
                       "optional": false,
                       "computed": false,
-                      "start": 594,
-                      "end": 611
+                      "start": 637,
+                      "end": 654
                     },
                     "arguments": [
                       {
@@ -284,23 +298,23 @@
                             "left": {
                               "type": "Identifier",
                               "name": "defaultLocale",
-                              "start": 613,
-                              "end": 626
+                              "start": 656,
+                              "end": 669
                             },
                             "operator": "+",
                             "right": {
                               "type": "Literal",
                               "value": "-u-cu-krw",
                               "raw": "\"-u-cu-krw\"",
-                              "start": 629,
-                              "end": 640
+                              "start": 672,
+                              "end": 683
                             },
-                            "start": 613,
-                            "end": 640
+                            "start": 656,
+                            "end": 683
                           }
                         ],
-                        "start": 612,
-                        "end": 641
+                        "start": 655,
+                        "end": 684
                       },
                       {
                         "type": "ObjectExpression",
@@ -311,59 +325,59 @@
                             "key": {
                               "type": "Identifier",
                               "name": "style",
-                              "start": 644,
-                              "end": 649
+                              "start": 687,
+                              "end": 692
                             },
                             "value": {
                               "type": "Literal",
                               "value": "currency",
                               "raw": "\"currency\"",
-                              "start": 651,
-                              "end": 661
+                              "start": 694,
+                              "end": 704
                             },
                             "method": false,
                             "shorthand": false,
                             "computed": false,
-                            "start": 644,
-                            "end": 661
+                            "start": 687,
+                            "end": 704
                           }
                         ],
-                        "start": 643,
-                        "end": 662
+                        "start": 686,
+                        "end": 705
                       }
                     ],
-                    "start": 590,
-                    "end": 663
+                    "start": 633,
+                    "end": 706
                   },
-                  "start": 583,
-                  "end": 664
+                  "start": 626,
+                  "end": 707
                 }
               ],
-              "start": 573,
-              "end": 666
+              "start": 616,
+              "end": 709
             },
             "expression": false,
-            "start": 561,
-            "end": 666
+            "start": 604,
+            "end": 709
           },
           {
             "type": "Literal",
             "value": "Throws TypeError when currency code is not specified; Currenty code from Unicode locale extension sequence is ignored.",
             "raw": "\"Throws TypeError when currency code is not specified; Currenty code from Unicode locale extension sequence is ignored.\"",
-            "start": 668,
-            "end": 788
+            "start": 711,
+            "end": 831
           }
         ],
         "optional": false,
-        "start": 536,
-        "end": 789
+        "start": 579,
+        "end": 832
       },
-      "start": 536,
-      "end": 790
+      "start": 579,
+      "end": 833
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 791
+  "end": 834
 }
