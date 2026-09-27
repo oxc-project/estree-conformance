@@ -230,6 +230,12 @@ __ESTREE_TEST__:TOKENS:
   {
     "type": "Punctuator",
     "value": "<",
+    "start": 53,
+    "end": 54
+  },
+  {
+    "type": "Punctuator",
+    "value": "<",
     "start": 54,
     "end": 55
   },
