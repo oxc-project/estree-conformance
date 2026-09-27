@@ -411,6 +411,12 @@ __ESTREE_TEST__:TOKENS:
   {
     "type": "Punctuator",
     "value": "<",
+    "start": 21,
+    "end": 22
+  },
+  {
+    "type": "Punctuator",
+    "value": "<",
     "start": 22,
     "end": 23
   },
@@ -611,6 +617,12 @@ __ESTREE_TEST__:TOKENS:
     "value": "foo",
     "start": 103,
     "end": 106
+  },
+  {
+    "type": "Punctuator",
+    "value": "<",
+    "start": 106,
+    "end": 107
   },
   {
     "type": "Punctuator",
