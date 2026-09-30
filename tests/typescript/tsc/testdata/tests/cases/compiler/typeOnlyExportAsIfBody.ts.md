@@ -17,6 +17,7 @@ __ESTREE_TEST__:AST:
         "declaration": null,
         "specifiers": [],
         "source": null,
+        "phase": null,
         "exportKind": "type",
         "attributes": [],
         "start": 10,

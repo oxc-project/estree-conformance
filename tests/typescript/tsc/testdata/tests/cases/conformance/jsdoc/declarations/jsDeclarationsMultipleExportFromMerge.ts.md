@@ -38,6 +38,7 @@ __ESTREE_TEST__:AST:
       },
       "specifiers": [],
       "source": null,
+      "phase": null,
       "exportKind": "value",
       "attributes": [],
       "start": 0,
@@ -78,6 +79,7 @@ __ESTREE_TEST__:AST:
       },
       "specifiers": [],
       "source": null,
+      "phase": null,
       "exportKind": "value",
       "attributes": [],
       "start": 20,
@@ -118,6 +120,7 @@ __ESTREE_TEST__:AST:
       },
       "specifiers": [],
       "source": null,
+      "phase": null,
       "exportKind": "value",
       "attributes": [],
       "start": 40,
@@ -332,6 +335,7 @@ __ESTREE_TEST__:AST:
         "start": 24,
         "end": 33
       },
+      "phase": null,
       "exportKind": "value",
       "attributes": [],
       "start": 0,
@@ -456,6 +460,7 @@ __ESTREE_TEST__:AST:
         "start": 18,
         "end": 27
       },
+      "phase": null,
       "exportKind": "value",
       "attributes": [],
       "start": 0,
@@ -521,6 +526,7 @@ __ESTREE_TEST__:AST:
         "start": 50,
         "end": 59
       },
+      "phase": null,
       "exportKind": "value",
       "attributes": [],
       "start": 29,
@@ -699,6 +705,7 @@ __ESTREE_TEST__:AST:
         "start": 19,
         "end": 28
       },
+      "phase": null,
       "exportKind": "value",
       "attributes": [],
       "start": 0,
@@ -740,6 +747,7 @@ __ESTREE_TEST__:AST:
         "start": 52,
         "end": 59
       },
+      "phase": null,
       "exportKind": "value",
       "attributes": [],
       "start": 30,
@@ -781,6 +789,7 @@ __ESTREE_TEST__:AST:
         "start": 83,
         "end": 90
       },
+      "phase": null,
       "exportKind": "value",
       "attributes": [],
       "start": 61,
@@ -822,6 +831,7 @@ __ESTREE_TEST__:AST:
         "start": 108,
         "end": 115
       },
+      "phase": null,
       "exportKind": "value",
       "attributes": [],
       "start": 92,
@@ -863,6 +873,7 @@ __ESTREE_TEST__:AST:
         "start": 138,
         "end": 147
       },
+      "phase": null,
       "exportKind": "value",
       "attributes": [],
       "start": 116,
