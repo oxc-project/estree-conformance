@@ -27,7 +27,8 @@ const fieldOrders = JSON.parse(fieldOrdersJson) as Record<string, string[]>;
 // * Replace `Infinity` with `"__INFINITY__INFINITY__INFINITY__"` placeholder
 //   which will be replaced in JSON with `1e+400`.
 // * Sort RegExp `Literal`s' `regex.flags` property in alphabetical order, the way V8 does.
-// * Add `phase` field to `ImportDeclaration` and `ImportExpression`.
+// * Add `phase` field to `ImportDeclaration`, `ImportExpression`, `ExportNamedDeclaration`,
+//   and `ExportAllDeclaration`.
 // * Add `decorators` field to classes, class methods, and class properties.
 export function transformerAcorn(_key: string, value: unknown): unknown {
   if (typeof value === "bigint") return null;
@@ -36,7 +37,12 @@ export function transformerAcorn(_key: string, value: unknown): unknown {
   if (!isAstNode(value)) return value;
 
   const { type } = value;
-  if (type === "ImportDeclaration" || type === "ImportExpression") {
+  if (
+    type === "ImportDeclaration" ||
+    type === "ImportExpression" ||
+    type === "ExportNamedDeclaration" ||
+    type === "ExportAllDeclaration"
+  ) {
     if (!Object.hasOwn(value, "phase")) value.phase = null;
   } else if (type === "Literal") {
     if (
@@ -89,7 +95,12 @@ export function transformerTs(_key: string, value: unknown): unknown {
   if (!isAstNode(value)) return value;
 
   const { type } = value;
-  if (type === "ImportDeclaration" || type === "ImportExpression") {
+  if (
+    type === "ImportDeclaration" ||
+    type === "ImportExpression" ||
+    type === "ExportNamedDeclaration" ||
+    type === "ExportAllDeclaration"
+  ) {
     if (!Object.hasOwn(value, "phase")) value.phase = null;
   } else if (type === "Literal") {
     if (
