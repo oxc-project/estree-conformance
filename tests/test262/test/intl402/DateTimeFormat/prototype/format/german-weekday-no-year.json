@@ -1,0 +1,269 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "kind": "let",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "dtf",
+            "start": 261,
+            "end": 264
+          },
+          "init": {
+            "type": "NewExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "Intl",
+                "start": 271,
+                "end": 275
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "DateTimeFormat",
+                "start": 276,
+                "end": 290
+              },
+              "optional": false,
+              "computed": false,
+              "start": 271,
+              "end": 290
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "value": "de",
+                "raw": "\"de\"",
+                "start": 291,
+                "end": 295
+              },
+              {
+                "type": "ObjectExpression",
+                "properties": [
+                  {
+                    "type": "Property",
+                    "kind": "init",
+                    "key": {
+                      "type": "Identifier",
+                      "name": "weekday",
+                      "start": 299,
+                      "end": 306
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "value": "short",
+                      "raw": "\"short\"",
+                      "start": 308,
+                      "end": 315
+                    },
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "start": 299,
+                    "end": 315
+                  },
+                  {
+                    "type": "Property",
+                    "kind": "init",
+                    "key": {
+                      "type": "Identifier",
+                      "name": "day",
+                      "start": 317,
+                      "end": 320
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "value": "numeric",
+                      "raw": "\"numeric\"",
+                      "start": 322,
+                      "end": 331
+                    },
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "start": 317,
+                    "end": 331
+                  },
+                  {
+                    "type": "Property",
+                    "kind": "init",
+                    "key": {
+                      "type": "Identifier",
+                      "name": "month",
+                      "start": 333,
+                      "end": 338
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "value": "long",
+                      "raw": "\"long\"",
+                      "start": 340,
+                      "end": 346
+                    },
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "start": 333,
+                    "end": 346
+                  }
+                ],
+                "start": 297,
+                "end": 347
+              }
+            ],
+            "start": 267,
+            "end": 348
+          },
+          "start": 261,
+          "end": 348
+        }
+      ],
+      "start": 257,
+      "end": 349
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 350,
+            "end": 356
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 357,
+            "end": 366
+          },
+          "optional": false,
+          "computed": false,
+          "start": 350,
+          "end": 366
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "CallExpression",
+                "callee": {
+                  "type": "MemberExpression",
+                  "object": {
+                    "type": "Identifier",
+                    "name": "dtf",
+                    "start": 367,
+                    "end": 370
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "name": "format",
+                    "start": 371,
+                    "end": 377
+                  },
+                  "optional": false,
+                  "computed": false,
+                  "start": 367,
+                  "end": 377
+                },
+                "arguments": [
+                  {
+                    "type": "NewExpression",
+                    "callee": {
+                      "type": "Identifier",
+                      "name": "Date",
+                      "start": 382,
+                      "end": 386
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "value": 2022,
+                        "raw": "2022",
+                        "start": 387,
+                        "end": 391
+                      },
+                      {
+                        "type": "Literal",
+                        "value": 11,
+                        "raw": "11",
+                        "start": 393,
+                        "end": 395
+                      },
+                      {
+                        "type": "Literal",
+                        "value": 24,
+                        "raw": "24",
+                        "start": 397,
+                        "end": 399
+                      }
+                    ],
+                    "start": 378,
+                    "end": 400
+                  }
+                ],
+                "optional": false,
+                "start": 367,
+                "end": 401
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "includes",
+                "start": 402,
+                "end": 410
+              },
+              "optional": false,
+              "computed": false,
+              "start": 367,
+              "end": 410
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "value": "Sa.,",
+                "raw": "\"Sa.,\"",
+                "start": 411,
+                "end": 417
+              }
+            ],
+            "optional": false,
+            "start": 367,
+            "end": 418
+          },
+          {
+            "type": "Literal",
+            "value": true,
+            "raw": "true",
+            "start": 420,
+            "end": 424
+          },
+          {
+            "type": "Literal",
+            "value": "German weekday without year",
+            "raw": "\"German weekday without year\"",
+            "start": 426,
+            "end": 455
+          }
+        ],
+        "optional": false,
+        "start": 350,
+        "end": 456
+      },
+      "start": 350,
+      "end": 457
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 458
+}
