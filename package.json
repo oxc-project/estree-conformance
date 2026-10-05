@@ -9,7 +9,7 @@
     "init": "pnpm run '/^clone-*/'",
     "clone-test262": "just clone-submodule submodules/test262 https://github.com/tc39/test262.git 7ab7fafa0003f73fc85c1b95d88094d33f7eb8bd",
     "clone-acorn-jsx": "just clone-submodule submodules/acorn-jsx https://github.com/acornjs/acorn-jsx.git 8ed96d6ddec2065204ba07d924bb2e7bca539ea6",
-    "clone-typescript": "just clone-submodule submodules/typescript https://github.com/microsoft/TypeScript.git 4f5ddae224b9529a69b571f631fe3a2cb283162f",
+    "clone-typescript": "just clone-submodule submodules/typescript https://github.com/microsoft/TypeScript.git 50d70a3f5f453a79a4323b263165da51f656a4e3",
     "start": "pnpm run gen-test262 && pnpm run gen-acorn-jsx && pnpm run gen-typescript",
     "gen-test262": "node src/test262.ts",
     "gen-acorn-jsx": "node src/acorn-jsx.ts",
