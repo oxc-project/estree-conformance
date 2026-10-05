@@ -241,6 +241,85 @@ __ESTREE_TEST__:AST:
   "type": "Program",
   "body": [
     {
+      "type": "ExportNamedDeclaration",
+      "declaration": {
+        "type": "TSInterfaceDeclaration",
+        "id": {
+          "type": "Identifier",
+          "decorators": [],
+          "name": "SubpkgProps",
+          "optional": false,
+          "typeAnnotation": null,
+          "start": 17,
+          "end": 28
+        },
+        "typeParameters": null,
+        "extends": [],
+        "body": {
+          "type": "TSInterfaceBody",
+          "body": [],
+          "start": 29,
+          "end": 31
+        },
+        "declare": false,
+        "start": 7,
+        "end": 31
+      },
+      "specifiers": [],
+      "source": null,
+      "exportKind": "type",
+      "attributes": [],
+      "start": 0,
+      "end": 31
+    }
+  ],
+  "sourceType": "module",
+  "hashbang": null,
+  "start": 0,
+  "end": 31
+}
+```
+__ESTREE_TEST__:TOKENS:
+```json
+[
+  {
+    "type": "Keyword",
+    "value": "export",
+    "start": 0,
+    "end": 6
+  },
+  {
+    "type": "Keyword",
+    "value": "interface",
+    "start": 7,
+    "end": 16
+  },
+  {
+    "type": "Identifier",
+    "value": "SubpkgProps",
+    "start": 17,
+    "end": 28
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 29,
+    "end": 30
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 30,
+    "end": 31
+  }
+]
+```
+__ESTREE_TEST__:AST:
+```json
+{
+  "type": "Program",
+  "body": [
+    {
       "type": "ImportDeclaration",
       "specifiers": [
         {
@@ -330,7 +409,7 @@ __ESTREE_TEST__:AST:
           "imported": {
             "type": "Identifier",
             "decorators": [],
-            "name": "NestedProps",
+            "name": "SubpkgProps",
             "optional": false,
             "typeAnnotation": null,
             "start": 96,
@@ -339,7 +418,7 @@ __ESTREE_TEST__:AST:
           "local": {
             "type": "Identifier",
             "decorators": [],
-            "name": "NestedProps",
+            "name": "SubpkgProps",
             "optional": false,
             "typeAnnotation": null,
             "start": 96,
@@ -352,16 +431,57 @@ __ESTREE_TEST__:AST:
       ],
       "source": {
         "type": "Literal",
-        "value": "nested",
-        "raw": "\"nested\"",
+        "value": "./subpkg/main",
+        "raw": "\"./subpkg/main\"",
         "start": 115,
-        "end": 123
+        "end": 130
       },
       "phase": null,
       "attributes": [],
       "importKind": "value",
       "start": 87,
-      "end": 124
+      "end": 131
+    },
+    {
+      "type": "ImportDeclaration",
+      "specifiers": [
+        {
+          "type": "ImportSpecifier",
+          "imported": {
+            "type": "Identifier",
+            "decorators": [],
+            "name": "NestedProps",
+            "optional": false,
+            "typeAnnotation": null,
+            "start": 141,
+            "end": 152
+          },
+          "local": {
+            "type": "Identifier",
+            "decorators": [],
+            "name": "NestedProps",
+            "optional": false,
+            "typeAnnotation": null,
+            "start": 141,
+            "end": 152
+          },
+          "importKind": "value",
+          "start": 141,
+          "end": 152
+        }
+      ],
+      "source": {
+        "type": "Literal",
+        "value": "nested",
+        "raw": "\"nested\"",
+        "start": 160,
+        "end": 168
+      },
+      "phase": null,
+      "attributes": [],
+      "importKind": "value",
+      "start": 132,
+      "end": 169
     },
     {
       "type": "ExportNamedDeclaration",
@@ -373,27 +493,27 @@ __ESTREE_TEST__:AST:
           "name": "SomeProps",
           "optional": false,
           "typeAnnotation": null,
-          "start": 142,
-          "end": 151
+          "start": 187,
+          "end": 196
         },
         "typeParameters": null,
         "extends": [],
         "body": {
           "type": "TSInterfaceBody",
           "body": [],
-          "start": 152,
-          "end": 154
+          "start": 197,
+          "end": 199
         },
         "declare": false,
-        "start": 132,
-        "end": 154
+        "start": 177,
+        "end": 199
       },
       "specifiers": [],
       "source": null,
       "exportKind": "type",
       "attributes": [],
-      "start": 125,
-      "end": 154
+      "start": 170,
+      "end": 199
     },
     {
       "type": "ExportNamedDeclaration",
@@ -405,8 +525,8 @@ __ESTREE_TEST__:AST:
           "name": "foo",
           "optional": false,
           "typeAnnotation": null,
-          "start": 172,
-          "end": 175
+          "start": 217,
+          "end": 220
         },
         "generator": false,
         "async": false,
@@ -426,12 +546,12 @@ __ESTREE_TEST__:AST:
                   "name": "SomeProps",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 180,
-                  "end": 189
+                  "start": 225,
+                  "end": 234
                 },
                 "typeArguments": null,
-                "start": 180,
-                "end": 189
+                "start": 225,
+                "end": 234
               },
               {
                 "type": "TSTypeReference",
@@ -441,12 +561,12 @@ __ESTREE_TEST__:AST:
                   "name": "OtherProps",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 191,
-                  "end": 201
+                  "start": 236,
+                  "end": 246
                 },
                 "typeArguments": null,
-                "start": 191,
-                "end": 201
+                "start": 236,
+                "end": 246
               },
               {
                 "type": "TSTypeReference",
@@ -456,12 +576,27 @@ __ESTREE_TEST__:AST:
                   "name": "OtherIndexProps",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 203,
-                  "end": 218
+                  "start": 248,
+                  "end": 263
                 },
                 "typeArguments": null,
-                "start": 203,
-                "end": 218
+                "start": 248,
+                "end": 263
+              },
+              {
+                "type": "TSTypeReference",
+                "typeName": {
+                  "type": "Identifier",
+                  "decorators": [],
+                  "name": "SubpkgProps",
+                  "optional": false,
+                  "typeAnnotation": null,
+                  "start": 265,
+                  "end": 276
+                },
+                "typeArguments": null,
+                "start": 265,
+                "end": 276
               },
               {
                 "type": "TSTypeReference",
@@ -471,37 +606,37 @@ __ESTREE_TEST__:AST:
                   "name": "NestedProps",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 220,
-                  "end": 231
+                  "start": 278,
+                  "end": 289
                 },
                 "typeArguments": null,
-                "start": 220,
-                "end": 231
+                "start": 278,
+                "end": 289
               }
             ],
-            "start": 179,
-            "end": 232
+            "start": 224,
+            "end": 290
           },
-          "start": 177,
-          "end": 232
+          "start": 222,
+          "end": 290
         },
         "body": null,
         "expression": false,
-        "start": 163,
-        "end": 233
+        "start": 208,
+        "end": 291
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
       "attributes": [],
-      "start": 156,
-      "end": 233
+      "start": 201,
+      "end": 291
     }
   ],
   "sourceType": "module",
   "hashbang": null,
   "start": 0,
-  "end": 233
+  "end": 291
 }
 ```
 __ESTREE_TEST__:TOKENS:
@@ -605,7 +740,7 @@ __ESTREE_TEST__:TOKENS:
   },
   {
     "type": "Identifier",
-    "value": "NestedProps",
+    "value": "SubpkgProps",
     "start": 96,
     "end": 107
   },
@@ -623,39 +758,33 @@ __ESTREE_TEST__:TOKENS:
   },
   {
     "type": "String",
-    "value": "\"nested\"",
+    "value": "\"./subpkg/main\"",
     "start": 115,
-    "end": 123
+    "end": 130
   },
   {
     "type": "Punctuator",
     "value": ";",
-    "start": 123,
-    "end": 124
-  },
-  {
-    "type": "Keyword",
-    "value": "export",
-    "start": 125,
+    "start": 130,
     "end": 131
   },
   {
     "type": "Keyword",
-    "value": "interface",
+    "value": "import",
     "start": 132,
-    "end": 141
-  },
-  {
-    "type": "Identifier",
-    "value": "SomeProps",
-    "start": 142,
-    "end": 151
+    "end": 138
   },
   {
     "type": "Punctuator",
     "value": "{",
-    "start": 152,
-    "end": 153
+    "start": 139,
+    "end": 140
+  },
+  {
+    "type": "Identifier",
+    "value": "NestedProps",
+    "start": 141,
+    "end": 152
   },
   {
     "type": "Punctuator",
@@ -664,100 +793,160 @@ __ESTREE_TEST__:TOKENS:
     "end": 154
   },
   {
-    "type": "Keyword",
-    "value": "export",
-    "start": 156,
-    "end": 162
-  },
-  {
-    "type": "Keyword",
-    "value": "function",
-    "start": 163,
-    "end": 171
-  },
-  {
     "type": "Identifier",
-    "value": "foo",
-    "start": 172,
-    "end": 175
+    "value": "from",
+    "start": 155,
+    "end": 159
   },
   {
-    "type": "Punctuator",
-    "value": "(",
-    "start": 175,
-    "end": 176
-  },
-  {
-    "type": "Punctuator",
-    "value": ")",
-    "start": 176,
-    "end": 177
-  },
-  {
-    "type": "Punctuator",
-    "value": ":",
-    "start": 177,
-    "end": 178
-  },
-  {
-    "type": "Punctuator",
-    "value": "[",
-    "start": 179,
-    "end": 180
-  },
-  {
-    "type": "Identifier",
-    "value": "SomeProps",
-    "start": 180,
-    "end": 189
-  },
-  {
-    "type": "Punctuator",
-    "value": ",",
-    "start": 189,
-    "end": 190
-  },
-  {
-    "type": "Identifier",
-    "value": "OtherProps",
-    "start": 191,
-    "end": 201
-  },
-  {
-    "type": "Punctuator",
-    "value": ",",
-    "start": 201,
-    "end": 202
-  },
-  {
-    "type": "Identifier",
-    "value": "OtherIndexProps",
-    "start": 203,
-    "end": 218
-  },
-  {
-    "type": "Punctuator",
-    "value": ",",
-    "start": 218,
-    "end": 219
-  },
-  {
-    "type": "Identifier",
-    "value": "NestedProps",
-    "start": 220,
-    "end": 231
-  },
-  {
-    "type": "Punctuator",
-    "value": "]",
-    "start": 231,
-    "end": 232
+    "type": "String",
+    "value": "\"nested\"",
+    "start": 160,
+    "end": 168
   },
   {
     "type": "Punctuator",
     "value": ";",
-    "start": 232,
-    "end": 233
+    "start": 168,
+    "end": 169
+  },
+  {
+    "type": "Keyword",
+    "value": "export",
+    "start": 170,
+    "end": 176
+  },
+  {
+    "type": "Keyword",
+    "value": "interface",
+    "start": 177,
+    "end": 186
+  },
+  {
+    "type": "Identifier",
+    "value": "SomeProps",
+    "start": 187,
+    "end": 196
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 197,
+    "end": 198
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 198,
+    "end": 199
+  },
+  {
+    "type": "Keyword",
+    "value": "export",
+    "start": 201,
+    "end": 207
+  },
+  {
+    "type": "Keyword",
+    "value": "function",
+    "start": 208,
+    "end": 216
+  },
+  {
+    "type": "Identifier",
+    "value": "foo",
+    "start": 217,
+    "end": 220
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 220,
+    "end": 221
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 221,
+    "end": 222
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 222,
+    "end": 223
+  },
+  {
+    "type": "Punctuator",
+    "value": "[",
+    "start": 224,
+    "end": 225
+  },
+  {
+    "type": "Identifier",
+    "value": "SomeProps",
+    "start": 225,
+    "end": 234
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 234,
+    "end": 235
+  },
+  {
+    "type": "Identifier",
+    "value": "OtherProps",
+    "start": 236,
+    "end": 246
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 246,
+    "end": 247
+  },
+  {
+    "type": "Identifier",
+    "value": "OtherIndexProps",
+    "start": 248,
+    "end": 263
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 263,
+    "end": 264
+  },
+  {
+    "type": "Identifier",
+    "value": "SubpkgProps",
+    "start": 265,
+    "end": 276
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 276,
+    "end": 277
+  },
+  {
+    "type": "Identifier",
+    "value": "NestedProps",
+    "start": 278,
+    "end": 289
+  },
+  {
+    "type": "Punctuator",
+    "value": "]",
+    "start": 289,
+    "end": 290
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 290,
+    "end": 291
   }
 ]
 ```

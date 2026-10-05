@@ -757,12 +757,321 @@ __ESTREE_TEST__:AST:
       "attributes": [],
       "start": 235,
       "end": 280
+    },
+    {
+      "type": "ExportNamedDeclaration",
+      "declaration": {
+        "type": "VariableDeclaration",
+        "kind": "const",
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "id": {
+              "type": "ArrayPattern",
+              "decorators": [],
+              "elements": [
+                {
+                  "type": "RestElement",
+                  "decorators": [],
+                  "argument": {
+                    "type": "ArrayPattern",
+                    "decorators": [],
+                    "elements": [
+                      {
+                        "type": "Identifier",
+                        "decorators": [],
+                        "name": "r",
+                        "optional": false,
+                        "typeAnnotation": null,
+                        "start": 299,
+                        "end": 300
+                      },
+                      {
+                        "type": "Identifier",
+                        "decorators": [],
+                        "name": "s",
+                        "optional": false,
+                        "typeAnnotation": null,
+                        "start": 302,
+                        "end": 303
+                      }
+                    ],
+                    "optional": false,
+                    "typeAnnotation": null,
+                    "start": 298,
+                    "end": 304
+                  },
+                  "optional": false,
+                  "typeAnnotation": null,
+                  "value": null,
+                  "start": 295,
+                  "end": 304
+                }
+              ],
+              "optional": false,
+              "typeAnnotation": null,
+              "start": 294,
+              "end": 305
+            },
+            "init": {
+              "type": "CallExpression",
+              "callee": {
+                "type": "Identifier",
+                "decorators": [],
+                "name": "foo",
+                "optional": false,
+                "typeAnnotation": null,
+                "start": 308,
+                "end": 311
+              },
+              "typeArguments": null,
+              "arguments": [],
+              "optional": false,
+              "start": 308,
+              "end": 313
+            },
+            "definite": false,
+            "start": 294,
+            "end": 313
+          }
+        ],
+        "declare": false,
+        "start": 288,
+        "end": 314
+      },
+      "specifiers": [],
+      "source": null,
+      "exportKind": "value",
+      "attributes": [],
+      "start": 281,
+      "end": 314
+    },
+    {
+      "type": "ExportNamedDeclaration",
+      "declaration": {
+        "type": "VariableDeclaration",
+        "kind": "const",
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "id": {
+              "type": "ArrayPattern",
+              "decorators": [],
+              "elements": [
+                {
+                  "type": "RestElement",
+                  "decorators": [],
+                  "argument": {
+                    "type": "ObjectPattern",
+                    "decorators": [],
+                    "properties": [
+                      {
+                        "type": "Property",
+                        "kind": "init",
+                        "key": {
+                          "type": "Identifier",
+                          "decorators": [],
+                          "name": "length",
+                          "optional": false,
+                          "typeAnnotation": null,
+                          "start": 334,
+                          "end": 340
+                        },
+                        "value": {
+                          "type": "Identifier",
+                          "decorators": [],
+                          "name": "t",
+                          "optional": false,
+                          "typeAnnotation": null,
+                          "start": 342,
+                          "end": 343
+                        },
+                        "method": false,
+                        "shorthand": false,
+                        "computed": false,
+                        "optional": false,
+                        "start": 334,
+                        "end": 343
+                      }
+                    ],
+                    "optional": false,
+                    "typeAnnotation": null,
+                    "start": 332,
+                    "end": 345
+                  },
+                  "optional": false,
+                  "typeAnnotation": null,
+                  "value": null,
+                  "start": 329,
+                  "end": 345
+                }
+              ],
+              "optional": false,
+              "typeAnnotation": null,
+              "start": 328,
+              "end": 346
+            },
+            "init": {
+              "type": "CallExpression",
+              "callee": {
+                "type": "Identifier",
+                "decorators": [],
+                "name": "foo",
+                "optional": false,
+                "typeAnnotation": null,
+                "start": 349,
+                "end": 352
+              },
+              "typeArguments": null,
+              "arguments": [],
+              "optional": false,
+              "start": 349,
+              "end": 354
+            },
+            "definite": false,
+            "start": 328,
+            "end": 354
+          }
+        ],
+        "declare": false,
+        "start": 322,
+        "end": 355
+      },
+      "specifiers": [],
+      "source": null,
+      "exportKind": "value",
+      "attributes": [],
+      "start": 315,
+      "end": 355
+    },
+    {
+      "type": "ExportNamedDeclaration",
+      "declaration": {
+        "type": "VariableDeclaration",
+        "kind": "const",
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "id": {
+              "type": "ArrayPattern",
+              "decorators": [],
+              "elements": [
+                {
+                  "type": "RestElement",
+                  "decorators": [],
+                  "argument": {
+                    "type": "ArrayPattern",
+                    "decorators": [],
+                    "elements": [
+                      {
+                        "type": "AssignmentPattern",
+                        "decorators": [],
+                        "left": {
+                          "type": "Identifier",
+                          "decorators": [],
+                          "name": "u",
+                          "optional": false,
+                          "typeAnnotation": null,
+                          "start": 374,
+                          "end": 375
+                        },
+                        "right": {
+                          "type": "Literal",
+                          "value": 1,
+                          "raw": "1",
+                          "start": 378,
+                          "end": 379
+                        },
+                        "optional": false,
+                        "typeAnnotation": null,
+                        "start": 374,
+                        "end": 379
+                      },
+                      null,
+                      {
+                        "type": "RestElement",
+                        "decorators": [],
+                        "argument": {
+                          "type": "ArrayPattern",
+                          "decorators": [],
+                          "elements": [
+                            {
+                              "type": "Identifier",
+                              "decorators": [],
+                              "name": "v",
+                              "optional": false,
+                              "typeAnnotation": null,
+                              "start": 387,
+                              "end": 388
+                            }
+                          ],
+                          "optional": false,
+                          "typeAnnotation": null,
+                          "start": 386,
+                          "end": 389
+                        },
+                        "optional": false,
+                        "typeAnnotation": null,
+                        "value": null,
+                        "start": 383,
+                        "end": 389
+                      }
+                    ],
+                    "optional": false,
+                    "typeAnnotation": null,
+                    "start": 373,
+                    "end": 390
+                  },
+                  "optional": false,
+                  "typeAnnotation": null,
+                  "value": null,
+                  "start": 370,
+                  "end": 390
+                }
+              ],
+              "optional": false,
+              "typeAnnotation": null,
+              "start": 369,
+              "end": 391
+            },
+            "init": {
+              "type": "CallExpression",
+              "callee": {
+                "type": "Identifier",
+                "decorators": [],
+                "name": "foo",
+                "optional": false,
+                "typeAnnotation": null,
+                "start": 394,
+                "end": 397
+              },
+              "typeArguments": null,
+              "arguments": [],
+              "optional": false,
+              "start": 394,
+              "end": 399
+            },
+            "definite": false,
+            "start": 369,
+            "end": 399
+          }
+        ],
+        "declare": false,
+        "start": 363,
+        "end": 400
+      },
+      "specifiers": [],
+      "source": null,
+      "exportKind": "value",
+      "attributes": [],
+      "start": 356,
+      "end": 400
     }
   ],
   "sourceType": "module",
   "hashbang": null,
   "start": 0,
-  "end": 280
+  "end": 400
 }
 ```
 __ESTREE_TEST__:TOKENS:
@@ -1481,6 +1790,312 @@ __ESTREE_TEST__:TOKENS:
     "value": ";",
     "start": 279,
     "end": 280
+  },
+  {
+    "type": "Keyword",
+    "value": "export",
+    "start": 281,
+    "end": 287
+  },
+  {
+    "type": "Keyword",
+    "value": "const",
+    "start": 288,
+    "end": 293
+  },
+  {
+    "type": "Punctuator",
+    "value": "[",
+    "start": 294,
+    "end": 295
+  },
+  {
+    "type": "Punctuator",
+    "value": "...",
+    "start": 295,
+    "end": 298
+  },
+  {
+    "type": "Punctuator",
+    "value": "[",
+    "start": 298,
+    "end": 299
+  },
+  {
+    "type": "Identifier",
+    "value": "r",
+    "start": 299,
+    "end": 300
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 300,
+    "end": 301
+  },
+  {
+    "type": "Identifier",
+    "value": "s",
+    "start": 302,
+    "end": 303
+  },
+  {
+    "type": "Punctuator",
+    "value": "]",
+    "start": 303,
+    "end": 304
+  },
+  {
+    "type": "Punctuator",
+    "value": "]",
+    "start": 304,
+    "end": 305
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 306,
+    "end": 307
+  },
+  {
+    "type": "Identifier",
+    "value": "foo",
+    "start": 308,
+    "end": 311
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 311,
+    "end": 312
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 312,
+    "end": 313
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 313,
+    "end": 314
+  },
+  {
+    "type": "Keyword",
+    "value": "export",
+    "start": 315,
+    "end": 321
+  },
+  {
+    "type": "Keyword",
+    "value": "const",
+    "start": 322,
+    "end": 327
+  },
+  {
+    "type": "Punctuator",
+    "value": "[",
+    "start": 328,
+    "end": 329
+  },
+  {
+    "type": "Punctuator",
+    "value": "...",
+    "start": 329,
+    "end": 332
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 332,
+    "end": 333
+  },
+  {
+    "type": "Identifier",
+    "value": "length",
+    "start": 334,
+    "end": 340
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 340,
+    "end": 341
+  },
+  {
+    "type": "Identifier",
+    "value": "t",
+    "start": 342,
+    "end": 343
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 344,
+    "end": 345
+  },
+  {
+    "type": "Punctuator",
+    "value": "]",
+    "start": 345,
+    "end": 346
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 347,
+    "end": 348
+  },
+  {
+    "type": "Identifier",
+    "value": "foo",
+    "start": 349,
+    "end": 352
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 352,
+    "end": 353
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 353,
+    "end": 354
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 354,
+    "end": 355
+  },
+  {
+    "type": "Keyword",
+    "value": "export",
+    "start": 356,
+    "end": 362
+  },
+  {
+    "type": "Keyword",
+    "value": "const",
+    "start": 363,
+    "end": 368
+  },
+  {
+    "type": "Punctuator",
+    "value": "[",
+    "start": 369,
+    "end": 370
+  },
+  {
+    "type": "Punctuator",
+    "value": "...",
+    "start": 370,
+    "end": 373
+  },
+  {
+    "type": "Punctuator",
+    "value": "[",
+    "start": 373,
+    "end": 374
+  },
+  {
+    "type": "Identifier",
+    "value": "u",
+    "start": 374,
+    "end": 375
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 376,
+    "end": 377
+  },
+  {
+    "type": "Numeric",
+    "value": "1",
+    "start": 378,
+    "end": 379
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 379,
+    "end": 380
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 381,
+    "end": 382
+  },
+  {
+    "type": "Punctuator",
+    "value": "...",
+    "start": 383,
+    "end": 386
+  },
+  {
+    "type": "Punctuator",
+    "value": "[",
+    "start": 386,
+    "end": 387
+  },
+  {
+    "type": "Identifier",
+    "value": "v",
+    "start": 387,
+    "end": 388
+  },
+  {
+    "type": "Punctuator",
+    "value": "]",
+    "start": 388,
+    "end": 389
+  },
+  {
+    "type": "Punctuator",
+    "value": "]",
+    "start": 389,
+    "end": 390
+  },
+  {
+    "type": "Punctuator",
+    "value": "]",
+    "start": 390,
+    "end": 391
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 392,
+    "end": 393
+  },
+  {
+    "type": "Identifier",
+    "value": "foo",
+    "start": 394,
+    "end": 397
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 397,
+    "end": 398
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 398,
+    "end": 399
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 399,
+    "end": 400
   }
 ]
 ```
