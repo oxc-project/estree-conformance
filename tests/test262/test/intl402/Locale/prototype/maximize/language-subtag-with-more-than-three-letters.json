@@ -1,0 +1,131 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 764,
+            "end": 770
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 771,
+            "end": 780
+          },
+          "optional": false,
+          "computed": false,
+          "start": 764,
+          "end": 780
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "CallExpression",
+              "callee": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "NewExpression",
+                  "callee": {
+                    "type": "MemberExpression",
+                    "object": {
+                      "type": "Identifier",
+                      "name": "Intl",
+                      "start": 788,
+                      "end": 792
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "name": "Locale",
+                      "start": 793,
+                      "end": 799
+                    },
+                    "optional": false,
+                    "computed": false,
+                    "start": 788,
+                    "end": 799
+                  },
+                  "arguments": [
+                    {
+                      "type": "Literal",
+                      "value": "abcdefgh",
+                      "raw": "\"abcdefgh\"",
+                      "start": 800,
+                      "end": 810
+                    }
+                  ],
+                  "start": 784,
+                  "end": 811
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "maximize",
+                  "start": 812,
+                  "end": 820
+                },
+                "optional": false,
+                "computed": false,
+                "start": 784,
+                "end": 820
+              },
+              "arguments": [],
+              "optional": false,
+              "start": 784,
+              "end": 822
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "script",
+              "start": 823,
+              "end": 829
+            },
+            "optional": false,
+            "computed": false,
+            "start": 784,
+            "end": 829
+          },
+          {
+            "type": "Identifier",
+            "name": "undefined",
+            "start": 833,
+            "end": 842
+          },
+          {
+            "type": "TemplateLiteral",
+            "quasis": [
+              {
+                "type": "TemplateElement",
+                "value": {
+                  "raw": "can't infer script for locale \"abcdefgh\" by adding likely subtags",
+                  "cooked": "can't infer script for locale \"abcdefgh\" by adding likely subtags"
+                },
+                "tail": true,
+                "start": 847,
+                "end": 912
+              }
+            ],
+            "expressions": [],
+            "start": 846,
+            "end": 913
+          }
+        ],
+        "optional": false,
+        "start": 764,
+        "end": 915
+      },
+      "start": 764,
+      "end": 916
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 917
+}

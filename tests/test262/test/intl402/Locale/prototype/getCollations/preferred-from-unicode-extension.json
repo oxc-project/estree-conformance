@@ -1,0 +1,651 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "languages",
+            "start": 466,
+            "end": 475
+          },
+          "init": {
+            "type": "ArrayExpression",
+            "elements": [
+              {
+                "type": "Literal",
+                "value": "und",
+                "raw": "\"und\"",
+                "start": 482,
+                "end": 487
+              },
+              {
+                "type": "Literal",
+                "value": "en",
+                "raw": "\"en\"",
+                "start": 491,
+                "end": 495
+              }
+            ],
+            "start": 478,
+            "end": 498
+          },
+          "start": 466,
+          "end": 498
+        }
+      ],
+      "start": 460,
+      "end": 499
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "extensions",
+            "start": 507,
+            "end": 517
+          },
+          "init": {
+            "type": "ArrayExpression",
+            "elements": [
+              {
+                "type": "Literal",
+                "value": "big5han",
+                "raw": "\"big5han\"",
+                "start": 560,
+                "end": 569
+              },
+              {
+                "type": "Literal",
+                "value": "compat",
+                "raw": "\"compat\"",
+                "start": 573,
+                "end": 581
+              },
+              {
+                "type": "Literal",
+                "value": "dict",
+                "raw": "\"dict\"",
+                "start": 585,
+                "end": 591
+              },
+              {
+                "type": "Literal",
+                "value": "direct",
+                "raw": "\"direct\"",
+                "start": 595,
+                "end": 603
+              },
+              {
+                "type": "Literal",
+                "value": "ducet",
+                "raw": "\"ducet\"",
+                "start": 607,
+                "end": 614
+              },
+              {
+                "type": "Literal",
+                "value": "emoji",
+                "raw": "\"emoji\"",
+                "start": 618,
+                "end": 625
+              },
+              {
+                "type": "Literal",
+                "value": "eor",
+                "raw": "\"eor\"",
+                "start": 629,
+                "end": 634
+              },
+              {
+                "type": "Literal",
+                "value": "gb2312",
+                "raw": "\"gb2312\"",
+                "start": 638,
+                "end": 646
+              },
+              {
+                "type": "Literal",
+                "value": "phonebk",
+                "raw": "\"phonebk\"",
+                "start": 650,
+                "end": 659
+              },
+              {
+                "type": "Literal",
+                "value": "phonetic",
+                "raw": "\"phonetic\"",
+                "start": 663,
+                "end": 673
+              },
+              {
+                "type": "Literal",
+                "value": "pinyin",
+                "raw": "\"pinyin\"",
+                "start": 677,
+                "end": 685
+              },
+              {
+                "type": "Literal",
+                "value": "reformed",
+                "raw": "\"reformed\"",
+                "start": 689,
+                "end": 699
+              },
+              {
+                "type": "Literal",
+                "value": "search",
+                "raw": "\"search\"",
+                "start": 703,
+                "end": 711
+              },
+              {
+                "type": "Literal",
+                "value": "searchjl",
+                "raw": "\"searchjl\"",
+                "start": 715,
+                "end": 725
+              },
+              {
+                "type": "Literal",
+                "value": "standard",
+                "raw": "\"standard\"",
+                "start": 729,
+                "end": 739
+              },
+              {
+                "type": "Literal",
+                "value": "stroke",
+                "raw": "\"stroke\"",
+                "start": 743,
+                "end": 751
+              },
+              {
+                "type": "Literal",
+                "value": "trad",
+                "raw": "\"trad\"",
+                "start": 755,
+                "end": 761
+              },
+              {
+                "type": "Literal",
+                "value": "unihan",
+                "raw": "\"unihan\"",
+                "start": 765,
+                "end": 773
+              },
+              {
+                "type": "Literal",
+                "value": "zhuyin",
+                "raw": "\"zhuyin\"",
+                "start": 777,
+                "end": 785
+              },
+              {
+                "type": "Literal",
+                "value": "abcdefgh",
+                "raw": "\"abcdefgh\"",
+                "start": 829,
+                "end": 839
+              },
+              {
+                "type": "Literal",
+                "value": "dictdict",
+                "raw": "\"dictdict\"",
+                "start": 843,
+                "end": 853
+              },
+              {
+                "type": "Literal",
+                "value": "reform",
+                "raw": "\"reform\"",
+                "start": 857,
+                "end": 865
+              }
+            ],
+            "start": 520,
+            "end": 868
+          },
+          "start": 507,
+          "end": 868
+        }
+      ],
+      "start": 501,
+      "end": 869
+    },
+    {
+      "type": "ForOfStatement",
+      "await": false,
+      "left": {
+        "type": "VariableDeclaration",
+        "kind": "let",
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "id": {
+              "type": "Identifier",
+              "name": "language",
+              "start": 880,
+              "end": 888
+            },
+            "init": null,
+            "start": 880,
+            "end": 888
+          }
+        ],
+        "start": 876,
+        "end": 888
+      },
+      "right": {
+        "type": "Identifier",
+        "name": "languages",
+        "start": 892,
+        "end": 901
+      },
+      "body": {
+        "type": "BlockStatement",
+        "body": [
+          {
+            "type": "ForOfStatement",
+            "await": false,
+            "left": {
+              "type": "VariableDeclaration",
+              "kind": "let",
+              "declarations": [
+                {
+                  "type": "VariableDeclarator",
+                  "id": {
+                    "type": "Identifier",
+                    "name": "extension",
+                    "start": 916,
+                    "end": 925
+                  },
+                  "init": null,
+                  "start": 916,
+                  "end": 925
+                }
+              ],
+              "start": 912,
+              "end": 925
+            },
+            "right": {
+              "type": "Identifier",
+              "name": "extensions",
+              "start": 929,
+              "end": 939
+            },
+            "body": {
+              "type": "BlockStatement",
+              "body": [
+                {
+                  "type": "VariableDeclaration",
+                  "kind": "let",
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "id": {
+                        "type": "Identifier",
+                        "name": "locale",
+                        "start": 951,
+                        "end": 957
+                      },
+                      "init": {
+                        "type": "TemplateLiteral",
+                        "quasis": [
+                          {
+                            "type": "TemplateElement",
+                            "value": {
+                              "raw": "",
+                              "cooked": ""
+                            },
+                            "tail": false,
+                            "start": 961,
+                            "end": 961
+                          },
+                          {
+                            "type": "TemplateElement",
+                            "value": {
+                              "raw": "-u-co-",
+                              "cooked": "-u-co-"
+                            },
+                            "tail": false,
+                            "start": 972,
+                            "end": 978
+                          },
+                          {
+                            "type": "TemplateElement",
+                            "value": {
+                              "raw": "",
+                              "cooked": ""
+                            },
+                            "tail": true,
+                            "start": 990,
+                            "end": 990
+                          }
+                        ],
+                        "expressions": [
+                          {
+                            "type": "Identifier",
+                            "name": "language",
+                            "start": 963,
+                            "end": 971
+                          },
+                          {
+                            "type": "Identifier",
+                            "name": "extension",
+                            "start": 980,
+                            "end": 989
+                          }
+                        ],
+                        "start": 960,
+                        "end": 991
+                      },
+                      "start": 951,
+                      "end": 991
+                    }
+                  ],
+                  "start": 947,
+                  "end": 992
+                },
+                {
+                  "type": "VariableDeclaration",
+                  "kind": "let",
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "id": {
+                        "type": "Identifier",
+                        "name": "loc",
+                        "start": 1001,
+                        "end": 1004
+                      },
+                      "init": {
+                        "type": "NewExpression",
+                        "callee": {
+                          "type": "MemberExpression",
+                          "object": {
+                            "type": "Identifier",
+                            "name": "Intl",
+                            "start": 1011,
+                            "end": 1015
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "name": "Locale",
+                            "start": 1016,
+                            "end": 1022
+                          },
+                          "optional": false,
+                          "computed": false,
+                          "start": 1011,
+                          "end": 1022
+                        },
+                        "arguments": [
+                          {
+                            "type": "Identifier",
+                            "name": "locale",
+                            "start": 1023,
+                            "end": 1029
+                          }
+                        ],
+                        "start": 1007,
+                        "end": 1030
+                      },
+                      "start": 1001,
+                      "end": 1030
+                    }
+                  ],
+                  "start": 997,
+                  "end": 1030
+                },
+                {
+                  "type": "VariableDeclaration",
+                  "kind": "let",
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "id": {
+                        "type": "Identifier",
+                        "name": "collations",
+                        "start": 1039,
+                        "end": 1049
+                      },
+                      "init": {
+                        "type": "CallExpression",
+                        "callee": {
+                          "type": "MemberExpression",
+                          "object": {
+                            "type": "Identifier",
+                            "name": "loc",
+                            "start": 1052,
+                            "end": 1055
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "name": "getCollations",
+                            "start": 1056,
+                            "end": 1069
+                          },
+                          "optional": false,
+                          "computed": false,
+                          "start": 1052,
+                          "end": 1069
+                        },
+                        "arguments": [],
+                        "optional": false,
+                        "start": 1052,
+                        "end": 1071
+                      },
+                      "start": 1039,
+                      "end": 1071
+                    }
+                  ],
+                  "start": 1035,
+                  "end": 1072
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "expression": {
+                    "type": "CallExpression",
+                    "callee": {
+                      "type": "MemberExpression",
+                      "object": {
+                        "type": "Identifier",
+                        "name": "assert",
+                        "start": 1078,
+                        "end": 1084
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "name": "sameValue",
+                        "start": 1085,
+                        "end": 1094
+                      },
+                      "optional": false,
+                      "computed": false,
+                      "start": 1078,
+                      "end": 1094
+                    },
+                    "arguments": [
+                      {
+                        "type": "MemberExpression",
+                        "object": {
+                          "type": "Identifier",
+                          "name": "loc",
+                          "start": 1102,
+                          "end": 1105
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "name": "collation",
+                          "start": 1106,
+                          "end": 1115
+                        },
+                        "optional": false,
+                        "computed": false,
+                        "start": 1102,
+                        "end": 1115
+                      },
+                      {
+                        "type": "Identifier",
+                        "name": "extension",
+                        "start": 1123,
+                        "end": 1132
+                      },
+                      {
+                        "type": "TemplateLiteral",
+                        "quasis": [
+                          {
+                            "type": "TemplateElement",
+                            "value": {
+                              "raw": "collation with locale \"",
+                              "cooked": "collation with locale \""
+                            },
+                            "tail": false,
+                            "start": 1141,
+                            "end": 1164
+                          },
+                          {
+                            "type": "TemplateElement",
+                            "value": {
+                              "raw": "\"",
+                              "cooked": "\""
+                            },
+                            "tail": true,
+                            "start": 1173,
+                            "end": 1174
+                          }
+                        ],
+                        "expressions": [
+                          {
+                            "type": "Identifier",
+                            "name": "locale",
+                            "start": 1166,
+                            "end": 1172
+                          }
+                        ],
+                        "start": 1140,
+                        "end": 1175
+                      }
+                    ],
+                    "optional": false,
+                    "start": 1078,
+                    "end": 1181
+                  },
+                  "start": 1078,
+                  "end": 1182
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "expression": {
+                    "type": "CallExpression",
+                    "callee": {
+                      "type": "MemberExpression",
+                      "object": {
+                        "type": "Identifier",
+                        "name": "assert",
+                        "start": 1188,
+                        "end": 1194
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "name": "compareArray",
+                        "start": 1195,
+                        "end": 1207
+                      },
+                      "optional": false,
+                      "computed": false,
+                      "start": 1188,
+                      "end": 1207
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "name": "collations",
+                        "start": 1215,
+                        "end": 1225
+                      },
+                      {
+                        "type": "ArrayExpression",
+                        "elements": [
+                          {
+                            "type": "Identifier",
+                            "name": "extension",
+                            "start": 1234,
+                            "end": 1243
+                          }
+                        ],
+                        "start": 1233,
+                        "end": 1244
+                      },
+                      {
+                        "type": "TemplateLiteral",
+                        "quasis": [
+                          {
+                            "type": "TemplateElement",
+                            "value": {
+                              "raw": "collation with locale \"",
+                              "cooked": "collation with locale \""
+                            },
+                            "tail": false,
+                            "start": 1253,
+                            "end": 1276
+                          },
+                          {
+                            "type": "TemplateElement",
+                            "value": {
+                              "raw": "\"",
+                              "cooked": "\""
+                            },
+                            "tail": true,
+                            "start": 1285,
+                            "end": 1286
+                          }
+                        ],
+                        "expressions": [
+                          {
+                            "type": "Identifier",
+                            "name": "locale",
+                            "start": 1278,
+                            "end": 1284
+                          }
+                        ],
+                        "start": 1252,
+                        "end": 1287
+                      }
+                    ],
+                    "optional": false,
+                    "start": 1188,
+                    "end": 1293
+                  },
+                  "start": 1188,
+                  "end": 1294
+                }
+              ],
+              "start": 941,
+              "end": 1298
+            },
+            "start": 907,
+            "end": 1298
+          }
+        ],
+        "start": 903,
+        "end": 1300
+      },
+      "start": 871,
+      "end": 1300
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 1301
+}

@@ -1,0 +1,317 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "kind": "var",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "arDir",
+            "start": 852,
+            "end": 857
+          },
+          "init": {
+            "type": "MemberExpression",
+            "object": {
+              "type": "CallExpression",
+              "callee": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "NewExpression",
+                  "callee": {
+                    "type": "MemberExpression",
+                    "object": {
+                      "type": "Identifier",
+                      "name": "Intl",
+                      "start": 864,
+                      "end": 868
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "name": "Locale",
+                      "start": 869,
+                      "end": 875
+                    },
+                    "optional": false,
+                    "computed": false,
+                    "start": 864,
+                    "end": 875
+                  },
+                  "arguments": [
+                    {
+                      "type": "Literal",
+                      "value": "ar-Zxxx",
+                      "raw": "\"ar-Zxxx\"",
+                      "start": 876,
+                      "end": 885
+                    }
+                  ],
+                  "start": 860,
+                  "end": 886
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "getTextInfo",
+                  "start": 887,
+                  "end": 898
+                },
+                "optional": false,
+                "computed": false,
+                "start": 860,
+                "end": 898
+              },
+              "arguments": [],
+              "optional": false,
+              "start": 860,
+              "end": 900
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "direction",
+              "start": 901,
+              "end": 910
+            },
+            "optional": false,
+            "computed": false,
+            "start": 860,
+            "end": 910
+          },
+          "start": 852,
+          "end": 910
+        }
+      ],
+      "start": 848,
+      "end": 911
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "Identifier",
+          "name": "assert",
+          "start": 973,
+          "end": 979
+        },
+        "arguments": [
+          {
+            "type": "LogicalExpression",
+            "left": {
+              "type": "BinaryExpression",
+              "left": {
+                "type": "Identifier",
+                "name": "arDir",
+                "start": 980,
+                "end": 985
+              },
+              "operator": "===",
+              "right": {
+                "type": "Literal",
+                "value": "rtl",
+                "raw": "\"rtl\"",
+                "start": 990,
+                "end": 995
+              },
+              "start": 980,
+              "end": 995
+            },
+            "operator": "||",
+            "right": {
+              "type": "BinaryExpression",
+              "left": {
+                "type": "Identifier",
+                "name": "arDir",
+                "start": 999,
+                "end": 1004
+              },
+              "operator": "===",
+              "right": {
+                "type": "Identifier",
+                "name": "undefined",
+                "start": 1009,
+                "end": 1018
+              },
+              "start": 999,
+              "end": 1018
+            },
+            "start": 980,
+            "end": 1018
+          },
+          {
+            "type": "Literal",
+            "value": "with locale 'ar-Zxxx'",
+            "raw": "\"with locale 'ar-Zxxx'\"",
+            "start": 1020,
+            "end": 1043
+          }
+        ],
+        "optional": false,
+        "start": 973,
+        "end": 1044
+      },
+      "start": 973,
+      "end": 1045
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "var",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "urDir",
+            "start": 1099,
+            "end": 1104
+          },
+          "init": {
+            "type": "MemberExpression",
+            "object": {
+              "type": "CallExpression",
+              "callee": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "NewExpression",
+                  "callee": {
+                    "type": "MemberExpression",
+                    "object": {
+                      "type": "Identifier",
+                      "name": "Intl",
+                      "start": 1111,
+                      "end": 1115
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "name": "Locale",
+                      "start": 1116,
+                      "end": 1122
+                    },
+                    "optional": false,
+                    "computed": false,
+                    "start": 1111,
+                    "end": 1122
+                  },
+                  "arguments": [
+                    {
+                      "type": "Literal",
+                      "value": "ur-Aran",
+                      "raw": "\"ur-Aran\"",
+                      "start": 1123,
+                      "end": 1132
+                    }
+                  ],
+                  "start": 1107,
+                  "end": 1133
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "getTextInfo",
+                  "start": 1134,
+                  "end": 1145
+                },
+                "optional": false,
+                "computed": false,
+                "start": 1107,
+                "end": 1145
+              },
+              "arguments": [],
+              "optional": false,
+              "start": 1107,
+              "end": 1147
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "direction",
+              "start": 1148,
+              "end": 1157
+            },
+            "optional": false,
+            "computed": false,
+            "start": 1107,
+            "end": 1157
+          },
+          "start": 1099,
+          "end": 1157
+        }
+      ],
+      "start": 1095,
+      "end": 1158
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "Identifier",
+          "name": "assert",
+          "start": 1220,
+          "end": 1226
+        },
+        "arguments": [
+          {
+            "type": "LogicalExpression",
+            "left": {
+              "type": "BinaryExpression",
+              "left": {
+                "type": "Identifier",
+                "name": "urDir",
+                "start": 1227,
+                "end": 1232
+              },
+              "operator": "===",
+              "right": {
+                "type": "Literal",
+                "value": "rtl",
+                "raw": "\"rtl\"",
+                "start": 1237,
+                "end": 1242
+              },
+              "start": 1227,
+              "end": 1242
+            },
+            "operator": "||",
+            "right": {
+              "type": "BinaryExpression",
+              "left": {
+                "type": "Identifier",
+                "name": "urDir",
+                "start": 1246,
+                "end": 1251
+              },
+              "operator": "===",
+              "right": {
+                "type": "Identifier",
+                "name": "undefined",
+                "start": 1256,
+                "end": 1265
+              },
+              "start": 1246,
+              "end": 1265
+            },
+            "start": 1227,
+            "end": 1265
+          },
+          {
+            "type": "Literal",
+            "value": "with locale 'ur-Aran'",
+            "raw": "\"with locale 'ur-Aran'\"",
+            "start": 1267,
+            "end": 1290
+          }
+        ],
+        "optional": false,
+        "start": 1220,
+        "end": 1291
+      },
+      "start": 1220,
+      "end": 1292
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 1293
+}
