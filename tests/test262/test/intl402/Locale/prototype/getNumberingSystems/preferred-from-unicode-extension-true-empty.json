@@ -1,0 +1,378 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "locales",
+            "start": 497,
+            "end": 504
+          },
+          "init": {
+            "type": "ArrayExpression",
+            "elements": [
+              {
+                "type": "Literal",
+                "value": "und-u-nu",
+                "raw": "\"und-u-nu\"",
+                "start": 511,
+                "end": 521
+              },
+              {
+                "type": "Literal",
+                "value": "und-u-nu-true",
+                "raw": "\"und-u-nu-true\"",
+                "start": 525,
+                "end": 540
+              },
+              {
+                "type": "Literal",
+                "value": "en-u-nu",
+                "raw": "\"en-u-nu\"",
+                "start": 544,
+                "end": 553
+              },
+              {
+                "type": "Literal",
+                "value": "en-u-nu-true",
+                "raw": "\"en-u-nu-true\"",
+                "start": 557,
+                "end": 571
+              }
+            ],
+            "start": 507,
+            "end": 574
+          },
+          "start": 497,
+          "end": 574
+        }
+      ],
+      "start": 491,
+      "end": 575
+    },
+    {
+      "type": "ForOfStatement",
+      "await": false,
+      "left": {
+        "type": "VariableDeclaration",
+        "kind": "let",
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "id": {
+              "type": "Identifier",
+              "name": "locale",
+              "start": 586,
+              "end": 592
+            },
+            "init": null,
+            "start": 586,
+            "end": 592
+          }
+        ],
+        "start": 582,
+        "end": 592
+      },
+      "right": {
+        "type": "Identifier",
+        "name": "locales",
+        "start": 596,
+        "end": 603
+      },
+      "body": {
+        "type": "BlockStatement",
+        "body": [
+          {
+            "type": "VariableDeclaration",
+            "kind": "let",
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "id": {
+                  "type": "Identifier",
+                  "name": "loc",
+                  "start": 613,
+                  "end": 616
+                },
+                "init": {
+                  "type": "NewExpression",
+                  "callee": {
+                    "type": "MemberExpression",
+                    "object": {
+                      "type": "Identifier",
+                      "name": "Intl",
+                      "start": 623,
+                      "end": 627
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "name": "Locale",
+                      "start": 628,
+                      "end": 634
+                    },
+                    "optional": false,
+                    "computed": false,
+                    "start": 623,
+                    "end": 634
+                  },
+                  "arguments": [
+                    {
+                      "type": "Identifier",
+                      "name": "locale",
+                      "start": 635,
+                      "end": 641
+                    }
+                  ],
+                  "start": 619,
+                  "end": 642
+                },
+                "start": 613,
+                "end": 642
+              }
+            ],
+            "start": 609,
+            "end": 643
+          },
+          {
+            "type": "VariableDeclaration",
+            "kind": "let",
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "id": {
+                  "type": "Identifier",
+                  "name": "numberingSystems",
+                  "start": 650,
+                  "end": 666
+                },
+                "init": {
+                  "type": "CallExpression",
+                  "callee": {
+                    "type": "MemberExpression",
+                    "object": {
+                      "type": "Identifier",
+                      "name": "loc",
+                      "start": 669,
+                      "end": 672
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "name": "getNumberingSystems",
+                      "start": 673,
+                      "end": 692
+                    },
+                    "optional": false,
+                    "computed": false,
+                    "start": 669,
+                    "end": 692
+                  },
+                  "arguments": [],
+                  "optional": false,
+                  "start": 669,
+                  "end": 694
+                },
+                "start": 650,
+                "end": 694
+              }
+            ],
+            "start": 646,
+            "end": 695
+          },
+          {
+            "type": "ExpressionStatement",
+            "expression": {
+              "type": "CallExpression",
+              "callee": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "assert",
+                  "start": 699,
+                  "end": 705
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "sameValue",
+                  "start": 706,
+                  "end": 715
+                },
+                "optional": false,
+                "computed": false,
+                "start": 699,
+                "end": 715
+              },
+              "arguments": [
+                {
+                  "type": "MemberExpression",
+                  "object": {
+                    "type": "Identifier",
+                    "name": "loc",
+                    "start": 721,
+                    "end": 724
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "name": "numberingSystem",
+                    "start": 725,
+                    "end": 740
+                  },
+                  "optional": false,
+                  "computed": false,
+                  "start": 721,
+                  "end": 740
+                },
+                {
+                  "type": "Literal",
+                  "value": "",
+                  "raw": "\"\"",
+                  "start": 746,
+                  "end": 748
+                },
+                {
+                  "type": "TemplateLiteral",
+                  "quasis": [
+                    {
+                      "type": "TemplateElement",
+                      "value": {
+                        "raw": "numberingSystem with locale \"",
+                        "cooked": "numberingSystem with locale \""
+                      },
+                      "tail": false,
+                      "start": 755,
+                      "end": 784
+                    },
+                    {
+                      "type": "TemplateElement",
+                      "value": {
+                        "raw": "\"",
+                        "cooked": "\""
+                      },
+                      "tail": true,
+                      "start": 793,
+                      "end": 794
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "name": "locale",
+                      "start": 786,
+                      "end": 792
+                    }
+                  ],
+                  "start": 754,
+                  "end": 795
+                }
+              ],
+              "optional": false,
+              "start": 699,
+              "end": 799
+            },
+            "start": 699,
+            "end": 800
+          },
+          {
+            "type": "ExpressionStatement",
+            "expression": {
+              "type": "CallExpression",
+              "callee": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "assert",
+                  "start": 804,
+                  "end": 810
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "compareArray",
+                  "start": 811,
+                  "end": 823
+                },
+                "optional": false,
+                "computed": false,
+                "start": 804,
+                "end": 823
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "name": "numberingSystems",
+                  "start": 829,
+                  "end": 845
+                },
+                {
+                  "type": "ArrayExpression",
+                  "elements": [
+                    {
+                      "type": "Literal",
+                      "value": "",
+                      "raw": "\"\"",
+                      "start": 852,
+                      "end": 854
+                    }
+                  ],
+                  "start": 851,
+                  "end": 855
+                },
+                {
+                  "type": "TemplateLiteral",
+                  "quasis": [
+                    {
+                      "type": "TemplateElement",
+                      "value": {
+                        "raw": "numberingSystems with locale \"",
+                        "cooked": "numberingSystems with locale \""
+                      },
+                      "tail": false,
+                      "start": 862,
+                      "end": 892
+                    },
+                    {
+                      "type": "TemplateElement",
+                      "value": {
+                        "raw": "\"",
+                        "cooked": "\""
+                      },
+                      "tail": true,
+                      "start": 901,
+                      "end": 902
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "name": "locale",
+                      "start": 894,
+                      "end": 900
+                    }
+                  ],
+                  "start": 861,
+                  "end": 903
+                }
+              ],
+              "optional": false,
+              "start": 804,
+              "end": 907
+            },
+            "start": 804,
+            "end": 908
+          }
+        ],
+        "start": 605,
+        "end": 910
+      },
+      "start": 577,
+      "end": 910
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 911
+}

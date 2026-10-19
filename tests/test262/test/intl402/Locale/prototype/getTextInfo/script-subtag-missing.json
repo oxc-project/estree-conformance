@@ -1,0 +1,512 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "locales",
+            "start": 1110,
+            "end": 1117
+          },
+          "init": {
+            "type": "ArrayExpression",
+            "elements": [
+              {
+                "type": "Literal",
+                "value": "und",
+                "raw": "\"und\"",
+                "start": 1152,
+                "end": 1157
+              },
+              {
+                "type": "Literal",
+                "value": "en",
+                "raw": "\"en\"",
+                "start": 1235,
+                "end": 1239
+              },
+              {
+                "type": "Literal",
+                "value": "ar",
+                "raw": "\"ar\"",
+                "start": 1316,
+                "end": 1320
+              },
+              {
+                "type": "Literal",
+                "value": "tlh",
+                "raw": "\"tlh\"",
+                "start": 1370,
+                "end": 1375
+              },
+              {
+                "type": "Literal",
+                "value": "qfz",
+                "raw": "\"qfz\"",
+                "start": 1440,
+                "end": 1445
+              },
+              {
+                "type": "Literal",
+                "value": "pa",
+                "raw": "\"pa\"",
+                "start": 1650,
+                "end": 1654
+              },
+              {
+                "type": "Literal",
+                "value": "pa-PK",
+                "raw": "\"pa-PK\"",
+                "start": 1658,
+                "end": 1665
+              }
+            ],
+            "start": 1120,
+            "end": 1668
+          },
+          "start": 1110,
+          "end": 1668
+        }
+      ],
+      "start": 1104,
+      "end": 1669
+    },
+    {
+      "type": "ForOfStatement",
+      "await": false,
+      "left": {
+        "type": "VariableDeclaration",
+        "kind": "let",
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "id": {
+              "type": "Identifier",
+              "name": "locale",
+              "start": 1680,
+              "end": 1686
+            },
+            "init": null,
+            "start": 1680,
+            "end": 1686
+          }
+        ],
+        "start": 1676,
+        "end": 1686
+      },
+      "right": {
+        "type": "Identifier",
+        "name": "locales",
+        "start": 1690,
+        "end": 1697
+      },
+      "body": {
+        "type": "BlockStatement",
+        "body": [
+          {
+            "type": "VariableDeclaration",
+            "kind": "let",
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "id": {
+                  "type": "Identifier",
+                  "name": "loc",
+                  "start": 1707,
+                  "end": 1710
+                },
+                "init": {
+                  "type": "NewExpression",
+                  "callee": {
+                    "type": "MemberExpression",
+                    "object": {
+                      "type": "Identifier",
+                      "name": "Intl",
+                      "start": 1717,
+                      "end": 1721
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "name": "Locale",
+                      "start": 1722,
+                      "end": 1728
+                    },
+                    "optional": false,
+                    "computed": false,
+                    "start": 1717,
+                    "end": 1728
+                  },
+                  "arguments": [
+                    {
+                      "type": "Identifier",
+                      "name": "locale",
+                      "start": 1729,
+                      "end": 1735
+                    }
+                  ],
+                  "start": 1713,
+                  "end": 1736
+                },
+                "start": 1707,
+                "end": 1736
+              }
+            ],
+            "start": 1703,
+            "end": 1737
+          },
+          {
+            "type": "VariableDeclaration",
+            "kind": "let",
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "id": {
+                  "type": "Identifier",
+                  "name": "maximized",
+                  "start": 1744,
+                  "end": 1753
+                },
+                "init": {
+                  "type": "CallExpression",
+                  "callee": {
+                    "type": "MemberExpression",
+                    "object": {
+                      "type": "Identifier",
+                      "name": "loc",
+                      "start": 1756,
+                      "end": 1759
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "name": "maximize",
+                      "start": 1760,
+                      "end": 1768
+                    },
+                    "optional": false,
+                    "computed": false,
+                    "start": 1756,
+                    "end": 1768
+                  },
+                  "arguments": [],
+                  "optional": false,
+                  "start": 1756,
+                  "end": 1770
+                },
+                "start": 1744,
+                "end": 1770
+              }
+            ],
+            "start": 1740,
+            "end": 1771
+          },
+          {
+            "type": "VariableDeclaration",
+            "kind": "let",
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "id": {
+                  "type": "Identifier",
+                  "name": "direction",
+                  "start": 1779,
+                  "end": 1788
+                },
+                "init": {
+                  "type": "MemberExpression",
+                  "object": {
+                    "type": "CallExpression",
+                    "callee": {
+                      "type": "MemberExpression",
+                      "object": {
+                        "type": "Identifier",
+                        "name": "loc",
+                        "start": 1791,
+                        "end": 1794
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "name": "getTextInfo",
+                        "start": 1795,
+                        "end": 1806
+                      },
+                      "optional": false,
+                      "computed": false,
+                      "start": 1791,
+                      "end": 1806
+                    },
+                    "arguments": [],
+                    "optional": false,
+                    "start": 1791,
+                    "end": 1808
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "name": "direction",
+                    "start": 1809,
+                    "end": 1818
+                  },
+                  "optional": false,
+                  "computed": false,
+                  "start": 1791,
+                  "end": 1818
+                },
+                "start": 1779,
+                "end": 1818
+              }
+            ],
+            "start": 1775,
+            "end": 1819
+          },
+          {
+            "type": "ExpressionStatement",
+            "expression": {
+              "type": "CallExpression",
+              "callee": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "assert",
+                  "start": 1822,
+                  "end": 1828
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "sameValue",
+                  "start": 1829,
+                  "end": 1838
+                },
+                "optional": false,
+                "computed": false,
+                "start": 1822,
+                "end": 1838
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "name": "direction",
+                  "start": 1844,
+                  "end": 1853
+                },
+                {
+                  "type": "MemberExpression",
+                  "object": {
+                    "type": "CallExpression",
+                    "callee": {
+                      "type": "MemberExpression",
+                      "object": {
+                        "type": "Identifier",
+                        "name": "maximized",
+                        "start": 1859,
+                        "end": 1868
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "name": "getTextInfo",
+                        "start": 1869,
+                        "end": 1880
+                      },
+                      "optional": false,
+                      "computed": false,
+                      "start": 1859,
+                      "end": 1880
+                    },
+                    "arguments": [],
+                    "optional": false,
+                    "start": 1859,
+                    "end": 1882
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "name": "direction",
+                    "start": 1883,
+                    "end": 1892
+                  },
+                  "optional": false,
+                  "computed": false,
+                  "start": 1859,
+                  "end": 1892
+                },
+                {
+                  "type": "TemplateLiteral",
+                  "quasis": [
+                    {
+                      "type": "TemplateElement",
+                      "value": {
+                        "raw": "same direction as maximized locale, with locale \"",
+                        "cooked": "same direction as maximized locale, with locale \""
+                      },
+                      "tail": false,
+                      "start": 1899,
+                      "end": 1948
+                    },
+                    {
+                      "type": "TemplateElement",
+                      "value": {
+                        "raw": "\"",
+                        "cooked": "\""
+                      },
+                      "tail": true,
+                      "start": 1957,
+                      "end": 1958
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "name": "locale",
+                      "start": 1950,
+                      "end": 1956
+                    }
+                  ],
+                  "start": 1898,
+                  "end": 1959
+                }
+              ],
+              "optional": false,
+              "start": 1822,
+              "end": 1963
+            },
+            "start": 1822,
+            "end": 1964
+          },
+          {
+            "type": "IfStatement",
+            "test": {
+              "type": "BinaryExpression",
+              "left": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "maximized",
+                  "start": 1972,
+                  "end": 1981
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "script",
+                  "start": 1982,
+                  "end": 1988
+                },
+                "optional": false,
+                "computed": false,
+                "start": 1972,
+                "end": 1988
+              },
+              "operator": "===",
+              "right": {
+                "type": "Identifier",
+                "name": "undefined",
+                "start": 1993,
+                "end": 2002
+              },
+              "start": 1972,
+              "end": 2002
+            },
+            "consequent": {
+              "type": "BlockStatement",
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "expression": {
+                    "type": "CallExpression",
+                    "callee": {
+                      "type": "MemberExpression",
+                      "object": {
+                        "type": "Identifier",
+                        "name": "assert",
+                        "start": 2010,
+                        "end": 2016
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "name": "sameValue",
+                        "start": 2017,
+                        "end": 2026
+                      },
+                      "optional": false,
+                      "computed": false,
+                      "start": 2010,
+                      "end": 2026
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "name": "direction",
+                        "start": 2034,
+                        "end": 2043
+                      },
+                      {
+                        "type": "Identifier",
+                        "name": "undefined",
+                        "start": 2051,
+                        "end": 2060
+                      },
+                      {
+                        "type": "TemplateLiteral",
+                        "quasis": [
+                          {
+                            "type": "TemplateElement",
+                            "value": {
+                              "raw": "maximized script is undefined for locale \"",
+                              "cooked": "maximized script is undefined for locale \""
+                            },
+                            "tail": false,
+                            "start": 2069,
+                            "end": 2111
+                          },
+                          {
+                            "type": "TemplateElement",
+                            "value": {
+                              "raw": "\"",
+                              "cooked": "\""
+                            },
+                            "tail": true,
+                            "start": 2120,
+                            "end": 2121
+                          }
+                        ],
+                        "expressions": [
+                          {
+                            "type": "Identifier",
+                            "name": "locale",
+                            "start": 2113,
+                            "end": 2119
+                          }
+                        ],
+                        "start": 2068,
+                        "end": 2122
+                      }
+                    ],
+                    "optional": false,
+                    "start": 2010,
+                    "end": 2128
+                  },
+                  "start": 2010,
+                  "end": 2129
+                }
+              ],
+              "start": 2004,
+              "end": 2133
+            },
+            "alternate": null,
+            "start": 1968,
+            "end": 2133
+          }
+        ],
+        "start": 1699,
+        "end": 2135
+      },
+      "start": 1671,
+      "end": 2135
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 2136
+}
