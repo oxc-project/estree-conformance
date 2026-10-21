@@ -1,0 +1,2506 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "kind": "var",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "cases",
+            "start": 319,
+            "end": 324
+          },
+          "init": {
+            "type": "ArrayExpression",
+            "elements": [
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "value": 0,
+                    "raw": "0",
+                    "start": 332,
+                    "end": 333
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "0",
+                    "raw": "\"0\"",
+                    "start": 335,
+                    "end": 338
+                  }
+                ],
+                "start": 331,
+                "end": 339
+              },
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "value": 1,
+                    "raw": "1",
+                    "start": 344,
+                    "end": 345
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "1",
+                    "raw": "\"1\"",
+                    "start": 347,
+                    "end": 350
+                  }
+                ],
+                "start": 343,
+                "end": 351
+              },
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "UnaryExpression",
+                    "operator": "-",
+                    "argument": {
+                      "type": "Literal",
+                      "value": 1,
+                      "raw": "1",
+                      "start": 357,
+                      "end": 358
+                    },
+                    "prefix": true,
+                    "start": 356,
+                    "end": 358
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "-1",
+                    "raw": "\"-1\"",
+                    "start": 360,
+                    "end": 364
+                  }
+                ],
+                "start": 355,
+                "end": 365
+              },
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "value": 2147483647,
+                    "raw": "2147483647",
+                    "start": 370,
+                    "end": 380
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "2147483647",
+                    "raw": "\"2147483647\"",
+                    "start": 382,
+                    "end": 394
+                  }
+                ],
+                "start": 369,
+                "end": 395
+              },
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "UnaryExpression",
+                    "operator": "-",
+                    "argument": {
+                      "type": "Literal",
+                      "value": 2147483647,
+                      "raw": "2147483647",
+                      "start": 401,
+                      "end": 411
+                    },
+                    "prefix": true,
+                    "start": 400,
+                    "end": 411
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "-2147483647",
+                    "raw": "\"-2147483647\"",
+                    "start": 413,
+                    "end": 426
+                  }
+                ],
+                "start": 399,
+                "end": 427
+              },
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "UnaryExpression",
+                    "operator": "-",
+                    "argument": {
+                      "type": "Literal",
+                      "value": 2147483648,
+                      "raw": "2147483648",
+                      "start": 433,
+                      "end": 443
+                    },
+                    "prefix": true,
+                    "start": 432,
+                    "end": 443
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "-2147483648",
+                    "raw": "\"-2147483648\"",
+                    "start": 445,
+                    "end": 458
+                  }
+                ],
+                "start": 431,
+                "end": 459
+              },
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "value": 2147483648,
+                    "raw": "2147483648",
+                    "start": 464,
+                    "end": 474
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "2147483648",
+                    "raw": "\"2147483648\"",
+                    "start": 476,
+                    "end": 488
+                  }
+                ],
+                "start": 463,
+                "end": 489
+              },
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "UnaryExpression",
+                    "operator": "-",
+                    "argument": {
+                      "type": "Literal",
+                      "value": 2147483649,
+                      "raw": "2147483649",
+                      "start": 495,
+                      "end": 505
+                    },
+                    "prefix": true,
+                    "start": 494,
+                    "end": 505
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "-2147483649",
+                    "raw": "\"-2147483649\"",
+                    "start": 507,
+                    "end": 520
+                  }
+                ],
+                "start": 493,
+                "end": 521
+              },
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "value": 4294967295,
+                    "raw": "4294967295",
+                    "start": 526,
+                    "end": 536
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "4294967295",
+                    "raw": "\"4294967295\"",
+                    "start": 538,
+                    "end": 550
+                  }
+                ],
+                "start": 525,
+                "end": 551
+              },
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "UnaryExpression",
+                    "operator": "-",
+                    "argument": {
+                      "type": "Literal",
+                      "value": 4294967295,
+                      "raw": "4294967295",
+                      "start": 557,
+                      "end": 567
+                    },
+                    "prefix": true,
+                    "start": 556,
+                    "end": 567
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "-4294967295",
+                    "raw": "\"-4294967295\"",
+                    "start": 569,
+                    "end": 582
+                  }
+                ],
+                "start": 555,
+                "end": 583
+              },
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "value": 4294967296,
+                    "raw": "4294967296",
+                    "start": 588,
+                    "end": 598
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "4294967296",
+                    "raw": "\"4294967296\"",
+                    "start": 600,
+                    "end": 612
+                  }
+                ],
+                "start": 587,
+                "end": 613
+              },
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "UnaryExpression",
+                    "operator": "-",
+                    "argument": {
+                      "type": "Literal",
+                      "value": 4294967296,
+                      "raw": "4294967296",
+                      "start": 619,
+                      "end": 629
+                    },
+                    "prefix": true,
+                    "start": 618,
+                    "end": 629
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "-4294967296",
+                    "raw": "\"-4294967296\"",
+                    "start": 631,
+                    "end": 644
+                  }
+                ],
+                "start": 617,
+                "end": 645
+              },
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "value": 9007199254740991,
+                    "raw": "9007199254740991",
+                    "start": 650,
+                    "end": 666
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "9007199254740991",
+                    "raw": "\"9007199254740991\"",
+                    "start": 668,
+                    "end": 686
+                  }
+                ],
+                "start": 649,
+                "end": 687
+              },
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "UnaryExpression",
+                    "operator": "-",
+                    "argument": {
+                      "type": "Literal",
+                      "value": 9007199254740991,
+                      "raw": "9007199254740991",
+                      "start": 693,
+                      "end": 709
+                    },
+                    "prefix": true,
+                    "start": 692,
+                    "end": 709
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "-9007199254740991",
+                    "raw": "\"-9007199254740991\"",
+                    "start": 711,
+                    "end": 730
+                  }
+                ],
+                "start": 691,
+                "end": 731
+              },
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "value": 9007199254740992,
+                    "raw": "9007199254740992",
+                    "start": 736,
+                    "end": 752
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "9007199254740992",
+                    "raw": "\"9007199254740992\"",
+                    "start": 754,
+                    "end": 772
+                  }
+                ],
+                "start": 735,
+                "end": 773
+              },
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "value": 100000000000000000000,
+                    "raw": "100000000000000000000",
+                    "start": 778,
+                    "end": 799
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "100000000000000000000",
+                    "raw": "\"100000000000000000000\"",
+                    "start": 801,
+                    "end": 824
+                  }
+                ],
+                "start": 777,
+                "end": 825
+              },
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "value": 999999999999999900000,
+                    "raw": "999999999999999900000",
+                    "start": 830,
+                    "end": 851
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "999999999999999900000",
+                    "raw": "\"999999999999999900000\"",
+                    "start": 853,
+                    "end": 876
+                  }
+                ],
+                "start": 829,
+                "end": 877
+              },
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "value": 9,
+                    "raw": "9",
+                    "start": 882,
+                    "end": 883
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "9",
+                    "raw": "\"9\"",
+                    "start": 885,
+                    "end": 888
+                  }
+                ],
+                "start": 881,
+                "end": 889
+              },
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "value": 10,
+                    "raw": "10",
+                    "start": 894,
+                    "end": 896
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "10",
+                    "raw": "\"10\"",
+                    "start": 898,
+                    "end": 902
+                  }
+                ],
+                "start": 893,
+                "end": 903
+              },
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "value": 99,
+                    "raw": "99",
+                    "start": 908,
+                    "end": 910
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "99",
+                    "raw": "\"99\"",
+                    "start": 912,
+                    "end": 916
+                  }
+                ],
+                "start": 907,
+                "end": 917
+              },
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "value": 100,
+                    "raw": "100",
+                    "start": 922,
+                    "end": 925
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "100",
+                    "raw": "\"100\"",
+                    "start": 927,
+                    "end": 932
+                  }
+                ],
+                "start": 921,
+                "end": 933
+              },
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "value": 999,
+                    "raw": "999",
+                    "start": 938,
+                    "end": 941
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "999",
+                    "raw": "\"999\"",
+                    "start": 943,
+                    "end": 948
+                  }
+                ],
+                "start": 937,
+                "end": 949
+              },
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "value": 1000,
+                    "raw": "1000",
+                    "start": 954,
+                    "end": 958
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "1000",
+                    "raw": "\"1000\"",
+                    "start": 960,
+                    "end": 966
+                  }
+                ],
+                "start": 953,
+                "end": 967
+              },
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "value": 9999,
+                    "raw": "9999",
+                    "start": 972,
+                    "end": 976
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "9999",
+                    "raw": "\"9999\"",
+                    "start": 978,
+                    "end": 984
+                  }
+                ],
+                "start": 971,
+                "end": 985
+              },
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "value": 10000,
+                    "raw": "10000",
+                    "start": 990,
+                    "end": 995
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "10000",
+                    "raw": "\"10000\"",
+                    "start": 997,
+                    "end": 1004
+                  }
+                ],
+                "start": 989,
+                "end": 1005
+              },
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "value": 99999,
+                    "raw": "99999",
+                    "start": 1010,
+                    "end": 1015
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "99999",
+                    "raw": "\"99999\"",
+                    "start": 1017,
+                    "end": 1024
+                  }
+                ],
+                "start": 1009,
+                "end": 1025
+              },
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "value": 100000,
+                    "raw": "100000",
+                    "start": 1030,
+                    "end": 1036
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "100000",
+                    "raw": "\"100000\"",
+                    "start": 1038,
+                    "end": 1046
+                  }
+                ],
+                "start": 1029,
+                "end": 1047
+              },
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "value": 999999,
+                    "raw": "999999",
+                    "start": 1052,
+                    "end": 1058
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "999999",
+                    "raw": "\"999999\"",
+                    "start": 1060,
+                    "end": 1068
+                  }
+                ],
+                "start": 1051,
+                "end": 1069
+              },
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "value": 1000000,
+                    "raw": "1000000",
+                    "start": 1074,
+                    "end": 1081
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "1000000",
+                    "raw": "\"1000000\"",
+                    "start": 1083,
+                    "end": 1092
+                  }
+                ],
+                "start": 1073,
+                "end": 1093
+              },
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "value": 9999999,
+                    "raw": "9999999",
+                    "start": 1098,
+                    "end": 1105
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "9999999",
+                    "raw": "\"9999999\"",
+                    "start": 1107,
+                    "end": 1116
+                  }
+                ],
+                "start": 1097,
+                "end": 1117
+              },
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "value": 10000000,
+                    "raw": "10000000",
+                    "start": 1122,
+                    "end": 1130
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "10000000",
+                    "raw": "\"10000000\"",
+                    "start": 1132,
+                    "end": 1142
+                  }
+                ],
+                "start": 1121,
+                "end": 1143
+              },
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "value": 99999999,
+                    "raw": "99999999",
+                    "start": 1148,
+                    "end": 1156
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "99999999",
+                    "raw": "\"99999999\"",
+                    "start": 1158,
+                    "end": 1168
+                  }
+                ],
+                "start": 1147,
+                "end": 1169
+              },
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "value": 100000000,
+                    "raw": "100000000",
+                    "start": 1174,
+                    "end": 1183
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "100000000",
+                    "raw": "\"100000000\"",
+                    "start": 1185,
+                    "end": 1196
+                  }
+                ],
+                "start": 1173,
+                "end": 1197
+              },
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "value": 999999999,
+                    "raw": "999999999",
+                    "start": 1202,
+                    "end": 1211
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "999999999",
+                    "raw": "\"999999999\"",
+                    "start": 1213,
+                    "end": 1224
+                  }
+                ],
+                "start": 1201,
+                "end": 1225
+              },
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "value": 1000000000,
+                    "raw": "1000000000",
+                    "start": 1230,
+                    "end": 1240
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "1000000000",
+                    "raw": "\"1000000000\"",
+                    "start": 1242,
+                    "end": 1254
+                  }
+                ],
+                "start": 1229,
+                "end": 1255
+              },
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "value": 9999999999,
+                    "raw": "9999999999",
+                    "start": 1260,
+                    "end": 1270
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "9999999999",
+                    "raw": "\"9999999999\"",
+                    "start": 1272,
+                    "end": 1284
+                  }
+                ],
+                "start": 1259,
+                "end": 1285
+              },
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "value": 10000000000,
+                    "raw": "10000000000",
+                    "start": 1290,
+                    "end": 1301
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "10000000000",
+                    "raw": "\"10000000000\"",
+                    "start": 1303,
+                    "end": 1316
+                  }
+                ],
+                "start": 1289,
+                "end": 1317
+              },
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "value": 99999999999,
+                    "raw": "99999999999",
+                    "start": 1322,
+                    "end": 1333
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "99999999999",
+                    "raw": "\"99999999999\"",
+                    "start": 1335,
+                    "end": 1348
+                  }
+                ],
+                "start": 1321,
+                "end": 1349
+              },
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "value": 100000000000,
+                    "raw": "100000000000",
+                    "start": 1354,
+                    "end": 1366
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "100000000000",
+                    "raw": "\"100000000000\"",
+                    "start": 1368,
+                    "end": 1382
+                  }
+                ],
+                "start": 1353,
+                "end": 1383
+              },
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "value": 999999999999,
+                    "raw": "999999999999",
+                    "start": 1388,
+                    "end": 1400
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "999999999999",
+                    "raw": "\"999999999999\"",
+                    "start": 1402,
+                    "end": 1416
+                  }
+                ],
+                "start": 1387,
+                "end": 1417
+              },
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "value": 1000000000000,
+                    "raw": "1000000000000",
+                    "start": 1422,
+                    "end": 1435
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "1000000000000",
+                    "raw": "\"1000000000000\"",
+                    "start": 1437,
+                    "end": 1452
+                  }
+                ],
+                "start": 1421,
+                "end": 1453
+              },
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "value": 9999999999999,
+                    "raw": "9999999999999",
+                    "start": 1458,
+                    "end": 1471
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "9999999999999",
+                    "raw": "\"9999999999999\"",
+                    "start": 1473,
+                    "end": 1488
+                  }
+                ],
+                "start": 1457,
+                "end": 1489
+              },
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "value": 10000000000000,
+                    "raw": "10000000000000",
+                    "start": 1494,
+                    "end": 1508
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "10000000000000",
+                    "raw": "\"10000000000000\"",
+                    "start": 1510,
+                    "end": 1526
+                  }
+                ],
+                "start": 1493,
+                "end": 1527
+              },
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "value": 99999999999999,
+                    "raw": "99999999999999",
+                    "start": 1532,
+                    "end": 1546
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "99999999999999",
+                    "raw": "\"99999999999999\"",
+                    "start": 1548,
+                    "end": 1564
+                  }
+                ],
+                "start": 1531,
+                "end": 1565
+              },
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "value": 100000000000000,
+                    "raw": "100000000000000",
+                    "start": 1570,
+                    "end": 1585
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "100000000000000",
+                    "raw": "\"100000000000000\"",
+                    "start": 1587,
+                    "end": 1604
+                  }
+                ],
+                "start": 1569,
+                "end": 1605
+              },
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "value": 999999999999999,
+                    "raw": "999999999999999",
+                    "start": 1610,
+                    "end": 1625
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "999999999999999",
+                    "raw": "\"999999999999999\"",
+                    "start": 1627,
+                    "end": 1644
+                  }
+                ],
+                "start": 1609,
+                "end": 1645
+              },
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "value": 0.1,
+                    "raw": "0.1",
+                    "start": 1650,
+                    "end": 1653
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "0.1",
+                    "raw": "\"0.1\"",
+                    "start": 1655,
+                    "end": 1660
+                  }
+                ],
+                "start": 1649,
+                "end": 1661
+              },
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "UnaryExpression",
+                    "operator": "-",
+                    "argument": {
+                      "type": "Literal",
+                      "value": 0.1,
+                      "raw": "0.1",
+                      "start": 1667,
+                      "end": 1670
+                    },
+                    "prefix": true,
+                    "start": 1666,
+                    "end": 1670
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "-0.1",
+                    "raw": "\"-0.1\"",
+                    "start": 1672,
+                    "end": 1678
+                  }
+                ],
+                "start": 1665,
+                "end": 1679
+              },
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "value": 1.5,
+                    "raw": "1.5",
+                    "start": 1684,
+                    "end": 1687
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "1.5",
+                    "raw": "\"1.5\"",
+                    "start": 1689,
+                    "end": 1694
+                  }
+                ],
+                "start": 1683,
+                "end": 1695
+              },
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "UnaryExpression",
+                    "operator": "-",
+                    "argument": {
+                      "type": "Literal",
+                      "value": 1.5,
+                      "raw": "1.5",
+                      "start": 1701,
+                      "end": 1704
+                    },
+                    "prefix": true,
+                    "start": 1700,
+                    "end": 1704
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "-1.5",
+                    "raw": "\"-1.5\"",
+                    "start": 1706,
+                    "end": 1712
+                  }
+                ],
+                "start": 1699,
+                "end": 1713
+              },
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "BinaryExpression",
+                    "left": {
+                      "type": "Literal",
+                      "value": 0.1,
+                      "raw": "0.1",
+                      "start": 1718,
+                      "end": 1721
+                    },
+                    "operator": "+",
+                    "right": {
+                      "type": "Literal",
+                      "value": 0.2,
+                      "raw": "0.2",
+                      "start": 1724,
+                      "end": 1727
+                    },
+                    "start": 1718,
+                    "end": 1727
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "0.30000000000000004",
+                    "raw": "\"0.30000000000000004\"",
+                    "start": 1729,
+                    "end": 1750
+                  }
+                ],
+                "start": 1717,
+                "end": 1751
+              },
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "value": 123456789.125,
+                    "raw": "123456789.125",
+                    "start": 1756,
+                    "end": 1769
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "123456789.125",
+                    "raw": "\"123456789.125\"",
+                    "start": 1771,
+                    "end": 1786
+                  }
+                ],
+                "start": 1755,
+                "end": 1787
+              },
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "value": 2147483647.5,
+                    "raw": "2147483647.5",
+                    "start": 1792,
+                    "end": 1804
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "2147483647.5",
+                    "raw": "\"2147483647.5\"",
+                    "start": 1806,
+                    "end": 1820
+                  }
+                ],
+                "start": 1791,
+                "end": 1821
+              },
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "UnaryExpression",
+                    "operator": "-",
+                    "argument": {
+                      "type": "Literal",
+                      "value": 2147483648.5,
+                      "raw": "2147483648.5",
+                      "start": 1827,
+                      "end": 1839
+                    },
+                    "prefix": true,
+                    "start": 1826,
+                    "end": 1839
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "-2147483648.5",
+                    "raw": "\"-2147483648.5\"",
+                    "start": 1841,
+                    "end": 1856
+                  }
+                ],
+                "start": 1825,
+                "end": 1857
+              },
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "value": 0.000001,
+                    "raw": "0.000001",
+                    "start": 1862,
+                    "end": 1870
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "0.000001",
+                    "raw": "\"0.000001\"",
+                    "start": 1872,
+                    "end": 1882
+                  }
+                ],
+                "start": 1861,
+                "end": 1883
+              },
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "value": 0.000001234,
+                    "raw": "0.000001234",
+                    "start": 1888,
+                    "end": 1899
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "0.000001234",
+                    "raw": "\"0.000001234\"",
+                    "start": 1901,
+                    "end": 1914
+                  }
+                ],
+                "start": 1887,
+                "end": 1915
+              },
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "value": 1e-7,
+                    "raw": "1e-7",
+                    "start": 1920,
+                    "end": 1924
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "1e-7",
+                    "raw": "\"1e-7\"",
+                    "start": 1926,
+                    "end": 1932
+                  }
+                ],
+                "start": 1919,
+                "end": 1933
+              },
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "UnaryExpression",
+                    "operator": "-",
+                    "argument": {
+                      "type": "Literal",
+                      "value": 1e-7,
+                      "raw": "1e-7",
+                      "start": 1939,
+                      "end": 1943
+                    },
+                    "prefix": true,
+                    "start": 1938,
+                    "end": 1943
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "-1e-7",
+                    "raw": "\"-1e-7\"",
+                    "start": 1945,
+                    "end": 1952
+                  }
+                ],
+                "start": 1937,
+                "end": 1953
+              },
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "value": 1.25e-7,
+                    "raw": "1.25e-7",
+                    "start": 1958,
+                    "end": 1965
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "1.25e-7",
+                    "raw": "\"1.25e-7\"",
+                    "start": 1967,
+                    "end": 1976
+                  }
+                ],
+                "start": 1957,
+                "end": 1977
+              },
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "value": 1.23e-18,
+                    "raw": "123e-20",
+                    "start": 1982,
+                    "end": 1989
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "1.23e-18",
+                    "raw": "\"1.23e-18\"",
+                    "start": 1991,
+                    "end": 2001
+                  }
+                ],
+                "start": 1981,
+                "end": 2002
+              },
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "value": 1e+21,
+                    "raw": "1e21",
+                    "start": 2007,
+                    "end": 2011
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "1e+21",
+                    "raw": "\"1e+21\"",
+                    "start": 2013,
+                    "end": 2020
+                  }
+                ],
+                "start": 2006,
+                "end": 2021
+              },
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "UnaryExpression",
+                    "operator": "-",
+                    "argument": {
+                      "type": "Literal",
+                      "value": 1e+21,
+                      "raw": "1e21",
+                      "start": 2027,
+                      "end": 2031
+                    },
+                    "prefix": true,
+                    "start": 2026,
+                    "end": 2031
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "-1e+21",
+                    "raw": "\"-1e+21\"",
+                    "start": 2033,
+                    "end": 2041
+                  }
+                ],
+                "start": 2025,
+                "end": 2042
+              },
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "value": 1.5e+300,
+                    "raw": "1.5e300",
+                    "start": 2047,
+                    "end": 2054
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "1.5e+300",
+                    "raw": "\"1.5e+300\"",
+                    "start": 2056,
+                    "end": 2066
+                  }
+                ],
+                "start": 2046,
+                "end": 2067
+              },
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "value": 5e-324,
+                    "raw": "5e-324",
+                    "start": 2072,
+                    "end": 2078
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "5e-324",
+                    "raw": "\"5e-324\"",
+                    "start": 2080,
+                    "end": 2088
+                  }
+                ],
+                "start": 2071,
+                "end": 2089
+              },
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "UnaryExpression",
+                    "operator": "-",
+                    "argument": {
+                      "type": "Literal",
+                      "value": 5e-324,
+                      "raw": "5e-324",
+                      "start": 2095,
+                      "end": 2101
+                    },
+                    "prefix": true,
+                    "start": 2094,
+                    "end": 2101
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "-5e-324",
+                    "raw": "\"-5e-324\"",
+                    "start": 2103,
+                    "end": 2112
+                  }
+                ],
+                "start": 2093,
+                "end": 2113
+              },
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "value": 2.2250738585072014e-308,
+                    "raw": "2.2250738585072014e-308",
+                    "start": 2118,
+                    "end": 2141
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "2.2250738585072014e-308",
+                    "raw": "\"2.2250738585072014e-308\"",
+                    "start": 2143,
+                    "end": 2168
+                  }
+                ],
+                "start": 2117,
+                "end": 2169
+              },
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "UnaryExpression",
+                    "operator": "-",
+                    "argument": {
+                      "type": "Literal",
+                      "value": 2.2250738585072014e-308,
+                      "raw": "2.2250738585072014e-308",
+                      "start": 2175,
+                      "end": 2198
+                    },
+                    "prefix": true,
+                    "start": 2174,
+                    "end": 2198
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "-2.2250738585072014e-308",
+                    "raw": "\"-2.2250738585072014e-308\"",
+                    "start": 2200,
+                    "end": 2226
+                  }
+                ],
+                "start": 2173,
+                "end": 2227
+              },
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "value": 1.7976931348623157e+308,
+                    "raw": "1.7976931348623157e308",
+                    "start": 2232,
+                    "end": 2254
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "1.7976931348623157e+308",
+                    "raw": "\"1.7976931348623157e+308\"",
+                    "start": 2256,
+                    "end": 2281
+                  }
+                ],
+                "start": 2231,
+                "end": 2282
+              },
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "UnaryExpression",
+                    "operator": "-",
+                    "argument": {
+                      "type": "Literal",
+                      "value": 1.7976931348623157e+308,
+                      "raw": "1.7976931348623157e308",
+                      "start": 2288,
+                      "end": 2310
+                    },
+                    "prefix": true,
+                    "start": 2287,
+                    "end": 2310
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "-1.7976931348623157e+308",
+                    "raw": "\"-1.7976931348623157e+308\"",
+                    "start": 2312,
+                    "end": 2338
+                  }
+                ],
+                "start": 2286,
+                "end": 2339
+              }
+            ],
+            "start": 327,
+            "end": 2342
+          },
+          "start": 319,
+          "end": 2342
+        }
+      ],
+      "start": 315,
+      "end": 2343
+    },
+    {
+      "type": "ForStatement",
+      "init": {
+        "type": "VariableDeclaration",
+        "kind": "var",
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "id": {
+              "type": "Identifier",
+              "name": "i",
+              "start": 2354,
+              "end": 2355
+            },
+            "init": {
+              "type": "Literal",
+              "value": 0,
+              "raw": "0",
+              "start": 2358,
+              "end": 2359
+            },
+            "start": 2354,
+            "end": 2359
+          }
+        ],
+        "start": 2350,
+        "end": 2359
+      },
+      "test": {
+        "type": "BinaryExpression",
+        "left": {
+          "type": "Identifier",
+          "name": "i",
+          "start": 2361,
+          "end": 2362
+        },
+        "operator": "<",
+        "right": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "cases",
+            "start": 2365,
+            "end": 2370
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "length",
+            "start": 2371,
+            "end": 2377
+          },
+          "optional": false,
+          "computed": false,
+          "start": 2365,
+          "end": 2377
+        },
+        "start": 2361,
+        "end": 2377
+      },
+      "update": {
+        "type": "UpdateExpression",
+        "operator": "++",
+        "prefix": false,
+        "argument": {
+          "type": "Identifier",
+          "name": "i",
+          "start": 2379,
+          "end": 2380
+        },
+        "start": 2379,
+        "end": 2382
+      },
+      "body": {
+        "type": "BlockStatement",
+        "body": [
+          {
+            "type": "VariableDeclaration",
+            "kind": "var",
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "id": {
+                  "type": "Identifier",
+                  "name": "value",
+                  "start": 2392,
+                  "end": 2397
+                },
+                "init": {
+                  "type": "MemberExpression",
+                  "object": {
+                    "type": "MemberExpression",
+                    "object": {
+                      "type": "Identifier",
+                      "name": "cases",
+                      "start": 2400,
+                      "end": 2405
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "name": "i",
+                      "start": 2406,
+                      "end": 2407
+                    },
+                    "optional": false,
+                    "computed": true,
+                    "start": 2400,
+                    "end": 2408
+                  },
+                  "property": {
+                    "type": "Literal",
+                    "value": 0,
+                    "raw": "0",
+                    "start": 2409,
+                    "end": 2410
+                  },
+                  "optional": false,
+                  "computed": true,
+                  "start": 2400,
+                  "end": 2411
+                },
+                "start": 2392,
+                "end": 2411
+              }
+            ],
+            "start": 2388,
+            "end": 2412
+          },
+          {
+            "type": "VariableDeclaration",
+            "kind": "var",
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "id": {
+                  "type": "Identifier",
+                  "name": "expected",
+                  "start": 2419,
+                  "end": 2427
+                },
+                "init": {
+                  "type": "MemberExpression",
+                  "object": {
+                    "type": "MemberExpression",
+                    "object": {
+                      "type": "Identifier",
+                      "name": "cases",
+                      "start": 2430,
+                      "end": 2435
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "name": "i",
+                      "start": 2436,
+                      "end": 2437
+                    },
+                    "optional": false,
+                    "computed": true,
+                    "start": 2430,
+                    "end": 2438
+                  },
+                  "property": {
+                    "type": "Literal",
+                    "value": 1,
+                    "raw": "1",
+                    "start": 2439,
+                    "end": 2440
+                  },
+                  "optional": false,
+                  "computed": true,
+                  "start": 2430,
+                  "end": 2441
+                },
+                "start": 2419,
+                "end": 2441
+              }
+            ],
+            "start": 2415,
+            "end": 2442
+          },
+          {
+            "type": "ExpressionStatement",
+            "expression": {
+              "type": "CallExpression",
+              "callee": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "assert",
+                  "start": 2446,
+                  "end": 2452
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "sameValue",
+                  "start": 2453,
+                  "end": 2462
+                },
+                "optional": false,
+                "computed": false,
+                "start": 2446,
+                "end": 2462
+              },
+              "arguments": [
+                {
+                  "type": "CallExpression",
+                  "callee": {
+                    "type": "MemberExpression",
+                    "object": {
+                      "type": "Identifier",
+                      "name": "JSON",
+                      "start": 2463,
+                      "end": 2467
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "name": "stringify",
+                      "start": 2468,
+                      "end": 2477
+                    },
+                    "optional": false,
+                    "computed": false,
+                    "start": 2463,
+                    "end": 2477
+                  },
+                  "arguments": [
+                    {
+                      "type": "Identifier",
+                      "name": "value",
+                      "start": 2478,
+                      "end": 2483
+                    }
+                  ],
+                  "optional": false,
+                  "start": 2463,
+                  "end": 2484
+                },
+                {
+                  "type": "Identifier",
+                  "name": "expected",
+                  "start": 2486,
+                  "end": 2494
+                },
+                {
+                  "type": "BinaryExpression",
+                  "left": {
+                    "type": "Literal",
+                    "value": "top level: ",
+                    "raw": "\"top level: \"",
+                    "start": 2496,
+                    "end": 2509
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "Identifier",
+                    "name": "expected",
+                    "start": 2512,
+                    "end": 2520
+                  },
+                  "start": 2496,
+                  "end": 2520
+                }
+              ],
+              "optional": false,
+              "start": 2446,
+              "end": 2521
+            },
+            "start": 2446,
+            "end": 2522
+          },
+          {
+            "type": "ExpressionStatement",
+            "expression": {
+              "type": "CallExpression",
+              "callee": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "assert",
+                  "start": 2525,
+                  "end": 2531
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "sameValue",
+                  "start": 2532,
+                  "end": 2541
+                },
+                "optional": false,
+                "computed": false,
+                "start": 2525,
+                "end": 2541
+              },
+              "arguments": [
+                {
+                  "type": "CallExpression",
+                  "callee": {
+                    "type": "MemberExpression",
+                    "object": {
+                      "type": "Identifier",
+                      "name": "JSON",
+                      "start": 2542,
+                      "end": 2546
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "name": "stringify",
+                      "start": 2547,
+                      "end": 2556
+                    },
+                    "optional": false,
+                    "computed": false,
+                    "start": 2542,
+                    "end": 2556
+                  },
+                  "arguments": [
+                    {
+                      "type": "ArrayExpression",
+                      "elements": [
+                        {
+                          "type": "Identifier",
+                          "name": "value",
+                          "start": 2558,
+                          "end": 2563
+                        }
+                      ],
+                      "start": 2557,
+                      "end": 2564
+                    }
+                  ],
+                  "optional": false,
+                  "start": 2542,
+                  "end": 2565
+                },
+                {
+                  "type": "BinaryExpression",
+                  "left": {
+                    "type": "BinaryExpression",
+                    "left": {
+                      "type": "Literal",
+                      "value": "[",
+                      "raw": "\"[\"",
+                      "start": 2567,
+                      "end": 2570
+                    },
+                    "operator": "+",
+                    "right": {
+                      "type": "Identifier",
+                      "name": "expected",
+                      "start": 2573,
+                      "end": 2581
+                    },
+                    "start": 2567,
+                    "end": 2581
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "Literal",
+                    "value": "]",
+                    "raw": "\"]\"",
+                    "start": 2584,
+                    "end": 2587
+                  },
+                  "start": 2567,
+                  "end": 2587
+                },
+                {
+                  "type": "BinaryExpression",
+                  "left": {
+                    "type": "Literal",
+                    "value": "array element: ",
+                    "raw": "\"array element: \"",
+                    "start": 2593,
+                    "end": 2610
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "Identifier",
+                    "name": "expected",
+                    "start": 2613,
+                    "end": 2621
+                  },
+                  "start": 2593,
+                  "end": 2621
+                }
+              ],
+              "optional": false,
+              "start": 2525,
+              "end": 2622
+            },
+            "start": 2525,
+            "end": 2623
+          },
+          {
+            "type": "ExpressionStatement",
+            "expression": {
+              "type": "CallExpression",
+              "callee": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "assert",
+                  "start": 2626,
+                  "end": 2632
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "sameValue",
+                  "start": 2633,
+                  "end": 2642
+                },
+                "optional": false,
+                "computed": false,
+                "start": 2626,
+                "end": 2642
+              },
+              "arguments": [
+                {
+                  "type": "CallExpression",
+                  "callee": {
+                    "type": "MemberExpression",
+                    "object": {
+                      "type": "Identifier",
+                      "name": "JSON",
+                      "start": 2643,
+                      "end": 2647
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "name": "stringify",
+                      "start": 2648,
+                      "end": 2657
+                    },
+                    "optional": false,
+                    "computed": false,
+                    "start": 2643,
+                    "end": 2657
+                  },
+                  "arguments": [
+                    {
+                      "type": "ArrayExpression",
+                      "elements": [
+                        {
+                          "type": "Identifier",
+                          "name": "value",
+                          "start": 2659,
+                          "end": 2664
+                        },
+                        {
+                          "type": "Identifier",
+                          "name": "value",
+                          "start": 2666,
+                          "end": 2671
+                        }
+                      ],
+                      "start": 2658,
+                      "end": 2672
+                    }
+                  ],
+                  "optional": false,
+                  "start": 2643,
+                  "end": 2673
+                },
+                {
+                  "type": "BinaryExpression",
+                  "left": {
+                    "type": "BinaryExpression",
+                    "left": {
+                      "type": "BinaryExpression",
+                      "left": {
+                        "type": "BinaryExpression",
+                        "left": {
+                          "type": "Literal",
+                          "value": "[",
+                          "raw": "\"[\"",
+                          "start": 2679,
+                          "end": 2682
+                        },
+                        "operator": "+",
+                        "right": {
+                          "type": "Identifier",
+                          "name": "expected",
+                          "start": 2685,
+                          "end": 2693
+                        },
+                        "start": 2679,
+                        "end": 2693
+                      },
+                      "operator": "+",
+                      "right": {
+                        "type": "Literal",
+                        "value": ",",
+                        "raw": "\",\"",
+                        "start": 2696,
+                        "end": 2699
+                      },
+                      "start": 2679,
+                      "end": 2699
+                    },
+                    "operator": "+",
+                    "right": {
+                      "type": "Identifier",
+                      "name": "expected",
+                      "start": 2702,
+                      "end": 2710
+                    },
+                    "start": 2679,
+                    "end": 2710
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "Literal",
+                    "value": "]",
+                    "raw": "\"]\"",
+                    "start": 2713,
+                    "end": 2716
+                  },
+                  "start": 2679,
+                  "end": 2716
+                },
+                {
+                  "type": "BinaryExpression",
+                  "left": {
+                    "type": "Literal",
+                    "value": "array elements: ",
+                    "raw": "\"array elements: \"",
+                    "start": 2718,
+                    "end": 2736
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "Identifier",
+                    "name": "expected",
+                    "start": 2739,
+                    "end": 2747
+                  },
+                  "start": 2718,
+                  "end": 2747
+                }
+              ],
+              "optional": false,
+              "start": 2626,
+              "end": 2748
+            },
+            "start": 2626,
+            "end": 2749
+          },
+          {
+            "type": "ExpressionStatement",
+            "expression": {
+              "type": "CallExpression",
+              "callee": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "assert",
+                  "start": 2752,
+                  "end": 2758
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "sameValue",
+                  "start": 2759,
+                  "end": 2768
+                },
+                "optional": false,
+                "computed": false,
+                "start": 2752,
+                "end": 2768
+              },
+              "arguments": [
+                {
+                  "type": "CallExpression",
+                  "callee": {
+                    "type": "MemberExpression",
+                    "object": {
+                      "type": "Identifier",
+                      "name": "JSON",
+                      "start": 2769,
+                      "end": 2773
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "name": "stringify",
+                      "start": 2774,
+                      "end": 2783
+                    },
+                    "optional": false,
+                    "computed": false,
+                    "start": 2769,
+                    "end": 2783
+                  },
+                  "arguments": [
+                    {
+                      "type": "ObjectExpression",
+                      "properties": [
+                        {
+                          "type": "Property",
+                          "kind": "init",
+                          "key": {
+                            "type": "Identifier",
+                            "name": "key",
+                            "start": 2786,
+                            "end": 2789
+                          },
+                          "value": {
+                            "type": "Identifier",
+                            "name": "value",
+                            "start": 2791,
+                            "end": 2796
+                          },
+                          "method": false,
+                          "shorthand": false,
+                          "computed": false,
+                          "start": 2786,
+                          "end": 2796
+                        }
+                      ],
+                      "start": 2784,
+                      "end": 2798
+                    }
+                  ],
+                  "optional": false,
+                  "start": 2769,
+                  "end": 2799
+                },
+                {
+                  "type": "BinaryExpression",
+                  "left": {
+                    "type": "BinaryExpression",
+                    "left": {
+                      "type": "Literal",
+                      "value": "{\"key\":",
+                      "raw": "'{\"key\":'",
+                      "start": 2801,
+                      "end": 2810
+                    },
+                    "operator": "+",
+                    "right": {
+                      "type": "Identifier",
+                      "name": "expected",
+                      "start": 2813,
+                      "end": 2821
+                    },
+                    "start": 2801,
+                    "end": 2821
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "Literal",
+                    "value": "}",
+                    "raw": "\"}\"",
+                    "start": 2824,
+                    "end": 2827
+                  },
+                  "start": 2801,
+                  "end": 2827
+                },
+                {
+                  "type": "BinaryExpression",
+                  "left": {
+                    "type": "Literal",
+                    "value": "property value: ",
+                    "raw": "\"property value: \"",
+                    "start": 2833,
+                    "end": 2851
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "Identifier",
+                    "name": "expected",
+                    "start": 2854,
+                    "end": 2862
+                  },
+                  "start": 2833,
+                  "end": 2862
+                }
+              ],
+              "optional": false,
+              "start": 2752,
+              "end": 2863
+            },
+            "start": 2752,
+            "end": 2864
+          },
+          {
+            "type": "ExpressionStatement",
+            "expression": {
+              "type": "CallExpression",
+              "callee": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "assert",
+                  "start": 2867,
+                  "end": 2873
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "sameValue",
+                  "start": 2874,
+                  "end": 2883
+                },
+                "optional": false,
+                "computed": false,
+                "start": 2867,
+                "end": 2883
+              },
+              "arguments": [
+                {
+                  "type": "CallExpression",
+                  "callee": {
+                    "type": "MemberExpression",
+                    "object": {
+                      "type": "Identifier",
+                      "name": "JSON",
+                      "start": 2884,
+                      "end": 2888
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "name": "stringify",
+                      "start": 2889,
+                      "end": 2898
+                    },
+                    "optional": false,
+                    "computed": false,
+                    "start": 2884,
+                    "end": 2898
+                  },
+                  "arguments": [
+                    {
+                      "type": "ObjectExpression",
+                      "properties": [
+                        {
+                          "type": "Property",
+                          "kind": "init",
+                          "key": {
+                            "type": "Identifier",
+                            "name": "a",
+                            "start": 2901,
+                            "end": 2902
+                          },
+                          "value": {
+                            "type": "ArrayExpression",
+                            "elements": [
+                              {
+                                "type": "Identifier",
+                                "name": "value",
+                                "start": 2905,
+                                "end": 2910
+                              }
+                            ],
+                            "start": 2904,
+                            "end": 2911
+                          },
+                          "method": false,
+                          "shorthand": false,
+                          "computed": false,
+                          "start": 2901,
+                          "end": 2911
+                        },
+                        {
+                          "type": "Property",
+                          "kind": "init",
+                          "key": {
+                            "type": "Identifier",
+                            "name": "b",
+                            "start": 2913,
+                            "end": 2914
+                          },
+                          "value": {
+                            "type": "ObjectExpression",
+                            "properties": [
+                              {
+                                "type": "Property",
+                                "kind": "init",
+                                "key": {
+                                  "type": "Identifier",
+                                  "name": "c",
+                                  "start": 2918,
+                                  "end": 2919
+                                },
+                                "value": {
+                                  "type": "Identifier",
+                                  "name": "value",
+                                  "start": 2921,
+                                  "end": 2926
+                                },
+                                "method": false,
+                                "shorthand": false,
+                                "computed": false,
+                                "start": 2918,
+                                "end": 2926
+                              }
+                            ],
+                            "start": 2916,
+                            "end": 2928
+                          },
+                          "method": false,
+                          "shorthand": false,
+                          "computed": false,
+                          "start": 2913,
+                          "end": 2928
+                        }
+                      ],
+                      "start": 2899,
+                      "end": 2930
+                    }
+                  ],
+                  "optional": false,
+                  "start": 2884,
+                  "end": 2931
+                },
+                {
+                  "type": "BinaryExpression",
+                  "left": {
+                    "type": "BinaryExpression",
+                    "left": {
+                      "type": "BinaryExpression",
+                      "left": {
+                        "type": "BinaryExpression",
+                        "left": {
+                          "type": "Literal",
+                          "value": "{\"a\":[",
+                          "raw": "'{\"a\":['",
+                          "start": 2937,
+                          "end": 2945
+                        },
+                        "operator": "+",
+                        "right": {
+                          "type": "Identifier",
+                          "name": "expected",
+                          "start": 2948,
+                          "end": 2956
+                        },
+                        "start": 2937,
+                        "end": 2956
+                      },
+                      "operator": "+",
+                      "right": {
+                        "type": "Literal",
+                        "value": "],\"b\":{\"c\":",
+                        "raw": "'],\"b\":{\"c\":'",
+                        "start": 2959,
+                        "end": 2972
+                      },
+                      "start": 2937,
+                      "end": 2972
+                    },
+                    "operator": "+",
+                    "right": {
+                      "type": "Identifier",
+                      "name": "expected",
+                      "start": 2975,
+                      "end": 2983
+                    },
+                    "start": 2937,
+                    "end": 2983
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "Literal",
+                    "value": "}}",
+                    "raw": "\"}}\"",
+                    "start": 2986,
+                    "end": 2990
+                  },
+                  "start": 2937,
+                  "end": 2990
+                },
+                {
+                  "type": "BinaryExpression",
+                  "left": {
+                    "type": "Literal",
+                    "value": "nested: ",
+                    "raw": "\"nested: \"",
+                    "start": 2996,
+                    "end": 3006
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "Identifier",
+                    "name": "expected",
+                    "start": 3009,
+                    "end": 3017
+                  },
+                  "start": 2996,
+                  "end": 3017
+                }
+              ],
+              "optional": false,
+              "start": 2867,
+              "end": 3018
+            },
+            "start": 2867,
+            "end": 3019
+          }
+        ],
+        "start": 2384,
+        "end": 3021
+      },
+      "start": 2345,
+      "end": 3021
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 3022
+}

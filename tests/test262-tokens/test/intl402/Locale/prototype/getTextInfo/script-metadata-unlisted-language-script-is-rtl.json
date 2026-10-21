@@ -1,0 +1,362 @@
+[
+  {
+    "type": "Keyword",
+    "value": "var",
+    "start": 848,
+    "end": 851
+  },
+  {
+    "type": "Identifier",
+    "value": "arDir",
+    "start": 852,
+    "end": 857
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 858,
+    "end": 859
+  },
+  {
+    "type": "Keyword",
+    "value": "new",
+    "start": 860,
+    "end": 863
+  },
+  {
+    "type": "Identifier",
+    "value": "Intl",
+    "start": 864,
+    "end": 868
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 868,
+    "end": 869
+  },
+  {
+    "type": "Identifier",
+    "value": "Locale",
+    "start": 869,
+    "end": 875
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 875,
+    "end": 876
+  },
+  {
+    "type": "String",
+    "value": "\"ar-Zxxx\"",
+    "start": 876,
+    "end": 885
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 885,
+    "end": 886
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 886,
+    "end": 887
+  },
+  {
+    "type": "Identifier",
+    "value": "getTextInfo",
+    "start": 887,
+    "end": 898
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 898,
+    "end": 899
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 899,
+    "end": 900
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 900,
+    "end": 901
+  },
+  {
+    "type": "Identifier",
+    "value": "direction",
+    "start": 901,
+    "end": 910
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 910,
+    "end": 911
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 973,
+    "end": 979
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 979,
+    "end": 980
+  },
+  {
+    "type": "Identifier",
+    "value": "arDir",
+    "start": 980,
+    "end": 985
+  },
+  {
+    "type": "Punctuator",
+    "value": "===",
+    "start": 986,
+    "end": 989
+  },
+  {
+    "type": "String",
+    "value": "\"rtl\"",
+    "start": 990,
+    "end": 995
+  },
+  {
+    "type": "Punctuator",
+    "value": "||",
+    "start": 996,
+    "end": 998
+  },
+  {
+    "type": "Identifier",
+    "value": "arDir",
+    "start": 999,
+    "end": 1004
+  },
+  {
+    "type": "Punctuator",
+    "value": "===",
+    "start": 1005,
+    "end": 1008
+  },
+  {
+    "type": "Identifier",
+    "value": "undefined",
+    "start": 1009,
+    "end": 1018
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1018,
+    "end": 1019
+  },
+  {
+    "type": "String",
+    "value": "\"with locale 'ar-Zxxx'\"",
+    "start": 1020,
+    "end": 1043
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1043,
+    "end": 1044
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1044,
+    "end": 1045
+  },
+  {
+    "type": "Keyword",
+    "value": "var",
+    "start": 1095,
+    "end": 1098
+  },
+  {
+    "type": "Identifier",
+    "value": "urDir",
+    "start": 1099,
+    "end": 1104
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 1105,
+    "end": 1106
+  },
+  {
+    "type": "Keyword",
+    "value": "new",
+    "start": 1107,
+    "end": 1110
+  },
+  {
+    "type": "Identifier",
+    "value": "Intl",
+    "start": 1111,
+    "end": 1115
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1115,
+    "end": 1116
+  },
+  {
+    "type": "Identifier",
+    "value": "Locale",
+    "start": 1116,
+    "end": 1122
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1122,
+    "end": 1123
+  },
+  {
+    "type": "String",
+    "value": "\"ur-Aran\"",
+    "start": 1123,
+    "end": 1132
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1132,
+    "end": 1133
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1133,
+    "end": 1134
+  },
+  {
+    "type": "Identifier",
+    "value": "getTextInfo",
+    "start": 1134,
+    "end": 1145
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1145,
+    "end": 1146
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1146,
+    "end": 1147
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1147,
+    "end": 1148
+  },
+  {
+    "type": "Identifier",
+    "value": "direction",
+    "start": 1148,
+    "end": 1157
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1157,
+    "end": 1158
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 1220,
+    "end": 1226
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1226,
+    "end": 1227
+  },
+  {
+    "type": "Identifier",
+    "value": "urDir",
+    "start": 1227,
+    "end": 1232
+  },
+  {
+    "type": "Punctuator",
+    "value": "===",
+    "start": 1233,
+    "end": 1236
+  },
+  {
+    "type": "String",
+    "value": "\"rtl\"",
+    "start": 1237,
+    "end": 1242
+  },
+  {
+    "type": "Punctuator",
+    "value": "||",
+    "start": 1243,
+    "end": 1245
+  },
+  {
+    "type": "Identifier",
+    "value": "urDir",
+    "start": 1246,
+    "end": 1251
+  },
+  {
+    "type": "Punctuator",
+    "value": "===",
+    "start": 1252,
+    "end": 1255
+  },
+  {
+    "type": "Identifier",
+    "value": "undefined",
+    "start": 1256,
+    "end": 1265
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1265,
+    "end": 1266
+  },
+  {
+    "type": "String",
+    "value": "\"with locale 'ur-Aran'\"",
+    "start": 1267,
+    "end": 1290
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1290,
+    "end": 1291
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1291,
+    "end": 1292
+  }
+]

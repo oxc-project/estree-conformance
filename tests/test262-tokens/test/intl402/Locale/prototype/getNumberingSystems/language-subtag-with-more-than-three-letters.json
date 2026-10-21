@@ -1,0 +1,278 @@
+[
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 815,
+    "end": 821
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 821,
+    "end": 822
+  },
+  {
+    "type": "Identifier",
+    "value": "compareArray",
+    "start": 822,
+    "end": 834
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 834,
+    "end": 835
+  },
+  {
+    "type": "Keyword",
+    "value": "new",
+    "start": 838,
+    "end": 841
+  },
+  {
+    "type": "Identifier",
+    "value": "Intl",
+    "start": 842,
+    "end": 846
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 846,
+    "end": 847
+  },
+  {
+    "type": "Identifier",
+    "value": "Locale",
+    "start": 847,
+    "end": 853
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 853,
+    "end": 854
+  },
+  {
+    "type": "String",
+    "value": "\"abcdefgh\"",
+    "start": 854,
+    "end": 864
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 864,
+    "end": 865
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 865,
+    "end": 866
+  },
+  {
+    "type": "Identifier",
+    "value": "getNumberingSystems",
+    "start": 866,
+    "end": 885
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 885,
+    "end": 886
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 886,
+    "end": 887
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 887,
+    "end": 888
+  },
+  {
+    "type": "Punctuator",
+    "value": "[",
+    "start": 891,
+    "end": 892
+  },
+  {
+    "type": "String",
+    "value": "\"latn\"",
+    "start": 892,
+    "end": 898
+  },
+  {
+    "type": "Punctuator",
+    "value": "]",
+    "start": 898,
+    "end": 899
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 899,
+    "end": 900
+  },
+  {
+    "type": "Template",
+    "value": "`with locale \"abcdefgh\"`",
+    "start": 903,
+    "end": 927
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 928,
+    "end": 929
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 929,
+    "end": 930
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 999,
+    "end": 1005
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1005,
+    "end": 1006
+  },
+  {
+    "type": "Identifier",
+    "value": "compareArray",
+    "start": 1006,
+    "end": 1018
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1018,
+    "end": 1019
+  },
+  {
+    "type": "Keyword",
+    "value": "new",
+    "start": 1022,
+    "end": 1025
+  },
+  {
+    "type": "Identifier",
+    "value": "Intl",
+    "start": 1026,
+    "end": 1030
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1030,
+    "end": 1031
+  },
+  {
+    "type": "Identifier",
+    "value": "Locale",
+    "start": 1031,
+    "end": 1037
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1037,
+    "end": 1038
+  },
+  {
+    "type": "String",
+    "value": "\"abcdefgh-u-nu-arab\"",
+    "start": 1038,
+    "end": 1058
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1058,
+    "end": 1059
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1059,
+    "end": 1060
+  },
+  {
+    "type": "Identifier",
+    "value": "getNumberingSystems",
+    "start": 1060,
+    "end": 1079
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1079,
+    "end": 1080
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1080,
+    "end": 1081
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1081,
+    "end": 1082
+  },
+  {
+    "type": "Punctuator",
+    "value": "[",
+    "start": 1085,
+    "end": 1086
+  },
+  {
+    "type": "String",
+    "value": "\"arab\"",
+    "start": 1086,
+    "end": 1092
+  },
+  {
+    "type": "Punctuator",
+    "value": "]",
+    "start": 1092,
+    "end": 1093
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1093,
+    "end": 1094
+  },
+  {
+    "type": "Template",
+    "value": "`with locale \"abcdefgh-u-nu-arab\"`",
+    "start": 1097,
+    "end": 1131
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1132,
+    "end": 1133
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1133,
+    "end": 1134
+  }
+]
