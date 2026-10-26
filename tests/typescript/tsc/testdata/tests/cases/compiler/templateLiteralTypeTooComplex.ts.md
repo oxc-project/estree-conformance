@@ -1337,7 +1337,7 @@ __ESTREE_TEST__:AST:
   ],
   "sourceType": "script",
   "hashbang": null,
-  "start": 96,
+  "start": 0,
   "end": 328
 }
 ```

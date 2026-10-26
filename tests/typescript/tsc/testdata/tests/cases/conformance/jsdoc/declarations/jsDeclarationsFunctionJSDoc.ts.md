@@ -280,7 +280,7 @@ __ESTREE_TEST__:AST:
   ],
   "sourceType": "module",
   "hashbang": null,
-  "start": 96,
+  "start": 0,
   "end": 530
 }
 ```

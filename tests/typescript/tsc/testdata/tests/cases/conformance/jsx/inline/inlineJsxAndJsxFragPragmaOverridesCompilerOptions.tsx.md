@@ -1108,7 +1108,7 @@ __ESTREE_TEST__:AST:
   ],
   "sourceType": "module",
   "hashbang": null,
-  "start": 35,
+  "start": 0,
   "end": 86
 }
 ```
@@ -1346,7 +1346,7 @@ __ESTREE_TEST__:AST:
   ],
   "sourceType": "module",
   "hashbang": null,
-  "start": 35,
+  "start": 0,
   "end": 82
 }
 ```
@@ -1613,7 +1613,7 @@ __ESTREE_TEST__:AST:
   ],
   "sourceType": "module",
   "hashbang": null,
-  "start": 37,
+  "start": 0,
   "end": 117
 }
 ```
