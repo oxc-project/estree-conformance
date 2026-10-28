@@ -19,7 +19,7 @@ __ESTREE_TEST__:AST:
   ],
   "sourceType": "module",
   "hashbang": null,
-  "start": 26,
+  "start": 0,
   "end": 45
 }
 ```

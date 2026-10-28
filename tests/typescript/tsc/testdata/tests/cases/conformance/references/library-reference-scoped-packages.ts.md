@@ -98,7 +98,7 @@ __ESTREE_TEST__:AST:
   "body": [],
   "sourceType": "script",
   "hashbang": null,
-  "start": 36,
+  "start": 0,
   "end": 36
 }
 ```

@@ -444,7 +444,7 @@ __ESTREE_TEST__:AST:
   ],
   "sourceType": "module",
   "hashbang": null,
-  "start": 19,
+  "start": 0,
   "end": 362
 }
 ```
@@ -1367,7 +1367,7 @@ __ESTREE_TEST__:AST:
   ],
   "sourceType": "module",
   "hashbang": null,
-  "start": 19,
+  "start": 0,
   "end": 362
 }
 ```
@@ -2290,7 +2290,7 @@ __ESTREE_TEST__:AST:
   ],
   "sourceType": "module",
   "hashbang": null,
-  "start": 19,
+  "start": 0,
   "end": 362
 }
 ```
@@ -2953,7 +2953,7 @@ __ESTREE_TEST__:AST:
   ],
   "sourceType": "module",
   "hashbang": null,
-  "start": 19,
+  "start": 0,
   "end": 162
 }
 ```
@@ -3346,7 +3346,7 @@ __ESTREE_TEST__:AST:
   ],
   "sourceType": "module",
   "hashbang": null,
-  "start": 19,
+  "start": 0,
   "end": 158
 }
 ```
@@ -3739,7 +3739,7 @@ __ESTREE_TEST__:AST:
   ],
   "sourceType": "module",
   "hashbang": null,
-  "start": 19,
+  "start": 0,
   "end": 165
 }
 ```

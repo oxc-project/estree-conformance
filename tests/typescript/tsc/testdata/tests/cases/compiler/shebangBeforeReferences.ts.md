@@ -268,7 +268,7 @@ __ESTREE_TEST__:AST:
     "start": 0,
     "end": 19
   },
-  "start": 53,
+  "start": 0,
   "end": 123
 }
 ```

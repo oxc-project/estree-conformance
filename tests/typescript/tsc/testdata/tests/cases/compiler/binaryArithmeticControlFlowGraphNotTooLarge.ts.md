@@ -99200,7 +99200,7 @@ __ESTREE_TEST__:AST:
   ],
   "sourceType": "script",
   "hashbang": null,
-  "start": 54,
+  "start": 0,
   "end": 44035
 }
 ```

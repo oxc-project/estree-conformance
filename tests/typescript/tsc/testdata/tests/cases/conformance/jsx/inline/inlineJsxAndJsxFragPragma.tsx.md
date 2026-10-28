@@ -636,7 +636,7 @@ __ESTREE_TEST__:AST:
   ],
   "sourceType": "module",
   "hashbang": null,
-  "start": 39,
+  "start": 0,
   "end": 96
 }
 ```
@@ -874,7 +874,7 @@ __ESTREE_TEST__:AST:
   ],
   "sourceType": "module",
   "hashbang": null,
-  "start": 35,
+  "start": 0,
   "end": 86
 }
 ```
@@ -1092,7 +1092,7 @@ __ESTREE_TEST__:AST:
   ],
   "sourceType": "module",
   "hashbang": null,
-  "start": 39,
+  "start": 0,
   "end": 85
 }
 ```
@@ -1256,7 +1256,7 @@ __ESTREE_TEST__:AST:
   ],
   "sourceType": "module",
   "hashbang": null,
-  "start": 35,
+  "start": 0,
   "end": 73
 }
 ```
@@ -1408,7 +1408,7 @@ __ESTREE_TEST__:AST:
   ],
   "sourceType": "module",
   "hashbang": null,
-  "start": 39,
+  "start": 0,
   "end": 82
 }
 ```
@@ -1535,7 +1535,7 @@ __ESTREE_TEST__:AST:
   ],
   "sourceType": "module",
   "hashbang": null,
-  "start": 35,
+  "start": 0,
   "end": 70
 }
 ```
@@ -1720,7 +1720,7 @@ __ESTREE_TEST__:AST:
   ],
   "sourceType": "module",
   "hashbang": null,
-  "start": 39,
+  "start": 0,
   "end": 91
 }
 ```
@@ -1911,7 +1911,7 @@ __ESTREE_TEST__:AST:
   ],
   "sourceType": "module",
   "hashbang": null,
-  "start": 35,
+  "start": 0,
   "end": 79
 }
 ```
@@ -2120,7 +2120,7 @@ __ESTREE_TEST__:AST:
   ],
   "sourceType": "module",
   "hashbang": null,
-  "start": 18,
+  "start": 0,
   "end": 99
 }
 ```

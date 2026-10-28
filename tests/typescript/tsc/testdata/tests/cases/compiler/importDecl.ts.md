@@ -3073,7 +3073,7 @@ __ESTREE_TEST__:AST:
   ],
   "sourceType": "module",
   "hashbang": null,
-  "start": 229,
+  "start": 0,
   "end": 1421
 }
 ```

@@ -2267,7 +2267,7 @@ __ESTREE_TEST__:AST:
   ],
   "sourceType": "module",
   "hashbang": null,
-  "start": 43,
+  "start": 0,
   "end": 1975
 }
 ```

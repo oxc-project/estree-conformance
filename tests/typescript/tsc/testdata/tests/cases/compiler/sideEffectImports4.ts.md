@@ -79,7 +79,7 @@ __ESTREE_TEST__:AST:
   "body": [],
   "sourceType": "module",
   "hashbang": null,
-  "start": 9,
+  "start": 0,
   "end": 9
 }
 ```
