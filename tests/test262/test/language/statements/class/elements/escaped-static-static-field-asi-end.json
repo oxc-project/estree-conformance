@@ -1,0 +1,225 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ClassDeclaration",
+      "decorators": [],
+      "id": {
+        "type": "Identifier",
+        "name": "C",
+        "start": 468,
+        "end": 469
+      },
+      "superClass": null,
+      "body": {
+        "type": "ClassBody",
+        "body": [
+          {
+            "type": "PropertyDefinition",
+            "decorators": [],
+            "key": {
+              "type": "Identifier",
+              "name": "static",
+              "start": 481,
+              "end": 492
+            },
+            "value": null,
+            "computed": false,
+            "static": true,
+            "start": 474,
+            "end": 492
+          }
+        ],
+        "start": 470,
+        "end": 494
+      },
+      "start": 462,
+      "end": 494
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "var",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "c",
+            "start": 500,
+            "end": 501
+          },
+          "init": {
+            "type": "NewExpression",
+            "callee": {
+              "type": "Identifier",
+              "name": "C",
+              "start": 508,
+              "end": 509
+            },
+            "arguments": [],
+            "start": 504,
+            "end": 511
+          },
+          "start": 500,
+          "end": 511
+        }
+      ],
+      "start": 496,
+      "end": 512
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 513,
+            "end": 519
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "compareArray",
+            "start": 520,
+            "end": 532
+          },
+          "optional": false,
+          "computed": false,
+          "start": 513,
+          "end": 532
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "Object",
+                "start": 533,
+                "end": 539
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "keys",
+                "start": 540,
+                "end": 544
+              },
+              "optional": false,
+              "computed": false,
+              "start": 533,
+              "end": 544
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "name": "c",
+                "start": 545,
+                "end": 546
+              }
+            ],
+            "optional": false,
+            "start": 533,
+            "end": 547
+          },
+          {
+            "type": "ArrayExpression",
+            "elements": [],
+            "start": 549,
+            "end": 551
+          }
+        ],
+        "optional": false,
+        "start": 513,
+        "end": 552
+      },
+      "start": 513,
+      "end": 553
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 554,
+            "end": 560
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "compareArray",
+            "start": 561,
+            "end": 573
+          },
+          "optional": false,
+          "computed": false,
+          "start": 554,
+          "end": 573
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "Object",
+                "start": 574,
+                "end": 580
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "keys",
+                "start": 581,
+                "end": 585
+              },
+              "optional": false,
+              "computed": false,
+              "start": 574,
+              "end": 585
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "name": "C",
+                "start": 586,
+                "end": 587
+              }
+            ],
+            "optional": false,
+            "start": 574,
+            "end": 588
+          },
+          {
+            "type": "ArrayExpression",
+            "elements": [
+              {
+                "type": "Literal",
+                "value": "static",
+                "raw": "\"static\"",
+                "start": 591,
+                "end": 599
+              }
+            ],
+            "start": 590,
+            "end": 600
+          }
+        ],
+        "optional": false,
+        "start": 554,
+        "end": 601
+      },
+      "start": 554,
+      "end": 602
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 603
+}
