@@ -13,6 +13,7 @@ __ESTREE_TEST__:AST:
         "start": 33,
         "end": 37
       },
+      "phase": null,
       "attributes": [],
       "exportKind": "value",
       "start": 19,
@@ -36,6 +37,7 @@ __ESTREE_TEST__:AST:
         "start": 59,
         "end": 63
       },
+      "phase": null,
       "attributes": [],
       "exportKind": "value",
       "start": 39,
@@ -140,6 +142,7 @@ __ESTREE_TEST__:AST:
         "start": 33,
         "end": 37
       },
+      "phase": null,
       "attributes": [],
       "exportKind": "value",
       "start": 19,
@@ -163,6 +166,7 @@ __ESTREE_TEST__:AST:
         "start": 59,
         "end": 63
       },
+      "phase": null,
       "attributes": [],
       "exportKind": "value",
       "start": 39,
@@ -289,6 +293,7 @@ __ESTREE_TEST__:AST:
             "declaration": null,
             "specifiers": [],
             "source": null,
+            "phase": null,
             "exportKind": "value",
             "attributes": [],
             "start": 50,

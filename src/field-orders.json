@@ -66,9 +66,16 @@
   "DoWhileStatement": ["body", "test"],
   "Elision": [],
   "EmptyStatement": [],
-  "ExportAllDeclaration": ["exported", "source", "attributes", "exportKind"],
+  "ExportAllDeclaration": ["exported", "source", "phase", "attributes", "exportKind"],
   "ExportDefaultDeclaration": ["declaration", "exportKind"],
-  "ExportNamedDeclaration": ["declaration", "specifiers", "source", "exportKind", "attributes"],
+  "ExportNamedDeclaration": [
+    "declaration",
+    "specifiers",
+    "source",
+    "phase",
+    "exportKind",
+    "attributes"
+  ],
   "ExportSpecifier": ["local", "exported", "exportKind"],
   "ExpressionStatement": ["expression", "directive"],
   "ForInStatement": ["left", "right", "body"],
