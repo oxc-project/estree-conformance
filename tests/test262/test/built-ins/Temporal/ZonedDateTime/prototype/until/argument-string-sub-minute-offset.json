@@ -62,150 +62,199 @@
       "end": 355
     },
     {
-      "type": "VariableDeclaration",
-      "kind": "const",
-      "declarations": [
-        {
-          "type": "VariableDeclarator",
-          "id": {
-            "type": "Identifier",
-            "name": "str",
-            "start": 362,
-            "end": 365
-          },
-          "init": {
+      "type": "ForOfStatement",
+      "await": false,
+      "left": {
+        "type": "VariableDeclaration",
+        "kind": "const",
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "id": {
+              "type": "Identifier",
+              "name": "str",
+              "start": 367,
+              "end": 370
+            },
+            "init": null,
+            "start": 367,
+            "end": 370
+          }
+        ],
+        "start": 361,
+        "end": 370
+      },
+      "right": {
+        "type": "ArrayExpression",
+        "elements": [
+          {
             "type": "Literal",
             "value": "2021-08-19T17:30:45.123456789-12:12:59.9[-12:12:59.9]",
             "raw": "\"2021-08-19T17:30:45.123456789-12:12:59.9[-12:12:59.9]\"",
-            "start": 368,
-            "end": 423
-          },
-          "start": 362,
-          "end": 423
-        }
-      ],
-      "start": 356,
-      "end": 424
-    },
-    {
-      "type": "ExpressionStatement",
-      "expression": {
-        "type": "CallExpression",
-        "callee": {
-          "type": "MemberExpression",
-          "object": {
-            "type": "Identifier",
-            "name": "assert",
-            "start": 425,
-            "end": 431
-          },
-          "property": {
-            "type": "Identifier",
-            "name": "throws",
-            "start": 432,
-            "end": 438
-          },
-          "optional": false,
-          "computed": false,
-          "start": 425,
-          "end": 438
-        },
-        "arguments": [
-          {
-            "type": "Identifier",
-            "name": "RangeError",
-            "start": 439,
-            "end": 449
+            "start": 378,
+            "end": 433
           },
           {
-            "type": "ArrowFunctionExpression",
-            "expression": true,
-            "async": false,
-            "params": [],
-            "body": {
+            "type": "Literal",
+            "value": "2021-08-19T17:30:45-12:12:59[-12:12:59]",
+            "raw": "\"2021-08-19T17:30:45-12:12:59[-12:12:59]\"",
+            "start": 437,
+            "end": 478
+          },
+          {
+            "type": "Literal",
+            "value": "2021-08-19T17:30:45-121259[-121259]",
+            "raw": "\"2021-08-19T17:30:45-121259[-121259]\"",
+            "start": 482,
+            "end": 519
+          },
+          {
+            "type": "Literal",
+            "value": "2021-08-19T17:30:45+15:59:00[+15:59:00]",
+            "raw": "\"2021-08-19T17:30:45+15:59:00[+15:59:00]\"",
+            "start": 523,
+            "end": 564
+          },
+          {
+            "type": "Literal",
+            "value": "2021-08-19T17:30:45-170100[-170100]",
+            "raw": "\"2021-08-19T17:30:45-170100[-170100]\"",
+            "start": 568,
+            "end": 605
+          }
+        ],
+        "start": 374,
+        "end": 608
+      },
+      "body": {
+        "type": "BlockStatement",
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "expression": {
               "type": "CallExpression",
               "callee": {
                 "type": "MemberExpression",
                 "object": {
                   "type": "Identifier",
-                  "name": "instance",
-                  "start": 457,
-                  "end": 465
+                  "name": "assert",
+                  "start": 614,
+                  "end": 620
                 },
                 "property": {
                   "type": "Identifier",
-                  "name": "until",
-                  "start": 466,
-                  "end": 471
+                  "name": "throws",
+                  "start": 621,
+                  "end": 627
                 },
                 "optional": false,
                 "computed": false,
-                "start": 457,
-                "end": 471
+                "start": 614,
+                "end": 627
               },
               "arguments": [
                 {
                   "type": "Identifier",
-                  "name": "str",
-                  "start": 472,
-                  "end": 475
+                  "name": "RangeError",
+                  "start": 628,
+                  "end": 638
+                },
+                {
+                  "type": "ArrowFunctionExpression",
+                  "expression": true,
+                  "async": false,
+                  "params": [],
+                  "body": {
+                    "type": "CallExpression",
+                    "callee": {
+                      "type": "MemberExpression",
+                      "object": {
+                        "type": "Identifier",
+                        "name": "instance",
+                        "start": 646,
+                        "end": 654
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "name": "until",
+                        "start": 655,
+                        "end": 660
+                      },
+                      "optional": false,
+                      "computed": false,
+                      "start": 646,
+                      "end": 660
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "name": "str",
+                        "start": 661,
+                        "end": 664
+                      }
+                    ],
+                    "optional": false,
+                    "start": 646,
+                    "end": 665
+                  },
+                  "id": null,
+                  "generator": false,
+                  "start": 640,
+                  "end": 665
+                },
+                {
+                  "type": "TemplateLiteral",
+                  "quasis": [
+                    {
+                      "type": "TemplateElement",
+                      "value": {
+                        "raw": "",
+                        "cooked": ""
+                      },
+                      "tail": false,
+                      "start": 668,
+                      "end": 668
+                    },
+                    {
+                      "type": "TemplateElement",
+                      "value": {
+                        "raw": " is not a valid ISO string",
+                        "cooked": " is not a valid ISO string"
+                      },
+                      "tail": true,
+                      "start": 674,
+                      "end": 700
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "name": "str",
+                      "start": 670,
+                      "end": 673
+                    }
+                  ],
+                  "start": 667,
+                  "end": 701
                 }
               ],
               "optional": false,
-              "start": 457,
-              "end": 476
+              "start": 614,
+              "end": 702
             },
-            "id": null,
-            "generator": false,
-            "start": 451,
-            "end": 476
-          },
-          {
-            "type": "TemplateLiteral",
-            "quasis": [
-              {
-                "type": "TemplateElement",
-                "value": {
-                  "raw": "",
-                  "cooked": ""
-                },
-                "tail": false,
-                "start": 479,
-                "end": 479
-              },
-              {
-                "type": "TemplateElement",
-                "value": {
-                  "raw": " is not a valid ISO string",
-                  "cooked": " is not a valid ISO string"
-                },
-                "tail": true,
-                "start": 485,
-                "end": 511
-              }
-            ],
-            "expressions": [
-              {
-                "type": "Identifier",
-                "name": "str",
-                "start": 481,
-                "end": 484
-              }
-            ],
-            "start": 478,
-            "end": 512
+            "start": 614,
+            "end": 703
           }
         ],
-        "optional": false,
-        "start": 425,
-        "end": 513
+        "start": 610,
+        "end": 705
       },
-      "start": 425,
-      "end": 514
+      "start": 356,
+      "end": 705
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 515
+  "end": 706
 }

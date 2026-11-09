@@ -1,0 +1,458 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "kind": "var",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "nonFinite",
+            "start": 575,
+            "end": 584
+          },
+          "init": {
+            "type": "ArrayExpression",
+            "elements": [
+              {
+                "type": "Identifier",
+                "name": "NaN",
+                "start": 588,
+                "end": 591
+              },
+              {
+                "type": "Identifier",
+                "name": "Infinity",
+                "start": 593,
+                "end": 601
+              },
+              {
+                "type": "UnaryExpression",
+                "operator": "-",
+                "argument": {
+                  "type": "Identifier",
+                  "name": "Infinity",
+                  "start": 604,
+                  "end": 612
+                },
+                "prefix": true,
+                "start": 603,
+                "end": 612
+              }
+            ],
+            "start": 587,
+            "end": 613
+          },
+          "start": 575,
+          "end": 613
+        }
+      ],
+      "start": 571,
+      "end": 614
+    },
+    {
+      "type": "ForStatement",
+      "init": {
+        "type": "VariableDeclaration",
+        "kind": "var",
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "id": {
+              "type": "Identifier",
+              "name": "i",
+              "start": 625,
+              "end": 626
+            },
+            "init": {
+              "type": "Literal",
+              "value": 0,
+              "raw": "0",
+              "start": 629,
+              "end": 630
+            },
+            "start": 625,
+            "end": 630
+          }
+        ],
+        "start": 621,
+        "end": 630
+      },
+      "test": {
+        "type": "BinaryExpression",
+        "left": {
+          "type": "Identifier",
+          "name": "i",
+          "start": 632,
+          "end": 633
+        },
+        "operator": "<",
+        "right": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "nonFinite",
+            "start": 636,
+            "end": 645
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "length",
+            "start": 646,
+            "end": 652
+          },
+          "optional": false,
+          "computed": false,
+          "start": 636,
+          "end": 652
+        },
+        "start": 632,
+        "end": 652
+      },
+      "update": {
+        "type": "UpdateExpression",
+        "operator": "++",
+        "prefix": false,
+        "argument": {
+          "type": "Identifier",
+          "name": "i",
+          "start": 654,
+          "end": 655
+        },
+        "start": 654,
+        "end": 657
+      },
+      "body": {
+        "type": "BlockStatement",
+        "body": [
+          {
+            "type": "VariableDeclaration",
+            "kind": "var",
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "id": {
+                  "type": "Identifier",
+                  "name": "date",
+                  "start": 667,
+                  "end": 671
+                },
+                "init": {
+                  "type": "NewExpression",
+                  "callee": {
+                    "type": "Identifier",
+                    "name": "Date",
+                    "start": 678,
+                    "end": 682
+                  },
+                  "arguments": [
+                    {
+                      "type": "Literal",
+                      "value": 2016,
+                      "raw": "2016",
+                      "start": 683,
+                      "end": 687
+                    },
+                    {
+                      "type": "Literal",
+                      "value": 6,
+                      "raw": "6",
+                      "start": 689,
+                      "end": 690
+                    },
+                    {
+                      "type": "Literal",
+                      "value": 1,
+                      "raw": "1",
+                      "start": 692,
+                      "end": 693
+                    }
+                  ],
+                  "start": 674,
+                  "end": 694
+                },
+                "start": 667,
+                "end": 694
+              }
+            ],
+            "start": 663,
+            "end": 695
+          },
+          {
+            "type": "VariableDeclaration",
+            "kind": "var",
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "id": {
+                  "type": "Identifier",
+                  "name": "result",
+                  "start": 703,
+                  "end": 709
+                },
+                "init": {
+                  "type": "CallExpression",
+                  "callee": {
+                    "type": "MemberExpression",
+                    "object": {
+                      "type": "Identifier",
+                      "name": "date",
+                      "start": 712,
+                      "end": 716
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "name": "setTime",
+                      "start": 717,
+                      "end": 724
+                    },
+                    "optional": false,
+                    "computed": false,
+                    "start": 712,
+                    "end": 724
+                  },
+                  "arguments": [
+                    {
+                      "type": "MemberExpression",
+                      "object": {
+                        "type": "Identifier",
+                        "name": "nonFinite",
+                        "start": 725,
+                        "end": 734
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "name": "i",
+                        "start": 735,
+                        "end": 736
+                      },
+                      "optional": false,
+                      "computed": true,
+                      "start": 725,
+                      "end": 737
+                    }
+                  ],
+                  "optional": false,
+                  "start": 712,
+                  "end": 738
+                },
+                "start": 703,
+                "end": 738
+              }
+            ],
+            "start": 699,
+            "end": 739
+          },
+          {
+            "type": "ExpressionStatement",
+            "expression": {
+              "type": "CallExpression",
+              "callee": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "assert",
+                  "start": 743,
+                  "end": 749
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "sameValue",
+                  "start": 750,
+                  "end": 759
+                },
+                "optional": false,
+                "computed": false,
+                "start": 743,
+                "end": 759
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "name": "result",
+                  "start": 760,
+                  "end": 766
+                },
+                {
+                  "type": "Identifier",
+                  "name": "NaN",
+                  "start": 768,
+                  "end": 771
+                },
+                {
+                  "type": "BinaryExpression",
+                  "left": {
+                    "type": "BinaryExpression",
+                    "left": {
+                      "type": "Literal",
+                      "value": "setTime(",
+                      "raw": "\"setTime(\"",
+                      "start": 773,
+                      "end": 783
+                    },
+                    "operator": "+",
+                    "right": {
+                      "type": "MemberExpression",
+                      "object": {
+                        "type": "Identifier",
+                        "name": "nonFinite",
+                        "start": 786,
+                        "end": 795
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "name": "i",
+                        "start": 796,
+                        "end": 797
+                      },
+                      "optional": false,
+                      "computed": true,
+                      "start": 786,
+                      "end": 798
+                    },
+                    "start": 773,
+                    "end": 798
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "Literal",
+                    "value": ") return value",
+                    "raw": "\") return value\"",
+                    "start": 801,
+                    "end": 817
+                  },
+                  "start": 773,
+                  "end": 817
+                }
+              ],
+              "optional": false,
+              "start": 743,
+              "end": 818
+            },
+            "start": 743,
+            "end": 819
+          },
+          {
+            "type": "ExpressionStatement",
+            "expression": {
+              "type": "CallExpression",
+              "callee": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "assert",
+                  "start": 822,
+                  "end": 828
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "sameValue",
+                  "start": 829,
+                  "end": 838
+                },
+                "optional": false,
+                "computed": false,
+                "start": 822,
+                "end": 838
+              },
+              "arguments": [
+                {
+                  "type": "CallExpression",
+                  "callee": {
+                    "type": "MemberExpression",
+                    "object": {
+                      "type": "Identifier",
+                      "name": "date",
+                      "start": 839,
+                      "end": 843
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "name": "getTime",
+                      "start": 844,
+                      "end": 851
+                    },
+                    "optional": false,
+                    "computed": false,
+                    "start": 839,
+                    "end": 851
+                  },
+                  "arguments": [],
+                  "optional": false,
+                  "start": 839,
+                  "end": 853
+                },
+                {
+                  "type": "Identifier",
+                  "name": "NaN",
+                  "start": 855,
+                  "end": 858
+                },
+                {
+                  "type": "BinaryExpression",
+                  "left": {
+                    "type": "BinaryExpression",
+                    "left": {
+                      "type": "Literal",
+                      "value": "setTime(",
+                      "raw": "\"setTime(\"",
+                      "start": 860,
+                      "end": 870
+                    },
+                    "operator": "+",
+                    "right": {
+                      "type": "MemberExpression",
+                      "object": {
+                        "type": "Identifier",
+                        "name": "nonFinite",
+                        "start": 873,
+                        "end": 882
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "name": "i",
+                        "start": 883,
+                        "end": 884
+                      },
+                      "optional": false,
+                      "computed": true,
+                      "start": 873,
+                      "end": 885
+                    },
+                    "start": 860,
+                    "end": 885
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "Literal",
+                    "value": ") [[DateValue]]",
+                    "raw": "\") [[DateValue]]\"",
+                    "start": 888,
+                    "end": 905
+                  },
+                  "start": 860,
+                  "end": 905
+                }
+              ],
+              "optional": false,
+              "start": 822,
+              "end": 906
+            },
+            "start": 822,
+            "end": 907
+          }
+        ],
+        "start": 659,
+        "end": 909
+      },
+      "start": 616,
+      "end": 909
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 910
+}

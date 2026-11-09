@@ -1,0 +1,204 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "date",
+            "start": 523,
+            "end": 527
+          },
+          "init": {
+            "type": "NewExpression",
+            "callee": {
+              "type": "Identifier",
+              "name": "Date",
+              "start": 534,
+              "end": 538
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "value": 2000,
+                "raw": "2000",
+                "start": 539,
+                "end": 543
+              },
+              {
+                "type": "Literal",
+                "value": 0,
+                "raw": "0",
+                "start": 545,
+                "end": 546
+              },
+              {
+                "type": "Literal",
+                "value": 106752348147,
+                "raw": "106752348147",
+                "start": 548,
+                "end": 560
+              }
+            ],
+            "start": 530,
+            "end": 561
+          },
+          "start": 523,
+          "end": 561
+        }
+      ],
+      "start": 517,
+      "end": 562
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 564,
+            "end": 570
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 571,
+            "end": 580
+          },
+          "optional": false,
+          "computed": false,
+          "start": 564,
+          "end": 580
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "date",
+                "start": 581,
+                "end": 585
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "getTime",
+                "start": 586,
+                "end": 593
+              },
+              "optional": false,
+              "computed": false,
+              "start": 581,
+              "end": 593
+            },
+            "arguments": [],
+            "optional": false,
+            "start": 581,
+            "end": 595
+          },
+          {
+            "type": "Identifier",
+            "name": "NaN",
+            "start": 597,
+            "end": 600
+          },
+          {
+            "type": "Literal",
+            "value": "time value outside the valid range is clipped to NaN",
+            "raw": "\"time value outside the valid range is clipped to NaN\"",
+            "start": 602,
+            "end": 656
+          }
+        ],
+        "optional": false,
+        "start": 564,
+        "end": 657
+      },
+      "start": 564,
+      "end": 658
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 659,
+            "end": 665
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 666,
+            "end": 675
+          },
+          "optional": false,
+          "computed": false,
+          "start": 659,
+          "end": 675
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "date",
+                "start": 676,
+                "end": 680
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "valueOf",
+                "start": 681,
+                "end": 688
+              },
+              "optional": false,
+              "computed": false,
+              "start": 676,
+              "end": 688
+            },
+            "arguments": [],
+            "optional": false,
+            "start": 676,
+            "end": 690
+          },
+          {
+            "type": "Identifier",
+            "name": "NaN",
+            "start": 692,
+            "end": 695
+          },
+          {
+            "type": "Literal",
+            "value": "time value outside the valid range is clipped to NaN",
+            "raw": "\"time value outside the valid range is clipped to NaN\"",
+            "start": 697,
+            "end": 751
+          }
+        ],
+        "optional": false,
+        "start": 659,
+        "end": 752
+      },
+      "start": 659,
+      "end": 753
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 754
+}

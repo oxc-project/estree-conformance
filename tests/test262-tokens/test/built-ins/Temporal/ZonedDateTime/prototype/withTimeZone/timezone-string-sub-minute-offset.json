@@ -116,169 +116,271 @@
   {
     "type": "String",
     "value": "\"-12:12:59.9\"",
-    "start": 415,
-    "end": 428
+    "start": 418,
+    "end": 431
   },
   {
     "type": "Punctuator",
     "value": ",",
-    "start": 428,
-    "end": 429
+    "start": 431,
+    "end": 432
   },
   {
     "type": "String",
-    "value": "\"2021-08-19T17:30:45.123456789-12:12:59.9[-12:12:59.9]\"",
-    "start": 430,
-    "end": 485
+    "value": "\"-12:12:59\"",
+    "start": 435,
+    "end": 446
   },
   {
     "type": "Punctuator",
-    "value": "]",
-    "start": 485,
-    "end": 486
+    "value": ",",
+    "start": 446,
+    "end": 447
+  },
+  {
+    "type": "String",
+    "value": "\"-121259\"",
+    "start": 450,
+    "end": 459
   },
   {
     "type": "Punctuator",
-    "value": ")",
-    "start": 486,
+    "value": ",",
+    "start": 459,
+    "end": 460
+  },
+  {
+    "type": "String",
+    "value": "\"+15:59:00\"",
+    "start": 463,
+    "end": 474
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 474,
+    "end": 475
+  },
+  {
+    "type": "String",
+    "value": "\"-170100\"",
+    "start": 478,
     "end": 487
   },
   {
     "type": "Punctuator",
+    "value": ",",
+    "start": 487,
+    "end": 488
+  },
+  {
+    "type": "String",
+    "value": "\"2021-08-19T17:30:45.123456789-12:12:59.9[-12:12:59.9]\"",
+    "start": 491,
+    "end": 546
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 546,
+    "end": 547
+  },
+  {
+    "type": "String",
+    "value": "\"2021-08-19T17:30:45-12:12:59[-12:12:59]\"",
+    "start": 550,
+    "end": 591
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 591,
+    "end": 592
+  },
+  {
+    "type": "String",
+    "value": "\"2021-08-19T17:30:45-121259[-121259]\"",
+    "start": 595,
+    "end": 632
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 632,
+    "end": 633
+  },
+  {
+    "type": "String",
+    "value": "\"2021-08-19T17:30:45+15:59:00[+15:59:00]\"",
+    "start": 636,
+    "end": 677
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 677,
+    "end": 678
+  },
+  {
+    "type": "String",
+    "value": "\"2021-08-19T17:30:45-170100[-170100]\"",
+    "start": 681,
+    "end": 718
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 718,
+    "end": 719
+  },
+  {
+    "type": "Punctuator",
+    "value": "]",
+    "start": 720,
+    "end": 721
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 721,
+    "end": 722
+  },
+  {
+    "type": "Punctuator",
     "value": "{",
-    "start": 488,
-    "end": 489
+    "start": 723,
+    "end": 724
   },
   {
     "type": "Identifier",
     "value": "assert",
-    "start": 492,
-    "end": 498
+    "start": 727,
+    "end": 733
   },
   {
     "type": "Punctuator",
     "value": ".",
-    "start": 498,
-    "end": 499
+    "start": 733,
+    "end": 734
   },
   {
     "type": "Identifier",
     "value": "throws",
-    "start": 499,
-    "end": 505
+    "start": 734,
+    "end": 740
   },
   {
     "type": "Punctuator",
     "value": "(",
-    "start": 505,
-    "end": 506
+    "start": 740,
+    "end": 741
   },
   {
     "type": "Identifier",
     "value": "RangeError",
-    "start": 511,
-    "end": 521
+    "start": 746,
+    "end": 756
   },
   {
     "type": "Punctuator",
     "value": ",",
-    "start": 521,
-    "end": 522
+    "start": 756,
+    "end": 757
   },
   {
     "type": "Punctuator",
     "value": "(",
-    "start": 527,
-    "end": 528
+    "start": 762,
+    "end": 763
   },
   {
     "type": "Punctuator",
     "value": ")",
-    "start": 528,
-    "end": 529
+    "start": 763,
+    "end": 764
   },
   {
     "type": "Punctuator",
     "value": "=>",
-    "start": 530,
-    "end": 532
+    "start": 765,
+    "end": 767
   },
   {
     "type": "Identifier",
     "value": "instance",
-    "start": 533,
-    "end": 541
+    "start": 768,
+    "end": 776
   },
   {
     "type": "Punctuator",
     "value": ".",
-    "start": 541,
-    "end": 542
+    "start": 776,
+    "end": 777
   },
   {
     "type": "Identifier",
     "value": "withTimeZone",
-    "start": 542,
-    "end": 554
+    "start": 777,
+    "end": 789
   },
   {
     "type": "Punctuator",
     "value": "(",
-    "start": 554,
-    "end": 555
+    "start": 789,
+    "end": 790
   },
   {
     "type": "Identifier",
     "value": "timeZone",
-    "start": 555,
-    "end": 563
+    "start": 790,
+    "end": 798
   },
   {
     "type": "Punctuator",
     "value": ")",
-    "start": 563,
-    "end": 564
+    "start": 798,
+    "end": 799
   },
   {
     "type": "Punctuator",
     "value": ",",
-    "start": 564,
-    "end": 565
+    "start": 799,
+    "end": 800
   },
   {
     "type": "Template",
     "value": "`${",
-    "start": 570,
-    "end": 573
+    "start": 805,
+    "end": 808
   },
   {
     "type": "Identifier",
     "value": "timeZone",
-    "start": 573,
-    "end": 581
+    "start": 808,
+    "end": 816
   },
   {
     "type": "Template",
     "value": "} is not a valid time zone string`",
-    "start": 581,
-    "end": 615
+    "start": 816,
+    "end": 850
   },
   {
     "type": "Punctuator",
     "value": ")",
-    "start": 618,
-    "end": 619
+    "start": 853,
+    "end": 854
   },
   {
     "type": "Punctuator",
     "value": ";",
-    "start": 619,
-    "end": 620
+    "start": 854,
+    "end": 855
   },
   {
     "type": "Punctuator",
     "value": "}",
-    "start": 621,
-    "end": 622
+    "start": 856,
+    "end": 857
   }
 ]

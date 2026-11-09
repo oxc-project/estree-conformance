@@ -73,12 +73,43 @@ __ESTREE_TEST__:AST:
       "directive": null,
       "start": 49,
       "end": 72
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "ImportExpression",
+        "source": {
+          "type": "TemplateLiteral",
+          "quasis": [
+            {
+              "type": "TemplateElement",
+              "value": {
+                "raw": "./target.ts",
+                "cooked": "./target.ts"
+              },
+              "tail": true,
+              "start": 80,
+              "end": 93
+            }
+          ],
+          "expressions": [],
+          "start": 80,
+          "end": 93
+        },
+        "options": null,
+        "phase": null,
+        "start": 73,
+        "end": 94
+      },
+      "directive": null,
+      "start": 73,
+      "end": 95
     }
   ],
   "sourceType": "module",
   "hashbang": null,
   "start": 0,
-  "end": 73
+  "end": 96
 }
 ```
 __ESTREE_TEST__:TOKENS:
@@ -167,6 +198,36 @@ __ESTREE_TEST__:TOKENS:
     "value": ";",
     "start": 71,
     "end": 72
+  },
+  {
+    "type": "Keyword",
+    "value": "import",
+    "start": 73,
+    "end": 79
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 79,
+    "end": 80
+  },
+  {
+    "type": "Template",
+    "value": "`./target.ts`",
+    "start": 80,
+    "end": 93
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 93,
+    "end": 94
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 94,
+    "end": 95
   }
 ]
 ```

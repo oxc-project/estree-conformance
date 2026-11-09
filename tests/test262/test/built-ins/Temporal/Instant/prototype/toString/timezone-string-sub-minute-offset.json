@@ -84,19 +84,75 @@
             "type": "Literal",
             "value": "-12:12:59.9",
             "raw": "\"-12:12:59.9\"",
-            "start": 392,
-            "end": 405
+            "start": 395,
+            "end": 408
+          },
+          {
+            "type": "Literal",
+            "value": "-12:12:59",
+            "raw": "\"-12:12:59\"",
+            "start": 412,
+            "end": 423
+          },
+          {
+            "type": "Literal",
+            "value": "-121259",
+            "raw": "\"-121259\"",
+            "start": 427,
+            "end": 436
+          },
+          {
+            "type": "Literal",
+            "value": "+15:59:00",
+            "raw": "\"+15:59:00\"",
+            "start": 440,
+            "end": 451
+          },
+          {
+            "type": "Literal",
+            "value": "-170100",
+            "raw": "\"-170100\"",
+            "start": 455,
+            "end": 464
           },
           {
             "type": "Literal",
             "value": "2021-08-19T17:30:45.123456789-12:12:59.9[-12:12:59.9]",
             "raw": "\"2021-08-19T17:30:45.123456789-12:12:59.9[-12:12:59.9]\"",
-            "start": 407,
-            "end": 462
+            "start": 468,
+            "end": 523
+          },
+          {
+            "type": "Literal",
+            "value": "2021-08-19T17:30:45-12:12:59[-12:12:59]",
+            "raw": "\"2021-08-19T17:30:45-12:12:59[-12:12:59]\"",
+            "start": 527,
+            "end": 568
+          },
+          {
+            "type": "Literal",
+            "value": "2021-08-19T17:30:45-121259[-121259]",
+            "raw": "\"2021-08-19T17:30:45-121259[-121259]\"",
+            "start": 572,
+            "end": 609
+          },
+          {
+            "type": "Literal",
+            "value": "2021-08-19T17:30:45+15:59:00[+15:59:00]",
+            "raw": "\"2021-08-19T17:30:45+15:59:00[+15:59:00]\"",
+            "start": 613,
+            "end": 654
+          },
+          {
+            "type": "Literal",
+            "value": "2021-08-19T17:30:45-170100[-170100]",
+            "raw": "\"2021-08-19T17:30:45-170100[-170100]\"",
+            "start": 658,
+            "end": 695
           }
         ],
         "start": 391,
-        "end": 463
+        "end": 698
       },
       "body": {
         "type": "BlockStatement",
@@ -110,26 +166,26 @@
                 "object": {
                   "type": "Identifier",
                   "name": "assert",
-                  "start": 469,
-                  "end": 475
+                  "start": 704,
+                  "end": 710
                 },
                 "property": {
                   "type": "Identifier",
                   "name": "throws",
-                  "start": 476,
-                  "end": 482
+                  "start": 711,
+                  "end": 717
                 },
                 "optional": false,
                 "computed": false,
-                "start": 469,
-                "end": 482
+                "start": 704,
+                "end": 717
               },
               "arguments": [
                 {
                   "type": "Identifier",
                   "name": "RangeError",
-                  "start": 488,
-                  "end": 498
+                  "start": 723,
+                  "end": 733
                 },
                 {
                   "type": "ArrowFunctionExpression",
@@ -143,19 +199,19 @@
                       "object": {
                         "type": "Identifier",
                         "name": "instance",
-                        "start": 510,
-                        "end": 518
+                        "start": 745,
+                        "end": 753
                       },
                       "property": {
                         "type": "Identifier",
                         "name": "toString",
-                        "start": 519,
-                        "end": 527
+                        "start": 754,
+                        "end": 762
                       },
                       "optional": false,
                       "computed": false,
-                      "start": 510,
-                      "end": 527
+                      "start": 745,
+                      "end": 762
                     },
                     "arguments": [
                       {
@@ -167,34 +223,34 @@
                             "key": {
                               "type": "Identifier",
                               "name": "timeZone",
-                              "start": 530,
-                              "end": 538
+                              "start": 765,
+                              "end": 773
                             },
                             "value": {
                               "type": "Identifier",
                               "name": "timeZone",
-                              "start": 530,
-                              "end": 538
+                              "start": 765,
+                              "end": 773
                             },
                             "method": false,
                             "shorthand": true,
                             "computed": false,
-                            "start": 530,
-                            "end": 538
+                            "start": 765,
+                            "end": 773
                           }
                         ],
-                        "start": 528,
-                        "end": 540
+                        "start": 763,
+                        "end": 775
                       }
                     ],
                     "optional": false,
-                    "start": 510,
-                    "end": 541
+                    "start": 745,
+                    "end": 776
                   },
                   "id": null,
                   "generator": false,
-                  "start": 504,
-                  "end": 541
+                  "start": 739,
+                  "end": 776
                 },
                 {
                   "type": "TemplateLiteral",
@@ -206,8 +262,8 @@
                         "cooked": ""
                       },
                       "tail": false,
-                      "start": 548,
-                      "end": 548
+                      "start": 783,
+                      "end": 783
                     },
                     {
                       "type": "TemplateElement",
@@ -216,39 +272,39 @@
                         "cooked": " is not a valid time zone string"
                       },
                       "tail": true,
-                      "start": 559,
-                      "end": 591
+                      "start": 794,
+                      "end": 826
                     }
                   ],
                   "expressions": [
                     {
                       "type": "Identifier",
                       "name": "timeZone",
-                      "start": 550,
-                      "end": 558
+                      "start": 785,
+                      "end": 793
                     }
                   ],
-                  "start": 547,
-                  "end": 592
+                  "start": 782,
+                  "end": 827
                 }
               ],
               "optional": false,
-              "start": 469,
-              "end": 596
+              "start": 704,
+              "end": 831
             },
-            "start": 469,
-            "end": 597
+            "start": 704,
+            "end": 832
           }
         ],
-        "start": 465,
-        "end": 599
+        "start": 700,
+        "end": 834
       },
       "start": 368,
-      "end": 599
+      "end": 834
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 600
+  "end": 835
 }

@@ -72,357 +72,9 @@
                 "type": "VariableDeclarator",
                 "id": {
                   "type": "Identifier",
-                  "name": "Elimination",
-                  "start": 382,
-                  "end": 393
-                },
-                "init": {
-                  "type": "ParenthesizedExpression",
-                  "expression": {
-                    "type": "LogicalExpression",
-                    "left": {
-                      "type": "LogicalExpression",
-                      "left": {
-                        "type": "LogicalExpression",
-                        "left": {
-                          "type": "LogicalExpression",
-                          "left": {
-                            "type": "LogicalExpression",
-                            "left": {
-                              "type": "LogicalExpression",
-                              "left": {
-                                "type": "LogicalExpression",
-                                "left": {
-                                  "type": "LogicalExpression",
-                                  "left": {
-                                    "type": "LogicalExpression",
-                                    "left": {
-                                      "type": "LogicalExpression",
-                                      "left": {
-                                        "type": "ParenthesizedExpression",
-                                        "expression": {
-                                          "type": "BinaryExpression",
-                                          "left": {
-                                            "type": "Identifier",
-                                            "name": "cu",
-                                            "start": 402,
-                                            "end": 404
-                                          },
-                                          "operator": "===",
-                                          "right": {
-                                            "type": "Literal",
-                                            "value": 42,
-                                            "raw": "0x002A",
-                                            "start": 409,
-                                            "end": 415
-                                          },
-                                          "start": 402,
-                                          "end": 415
-                                        },
-                                        "start": 401,
-                                        "end": 416
-                                      },
-                                      "operator": "||",
-                                      "right": {
-                                        "type": "ParenthesizedExpression",
-                                        "expression": {
-                                          "type": "BinaryExpression",
-                                          "left": {
-                                            "type": "Identifier",
-                                            "name": "cu",
-                                            "start": 421,
-                                            "end": 423
-                                          },
-                                          "operator": "===",
-                                          "right": {
-                                            "type": "Literal",
-                                            "value": 47,
-                                            "raw": "0x002F",
-                                            "start": 428,
-                                            "end": 434
-                                          },
-                                          "start": 421,
-                                          "end": 434
-                                        },
-                                        "start": 420,
-                                        "end": 435
-                                      },
-                                      "start": 401,
-                                      "end": 435
-                                    },
-                                    "operator": "||",
-                                    "right": {
-                                      "type": "ParenthesizedExpression",
-                                      "expression": {
-                                        "type": "BinaryExpression",
-                                        "left": {
-                                          "type": "Identifier",
-                                          "name": "cu",
-                                          "start": 440,
-                                          "end": 442
-                                        },
-                                        "operator": "===",
-                                        "right": {
-                                          "type": "Literal",
-                                          "value": 92,
-                                          "raw": "0x005C",
-                                          "start": 447,
-                                          "end": 453
-                                        },
-                                        "start": 440,
-                                        "end": 453
-                                      },
-                                      "start": 439,
-                                      "end": 454
-                                    },
-                                    "start": 401,
-                                    "end": 454
-                                  },
-                                  "operator": "||",
-                                  "right": {
-                                    "type": "ParenthesizedExpression",
-                                    "expression": {
-                                      "type": "BinaryExpression",
-                                      "left": {
-                                        "type": "Identifier",
-                                        "name": "cu",
-                                        "start": 459,
-                                        "end": 461
-                                      },
-                                      "operator": "===",
-                                      "right": {
-                                        "type": "Literal",
-                                        "value": 43,
-                                        "raw": "0x002B",
-                                        "start": 466,
-                                        "end": 472
-                                      },
-                                      "start": 459,
-                                      "end": 472
-                                    },
-                                    "start": 458,
-                                    "end": 473
-                                  },
-                                  "start": 401,
-                                  "end": 473
-                                },
-                                "operator": "||",
-                                "right": {
-                                  "type": "ParenthesizedExpression",
-                                  "expression": {
-                                    "type": "BinaryExpression",
-                                    "left": {
-                                      "type": "Identifier",
-                                      "name": "cu",
-                                      "start": 483,
-                                      "end": 485
-                                    },
-                                    "operator": "===",
-                                    "right": {
-                                      "type": "Literal",
-                                      "value": 63,
-                                      "raw": "0x003F",
-                                      "start": 490,
-                                      "end": 496
-                                    },
-                                    "start": 483,
-                                    "end": 496
-                                  },
-                                  "start": 482,
-                                  "end": 497
-                                },
-                                "start": 401,
-                                "end": 497
-                              },
-                              "operator": "||",
-                              "right": {
-                                "type": "ParenthesizedExpression",
-                                "expression": {
-                                  "type": "BinaryExpression",
-                                  "left": {
-                                    "type": "Identifier",
-                                    "name": "cu",
-                                    "start": 502,
-                                    "end": 504
-                                  },
-                                  "operator": "===",
-                                  "right": {
-                                    "type": "Literal",
-                                    "value": 40,
-                                    "raw": "0x0028",
-                                    "start": 509,
-                                    "end": 515
-                                  },
-                                  "start": 502,
-                                  "end": 515
-                                },
-                                "start": 501,
-                                "end": 516
-                              },
-                              "start": 401,
-                              "end": 516
-                            },
-                            "operator": "||",
-                            "right": {
-                              "type": "ParenthesizedExpression",
-                              "expression": {
-                                "type": "BinaryExpression",
-                                "left": {
-                                  "type": "Identifier",
-                                  "name": "cu",
-                                  "start": 521,
-                                  "end": 523
-                                },
-                                "operator": "===",
-                                "right": {
-                                  "type": "Literal",
-                                  "value": 41,
-                                  "raw": "0x0029",
-                                  "start": 528,
-                                  "end": 534
-                                },
-                                "start": 521,
-                                "end": 534
-                              },
-                              "start": 520,
-                              "end": 535
-                            },
-                            "start": 401,
-                            "end": 535
-                          },
-                          "operator": "||",
-                          "right": {
-                            "type": "ParenthesizedExpression",
-                            "expression": {
-                              "type": "BinaryExpression",
-                              "left": {
-                                "type": "Identifier",
-                                "name": "cu",
-                                "start": 545,
-                                "end": 547
-                              },
-                              "operator": "===",
-                              "right": {
-                                "type": "Literal",
-                                "value": 91,
-                                "raw": "0x005B",
-                                "start": 552,
-                                "end": 558
-                              },
-                              "start": 545,
-                              "end": 558
-                            },
-                            "start": 544,
-                            "end": 559
-                          },
-                          "start": 401,
-                          "end": 559
-                        },
-                        "operator": "||",
-                        "right": {
-                          "type": "ParenthesizedExpression",
-                          "expression": {
-                            "type": "BinaryExpression",
-                            "left": {
-                              "type": "Identifier",
-                              "name": "cu",
-                              "start": 564,
-                              "end": 566
-                            },
-                            "operator": "===",
-                            "right": {
-                              "type": "Literal",
-                              "value": 93,
-                              "raw": "0x005D",
-                              "start": 571,
-                              "end": 577
-                            },
-                            "start": 564,
-                            "end": 577
-                          },
-                          "start": 563,
-                          "end": 578
-                        },
-                        "start": 401,
-                        "end": 578
-                      },
-                      "operator": "||",
-                      "right": {
-                        "type": "ParenthesizedExpression",
-                        "expression": {
-                          "type": "BinaryExpression",
-                          "left": {
-                            "type": "Identifier",
-                            "name": "cu",
-                            "start": 583,
-                            "end": 585
-                          },
-                          "operator": "===",
-                          "right": {
-                            "type": "Literal",
-                            "value": 123,
-                            "raw": "0x007B",
-                            "start": 590,
-                            "end": 596
-                          },
-                          "start": 583,
-                          "end": 596
-                        },
-                        "start": 582,
-                        "end": 597
-                      },
-                      "start": 401,
-                      "end": 597
-                    },
-                    "operator": "||",
-                    "right": {
-                      "type": "ParenthesizedExpression",
-                      "expression": {
-                        "type": "BinaryExpression",
-                        "left": {
-                          "type": "Identifier",
-                          "name": "cu",
-                          "start": 602,
-                          "end": 604
-                        },
-                        "operator": "===",
-                        "right": {
-                          "type": "Literal",
-                          "value": 125,
-                          "raw": "0x007D",
-                          "start": 609,
-                          "end": 615
-                        },
-                        "start": 602,
-                        "end": 615
-                      },
-                      "start": 601,
-                      "end": 616
-                    },
-                    "start": 401,
-                    "end": 616
-                  },
-                  "start": 400,
-                  "end": 617
-                },
-                "start": 382,
-                "end": 617
-              }
-            ],
-            "start": 378,
-            "end": 618
-          },
-          {
-            "type": "VariableDeclaration",
-            "kind": "var",
-            "declarations": [
-              {
-                "type": "VariableDeclarator",
-                "id": {
-                  "type": "Identifier",
                   "name": "LineTerminator",
-                  "start": 802,
-                  "end": 816
+                  "start": 382,
+                  "end": 396
                 },
                 "init": {
                   "type": "ParenthesizedExpression",
@@ -439,22 +91,22 @@
                             "left": {
                               "type": "Identifier",
                               "name": "cu",
-                              "start": 821,
-                              "end": 823
+                              "start": 401,
+                              "end": 403
                             },
                             "operator": "===",
                             "right": {
                               "type": "Literal",
                               "value": 10,
                               "raw": "0x000A",
-                              "start": 828,
-                              "end": 834
+                              "start": 408,
+                              "end": 414
                             },
-                            "start": 821,
-                            "end": 834
+                            "start": 401,
+                            "end": 414
                           },
-                          "start": 820,
-                          "end": 835
+                          "start": 400,
+                          "end": 415
                         },
                         "operator": "||",
                         "right": {
@@ -464,25 +116,25 @@
                             "left": {
                               "type": "Identifier",
                               "name": "cu",
-                              "start": 840,
-                              "end": 842
+                              "start": 420,
+                              "end": 422
                             },
                             "operator": "===",
                             "right": {
                               "type": "Literal",
                               "value": 13,
                               "raw": "0x000D",
-                              "start": 847,
-                              "end": 853
+                              "start": 427,
+                              "end": 433
                             },
-                            "start": 840,
-                            "end": 853
+                            "start": 420,
+                            "end": 433
                           },
-                          "start": 839,
-                          "end": 854
+                          "start": 419,
+                          "end": 434
                         },
-                        "start": 820,
-                        "end": 854
+                        "start": 400,
+                        "end": 434
                       },
                       "operator": "||",
                       "right": {
@@ -492,25 +144,25 @@
                           "left": {
                             "type": "Identifier",
                             "name": "cu",
-                            "start": 859,
-                            "end": 861
+                            "start": 439,
+                            "end": 441
                           },
                           "operator": "===",
                           "right": {
                             "type": "Literal",
                             "value": 8232,
                             "raw": "0x2028",
-                            "start": 866,
-                            "end": 872
+                            "start": 446,
+                            "end": 452
                           },
-                          "start": 859,
-                          "end": 872
+                          "start": 439,
+                          "end": 452
                         },
-                        "start": 858,
-                        "end": 873
+                        "start": 438,
+                        "end": 453
                       },
-                      "start": 820,
-                      "end": 873
+                      "start": 400,
+                      "end": 453
                     },
                     "operator": "||",
                     "right": {
@@ -520,73 +172,56 @@
                         "left": {
                           "type": "Identifier",
                           "name": "cu",
-                          "start": 878,
-                          "end": 880
+                          "start": 458,
+                          "end": 460
                         },
                         "operator": "===",
                         "right": {
                           "type": "Literal",
                           "value": 8233,
                           "raw": "0x2029",
-                          "start": 885,
-                          "end": 891
+                          "start": 465,
+                          "end": 471
                         },
-                        "start": 878,
-                        "end": 891
+                        "start": 458,
+                        "end": 471
                       },
-                      "start": 877,
-                      "end": 892
+                      "start": 457,
+                      "end": 472
                     },
-                    "start": 820,
-                    "end": 892
+                    "start": 400,
+                    "end": 472
                   },
-                  "start": 819,
-                  "end": 893
+                  "start": 399,
+                  "end": 473
                 },
-                "start": 802,
-                "end": 893
+                "start": 382,
+                "end": 473
               }
             ],
-            "start": 798,
-            "end": 894
+            "start": 378,
+            "end": 474
           },
           {
             "type": "IfStatement",
             "test": {
               "type": "BinaryExpression",
               "left": {
-                "type": "ParenthesizedExpression",
-                "expression": {
-                  "type": "LogicalExpression",
-                  "left": {
-                    "type": "Identifier",
-                    "name": "Elimination",
-                    "start": 902,
-                    "end": 913
-                  },
-                  "operator": "||",
-                  "right": {
-                    "type": "Identifier",
-                    "name": "LineTerminator",
-                    "start": 917,
-                    "end": 931
-                  },
-                  "start": 902,
-                  "end": 931
-                },
-                "start": 901,
-                "end": 933
+                "type": "Identifier",
+                "name": "LineTerminator",
+                "start": 481,
+                "end": 495
               },
               "operator": "===",
               "right": {
                 "type": "Literal",
                 "value": false,
                 "raw": "false",
-                "start": 938,
-                "end": 943
+                "start": 500,
+                "end": 505
               },
-              "start": 901,
-              "end": 943
+              "start": 481,
+              "end": 505
             },
             "consequent": {
               "type": "BlockStatement",
@@ -600,8 +235,8 @@
                       "id": {
                         "type": "Identifier",
                         "name": "xx",
-                        "start": 955,
-                        "end": 957
+                        "start": 517,
+                        "end": 519
                       },
                       "init": {
                         "type": "BinaryExpression",
@@ -609,8 +244,8 @@
                           "type": "Literal",
                           "value": "a\\",
                           "raw": "\"a\\\\\"",
-                          "start": 960,
-                          "end": 965
+                          "start": 522,
+                          "end": 527
                         },
                         "operator": "+",
                         "right": {
@@ -620,41 +255,41 @@
                             "object": {
                               "type": "Identifier",
                               "name": "String",
-                              "start": 968,
-                              "end": 974
+                              "start": 530,
+                              "end": 536
                             },
                             "property": {
                               "type": "Identifier",
                               "name": "fromCharCode",
-                              "start": 975,
-                              "end": 987
+                              "start": 537,
+                              "end": 549
                             },
                             "optional": false,
                             "computed": false,
-                            "start": 968,
-                            "end": 987
+                            "start": 530,
+                            "end": 549
                           },
                           "arguments": [
                             {
                               "type": "Identifier",
                               "name": "cu",
-                              "start": 988,
-                              "end": 990
+                              "start": 550,
+                              "end": 552
                             }
                           ],
                           "optional": false,
-                          "start": 968,
-                          "end": 991
+                          "start": 530,
+                          "end": 553
                         },
-                        "start": 960,
-                        "end": 991
+                        "start": 522,
+                        "end": 553
                       },
-                      "start": 955,
-                      "end": 991
+                      "start": 517,
+                      "end": 553
                     }
                   ],
-                  "start": 951,
-                  "end": 992
+                  "start": 513,
+                  "end": 554
                 },
                 {
                   "type": "TryStatement",
@@ -670,16 +305,16 @@
                             "id": {
                               "type": "Identifier",
                               "name": "pattern",
-                              "start": 1013,
-                              "end": 1020
+                              "start": 575,
+                              "end": 582
                             },
                             "init": {
                               "type": "CallExpression",
                               "callee": {
                                 "type": "Identifier",
                                 "name": "eval",
-                                "start": 1023,
-                                "end": 1027
+                                "start": 585,
+                                "end": 589
                               },
                               "arguments": [
                                 {
@@ -690,53 +325,53 @@
                                       "type": "Literal",
                                       "value": "/",
                                       "raw": "\"/\"",
-                                      "start": 1028,
-                                      "end": 1031
+                                      "start": 590,
+                                      "end": 593
                                     },
                                     "operator": "+",
                                     "right": {
                                       "type": "Identifier",
                                       "name": "xx",
-                                      "start": 1034,
-                                      "end": 1036
+                                      "start": 596,
+                                      "end": 598
                                     },
-                                    "start": 1028,
-                                    "end": 1036
+                                    "start": 590,
+                                    "end": 598
                                   },
                                   "operator": "+",
                                   "right": {
                                     "type": "Literal",
                                     "value": "/",
                                     "raw": "\"/\"",
-                                    "start": 1039,
-                                    "end": 1042
+                                    "start": 601,
+                                    "end": 604
                                   },
-                                  "start": 1028,
-                                  "end": 1042
+                                  "start": 590,
+                                  "end": 604
                                 }
                               ],
                               "optional": false,
-                              "start": 1023,
-                              "end": 1043
+                              "start": 585,
+                              "end": 605
                             },
-                            "start": 1013,
-                            "end": 1043
+                            "start": 575,
+                            "end": 605
                           }
                         ],
-                        "start": 1009,
-                        "end": 1044
+                        "start": 571,
+                        "end": 606
                       }
                     ],
-                    "start": 1001,
-                    "end": 1050
+                    "start": 563,
+                    "end": 612
                   },
                   "handler": {
                     "type": "CatchClause",
                     "param": {
                       "type": "Identifier",
                       "name": "e",
-                      "start": 1058,
-                      "end": 1059
+                      "start": 620,
+                      "end": 621
                     },
                     "body": {
                       "type": "BlockStatement",
@@ -749,105 +384,35 @@
                               "type": "VariableDeclarator",
                               "id": {
                                 "type": "Identifier",
-                                "name": "identifierPartNotUnicodeIDContinue",
-                                "start": 1073,
-                                "end": 1107
+                                "name": "isSpecialIdentifierPart",
+                                "start": 835,
+                                "end": 858
                               },
                               "init": {
-                                "type": "ParenthesizedExpression",
-                                "expression": {
-                                  "type": "LogicalExpression",
-                                  "left": {
-                                    "type": "LogicalExpression",
-                                    "left": {
-                                      "type": "ParenthesizedExpression",
-                                      "expression": {
-                                        "type": "BinaryExpression",
-                                        "left": {
-                                          "type": "Identifier",
-                                          "name": "cu",
-                                          "start": 1112,
-                                          "end": 1114
-                                        },
-                                        "operator": "===",
-                                        "right": {
-                                          "type": "Literal",
-                                          "value": 36,
-                                          "raw": "0x0024",
-                                          "start": 1119,
-                                          "end": 1125
-                                        },
-                                        "start": 1112,
-                                        "end": 1125
-                                      },
-                                      "start": 1111,
-                                      "end": 1126
-                                    },
-                                    "operator": "||",
-                                    "right": {
-                                      "type": "ParenthesizedExpression",
-                                      "expression": {
-                                        "type": "BinaryExpression",
-                                        "left": {
-                                          "type": "Identifier",
-                                          "name": "cu",
-                                          "start": 1131,
-                                          "end": 1133
-                                        },
-                                        "operator": "===",
-                                        "right": {
-                                          "type": "Literal",
-                                          "value": 8204,
-                                          "raw": "0x200C",
-                                          "start": 1138,
-                                          "end": 1144
-                                        },
-                                        "start": 1131,
-                                        "end": 1144
-                                      },
-                                      "start": 1130,
-                                      "end": 1145
-                                    },
-                                    "start": 1111,
-                                    "end": 1145
-                                  },
-                                  "operator": "||",
-                                  "right": {
-                                    "type": "ParenthesizedExpression",
-                                    "expression": {
-                                      "type": "BinaryExpression",
-                                      "left": {
-                                        "type": "Identifier",
-                                        "name": "cu",
-                                        "start": 1150,
-                                        "end": 1152
-                                      },
-                                      "operator": "===",
-                                      "right": {
-                                        "type": "Literal",
-                                        "value": 8205,
-                                        "raw": "0x200D",
-                                        "start": 1157,
-                                        "end": 1163
-                                      },
-                                      "start": 1150,
-                                      "end": 1163
-                                    },
-                                    "start": 1149,
-                                    "end": 1164
-                                  },
-                                  "start": 1111,
-                                  "end": 1164
+                                "type": "BinaryExpression",
+                                "left": {
+                                  "type": "Identifier",
+                                  "name": "cu",
+                                  "start": 861,
+                                  "end": 863
                                 },
-                                "start": 1110,
-                                "end": 1165
+                                "operator": "===",
+                                "right": {
+                                  "type": "Literal",
+                                  "value": 36,
+                                  "raw": "0x0024",
+                                  "start": 868,
+                                  "end": 874
+                                },
+                                "start": 861,
+                                "end": 874
                               },
-                              "start": 1073,
-                              "end": 1165
+                              "start": 835,
+                              "end": 874
                             }
                           ],
-                          "start": 1069,
-                          "end": 1166
+                          "start": 831,
+                          "end": 875
                         },
                         {
                           "type": "IfStatement",
@@ -858,18 +423,18 @@
                               "left": {
                                 "type": "Identifier",
                                 "name": "e",
-                                "start": 1177,
-                                "end": 1178
+                                "start": 912,
+                                "end": 913
                               },
                               "operator": "instanceof",
                               "right": {
                                 "type": "Identifier",
                                 "name": "SyntaxError",
-                                "start": 1190,
-                                "end": 1201
+                                "start": 925,
+                                "end": 936
                               },
-                              "start": 1177,
-                              "end": 1201
+                              "start": 912,
+                              "end": 936
                             },
                             "operator": "&&",
                             "right": {
@@ -877,16 +442,16 @@
                               "operator": "!",
                               "argument": {
                                 "type": "Identifier",
-                                "name": "identifierPartNotUnicodeIDContinue",
-                                "start": 1206,
-                                "end": 1240
+                                "name": "isSpecialIdentifierPart",
+                                "start": 941,
+                                "end": 964
                               },
                               "prefix": true,
-                              "start": 1205,
-                              "end": 1240
+                              "start": 940,
+                              "end": 964
                             },
-                            "start": 1177,
-                            "end": 1240
+                            "start": 912,
+                            "end": 964
                           },
                           "consequent": {
                             "type": "BlockStatement",
@@ -903,8 +468,8 @@
                                         "callee": {
                                           "type": "Identifier",
                                           "name": "eval",
-                                          "start": 1351,
-                                          "end": 1355
+                                          "start": 992,
+                                          "end": 996
                                         },
                                         "arguments": [
                                           {
@@ -913,8 +478,8 @@
                                               "type": "Literal",
                                               "value": "var _",
                                               "raw": "\"var _\"",
-                                              "start": 1356,
-                                              "end": 1363
+                                              "start": 997,
+                                              "end": 1004
                                             },
                                             "operator": "+",
                                             "right": {
@@ -924,103 +489,103 @@
                                                 "object": {
                                                   "type": "Identifier",
                                                   "name": "String",
-                                                  "start": 1366,
-                                                  "end": 1372
+                                                  "start": 1007,
+                                                  "end": 1013
                                                 },
                                                 "property": {
                                                   "type": "Identifier",
                                                   "name": "fromCharCode",
-                                                  "start": 1373,
-                                                  "end": 1385
+                                                  "start": 1014,
+                                                  "end": 1026
                                                 },
                                                 "optional": false,
                                                 "computed": false,
-                                                "start": 1366,
-                                                "end": 1385
+                                                "start": 1007,
+                                                "end": 1026
                                               },
                                               "arguments": [
                                                 {
                                                   "type": "Identifier",
                                                   "name": "cu",
-                                                  "start": 1386,
-                                                  "end": 1388
+                                                  "start": 1027,
+                                                  "end": 1029
                                                 }
                                               ],
                                               "optional": false,
-                                              "start": 1366,
-                                              "end": 1389
+                                              "start": 1007,
+                                              "end": 1030
                                             },
-                                            "start": 1356,
-                                            "end": 1389
+                                            "start": 997,
+                                            "end": 1030
                                           }
                                         ],
                                         "optional": false,
-                                        "start": 1351,
-                                        "end": 1390
+                                        "start": 992,
+                                        "end": 1031
                                       },
-                                      "start": 1351,
-                                      "end": 1391
+                                      "start": 992,
+                                      "end": 1032
                                     },
                                     {
                                       "type": "ContinueStatement",
                                       "label": null,
-                                      "start": 1402,
-                                      "end": 1411
+                                      "start": 1043,
+                                      "end": 1052
                                     }
                                   ],
-                                  "start": 1339,
-                                  "end": 1421
+                                  "start": 980,
+                                  "end": 1062
                                 },
                                 "handler": {
                                   "type": "CatchClause",
                                   "param": {
                                     "type": "Identifier",
                                     "name": "ignore",
-                                    "start": 1429,
-                                    "end": 1435
+                                    "start": 1070,
+                                    "end": 1076
                                   },
                                   "body": {
                                     "type": "BlockStatement",
                                     "body": [],
-                                    "start": 1437,
-                                    "end": 1440
+                                    "start": 1078,
+                                    "end": 1081
                                   },
-                                  "start": 1422,
-                                  "end": 1440
+                                  "start": 1063,
+                                  "end": 1081
                                 },
                                 "finalizer": null,
-                                "start": 1335,
-                                "end": 1440
+                                "start": 976,
+                                "end": 1081
                               }
                             ],
-                            "start": 1242,
-                            "end": 1448
+                            "start": 966,
+                            "end": 1089
                           },
                           "alternate": null,
-                          "start": 1173,
-                          "end": 1448
+                          "start": 908,
+                          "end": 1089
                         },
                         {
                           "type": "ThrowStatement",
                           "argument": {
                             "type": "Identifier",
                             "name": "e",
-                            "start": 1461,
-                            "end": 1462
+                            "start": 1102,
+                            "end": 1103
                           },
-                          "start": 1455,
-                          "end": 1463
+                          "start": 1096,
+                          "end": 1104
                         }
                       ],
-                      "start": 1061,
-                      "end": 1469
+                      "start": 623,
+                      "end": 1110
                     },
-                    "start": 1051,
-                    "end": 1469
+                    "start": 613,
+                    "end": 1110
                   },
                   "finalizer": null,
-                  "start": 997,
-                  "end": 1469
+                  "start": 559,
+                  "end": 1110
                 },
                 {
                   "type": "ExpressionStatement",
@@ -1031,19 +596,19 @@
                       "object": {
                         "type": "Identifier",
                         "name": "assert",
-                        "start": 1474,
-                        "end": 1480
+                        "start": 1115,
+                        "end": 1121
                       },
                       "property": {
                         "type": "Identifier",
                         "name": "sameValue",
-                        "start": 1481,
-                        "end": 1490
+                        "start": 1122,
+                        "end": 1131
                       },
                       "optional": false,
                       "computed": false,
-                      "start": 1474,
-                      "end": 1490
+                      "start": 1115,
+                      "end": 1131
                     },
                     "arguments": [
                       {
@@ -1051,25 +616,25 @@
                         "object": {
                           "type": "Identifier",
                           "name": "pattern",
-                          "start": 1491,
-                          "end": 1498
+                          "start": 1132,
+                          "end": 1139
                         },
                         "property": {
                           "type": "Identifier",
                           "name": "source",
-                          "start": 1499,
-                          "end": 1505
+                          "start": 1140,
+                          "end": 1146
                         },
                         "optional": false,
                         "computed": false,
-                        "start": 1491,
-                        "end": 1505
+                        "start": 1132,
+                        "end": 1146
                       },
                       {
                         "type": "Identifier",
                         "name": "xx",
-                        "start": 1507,
-                        "end": 1509
+                        "start": 1148,
+                        "end": 1150
                       },
                       {
                         "type": "BinaryExpression",
@@ -1077,8 +642,8 @@
                           "type": "Literal",
                           "value": "Code unit: ",
                           "raw": "\"Code unit: \"",
-                          "start": 1511,
-                          "end": 1524
+                          "start": 1152,
+                          "end": 1165
                         },
                         "operator": "+",
                         "right": {
@@ -1088,62 +653,62 @@
                             "object": {
                               "type": "Identifier",
                               "name": "cu",
-                              "start": 1527,
-                              "end": 1529
+                              "start": 1168,
+                              "end": 1170
                             },
                             "property": {
                               "type": "Identifier",
                               "name": "toString",
-                              "start": 1530,
-                              "end": 1538
+                              "start": 1171,
+                              "end": 1179
                             },
                             "optional": false,
                             "computed": false,
-                            "start": 1527,
-                            "end": 1538
+                            "start": 1168,
+                            "end": 1179
                           },
                           "arguments": [
                             {
                               "type": "Literal",
                               "value": 16,
                               "raw": "16",
-                              "start": 1539,
-                              "end": 1541
+                              "start": 1180,
+                              "end": 1182
                             }
                           ],
                           "optional": false,
-                          "start": 1527,
-                          "end": 1542
+                          "start": 1168,
+                          "end": 1183
                         },
-                        "start": 1511,
-                        "end": 1542
+                        "start": 1152,
+                        "end": 1183
                       }
                     ],
                     "optional": false,
-                    "start": 1474,
-                    "end": 1543
+                    "start": 1115,
+                    "end": 1184
                   },
-                  "start": 1474,
-                  "end": 1544
+                  "start": 1115,
+                  "end": 1185
                 }
               ],
-              "start": 945,
-              "end": 1548
+              "start": 507,
+              "end": 1189
             },
             "alternate": null,
-            "start": 897,
-            "end": 1548
+            "start": 477,
+            "end": 1189
           }
         ],
         "start": 374,
-        "end": 1550
+        "end": 1191
       },
       "start": 337,
-      "end": 1550
+      "end": 1191
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 1551
+  "end": 1192
 }

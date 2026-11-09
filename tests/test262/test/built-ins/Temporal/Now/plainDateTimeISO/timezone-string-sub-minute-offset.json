@@ -31,19 +31,75 @@
             "type": "Literal",
             "value": "-12:12:59.9",
             "raw": "\"-12:12:59.9\"",
-            "start": 342,
-            "end": 355
+            "start": 345,
+            "end": 358
+          },
+          {
+            "type": "Literal",
+            "value": "-12:12:59",
+            "raw": "\"-12:12:59\"",
+            "start": 362,
+            "end": 373
+          },
+          {
+            "type": "Literal",
+            "value": "-121259",
+            "raw": "\"-121259\"",
+            "start": 377,
+            "end": 386
+          },
+          {
+            "type": "Literal",
+            "value": "+15:59:00",
+            "raw": "\"+15:59:00\"",
+            "start": 390,
+            "end": 401
+          },
+          {
+            "type": "Literal",
+            "value": "-170100",
+            "raw": "\"-170100\"",
+            "start": 405,
+            "end": 414
           },
           {
             "type": "Literal",
             "value": "2021-08-19T17:30:45.123456789-12:12:59.9[-12:12:59.9]",
             "raw": "\"2021-08-19T17:30:45.123456789-12:12:59.9[-12:12:59.9]\"",
-            "start": 357,
-            "end": 412
+            "start": 418,
+            "end": 473
+          },
+          {
+            "type": "Literal",
+            "value": "2021-08-19T17:30:45-12:12:59[-12:12:59]",
+            "raw": "\"2021-08-19T17:30:45-12:12:59[-12:12:59]\"",
+            "start": 477,
+            "end": 518
+          },
+          {
+            "type": "Literal",
+            "value": "2021-08-19T17:30:45-121259[-121259]",
+            "raw": "\"2021-08-19T17:30:45-121259[-121259]\"",
+            "start": 522,
+            "end": 559
+          },
+          {
+            "type": "Literal",
+            "value": "2021-08-19T17:30:45+15:59:00[+15:59:00]",
+            "raw": "\"2021-08-19T17:30:45+15:59:00[+15:59:00]\"",
+            "start": 563,
+            "end": 604
+          },
+          {
+            "type": "Literal",
+            "value": "2021-08-19T17:30:45-170100[-170100]",
+            "raw": "\"2021-08-19T17:30:45-170100[-170100]\"",
+            "start": 608,
+            "end": 645
           }
         ],
         "start": 341,
-        "end": 413
+        "end": 648
       },
       "body": {
         "type": "BlockStatement",
@@ -57,26 +113,26 @@
                 "object": {
                   "type": "Identifier",
                   "name": "assert",
-                  "start": 419,
-                  "end": 425
+                  "start": 654,
+                  "end": 660
                 },
                 "property": {
                   "type": "Identifier",
                   "name": "throws",
-                  "start": 426,
-                  "end": 432
+                  "start": 661,
+                  "end": 667
                 },
                 "optional": false,
                 "computed": false,
-                "start": 419,
-                "end": 432
+                "start": 654,
+                "end": 667
               },
               "arguments": [
                 {
                   "type": "Identifier",
                   "name": "RangeError",
-                  "start": 438,
-                  "end": 448
+                  "start": 673,
+                  "end": 683
                 },
                 {
                   "type": "ArrowFunctionExpression",
@@ -92,47 +148,47 @@
                         "object": {
                           "type": "Identifier",
                           "name": "Temporal",
-                          "start": 460,
-                          "end": 468
+                          "start": 695,
+                          "end": 703
                         },
                         "property": {
                           "type": "Identifier",
                           "name": "Now",
-                          "start": 469,
-                          "end": 472
+                          "start": 704,
+                          "end": 707
                         },
                         "optional": false,
                         "computed": false,
-                        "start": 460,
-                        "end": 472
+                        "start": 695,
+                        "end": 707
                       },
                       "property": {
                         "type": "Identifier",
                         "name": "plainDateTimeISO",
-                        "start": 473,
-                        "end": 489
+                        "start": 708,
+                        "end": 724
                       },
                       "optional": false,
                       "computed": false,
-                      "start": 460,
-                      "end": 489
+                      "start": 695,
+                      "end": 724
                     },
                     "arguments": [
                       {
                         "type": "Identifier",
                         "name": "timeZone",
-                        "start": 490,
-                        "end": 498
+                        "start": 725,
+                        "end": 733
                       }
                     ],
                     "optional": false,
-                    "start": 460,
-                    "end": 499
+                    "start": 695,
+                    "end": 734
                   },
                   "id": null,
                   "generator": false,
-                  "start": 454,
-                  "end": 499
+                  "start": 689,
+                  "end": 734
                 },
                 {
                   "type": "TemplateLiteral",
@@ -144,8 +200,8 @@
                         "cooked": ""
                       },
                       "tail": false,
-                      "start": 506,
-                      "end": 506
+                      "start": 741,
+                      "end": 741
                     },
                     {
                       "type": "TemplateElement",
@@ -154,39 +210,39 @@
                         "cooked": " is not a valid time zone string"
                       },
                       "tail": true,
-                      "start": 517,
-                      "end": 549
+                      "start": 752,
+                      "end": 784
                     }
                   ],
                   "expressions": [
                     {
                       "type": "Identifier",
                       "name": "timeZone",
-                      "start": 508,
-                      "end": 516
+                      "start": 743,
+                      "end": 751
                     }
                   ],
-                  "start": 505,
-                  "end": 550
+                  "start": 740,
+                  "end": 785
                 }
               ],
               "optional": false,
-              "start": 419,
-              "end": 554
+              "start": 654,
+              "end": 789
             },
-            "start": 419,
-            "end": 555
+            "start": 654,
+            "end": 790
           }
         ],
-        "start": 415,
-        "end": 557
+        "start": 650,
+        "end": 792
       },
       "start": 318,
-      "end": 557
+      "end": 792
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 558
+  "end": 793
 }
