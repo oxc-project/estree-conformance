@@ -5337,6 +5337,7 @@ __ESTREE_TEST__:AST:
       "declaration": null,
       "specifiers": [],
       "source": null,
+      "phase": null,
       "exportKind": "value",
       "attributes": [],
       "start": 3855,
