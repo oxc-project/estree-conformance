@@ -993,12 +993,1056 @@ __ESTREE_TEST__:AST:
       "declare": false,
       "start": 464,
       "end": 509
+    },
+    {
+      "type": "ClassDeclaration",
+      "decorators": [],
+      "id": {
+        "type": "Identifier",
+        "decorators": [],
+        "name": "G",
+        "optional": false,
+        "typeAnnotation": null,
+        "start": 517,
+        "end": 518
+      },
+      "typeParameters": null,
+      "superClass": null,
+      "superTypeArguments": null,
+      "implements": [],
+      "body": {
+        "type": "ClassBody",
+        "body": [
+          {
+            "type": "MethodDefinition",
+            "decorators": [
+              {
+                "type": "Decorator",
+                "expression": {
+                  "type": "Identifier",
+                  "decorators": [],
+                  "name": "dec",
+                  "optional": false,
+                  "typeAnnotation": null,
+                  "start": 526,
+                  "end": 529
+                },
+                "start": 525,
+                "end": 529
+              }
+            ],
+            "key": {
+              "type": "Identifier",
+              "decorators": [],
+              "name": "x",
+              "optional": false,
+              "typeAnnotation": null,
+              "start": 534,
+              "end": 535
+            },
+            "value": {
+              "type": "FunctionExpression",
+              "id": null,
+              "generator": false,
+              "async": false,
+              "declare": false,
+              "typeParameters": null,
+              "params": [],
+              "returnType": {
+                "type": "TSTypeAnnotation",
+                "typeAnnotation": {
+                  "type": "TSStringKeyword",
+                  "start": 539,
+                  "end": 545
+                },
+                "start": 537,
+                "end": 545
+              },
+              "body": {
+                "type": "BlockStatement",
+                "body": [
+                  {
+                    "type": "ReturnStatement",
+                    "argument": {
+                      "type": "Literal",
+                      "value": "",
+                      "raw": "\"\"",
+                      "start": 555,
+                      "end": 557
+                    },
+                    "start": 548,
+                    "end": 558
+                  }
+                ],
+                "start": 546,
+                "end": 560
+              },
+              "expression": false,
+              "start": 535,
+              "end": 560
+            },
+            "kind": "get",
+            "computed": false,
+            "static": false,
+            "override": false,
+            "optional": false,
+            "accessibility": null,
+            "start": 525,
+            "end": 560
+          },
+          {
+            "type": "MethodDefinition",
+            "decorators": [],
+            "key": {
+              "type": "Identifier",
+              "decorators": [],
+              "name": "x",
+              "optional": false,
+              "typeAnnotation": null,
+              "start": 569,
+              "end": 570
+            },
+            "value": {
+              "type": "FunctionExpression",
+              "id": null,
+              "generator": false,
+              "async": false,
+              "declare": false,
+              "typeParameters": null,
+              "params": [
+                {
+                  "type": "Identifier",
+                  "decorators": [],
+                  "name": "value",
+                  "optional": false,
+                  "typeAnnotation": null,
+                  "start": 571,
+                  "end": 576
+                }
+              ],
+              "returnType": null,
+              "body": {
+                "type": "BlockStatement",
+                "body": [],
+                "start": 578,
+                "end": 581
+              },
+              "expression": false,
+              "start": 570,
+              "end": 581
+            },
+            "kind": "set",
+            "computed": false,
+            "static": false,
+            "override": false,
+            "optional": false,
+            "accessibility": null,
+            "start": 565,
+            "end": 581
+          }
+        ],
+        "start": 519,
+        "end": 583
+      },
+      "abstract": false,
+      "declare": false,
+      "start": 511,
+      "end": 583
+    },
+    {
+      "type": "ClassDeclaration",
+      "decorators": [],
+      "id": {
+        "type": "Identifier",
+        "decorators": [],
+        "name": "H",
+        "optional": false,
+        "typeAnnotation": null,
+        "start": 591,
+        "end": 592
+      },
+      "typeParameters": null,
+      "superClass": null,
+      "superTypeArguments": null,
+      "implements": [],
+      "body": {
+        "type": "ClassBody",
+        "body": [
+          {
+            "type": "MethodDefinition",
+            "decorators": [],
+            "key": {
+              "type": "Identifier",
+              "decorators": [],
+              "name": "x",
+              "optional": false,
+              "typeAnnotation": null,
+              "start": 603,
+              "end": 604
+            },
+            "value": {
+              "type": "FunctionExpression",
+              "id": null,
+              "generator": false,
+              "async": false,
+              "declare": false,
+              "typeParameters": null,
+              "params": [],
+              "returnType": {
+                "type": "TSTypeAnnotation",
+                "typeAnnotation": {
+                  "type": "TSStringKeyword",
+                  "start": 608,
+                  "end": 614
+                },
+                "start": 606,
+                "end": 614
+              },
+              "body": {
+                "type": "BlockStatement",
+                "body": [
+                  {
+                    "type": "ReturnStatement",
+                    "argument": {
+                      "type": "Literal",
+                      "value": "",
+                      "raw": "\"\"",
+                      "start": 624,
+                      "end": 626
+                    },
+                    "start": 617,
+                    "end": 627
+                  }
+                ],
+                "start": 615,
+                "end": 629
+              },
+              "expression": false,
+              "start": 604,
+              "end": 629
+            },
+            "kind": "get",
+            "computed": false,
+            "static": false,
+            "override": false,
+            "optional": false,
+            "accessibility": null,
+            "start": 599,
+            "end": 629
+          },
+          {
+            "type": "MethodDefinition",
+            "decorators": [
+              {
+                "type": "Decorator",
+                "expression": {
+                  "type": "Identifier",
+                  "decorators": [],
+                  "name": "dec",
+                  "optional": false,
+                  "typeAnnotation": null,
+                  "start": 635,
+                  "end": 638
+                },
+                "start": 634,
+                "end": 638
+              }
+            ],
+            "key": {
+              "type": "Identifier",
+              "decorators": [],
+              "name": "x",
+              "optional": false,
+              "typeAnnotation": null,
+              "start": 643,
+              "end": 644
+            },
+            "value": {
+              "type": "FunctionExpression",
+              "id": null,
+              "generator": false,
+              "async": false,
+              "declare": false,
+              "typeParameters": null,
+              "params": [
+                {
+                  "type": "Identifier",
+                  "decorators": [],
+                  "name": "value",
+                  "optional": false,
+                  "typeAnnotation": null,
+                  "start": 645,
+                  "end": 650
+                }
+              ],
+              "returnType": null,
+              "body": {
+                "type": "BlockStatement",
+                "body": [],
+                "start": 652,
+                "end": 655
+              },
+              "expression": false,
+              "start": 644,
+              "end": 655
+            },
+            "kind": "set",
+            "computed": false,
+            "static": false,
+            "override": false,
+            "optional": false,
+            "accessibility": null,
+            "start": 634,
+            "end": 655
+          }
+        ],
+        "start": 593,
+        "end": 657
+      },
+      "abstract": false,
+      "declare": false,
+      "start": 585,
+      "end": 657
+    },
+    {
+      "type": "ClassDeclaration",
+      "decorators": [],
+      "id": {
+        "type": "Identifier",
+        "decorators": [],
+        "name": "I",
+        "optional": false,
+        "typeAnnotation": null,
+        "start": 665,
+        "end": 666
+      },
+      "typeParameters": null,
+      "superClass": null,
+      "superTypeArguments": null,
+      "implements": [],
+      "body": {
+        "type": "ClassBody",
+        "body": [
+          {
+            "type": "MethodDefinition",
+            "decorators": [
+              {
+                "type": "Decorator",
+                "expression": {
+                  "type": "Identifier",
+                  "decorators": [],
+                  "name": "dec",
+                  "optional": false,
+                  "typeAnnotation": null,
+                  "start": 674,
+                  "end": 677
+                },
+                "start": 673,
+                "end": 677
+              }
+            ],
+            "key": {
+              "type": "Identifier",
+              "decorators": [],
+              "name": "x",
+              "optional": false,
+              "typeAnnotation": null,
+              "start": 682,
+              "end": 683
+            },
+            "value": {
+              "type": "FunctionExpression",
+              "id": null,
+              "generator": false,
+              "async": false,
+              "declare": false,
+              "typeParameters": null,
+              "params": [
+                {
+                  "type": "Identifier",
+                  "decorators": [],
+                  "name": "value",
+                  "optional": false,
+                  "typeAnnotation": null,
+                  "start": 684,
+                  "end": 689
+                }
+              ],
+              "returnType": null,
+              "body": {
+                "type": "BlockStatement",
+                "body": [],
+                "start": 691,
+                "end": 694
+              },
+              "expression": false,
+              "start": 683,
+              "end": 694
+            },
+            "kind": "set",
+            "computed": false,
+            "static": false,
+            "override": false,
+            "optional": false,
+            "accessibility": null,
+            "start": 673,
+            "end": 694
+          },
+          {
+            "type": "MethodDefinition",
+            "decorators": [],
+            "key": {
+              "type": "Identifier",
+              "decorators": [],
+              "name": "x",
+              "optional": false,
+              "typeAnnotation": null,
+              "start": 703,
+              "end": 704
+            },
+            "value": {
+              "type": "FunctionExpression",
+              "id": null,
+              "generator": false,
+              "async": false,
+              "declare": false,
+              "typeParameters": null,
+              "params": [],
+              "returnType": {
+                "type": "TSTypeAnnotation",
+                "typeAnnotation": {
+                  "type": "TSStringKeyword",
+                  "start": 708,
+                  "end": 714
+                },
+                "start": 706,
+                "end": 714
+              },
+              "body": {
+                "type": "BlockStatement",
+                "body": [
+                  {
+                    "type": "ReturnStatement",
+                    "argument": {
+                      "type": "Literal",
+                      "value": "",
+                      "raw": "\"\"",
+                      "start": 724,
+                      "end": 726
+                    },
+                    "start": 717,
+                    "end": 727
+                  }
+                ],
+                "start": 715,
+                "end": 729
+              },
+              "expression": false,
+              "start": 704,
+              "end": 729
+            },
+            "kind": "get",
+            "computed": false,
+            "static": false,
+            "override": false,
+            "optional": false,
+            "accessibility": null,
+            "start": 699,
+            "end": 729
+          }
+        ],
+        "start": 667,
+        "end": 731
+      },
+      "abstract": false,
+      "declare": false,
+      "start": 659,
+      "end": 731
+    },
+    {
+      "type": "ClassDeclaration",
+      "decorators": [],
+      "id": {
+        "type": "Identifier",
+        "decorators": [],
+        "name": "J",
+        "optional": false,
+        "typeAnnotation": null,
+        "start": 739,
+        "end": 740
+      },
+      "typeParameters": null,
+      "superClass": null,
+      "superTypeArguments": null,
+      "implements": [],
+      "body": {
+        "type": "ClassBody",
+        "body": [
+          {
+            "type": "MethodDefinition",
+            "decorators": [],
+            "key": {
+              "type": "Identifier",
+              "decorators": [],
+              "name": "x",
+              "optional": false,
+              "typeAnnotation": null,
+              "start": 751,
+              "end": 752
+            },
+            "value": {
+              "type": "FunctionExpression",
+              "id": null,
+              "generator": false,
+              "async": false,
+              "declare": false,
+              "typeParameters": null,
+              "params": [
+                {
+                  "type": "Identifier",
+                  "decorators": [],
+                  "name": "value",
+                  "optional": false,
+                  "typeAnnotation": null,
+                  "start": 753,
+                  "end": 758
+                }
+              ],
+              "returnType": null,
+              "body": {
+                "type": "BlockStatement",
+                "body": [],
+                "start": 760,
+                "end": 763
+              },
+              "expression": false,
+              "start": 752,
+              "end": 763
+            },
+            "kind": "set",
+            "computed": false,
+            "static": false,
+            "override": false,
+            "optional": false,
+            "accessibility": null,
+            "start": 747,
+            "end": 763
+          },
+          {
+            "type": "MethodDefinition",
+            "decorators": [
+              {
+                "type": "Decorator",
+                "expression": {
+                  "type": "Identifier",
+                  "decorators": [],
+                  "name": "dec",
+                  "optional": false,
+                  "typeAnnotation": null,
+                  "start": 769,
+                  "end": 772
+                },
+                "start": 768,
+                "end": 772
+              }
+            ],
+            "key": {
+              "type": "Identifier",
+              "decorators": [],
+              "name": "x",
+              "optional": false,
+              "typeAnnotation": null,
+              "start": 777,
+              "end": 778
+            },
+            "value": {
+              "type": "FunctionExpression",
+              "id": null,
+              "generator": false,
+              "async": false,
+              "declare": false,
+              "typeParameters": null,
+              "params": [],
+              "returnType": {
+                "type": "TSTypeAnnotation",
+                "typeAnnotation": {
+                  "type": "TSStringKeyword",
+                  "start": 782,
+                  "end": 788
+                },
+                "start": 780,
+                "end": 788
+              },
+              "body": {
+                "type": "BlockStatement",
+                "body": [
+                  {
+                    "type": "ReturnStatement",
+                    "argument": {
+                      "type": "Literal",
+                      "value": "",
+                      "raw": "\"\"",
+                      "start": 798,
+                      "end": 800
+                    },
+                    "start": 791,
+                    "end": 801
+                  }
+                ],
+                "start": 789,
+                "end": 803
+              },
+              "expression": false,
+              "start": 778,
+              "end": 803
+            },
+            "kind": "get",
+            "computed": false,
+            "static": false,
+            "override": false,
+            "optional": false,
+            "accessibility": null,
+            "start": 768,
+            "end": 803
+          }
+        ],
+        "start": 741,
+        "end": 805
+      },
+      "abstract": false,
+      "declare": false,
+      "start": 733,
+      "end": 805
+    },
+    {
+      "type": "ClassDeclaration",
+      "decorators": [],
+      "id": {
+        "type": "Identifier",
+        "decorators": [],
+        "name": "K",
+        "optional": false,
+        "typeAnnotation": null,
+        "start": 813,
+        "end": 814
+      },
+      "typeParameters": null,
+      "superClass": null,
+      "superTypeArguments": null,
+      "implements": [],
+      "body": {
+        "type": "ClassBody",
+        "body": [
+          {
+            "type": "MethodDefinition",
+            "decorators": [
+              {
+                "type": "Decorator",
+                "expression": {
+                  "type": "Identifier",
+                  "decorators": [],
+                  "name": "dec",
+                  "optional": false,
+                  "typeAnnotation": null,
+                  "start": 822,
+                  "end": 825
+                },
+                "start": 821,
+                "end": 825
+              }
+            ],
+            "key": {
+              "type": "Identifier",
+              "decorators": [],
+              "name": "x",
+              "optional": false,
+              "typeAnnotation": null,
+              "start": 830,
+              "end": 831
+            },
+            "value": {
+              "type": "FunctionExpression",
+              "id": null,
+              "generator": false,
+              "async": false,
+              "declare": false,
+              "typeParameters": null,
+              "params": [],
+              "returnType": {
+                "type": "TSTypeAnnotation",
+                "typeAnnotation": {
+                  "type": "TSStringKeyword",
+                  "start": 835,
+                  "end": 841
+                },
+                "start": 833,
+                "end": 841
+              },
+              "body": {
+                "type": "BlockStatement",
+                "body": [
+                  {
+                    "type": "ReturnStatement",
+                    "argument": {
+                      "type": "Literal",
+                      "value": "",
+                      "raw": "\"\"",
+                      "start": 851,
+                      "end": 853
+                    },
+                    "start": 844,
+                    "end": 854
+                  }
+                ],
+                "start": 842,
+                "end": 856
+              },
+              "expression": false,
+              "start": 831,
+              "end": 856
+            },
+            "kind": "get",
+            "computed": false,
+            "static": false,
+            "override": false,
+            "optional": false,
+            "accessibility": null,
+            "start": 821,
+            "end": 856
+          }
+        ],
+        "start": 815,
+        "end": 858
+      },
+      "abstract": false,
+      "declare": false,
+      "start": 807,
+      "end": 858
+    },
+    {
+      "type": "ClassDeclaration",
+      "decorators": [],
+      "id": {
+        "type": "Identifier",
+        "decorators": [],
+        "name": "L",
+        "optional": false,
+        "typeAnnotation": null,
+        "start": 866,
+        "end": 867
+      },
+      "typeParameters": null,
+      "superClass": null,
+      "superTypeArguments": null,
+      "implements": [],
+      "body": {
+        "type": "ClassBody",
+        "body": [
+          {
+            "type": "MethodDefinition",
+            "decorators": [
+              {
+                "type": "Decorator",
+                "expression": {
+                  "type": "Identifier",
+                  "decorators": [],
+                  "name": "dec",
+                  "optional": false,
+                  "typeAnnotation": null,
+                  "start": 875,
+                  "end": 878
+                },
+                "start": 874,
+                "end": 878
+              }
+            ],
+            "key": {
+              "type": "Identifier",
+              "decorators": [],
+              "name": "x",
+              "optional": false,
+              "typeAnnotation": null,
+              "start": 883,
+              "end": 884
+            },
+            "value": {
+              "type": "FunctionExpression",
+              "id": null,
+              "generator": false,
+              "async": false,
+              "declare": false,
+              "typeParameters": null,
+              "params": [],
+              "returnType": {
+                "type": "TSTypeAnnotation",
+                "typeAnnotation": {
+                  "type": "TSStringKeyword",
+                  "start": 888,
+                  "end": 894
+                },
+                "start": 886,
+                "end": 894
+              },
+              "body": {
+                "type": "BlockStatement",
+                "body": [
+                  {
+                    "type": "ReturnStatement",
+                    "argument": {
+                      "type": "Literal",
+                      "value": "",
+                      "raw": "\"\"",
+                      "start": 904,
+                      "end": 906
+                    },
+                    "start": 897,
+                    "end": 907
+                  }
+                ],
+                "start": 895,
+                "end": 909
+              },
+              "expression": false,
+              "start": 884,
+              "end": 909
+            },
+            "kind": "get",
+            "computed": false,
+            "static": false,
+            "override": false,
+            "optional": false,
+            "accessibility": null,
+            "start": 874,
+            "end": 909
+          },
+          {
+            "type": "MethodDefinition",
+            "decorators": [],
+            "key": {
+              "type": "Identifier",
+              "decorators": [],
+              "name": "x",
+              "optional": false,
+              "typeAnnotation": null,
+              "start": 918,
+              "end": 919
+            },
+            "value": {
+              "type": "FunctionExpression",
+              "id": null,
+              "generator": false,
+              "async": false,
+              "declare": false,
+              "typeParameters": null,
+              "params": [
+                {
+                  "type": "Identifier",
+                  "decorators": [],
+                  "name": "value",
+                  "optional": false,
+                  "typeAnnotation": {
+                    "type": "TSTypeAnnotation",
+                    "typeAnnotation": {
+                      "type": "TSAnyKeyword",
+                      "start": 927,
+                      "end": 930
+                    },
+                    "start": 925,
+                    "end": 930
+                  },
+                  "start": 920,
+                  "end": 930
+                }
+              ],
+              "returnType": null,
+              "body": {
+                "type": "BlockStatement",
+                "body": [],
+                "start": 932,
+                "end": 935
+              },
+              "expression": false,
+              "start": 919,
+              "end": 935
+            },
+            "kind": "set",
+            "computed": false,
+            "static": false,
+            "override": false,
+            "optional": false,
+            "accessibility": null,
+            "start": 914,
+            "end": 935
+          }
+        ],
+        "start": 868,
+        "end": 937
+      },
+      "abstract": false,
+      "declare": false,
+      "start": 860,
+      "end": 937
+    },
+    {
+      "type": "ClassDeclaration",
+      "decorators": [],
+      "id": {
+        "type": "Identifier",
+        "decorators": [],
+        "name": "M",
+        "optional": false,
+        "typeAnnotation": null,
+        "start": 945,
+        "end": 946
+      },
+      "typeParameters": null,
+      "superClass": null,
+      "superTypeArguments": null,
+      "implements": [],
+      "body": {
+        "type": "ClassBody",
+        "body": [
+          {
+            "type": "MethodDefinition",
+            "decorators": [
+              {
+                "type": "Decorator",
+                "expression": {
+                  "type": "Identifier",
+                  "decorators": [],
+                  "name": "dec",
+                  "optional": false,
+                  "typeAnnotation": null,
+                  "start": 954,
+                  "end": 957
+                },
+                "start": 953,
+                "end": 957
+              }
+            ],
+            "key": {
+              "type": "Identifier",
+              "decorators": [],
+              "name": "x",
+              "optional": false,
+              "typeAnnotation": null,
+              "start": 969,
+              "end": 970
+            },
+            "value": {
+              "type": "FunctionExpression",
+              "id": null,
+              "generator": false,
+              "async": false,
+              "declare": false,
+              "typeParameters": null,
+              "params": [],
+              "returnType": {
+                "type": "TSTypeAnnotation",
+                "typeAnnotation": {
+                  "type": "TSNumberKeyword",
+                  "start": 974,
+                  "end": 980
+                },
+                "start": 972,
+                "end": 980
+              },
+              "body": {
+                "type": "BlockStatement",
+                "body": [
+                  {
+                    "type": "ReturnStatement",
+                    "argument": {
+                      "type": "Literal",
+                      "value": 0,
+                      "raw": "0",
+                      "start": 990,
+                      "end": 991
+                    },
+                    "start": 983,
+                    "end": 992
+                  }
+                ],
+                "start": 981,
+                "end": 994
+              },
+              "expression": false,
+              "start": 970,
+              "end": 994
+            },
+            "kind": "get",
+            "computed": false,
+            "static": true,
+            "override": false,
+            "optional": false,
+            "accessibility": null,
+            "start": 953,
+            "end": 994
+          },
+          {
+            "type": "MethodDefinition",
+            "decorators": [],
+            "key": {
+              "type": "Identifier",
+              "decorators": [],
+              "name": "x",
+              "optional": false,
+              "typeAnnotation": null,
+              "start": 1010,
+              "end": 1011
+            },
+            "value": {
+              "type": "FunctionExpression",
+              "id": null,
+              "generator": false,
+              "async": false,
+              "declare": false,
+              "typeParameters": null,
+              "params": [
+                {
+                  "type": "Identifier",
+                  "decorators": [],
+                  "name": "value",
+                  "optional": false,
+                  "typeAnnotation": null,
+                  "start": 1012,
+                  "end": 1017
+                }
+              ],
+              "returnType": null,
+              "body": {
+                "type": "BlockStatement",
+                "body": [],
+                "start": 1019,
+                "end": 1022
+              },
+              "expression": false,
+              "start": 1011,
+              "end": 1022
+            },
+            "kind": "set",
+            "computed": false,
+            "static": true,
+            "override": false,
+            "optional": false,
+            "accessibility": null,
+            "start": 999,
+            "end": 1022
+          }
+        ],
+        "start": 947,
+        "end": 1024
+      },
+      "abstract": false,
+      "declare": false,
+      "start": 939,
+      "end": 1024
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 509
+  "end": 1024
 }
 ```
 __ESTREE_TEST__:TOKENS:
@@ -1927,6 +2971,996 @@ __ESTREE_TEST__:TOKENS:
     "value": "}",
     "start": 508,
     "end": 509
+  },
+  {
+    "type": "Keyword",
+    "value": "class",
+    "start": 511,
+    "end": 516
+  },
+  {
+    "type": "Identifier",
+    "value": "G",
+    "start": 517,
+    "end": 518
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 519,
+    "end": 520
+  },
+  {
+    "type": "Punctuator",
+    "value": "@",
+    "start": 525,
+    "end": 526
+  },
+  {
+    "type": "Identifier",
+    "value": "dec",
+    "start": 526,
+    "end": 529
+  },
+  {
+    "type": "Identifier",
+    "value": "get",
+    "start": 530,
+    "end": 533
+  },
+  {
+    "type": "Identifier",
+    "value": "x",
+    "start": 534,
+    "end": 535
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 535,
+    "end": 536
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 536,
+    "end": 537
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 537,
+    "end": 538
+  },
+  {
+    "type": "Identifier",
+    "value": "string",
+    "start": 539,
+    "end": 545
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 546,
+    "end": 547
+  },
+  {
+    "type": "Keyword",
+    "value": "return",
+    "start": 548,
+    "end": 554
+  },
+  {
+    "type": "String",
+    "value": "\"\"",
+    "start": 555,
+    "end": 557
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 557,
+    "end": 558
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 559,
+    "end": 560
+  },
+  {
+    "type": "Identifier",
+    "value": "set",
+    "start": 565,
+    "end": 568
+  },
+  {
+    "type": "Identifier",
+    "value": "x",
+    "start": 569,
+    "end": 570
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 570,
+    "end": 571
+  },
+  {
+    "type": "Identifier",
+    "value": "value",
+    "start": 571,
+    "end": 576
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 576,
+    "end": 577
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 578,
+    "end": 579
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 580,
+    "end": 581
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 582,
+    "end": 583
+  },
+  {
+    "type": "Keyword",
+    "value": "class",
+    "start": 585,
+    "end": 590
+  },
+  {
+    "type": "Identifier",
+    "value": "H",
+    "start": 591,
+    "end": 592
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 593,
+    "end": 594
+  },
+  {
+    "type": "Identifier",
+    "value": "get",
+    "start": 599,
+    "end": 602
+  },
+  {
+    "type": "Identifier",
+    "value": "x",
+    "start": 603,
+    "end": 604
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 604,
+    "end": 605
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 605,
+    "end": 606
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 606,
+    "end": 607
+  },
+  {
+    "type": "Identifier",
+    "value": "string",
+    "start": 608,
+    "end": 614
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 615,
+    "end": 616
+  },
+  {
+    "type": "Keyword",
+    "value": "return",
+    "start": 617,
+    "end": 623
+  },
+  {
+    "type": "String",
+    "value": "\"\"",
+    "start": 624,
+    "end": 626
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 626,
+    "end": 627
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 628,
+    "end": 629
+  },
+  {
+    "type": "Punctuator",
+    "value": "@",
+    "start": 634,
+    "end": 635
+  },
+  {
+    "type": "Identifier",
+    "value": "dec",
+    "start": 635,
+    "end": 638
+  },
+  {
+    "type": "Identifier",
+    "value": "set",
+    "start": 639,
+    "end": 642
+  },
+  {
+    "type": "Identifier",
+    "value": "x",
+    "start": 643,
+    "end": 644
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 644,
+    "end": 645
+  },
+  {
+    "type": "Identifier",
+    "value": "value",
+    "start": 645,
+    "end": 650
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 650,
+    "end": 651
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 652,
+    "end": 653
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 654,
+    "end": 655
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 656,
+    "end": 657
+  },
+  {
+    "type": "Keyword",
+    "value": "class",
+    "start": 659,
+    "end": 664
+  },
+  {
+    "type": "Identifier",
+    "value": "I",
+    "start": 665,
+    "end": 666
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 667,
+    "end": 668
+  },
+  {
+    "type": "Punctuator",
+    "value": "@",
+    "start": 673,
+    "end": 674
+  },
+  {
+    "type": "Identifier",
+    "value": "dec",
+    "start": 674,
+    "end": 677
+  },
+  {
+    "type": "Identifier",
+    "value": "set",
+    "start": 678,
+    "end": 681
+  },
+  {
+    "type": "Identifier",
+    "value": "x",
+    "start": 682,
+    "end": 683
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 683,
+    "end": 684
+  },
+  {
+    "type": "Identifier",
+    "value": "value",
+    "start": 684,
+    "end": 689
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 689,
+    "end": 690
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 691,
+    "end": 692
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 693,
+    "end": 694
+  },
+  {
+    "type": "Identifier",
+    "value": "get",
+    "start": 699,
+    "end": 702
+  },
+  {
+    "type": "Identifier",
+    "value": "x",
+    "start": 703,
+    "end": 704
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 704,
+    "end": 705
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 705,
+    "end": 706
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 706,
+    "end": 707
+  },
+  {
+    "type": "Identifier",
+    "value": "string",
+    "start": 708,
+    "end": 714
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 715,
+    "end": 716
+  },
+  {
+    "type": "Keyword",
+    "value": "return",
+    "start": 717,
+    "end": 723
+  },
+  {
+    "type": "String",
+    "value": "\"\"",
+    "start": 724,
+    "end": 726
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 726,
+    "end": 727
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 728,
+    "end": 729
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 730,
+    "end": 731
+  },
+  {
+    "type": "Keyword",
+    "value": "class",
+    "start": 733,
+    "end": 738
+  },
+  {
+    "type": "Identifier",
+    "value": "J",
+    "start": 739,
+    "end": 740
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 741,
+    "end": 742
+  },
+  {
+    "type": "Identifier",
+    "value": "set",
+    "start": 747,
+    "end": 750
+  },
+  {
+    "type": "Identifier",
+    "value": "x",
+    "start": 751,
+    "end": 752
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 752,
+    "end": 753
+  },
+  {
+    "type": "Identifier",
+    "value": "value",
+    "start": 753,
+    "end": 758
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 758,
+    "end": 759
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 760,
+    "end": 761
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 762,
+    "end": 763
+  },
+  {
+    "type": "Punctuator",
+    "value": "@",
+    "start": 768,
+    "end": 769
+  },
+  {
+    "type": "Identifier",
+    "value": "dec",
+    "start": 769,
+    "end": 772
+  },
+  {
+    "type": "Identifier",
+    "value": "get",
+    "start": 773,
+    "end": 776
+  },
+  {
+    "type": "Identifier",
+    "value": "x",
+    "start": 777,
+    "end": 778
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 778,
+    "end": 779
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 779,
+    "end": 780
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 780,
+    "end": 781
+  },
+  {
+    "type": "Identifier",
+    "value": "string",
+    "start": 782,
+    "end": 788
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 789,
+    "end": 790
+  },
+  {
+    "type": "Keyword",
+    "value": "return",
+    "start": 791,
+    "end": 797
+  },
+  {
+    "type": "String",
+    "value": "\"\"",
+    "start": 798,
+    "end": 800
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 800,
+    "end": 801
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 802,
+    "end": 803
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 804,
+    "end": 805
+  },
+  {
+    "type": "Keyword",
+    "value": "class",
+    "start": 807,
+    "end": 812
+  },
+  {
+    "type": "Identifier",
+    "value": "K",
+    "start": 813,
+    "end": 814
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 815,
+    "end": 816
+  },
+  {
+    "type": "Punctuator",
+    "value": "@",
+    "start": 821,
+    "end": 822
+  },
+  {
+    "type": "Identifier",
+    "value": "dec",
+    "start": 822,
+    "end": 825
+  },
+  {
+    "type": "Identifier",
+    "value": "get",
+    "start": 826,
+    "end": 829
+  },
+  {
+    "type": "Identifier",
+    "value": "x",
+    "start": 830,
+    "end": 831
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 831,
+    "end": 832
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 832,
+    "end": 833
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 833,
+    "end": 834
+  },
+  {
+    "type": "Identifier",
+    "value": "string",
+    "start": 835,
+    "end": 841
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 842,
+    "end": 843
+  },
+  {
+    "type": "Keyword",
+    "value": "return",
+    "start": 844,
+    "end": 850
+  },
+  {
+    "type": "String",
+    "value": "\"\"",
+    "start": 851,
+    "end": 853
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 853,
+    "end": 854
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 855,
+    "end": 856
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 857,
+    "end": 858
+  },
+  {
+    "type": "Keyword",
+    "value": "class",
+    "start": 860,
+    "end": 865
+  },
+  {
+    "type": "Identifier",
+    "value": "L",
+    "start": 866,
+    "end": 867
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 868,
+    "end": 869
+  },
+  {
+    "type": "Punctuator",
+    "value": "@",
+    "start": 874,
+    "end": 875
+  },
+  {
+    "type": "Identifier",
+    "value": "dec",
+    "start": 875,
+    "end": 878
+  },
+  {
+    "type": "Identifier",
+    "value": "get",
+    "start": 879,
+    "end": 882
+  },
+  {
+    "type": "Identifier",
+    "value": "x",
+    "start": 883,
+    "end": 884
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 884,
+    "end": 885
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 885,
+    "end": 886
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 886,
+    "end": 887
+  },
+  {
+    "type": "Identifier",
+    "value": "string",
+    "start": 888,
+    "end": 894
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 895,
+    "end": 896
+  },
+  {
+    "type": "Keyword",
+    "value": "return",
+    "start": 897,
+    "end": 903
+  },
+  {
+    "type": "String",
+    "value": "\"\"",
+    "start": 904,
+    "end": 906
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 906,
+    "end": 907
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 908,
+    "end": 909
+  },
+  {
+    "type": "Identifier",
+    "value": "set",
+    "start": 914,
+    "end": 917
+  },
+  {
+    "type": "Identifier",
+    "value": "x",
+    "start": 918,
+    "end": 919
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 919,
+    "end": 920
+  },
+  {
+    "type": "Identifier",
+    "value": "value",
+    "start": 920,
+    "end": 925
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 925,
+    "end": 926
+  },
+  {
+    "type": "Identifier",
+    "value": "any",
+    "start": 927,
+    "end": 930
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 930,
+    "end": 931
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 932,
+    "end": 933
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 934,
+    "end": 935
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 936,
+    "end": 937
+  },
+  {
+    "type": "Keyword",
+    "value": "class",
+    "start": 939,
+    "end": 944
+  },
+  {
+    "type": "Identifier",
+    "value": "M",
+    "start": 945,
+    "end": 946
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 947,
+    "end": 948
+  },
+  {
+    "type": "Punctuator",
+    "value": "@",
+    "start": 953,
+    "end": 954
+  },
+  {
+    "type": "Identifier",
+    "value": "dec",
+    "start": 954,
+    "end": 957
+  },
+  {
+    "type": "Keyword",
+    "value": "static",
+    "start": 958,
+    "end": 964
+  },
+  {
+    "type": "Identifier",
+    "value": "get",
+    "start": 965,
+    "end": 968
+  },
+  {
+    "type": "Identifier",
+    "value": "x",
+    "start": 969,
+    "end": 970
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 970,
+    "end": 971
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 971,
+    "end": 972
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 972,
+    "end": 973
+  },
+  {
+    "type": "Identifier",
+    "value": "number",
+    "start": 974,
+    "end": 980
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 981,
+    "end": 982
+  },
+  {
+    "type": "Keyword",
+    "value": "return",
+    "start": 983,
+    "end": 989
+  },
+  {
+    "type": "Numeric",
+    "value": "0",
+    "start": 990,
+    "end": 991
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 991,
+    "end": 992
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 993,
+    "end": 994
+  },
+  {
+    "type": "Keyword",
+    "value": "static",
+    "start": 999,
+    "end": 1005
+  },
+  {
+    "type": "Identifier",
+    "value": "set",
+    "start": 1006,
+    "end": 1009
+  },
+  {
+    "type": "Identifier",
+    "value": "x",
+    "start": 1010,
+    "end": 1011
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1011,
+    "end": 1012
+  },
+  {
+    "type": "Identifier",
+    "value": "value",
+    "start": 1012,
+    "end": 1017
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1017,
+    "end": 1018
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 1019,
+    "end": 1020
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 1021,
+    "end": 1022
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 1023,
+    "end": 1024
   }
 ]
 ```

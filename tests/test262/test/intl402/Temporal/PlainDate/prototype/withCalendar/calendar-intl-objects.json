@@ -1,0 +1,421 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "intlCalendarObjects",
+            "start": 455,
+            "end": 474
+          },
+          "init": {
+            "type": "ArrayExpression",
+            "elements": [
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "value": "Intl.DateTimeFormat",
+                    "raw": "\"Intl.DateTimeFormat\"",
+                    "start": 482,
+                    "end": 503
+                  },
+                  {
+                    "type": "NewExpression",
+                    "callee": {
+                      "type": "MemberExpression",
+                      "object": {
+                        "type": "Identifier",
+                        "name": "Intl",
+                        "start": 509,
+                        "end": 513
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "name": "DateTimeFormat",
+                        "start": 514,
+                        "end": 528
+                      },
+                      "optional": false,
+                      "computed": false,
+                      "start": 509,
+                      "end": 528
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "value": "en",
+                        "raw": "\"en\"",
+                        "start": 529,
+                        "end": 533
+                      },
+                      {
+                        "type": "ObjectExpression",
+                        "properties": [
+                          {
+                            "type": "Property",
+                            "kind": "init",
+                            "key": {
+                              "type": "Identifier",
+                              "name": "calendar",
+                              "start": 537,
+                              "end": 545
+                            },
+                            "value": {
+                              "type": "Literal",
+                              "value": "iso8601",
+                              "raw": "\"iso8601\"",
+                              "start": 547,
+                              "end": 556
+                            },
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false,
+                            "start": 537,
+                            "end": 556
+                          }
+                        ],
+                        "start": 535,
+                        "end": 558
+                      }
+                    ],
+                    "start": 505,
+                    "end": 559
+                  }
+                ],
+                "start": 481,
+                "end": 560
+              },
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "value": "Intl.Locale",
+                    "raw": "\"Intl.Locale\"",
+                    "start": 565,
+                    "end": 578
+                  },
+                  {
+                    "type": "NewExpression",
+                    "callee": {
+                      "type": "MemberExpression",
+                      "object": {
+                        "type": "Identifier",
+                        "name": "Intl",
+                        "start": 584,
+                        "end": 588
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "name": "Locale",
+                        "start": 589,
+                        "end": 595
+                      },
+                      "optional": false,
+                      "computed": false,
+                      "start": 584,
+                      "end": 595
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "value": "en",
+                        "raw": "\"en\"",
+                        "start": 596,
+                        "end": 600
+                      },
+                      {
+                        "type": "ObjectExpression",
+                        "properties": [
+                          {
+                            "type": "Property",
+                            "kind": "init",
+                            "key": {
+                              "type": "Identifier",
+                              "name": "calendar",
+                              "start": 604,
+                              "end": 612
+                            },
+                            "value": {
+                              "type": "Literal",
+                              "value": "iso8601",
+                              "raw": "\"iso8601\"",
+                              "start": 614,
+                              "end": 623
+                            },
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false,
+                            "start": 604,
+                            "end": 623
+                          }
+                        ],
+                        "start": 602,
+                        "end": 625
+                      }
+                    ],
+                    "start": 580,
+                    "end": 626
+                  }
+                ],
+                "start": 564,
+                "end": 627
+              }
+            ],
+            "start": 477,
+            "end": 630
+          },
+          "start": 455,
+          "end": 630
+        }
+      ],
+      "start": 449,
+      "end": 631
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "instance",
+            "start": 639,
+            "end": 647
+          },
+          "init": {
+            "type": "NewExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "Temporal",
+                "start": 654,
+                "end": 662
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "PlainDate",
+                "start": 663,
+                "end": 672
+              },
+              "optional": false,
+              "computed": false,
+              "start": 654,
+              "end": 672
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "value": 1976,
+                "raw": "1976",
+                "start": 673,
+                "end": 677
+              },
+              {
+                "type": "Literal",
+                "value": 11,
+                "raw": "11",
+                "start": 679,
+                "end": 681
+              },
+              {
+                "type": "Literal",
+                "value": 18,
+                "raw": "18",
+                "start": 683,
+                "end": 685
+              }
+            ],
+            "start": 650,
+            "end": 686
+          },
+          "start": 639,
+          "end": 686
+        }
+      ],
+      "start": 633,
+      "end": 687
+    },
+    {
+      "type": "ForOfStatement",
+      "await": false,
+      "left": {
+        "type": "VariableDeclaration",
+        "kind": "const",
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "id": {
+              "type": "ArrayPattern",
+              "elements": [
+                {
+                  "type": "Identifier",
+                  "name": "name",
+                  "start": 701,
+                  "end": 705
+                },
+                {
+                  "type": "Identifier",
+                  "name": "calendarLike",
+                  "start": 707,
+                  "end": 719
+                }
+              ],
+              "start": 700,
+              "end": 720
+            },
+            "init": null,
+            "start": 700,
+            "end": 720
+          }
+        ],
+        "start": 694,
+        "end": 720
+      },
+      "right": {
+        "type": "Identifier",
+        "name": "intlCalendarObjects",
+        "start": 724,
+        "end": 743
+      },
+      "body": {
+        "type": "BlockStatement",
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "expression": {
+              "type": "CallExpression",
+              "callee": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "assert",
+                  "start": 749,
+                  "end": 755
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "throws",
+                  "start": 756,
+                  "end": 762
+                },
+                "optional": false,
+                "computed": false,
+                "start": 749,
+                "end": 762
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "name": "TypeError",
+                  "start": 768,
+                  "end": 777
+                },
+                {
+                  "type": "ArrowFunctionExpression",
+                  "expression": true,
+                  "async": false,
+                  "params": [],
+                  "body": {
+                    "type": "CallExpression",
+                    "callee": {
+                      "type": "MemberExpression",
+                      "object": {
+                        "type": "Identifier",
+                        "name": "instance",
+                        "start": 789,
+                        "end": 797
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "name": "withCalendar",
+                        "start": 798,
+                        "end": 810
+                      },
+                      "optional": false,
+                      "computed": false,
+                      "start": 789,
+                      "end": 810
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "name": "calendarLike",
+                        "start": 811,
+                        "end": 823
+                      }
+                    ],
+                    "optional": false,
+                    "start": 789,
+                    "end": 824
+                  },
+                  "id": null,
+                  "generator": false,
+                  "start": 783,
+                  "end": 824
+                },
+                {
+                  "type": "TemplateLiteral",
+                  "quasis": [
+                    {
+                      "type": "TemplateElement",
+                      "value": {
+                        "raw": "",
+                        "cooked": ""
+                      },
+                      "tail": false,
+                      "start": 831,
+                      "end": 831
+                    },
+                    {
+                      "type": "TemplateElement",
+                      "value": {
+                        "raw": " instance is not accepted as a calendar",
+                        "cooked": " instance is not accepted as a calendar"
+                      },
+                      "tail": true,
+                      "start": 838,
+                      "end": 877
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "name": "name",
+                      "start": 833,
+                      "end": 837
+                    }
+                  ],
+                  "start": 830,
+                  "end": 878
+                }
+              ],
+              "optional": false,
+              "start": 749,
+              "end": 882
+            },
+            "start": 749,
+            "end": 883
+          }
+        ],
+        "start": 745,
+        "end": 885
+      },
+      "start": 689,
+      "end": 885
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 886
+}

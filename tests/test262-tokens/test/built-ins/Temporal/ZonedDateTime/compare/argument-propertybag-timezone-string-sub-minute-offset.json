@@ -116,511 +116,613 @@
   {
     "type": "String",
     "value": "\"-12:12:59.9\"",
-    "start": 424,
-    "end": 437
+    "start": 427,
+    "end": 440
   },
   {
     "type": "Punctuator",
     "value": ",",
-    "start": 437,
-    "end": 438
+    "start": 440,
+    "end": 441
   },
   {
     "type": "String",
-    "value": "\"2021-08-19T17:30:45.123456789-12:12:59.9[-12:12:59.9]\"",
-    "start": 439,
-    "end": 494
+    "value": "\"-12:12:59\"",
+    "start": 444,
+    "end": 455
   },
   {
     "type": "Punctuator",
-    "value": "]",
-    "start": 494,
-    "end": 495
+    "value": ",",
+    "start": 455,
+    "end": 456
+  },
+  {
+    "type": "String",
+    "value": "\"-121259\"",
+    "start": 459,
+    "end": 468
   },
   {
     "type": "Punctuator",
-    "value": ")",
-    "start": 495,
+    "value": ",",
+    "start": 468,
+    "end": 469
+  },
+  {
+    "type": "String",
+    "value": "\"+15:59:00\"",
+    "start": 472,
+    "end": 483
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 483,
+    "end": 484
+  },
+  {
+    "type": "String",
+    "value": "\"-170100\"",
+    "start": 487,
     "end": 496
   },
   {
     "type": "Punctuator",
-    "value": "{",
-    "start": 497,
-    "end": 498
+    "value": ",",
+    "start": 496,
+    "end": 497
   },
   {
-    "type": "Identifier",
-    "value": "assert",
-    "start": 501,
-    "end": 507
-  },
-  {
-    "type": "Punctuator",
-    "value": ".",
-    "start": 507,
-    "end": 508
-  },
-  {
-    "type": "Identifier",
-    "value": "throws",
-    "start": 508,
-    "end": 514
-  },
-  {
-    "type": "Punctuator",
-    "value": "(",
-    "start": 514,
-    "end": 515
-  },
-  {
-    "type": "Identifier",
-    "value": "RangeError",
-    "start": 520,
-    "end": 530
+    "type": "String",
+    "value": "\"2021-08-19T17:30:45.123456789-12:12:59.9[-12:12:59.9]\"",
+    "start": 500,
+    "end": 555
   },
   {
     "type": "Punctuator",
     "value": ",",
-    "start": 530,
-    "end": 531
+    "start": 555,
+    "end": 556
   },
   {
-    "type": "Punctuator",
-    "value": "(",
-    "start": 536,
-    "end": 537
-  },
-  {
-    "type": "Punctuator",
-    "value": ")",
-    "start": 537,
-    "end": 538
-  },
-  {
-    "type": "Punctuator",
-    "value": "=>",
-    "start": 539,
-    "end": 541
-  },
-  {
-    "type": "Identifier",
-    "value": "Temporal",
-    "start": 542,
-    "end": 550
-  },
-  {
-    "type": "Punctuator",
-    "value": ".",
-    "start": 550,
-    "end": 551
-  },
-  {
-    "type": "Identifier",
-    "value": "ZonedDateTime",
-    "start": 551,
-    "end": 564
-  },
-  {
-    "type": "Punctuator",
-    "value": ".",
-    "start": 564,
-    "end": 565
-  },
-  {
-    "type": "Identifier",
-    "value": "compare",
-    "start": 565,
-    "end": 572
-  },
-  {
-    "type": "Punctuator",
-    "value": "(",
-    "start": 572,
-    "end": 573
-  },
-  {
-    "type": "Punctuator",
-    "value": "{",
-    "start": 573,
-    "end": 574
-  },
-  {
-    "type": "Identifier",
-    "value": "year",
-    "start": 575,
-    "end": 579
-  },
-  {
-    "type": "Punctuator",
-    "value": ":",
-    "start": 579,
-    "end": 580
-  },
-  {
-    "type": "Numeric",
-    "value": "2020",
-    "start": 581,
-    "end": 585
-  },
-  {
-    "type": "Punctuator",
-    "value": ",",
-    "start": 585,
-    "end": 586
-  },
-  {
-    "type": "Identifier",
-    "value": "month",
-    "start": 587,
-    "end": 592
-  },
-  {
-    "type": "Punctuator",
-    "value": ":",
-    "start": 592,
-    "end": 593
-  },
-  {
-    "type": "Numeric",
-    "value": "5",
-    "start": 594,
-    "end": 595
-  },
-  {
-    "type": "Punctuator",
-    "value": ",",
-    "start": 595,
-    "end": 596
-  },
-  {
-    "type": "Identifier",
-    "value": "day",
-    "start": 597,
+    "type": "String",
+    "value": "\"2021-08-19T17:30:45-12:12:59[-12:12:59]\"",
+    "start": 559,
     "end": 600
   },
   {
     "type": "Punctuator",
-    "value": ":",
+    "value": ",",
     "start": 600,
     "end": 601
   },
   {
-    "type": "Numeric",
-    "value": "2",
-    "start": 602,
-    "end": 603
+    "type": "String",
+    "value": "\"2021-08-19T17:30:45-121259[-121259]\"",
+    "start": 604,
+    "end": 641
   },
   {
     "type": "Punctuator",
     "value": ",",
-    "start": 603,
-    "end": 604
+    "start": 641,
+    "end": 642
   },
   {
-    "type": "Identifier",
-    "value": "timeZone",
-    "start": 605,
-    "end": 613
-  },
-  {
-    "type": "Punctuator",
-    "value": "}",
-    "start": 614,
-    "end": 615
+    "type": "String",
+    "value": "\"2021-08-19T17:30:45+15:59:00[+15:59:00]\"",
+    "start": 645,
+    "end": 686
   },
   {
     "type": "Punctuator",
     "value": ",",
-    "start": 615,
-    "end": 616
+    "start": 686,
+    "end": 687
   },
   {
-    "type": "Identifier",
-    "value": "instance",
-    "start": 617,
-    "end": 625
+    "type": "String",
+    "value": "\"2021-08-19T17:30:45-170100[-170100]\"",
+    "start": 690,
+    "end": 727
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 727,
+    "end": 728
+  },
+  {
+    "type": "Punctuator",
+    "value": "]",
+    "start": 729,
+    "end": 730
   },
   {
     "type": "Punctuator",
     "value": ")",
-    "start": 625,
-    "end": 626
-  },
-  {
-    "type": "Punctuator",
-    "value": ",",
-    "start": 626,
-    "end": 627
-  },
-  {
-    "type": "Template",
-    "value": "`${",
-    "start": 632,
-    "end": 635
-  },
-  {
-    "type": "Identifier",
-    "value": "timeZone",
-    "start": 635,
-    "end": 643
-  },
-  {
-    "type": "Template",
-    "value": "} is not a valid time zone string (first argument)`",
-    "start": 643,
-    "end": 694
-  },
-  {
-    "type": "Punctuator",
-    "value": ")",
-    "start": 697,
-    "end": 698
-  },
-  {
-    "type": "Punctuator",
-    "value": ";",
-    "start": 698,
-    "end": 699
-  },
-  {
-    "type": "Identifier",
-    "value": "assert",
-    "start": 702,
-    "end": 708
-  },
-  {
-    "type": "Punctuator",
-    "value": ".",
-    "start": 708,
-    "end": 709
-  },
-  {
-    "type": "Identifier",
-    "value": "throws",
-    "start": 709,
-    "end": 715
-  },
-  {
-    "type": "Punctuator",
-    "value": "(",
-    "start": 715,
-    "end": 716
-  },
-  {
-    "type": "Identifier",
-    "value": "RangeError",
-    "start": 721,
+    "start": 730,
     "end": 731
   },
   {
     "type": "Punctuator",
-    "value": ",",
-    "start": 731,
-    "end": 732
-  },
-  {
-    "type": "Punctuator",
-    "value": "(",
-    "start": 737,
-    "end": 738
-  },
-  {
-    "type": "Punctuator",
-    "value": ")",
-    "start": 738,
-    "end": 739
-  },
-  {
-    "type": "Punctuator",
-    "value": "=>",
-    "start": 740,
-    "end": 742
+    "value": "{",
+    "start": 732,
+    "end": 733
   },
   {
     "type": "Identifier",
-    "value": "Temporal",
-    "start": 743,
-    "end": 751
+    "value": "assert",
+    "start": 736,
+    "end": 742
   },
   {
     "type": "Punctuator",
     "value": ".",
-    "start": 751,
-    "end": 752
+    "start": 742,
+    "end": 743
   },
   {
     "type": "Identifier",
-    "value": "ZonedDateTime",
-    "start": 752,
+    "value": "throws",
+    "start": 743,
+    "end": 749
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 749,
+    "end": 750
+  },
+  {
+    "type": "Identifier",
+    "value": "RangeError",
+    "start": 755,
     "end": 765
   },
   {
     "type": "Punctuator",
-    "value": ".",
+    "value": ",",
     "start": 765,
     "end": 766
   },
   {
-    "type": "Identifier",
-    "value": "compare",
-    "start": 766,
+    "type": "Punctuator",
+    "value": "(",
+    "start": 771,
+    "end": 772
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 772,
     "end": 773
   },
   {
     "type": "Punctuator",
-    "value": "(",
-    "start": 773,
-    "end": 774
+    "value": "=>",
+    "start": 774,
+    "end": 776
   },
   {
     "type": "Identifier",
-    "value": "instance",
-    "start": 774,
-    "end": 782
+    "value": "Temporal",
+    "start": 777,
+    "end": 785
   },
   {
     "type": "Punctuator",
-    "value": ",",
-    "start": 782,
-    "end": 783
+    "value": ".",
+    "start": 785,
+    "end": 786
+  },
+  {
+    "type": "Identifier",
+    "value": "ZonedDateTime",
+    "start": 786,
+    "end": 799
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 799,
+    "end": 800
+  },
+  {
+    "type": "Identifier",
+    "value": "compare",
+    "start": 800,
+    "end": 807
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 807,
+    "end": 808
   },
   {
     "type": "Punctuator",
     "value": "{",
-    "start": 784,
-    "end": 785
+    "start": 808,
+    "end": 809
   },
   {
     "type": "Identifier",
     "value": "year",
-    "start": 786,
-    "end": 790
-  },
-  {
-    "type": "Punctuator",
-    "value": ":",
-    "start": 790,
-    "end": 791
-  },
-  {
-    "type": "Numeric",
-    "value": "2020",
-    "start": 792,
-    "end": 796
-  },
-  {
-    "type": "Punctuator",
-    "value": ",",
-    "start": 796,
-    "end": 797
-  },
-  {
-    "type": "Identifier",
-    "value": "month",
-    "start": 798,
-    "end": 803
-  },
-  {
-    "type": "Punctuator",
-    "value": ":",
-    "start": 803,
-    "end": 804
-  },
-  {
-    "type": "Numeric",
-    "value": "5",
-    "start": 805,
-    "end": 806
-  },
-  {
-    "type": "Punctuator",
-    "value": ",",
-    "start": 806,
-    "end": 807
-  },
-  {
-    "type": "Identifier",
-    "value": "day",
-    "start": 808,
-    "end": 811
-  },
-  {
-    "type": "Punctuator",
-    "value": ":",
-    "start": 811,
-    "end": 812
-  },
-  {
-    "type": "Numeric",
-    "value": "2",
-    "start": 813,
+    "start": 810,
     "end": 814
   },
   {
     "type": "Punctuator",
-    "value": ",",
+    "value": ":",
     "start": 814,
     "end": 815
   },
   {
-    "type": "Identifier",
-    "value": "timeZone",
+    "type": "Numeric",
+    "value": "2020",
     "start": 816,
-    "end": 824
-  },
-  {
-    "type": "Punctuator",
-    "value": "}",
-    "start": 825,
-    "end": 826
-  },
-  {
-    "type": "Punctuator",
-    "value": ")",
-    "start": 826,
-    "end": 827
+    "end": 820
   },
   {
     "type": "Punctuator",
     "value": ",",
+    "start": 820,
+    "end": 821
+  },
+  {
+    "type": "Identifier",
+    "value": "month",
+    "start": 822,
+    "end": 827
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
     "start": 827,
     "end": 828
   },
   {
-    "type": "Template",
-    "value": "`${",
-    "start": 833,
+    "type": "Numeric",
+    "value": "5",
+    "start": 829,
+    "end": 830
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 830,
+    "end": 831
+  },
+  {
+    "type": "Identifier",
+    "value": "day",
+    "start": 832,
+    "end": 835
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 835,
     "end": 836
+  },
+  {
+    "type": "Numeric",
+    "value": "2",
+    "start": 837,
+    "end": 838
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 838,
+    "end": 839
   },
   {
     "type": "Identifier",
     "value": "timeZone",
-    "start": 836,
-    "end": 844
-  },
-  {
-    "type": "Template",
-    "value": "} is not a valid time zone string (second argument)`",
-    "start": 844,
-    "end": 896
-  },
-  {
-    "type": "Punctuator",
-    "value": ")",
-    "start": 899,
-    "end": 900
-  },
-  {
-    "type": "Punctuator",
-    "value": ";",
-    "start": 900,
-    "end": 901
+    "start": 840,
+    "end": 848
   },
   {
     "type": "Punctuator",
     "value": "}",
-    "start": 902,
-    "end": 903
+    "start": 849,
+    "end": 850
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 850,
+    "end": 851
+  },
+  {
+    "type": "Identifier",
+    "value": "instance",
+    "start": 852,
+    "end": 860
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 860,
+    "end": 861
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 861,
+    "end": 862
+  },
+  {
+    "type": "Template",
+    "value": "`${",
+    "start": 867,
+    "end": 870
+  },
+  {
+    "type": "Identifier",
+    "value": "timeZone",
+    "start": 870,
+    "end": 878
+  },
+  {
+    "type": "Template",
+    "value": "} is not a valid time zone string (first argument)`",
+    "start": 878,
+    "end": 929
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 932,
+    "end": 933
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 933,
+    "end": 934
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 937,
+    "end": 943
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 943,
+    "end": 944
+  },
+  {
+    "type": "Identifier",
+    "value": "throws",
+    "start": 944,
+    "end": 950
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 950,
+    "end": 951
+  },
+  {
+    "type": "Identifier",
+    "value": "RangeError",
+    "start": 956,
+    "end": 966
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 966,
+    "end": 967
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 972,
+    "end": 973
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 973,
+    "end": 974
+  },
+  {
+    "type": "Punctuator",
+    "value": "=>",
+    "start": 975,
+    "end": 977
+  },
+  {
+    "type": "Identifier",
+    "value": "Temporal",
+    "start": 978,
+    "end": 986
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 986,
+    "end": 987
+  },
+  {
+    "type": "Identifier",
+    "value": "ZonedDateTime",
+    "start": 987,
+    "end": 1000
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1000,
+    "end": 1001
+  },
+  {
+    "type": "Identifier",
+    "value": "compare",
+    "start": 1001,
+    "end": 1008
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1008,
+    "end": 1009
+  },
+  {
+    "type": "Identifier",
+    "value": "instance",
+    "start": 1009,
+    "end": 1017
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1017,
+    "end": 1018
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 1019,
+    "end": 1020
+  },
+  {
+    "type": "Identifier",
+    "value": "year",
+    "start": 1021,
+    "end": 1025
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 1025,
+    "end": 1026
+  },
+  {
+    "type": "Numeric",
+    "value": "2020",
+    "start": 1027,
+    "end": 1031
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1031,
+    "end": 1032
+  },
+  {
+    "type": "Identifier",
+    "value": "month",
+    "start": 1033,
+    "end": 1038
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 1038,
+    "end": 1039
+  },
+  {
+    "type": "Numeric",
+    "value": "5",
+    "start": 1040,
+    "end": 1041
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1041,
+    "end": 1042
+  },
+  {
+    "type": "Identifier",
+    "value": "day",
+    "start": 1043,
+    "end": 1046
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 1046,
+    "end": 1047
+  },
+  {
+    "type": "Numeric",
+    "value": "2",
+    "start": 1048,
+    "end": 1049
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1049,
+    "end": 1050
+  },
+  {
+    "type": "Identifier",
+    "value": "timeZone",
+    "start": 1051,
+    "end": 1059
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 1060,
+    "end": 1061
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1061,
+    "end": 1062
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1062,
+    "end": 1063
+  },
+  {
+    "type": "Template",
+    "value": "`${",
+    "start": 1068,
+    "end": 1071
+  },
+  {
+    "type": "Identifier",
+    "value": "timeZone",
+    "start": 1071,
+    "end": 1079
+  },
+  {
+    "type": "Template",
+    "value": "} is not a valid time zone string (second argument)`",
+    "start": 1079,
+    "end": 1131
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1134,
+    "end": 1135
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1135,
+    "end": 1136
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 1137,
+    "end": 1138
   }
 ]
