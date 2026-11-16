@@ -1,0 +1,545 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 327,
+            "end": 333
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 334,
+            "end": 343
+          },
+          "optional": false,
+          "computed": false,
+          "start": 327,
+          "end": 343
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "callee": {
+              "type": "Identifier",
+              "name": "getLocaleBaseName",
+              "start": 344,
+              "end": 361
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "value": "fr",
+                "raw": "'fr'",
+                "start": 362,
+                "end": 366
+              }
+            ],
+            "optional": false,
+            "start": 344,
+            "end": 367
+          },
+          {
+            "type": "Literal",
+            "value": "fr",
+            "raw": "'fr'",
+            "start": 369,
+            "end": 373
+          },
+          {
+            "type": "Literal",
+            "value": "language",
+            "raw": "'language'",
+            "start": 375,
+            "end": 385
+          }
+        ],
+        "optional": false,
+        "start": 327,
+        "end": 386
+      },
+      "start": 327,
+      "end": 387
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 388,
+            "end": 394
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 395,
+            "end": 404
+          },
+          "optional": false,
+          "computed": false,
+          "start": 388,
+          "end": 404
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "callee": {
+              "type": "Identifier",
+              "name": "getLocaleBaseName",
+              "start": 405,
+              "end": 422
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "value": "zh-Hans",
+                "raw": "'zh-Hans'",
+                "start": 423,
+                "end": 432
+              }
+            ],
+            "optional": false,
+            "start": 405,
+            "end": 433
+          },
+          {
+            "type": "Literal",
+            "value": "zh-Hans",
+            "raw": "'zh-Hans'",
+            "start": 435,
+            "end": 444
+          },
+          {
+            "type": "Literal",
+            "value": "language, script",
+            "raw": "'language, script'",
+            "start": 446,
+            "end": 464
+          }
+        ],
+        "optional": false,
+        "start": 388,
+        "end": 465
+      },
+      "start": 388,
+      "end": 466
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 467,
+            "end": 473
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 474,
+            "end": 483
+          },
+          "optional": false,
+          "computed": false,
+          "start": 467,
+          "end": 483
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "callee": {
+              "type": "Identifier",
+              "name": "getLocaleBaseName",
+              "start": 484,
+              "end": 501
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "value": "en-us",
+                "raw": "'en-us'",
+                "start": 502,
+                "end": 509
+              }
+            ],
+            "optional": false,
+            "start": 484,
+            "end": 510
+          },
+          {
+            "type": "Literal",
+            "value": "en-us",
+            "raw": "'en-us'",
+            "start": 512,
+            "end": 519
+          },
+          {
+            "type": "Literal",
+            "value": "language, region",
+            "raw": "'language, region'",
+            "start": 521,
+            "end": 539
+          }
+        ],
+        "optional": false,
+        "start": 467,
+        "end": 540
+      },
+      "start": 467,
+      "end": 541
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 542,
+            "end": 548
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 549,
+            "end": 558
+          },
+          "optional": false,
+          "computed": false,
+          "start": 542,
+          "end": 558
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "callee": {
+              "type": "Identifier",
+              "name": "getLocaleBaseName",
+              "start": 559,
+              "end": 576
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "value": "ru-Cyrl-BY",
+                "raw": "'ru-Cyrl-BY'",
+                "start": 577,
+                "end": 589
+              }
+            ],
+            "optional": false,
+            "start": 559,
+            "end": 590
+          },
+          {
+            "type": "Literal",
+            "value": "ru-Cyrl-BY",
+            "raw": "'ru-Cyrl-BY'",
+            "start": 592,
+            "end": 604
+          },
+          {
+            "type": "Literal",
+            "value": "language, script, region",
+            "raw": "'language, script, region'",
+            "start": 606,
+            "end": 632
+          }
+        ],
+        "optional": false,
+        "start": 542,
+        "end": 633
+      },
+      "start": 542,
+      "end": 634
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 636,
+            "end": 642
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 643,
+            "end": 652
+          },
+          "optional": false,
+          "computed": false,
+          "start": 636,
+          "end": 652
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "callee": {
+              "type": "Identifier",
+              "name": "getLocaleBaseName",
+              "start": 653,
+              "end": 670
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "value": "fr-u-co-phonebk",
+                "raw": "'fr-u-co-phonebk'",
+                "start": 671,
+                "end": 688
+              }
+            ],
+            "optional": false,
+            "start": 653,
+            "end": 689
+          },
+          {
+            "type": "Literal",
+            "value": "fr",
+            "raw": "'fr'",
+            "start": 691,
+            "end": 695
+          },
+          {
+            "type": "Literal",
+            "value": "language, extension",
+            "raw": "'language, extension'",
+            "start": 697,
+            "end": 718
+          }
+        ],
+        "optional": false,
+        "start": 636,
+        "end": 719
+      },
+      "start": 636,
+      "end": 720
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 721,
+            "end": 727
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 728,
+            "end": 737
+          },
+          "optional": false,
+          "computed": false,
+          "start": 721,
+          "end": 737
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "callee": {
+              "type": "Identifier",
+              "name": "getLocaleBaseName",
+              "start": 738,
+              "end": 755
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "value": "zh-Hans-u-co-phonebk",
+                "raw": "'zh-Hans-u-co-phonebk'",
+                "start": 756,
+                "end": 778
+              }
+            ],
+            "optional": false,
+            "start": 738,
+            "end": 779
+          },
+          {
+            "type": "Literal",
+            "value": "zh-Hans",
+            "raw": "'zh-Hans'",
+            "start": 781,
+            "end": 790
+          },
+          {
+            "type": "Literal",
+            "value": "language, script, extension",
+            "raw": "'language, script, extension'",
+            "start": 792,
+            "end": 821
+          }
+        ],
+        "optional": false,
+        "start": 721,
+        "end": 822
+      },
+      "start": 721,
+      "end": 823
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 824,
+            "end": 830
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 831,
+            "end": 840
+          },
+          "optional": false,
+          "computed": false,
+          "start": 824,
+          "end": 840
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "callee": {
+              "type": "Identifier",
+              "name": "getLocaleBaseName",
+              "start": 841,
+              "end": 858
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "value": "en-us-u-co-phonebk",
+                "raw": "'en-us-u-co-phonebk'",
+                "start": 859,
+                "end": 879
+              }
+            ],
+            "optional": false,
+            "start": 841,
+            "end": 880
+          },
+          {
+            "type": "Literal",
+            "value": "en-us",
+            "raw": "'en-us'",
+            "start": 882,
+            "end": 889
+          },
+          {
+            "type": "Literal",
+            "value": "language, region, extension",
+            "raw": "'language, region, extension'",
+            "start": 891,
+            "end": 920
+          }
+        ],
+        "optional": false,
+        "start": 824,
+        "end": 921
+      },
+      "start": 824,
+      "end": 922
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 923,
+            "end": 929
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 930,
+            "end": 939
+          },
+          "optional": false,
+          "computed": false,
+          "start": 923,
+          "end": 939
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "callee": {
+              "type": "Identifier",
+              "name": "getLocaleBaseName",
+              "start": 940,
+              "end": 957
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "value": "ru-Cyrl-BY-u-co-phonebk",
+                "raw": "'ru-Cyrl-BY-u-co-phonebk'",
+                "start": 958,
+                "end": 983
+              }
+            ],
+            "optional": false,
+            "start": 940,
+            "end": 984
+          },
+          {
+            "type": "Literal",
+            "value": "ru-Cyrl-BY",
+            "raw": "'ru-Cyrl-BY'",
+            "start": 986,
+            "end": 998
+          },
+          {
+            "type": "Literal",
+            "value": "language, script, region, extension",
+            "raw": "'language, script, region, extension'",
+            "start": 1000,
+            "end": 1037
+          }
+        ],
+        "optional": false,
+        "start": 923,
+        "end": 1038
+      },
+      "start": 923,
+      "end": 1039
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 1040
+}
