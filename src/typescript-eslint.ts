@@ -45,7 +45,7 @@ await run({
 
         // TS-ESLint parser has no `unambiguous` option, so emulate it here
         if (program.sourceType === "script") {
-          for (const { type } of program.body) {
+          for (const statement of program.body) {
             if (
               [
                 "ImportDeclaration",
@@ -54,7 +54,10 @@ await run({
                 "ExportNamedDeclaration",
                 "TSExportAssignment",
                 "TSNamespaceExportDeclaration",
-              ].includes(type)
+              ].includes(statement.type) ||
+              // `import x = require("x")` is a module indicator in TypeScript
+              (statement.type === "TSImportEqualsDeclaration" &&
+                statement.moduleReference.type === "TSExternalModuleReference")
             ) {
               program.sourceType = "module";
               break;

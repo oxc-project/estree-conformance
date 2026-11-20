@@ -3213,7 +3213,7 @@ __ESTREE_TEST__:AST:
       "end": 360
     }
   ],
-  "sourceType": "script",
+  "sourceType": "module",
   "hashbang": null,
   "start": 0,
   "end": 380
