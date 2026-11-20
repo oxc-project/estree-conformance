@@ -251,6 +251,7 @@ __ESTREE_TEST__:AST:
         }
       ],
       "source": null,
+      "phase": null,
       "exportKind": "type",
       "attributes": [],
       "start": 25,

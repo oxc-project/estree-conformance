@@ -110,6 +110,7 @@ __ESTREE_TEST__:AST:
       },
       "specifiers": [],
       "source": null,
+      "phase": null,
       "exportKind": "value",
       "attributes": [],
       "start": 371,
@@ -199,6 +200,7 @@ __ESTREE_TEST__:AST:
       },
       "specifiers": [],
       "source": null,
+      "phase": null,
       "exportKind": "value",
       "attributes": [],
       "start": 404,
@@ -413,6 +415,7 @@ __ESTREE_TEST__:AST:
         "start": 21,
         "end": 39
       },
+      "phase": null,
       "attributes": [],
       "exportKind": "value",
       "start": 0,

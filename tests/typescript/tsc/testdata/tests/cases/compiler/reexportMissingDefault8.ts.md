@@ -155,6 +155,7 @@ __ESTREE_TEST__:AST:
         "start": 24,
         "end": 29
       },
+      "phase": null,
       "exportKind": "value",
       "attributes": [],
       "start": 0,
