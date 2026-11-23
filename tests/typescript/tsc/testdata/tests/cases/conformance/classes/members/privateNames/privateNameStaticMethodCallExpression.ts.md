@@ -1091,14 +1091,470 @@ __ESTREE_TEST__:AST:
                     "declare": false,
                     "start": 570,
                     "end": 630
+                  },
+                  {
+                    "type": "ExpressionStatement",
+                    "expression": {
+                      "type": "CallExpression",
+                      "callee": {
+                        "type": "MemberExpression",
+                        "object": {
+                          "type": "Identifier",
+                          "decorators": [],
+                          "name": "AA",
+                          "optional": false,
+                          "typeAnnotation": null,
+                          "start": 641,
+                          "end": 643
+                        },
+                        "property": {
+                          "type": "PrivateIdentifier",
+                          "name": "method",
+                          "start": 644,
+                          "end": 651
+                        },
+                        "optional": false,
+                        "computed": false,
+                        "start": 641,
+                        "end": 651
+                      },
+                      "typeArguments": null,
+                      "arguments": [],
+                      "optional": false,
+                      "start": 640,
+                      "end": 654
+                    },
+                    "directive": null,
+                    "start": 640,
+                    "end": 655
+                  },
+                  {
+                    "type": "ExpressionStatement",
+                    "expression": {
+                      "type": "CallExpression",
+                      "callee": {
+                        "type": "TSNonNullExpression",
+                        "expression": {
+                          "type": "MemberExpression",
+                          "object": {
+                            "type": "Identifier",
+                            "decorators": [],
+                            "name": "AA",
+                            "optional": false,
+                            "typeAnnotation": null,
+                            "start": 664,
+                            "end": 666
+                          },
+                          "property": {
+                            "type": "PrivateIdentifier",
+                            "name": "method",
+                            "start": 667,
+                            "end": 674
+                          },
+                          "optional": false,
+                          "computed": false,
+                          "start": 664,
+                          "end": 674
+                        },
+                        "start": 664,
+                        "end": 675
+                      },
+                      "typeArguments": null,
+                      "arguments": [],
+                      "optional": false,
+                      "start": 664,
+                      "end": 677
+                    },
+                    "directive": null,
+                    "start": 664,
+                    "end": 678
+                  },
+                  {
+                    "type": "ExpressionStatement",
+                    "expression": {
+                      "type": "CallExpression",
+                      "callee": {
+                        "type": "TSAsExpression",
+                        "expression": {
+                          "type": "MemberExpression",
+                          "object": {
+                            "type": "Identifier",
+                            "decorators": [],
+                            "name": "AA",
+                            "optional": false,
+                            "typeAnnotation": null,
+                            "start": 688,
+                            "end": 690
+                          },
+                          "property": {
+                            "type": "PrivateIdentifier",
+                            "name": "method",
+                            "start": 691,
+                            "end": 698
+                          },
+                          "optional": false,
+                          "computed": false,
+                          "start": 688,
+                          "end": 698
+                        },
+                        "typeAnnotation": {
+                          "type": "TSFunctionType",
+                          "typeParameters": null,
+                          "params": [],
+                          "returnType": {
+                            "type": "TSTypeAnnotation",
+                            "typeAnnotation": {
+                              "type": "TSVoidKeyword",
+                              "start": 708,
+                              "end": 712
+                            },
+                            "start": 705,
+                            "end": 712
+                          },
+                          "start": 702,
+                          "end": 712
+                        },
+                        "start": 688,
+                        "end": 712
+                      },
+                      "typeArguments": null,
+                      "arguments": [],
+                      "optional": false,
+                      "start": 687,
+                      "end": 715
+                    },
+                    "directive": null,
+                    "start": 687,
+                    "end": 716
+                  },
+                  {
+                    "type": "ExpressionStatement",
+                    "expression": {
+                      "type": "CallExpression",
+                      "callee": {
+                        "type": "TSSatisfiesExpression",
+                        "expression": {
+                          "type": "MemberExpression",
+                          "object": {
+                            "type": "Identifier",
+                            "decorators": [],
+                            "name": "AA",
+                            "optional": false,
+                            "typeAnnotation": null,
+                            "start": 726,
+                            "end": 728
+                          },
+                          "property": {
+                            "type": "PrivateIdentifier",
+                            "name": "method",
+                            "start": 729,
+                            "end": 736
+                          },
+                          "optional": false,
+                          "computed": false,
+                          "start": 726,
+                          "end": 736
+                        },
+                        "typeAnnotation": {
+                          "type": "TSFunctionType",
+                          "typeParameters": null,
+                          "params": [],
+                          "returnType": {
+                            "type": "TSTypeAnnotation",
+                            "typeAnnotation": {
+                              "type": "TSVoidKeyword",
+                              "start": 753,
+                              "end": 757
+                            },
+                            "start": 750,
+                            "end": 757
+                          },
+                          "start": 747,
+                          "end": 757
+                        },
+                        "start": 726,
+                        "end": 757
+                      },
+                      "typeArguments": null,
+                      "arguments": [],
+                      "optional": false,
+                      "start": 725,
+                      "end": 760
+                    },
+                    "directive": null,
+                    "start": 725,
+                    "end": 761
+                  },
+                  {
+                    "type": "ExpressionStatement",
+                    "expression": {
+                      "type": "ChainExpression",
+                      "expression": {
+                        "type": "CallExpression",
+                        "callee": {
+                          "type": "MemberExpression",
+                          "object": {
+                            "type": "Identifier",
+                            "decorators": [],
+                            "name": "AA",
+                            "optional": false,
+                            "typeAnnotation": null,
+                            "start": 771,
+                            "end": 773
+                          },
+                          "property": {
+                            "type": "PrivateIdentifier",
+                            "name": "method",
+                            "start": 774,
+                            "end": 781
+                          },
+                          "optional": false,
+                          "computed": false,
+                          "start": 771,
+                          "end": 781
+                        },
+                        "typeArguments": null,
+                        "arguments": [],
+                        "optional": true,
+                        "start": 770,
+                        "end": 786
+                      },
+                      "start": 770,
+                      "end": 786
+                    },
+                    "directive": null,
+                    "start": 770,
+                    "end": 787
+                  },
+                  {
+                    "type": "ExpressionStatement",
+                    "expression": {
+                      "type": "ChainExpression",
+                      "expression": {
+                        "type": "CallExpression",
+                        "callee": {
+                          "type": "TSNonNullExpression",
+                          "expression": {
+                            "type": "MemberExpression",
+                            "object": {
+                              "type": "Identifier",
+                              "decorators": [],
+                              "name": "AA",
+                              "optional": false,
+                              "typeAnnotation": null,
+                              "start": 796,
+                              "end": 798
+                            },
+                            "property": {
+                              "type": "PrivateIdentifier",
+                              "name": "method",
+                              "start": 799,
+                              "end": 806
+                            },
+                            "optional": false,
+                            "computed": false,
+                            "start": 796,
+                            "end": 806
+                          },
+                          "start": 796,
+                          "end": 807
+                        },
+                        "typeArguments": null,
+                        "arguments": [],
+                        "optional": true,
+                        "start": 796,
+                        "end": 811
+                      },
+                      "start": 796,
+                      "end": 811
+                    },
+                    "directive": null,
+                    "start": 796,
+                    "end": 812
+                  },
+                  {
+                    "type": "ExpressionStatement",
+                    "expression": {
+                      "type": "CallExpression",
+                      "callee": {
+                        "type": "MemberExpression",
+                        "object": {
+                          "type": "CallExpression",
+                          "callee": {
+                            "type": "MemberExpression",
+                            "object": {
+                              "type": "Identifier",
+                              "decorators": [],
+                              "name": "AA",
+                              "optional": false,
+                              "typeAnnotation": null,
+                              "start": 822,
+                              "end": 824
+                            },
+                            "property": {
+                              "type": "Identifier",
+                              "decorators": [],
+                              "name": "getClass",
+                              "optional": false,
+                              "typeAnnotation": null,
+                              "start": 825,
+                              "end": 833
+                            },
+                            "optional": false,
+                            "computed": false,
+                            "start": 822,
+                            "end": 833
+                          },
+                          "typeArguments": null,
+                          "arguments": [],
+                          "optional": false,
+                          "start": 822,
+                          "end": 835
+                        },
+                        "property": {
+                          "type": "PrivateIdentifier",
+                          "name": "method2",
+                          "start": 836,
+                          "end": 844
+                        },
+                        "optional": false,
+                        "computed": false,
+                        "start": 822,
+                        "end": 844
+                      },
+                      "typeArguments": null,
+                      "arguments": [
+                        {
+                          "type": "Literal",
+                          "value": 0,
+                          "raw": "0",
+                          "start": 846,
+                          "end": 847
+                        },
+                        {
+                          "type": "SpreadElement",
+                          "argument": {
+                            "type": "Identifier",
+                            "decorators": [],
+                            "name": "arr",
+                            "optional": false,
+                            "typeAnnotation": null,
+                            "start": 852,
+                            "end": 855
+                          },
+                          "start": 849,
+                          "end": 855
+                        },
+                        {
+                          "type": "Literal",
+                          "value": 3,
+                          "raw": "3",
+                          "start": 857,
+                          "end": 858
+                        }
+                      ],
+                      "optional": false,
+                      "start": 821,
+                      "end": 859
+                    },
+                    "directive": null,
+                    "start": 821,
+                    "end": 860
+                  },
+                  {
+                    "type": "ExpressionStatement",
+                    "expression": {
+                      "type": "TaggedTemplateExpression",
+                      "tag": {
+                        "type": "MemberExpression",
+                        "object": {
+                          "type": "Identifier",
+                          "decorators": [],
+                          "name": "AA",
+                          "optional": false,
+                          "typeAnnotation": null,
+                          "start": 870,
+                          "end": 872
+                        },
+                        "property": {
+                          "type": "PrivateIdentifier",
+                          "name": "method2",
+                          "start": 873,
+                          "end": 881
+                        },
+                        "optional": false,
+                        "computed": false,
+                        "start": 870,
+                        "end": 881
+                      },
+                      "typeArguments": null,
+                      "quasi": {
+                        "type": "TemplateLiteral",
+                        "quasis": [
+                          {
+                            "type": "TemplateElement",
+                            "value": {
+                              "raw": "test",
+                              "cooked": "test"
+                            },
+                            "tail": false,
+                            "start": 882,
+                            "end": 889
+                          },
+                          {
+                            "type": "TemplateElement",
+                            "value": {
+                              "raw": "and",
+                              "cooked": "and"
+                            },
+                            "tail": false,
+                            "start": 890,
+                            "end": 896
+                          },
+                          {
+                            "type": "TemplateElement",
+                            "value": {
+                              "raw": "",
+                              "cooked": ""
+                            },
+                            "tail": true,
+                            "start": 897,
+                            "end": 899
+                          }
+                        ],
+                        "expressions": [
+                          {
+                            "type": "Literal",
+                            "value": 1,
+                            "raw": "1",
+                            "start": 889,
+                            "end": 890
+                          },
+                          {
+                            "type": "Literal",
+                            "value": 2,
+                            "raw": "2",
+                            "start": 896,
+                            "end": 897
+                          }
+                        ],
+                        "start": 882,
+                        "end": 899
+                      },
+                      "start": 869,
+                      "end": 899
+                    },
+                    "directive": null,
+                    "start": 869,
+                    "end": 900
                   }
                 ],
                 "start": 112,
-                "end": 636
+                "end": 906
               },
               "expression": false,
               "start": 109,
-              "end": 636
+              "end": 906
             },
             "kind": "method",
             "computed": false,
@@ -1107,7 +1563,7 @@ __ESTREE_TEST__:AST:
             "optional": false,
             "accessibility": null,
             "start": 105,
-            "end": 636
+            "end": 906
           },
           {
             "type": "MethodDefinition",
@@ -1118,8 +1574,8 @@ __ESTREE_TEST__:AST:
               "name": "getClass",
               "optional": false,
               "typeAnnotation": null,
-              "start": 648,
-              "end": 656
+              "start": 918,
+              "end": 926
             },
             "value": {
               "type": "FunctionExpression",
@@ -1141,19 +1597,19 @@ __ESTREE_TEST__:AST:
                       "name": "AA",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 668,
-                      "end": 670
+                      "start": 938,
+                      "end": 940
                     },
-                    "start": 661,
-                    "end": 671
+                    "start": 931,
+                    "end": 941
                   }
                 ],
-                "start": 659,
-                "end": 673
+                "start": 929,
+                "end": 943
               },
               "expression": false,
-              "start": 656,
-              "end": 673
+              "start": 926,
+              "end": 943
             },
             "kind": "method",
             "computed": false,
@@ -1161,23 +1617,23 @@ __ESTREE_TEST__:AST:
             "override": false,
             "optional": false,
             "accessibility": null,
-            "start": 641,
-            "end": 673
+            "start": 911,
+            "end": 943
           }
         ],
         "start": 9,
-        "end": 675
+        "end": 945
       },
       "abstract": false,
       "declare": false,
       "start": 0,
-      "end": 675
+      "end": 945
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 675
+  "end": 945
 }
 ```
 __ESTREE_TEST__:TOKENS:
@@ -2241,69 +2697,591 @@ __ESTREE_TEST__:TOKENS:
   },
   {
     "type": "Punctuator",
-    "value": "}",
-    "start": 635,
-    "end": 636
-  },
-  {
-    "type": "Keyword",
-    "value": "static",
-    "start": 641,
-    "end": 647
-  },
-  {
-    "type": "Identifier",
-    "value": "getClass",
-    "start": 648,
-    "end": 656
-  },
-  {
-    "type": "Punctuator",
     "value": "(",
-    "start": 656,
-    "end": 657
-  },
-  {
-    "type": "Punctuator",
-    "value": ")",
-    "start": 657,
-    "end": 658
-  },
-  {
-    "type": "Punctuator",
-    "value": "{",
-    "start": 659,
-    "end": 660
-  },
-  {
-    "type": "Keyword",
-    "value": "return",
-    "start": 661,
-    "end": 667
+    "start": 640,
+    "end": 641
   },
   {
     "type": "Identifier",
     "value": "AA",
-    "start": 668,
-    "end": 670
+    "start": 641,
+    "end": 643
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 643,
+    "end": 644
+  },
+  {
+    "type": "PrivateIdentifier",
+    "value": "method",
+    "start": 644,
+    "end": 651
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 651,
+    "end": 652
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 652,
+    "end": 653
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 653,
+    "end": 654
   },
   {
     "type": "Punctuator",
     "value": ";",
-    "start": 670,
-    "end": 671
+    "start": 654,
+    "end": 655
+  },
+  {
+    "type": "Identifier",
+    "value": "AA",
+    "start": 664,
+    "end": 666
   },
   {
     "type": "Punctuator",
-    "value": "}",
-    "start": 672,
-    "end": 673
+    "value": ".",
+    "start": 666,
+    "end": 667
+  },
+  {
+    "type": "PrivateIdentifier",
+    "value": "method",
+    "start": 667,
+    "end": 674
   },
   {
     "type": "Punctuator",
-    "value": "}",
+    "value": "!",
     "start": 674,
     "end": 675
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 675,
+    "end": 676
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 676,
+    "end": 677
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 677,
+    "end": 678
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 687,
+    "end": 688
+  },
+  {
+    "type": "Identifier",
+    "value": "AA",
+    "start": 688,
+    "end": 690
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 690,
+    "end": 691
+  },
+  {
+    "type": "PrivateIdentifier",
+    "value": "method",
+    "start": 691,
+    "end": 698
+  },
+  {
+    "type": "Identifier",
+    "value": "as",
+    "start": 699,
+    "end": 701
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 702,
+    "end": 703
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 703,
+    "end": 704
+  },
+  {
+    "type": "Punctuator",
+    "value": "=>",
+    "start": 705,
+    "end": 707
+  },
+  {
+    "type": "Keyword",
+    "value": "void",
+    "start": 708,
+    "end": 712
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 712,
+    "end": 713
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 713,
+    "end": 714
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 714,
+    "end": 715
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 715,
+    "end": 716
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 725,
+    "end": 726
+  },
+  {
+    "type": "Identifier",
+    "value": "AA",
+    "start": 726,
+    "end": 728
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 728,
+    "end": 729
+  },
+  {
+    "type": "PrivateIdentifier",
+    "value": "method",
+    "start": 729,
+    "end": 736
+  },
+  {
+    "type": "Identifier",
+    "value": "satisfies",
+    "start": 737,
+    "end": 746
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 747,
+    "end": 748
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 748,
+    "end": 749
+  },
+  {
+    "type": "Punctuator",
+    "value": "=>",
+    "start": 750,
+    "end": 752
+  },
+  {
+    "type": "Keyword",
+    "value": "void",
+    "start": 753,
+    "end": 757
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 757,
+    "end": 758
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 758,
+    "end": 759
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 759,
+    "end": 760
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 760,
+    "end": 761
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 770,
+    "end": 771
+  },
+  {
+    "type": "Identifier",
+    "value": "AA",
+    "start": 771,
+    "end": 773
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 773,
+    "end": 774
+  },
+  {
+    "type": "PrivateIdentifier",
+    "value": "method",
+    "start": 774,
+    "end": 781
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 781,
+    "end": 782
+  },
+  {
+    "type": "Punctuator",
+    "value": "?.",
+    "start": 782,
+    "end": 784
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 784,
+    "end": 785
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 785,
+    "end": 786
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 786,
+    "end": 787
+  },
+  {
+    "type": "Identifier",
+    "value": "AA",
+    "start": 796,
+    "end": 798
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 798,
+    "end": 799
+  },
+  {
+    "type": "PrivateIdentifier",
+    "value": "method",
+    "start": 799,
+    "end": 806
+  },
+  {
+    "type": "Punctuator",
+    "value": "!",
+    "start": 806,
+    "end": 807
+  },
+  {
+    "type": "Punctuator",
+    "value": "?.",
+    "start": 807,
+    "end": 809
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 809,
+    "end": 810
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 810,
+    "end": 811
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 811,
+    "end": 812
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 821,
+    "end": 822
+  },
+  {
+    "type": "Identifier",
+    "value": "AA",
+    "start": 822,
+    "end": 824
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 824,
+    "end": 825
+  },
+  {
+    "type": "Identifier",
+    "value": "getClass",
+    "start": 825,
+    "end": 833
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 833,
+    "end": 834
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 834,
+    "end": 835
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 835,
+    "end": 836
+  },
+  {
+    "type": "PrivateIdentifier",
+    "value": "method2",
+    "start": 836,
+    "end": 844
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 844,
+    "end": 845
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 845,
+    "end": 846
+  },
+  {
+    "type": "Numeric",
+    "value": "0",
+    "start": 846,
+    "end": 847
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 847,
+    "end": 848
+  },
+  {
+    "type": "Punctuator",
+    "value": "...",
+    "start": 849,
+    "end": 852
+  },
+  {
+    "type": "Identifier",
+    "value": "arr",
+    "start": 852,
+    "end": 855
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 855,
+    "end": 856
+  },
+  {
+    "type": "Numeric",
+    "value": "3",
+    "start": 857,
+    "end": 858
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 858,
+    "end": 859
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 859,
+    "end": 860
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 869,
+    "end": 870
+  },
+  {
+    "type": "Identifier",
+    "value": "AA",
+    "start": 870,
+    "end": 872
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 872,
+    "end": 873
+  },
+  {
+    "type": "PrivateIdentifier",
+    "value": "method2",
+    "start": 873,
+    "end": 881
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 881,
+    "end": 882
+  },
+  {
+    "type": "Template",
+    "value": "`test${",
+    "start": 882,
+    "end": 889
+  },
+  {
+    "type": "Numeric",
+    "value": "1",
+    "start": 889,
+    "end": 890
+  },
+  {
+    "type": "Template",
+    "value": "}and${",
+    "start": 890,
+    "end": 896
+  },
+  {
+    "type": "Numeric",
+    "value": "2",
+    "start": 896,
+    "end": 897
+  },
+  {
+    "type": "Template",
+    "value": "}`",
+    "start": 897,
+    "end": 899
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 899,
+    "end": 900
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 905,
+    "end": 906
+  },
+  {
+    "type": "Keyword",
+    "value": "static",
+    "start": 911,
+    "end": 917
+  },
+  {
+    "type": "Identifier",
+    "value": "getClass",
+    "start": 918,
+    "end": 926
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 926,
+    "end": 927
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 927,
+    "end": 928
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 929,
+    "end": 930
+  },
+  {
+    "type": "Keyword",
+    "value": "return",
+    "start": 931,
+    "end": 937
+  },
+  {
+    "type": "Identifier",
+    "value": "AA",
+    "start": 938,
+    "end": 940
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 940,
+    "end": 941
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 942,
+    "end": 943
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 944,
+    "end": 945
   }
 ]
 ```

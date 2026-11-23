@@ -1654,7 +1654,7 @@ __ESTREE_TEST__:AST:
   "sourceType": "module",
   "hashbang": null,
   "start": 0,
-  "end": 485
+  "end": 486
 }
 ```
 __ESTREE_TEST__:TOKENS:
@@ -2445,6 +2445,607 @@ __ESTREE_TEST__:TOKENS:
     "value": "}",
     "start": 484,
     "end": 485
+  }
+]
+```
+__ESTREE_TEST__:AST:
+```json
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "TSTypeAliasDeclaration",
+      "id": {
+        "type": "Identifier",
+        "decorators": [],
+        "name": "G",
+        "optional": false,
+        "typeAnnotation": null,
+        "start": 84,
+        "end": 85
+      },
+      "typeParameters": {
+        "type": "TSTypeParameterDeclaration",
+        "params": [
+          {
+            "type": "TSTypeParameter",
+            "name": {
+              "type": "Identifier",
+              "decorators": [],
+              "name": "T",
+              "optional": false,
+              "typeAnnotation": null,
+              "start": 86,
+              "end": 87
+            },
+            "constraint": null,
+            "default": null,
+            "in": false,
+            "out": false,
+            "const": false,
+            "start": 86,
+            "end": 87
+          }
+        ],
+        "start": 85,
+        "end": 88
+      },
+      "typeAnnotation": {
+        "type": "TSConditionalType",
+        "checkType": {
+          "type": "TSTypeReference",
+          "typeName": {
+            "type": "Identifier",
+            "decorators": [],
+            "name": "T",
+            "optional": false,
+            "typeAnnotation": null,
+            "start": 91,
+            "end": 92
+          },
+          "typeArguments": null,
+          "start": 91,
+          "end": 92
+        },
+        "extendsType": {
+          "type": "TSUnknownKeyword",
+          "start": 101,
+          "end": 108
+        },
+        "trueType": {
+          "type": "TSArrayType",
+          "elementType": {
+            "type": "TSUnionType",
+            "types": [
+              {
+                "type": "TSTypeReference",
+                "typeName": {
+                  "type": "Identifier",
+                  "decorators": [],
+                  "name": "T",
+                  "optional": false,
+                  "typeAnnotation": null,
+                  "start": 112,
+                  "end": 113
+                },
+                "typeArguments": null,
+                "start": 112,
+                "end": 113
+              },
+              {
+                "type": "TSTypeReference",
+                "typeName": {
+                  "type": "Identifier",
+                  "decorators": [],
+                  "name": "G",
+                  "optional": false,
+                  "typeAnnotation": null,
+                  "start": 116,
+                  "end": 117
+                },
+                "typeArguments": {
+                  "type": "TSTypeParameterInstantiation",
+                  "params": [
+                    {
+                      "type": "TSTupleType",
+                      "elementTypes": [
+                        {
+                          "type": "TSTypeReference",
+                          "typeName": {
+                            "type": "Identifier",
+                            "decorators": [],
+                            "name": "T",
+                            "optional": false,
+                            "typeAnnotation": null,
+                            "start": 119,
+                            "end": 120
+                          },
+                          "typeArguments": null,
+                          "start": 119,
+                          "end": 120
+                        }
+                      ],
+                      "start": 118,
+                      "end": 121
+                    }
+                  ],
+                  "start": 117,
+                  "end": 122
+                },
+                "start": 116,
+                "end": 122
+              }
+            ],
+            "start": 112,
+            "end": 122
+          },
+          "start": 111,
+          "end": 125
+        },
+        "falseType": {
+          "type": "TSNeverKeyword",
+          "start": 128,
+          "end": 133
+        },
+        "start": 91,
+        "end": 133
+      },
+      "declare": false,
+      "start": 79,
+      "end": 134
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "decorators": [],
+            "name": "g",
+            "optional": false,
+            "typeAnnotation": {
+              "type": "TSTypeAnnotation",
+              "typeAnnotation": {
+                "type": "TSTypeReference",
+                "typeName": {
+                  "type": "Identifier",
+                  "decorators": [],
+                  "name": "G",
+                  "optional": false,
+                  "typeAnnotation": null,
+                  "start": 152,
+                  "end": 153
+                },
+                "typeArguments": {
+                  "type": "TSTypeParameterInstantiation",
+                  "params": [
+                    {
+                      "type": "TSLiteralType",
+                      "literal": {
+                        "type": "Literal",
+                        "value": "x",
+                        "raw": "\"x\"",
+                        "start": 154,
+                        "end": 157
+                      },
+                      "start": 154,
+                      "end": 157
+                    }
+                  ],
+                  "start": 153,
+                  "end": 158
+                },
+                "start": 152,
+                "end": 158
+              },
+              "start": 150,
+              "end": 158
+            },
+            "start": 149,
+            "end": 158
+          },
+          "init": null,
+          "definite": false,
+          "start": 149,
+          "end": 158
+        }
+      ],
+      "declare": true,
+      "start": 135,
+      "end": 159
+    },
+    {
+      "type": "ExportNamedDeclaration",
+      "declaration": {
+        "type": "VariableDeclaration",
+        "kind": "const",
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "id": {
+              "type": "Identifier",
+              "decorators": [],
+              "name": "h",
+              "optional": false,
+              "typeAnnotation": null,
+              "start": 173,
+              "end": 174
+            },
+            "init": {
+              "type": "Identifier",
+              "decorators": [],
+              "name": "g",
+              "optional": false,
+              "typeAnnotation": null,
+              "start": 177,
+              "end": 178
+            },
+            "definite": false,
+            "start": 173,
+            "end": 178
+          }
+        ],
+        "declare": false,
+        "start": 167,
+        "end": 179
+      },
+      "specifiers": [],
+      "source": null,
+      "exportKind": "value",
+      "attributes": [],
+      "start": 160,
+      "end": 179
+    },
+    {
+      "type": "ExportNamedDeclaration",
+      "declaration": {
+        "type": "VariableDeclaration",
+        "kind": "const",
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "id": {
+              "type": "Identifier",
+              "decorators": [],
+              "name": "n",
+              "optional": false,
+              "typeAnnotation": {
+                "type": "TSTypeAnnotation",
+                "typeAnnotation": {
+                  "type": "TSNumberKeyword",
+                  "start": 196,
+                  "end": 202
+                },
+                "start": 194,
+                "end": 202
+              },
+              "start": 193,
+              "end": 202
+            },
+            "init": {
+              "type": "Identifier",
+              "decorators": [],
+              "name": "g",
+              "optional": false,
+              "typeAnnotation": null,
+              "start": 205,
+              "end": 206
+            },
+            "definite": false,
+            "start": 193,
+            "end": 206
+          }
+        ],
+        "declare": false,
+        "start": 187,
+        "end": 207
+      },
+      "specifiers": [],
+      "source": null,
+      "exportKind": "value",
+      "attributes": [],
+      "start": 180,
+      "end": 207
+    }
+  ],
+  "sourceType": "module",
+  "hashbang": null,
+  "start": 0,
+  "end": 207
+}
+```
+__ESTREE_TEST__:TOKENS:
+```json
+[
+  {
+    "type": "Identifier",
+    "value": "type",
+    "start": 79,
+    "end": 83
+  },
+  {
+    "type": "Identifier",
+    "value": "G",
+    "start": 84,
+    "end": 85
+  },
+  {
+    "type": "Punctuator",
+    "value": "<",
+    "start": 85,
+    "end": 86
+  },
+  {
+    "type": "Identifier",
+    "value": "T",
+    "start": 86,
+    "end": 87
+  },
+  {
+    "type": "Punctuator",
+    "value": ">",
+    "start": 87,
+    "end": 88
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 89,
+    "end": 90
+  },
+  {
+    "type": "Identifier",
+    "value": "T",
+    "start": 91,
+    "end": 92
+  },
+  {
+    "type": "Keyword",
+    "value": "extends",
+    "start": 93,
+    "end": 100
+  },
+  {
+    "type": "Identifier",
+    "value": "unknown",
+    "start": 101,
+    "end": 108
+  },
+  {
+    "type": "Punctuator",
+    "value": "?",
+    "start": 109,
+    "end": 110
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 111,
+    "end": 112
+  },
+  {
+    "type": "Identifier",
+    "value": "T",
+    "start": 112,
+    "end": 113
+  },
+  {
+    "type": "Punctuator",
+    "value": "|",
+    "start": 114,
+    "end": 115
+  },
+  {
+    "type": "Identifier",
+    "value": "G",
+    "start": 116,
+    "end": 117
+  },
+  {
+    "type": "Punctuator",
+    "value": "<",
+    "start": 117,
+    "end": 118
+  },
+  {
+    "type": "Punctuator",
+    "value": "[",
+    "start": 118,
+    "end": 119
+  },
+  {
+    "type": "Identifier",
+    "value": "T",
+    "start": 119,
+    "end": 120
+  },
+  {
+    "type": "Punctuator",
+    "value": "]",
+    "start": 120,
+    "end": 121
+  },
+  {
+    "type": "Punctuator",
+    "value": ">",
+    "start": 121,
+    "end": 122
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 122,
+    "end": 123
+  },
+  {
+    "type": "Punctuator",
+    "value": "[",
+    "start": 123,
+    "end": 124
+  },
+  {
+    "type": "Punctuator",
+    "value": "]",
+    "start": 124,
+    "end": 125
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 126,
+    "end": 127
+  },
+  {
+    "type": "Identifier",
+    "value": "never",
+    "start": 128,
+    "end": 133
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 133,
+    "end": 134
+  },
+  {
+    "type": "Identifier",
+    "value": "declare",
+    "start": 135,
+    "end": 142
+  },
+  {
+    "type": "Keyword",
+    "value": "const",
+    "start": 143,
+    "end": 148
+  },
+  {
+    "type": "Identifier",
+    "value": "g",
+    "start": 149,
+    "end": 150
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 150,
+    "end": 151
+  },
+  {
+    "type": "Identifier",
+    "value": "G",
+    "start": 152,
+    "end": 153
+  },
+  {
+    "type": "Punctuator",
+    "value": "<",
+    "start": 153,
+    "end": 154
+  },
+  {
+    "type": "String",
+    "value": "\"x\"",
+    "start": 154,
+    "end": 157
+  },
+  {
+    "type": "Punctuator",
+    "value": ">",
+    "start": 157,
+    "end": 158
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 158,
+    "end": 159
+  },
+  {
+    "type": "Keyword",
+    "value": "export",
+    "start": 160,
+    "end": 166
+  },
+  {
+    "type": "Keyword",
+    "value": "const",
+    "start": 167,
+    "end": 172
+  },
+  {
+    "type": "Identifier",
+    "value": "h",
+    "start": 173,
+    "end": 174
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 175,
+    "end": 176
+  },
+  {
+    "type": "Identifier",
+    "value": "g",
+    "start": 177,
+    "end": 178
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 178,
+    "end": 179
+  },
+  {
+    "type": "Keyword",
+    "value": "export",
+    "start": 180,
+    "end": 186
+  },
+  {
+    "type": "Keyword",
+    "value": "const",
+    "start": 187,
+    "end": 192
+  },
+  {
+    "type": "Identifier",
+    "value": "n",
+    "start": 193,
+    "end": 194
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 194,
+    "end": 195
+  },
+  {
+    "type": "Identifier",
+    "value": "number",
+    "start": 196,
+    "end": 202
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 203,
+    "end": 204
+  },
+  {
+    "type": "Identifier",
+    "value": "g",
+    "start": 205,
+    "end": 206
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 206,
+    "end": 207
   }
 ]
 ```

@@ -998,30 +998,37 @@
             "end": 1590
           },
           {
+            "type": "Literal",
+            "value": null,
+            "raw": "null",
+            "start": 1592,
+            "end": 1596
+          },
+          {
             "type": "ArrayExpression",
             "elements": [
               {
                 "type": "Literal",
-                "value": "passthrough",
-                "raw": "\"passthrough\"",
-                "start": 1593,
-                "end": 1606
+                "value": "resizable",
+                "raw": "\"resizable\"",
+                "start": 1599,
+                "end": 1610
               }
             ],
-            "start": 1592,
-            "end": 1607
+            "start": 1598,
+            "end": 1611
           }
         ],
         "optional": false,
         "start": 634,
-        "end": 1608
+        "end": 1612
       },
       "start": 634,
-      "end": 1609
+      "end": 1613
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 1610
+  "end": 1614
 }

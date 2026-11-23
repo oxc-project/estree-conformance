@@ -313,30 +313,37 @@
             "end": 1805
           },
           {
+            "type": "Literal",
+            "value": null,
+            "raw": "null",
+            "start": 1807,
+            "end": 1811
+          },
+          {
             "type": "ArrayExpression",
             "elements": [
               {
                 "type": "Literal",
-                "value": "passthrough",
-                "raw": "\"passthrough\"",
-                "start": 1808,
-                "end": 1821
+                "value": "immutable",
+                "raw": "\"immutable\"",
+                "start": 1814,
+                "end": 1825
               }
             ],
-            "start": 1807,
-            "end": 1822
+            "start": 1813,
+            "end": 1826
           }
         ],
         "optional": false,
         "start": 1593,
-        "end": 1823
+        "end": 1827
       },
       "start": 1593,
-      "end": 1824
+      "end": 1828
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 1825
+  "end": 1829
 }

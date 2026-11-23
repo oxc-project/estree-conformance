@@ -275,18 +275,11 @@
             "end": 625
           },
           {
-            "type": "ArrayExpression",
-            "elements": [
-              {
-                "type": "Literal",
-                "value": "arraybuffer",
-                "raw": "\"arraybuffer\"",
-                "start": 628,
-                "end": 641
-              }
-            ],
+            "type": "Literal",
+            "value": null,
+            "raw": "null",
             "start": 627,
-            "end": 642
+            "end": 631
           },
           {
             "type": "ArrayExpression",
@@ -295,24 +288,24 @@
                 "type": "Literal",
                 "value": "immutable",
                 "raw": "\"immutable\"",
-                "start": 645,
-                "end": 656
+                "start": 634,
+                "end": 645
               }
             ],
-            "start": 644,
-            "end": 657
+            "start": 633,
+            "end": 646
           }
         ],
         "optional": false,
         "start": 339,
-        "end": 658
+        "end": 647
       },
       "start": 339,
-      "end": 659
+      "end": 648
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 660
+  "end": 649
 }

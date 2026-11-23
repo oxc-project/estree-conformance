@@ -352,30 +352,37 @@
             "end": 1067
           },
           {
+            "type": "Literal",
+            "value": null,
+            "raw": "null",
+            "start": 1069,
+            "end": 1073
+          },
+          {
             "type": "ArrayExpression",
             "elements": [
               {
                 "type": "Literal",
-                "value": "passthrough",
-                "raw": "\"passthrough\"",
-                "start": 1070,
-                "end": 1083
+                "value": "immutable",
+                "raw": "\"immutable\"",
+                "start": 1076,
+                "end": 1087
               }
             ],
-            "start": 1069,
-            "end": 1084
+            "start": 1075,
+            "end": 1088
           }
         ],
         "optional": false,
         "start": 692,
-        "end": 1085
+        "end": 1089
       },
       "start": 692,
-      "end": 1086
+      "end": 1090
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 1087
+  "end": 1091
 }

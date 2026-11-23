@@ -517,30 +517,37 @@
             "end": 1231
           },
           {
+            "type": "Literal",
+            "value": null,
+            "raw": "null",
+            "start": 1233,
+            "end": 1237
+          },
+          {
             "type": "ArrayExpression",
             "elements": [
               {
                 "type": "Literal",
-                "value": "passthrough",
-                "raw": "\"passthrough\"",
-                "start": 1234,
-                "end": 1247
+                "value": "immutable",
+                "raw": "\"immutable\"",
+                "start": 1240,
+                "end": 1251
               }
             ],
-            "start": 1233,
-            "end": 1248
+            "start": 1239,
+            "end": 1252
           }
         ],
         "optional": false,
         "start": 705,
-        "end": 1249
+        "end": 1253
       },
       "start": 705,
-      "end": 1250
+      "end": 1254
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 1251
+  "end": 1255
 }
