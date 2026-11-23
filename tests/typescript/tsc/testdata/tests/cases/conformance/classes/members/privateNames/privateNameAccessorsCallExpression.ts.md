@@ -789,14 +789,409 @@ __ESTREE_TEST__:AST:
                     "directive": null,
                     "start": 458,
                     "end": 506
+                  },
+                  {
+                    "type": "ExpressionStatement",
+                    "expression": {
+                      "type": "CallExpression",
+                      "callee": {
+                        "type": "MemberExpression",
+                        "object": {
+                          "type": "ThisExpression",
+                          "start": 517,
+                          "end": 521
+                        },
+                        "property": {
+                          "type": "PrivateIdentifier",
+                          "name": "fieldFunc",
+                          "start": 522,
+                          "end": 532
+                        },
+                        "optional": false,
+                        "computed": false,
+                        "start": 517,
+                        "end": 532
+                      },
+                      "typeArguments": null,
+                      "arguments": [],
+                      "optional": false,
+                      "start": 516,
+                      "end": 535
+                    },
+                    "directive": null,
+                    "start": 516,
+                    "end": 536
+                  },
+                  {
+                    "type": "ExpressionStatement",
+                    "expression": {
+                      "type": "CallExpression",
+                      "callee": {
+                        "type": "TSNonNullExpression",
+                        "expression": {
+                          "type": "MemberExpression",
+                          "object": {
+                            "type": "ThisExpression",
+                            "start": 545,
+                            "end": 549
+                          },
+                          "property": {
+                            "type": "PrivateIdentifier",
+                            "name": "fieldFunc",
+                            "start": 550,
+                            "end": 560
+                          },
+                          "optional": false,
+                          "computed": false,
+                          "start": 545,
+                          "end": 560
+                        },
+                        "start": 545,
+                        "end": 561
+                      },
+                      "typeArguments": null,
+                      "arguments": [],
+                      "optional": false,
+                      "start": 545,
+                      "end": 563
+                    },
+                    "directive": null,
+                    "start": 545,
+                    "end": 564
+                  },
+                  {
+                    "type": "ExpressionStatement",
+                    "expression": {
+                      "type": "CallExpression",
+                      "callee": {
+                        "type": "TSAsExpression",
+                        "expression": {
+                          "type": "MemberExpression",
+                          "object": {
+                            "type": "ThisExpression",
+                            "start": 574,
+                            "end": 578
+                          },
+                          "property": {
+                            "type": "PrivateIdentifier",
+                            "name": "fieldFunc",
+                            "start": 579,
+                            "end": 589
+                          },
+                          "optional": false,
+                          "computed": false,
+                          "start": 574,
+                          "end": 589
+                        },
+                        "typeAnnotation": {
+                          "type": "TSFunctionType",
+                          "typeParameters": null,
+                          "params": [],
+                          "returnType": {
+                            "type": "TSTypeAnnotation",
+                            "typeAnnotation": {
+                              "type": "TSVoidKeyword",
+                              "start": 599,
+                              "end": 603
+                            },
+                            "start": 596,
+                            "end": 603
+                          },
+                          "start": 593,
+                          "end": 603
+                        },
+                        "start": 574,
+                        "end": 603
+                      },
+                      "typeArguments": null,
+                      "arguments": [],
+                      "optional": false,
+                      "start": 573,
+                      "end": 606
+                    },
+                    "directive": null,
+                    "start": 573,
+                    "end": 607
+                  },
+                  {
+                    "type": "ExpressionStatement",
+                    "expression": {
+                      "type": "CallExpression",
+                      "callee": {
+                        "type": "TSSatisfiesExpression",
+                        "expression": {
+                          "type": "MemberExpression",
+                          "object": {
+                            "type": "ThisExpression",
+                            "start": 617,
+                            "end": 621
+                          },
+                          "property": {
+                            "type": "PrivateIdentifier",
+                            "name": "fieldFunc",
+                            "start": 622,
+                            "end": 632
+                          },
+                          "optional": false,
+                          "computed": false,
+                          "start": 617,
+                          "end": 632
+                        },
+                        "typeAnnotation": {
+                          "type": "TSFunctionType",
+                          "typeParameters": null,
+                          "params": [],
+                          "returnType": {
+                            "type": "TSTypeAnnotation",
+                            "typeAnnotation": {
+                              "type": "TSVoidKeyword",
+                              "start": 649,
+                              "end": 653
+                            },
+                            "start": 646,
+                            "end": 653
+                          },
+                          "start": 643,
+                          "end": 653
+                        },
+                        "start": 617,
+                        "end": 653
+                      },
+                      "typeArguments": null,
+                      "arguments": [],
+                      "optional": false,
+                      "start": 616,
+                      "end": 656
+                    },
+                    "directive": null,
+                    "start": 616,
+                    "end": 657
+                  },
+                  {
+                    "type": "ExpressionStatement",
+                    "expression": {
+                      "type": "ChainExpression",
+                      "expression": {
+                        "type": "CallExpression",
+                        "callee": {
+                          "type": "MemberExpression",
+                          "object": {
+                            "type": "ThisExpression",
+                            "start": 667,
+                            "end": 671
+                          },
+                          "property": {
+                            "type": "PrivateIdentifier",
+                            "name": "fieldFunc",
+                            "start": 672,
+                            "end": 682
+                          },
+                          "optional": false,
+                          "computed": false,
+                          "start": 667,
+                          "end": 682
+                        },
+                        "typeArguments": null,
+                        "arguments": [],
+                        "optional": true,
+                        "start": 666,
+                        "end": 687
+                      },
+                      "start": 666,
+                      "end": 687
+                    },
+                    "directive": null,
+                    "start": 666,
+                    "end": 688
+                  },
+                  {
+                    "type": "ExpressionStatement",
+                    "expression": {
+                      "type": "ChainExpression",
+                      "expression": {
+                        "type": "CallExpression",
+                        "callee": {
+                          "type": "TSNonNullExpression",
+                          "expression": {
+                            "type": "MemberExpression",
+                            "object": {
+                              "type": "ThisExpression",
+                              "start": 697,
+                              "end": 701
+                            },
+                            "property": {
+                              "type": "PrivateIdentifier",
+                              "name": "fieldFunc",
+                              "start": 702,
+                              "end": 712
+                            },
+                            "optional": false,
+                            "computed": false,
+                            "start": 697,
+                            "end": 712
+                          },
+                          "start": 697,
+                          "end": 713
+                        },
+                        "typeArguments": null,
+                        "arguments": [],
+                        "optional": true,
+                        "start": 697,
+                        "end": 717
+                      },
+                      "start": 697,
+                      "end": 717
+                    },
+                    "directive": null,
+                    "start": 697,
+                    "end": 718
+                  },
+                  {
+                    "type": "ExpressionStatement",
+                    "expression": {
+                      "type": "CallExpression",
+                      "callee": {
+                        "type": "MemberExpression",
+                        "object": {
+                          "type": "CallExpression",
+                          "callee": {
+                            "type": "MemberExpression",
+                            "object": {
+                              "type": "ThisExpression",
+                              "start": 728,
+                              "end": 732
+                            },
+                            "property": {
+                              "type": "Identifier",
+                              "decorators": [],
+                              "name": "getInstance",
+                              "optional": false,
+                              "typeAnnotation": null,
+                              "start": 733,
+                              "end": 744
+                            },
+                            "optional": false,
+                            "computed": false,
+                            "start": 728,
+                            "end": 744
+                          },
+                          "typeArguments": null,
+                          "arguments": [],
+                          "optional": false,
+                          "start": 728,
+                          "end": 746
+                        },
+                        "property": {
+                          "type": "PrivateIdentifier",
+                          "name": "fieldFunc",
+                          "start": 747,
+                          "end": 757
+                        },
+                        "optional": false,
+                        "computed": false,
+                        "start": 728,
+                        "end": 757
+                      },
+                      "typeArguments": null,
+                      "arguments": [],
+                      "optional": false,
+                      "start": 727,
+                      "end": 760
+                    },
+                    "directive": null,
+                    "start": 727,
+                    "end": 761
+                  },
+                  {
+                    "type": "ExpressionStatement",
+                    "expression": {
+                      "type": "TaggedTemplateExpression",
+                      "tag": {
+                        "type": "MemberExpression",
+                        "object": {
+                          "type": "ThisExpression",
+                          "start": 771,
+                          "end": 775
+                        },
+                        "property": {
+                          "type": "PrivateIdentifier",
+                          "name": "fieldFunc2",
+                          "start": 776,
+                          "end": 787
+                        },
+                        "optional": false,
+                        "computed": false,
+                        "start": 771,
+                        "end": 787
+                      },
+                      "typeArguments": null,
+                      "quasi": {
+                        "type": "TemplateLiteral",
+                        "quasis": [
+                          {
+                            "type": "TemplateElement",
+                            "value": {
+                              "raw": "test",
+                              "cooked": "test"
+                            },
+                            "tail": false,
+                            "start": 788,
+                            "end": 795
+                          },
+                          {
+                            "type": "TemplateElement",
+                            "value": {
+                              "raw": "and",
+                              "cooked": "and"
+                            },
+                            "tail": false,
+                            "start": 796,
+                            "end": 802
+                          },
+                          {
+                            "type": "TemplateElement",
+                            "value": {
+                              "raw": "",
+                              "cooked": ""
+                            },
+                            "tail": true,
+                            "start": 803,
+                            "end": 805
+                          }
+                        ],
+                        "expressions": [
+                          {
+                            "type": "Literal",
+                            "value": 1,
+                            "raw": "1",
+                            "start": 795,
+                            "end": 796
+                          },
+                          {
+                            "type": "Literal",
+                            "value": 2,
+                            "raw": "2",
+                            "start": 802,
+                            "end": 803
+                          }
+                        ],
+                        "start": 788,
+                        "end": 805
+                      },
+                      "start": 770,
+                      "end": 805
+                    },
+                    "directive": null,
+                    "start": 770,
+                    "end": 806
                   }
                 ],
                 "start": 149,
-                "end": 512
+                "end": 812
               },
               "expression": false,
               "start": 146,
-              "end": 512
+              "end": 812
             },
             "kind": "method",
             "computed": false,
@@ -805,7 +1200,7 @@ __ESTREE_TEST__:AST:
             "optional": false,
             "accessibility": null,
             "start": 142,
-            "end": 512
+            "end": 812
           },
           {
             "type": "MethodDefinition",
@@ -816,8 +1211,8 @@ __ESTREE_TEST__:AST:
               "name": "getInstance",
               "optional": false,
               "typeAnnotation": null,
-              "start": 517,
-              "end": 528
+              "start": 817,
+              "end": 828
             },
             "value": {
               "type": "FunctionExpression",
@@ -841,24 +1236,24 @@ __ESTREE_TEST__:AST:
                         "name": "A",
                         "optional": false,
                         "typeAnnotation": null,
-                        "start": 544,
-                        "end": 545
+                        "start": 844,
+                        "end": 845
                       },
                       "typeArguments": null,
                       "arguments": [],
-                      "start": 540,
-                      "end": 547
+                      "start": 840,
+                      "end": 847
                     },
-                    "start": 533,
-                    "end": 548
+                    "start": 833,
+                    "end": 848
                   }
                 ],
-                "start": 531,
-                "end": 550
+                "start": 831,
+                "end": 850
               },
               "expression": false,
-              "start": 528,
-              "end": 550
+              "start": 828,
+              "end": 850
             },
             "kind": "method",
             "computed": false,
@@ -866,23 +1261,23 @@ __ESTREE_TEST__:AST:
             "override": false,
             "optional": false,
             "accessibility": null,
-            "start": 517,
-            "end": 550
+            "start": 817,
+            "end": 850
           }
         ],
         "start": 8,
-        "end": 552
+        "end": 852
       },
       "abstract": false,
       "declare": false,
       "start": 0,
-      "end": 552
+      "end": 852
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 552
+  "end": 852
 }
 ```
 __ESTREE_TEST__:TOKENS:
@@ -1682,81 +2077,567 @@ __ESTREE_TEST__:TOKENS:
   },
   {
     "type": "Punctuator",
-    "value": "}",
-    "start": 511,
-    "end": 512
-  },
-  {
-    "type": "Identifier",
-    "value": "getInstance",
-    "start": 517,
-    "end": 528
-  },
-  {
-    "type": "Punctuator",
     "value": "(",
-    "start": 528,
-    "end": 529
+    "start": 516,
+    "end": 517
+  },
+  {
+    "type": "Keyword",
+    "value": "this",
+    "start": 517,
+    "end": 521
   },
   {
     "type": "Punctuator",
-    "value": ")",
-    "start": 529,
-    "end": 530
+    "value": ".",
+    "start": 521,
+    "end": 522
   },
   {
-    "type": "Punctuator",
-    "value": "{",
-    "start": 531,
+    "type": "PrivateIdentifier",
+    "value": "fieldFunc",
+    "start": 522,
     "end": 532
   },
   {
-    "type": "Keyword",
-    "value": "return",
-    "start": 533,
-    "end": 539
-  },
-  {
-    "type": "Keyword",
-    "value": "new",
-    "start": 540,
-    "end": 543
-  },
-  {
-    "type": "Identifier",
-    "value": "A",
-    "start": 544,
-    "end": 545
+    "type": "Punctuator",
+    "value": ")",
+    "start": 532,
+    "end": 533
   },
   {
     "type": "Punctuator",
     "value": "(",
-    "start": 545,
-    "end": 546
+    "start": 533,
+    "end": 534
   },
   {
     "type": "Punctuator",
     "value": ")",
-    "start": 546,
-    "end": 547
+    "start": 534,
+    "end": 535
   },
   {
     "type": "Punctuator",
     "value": ";",
-    "start": 547,
-    "end": 548
+    "start": 535,
+    "end": 536
+  },
+  {
+    "type": "Keyword",
+    "value": "this",
+    "start": 545,
+    "end": 549
   },
   {
     "type": "Punctuator",
-    "value": "}",
+    "value": ".",
     "start": 549,
     "end": 550
   },
   {
+    "type": "PrivateIdentifier",
+    "value": "fieldFunc",
+    "start": 550,
+    "end": 560
+  },
+  {
+    "type": "Punctuator",
+    "value": "!",
+    "start": 560,
+    "end": 561
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 561,
+    "end": 562
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 562,
+    "end": 563
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 563,
+    "end": 564
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 573,
+    "end": 574
+  },
+  {
+    "type": "Keyword",
+    "value": "this",
+    "start": 574,
+    "end": 578
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 578,
+    "end": 579
+  },
+  {
+    "type": "PrivateIdentifier",
+    "value": "fieldFunc",
+    "start": 579,
+    "end": 589
+  },
+  {
+    "type": "Identifier",
+    "value": "as",
+    "start": 590,
+    "end": 592
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 593,
+    "end": 594
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 594,
+    "end": 595
+  },
+  {
+    "type": "Punctuator",
+    "value": "=>",
+    "start": 596,
+    "end": 598
+  },
+  {
+    "type": "Keyword",
+    "value": "void",
+    "start": 599,
+    "end": 603
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 603,
+    "end": 604
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 604,
+    "end": 605
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 605,
+    "end": 606
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 606,
+    "end": 607
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 616,
+    "end": 617
+  },
+  {
+    "type": "Keyword",
+    "value": "this",
+    "start": 617,
+    "end": 621
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 621,
+    "end": 622
+  },
+  {
+    "type": "PrivateIdentifier",
+    "value": "fieldFunc",
+    "start": 622,
+    "end": 632
+  },
+  {
+    "type": "Identifier",
+    "value": "satisfies",
+    "start": 633,
+    "end": 642
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 643,
+    "end": 644
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 644,
+    "end": 645
+  },
+  {
+    "type": "Punctuator",
+    "value": "=>",
+    "start": 646,
+    "end": 648
+  },
+  {
+    "type": "Keyword",
+    "value": "void",
+    "start": 649,
+    "end": 653
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 653,
+    "end": 654
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 654,
+    "end": 655
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 655,
+    "end": 656
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 656,
+    "end": 657
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 666,
+    "end": 667
+  },
+  {
+    "type": "Keyword",
+    "value": "this",
+    "start": 667,
+    "end": 671
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 671,
+    "end": 672
+  },
+  {
+    "type": "PrivateIdentifier",
+    "value": "fieldFunc",
+    "start": 672,
+    "end": 682
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 682,
+    "end": 683
+  },
+  {
+    "type": "Punctuator",
+    "value": "?.",
+    "start": 683,
+    "end": 685
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 685,
+    "end": 686
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 686,
+    "end": 687
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 687,
+    "end": 688
+  },
+  {
+    "type": "Keyword",
+    "value": "this",
+    "start": 697,
+    "end": 701
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 701,
+    "end": 702
+  },
+  {
+    "type": "PrivateIdentifier",
+    "value": "fieldFunc",
+    "start": 702,
+    "end": 712
+  },
+  {
+    "type": "Punctuator",
+    "value": "!",
+    "start": 712,
+    "end": 713
+  },
+  {
+    "type": "Punctuator",
+    "value": "?.",
+    "start": 713,
+    "end": 715
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 715,
+    "end": 716
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 716,
+    "end": 717
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 717,
+    "end": 718
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 727,
+    "end": 728
+  },
+  {
+    "type": "Keyword",
+    "value": "this",
+    "start": 728,
+    "end": 732
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 732,
+    "end": 733
+  },
+  {
+    "type": "Identifier",
+    "value": "getInstance",
+    "start": 733,
+    "end": 744
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 744,
+    "end": 745
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 745,
+    "end": 746
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 746,
+    "end": 747
+  },
+  {
+    "type": "PrivateIdentifier",
+    "value": "fieldFunc",
+    "start": 747,
+    "end": 757
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 757,
+    "end": 758
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 758,
+    "end": 759
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 759,
+    "end": 760
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 760,
+    "end": 761
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 770,
+    "end": 771
+  },
+  {
+    "type": "Keyword",
+    "value": "this",
+    "start": 771,
+    "end": 775
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 775,
+    "end": 776
+  },
+  {
+    "type": "PrivateIdentifier",
+    "value": "fieldFunc2",
+    "start": 776,
+    "end": 787
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 787,
+    "end": 788
+  },
+  {
+    "type": "Template",
+    "value": "`test${",
+    "start": 788,
+    "end": 795
+  },
+  {
+    "type": "Numeric",
+    "value": "1",
+    "start": 795,
+    "end": 796
+  },
+  {
+    "type": "Template",
+    "value": "}and${",
+    "start": 796,
+    "end": 802
+  },
+  {
+    "type": "Numeric",
+    "value": "2",
+    "start": 802,
+    "end": 803
+  },
+  {
+    "type": "Template",
+    "value": "}`",
+    "start": 803,
+    "end": 805
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 805,
+    "end": 806
+  },
+  {
     "type": "Punctuator",
     "value": "}",
-    "start": 551,
-    "end": 552
+    "start": 811,
+    "end": 812
+  },
+  {
+    "type": "Identifier",
+    "value": "getInstance",
+    "start": 817,
+    "end": 828
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 828,
+    "end": 829
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 829,
+    "end": 830
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 831,
+    "end": 832
+  },
+  {
+    "type": "Keyword",
+    "value": "return",
+    "start": 833,
+    "end": 839
+  },
+  {
+    "type": "Keyword",
+    "value": "new",
+    "start": 840,
+    "end": 843
+  },
+  {
+    "type": "Identifier",
+    "value": "A",
+    "start": 844,
+    "end": 845
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 845,
+    "end": 846
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 846,
+    "end": 847
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 847,
+    "end": 848
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 849,
+    "end": 850
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 851,
+    "end": 852
   }
 ]
 ```

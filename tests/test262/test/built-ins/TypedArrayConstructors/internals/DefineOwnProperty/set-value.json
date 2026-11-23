@@ -479,30 +479,37 @@
             "end": 1967
           },
           {
+            "type": "Literal",
+            "value": null,
+            "raw": "null",
+            "start": 1969,
+            "end": 1973
+          },
+          {
             "type": "ArrayExpression",
             "elements": [
               {
                 "type": "Literal",
-                "value": "passthrough",
-                "raw": "\"passthrough\"",
-                "start": 1970,
-                "end": 1983
+                "value": "immutable",
+                "raw": "\"immutable\"",
+                "start": 1976,
+                "end": 1987
               }
             ],
-            "start": 1969,
-            "end": 1984
+            "start": 1975,
+            "end": 1988
           }
         ],
         "optional": false,
         "start": 1498,
-        "end": 1985
+        "end": 1989
       },
       "start": 1498,
-      "end": 1986
+      "end": 1990
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 1987
+  "end": 1991
 }

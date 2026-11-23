@@ -10,8 +10,8 @@
           "id": {
             "type": "Identifier",
             "name": "max",
-            "start": 271,
-            "end": 274
+            "start": 302,
+            "end": 305
           },
           "init": {
             "type": "CallExpression",
@@ -22,50 +22,116 @@
                 "object": {
                   "type": "Identifier",
                   "name": "Temporal",
-                  "start": 277,
-                  "end": 285
+                  "start": 308,
+                  "end": 316
                 },
                 "property": {
                   "type": "Identifier",
                   "name": "PlainYearMonth",
-                  "start": 286,
-                  "end": 300
+                  "start": 317,
+                  "end": 331
                 },
                 "optional": false,
                 "computed": false,
-                "start": 277,
-                "end": 300
+                "start": 308,
+                "end": 331
               },
               "property": {
                 "type": "Identifier",
                 "name": "from",
-                "start": 301,
-                "end": 305
+                "start": 332,
+                "end": 336
               },
               "optional": false,
               "computed": false,
-              "start": 277,
-              "end": 305
+              "start": 308,
+              "end": 336
             },
             "arguments": [
               {
                 "type": "Literal",
                 "value": "+275760-09",
                 "raw": "\"+275760-09\"",
-                "start": 306,
-                "end": 318
+                "start": 337,
+                "end": 349
               }
             ],
             "optional": false,
-            "start": 277,
-            "end": 319
+            "start": 308,
+            "end": 350
           },
-          "start": 271,
-          "end": 319
+          "start": 302,
+          "end": 350
         }
       ],
-      "start": 265,
-      "end": 320
+      "start": 296,
+      "end": 351
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "monthBeforeMax",
+            "start": 358,
+            "end": 372
+          },
+          "init": {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "Temporal",
+                  "start": 375,
+                  "end": 383
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "PlainYearMonth",
+                  "start": 384,
+                  "end": 398
+                },
+                "optional": false,
+                "computed": false,
+                "start": 375,
+                "end": 398
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "from",
+                "start": 399,
+                "end": 403
+              },
+              "optional": false,
+              "computed": false,
+              "start": 375,
+              "end": 403
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "value": "+275760-08",
+                "raw": "\"+275760-08\"",
+                "start": 404,
+                "end": 416
+              }
+            ],
+            "optional": false,
+            "start": 375,
+            "end": 417
+          },
+          "start": 358,
+          "end": 417
+        }
+      ],
+      "start": 352,
+      "end": 418
     },
     {
       "type": "ForOfStatement",
@@ -79,16 +145,16 @@
             "id": {
               "type": "Identifier",
               "name": "overflow",
-              "start": 332,
-              "end": 340
+              "start": 430,
+              "end": 438
             },
             "init": null,
-            "start": 332,
-            "end": 340
+            "start": 430,
+            "end": 438
           }
         ],
-        "start": 326,
-        "end": 340
+        "start": 424,
+        "end": 438
       },
       "right": {
         "type": "ArrayExpression",
@@ -97,19 +163,19 @@
             "type": "Literal",
             "value": "reject",
             "raw": "\"reject\"",
-            "start": 345,
-            "end": 353
+            "start": 443,
+            "end": 451
           },
           {
             "type": "Literal",
             "value": "constrain",
             "raw": "\"constrain\"",
-            "start": 355,
-            "end": 366
+            "start": 453,
+            "end": 464
           }
         ],
-        "start": 344,
-        "end": 367
+        "start": 442,
+        "end": 465
       },
       "body": {
         "type": "BlockStatement",
@@ -123,26 +189,26 @@
                 "object": {
                   "type": "Identifier",
                   "name": "assert",
-                  "start": 373,
-                  "end": 379
+                  "start": 471,
+                  "end": 477
                 },
                 "property": {
                   "type": "Identifier",
                   "name": "throws",
-                  "start": 380,
-                  "end": 386
+                  "start": 478,
+                  "end": 484
                 },
                 "optional": false,
                 "computed": false,
-                "start": 373,
-                "end": 386
+                "start": 471,
+                "end": 484
               },
               "arguments": [
                 {
                   "type": "Identifier",
                   "name": "RangeError",
-                  "start": 387,
-                  "end": 397
+                  "start": 485,
+                  "end": 495
                 },
                 {
                   "type": "ArrowFunctionExpression",
@@ -156,19 +222,19 @@
                       "object": {
                         "type": "Identifier",
                         "name": "max",
-                        "start": 405,
-                        "end": 408
+                        "start": 503,
+                        "end": 506
                       },
                       "property": {
                         "type": "Identifier",
                         "name": "add",
-                        "start": 409,
-                        "end": 412
+                        "start": 507,
+                        "end": 510
                       },
                       "optional": false,
                       "computed": false,
-                      "start": 405,
-                      "end": 412
+                      "start": 503,
+                      "end": 510
                     },
                     "arguments": [
                       {
@@ -180,25 +246,25 @@
                             "key": {
                               "type": "Identifier",
                               "name": "months",
-                              "start": 415,
-                              "end": 421
+                              "start": 513,
+                              "end": 519
                             },
                             "value": {
                               "type": "Literal",
                               "value": 1,
                               "raw": "1",
-                              "start": 423,
-                              "end": 424
+                              "start": 521,
+                              "end": 522
                             },
                             "method": false,
                             "shorthand": false,
                             "computed": false,
-                            "start": 415,
-                            "end": 424
+                            "start": 513,
+                            "end": 522
                           }
                         ],
-                        "start": 413,
-                        "end": 426
+                        "start": 511,
+                        "end": 524
                       },
                       {
                         "type": "ObjectExpression",
@@ -209,59 +275,231 @@
                             "key": {
                               "type": "Identifier",
                               "name": "overflow",
-                              "start": 430,
-                              "end": 438
+                              "start": 528,
+                              "end": 536
                             },
                             "value": {
                               "type": "Identifier",
                               "name": "overflow",
-                              "start": 430,
-                              "end": 438
+                              "start": 528,
+                              "end": 536
                             },
                             "method": false,
                             "shorthand": true,
                             "computed": false,
-                            "start": 430,
-                            "end": 438
+                            "start": 528,
+                            "end": 536
                           }
                         ],
-                        "start": 428,
-                        "end": 440
+                        "start": 526,
+                        "end": 538
                       }
                     ],
                     "optional": false,
-                    "start": 405,
-                    "end": 441
+                    "start": 503,
+                    "end": 539
                   },
                   "id": null,
                   "generator": false,
-                  "start": 399,
-                  "end": 441
+                  "start": 497,
+                  "end": 539
                 },
                 {
                   "type": "Identifier",
                   "name": "overflow",
-                  "start": 443,
-                  "end": 451
+                  "start": 541,
+                  "end": 549
                 }
               ],
               "optional": false,
-              "start": 373,
-              "end": 452
+              "start": 471,
+              "end": 550
             },
-            "start": 373,
-            "end": 453
+            "start": 471,
+            "end": 551
+          },
+          {
+            "type": "ExpressionStatement",
+            "expression": {
+              "type": "CallExpression",
+              "callee": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "TemporalHelpers",
+                  "start": 554,
+                  "end": 569
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "assertPlainYearMonth",
+                  "start": 570,
+                  "end": 590
+                },
+                "optional": false,
+                "computed": false,
+                "start": 554,
+                "end": 590
+              },
+              "arguments": [
+                {
+                  "type": "CallExpression",
+                  "callee": {
+                    "type": "MemberExpression",
+                    "object": {
+                      "type": "Identifier",
+                      "name": "monthBeforeMax",
+                      "start": 591,
+                      "end": 605
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "name": "add",
+                      "start": 606,
+                      "end": 609
+                    },
+                    "optional": false,
+                    "computed": false,
+                    "start": 591,
+                    "end": 609
+                  },
+                  "arguments": [
+                    {
+                      "type": "ObjectExpression",
+                      "properties": [
+                        {
+                          "type": "Property",
+                          "kind": "init",
+                          "key": {
+                            "type": "Identifier",
+                            "name": "months",
+                            "start": 612,
+                            "end": 618
+                          },
+                          "value": {
+                            "type": "Literal",
+                            "value": 1,
+                            "raw": "1",
+                            "start": 620,
+                            "end": 621
+                          },
+                          "method": false,
+                          "shorthand": false,
+                          "computed": false,
+                          "start": 612,
+                          "end": 621
+                        }
+                      ],
+                      "start": 610,
+                      "end": 623
+                    },
+                    {
+                      "type": "ObjectExpression",
+                      "properties": [
+                        {
+                          "type": "Property",
+                          "kind": "init",
+                          "key": {
+                            "type": "Identifier",
+                            "name": "overflow",
+                            "start": 627,
+                            "end": 635
+                          },
+                          "value": {
+                            "type": "Identifier",
+                            "name": "overflow",
+                            "start": 627,
+                            "end": 635
+                          },
+                          "method": false,
+                          "shorthand": true,
+                          "computed": false,
+                          "start": 627,
+                          "end": 635
+                        }
+                      ],
+                      "start": 625,
+                      "end": 637
+                    }
+                  ],
+                  "optional": false,
+                  "start": 591,
+                  "end": 638
+                },
+                {
+                  "type": "Literal",
+                  "value": 275760,
+                  "raw": "275760",
+                  "start": 644,
+                  "end": 650
+                },
+                {
+                  "type": "Literal",
+                  "value": 9,
+                  "raw": "9",
+                  "start": 652,
+                  "end": 653
+                },
+                {
+                  "type": "Literal",
+                  "value": "M09",
+                  "raw": "\"M09\"",
+                  "start": 655,
+                  "end": 660
+                },
+                {
+                  "type": "TemplateLiteral",
+                  "quasis": [
+                    {
+                      "type": "TemplateElement",
+                      "value": {
+                        "raw": "reaching max with ",
+                        "cooked": "reaching max with "
+                      },
+                      "tail": false,
+                      "start": 663,
+                      "end": 681
+                    },
+                    {
+                      "type": "TemplateElement",
+                      "value": {
+                        "raw": "",
+                        "cooked": ""
+                      },
+                      "tail": true,
+                      "start": 692,
+                      "end": 692
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "name": "overflow",
+                      "start": 683,
+                      "end": 691
+                    }
+                  ],
+                  "start": 662,
+                  "end": 693
+                }
+              ],
+              "optional": false,
+              "start": 554,
+              "end": 694
+            },
+            "start": 554,
+            "end": 695
           }
         ],
-        "start": 369,
-        "end": 455
+        "start": 467,
+        "end": 697
       },
-      "start": 321,
-      "end": 455
+      "start": 419,
+      "end": 697
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 456
+  "end": 698
 }
